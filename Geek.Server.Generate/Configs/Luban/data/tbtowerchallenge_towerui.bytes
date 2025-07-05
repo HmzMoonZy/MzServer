@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "normalBg": "style1_tower_normal",
+    "bossBg": "style1_tower_boss",
+    "topBg": "style1_tower_top",
+    "sky": "style1_tower_sky",
+    "moveCloud": "style1_tower_move_cloud",
+    "staticCloud": "style1_tower_cloud"
+  },
+  {
+    "id": 2,
+    "normalBg": "style2_tower_normal",
+    "bossBg": "style2_tower_boss",
+    "topBg": "style2_tower_top",
+    "sky": "style2_tower_sky",
+    "moveCloud": "style2_tower_move_cloud",
+    "staticCloud": "style2_tower_cloud"
+  },
+  {
+    "id": 3,
+    "normalBg": "style3_tower_normal",
+    "bossBg": "style3_tower_boss",
+    "topBg": "style3_tower_top",
+    "sky": "style1_tower_sky",
+    "moveCloud": "style1_tower_move_cloud",
+    "staticCloud": "style1_tower_cloud"
+  },
+  {
+    "id": 4,
+    "normalBg": "style4_tower_normal",
+    "bossBg": "style4_tower_boss",
+    "topBg": "style4_tower_top",
+    "sky": "style1_tower_sky",
+    "moveCloud": "style1_tower_move_cloud",
+    "staticCloud": "style1_tower_cloud"
+  }
+]

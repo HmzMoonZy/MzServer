@@ -1,0 +1,2072 @@
+[
+  {
+    "ID": 1,
+    "path": "Assets/_Resources/Sound/BGM/BGM_Log_Turtle.mp3",
+    "volume": 0.4
+  },
+  {
+    "ID": 2,
+    "path": "Assets/_Resources/Sound/BGM/BGM_Login_new.mp3",
+    "volume": 0.3
+  },
+  {
+    "ID": 48,
+    "path": "Assets/_Resources/Sound/UI/CommonReward.mp3",
+    "volume": 0.5
+  },
+  {
+    "ID": 49,
+    "path": "Assets/_Resources/Sound/UI/CommonReward.mp3",
+    "volume": 0.5
+  },
+  {
+    "ID": 50,
+    "path": "Assets/_Resources/Sound/UI/CommonReward.mp3",
+    "volume": 0.5
+  },
+  {
+    "ID": 51,
+    "path": "Assets/_Resources/Sound/UI/BoxOpen_Scroll.mp3",
+    "volume": 0.5
+  },
+  {
+    "ID": 52,
+    "path": "Assets/_Resources/Sound/Special/BattleVictory.mp3",
+    "volume": 0.25
+  },
+  {
+    "ID": 53,
+    "path": "Assets/_Resources/Sound/Special/PveEnd.mp3",
+    "volume": 0.5
+  },
+  {
+    "ID": 54,
+    "path": "Assets/_Resources/Sound/Special/GetExp.mp3",
+    "volume": 0.3
+  },
+  {
+    "ID": 55,
+    "path": "Assets/_Resources/Sound/Special/BattleEnter.mp3",
+    "volume": 0.5
+  },
+  {
+    "ID": 56,
+    "path": "Assets/_Resources/Sound/UI/EventUI_Show.mp3",
+    "volume": 0.5
+  },
+  {
+    "ID": 57,
+    "path": "Assets/_Resources/Sound/UI/LevelUp.mp3",
+    "volume": 0.5
+  },
+  {
+    "ID": 58,
+    "path": "Assets/_Resources/Sound/UI/EventUI_GetSkill.mp3",
+    "volume": 0.5
+  },
+  {
+    "ID": 59,
+    "path": "Assets/_Resources/Sound/UI/EventUI_GetSkill.mp3",
+    "volume": 0.5
+  },
+  {
+    "ID": 60,
+    "path": "Assets/_Resources/Sound/UI/eventrandomturn.mp3",
+    "volume": 0.5
+  },
+  {
+    "ID": 61,
+    "path": "Assets/_Resources/Sound/UI/eventrandomturn.mp3",
+    "volume": 0.5
+  },
+  {
+    "ID": 62,
+    "path": "Assets/_Resources/Sound/UI/Reward.mp3",
+    "volume": 0.5
+  },
+  {
+    "ID": 63,
+    "path": "Assets/_Resources/Sound/UI/eventrandomturnsuperlucky.mp3",
+    "volume": 0.5
+  },
+  {
+    "ID": 64,
+    "path": "Assets/_Resources/Sound/UI/Slot_Active.mp3",
+    "volume": 0.5
+  },
+  {
+    "ID": 65,
+    "path": "",
+    "volume": 0.5
+  },
+  {
+    "ID": 66,
+    "path": "",
+    "volume": 0.5
+  },
+  {
+    "ID": 71,
+    "path": "Assets/_Resources/Sound/UI/SlotTrain/LaoHuJiSlot01.mp3",
+    "volume": 0.5
+  },
+  {
+    "ID": 72,
+    "path": "Assets/_Resources/Sound/UI/SlotTrain/LaoHuJiSlot02.mp3",
+    "volume": 0.5
+  },
+  {
+    "ID": 73,
+    "path": "Assets/_Resources/Sound/UI/SlotTrain/LaoHuJiSlot03.mp3",
+    "volume": 0.5
+  },
+  {
+    "ID": 74,
+    "path": "Assets/_Resources/Sound/UI/SlotTrain/LaoHuJiSlot04.mp3",
+    "volume": 0.5
+  },
+  {
+    "ID": 75,
+    "path": "Assets/_Resources/Sound/UI/SlotTrain/LaoHuJiSlot05.mp3",
+    "volume": 0.5
+  },
+  {
+    "ID": 76,
+    "path": "Assets/_Resources/Sound/UI/SlotTrain/LaoHuJiSlot06.mp3",
+    "volume": 0.5
+  },
+  {
+    "ID": 77,
+    "path": "Assets/_Resources/Sound/UI/SlotTrain/LaoHuJiSlot07.mp3",
+    "volume": 0.5
+  },
+  {
+    "ID": 78,
+    "path": "Assets/_Resources/Sound/UI/SlotTrain/LaoHuJiSlot08.mp3",
+    "volume": 0.5
+  },
+  {
+    "ID": 79,
+    "path": "Assets/_Resources/Sound/UI/EventUI_GetSkill.mp3",
+    "volume": 0.5
+  },
+  {
+    "ID": 80,
+    "path": "Assets/_Resources/Sound/UI/SlotTrain/LaoHuJiChouZhongJiangLi.mp3",
+    "volume": 0.5
+  },
+  {
+    "ID": 81,
+    "path": "Assets/_Resources/Sound/UI/eventrandomturnnormal.mp3",
+    "volume": 0.5
+  },
+  {
+    "ID": 82,
+    "path": "Assets/_Resources/Sound/UI/eventrandomturnlucky.mp3",
+    "volume": 0.5
+  },
+  {
+    "ID": 83,
+    "path": "Assets/_Resources/Sound/UI/eventrandomturnsuperlucky.mp3",
+    "volume": 0.5
+  },
+  {
+    "ID": 84,
+    "path": "Assets/_Resources/Sound/UI/eventrandomturnunlucky.mp3",
+    "volume": 0.5
+  },
+  {
+    "ID": 85,
+    "path": "Assets/_Resources/Sound/UI/eventrandomturn.mp3",
+    "volume": 0.5
+  },
+  {
+    "ID": 86,
+    "path": "Assets/_Resources/Sound/UI/turntablerotate.mp3",
+    "volume": 0.5
+  },
+  {
+    "ID": 87,
+    "path": "Assets/_Resources/Sound/UI/turntablepointer.mp3",
+    "volume": 0.5
+  },
+  {
+    "ID": 88,
+    "path": "Assets/_Resources/Sound/Special/PVE_Chapter_Win.mp3",
+    "volume": 0.6
+  },
+  {
+    "ID": 89,
+    "path": "Assets/_Resources/Sound/Special/PveEnd.mp3",
+    "volume": 0.5
+  },
+  {
+    "ID": 101,
+    "path": "Assets/_Resources/Sound/BGM/BGM_Main_Woodland_new.mp3",
+    "volume": 0.4
+  },
+  {
+    "ID": 102,
+    "path": "Assets/_Resources/Sound/BGM/BGM_Main_Dungeon_new.mp3",
+    "volume": 0.4
+  },
+  {
+    "ID": 103,
+    "path": "Assets/_Resources/Sound/BGM/BGM_Main_Desert_new.mp3",
+    "volume": 0.4
+  },
+  {
+    "ID": 104,
+    "path": "Assets/_Resources/Sound/BGM/BGM_Main_SolemnCity_new.mp3",
+    "volume": 0.4
+  },
+  {
+    "ID": 105,
+    "path": "Assets/_Resources/Sound/BGM/BGM_Main_Tavern_new.mp3",
+    "volume": 0.4
+  },
+  {
+    "ID": 106,
+    "path": "Assets/_Resources/Sound/BGM/BGM_Main_Sail.mp3",
+    "volume": 0.4
+  },
+  {
+    "ID": 107,
+    "path": "Assets/_Resources/Sound/BGM/BGM_Main_Beach.mp3",
+    "volume": 0.3
+  },
+  {
+    "ID": 108,
+    "path": "Assets/_Resources/Sound/BGM/BGM_Main_Evil.mp3",
+    "volume": 0.4
+  },
+  {
+    "ID": 109,
+    "path": "Assets/_Resources/Sound/BGM/BGM_Main_Forest.mp3",
+    "volume": 0.4
+  },
+  {
+    "ID": 110,
+    "path": "Assets/_Resources/Sound/BGM/BGM_Main_Winter.mp3",
+    "volume": 0.5
+  },
+  {
+    "ID": 111,
+    "path": "Assets/_Resources/Sound/BGM/BGM_Main_ArenaBattle.mp3",
+    "volume": 0.4
+  },
+  {
+    "ID": 112,
+    "path": "Assets/_Resources/Sound/BGM/BGM_Main_ArenaBattle.mp3",
+    "volume": 0.4
+  },
+  {
+    "ID": 113,
+    "path": "Assets/_Resources/Sound/BGM/BGM_Main_ArenaBattle.mp3",
+    "volume": 0.4
+  },
+  {
+    "ID": 114,
+    "path": "Assets/_Resources/Sound/BGM/BGM_Main_ArenaBattle.mp3",
+    "volume": 0.4
+  },
+  {
+    "ID": 115,
+    "path": "Assets/_Resources/Sound/BGM/BGM_Battle_Normal_new.mp3",
+    "volume": 0.4
+  },
+  {
+    "ID": 116,
+    "path": "Assets/_Resources/Sound/BGM/BGM_Battle_New.mp3",
+    "volume": 0.4
+  },
+  {
+    "ID": 117,
+    "path": "Assets/_Resources/Sound/UI/Slot/rolling.mp3",
+    "volume": 0.4
+  },
+  {
+    "ID": 118,
+    "path": "Assets/_Resources/Sound/UI/Slot/rollEnd.mp3",
+    "volume": 0.4
+  },
+  {
+    "ID": 119,
+    "path": "Assets/_Resources/Sound/UI/Slot/smallReward.mp3",
+    "volume": 0.4
+  },
+  {
+    "ID": 120,
+    "path": "Assets/_Resources/Sound/UI/Slot/select.mp3",
+    "volume": 0.4
+  },
+  {
+    "ID": 121,
+    "path": "Assets/_Resources/Sound/UI/Slot/bigReward.mp3",
+    "volume": 0.4
+  },
+  {
+    "ID": 122,
+    "path": "Assets/_Resources/Sound/UI/Slot/slotBgm.ogg",
+    "volume": 0.4
+  },
+  {
+    "ID": 123,
+    "path": "Assets/_Resources/Sound/UI/Slot/bell.mp3",
+    "volume": 0.4
+  },
+  {
+    "ID": 124,
+    "path": "Assets/_Resources/Sound/UI/Wheel.mp3",
+    "volume": 0.4
+  },
+  {
+    "ID": 125,
+    "path": "Assets/_Resources/Sound/UI/Slot/joystick.mp3",
+    "volume": 0.4
+  },
+  {
+    "ID": 126,
+    "path": "Assets/_Resources/Sound/UI/Slot/select.mp3",
+    "volume": 0.4
+  },
+  {
+    "ID": 127,
+    "path": "Assets/_Resources/Sound/UI/Slot/smallReward.mp3",
+    "volume": 0.4
+  },
+  {
+    "ID": 128,
+    "path": "Assets/_Resources/Sound/UI/CommonReward.mp3",
+    "volume": 0.4
+  },
+  {
+    "ID": 129,
+    "path": "Assets/_Resources/Sound/UI/UI_Pet_1.mp3",
+    "volume": 0.5
+  },
+  {
+    "ID": 130,
+    "path": "Assets/_Resources/Sound/UI/UI_Pet_1.mp3",
+    "volume": 1
+  },
+  {
+    "ID": 131,
+    "path": "Assets/_Resources/Sound/UI/UI_Pet_3.mp3",
+    "volume": 0.8
+  },
+  {
+    "ID": 201,
+    "path": "Assets/_Resources/Sound/BGM/BGM_Battle_Normal_new.mp3",
+    "volume": 0.4
+  },
+  {
+    "ID": 251,
+    "path": "Assets/_Resources/Sound/BGM/BGM_Battle_Boss_new.mp3",
+    "volume": 0.2
+  },
+  {
+    "ID": 301,
+    "path": "Assets/_Resources/Sound/Battle/Hitted/Hitted_Body01.mp3",
+    "volume": 0.2
+  },
+  {
+    "ID": 302,
+    "path": "Assets/_Resources/Sound/Battle/Hitted/Hitted_Ghost.mp3",
+    "volume": 0.2
+  },
+  {
+    "ID": 303,
+    "path": "Assets/_Resources/Sound/Battle/Hitted/Hitted_Skeleton01.mp3",
+    "volume": 0.2
+  },
+  {
+    "ID": 304,
+    "path": "Assets/_Resources/Sound/Battle/Hitted/Hitted_Stone.mp3",
+    "volume": 0.2
+  },
+  {
+    "ID": 305,
+    "path": "Assets/_Resources/Sound/Battle/Hitted/Hitted_Wood.mp3",
+    "volume": 0.2
+  },
+  {
+    "ID": 306,
+    "path": "Assets/_Resources/Sound/Battle/Hitted/SkillHit_Water.mp3",
+    "volume": 0.5
+  },
+  {
+    "ID": 307,
+    "path": "Assets/_Resources/Sound/Battle/Hitted/SkillHit_boxing.mp3",
+    "volume": 0.5
+  },
+  {
+    "ID": 308,
+    "path": "Assets/_Resources/Sound/Battle/Hitted/SkillHit_Poop.mp3",
+    "volume": 0.8
+  },
+  {
+    "ID": 351,
+    "path": "Assets/_Resources/Sound/Battle/Death/Death_Ghost.mp3",
+    "volume": 0.4
+  },
+  {
+    "ID": 352,
+    "path": "Assets/_Resources/Sound/Battle/Death/Death_Human01.mp3",
+    "volume": 0.4
+  },
+  {
+    "ID": 353,
+    "path": "",
+    "volume": 0
+  },
+  {
+    "ID": 354,
+    "path": "Assets/_Resources/Sound/Battle/Death/Death_Women01.mp3",
+    "volume": 0.4
+  },
+  {
+    "ID": 355,
+    "path": "Assets/_Resources/Sound/Battle/Death/Death_Women02.mp3",
+    "volume": 0.4
+  },
+  {
+    "ID": 356,
+    "path": "Assets/_Resources/Sound/Battle/Death/Death_Skeleton.mp3",
+    "volume": 0.4
+  },
+  {
+    "ID": 357,
+    "path": "Assets/_Resources/Sound/Battle/Death/Death_Stone.mp3",
+    "volume": 0.4
+  },
+  {
+    "ID": 358,
+    "path": "Assets/_Resources/Sound/Battle/Death/Death_Monster01.mp3",
+    "volume": 0.7
+  },
+  {
+    "ID": 359,
+    "path": "Assets/_Resources/Sound/Battle/Death/Death_Monster02.mp3",
+    "volume": 0.2
+  },
+  {
+    "ID": 401,
+    "path": "Assets/_Resources/Sound/Walk/FootStep001.mp3",
+    "volume": 0.15
+  },
+  {
+    "ID": 402,
+    "path": "Assets/_Resources/Sound/Walk/FootStep002.mp3",
+    "volume": 0.15
+  },
+  {
+    "ID": 403,
+    "path": "Assets/_Resources/Sound/Walk/FootStep003.mp3",
+    "volume": 0.15
+  },
+  {
+    "ID": 404,
+    "path": "Assets/_Resources/Sound/Walk/FootStep004.mp3",
+    "volume": 0.15
+  },
+  {
+    "ID": 405,
+    "path": "Assets/_Resources/Sound/Walk/FootStep005.mp3",
+    "volume": 0.15
+  },
+  {
+    "ID": 406,
+    "path": "Assets/_Resources/Sound/Walk/FootStep006.mp3",
+    "volume": 0.15
+  },
+  {
+    "ID": 407,
+    "path": "Assets/_Resources/Sound/Walk/FootStep007.mp3",
+    "volume": 0.15
+  },
+  {
+    "ID": 411,
+    "path": "Assets/_Resources/Sound/Walk/Tackle.mp3",
+    "volume": 0.4
+  },
+  {
+    "ID": 451,
+    "path": "Assets/_Resources/Sound/Special/BossAppear_Flash.mp3",
+    "volume": 0.4
+  },
+  {
+    "ID": 452,
+    "path": "",
+    "volume": 0.4
+  },
+  {
+    "ID": 453,
+    "path": "Assets/_Resources/Sound/Special/BossAppear_Human.mp3",
+    "volume": 0.4
+  },
+  {
+    "ID": 454,
+    "path": "Assets/_Resources/Sound/Special/BossAppear_Laugh.mp3",
+    "volume": 0.4
+  },
+  {
+    "ID": 501,
+    "path": "Assets/_Resources/Sound/Walk/RaftMove01.mp3",
+    "volume": 1
+  },
+  {
+    "ID": 502,
+    "path": "Assets/_Resources/Sound/Walk/RaftMove02.mp3",
+    "volume": 1
+  },
+  {
+    "ID": 503,
+    "path": "Assets/_Resources/Sound/Walk/RaftMove03.mp3",
+    "volume": 1
+  },
+  {
+    "ID": 504,
+    "path": "Assets/_Resources/Sound/Walk/RaftMove04.mp3",
+    "volume": 1
+  },
+  {
+    "ID": 511,
+    "path": "Assets/_Resources/Sound/Walk/RaftImpact.mp3",
+    "volume": 1
+  },
+  {
+    "ID": 521,
+    "path": "Assets/_Resources/Sound/Battle/Monster/Appear_SeaMonster.mp3",
+    "volume": 0.5
+  },
+  {
+    "ID": 522,
+    "path": "Assets/_Resources/Sound/Battle/Monster/Appear_Shark.mp3",
+    "volume": 0.5
+  },
+  {
+    "ID": 601,
+    "path": "Assets/_Resources/Sound/UI/CommonReward.mp3",
+    "volume": 0.5
+  },
+  {
+    "ID": 602,
+    "path": "Assets/_Resources/Sound/UI/LevelUp.mp3",
+    "volume": 0.6
+  },
+  {
+    "ID": 603,
+    "path": "Assets/_Resources/Sound/UI/LevelUp1.mp3",
+    "volume": 0.6
+  },
+  {
+    "ID": 604,
+    "path": "",
+    "volume": 0.6
+  },
+  {
+    "ID": 605,
+    "path": "",
+    "volume": 0.5
+  },
+  {
+    "ID": 606,
+    "path": "Assets/_Resources/Sound/UI/LevelUp1.mp3",
+    "volume": 0.6
+  },
+  {
+    "ID": 607,
+    "path": "Assets/_Resources/Sound/UI/UIopen.mp3",
+    "volume": 0.5
+  },
+  {
+    "ID": 608,
+    "path": "Assets/_Resources/Sound/UI/CommonReward.mp3",
+    "volume": 0.5
+  },
+  {
+    "ID": 609,
+    "path": "Assets/_Resources/Sound/UI/CommonReward.mp3",
+    "volume": 0.5
+  },
+  {
+    "ID": 610,
+    "path": "Assets/_Resources/Sound/UI/GoodReward.mp3",
+    "volume": 0.5
+  },
+  {
+    "ID": 620,
+    "path": "Assets/_Resources/Sound/UI/CommonReward.mp3",
+    "volume": 0.5
+  },
+  {
+    "ID": 621,
+    "path": "Assets/_Resources/Sound/UI/CommonReward.mp3",
+    "volume": 0.5
+  },
+  {
+    "ID": 622,
+    "path": "Assets/_Resources/Sound/UI/Button_Click_MainPage.mp3",
+    "volume": 0.4
+  },
+  {
+    "ID": 623,
+    "path": "Assets/_Resources/Sound/UI/LevelUp.mp3",
+    "volume": 0.6
+  },
+  {
+    "ID": 624,
+    "path": "Assets/_Resources/Sound/UI/LevelUp.mp3",
+    "volume": 0.6
+  },
+  {
+    "ID": 625,
+    "path": "Assets/_Resources/Sound/UI/LevelUp.mp3",
+    "volume": 0.6
+  },
+  {
+    "ID": 626,
+    "path": "Assets/_Resources/Sound/UI/LevelUp.mp3",
+    "volume": 0.6
+  },
+  {
+    "ID": 627,
+    "path": "Assets/_Resources/Sound/UI/LevelUp1.mp3",
+    "volume": 0.6
+  },
+  {
+    "ID": 628,
+    "path": "Assets/_Resources/Sound/UI/LevelUp1.mp3",
+    "volume": 0.6
+  },
+  {
+    "ID": 629,
+    "path": "Assets/_Resources/Sound/UI/UI_Hammer.mp3",
+    "volume": 0.4
+  },
+  {
+    "ID": 630,
+    "path": "Assets/_Resources/Sound/UI/UI_Pet_1.mp3",
+    "volume": 0.6
+  },
+  {
+    "ID": 631,
+    "path": "Assets/_Resources/Sound/UI/UI_item_great.mp3",
+    "volume": 0.6
+  },
+  {
+    "ID": 632,
+    "path": "Assets/_Resources/Sound/UI/UI_mining_nromal.mp3",
+    "volume": 0.6
+  },
+  {
+    "ID": 633,
+    "path": "Assets/_Resources/Sound/UI/UI_TeShuKuang.mp3",
+    "volume": 0.6
+  },
+  {
+    "ID": 634,
+    "path": "Assets/_Resources/Sound/UI/LoadingUI_Cloud.mp3",
+    "volume": 0.6
+  },
+  {
+    "ID": 635,
+    "path": "Assets/_Resources/Sound/UI/diaoxiang_normal.mp3",
+    "volume": 0.6
+  },
+  {
+    "ID": 636,
+    "path": "Assets/_Resources/Sound/UI/diaoxiang_UP.mp3",
+    "volume": 0.6
+  },
+  {
+    "ID": 637,
+    "path": "Assets/_Resources/Sound/UI/diaoxiang_open.mp3",
+    "volume": 0.6
+  },
+  {
+    "ID": 638,
+    "path": "Assets/_Resources/Sound/UI/Button_Click_MainPage.mp3",
+    "volume": 0.6
+  },
+  {
+    "ID": 639,
+    "path": "Assets/_Resources/Sound/Battle/SkillBulletEnd/BulletEnd_Fire.mp3",
+    "volume": 0.6
+  },
+  {
+    "ID": 640,
+    "path": "Assets/_Resources/Sound/BGM/Bgm_XingYunKuangChe.mp3",
+    "volume": 0.6
+  },
+  {
+    "ID": 641,
+    "path": "Assets/_Resources/Sound/UI/UI_Goblin_away.mp3",
+    "volume": 0.6
+  },
+  {
+    "ID": 642,
+    "path": "Assets/_Resources/Sound/UI/UI_Goblin_fly.mp3",
+    "volume": 0.6
+  },
+  {
+    "ID": 643,
+    "path": "Assets/_Resources/Sound/UI/Reward.mp3",
+    "volume": 0.6
+  },
+  {
+    "ID": 644,
+    "path": "Assets/_Resources/Sound/UI/GoodReward.mp3",
+    "volume": 0.6
+  },
+  {
+    "ID": 645,
+    "path": "",
+    "volume": 0
+  },
+  {
+    "ID": 646,
+    "path": "Assets/_Resources/Sound/UI/GoodReward.mp3",
+    "volume": 0.6
+  },
+  {
+    "ID": 647,
+    "path": "Assets/_Resources/Sound/UI/EventUI_GetSkill.mp3",
+    "volume": 0.6
+  },
+  {
+    "ID": 648,
+    "path": "Assets/_Resources/Sound/UI/UI_UnlockReward.mp3",
+    "volume": 0.6
+  },
+  {
+    "ID": 649,
+    "path": "Assets/_Resources/Sound/UI/Reward.mp3",
+    "volume": 0.6
+  },
+  {
+    "ID": 650,
+    "path": "Assets/_Resources/Sound/BGM/BGM_Battle_New.mp3",
+    "volume": 0.6
+  },
+  {
+    "ID": 651,
+    "path": "Assets/_Resources/Sound/BGM/BGM_Battle_Normal_new.mp3",
+    "volume": 0.3
+  },
+  {
+    "ID": 652,
+    "path": "Assets/_Resources/Sound/BGM/BGM_Battle_New.mp3",
+    "volume": 0.6
+  },
+  {
+    "ID": 653,
+    "path": "Assets/_Resources/Sound/BGM/BGM_Battle_New.mp3",
+    "volume": 0.6
+  },
+  {
+    "ID": 654,
+    "path": "Assets/_Resources/Sound/Special/PVE_Chapter_Win.mp3",
+    "volume": 0.6
+  },
+  {
+    "ID": 655,
+    "path": "Assets/_Resources/Sound/UI/LevelUp.mp3",
+    "volume": 0.6
+  },
+  {
+    "ID": 656,
+    "path": "Assets/_Resources/Sound/UI/UI_Pet_1.mp3",
+    "volume": 0.6
+  },
+  {
+    "ID": 657,
+    "path": "Assets/_Resources/Sound/UI/LevelUp.mp3",
+    "volume": 0.6
+  },
+  {
+    "ID": 658,
+    "path": "Assets/_Resources/Sound/UI/UI_Pet_1.mp3",
+    "volume": 0.6
+  },
+  {
+    "ID": 659,
+    "path": "Assets/_Resources/Sound/UI/UI_scorebos_shakeopen.mp3",
+    "volume": 0.6
+  },
+  {
+    "ID": 660,
+    "path": "Assets/_Resources/Sound/UI/UI_scorebox_open.mp3",
+    "volume": 0.6
+  },
+  {
+    "ID": 661,
+    "path": "Assets/_Resources/Sound/UI/UI_Number.mp3",
+    "volume": 0.6
+  },
+  {
+    "ID": 662,
+    "path": "",
+    "volume": 0
+  },
+  {
+    "ID": 663,
+    "path": "Assets/_Resources/Sound/UI/UI_Number.mp3",
+    "volume": 0.6
+  },
+  {
+    "ID": 664,
+    "path": "Assets/_Resources/Sound/UI/UI_equipbox_open.mp3",
+    "volume": 0.6
+  },
+  {
+    "ID": 665,
+    "path": "Assets/_Resources/Sound/UI/Reward.mp3",
+    "volume": 0.6
+  },
+  {
+    "ID": 666,
+    "path": "Assets/_Resources/Sound/UI/UI_Pet_1.mp3",
+    "volume": 0.6
+  },
+  {
+    "ID": 667,
+    "path": "Assets/_Resources/Sound/UI/UI_pet_2.mp3",
+    "volume": 0.6
+  },
+  {
+    "ID": 668,
+    "path": "Assets/_Resources/Sound/UI/UI_Pet_3.mp3",
+    "volume": 0.6
+  },
+  {
+    "ID": 669,
+    "path": "Assets/_Resources/Sound/UI/UI_pet_4.mp3",
+    "volume": 0.6
+  },
+  {
+    "ID": 670,
+    "path": "Assets/_Resources/Sound/UI/UI_pet_5.mp3",
+    "volume": 0.6
+  },
+  {
+    "ID": 671,
+    "path": "Assets/_Resources/Sound/UI/LevelUp.mp3",
+    "volume": 0.6
+  },
+  {
+    "ID": 672,
+    "path": "Assets/_Resources/Sound/UI/UI_MoWang.mp3",
+    "volume": 1
+  },
+  {
+    "ID": 673,
+    "path": "Assets/_Resources/Sound/UI/UI_MoWang.mp3",
+    "volume": 1
+  },
+  {
+    "ID": 674,
+    "path": "Assets/_Resources/Sound/UI/UI_function_unlocknew.mp3",
+    "volume": 0.6
+  },
+  {
+    "ID": 675,
+    "path": "",
+    "volume": 0
+  },
+  {
+    "ID": 676,
+    "path": "Assets/_Resources/Sound/Special/GetExp.mp3",
+    "volume": 0.6
+  },
+  {
+    "ID": 677,
+    "path": "Assets/_Resources/Sound/Special/GetGold.mp3",
+    "volume": 0.6
+  },
+  {
+    "ID": 678,
+    "path": "Assets/_Resources/Sound/Special/GetDiamond.mp3",
+    "volume": 0.6
+  },
+  {
+    "ID": 679,
+    "path": "Assets/_Resources/Sound/UI/UI_Pet_3.mp3",
+    "volume": 0.6
+  },
+  {
+    "ID": 680,
+    "path": "Assets/_Resources/Sound/UI/UI_pet_4.mp3",
+    "volume": 0.6
+  },
+  {
+    "ID": 681,
+    "path": "Assets/_Resources/Sound/UI/UI_pet_5.mp3",
+    "volume": 0.6
+  },
+  {
+    "ID": 682,
+    "path": "Assets/_Resources/Sound/UI/UI_pet_4.mp3",
+    "volume": 0.6
+  },
+  {
+    "ID": 683,
+    "path": "Assets/_Resources/Sound/UI/UI_MoWang.mp3",
+    "volume": 1
+  },
+  {
+    "ID": 684,
+    "path": "Assets/_Resources/Sound/UI/UI_pet_5.mp3",
+    "volume": 0.6
+  },
+  {
+    "ID": 685,
+    "path": "Assets/_Resources/Sound/UI/UI_scorebos_shakeopen.mp3",
+    "volume": 0.6
+  },
+  {
+    "ID": 686,
+    "path": "Assets/_Resources/Sound/UI/UI_scorebox_open.mp3",
+    "volume": 0.6
+  },
+  {
+    "ID": 687,
+    "path": "Assets/_Resources/Sound/UI/UI_Pet_3.mp3",
+    "volume": 0.6
+  },
+  {
+    "ID": 688,
+    "path": "Assets/_Resources/Sound/UI/UI_pet_4.mp3",
+    "volume": 0.6
+  },
+  {
+    "ID": 689,
+    "path": "Assets/_Resources/Sound/UI/UI_pet_5.mp3",
+    "volume": 0.6
+  },
+  {
+    "ID": 750,
+    "path": "Assets/_Resources/Sound/BGM/Bgm_QiuJiHuoDong.mp3",
+    "volume": 0.4
+  },
+  {
+    "ID": 751,
+    "path": "Assets/_Resources/Sound/BGM/Bgm_ShuangDan.mp3",
+    "volume": 0.4
+  },
+  {
+    "ID": 752,
+    "path": "Assets/_Resources/Sound/BGM/Bgm_SpringFestival.mp3",
+    "volume": 0.4
+  },
+  {
+    "ID": 753,
+    "path": "Assets/_Resources/Sound/Battle/SkillStart/battle_speed.mp3",
+    "volume": 0.5
+  },
+  {
+    "ID": 754,
+    "path": "Assets/_Resources/Sound/BGM/bgm_summer_act.mp3",
+    "volume": 0.5
+  },
+  {
+    "ID": 755,
+    "path": "Assets/_Resources/Sound/BGM/BGM_QiMiaoMaXiTuan.mp3",
+    "volume": 0.5
+  },
+  {
+    "ID": 756,
+    "path": "Assets/_Resources/Sound/BGM/BGM_Log_Turtle.mp3",
+    "volume": 0.8
+  },
+  {
+    "ID": 757,
+    "path": "Assets/_Resources/Sound/UI/Slot/rolling_max.mp3",
+    "volume": 0.4
+  },
+  {
+    "ID": 758,
+    "path": "Assets/_Resources/Sound/UI/UI_pet_5.mp3",
+    "volume": 0.6
+  },
+  {
+    "ID": 759,
+    "path": "Assets/_Resources/Sound/UI/UIopen.mp3",
+    "volume": 0.6
+  },
+  {
+    "ID": 760,
+    "path": "Assets/_Resources/Sound/BGM/Bgm_ShuangDan.mp3",
+    "volume": 0.6
+  },
+  {
+    "ID": 800,
+    "path": "Assets/_Resources/Sound/BGM/Bgm_QiYuan.mp3",
+    "volume": 0.5
+  },
+  {
+    "ID": 801,
+    "path": "Assets/_Resources/Sound/UI/UI_ChuanCheng_begin.mp3",
+    "volume": 0.5
+  },
+  {
+    "ID": 802,
+    "path": "Assets/_Resources/Sound/UI/UI_ChuanCheng_open.mp3",
+    "volume": 0.5
+  },
+  {
+    "ID": 803,
+    "path": "Assets/_Resources/Sound/UI/UI_ChuanCheng_get1.mp3",
+    "volume": 0.8
+  },
+  {
+    "ID": 804,
+    "path": "Assets/_Resources/Sound/UI/UI_ChuanCheng_get10_2.mp3",
+    "volume": 0.8
+  },
+  {
+    "ID": 805,
+    "path": "Assets/_Resources/Sound/UI/UI_Pet_1.mp3",
+    "volume": 0.5
+  },
+  {
+    "ID": 806,
+    "path": "Assets/_Resources/Sound/UI/UI_Pet_1.mp3",
+    "volume": 0.5
+  },
+  {
+    "ID": 807,
+    "path": "Assets/_Resources/Sound/UI/UI_Pet_1.mp3",
+    "volume": 0.5
+  },
+  {
+    "ID": 808,
+    "path": "Assets/_Resources/Sound/UI/UI_Pet_1.mp3",
+    "volume": 0.5
+  },
+  {
+    "ID": 809,
+    "path": "Assets/_Resources/Sound/UI/UI_Pet_1.mp3",
+    "volume": 0.5
+  },
+  {
+    "ID": 810,
+    "path": "Assets/_Resources/Sound/UI/UI_Pet_1.mp3",
+    "volume": 0.5
+  },
+  {
+    "ID": 811,
+    "path": "Assets/_Resources/Sound/UI/UI_Pet_1.mp3",
+    "volume": 0.5
+  },
+  {
+    "ID": 812,
+    "path": "Assets/_Resources/Sound/UI/UI_Pet_1.mp3",
+    "volume": 0.5
+  },
+  {
+    "ID": 813,
+    "path": "",
+    "volume": 0
+  },
+  {
+    "ID": 814,
+    "path": "",
+    "volume": 0
+  },
+  {
+    "ID": 815,
+    "path": "Assets/_Resources/Sound/UI/UI_equipbox_open.mp3",
+    "volume": 0.5
+  },
+  {
+    "ID": 816,
+    "path": "Assets/_Resources/Sound/UI/UI_equipbox_open.mp3",
+    "volume": 0.5
+  },
+  {
+    "ID": 817,
+    "path": "Assets/_Resources/Sound/UI/LevelUp.mp3",
+    "volume": 0.5
+  },
+  {
+    "ID": 818,
+    "path": "Assets/_Resources/Sound/UI/UI_dropBall.mp3",
+    "volume": 0.5
+  },
+  {
+    "ID": 819,
+    "path": "",
+    "volume": 0
+  },
+  {
+    "ID": 820,
+    "path": "",
+    "volume": 0
+  },
+  {
+    "ID": 850,
+    "path": "Assets/_Resources/Sound/UI/LevelUp1.mp3",
+    "volume": 0.5
+  },
+  {
+    "ID": 851,
+    "path": "Assets/_Resources/Sound/UI/LevelUp.mp3",
+    "volume": 0.5
+  },
+  {
+    "ID": 852,
+    "path": "Assets/_Resources/Sound/UI/UI_equipbox_open.mp3",
+    "volume": 0.5
+  },
+  {
+    "ID": 853,
+    "path": "Assets/_Resources/Sound/UI/LevelUp.mp3",
+    "volume": 0.5
+  },
+  {
+    "ID": 854,
+    "path": "Assets/_Resources/Sound/BGM/BGM_GodMake.mp3",
+    "volume": 0.6
+  },
+  {
+    "ID": 1001,
+    "path": "Assets/_Resources/Sound/Battle/SkillStart/SkillStart_Arrow1.mp3",
+    "volume": 0.5
+  },
+  {
+    "ID": 1002,
+    "path": "Assets/_Resources/Sound/Battle/SkillStart/SkillStart_Arrow2.mp3",
+    "volume": 0.5
+  },
+  {
+    "ID": 1003,
+    "path": "Assets/_Resources/Sound/Battle/SkillStart/SkillStart_Arrow3.mp3",
+    "volume": 0.5
+  },
+  {
+    "ID": 1004,
+    "path": "Assets/_Resources/Sound/Battle/SkillStart/SkillStart_Ice.mp3",
+    "volume": 0.5
+  },
+  {
+    "ID": 1005,
+    "path": "",
+    "volume": 0
+  },
+  {
+    "ID": 1006,
+    "path": "Assets/_Resources/Sound/Battle/SkillStart/SkillStart_RecoverHP.mp3",
+    "volume": 0.5
+  },
+  {
+    "ID": 1007,
+    "path": "Assets/_Resources/Sound/Battle/SkillStart/SkillStart_Sword1.mp3",
+    "volume": 0.5
+  },
+  {
+    "ID": 1008,
+    "path": "Assets/_Resources/Sound/Battle/SkillStart/SkillStart_Sword2.mp3",
+    "volume": 0.5
+  },
+  {
+    "ID": 1009,
+    "path": "Assets/_Resources/Sound/Battle/SkillStart/SkillStart_Sword3.mp3",
+    "volume": 0.5
+  },
+  {
+    "ID": 1010,
+    "path": "Assets/_Resources/Sound/Battle/SkillStart/SkillStart_Thunder1.mp3",
+    "volume": 0.5
+  },
+  {
+    "ID": 1011,
+    "path": "Assets/_Resources/Sound/Battle/SkillStart/SkillStart_Thunder2.mp3",
+    "volume": 0.5
+  },
+  {
+    "ID": 1012,
+    "path": "Assets/_Resources/Sound/Battle/SkillStart/SkillStart_Thunder3.mp3",
+    "volume": 0.5
+  },
+  {
+    "ID": 1013,
+    "path": "Assets/_Resources/Sound/Battle/SkillStart/SkillStart_Poison.mp3",
+    "volume": 0.5
+  },
+  {
+    "ID": 1014,
+    "path": "Assets/_Resources/Sound/Battle/SkillStart/SkillStart_Fire.mp3",
+    "volume": 0.5
+  },
+  {
+    "ID": 1015,
+    "path": "Assets/_Resources/Sound/Battle/SkillStart/SkillStart_HolyLight.mp3",
+    "volume": 0.5
+  },
+  {
+    "ID": 1021,
+    "path": "Assets/_Resources/Sound/Battle/SkillStart/SkillStart_Lance.mp3",
+    "volume": 0.5
+  },
+  {
+    "ID": 1022,
+    "path": "Assets/_Resources/Sound/Battle/SkillStart/SkillStart_Dragon_Breath.mp3",
+    "volume": 0.5
+  },
+  {
+    "ID": 1023,
+    "path": "Assets/_Resources/Sound/Battle/SkillStart/SkillStart_Q.mp3",
+    "volume": 0.5
+  },
+  {
+    "ID": 1024,
+    "path": "Assets/_Resources/Sound/Battle/SkillStart/SkillStart_Fire_On.mp3",
+    "volume": 1
+  },
+  {
+    "ID": 1025,
+    "path": "Assets/_Resources/Sound/Battle/SkillStart/SkillStart_CaiJue.mp3",
+    "volume": 1
+  },
+  {
+    "ID": 1026,
+    "path": "Assets/_Resources/Sound/Battle/SkillStart/SkillStart_Debuff.mp3",
+    "volume": 0.4
+  },
+  {
+    "ID": 1027,
+    "path": "Assets/_Resources/Sound/Battle/SkillStart/SkillStart_Ball.mp3",
+    "volume": 0.5
+  },
+  {
+    "ID": 1028,
+    "path": "Assets/_Resources/Sound/Battle/SkillStart/SkillStart_FireBall.mp3",
+    "volume": 0.6
+  },
+  {
+    "ID": 1029,
+    "path": "Assets/_Resources/Sound/Battle/SkillStart/SkillStart_Water_Breath.mp3",
+    "volume": 0.5
+  },
+  {
+    "ID": 1030,
+    "path": "Assets/_Resources/Sound/Battle/SkillStart/SkillStart_Zhanji.mp3",
+    "volume": 0.5
+  },
+  {
+    "ID": 1031,
+    "path": "Assets/_Resources/Sound/Battle/SkillStart/SkillStart_Frog.mp3",
+    "volume": 0.5
+  },
+  {
+    "ID": 1032,
+    "path": "Assets/_Resources/Sound/Battle/SkillStart/SkillStart_Rotate.mp3",
+    "volume": 0.5
+  },
+  {
+    "ID": 1033,
+    "path": "Assets/_Resources/Sound/Battle/SkillStart/SkillStart_Wangzi_Jianqi.mp3",
+    "volume": 0.5
+  },
+  {
+    "ID": 1034,
+    "path": "Assets/_Resources/Sound/Battle/SkillStart/SkillStart_Jianqi.mp3",
+    "volume": 0.5
+  },
+  {
+    "ID": 1035,
+    "path": "Assets/_Resources/Sound/Battle/SkillStart/SkillStart_Jianqi_Max.mp3",
+    "volume": 0.5
+  },
+  {
+    "ID": 1036,
+    "path": "Assets/_Resources/Sound/Battle/SkillStart/SkillStart_Daodan.mp3",
+    "volume": 0.5
+  },
+  {
+    "ID": 1037,
+    "path": "Assets/_Resources/Sound/Battle/SkillStart/SkillStart_Throw.mp3",
+    "volume": 0.5
+  },
+  {
+    "ID": 1038,
+    "path": "Assets/_Resources/Sound/Battle/SkillStart/SkillStart_Hammer.mp3",
+    "volume": 0.5
+  },
+  {
+    "ID": 1039,
+    "path": "Assets/_Resources/Sound/Battle/SkillStart/SkillStart_Zhuaji.mp3",
+    "volume": 0.5
+  },
+  {
+    "ID": 1040,
+    "path": "Assets/_Resources/Sound/Battle/SkillStart/SkillStart_Zhuajidouble.mp3",
+    "volume": 0.5
+  },
+  {
+    "ID": 1041,
+    "path": "Assets/_Resources/Sound/Battle/SkillStart/SkillStart_Huiwu.mp3",
+    "volume": 0.5
+  },
+  {
+    "ID": 1042,
+    "path": "Assets/_Resources/Sound/Battle/SkillStart/SkillStart_HuiwuDouble.mp3",
+    "volume": 0.5
+  },
+  {
+    "ID": 1043,
+    "path": "Assets/_Resources/Sound/Battle/SkillStart/SkillStart_Shengqishi.mp3",
+    "volume": 1
+  },
+  {
+    "ID": 1044,
+    "path": "Assets/_Resources/Sound/Battle/SkillStart/SkillStart_Poop.mp3",
+    "volume": 0.5
+  },
+  {
+    "ID": 1045,
+    "path": "Assets/_Resources/Sound/Battle/SkillStart/SkillStart_ChongJiBo.mp3",
+    "volume": 0.5
+  },
+  {
+    "ID": 1046,
+    "path": "Assets/_Resources/Sound/Battle/SkillStart/SkillStart_Light.mp3",
+    "volume": 0.5
+  },
+  {
+    "ID": 1047,
+    "path": "Assets/_Resources/Sound/Battle/SkillStart/SkillStart_Missile.mp3",
+    "volume": 0.5
+  },
+  {
+    "ID": 1048,
+    "path": "Assets/_Resources/Sound/Battle/MonsterSkillStart/SkillStart_BeastBite2.mp3",
+    "volume": 0.5
+  },
+  {
+    "ID": 1049,
+    "path": "Assets/_Resources/Sound/Battle/SkillStart/SkillStart_ChuiJi.mp3",
+    "volume": 0.5
+  },
+  {
+    "ID": 1050,
+    "path": "Assets/_Resources/Sound/Battle/SkillStart/SkillStart_ZhanZhengJianTa.mp3",
+    "volume": 0.7
+  },
+  {
+    "ID": 1051,
+    "path": "Assets/_Resources/Sound/Battle/SkillStart/SkillStart_StormIce.mp3",
+    "volume": 0.6
+  },
+  {
+    "ID": 1052,
+    "path": "Assets/_Resources/Sound/Battle/SkillStart/SkillStart_Sishen.mp3",
+    "volume": 1
+  },
+  {
+    "ID": 1053,
+    "path": "Assets/_Resources/Sound/Battle/SkillStart/SkillStart_ZhongYan.mp3",
+    "volume": 1
+  },
+  {
+    "ID": 1054,
+    "path": "Assets/_Resources/Sound/Battle/SkillStart/SkillStart_MeiMo.mp3",
+    "volume": 1
+  },
+  {
+    "ID": 1055,
+    "path": "Assets/_Resources/Sound/Battle/SkillStart/SkillStart_ShengDanLu.mp3",
+    "volume": 1
+  },
+  {
+    "ID": 1056,
+    "path": "Assets/_Resources/Sound/Battle/SkillStart/Skill_Start_ZiLong.mp3",
+    "volume": 1
+  },
+  {
+    "ID": 1057,
+    "path": "Assets/_Resources/Sound/Battle/SkillStart/Skill_Start_XiaoFenShe.mp3",
+    "volume": 1
+  },
+  {
+    "ID": 1058,
+    "path": "Assets/_Resources/Sound/Battle/SkillStart/SkillStart_ChunLan.mp3",
+    "volume": 1
+  },
+  {
+    "ID": 1501,
+    "path": "Assets/_Resources/Sound/Battle/SkillBulletEnd/BulletEnd_Fire.mp3",
+    "volume": 0.5
+  },
+  {
+    "ID": 1502,
+    "path": "Assets/_Resources/Sound/Battle/SkillBulletEnd/BulletEnd_Earth_Impact01.mp3",
+    "volume": 0.5
+  },
+  {
+    "ID": 1503,
+    "path": "Assets/_Resources/Sound/Battle/SkillBulletEnd/BulletEnd_Earth_Impact02.mp3",
+    "volume": 0.5
+  },
+  {
+    "ID": 1504,
+    "path": "Assets/_Resources/Sound/Battle/SkillBulletEnd/BulletEnd_AddBuff.mp3",
+    "volume": 0.3
+  },
+  {
+    "ID": 1505,
+    "path": "Assets/_Resources/Sound/Battle/SkillStart/SkillStart_emozhiyan.mp3",
+    "volume": 0.5
+  },
+  {
+    "ID": 1506,
+    "path": "Assets/_Resources/Sound/Battle/SkillStart/SkillStart_leishenzhimao.mp3",
+    "volume": 0.5
+  },
+  {
+    "ID": 1507,
+    "path": "Assets/_Resources/Sound/Battle/SkillStart/SkillStart_mojian.mp3",
+    "volume": 0.5
+  },
+  {
+    "ID": 1508,
+    "path": "Assets/_Resources/Sound/Battle/SkillStart/SkillStart_shengjian.mp3",
+    "volume": 0.5
+  },
+  {
+    "ID": 1509,
+    "path": "Assets/_Resources/Sound/Battle/SkillStart/SkillStart_tainzhihen_plus.mp3",
+    "volume": 0.5
+  },
+  {
+    "ID": 1510,
+    "path": "Assets/_Resources/Sound/Battle/SkillStart/SkillStart_tianzhihen_low.mp3",
+    "volume": 0.5
+  },
+  {
+    "ID": 1511,
+    "path": "Assets/_Resources/Sound/Battle/SkillStart/SkillStart_datang.mp3",
+    "volume": 0.5
+  },
+  {
+    "ID": 1512,
+    "path": "Assets/_Resources/Sound/Battle/SkillStart/SkillStart_Lapuda.mp3",
+    "volume": 0.5
+  },
+  {
+    "ID": 1513,
+    "path": "Assets/_Resources/Sound/Battle/SkillStart/SkillStart_yeguanglong.mp3",
+    "volume": 0.5
+  },
+  {
+    "ID": 1514,
+    "path": "Assets/_Resources/Sound/Battle/SkillStart/SkillStart_buff.mp3",
+    "volume": 0.5
+  },
+  {
+    "ID": 1515,
+    "path": "Assets/_Resources/Sound/Battle/SkillStart/Skill_Start_DieGe.mp3",
+    "volume": 0.5
+  },
+  {
+    "ID": 1516,
+    "path": "Assets/_Resources/Sound/Battle/SkillStart/SkillStart_zaie.mp3",
+    "volume": 0.5
+  },
+  {
+    "ID": 1517,
+    "path": "Assets/_Resources/Sound/Battle/MonsterSkillStart/SkillStart_BeastBite2.mp3",
+    "volume": 0
+  },
+  {
+    "ID": 1518,
+    "path": "Assets/_Resources/Sound/Battle/SkillStart/SkillStart_chongci.mp3",
+    "volume": 0.5
+  },
+  {
+    "ID": 1519,
+    "path": "Assets/_Resources/Sound/Battle/SkillStart/Skill_Start_SiFenKeSi.mp3",
+    "volume": 0.5
+  },
+  {
+    "ID": 1520,
+    "path": "Assets/_Resources/Sound/Battle/SkillStart/SkillStart_chongci.mp3",
+    "volume": 0.5
+  },
+  {
+    "ID": 1521,
+    "path": "Assets/_Resources/Sound/Battle/SkillStart/SkillStart_Lapuda.mp3",
+    "volume": 0.5
+  },
+  {
+    "ID": 1522,
+    "path": "Assets/_Resources/Sound/Battle/MonsterSkillStart/SkillStart_BeastBite2.mp3",
+    "volume": 0.5
+  },
+  {
+    "ID": 1523,
+    "path": "Assets/_Resources/Sound/Battle/SkillStart/SkillStart_buff.mp3",
+    "volume": 0.5
+  },
+  {
+    "ID": 1524,
+    "path": "Assets/_Resources/Sound/Battle/SkillStart/SkillStart_buff.mp3",
+    "volume": 0.5
+  },
+  {
+    "ID": 1525,
+    "path": "Assets/_Resources/Sound/Battle/SkillStart/SkillStart_xingxing.mp3",
+    "volume": 0.5
+  },
+  {
+    "ID": 1526,
+    "path": "Assets/_Resources/Sound/Battle/SkillStart/SkillStart_chongci.mp3",
+    "volume": 0.5
+  },
+  {
+    "ID": 1527,
+    "path": "Assets/_Resources/Sound/Battle/SkillStart/SkillStart_pangu.mp3",
+    "volume": 0.5
+  },
+  {
+    "ID": 1528,
+    "path": "Assets/_Resources/Sound/Battle/SkillStart/SkillStart_xingtian.mp3",
+    "volume": 0.5
+  },
+  {
+    "ID": 1529,
+    "path": "Assets/_Resources/Sound/Battle/SkillStart/SkillStart_zhanxian.mp3",
+    "volume": 0.5
+  },
+  {
+    "ID": 1530,
+    "path": "Assets/_Resources/Sound/Battle/SkillStart/SkillStart_fuleiya_skill.mp3",
+    "volume": 0.8
+  },
+  {
+    "ID": 1531,
+    "path": "Assets/_Resources/Sound/Battle/Hitted/SkillStart_fuleiya_hit.mp3",
+    "volume": 0.5
+  },
+  {
+    "ID": 1532,
+    "path": "Assets/_Resources/Sound/Battle/SkillStart/SkillStart_WuKong_NuQi.mp3",
+    "volume": 0.5
+  },
+  {
+    "ID": 1533,
+    "path": "Assets/_Resources/Sound/Battle/SkillStart/SkillStart_WuKong_Chuo_low.mp3",
+    "volume": 0.5
+  },
+  {
+    "ID": 1534,
+    "path": "ces/Sound/Battle/SkillStart/SkillStart_WuKong_Chuo_High.mp3_Chuo_High.mp3",
+    "volume": 0.5
+  },
+  {
+    "ID": 1535,
+    "path": "Assets/_Resources/Sound/Battle/SkillStart/SkillStart_WuKong_teshu.mp3",
+    "volume": 0.5
+  },
+  {
+    "ID": 1536,
+    "path": "Assets/_Resources/Sound/Battle/SkillStart/SkillStart_Huiwu.mp3",
+    "volume": 0.5
+  },
+  {
+    "ID": 1537,
+    "path": "Assets/_Resources/Sound/Battle/SkillStart/SkillStart_cunzheng_big.mp3",
+    "volume": 0.5
+  },
+  {
+    "ID": 1538,
+    "path": "Assets/_Resources/Sound/Battle/SkillStart/SkillStart_cunzheng_small.mp3",
+    "volume": 0.5
+  },
+  {
+    "ID": 1539,
+    "path": "Assets/_Resources/Sound/Battle/SkillStart/SkillStart_cunzheng_down.mp3",
+    "volume": 0.5
+  },
+  {
+    "ID": 1540,
+    "path": "Assets/_Resources/Sound/Battle/SkillStart/Skill_Start_XSCapy_XSXuLi.mp3",
+    "volume": 0.5
+  },
+  {
+    "ID": 1541,
+    "path": "Assets/_Resources/Sound/Battle/SkillStart/SkillStart_XS_CapyFire.mp3",
+    "volume": 0.5
+  },
+  {
+    "ID": 1542,
+    "path": "Assets/_Resources/Sound/Battle/SkillStart/Skill_Start_XSCapy_Special.mp3",
+    "volume": 0.5
+  },
+  {
+    "ID": 1543,
+    "path": "Assets/_Resources/Sound/Battle/SkillStart/Skill_Start_XSCapy_XuLi.mp3",
+    "volume": 0.5
+  },
+  {
+    "ID": 1544,
+    "path": "Assets/_Resources/Sound/Battle/SkillStart/SkillStart_CapyFire.mp3",
+    "volume": 0.5
+  },
+  {
+    "ID": 1545,
+    "path": "Assets/_Resources/Sound/Battle/SkillStart/SkillStart_XuanFengZhan.mp3",
+    "volume": 0.7
+  },
+  {
+    "ID": 1546,
+    "path": "Assets/_Resources/Sound/Battle/SkillStart/Skill_Start_XuanZhuanXiaPi.mp3",
+    "volume": 0.7
+  },
+  {
+    "ID": 1547,
+    "path": "Assets/_Resources/Sound/Battle/SkillStart/SkillStart_BlueT_atk.mp3",
+    "volume": 0.5
+  },
+  {
+    "ID": 1548,
+    "path": "Assets/_Resources/Sound/Battle/SkillStart/Skill_Show_BlueT.mp3",
+    "volume": 0.7
+  },
+  {
+    "ID": 1549,
+    "path": "Assets/_Resources/Sound/Battle/SkillStart/SkillStart_RedT_atk.mp3",
+    "volume": 0.5
+  },
+  {
+    "ID": 1550,
+    "path": "Assets/_Resources/Sound/Battle/SkillStart/SkillStart_LuoXuanChong.mp3",
+    "volume": 0.7
+  },
+  {
+    "ID": 1551,
+    "path": "Assets/_Resources/Sound/Battle/SkillStart/SkillStart_XuanFengTi.mp3",
+    "volume": 0.7
+  },
+  {
+    "ID": 1552,
+    "path": "Assets/_Resources/Sound/Battle/SkillStart/SkillStart_Hammer.mp3",
+    "volume": 0.5
+  },
+  {
+    "ID": 1553,
+    "path": "Assets/_Resources/Sound/Battle/SkillStart/SkillStart_NiuTou_Throw.mp3",
+    "volume": 0.5
+  },
+  {
+    "ID": 1554,
+    "path": "Assets/_Resources/Sound/Battle/SkillStart/SkillStart_Lapuda.mp3",
+    "volume": 0.5
+  },
+  {
+    "ID": 1555,
+    "path": "Assets/_Resources/Sound/Battle/SkillStart/SkillStart_ZhuMian_LianShe.mp3",
+    "volume": 0.5
+  },
+  {
+    "ID": 1556,
+    "path": "Assets/_Resources/Sound/Battle/SkillStart/Skill_Show_RedT.mp3",
+    "volume": 0.7
+  },
+  {
+    "ID": 1557,
+    "path": "Assets/_Resources/Sound/Battle/SkillStart/SkillStart_RedT_1.mp3",
+    "volume": 0.5
+  },
+  {
+    "ID": 1558,
+    "path": "Assets/_Resources/Sound/Battle/SkillStart/SkillStart_RedT_2.mp3",
+    "volume": 0.5
+  },
+  {
+    "ID": 1559,
+    "path": "Assets/_Resources/Sound/Battle/SkillStart/SkillStart_RedT_3.mp3",
+    "volume": 0.5
+  },
+  {
+    "ID": 2001,
+    "path": "Assets/_Resources/Sound/Battle/MonsterSkillStart/SkillStart_BeastBite.mp3",
+    "volume": 0.5
+  },
+  {
+    "ID": 2002,
+    "path": "Assets/_Resources/Sound/Battle/MonsterSkillStart/SkillStart_WolfBite.mp3",
+    "volume": 0.5
+  },
+  {
+    "ID": 2003,
+    "path": "Assets/_Resources/Sound/UI/UI_Lock.mp3",
+    "volume": 0.5
+  },
+  {
+    "ID": 2004,
+    "path": "",
+    "volume": 0
+  },
+  {
+    "ID": 2005,
+    "path": "",
+    "volume": 0
+  },
+  {
+    "ID": 2006,
+    "path": "Assets/_Resources/Sound/UI/UI_Unlock.mp3",
+    "volume": 0.5
+  },
+  {
+    "ID": 2007,
+    "path": "",
+    "volume": 0
+  },
+  {
+    "ID": 2008,
+    "path": "",
+    "volume": 0
+  },
+  {
+    "ID": 4095,
+    "path": "Assets/_Resources/Sound/UI/refresh.mp3",
+    "volume": 0.6
+  },
+  {
+    "ID": 4096,
+    "path": "Assets/_Resources/Sound/UI/ActivityRichMan/DiceRoll.MP3",
+    "volume": 0.5
+  },
+  {
+    "ID": 4097,
+    "path": "Assets/_Resources/Sound/UI/ActivityRichMan/DicePrison.MP3",
+    "volume": 0.5
+  },
+  {
+    "ID": 4098,
+    "path": "Assets/_Resources/Sound/UI/ActivityRichMan/TrainRun.MP3",
+    "volume": 0.5
+  },
+  {
+    "ID": 4099,
+    "path": "Assets/_Resources/Sound/UI/ActivityRichMan/StarGet.MP3",
+    "volume": 0.5
+  },
+  {
+    "ID": 4100,
+    "path": "Assets/_Resources/Sound/UI/ActivityRichMan/MagicGrid.MP3",
+    "volume": 0.5
+  },
+  {
+    "ID": 4101,
+    "path": "Assets/_Resources/Sound/UI/ActivityRichMan/TurnGrid.MP3",
+    "volume": 0.5
+  },
+  {
+    "ID": 4102,
+    "path": "Assets/_Resources/Sound/UI/ActivityRichMan/StarAddUp.MP3",
+    "volume": 0.5
+  },
+  {
+    "ID": 4103,
+    "path": "Assets/_Resources/Sound/UI/ActivityRichMan/PrisonGrid.MP3",
+    "volume": 0.5
+  },
+  {
+    "ID": 4104,
+    "path": "Assets/_Resources/Sound/UI/ActivityRichMan/MonopolyJump.MP3",
+    "volume": 0.5
+  },
+  {
+    "ID": 290010,
+    "path": "Assets/_Resources/Sound/UI/ActivityRichMan/RunnerChoose_speed_up.wav",
+    "volume": 1
+  },
+  {
+    "ID": 290011,
+    "path": "Assets/_Resources/Sound/UI/ActivityRichMan/Board-Dice-Landing10.wav",
+    "volume": 1
+  },
+  {
+    "ID": 290013,
+    "path": "Assets/_Resources/Sound/UI/Go.wav",
+    "volume": 1
+  },
+  {
+    "ID": 4105,
+    "path": "Assets/_Resources/Sound/UI/Fishing/ThrowRod.MP3",
+    "volume": 0.5
+  },
+  {
+    "ID": 4106,
+    "path": "Assets/_Resources/Sound/UI/Fishing/SpinRod.MP3",
+    "volume": 0.5
+  },
+  {
+    "ID": 4107,
+    "path": "Assets/_Resources/Sound/UI/Fishing/FishGet.MP3",
+    "volume": 0.5
+  },
+  {
+    "ID": 4108,
+    "path": "Assets/_Resources/Sound/UI/Fishing/LineBreak.MP3",
+    "volume": 0.5
+  },
+  {
+    "ID": 4109,
+    "path": "Assets/_Resources/Sound/UI/Fishing/SpinRodReverse.MP3",
+    "volume": 0.5
+  },
+  {
+    "ID": 4148,
+    "path": "Assets/_Resources/Sound/UI/CapsuleRoll.MP3",
+    "volume": 1
+  },
+  {
+    "ID": 4149,
+    "path": "",
+    "volume": 0
+  },
+  {
+    "ID": 4150,
+    "path": "Assets/_Resources/Sound/UI/CapsuleKnob.MP3",
+    "volume": 1
+  },
+  {
+    "ID": 4151,
+    "path": "Assets/_Resources/Sound/UI/CapsuleBall.MP3",
+    "volume": 1
+  },
+  {
+    "ID": 5000,
+    "path": "Assets/_Resources/Sound/UI/ActivityRichMan/PiggyBreak.mp3",
+    "volume": 0.5
+  },
+  {
+    "ID": 260018,
+    "path": "Assets/_Resources/Sound/UI/Wheel.mp3",
+    "volume": 0.5
+  },
+  {
+    "ID": 260019,
+    "path": "Assets/_Resources/Sound/UI/WheelRotate.mp3",
+    "volume": 1
+  },
+  {
+    "ID": 260020,
+    "path": "Assets/_Resources/Sound/UI/WheelGet.mp3",
+    "volume": 1
+  },
+  {
+    "ID": 5001,
+    "path": "Assets/_Resources/Sound/Battle/SkillStart/Hero_Start_Panda.mp3",
+    "volume": 1
+  },
+  {
+    "ID": 5002,
+    "path": "Assets/_Resources/Sound/Battle/SkillStart/Hero_Start_Bear.mp3",
+    "volume": 1
+  },
+  {
+    "ID": 5003,
+    "path": "Assets/_Resources/Sound/Battle/SkillStart/Hero_Start_XiaoLongNv.mp3",
+    "volume": 1
+  },
+  {
+    "ID": 5004,
+    "path": "Assets/_Resources/Sound/UI/LevelUp.mp3",
+    "volume": 1
+  },
+  {
+    "ID": 5005,
+    "path": "Assets/_Resources/Sound/UI/LevelUp1.mp3",
+    "volume": 1
+  },
+  {
+    "ID": 5006,
+    "path": "Assets/_Resources/Sound/UI/LevelUp.mp3",
+    "volume": 1
+  },
+  {
+    "ID": 5007,
+    "path": "Assets/_Resources/Sound/UI/Button_Click_MainPage.mp3",
+    "volume": 1
+  },
+  {
+    "ID": 5008,
+    "path": "Assets/_Resources/Sound/UI/Button_Click_Common.wav",
+    "volume": 1
+  },
+  {
+    "ID": 5009,
+    "path": "Assets/_Resources/Sound/Battle/SkillStart/Hero_Start_Pig.mp3",
+    "volume": 1
+  },
+  {
+    "ID": 5010,
+    "path": "Assets/_Resources/Sound/UI/UI_pet_5.mp3",
+    "volume": 1
+  },
+  {
+    "ID": 5011,
+    "path": "Assets/_Resources/Sound/Battle/SkillStart/Hero_Start_JiaJiaLin.mp3",
+    "volume": 1
+  },
+  {
+    "ID": 5012,
+    "path": "Assets/_Resources/Sound/Battle/SkillStart/SkillStart_ThunderBall.mp3",
+    "volume": 1
+  },
+  {
+    "ID": 5013,
+    "path": "Assets/_Resources/Sound/Battle/SkillStart/SkillStart_ThunderLink.mp3",
+    "volume": 1
+  },
+  {
+    "ID": 3151,
+    "path": "Assets/_Resources/Sound/UI/UI_Dive_Bubble.mp3",
+    "volume": 0.5
+  },
+  {
+    "ID": 3152,
+    "path": "Assets/_Resources/Sound/UI/UI_Dive_Ice.mp3",
+    "volume": 0.5
+  },
+  {
+    "ID": 3153,
+    "path": "Assets/_Resources/Sound/UI/UI_Dive_Flashlight.mp3",
+    "volume": 0.5
+  },
+  {
+    "ID": 3154,
+    "path": "Assets/_Resources/Sound/UI/UI_Dive_Bomb.mp3",
+    "volume": 0.5
+  },
+  {
+    "ID": 3155,
+    "path": "Assets/_Resources/Sound/UI/UI_zhongzhi.mp3",
+    "volume": 1
+  },
+  {
+    "ID": 3156,
+    "path": "Assets/_Resources/Sound/UI/EventUI_Show.mp3",
+    "volume": 1
+  },
+  {
+    "ID": 3157,
+    "path": "Assets/_Resources/Sound/BGM/pantaoyuan.mp3",
+    "volume": 0.5
+  },
+  {
+    "ID": 3158,
+    "path": "Assets/_Resources/Sound/UI/Slot_Active.mp3",
+    "volume": 0.5
+  },
+  {
+    "ID": 3159,
+    "path": "Assets/_Resources/Sound/BGM/BGM_DuanWu.mp3",
+    "volume": 0.5
+  },
+  {
+    "ID": 3160,
+    "path": "",
+    "volume": 0
+  },
+  {
+    "ID": 5100,
+    "path": "Assets/_Resources/Sound/UI/Fishing/SpinRodReverse.MP3",
+    "volume": 0.5
+  },
+  {
+    "ID": 5101,
+    "path": "Assets/_Resources/Sound/UI/eventrandomturnsuperlucky.mp3",
+    "volume": 1
+  },
+  {
+    "ID": 5102,
+    "path": "Assets/_Resources/Sound/UI/eventrandomturnlucky.mp3",
+    "volume": 1
+  },
+  {
+    "ID": 5103,
+    "path": "Assets/_Resources/Sound/UI/eventrandomturnnormal.mp3",
+    "volume": 1
+  },
+  {
+    "ID": 5104,
+    "path": "Assets/_Resources/Sound/UI/eventrandomturnunlucky.mp3",
+    "volume": 1
+  },
+  {
+    "ID": 5105,
+    "path": "Assets/_Resources/Sound/UI/UI_zhongzhi.mp3",
+    "volume": 1
+  },
+  {
+    "ID": 5106,
+    "path": "Assets/_Resources/Sound/UI/Reward.mp3",
+    "volume": 0.6
+  },
+  {
+    "ID": 5107,
+    "path": "Assets/_Resources/Sound/UI/Reward.mp3",
+    "volume": 0.6
+  },
+  {
+    "ID": 5108,
+    "path": "Assets/_Resources/Sound/UI/Reward.mp3",
+    "volume": 0.6
+  },
+  {
+    "ID": 5109,
+    "path": "Assets/_Resources/Sound/BGM/bgm_myth.mp3",
+    "volume": 0.6
+  },
+  {
+    "ID": 5110,
+    "path": "",
+    "volume": 0
+  },
+  {
+    "ID": 5111,
+    "path": "",
+    "volume": 0
+  },
+  {
+    "ID": 4210,
+    "path": "Assets/_Resources/Sound/BGM/BGM_DanZhu.mp3",
+    "volume": 0.5
+  },
+  {
+    "ID": 4211,
+    "path": "Assets/_Resources/Sound/BGM/BGM_DanZhu.mp3",
+    "volume": 0.5
+  },
+  {
+    "ID": 4212,
+    "path": "Assets/_Resources/Sound/UI/ActivityPlinko/Plinko_Ball_Collision.wav",
+    "volume": 0.2
+  },
+  {
+    "ID": 4213,
+    "path": "Assets/_Resources/Sound/UI/ActivityPlinko/Plinko_Ball_Low.MP3",
+    "volume": 0.2
+  },
+  {
+    "ID": 4214,
+    "path": "Assets/_Resources/Sound/UI/ActivityPlinko/Plinko_Ball_Low.MP3",
+    "volume": 0.2
+  },
+  {
+    "ID": 4215,
+    "path": "",
+    "volume": 0
+  },
+  {
+    "ID": 4216,
+    "path": "",
+    "volume": 0
+  }
+]

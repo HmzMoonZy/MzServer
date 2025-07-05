@@ -1,0 +1,539 @@
+[
+  {
+    "id": 10101,
+    "nameId": "Member_Name_10101",
+    "notes": "魔鬼鱼",
+    "atlas": 108,
+    "icon": "Fish_1",
+    "area": 1,
+    "type": 1,
+    "number": 4,
+    "weight": 300,
+    "weightFloat": [
+      75,
+      125
+    ],
+    "initialDamage": 25,
+    "strength": 1250,
+    "speed": 400,
+    "actionList": [
+      1,
+      2
+    ],
+    "attributes": "Attack%=10",
+    "skillBuild": 0
+  },
+  {
+    "id": 10102,
+    "nameId": "Member_Name_10102",
+    "notes": "纵带羊鱼",
+    "atlas": 108,
+    "icon": "Fish_2",
+    "area": 1,
+    "type": 1,
+    "number": 4,
+    "weight": 450,
+    "weightFloat": [
+      75,
+      125
+    ],
+    "initialDamage": 25,
+    "strength": 1250,
+    "speed": 400,
+    "actionList": [
+      1,
+      2
+    ],
+    "attributes": "HPMax%=10",
+    "skillBuild": 0
+  },
+  {
+    "id": 10103,
+    "nameId": "Member_Name_10103",
+    "notes": "大梭鱼",
+    "atlas": 108,
+    "icon": "Fish_3",
+    "area": 1,
+    "type": 1,
+    "number": 4,
+    "weight": 900,
+    "weightFloat": [
+      75,
+      125
+    ],
+    "initialDamage": 25,
+    "strength": 1250,
+    "speed": 400,
+    "actionList": [
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "attributes": "Defence%=10",
+    "skillBuild": 0
+  },
+  {
+    "id": 10104,
+    "nameId": "Member_Name_10104",
+    "notes": "天竺鲷",
+    "atlas": 108,
+    "icon": "Fish_4",
+    "area": 1,
+    "type": 1,
+    "number": 4,
+    "weight": 300,
+    "weightFloat": [
+      75,
+      125
+    ],
+    "initialDamage": 25,
+    "strength": 1250,
+    "speed": 400,
+    "actionList": [
+      1,
+      2
+    ],
+    "attributes": "Attack%=10",
+    "skillBuild": 0
+  },
+  {
+    "id": 10105,
+    "nameId": "Member_Name_10105",
+    "notes": "鮟鱇鱼",
+    "atlas": 108,
+    "icon": "Fish_5",
+    "area": 1,
+    "type": 1,
+    "number": 4,
+    "weight": 450,
+    "weightFloat": [
+      75,
+      125
+    ],
+    "initialDamage": 25,
+    "strength": 1250,
+    "speed": 400,
+    "actionList": [
+      1,
+      2
+    ],
+    "attributes": "HPMax%=10",
+    "skillBuild": 0
+  },
+  {
+    "id": 10106,
+    "nameId": "Member_Name_10106",
+    "notes": "白面弄鱼",
+    "atlas": 108,
+    "icon": "Fish_6",
+    "area": 1,
+    "type": 1,
+    "number": 4,
+    "weight": 900,
+    "weightFloat": [
+      75,
+      125
+    ],
+    "initialDamage": 25,
+    "strength": 1250,
+    "speed": 400,
+    "actionList": [
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "attributes": "Defence%=10",
+    "skillBuild": 0
+  },
+  {
+    "id": 10107,
+    "nameId": "Member_Name_10107",
+    "notes": "稻田鱼",
+    "atlas": 108,
+    "icon": "Fish_7",
+    "area": 1,
+    "type": 2,
+    "number": 3,
+    "weight": 900,
+    "weightFloat": [
+      75,
+      125
+    ],
+    "initialDamage": 35,
+    "strength": 1300,
+    "speed": 450,
+    "actionList": [
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "attributes": "Attack%=20",
+    "skillBuild": 0
+  },
+  {
+    "id": 10108,
+    "nameId": "Member_Name_10108",
+    "notes": "翻车鱼",
+    "atlas": 108,
+    "icon": "Fish_8",
+    "area": 1,
+    "type": 2,
+    "number": 3,
+    "weight": 2250,
+    "weightFloat": [
+      75,
+      125
+    ],
+    "initialDamage": 35,
+    "strength": 1300,
+    "speed": 450,
+    "actionList": [
+      5,
+      6,
+      7,
+      8
+    ],
+    "attributes": "HPMax%=20",
+    "skillBuild": 0
+  },
+  {
+    "id": 10109,
+    "nameId": "Member_Name_10109",
+    "notes": "骨舌鱼",
+    "atlas": 108,
+    "icon": "Fish_9",
+    "area": 1,
+    "type": 2,
+    "number": 3,
+    "weight": 900,
+    "weightFloat": [
+      75,
+      125
+    ],
+    "initialDamage": 35,
+    "strength": 1300,
+    "speed": 450,
+    "actionList": [
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "attributes": "Defence%=20",
+    "skillBuild": 0
+  },
+  {
+    "id": 10110,
+    "nameId": "Member_Name_10110",
+    "notes": "海胆",
+    "atlas": 108,
+    "icon": "Fish_10",
+    "area": 1,
+    "type": 2,
+    "number": 3,
+    "weight": 2250,
+    "weightFloat": [
+      75,
+      125
+    ],
+    "initialDamage": 35,
+    "strength": 1300,
+    "speed": 450,
+    "actionList": [
+      5,
+      6,
+      7,
+      8
+    ],
+    "attributes": "Attack%=10|HPMax%=10",
+    "skillBuild": 0
+  },
+  {
+    "id": 10111,
+    "nameId": "Member_Name_10111",
+    "notes": "海猎犬",
+    "atlas": 108,
+    "icon": "Fish_11",
+    "area": 1,
+    "type": 3,
+    "number": 2,
+    "weight": 4500,
+    "weightFloat": [
+      75,
+      125
+    ],
+    "initialDamage": 50,
+    "strength": 1350,
+    "speed": 550,
+    "actionList": [
+      5,
+      6,
+      7,
+      8
+    ],
+    "attributes": "HPMax%=20",
+    "skillBuild": 190201
+  },
+  {
+    "id": 10112,
+    "nameId": "Member_Name_10112",
+    "notes": "海螺",
+    "atlas": 108,
+    "icon": "Fish_12",
+    "area": 1,
+    "type": 3,
+    "number": 2,
+    "weight": 4500,
+    "weightFloat": [
+      75,
+      125
+    ],
+    "initialDamage": 50,
+    "strength": 1350,
+    "speed": 550,
+    "actionList": [
+      5,
+      6,
+      7,
+      8
+    ],
+    "attributes": "Attack%=20",
+    "skillBuild": 190202
+  },
+  {
+    "id": 10113,
+    "nameId": "Member_Name_10113",
+    "notes": "海天使",
+    "atlas": 108,
+    "icon": "Fish_13",
+    "area": 3,
+    "type": 1,
+    "number": 15,
+    "weight": 560,
+    "weightFloat": [
+      75,
+      125
+    ],
+    "initialDamage": 65,
+    "strength": 1650,
+    "speed": 1300,
+    "actionList": [
+      1,
+      2
+    ],
+    "attributes": "HPMax%=10|Attack%=10",
+    "skillBuild": 100001
+  },
+  {
+    "id": 10114,
+    "nameId": "Member_Name_10114",
+    "notes": "海兔",
+    "atlas": 108,
+    "icon": "Fish_14",
+    "area": 3,
+    "type": 1,
+    "number": 10,
+    "weight": 840,
+    "weightFloat": [
+      75,
+      125
+    ],
+    "initialDamage": 65,
+    "strength": 1650,
+    "speed": 1300,
+    "actionList": [
+      1,
+      2
+    ],
+    "attributes": "HPMax%=10|Attack%=10",
+    "skillBuild": 100001
+  },
+  {
+    "id": 10115,
+    "nameId": "Member_Name_10115",
+    "notes": "河豚",
+    "atlas": 108,
+    "icon": "Fish_15",
+    "area": 3,
+    "type": 1,
+    "number": 5,
+    "weight": 1680,
+    "weightFloat": [
+      75,
+      125
+    ],
+    "initialDamage": 65,
+    "strength": 1650,
+    "speed": 1300,
+    "actionList": [
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "attributes": "HPMax%=10|Attack%=10",
+    "skillBuild": 100001
+  },
+  {
+    "id": 10116,
+    "nameId": "Member_Name_10116",
+    "notes": "旗鱼",
+    "atlas": 108,
+    "icon": "Fish_16",
+    "area": 3,
+    "type": 2,
+    "number": 6,
+    "weight": 1680,
+    "weightFloat": [
+      75,
+      125
+    ],
+    "initialDamage": 75,
+    "strength": 1700,
+    "speed": 1350,
+    "actionList": [
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "attributes": "HPMax%=10|Attack%=10",
+    "skillBuild": 100001
+  },
+  {
+    "id": 10117,
+    "nameId": "Member_Name_10117",
+    "notes": "热带鱼",
+    "atlas": 108,
+    "icon": "Fish_17",
+    "area": 3,
+    "type": 2,
+    "number": 3,
+    "weight": 4200,
+    "weightFloat": [
+      75,
+      125
+    ],
+    "initialDamage": 75,
+    "strength": 1700,
+    "speed": 1350,
+    "actionList": [
+      5,
+      6,
+      7,
+      8
+    ],
+    "attributes": "HPMax%=10|Attack%=10",
+    "skillBuild": 100001
+  },
+  {
+    "id": 10118,
+    "nameId": "Member_Name_10118",
+    "notes": "食人鱼",
+    "atlas": 108,
+    "icon": "Fish_18",
+    "area": 3,
+    "type": 3,
+    "number": 1,
+    "weight": 10800,
+    "weightFloat": [
+      75,
+      125
+    ],
+    "initialDamage": 90,
+    "strength": 1750,
+    "speed": 1400,
+    "actionList": [
+      5,
+      6,
+      7,
+      8
+    ],
+    "attributes": "HPMax%=10|Attack%=10",
+    "skillBuild": 100001
+  },
+  {
+    "id": 10119,
+    "nameId": "Member_Name_10119",
+    "notes": "西星斑",
+    "atlas": 108,
+    "icon": "Fish_19",
+    "area": 4,
+    "type": 1,
+    "number": 30,
+    "weight": 1200,
+    "weightFloat": [
+      75,
+      125
+    ],
+    "initialDamage": 90,
+    "strength": 1850,
+    "speed": 1750,
+    "actionList": [
+      1,
+      2
+    ],
+    "attributes": "HPMax%=10|Attack%=10",
+    "skillBuild": 100001
+  },
+  {
+    "id": 10120,
+    "nameId": "Member_Name_10120",
+    "notes": "鲟鱼",
+    "atlas": 108,
+    "icon": "Fish_20",
+    "area": 4,
+    "type": 1,
+    "number": 20,
+    "weight": 1800,
+    "weightFloat": [
+      75,
+      125
+    ],
+    "initialDamage": 90,
+    "strength": 1850,
+    "speed": 1750,
+    "actionList": [
+      1,
+      2
+    ],
+    "attributes": "HPMax%=10|Attack%=10",
+    "skillBuild": 100001
+  },
+  {
+    "id": 10121,
+    "nameId": "Member_Name_10121",
+    "notes": "海鳗",
+    "atlas": 108,
+    "icon": "Fish_21",
+    "area": 4,
+    "type": 1,
+    "number": 10,
+    "weight": 3600,
+    "weightFloat": [
+      75,
+      125
+    ],
+    "initialDamage": 90,
+    "strength": 1850,
+    "speed": 1750,
+    "actionList": [
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "attributes": "HPMax%=10|Attack%=10",
+    "skillBuild": 100001
+  }
+]

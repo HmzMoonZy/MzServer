@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1001,
+    "atlas": 217,
+    "backgroundName": "talenttree_node_root_2",
+    "maxLevelBackgroundName": "talenttree_node_root_2",
+    "upgradeFx": "",
+    "CornerMarkOffset": [
+      0,
+      0,
+      -75
+    ],
+    "nodeScale": 1.15,
+    "IconScale": 1.1,
+    "noLink": 1
+  },
+  {
+    "id": 1002,
+    "atlas": 217,
+    "backgroundName": "talenttree_node_quality_1",
+    "maxLevelBackgroundName": "talenttree_node_quality_2",
+    "upgradeFx": "FX/UIFX_DianFengTianFu_Xiao",
+    "CornerMarkOffset": [
+      -8,
+      -22,
+      58
+    ],
+    "nodeScale": 1,
+    "IconScale": 0.8,
+    "noLink": 0
+  },
+  {
+    "id": 1003,
+    "atlas": 217,
+    "backgroundName": "talenttree_node_quality_3",
+    "maxLevelBackgroundName": "talenttree_node_quality_4",
+    "upgradeFx": "FX/UIFX_DianFengTianFu_Zhong",
+    "CornerMarkOffset": [
+      10,
+      -5,
+      40
+    ],
+    "nodeScale": 0.9,
+    "IconScale": 0.9,
+    "noLink": 0
+  },
+  {
+    "id": 1004,
+    "atlas": 217,
+    "backgroundName": "talenttree_node_quality_5",
+    "maxLevelBackgroundName": "talenttree_node_quality_6",
+    "upgradeFx": "FX/UIFX_DianFengTianFu_Da",
+    "CornerMarkOffset": [
+      0,
+      0,
+      28
+    ],
+    "nodeScale": 1,
+    "IconScale": 0.95,
+    "noLink": 0
+  }
+]

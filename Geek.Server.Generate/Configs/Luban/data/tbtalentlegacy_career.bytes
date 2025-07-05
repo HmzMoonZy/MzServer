@@ -1,0 +1,47 @@
+[
+  {
+    "id": 1,
+    "nameID": "legacy_career_name_1",
+    "isOpen": 1,
+    "condition": "",
+    "previewIconId": 162,
+    "previewIcon": "img_talentLegacy_xiaogu",
+    "unLockTips": ""
+  },
+  {
+    "id": 2,
+    "nameID": "legacy_career_name_2",
+    "isOpen": 1,
+    "condition": "10101,1",
+    "previewIconId": 162,
+    "previewIcon": "img_talentLegacy_qiangqi",
+    "unLockTips": "legacy_career_unlock_1"
+  },
+  {
+    "id": 3,
+    "nameID": "legacy_career_name_3",
+    "isOpen": 1,
+    "condition": "20101,1",
+    "previewIconId": 162,
+    "previewIcon": "img_talentLegacy_chihou",
+    "unLockTips": "legacy_career_unlock_2"
+  },
+  {
+    "id": 4,
+    "nameID": "legacy_career_name_4",
+    "isOpen": 1,
+    "condition": "30101,1",
+    "previewIconId": 162,
+    "previewIcon": "img_talentLegacy_maomiyou",
+    "unLockTips": "legacy_career_unlock_3"
+  },
+  {
+    "id": 5,
+    "nameID": "legacy_career_name_5",
+    "isOpen": 0,
+    "condition": "40101,1",
+    "previewIconId": 162,
+    "previewIcon": "img_talentLegacy_bigalong",
+    "unLockTips": "legacy_career_unlock_4"
+  }
+]

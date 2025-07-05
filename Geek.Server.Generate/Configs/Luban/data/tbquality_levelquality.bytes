@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "atlasId": 105,
+    "icon": "level_frame_1"
+  },
+  {
+    "id": 2,
+    "atlasId": 105,
+    "icon": "level_frame_2"
+  },
+  {
+    "id": 3,
+    "atlasId": 105,
+    "icon": "level_frame_3"
+  },
+  {
+    "id": 4,
+    "atlasId": 105,
+    "icon": "level_frame_4"
+  },
+  {
+    "id": 5,
+    "atlasId": 105,
+    "icon": "level_frame_5"
+  },
+  {
+    "id": 6,
+    "atlasId": 105,
+    "icon": "level_frame_6"
+  },
+  {
+    "id": 7,
+    "atlasId": 105,
+    "icon": "level_frame_7"
+  }
+]

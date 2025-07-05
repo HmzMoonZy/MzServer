@@ -1,0 +1,52 @@
+[
+  {
+    "id": 11001,
+    "monsterCfg": 33001,
+    "mapID": 100006,
+    "bgm": 650,
+    "buffData": [],
+    "bossId": 200620,
+    "uiScale": 0.7,
+    "offsetPos": [],
+    "speedAdd": 100
+  },
+  {
+    "id": 11002,
+    "monsterCfg": 33002,
+    "mapID": 100007,
+    "bgm": 650,
+    "buffData": [],
+    "bossId": 200641,
+    "uiScale": 0.5,
+    "offsetPos": [],
+    "speedAdd": 100
+  },
+  {
+    "id": 11003,
+    "monsterCfg": 33003,
+    "mapID": 100008,
+    "bgm": 650,
+    "buffData": [],
+    "bossId": 307813,
+    "uiScale": 0.5,
+    "offsetPos": [
+      0,
+      -220
+    ],
+    "speedAdd": 100
+  },
+  {
+    "id": 11004,
+    "monsterCfg": 33004,
+    "mapID": 100008,
+    "bgm": 650,
+    "buffData": [],
+    "bossId": 307814,
+    "uiScale": 0.5,
+    "offsetPos": [
+      0,
+      -220
+    ],
+    "speedAdd": 100
+  }
+]

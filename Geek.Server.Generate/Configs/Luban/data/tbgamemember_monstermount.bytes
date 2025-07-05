@@ -1,0 +1,83 @@
+[
+  {
+    "id": 1,
+    "modelID": 381005,
+    "addSkills": [
+      530021
+    ],
+    "shareHpPercent": 3500,
+    "mountScale": 0.55
+  },
+  {
+    "id": 2,
+    "modelID": 381001,
+    "addSkills": [
+      530011
+    ],
+    "shareHpPercent": 3500,
+    "mountScale": 0.52
+  },
+  {
+    "id": 3,
+    "modelID": 381007,
+    "addSkills": [
+      530031
+    ],
+    "shareHpPercent": 3500,
+    "mountScale": 0.52
+  },
+  {
+    "id": 4,
+    "modelID": 381008,
+    "addSkills": [
+      530041
+    ],
+    "shareHpPercent": 3500,
+    "mountScale": 0.52
+  },
+  {
+    "id": 5,
+    "modelID": 381004,
+    "addSkills": [
+      530051
+    ],
+    "shareHpPercent": 3500,
+    "mountScale": 0.52
+  },
+  {
+    "id": 6,
+    "modelID": 383002,
+    "addSkills": [
+      530061
+    ],
+    "shareHpPercent": 3500,
+    "mountScale": 0.52
+  },
+  {
+    "id": 7,
+    "modelID": 382003,
+    "addSkills": [
+      530071
+    ],
+    "shareHpPercent": 3500,
+    "mountScale": 0.52
+  },
+  {
+    "id": 8,
+    "modelID": 382004,
+    "addSkills": [
+      530011
+    ],
+    "shareHpPercent": 3500,
+    "mountScale": 0.52
+  },
+  {
+    "id": 9,
+    "modelID": 381009,
+    "addSkills": [
+      530041
+    ],
+    "shareHpPercent": 3500,
+    "mountScale": 0.52
+  }
+]

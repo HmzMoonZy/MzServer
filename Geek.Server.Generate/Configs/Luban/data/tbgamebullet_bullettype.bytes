@@ -1,0 +1,27 @@
+[
+  {
+    "id": 1,
+    "sClassName": "Server.SBullet_Teleport",
+    "cClassName": "HotFix.Client.CBullet_Teleport"
+  },
+  {
+    "id": 2,
+    "sClassName": "Server.SBullet_Teleport",
+    "cClassName": "HotFix.Client.CBullet_LineMovement"
+  },
+  {
+    "id": 3,
+    "sClassName": "Server.SBullet_Teleport",
+    "cClassName": "HotFix.Client.CBullet_Curve"
+  },
+  {
+    "id": 4,
+    "sClassName": "Server.SBullet_Teleport",
+    "cClassName": "HotFix.Client.CBullet_Swordkee"
+  },
+  {
+    "id": 5,
+    "sClassName": "Server.SBullet_Teleport",
+    "cClassName": "HotFix.Client.CBullet_FallingSword"
+  }
+]

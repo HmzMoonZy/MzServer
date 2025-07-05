@@ -1,0 +1,92 @@
+[
+  {
+    "ID": 1,
+    "ConnectActivityId": 250623,
+    "PlinkoCostItemNeed": 1000,
+    "Rewards": [
+      "2,100"
+    ],
+    "LanguageID": 14813
+  },
+  {
+    "ID": 2,
+    "ConnectActivityId": 250623,
+    "PlinkoCostItemNeed": 2000,
+    "Rewards": [
+      "2,100"
+    ],
+    "LanguageID": 14813
+  },
+  {
+    "ID": 3,
+    "ConnectActivityId": 250623,
+    "PlinkoCostItemNeed": 4000,
+    "Rewards": [
+      "2,200"
+    ],
+    "LanguageID": 14813
+  },
+  {
+    "ID": 4,
+    "ConnectActivityId": 250623,
+    "PlinkoCostItemNeed": 6000,
+    "Rewards": [
+      "2,200"
+    ],
+    "LanguageID": 14813
+  },
+  {
+    "ID": 5,
+    "ConnectActivityId": 250623,
+    "PlinkoCostItemNeed": 10000,
+    "Rewards": [
+      "2,300"
+    ],
+    "LanguageID": 14813
+  },
+  {
+    "ID": 6,
+    "ConnectActivityId": 250623,
+    "PlinkoCostItemNeed": 15000,
+    "Rewards": [
+      "2,300"
+    ],
+    "LanguageID": 14813
+  },
+  {
+    "ID": 7,
+    "ConnectActivityId": 250623,
+    "PlinkoCostItemNeed": 20000,
+    "Rewards": [
+      "2,400"
+    ],
+    "LanguageID": 14813
+  },
+  {
+    "ID": 8,
+    "ConnectActivityId": 250623,
+    "PlinkoCostItemNeed": 25000,
+    "Rewards": [
+      "2,400"
+    ],
+    "LanguageID": 14813
+  },
+  {
+    "ID": 9,
+    "ConnectActivityId": 250623,
+    "PlinkoCostItemNeed": 30000,
+    "Rewards": [
+      "2,500"
+    ],
+    "LanguageID": 14813
+  },
+  {
+    "ID": 10,
+    "ConnectActivityId": 250623,
+    "PlinkoCostItemNeed": 40000,
+    "Rewards": [
+      "2,500"
+    ],
+    "LanguageID": 14813
+  }
+]

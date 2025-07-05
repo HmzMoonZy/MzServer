@@ -1,0 +1,72 @@
+[
+  {
+    "id": 1,
+    "weight": 100,
+    "param": [
+      1,
+      25
+    ],
+    "atlas": 101,
+    "icon": "icon_currenthp"
+  },
+  {
+    "id": 2,
+    "weight": 100,
+    "param": [
+      2,
+      15
+    ],
+    "atlas": 101,
+    "icon": "icon_attack"
+  },
+  {
+    "id": 3,
+    "weight": 100,
+    "param": [
+      3,
+      15
+    ],
+    "atlas": 101,
+    "icon": "icon_defense"
+  },
+  {
+    "id": 4,
+    "weight": 100,
+    "param": [
+      4,
+      15
+    ],
+    "atlas": 101,
+    "icon": "icon_hp"
+  },
+  {
+    "id": 6,
+    "weight": 100,
+    "param": [
+      5,
+      0
+    ],
+    "atlas": 0,
+    "icon": ""
+  },
+  {
+    "id": 7,
+    "weight": 100,
+    "param": [
+      5,
+      1
+    ],
+    "atlas": 0,
+    "icon": ""
+  },
+  {
+    "id": 8,
+    "weight": 100,
+    "param": [
+      5,
+      2
+    ],
+    "atlas": 0,
+    "icon": ""
+  }
+]

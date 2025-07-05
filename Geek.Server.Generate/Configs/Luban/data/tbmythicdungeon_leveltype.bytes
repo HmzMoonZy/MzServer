@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "beginLanguage": "Mythic_turntable_desc_1",
+    "nameId": "mythic_turntable_monster",
+    "memberId": 0,
+    "buildId": 0
+  },
+  {
+    "id": 2,
+    "beginLanguage": "Mythic_turntable_desc_2",
+    "nameId": "mythic_turntable_box",
+    "memberId": 0,
+    "buildId": 0
+  },
+  {
+    "id": 3,
+    "beginLanguage": "Mythic_turntable_desc_3",
+    "nameId": "mythic_turntable_angel",
+    "memberId": 10205,
+    "buildId": 107
+  },
+  {
+    "id": 4,
+    "beginLanguage": "Mythic_turntable_desc_4",
+    "nameId": "mythic_turntable_demond",
+    "memberId": 10206,
+    "buildId": 106
+  },
+  {
+    "id": 5,
+    "beginLanguage": "Mythic_turntable_desc_5",
+    "nameId": "mythic_turntable_boss",
+    "memberId": 0,
+    "buildId": 0
+  }
+]

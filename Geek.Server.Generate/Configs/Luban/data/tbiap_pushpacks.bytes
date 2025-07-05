@@ -1,0 +1,168 @@
+[
+  {
+    "id": 701,
+    "packType": 6,
+    "group": 1,
+    "products": [
+      "130304,1",
+      "60,20",
+      "1,5000",
+      "2,120"
+    ],
+    "products2": [],
+    "products3": [],
+    "priority": 1,
+    "parameters": "172800",
+    "nameID": "uigiftrecharge_title",
+    "descID": "uigiftrecharge_des_1",
+    "valueNum": 5000,
+    "valueDescID": [
+      "uigiftrecharge_value_des_1"
+    ],
+    "iconAtlasID": 125,
+    "iconName": "giftpack_icon_1",
+    "isEffect": 1,
+    "nodePrefab": "IAPRechargeGiftNode_6"
+  },
+  {
+    "id": 702,
+    "packType": 6,
+    "group": 2,
+    "products": [
+      "210304,1",
+      "24,200",
+      "2,600"
+    ],
+    "products2": [],
+    "products3": [],
+    "priority": 1,
+    "parameters": "259200",
+    "nameID": "uigiftrecharge_title",
+    "descID": "uigiftrecharge_des_2",
+    "valueNum": 5000,
+    "valueDescID": [
+      "uigiftrecharge_value_des_1"
+    ],
+    "iconAtlasID": 125,
+    "iconName": "giftpack_icon_2",
+    "isEffect": 1,
+    "nodePrefab": "IAPRechargeGiftNode_30"
+  },
+  {
+    "id": 703,
+    "packType": 6,
+    "group": 3,
+    "products": [
+      "240104,1",
+      "62,10",
+      "25,120",
+      "2,1800"
+    ],
+    "products2": [],
+    "products3": [],
+    "priority": 1,
+    "parameters": "345600",
+    "nameID": "uigiftrecharge_title",
+    "descID": "uigiftrecharge_des_3",
+    "valueNum": 5000,
+    "valueDescID": [
+      "uigiftrecharge_value_des_1"
+    ],
+    "iconAtlasID": 125,
+    "iconName": "giftpack_icon_3",
+    "isEffect": 1,
+    "nodePrefab": "IAPRechargeGiftNode_98"
+  },
+  {
+    "id": 711,
+    "packType": 7,
+    "group": 1,
+    "products": [
+      "130304,1",
+      "60,10",
+      "1,5000",
+      "2,120"
+    ],
+    "products2": [
+      "401004,1",
+      "60,10"
+    ],
+    "products3": [
+      "60,10",
+      "1,20000"
+    ],
+    "priority": 1,
+    "parameters": "604800",
+    "nameID": "uimeeting_title",
+    "descID": "uigiftrecharge_des_1",
+    "valueNum": 5000,
+    "valueDescID": [
+      "uigiftrecharge_value_des_1"
+    ],
+    "iconAtlasID": 157,
+    "iconName": "mettinggift_icon_1",
+    "isEffect": 1,
+    "nodePrefab": ""
+  },
+  {
+    "id": 712,
+    "packType": 7,
+    "group": 2,
+    "products": [
+      "210304,1",
+      "24,200",
+      "2,600"
+    ],
+    "products2": [
+      "61,10",
+      "24,200"
+    ],
+    "products3": [
+      "25,10",
+      "24,200"
+    ],
+    "priority": 1,
+    "parameters": "604800",
+    "nameID": "uimeeting_title",
+    "descID": "uigiftrecharge_des_2",
+    "valueNum": 5000,
+    "valueDescID": [
+      "uigiftrecharge_value_des_1"
+    ],
+    "iconAtlasID": 157,
+    "iconName": "mettinggift_icon_2",
+    "isEffect": 1,
+    "nodePrefab": ""
+  },
+  {
+    "id": 713,
+    "packType": 7,
+    "group": 3,
+    "products": [
+      "240104,1",
+      "61,10",
+      "25,100",
+      "2,1800"
+    ],
+    "products2": [
+      "62,5",
+      "25,100"
+    ],
+    "products3": [
+      "401016,1",
+      "62,5"
+    ],
+    "priority": 1,
+    "parameters": "604800",
+    "nameID": "uimeeting_title",
+    "descID": "uigiftrecharge_des_3",
+    "valueNum": 5000,
+    "valueDescID": [
+      "uigiftrecharge_value_des_1"
+    ],
+    "iconAtlasID": 157,
+    "iconName": "mettinggift_icon_3",
+    "isEffect": 1,
+    "nodePrefab": ""
+  }
+]

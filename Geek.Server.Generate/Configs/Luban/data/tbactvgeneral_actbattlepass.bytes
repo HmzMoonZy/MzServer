@@ -1,0 +1,663 @@
+[
+  {
+    "id": 11,
+    "group": 11,
+    "themeId": 1,
+    "purchaseId": 581,
+    "playEndCanPurchase": 0,
+    "tga_bp_type": "困难主线",
+    "tga_event_name": "困难主线",
+    "name": "AprilFools_BattlePass_Name",
+    "bottomTipId": "AprilFools_BattlePass_BottomTip",
+    "atlasID": 158,
+    "itemIcon": "icon_chapterhard_item",
+    "finalRewardLimit": 0,
+    "finalRewardType": 0,
+    "finalQualityRandom": [],
+    "finalDrop": [],
+    "upgradeRate": [],
+    "bigRewardDesc": "",
+    "bigRewardShow": [],
+    "delItems": [
+      "1202,1000"
+    ]
+  },
+  {
+    "id": 12,
+    "group": 12,
+    "themeId": 1,
+    "purchaseId": 581,
+    "playEndCanPurchase": 0,
+    "tga_bp_type": "困难主线",
+    "tga_event_name": "困难主线",
+    "name": "AprilFools_BattlePass_Name",
+    "bottomTipId": "AprilFools_BattlePass_BottomTip",
+    "atlasID": 158,
+    "itemIcon": "icon_chapterhard_item",
+    "finalRewardLimit": 0,
+    "finalRewardType": 0,
+    "finalQualityRandom": [],
+    "finalDrop": [],
+    "upgradeRate": [],
+    "bigRewardDesc": "",
+    "bigRewardShow": [],
+    "delItems": [
+      "1202,1000"
+    ]
+  },
+  {
+    "id": 13,
+    "group": 13,
+    "themeId": 1,
+    "purchaseId": 581,
+    "playEndCanPurchase": 0,
+    "tga_bp_type": "困难主线",
+    "tga_event_name": "困难主线",
+    "name": "AprilFools_BattlePass_Name",
+    "bottomTipId": "AprilFools_BattlePass_BottomTip",
+    "atlasID": 158,
+    "itemIcon": "icon_chapterhard_item",
+    "finalRewardLimit": 0,
+    "finalRewardType": 0,
+    "finalQualityRandom": [],
+    "finalDrop": [],
+    "upgradeRate": [],
+    "bigRewardDesc": "",
+    "bigRewardShow": [],
+    "delItems": [
+      "1202,1000"
+    ]
+  },
+  {
+    "id": 14,
+    "group": 14,
+    "themeId": 1,
+    "purchaseId": 581,
+    "playEndCanPurchase": 0,
+    "tga_bp_type": "困难主线",
+    "tga_event_name": "困难主线",
+    "name": "AprilFools_BattlePass_Name",
+    "bottomTipId": "AprilFools_BattlePass_BottomTip",
+    "atlasID": 158,
+    "itemIcon": "icon_chapterhard_item",
+    "finalRewardLimit": 0,
+    "finalRewardType": 0,
+    "finalQualityRandom": [],
+    "finalDrop": [],
+    "upgradeRate": [],
+    "bigRewardDesc": "",
+    "bigRewardShow": [],
+    "delItems": [
+      "1202,1000"
+    ]
+  },
+  {
+    "id": 101,
+    "group": 101,
+    "themeId": 1,
+    "purchaseId": 905,
+    "playEndCanPurchase": 0,
+    "tga_bp_type": "活动通行证",
+    "tga_event_name": "钓鱼",
+    "name": "AprilFools_BattlePass_Name",
+    "bottomTipId": "AprilFools_BattlePass_BottomTip",
+    "atlasID": 196,
+    "itemIcon": "Score_Fish",
+    "finalRewardLimit": 10,
+    "finalRewardType": 2,
+    "finalQualityRandom": [
+      "1,65",
+      "2,30",
+      "3,5"
+    ],
+    "finalDrop": [
+      531,
+      532,
+      533,
+      534,
+      535,
+      536
+    ],
+    "upgradeRate": [
+      5000,
+      5000,
+      3000,
+      2000,
+      2000,
+      0
+    ],
+    "bigRewardDesc": "battalpass_big_reward_desc_2",
+    "bigRewardShow": [
+      "401023,1"
+    ],
+    "delItems": [
+      "1202,1000"
+    ]
+  },
+  {
+    "id": 102,
+    "group": 102,
+    "themeId": 2,
+    "purchaseId": 591,
+    "playEndCanPurchase": 1,
+    "tga_bp_type": "玩法基金",
+    "tga_event_name": "副本玩法基金",
+    "name": "gamefund_title",
+    "bottomTipId": "gamefund_tip",
+    "atlasID": 196,
+    "itemIcon": "Score_Fuben",
+    "finalRewardLimit": 0,
+    "finalRewardType": 0,
+    "finalQualityRandom": [],
+    "finalDrop": [],
+    "upgradeRate": [],
+    "bigRewardDesc": "",
+    "bigRewardShow": [],
+    "delItems": []
+  },
+  {
+    "id": 103,
+    "group": 103,
+    "themeId": 3,
+    "purchaseId": 592,
+    "playEndCanPurchase": 1,
+    "tga_bp_type": "玩法基金",
+    "tga_event_name": "游历玩法基金",
+    "name": "gamefund_title_travel",
+    "bottomTipId": "gamefund_tip_travel",
+    "atlasID": 196,
+    "itemIcon": "Score_Youli",
+    "finalRewardLimit": -1,
+    "finalRewardType": 1,
+    "finalQualityRandom": [],
+    "finalDrop": [
+      537
+    ],
+    "upgradeRate": [
+      10000
+    ],
+    "bigRewardDesc": "",
+    "bigRewardShow": [],
+    "delItems": []
+  },
+  {
+    "id": 104,
+    "group": 104,
+    "themeId": 4,
+    "purchaseId": 906,
+    "playEndCanPurchase": 0,
+    "tga_bp_type": "劳动节通行证",
+    "tga_event_name": "魔法学院",
+    "name": "LaborDay_BattlePass_EntryName",
+    "bottomTipId": "MayFools_BattlePass_BottomTip",
+    "atlasID": 107,
+    "itemIcon": "icon_laodong_bingo_choujiang",
+    "finalRewardLimit": 10,
+    "finalRewardType": 2,
+    "finalQualityRandom": [
+      "1,70",
+      "2,25",
+      "3,5"
+    ],
+    "finalDrop": [
+      540,
+      541,
+      542,
+      543,
+      544,
+      545
+    ],
+    "upgradeRate": [
+      4500,
+      3000,
+      2000,
+      1500,
+      1000,
+      0
+    ],
+    "bigRewardDesc": "battalpass_big_reward_desc_3",
+    "bigRewardShow": [
+      "400518,1"
+    ],
+    "delItems": [
+      "1203,1000"
+    ]
+  },
+  {
+    "id": 105,
+    "group": 105,
+    "themeId": 5,
+    "purchaseId": 909,
+    "playEndCanPurchase": 0,
+    "tga_bp_type": "活动通行证",
+    "tga_event_name": "钓鱼",
+    "name": "uifishing_battlepass",
+    "bottomTipId": "AprilFools_BattlePass_BottomTip",
+    "atlasID": 196,
+    "itemIcon": "Score_Fish",
+    "finalRewardLimit": 10,
+    "finalRewardType": 2,
+    "finalQualityRandom": [
+      "1,70",
+      "2,25",
+      "3,5"
+    ],
+    "finalDrop": [
+      521,
+      522,
+      523,
+      524,
+      525,
+      526
+    ],
+    "upgradeRate": [
+      4500,
+      3000,
+      2000,
+      1500,
+      1000,
+      0
+    ],
+    "bigRewardDesc": "",
+    "bigRewardShow": [],
+    "delItems": [
+      "2001,500"
+    ]
+  },
+  {
+    "id": 106,
+    "group": 106,
+    "themeId": 6,
+    "purchaseId": 907,
+    "playEndCanPurchase": 0,
+    "tga_bp_type": "端午节通行证",
+    "tga_event_name": "端午节通行证",
+    "name": "DragonBoat_BattlePass_EntryName",
+    "bottomTipId": "DragonBoat_BattlePass_BottomTip",
+    "atlasID": 107,
+    "itemIcon": "icon_duanwu_choujiang",
+    "finalRewardLimit": 10,
+    "finalRewardType": 0,
+    "finalQualityRandom": [
+      "1,70",
+      "2,25",
+      "3,5"
+    ],
+    "finalDrop": [
+      546,
+      547,
+      548,
+      549,
+      550,
+      551
+    ],
+    "upgradeRate": [
+      4500,
+      3000,
+      2000,
+      1500,
+      1000,
+      0
+    ],
+    "bigRewardDesc": "battalpass_big_reward_desc_3",
+    "bigRewardShow": [
+      "400520,1"
+    ],
+    "delItems": [
+      "1204,1000"
+    ]
+  },
+  {
+    "id": 107,
+    "group": 107,
+    "themeId": 7,
+    "purchaseId": 910,
+    "playEndCanPurchase": 0,
+    "tga_bp_type": "大秘境通行证",
+    "tga_event_name": "大秘境通行证",
+    "name": "Mythic_Enter_Name2",
+    "bottomTipId": "Mythic_BattlePass_BottomTip_S1",
+    "atlasID": 214,
+    "itemIcon": "UD_Icon_battle_ItemImg",
+    "finalRewardLimit": 0,
+    "finalRewardType": 0,
+    "finalQualityRandom": [],
+    "finalDrop": [],
+    "upgradeRate": [],
+    "bigRewardDesc": "",
+    "bigRewardShow": [],
+    "delItems": [
+      "1203,1000"
+    ]
+  },
+  {
+    "id": 108,
+    "group": 108,
+    "themeId": 7,
+    "purchaseId": 911,
+    "playEndCanPurchase": 0,
+    "tga_bp_type": "大秘境通行证",
+    "tga_event_name": "大秘境通行证",
+    "name": "Mythic_Enter_Name2",
+    "bottomTipId": "Mythic_BattlePass_BottomTip_S1",
+    "atlasID": 214,
+    "itemIcon": "UD_Icon_battle_ItemImg",
+    "finalRewardLimit": 0,
+    "finalRewardType": 0,
+    "finalQualityRandom": [],
+    "finalDrop": [],
+    "upgradeRate": [],
+    "bigRewardDesc": "",
+    "bigRewardShow": [],
+    "delItems": [
+      "1203,1000"
+    ]
+  },
+  {
+    "id": 109,
+    "group": 109,
+    "themeId": 7,
+    "purchaseId": 912,
+    "playEndCanPurchase": 0,
+    "tga_bp_type": "大秘境通行证",
+    "tga_event_name": "大秘境通行证",
+    "name": "Mythic_Enter_Name2",
+    "bottomTipId": "Mythic_BattlePass_BottomTip_S1",
+    "atlasID": 214,
+    "itemIcon": "UD_Icon_battle_ItemImg",
+    "finalRewardLimit": 0,
+    "finalRewardType": 0,
+    "finalQualityRandom": [],
+    "finalDrop": [],
+    "upgradeRate": [],
+    "bigRewardDesc": "",
+    "bigRewardShow": [],
+    "delItems": [
+      "1203,1000"
+    ]
+  },
+  {
+    "id": 110,
+    "group": 110,
+    "themeId": 8,
+    "purchaseId": 908,
+    "playEndCanPurchase": 0,
+    "tga_bp_type": "大富翁通行证",
+    "tga_event_name": "大富翁通行证",
+    "name": "RichMan_BattlePass_Name_6",
+    "bottomTipId": "RichMan_BattlePass_BottomTip_3",
+    "atlasID": 107,
+    "itemIcon": "icon_item_turn",
+    "finalRewardLimit": 10,
+    "finalRewardType": 2,
+    "finalQualityRandom": [
+      "1,70",
+      "2,25",
+      "3,5"
+    ],
+    "finalDrop": [
+      521,
+      522,
+      523,
+      524,
+      525,
+      526
+    ],
+    "upgradeRate": [
+      4500,
+      3000,
+      2000,
+      1500,
+      1000,
+      0
+    ],
+    "bigRewardDesc": "battalpass_big_reward_desc_3",
+    "bigRewardShow": [
+      "5015,1"
+    ],
+    "delItems": [
+      "1001,500"
+    ]
+  },
+  {
+    "id": 111,
+    "group": 111,
+    "themeId": 9,
+    "purchaseId": 913,
+    "playEndCanPurchase": 0,
+    "tga_bp_type": "彩蛋通行证",
+    "tga_event_name": "彩蛋通行证",
+    "name": "Egg_BattlePass_EntryName",
+    "bottomTipId": "Egg_BattlePass_BottomTip",
+    "atlasID": 107,
+    "itemIcon": "icon_score_easter",
+    "finalRewardLimit": 10,
+    "finalRewardType": 2,
+    "finalQualityRandom": [
+      "1,70",
+      "2,25",
+      "3,5"
+    ],
+    "finalDrop": [
+      521,
+      522,
+      523,
+      524,
+      525,
+      526
+    ],
+    "upgradeRate": [
+      4500,
+      3000,
+      2000,
+      1500,
+      1000,
+      0
+    ],
+    "bigRewardDesc": "battalpass_big_reward_desc_3",
+    "bigRewardShow": [
+      "5015,1"
+    ],
+    "delItems": [
+      "3100,2000"
+    ]
+  },
+  {
+    "id": 112,
+    "group": 112,
+    "themeId": 10,
+    "purchaseId": 914,
+    "playEndCanPurchase": 0,
+    "tga_bp_type": "忍者神龟通行证",
+    "tga_event_name": "忍者神龟",
+    "name": "turtle_mode_pass",
+    "bottomTipId": "turtle_BattlePass_BottomTip",
+    "atlasID": 215,
+    "itemIcon": "ui_plinko_item_ticket",
+    "finalRewardLimit": 10,
+    "finalRewardType": 2,
+    "finalQualityRandom": [
+      "1,70",
+      "2,25",
+      "3,5"
+    ],
+    "finalDrop": [
+      521,
+      522,
+      523,
+      524,
+      525,
+      526
+    ],
+    "upgradeRate": [
+      4500,
+      3000,
+      2000,
+      1500,
+      1000,
+      0
+    ],
+    "bigRewardDesc": "battalpass_big_reward_desc_3",
+    "bigRewardShow": [
+      "40605,60"
+    ],
+    "delItems": [
+      "3200,600"
+    ]
+  },
+  {
+    "id": 113,
+    "group": 113,
+    "themeId": 11,
+    "purchaseId": 915,
+    "playEndCanPurchase": 0,
+    "tga_bp_type": "bingo通行证",
+    "tga_event_name": "燃情宾果",
+    "name": "Bingo_BattlePass_EntryName",
+    "bottomTipId": "Bingo_BattlePass_BottomTip",
+    "atlasID": 107,
+    "itemIcon": "icon_huoshan_bingo_choujiang",
+    "finalRewardLimit": 10,
+    "finalRewardType": 2,
+    "finalQualityRandom": [
+      "1,70",
+      "2,25",
+      "3,5"
+    ],
+    "finalDrop": [
+      521,
+      522,
+      523,
+      524,
+      525,
+      526
+    ],
+    "upgradeRate": [
+      4500,
+      3000,
+      2000,
+      1500,
+      1000,
+      0
+    ],
+    "bigRewardDesc": "battalpass_big_reward_desc_3",
+    "bigRewardShow": [
+      "5015,1"
+    ],
+    "delItems": [
+      "2521,3000"
+    ]
+  },
+  {
+    "id": 114,
+    "group": 114,
+    "themeId": 12,
+    "purchaseId": 916,
+    "playEndCanPurchase": 0,
+    "tga_bp_type": "海底通行证",
+    "tga_event_name": "海底通行证",
+    "name": "Seabed_BattlePass_EntryName",
+    "bottomTipId": "Seabed_BattlePass_BottomTip",
+    "atlasID": 107,
+    "itemIcon": "dive_jellyfish",
+    "finalRewardLimit": 10,
+    "finalRewardType": 2,
+    "finalQualityRandom": [
+      "1,70",
+      "2,25",
+      "3,5"
+    ],
+    "finalDrop": [
+      521,
+      522,
+      523,
+      524,
+      525,
+      526
+    ],
+    "upgradeRate": [
+      4500,
+      3000,
+      2000,
+      1500,
+      1000,
+      0
+    ],
+    "bigRewardDesc": "battalpass_big_reward_desc_3",
+    "bigRewardShow": [
+      "5015,1"
+    ],
+    "delItems": [
+      "2801,1000"
+    ]
+  },
+  {
+    "id": 501,
+    "group": 501,
+    "themeId": 100,
+    "purchaseId": 950,
+    "playEndCanPurchase": 0,
+    "tga_bp_type": "大秘境通行证",
+    "tga_event_name": "大秘境通行证",
+    "name": "Mythic_Enter_Name2",
+    "bottomTipId": "Mythic_BattlePass_BottomTip_S1",
+    "atlasID": 214,
+    "itemIcon": "UD_Icon_battle_ItemImg",
+    "finalRewardLimit": 0,
+    "finalRewardType": 0,
+    "finalQualityRandom": [],
+    "finalDrop": [],
+    "upgradeRate": [],
+    "bigRewardDesc": "",
+    "bigRewardShow": [],
+    "delItems": [
+      "12031000"
+    ]
+  },
+  {
+    "id": 502,
+    "group": 502,
+    "themeId": 100,
+    "purchaseId": 951,
+    "playEndCanPurchase": 0,
+    "tga_bp_type": "大秘境通行证",
+    "tga_event_name": "大秘境通行证",
+    "name": "Mythic_Enter_Name2",
+    "bottomTipId": "Mythic_BattlePass_BottomTip_S1",
+    "atlasID": 214,
+    "itemIcon": "UD_Icon_battle_ItemImg",
+    "finalRewardLimit": 0,
+    "finalRewardType": 0,
+    "finalQualityRandom": [],
+    "finalDrop": [],
+    "upgradeRate": [],
+    "bigRewardDesc": "",
+    "bigRewardShow": [],
+    "delItems": [
+      "12031000"
+    ]
+  },
+  {
+    "id": 503,
+    "group": 503,
+    "themeId": 100,
+    "purchaseId": 950,
+    "playEndCanPurchase": 0,
+    "tga_bp_type": "大秘境通行证",
+    "tga_event_name": "大秘境通行证",
+    "name": "Mythic_Enter_Name2",
+    "bottomTipId": "Mythic_BattlePass_BottomTip_S1",
+    "atlasID": 214,
+    "itemIcon": "UD_Icon_battle_ItemImg",
+    "finalRewardLimit": 0,
+    "finalRewardType": 0,
+    "finalQualityRandom": [],
+    "finalDrop": [],
+    "upgradeRate": [],
+    "bigRewardDesc": "",
+    "bigRewardShow": [],
+    "delItems": [
+      "12031000"
+    ]
+  }
+]

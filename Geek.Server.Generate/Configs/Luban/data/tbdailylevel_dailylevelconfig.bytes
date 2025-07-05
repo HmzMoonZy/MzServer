@@ -1,0 +1,5602 @@
+[
+  {
+    "id": 1,
+    "randGroup": 1,
+    "turntableID": 1,
+    "difficultyType": 3,
+    "difficultyPara": 1,
+    "rewardStage": [
+      10,
+      20,
+      30,
+      40,
+      50,
+      60
+    ],
+    "dropID": [
+      20001,
+      20002,
+      20003,
+      20004,
+      20005,
+      20006
+    ],
+    "attributes": "Attack%=0|HPMax%=0",
+    "normalBattleAttr": "Attack%=-10|HPMax%=-30",
+    "eliteBattleAttr": "Attack%=-35|HPMax%=-20",
+    "bossBattleAttr": "Attack%=-25|HPMax%=-20",
+    "speedAdd": 0
+  },
+  {
+    "id": 2,
+    "randGroup": 1,
+    "turntableID": 1,
+    "difficultyType": 3,
+    "difficultyPara": 2,
+    "rewardStage": [
+      10,
+      20,
+      30,
+      40,
+      50,
+      60
+    ],
+    "dropID": [
+      20001,
+      20002,
+      20003,
+      20004,
+      20005,
+      20006
+    ],
+    "attributes": "Attack%=54|HPMax%=122",
+    "normalBattleAttr": "Attack%=-10|HPMax%=-30",
+    "eliteBattleAttr": "Attack%=-35|HPMax%=-20",
+    "bossBattleAttr": "Attack%=-25|HPMax%=-20",
+    "speedAdd": 0
+  },
+  {
+    "id": 3,
+    "randGroup": 1,
+    "turntableID": 1,
+    "difficultyType": 3,
+    "difficultyPara": 3,
+    "rewardStage": [
+      10,
+      20,
+      30,
+      40,
+      50,
+      60
+    ],
+    "dropID": [
+      20001,
+      20002,
+      20003,
+      20004,
+      20005,
+      20006
+    ],
+    "attributes": "Attack%=145|HPMax%=339",
+    "normalBattleAttr": "Attack%=-10|HPMax%=-30",
+    "eliteBattleAttr": "Attack%=-35|HPMax%=-20",
+    "bossBattleAttr": "Attack%=-25|HPMax%=-20",
+    "speedAdd": 0
+  },
+  {
+    "id": 4,
+    "randGroup": 1,
+    "turntableID": 1,
+    "difficultyType": 3,
+    "difficultyPara": 4,
+    "rewardStage": [
+      10,
+      20,
+      30,
+      40,
+      50,
+      60
+    ],
+    "dropID": [
+      20001,
+      20002,
+      20003,
+      20004,
+      20005,
+      20006
+    ],
+    "attributes": "Attack%=333|HPMax%=802",
+    "normalBattleAttr": "Attack%=-10|HPMax%=-30",
+    "eliteBattleAttr": "Attack%=-35|HPMax%=-20",
+    "bossBattleAttr": "Attack%=-25|HPMax%=-20",
+    "speedAdd": 0
+  },
+  {
+    "id": 5,
+    "randGroup": 1,
+    "turntableID": 1,
+    "difficultyType": 3,
+    "difficultyPara": 5,
+    "rewardStage": [
+      10,
+      20,
+      30,
+      40,
+      50,
+      60
+    ],
+    "dropID": [
+      20001,
+      20002,
+      20003,
+      20004,
+      20005,
+      20006
+    ],
+    "attributes": "Attack%=538|HPMax%=1341",
+    "normalBattleAttr": "Attack%=-10|HPMax%=-30",
+    "eliteBattleAttr": "Attack%=-35|HPMax%=-20",
+    "bossBattleAttr": "Attack%=-25|HPMax%=-20",
+    "speedAdd": 0
+  },
+  {
+    "id": 6,
+    "randGroup": 1,
+    "turntableID": 1,
+    "difficultyType": 3,
+    "difficultyPara": 6,
+    "rewardStage": [
+      10,
+      20,
+      30,
+      40,
+      50,
+      60
+    ],
+    "dropID": [
+      20001,
+      20002,
+      20003,
+      20004,
+      20005,
+      20006
+    ],
+    "attributes": "Attack%=777|HPMax%=1998",
+    "normalBattleAttr": "Attack%=-10|HPMax%=-30",
+    "eliteBattleAttr": "Attack%=-35|HPMax%=-20",
+    "bossBattleAttr": "Attack%=-25|HPMax%=-20",
+    "speedAdd": 0
+  },
+  {
+    "id": 7,
+    "randGroup": 1,
+    "turntableID": 1,
+    "difficultyType": 3,
+    "difficultyPara": 7,
+    "rewardStage": [
+      10,
+      20,
+      30,
+      40,
+      50,
+      60
+    ],
+    "dropID": [
+      20001,
+      20002,
+      20003,
+      20004,
+      20005,
+      20006
+    ],
+    "attributes": "Attack%=1020|HPMax%=2704",
+    "normalBattleAttr": "Attack%=-10|HPMax%=-30",
+    "eliteBattleAttr": "Attack%=-35|HPMax%=-20",
+    "bossBattleAttr": "Attack%=-25|HPMax%=-20",
+    "speedAdd": 0
+  },
+  {
+    "id": 8,
+    "randGroup": 1,
+    "turntableID": 1,
+    "difficultyType": 3,
+    "difficultyPara": 8,
+    "rewardStage": [
+      10,
+      20,
+      30,
+      40,
+      50,
+      60
+    ],
+    "dropID": [
+      20001,
+      20002,
+      20003,
+      20004,
+      20005,
+      20006
+    ],
+    "attributes": "Attack%=1454|HPMax%=3969",
+    "normalBattleAttr": "Attack%=-10|HPMax%=-30",
+    "eliteBattleAttr": "Attack%=-35|HPMax%=-20",
+    "bossBattleAttr": "Attack%=-25|HPMax%=-20",
+    "speedAdd": 0
+  },
+  {
+    "id": 9,
+    "randGroup": 1,
+    "turntableID": 1,
+    "difficultyType": 3,
+    "difficultyPara": 9,
+    "rewardStage": [
+      10,
+      20,
+      30,
+      40,
+      50,
+      60
+    ],
+    "dropID": [
+      20001,
+      20002,
+      20003,
+      20004,
+      20005,
+      20006
+    ],
+    "attributes": "Attack%=2369|HPMax%=6658",
+    "normalBattleAttr": "Attack%=-10|HPMax%=-30",
+    "eliteBattleAttr": "Attack%=-35|HPMax%=-20",
+    "bossBattleAttr": "Attack%=-25|HPMax%=-20",
+    "speedAdd": 0
+  },
+  {
+    "id": 10,
+    "randGroup": 1,
+    "turntableID": 1,
+    "difficultyType": 3,
+    "difficultyPara": 10,
+    "rewardStage": [
+      10,
+      20,
+      30,
+      40,
+      50,
+      60
+    ],
+    "dropID": [
+      20001,
+      20002,
+      20003,
+      20004,
+      20005,
+      20006
+    ],
+    "attributes": "Attack%=3385|HPMax%=9783",
+    "normalBattleAttr": "Attack%=-10|HPMax%=-30",
+    "eliteBattleAttr": "Attack%=-35|HPMax%=-20",
+    "bossBattleAttr": "Attack%=-25|HPMax%=-20",
+    "speedAdd": 0
+  },
+  {
+    "id": 11,
+    "randGroup": 1,
+    "turntableID": 1,
+    "difficultyType": 3,
+    "difficultyPara": 11,
+    "rewardStage": [
+      10,
+      20,
+      30,
+      40,
+      50,
+      60
+    ],
+    "dropID": [
+      20001,
+      20002,
+      20003,
+      20004,
+      20005,
+      20006
+    ],
+    "attributes": "Attack%=4515|HPMax%=13410",
+    "normalBattleAttr": "Attack%=-10|HPMax%=-30",
+    "eliteBattleAttr": "Attack%=-35|HPMax%=-20|IgnoreMiss%=3|ControlImmunity%=6",
+    "bossBattleAttr": "Attack%=-25|HPMax%=-20|IgnoreMiss%=3|ControlImmunity%=6",
+    "speedAdd": 2000
+  },
+  {
+    "id": 12,
+    "randGroup": 1,
+    "turntableID": 1,
+    "difficultyType": 3,
+    "difficultyPara": 12,
+    "rewardStage": [
+      10,
+      20,
+      30,
+      40,
+      50,
+      60
+    ],
+    "dropID": [
+      20001,
+      20002,
+      20003,
+      20004,
+      20005,
+      20006
+    ],
+    "attributes": "Attack%=6429|HPMax%=19609",
+    "normalBattleAttr": "Attack%=-10|HPMax%=-30",
+    "eliteBattleAttr": "Attack%=-35|HPMax%=-20|IgnoreMiss%=3|ControlImmunity%=6",
+    "bossBattleAttr": "Attack%=-25|HPMax%=-20|IgnoreMiss%=3|ControlImmunity%=6",
+    "speedAdd": 2000
+  },
+  {
+    "id": 13,
+    "randGroup": 1,
+    "turntableID": 1,
+    "difficultyType": 3,
+    "difficultyPara": 13,
+    "rewardStage": [
+      10,
+      20,
+      30,
+      40,
+      50,
+      60
+    ],
+    "dropID": [
+      20001,
+      20002,
+      20003,
+      20004,
+      20005,
+      20006
+    ],
+    "attributes": "Attack%=8843|HPMax%=27680",
+    "normalBattleAttr": "Attack%=-10|HPMax%=-30",
+    "eliteBattleAttr": "Attack%=-35|HPMax%=-20|IgnoreMiss%=3|ControlImmunity%=6",
+    "bossBattleAttr": "Attack%=-25|HPMax%=-20|IgnoreMiss%=3|ControlImmunity%=6",
+    "speedAdd": 2000
+  },
+  {
+    "id": 14,
+    "randGroup": 1,
+    "turntableID": 1,
+    "difficultyType": 3,
+    "difficultyPara": 14,
+    "rewardStage": [
+      10,
+      20,
+      30,
+      40,
+      50,
+      60
+    ],
+    "dropID": [
+      20001,
+      20002,
+      20003,
+      20004,
+      20005,
+      20006
+    ],
+    "attributes": "Attack%=11829|HPMax%=37973",
+    "normalBattleAttr": "Attack%=-10|HPMax%=-30",
+    "eliteBattleAttr": "Attack%=-35|HPMax%=-20|IgnoreMiss%=3|ControlImmunity%=6",
+    "bossBattleAttr": "Attack%=-25|HPMax%=-20|IgnoreMiss%=3|ControlImmunity%=6",
+    "speedAdd": 2000
+  },
+  {
+    "id": 15,
+    "randGroup": 1,
+    "turntableID": 1,
+    "difficultyType": 3,
+    "difficultyPara": 15,
+    "rewardStage": [
+      10,
+      20,
+      30,
+      40,
+      50,
+      60
+    ],
+    "dropID": [
+      20001,
+      20002,
+      20003,
+      20004,
+      20005,
+      20006
+    ],
+    "attributes": "Attack%=15513|HPMax%=51038",
+    "normalBattleAttr": "Attack%=-10|HPMax%=-30",
+    "eliteBattleAttr": "Attack%=-35|HPMax%=-20|IgnoreMiss%=3|ControlImmunity%=6",
+    "bossBattleAttr": "Attack%=-25|HPMax%=-20|IgnoreMiss%=3|ControlImmunity%=6",
+    "speedAdd": 2000
+  },
+  {
+    "id": 16,
+    "randGroup": 1,
+    "turntableID": 1,
+    "difficultyType": 3,
+    "difficultyPara": 16,
+    "rewardStage": [
+      10,
+      20,
+      30,
+      40,
+      50,
+      60
+    ],
+    "dropID": [
+      20001,
+      20002,
+      20003,
+      20004,
+      20005,
+      20006
+    ],
+    "attributes": "Attack%=18995|HPMax%=64013",
+    "normalBattleAttr": "Attack%=-10|HPMax%=-30",
+    "eliteBattleAttr": "Attack%=-35|HPMax%=-20|IgnoreMiss%=3|ControlImmunity%=6",
+    "bossBattleAttr": "Attack%=-25|HPMax%=-20|IgnoreMiss%=3|ControlImmunity%=6",
+    "speedAdd": 4000
+  },
+  {
+    "id": 17,
+    "randGroup": 1,
+    "turntableID": 1,
+    "difficultyType": 3,
+    "difficultyPara": 17,
+    "rewardStage": [
+      10,
+      20,
+      30,
+      40,
+      50,
+      60
+    ],
+    "dropID": [
+      20001,
+      20002,
+      20003,
+      20004,
+      20005,
+      20006
+    ],
+    "attributes": "Attack%=23110|HPMax%=79730",
+    "normalBattleAttr": "Attack%=-10|HPMax%=-30",
+    "eliteBattleAttr": "Attack%=-35|HPMax%=-20|IgnoreMiss%=3|ControlImmunity%=6",
+    "bossBattleAttr": "Attack%=-25|HPMax%=-20|IgnoreMiss%=3|ControlImmunity%=6",
+    "speedAdd": 4000
+  },
+  {
+    "id": 18,
+    "randGroup": 1,
+    "turntableID": 1,
+    "difficultyType": 3,
+    "difficultyPara": 18,
+    "rewardStage": [
+      10,
+      20,
+      30,
+      40,
+      50,
+      60
+    ],
+    "dropID": [
+      20001,
+      20002,
+      20003,
+      20004,
+      20005,
+      20006
+    ],
+    "attributes": "Attack%=29263|HPMax%=103298",
+    "normalBattleAttr": "Attack%=-10|HPMax%=-30",
+    "eliteBattleAttr": "Attack%=-35|HPMax%=-20|IgnoreMiss%=3|ControlImmunity%=6",
+    "bossBattleAttr": "Attack%=-25|HPMax%=-20|IgnoreMiss%=3|ControlImmunity%=6",
+    "speedAdd": 4000
+  },
+  {
+    "id": 19,
+    "randGroup": 1,
+    "turntableID": 1,
+    "difficultyType": 3,
+    "difficultyPara": 19,
+    "rewardStage": [
+      10,
+      20,
+      30,
+      40,
+      50,
+      60
+    ],
+    "dropID": [
+      20001,
+      20002,
+      20003,
+      20004,
+      20005,
+      20006
+    ],
+    "attributes": "Attack%=47008|HPMax%=169698",
+    "normalBattleAttr": "Attack%=-10|HPMax%=-30",
+    "eliteBattleAttr": "Attack%=-35|HPMax%=-20|IgnoreMiss%=3|ControlImmunity%=6",
+    "bossBattleAttr": "Attack%=-25|HPMax%=-20|IgnoreMiss%=3|ControlImmunity%=6",
+    "speedAdd": 4000
+  },
+  {
+    "id": 20,
+    "randGroup": 1,
+    "turntableID": 1,
+    "difficultyType": 3,
+    "difficultyPara": 20,
+    "rewardStage": [
+      10,
+      20,
+      30,
+      40,
+      50,
+      60
+    ],
+    "dropID": [
+      20011,
+      20002,
+      20003,
+      20004,
+      20005,
+      20006
+    ],
+    "attributes": "Attack%=57240|HPMax%=211216",
+    "normalBattleAttr": "Attack%=-10|HPMax%=-30",
+    "eliteBattleAttr": "Attack%=-35|HPMax%=-20|IgnoreMiss%=3|ControlImmunity%=6",
+    "bossBattleAttr": "Attack%=-25|HPMax%=-20|IgnoreMiss%=3|ControlImmunity%=6",
+    "speedAdd": 4000
+  },
+  {
+    "id": 21,
+    "randGroup": 1,
+    "turntableID": 1,
+    "difficultyType": 3,
+    "difficultyPara": 21,
+    "rewardStage": [
+      10,
+      20,
+      30,
+      40,
+      50,
+      60
+    ],
+    "dropID": [
+      20011,
+      20002,
+      20003,
+      20004,
+      20005,
+      20006
+    ],
+    "attributes": "Attack%=69864|HPMax%=263389",
+    "normalBattleAttr": "Attack%=-10|HPMax%=-30",
+    "eliteBattleAttr": "Attack%=-35|HPMax%=-20|IgnoreMiss%=6|ControlImmunity%=12",
+    "bossBattleAttr": "Attack%=-25|HPMax%=-20|IgnoreMiss%=6|ControlImmunity%=12",
+    "speedAdd": 6000
+  },
+  {
+    "id": 22,
+    "randGroup": 1,
+    "turntableID": 1,
+    "difficultyType": 3,
+    "difficultyPara": 22,
+    "rewardStage": [
+      10,
+      20,
+      30,
+      40,
+      50,
+      60
+    ],
+    "dropID": [
+      20011,
+      20002,
+      20003,
+      20004,
+      20005,
+      20006
+    ],
+    "attributes": "Attack%=84230|HPMax%=324288",
+    "normalBattleAttr": "Attack%=-10|HPMax%=-30",
+    "eliteBattleAttr": "Attack%=-35|HPMax%=-20|IgnoreMiss%=6|ControlImmunity%=12",
+    "bossBattleAttr": "Attack%=-25|HPMax%=-20|IgnoreMiss%=6|ControlImmunity%=12",
+    "speedAdd": 6000
+  },
+  {
+    "id": 23,
+    "randGroup": 1,
+    "turntableID": 1,
+    "difficultyType": 3,
+    "difficultyPara": 23,
+    "rewardStage": [
+      10,
+      20,
+      30,
+      40,
+      50,
+      60
+    ],
+    "dropID": [
+      20011,
+      20002,
+      20003,
+      20004,
+      20005,
+      20006
+    ],
+    "attributes": "Attack%=100620|HPMax%=395438",
+    "normalBattleAttr": "Attack%=-10|HPMax%=-30",
+    "eliteBattleAttr": "Attack%=-35|HPMax%=-20|IgnoreMiss%=6|ControlImmunity%=12",
+    "bossBattleAttr": "Attack%=-25|HPMax%=-20|IgnoreMiss%=6|ControlImmunity%=12",
+    "speedAdd": 6000
+  },
+  {
+    "id": 24,
+    "randGroup": 1,
+    "turntableID": 1,
+    "difficultyType": 3,
+    "difficultyPara": 24,
+    "rewardStage": [
+      10,
+      20,
+      30,
+      40,
+      50,
+      60
+    ],
+    "dropID": [
+      20011,
+      20002,
+      20003,
+      20004,
+      20005,
+      20006
+    ],
+    "attributes": "Attack%=119215|HPMax%=478055",
+    "normalBattleAttr": "Attack%=-10|HPMax%=-30",
+    "eliteBattleAttr": "Attack%=-35|HPMax%=-20|IgnoreMiss%=6|ControlImmunity%=12",
+    "bossBattleAttr": "Attack%=-25|HPMax%=-20|IgnoreMiss%=6|ControlImmunity%=12",
+    "speedAdd": 6000
+  },
+  {
+    "id": 25,
+    "randGroup": 1,
+    "turntableID": 1,
+    "difficultyType": 3,
+    "difficultyPara": 25,
+    "rewardStage": [
+      10,
+      20,
+      30,
+      40,
+      50,
+      60
+    ],
+    "dropID": [
+      20011,
+      20002,
+      20003,
+      20004,
+      20005,
+      20006
+    ],
+    "attributes": "Attack%=140338|HPMax%=573985",
+    "normalBattleAttr": "Attack%=-10|HPMax%=-30",
+    "eliteBattleAttr": "Attack%=-35|HPMax%=-20|IgnoreMiss%=6|ControlImmunity%=12",
+    "bossBattleAttr": "Attack%=-25|HPMax%=-20|IgnoreMiss%=6|ControlImmunity%=12",
+    "speedAdd": 6000
+  },
+  {
+    "id": 26,
+    "randGroup": 1,
+    "turntableID": 1,
+    "difficultyType": 3,
+    "difficultyPara": 26,
+    "rewardStage": [
+      10,
+      20,
+      30,
+      40,
+      50,
+      60
+    ],
+    "dropID": [
+      20011,
+      20002,
+      20003,
+      20004,
+      20005,
+      20006
+    ],
+    "attributes": "Attack%=159797|HPMax%=666353",
+    "normalBattleAttr": "Attack%=-10|HPMax%=-30",
+    "eliteBattleAttr": "Attack%=-35|HPMax%=-20|IgnoreMiss%=6|ControlImmunity%=12",
+    "bossBattleAttr": "Attack%=-25|HPMax%=-20|IgnoreMiss%=6|ControlImmunity%=12",
+    "speedAdd": 8000
+  },
+  {
+    "id": 27,
+    "randGroup": 1,
+    "turntableID": 1,
+    "difficultyType": 3,
+    "difficultyPara": 27,
+    "rewardStage": [
+      10,
+      20,
+      30,
+      40,
+      50,
+      60
+    ],
+    "dropID": [
+      20011,
+      20002,
+      20003,
+      20004,
+      20005,
+      20006
+    ],
+    "attributes": "Attack%=181368|HPMax%=770815",
+    "normalBattleAttr": "Attack%=-10|HPMax%=-30",
+    "eliteBattleAttr": "Attack%=-35|HPMax%=-20|IgnoreMiss%=6|ControlImmunity%=12",
+    "bossBattleAttr": "Attack%=-25|HPMax%=-20|IgnoreMiss%=6|ControlImmunity%=12",
+    "speedAdd": 8000
+  },
+  {
+    "id": 28,
+    "randGroup": 1,
+    "turntableID": 1,
+    "difficultyType": 3,
+    "difficultyPara": 28,
+    "rewardStage": [
+      10,
+      20,
+      30,
+      40,
+      50,
+      60
+    ],
+    "dropID": [
+      20011,
+      20002,
+      20003,
+      20004,
+      20005,
+      20006
+    ],
+    "attributes": "Attack%=210564|HPMax%=911742",
+    "normalBattleAttr": "Attack%=-10|HPMax%=-30",
+    "eliteBattleAttr": "Attack%=-35|HPMax%=-20|IgnoreMiss%=6|ControlImmunity%=12",
+    "bossBattleAttr": "Attack%=-25|HPMax%=-20|IgnoreMiss%=6|ControlImmunity%=12",
+    "speedAdd": 8000
+  },
+  {
+    "id": 29,
+    "randGroup": 1,
+    "turntableID": 1,
+    "difficultyType": 3,
+    "difficultyPara": 29,
+    "rewardStage": [
+      10,
+      20,
+      30,
+      40,
+      50,
+      60
+    ],
+    "dropID": [
+      20011,
+      20002,
+      20003,
+      20004,
+      20005,
+      20006
+    ],
+    "attributes": "Attack%=243289|HPMax%=1072907",
+    "normalBattleAttr": "Attack%=-10|HPMax%=-30",
+    "eliteBattleAttr": "Attack%=-35|HPMax%=-20|IgnoreMiss%=6|ControlImmunity%=12",
+    "bossBattleAttr": "Attack%=-25|HPMax%=-20|IgnoreMiss%=6|ControlImmunity%=12",
+    "speedAdd": 8000
+  },
+  {
+    "id": 30,
+    "randGroup": 1,
+    "turntableID": 1,
+    "difficultyType": 3,
+    "difficultyPara": 30,
+    "rewardStage": [
+      10,
+      20,
+      30,
+      40,
+      50,
+      60
+    ],
+    "dropID": [
+      20021,
+      20002,
+      20003,
+      20004,
+      20005,
+      20006
+    ],
+    "attributes": "Attack%=277808|HPMax%=1247361",
+    "normalBattleAttr": "Attack%=-10|HPMax%=-30",
+    "eliteBattleAttr": "Attack%=-35|HPMax%=-20|IgnoreMiss%=6|ControlImmunity%=12",
+    "bossBattleAttr": "Attack%=-25|HPMax%=-20|IgnoreMiss%=6|ControlImmunity%=12",
+    "speedAdd": 8000
+  },
+  {
+    "id": 31,
+    "randGroup": 1,
+    "turntableID": 1,
+    "difficultyType": 3,
+    "difficultyPara": 31,
+    "rewardStage": [
+      10,
+      20,
+      30,
+      40,
+      50,
+      60
+    ],
+    "dropID": [
+      20021,
+      20002,
+      20003,
+      20004,
+      20005,
+      20006
+    ],
+    "attributes": "Attack%=316428|HPMax%=1446075",
+    "normalBattleAttr": "Attack%=-10|HPMax%=-30",
+    "eliteBattleAttr": "Attack%=-35|HPMax%=-20|IgnoreMiss%=9|ControlImmunity%=18",
+    "bossBattleAttr": "Attack%=-25|HPMax%=-20|IgnoreMiss%=9|ControlImmunity%=18",
+    "speedAdd": 10000
+  },
+  {
+    "id": 32,
+    "randGroup": 1,
+    "turntableID": 1,
+    "difficultyType": 3,
+    "difficultyPara": 32,
+    "rewardStage": [
+      10,
+      20,
+      30,
+      40,
+      50,
+      60
+    ],
+    "dropID": [
+      20021,
+      20002,
+      20003,
+      20004,
+      20005,
+      20006
+    ],
+    "attributes": "Attack%=366793|HPMax%=1705588",
+    "normalBattleAttr": "Attack%=-10|HPMax%=-30",
+    "eliteBattleAttr": "Attack%=-35|HPMax%=-20|IgnoreMiss%=9|ControlImmunity%=18",
+    "bossBattleAttr": "Attack%=-25|HPMax%=-20|IgnoreMiss%=9|ControlImmunity%=18",
+    "speedAdd": 10000
+  },
+  {
+    "id": 33,
+    "randGroup": 1,
+    "turntableID": 1,
+    "difficultyType": 3,
+    "difficultyPara": 33,
+    "rewardStage": [
+      10,
+      20,
+      30,
+      40,
+      50,
+      60
+    ],
+    "dropID": [
+      20021,
+      20002,
+      20003,
+      20004,
+      20005,
+      20006
+    ],
+    "attributes": "Attack%=415043|HPMax%=1963155",
+    "normalBattleAttr": "Attack%=-10|HPMax%=-30",
+    "eliteBattleAttr": "Attack%=-35|HPMax%=-20|IgnoreMiss%=9|ControlImmunity%=18",
+    "bossBattleAttr": "Attack%=-25|HPMax%=-20|IgnoreMiss%=9|ControlImmunity%=18",
+    "speedAdd": 10000
+  },
+  {
+    "id": 34,
+    "randGroup": 1,
+    "turntableID": 1,
+    "difficultyType": 3,
+    "difficultyPara": 34,
+    "rewardStage": [
+      10,
+      20,
+      30,
+      40,
+      50,
+      60
+    ],
+    "dropID": [
+      20021,
+      20002,
+      20003,
+      20004,
+      20005,
+      20006
+    ],
+    "attributes": "Attack%=608104|HPMax%=2924980",
+    "normalBattleAttr": "Attack%=-10|HPMax%=-30",
+    "eliteBattleAttr": "Attack%=-35|HPMax%=-20|IgnoreMiss%=9|ControlImmunity%=18",
+    "bossBattleAttr": "Attack%=-25|HPMax%=-20|IgnoreMiss%=9|ControlImmunity%=18",
+    "speedAdd": 10000
+  },
+  {
+    "id": 35,
+    "randGroup": 1,
+    "turntableID": 1,
+    "difficultyType": 3,
+    "difficultyPara": 35,
+    "rewardStage": [
+      10,
+      20,
+      30,
+      40,
+      50,
+      60
+    ],
+    "dropID": [
+      20021,
+      20002,
+      20003,
+      20004,
+      20005,
+      20006
+    ],
+    "attributes": "Attack%=682751|HPMax%=3338655",
+    "normalBattleAttr": "Attack%=-10|HPMax%=-30",
+    "eliteBattleAttr": "Attack%=-35|HPMax%=-20|IgnoreMiss%=9|ControlImmunity%=18",
+    "bossBattleAttr": "Attack%=-25|HPMax%=-20|IgnoreMiss%=9|ControlImmunity%=18",
+    "speedAdd": 10000
+  },
+  {
+    "id": 36,
+    "randGroup": 1,
+    "turntableID": 1,
+    "difficultyType": 3,
+    "difficultyPara": 36,
+    "rewardStage": [
+      10,
+      20,
+      30,
+      40,
+      50,
+      60
+    ],
+    "dropID": [
+      20021,
+      20002,
+      20003,
+      20004,
+      20005,
+      20006
+    ],
+    "attributes": "Attack%=756002|HPMax%=3757331",
+    "normalBattleAttr": "Attack%=-10|HPMax%=-30",
+    "eliteBattleAttr": "Attack%=-35|HPMax%=-20|IgnoreMiss%=9|ControlImmunity%=18",
+    "bossBattleAttr": "Attack%=-25|HPMax%=-20|IgnoreMiss%=9|ControlImmunity%=18",
+    "speedAdd": 12000
+  },
+  {
+    "id": 37,
+    "randGroup": 1,
+    "turntableID": 1,
+    "difficultyType": 3,
+    "difficultyPara": 37,
+    "rewardStage": [
+      10,
+      20,
+      30,
+      40,
+      50,
+      60
+    ],
+    "dropID": [
+      20021,
+      20002,
+      20003,
+      20004,
+      20005,
+      20006
+    ],
+    "attributes": "Attack%=835431|HPMax%=4218929",
+    "normalBattleAttr": "Attack%=-10|HPMax%=-30",
+    "eliteBattleAttr": "Attack%=-35|HPMax%=-20|IgnoreMiss%=9|ControlImmunity%=18",
+    "bossBattleAttr": "Attack%=-25|HPMax%=-20|IgnoreMiss%=9|ControlImmunity%=18",
+    "speedAdd": 12000
+  },
+  {
+    "id": 38,
+    "randGroup": 1,
+    "turntableID": 1,
+    "difficultyType": 3,
+    "difficultyPara": 38,
+    "rewardStage": [
+      10,
+      20,
+      30,
+      40,
+      50,
+      60
+    ],
+    "dropID": [
+      20021,
+      20002,
+      20003,
+      20004,
+      20005,
+      20006
+    ],
+    "attributes": "Attack%=936134|HPMax%=4802369",
+    "normalBattleAttr": "Attack%=-10|HPMax%=-30",
+    "eliteBattleAttr": "Attack%=-35|HPMax%=-20|IgnoreMiss%=9|ControlImmunity%=18",
+    "bossBattleAttr": "Attack%=-25|HPMax%=-20|IgnoreMiss%=9|ControlImmunity%=18",
+    "speedAdd": 12000
+  },
+  {
+    "id": 39,
+    "randGroup": 1,
+    "turntableID": 1,
+    "difficultyType": 3,
+    "difficultyPara": 39,
+    "rewardStage": [
+      10,
+      20,
+      30,
+      40,
+      50,
+      60
+    ],
+    "dropID": [
+      20021,
+      20002,
+      20003,
+      20004,
+      20005,
+      20006
+    ],
+    "attributes": "Attack%=1051753|HPMax%=5479635",
+    "normalBattleAttr": "Attack%=-10|HPMax%=-30",
+    "eliteBattleAttr": "Attack%=-35|HPMax%=-20|IgnoreMiss%=9|ControlImmunity%=18",
+    "bossBattleAttr": "Attack%=-25|HPMax%=-20|IgnoreMiss%=9|ControlImmunity%=18",
+    "speedAdd": 12000
+  },
+  {
+    "id": 40,
+    "randGroup": 1,
+    "turntableID": 1,
+    "difficultyType": 3,
+    "difficultyPara": 40,
+    "rewardStage": [
+      10,
+      20,
+      30,
+      40,
+      50,
+      60
+    ],
+    "dropID": [
+      20031,
+      20002,
+      20003,
+      20004,
+      20005,
+      20006
+    ],
+    "attributes": "Attack%=1172252|HPMax%=6201216",
+    "normalBattleAttr": "Attack%=-10|HPMax%=-30",
+    "eliteBattleAttr": "Attack%=-35|HPMax%=-20|IgnoreMiss%=9|ControlImmunity%=18",
+    "bossBattleAttr": "Attack%=-25|HPMax%=-20|IgnoreMiss%=9|ControlImmunity%=18",
+    "speedAdd": 12000
+  },
+  {
+    "id": 41,
+    "randGroup": 1,
+    "turntableID": 1,
+    "difficultyType": 3,
+    "difficultyPara": 41,
+    "rewardStage": [
+      10,
+      20,
+      30,
+      40,
+      50,
+      60
+    ],
+    "dropID": [
+      20031,
+      20002,
+      20003,
+      20004,
+      20005,
+      20006
+    ],
+    "attributes": "Attack%=1333170|HPMax%=7159122",
+    "normalBattleAttr": "Attack%=-10|HPMax%=-30",
+    "eliteBattleAttr": "Attack%=-35|HPMax%=-20|IgnoreMiss%=12|ControlImmunity%=24",
+    "bossBattleAttr": "Attack%=-25|HPMax%=-20|IgnoreMiss%=12|ControlImmunity%=24",
+    "speedAdd": 14000
+  },
+  {
+    "id": 42,
+    "randGroup": 1,
+    "turntableID": 1,
+    "difficultyType": 3,
+    "difficultyPara": 42,
+    "rewardStage": [
+      10,
+      20,
+      30,
+      40,
+      50,
+      60
+    ],
+    "dropID": [
+      20031,
+      20002,
+      20003,
+      20004,
+      20005,
+      20006
+    ],
+    "attributes": "Attack%=1509930|HPMax%=8229120",
+    "normalBattleAttr": "Attack%=-10|HPMax%=-30",
+    "eliteBattleAttr": "Attack%=-35|HPMax%=-20|IgnoreMiss%=12|ControlImmunity%=24",
+    "bossBattleAttr": "Attack%=-25|HPMax%=-20|IgnoreMiss%=12|ControlImmunity%=24",
+    "speedAdd": 14000
+  },
+  {
+    "id": 43,
+    "randGroup": 1,
+    "turntableID": 1,
+    "difficultyType": 3,
+    "difficultyPara": 43,
+    "rewardStage": [
+      10,
+      20,
+      30,
+      40,
+      50,
+      60
+    ],
+    "dropID": [
+      20031,
+      20002,
+      20003,
+      20004,
+      20005,
+      20006
+    ],
+    "attributes": "Attack%=1730432|HPMax%=9569291",
+    "normalBattleAttr": "Attack%=-10|HPMax%=-30",
+    "eliteBattleAttr": "Attack%=-35|HPMax%=-20|IgnoreMiss%=12|ControlImmunity%=24",
+    "bossBattleAttr": "Attack%=-25|HPMax%=-20|IgnoreMiss%=12|ControlImmunity%=24",
+    "speedAdd": 14000
+  },
+  {
+    "id": 44,
+    "randGroup": 1,
+    "turntableID": 1,
+    "difficultyType": 3,
+    "difficultyPara": 44,
+    "rewardStage": [
+      10,
+      20,
+      30,
+      40,
+      50,
+      60
+    ],
+    "dropID": [
+      20031,
+      20002,
+      20003,
+      20004,
+      20005,
+      20006
+    ],
+    "attributes": "Attack%=1972217|HPMax%=11064140",
+    "normalBattleAttr": "Attack%=-10|HPMax%=-30",
+    "eliteBattleAttr": "Attack%=-35|HPMax%=-20|IgnoreMiss%=12|ControlImmunity%=24",
+    "bossBattleAttr": "Attack%=-25|HPMax%=-20|IgnoreMiss%=12|ControlImmunity%=24",
+    "speedAdd": 14000
+  },
+  {
+    "id": 45,
+    "randGroup": 1,
+    "turntableID": 1,
+    "difficultyType": 3,
+    "difficultyPara": 45,
+    "rewardStage": [
+      10,
+      20,
+      30,
+      40,
+      50,
+      60
+    ],
+    "dropID": [
+      20031,
+      20002,
+      20003,
+      20004,
+      20005,
+      20006
+    ],
+    "attributes": "Attack%=2224075|HPMax%=12654987",
+    "normalBattleAttr": "Attack%=-10|HPMax%=-30",
+    "eliteBattleAttr": "Attack%=-35|HPMax%=-20|IgnoreMiss%=12|ControlImmunity%=24",
+    "bossBattleAttr": "Attack%=-25|HPMax%=-20|IgnoreMiss%=12|ControlImmunity%=24",
+    "speedAdd": 14000
+  },
+  {
+    "id": 46,
+    "randGroup": 1,
+    "turntableID": 1,
+    "difficultyType": 3,
+    "difficultyPara": 46,
+    "rewardStage": [
+      10,
+      20,
+      30,
+      40,
+      50,
+      60
+    ],
+    "dropID": [
+      20031,
+      20002,
+      20003,
+      20004,
+      20005,
+      20006
+    ],
+    "attributes": "Attack%=2466038|HPMax%=14229044",
+    "normalBattleAttr": "Attack%=-10|HPMax%=-30",
+    "eliteBattleAttr": "Attack%=-35|HPMax%=-20|IgnoreMiss%=12|ControlImmunity%=24",
+    "bossBattleAttr": "Attack%=-25|HPMax%=-20|IgnoreMiss%=12|ControlImmunity%=24",
+    "speedAdd": 16000
+  },
+  {
+    "id": 47,
+    "randGroup": 1,
+    "turntableID": 2,
+    "difficultyType": 3,
+    "difficultyPara": 47,
+    "rewardStage": [
+      10,
+      20,
+      30,
+      40,
+      50,
+      60
+    ],
+    "dropID": [
+      20031,
+      20002,
+      20003,
+      20004,
+      20005,
+      20006
+    ],
+    "attributes": "Attack%=2761752|HPMax%=16156252",
+    "normalBattleAttr": "Attack%=-10|HPMax%=-30",
+    "eliteBattleAttr": "Attack%=-35|HPMax%=-20|IgnoreMiss%=12|ControlImmunity%=24",
+    "bossBattleAttr": "Attack%=-25|HPMax%=-20|IgnoreMiss%=12|ControlImmunity%=24",
+    "speedAdd": 16000
+  },
+  {
+    "id": 48,
+    "randGroup": 1,
+    "turntableID": 2,
+    "difficultyType": 3,
+    "difficultyPara": 48,
+    "rewardStage": [
+      10,
+      20,
+      30,
+      40,
+      50,
+      60
+    ],
+    "dropID": [
+      20031,
+      20002,
+      20003,
+      20004,
+      20005,
+      20006
+    ],
+    "attributes": "Attack%=3100066|HPMax%=18383394",
+    "normalBattleAttr": "Attack%=-10|HPMax%=-30",
+    "eliteBattleAttr": "Attack%=-35|HPMax%=-20|IgnoreMiss%=12|ControlImmunity%=24",
+    "bossBattleAttr": "Attack%=-25|HPMax%=-20|IgnoreMiss%=12|ControlImmunity%=24",
+    "speedAdd": 16000
+  },
+  {
+    "id": 49,
+    "randGroup": 1,
+    "turntableID": 2,
+    "difficultyType": 3,
+    "difficultyPara": 49,
+    "rewardStage": [
+      10,
+      20,
+      30,
+      40,
+      50,
+      60
+    ],
+    "dropID": [
+      20031,
+      20002,
+      20003,
+      20004,
+      20005,
+      20006
+    ],
+    "attributes": "Attack%=3467755|HPMax%=20841210",
+    "normalBattleAttr": "Attack%=-10|HPMax%=-30",
+    "eliteBattleAttr": "Attack%=-35|HPMax%=-20|IgnoreMiss%=12|ControlImmunity%=24",
+    "bossBattleAttr": "Attack%=-25|HPMax%=-20|IgnoreMiss%=12|ControlImmunity%=24",
+    "speedAdd": 16000
+  },
+  {
+    "id": 50,
+    "randGroup": 1,
+    "turntableID": 2,
+    "difficultyType": 3,
+    "difficultyPara": 50,
+    "rewardStage": [
+      10,
+      20,
+      30,
+      40,
+      50,
+      60
+    ],
+    "dropID": [
+      20041,
+      20002,
+      20003,
+      20004,
+      20005,
+      20006
+    ],
+    "attributes": "Attack%=3962324|HPMax%=24130553",
+    "normalBattleAttr": "Attack%=-10|HPMax%=-30",
+    "eliteBattleAttr": "Attack%=-35|HPMax%=-20|IgnoreMiss%=12|ControlImmunity%=24",
+    "bossBattleAttr": "Attack%=-25|HPMax%=-20|IgnoreMiss%=12|ControlImmunity%=24",
+    "speedAdd": 16000
+  },
+  {
+    "id": 51,
+    "randGroup": 1,
+    "turntableID": 2,
+    "difficultyType": 3,
+    "difficultyPara": 51,
+    "rewardStage": [
+      10,
+      20,
+      30,
+      40,
+      50,
+      60
+    ],
+    "dropID": [
+      20041,
+      20002,
+      20003,
+      20004,
+      20005,
+      20006
+    ],
+    "attributes": "Attack%=4454564|HPMax%=27484662",
+    "normalBattleAttr": "Attack%=-10|HPMax%=-30",
+    "eliteBattleAttr": "Attack%=-35|HPMax%=-20|IgnoreMiss%=15|ControlImmunity%=30",
+    "bossBattleAttr": "Attack%=-25|HPMax%=-20|IgnoreMiss%=15|ControlImmunity%=30",
+    "speedAdd": 22000
+  },
+  {
+    "id": 52,
+    "randGroup": 1,
+    "turntableID": 2,
+    "difficultyType": 3,
+    "difficultyPara": 52,
+    "rewardStage": [
+      10,
+      20,
+      30,
+      40,
+      50,
+      60
+    ],
+    "dropID": [
+      20041,
+      20002,
+      20003,
+      20004,
+      20005,
+      20006
+    ],
+    "attributes": "Attack%=5014754|HPMax%=31342216",
+    "normalBattleAttr": "Attack%=-10|HPMax%=-30",
+    "eliteBattleAttr": "Attack%=-35|HPMax%=-20|IgnoreMiss%=15|ControlImmunity%=30",
+    "bossBattleAttr": "Attack%=-25|HPMax%=-20|IgnoreMiss%=15|ControlImmunity%=30",
+    "speedAdd": 22000
+  },
+  {
+    "id": 53,
+    "randGroup": 1,
+    "turntableID": 2,
+    "difficultyType": 3,
+    "difficultyPara": 53,
+    "rewardStage": [
+      10,
+      20,
+      30,
+      40,
+      50,
+      60
+    ],
+    "dropID": [
+      20041,
+      20002,
+      20003,
+      20004,
+      20005,
+      20006
+    ],
+    "attributes": "Attack%=5636278|HPMax%=35677644",
+    "normalBattleAttr": "Attack%=-10|HPMax%=-30",
+    "eliteBattleAttr": "Attack%=-35|HPMax%=-20|IgnoreMiss%=15|ControlImmunity%=30",
+    "bossBattleAttr": "Attack%=-25|HPMax%=-20|IgnoreMiss%=15|ControlImmunity%=30",
+    "speedAdd": 22000
+  },
+  {
+    "id": 54,
+    "randGroup": 1,
+    "turntableID": 2,
+    "difficultyType": 3,
+    "difficultyPara": 54,
+    "rewardStage": [
+      10,
+      20,
+      30,
+      40,
+      50,
+      60
+    ],
+    "dropID": [
+      20041,
+      20002,
+      20003,
+      20004,
+      20005,
+      20006
+    ],
+    "attributes": "Attack%=6300112|HPMax%=40383723",
+    "normalBattleAttr": "Attack%=-10|HPMax%=-30",
+    "eliteBattleAttr": "Attack%=-35|HPMax%=-20|IgnoreMiss%=15|ControlImmunity%=30",
+    "bossBattleAttr": "Attack%=-25|HPMax%=-20|IgnoreMiss%=15|ControlImmunity%=30",
+    "speedAdd": 22000
+  },
+  {
+    "id": 55,
+    "randGroup": 1,
+    "turntableID": 2,
+    "difficultyType": 3,
+    "difficultyPara": 55,
+    "rewardStage": [
+      10,
+      20,
+      30,
+      40,
+      50,
+      60
+    ],
+    "dropID": [
+      20041,
+      20002,
+      20003,
+      20004,
+      20005,
+      20006
+    ],
+    "attributes": "Attack%=7065630|HPMax%=45855940",
+    "normalBattleAttr": "Attack%=-10|HPMax%=-30",
+    "eliteBattleAttr": "Attack%=-35|HPMax%=-20|IgnoreMiss%=15|ControlImmunity%=30",
+    "bossBattleAttr": "Attack%=-25|HPMax%=-20|IgnoreMiss%=15|ControlImmunity%=30",
+    "speedAdd": 22000
+  },
+  {
+    "id": 56,
+    "randGroup": 1,
+    "turntableID": 2,
+    "difficultyType": 3,
+    "difficultyPara": 56,
+    "rewardStage": [
+      10,
+      20,
+      30,
+      40,
+      50,
+      60
+    ],
+    "dropID": [
+      20041,
+      20002,
+      20003,
+      20004,
+      20005,
+      20006
+    ],
+    "attributes": "Attack%=7946765|HPMax%=52210247",
+    "normalBattleAttr": "Attack%=-10|HPMax%=-30",
+    "eliteBattleAttr": "Attack%=-35|HPMax%=-20|IgnoreMiss%=15|ControlImmunity%=30",
+    "bossBattleAttr": "Attack%=-25|HPMax%=-20|IgnoreMiss%=15|ControlImmunity%=30",
+    "speedAdd": 28000
+  },
+  {
+    "id": 57,
+    "randGroup": 1,
+    "turntableID": 2,
+    "difficultyType": 3,
+    "difficultyPara": 57,
+    "rewardStage": [
+      10,
+      20,
+      30,
+      40,
+      50,
+      60
+    ],
+    "dropID": [
+      20041,
+      20002,
+      20003,
+      20004,
+      20005,
+      20006
+    ],
+    "attributes": "Attack%=8886103|HPMax%=59092585",
+    "normalBattleAttr": "Attack%=-10|HPMax%=-30",
+    "eliteBattleAttr": "Attack%=-35|HPMax%=-20|IgnoreMiss%=15|ControlImmunity%=30",
+    "bossBattleAttr": "Attack%=-25|HPMax%=-20|IgnoreMiss%=15|ControlImmunity%=30",
+    "speedAdd": 28000
+  },
+  {
+    "id": 58,
+    "randGroup": 1,
+    "turntableID": 2,
+    "difficultyType": 3,
+    "difficultyPara": 58,
+    "rewardStage": [
+      10,
+      20,
+      30,
+      40,
+      50,
+      60
+    ],
+    "dropID": [
+      20041,
+      20002,
+      20003,
+      20004,
+      20005,
+      20006
+    ],
+    "attributes": "Attack%=9886179|HPMax%=66435125",
+    "normalBattleAttr": "Attack%=-10|HPMax%=-30",
+    "eliteBattleAttr": "Attack%=-35|HPMax%=-20|IgnoreMiss%=15|ControlImmunity%=30",
+    "bossBattleAttr": "Attack%=-25|HPMax%=-20|IgnoreMiss%=15|ControlImmunity%=30",
+    "speedAdd": 28000
+  },
+  {
+    "id": 59,
+    "randGroup": 1,
+    "turntableID": 2,
+    "difficultyType": 3,
+    "difficultyPara": 59,
+    "rewardStage": [
+      10,
+      20,
+      30,
+      40,
+      50,
+      60
+    ],
+    "dropID": [
+      20041,
+      20002,
+      20003,
+      20004,
+      20005,
+      20006
+    ],
+    "attributes": "Attack%=10951256|HPMax%=74359030",
+    "normalBattleAttr": "Attack%=-10|HPMax%=-30",
+    "eliteBattleAttr": "Attack%=-35|HPMax%=-20|IgnoreMiss%=15|ControlImmunity%=30",
+    "bossBattleAttr": "Attack%=-25|HPMax%=-20|IgnoreMiss%=15|ControlImmunity%=30",
+    "speedAdd": 28000
+  },
+  {
+    "id": 60,
+    "randGroup": 1,
+    "turntableID": 2,
+    "difficultyType": 3,
+    "difficultyPara": 60,
+    "rewardStage": [
+      10,
+      20,
+      30,
+      40,
+      50,
+      60
+    ],
+    "dropID": [
+      20051,
+      20002,
+      20003,
+      20004,
+      20005,
+      20006
+    ],
+    "attributes": "Attack%=12214858|HPMax%=83793929",
+    "normalBattleAttr": "Attack%=-10|HPMax%=-30",
+    "eliteBattleAttr": "Attack%=-35|HPMax%=-20|IgnoreMiss%=15|ControlImmunity%=30",
+    "bossBattleAttr": "Attack%=-25|HPMax%=-20|IgnoreMiss%=15|ControlImmunity%=30",
+    "speedAdd": 28000
+  },
+  {
+    "id": 61,
+    "randGroup": 1,
+    "turntableID": 2,
+    "difficultyType": 3,
+    "difficultyPara": 61,
+    "rewardStage": [
+      10,
+      20,
+      30,
+      40,
+      50,
+      60
+    ],
+    "dropID": [
+      20051,
+      20002,
+      20003,
+      20004,
+      20005,
+      20006
+    ],
+    "attributes": "Attack%=13550207|HPMax%=93902940",
+    "normalBattleAttr": "Attack%=-10|HPMax%=-30",
+    "eliteBattleAttr": "Attack%=-35|HPMax%=-20|IgnoreMiss%=18|ControlImmunity%=36",
+    "bossBattleAttr": "Attack%=-25|HPMax%=-20|IgnoreMiss%=18|ControlImmunity%=36",
+    "speedAdd": 34000
+  },
+  {
+    "id": 62,
+    "randGroup": 1,
+    "turntableID": 2,
+    "difficultyType": 3,
+    "difficultyPara": 62,
+    "rewardStage": [
+      10,
+      20,
+      30,
+      40,
+      50,
+      60
+    ],
+    "dropID": [
+      20051,
+      20002,
+      20003,
+      20004,
+      20005,
+      20006
+    ],
+    "attributes": "Attack%=15063550|HPMax%=105444850",
+    "normalBattleAttr": "Attack%=-10|HPMax%=-30",
+    "eliteBattleAttr": "Attack%=-35|HPMax%=-20|IgnoreMiss%=18|ControlImmunity%=36",
+    "bossBattleAttr": "Attack%=-25|HPMax%=-20|IgnoreMiss%=18|ControlImmunity%=36",
+    "speedAdd": 34000
+  },
+  {
+    "id": 63,
+    "randGroup": 1,
+    "turntableID": 2,
+    "difficultyType": 3,
+    "difficultyPara": 63,
+    "rewardStage": [
+      10,
+      20,
+      30,
+      40,
+      50,
+      60
+    ],
+    "dropID": [
+      20051,
+      20002,
+      20003,
+      20004,
+      20005,
+      20006
+    ],
+    "attributes": "Attack%=16662136|HPMax%=117468059",
+    "normalBattleAttr": "Attack%=-10|HPMax%=-30",
+    "eliteBattleAttr": "Attack%=-35|HPMax%=-20|IgnoreMiss%=18|ControlImmunity%=36",
+    "bossBattleAttr": "Attack%=-25|HPMax%=-20|IgnoreMiss%=18|ControlImmunity%=36",
+    "speedAdd": 34000
+  },
+  {
+    "id": 64,
+    "randGroup": 1,
+    "turntableID": 2,
+    "difficultyType": 3,
+    "difficultyPara": 64,
+    "rewardStage": [
+      10,
+      20,
+      30,
+      40,
+      50,
+      60
+    ],
+    "dropID": [
+      20051,
+      20002,
+      20003,
+      20004,
+      20005,
+      20006
+    ],
+    "attributes": "Attack%=18369301|HPMax%=130422038",
+    "normalBattleAttr": "Attack%=-10|HPMax%=-30",
+    "eliteBattleAttr": "Attack%=-35|HPMax%=-20|IgnoreMiss%=18|ControlImmunity%=36",
+    "bossBattleAttr": "Attack%=-25|HPMax%=-20|IgnoreMiss%=18|ControlImmunity%=36",
+    "speedAdd": 34000
+  },
+  {
+    "id": 65,
+    "randGroup": 1,
+    "turntableID": 2,
+    "difficultyType": 3,
+    "difficultyPara": 65,
+    "rewardStage": [
+      10,
+      20,
+      30,
+      40,
+      50,
+      60
+    ],
+    "dropID": [
+      20051,
+      20002,
+      20003,
+      20004,
+      20005,
+      20006
+    ],
+    "attributes": "Attack%=20350602|HPMax%=145506809",
+    "normalBattleAttr": "Attack%=-10|HPMax%=-30",
+    "eliteBattleAttr": "Attack%=-35|HPMax%=-20|IgnoreMiss%=18|ControlImmunity%=36",
+    "bossBattleAttr": "Attack%=-25|HPMax%=-20|IgnoreMiss%=18|ControlImmunity%=36",
+    "speedAdd": 34000
+  },
+  {
+    "id": 66,
+    "randGroup": 1,
+    "turntableID": 2,
+    "difficultyType": 3,
+    "difficultyPara": 66,
+    "rewardStage": [
+      10,
+      20,
+      30,
+      40,
+      50,
+      60
+    ],
+    "dropID": [
+      20051,
+      20002,
+      20003,
+      20004,
+      20005,
+      20006
+    ],
+    "attributes": "Attack%=22461312|HPMax%=161721449",
+    "normalBattleAttr": "Attack%=-10|HPMax%=-30",
+    "eliteBattleAttr": "Attack%=-35|HPMax%=-20|IgnoreMiss%=18|ControlImmunity%=36",
+    "bossBattleAttr": "Attack%=-25|HPMax%=-20|IgnoreMiss%=18|ControlImmunity%=36",
+    "speedAdd": 40000
+  },
+  {
+    "id": 67,
+    "randGroup": 1,
+    "turntableID": 2,
+    "difficultyType": 3,
+    "difficultyPara": 67,
+    "rewardStage": [
+      10,
+      20,
+      30,
+      40,
+      50,
+      60
+    ],
+    "dropID": [
+      20051,
+      20002,
+      20003,
+      20004,
+      20005,
+      20006
+    ],
+    "attributes": "Attack%=24705509|HPMax%=179114940",
+    "normalBattleAttr": "Attack%=-10|HPMax%=-30",
+    "eliteBattleAttr": "Attack%=-35|HPMax%=-20|IgnoreMiss%=18|ControlImmunity%=36",
+    "bossBattleAttr": "Attack%=-25|HPMax%=-20|IgnoreMiss%=18|ControlImmunity%=36",
+    "speedAdd": 40000
+  },
+  {
+    "id": 68,
+    "randGroup": 1,
+    "turntableID": 2,
+    "difficultyType": 3,
+    "difficultyPara": 68,
+    "rewardStage": [
+      10,
+      20,
+      30,
+      40,
+      50,
+      60
+    ],
+    "dropID": [
+      20051,
+      20002,
+      20003,
+      20004,
+      20005,
+      20006
+    ],
+    "attributes": "Attack%=27293911|HPMax%=199245551",
+    "normalBattleAttr": "Attack%=-10|HPMax%=-30",
+    "eliteBattleAttr": "Attack%=-35|HPMax%=-20|IgnoreMiss%=18|ControlImmunity%=36",
+    "bossBattleAttr": "Attack%=-25|HPMax%=-20|IgnoreMiss%=18|ControlImmunity%=36",
+    "speedAdd": 40000
+  },
+  {
+    "id": 69,
+    "randGroup": 1,
+    "turntableID": 2,
+    "difficultyType": 3,
+    "difficultyPara": 69,
+    "rewardStage": [
+      10,
+      20,
+      30,
+      40,
+      50,
+      60
+    ],
+    "dropID": [
+      20051,
+      20002,
+      20003,
+      20004,
+      20005,
+      20006
+    ],
+    "attributes": "Attack%=30039901|HPMax%=220793272",
+    "normalBattleAttr": "Attack%=-10|HPMax%=-30",
+    "eliteBattleAttr": "Attack%=-35|HPMax%=-20|IgnoreMiss%=18|ControlImmunity%=36",
+    "bossBattleAttr": "Attack%=-25|HPMax%=-20|IgnoreMiss%=18|ControlImmunity%=36",
+    "speedAdd": 40000
+  },
+  {
+    "id": 70,
+    "randGroup": 1,
+    "turntableID": 2,
+    "difficultyType": 3,
+    "difficultyPara": 70,
+    "rewardStage": [
+      10,
+      20,
+      30,
+      40,
+      50,
+      60
+    ],
+    "dropID": [
+      20061,
+      20002,
+      20003,
+      20004,
+      20005,
+      20006
+    ],
+    "attributes": "Attack%=32592670|HPMax%=241185763",
+    "normalBattleAttr": "Attack%=-10|HPMax%=-30",
+    "eliteBattleAttr": "Attack%=-35|HPMax%=-20|IgnoreMiss%=18|ControlImmunity%=36",
+    "bossBattleAttr": "Attack%=-25|HPMax%=-20|IgnoreMiss%=18|ControlImmunity%=36",
+    "speedAdd": 40000
+  },
+  {
+    "id": 71,
+    "randGroup": 1,
+    "turntableID": 2,
+    "difficultyType": 3,
+    "difficultyPara": 71,
+    "rewardStage": [
+      10,
+      20,
+      30,
+      40,
+      50,
+      60
+    ],
+    "dropID": [
+      20061,
+      20002,
+      20003,
+      20004,
+      20005,
+      20006
+    ],
+    "attributes": "Attack%=35652199|HPMax%=265608885",
+    "normalBattleAttr": "Attack%=-10|HPMax%=-30",
+    "eliteBattleAttr": "Attack%=-35|HPMax%=-20|IgnoreMiss%=21|ControlImmunity%=42",
+    "bossBattleAttr": "Attack%=-25|HPMax%=-20|IgnoreMiss%=21|ControlImmunity%=42",
+    "speedAdd": 46000
+  },
+  {
+    "id": 72,
+    "randGroup": 1,
+    "turntableID": 2,
+    "difficultyType": 3,
+    "difficultyPara": 72,
+    "rewardStage": [
+      10,
+      20,
+      30,
+      40,
+      50,
+      60
+    ],
+    "dropID": [
+      20061,
+      20002,
+      20003,
+      20004,
+      20005,
+      20006
+    ],
+    "attributes": "Attack%=38881544|HPMax%=291611586",
+    "normalBattleAttr": "Attack%=-10|HPMax%=-30",
+    "eliteBattleAttr": "Attack%=-35|HPMax%=-20|IgnoreMiss%=21|ControlImmunity%=42",
+    "bossBattleAttr": "Attack%=-25|HPMax%=-20|IgnoreMiss%=21|ControlImmunity%=42",
+    "speedAdd": 46000
+  },
+  {
+    "id": 73,
+    "randGroup": 1,
+    "turntableID": 2,
+    "difficultyType": 3,
+    "difficultyPara": 73,
+    "rewardStage": [
+      10,
+      20,
+      30,
+      40,
+      50,
+      60
+    ],
+    "dropID": [
+      20061,
+      20002,
+      20003,
+      20004,
+      20005,
+      20006
+    ],
+    "attributes": "Attack%=40905381|HPMax%=308835631",
+    "normalBattleAttr": "Attack%=-10|HPMax%=-30",
+    "eliteBattleAttr": "Attack%=-35|HPMax%=-20|IgnoreMiss%=21|ControlImmunity%=42",
+    "bossBattleAttr": "Attack%=-25|HPMax%=-20|IgnoreMiss%=21|ControlImmunity%=42",
+    "speedAdd": 46000
+  },
+  {
+    "id": 74,
+    "randGroup": 1,
+    "turntableID": 2,
+    "difficultyType": 3,
+    "difficultyPara": 74,
+    "rewardStage": [
+      10,
+      20,
+      30,
+      40,
+      50,
+      60
+    ],
+    "dropID": [
+      20061,
+      20002,
+      20003,
+      20004,
+      20005,
+      20006
+    ],
+    "attributes": "Attack%=43047622|HPMax%=327161927",
+    "normalBattleAttr": "Attack%=-10|HPMax%=-30",
+    "eliteBattleAttr": "Attack%=-35|HPMax%=-20|IgnoreMiss%=21|ControlImmunity%=42",
+    "bossBattleAttr": "Attack%=-25|HPMax%=-20|IgnoreMiss%=21|ControlImmunity%=42",
+    "speedAdd": 46000
+  },
+  {
+    "id": 75,
+    "randGroup": 1,
+    "turntableID": 2,
+    "difficultyType": 3,
+    "difficultyPara": 75,
+    "rewardStage": [
+      10,
+      20,
+      30,
+      40,
+      50,
+      60
+    ],
+    "dropID": [
+      20061,
+      20002,
+      20003,
+      20004,
+      20005,
+      20006
+    ],
+    "attributes": "Attack%=45257943|HPMax%=346223265",
+    "normalBattleAttr": "Attack%=-10|HPMax%=-30",
+    "eliteBattleAttr": "Attack%=-35|HPMax%=-20|IgnoreMiss%=21|ControlImmunity%=42",
+    "bossBattleAttr": "Attack%=-25|HPMax%=-20|IgnoreMiss%=21|ControlImmunity%=42",
+    "speedAdd": 46000
+  },
+  {
+    "id": 76,
+    "randGroup": 1,
+    "turntableID": 2,
+    "difficultyType": 3,
+    "difficultyPara": 76,
+    "rewardStage": [
+      10,
+      20,
+      30,
+      40,
+      50,
+      60
+    ],
+    "dropID": [
+      20061,
+      20002,
+      20003,
+      20004,
+      20005,
+      20006
+    ],
+    "attributes": "Attack%=47439491|HPMax%=365284081",
+    "normalBattleAttr": "Attack%=-10|HPMax%=-30",
+    "eliteBattleAttr": "Attack%=-35|HPMax%=-20|IgnoreMiss%=21|ControlImmunity%=42",
+    "bossBattleAttr": "Attack%=-25|HPMax%=-20|IgnoreMiss%=21|ControlImmunity%=42",
+    "speedAdd": 52000
+  },
+  {
+    "id": 77,
+    "randGroup": 1,
+    "turntableID": 3,
+    "difficultyType": 3,
+    "difficultyPara": 77,
+    "rewardStage": [
+      10,
+      20,
+      30,
+      40,
+      50,
+      60
+    ],
+    "dropID": [
+      20061,
+      20002,
+      20003,
+      20004,
+      20005,
+      20006
+    ],
+    "attributes": "Attack%=49590430|HPMax%=384325836",
+    "normalBattleAttr": "Attack%=-10|HPMax%=-30",
+    "eliteBattleAttr": "Attack%=-35|HPMax%=-20|IgnoreMiss%=21|ControlImmunity%=42",
+    "bossBattleAttr": "Attack%=-25|HPMax%=-20|IgnoreMiss%=21|ControlImmunity%=42",
+    "speedAdd": 52000
+  },
+  {
+    "id": 78,
+    "randGroup": 2,
+    "turntableID": 3,
+    "difficultyType": 3,
+    "difficultyPara": 78,
+    "rewardStage": [
+      10,
+      20,
+      30,
+      40,
+      50,
+      60
+    ],
+    "dropID": [
+      20061,
+      20002,
+      20003,
+      20004,
+      20005,
+      20006
+    ],
+    "attributes": "Attack%=52018068|HPMax%=405740932",
+    "normalBattleAttr": "Attack%=-10|HPMax%=-30",
+    "eliteBattleAttr": "Attack%=-35|HPMax%=-20|IgnoreMiss%=21|ControlImmunity%=42",
+    "bossBattleAttr": "Attack%=-25|HPMax%=-20|IgnoreMiss%=21|ControlImmunity%=42",
+    "speedAdd": 52000
+  },
+  {
+    "id": 79,
+    "randGroup": 2,
+    "turntableID": 3,
+    "difficultyType": 3,
+    "difficultyPara": 79,
+    "rewardStage": [
+      10,
+      20,
+      30,
+      40,
+      50,
+      60
+    ],
+    "dropID": [
+      20061,
+      20002,
+      20003,
+      20004,
+      20005,
+      20006
+    ],
+    "attributes": "Attack%=54782685|HPMax%=430044080",
+    "normalBattleAttr": "Attack%=-10|HPMax%=-30",
+    "eliteBattleAttr": "Attack%=-35|HPMax%=-20|IgnoreMiss%=21|ControlImmunity%=42",
+    "bossBattleAttr": "Attack%=-25|HPMax%=-20|IgnoreMiss%=21|ControlImmunity%=42",
+    "speedAdd": 52000
+  },
+  {
+    "id": 80,
+    "randGroup": 2,
+    "turntableID": 3,
+    "difficultyType": 3,
+    "difficultyPara": 80,
+    "rewardStage": [
+      10,
+      20,
+      30,
+      40,
+      50,
+      60
+    ],
+    "dropID": [
+      20071,
+      20002,
+      20003,
+      20004,
+      20005,
+      20006
+    ],
+    "attributes": "Attack%=57692230|HPMax%=455768621",
+    "normalBattleAttr": "Attack%=-10|HPMax%=-30",
+    "eliteBattleAttr": "Attack%=-35|HPMax%=-20|IgnoreMiss%=21|ControlImmunity%=42",
+    "bossBattleAttr": "Attack%=-25|HPMax%=-20|IgnoreMiss%=21|ControlImmunity%=42",
+    "speedAdd": 52000
+  },
+  {
+    "id": 81,
+    "randGroup": 2,
+    "turntableID": 3,
+    "difficultyType": 3,
+    "difficultyPara": 81,
+    "rewardStage": [
+      10,
+      20,
+      30,
+      40,
+      50,
+      60
+    ],
+    "dropID": [
+      20071,
+      20002,
+      20003,
+      20004,
+      20005,
+      20006
+    ],
+    "attributes": "Attack%=50504183|HPMax%=485824991",
+    "normalBattleAttr": "Attack%=-10|HPMax%=-30",
+    "eliteBattleAttr": "Attack%=-35|HPMax%=-20|IgnoreMiss%=24|ControlImmunity%=48|DamageAdd%=21",
+    "bossBattleAttr": "Attack%=-25|HPMax%=-20|IgnoreMiss%=24|ControlImmunity%=48|DamageAdd%=21",
+    "speedAdd": 58000
+  },
+  {
+    "id": 82,
+    "randGroup": 2,
+    "turntableID": 3,
+    "difficultyType": 3,
+    "difficultyPara": 82,
+    "rewardStage": [
+      10,
+      20,
+      30,
+      40,
+      50,
+      60
+    ],
+    "dropID": [
+      20071,
+      20002,
+      20003,
+      20004,
+      20005,
+      20006
+    ],
+    "attributes": "Attack%=52848756|HPMax%=515803858",
+    "normalBattleAttr": "Attack%=-10|HPMax%=-30",
+    "eliteBattleAttr": "Attack%=-35|HPMax%=-20|IgnoreMiss%=24|ControlImmunity%=48|DamageAdd%=22",
+    "bossBattleAttr": "Attack%=-25|HPMax%=-20|IgnoreMiss%=24|ControlImmunity%=48|DamageAdd%=22",
+    "speedAdd": 58000
+  },
+  {
+    "id": 83,
+    "randGroup": 2,
+    "turntableID": 3,
+    "difficultyType": 3,
+    "difficultyPara": 83,
+    "rewardStage": [
+      10,
+      20,
+      30,
+      40,
+      50,
+      60
+    ],
+    "dropID": [
+      20071,
+      20002,
+      20003,
+      20004,
+      20005,
+      20006
+    ],
+    "attributes": "Attack%=55139548|HPMax%=545964239",
+    "normalBattleAttr": "Attack%=-10|HPMax%=-30",
+    "eliteBattleAttr": "Attack%=-35|HPMax%=-20|IgnoreMiss%=24|ControlImmunity%=48|DamageAdd%=23",
+    "bossBattleAttr": "Attack%=-25|HPMax%=-20|IgnoreMiss%=24|ControlImmunity%=48|DamageAdd%=23",
+    "speedAdd": 58000
+  },
+  {
+    "id": 84,
+    "randGroup": 2,
+    "turntableID": 3,
+    "difficultyType": 3,
+    "difficultyPara": 84,
+    "rewardStage": [
+      10,
+      20,
+      30,
+      40,
+      50,
+      60
+    ],
+    "dropID": [
+      20071,
+      20002,
+      20003,
+      20004,
+      20005,
+      20006
+    ],
+    "attributes": "Attack%=57348333|HPMax%=576006657",
+    "normalBattleAttr": "Attack%=-10|HPMax%=-30",
+    "eliteBattleAttr": "Attack%=-35|HPMax%=-20|IgnoreMiss%=24|ControlImmunity%=48|DamageAdd%=24",
+    "bossBattleAttr": "Attack%=-25|HPMax%=-20|IgnoreMiss%=24|ControlImmunity%=48|DamageAdd%=24",
+    "speedAdd": 58000
+  },
+  {
+    "id": 85,
+    "randGroup": 2,
+    "turntableID": 3,
+    "difficultyType": 3,
+    "difficultyPara": 85,
+    "rewardStage": [
+      10,
+      20,
+      30,
+      40,
+      50,
+      60
+    ],
+    "dropID": [
+      20071,
+      20002,
+      20003,
+      20004,
+      20005,
+      20006
+    ],
+    "attributes": "Attack%=59474448|HPMax%=605895939",
+    "normalBattleAttr": "Attack%=-10|HPMax%=-30",
+    "eliteBattleAttr": "Attack%=-35|HPMax%=-20|IgnoreMiss%=24|ControlImmunity%=48|DamageAdd%=25",
+    "bossBattleAttr": "Attack%=-25|HPMax%=-20|IgnoreMiss%=24|ControlImmunity%=48|DamageAdd%=25",
+    "speedAdd": 58000
+  },
+  {
+    "id": 86,
+    "randGroup": 2,
+    "turntableID": 3,
+    "difficultyType": 3,
+    "difficultyPara": 86,
+    "rewardStage": [
+      10,
+      20,
+      30,
+      40,
+      50,
+      60
+    ],
+    "dropID": [
+      20071,
+      20002,
+      20003,
+      20004,
+      20005,
+      20006
+    ],
+    "attributes": "Attack%=61517253|HPMax%=635596259",
+    "normalBattleAttr": "Attack%=-10|HPMax%=-30",
+    "eliteBattleAttr": "Attack%=-35|HPMax%=-20|IgnoreMiss%=24|ControlImmunity%=48|DamageAdd%=26",
+    "bossBattleAttr": "Attack%=-25|HPMax%=-20|IgnoreMiss%=24|ControlImmunity%=48|DamageAdd%=26",
+    "speedAdd": 64000
+  },
+  {
+    "id": 87,
+    "randGroup": 2,
+    "turntableID": 3,
+    "difficultyType": 3,
+    "difficultyPara": 87,
+    "rewardStage": [
+      10,
+      20,
+      30,
+      40,
+      50,
+      60
+    ],
+    "dropID": [
+      20071,
+      20002,
+      20003,
+      20004,
+      20005,
+      20006
+    ],
+    "attributes": "Attack%=63476128|HPMax%=665071132",
+    "normalBattleAttr": "Attack%=-10|HPMax%=-30",
+    "eliteBattleAttr": "Attack%=-35|HPMax%=-20|IgnoreMiss%=24|ControlImmunity%=48|DamageAdd%=27",
+    "bossBattleAttr": "Attack%=-25|HPMax%=-20|IgnoreMiss%=24|ControlImmunity%=48|DamageAdd%=27",
+    "speedAdd": 64000
+  },
+  {
+    "id": 88,
+    "randGroup": 2,
+    "turntableID": 3,
+    "difficultyType": 3,
+    "difficultyPara": 88,
+    "rewardStage": [
+      10,
+      20,
+      30,
+      40,
+      50,
+      60
+    ],
+    "dropID": [
+      20071,
+      20002,
+      20003,
+      20004,
+      20005,
+      20006
+    ],
+    "attributes": "Attack%=65374967|HPMax%=694543655",
+    "normalBattleAttr": "Attack%=-10|HPMax%=-30",
+    "eliteBattleAttr": "Attack%=-35|HPMax%=-20|IgnoreMiss%=24|ControlImmunity%=48|DamageAdd%=28",
+    "bossBattleAttr": "Attack%=-25|HPMax%=-20|IgnoreMiss%=24|ControlImmunity%=48|DamageAdd%=28",
+    "speedAdd": 64000
+  },
+  {
+    "id": 89,
+    "randGroup": 2,
+    "turntableID": 3,
+    "difficultyType": 3,
+    "difficultyPara": 89,
+    "rewardStage": [
+      10,
+      20,
+      30,
+      40,
+      50,
+      60
+    ],
+    "dropID": [
+      20071,
+      20002,
+      20003,
+      20004,
+      20005,
+      20006
+    ],
+    "attributes": "Attack%=67189557|HPMax%=723732319",
+    "normalBattleAttr": "Attack%=-10|HPMax%=-30",
+    "eliteBattleAttr": "Attack%=-35|HPMax%=-20|IgnoreMiss%=24|ControlImmunity%=48|DamageAdd%=29",
+    "bossBattleAttr": "Attack%=-25|HPMax%=-20|IgnoreMiss%=24|ControlImmunity%=48|DamageAdd%=29",
+    "speedAdd": 64000
+  },
+  {
+    "id": 90,
+    "randGroup": 2,
+    "turntableID": 3,
+    "difficultyType": 3,
+    "difficultyPara": 90,
+    "rewardStage": [
+      10,
+      20,
+      30,
+      40,
+      50,
+      60
+    ],
+    "dropID": [
+      20081,
+      20002,
+      20003,
+      20004,
+      20005,
+      20006
+    ],
+    "attributes": "Attack%=71276002|HPMax%=778333950",
+    "normalBattleAttr": "Attack%=-10|HPMax%=-30",
+    "eliteBattleAttr": "Attack%=-35|HPMax%=-20|IgnoreMiss%=24|ControlImmunity%=48|DamageAdd%=30",
+    "bossBattleAttr": "Attack%=-25|HPMax%=-20|IgnoreMiss%=24|ControlImmunity%=48|DamageAdd%=30",
+    "speedAdd": 64000
+  },
+  {
+    "id": 91,
+    "randGroup": 2,
+    "turntableID": 3,
+    "difficultyType": 3,
+    "difficultyPara": 91,
+    "rewardStage": [
+      10,
+      20,
+      30,
+      40,
+      50,
+      60
+    ],
+    "dropID": [
+      20081,
+      20002,
+      20003,
+      20004,
+      20005,
+      20006
+    ],
+    "attributes": "Attack%=75207780|HPMax%=832512524",
+    "normalBattleAttr": "Attack%=-10|HPMax%=-30",
+    "eliteBattleAttr": "Attack%=-35|HPMax%=-20|IgnoreMiss%=27|ControlImmunity%=54|DamageAdd%=31",
+    "bossBattleAttr": "Attack%=-25|HPMax%=-20|IgnoreMiss%=27|ControlImmunity%=54|DamageAdd%=31",
+    "speedAdd": 70000
+  },
+  {
+    "id": 92,
+    "randGroup": 2,
+    "turntableID": 3,
+    "difficultyType": 3,
+    "difficultyPara": 92,
+    "rewardStage": [
+      10,
+      20,
+      30,
+      40,
+      50,
+      60
+    ],
+    "dropID": [
+      20081,
+      20002,
+      20003,
+      20004,
+      20005,
+      20006
+    ],
+    "attributes": "Attack%=78983553|HPMax%=886195471",
+    "normalBattleAttr": "Attack%=-10|HPMax%=-30",
+    "eliteBattleAttr": "Attack%=-35|HPMax%=-20|IgnoreMiss%=27|ControlImmunity%=54|DamageAdd%=32",
+    "bossBattleAttr": "Attack%=-25|HPMax%=-20|IgnoreMiss%=27|ControlImmunity%=54|DamageAdd%=32",
+    "speedAdd": 70000
+  },
+  {
+    "id": 93,
+    "randGroup": 2,
+    "turntableID": 3,
+    "difficultyType": 3,
+    "difficultyPara": 93,
+    "rewardStage": [
+      10,
+      20,
+      30,
+      40,
+      50,
+      60
+    ],
+    "dropID": [
+      20081,
+      20002,
+      20003,
+      20004,
+      20005,
+      20006
+    ],
+    "attributes": "Attack%=82642951|HPMax%=939774322",
+    "normalBattleAttr": "Attack%=-10|HPMax%=-30",
+    "eliteBattleAttr": "Attack%=-35|HPMax%=-20|IgnoreMiss%=27|ControlImmunity%=54|DamageAdd%=33",
+    "bossBattleAttr": "Attack%=-25|HPMax%=-20|IgnoreMiss%=27|ControlImmunity%=54|DamageAdd%=33",
+    "speedAdd": 70000
+  },
+  {
+    "id": 94,
+    "randGroup": 2,
+    "turntableID": 3,
+    "difficultyType": 3,
+    "difficultyPara": 94,
+    "rewardStage": [
+      10,
+      20,
+      30,
+      40,
+      50,
+      60
+    ],
+    "dropID": [
+      20081,
+      20002,
+      20003,
+      20004,
+      20005,
+      20006
+    ],
+    "attributes": "Attack%=86146418|HPMax%=992751327",
+    "normalBattleAttr": "Attack%=-10|HPMax%=-30",
+    "eliteBattleAttr": "Attack%=-35|HPMax%=-20|IgnoreMiss%=27|ControlImmunity%=54|DamageAdd%=34",
+    "bossBattleAttr": "Attack%=-25|HPMax%=-20|IgnoreMiss%=27|ControlImmunity%=54|DamageAdd%=34",
+    "speedAdd": 70000
+  },
+  {
+    "id": 95,
+    "randGroup": 2,
+    "turntableID": 3,
+    "difficultyType": 3,
+    "difficultyPara": 95,
+    "rewardStage": [
+      10,
+      20,
+      30,
+      40,
+      50,
+      60
+    ],
+    "dropID": [
+      20081,
+      20002,
+      20003,
+      20004,
+      20005,
+      20006
+    ],
+    "attributes": "Attack%=89492428|HPMax%=1045047829",
+    "normalBattleAttr": "Attack%=-10|HPMax%=-30",
+    "eliteBattleAttr": "Attack%=-35|HPMax%=-20|IgnoreMiss%=27|ControlImmunity%=54|DamageAdd%=35",
+    "bossBattleAttr": "Attack%=-25|HPMax%=-20|IgnoreMiss%=27|ControlImmunity%=54|DamageAdd%=35",
+    "speedAdd": 70000
+  },
+  {
+    "id": 96,
+    "randGroup": 2,
+    "turntableID": 3,
+    "difficultyType": 3,
+    "difficultyPara": 96,
+    "rewardStage": [
+      10,
+      20,
+      30,
+      40,
+      50,
+      60
+    ],
+    "dropID": [
+      20081,
+      20002,
+      20003,
+      20004,
+      20005,
+      20006
+    ],
+    "attributes": "Attack%=92679498|HPMax%=1096583821",
+    "normalBattleAttr": "Attack%=-10|HPMax%=-30",
+    "eliteBattleAttr": "Attack%=-35|HPMax%=-20|IgnoreMiss%=27|ControlImmunity%=54|DamageAdd%=36",
+    "bossBattleAttr": "Attack%=-25|HPMax%=-20|IgnoreMiss%=27|ControlImmunity%=54|DamageAdd%=36",
+    "speedAdd": 76000
+  },
+  {
+    "id": 97,
+    "randGroup": 2,
+    "turntableID": 3,
+    "difficultyType": 3,
+    "difficultyPara": 97,
+    "rewardStage": [
+      10,
+      20,
+      30,
+      40,
+      50,
+      60
+    ],
+    "dropID": [
+      20081,
+      20002,
+      20003,
+      20004,
+      20005,
+      20006
+    ],
+    "attributes": "Attack%=95706189|HPMax%=1147277950",
+    "normalBattleAttr": "Attack%=-10|HPMax%=-30",
+    "eliteBattleAttr": "Attack%=-35|HPMax%=-20|IgnoreMiss%=27|ControlImmunity%=54|DamageAdd%=37",
+    "bossBattleAttr": "Attack%=-25|HPMax%=-20|IgnoreMiss%=27|ControlImmunity%=54|DamageAdd%=37",
+    "speedAdd": 76000
+  },
+  {
+    "id": 98,
+    "randGroup": 2,
+    "turntableID": 3,
+    "difficultyType": 3,
+    "difficultyPara": 98,
+    "rewardStage": [
+      10,
+      20,
+      30,
+      40,
+      50,
+      60
+    ],
+    "dropID": [
+      20081,
+      20002,
+      20003,
+      20004,
+      20005,
+      20006
+    ],
+    "attributes": "Attack%=98618101|HPMax%=1197618230",
+    "normalBattleAttr": "Attack%=-10|HPMax%=-30",
+    "eliteBattleAttr": "Attack%=-35|HPMax%=-20|IgnoreMiss%=27|ControlImmunity%=54|DamageAdd%=38",
+    "bossBattleAttr": "Attack%=-25|HPMax%=-20|IgnoreMiss%=27|ControlImmunity%=54|DamageAdd%=38",
+    "speedAdd": 76000
+  },
+  {
+    "id": 99,
+    "randGroup": 2,
+    "turntableID": 3,
+    "difficultyType": 3,
+    "difficultyPara": 99,
+    "rewardStage": [
+      10,
+      20,
+      30,
+      40,
+      50,
+      60
+    ],
+    "dropID": [
+      20081,
+      20002,
+      20003,
+      20004,
+      20005,
+      20006
+    ],
+    "attributes": "Attack%=101368550|HPMax%=1246985218",
+    "normalBattleAttr": "Attack%=-10|HPMax%=-30",
+    "eliteBattleAttr": "Attack%=-35|HPMax%=-20|IgnoreMiss%=27|ControlImmunity%=54|DamageAdd%=39",
+    "bossBattleAttr": "Attack%=-25|HPMax%=-20|IgnoreMiss%=27|ControlImmunity%=54|DamageAdd%=39",
+    "speedAdd": 76000
+  },
+  {
+    "id": 100,
+    "randGroup": 2,
+    "turntableID": 3,
+    "difficultyType": 3,
+    "difficultyPara": 100,
+    "rewardStage": [
+      10,
+      20,
+      30,
+      40,
+      50,
+      60
+    ],
+    "dropID": [
+      20091,
+      20002,
+      20003,
+      20004,
+      20005,
+      20006
+    ],
+    "attributes": "Attack%=105680394|HPMax%=1316777713",
+    "normalBattleAttr": "Attack%=-10|HPMax%=-30",
+    "eliteBattleAttr": "Attack%=-35|HPMax%=-20|IgnoreMiss%=27|ControlImmunity%=54|DamageAdd%=40",
+    "bossBattleAttr": "Attack%=-25|HPMax%=-20|IgnoreMiss%=27|ControlImmunity%=54|DamageAdd%=40",
+    "speedAdd": 76000
+  },
+  {
+    "id": 101,
+    "randGroup": 2,
+    "turntableID": 3,
+    "difficultyType": 3,
+    "difficultyPara": 101,
+    "rewardStage": [
+      10,
+      20,
+      30,
+      40,
+      50,
+      60
+    ],
+    "dropID": [
+      20091,
+      20002,
+      20003,
+      20004,
+      20005,
+      20006
+    ],
+    "attributes": "Attack%=111111565|HPMax%=1402172401",
+    "normalBattleAttr": "Attack%=-10|HPMax%=-30",
+    "eliteBattleAttr": "Attack%=-35|HPMax%=-20|IgnoreMiss%=30|ControlImmunity%=60|DamageAdd%=41",
+    "bossBattleAttr": "Attack%=-25|HPMax%=-20|IgnoreMiss%=30|ControlImmunity%=60|DamageAdd%=41",
+    "speedAdd": 82000
+  },
+  {
+    "id": 102,
+    "randGroup": 2,
+    "turntableID": 3,
+    "difficultyType": 3,
+    "difficultyPara": 102,
+    "rewardStage": [
+      10,
+      20,
+      30,
+      40,
+      50,
+      60
+    ],
+    "dropID": [
+      20091,
+      20002,
+      20003,
+      20004,
+      20005,
+      20006
+    ],
+    "attributes": "Attack%=116468248|HPMax%=1488464219",
+    "normalBattleAttr": "Attack%=-10|HPMax%=-30",
+    "eliteBattleAttr": "Attack%=-35|HPMax%=-20|IgnoreMiss%=30|ControlImmunity%=60|DamageAdd%=42",
+    "bossBattleAttr": "Attack%=-25|HPMax%=-20|IgnoreMiss%=30|ControlImmunity%=60|DamageAdd%=42",
+    "speedAdd": 82000
+  },
+  {
+    "id": 103,
+    "randGroup": 2,
+    "turntableID": 3,
+    "difficultyType": 3,
+    "difficultyPara": 103,
+    "rewardStage": [
+      10,
+      20,
+      30,
+      40,
+      50,
+      60
+    ],
+    "dropID": [
+      20091,
+      20002,
+      20003,
+      20004,
+      20005,
+      20006
+    ],
+    "attributes": "Attack%=122652917|HPMax%=1582927887",
+    "normalBattleAttr": "Attack%=-10|HPMax%=-30",
+    "eliteBattleAttr": "Attack%=-35|HPMax%=-20|IgnoreMiss%=30|ControlImmunity%=60|DamageAdd%=43",
+    "bossBattleAttr": "Attack%=-25|HPMax%=-20|IgnoreMiss%=30|ControlImmunity%=60|DamageAdd%=43",
+    "speedAdd": 82000
+  },
+  {
+    "id": 104,
+    "randGroup": 2,
+    "turntableID": 3,
+    "difficultyType": 3,
+    "difficultyPara": 104,
+    "rewardStage": [
+      10,
+      20,
+      30,
+      40,
+      50,
+      60
+    ],
+    "dropID": [
+      20091,
+      20002,
+      20003,
+      20004,
+      20005,
+      20006
+    ],
+    "attributes": "Attack%=128755375|HPMax%=1677940059",
+    "normalBattleAttr": "Attack%=-10|HPMax%=-30",
+    "eliteBattleAttr": "Attack%=-35|HPMax%=-20|IgnoreMiss%=30|ControlImmunity%=60|DamageAdd%=44",
+    "bossBattleAttr": "Attack%=-25|HPMax%=-20|IgnoreMiss%=30|ControlImmunity%=60|DamageAdd%=44",
+    "speedAdd": 82000
+  },
+  {
+    "id": 105,
+    "randGroup": 2,
+    "turntableID": 3,
+    "difficultyType": 3,
+    "difficultyPara": 105,
+    "rewardStage": [
+      10,
+      20,
+      30,
+      40,
+      50,
+      60
+    ],
+    "dropID": [
+      20091,
+      20002,
+      20003,
+      20004,
+      20005,
+      20006
+    ],
+    "attributes": "Attack%=133934687|HPMax%=1762413066",
+    "normalBattleAttr": "Attack%=-10|HPMax%=-30",
+    "eliteBattleAttr": "Attack%=-35|HPMax%=-20|IgnoreMiss%=30|ControlImmunity%=60|DamageAdd%=45",
+    "bossBattleAttr": "Attack%=-25|HPMax%=-20|IgnoreMiss%=30|ControlImmunity%=60|DamageAdd%=45",
+    "speedAdd": 82000
+  },
+  {
+    "id": 106,
+    "randGroup": 2,
+    "turntableID": 3,
+    "difficultyType": 3,
+    "difficultyPara": 106,
+    "rewardStage": [
+      10,
+      20,
+      30,
+      40,
+      50,
+      60
+    ],
+    "dropID": [
+      20091,
+      20002,
+      20003,
+      20004,
+      20005,
+      20006
+    ],
+    "attributes": "Attack%=139037960|HPMax%=1847258336",
+    "normalBattleAttr": "Attack%=-10|HPMax%=-30",
+    "eliteBattleAttr": "Attack%=-35|HPMax%=-20|IgnoreMiss%=30|ControlImmunity%=60|DamageAdd%=46",
+    "bossBattleAttr": "Attack%=-25|HPMax%=-20|IgnoreMiss%=30|ControlImmunity%=60|DamageAdd%=46",
+    "speedAdd": 88000
+  },
+  {
+    "id": 107,
+    "randGroup": 2,
+    "turntableID": 3,
+    "difficultyType": 3,
+    "difficultyPara": 107,
+    "rewardStage": [
+      10,
+      20,
+      30,
+      40,
+      50,
+      60
+    ],
+    "dropID": [
+      20091,
+      20002,
+      20003,
+      20004,
+      20005,
+      20006
+    ],
+    "attributes": "Attack%=144063920|HPMax%=1932437418",
+    "normalBattleAttr": "Attack%=-10|HPMax%=-30",
+    "eliteBattleAttr": "Attack%=-35|HPMax%=-20|IgnoreMiss%=30|ControlImmunity%=60|DamageAdd%=47",
+    "bossBattleAttr": "Attack%=-25|HPMax%=-20|IgnoreMiss%=30|ControlImmunity%=60|DamageAdd%=47",
+    "speedAdd": 88000
+  },
+  {
+    "id": 108,
+    "randGroup": 2,
+    "turntableID": 3,
+    "difficultyType": 3,
+    "difficultyPara": 108,
+    "rewardStage": [
+      10,
+      20,
+      30,
+      40,
+      50,
+      60
+    ],
+    "dropID": [
+      20091,
+      20002,
+      20003,
+      20004,
+      20005,
+      20006
+    ],
+    "attributes": "Attack%=149919939|HPMax%=2030215816",
+    "normalBattleAttr": "Attack%=-10|HPMax%=-30",
+    "eliteBattleAttr": "Attack%=-35|HPMax%=-20|IgnoreMiss%=30|ControlImmunity%=60|DamageAdd%=48",
+    "bossBattleAttr": "Attack%=-25|HPMax%=-20|IgnoreMiss%=30|ControlImmunity%=60|DamageAdd%=48",
+    "speedAdd": 88000
+  },
+  {
+    "id": 109,
+    "randGroup": 2,
+    "turntableID": 3,
+    "difficultyType": 3,
+    "difficultyPara": 109,
+    "rewardStage": [
+      10,
+      20,
+      30,
+      40,
+      50,
+      60
+    ],
+    "dropID": [
+      20091,
+      20002,
+      20003,
+      20004,
+      20005,
+      20006
+    ],
+    "attributes": "Attack%=155691208|HPMax%=2128415584",
+    "normalBattleAttr": "Attack%=-10|HPMax%=-30",
+    "eliteBattleAttr": "Attack%=-35|HPMax%=-20|IgnoreMiss%=30|ControlImmunity%=60|DamageAdd%=49",
+    "bossBattleAttr": "Attack%=-25|HPMax%=-20|IgnoreMiss%=30|ControlImmunity%=60|DamageAdd%=49",
+    "speedAdd": 88000
+  },
+  {
+    "id": 110,
+    "randGroup": 2,
+    "turntableID": 3,
+    "difficultyType": 3,
+    "difficultyPara": 110,
+    "rewardStage": [
+      10,
+      20,
+      30,
+      40,
+      50,
+      60
+    ],
+    "dropID": [
+      20101,
+      20002,
+      20003,
+      20004,
+      20005,
+      20006
+    ],
+    "attributes": "Attack%=164371073|HPMax%=2268320811",
+    "normalBattleAttr": "Attack%=-10|HPMax%=-30",
+    "eliteBattleAttr": "Attack%=-35|HPMax%=-20|IgnoreMiss%=30|ControlImmunity%=60|DamageAdd%=50",
+    "bossBattleAttr": "Attack%=-25|HPMax%=-20|IgnoreMiss%=30|ControlImmunity%=60|DamageAdd%=50",
+    "speedAdd": 88000
+  },
+  {
+    "id": 111,
+    "randGroup": 2,
+    "turntableID": 3,
+    "difficultyType": 3,
+    "difficultyPara": 111,
+    "rewardStage": [
+      10,
+      20,
+      30,
+      40,
+      50,
+      60
+    ],
+    "dropID": [
+      20101,
+      20002,
+      20003,
+      20004,
+      20005,
+      20006
+    ],
+    "attributes": "Attack%=172929471|HPMax%=2408864306",
+    "normalBattleAttr": "Attack%=-10|HPMax%=-30",
+    "eliteBattleAttr": "Attack%=-35|HPMax%=-20|IgnoreMiss%=30|ControlImmunity%=60|DamageAdd%=51",
+    "bossBattleAttr": "Attack%=-25|HPMax%=-20|IgnoreMiss%=30|ControlImmunity%=60|DamageAdd%=51",
+    "speedAdd": 94000
+  },
+  {
+    "id": 112,
+    "randGroup": 2,
+    "turntableID": 3,
+    "difficultyType": 3,
+    "difficultyPara": 112,
+    "rewardStage": [
+      10,
+      20,
+      30,
+      40,
+      50,
+      60
+    ],
+    "dropID": [
+      20101,
+      20002,
+      20003,
+      20004,
+      20005,
+      20006
+    ],
+    "attributes": "Attack%=181363979|HPMax%=2549977549",
+    "normalBattleAttr": "Attack%=-10|HPMax%=-30",
+    "eliteBattleAttr": "Attack%=-35|HPMax%=-20|IgnoreMiss%=30|ControlImmunity%=60|DamageAdd%=52",
+    "bossBattleAttr": "Attack%=-25|HPMax%=-20|IgnoreMiss%=30|ControlImmunity%=60|DamageAdd%=52",
+    "speedAdd": 94000
+  },
+  {
+    "id": 113,
+    "randGroup": 2,
+    "turntableID": 3,
+    "difficultyType": 3,
+    "difficultyPara": 113,
+    "rewardStage": [
+      10,
+      20,
+      30,
+      40,
+      50,
+      60
+    ],
+    "dropID": [
+      20101,
+      20002,
+      20003,
+      20004,
+      20005,
+      20006
+    ],
+    "attributes": "Attack%=191091490|HPMax%=2711731563",
+    "normalBattleAttr": "Attack%=-10|HPMax%=-30",
+    "eliteBattleAttr": "Attack%=-35|HPMax%=-20|IgnoreMiss%=30|ControlImmunity%=60|DamageAdd%=53",
+    "bossBattleAttr": "Attack%=-25|HPMax%=-20|IgnoreMiss%=30|ControlImmunity%=60|DamageAdd%=53",
+    "speedAdd": 94000
+  },
+  {
+    "id": 114,
+    "randGroup": 2,
+    "turntableID": 3,
+    "difficultyType": 3,
+    "difficultyPara": 114,
+    "rewardStage": [
+      10,
+      20,
+      30,
+      40,
+      50,
+      60
+    ],
+    "dropID": [
+      20101,
+      20002,
+      20003,
+      20004,
+      20005,
+      20006
+    ],
+    "attributes": "Attack%=200680941|HPMax%=2874152439",
+    "normalBattleAttr": "Attack%=-10|HPMax%=-30",
+    "eliteBattleAttr": "Attack%=-35|HPMax%=-20|IgnoreMiss%=30|ControlImmunity%=60|DamageAdd%=54",
+    "bossBattleAttr": "Attack%=-25|HPMax%=-20|IgnoreMiss%=30|ControlImmunity%=60|DamageAdd%=54",
+    "speedAdd": 94000
+  },
+  {
+    "id": 115,
+    "randGroup": 2,
+    "turntableID": 3,
+    "difficultyType": 3,
+    "difficultyPara": 115,
+    "rewardStage": [
+      10,
+      20,
+      30,
+      40,
+      50,
+      60
+    ],
+    "dropID": [
+      20101,
+      20002,
+      20003,
+      20004,
+      20005,
+      20006
+    ],
+    "attributes": "Attack%=208805628|HPMax%=3018024347",
+    "normalBattleAttr": "Attack%=-10|HPMax%=-30",
+    "eliteBattleAttr": "Attack%=-35|HPMax%=-20|IgnoreMiss%=30|ControlImmunity%=60|DamageAdd%=55",
+    "bossBattleAttr": "Attack%=-25|HPMax%=-20|IgnoreMiss%=30|ControlImmunity%=60|DamageAdd%=55",
+    "speedAdd": 94000
+  },
+  {
+    "id": 116,
+    "randGroup": 2,
+    "turntableID": 3,
+    "difficultyType": 3,
+    "difficultyPara": 116,
+    "rewardStage": [
+      10,
+      20,
+      30,
+      40,
+      50,
+      60
+    ],
+    "dropID": [
+      20101,
+      20002,
+      20003,
+      20004,
+      20005,
+      20006
+    ],
+    "attributes": "Attack%=216801806|HPMax%=3162271148",
+    "normalBattleAttr": "Attack%=-10|HPMax%=-30",
+    "eliteBattleAttr": "Attack%=-35|HPMax%=-20|IgnoreMiss%=30|ControlImmunity%=60|DamageAdd%=56",
+    "bossBattleAttr": "Attack%=-25|HPMax%=-20|IgnoreMiss%=30|ControlImmunity%=60|DamageAdd%=56",
+    "speedAdd": 100000
+  },
+  {
+    "id": 117,
+    "randGroup": 2,
+    "turntableID": 3,
+    "difficultyType": 3,
+    "difficultyPara": 117,
+    "rewardStage": [
+      10,
+      20,
+      30,
+      40,
+      50,
+      60
+    ],
+    "dropID": [
+      20101,
+      20002,
+      20003,
+      20004,
+      20005,
+      20006
+    ],
+    "attributes": "Attack%=224667056|HPMax%=3306818235",
+    "normalBattleAttr": "Attack%=-10|HPMax%=-30",
+    "eliteBattleAttr": "Attack%=-35|HPMax%=-20|IgnoreMiss%=30|ControlImmunity%=60|DamageAdd%=57",
+    "bossBattleAttr": "Attack%=-25|HPMax%=-20|IgnoreMiss%=30|ControlImmunity%=60|DamageAdd%=57",
+    "speedAdd": 100000
+  },
+  {
+    "id": 118,
+    "randGroup": 2,
+    "turntableID": 3,
+    "difficultyType": 3,
+    "difficultyPara": 118,
+    "rewardStage": [
+      10,
+      20,
+      30,
+      40,
+      50,
+      60
+    ],
+    "dropID": [
+      20101,
+      20002,
+      20003,
+      20004,
+      20005,
+      20006
+    ],
+    "attributes": "Attack%=233818027|HPMax%=3472665351",
+    "normalBattleAttr": "Attack%=-10|HPMax%=-30",
+    "eliteBattleAttr": "Attack%=-35|HPMax%=-20|IgnoreMiss%=30|ControlImmunity%=60|DamageAdd%=58",
+    "bossBattleAttr": "Attack%=-25|HPMax%=-20|IgnoreMiss%=30|ControlImmunity%=60|DamageAdd%=58",
+    "speedAdd": 100000
+  },
+  {
+    "id": 119,
+    "randGroup": 2,
+    "turntableID": 3,
+    "difficultyType": 3,
+    "difficultyPara": 119,
+    "rewardStage": [
+      10,
+      20,
+      30,
+      40,
+      50,
+      60
+    ],
+    "dropID": [
+      20101,
+      20002,
+      20003,
+      20004,
+      20005,
+      20006
+    ],
+    "attributes": "Attack%=242823917|HPMax%=3638898518",
+    "normalBattleAttr": "Attack%=-10|HPMax%=-30",
+    "eliteBattleAttr": "Attack%=-35|HPMax%=-20|IgnoreMiss%=30|ControlImmunity%=60|DamageAdd%=59",
+    "bossBattleAttr": "Attack%=-25|HPMax%=-20|IgnoreMiss%=30|ControlImmunity%=60|DamageAdd%=59",
+    "speedAdd": 100000
+  },
+  {
+    "id": 120,
+    "randGroup": 2,
+    "turntableID": 3,
+    "difficultyType": 3,
+    "difficultyPara": 120,
+    "rewardStage": [
+      10,
+      20,
+      30,
+      40,
+      50,
+      60
+    ],
+    "dropID": [
+      20111,
+      20002,
+      20003,
+      20004,
+      20005,
+      20006
+    ],
+    "attributes": "Attack%=255796231|HPMax%=3867639018",
+    "normalBattleAttr": "Attack%=-10|HPMax%=-30",
+    "eliteBattleAttr": "Attack%=-35|HPMax%=-20|IgnoreMiss%=30|ControlImmunity%=60|DamageAdd%=60",
+    "bossBattleAttr": "Attack%=-25|HPMax%=-20|IgnoreMiss%=30|ControlImmunity%=60|DamageAdd%=60",
+    "speedAdd": 100000
+  },
+  {
+    "id": 121,
+    "randGroup": 2,
+    "turntableID": 3,
+    "difficultyType": 3,
+    "difficultyPara": 121,
+    "rewardStage": [
+      10,
+      20,
+      30,
+      40,
+      50,
+      60
+    ],
+    "dropID": [
+      20111,
+      20002,
+      20003,
+      20004,
+      20005,
+      20006
+    ],
+    "attributes": "Attack%=268567837|HPMax%=4096935215",
+    "normalBattleAttr": "Attack%=-10|HPMax%=-30",
+    "eliteBattleAttr": "Attack%=-35|HPMax%=-20|IgnoreMiss%=32|ControlImmunity%=64|DamageAdd%=61",
+    "bossBattleAttr": "Attack%=-25|HPMax%=-20|IgnoreMiss%=32|ControlImmunity%=64|DamageAdd%=61",
+    "speedAdd": 106000
+  },
+  {
+    "id": 122,
+    "randGroup": 2,
+    "turntableID": 3,
+    "difficultyType": 3,
+    "difficultyPara": 122,
+    "rewardStage": [
+      10,
+      20,
+      30,
+      40,
+      50,
+      60
+    ],
+    "dropID": [
+      20111,
+      20002,
+      20003,
+      20004,
+      20005,
+      20006
+    ],
+    "attributes": "Attack%=281134487|HPMax%=4326659759",
+    "normalBattleAttr": "Attack%=-10|HPMax%=-30",
+    "eliteBattleAttr": "Attack%=-35|HPMax%=-20|IgnoreMiss%=32|ControlImmunity%=64|DamageAdd%=62",
+    "bossBattleAttr": "Attack%=-25|HPMax%=-20|IgnoreMiss%=32|ControlImmunity%=64|DamageAdd%=62",
+    "speedAdd": 106000
+  },
+  {
+    "id": 123,
+    "randGroup": 2,
+    "turntableID": 3,
+    "difficultyType": 3,
+    "difficultyPara": 123,
+    "rewardStage": [
+      10,
+      20,
+      30,
+      40,
+      50,
+      60
+    ],
+    "dropID": [
+      20111,
+      20002,
+      20003,
+      20004,
+      20005,
+      20006
+    ],
+    "attributes": "Attack%=295656765|HPMax%=4590293030",
+    "normalBattleAttr": "Attack%=-10|HPMax%=-30",
+    "eliteBattleAttr": "Attack%=-35|HPMax%=-20|IgnoreMiss%=32|ControlImmunity%=64|DamageAdd%=63",
+    "bossBattleAttr": "Attack%=-25|HPMax%=-20|IgnoreMiss%=32|ControlImmunity%=64|DamageAdd%=63",
+    "speedAdd": 106000
+  },
+  {
+    "id": 124,
+    "randGroup": 2,
+    "turntableID": 3,
+    "difficultyType": 3,
+    "difficultyPara": 124,
+    "rewardStage": [
+      10,
+      20,
+      30,
+      40,
+      50,
+      60
+    ],
+    "dropID": [
+      20111,
+      20002,
+      20003,
+      20004,
+      20005,
+      20006
+    ],
+    "attributes": "Attack%=309950794|HPMax%=4854449342",
+    "normalBattleAttr": "Attack%=-10|HPMax%=-30",
+    "eliteBattleAttr": "Attack%=-35|HPMax%=-20|IgnoreMiss%=32|ControlImmunity%=64|DamageAdd%=64",
+    "bossBattleAttr": "Attack%=-25|HPMax%=-20|IgnoreMiss%=32|ControlImmunity%=64|DamageAdd%=64",
+    "speedAdd": 106000
+  },
+  {
+    "id": 125,
+    "randGroup": 2,
+    "turntableID": 3,
+    "difficultyType": 3,
+    "difficultyPara": 125,
+    "rewardStage": [
+      10,
+      20,
+      30,
+      40,
+      50,
+      60
+    ],
+    "dropID": [
+      20111,
+      20002,
+      20003,
+      20004,
+      20005,
+      20006
+    ],
+    "attributes": "Attack%=322015413|HPMax%=5087441009",
+    "normalBattleAttr": "Attack%=-10|HPMax%=-30",
+    "eliteBattleAttr": "Attack%=-35|HPMax%=-20|IgnoreMiss%=32|ControlImmunity%=64|DamageAdd%=65",
+    "bossBattleAttr": "Attack%=-25|HPMax%=-20|IgnoreMiss%=32|ControlImmunity%=64|DamageAdd%=65",
+    "speedAdd": 106000
+  },
+  {
+    "id": 126,
+    "randGroup": 2,
+    "turntableID": 3,
+    "difficultyType": 3,
+    "difficultyPara": 126,
+    "rewardStage": [
+      10,
+      20,
+      30,
+      40,
+      50,
+      60
+    ],
+    "dropID": [
+      20111,
+      20002,
+      20003,
+      20004,
+      20005,
+      20006
+    ],
+    "attributes": "Attack%=337238991|HPMax%=5374240568",
+    "normalBattleAttr": "Attack%=-10|HPMax%=-30",
+    "eliteBattleAttr": "Attack%=-35|HPMax%=-20|IgnoreMiss%=32|ControlImmunity%=64|DamageAdd%=66",
+    "bossBattleAttr": "Attack%=-25|HPMax%=-20|IgnoreMiss%=32|ControlImmunity%=64|DamageAdd%=66",
+    "speedAdd": 112000
+  },
+  {
+    "id": 127,
+    "randGroup": 2,
+    "turntableID": 4,
+    "difficultyType": 3,
+    "difficultyPara": 127,
+    "rewardStage": [
+      10,
+      20,
+      30,
+      40,
+      50,
+      60
+    ],
+    "dropID": [
+      20111,
+      20002,
+      20003,
+      20004,
+      20005,
+      20006
+    ],
+    "attributes": "Attack%=352551090|HPMax%=5666818086",
+    "normalBattleAttr": "Attack%=-10|HPMax%=-30",
+    "eliteBattleAttr": "Attack%=-35|HPMax%=-20|IgnoreMiss%=32|ControlImmunity%=64|DamageAdd%=67",
+    "bossBattleAttr": "Attack%=-25|HPMax%=-20|IgnoreMiss%=32|ControlImmunity%=64|DamageAdd%=67",
+    "speedAdd": 112000
+  },
+  {
+    "id": 128,
+    "randGroup": 2,
+    "turntableID": 4,
+    "difficultyType": 3,
+    "difficultyPara": 128,
+    "rewardStage": [
+      10,
+      20,
+      30,
+      40,
+      50,
+      60
+    ],
+    "dropID": [
+      20111,
+      20002,
+      20003,
+      20004,
+      20005,
+      20006
+    ],
+    "attributes": "Attack%=370144094|HPMax%=6000776063",
+    "normalBattleAttr": "Attack%=-10|HPMax%=-30",
+    "eliteBattleAttr": "Attack%=-35|HPMax%=-20|IgnoreMiss%=32|ControlImmunity%=64|DamageAdd%=68",
+    "bossBattleAttr": "Attack%=-25|HPMax%=-20|IgnoreMiss%=32|ControlImmunity%=64|DamageAdd%=68",
+    "speedAdd": 112000
+  },
+  {
+    "id": 129,
+    "randGroup": 2,
+    "turntableID": 4,
+    "difficultyType": 3,
+    "difficultyPara": 129,
+    "rewardStage": [
+      10,
+      20,
+      30,
+      40,
+      50,
+      60
+    ],
+    "dropID": [
+      20111,
+      20002,
+      20003,
+      20004,
+      20005,
+      20006
+    ],
+    "attributes": "Attack%=387850034|HPMax%=6341638944",
+    "normalBattleAttr": "Attack%=-10|HPMax%=-30",
+    "eliteBattleAttr": "Attack%=-35|HPMax%=-20|IgnoreMiss%=32|ControlImmunity%=64|DamageAdd%=69",
+    "bossBattleAttr": "Attack%=-25|HPMax%=-20|IgnoreMiss%=32|ControlImmunity%=64|DamageAdd%=69",
+    "speedAdd": 112000
+  },
+  {
+    "id": 130,
+    "randGroup": 2,
+    "turntableID": 4,
+    "difficultyType": 3,
+    "difficultyPara": 130,
+    "rewardStage": [
+      10,
+      20,
+      30,
+      40,
+      50,
+      60
+    ],
+    "dropID": [
+      20121,
+      20002,
+      20003,
+      20004,
+      20005,
+      20006
+    ],
+    "attributes": "Attack%=409737066|HPMax%=6756564231",
+    "normalBattleAttr": "Attack%=-10|HPMax%=-30",
+    "eliteBattleAttr": "Attack%=-35|HPMax%=-20|IgnoreMiss%=32|ControlImmunity%=64|DamageAdd%=70",
+    "bossBattleAttr": "Attack%=-25|HPMax%=-20|IgnoreMiss%=32|ControlImmunity%=64|DamageAdd%=70",
+    "speedAdd": 112000
+  },
+  {
+    "id": 131,
+    "randGroup": 2,
+    "turntableID": 4,
+    "difficultyType": 3,
+    "difficultyPara": 131,
+    "rewardStage": [
+      10,
+      20,
+      30,
+      40,
+      50,
+      60
+    ],
+    "dropID": [
+      20121,
+      20002,
+      20003,
+      20004,
+      20005,
+      20006
+    ],
+    "attributes": "Attack%=431764835|HPMax%=7180141281",
+    "normalBattleAttr": "Attack%=-10|HPMax%=-30",
+    "eliteBattleAttr": "Attack%=-35|HPMax%=-20|IgnoreMiss%=32|ControlImmunity%=64|DamageAdd%=71",
+    "bossBattleAttr": "Attack%=-25|HPMax%=-20|IgnoreMiss%=32|ControlImmunity%=64|DamageAdd%=71",
+    "speedAdd": 118000
+  },
+  {
+    "id": 132,
+    "randGroup": 2,
+    "turntableID": 4,
+    "difficultyType": 3,
+    "difficultyPara": 132,
+    "rewardStage": [
+      10,
+      20,
+      30,
+      40,
+      50,
+      60
+    ],
+    "dropID": [
+      20121,
+      20002,
+      20003,
+      20004,
+      20005,
+      20006
+    ],
+    "attributes": "Attack%=453930886|HPMax%=7612420973",
+    "normalBattleAttr": "Attack%=-10|HPMax%=-30",
+    "eliteBattleAttr": "Attack%=-35|HPMax%=-20|IgnoreMiss%=32|ControlImmunity%=64|DamageAdd%=72",
+    "bossBattleAttr": "Attack%=-25|HPMax%=-20|IgnoreMiss%=32|ControlImmunity%=64|DamageAdd%=72",
+    "speedAdd": 118000
+  },
+  {
+    "id": 133,
+    "randGroup": 2,
+    "turntableID": 4,
+    "difficultyType": 3,
+    "difficultyPara": 133,
+    "rewardStage": [
+      10,
+      20,
+      30,
+      40,
+      50,
+      60
+    ],
+    "dropID": [
+      20121,
+      20002,
+      20003,
+      20004,
+      20005,
+      20006
+    ],
+    "attributes": "Attack%=481597333|HPMax%=8144172104",
+    "normalBattleAttr": "Attack%=-10|HPMax%=-30",
+    "eliteBattleAttr": "Attack%=-35|HPMax%=-20|IgnoreMiss%=32|ControlImmunity%=64|DamageAdd%=73",
+    "bossBattleAttr": "Attack%=-25|HPMax%=-20|IgnoreMiss%=32|ControlImmunity%=64|DamageAdd%=73",
+    "speedAdd": 118000
+  },
+  {
+    "id": 134,
+    "randGroup": 2,
+    "turntableID": 4,
+    "difficultyType": 3,
+    "difficultyPara": 134,
+    "rewardStage": [
+      10,
+      20,
+      30,
+      40,
+      50,
+      60
+    ],
+    "dropID": [
+      20121,
+      20002,
+      20003,
+      20004,
+      20005,
+      20006
+    ],
+    "attributes": "Attack%=509456303|HPMax%=8687248884",
+    "normalBattleAttr": "Attack%=-10|HPMax%=-30",
+    "eliteBattleAttr": "Attack%=-35|HPMax%=-20|IgnoreMiss%=32|ControlImmunity%=64|DamageAdd%=74",
+    "bossBattleAttr": "Attack%=-25|HPMax%=-20|IgnoreMiss%=32|ControlImmunity%=64|DamageAdd%=74",
+    "speedAdd": 118000
+  },
+  {
+    "id": 135,
+    "randGroup": 2,
+    "turntableID": 4,
+    "difficultyType": 3,
+    "difficultyPara": 135,
+    "rewardStage": [
+      10,
+      20,
+      30,
+      40,
+      50,
+      60
+    ],
+    "dropID": [
+      20121,
+      20002,
+      20003,
+      20004,
+      20005,
+      20006
+    ],
+    "attributes": "Attack%=532312971|HPMax%=9152456161",
+    "normalBattleAttr": "Attack%=-10|HPMax%=-30",
+    "eliteBattleAttr": "Attack%=-35|HPMax%=-20|IgnoreMiss%=32|ControlImmunity%=64|DamageAdd%=75",
+    "bossBattleAttr": "Attack%=-25|HPMax%=-20|IgnoreMiss%=32|ControlImmunity%=64|DamageAdd%=75",
+    "speedAdd": 118000
+  },
+  {
+    "id": 136,
+    "randGroup": 2,
+    "turntableID": 4,
+    "difficultyType": 3,
+    "difficultyPara": 136,
+    "rewardStage": [
+      10,
+      20,
+      30,
+      40,
+      50,
+      60
+    ],
+    "dropID": [
+      20121,
+      20002,
+      20003,
+      20004,
+      20005,
+      20006
+    ],
+    "attributes": "Attack%=555313687|HPMax%=9626918086",
+    "normalBattleAttr": "Attack%=-10|HPMax%=-30",
+    "eliteBattleAttr": "Attack%=-35|HPMax%=-20|IgnoreMiss%=32|ControlImmunity%=64|DamageAdd%=76",
+    "bossBattleAttr": "Attack%=-25|HPMax%=-20|IgnoreMiss%=32|ControlImmunity%=64|DamageAdd%=76",
+    "speedAdd": 124000
+  },
+  {
+    "id": 137,
+    "randGroup": 2,
+    "turntableID": 4,
+    "difficultyType": 3,
+    "difficultyPara": 137,
+    "rewardStage": [
+      10,
+      20,
+      30,
+      40,
+      50,
+      60
+    ],
+    "dropID": [
+      20121,
+      20002,
+      20003,
+      20004,
+      20005,
+      20006
+    ],
+    "attributes": "Attack%=578456008|HPMax%=10110687959",
+    "normalBattleAttr": "Attack%=-10|HPMax%=-30",
+    "eliteBattleAttr": "Attack%=-35|HPMax%=-20|IgnoreMiss%=32|ControlImmunity%=64|DamageAdd%=77",
+    "bossBattleAttr": "Attack%=-25|HPMax%=-20|IgnoreMiss%=32|ControlImmunity%=64|DamageAdd%=77",
+    "speedAdd": 124000
+  },
+  {
+    "id": 138,
+    "randGroup": 2,
+    "turntableID": 4,
+    "difficultyType": 3,
+    "difficultyPara": 138,
+    "rewardStage": [
+      10,
+      20,
+      30,
+      40,
+      50,
+      60
+    ],
+    "dropID": [
+      20121,
+      20002,
+      20003,
+      20004,
+      20005,
+      20006
+    ],
+    "attributes": "Attack%=607309078|HPMax%=10702000580",
+    "normalBattleAttr": "Attack%=-10|HPMax%=-30",
+    "eliteBattleAttr": "Attack%=-35|HPMax%=-20|IgnoreMiss%=32|ControlImmunity%=64|DamageAdd%=78",
+    "bossBattleAttr": "Attack%=-25|HPMax%=-20|IgnoreMiss%=32|ControlImmunity%=64|DamageAdd%=78",
+    "speedAdd": 124000
+  },
+  {
+    "id": 139,
+    "randGroup": 2,
+    "turntableID": 4,
+    "difficultyType": 3,
+    "difficultyPara": 139,
+    "rewardStage": [
+      10,
+      20,
+      30,
+      40,
+      50,
+      60
+    ],
+    "dropID": [
+      20121,
+      20002,
+      20003,
+      20004,
+      20005,
+      20006
+    ],
+    "attributes": "Attack%=636363387|HPMax%=11305472855",
+    "normalBattleAttr": "Attack%=-10|HPMax%=-30",
+    "eliteBattleAttr": "Attack%=-35|HPMax%=-20|IgnoreMiss%=32|ControlImmunity%=64|DamageAdd%=79",
+    "bossBattleAttr": "Attack%=-25|HPMax%=-20|IgnoreMiss%=32|ControlImmunity%=64|DamageAdd%=79",
+    "speedAdd": 124000
+  },
+  {
+    "id": 140,
+    "randGroup": 2,
+    "turntableID": 4,
+    "difficultyType": 3,
+    "difficultyPara": 140,
+    "rewardStage": [
+      10,
+      20,
+      30,
+      40,
+      50,
+      60
+    ],
+    "dropID": [
+      20131,
+      20002,
+      20003,
+      20004,
+      20005,
+      20006
+    ],
+    "attributes": "Attack%=670917813|HPMax%=12016138042",
+    "normalBattleAttr": "Attack%=-10|HPMax%=-30",
+    "eliteBattleAttr": "Attack%=-35|HPMax%=-20|IgnoreMiss%=32|ControlImmunity%=64|DamageAdd%=80",
+    "bossBattleAttr": "Attack%=-25|HPMax%=-20|IgnoreMiss%=32|ControlImmunity%=64|DamageAdd%=80",
+    "speedAdd": 124000
+  },
+  {
+    "id": 141,
+    "randGroup": 2,
+    "turntableID": 4,
+    "difficultyType": 3,
+    "difficultyPara": 141,
+    "rewardStage": [
+      10,
+      20,
+      30,
+      40,
+      50,
+      60
+    ],
+    "dropID": [
+      20131,
+      20002,
+      20003,
+      20004,
+      20005,
+      20006
+    ],
+    "attributes": "Attack%=701834286|HPMax%=12741450550",
+    "normalBattleAttr": "Attack%=-10|HPMax%=-30",
+    "eliteBattleAttr": "Attack%=-35|HPMax%=-20|IgnoreMiss%=34|ControlImmunity%=68|DamageAdd%=82",
+    "bossBattleAttr": "Attack%=-25|HPMax%=-20|IgnoreMiss%=34|ControlImmunity%=68|DamageAdd%=82",
+    "speedAdd": 130000
+  },
+  {
+    "id": 142,
+    "randGroup": 2,
+    "turntableID": 4,
+    "difficultyType": 3,
+    "difficultyPara": 142,
+    "rewardStage": [
+      10,
+      20,
+      30,
+      40,
+      50,
+      60
+    ],
+    "dropID": [
+      20131,
+      20002,
+      20003,
+      20004,
+      20005,
+      20006
+    ],
+    "attributes": "Attack%=732689931|HPMax%=13481494735",
+    "normalBattleAttr": "Attack%=-10|HPMax%=-30",
+    "eliteBattleAttr": "Attack%=-35|HPMax%=-20|IgnoreMiss%=34|ControlImmunity%=68|DamageAdd%=84",
+    "bossBattleAttr": "Attack%=-25|HPMax%=-20|IgnoreMiss%=34|ControlImmunity%=68|DamageAdd%=84",
+    "speedAdd": 130000
+  },
+  {
+    "id": 143,
+    "randGroup": 2,
+    "turntableID": 4,
+    "difficultyType": 3,
+    "difficultyPara": 143,
+    "rewardStage": [
+      10,
+      20,
+      30,
+      40,
+      50,
+      60
+    ],
+    "dropID": [
+      20131,
+      20002,
+      20003,
+      20004,
+      20005,
+      20006
+    ],
+    "attributes": "Attack%=771734362|HPMax%=14390144792",
+    "normalBattleAttr": "Attack%=-10|HPMax%=-30",
+    "eliteBattleAttr": "Attack%=-35|HPMax%=-20|IgnoreMiss%=34|ControlImmunity%=68|DamageAdd%=86",
+    "bossBattleAttr": "Attack%=-25|HPMax%=-20|IgnoreMiss%=34|ControlImmunity%=68|DamageAdd%=86",
+    "speedAdd": 130000
+  },
+  {
+    "id": 144,
+    "randGroup": 2,
+    "turntableID": 4,
+    "difficultyType": 3,
+    "difficultyPara": 144,
+    "rewardStage": [
+      10,
+      20,
+      30,
+      40,
+      50,
+      60
+    ],
+    "dropID": [
+      20131,
+      20002,
+      20003,
+      20004,
+      20005,
+      20006
+    ],
+    "attributes": "Attack%=810728827|HPMax%=15317910464",
+    "normalBattleAttr": "Attack%=-10|HPMax%=-30",
+    "eliteBattleAttr": "Attack%=-35|HPMax%=-20|IgnoreMiss%=34|ControlImmunity%=68|DamageAdd%=88",
+    "bossBattleAttr": "Attack%=-25|HPMax%=-20|IgnoreMiss%=34|ControlImmunity%=68|DamageAdd%=88",
+    "speedAdd": 130000
+  },
+  {
+    "id": 145,
+    "randGroup": 2,
+    "turntableID": 4,
+    "difficultyType": 3,
+    "difficultyPara": 145,
+    "rewardStage": [
+      10,
+      20,
+      30,
+      40,
+      50,
+      60
+    ],
+    "dropID": [
+      20131,
+      20002,
+      20003,
+      20004,
+      20005,
+      20006
+    ],
+    "attributes": "Attack%=841760398|HPMax%=16113398420",
+    "normalBattleAttr": "Attack%=-10|HPMax%=-30",
+    "eliteBattleAttr": "Attack%=-35|HPMax%=-20|IgnoreMiss%=34|ControlImmunity%=68|DamageAdd%=90",
+    "bossBattleAttr": "Attack%=-25|HPMax%=-20|IgnoreMiss%=34|ControlImmunity%=68|DamageAdd%=90",
+    "speedAdd": 130000
+  },
+  {
+    "id": 146,
+    "randGroup": 2,
+    "turntableID": 4,
+    "difficultyType": 3,
+    "difficultyPara": 146,
+    "rewardStage": [
+      10,
+      20,
+      30,
+      40,
+      50,
+      60
+    ],
+    "dropID": [
+      20131,
+      20002,
+      20003,
+      20004,
+      20005,
+      20006
+    ],
+    "attributes": "Attack%=872757077|HPMax%=16924505252",
+    "normalBattleAttr": "Attack%=-10|HPMax%=-30",
+    "eliteBattleAttr": "Attack%=-35|HPMax%=-20|IgnoreMiss%=34|ControlImmunity%=68|DamageAdd%=92",
+    "bossBattleAttr": "Attack%=-25|HPMax%=-20|IgnoreMiss%=34|ControlImmunity%=68|DamageAdd%=92",
+    "speedAdd": 136000
+  },
+  {
+    "id": 147,
+    "randGroup": 2,
+    "turntableID": 4,
+    "difficultyType": 3,
+    "difficultyPara": 147,
+    "rewardStage": [
+      10,
+      20,
+      30,
+      40,
+      50,
+      60
+    ],
+    "dropID": [
+      20131,
+      20002,
+      20003,
+      20004,
+      20005,
+      20006
+    ],
+    "attributes": "Attack%=903719945|HPMax%=17751319029",
+    "normalBattleAttr": "Attack%=-10|HPMax%=-30",
+    "eliteBattleAttr": "Attack%=-35|HPMax%=-20|IgnoreMiss%=34|ControlImmunity%=68|DamageAdd%=94",
+    "bossBattleAttr": "Attack%=-25|HPMax%=-20|IgnoreMiss%=34|ControlImmunity%=68|DamageAdd%=94",
+    "speedAdd": 136000
+  },
+  {
+    "id": 148,
+    "randGroup": 2,
+    "turntableID": 4,
+    "difficultyType": 3,
+    "difficultyPara": 148,
+    "rewardStage": [
+      10,
+      20,
+      30,
+      40,
+      50,
+      60
+    ],
+    "dropID": [
+      20131,
+      20002,
+      20003,
+      20004,
+      20005,
+      20006
+    ],
+    "attributes": "Attack%=943002921|HPMax%=18760100118",
+    "normalBattleAttr": "Attack%=-10|HPMax%=-30",
+    "eliteBattleAttr": "Attack%=-35|HPMax%=-20|IgnoreMiss%=34|ControlImmunity%=68|DamageAdd%=96",
+    "bossBattleAttr": "Attack%=-25|HPMax%=-20|IgnoreMiss%=34|ControlImmunity%=68|DamageAdd%=96",
+    "speedAdd": 136000
+  },
+  {
+    "id": 149,
+    "randGroup": 2,
+    "turntableID": 4,
+    "difficultyType": 3,
+    "difficultyPara": 149,
+    "rewardStage": [
+      10,
+      20,
+      30,
+      40,
+      50,
+      60
+    ],
+    "dropID": [
+      20131,
+      20002,
+      20003,
+      20004,
+      20005,
+      20006
+    ],
+    "attributes": "Attack%=982271453|HPMax%=19789331835",
+    "normalBattleAttr": "Attack%=-10|HPMax%=-30",
+    "eliteBattleAttr": "Attack%=-35|HPMax%=-20|IgnoreMiss%=34|ControlImmunity%=68|DamageAdd%=98",
+    "bossBattleAttr": "Attack%=-25|HPMax%=-20|IgnoreMiss%=34|ControlImmunity%=68|DamageAdd%=98",
+    "speedAdd": 136000
+  },
+  {
+    "id": 150,
+    "randGroup": 2,
+    "turntableID": 4,
+    "difficultyType": 3,
+    "difficultyPara": 150,
+    "rewardStage": [
+      10,
+      20,
+      30,
+      40,
+      50,
+      60
+    ],
+    "dropID": [
+      20141,
+      20002,
+      20003,
+      20004,
+      20005,
+      20006
+    ],
+    "attributes": "Attack%=1034687594|HPMax%=21107626931",
+    "normalBattleAttr": "Attack%=-10|HPMax%=-30",
+    "eliteBattleAttr": "Attack%=-35|HPMax%=-20|IgnoreMiss%=34|ControlImmunity%=68|DamageAdd%=100",
+    "bossBattleAttr": "Attack%=-25|HPMax%=-20|IgnoreMiss%=34|ControlImmunity%=68|DamageAdd%=100",
+    "speedAdd": 136000
+  },
+  {
+    "id": 151,
+    "randGroup": 2,
+    "turntableID": 4,
+    "difficultyType": 3,
+    "difficultyPara": 151,
+    "rewardStage": [
+      10,
+      20,
+      30,
+      40,
+      50,
+      60
+    ],
+    "dropID": [
+      20141,
+      20002,
+      20003,
+      20004,
+      20005,
+      20006
+    ],
+    "attributes": "Attack%=1087084089|HPMax%=22453178329",
+    "normalBattleAttr": "Attack%=-10|HPMax%=-30",
+    "eliteBattleAttr": "Attack%=-35|HPMax%=-20|IgnoreMiss%=34|ControlImmunity%=68|DamageAdd%=102",
+    "bossBattleAttr": "Attack%=-25|HPMax%=-20|IgnoreMiss%=34|ControlImmunity%=68|DamageAdd%=102",
+    "speedAdd": 142000
+  },
+  {
+    "id": 152,
+    "randGroup": 2,
+    "turntableID": 4,
+    "difficultyType": 3,
+    "difficultyPara": 152,
+    "rewardStage": [
+      10,
+      20,
+      30,
+      40,
+      50,
+      60
+    ],
+    "dropID": [
+      20141,
+      20002,
+      20003,
+      20004,
+      20005,
+      20006
+    ],
+    "attributes": "Attack%=1139461516|HPMax%=23826140300",
+    "normalBattleAttr": "Attack%=-10|HPMax%=-30",
+    "eliteBattleAttr": "Attack%=-35|HPMax%=-20|IgnoreMiss%=34|ControlImmunity%=68|DamageAdd%=104",
+    "bossBattleAttr": "Attack%=-25|HPMax%=-20|IgnoreMiss%=34|ControlImmunity%=68|DamageAdd%=104",
+    "speedAdd": 142000
+  },
+  {
+    "id": 153,
+    "randGroup": 2,
+    "turntableID": 4,
+    "difficultyType": 3,
+    "difficultyPara": 153,
+    "rewardStage": [
+      10,
+      20,
+      30,
+      40,
+      50,
+      60
+    ],
+    "dropID": [
+      20141,
+      20002,
+      20003,
+      20004,
+      20005,
+      20006
+    ],
+    "attributes": "Attack%=1202899963|HPMax%=25461182071",
+    "normalBattleAttr": "Attack%=-10|HPMax%=-30",
+    "eliteBattleAttr": "Attack%=-35|HPMax%=-20|IgnoreMiss%=34|ControlImmunity%=68|DamageAdd%=106",
+    "bossBattleAttr": "Attack%=-25|HPMax%=-20|IgnoreMiss%=34|ControlImmunity%=68|DamageAdd%=106",
+    "speedAdd": 142000
+  },
+  {
+    "id": 154,
+    "randGroup": 2,
+    "turntableID": 4,
+    "difficultyType": 3,
+    "difficultyPara": 154,
+    "rewardStage": [
+      10,
+      20,
+      30,
+      40,
+      50,
+      60
+    ],
+    "dropID": [
+      20141,
+      20002,
+      20003,
+      20004,
+      20005,
+      20006
+    ],
+    "attributes": "Attack%=1266363117|HPMax%=27130563422",
+    "normalBattleAttr": "Attack%=-10|HPMax%=-30",
+    "eliteBattleAttr": "Attack%=-35|HPMax%=-20|IgnoreMiss%=34|ControlImmunity%=68|DamageAdd%=108",
+    "bossBattleAttr": "Attack%=-25|HPMax%=-20|IgnoreMiss%=34|ControlImmunity%=68|DamageAdd%=108",
+    "speedAdd": 142000
+  },
+  {
+    "id": 155,
+    "randGroup": 2,
+    "turntableID": 4,
+    "difficultyType": 3,
+    "difficultyPara": 155,
+    "rewardStage": [
+      10,
+      20,
+      30,
+      40,
+      50,
+      60
+    ],
+    "dropID": [
+      20141,
+      20002,
+      20003,
+      20004,
+      20005,
+      20006
+    ],
+    "attributes": "Attack%=1319318264|HPMax%=28606118268",
+    "normalBattleAttr": "Attack%=-10|HPMax%=-30",
+    "eliteBattleAttr": "Attack%=-35|HPMax%=-20|IgnoreMiss%=34|ControlImmunity%=68|DamageAdd%=110",
+    "bossBattleAttr": "Attack%=-25|HPMax%=-20|IgnoreMiss%=34|ControlImmunity%=68|DamageAdd%=110",
+    "speedAdd": 142000
+  },
+  {
+    "id": 156,
+    "randGroup": 2,
+    "turntableID": 4,
+    "difficultyType": 3,
+    "difficultyPara": 156,
+    "rewardStage": [
+      10,
+      20,
+      30,
+      40,
+      50,
+      60
+    ],
+    "dropID": [
+      20141,
+      20002,
+      20003,
+      20004,
+      20005,
+      20006
+    ],
+    "attributes": "Attack%=1372291918|HPMax%=30110829271",
+    "normalBattleAttr": "Attack%=-10|HPMax%=-30",
+    "eliteBattleAttr": "Attack%=-35|HPMax%=-20|IgnoreMiss%=34|ControlImmunity%=68|DamageAdd%=112",
+    "bossBattleAttr": "Attack%=-25|HPMax%=-20|IgnoreMiss%=34|ControlImmunity%=68|DamageAdd%=112",
+    "speedAdd": 148000
+  },
+  {
+    "id": 157,
+    "randGroup": 2,
+    "turntableID": 4,
+    "difficultyType": 3,
+    "difficultyPara": 157,
+    "rewardStage": [
+      10,
+      20,
+      30,
+      40,
+      50,
+      60
+    ],
+    "dropID": [
+      20141,
+      20002,
+      20003,
+      20004,
+      20005,
+      20006
+    ],
+    "attributes": "Attack%=1425283559|HPMax%=31644858240",
+    "normalBattleAttr": "Attack%=-10|HPMax%=-30",
+    "eliteBattleAttr": "Attack%=-35|HPMax%=-20|IgnoreMiss%=34|ControlImmunity%=68|DamageAdd%=114",
+    "bossBattleAttr": "Attack%=-25|HPMax%=-20|IgnoreMiss%=34|ControlImmunity%=68|DamageAdd%=114",
+    "speedAdd": 148000
+  },
+  {
+    "id": 158,
+    "randGroup": 2,
+    "turntableID": 4,
+    "difficultyType": 3,
+    "difficultyPara": 158,
+    "rewardStage": [
+      10,
+      20,
+      30,
+      40,
+      50,
+      60
+    ],
+    "dropID": [
+      20141,
+      20002,
+      20003,
+      20004,
+      20005,
+      20006
+    ],
+    "attributes": "Attack%=1489601955|HPMax%=33462418328",
+    "normalBattleAttr": "Attack%=-10|HPMax%=-30",
+    "eliteBattleAttr": "Attack%=-35|HPMax%=-20|IgnoreMiss%=34|ControlImmunity%=68|DamageAdd%=116",
+    "bossBattleAttr": "Attack%=-25|HPMax%=-20|IgnoreMiss%=34|ControlImmunity%=68|DamageAdd%=116",
+    "speedAdd": 148000
+  },
+  {
+    "id": 159,
+    "randGroup": 2,
+    "turntableID": 4,
+    "difficultyType": 3,
+    "difficultyPara": 159,
+    "rewardStage": [
+      10,
+      20,
+      30,
+      40,
+      50,
+      60
+    ],
+    "dropID": [
+      20141,
+      20002,
+      20003,
+      20004,
+      20005,
+      20006
+    ],
+    "attributes": "Attack%=1553992600|HPMax%=35316812839",
+    "normalBattleAttr": "Attack%=-10|HPMax%=-30",
+    "eliteBattleAttr": "Attack%=-35|HPMax%=-20|IgnoreMiss%=34|ControlImmunity%=68|DamageAdd%=118",
+    "bossBattleAttr": "Attack%=-25|HPMax%=-20|IgnoreMiss%=34|ControlImmunity%=68|DamageAdd%=118",
+    "speedAdd": 148000
+  },
+  {
+    "id": 160,
+    "randGroup": 2,
+    "turntableID": 4,
+    "difficultyType": 3,
+    "difficultyPara": 160,
+    "rewardStage": [
+      10,
+      20,
+      30,
+      40,
+      50,
+      60
+    ],
+    "dropID": [
+      20151,
+      20002,
+      20003,
+      20004,
+      20005,
+      20006
+    ],
+    "attributes": "Attack%=1634293023|HPMax%=37572396604",
+    "normalBattleAttr": "Attack%=-10|HPMax%=-30",
+    "eliteBattleAttr": "Attack%=-35|HPMax%=-20|IgnoreMiss%=34|ControlImmunity%=68|DamageAdd%=120",
+    "bossBattleAttr": "Attack%=-25|HPMax%=-20|IgnoreMiss%=34|ControlImmunity%=68|DamageAdd%=120",
+    "speedAdd": 148000
+  },
+  {
+    "id": 161,
+    "randGroup": 2,
+    "turntableID": 4,
+    "difficultyType": 3,
+    "difficultyPara": 161,
+    "rewardStage": [
+      10,
+      20,
+      30,
+      40,
+      50,
+      60
+    ],
+    "dropID": [
+      20151,
+      20002,
+      20003,
+      20004,
+      20005,
+      20006
+    ],
+    "attributes": "Attack%=1714683888|HPMax%=39874116487",
+    "normalBattleAttr": "Attack%=-10|HPMax%=-30",
+    "eliteBattleAttr": "Attack%=-35|HPMax%=-20|IgnoreMiss%=36|ControlImmunity%=72|DamageAdd%=122",
+    "bossBattleAttr": "Attack%=-25|HPMax%=-20|IgnoreMiss%=36|ControlImmunity%=72|DamageAdd%=122",
+    "speedAdd": 154000
+  },
+  {
+    "id": 162,
+    "randGroup": 2,
+    "turntableID": 4,
+    "difficultyType": 3,
+    "difficultyPara": 162,
+    "rewardStage": [
+      10,
+      20,
+      30,
+      40,
+      50,
+      60
+    ],
+    "dropID": [
+      20151,
+      20002,
+      20003,
+      20004,
+      20005,
+      20006
+    ],
+    "attributes": "Attack%=1795162774|HPMax%=42222228450",
+    "normalBattleAttr": "Attack%=-10|HPMax%=-30",
+    "eliteBattleAttr": "Attack%=-35|HPMax%=-20|IgnoreMiss%=36|ControlImmunity%=72|DamageAdd%=124",
+    "bossBattleAttr": "Attack%=-25|HPMax%=-20|IgnoreMiss%=36|ControlImmunity%=72|DamageAdd%=124",
+    "speedAdd": 154000
+  },
+  {
+    "id": 163,
+    "randGroup": 2,
+    "turntableID": 4,
+    "difficultyType": 3,
+    "difficultyPara": 163,
+    "rewardStage": [
+      10,
+      20,
+      30,
+      40,
+      50,
+      60
+    ],
+    "dropID": [
+      20151,
+      20002,
+      20003,
+      20004,
+      20005,
+      20006
+    ],
+    "attributes": "Attack%=1892535902|HPMax%=45016805239",
+    "normalBattleAttr": "Attack%=-10|HPMax%=-30",
+    "eliteBattleAttr": "Attack%=-35|HPMax%=-20|IgnoreMiss%=36|ControlImmunity%=72|DamageAdd%=126",
+    "bossBattleAttr": "Attack%=-25|HPMax%=-20|IgnoreMiss%=36|ControlImmunity%=72|DamageAdd%=126",
+    "speedAdd": 154000
+  },
+  {
+    "id": 164,
+    "randGroup": 2,
+    "turntableID": 4,
+    "difficultyType": 3,
+    "difficultyPara": 164,
+    "rewardStage": [
+      10,
+      20,
+      30,
+      40,
+      50,
+      60
+    ],
+    "dropID": [
+      20151,
+      20002,
+      20003,
+      20004,
+      20005,
+      20006
+    ],
+    "attributes": "Attack%=1990090414|HPMax%=47869634818",
+    "normalBattleAttr": "Attack%=-10|HPMax%=-30",
+    "eliteBattleAttr": "Attack%=-35|HPMax%=-20|IgnoreMiss%=36|ControlImmunity%=72|DamageAdd%=128",
+    "bossBattleAttr": "Attack%=-25|HPMax%=-20|IgnoreMiss%=36|ControlImmunity%=72|DamageAdd%=128",
+    "speedAdd": 154000
+  },
+  {
+    "id": 165,
+    "randGroup": 2,
+    "turntableID": 4,
+    "difficultyType": 3,
+    "difficultyPara": 165,
+    "rewardStage": [
+      10,
+      20,
+      30,
+      40,
+      50,
+      60
+    ],
+    "dropID": [
+      20151,
+      20002,
+      20003,
+      20004,
+      20005,
+      20006
+    ],
+    "attributes": "Attack%=2071905675|HPMax%=50393925782",
+    "normalBattleAttr": "Attack%=-10|HPMax%=-30",
+    "eliteBattleAttr": "Attack%=-35|HPMax%=-20|IgnoreMiss%=36|ControlImmunity%=72|DamageAdd%=130",
+    "bossBattleAttr": "Attack%=-25|HPMax%=-20|IgnoreMiss%=36|ControlImmunity%=72|DamageAdd%=130",
+    "speedAdd": 154000
+  },
+  {
+    "id": 166,
+    "randGroup": 2,
+    "turntableID": 4,
+    "difficultyType": 3,
+    "difficultyPara": 166,
+    "rewardStage": [
+      10,
+      20,
+      30,
+      40,
+      50,
+      60
+    ],
+    "dropID": [
+      20151,
+      20002,
+      20003,
+      20004,
+      20005,
+      20006
+    ],
+    "attributes": "Attack%=2153857914|HPMax%=52967673832",
+    "normalBattleAttr": "Attack%=-10|HPMax%=-30",
+    "eliteBattleAttr": "Attack%=-35|HPMax%=-20|IgnoreMiss%=36|ControlImmunity%=72|DamageAdd%=132",
+    "bossBattleAttr": "Attack%=-25|HPMax%=-20|IgnoreMiss%=36|ControlImmunity%=72|DamageAdd%=132",
+    "speedAdd": 160000
+  },
+  {
+    "id": 167,
+    "randGroup": 2,
+    "turntableID": 4,
+    "difficultyType": 3,
+    "difficultyPara": 167,
+    "rewardStage": [
+      10,
+      20,
+      30,
+      40,
+      50,
+      60
+    ],
+    "dropID": [
+      20151,
+      20002,
+      20003,
+      20004,
+      20005,
+      20006
+    ],
+    "attributes": "Attack%=2235943619|HPMax%=55591148247",
+    "normalBattleAttr": "Attack%=-10|HPMax%=-30",
+    "eliteBattleAttr": "Attack%=-35|HPMax%=-20|IgnoreMiss%=36|ControlImmunity%=72|DamageAdd%=134",
+    "bossBattleAttr": "Attack%=-25|HPMax%=-20|IgnoreMiss%=36|ControlImmunity%=72|DamageAdd%=134",
+    "speedAdd": 160000
+  },
+  {
+    "id": 168,
+    "randGroup": 2,
+    "turntableID": 4,
+    "difficultyType": 3,
+    "difficultyPara": 168,
+    "rewardStage": [
+      10,
+      20,
+      30,
+      40,
+      50,
+      60
+    ],
+    "dropID": [
+      20151,
+      20002,
+      20003,
+      20004,
+      20005,
+      20006
+    ],
+    "attributes": "Attack%=2335244958|HPMax%=58694046782",
+    "normalBattleAttr": "Attack%=-10|HPMax%=-30",
+    "eliteBattleAttr": "Attack%=-35|HPMax%=-20|IgnoreMiss%=36|ControlImmunity%=72|DamageAdd%=136",
+    "bossBattleAttr": "Attack%=-25|HPMax%=-20|IgnoreMiss%=36|ControlImmunity%=72|DamageAdd%=136",
+    "speedAdd": 160000
+  },
+  {
+    "id": 169,
+    "randGroup": 2,
+    "turntableID": 4,
+    "difficultyType": 3,
+    "difficultyPara": 169,
+    "rewardStage": [
+      10,
+      20,
+      30,
+      40,
+      50,
+      60
+    ],
+    "dropID": [
+      20151,
+      20002,
+      20003,
+      20004,
+      20005,
+      20006
+    ],
+    "attributes": "Attack%=2434778650|HPMax%=61859203793",
+    "normalBattleAttr": "Attack%=-10|HPMax%=-30",
+    "eliteBattleAttr": "Attack%=-35|HPMax%=-20|IgnoreMiss%=36|ControlImmunity%=72|DamageAdd%=138",
+    "bossBattleAttr": "Attack%=-25|HPMax%=-20|IgnoreMiss%=36|ControlImmunity%=72|DamageAdd%=138",
+    "speedAdd": 160000
+  },
+  {
+    "id": 170,
+    "randGroup": 2,
+    "turntableID": 4,
+    "difficultyType": 3,
+    "difficultyPara": 170,
+    "rewardStage": [
+      10,
+      20,
+      30,
+      40,
+      50,
+      60
+    ],
+    "dropID": [
+      20161,
+      20002,
+      20003,
+      20004,
+      20005,
+      20006
+    ],
+    "attributes": "Attack%=2571926588|HPMax%=66047074792",
+    "normalBattleAttr": "Attack%=-10|HPMax%=-30",
+    "eliteBattleAttr": "Attack%=-35|HPMax%=-20|IgnoreMiss%=36|ControlImmunity%=72|DamageAdd%=140",
+    "bossBattleAttr": "Attack%=-25|HPMax%=-20|IgnoreMiss%=36|ControlImmunity%=72|DamageAdd%=140",
+    "speedAdd": 160000
+  },
+  {
+    "id": 171,
+    "randGroup": 2,
+    "turntableID": 4,
+    "difficultyType": 3,
+    "difficultyPara": 171,
+    "rewardStage": [
+      10,
+      20,
+      30,
+      40,
+      50,
+      60
+    ],
+    "dropID": [
+      20161,
+      20002,
+      20003,
+      20004,
+      20005,
+      20006
+    ],
+    "attributes": "Attack%=2709404642|HPMax%=70321242803",
+    "normalBattleAttr": "Attack%=-10|HPMax%=-30",
+    "eliteBattleAttr": "Attack%=-35|HPMax%=-20|IgnoreMiss%=36|ControlImmunity%=72|DamageAdd%=142",
+    "bossBattleAttr": "Attack%=-25|HPMax%=-20|IgnoreMiss%=36|ControlImmunity%=72|DamageAdd%=142",
+    "speedAdd": 166000
+  },
+  {
+    "id": 172,
+    "randGroup": 2,
+    "turntableID": 4,
+    "difficultyType": 3,
+    "difficultyPara": 172,
+    "rewardStage": [
+      10,
+      20,
+      30,
+      40,
+      50,
+      60
+    ],
+    "dropID": [
+      20161,
+      20002,
+      20003,
+      20004,
+      20005,
+      20006
+    ],
+    "attributes": "Attack%=2847204696|HPMax%=74682179185",
+    "normalBattleAttr": "Attack%=-10|HPMax%=-30",
+    "eliteBattleAttr": "Attack%=-35|HPMax%=-20|IgnoreMiss%=36|ControlImmunity%=72|DamageAdd%=144",
+    "bossBattleAttr": "Attack%=-25|HPMax%=-20|IgnoreMiss%=36|ControlImmunity%=72|DamageAdd%=144",
+    "speedAdd": 166000
+  },
+  {
+    "id": 173,
+    "randGroup": 2,
+    "turntableID": 4,
+    "difficultyType": 3,
+    "difficultyPara": 173,
+    "rewardStage": [
+      10,
+      20,
+      30,
+      40,
+      50,
+      60
+    ],
+    "dropID": [
+      20161,
+      20002,
+      20003,
+      20004,
+      20005,
+      20006
+    ],
+    "attributes": "Attack%=3013520035|HPMax%=79877868808",
+    "normalBattleAttr": "Attack%=-10|HPMax%=-30",
+    "eliteBattleAttr": "Attack%=-35|HPMax%=-20|IgnoreMiss%=36|ControlImmunity%=72|DamageAdd%=146",
+    "bossBattleAttr": "Attack%=-25|HPMax%=-20|IgnoreMiss%=36|ControlImmunity%=72|DamageAdd%=146",
+    "speedAdd": 166000
+  },
+  {
+    "id": 174,
+    "randGroup": 2,
+    "turntableID": 4,
+    "difficultyType": 3,
+    "difficultyPara": 174,
+    "rewardStage": [
+      10,
+      20,
+      30,
+      40,
+      50,
+      60
+    ],
+    "dropID": [
+      20161,
+      20002,
+      20003,
+      20004,
+      20005,
+      20006
+    ],
+    "attributes": "Attack%=3180340223|HPMax%=85182232534",
+    "normalBattleAttr": "Attack%=-10|HPMax%=-30",
+    "eliteBattleAttr": "Attack%=-35|HPMax%=-20|IgnoreMiss%=36|ControlImmunity%=72|DamageAdd%=148",
+    "bossBattleAttr": "Attack%=-25|HPMax%=-20|IgnoreMiss%=36|ControlImmunity%=72|DamageAdd%=148",
+    "speedAdd": 166000
+  },
+  {
+    "id": 175,
+    "randGroup": 2,
+    "turntableID": 4,
+    "difficultyType": 3,
+    "difficultyPara": 175,
+    "rewardStage": [
+      10,
+      20,
+      30,
+      40,
+      50,
+      60
+    ],
+    "dropID": [
+      20161,
+      20002,
+      20003,
+      20004,
+      20005,
+      20006
+    ],
+    "attributes": "Attack%=3320722616|HPMax%=89867055798",
+    "normalBattleAttr": "Attack%=-10|HPMax%=-30",
+    "eliteBattleAttr": "Attack%=-35|HPMax%=-20|IgnoreMiss%=36|ControlImmunity%=72|DamageAdd%=150",
+    "bossBattleAttr": "Attack%=-25|HPMax%=-20|IgnoreMiss%=36|ControlImmunity%=72|DamageAdd%=150",
+    "speedAdd": 166000
+  },
+  {
+    "id": 176,
+    "randGroup": 2,
+    "turntableID": 4,
+    "difficultyType": 3,
+    "difficultyPara": 176,
+    "rewardStage": [
+      10,
+      20,
+      30,
+      40,
+      50,
+      60
+    ],
+    "dropID": [
+      20161,
+      20002,
+      20003,
+      20004,
+      20005,
+      20006
+    ],
+    "attributes": "Attack%=3461490685|HPMax%=94644078320",
+    "normalBattleAttr": "Attack%=-10|HPMax%=-30",
+    "eliteBattleAttr": "Attack%=-35|HPMax%=-20|IgnoreMiss%=36|ControlImmunity%=72|DamageAdd%=152",
+    "bossBattleAttr": "Attack%=-25|HPMax%=-20|IgnoreMiss%=36|ControlImmunity%=72|DamageAdd%=152",
+    "speedAdd": 172000
+  },
+  {
+    "id": 177,
+    "randGroup": 2,
+    "turntableID": 5,
+    "difficultyType": 3,
+    "difficultyPara": 177,
+    "rewardStage": [
+      10,
+      20,
+      30,
+      40,
+      50,
+      60
+    ],
+    "dropID": [
+      20161,
+      20002,
+      20003,
+      20004,
+      20005,
+      20006
+    ],
+    "attributes": "Attack%=3602635320|HPMax%=99513794143",
+    "normalBattleAttr": "Attack%=-10|HPMax%=-30",
+    "eliteBattleAttr": "Attack%=-35|HPMax%=-20|IgnoreMiss%=36|ControlImmunity%=72|DamageAdd%=154",
+    "bossBattleAttr": "Attack%=-25|HPMax%=-20|IgnoreMiss%=36|ControlImmunity%=72|DamageAdd%=154",
+    "speedAdd": 172000
+  },
+  {
+    "id": 178,
+    "randGroup": 2,
+    "turntableID": 5,
+    "difficultyType": 3,
+    "difficultyPara": 178,
+    "rewardStage": [
+      10,
+      20,
+      30,
+      40,
+      50,
+      60
+    ],
+    "dropID": [
+      20161,
+      20002,
+      20003,
+      20004,
+      20005,
+      20006
+    ],
+    "attributes": "Attack%=3773099621|HPMax%=105284571840",
+    "normalBattleAttr": "Attack%=-10|HPMax%=-30",
+    "eliteBattleAttr": "Attack%=-35|HPMax%=-20|IgnoreMiss%=36|ControlImmunity%=72|DamageAdd%=156",
+    "bossBattleAttr": "Attack%=-25|HPMax%=-20|IgnoreMiss%=36|ControlImmunity%=72|DamageAdd%=156",
+    "speedAdd": 172000
+  },
+  {
+    "id": 179,
+    "randGroup": 2,
+    "turntableID": 5,
+    "difficultyType": 3,
+    "difficultyPara": 179,
+    "rewardStage": [
+      10,
+      20,
+      30,
+      40,
+      50,
+      60
+    ],
+    "dropID": [
+      20161,
+      20002,
+      20003,
+      20004,
+      20005,
+      20006
+    ],
+    "attributes": "Attack%=3944145623|HPMax%=111171660612",
+    "normalBattleAttr": "Attack%=-10|HPMax%=-30",
+    "eliteBattleAttr": "Attack%=-35|HPMax%=-20|IgnoreMiss%=36|ControlImmunity%=72|DamageAdd%=158",
+    "bossBattleAttr": "Attack%=-25|HPMax%=-20|IgnoreMiss%=36|ControlImmunity%=72|DamageAdd%=158",
+    "speedAdd": 172000
+  },
+  {
+    "id": 180,
+    "randGroup": 2,
+    "turntableID": 5,
+    "difficultyType": 3,
+    "difficultyPara": 180,
+    "rewardStage": [
+      10,
+      20,
+      30,
+      40,
+      50,
+      60
+    ],
+    "dropID": [
+      20171,
+      20002,
+      20003,
+      20004,
+      20005,
+      20006
+    ],
+    "attributes": "Attack%=4170162671|HPMax%=118724531249",
+    "normalBattleAttr": "Attack%=-10|HPMax%=-30",
+    "eliteBattleAttr": "Attack%=-35|HPMax%=-20|IgnoreMiss%=36|ControlImmunity%=72|DamageAdd%=160",
+    "bossBattleAttr": "Attack%=-25|HPMax%=-20|IgnoreMiss%=36|ControlImmunity%=72|DamageAdd%=160",
+    "speedAdd": 172000
+  },
+  {
+    "id": 181,
+    "randGroup": 2,
+    "turntableID": 5,
+    "difficultyType": 3,
+    "difficultyPara": 181,
+    "rewardStage": [
+      10,
+      20,
+      30,
+      40,
+      50,
+      60
+    ],
+    "dropID": [
+      20171,
+      20002,
+      20003,
+      20004,
+      20005,
+      20006
+    ],
+    "attributes": "Attack%=4396962848|HPMax%=126432468217",
+    "normalBattleAttr": "Attack%=-10|HPMax%=-30",
+    "eliteBattleAttr": "Attack%=-35|HPMax%=-20|IgnoreMiss%=38|ControlImmunity%=76|DamageAdd%=162",
+    "bossBattleAttr": "Attack%=-25|HPMax%=-20|IgnoreMiss%=38|ControlImmunity%=76|DamageAdd%=162",
+    "speedAdd": 178000
+  },
+  {
+    "id": 182,
+    "randGroup": 2,
+    "turntableID": 5,
+    "difficultyType": 3,
+    "difficultyPara": 182,
+    "rewardStage": [
+      10,
+      20,
+      30,
+      40,
+      50,
+      60
+    ],
+    "dropID": [
+      20171,
+      20002,
+      20003,
+      20004,
+      20005,
+      20006
+    ],
+    "attributes": "Attack%=4624528355|HPMax%=134296303450",
+    "normalBattleAttr": "Attack%=-10|HPMax%=-30",
+    "eliteBattleAttr": "Attack%=-35|HPMax%=-20|IgnoreMiss%=38|ControlImmunity%=76|DamageAdd%=164",
+    "bossBattleAttr": "Attack%=-25|HPMax%=-20|IgnoreMiss%=38|ControlImmunity%=76|DamageAdd%=164",
+    "speedAdd": 178000
+  },
+  {
+    "id": 183,
+    "randGroup": 2,
+    "turntableID": 5,
+    "difficultyType": 3,
+    "difficultyPara": 183,
+    "rewardStage": [
+      10,
+      20,
+      30,
+      40,
+      50,
+      60
+    ],
+    "dropID": [
+      20171,
+      20002,
+      20003,
+      20004,
+      20005,
+      20006
+    ],
+    "attributes": "Attack%=4909932573|HPMax%=143991137602",
+    "normalBattleAttr": "Attack%=-10|HPMax%=-30",
+    "eliteBattleAttr": "Attack%=-35|HPMax%=-20|IgnoreMiss%=38|ControlImmunity%=76|DamageAdd%=166",
+    "bossBattleAttr": "Attack%=-25|HPMax%=-20|IgnoreMiss%=38|ControlImmunity%=76|DamageAdd%=166",
+    "speedAdd": 178000
+  },
+  {
+    "id": 184,
+    "randGroup": 2,
+    "turntableID": 5,
+    "difficultyType": 3,
+    "difficultyPara": 184,
+    "rewardStage": [
+      10,
+      20,
+      30,
+      40,
+      50,
+      60
+    ],
+    "dropID": [
+      20171,
+      20002,
+      20003,
+      20004,
+      20005,
+      20006
+    ],
+    "attributes": "Attack%=5196511055|HPMax%=153889478404",
+    "normalBattleAttr": "Attack%=-10|HPMax%=-30",
+    "eliteBattleAttr": "Attack%=-35|HPMax%=-20|IgnoreMiss%=38|ControlImmunity%=76|DamageAdd%=168",
+    "bossBattleAttr": "Attack%=-25|HPMax%=-20|IgnoreMiss%=38|ControlImmunity%=76|DamageAdd%=168",
+    "speedAdd": 178000
+  },
+  {
+    "id": 185,
+    "randGroup": 2,
+    "turntableID": 5,
+    "difficultyType": 3,
+    "difficultyPara": 185,
+    "rewardStage": [
+      10,
+      20,
+      30,
+      40,
+      50,
+      60
+    ],
+    "dropID": [
+      20171,
+      20002,
+      20003,
+      20004,
+      20005,
+      20006
+    ],
+    "attributes": "Attack%=5429204642|HPMax%=162346791819",
+    "normalBattleAttr": "Attack%=-10|HPMax%=-30",
+    "eliteBattleAttr": "Attack%=-35|HPMax%=-20|IgnoreMiss%=38|ControlImmunity%=76|DamageAdd%=170",
+    "bossBattleAttr": "Attack%=-25|HPMax%=-20|IgnoreMiss%=38|ControlImmunity%=76|DamageAdd%=170",
+    "speedAdd": 178000
+  },
+  {
+    "id": 186,
+    "randGroup": 2,
+    "turntableID": 5,
+    "difficultyType": 3,
+    "difficultyPara": 186,
+    "rewardStage": [
+      10,
+      20,
+      30,
+      40,
+      50,
+      60
+    ],
+    "dropID": [
+      20171,
+      20002,
+      20003,
+      20004,
+      20005,
+      20006
+    ],
+    "attributes": "Attack%=5662759558|HPMax%=170970036595",
+    "normalBattleAttr": "Attack%=-10|HPMax%=-30",
+    "eliteBattleAttr": "Attack%=-35|HPMax%=-20|IgnoreMiss%=38|ControlImmunity%=76|DamageAdd%=172",
+    "bossBattleAttr": "Attack%=-25|HPMax%=-20|IgnoreMiss%=38|ControlImmunity%=76|DamageAdd%=172",
+    "speedAdd": 184000
+  },
+  {
+    "id": 187,
+    "randGroup": 2,
+    "turntableID": 5,
+    "difficultyType": 3,
+    "difficultyPara": 187,
+    "rewardStage": [
+      10,
+      20,
+      30,
+      40,
+      50,
+      60
+    ],
+    "dropID": [
+      20171,
+      20002,
+      20003,
+      20004,
+      20005,
+      20006
+    ],
+    "attributes": "Attack%=5897156943|HPMax%=179760086525",
+    "normalBattleAttr": "Attack%=-10|HPMax%=-30",
+    "eliteBattleAttr": "Attack%=-35|HPMax%=-20|IgnoreMiss%=38|ControlImmunity%=76|DamageAdd%=174",
+    "bossBattleAttr": "Attack%=-25|HPMax%=-20|IgnoreMiss%=38|ControlImmunity%=76|DamageAdd%=174",
+    "speedAdd": 184000
+  },
+  {
+    "id": 188,
+    "randGroup": 2,
+    "turntableID": 5,
+    "difficultyType": 3,
+    "difficultyPara": 188,
+    "rewardStage": [
+      10,
+      20,
+      30,
+      40,
+      50,
+      60
+    ],
+    "dropID": [
+      20171,
+      20002,
+      20003,
+      20004,
+      20005,
+      20006
+    ],
+    "attributes": "Attack%=6190659052|HPMax%=190511341686",
+    "normalBattleAttr": "Attack%=-10|HPMax%=-30",
+    "eliteBattleAttr": "Attack%=-35|HPMax%=-20|IgnoreMiss%=38|ControlImmunity%=76|DamageAdd%=176",
+    "bossBattleAttr": "Attack%=-25|HPMax%=-20|IgnoreMiss%=38|ControlImmunity%=76|DamageAdd%=176",
+    "speedAdd": 184000
+  },
+  {
+    "id": 189,
+    "randGroup": 2,
+    "turntableID": 5,
+    "difficultyType": 3,
+    "difficultyPara": 189,
+    "rewardStage": [
+      10,
+      20,
+      30,
+      40,
+      50,
+      60
+    ],
+    "dropID": [
+      20171,
+      20002,
+      20003,
+      20004,
+      20005,
+      20006
+    ],
+    "attributes": "Attack%=6513228901|HPMax%=202343225666",
+    "normalBattleAttr": "Attack%=-10|HPMax%=-30",
+    "eliteBattleAttr": "Attack%=-35|HPMax%=-20|IgnoreMiss%=38|ControlImmunity%=76|DamageAdd%=178",
+    "bossBattleAttr": "Attack%=-25|HPMax%=-20|IgnoreMiss%=38|ControlImmunity%=76|DamageAdd%=178",
+    "speedAdd": 184000
+  },
+  {
+    "id": 190,
+    "randGroup": 2,
+    "turntableID": 5,
+    "difficultyType": 3,
+    "difficultyPara": 190,
+    "rewardStage": [
+      10,
+      20,
+      30,
+      40,
+      50,
+      60
+    ],
+    "dropID": [
+      20181,
+      20002,
+      20003,
+      20004,
+      20005,
+      20006
+    ],
+    "attributes": "Attack%=6865061666|HPMax%=215288333866",
+    "normalBattleAttr": "Attack%=-10|HPMax%=-30",
+    "eliteBattleAttr": "Attack%=-35|HPMax%=-20|IgnoreMiss%=38|ControlImmunity%=76|DamageAdd%=180",
+    "bossBattleAttr": "Attack%=-25|HPMax%=-20|IgnoreMiss%=38|ControlImmunity%=76|DamageAdd%=180",
+    "speedAdd": 184000
+  },
+  {
+    "id": 191,
+    "randGroup": 2,
+    "turntableID": 5,
+    "difficultyType": 3,
+    "difficultyPara": 191,
+    "rewardStage": [
+      10,
+      20,
+      30,
+      40,
+      50,
+      60
+    ],
+    "dropID": [
+      20181,
+      20002,
+      20003,
+      20004,
+      20005,
+      20006
+    ],
+    "attributes": "Attack%=7246346988|HPMax%=229379490744",
+    "normalBattleAttr": "Attack%=-10|HPMax%=-30",
+    "eliteBattleAttr": "Attack%=-35|HPMax%=-20|IgnoreMiss%=38|ControlImmunity%=76|DamageAdd%=182",
+    "bossBattleAttr": "Attack%=-25|HPMax%=-20|IgnoreMiss%=38|ControlImmunity%=76|DamageAdd%=182",
+    "speedAdd": 190000
+  },
+  {
+    "id": 192,
+    "randGroup": 2,
+    "turntableID": 5,
+    "difficultyType": 3,
+    "difficultyPara": 192,
+    "rewardStage": [
+      10,
+      20,
+      30,
+      40,
+      50,
+      60
+    ],
+    "dropID": [
+      20181,
+      20002,
+      20003,
+      20004,
+      20005,
+      20006
+    ],
+    "attributes": "Attack%=7657269164|HPMax%=244649749814",
+    "normalBattleAttr": "Attack%=-10|HPMax%=-30",
+    "eliteBattleAttr": "Attack%=-35|HPMax%=-20|IgnoreMiss%=38|ControlImmunity%=76|DamageAdd%=184",
+    "bossBattleAttr": "Attack%=-25|HPMax%=-20|IgnoreMiss%=38|ControlImmunity%=76|DamageAdd%=184",
+    "speedAdd": 190000
+  },
+  {
+    "id": 193,
+    "randGroup": 2,
+    "turntableID": 5,
+    "difficultyType": 3,
+    "difficultyPara": 193,
+    "rewardStage": [
+      10,
+      20,
+      30,
+      40,
+      50,
+      60
+    ],
+    "dropID": [
+      20181,
+      20002,
+      20003,
+      20004,
+      20005,
+      20006
+    ],
+    "attributes": "Attack%=8102007346|HPMax%=261261379891",
+    "normalBattleAttr": "Attack%=-10|HPMax%=-30",
+    "eliteBattleAttr": "Attack%=-35|HPMax%=-20|IgnoreMiss%=38|ControlImmunity%=76|DamageAdd%=186",
+    "bossBattleAttr": "Attack%=-25|HPMax%=-20|IgnoreMiss%=38|ControlImmunity%=76|DamageAdd%=186",
+    "speedAdd": 190000
+  },
+  {
+    "id": 194,
+    "randGroup": 2,
+    "turntableID": 5,
+    "difficultyType": 3,
+    "difficultyPara": 194,
+    "rewardStage": [
+      10,
+      20,
+      30,
+      40,
+      50,
+      60
+    ],
+    "dropID": [
+      20181,
+      20002,
+      20003,
+      20004,
+      20005,
+      20006
+    ],
+    "attributes": "Attack%=8577121025|HPMax%=279133826645",
+    "normalBattleAttr": "Attack%=-10|HPMax%=-30",
+    "eliteBattleAttr": "Attack%=-35|HPMax%=-20|IgnoreMiss%=38|ControlImmunity%=76|DamageAdd%=188",
+    "bossBattleAttr": "Attack%=-25|HPMax%=-20|IgnoreMiss%=38|ControlImmunity%=76|DamageAdd%=188",
+    "speedAdd": 190000
+  },
+  {
+    "id": 195,
+    "randGroup": 2,
+    "turntableID": 5,
+    "difficultyType": 3,
+    "difficultyPara": 195,
+    "rewardStage": [
+      10,
+      20,
+      30,
+      40,
+      50,
+      60
+    ],
+    "dropID": [
+      20181,
+      20002,
+      20003,
+      20004,
+      20005,
+      20006
+    ],
+    "attributes": "Attack%=9082812639|HPMax%=298302274119",
+    "normalBattleAttr": "Attack%=-10|HPMax%=-30",
+    "eliteBattleAttr": "Attack%=-35|HPMax%=-20|IgnoreMiss%=38|ControlImmunity%=76|DamageAdd%=190",
+    "bossBattleAttr": "Attack%=-25|HPMax%=-20|IgnoreMiss%=38|ControlImmunity%=76|DamageAdd%=190",
+    "speedAdd": 190000
+  },
+  {
+    "id": 196,
+    "randGroup": 2,
+    "turntableID": 5,
+    "difficultyType": 3,
+    "difficultyPara": 196,
+    "rewardStage": [
+      10,
+      20,
+      30,
+      40,
+      50,
+      60
+    ],
+    "dropID": [
+      20181,
+      20002,
+      20003,
+      20004,
+      20005,
+      20006
+    ],
+    "attributes": "Attack%=9619279081|HPMax%=318802147313",
+    "normalBattleAttr": "Attack%=-10|HPMax%=-30",
+    "eliteBattleAttr": "Attack%=-35|HPMax%=-20|IgnoreMiss%=38|ControlImmunity%=76|DamageAdd%=192",
+    "bossBattleAttr": "Attack%=-25|HPMax%=-20|IgnoreMiss%=38|ControlImmunity%=76|DamageAdd%=192",
+    "speedAdd": 196000
+  },
+  {
+    "id": 197,
+    "randGroup": 2,
+    "turntableID": 5,
+    "difficultyType": 3,
+    "difficultyPara": 197,
+    "rewardStage": [
+      10,
+      20,
+      30,
+      40,
+      50,
+      60
+    ],
+    "dropID": [
+      20181,
+      20002,
+      20003,
+      20004,
+      20005,
+      20006
+    ],
+    "attributes": "Attack%=10186711884|HPMax%=340669112191",
+    "normalBattleAttr": "Attack%=-10|HPMax%=-30",
+    "eliteBattleAttr": "Attack%=-35|HPMax%=-20|IgnoreMiss%=38|ControlImmunity%=76|DamageAdd%=194",
+    "bossBattleAttr": "Attack%=-25|HPMax%=-20|IgnoreMiss%=38|ControlImmunity%=76|DamageAdd%=194",
+    "speedAdd": 196000
+  },
+  {
+    "id": 198,
+    "randGroup": 2,
+    "turntableID": 5,
+    "difficultyType": 3,
+    "difficultyPara": 198,
+    "rewardStage": [
+      10,
+      20,
+      30,
+      40,
+      50,
+      60
+    ],
+    "dropID": [
+      20181,
+      20002,
+      20003,
+      20004,
+      20005,
+      20006
+    ],
+    "attributes": "Attack%=10790409662|HPMax%=364111583666",
+    "normalBattleAttr": "Attack%=-10|HPMax%=-30",
+    "eliteBattleAttr": "Attack%=-35|HPMax%=-20|IgnoreMiss%=38|ControlImmunity%=76|DamageAdd%=196",
+    "bossBattleAttr": "Attack%=-25|HPMax%=-20|IgnoreMiss%=38|ControlImmunity%=76|DamageAdd%=196",
+    "speedAdd": 196000
+  },
+  {
+    "id": 199,
+    "randGroup": 2,
+    "turntableID": 5,
+    "difficultyType": 3,
+    "difficultyPara": 199,
+    "rewardStage": [
+      10,
+      20,
+      30,
+      40,
+      50,
+      60
+    ],
+    "dropID": [
+      20181,
+      20002,
+      20003,
+      20004,
+      20005,
+      20006
+    ],
+    "attributes": "Attack%=11425936652|HPMax%=388842905786",
+    "normalBattleAttr": "Attack%=-10|HPMax%=-30",
+    "eliteBattleAttr": "Attack%=-35|HPMax%=-20|IgnoreMiss%=38|ControlImmunity%=76|DamageAdd%=198",
+    "bossBattleAttr": "Attack%=-25|HPMax%=-20|IgnoreMiss%=38|ControlImmunity%=76|DamageAdd%=198",
+    "speedAdd": 196000
+  },
+  {
+    "id": 200,
+    "randGroup": 2,
+    "turntableID": 5,
+    "difficultyType": 3,
+    "difficultyPara": 200,
+    "rewardStage": [
+      10,
+      20,
+      30,
+      40,
+      50,
+      60
+    ],
+    "dropID": [
+      20191,
+      20002,
+      20003,
+      20004,
+      20005,
+      20006
+    ],
+    "attributes": "Attack%=12323137229|HPMax%=422930069700",
+    "normalBattleAttr": "Attack%=-10|HPMax%=-30",
+    "eliteBattleAttr": "Attack%=-35|HPMax%=-20|IgnoreMiss%=38|ControlImmunity%=76|DamageAdd%=200",
+    "bossBattleAttr": "Attack%=-25|HPMax%=-20|IgnoreMiss%=38|ControlImmunity%=76|DamageAdd%=200",
+    "speedAdd": 196000
+  }
+]

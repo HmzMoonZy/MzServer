@@ -1,0 +1,317 @@
+[
+  {
+    "ID": 101,
+    "Notes": "创建公会需要的钻石数量",
+    "TypeInt": 1000,
+    "TypeIntArray": []
+  },
+  {
+    "ID": 102,
+    "Notes": "修改公会名称需要的钻石数量",
+    "TypeInt": 1000,
+    "TypeIntArray": []
+  },
+  {
+    "ID": 105,
+    "Notes": "公会名称最小长度(utf8字符)",
+    "TypeInt": 3,
+    "TypeIntArray": []
+  },
+  {
+    "ID": 106,
+    "Notes": "公会名称最大长度(utf8字符)",
+    "TypeInt": 18,
+    "TypeIntArray": []
+  },
+  {
+    "ID": 107,
+    "Notes": "公会简介最大长度(utf8字符)",
+    "TypeInt": 150,
+    "TypeIntArray": []
+  },
+  {
+    "ID": 108,
+    "Notes": "公会图标背景默认值",
+    "TypeInt": 1001,
+    "TypeIntArray": []
+  },
+  {
+    "ID": 109,
+    "Notes": "公会图标icon默认值",
+    "TypeInt": 2001,
+    "TypeIntArray": []
+  },
+  {
+    "ID": 110,
+    "Notes": "公会推荐列表返回的条数",
+    "TypeInt": 20,
+    "TypeIntArray": []
+  },
+  {
+    "ID": 111,
+    "Notes": "用户可申请的最大公会数量",
+    "TypeInt": 50,
+    "TypeIntArray": []
+  },
+  {
+    "ID": 112,
+    "Notes": "获取公会列表最大页数(每页20条)",
+    "TypeInt": 50,
+    "TypeIntArray": []
+  },
+  {
+    "ID": 113,
+    "Notes": "公会经验足够是否自动升级(0否, 1是)",
+    "TypeInt": 1,
+    "TypeIntArray": []
+  },
+  {
+    "ID": 114,
+    "Notes": "公会聊天频率单位秒",
+    "TypeInt": 1,
+    "TypeIntArray": []
+  },
+  {
+    "ID": 115,
+    "Notes": "公会聊天内容长度(utf8字符)",
+    "TypeInt": 100,
+    "TypeIntArray": []
+  },
+  {
+    "ID": 116,
+    "Notes": "公会每日商店刷新消耗钻石",
+    "TypeInt": 50,
+    "TypeIntArray": []
+  },
+  {
+    "ID": 117,
+    "Notes": "公会每周商店刷新消耗钻石",
+    "TypeInt": 100,
+    "TypeIntArray": []
+  },
+  {
+    "ID": 118,
+    "Notes": "公会任务是否可以刷新(0否, 1是)",
+    "TypeInt": 1,
+    "TypeIntArray": []
+  },
+  {
+    "ID": 119,
+    "Notes": "公会boss初始挑战次数",
+    "TypeInt": 2,
+    "TypeIntArray": []
+  },
+  {
+    "ID": 120,
+    "Notes": "公会boss累计恢复次数上限",
+    "TypeInt": 2,
+    "TypeIntArray": []
+  },
+  {
+    "ID": 121,
+    "Notes": "公会boss每日可购买挑战次数上限(钻石)",
+    "TypeInt": 0,
+    "TypeIntArray": []
+  },
+  {
+    "ID": 122,
+    "Notes": "公会boss购买挑战次数消耗钻石数量钻石)",
+    "TypeInt": 0,
+    "TypeIntArray": [
+      40,
+      80
+    ]
+  },
+  {
+    "ID": 123,
+    "Notes": "公会消息+聊天记录最多保存天数",
+    "TypeInt": 7,
+    "TypeIntArray": []
+  },
+  {
+    "ID": 124,
+    "Notes": "公会消息+聊天记录每页x条",
+    "TypeInt": 20,
+    "TypeIntArray": []
+  },
+  {
+    "ID": 125,
+    "Notes": "公会消息+聊天记录最多返回x页",
+    "TypeInt": 20,
+    "TypeIntArray": []
+  },
+  {
+    "ID": 126,
+    "Notes": "公会boss挑战次数恢复间隔(秒)",
+    "TypeInt": 43200,
+    "TypeIntArray": []
+  },
+  {
+    "ID": 127,
+    "Notes": "公会boss挑战次数每次恢复x点",
+    "TypeInt": 1,
+    "TypeIntArray": []
+  },
+  {
+    "ID": 128,
+    "Notes": "公会boss每日可购买挑战次数上限(金币)",
+    "TypeInt": 3,
+    "TypeIntArray": []
+  },
+  {
+    "ID": 129,
+    "Notes": "公会boss购买挑战次数消耗金币数量",
+    "TypeInt": 0,
+    "TypeIntArray": [
+      10000,
+      20000,
+      40000
+    ]
+  },
+  {
+    "ID": 130,
+    "Notes": "公会任务免费刷新次数",
+    "TypeInt": 3,
+    "TypeIntArray": []
+  },
+  {
+    "ID": 131,
+    "Notes": "公会任务超过免费刷新次数消耗的钻石数量",
+    "TypeInt": 0,
+    "TypeIntArray": [
+      10,
+      20,
+      30,
+      40,
+      50,
+      60,
+      70,
+      80,
+      90,
+      100
+    ]
+  },
+  {
+    "ID": 132,
+    "Notes": "公会捐赠-请求道具时间间隔(秒)",
+    "TypeInt": 60,
+    "TypeIntArray": []
+  },
+  {
+    "ID": 133,
+    "Notes": "公会捐赠-请求道具保存时间(秒)",
+    "TypeInt": 1200,
+    "TypeIntArray": []
+  },
+  {
+    "ID": 134,
+    "Notes": "公会捐赠-每周获得公会货币上限",
+    "TypeInt": 1000,
+    "TypeIntArray": []
+  },
+  {
+    "ID": 135,
+    "Notes": "公会捐赠-赠送和受赠记录保存天数",
+    "TypeInt": 60,
+    "TypeIntArray": []
+  },
+  {
+    "ID": 136,
+    "Notes": "公会捐赠-赠送和受赠记录每页x条",
+    "TypeInt": 20,
+    "TypeIntArray": []
+  },
+  {
+    "ID": 137,
+    "Notes": "公会捐赠-赠送和受赠记录最多返回x页",
+    "TypeInt": 20,
+    "TypeIntArray": []
+  },
+  {
+    "ID": 138,
+    "Notes": "公会日志显示最大条数",
+    "TypeInt": 10,
+    "TypeIntArray": []
+  },
+  {
+    "ID": 139,
+    "Notes": "退出公会后到加入公会的cd(秒)",
+    "TypeInt": 120,
+    "TypeIntArray": []
+  },
+  {
+    "ID": 140,
+    "Notes": "公会讨伐阶级分段",
+    "TypeInt": 9,
+    "TypeIntArray": []
+  },
+  {
+    "ID": 141,
+    "Notes": "公会boss战斗跳过按钮显示",
+    "TypeInt": 3,
+    "TypeIntArray": []
+  },
+  {
+    "ID": 142,
+    "Notes": "据点最大可倍扫荡次数",
+    "TypeInt": 3,
+    "TypeIntArray": []
+  },
+  {
+    "ID": 160,
+    "Notes": "公会战-公会战胜利后的奖励",
+    "TypeInt": 0,
+    "TypeIntArray": [
+      98,
+      2
+    ]
+  },
+  {
+    "ID": 161,
+    "Notes": "公会战-公会战失败后的奖励",
+    "TypeInt": 0,
+    "TypeIntArray": [
+      99,
+      2
+    ]
+  },
+  {
+    "ID": 162,
+    "Notes": "玩家公会战可挑战次数（包括扫荡）",
+    "TypeInt": 2,
+    "TypeIntArray": []
+  },
+  {
+    "ID": 163,
+    "Notes": "公会战报名所需公会成员数量",
+    "TypeInt": 10,
+    "TypeIntArray": []
+  },
+  {
+    "ID": 164,
+    "Notes": "分组前前x小时内，公会总贡献要求",
+    "TypeInt": 0,
+    "TypeIntArray": [
+      24,
+      1000
+    ]
+  },
+  {
+    "ID": 165,
+    "Notes": "公会战在服务器开服x小时后解锁",
+    "TypeInt": 72,
+    "TypeIntArray": []
+  },
+  {
+    "ID": 166,
+    "Notes": "加入公会＜X小时的玩家禁止挑战",
+    "TypeInt": 24,
+    "TypeIntArray": []
+  },
+  {
+    "ID": 167,
+    "Notes": "公会列表筛选规则：昨日总贡献≥x",
+    "TypeInt": 1000,
+    "TypeIntArray": []
+  }
+]

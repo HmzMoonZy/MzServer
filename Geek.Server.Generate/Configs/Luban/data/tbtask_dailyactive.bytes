@@ -1,0 +1,43 @@
+[
+  {
+    "ID": 1,
+    "Requirements": 20,
+    "Reward": [
+      "60,1",
+      "8,20"
+    ]
+  },
+  {
+    "ID": 2,
+    "Requirements": 40,
+    "Reward": [
+      "9,15",
+      "8,20"
+    ]
+  },
+  {
+    "ID": 3,
+    "Requirements": 60,
+    "Reward": [
+      "71,3",
+      "8,30"
+    ]
+  },
+  {
+    "ID": 4,
+    "Requirements": 80,
+    "Reward": [
+      "72,1",
+      "8,30"
+    ]
+  },
+  {
+    "ID": 5,
+    "Requirements": 100,
+    "Reward": [
+      "2,50",
+      "73,1",
+      "8,50"
+    ]
+  }
+]

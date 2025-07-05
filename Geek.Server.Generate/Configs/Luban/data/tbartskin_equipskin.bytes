@@ -1,0 +1,142 @@
+[
+  {
+    "id": 1101,
+    "equipType": 1,
+    "subType": 1,
+    "skinName": "LiuLangChangJian",
+    "appearName": "Battle/Attack_Sword"
+  },
+  {
+    "id": 1102,
+    "equipType": 1,
+    "subType": 2,
+    "skinName": "YongShiTieJian",
+    "appearName": "Battle/Attack_Sword"
+  },
+  {
+    "id": 1103,
+    "equipType": 1,
+    "subType": 3,
+    "skinName": "YongShiChangDao",
+    "appearName": "Battle/Attack_Sword"
+  },
+  {
+    "id": 1104,
+    "equipType": 1,
+    "subType": 4,
+    "skinName": "JuRenChui",
+    "appearName": "Battle/Attack_Sword"
+  },
+  {
+    "id": 1105,
+    "equipType": 1,
+    "subType": 5,
+    "skinName": "BingXinQiang",
+    "appearName": "Battle/Attack_Spear"
+  },
+  {
+    "id": 1106,
+    "equipType": 1,
+    "subType": 6,
+    "skinName": "LiuLangChangGong",
+    "appearName": "Battle/Attack_Bow"
+  },
+  {
+    "id": 1107,
+    "equipType": 1,
+    "subType": 7,
+    "skinName": "YingYanGong",
+    "appearName": "Battle/Attack_Bow"
+  },
+  {
+    "id": 1108,
+    "equipType": 1,
+    "subType": 8,
+    "skinName": "LiuLangFaZhang",
+    "appearName": "Battle/Attack_Magic"
+  },
+  {
+    "id": 1109,
+    "equipType": 1,
+    "subType": 9,
+    "skinName": "SenLinFaZhang",
+    "appearName": "Battle/Attack_Magic"
+  },
+  {
+    "id": 1110,
+    "equipType": 1,
+    "subType": 10,
+    "skinName": "KongLingFaZhang",
+    "appearName": "Battle/Attack_Magic"
+  },
+  {
+    "id": 2101,
+    "equipType": 1,
+    "subType": 11,
+    "skinName": "CaiJueZhiRen",
+    "appearName": "Battle/Attack_Sword"
+  },
+  {
+    "id": 2102,
+    "equipType": 1,
+    "subType": 12,
+    "skinName": "LieKongJian",
+    "appearName": "Battle/Attack_Sword"
+  },
+  {
+    "id": 2103,
+    "equipType": 1,
+    "subType": 13,
+    "skinName": "AnYingChangQiang",
+    "appearName": "Battle/Attack_Spear"
+  },
+  {
+    "id": 2104,
+    "equipType": 1,
+    "subType": 14,
+    "skinName": "MoGuChui",
+    "appearName": "Battle/Attack_Sword"
+  },
+  {
+    "id": 2105,
+    "equipType": 1,
+    "subType": 15,
+    "skinName": "LiuLianChui",
+    "appearName": "Battle/Attack_Sword"
+  },
+  {
+    "id": 2106,
+    "equipType": 1,
+    "subType": 16,
+    "skinName": "FengYuZhe",
+    "appearName": "Battle/Attack_Bow"
+  },
+  {
+    "id": 2107,
+    "equipType": 1,
+    "subType": 17,
+    "skinName": "TianShiGong",
+    "appearName": "Battle/Attack_Bow"
+  },
+  {
+    "id": 2108,
+    "equipType": 1,
+    "subType": 18,
+    "skinName": "XingXingQuanZhang",
+    "appearName": "Battle/Attack_Magic"
+  },
+  {
+    "id": 2109,
+    "equipType": 1,
+    "subType": 19,
+    "skinName": "SiWangQuanZhang",
+    "appearName": "Battle/Attack_Magic"
+  },
+  {
+    "id": 2110,
+    "equipType": 1,
+    "subType": 20,
+    "skinName": "ZhuJiaoQuanZhang",
+    "appearName": "Battle/Attack_Magic"
+  }
+]

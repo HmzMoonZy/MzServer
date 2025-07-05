@@ -1,0 +1,1255 @@
+[
+  {
+    "id": 51013,
+    "qualityID": 3,
+    "tagID": 5101,
+    "descId": "talentlegacy_skill_desc_51013",
+    "action": "{\"skillIds\":[600011]}"
+  },
+  {
+    "id": 51014,
+    "qualityID": 4,
+    "tagID": 5101,
+    "descId": "talentlegacy_skill_desc_51014",
+    "action": "{\"attr\":[\"GlobalAttack%=10\"],\"skillIds\":[600011]}"
+  },
+  {
+    "id": 51015,
+    "qualityID": 5,
+    "tagID": 5101,
+    "descId": "talentlegacy_skill_desc_51015",
+    "action": "{\"attr\":[\"GlobalAttack%=10\",\"GlobalHPMax%=10\"],\"skillIds\":[600011]}"
+  },
+  {
+    "id": 51016,
+    "qualityID": 6,
+    "tagID": 5101,
+    "descId": "talentlegacy_skill_desc_51016",
+    "action": "{\"attr\":[\"GlobalAttack%=10\",\"GlobalHPMax%=10\",\"GlobalDefence%=10\"],\"skillIds\":[600011]}"
+  },
+  {
+    "id": 51023,
+    "qualityID": 3,
+    "tagID": 5102,
+    "descId": "talentlegacy_skill_desc_51023",
+    "action": "{\"skillIds\":[600012]}"
+  },
+  {
+    "id": 51024,
+    "qualityID": 4,
+    "tagID": 5102,
+    "descId": "talentlegacy_skill_desc_51024",
+    "action": "{\"attr\":[\"GlobalAttack%=10\"],\"skillIds\":[600012]}"
+  },
+  {
+    "id": 51025,
+    "qualityID": 5,
+    "tagID": 5102,
+    "descId": "talentlegacy_skill_desc_51025",
+    "action": "{\"attr\":[\"GlobalAttack%=10\",\"GlobalHPMax%=10\"],\"skillIds\":[600012]}"
+  },
+  {
+    "id": 51026,
+    "qualityID": 6,
+    "tagID": 5102,
+    "descId": "talentlegacy_skill_desc_51026",
+    "action": "{\"attr\":[\"GlobalAttack%=10\",\"GlobalHPMax%=10\",\"GlobalDefence%=10\"],\"skillIds\":[600012]}"
+  },
+  {
+    "id": 51033,
+    "qualityID": 3,
+    "tagID": 5103,
+    "descId": "talentlegacy_skill_desc_51033",
+    "action": "{\"skillIds\":[600021]}"
+  },
+  {
+    "id": 51034,
+    "qualityID": 4,
+    "tagID": 5103,
+    "descId": "talentlegacy_skill_desc_51034",
+    "action": "{\"attr\":[\"GlobalAttack%=10\"],\"skillIds\":[600021]}"
+  },
+  {
+    "id": 51035,
+    "qualityID": 5,
+    "tagID": 5103,
+    "descId": "talentlegacy_skill_desc_51035",
+    "action": "{\"attr\":[\"GlobalAttack%=10\",\"GlobalHPMax%=10\"],\"skillIds\":[600021]}"
+  },
+  {
+    "id": 51036,
+    "qualityID": 6,
+    "tagID": 5103,
+    "descId": "talentlegacy_skill_desc_51036",
+    "action": "{\"attr\":[\"GlobalAttack%=10\",\"GlobalHPMax%=10\",\"GlobalDefence%=10\"],\"skillIds\":[600021]}"
+  },
+  {
+    "id": 51043,
+    "qualityID": 3,
+    "tagID": 5104,
+    "descId": "talentlegacy_skill_desc_51043",
+    "action": "{\"skillIds\":[600022]}"
+  },
+  {
+    "id": 51044,
+    "qualityID": 4,
+    "tagID": 5104,
+    "descId": "talentlegacy_skill_desc_51044",
+    "action": "{\"attr\":[\"GlobalAttack%=10\"],\"skillIds\":[600022]}"
+  },
+  {
+    "id": 51045,
+    "qualityID": 5,
+    "tagID": 5104,
+    "descId": "talentlegacy_skill_desc_51045",
+    "action": "{\"attr\":[\"GlobalAttack%=10\",\"GlobalHPMax%=10\"],\"skillIds\":[600022]}"
+  },
+  {
+    "id": 51046,
+    "qualityID": 6,
+    "tagID": 5104,
+    "descId": "talentlegacy_skill_desc_51046",
+    "action": "{\"attr\":[\"GlobalAttack%=10\",\"GlobalHPMax%=10\",\"GlobalDefence%=10\"],\"skillIds\":[600022]}"
+  },
+  {
+    "id": 51053,
+    "qualityID": 3,
+    "tagID": 5105,
+    "descId": "talentlegacy_skill_desc_51053",
+    "action": "{\"skillIds\":[600031]}"
+  },
+  {
+    "id": 51054,
+    "qualityID": 4,
+    "tagID": 5105,
+    "descId": "talentlegacy_skill_desc_51054",
+    "action": "{\"attr\":[\"GlobalAttack%=10\"],\"skillIds\":[600031]}"
+  },
+  {
+    "id": 51055,
+    "qualityID": 5,
+    "tagID": 5105,
+    "descId": "talentlegacy_skill_desc_51055",
+    "action": "{\"attr\":[\"GlobalAttack%=10\",\"GlobalHPMax%=10\"],\"skillIds\":[600031]}"
+  },
+  {
+    "id": 51056,
+    "qualityID": 6,
+    "tagID": 5105,
+    "descId": "talentlegacy_skill_desc_51056",
+    "action": "{\"attr\":[\"GlobalAttack%=10\",\"GlobalHPMax%=10\",\"GlobalDefence%=10\"],\"skillIds\":[600031]}"
+  },
+  {
+    "id": 51063,
+    "qualityID": 3,
+    "tagID": 5106,
+    "descId": "talentlegacy_skill_desc_51063",
+    "action": "{\"skillIds\":[600032]}"
+  },
+  {
+    "id": 51064,
+    "qualityID": 4,
+    "tagID": 5106,
+    "descId": "talentlegacy_skill_desc_51064",
+    "action": "{\"attr\":[\"GlobalAttack%=10\"],\"skillIds\":[600032]}"
+  },
+  {
+    "id": 51065,
+    "qualityID": 5,
+    "tagID": 5106,
+    "descId": "talentlegacy_skill_desc_51065",
+    "action": "{\"attr\":[\"GlobalAttack%=10\",\"GlobalHPMax%=10\"],\"skillIds\":[600032]}"
+  },
+  {
+    "id": 51066,
+    "qualityID": 6,
+    "tagID": 5106,
+    "descId": "talentlegacy_skill_desc_51066",
+    "action": "{\"attr\":[\"GlobalAttack%=10\",\"GlobalHPMax%=10\",\"GlobalDefence%=10\"],\"skillIds\":[600032]}"
+  },
+  {
+    "id": 51073,
+    "qualityID": 3,
+    "tagID": 5107,
+    "descId": "talentlegacy_skill_desc_51073",
+    "action": "{\"skillIds\":[600041]}"
+  },
+  {
+    "id": 51074,
+    "qualityID": 4,
+    "tagID": 5107,
+    "descId": "talentlegacy_skill_desc_51074",
+    "action": "{\"attr\":[\"GlobalAttack%=10\"],\"skillIds\":[600041]}"
+  },
+  {
+    "id": 51075,
+    "qualityID": 5,
+    "tagID": 5107,
+    "descId": "talentlegacy_skill_desc_51075",
+    "action": "{\"attr\":[\"GlobalAttack%=10\",\"GlobalHPMax%=10\"],\"skillIds\":[600041]}"
+  },
+  {
+    "id": 51076,
+    "qualityID": 6,
+    "tagID": 5107,
+    "descId": "talentlegacy_skill_desc_51076",
+    "action": "{\"attr\":[\"GlobalAttack%=10\",\"GlobalHPMax%=10\",\"GlobalDefence%=10\"],\"skillIds\":[600041]}"
+  },
+  {
+    "id": 51083,
+    "qualityID": 3,
+    "tagID": 5108,
+    "descId": "talentlegacy_skill_desc_51083",
+    "action": "{\"skillIds\":[600042]}"
+  },
+  {
+    "id": 51084,
+    "qualityID": 4,
+    "tagID": 5108,
+    "descId": "talentlegacy_skill_desc_51084",
+    "action": "{\"attr\":[\"GlobalAttack%=10\"],\"skillIds\":[600042]}"
+  },
+  {
+    "id": 51085,
+    "qualityID": 5,
+    "tagID": 5108,
+    "descId": "talentlegacy_skill_desc_51085",
+    "action": "{\"attr\":[\"GlobalAttack%=10\",\"GlobalHPMax%=10\"],\"skillIds\":[600042]}"
+  },
+  {
+    "id": 51086,
+    "qualityID": 6,
+    "tagID": 5108,
+    "descId": "talentlegacy_skill_desc_51086",
+    "action": "{\"attr\":[\"GlobalAttack%=10\",\"GlobalHPMax%=10\",\"GlobalDefence%=10\"],\"skillIds\":[600042]}"
+  },
+  {
+    "id": 51213,
+    "qualityID": 3,
+    "tagID": 5121,
+    "descId": "talentlegacy_skill_desc_51213",
+    "action": "{\"attr\":[\"GlobalAttack%=10\"]}"
+  },
+  {
+    "id": 51214,
+    "qualityID": 4,
+    "tagID": 5121,
+    "descId": "talentlegacy_skill_desc_51214",
+    "action": "{\"attr\":[\"GlobalAttack%=10\"],\"skillIds\":[600061]}"
+  },
+  {
+    "id": 51215,
+    "qualityID": 5,
+    "tagID": 5121,
+    "descId": "talentlegacy_skill_desc_51215",
+    "action": "{\"attr\":[\"GlobalAttack%=10\"],\"skillIds\":[600062]}"
+  },
+  {
+    "id": 51216,
+    "qualityID": 6,
+    "tagID": 5121,
+    "descId": "talentlegacy_skill_desc_51216",
+    "action": "{\"attr\":[\"GlobalAttack%=10\"],\"skillIds\":[600062,600063]}"
+  },
+  {
+    "id": 51223,
+    "qualityID": 3,
+    "tagID": 5122,
+    "descId": "talentlegacy_skill_desc_51223",
+    "action": "{\"attr\":[\"GlobalAttack%=10\"]}"
+  },
+  {
+    "id": 51224,
+    "qualityID": 4,
+    "tagID": 5122,
+    "descId": "talentlegacy_skill_desc_51224",
+    "action": "{\"attr\":[\"GlobalAttack%=10\"],\"skillIds\":[600071]}"
+  },
+  {
+    "id": 51225,
+    "qualityID": 5,
+    "tagID": 5122,
+    "descId": "talentlegacy_skill_desc_51225",
+    "action": "{\"attr\":[\"GlobalAttack%=10\"],\"skillIds\":[600072]}"
+  },
+  {
+    "id": 51226,
+    "qualityID": 6,
+    "tagID": 5122,
+    "descId": "talentlegacy_skill_desc_51226",
+    "action": "{\"attr\":[\"GlobalAttack%=10\"],\"skillIds\":[600073]}"
+  },
+  {
+    "id": 51233,
+    "qualityID": 3,
+    "tagID": 5123,
+    "descId": "talentlegacy_skill_desc_51233",
+    "action": "{\"attr\":[\"GlobalAttack%=10\"]}"
+  },
+  {
+    "id": 51234,
+    "qualityID": 4,
+    "tagID": 5123,
+    "descId": "talentlegacy_skill_desc_51234",
+    "action": "{\"attr\":[\"GlobalAttack%=10\"],\"skillIds\":[600081]}"
+  },
+  {
+    "id": 51235,
+    "qualityID": 5,
+    "tagID": 5123,
+    "descId": "talentlegacy_skill_desc_51235",
+    "action": "{\"attr\":[\"GlobalAttack%=10\"],\"skillIds\":[600082]}"
+  },
+  {
+    "id": 51236,
+    "qualityID": 6,
+    "tagID": 5123,
+    "descId": "talentlegacy_skill_desc_51236",
+    "action": "{\"attr\":[\"GlobalAttack%=10\"],\"skillIds\":[600083]}"
+  },
+  {
+    "id": 51243,
+    "qualityID": 3,
+    "tagID": 5124,
+    "descId": "talentlegacy_skill_desc_51243",
+    "action": "{\"attr\":[\"GlobalAttack%=10\"]}"
+  },
+  {
+    "id": 51244,
+    "qualityID": 4,
+    "tagID": 5124,
+    "descId": "talentlegacy_skill_desc_51244",
+    "action": "{\"attr\":[\"GlobalAttack%=10\"],\"skillIds\":[600091]}"
+  },
+  {
+    "id": 51245,
+    "qualityID": 5,
+    "tagID": 5124,
+    "descId": "talentlegacy_skill_desc_51245",
+    "action": "{\"attr\":[\"GlobalAttack%=10\"],\"skillIds\":[600092]}"
+  },
+  {
+    "id": 51246,
+    "qualityID": 6,
+    "tagID": 5124,
+    "descId": "talentlegacy_skill_desc_51246",
+    "action": "{\"attr\":[\"GlobalAttack%=10\"],\"skillIds\":[600093]}"
+  },
+  {
+    "id": 52013,
+    "qualityID": 3,
+    "tagID": 5201,
+    "descId": "talentlegacy_skill_desc_52013",
+    "action": "{\"skillIds\":[600013]}"
+  },
+  {
+    "id": 52014,
+    "qualityID": 4,
+    "tagID": 5201,
+    "descId": "talentlegacy_skill_desc_52014",
+    "action": "{\"attr\":[\"GlobalAttack%=10\"],\"skillIds\":[600013]}"
+  },
+  {
+    "id": 52015,
+    "qualityID": 5,
+    "tagID": 5201,
+    "descId": "talentlegacy_skill_desc_52015",
+    "action": "{\"attr\":[\"GlobalAttack%=10\",\"GlobalHPMax%=10\"],\"skillIds\":[600013]}"
+  },
+  {
+    "id": 52016,
+    "qualityID": 6,
+    "tagID": 5201,
+    "descId": "talentlegacy_skill_desc_52016",
+    "action": "{\"attr\":[\"GlobalAttack%=10\",\"GlobalHPMax%=10\",\"GlobalDefence%=10\"],\"skillIds\":[600013]}"
+  },
+  {
+    "id": 52023,
+    "qualityID": 3,
+    "tagID": 5202,
+    "descId": "talentlegacy_skill_desc_52023",
+    "action": "{\"skillIds\":[600023]}"
+  },
+  {
+    "id": 52024,
+    "qualityID": 4,
+    "tagID": 5202,
+    "descId": "talentlegacy_skill_desc_52024",
+    "action": "{\"attr\":[\"GlobalAttack%=10\"],\"skillIds\":[600023]}"
+  },
+  {
+    "id": 52025,
+    "qualityID": 5,
+    "tagID": 5202,
+    "descId": "talentlegacy_skill_desc_52025",
+    "action": "{\"attr\":[\"GlobalAttack%=10\",\"GlobalHPMax%=10\"],\"skillIds\":[600023]}"
+  },
+  {
+    "id": 52026,
+    "qualityID": 6,
+    "tagID": 5202,
+    "descId": "talentlegacy_skill_desc_52026",
+    "action": "{\"attr\":[\"GlobalAttack%=10\",\"GlobalHPMax%=10\",\"GlobalDefence%=10\"],\"skillIds\":[600023]}"
+  },
+  {
+    "id": 52033,
+    "qualityID": 3,
+    "tagID": 5203,
+    "descId": "talentlegacy_skill_desc_52033",
+    "action": "{\"skillIds\":[600033]}"
+  },
+  {
+    "id": 52034,
+    "qualityID": 4,
+    "tagID": 5203,
+    "descId": "talentlegacy_skill_desc_52034",
+    "action": "{\"attr\":[\"GlobalAttack%=10\"],\"skillIds\":[600033]}"
+  },
+  {
+    "id": 52035,
+    "qualityID": 5,
+    "tagID": 5203,
+    "descId": "talentlegacy_skill_desc_52035",
+    "action": "{\"attr\":[\"GlobalAttack%=10\",\"GlobalHPMax%=10\"],\"skillIds\":[600033]}"
+  },
+  {
+    "id": 52036,
+    "qualityID": 6,
+    "tagID": 5203,
+    "descId": "talentlegacy_skill_desc_52036",
+    "action": "{\"attr\":[\"GlobalAttack%=10\",\"GlobalHPMax%=10\",\"GlobalDefence%=10\"],\"skillIds\":[600033]}"
+  },
+  {
+    "id": 52043,
+    "qualityID": 3,
+    "tagID": 5204,
+    "descId": "talentlegacy_skill_desc_52043",
+    "action": "{\"skillIds\":[600043]}"
+  },
+  {
+    "id": 52044,
+    "qualityID": 4,
+    "tagID": 5204,
+    "descId": "talentlegacy_skill_desc_52044",
+    "action": "{\"attr\":[\"GlobalAttack%=10\"],\"skillIds\":[600043]}"
+  },
+  {
+    "id": 52045,
+    "qualityID": 5,
+    "tagID": 5204,
+    "descId": "talentlegacy_skill_desc_52045",
+    "action": "{\"attr\":[\"GlobalAttack%=10\",\"GlobalHPMax%=10\"],\"skillIds\":[600043]}"
+  },
+  {
+    "id": 52046,
+    "qualityID": 6,
+    "tagID": 5204,
+    "descId": "talentlegacy_skill_desc_52046",
+    "action": "{\"attr\":[\"GlobalAttack%=10\",\"GlobalHPMax%=10\",\"GlobalDefence%=10\"],\"skillIds\":[600043]}"
+  },
+  {
+    "id": 52112,
+    "qualityID": 2,
+    "tagID": 5211,
+    "descId": "talentlegacy_skill_desc_52112",
+    "action": "{\"attr\":[\"GlobalAttack%=5\"]}"
+  },
+  {
+    "id": 52113,
+    "qualityID": 3,
+    "tagID": 5211,
+    "descId": "talentlegacy_skill_desc_52113",
+    "action": "{\"attr\":[\"GlobalAttack%=15\"]}"
+  },
+  {
+    "id": 52114,
+    "qualityID": 4,
+    "tagID": 5211,
+    "descId": "talentlegacy_skill_desc_52114",
+    "action": "{\"attr\":[\"GlobalAttack%=15\"],\"skillIds\":[620011]}"
+  },
+  {
+    "id": 52115,
+    "qualityID": 5,
+    "tagID": 5211,
+    "descId": "talentlegacy_skill_desc_52115",
+    "action": "{\"attr\":[\"GlobalAttack%=15\"],\"skillIds\":[620011,620012]}"
+  },
+  {
+    "id": 52116,
+    "qualityID": 6,
+    "tagID": 5211,
+    "descId": "talentlegacy_skill_desc_52116",
+    "action": "{\"attr\":[\"GlobalAttack%=15\"],\"skillIds\":[620013,620012]}"
+  },
+  {
+    "id": 52122,
+    "qualityID": 2,
+    "tagID": 5212,
+    "descId": "talentlegacy_skill_desc_52122",
+    "action": "{\"attr\":[\"GlobalAttack%=5\"]}"
+  },
+  {
+    "id": 52123,
+    "qualityID": 3,
+    "tagID": 5212,
+    "descId": "talentlegacy_skill_desc_52123",
+    "action": "{\"attr\":[\"GlobalAttack%=15\"]}"
+  },
+  {
+    "id": 52124,
+    "qualityID": 4,
+    "tagID": 5212,
+    "descId": "talentlegacy_skill_desc_52124",
+    "action": "{\"attr\":[\"GlobalAttack%=15\"],\"skillIds\":[620021]}"
+  },
+  {
+    "id": 52125,
+    "qualityID": 5,
+    "tagID": 5212,
+    "descId": "talentlegacy_skill_desc_52125",
+    "action": "{\"attr\":[\"GlobalAttack%=15\"],\"skillIds\":[620022]}"
+  },
+  {
+    "id": 52126,
+    "qualityID": 6,
+    "tagID": 5212,
+    "descId": "talentlegacy_skill_desc_52126",
+    "action": "{\"attr\":[\"GlobalAttack%=15\"],\"skillIds\":[620022,620023]}"
+  },
+  {
+    "id": 52132,
+    "qualityID": 2,
+    "tagID": 5213,
+    "descId": "talentlegacy_skill_desc_52132",
+    "action": "{\"attr\":[\"GlobalAttack%=5\"]}"
+  },
+  {
+    "id": 52133,
+    "qualityID": 3,
+    "tagID": 5213,
+    "descId": "talentlegacy_skill_desc_52133",
+    "action": "{\"attr\":[\"GlobalAttack%=15\"]}"
+  },
+  {
+    "id": 52134,
+    "qualityID": 4,
+    "tagID": 5213,
+    "descId": "talentlegacy_skill_desc_52134",
+    "action": "{\"attr\":[\"GlobalAttack%=15\"],\"skillIds\":[620031]}"
+  },
+  {
+    "id": 52135,
+    "qualityID": 5,
+    "tagID": 5213,
+    "descId": "talentlegacy_skill_desc_52135",
+    "action": "{\"attr\":[\"GlobalAttack%=15\"],\"skillIds\":[620032]}"
+  },
+  {
+    "id": 52136,
+    "qualityID": 6,
+    "tagID": 5213,
+    "descId": "talentlegacy_skill_desc_52136",
+    "action": "{\"attr\":[\"GlobalAttack%=15\"],\"skillIds\":[620033]}"
+  },
+  {
+    "id": 52142,
+    "qualityID": 2,
+    "tagID": 5214,
+    "descId": "talentlegacy_skill_desc_52142",
+    "action": "{\"attr\":[\"GlobalAttack%=5\"]}"
+  },
+  {
+    "id": 52143,
+    "qualityID": 3,
+    "tagID": 5214,
+    "descId": "talentlegacy_skill_desc_52143",
+    "action": "{\"attr\":[\"GlobalAttack%=15\"]}"
+  },
+  {
+    "id": 52144,
+    "qualityID": 4,
+    "tagID": 5214,
+    "descId": "talentlegacy_skill_desc_52144",
+    "action": "{\"attr\":[\"GlobalAttack%=15\"],\"skillIds\":[620041]}"
+  },
+  {
+    "id": 52145,
+    "qualityID": 5,
+    "tagID": 5214,
+    "descId": "talentlegacy_skill_desc_52145",
+    "action": "{\"attr\":[\"GlobalAttack%=15\"],\"skillIds\":[620042]}"
+  },
+  {
+    "id": 52146,
+    "qualityID": 6,
+    "tagID": 5214,
+    "descId": "talentlegacy_skill_desc_52146",
+    "action": "{\"attr\":[\"GlobalAttack%=15\"],\"skillIds\":[620043]}"
+  },
+  {
+    "id": 52152,
+    "qualityID": 2,
+    "tagID": 5215,
+    "descId": "talentlegacy_skill_desc_52152",
+    "action": "{\"attr\":[\"GlobalAttack%=5\"]}"
+  },
+  {
+    "id": 52153,
+    "qualityID": 3,
+    "tagID": 5215,
+    "descId": "talentlegacy_skill_desc_52153",
+    "action": "{\"attr\":[\"GlobalAttack%=15\"]}"
+  },
+  {
+    "id": 52154,
+    "qualityID": 4,
+    "tagID": 5215,
+    "descId": "talentlegacy_skill_desc_52154",
+    "action": "{\"attr\":[\"GlobalAttack%=15\"],\"skillIds\":[620051]}"
+  },
+  {
+    "id": 52155,
+    "qualityID": 5,
+    "tagID": 5215,
+    "descId": "talentlegacy_skill_desc_52155",
+    "action": "{\"attr\":[\"GlobalAttack%=15\"],\"skillIds\":[620052]}"
+  },
+  {
+    "id": 52156,
+    "qualityID": 6,
+    "tagID": 5215,
+    "descId": "talentlegacy_skill_desc_52156",
+    "action": "{\"attr\":[\"GlobalAttack%=15\"],\"skillIds\":[620053]}"
+  },
+  {
+    "id": 52162,
+    "qualityID": 2,
+    "tagID": 5216,
+    "descId": "talentlegacy_skill_desc_52162",
+    "action": "{\"rageSkill\":311011,\"skillIds\":[311010]}"
+  },
+  {
+    "id": 52163,
+    "qualityID": 3,
+    "tagID": 5216,
+    "descId": "talentlegacy_skill_desc_52163",
+    "action": "{\"attr\":[\"GlobalAttack%=10\"],\"rageSkill\":311012,\"skillIds\":[311010]}"
+  },
+  {
+    "id": 52164,
+    "qualityID": 4,
+    "tagID": 5216,
+    "descId": "talentlegacy_skill_desc_52164",
+    "action": "{\"attr\":[\"GlobalAttack%=10\"],\"rageSkill\":311013,\"skillIds\":[311010,311016]}"
+  },
+  {
+    "id": 52165,
+    "qualityID": 5,
+    "tagID": 5216,
+    "descId": "talentlegacy_skill_desc_52165",
+    "action": "{\"attr\":[\"GlobalAttack%=10\",\"GlobalAttack%=15\"],\"rageSkill\":311014,\"skillIds\":[311010,311016]}"
+  },
+  {
+    "id": 52166,
+    "qualityID": 6,
+    "tagID": 5216,
+    "descId": "talentlegacy_skill_desc_52166",
+    "action": "{\"attr\":[\"GlobalAttack%=10\",\"GlobalAttack%=15\"],\"rageSkill\":311015,\"skillIds\":[311010,311016,311017]}"
+  },
+  {
+    "id": 61013,
+    "qualityID": 3,
+    "tagID": 6101,
+    "descId": "talentlegacy_skill_desc_61013",
+    "action": "{\"attr\":[\"GlobalHPMax%=10\"]}"
+  },
+  {
+    "id": 61014,
+    "qualityID": 4,
+    "tagID": 6101,
+    "descId": "talentlegacy_skill_desc_61014",
+    "action": "{\"attr\":[\"GlobalHPMax%=10\"],\"skillIds\":[630011,6300111]}"
+  },
+  {
+    "id": 61015,
+    "qualityID": 5,
+    "tagID": 6101,
+    "descId": "talentlegacy_skill_desc_61015",
+    "action": "{\"attr\":[\"GlobalHPMax%=10\"],\"skillIds\":[630012,6300121]}"
+  },
+  {
+    "id": 61016,
+    "qualityID": 6,
+    "tagID": 6101,
+    "descId": "talentlegacy_skill_desc_61016",
+    "action": "{\"attr\":[\"GlobalHPMax%=10\"],\"skillIds\":[630013]}"
+  },
+  {
+    "id": 61023,
+    "qualityID": 3,
+    "tagID": 6102,
+    "descId": "talentlegacy_skill_desc_61023",
+    "action": "{\"attr\":[\"GlobalHPMax%=10\"]}"
+  },
+  {
+    "id": 61024,
+    "qualityID": 4,
+    "tagID": 6102,
+    "descId": "talentlegacy_skill_desc_61024",
+    "action": "{\"attr\":[\"GlobalHPMax%=10\"],\"skillBuildIds\":[100802]}"
+  },
+  {
+    "id": 61025,
+    "qualityID": 5,
+    "tagID": 6102,
+    "descId": "talentlegacy_skill_desc_61025",
+    "action": "{\"attr\":[\"GlobalHPMax%=10\",\"GlobalFallSwordAttackDamageAdd%=10\"],\"skillBuildIds\":[100802]}"
+  },
+  {
+    "id": 61026,
+    "qualityID": 6,
+    "tagID": 6102,
+    "descId": "talentlegacy_skill_desc_61026",
+    "action": "{\"attr\":[\"GlobalHPMax%=10\",\"GlobalFallSwordAttackDamageAdd%=10\"],\"skillBuildIds\":[110802]}"
+  },
+  {
+    "id": 61033,
+    "qualityID": 3,
+    "tagID": 6103,
+    "descId": "talentlegacy_skill_desc_61033",
+    "action": "{\"attr\":[\"GlobalHPMax%=10\"]}"
+  },
+  {
+    "id": 61034,
+    "qualityID": 4,
+    "tagID": 6103,
+    "descId": "talentlegacy_skill_desc_61034",
+    "action": "{\"attr\":[\"GlobalHPMax%=10\"],\"skillBuildIds\":[100701]}"
+  },
+  {
+    "id": 61035,
+    "qualityID": 5,
+    "tagID": 6103,
+    "descId": "talentlegacy_skill_desc_61035",
+    "action": "{\"attr\":[\"GlobalHPMax%=10\",\"GlobalSwordkeeAttackDamageAdd%=10\"],\"skillBuildIds\":[100701]}"
+  },
+  {
+    "id": 61036,
+    "qualityID": 6,
+    "tagID": 6103,
+    "descId": "talentlegacy_skill_desc_61036",
+    "action": "{\"attr\":[\"GlobalHPMax%=10\",\"GlobalSwordkeeAttackDamageAdd%=10\"],\"skillBuildIds\":[110701]}"
+  },
+  {
+    "id": 61043,
+    "qualityID": 3,
+    "tagID": 6104,
+    "descId": "talentlegacy_skill_desc_61043",
+    "action": "{\"attr\":[\"GlobalHPMax%=10\"]}"
+  },
+  {
+    "id": 61044,
+    "qualityID": 4,
+    "tagID": 6104,
+    "descId": "talentlegacy_skill_desc_61044",
+    "action": "{\"attr\":[\"GlobalHPMax%=10\"],\"skillBuildIds\":[100301]}"
+  },
+  {
+    "id": 61045,
+    "qualityID": 5,
+    "tagID": 6104,
+    "descId": "talentlegacy_skill_desc_61045",
+    "action": "{\"attr\":[\"GlobalHPMax%=10\",\"GlobalThunderAttackDamageAdd%=10\"],\"skillBuildIds\":[100301]}"
+  },
+  {
+    "id": 61046,
+    "qualityID": 6,
+    "tagID": 6104,
+    "descId": "talentlegacy_skill_desc_61046",
+    "action": "{\"attr\":[\"GlobalHPMax%=10\",\"GlobalThunderAttackDamageAdd%=10\"],\"skillBuildIds\":[110301]}"
+  },
+  {
+    "id": 61053,
+    "qualityID": 3,
+    "tagID": 6105,
+    "descId": "talentlegacy_skill_desc_61053",
+    "action": "{\"attr\":[\"GlobalHPMax%=10\"]}"
+  },
+  {
+    "id": 61054,
+    "qualityID": 4,
+    "tagID": 6105,
+    "descId": "talentlegacy_skill_desc_61054",
+    "action": "{\"attr\":[\"GlobalHPMax%=10\"],\"skillBuildIds\":[100401]}"
+  },
+  {
+    "id": 61055,
+    "qualityID": 5,
+    "tagID": 6105,
+    "descId": "talentlegacy_skill_desc_61055",
+    "action": "{\"attr\":[\"GlobalHPMax%=10\",\"FireBuffAdd%=10\"],\"skillBuildIds\":[100401]}"
+  },
+  {
+    "id": 61056,
+    "qualityID": 6,
+    "tagID": 6105,
+    "descId": "talentlegacy_skill_desc_61056",
+    "action": "{\"attr\":[\"GlobalHPMax%=10\",\"FireBuffAdd%=10\"],\"skillBuildIds\":[110401]}"
+  },
+  {
+    "id": 61063,
+    "qualityID": 3,
+    "tagID": 6106,
+    "descId": "talentlegacy_skill_desc_61063",
+    "action": "{\"attr\":[\"GlobalHPMax%=10\"]}"
+  },
+  {
+    "id": 61064,
+    "qualityID": 4,
+    "tagID": 6106,
+    "descId": "talentlegacy_skill_desc_61064",
+    "action": "{\"attr\":[\"GlobalHPMax%=10\"],\"skillBuildIds\":[100007]}"
+  },
+  {
+    "id": 61065,
+    "qualityID": 5,
+    "tagID": 6106,
+    "descId": "talentlegacy_skill_desc_61065",
+    "action": "{\"attr\":[\"GlobalHPMax%=10\",\"GlobalComboAttackDamageAdd%=10\"],\"skillBuildIds\":[100007]}"
+  },
+  {
+    "id": 61066,
+    "qualityID": 6,
+    "tagID": 6106,
+    "descId": "talentlegacy_skill_desc_61066",
+    "action": "{\"attr\":[\"GlobalHPMax%=10\",\"GlobalComboAttackDamageAdd%=10\"],\"skillBuildIds\":[110007]}"
+  },
+  {
+    "id": 61073,
+    "qualityID": 3,
+    "tagID": 6107,
+    "descId": "talentlegacy_skill_desc_61073",
+    "action": "{\"attr\":[\"GlobalHPMax%=10\"]}"
+  },
+  {
+    "id": 61074,
+    "qualityID": 4,
+    "tagID": 6107,
+    "descId": "talentlegacy_skill_desc_61074",
+    "action": "{\"attr\":[\"GlobalHPMax%=10\"],\"skillBuildIds\":[100004]}"
+  },
+  {
+    "id": 61075,
+    "qualityID": 5,
+    "tagID": 6107,
+    "descId": "talentlegacy_skill_desc_61075",
+    "action": "{\"attr\":[\"GlobalHPMax%=10\",\"CritValue%=40\"],\"skillBuildIds\":[100004]}"
+  },
+  {
+    "id": 61076,
+    "qualityID": 6,
+    "tagID": 6107,
+    "descId": "talentlegacy_skill_desc_61076",
+    "action": "{\"attr\":[\"GlobalHPMax%=10\",\"CritValue%=40\"],\"skillBuildIds\":[110004]}"
+  },
+  {
+    "id": 61083,
+    "qualityID": 3,
+    "tagID": 6108,
+    "descId": "talentlegacy_skill_desc_61083",
+    "action": "{\"attr\":[\"GlobalHPMax%=10\"]}"
+  },
+  {
+    "id": 61084,
+    "qualityID": 4,
+    "tagID": 6108,
+    "descId": "talentlegacy_skill_desc_61084",
+    "action": "{\"attr\":[\"GlobalHPMax%=10\"],\"skillBuildIds\":[100005]}"
+  },
+  {
+    "id": 61085,
+    "qualityID": 5,
+    "tagID": 6108,
+    "descId": "talentlegacy_skill_desc_61085",
+    "action": "{\"attr\":[\"GlobalHPMax%=10\",\"GlobalCounterAttackDamageAdd%=10\"],\"skillBuildIds\":[100005]}"
+  },
+  {
+    "id": 61086,
+    "qualityID": 6,
+    "tagID": 6108,
+    "descId": "talentlegacy_skill_desc_61086",
+    "action": "{\"attr\":[\"GlobalHPMax%=10\",\"GlobalCounterAttackDamageAdd%=10\"],\"skillBuildIds\":[110005]}"
+  },
+  {
+    "id": 61093,
+    "qualityID": 3,
+    "tagID": 6109,
+    "descId": "talentlegacy_skill_desc_61093",
+    "action": "{\"attr\":[\"GlobalHPMax%=10\"]}"
+  },
+  {
+    "id": 61094,
+    "qualityID": 4,
+    "tagID": 6109,
+    "descId": "talentlegacy_skill_desc_61094",
+    "action": "{\"attr\":[\"GlobalHPMax%=10\",\"GlobalTargetShieldDamageAdd%=10\"]}"
+  },
+  {
+    "id": 61095,
+    "qualityID": 5,
+    "tagID": 6109,
+    "descId": "talentlegacy_skill_desc_61095",
+    "action": "{\"attr\":[\"GlobalHPMax%=10\",\"GlobalTargetShieldDamageAdd%=20\"]}"
+  },
+  {
+    "id": 61096,
+    "qualityID": 6,
+    "tagID": 6109,
+    "descId": "talentlegacy_skill_desc_61096",
+    "action": "{\"attr\":[\"GlobalHPMax%=10\",\"GlobalTargetShieldDamageAdd%=40\"]}"
+  },
+  {
+    "id": 61103,
+    "qualityID": 3,
+    "tagID": 6110,
+    "descId": "talentlegacy_skill_desc_61103",
+    "action": "{\"attr\":[\"GlobalHPMax%=10\"]}"
+  },
+  {
+    "id": 61104,
+    "qualityID": 4,
+    "tagID": 6110,
+    "descId": "talentlegacy_skill_desc_61104",
+    "action": "{\"attr\":[\"GlobalHPMax%=10\"],\"skillIds\":[630101]}"
+  },
+  {
+    "id": 61105,
+    "qualityID": 5,
+    "tagID": 6110,
+    "descId": "talentlegacy_skill_desc_61105",
+    "action": "{\"attr\":[\"GlobalHPMax%=10\"],\"skillIds\":[630102]}"
+  },
+  {
+    "id": 61106,
+    "qualityID": 6,
+    "tagID": 6110,
+    "descId": "talentlegacy_skill_desc_61106",
+    "action": "{\"attr\":[\"GlobalHPMax%=10\"],\"skillIds\":[630103]}"
+  },
+  {
+    "id": 62012,
+    "qualityID": 2,
+    "tagID": 6201,
+    "descId": "talentlegacy_skill_desc_62012",
+    "action": "{\"attr\":[\"GlobalHPMax%=5\"]}"
+  },
+  {
+    "id": 62013,
+    "qualityID": 3,
+    "tagID": 6201,
+    "descId": "talentlegacy_skill_desc_62013",
+    "action": "{\"attr\":[\"GlobalHPMax%=15\"]}"
+  },
+  {
+    "id": 62014,
+    "qualityID": 4,
+    "tagID": 6201,
+    "descId": "talentlegacy_skill_desc_62014",
+    "action": "{\"attr\":[\"GlobalHPMax%=15\",\"GlobalPhysicalAttackDamageAdd%=5\"]}"
+  },
+  {
+    "id": 62015,
+    "qualityID": 5,
+    "tagID": 6201,
+    "descId": "talentlegacy_skill_desc_62015",
+    "action": "{\"attr\":[\"GlobalHPMax%=15\",\"GlobalPhysicalAttackDamageAdd%=15\"]}"
+  },
+  {
+    "id": 62016,
+    "qualityID": 6,
+    "tagID": 6201,
+    "descId": "talentlegacy_skill_desc_62016",
+    "action": "{\"attr\":[\"GlobalHPMax%=15\",\"GlobalPhysicalAttackDamageAdd%=15\",\"KnifeCritRate%=10\",\"FallingSwordCritRate%=10\",\"SwordkeeCritRate%=10\"]}"
+  },
+  {
+    "id": 62022,
+    "qualityID": 2,
+    "tagID": 6202,
+    "descId": "talentlegacy_skill_desc_62022",
+    "action": "{\"attr\":[\"GlobalHPMax%=5\"]}"
+  },
+  {
+    "id": 62023,
+    "qualityID": 3,
+    "tagID": 6202,
+    "descId": "talentlegacy_skill_desc_62023",
+    "action": "{\"attr\":[\"GlobalHPMax%=15\"]}"
+  },
+  {
+    "id": 62024,
+    "qualityID": 4,
+    "tagID": 6202,
+    "descId": "talentlegacy_skill_desc_62024",
+    "action": "{\"attr\":[\"GlobalHPMax%=15\",\"GlobalFireAttackDamageAdd%=10\",\"GlobalElectricAttackDamageAdd%=10\",\"GlobalIceAttackDamageAdd%=10\",\"PoisonAdd%=10\"]}"
+  },
+  {
+    "id": 62025,
+    "qualityID": 5,
+    "tagID": 6202,
+    "descId": "talentlegacy_skill_desc_62025",
+    "action": "{\"attr\":[\"GlobalHPMax%=15\",\"GlobalFireAttackDamageAdd%=30\",\"GlobalElectricAttackDamageAdd%=30\",\"GlobalIceAttackDamageAdd%=30\",\"PoisonAdd%=30\"]}"
+  },
+  {
+    "id": 62026,
+    "qualityID": 6,
+    "tagID": 6202,
+    "descId": "talentlegacy_skill_desc_62026",
+    "action": "{\"attr\":[\"GlobalHPMax%=15\",\"GlobalFireAttackDamageAdd%=30\",\"GlobalElectricAttackDamageAdd%=30\",\"GlobalIceAttackDamageAdd%=30\",\"PoisonAdd%=30\",\"SkillCritRate%=15\"]}"
+  },
+  {
+    "id": 62032,
+    "qualityID": 2,
+    "tagID": 6203,
+    "descId": "talentlegacy_skill_desc_62032",
+    "action": "{\"attr\":[\"GlobalHPMax%=5\"]}"
+  },
+  {
+    "id": 62033,
+    "qualityID": 3,
+    "tagID": 6203,
+    "descId": "talentlegacy_skill_desc_62033",
+    "action": "{\"attr\":[\"GlobalHPMax%=15\"]}"
+  },
+  {
+    "id": 62034,
+    "qualityID": 4,
+    "tagID": 6203,
+    "descId": "talentlegacy_skill_desc_62034",
+    "action": "{\"attr\":[\"GlobalHPMax%=15\",\"GlobalNormalAttackDamageAdd%=10\"]}"
+  },
+  {
+    "id": 62035,
+    "qualityID": 5,
+    "tagID": 6203,
+    "descId": "talentlegacy_skill_desc_62035",
+    "action": "{\"attr\":[\"GlobalHPMax%=15\",\"GlobalNormalAttackDamageAdd%=20\"]}"
+  },
+  {
+    "id": 62036,
+    "qualityID": 6,
+    "tagID": 6203,
+    "descId": "talentlegacy_skill_desc_62036",
+    "action": "{\"attr\":[\"GlobalHPMax%=15\",\"GlobalNormalAttackDamageAdd%=20\",\"NormalCritToSuper%=15\"]}"
+  },
+  {
+    "id": 62042,
+    "qualityID": 2,
+    "tagID": 6204,
+    "descId": "talentlegacy_skill_desc_62042",
+    "action": "{\"attr\":[\"GlobalHPMax%=5\"]}"
+  },
+  {
+    "id": 62043,
+    "qualityID": 3,
+    "tagID": 6204,
+    "descId": "talentlegacy_skill_desc_62043",
+    "action": "{\"attr\":[\"GlobalHPMax%=15\"]}"
+  },
+  {
+    "id": 62044,
+    "qualityID": 4,
+    "tagID": 6204,
+    "descId": "talentlegacy_skill_desc_62044",
+    "action": "{\"attr\":[\"GlobalHPMax%=15\",\"ShieldAdd%=10\"],\"skillBuildIds\":[100023]}"
+  },
+  {
+    "id": 62045,
+    "qualityID": 5,
+    "tagID": 6204,
+    "descId": "talentlegacy_skill_desc_62045",
+    "action": "{\"attr\":[\"GlobalHPMax%=15\",\"ShieldAdd%=20\"],\"skillBuildIds\":[110023]}"
+  },
+  {
+    "id": 62046,
+    "qualityID": 6,
+    "tagID": 6204,
+    "descId": "talentlegacy_skill_desc_62046",
+    "action": "{\"attr\":[\"GlobalHPMax%=15\",\"ShieldAdd%=20\",\"GlobalSelfShieldDamageAdd%=10\"],\"skillBuildIds\":[110023]}"
+  },
+  {
+    "id": 62052,
+    "qualityID": 2,
+    "tagID": 6205,
+    "descId": "talentlegacy_skill_desc_62052",
+    "action": "{\"attr\":[\"GlobalHPMax%=5\"]}"
+  },
+  {
+    "id": 62053,
+    "qualityID": 3,
+    "tagID": 6205,
+    "descId": "talentlegacy_skill_desc_62053",
+    "action": "{\"attr\":[\"GlobalHPMax%=15\"]}"
+  },
+  {
+    "id": 62054,
+    "qualityID": 4,
+    "tagID": 6205,
+    "descId": "talentlegacy_skill_desc_62054",
+    "action": "{\"attr\":[\"GlobalHPMax%=15\",\"NormalCombo%=10\"]}"
+  },
+  {
+    "id": 62055,
+    "qualityID": 5,
+    "tagID": 6205,
+    "descId": "talentlegacy_skill_desc_62055",
+    "action": "{\"attr\":[\"GlobalHPMax%=15\",\"NormalCombo%=10\",\"NormalComboCount=1\"]}"
+  },
+  {
+    "id": 62056,
+    "qualityID": 6,
+    "tagID": 6205,
+    "descId": "talentlegacy_skill_desc_62056",
+    "action": "{\"attr\":[\"GlobalHPMax%=15\",\"NormalCombo%=10\",\"NormalComboCount=1\"],\"skillIds\":[630153]}"
+  },
+  {
+    "id": 62062,
+    "qualityID": 2,
+    "tagID": 6206,
+    "descId": "talentlegacy_skill_desc_62062",
+    "action": "{\"attr\":[\"GlobalHPMax%=5\"]}"
+  },
+  {
+    "id": 62063,
+    "qualityID": 3,
+    "tagID": 6206,
+    "descId": "talentlegacy_skill_desc_62063",
+    "action": "{\"attr\":[\"GlobalHPMax%=15\"]}"
+  },
+  {
+    "id": 62064,
+    "qualityID": 4,
+    "tagID": 6206,
+    "descId": "talentlegacy_skill_desc_62064",
+    "action": "{\"attr\":[\"GlobalHPMax%=15\",\"FireBuffMaxLayerAdd=4\"]}"
+  },
+  {
+    "id": 62065,
+    "qualityID": 5,
+    "tagID": 6206,
+    "descId": "talentlegacy_skill_desc_62065",
+    "action": "{\"attr\":[\"GlobalHPMax%=15\",\"FireBuffMaxLayerAdd=10\"]}"
+  },
+  {
+    "id": 62066,
+    "qualityID": 6,
+    "tagID": 6206,
+    "descId": "talentlegacy_skill_desc_62066",
+    "action": "{\"attr\":[\"GlobalHPMax%=15\",\"FireBuffMaxLayerAdd=10\"],\"skillIds\":[630163]}"
+  },
+  {
+    "id": 62072,
+    "qualityID": 2,
+    "tagID": 6207,
+    "descId": "talentlegacy_skill_desc_62072",
+    "action": "{\"attr\":[\"GlobalHPMax%=5\"]}"
+  },
+  {
+    "id": 62073,
+    "qualityID": 3,
+    "tagID": 6207,
+    "descId": "talentlegacy_skill_desc_62073",
+    "action": "{\"attr\":[\"GlobalHPMax%=15\"]}"
+  },
+  {
+    "id": 62074,
+    "qualityID": 4,
+    "tagID": 6207,
+    "descId": "talentlegacy_skill_desc_62074",
+    "action": "{\"attr\":[\"GlobalHPMax%=15\",\"Revenge%=10\"]}"
+  },
+  {
+    "id": 62075,
+    "qualityID": 5,
+    "tagID": 6207,
+    "descId": "talentlegacy_skill_desc_62075",
+    "action": "{\"attr\":[\"GlobalHPMax%=15\",\"Revenge%=10\"],\"skillIds\":[630172]}"
+  },
+  {
+    "id": 62076,
+    "qualityID": 6,
+    "tagID": 6207,
+    "descId": "talentlegacy_skill_desc_62076",
+    "action": "{\"attr\":[\"GlobalHPMax%=15\",\"Revenge%=10\",\"ShieldAdd%=20\",\"ShieldMaxLimit%=100\"],\"skillIds\":[630172]}"
+  },
+  {
+    "id": 62082,
+    "qualityID": 2,
+    "tagID": 6208,
+    "descId": "talentlegacy_skill_desc_62082",
+    "action": "{\"attr\":[\"GlobalHPMax%=5\"]}"
+  },
+  {
+    "id": 62083,
+    "qualityID": 3,
+    "tagID": 6208,
+    "descId": "talentlegacy_skill_desc_62083",
+    "action": "{\"attr\":[\"GlobalHPMax%=15\"]}"
+  },
+  {
+    "id": 62084,
+    "qualityID": 4,
+    "tagID": 6208,
+    "descId": "talentlegacy_skill_desc_62084",
+    "action": "{\"attr\":[\"GlobalHPMax%=15\"],\"skillIds\":[630181]}"
+  },
+  {
+    "id": 62085,
+    "qualityID": 5,
+    "tagID": 6208,
+    "descId": "talentlegacy_skill_desc_62085",
+    "action": "{\"attr\":[\"GlobalHPMax%=15\"],\"skillIds\":[630182]}"
+  },
+  {
+    "id": 62086,
+    "qualityID": 6,
+    "tagID": 6208,
+    "descId": "talentlegacy_skill_desc_62086",
+    "action": "{\"attr\":[\"GlobalHPMax%=15\"],\"skillIds\":[630182,630183]}"
+  },
+  {
+    "id": 62092,
+    "qualityID": 2,
+    "tagID": 6209,
+    "descId": "talentlegacy_skill_desc_62092",
+    "action": "{\"attr\":[\"GlobalHPMax%=5\"]}"
+  },
+  {
+    "id": 62093,
+    "qualityID": 3,
+    "tagID": 6209,
+    "descId": "talentlegacy_skill_desc_62093",
+    "action": "{\"attr\":[\"GlobalHPMax%=15\"]}"
+  },
+  {
+    "id": 62094,
+    "qualityID": 4,
+    "tagID": 6209,
+    "descId": "talentlegacy_skill_desc_62094",
+    "action": "{\"attr\":[\"GlobalHPMax%=15\"],\"skillIds\":[630191]}"
+  },
+  {
+    "id": 62095,
+    "qualityID": 5,
+    "tagID": 6209,
+    "descId": "talentlegacy_skill_desc_62095",
+    "action": "{\"attr\":[\"GlobalHPMax%=15\"],\"skillIds\":[630191,630192]}"
+  },
+  {
+    "id": 62096,
+    "qualityID": 6,
+    "tagID": 6209,
+    "descId": "talentlegacy_skill_desc_62096",
+    "action": "{\"attr\":[\"GlobalHPMax%=15\"],\"skillIds\":[630192,630193]}"
+  }
+]

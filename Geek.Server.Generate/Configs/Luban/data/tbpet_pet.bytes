@@ -1,0 +1,392 @@
+[
+  {
+    "id": 330101,
+    "memberId": 30101,
+    "nameID": "pet_name_330101",
+    "collectionNameID": "",
+    "quality": 1,
+    "battleSkill": 330101,
+    "toFragment": "340101,1",
+    "levelEffectID": 101,
+    "itemLevel": 0,
+    "levelGet": []
+  },
+  {
+    "id": 330102,
+    "memberId": 30102,
+    "nameID": "pet_name_330102",
+    "collectionNameID": "",
+    "quality": 1,
+    "battleSkill": 330102,
+    "toFragment": "340102,1",
+    "levelEffectID": 102,
+    "itemLevel": 0,
+    "levelGet": []
+  },
+  {
+    "id": 330103,
+    "memberId": 30103,
+    "nameID": "pet_name_330103",
+    "collectionNameID": "",
+    "quality": 1,
+    "battleSkill": 330103,
+    "toFragment": "340103,1",
+    "levelEffectID": 103,
+    "itemLevel": 0,
+    "levelGet": []
+  },
+  {
+    "id": 330201,
+    "memberId": 30201,
+    "nameID": "pet_name_330201",
+    "collectionNameID": "",
+    "quality": 2,
+    "battleSkill": 330201,
+    "toFragment": "340201,1",
+    "levelEffectID": 201,
+    "itemLevel": 0,
+    "levelGet": []
+  },
+  {
+    "id": 330202,
+    "memberId": 30202,
+    "nameID": "pet_name_330202",
+    "collectionNameID": "",
+    "quality": 2,
+    "battleSkill": 330202,
+    "toFragment": "340202,1",
+    "levelEffectID": 202,
+    "itemLevel": 0,
+    "levelGet": []
+  },
+  {
+    "id": 330203,
+    "memberId": 30203,
+    "nameID": "pet_name_330203",
+    "collectionNameID": "",
+    "quality": 2,
+    "battleSkill": 330203,
+    "toFragment": "340203,1",
+    "levelEffectID": 203,
+    "itemLevel": 0,
+    "levelGet": []
+  },
+  {
+    "id": 330301,
+    "memberId": 30301,
+    "nameID": "pet_name_330301",
+    "collectionNameID": "",
+    "quality": 3,
+    "battleSkill": 330301,
+    "toFragment": "340301,1",
+    "levelEffectID": 301,
+    "itemLevel": 0,
+    "levelGet": []
+  },
+  {
+    "id": 330302,
+    "memberId": 30302,
+    "nameID": "pet_name_330302",
+    "collectionNameID": "",
+    "quality": 3,
+    "battleSkill": 330302,
+    "toFragment": "340302,1",
+    "levelEffectID": 302,
+    "itemLevel": 0,
+    "levelGet": []
+  },
+  {
+    "id": 330303,
+    "memberId": 30303,
+    "nameID": "pet_name_330303",
+    "collectionNameID": "",
+    "quality": 3,
+    "battleSkill": 330303,
+    "toFragment": "340303,1",
+    "levelEffectID": 303,
+    "itemLevel": 0,
+    "levelGet": []
+  },
+  {
+    "id": 330304,
+    "memberId": 30304,
+    "nameID": "pet_name_330304",
+    "collectionNameID": "",
+    "quality": 3,
+    "battleSkill": 330304,
+    "toFragment": "340304,1",
+    "levelEffectID": 304,
+    "itemLevel": 0,
+    "levelGet": []
+  },
+  {
+    "id": 330305,
+    "memberId": 30305,
+    "nameID": "pet_name_330305",
+    "collectionNameID": "",
+    "quality": 3,
+    "battleSkill": 330305,
+    "toFragment": "340305,1",
+    "levelEffectID": 305,
+    "itemLevel": 0,
+    "levelGet": []
+  },
+  {
+    "id": 330401,
+    "memberId": 30401,
+    "nameID": "pet_name_330401",
+    "collectionNameID": "",
+    "quality": 4,
+    "battleSkill": 330401,
+    "toFragment": "340401,1",
+    "levelEffectID": 401,
+    "itemLevel": 0,
+    "levelGet": []
+  },
+  {
+    "id": 330402,
+    "memberId": 30402,
+    "nameID": "pet_name_330402",
+    "collectionNameID": "",
+    "quality": 4,
+    "battleSkill": 330402,
+    "toFragment": "340402,1",
+    "levelEffectID": 402,
+    "itemLevel": 0,
+    "levelGet": []
+  },
+  {
+    "id": 330403,
+    "memberId": 30403,
+    "nameID": "pet_name_330403",
+    "collectionNameID": "",
+    "quality": 4,
+    "battleSkill": 330403,
+    "toFragment": "340403,1",
+    "levelEffectID": 403,
+    "itemLevel": 0,
+    "levelGet": []
+  },
+  {
+    "id": 330404,
+    "memberId": 30404,
+    "nameID": "pet_name_330404",
+    "collectionNameID": "",
+    "quality": 4,
+    "battleSkill": 330404,
+    "toFragment": "340404,1",
+    "levelEffectID": 404,
+    "itemLevel": 0,
+    "levelGet": []
+  },
+  {
+    "id": 330501,
+    "memberId": 30501,
+    "nameID": "pet_name_330501",
+    "collectionNameID": "",
+    "quality": 5,
+    "battleSkill": 330501,
+    "toFragment": "340501,1",
+    "levelEffectID": 501,
+    "itemLevel": 10,
+    "levelGet": [
+      "400007,1"
+    ]
+  },
+  {
+    "id": 330502,
+    "memberId": 30502,
+    "nameID": "pet_name_330502",
+    "collectionNameID": "",
+    "quality": 5,
+    "battleSkill": 330502,
+    "toFragment": "340502,1",
+    "levelEffectID": 502,
+    "itemLevel": 10,
+    "levelGet": [
+      "400002,1"
+    ]
+  },
+  {
+    "id": 330503,
+    "memberId": 30503,
+    "nameID": "pet_name_330503",
+    "collectionNameID": "",
+    "quality": 5,
+    "battleSkill": 330503,
+    "toFragment": "340503,1",
+    "levelEffectID": 503,
+    "itemLevel": 10,
+    "levelGet": [
+      "400011,1"
+    ]
+  },
+  {
+    "id": 330504,
+    "memberId": 30504,
+    "nameID": "pet_name_330504",
+    "collectionNameID": "",
+    "quality": 5,
+    "battleSkill": 330504,
+    "toFragment": "340504,1",
+    "levelEffectID": 504,
+    "itemLevel": 10,
+    "levelGet": [
+      "400016,1"
+    ]
+  },
+  {
+    "id": 330505,
+    "memberId": 30505,
+    "nameID": "pet_name_330505",
+    "collectionNameID": "",
+    "quality": 5,
+    "battleSkill": 330505,
+    "toFragment": "340505,1",
+    "levelEffectID": 505,
+    "itemLevel": 10,
+    "levelGet": [
+      "400009,1"
+    ]
+  },
+  {
+    "id": 330506,
+    "memberId": 30506,
+    "nameID": "pet_name_330506",
+    "collectionNameID": "",
+    "quality": 5,
+    "battleSkill": 330506,
+    "toFragment": "340506,1",
+    "levelEffectID": 506,
+    "itemLevel": 10,
+    "levelGet": [
+      "400017,1"
+    ]
+  },
+  {
+    "id": 330601,
+    "memberId": 30601,
+    "nameID": "pet_name_330601",
+    "collectionNameID": "pet_name_331601",
+    "quality": 6,
+    "battleSkill": 330601,
+    "toFragment": "340601,1",
+    "levelEffectID": 601,
+    "itemLevel": 10,
+    "levelGet": [
+      "400021,1"
+    ]
+  },
+  {
+    "id": 330602,
+    "memberId": 30602,
+    "nameID": "pet_name_330602",
+    "collectionNameID": "pet_name_331602",
+    "quality": 6,
+    "battleSkill": 330602,
+    "toFragment": "340602,1",
+    "levelEffectID": 602,
+    "itemLevel": 10,
+    "levelGet": [
+      "400018,1"
+    ]
+  },
+  {
+    "id": 330603,
+    "memberId": 30603,
+    "nameID": "pet_name_330603",
+    "collectionNameID": "pet_name_331603",
+    "quality": 6,
+    "battleSkill": 330603,
+    "toFragment": "340603,1",
+    "levelEffectID": 603,
+    "itemLevel": 10,
+    "levelGet": [
+      "400027,1"
+    ]
+  },
+  {
+    "id": 330604,
+    "memberId": 30604,
+    "nameID": "pet_name_330604",
+    "collectionNameID": "pet_name_331604",
+    "quality": 6,
+    "battleSkill": 330604,
+    "toFragment": "340604,1",
+    "levelEffectID": 604,
+    "itemLevel": 10,
+    "levelGet": [
+      "400014,1"
+    ]
+  },
+  {
+    "id": 330605,
+    "memberId": 30605,
+    "nameID": "pet_name_330605",
+    "collectionNameID": "pet_name_331605",
+    "quality": 6,
+    "battleSkill": 330605,
+    "toFragment": "340605,1",
+    "levelEffectID": 605,
+    "itemLevel": 10,
+    "levelGet": [
+      "400026,1"
+    ]
+  },
+  {
+    "id": 330701,
+    "memberId": 30701,
+    "nameID": "pet_name_330701",
+    "collectionNameID": "pet_name_331701",
+    "quality": 7,
+    "battleSkill": 330701,
+    "toFragment": "340701,1",
+    "levelEffectID": 701,
+    "itemLevel": 10,
+    "levelGet": [
+      "400028,1"
+    ]
+  },
+  {
+    "id": 330702,
+    "memberId": 30702,
+    "nameID": "pet_name_330702",
+    "collectionNameID": "pet_name_331702",
+    "quality": 7,
+    "battleSkill": 330702,
+    "toFragment": "340702,1",
+    "levelEffectID": 702,
+    "itemLevel": 10,
+    "levelGet": [
+      "400029,1"
+    ]
+  },
+  {
+    "id": 330703,
+    "memberId": 30703,
+    "nameID": "pet_name_330703",
+    "collectionNameID": "pet_name_331703",
+    "quality": 7,
+    "battleSkill": 330703,
+    "toFragment": "340703,1",
+    "levelEffectID": 703,
+    "itemLevel": 10,
+    "levelGet": [
+      "400030,1"
+    ]
+  },
+  {
+    "id": 330704,
+    "memberId": 30704,
+    "nameID": "pet_name_330704",
+    "collectionNameID": "pet_name_331704",
+    "quality": 7,
+    "battleSkill": 330704,
+    "toFragment": "340704,1",
+    "levelEffectID": 704,
+    "itemLevel": 10,
+    "levelGet": [
+      "400104,1"
+    ]
+  }
+]

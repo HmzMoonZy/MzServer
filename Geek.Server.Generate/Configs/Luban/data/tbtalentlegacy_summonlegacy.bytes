@@ -1,0 +1,53 @@
+[
+  {
+    "id": 201001,
+    "orderId": 1001,
+    "freeTimes": 0,
+    "priceId": 111,
+    "singlePrice": 1,
+    "singlePriceOrigin": 320,
+    "tenPrice": 10,
+    "tenPriceOrigin": 2980,
+    "choosePoolRateShow": [
+      "705,show_rate_4"
+    ],
+    "rateShow": [
+      "705,15,604,4",
+      "704,85,604,4",
+      "703,400,603,3",
+      "702,1500,602,2",
+      "707,400,show_rate_2,4",
+      "706,3600,show_rate_3,1",
+      "708,4000,show_rate_1,1"
+    ],
+    "normalPool": [
+      "705,15",
+      "704,85",
+      "703,400",
+      "702,1500",
+      "707,400",
+      "706,3600",
+      "708,4000"
+    ],
+    "miniPool": [
+      "711,45",
+      "702,30",
+      "703,20",
+      "704,5"
+    ],
+    "miniPoint": [
+      "110,6",
+      "110,16",
+      "110,26",
+      "110,66"
+    ],
+    "choosePool": 705,
+    "miniCount": 10,
+    "miniTimes": 4,
+    "miniRate": 30,
+    "goldGet": [
+      "1,320"
+    ],
+    "limitTimes": 999
+  }
+]

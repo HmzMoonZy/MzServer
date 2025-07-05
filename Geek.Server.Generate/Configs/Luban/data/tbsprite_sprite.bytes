@@ -1,0 +1,374 @@
+[
+  {
+    "id": 101,
+    "path": "Assets/_Resources/Sprites/CommonFundActivity/commonfund_top_blue_purple.png"
+  },
+  {
+    "id": 102,
+    "path": "Assets/_Resources/Sprites/CommonFundActivity/commonfund_top_blue_yellow.png"
+  },
+  {
+    "id": 103,
+    "path": "Assets/_Resources/Sprites/CommonFundActivity/commonfund_top_red_yellow.png"
+  },
+  {
+    "id": 104,
+    "path": "Assets/_Resources/Sprites/CommonFundActivity/commonfund_top_blue2_red.png"
+  },
+  {
+    "id": 105,
+    "path": "Assets/_Resources/Sprites/CommonFundActivity/commonfund_top_green_yellow.png"
+  },
+  {
+    "id": 106,
+    "path": "Assets/_Resources/Sprites/CommonFundActivity/commonfund_top_purple_yellow.png"
+  },
+  {
+    "id": 107,
+    "path": "Assets/_Resources/Sprites/CommonFundActivity/commonfund_top_blue3_yellow.png"
+  },
+  {
+    "id": 108,
+    "path": "Assets/_Resources/Sprites/CommonFundActivity/commonfund_top_brown_yellow.png"
+  },
+  {
+    "id": 109,
+    "path": "Assets/_Resources/Sprites/CommonFundActivity/commonfund_top_blue4_yellow.png"
+  },
+  {
+    "id": 110,
+    "path": "Assets/_Resources/Sprites/CommonFundActivity/commonfund_top_green_yellow3.png"
+  },
+  {
+    "id": 201,
+    "path": "Assets/_Resources/Sprites/CommonFundActivity/commonfund_bottom_purple.png"
+  },
+  {
+    "id": 202,
+    "path": "Assets/_Resources/Sprites/CommonFundActivity/commonfund_bottom_red.png"
+  },
+  {
+    "id": 203,
+    "path": "Assets/_Resources/Sprites/CommonFundActivity/commonfund_bottom_yellow.png"
+  },
+  {
+    "id": 301,
+    "path": "Assets/_Resources/Sprites/CommonFundActivity/commonfund_title_blue.png"
+  },
+  {
+    "id": 302,
+    "path": "Assets/_Resources/Sprites/CommonFundActivity/commonfund_title_purple.png"
+  },
+  {
+    "id": 303,
+    "path": "Assets/_Resources/Sprites/CommonFundActivity/commonfund_title_red.png"
+  },
+  {
+    "id": 304,
+    "path": "Assets/_Resources/Sprites/CommonFundActivity/commonfund_title_yellow.png"
+  },
+  {
+    "id": 305,
+    "path": "Assets/_Resources/Sprites/CommonFundActivity/commonfund_title_blue2.png"
+  },
+  {
+    "id": 306,
+    "path": "Assets/_Resources/Sprites/CommonFundActivity/commonfund_title_green.png"
+  },
+  {
+    "id": 307,
+    "path": "Assets/_Resources/Sprites/CommonFundActivity/commonfund_title_blue3.png"
+  },
+  {
+    "id": 308,
+    "path": "Assets/_Resources/Sprites/CommonFundActivity/commonfund_title_purple2.png"
+  },
+  {
+    "id": 309,
+    "path": "Assets/_Resources/Sprites/CommonFundActivity/commonfund_title_brown.png"
+  },
+  {
+    "id": 310,
+    "path": "Assets/_Resources/Sprites/CommonFundActivity/commonfund_title_blue4.png"
+  },
+  {
+    "id": 311,
+    "path": "Assets/_Resources/Sprites/CommonFundActivity/commonfund_title_green3.png"
+  },
+  {
+    "id": 401,
+    "path": "Assets/_Resources/Sprites/CommonFundActivity/commonfund_reward_red.png"
+  },
+  {
+    "id": 402,
+    "path": "Assets/_Resources/Sprites/CommonFundActivity/commonfund_reward_yellow.png"
+  },
+  {
+    "id": 403,
+    "path": "Assets/_Resources/Sprites/CommonFundActivity/commonfund_reward_blue.png"
+  },
+  {
+    "id": 404,
+    "path": "Assets/_Resources/Sprites/CommonFundActivity/commonfund_reward_blue2.png"
+  },
+  {
+    "id": 501,
+    "path": "Assets/_Resources/Sprites/CommonFundActivity/commonfund_topbg_blue2.png"
+  },
+  {
+    "id": 502,
+    "path": "Assets/_Resources/Sprites/CommonFundActivity/commonfund_topbg_red.png"
+  },
+  {
+    "id": 503,
+    "path": "Assets/_Resources/Sprites/CommonFundActivity/commonfund_topbg_green.png"
+  },
+  {
+    "id": 504,
+    "path": "Assets/_Resources/Sprites/CommonFundActivity/commonfund_topbg_yellow.png"
+  },
+  {
+    "id": 505,
+    "path": "Assets/_Resources/Sprites/CommonFundActivity/commonfund_topbg_purple.png"
+  },
+  {
+    "id": 506,
+    "path": "Assets/_Resources/Sprites/CommonFundActivity/commonfund_topbg_blue3.png"
+  },
+  {
+    "id": 507,
+    "path": "Assets/_Resources/Sprites/CommonFundActivity/commonfund_topbg_brown.png"
+  },
+  {
+    "id": 508,
+    "path": "Assets/_Resources/Sprites/CommonFundActivity/commonfund_topbg_blue4.png"
+  },
+  {
+    "id": 509,
+    "path": "Assets/_Resources/Sprites/CommonFundActivity/commonfund_topbg_green2.png"
+  },
+  {
+    "id": 601,
+    "path": "Assets/_Resources/Sprites/CommonFundActivity/commonfund_bigbg_purple.png"
+  },
+  {
+    "id": 602,
+    "path": "Assets/_Resources/Sprites/CommonFundActivity/commonfund_bigbg_red.png"
+  },
+  {
+    "id": 1001,
+    "path": "Assets/_Resources/Sprites/HolidayFeast/Thanks_Entry_Preview.png"
+  },
+  {
+    "id": 1002,
+    "path": "Assets/_Resources/Sprites/HolidayFeast/Winter_Entry_Preview.png"
+  },
+  {
+    "id": 1003,
+    "path": "Assets/_Resources/Sprites/HolidayFeast/SpringFestival_Entry_Preview.png"
+  },
+  {
+    "id": 1004,
+    "path": "Assets/_Resources/Sprites/HolidayFeast/AprilFools_Entry_Preview.png"
+  },
+  {
+    "id": 1005,
+    "path": "Assets/_Resources/Sprites/HolidayFeast/LaborDay_Entry_Preview.png"
+  },
+  {
+    "id": 1006,
+    "path": "Assets/_Resources/Sprites/HolidayFeast/DragonBoat2_Entry_Preview.png"
+  },
+  {
+    "id": 1101,
+    "path": "Assets/_Resources/Sprites/RichMan/Thanks_Main_Scene.png"
+  },
+  {
+    "id": 1102,
+    "path": "Assets/_Resources/Sprites/RichMan/Thanks_Grid_Train.png"
+  },
+  {
+    "id": 1103,
+    "path": "Assets/_Resources/Sprites/RichMan/Thanks_Task_Banner.png"
+  },
+  {
+    "id": 1104,
+    "path": "Assets/_Resources/Sprites/RichMan/Thanks_PassPreView_Bg.png"
+  },
+  {
+    "id": 1105,
+    "path": "Assets/_Resources/Sprites/RichMan/Thanks_Pass_Banner.png"
+  },
+  {
+    "id": 1106,
+    "path": "Assets/_Resources/Sprites/RichMan/Thanks_Pass_Bg.png"
+  },
+  {
+    "id": 1107,
+    "path": "Assets/_Resources/Sprites/RichMan/Thanks_Main_Grid.png"
+  },
+  {
+    "id": 1201,
+    "path": "Assets/_Resources/Sprites/RichMan/Spring_Main_Scene.png"
+  },
+  {
+    "id": 1202,
+    "path": "Assets/_Resources/Sprites/RichMan/Spring_Grid_Train.png"
+  },
+  {
+    "id": 1203,
+    "path": "Assets/_Resources/Sprites/RichMan/Spring_Task_Banner.png"
+  },
+  {
+    "id": 1204,
+    "path": "Assets/_Resources/Sprites/RichMan/Spring_PassPreView_Bg.png"
+  },
+  {
+    "id": 1205,
+    "path": "Assets/_Resources/Sprites/RichMan/Spring_Pass_Banner.png"
+  },
+  {
+    "id": 1206,
+    "path": "Assets/_Resources/Sprites/RichMan/Spring_Pass_Bg.png"
+  },
+  {
+    "id": 1207,
+    "path": "Assets/_Resources/Sprites/RichMan/Spring_Main_Grid.png"
+  },
+  {
+    "id": 1301,
+    "path": "Assets/_Resources/Sprites/RichMan/Autumn_Main_Scene.png"
+  },
+  {
+    "id": 1302,
+    "path": "Assets/_Resources/Sprites/RichMan/Autumn_Grid_Train.png"
+  },
+  {
+    "id": 1303,
+    "path": "Assets/_Resources/Sprites/RichMan/Autumn_Task_Banner.png"
+  },
+  {
+    "id": 1304,
+    "path": "Assets/_Resources/Sprites/RichMan/Autumn_PassPreView_Bg.png"
+  },
+  {
+    "id": 1305,
+    "path": "Assets/_Resources/Sprites/RichMan/Autumn_Pass_Banner.png"
+  },
+  {
+    "id": 1306,
+    "path": "Assets/_Resources/Sprites/RichMan/Autumn_Pass_Bg.png"
+  },
+  {
+    "id": 1307,
+    "path": "Assets/_Resources/Sprites/RichMan/Autumn_Main_Grid.png"
+  },
+  {
+    "id": 1405,
+    "path": "Assets/_Resources/Sprites/ActBattlePass/Banner_AprilFools.png"
+  },
+  {
+    "id": 1406,
+    "path": "Assets/_Resources/Sprites/ActBattlePass/BG_AprilFools.png"
+  },
+  {
+    "id": 1407,
+    "path": "Assets/_Resources/Sprites/ActBattlePass/BG_Fuben.png"
+  },
+  {
+    "id": 1408,
+    "path": "Assets/_Resources/Sprites/ActBattlePass/Bg_YouLi.png"
+  },
+  {
+    "id": 1409,
+    "path": "Assets/_Resources/Sprites/ActBattlePass/Banner_Fuben.png"
+  },
+  {
+    "id": 1410,
+    "path": "Assets/_Resources/Sprites/ActBattlePass/Banner_YouLi.png"
+  },
+  {
+    "id": 1411,
+    "path": "Assets/_Resources/Sprites/ActBattlePass/Banner_LaborDay.png"
+  },
+  {
+    "id": 1412,
+    "path": "Assets/_Resources/Sprites/ActBattlePass/BG_LaborDay.png"
+  },
+  {
+    "id": 1413,
+    "path": "Assets/_Resources/Sprites/ActBattlePass/Banner_Fishing.png"
+  },
+  {
+    "id": 1414,
+    "path": "Assets/_Resources/Sprites/ActBattlePass/BG_Fishing.png"
+  },
+  {
+    "id": 1415,
+    "path": "Assets/_Resources/Sprites/ActBattlePass/Banner_DragonBoat.png"
+  },
+  {
+    "id": 1416,
+    "path": "Assets/_Resources/Sprites/ActBattlePass/Bg_DragonBoat.png"
+  },
+  {
+    "id": 1417,
+    "path": "Assets/_Resources/Sprites/ActBattlePass/BG_Mythic.png"
+  },
+  {
+    "id": 1418,
+    "path": "Assets/_Resources/Sprites/ActBattlePass/Banner_Mythic.png"
+  },
+  {
+    "id": 1419,
+    "path": "Assets/_Resources/Sprites/ActBattlePass/BG_Easter.png"
+  },
+  {
+    "id": 1420,
+    "path": "Assets/_Resources/Sprites/ActBattlePass/Banner_Easter.png"
+  },
+  {
+    "id": 1421,
+    "path": "Assets/_Resources/Sprites/ActBattlePass/BG_Diving.png"
+  },
+  {
+    "id": 1422,
+    "path": "Assets/_Resources/Sprites/ActBattlePass/Banner_Diving.png"
+  },
+  {
+    "id": 1423,
+    "path": "Assets/_Resources/Sprites/ActBattlePass/Banner_Turtle.png"
+  },
+  {
+    "id": 1424,
+    "path": "Assets/_Resources/Sprites/ActBattlePass/BG_Turtle.png"
+  },
+  {
+    "id": 1425,
+    "path": "Assets/_Resources/Sprites/ActBattlePass/Banner_RedBingo.png"
+  },
+  {
+    "id": 1426,
+    "path": "Assets/_Resources/Sprites/ActBattlePass/BG_RedBingo.png"
+  },
+  {
+    "id": 1501,
+    "path": "Assets/_Resources/Sprites/RichMan/Common_Pass_Banner.png"
+  },
+  {
+    "id": 1502,
+    "path": "Assets/_Resources/Sprites/RichMan/Common_Pass_Bg.png"
+  },
+  {
+    "id": 1601,
+    "path": "Assets/_Resources/Sprites/ActBattlePass/title_yellow.png"
+  },
+  {
+    "id": 1602,
+    "path": "Assets/_Resources/Sprites/ActBattlePass/title_purple.png"
+  },
+  {
+    "id": 1603,
+    "path": "Assets/_Resources/Sprites/ActBattlePass/title_green.png"
+  }
+]

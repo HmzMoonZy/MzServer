@@ -1,0 +1,233 @@
+[
+  {
+    "ID": 101,
+    "Group": 1,
+    "Type": 1,
+    "Need": 1,
+    "Reward": [
+      "60,3"
+    ],
+    "Param": 0,
+    "languageId": "share_task_new_1"
+  },
+  {
+    "ID": 102,
+    "Group": 1,
+    "Type": 1,
+    "Need": 2,
+    "Reward": [
+      "9,50"
+    ],
+    "Param": 0,
+    "languageId": "share_task_new_2"
+  },
+  {
+    "ID": 103,
+    "Group": 1,
+    "Type": 1,
+    "Need": 3,
+    "Reward": [
+      "60,3"
+    ],
+    "Param": 0,
+    "languageId": "share_task_new_3"
+  },
+  {
+    "ID": 104,
+    "Group": 1,
+    "Type": 1,
+    "Need": 4,
+    "Reward": [
+      "9,50"
+    ],
+    "Param": 0,
+    "languageId": "share_task_new_4"
+  },
+  {
+    "ID": 105,
+    "Group": 1,
+    "Type": 1,
+    "Need": 5,
+    "Reward": [
+      "60,3"
+    ],
+    "Param": 0,
+    "languageId": "share_task_new_5"
+  },
+  {
+    "ID": 106,
+    "Group": 1,
+    "Type": 1,
+    "Need": 6,
+    "Reward": [
+      "9,50"
+    ],
+    "Param": 0,
+    "languageId": "share_task_new_6"
+  },
+  {
+    "ID": 107,
+    "Group": 1,
+    "Type": 1,
+    "Need": 7,
+    "Reward": [
+      "60,3"
+    ],
+    "Param": 0,
+    "languageId": "share_task_new_7"
+  },
+  {
+    "ID": 108,
+    "Group": 1,
+    "Type": 2,
+    "Need": 1,
+    "Reward": [
+      "62,1"
+    ],
+    "Param": 5,
+    "languageId": "share_task_new_8"
+  },
+  {
+    "ID": 109,
+    "Group": 1,
+    "Type": 2,
+    "Need": 1,
+    "Reward": [
+      "62,1"
+    ],
+    "Param": 10,
+    "languageId": "share_task_new_9"
+  },
+  {
+    "ID": 110,
+    "Group": 1,
+    "Type": 2,
+    "Need": 1,
+    "Reward": [
+      "62,1"
+    ],
+    "Param": 15,
+    "languageId": "share_task_new_10"
+  },
+  {
+    "ID": 111,
+    "Group": 1,
+    "Type": 3,
+    "Need": 1,
+    "Reward": [
+      "2,200"
+    ],
+    "Param": 0,
+    "languageId": "share_task_new_11"
+  },
+  {
+    "ID": 112,
+    "Group": 1,
+    "Type": 4,
+    "Need": 1,
+    "Reward": [
+      "2,400"
+    ],
+    "Param": 0,
+    "languageId": "share_task_new_12"
+  },
+  {
+    "ID": 201,
+    "Group": 2,
+    "Type": 5,
+    "Need": 1,
+    "Reward": [
+      "62,1"
+    ],
+    "Param": 5,
+    "languageId": "share_task_old_1"
+  },
+  {
+    "ID": 202,
+    "Group": 2,
+    "Type": 5,
+    "Need": 1,
+    "Reward": [
+      "62,1"
+    ],
+    "Param": 10,
+    "languageId": "share_task_old_2"
+  },
+  {
+    "ID": 203,
+    "Group": 2,
+    "Type": 5,
+    "Need": 1,
+    "Reward": [
+      "62,1"
+    ],
+    "Param": 15,
+    "languageId": "share_task_old_3"
+  },
+  {
+    "ID": 204,
+    "Group": 2,
+    "Type": 5,
+    "Need": 2,
+    "Reward": [
+      "62,1"
+    ],
+    "Param": 5,
+    "languageId": "share_task_old_4"
+  },
+  {
+    "ID": 205,
+    "Group": 2,
+    "Type": 5,
+    "Need": 5,
+    "Reward": [
+      "62,1"
+    ],
+    "Param": 5,
+    "languageId": "share_task_old_5"
+  },
+  {
+    "ID": 206,
+    "Group": 2,
+    "Type": 5,
+    "Need": 5,
+    "Reward": [
+      "62,1"
+    ],
+    "Param": 15,
+    "languageId": "share_task_old_6"
+  },
+  {
+    "ID": 207,
+    "Group": 2,
+    "Type": 6,
+    "Need": 1,
+    "Reward": [
+      "62,1"
+    ],
+    "Param": 4,
+    "languageId": "share_task_old_7"
+  },
+  {
+    "ID": 208,
+    "Group": 2,
+    "Type": 6,
+    "Need": 2,
+    "Reward": [
+      "62,3"
+    ],
+    "Param": 9,
+    "languageId": "share_task_old_8"
+  },
+  {
+    "ID": 209,
+    "Group": 2,
+    "Type": 6,
+    "Need": 5,
+    "Reward": [
+      "62,10"
+    ],
+    "Param": 19,
+    "languageId": "share_task_old_9"
+  }
+]

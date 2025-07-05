@@ -1,0 +1,90 @@
+[
+  {
+    "id": 1,
+    "rewardID": 1,
+    "point": 10,
+    "reward": [
+      "2,50"
+    ]
+  },
+  {
+    "id": 2,
+    "rewardID": 1,
+    "point": 20,
+    "reward": [
+      "28,10"
+    ]
+  },
+  {
+    "id": 3,
+    "rewardID": 1,
+    "point": 50,
+    "reward": [
+      "29,10"
+    ]
+  },
+  {
+    "id": 4,
+    "rewardID": 1,
+    "point": 100,
+    "reward": [
+      "2,100"
+    ]
+  },
+  {
+    "id": 5,
+    "rewardID": 1,
+    "point": 150,
+    "reward": [
+      "28,20"
+    ]
+  },
+  {
+    "id": 6,
+    "rewardID": 1,
+    "point": 200,
+    "reward": [
+      "29,20"
+    ]
+  },
+  {
+    "id": 7,
+    "rewardID": 1,
+    "point": 250,
+    "reward": [
+      "72,1"
+    ]
+  },
+  {
+    "id": 8,
+    "rewardID": 1,
+    "point": 300,
+    "reward": [
+      "11,30"
+    ]
+  },
+  {
+    "id": 9,
+    "rewardID": 1,
+    "point": 350,
+    "reward": [
+      "2,200"
+    ]
+  },
+  {
+    "id": 10,
+    "rewardID": 1,
+    "point": 400,
+    "reward": [
+      "73,1"
+    ]
+  },
+  {
+    "id": 11,
+    "rewardID": 1,
+    "point": 500,
+    "reward": [
+      "74,1"
+    ]
+  }
+]

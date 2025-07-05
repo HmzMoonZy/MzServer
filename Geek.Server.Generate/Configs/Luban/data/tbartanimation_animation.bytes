@@ -1,0 +1,98 @@
+[
+  {
+    "id": "Battle/Cast",
+    "hideWeapon": 0
+  },
+  {
+    "id": "Death",
+    "hideWeapon": 0
+  },
+  {
+    "id": "Other/Fish_Begin",
+    "hideWeapon": 1
+  },
+  {
+    "id": "Other/Fish_End01",
+    "hideWeapon": 1
+  },
+  {
+    "id": "Other/Fish_End02",
+    "hideWeapon": 1
+  },
+  {
+    "id": "Other/Fish_Loop",
+    "hideWeapon": 1
+  },
+  {
+    "id": "Hit",
+    "hideWeapon": 0
+  },
+  {
+    "id": "Idle",
+    "hideWeapon": 0
+  },
+  {
+    "id": "Other/Rowing",
+    "hideWeapon": 1
+  },
+  {
+    "id": "Other/Rowing_Fast",
+    "hideWeapon": 1
+  },
+  {
+    "id": "Run",
+    "hideWeapon": 0
+  },
+  {
+    "id": "Shoot",
+    "hideWeapon": 1
+  },
+  {
+    "id": "Skill",
+    "hideWeapon": 0
+  },
+  {
+    "id": "Battle/Attack_Sword",
+    "hideWeapon": 0
+  },
+  {
+    "id": "Battle/Attack_Spear",
+    "hideWeapon": 0
+  },
+  {
+    "id": "Battle/Attack_Magic",
+    "hideWeapon": 0
+  },
+  {
+    "id": "Battle/Attack_Bow",
+    "hideWeapon": 0
+  },
+  {
+    "id": "Battle/Skill_Sword",
+    "hideWeapon": 0
+  },
+  {
+    "id": "Battle/Skill_Sword02",
+    "hideWeapon": 0
+  },
+  {
+    "id": "Battle/Skill_Spear",
+    "hideWeapon": 0
+  },
+  {
+    "id": "Battle/Skill_Magic",
+    "hideWeapon": 0
+  },
+  {
+    "id": "Battle/Skill_Bow",
+    "hideWeapon": 0
+  },
+  {
+    "id": "Battle/Skill_AnYingChang",
+    "hideWeapon": 0
+  },
+  {
+    "id": "Battle/Skill_LongXiJuJian",
+    "hideWeapon": 0
+  }
+]

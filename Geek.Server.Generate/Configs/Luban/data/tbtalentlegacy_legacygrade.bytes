@@ -1,0 +1,10028 @@
+[
+  {
+    "id": 510101,
+    "qualityID": 1,
+    "qualityPlus": 0,
+    "consume": [
+      "41,1"
+    ],
+    "toFragment": [
+      "505101,10"
+    ],
+    "wearAttributes": [
+      "HPMax%=5",
+      "Attack%=5",
+      "Defence%=5"
+    ],
+    "activePower": [
+      0,
+      0
+    ]
+  },
+  {
+    "id": 510102,
+    "qualityID": 2,
+    "qualityPlus": 0,
+    "consume": [
+      "41,5"
+    ],
+    "toFragment": [
+      "505101,20"
+    ],
+    "wearAttributes": [
+      "HPMax%=10",
+      "Attack%=10",
+      "Defence%=10"
+    ],
+    "activePower": [
+      0,
+      0
+    ]
+  },
+  {
+    "id": 510103,
+    "qualityID": 3,
+    "qualityPlus": 0,
+    "consume": [
+      "41,20",
+      "46,5"
+    ],
+    "toFragment": [
+      "505101,60"
+    ],
+    "wearAttributes": [
+      "HPMax%=15",
+      "Attack%=15",
+      "Defence%=15"
+    ],
+    "activePower": [
+      300,
+      0
+    ]
+  },
+  {
+    "id": 510104,
+    "qualityID": 4,
+    "qualityPlus": 0,
+    "consume": [
+      "41,40"
+    ],
+    "toFragment": [
+      "505101,120"
+    ],
+    "wearAttributes": [
+      "HPMax%=20",
+      "Attack%=20",
+      "Defence%=20"
+    ],
+    "activePower": [
+      300,
+      0
+    ]
+  },
+  {
+    "id": 510105,
+    "qualityID": 4,
+    "qualityPlus": 1,
+    "consume": [
+      "41,60"
+    ],
+    "toFragment": [
+      "505101,120"
+    ],
+    "wearAttributes": [
+      "HPMax%=30",
+      "Attack%=30",
+      "Defence%=30"
+    ],
+    "activePower": [
+      300,
+      0
+    ]
+  },
+  {
+    "id": 510106,
+    "qualityID": 4,
+    "qualityPlus": 2,
+    "consume": [
+      "41,120",
+      "46,15"
+    ],
+    "toFragment": [
+      "505101,120"
+    ],
+    "wearAttributes": [
+      "HPMax%=40",
+      "Attack%=40",
+      "Defence%=40"
+    ],
+    "activePower": [
+      300,
+      0
+    ]
+  },
+  {
+    "id": 510107,
+    "qualityID": 5,
+    "qualityPlus": 0,
+    "consume": [
+      "41,180"
+    ],
+    "toFragment": [
+      "505101,360"
+    ],
+    "wearAttributes": [
+      "HPMax%=60",
+      "Attack%=60",
+      "Defence%=60"
+    ],
+    "activePower": [
+      300,
+      0
+    ]
+  },
+  {
+    "id": 510108,
+    "qualityID": 5,
+    "qualityPlus": 1,
+    "consume": [
+      "41,240"
+    ],
+    "toFragment": [
+      "505101,360"
+    ],
+    "wearAttributes": [
+      "HPMax%=80",
+      "Attack%=80",
+      "Defence%=80"
+    ],
+    "activePower": [
+      300,
+      0
+    ]
+  },
+  {
+    "id": 510109,
+    "qualityID": 5,
+    "qualityPlus": 2,
+    "consume": [
+      "41,300",
+      "46,30"
+    ],
+    "toFragment": [
+      "505101,360"
+    ],
+    "wearAttributes": [
+      "HPMax%=100",
+      "Attack%=100",
+      "Defence%=100"
+    ],
+    "activePower": [
+      300,
+      0
+    ]
+  },
+  {
+    "id": 510110,
+    "qualityID": 6,
+    "qualityPlus": 0,
+    "consume": [
+      "41,500"
+    ],
+    "toFragment": [
+      "505101,1080"
+    ],
+    "wearAttributes": [
+      "HPMax%=120",
+      "Attack%=120",
+      "Defence%=120"
+    ],
+    "activePower": [
+      300,
+      0
+    ]
+  },
+  {
+    "id": 510111,
+    "qualityID": 6,
+    "qualityPlus": 1,
+    "consume": [
+      "41,700"
+    ],
+    "toFragment": [
+      "505101,1080"
+    ],
+    "wearAttributes": [
+      "HPMax%=160",
+      "Attack%=160",
+      "Defence%=160"
+    ],
+    "activePower": [
+      300,
+      0
+    ]
+  },
+  {
+    "id": 510112,
+    "qualityID": 6,
+    "qualityPlus": 2,
+    "consume": [],
+    "toFragment": [
+      "505101,1080"
+    ],
+    "wearAttributes": [
+      "HPMax%=200",
+      "Attack%=200",
+      "Defence%=200"
+    ],
+    "activePower": [
+      300,
+      0
+    ]
+  },
+  {
+    "id": 510201,
+    "qualityID": 1,
+    "qualityPlus": 0,
+    "consume": [
+      "41,1"
+    ],
+    "toFragment": [
+      "505101,10"
+    ],
+    "wearAttributes": [
+      "HPMax%=5",
+      "Attack%=5",
+      "Defence%=5"
+    ],
+    "activePower": [
+      0,
+      0
+    ]
+  },
+  {
+    "id": 510202,
+    "qualityID": 2,
+    "qualityPlus": 0,
+    "consume": [
+      "41,5"
+    ],
+    "toFragment": [
+      "505101,20"
+    ],
+    "wearAttributes": [
+      "HPMax%=10",
+      "Attack%=10",
+      "Defence%=10"
+    ],
+    "activePower": [
+      0,
+      0
+    ]
+  },
+  {
+    "id": 510203,
+    "qualityID": 3,
+    "qualityPlus": 0,
+    "consume": [
+      "41,20",
+      "46,5"
+    ],
+    "toFragment": [
+      "505101,60"
+    ],
+    "wearAttributes": [
+      "HPMax%=15",
+      "Attack%=15",
+      "Defence%=15"
+    ],
+    "activePower": [
+      400,
+      0
+    ]
+  },
+  {
+    "id": 510204,
+    "qualityID": 4,
+    "qualityPlus": 0,
+    "consume": [
+      "41,40"
+    ],
+    "toFragment": [
+      "505101,120"
+    ],
+    "wearAttributes": [
+      "HPMax%=20",
+      "Attack%=20",
+      "Defence%=20"
+    ],
+    "activePower": [
+      400,
+      0
+    ]
+  },
+  {
+    "id": 510205,
+    "qualityID": 4,
+    "qualityPlus": 1,
+    "consume": [
+      "41,60"
+    ],
+    "toFragment": [
+      "505101,120"
+    ],
+    "wearAttributes": [
+      "HPMax%=30",
+      "Attack%=30",
+      "Defence%=30"
+    ],
+    "activePower": [
+      400,
+      0
+    ]
+  },
+  {
+    "id": 510206,
+    "qualityID": 4,
+    "qualityPlus": 2,
+    "consume": [
+      "41,120",
+      "46,15"
+    ],
+    "toFragment": [
+      "505101,120"
+    ],
+    "wearAttributes": [
+      "HPMax%=40",
+      "Attack%=40",
+      "Defence%=40"
+    ],
+    "activePower": [
+      400,
+      0
+    ]
+  },
+  {
+    "id": 510207,
+    "qualityID": 5,
+    "qualityPlus": 0,
+    "consume": [
+      "41,180"
+    ],
+    "toFragment": [
+      "505101,360"
+    ],
+    "wearAttributes": [
+      "HPMax%=60",
+      "Attack%=60",
+      "Defence%=60"
+    ],
+    "activePower": [
+      400,
+      0
+    ]
+  },
+  {
+    "id": 510208,
+    "qualityID": 5,
+    "qualityPlus": 1,
+    "consume": [
+      "41,240"
+    ],
+    "toFragment": [
+      "505101,360"
+    ],
+    "wearAttributes": [
+      "HPMax%=80",
+      "Attack%=80",
+      "Defence%=80"
+    ],
+    "activePower": [
+      400,
+      0
+    ]
+  },
+  {
+    "id": 510209,
+    "qualityID": 5,
+    "qualityPlus": 2,
+    "consume": [
+      "41,300",
+      "46,30"
+    ],
+    "toFragment": [
+      "505101,360"
+    ],
+    "wearAttributes": [
+      "HPMax%=100",
+      "Attack%=100",
+      "Defence%=100"
+    ],
+    "activePower": [
+      400,
+      0
+    ]
+  },
+  {
+    "id": 510210,
+    "qualityID": 6,
+    "qualityPlus": 0,
+    "consume": [
+      "41,500"
+    ],
+    "toFragment": [
+      "505101,1080"
+    ],
+    "wearAttributes": [
+      "HPMax%=120",
+      "Attack%=120",
+      "Defence%=120"
+    ],
+    "activePower": [
+      400,
+      0
+    ]
+  },
+  {
+    "id": 510211,
+    "qualityID": 6,
+    "qualityPlus": 1,
+    "consume": [
+      "41,700"
+    ],
+    "toFragment": [
+      "505101,1080"
+    ],
+    "wearAttributes": [
+      "HPMax%=160",
+      "Attack%=160",
+      "Defence%=160"
+    ],
+    "activePower": [
+      400,
+      0
+    ]
+  },
+  {
+    "id": 510212,
+    "qualityID": 6,
+    "qualityPlus": 2,
+    "consume": [],
+    "toFragment": [
+      "505101,1080"
+    ],
+    "wearAttributes": [
+      "HPMax%=200",
+      "Attack%=200",
+      "Defence%=200"
+    ],
+    "activePower": [
+      400,
+      0
+    ]
+  },
+  {
+    "id": 510301,
+    "qualityID": 1,
+    "qualityPlus": 0,
+    "consume": [
+      "42,1"
+    ],
+    "toFragment": [
+      "505103,10"
+    ],
+    "wearAttributes": [
+      "HPMax%=5",
+      "Attack%=5",
+      "Defence%=5"
+    ],
+    "activePower": [
+      0,
+      0
+    ]
+  },
+  {
+    "id": 510302,
+    "qualityID": 2,
+    "qualityPlus": 0,
+    "consume": [
+      "42,5"
+    ],
+    "toFragment": [
+      "505103,20"
+    ],
+    "wearAttributes": [
+      "HPMax%=10",
+      "Attack%=10",
+      "Defence%=10"
+    ],
+    "activePower": [
+      0,
+      0
+    ]
+  },
+  {
+    "id": 510303,
+    "qualityID": 3,
+    "qualityPlus": 0,
+    "consume": [
+      "42,20",
+      "46,5"
+    ],
+    "toFragment": [
+      "505103,60"
+    ],
+    "wearAttributes": [
+      "HPMax%=15",
+      "Attack%=15",
+      "Defence%=15"
+    ],
+    "activePower": [
+      300,
+      0
+    ]
+  },
+  {
+    "id": 510304,
+    "qualityID": 4,
+    "qualityPlus": 0,
+    "consume": [
+      "42,40"
+    ],
+    "toFragment": [
+      "505103,120"
+    ],
+    "wearAttributes": [
+      "HPMax%=20",
+      "Attack%=20",
+      "Defence%=20"
+    ],
+    "activePower": [
+      300,
+      0
+    ]
+  },
+  {
+    "id": 510305,
+    "qualityID": 4,
+    "qualityPlus": 1,
+    "consume": [
+      "42,60"
+    ],
+    "toFragment": [
+      "505103,120"
+    ],
+    "wearAttributes": [
+      "HPMax%=30",
+      "Attack%=30",
+      "Defence%=30"
+    ],
+    "activePower": [
+      300,
+      0
+    ]
+  },
+  {
+    "id": 510306,
+    "qualityID": 4,
+    "qualityPlus": 2,
+    "consume": [
+      "42,120",
+      "46,15"
+    ],
+    "toFragment": [
+      "505103,120"
+    ],
+    "wearAttributes": [
+      "HPMax%=40",
+      "Attack%=40",
+      "Defence%=40"
+    ],
+    "activePower": [
+      300,
+      0
+    ]
+  },
+  {
+    "id": 510307,
+    "qualityID": 5,
+    "qualityPlus": 0,
+    "consume": [
+      "42,180"
+    ],
+    "toFragment": [
+      "505103,360"
+    ],
+    "wearAttributes": [
+      "HPMax%=60",
+      "Attack%=60",
+      "Defence%=60"
+    ],
+    "activePower": [
+      300,
+      0
+    ]
+  },
+  {
+    "id": 510308,
+    "qualityID": 5,
+    "qualityPlus": 1,
+    "consume": [
+      "42,240"
+    ],
+    "toFragment": [
+      "505103,360"
+    ],
+    "wearAttributes": [
+      "HPMax%=80",
+      "Attack%=80",
+      "Defence%=80"
+    ],
+    "activePower": [
+      300,
+      0
+    ]
+  },
+  {
+    "id": 510309,
+    "qualityID": 5,
+    "qualityPlus": 2,
+    "consume": [
+      "42,300",
+      "46,30"
+    ],
+    "toFragment": [
+      "505103,360"
+    ],
+    "wearAttributes": [
+      "HPMax%=100",
+      "Attack%=100",
+      "Defence%=100"
+    ],
+    "activePower": [
+      300,
+      0
+    ]
+  },
+  {
+    "id": 510310,
+    "qualityID": 6,
+    "qualityPlus": 0,
+    "consume": [
+      "42,500"
+    ],
+    "toFragment": [
+      "505103,1080"
+    ],
+    "wearAttributes": [
+      "HPMax%=120",
+      "Attack%=120",
+      "Defence%=120"
+    ],
+    "activePower": [
+      300,
+      0
+    ]
+  },
+  {
+    "id": 510311,
+    "qualityID": 6,
+    "qualityPlus": 1,
+    "consume": [
+      "42,700"
+    ],
+    "toFragment": [
+      "505103,1080"
+    ],
+    "wearAttributes": [
+      "HPMax%=160",
+      "Attack%=160",
+      "Defence%=160"
+    ],
+    "activePower": [
+      300,
+      0
+    ]
+  },
+  {
+    "id": 510312,
+    "qualityID": 6,
+    "qualityPlus": 2,
+    "consume": [],
+    "toFragment": [
+      "505103,1080"
+    ],
+    "wearAttributes": [
+      "HPMax%=200",
+      "Attack%=200",
+      "Defence%=200"
+    ],
+    "activePower": [
+      300,
+      0
+    ]
+  },
+  {
+    "id": 510401,
+    "qualityID": 1,
+    "qualityPlus": 0,
+    "consume": [
+      "42,1"
+    ],
+    "toFragment": [
+      "505103,10"
+    ],
+    "wearAttributes": [
+      "HPMax%=5",
+      "Attack%=5",
+      "Defence%=5"
+    ],
+    "activePower": [
+      0,
+      0
+    ]
+  },
+  {
+    "id": 510402,
+    "qualityID": 2,
+    "qualityPlus": 0,
+    "consume": [
+      "42,5"
+    ],
+    "toFragment": [
+      "505103,20"
+    ],
+    "wearAttributes": [
+      "HPMax%=10",
+      "Attack%=10",
+      "Defence%=10"
+    ],
+    "activePower": [
+      0,
+      0
+    ]
+  },
+  {
+    "id": 510403,
+    "qualityID": 3,
+    "qualityPlus": 0,
+    "consume": [
+      "42,20",
+      "46,5"
+    ],
+    "toFragment": [
+      "505103,60"
+    ],
+    "wearAttributes": [
+      "HPMax%=15",
+      "Attack%=15",
+      "Defence%=15"
+    ],
+    "activePower": [
+      400,
+      0
+    ]
+  },
+  {
+    "id": 510404,
+    "qualityID": 4,
+    "qualityPlus": 0,
+    "consume": [
+      "42,40"
+    ],
+    "toFragment": [
+      "505103,120"
+    ],
+    "wearAttributes": [
+      "HPMax%=20",
+      "Attack%=20",
+      "Defence%=20"
+    ],
+    "activePower": [
+      400,
+      0
+    ]
+  },
+  {
+    "id": 510405,
+    "qualityID": 4,
+    "qualityPlus": 1,
+    "consume": [
+      "42,60"
+    ],
+    "toFragment": [
+      "505103,120"
+    ],
+    "wearAttributes": [
+      "HPMax%=30",
+      "Attack%=30",
+      "Defence%=30"
+    ],
+    "activePower": [
+      400,
+      0
+    ]
+  },
+  {
+    "id": 510406,
+    "qualityID": 4,
+    "qualityPlus": 2,
+    "consume": [
+      "42,120",
+      "46,15"
+    ],
+    "toFragment": [
+      "505103,120"
+    ],
+    "wearAttributes": [
+      "HPMax%=40",
+      "Attack%=40",
+      "Defence%=40"
+    ],
+    "activePower": [
+      400,
+      0
+    ]
+  },
+  {
+    "id": 510407,
+    "qualityID": 5,
+    "qualityPlus": 0,
+    "consume": [
+      "42,180"
+    ],
+    "toFragment": [
+      "505103,360"
+    ],
+    "wearAttributes": [
+      "HPMax%=60",
+      "Attack%=60",
+      "Defence%=60"
+    ],
+    "activePower": [
+      400,
+      0
+    ]
+  },
+  {
+    "id": 510408,
+    "qualityID": 5,
+    "qualityPlus": 1,
+    "consume": [
+      "42,240"
+    ],
+    "toFragment": [
+      "505103,360"
+    ],
+    "wearAttributes": [
+      "HPMax%=80",
+      "Attack%=80",
+      "Defence%=80"
+    ],
+    "activePower": [
+      400,
+      0
+    ]
+  },
+  {
+    "id": 510409,
+    "qualityID": 5,
+    "qualityPlus": 2,
+    "consume": [
+      "42,300",
+      "46,30"
+    ],
+    "toFragment": [
+      "505103,360"
+    ],
+    "wearAttributes": [
+      "HPMax%=100",
+      "Attack%=100",
+      "Defence%=100"
+    ],
+    "activePower": [
+      400,
+      0
+    ]
+  },
+  {
+    "id": 510410,
+    "qualityID": 6,
+    "qualityPlus": 0,
+    "consume": [
+      "42,500"
+    ],
+    "toFragment": [
+      "505103,1080"
+    ],
+    "wearAttributes": [
+      "HPMax%=120",
+      "Attack%=120",
+      "Defence%=120"
+    ],
+    "activePower": [
+      400,
+      0
+    ]
+  },
+  {
+    "id": 510411,
+    "qualityID": 6,
+    "qualityPlus": 1,
+    "consume": [
+      "42,700"
+    ],
+    "toFragment": [
+      "505103,1080"
+    ],
+    "wearAttributes": [
+      "HPMax%=160",
+      "Attack%=160",
+      "Defence%=160"
+    ],
+    "activePower": [
+      400,
+      0
+    ]
+  },
+  {
+    "id": 510412,
+    "qualityID": 6,
+    "qualityPlus": 2,
+    "consume": [],
+    "toFragment": [
+      "505103,1080"
+    ],
+    "wearAttributes": [
+      "HPMax%=200",
+      "Attack%=200",
+      "Defence%=200"
+    ],
+    "activePower": [
+      400,
+      0
+    ]
+  },
+  {
+    "id": 510501,
+    "qualityID": 1,
+    "qualityPlus": 0,
+    "consume": [
+      "43,1"
+    ],
+    "toFragment": [
+      "505105,10"
+    ],
+    "wearAttributes": [
+      "HPMax%=5",
+      "Attack%=5",
+      "Defence%=5"
+    ],
+    "activePower": [
+      0,
+      0
+    ]
+  },
+  {
+    "id": 510502,
+    "qualityID": 2,
+    "qualityPlus": 0,
+    "consume": [
+      "43,5"
+    ],
+    "toFragment": [
+      "505105,20"
+    ],
+    "wearAttributes": [
+      "HPMax%=10",
+      "Attack%=10",
+      "Defence%=10"
+    ],
+    "activePower": [
+      0,
+      0
+    ]
+  },
+  {
+    "id": 510503,
+    "qualityID": 3,
+    "qualityPlus": 0,
+    "consume": [
+      "43,20",
+      "46,5"
+    ],
+    "toFragment": [
+      "505105,60"
+    ],
+    "wearAttributes": [
+      "HPMax%=15",
+      "Attack%=15",
+      "Defence%=15"
+    ],
+    "activePower": [
+      300,
+      0
+    ]
+  },
+  {
+    "id": 510504,
+    "qualityID": 4,
+    "qualityPlus": 0,
+    "consume": [
+      "43,40"
+    ],
+    "toFragment": [
+      "505105,120"
+    ],
+    "wearAttributes": [
+      "HPMax%=20",
+      "Attack%=20",
+      "Defence%=20"
+    ],
+    "activePower": [
+      300,
+      0
+    ]
+  },
+  {
+    "id": 510505,
+    "qualityID": 4,
+    "qualityPlus": 1,
+    "consume": [
+      "43,60"
+    ],
+    "toFragment": [
+      "505105,120"
+    ],
+    "wearAttributes": [
+      "HPMax%=30",
+      "Attack%=30",
+      "Defence%=30"
+    ],
+    "activePower": [
+      300,
+      0
+    ]
+  },
+  {
+    "id": 510506,
+    "qualityID": 4,
+    "qualityPlus": 2,
+    "consume": [
+      "43,120",
+      "46,15"
+    ],
+    "toFragment": [
+      "505105,120"
+    ],
+    "wearAttributes": [
+      "HPMax%=40",
+      "Attack%=40",
+      "Defence%=40"
+    ],
+    "activePower": [
+      300,
+      0
+    ]
+  },
+  {
+    "id": 510507,
+    "qualityID": 5,
+    "qualityPlus": 0,
+    "consume": [
+      "43,180"
+    ],
+    "toFragment": [
+      "505105,360"
+    ],
+    "wearAttributes": [
+      "HPMax%=60",
+      "Attack%=60",
+      "Defence%=60"
+    ],
+    "activePower": [
+      300,
+      0
+    ]
+  },
+  {
+    "id": 510508,
+    "qualityID": 5,
+    "qualityPlus": 1,
+    "consume": [
+      "43,240"
+    ],
+    "toFragment": [
+      "505105,360"
+    ],
+    "wearAttributes": [
+      "HPMax%=80",
+      "Attack%=80",
+      "Defence%=80"
+    ],
+    "activePower": [
+      300,
+      0
+    ]
+  },
+  {
+    "id": 510509,
+    "qualityID": 5,
+    "qualityPlus": 2,
+    "consume": [
+      "43,300",
+      "46,30"
+    ],
+    "toFragment": [
+      "505105,360"
+    ],
+    "wearAttributes": [
+      "HPMax%=100",
+      "Attack%=100",
+      "Defence%=100"
+    ],
+    "activePower": [
+      300,
+      0
+    ]
+  },
+  {
+    "id": 510510,
+    "qualityID": 6,
+    "qualityPlus": 0,
+    "consume": [
+      "43,500"
+    ],
+    "toFragment": [
+      "505105,1080"
+    ],
+    "wearAttributes": [
+      "HPMax%=120",
+      "Attack%=120",
+      "Defence%=120"
+    ],
+    "activePower": [
+      300,
+      0
+    ]
+  },
+  {
+    "id": 510511,
+    "qualityID": 6,
+    "qualityPlus": 1,
+    "consume": [
+      "43,700"
+    ],
+    "toFragment": [
+      "505105,1080"
+    ],
+    "wearAttributes": [
+      "HPMax%=160",
+      "Attack%=160",
+      "Defence%=160"
+    ],
+    "activePower": [
+      300,
+      0
+    ]
+  },
+  {
+    "id": 510512,
+    "qualityID": 6,
+    "qualityPlus": 2,
+    "consume": [],
+    "toFragment": [
+      "505105,1080"
+    ],
+    "wearAttributes": [
+      "HPMax%=200",
+      "Attack%=200",
+      "Defence%=200"
+    ],
+    "activePower": [
+      300,
+      0
+    ]
+  },
+  {
+    "id": 510601,
+    "qualityID": 1,
+    "qualityPlus": 0,
+    "consume": [
+      "43,1"
+    ],
+    "toFragment": [
+      "505105,10"
+    ],
+    "wearAttributes": [
+      "HPMax%=5",
+      "Attack%=5",
+      "Defence%=5"
+    ],
+    "activePower": [
+      0,
+      0
+    ]
+  },
+  {
+    "id": 510602,
+    "qualityID": 2,
+    "qualityPlus": 0,
+    "consume": [
+      "43,5"
+    ],
+    "toFragment": [
+      "505105,20"
+    ],
+    "wearAttributes": [
+      "HPMax%=10",
+      "Attack%=10",
+      "Defence%=10"
+    ],
+    "activePower": [
+      0,
+      0
+    ]
+  },
+  {
+    "id": 510603,
+    "qualityID": 3,
+    "qualityPlus": 0,
+    "consume": [
+      "43,20",
+      "46,5"
+    ],
+    "toFragment": [
+      "505105,60"
+    ],
+    "wearAttributes": [
+      "HPMax%=15",
+      "Attack%=15",
+      "Defence%=15"
+    ],
+    "activePower": [
+      400,
+      0
+    ]
+  },
+  {
+    "id": 510604,
+    "qualityID": 4,
+    "qualityPlus": 0,
+    "consume": [
+      "43,40"
+    ],
+    "toFragment": [
+      "505105,120"
+    ],
+    "wearAttributes": [
+      "HPMax%=20",
+      "Attack%=20",
+      "Defence%=20"
+    ],
+    "activePower": [
+      400,
+      0
+    ]
+  },
+  {
+    "id": 510605,
+    "qualityID": 4,
+    "qualityPlus": 1,
+    "consume": [
+      "43,60"
+    ],
+    "toFragment": [
+      "505105,120"
+    ],
+    "wearAttributes": [
+      "HPMax%=30",
+      "Attack%=30",
+      "Defence%=30"
+    ],
+    "activePower": [
+      400,
+      0
+    ]
+  },
+  {
+    "id": 510606,
+    "qualityID": 4,
+    "qualityPlus": 2,
+    "consume": [
+      "43,120",
+      "46,15"
+    ],
+    "toFragment": [
+      "505105,120"
+    ],
+    "wearAttributes": [
+      "HPMax%=40",
+      "Attack%=40",
+      "Defence%=40"
+    ],
+    "activePower": [
+      400,
+      0
+    ]
+  },
+  {
+    "id": 510607,
+    "qualityID": 5,
+    "qualityPlus": 0,
+    "consume": [
+      "43,180"
+    ],
+    "toFragment": [
+      "505105,360"
+    ],
+    "wearAttributes": [
+      "HPMax%=60",
+      "Attack%=60",
+      "Defence%=60"
+    ],
+    "activePower": [
+      400,
+      0
+    ]
+  },
+  {
+    "id": 510608,
+    "qualityID": 5,
+    "qualityPlus": 1,
+    "consume": [
+      "43,240"
+    ],
+    "toFragment": [
+      "505105,360"
+    ],
+    "wearAttributes": [
+      "HPMax%=80",
+      "Attack%=80",
+      "Defence%=80"
+    ],
+    "activePower": [
+      400,
+      0
+    ]
+  },
+  {
+    "id": 510609,
+    "qualityID": 5,
+    "qualityPlus": 2,
+    "consume": [
+      "43,300",
+      "46,30"
+    ],
+    "toFragment": [
+      "505105,360"
+    ],
+    "wearAttributes": [
+      "HPMax%=100",
+      "Attack%=100",
+      "Defence%=100"
+    ],
+    "activePower": [
+      400,
+      0
+    ]
+  },
+  {
+    "id": 510610,
+    "qualityID": 6,
+    "qualityPlus": 0,
+    "consume": [
+      "43,500"
+    ],
+    "toFragment": [
+      "505105,1080"
+    ],
+    "wearAttributes": [
+      "HPMax%=120",
+      "Attack%=120",
+      "Defence%=120"
+    ],
+    "activePower": [
+      400,
+      0
+    ]
+  },
+  {
+    "id": 510611,
+    "qualityID": 6,
+    "qualityPlus": 1,
+    "consume": [
+      "43,700"
+    ],
+    "toFragment": [
+      "505105,1080"
+    ],
+    "wearAttributes": [
+      "HPMax%=160",
+      "Attack%=160",
+      "Defence%=160"
+    ],
+    "activePower": [
+      400,
+      0
+    ]
+  },
+  {
+    "id": 510612,
+    "qualityID": 6,
+    "qualityPlus": 2,
+    "consume": [],
+    "toFragment": [
+      "505105,1080"
+    ],
+    "wearAttributes": [
+      "HPMax%=200",
+      "Attack%=200",
+      "Defence%=200"
+    ],
+    "activePower": [
+      400,
+      0
+    ]
+  },
+  {
+    "id": 510701,
+    "qualityID": 1,
+    "qualityPlus": 0,
+    "consume": [
+      "44,1"
+    ],
+    "toFragment": [
+      "505107,10"
+    ],
+    "wearAttributes": [
+      "HPMax%=5",
+      "Attack%=5",
+      "Defence%=5"
+    ],
+    "activePower": [
+      0,
+      0
+    ]
+  },
+  {
+    "id": 510702,
+    "qualityID": 2,
+    "qualityPlus": 0,
+    "consume": [
+      "44,5"
+    ],
+    "toFragment": [
+      "505107,20"
+    ],
+    "wearAttributes": [
+      "HPMax%=10",
+      "Attack%=10",
+      "Defence%=10"
+    ],
+    "activePower": [
+      0,
+      0
+    ]
+  },
+  {
+    "id": 510703,
+    "qualityID": 3,
+    "qualityPlus": 0,
+    "consume": [
+      "44,20",
+      "46,5"
+    ],
+    "toFragment": [
+      "505107,60"
+    ],
+    "wearAttributes": [
+      "HPMax%=15",
+      "Attack%=15",
+      "Defence%=15"
+    ],
+    "activePower": [
+      300,
+      0
+    ]
+  },
+  {
+    "id": 510704,
+    "qualityID": 4,
+    "qualityPlus": 0,
+    "consume": [
+      "44,40"
+    ],
+    "toFragment": [
+      "505107,120"
+    ],
+    "wearAttributes": [
+      "HPMax%=20",
+      "Attack%=20",
+      "Defence%=20"
+    ],
+    "activePower": [
+      300,
+      0
+    ]
+  },
+  {
+    "id": 510705,
+    "qualityID": 4,
+    "qualityPlus": 1,
+    "consume": [
+      "44,60"
+    ],
+    "toFragment": [
+      "505107,120"
+    ],
+    "wearAttributes": [
+      "HPMax%=30",
+      "Attack%=30",
+      "Defence%=30"
+    ],
+    "activePower": [
+      300,
+      0
+    ]
+  },
+  {
+    "id": 510706,
+    "qualityID": 4,
+    "qualityPlus": 2,
+    "consume": [
+      "44,120",
+      "46,15"
+    ],
+    "toFragment": [
+      "505107,120"
+    ],
+    "wearAttributes": [
+      "HPMax%=40",
+      "Attack%=40",
+      "Defence%=40"
+    ],
+    "activePower": [
+      300,
+      0
+    ]
+  },
+  {
+    "id": 510707,
+    "qualityID": 5,
+    "qualityPlus": 0,
+    "consume": [
+      "44,180"
+    ],
+    "toFragment": [
+      "505107,360"
+    ],
+    "wearAttributes": [
+      "HPMax%=60",
+      "Attack%=60",
+      "Defence%=60"
+    ],
+    "activePower": [
+      300,
+      0
+    ]
+  },
+  {
+    "id": 510708,
+    "qualityID": 5,
+    "qualityPlus": 1,
+    "consume": [
+      "44,240"
+    ],
+    "toFragment": [
+      "505107,360"
+    ],
+    "wearAttributes": [
+      "HPMax%=80",
+      "Attack%=80",
+      "Defence%=80"
+    ],
+    "activePower": [
+      300,
+      0
+    ]
+  },
+  {
+    "id": 510709,
+    "qualityID": 5,
+    "qualityPlus": 2,
+    "consume": [
+      "44,300",
+      "46,30"
+    ],
+    "toFragment": [
+      "505107,360"
+    ],
+    "wearAttributes": [
+      "HPMax%=100",
+      "Attack%=100",
+      "Defence%=100"
+    ],
+    "activePower": [
+      300,
+      0
+    ]
+  },
+  {
+    "id": 510710,
+    "qualityID": 6,
+    "qualityPlus": 0,
+    "consume": [
+      "44,500"
+    ],
+    "toFragment": [
+      "505107,1080"
+    ],
+    "wearAttributes": [
+      "HPMax%=120",
+      "Attack%=120",
+      "Defence%=120"
+    ],
+    "activePower": [
+      300,
+      0
+    ]
+  },
+  {
+    "id": 510711,
+    "qualityID": 6,
+    "qualityPlus": 1,
+    "consume": [
+      "44,700"
+    ],
+    "toFragment": [
+      "505107,1080"
+    ],
+    "wearAttributes": [
+      "HPMax%=160",
+      "Attack%=160",
+      "Defence%=160"
+    ],
+    "activePower": [
+      300,
+      0
+    ]
+  },
+  {
+    "id": 510712,
+    "qualityID": 6,
+    "qualityPlus": 2,
+    "consume": [],
+    "toFragment": [
+      "505107,1080"
+    ],
+    "wearAttributes": [
+      "HPMax%=200",
+      "Attack%=200",
+      "Defence%=200"
+    ],
+    "activePower": [
+      300,
+      0
+    ]
+  },
+  {
+    "id": 510801,
+    "qualityID": 1,
+    "qualityPlus": 0,
+    "consume": [
+      "44,1"
+    ],
+    "toFragment": [
+      "505107,10"
+    ],
+    "wearAttributes": [
+      "HPMax%=5",
+      "Attack%=5",
+      "Defence%=5"
+    ],
+    "activePower": [
+      0,
+      0
+    ]
+  },
+  {
+    "id": 510802,
+    "qualityID": 2,
+    "qualityPlus": 0,
+    "consume": [
+      "44,5"
+    ],
+    "toFragment": [
+      "505107,20"
+    ],
+    "wearAttributes": [
+      "HPMax%=10",
+      "Attack%=10",
+      "Defence%=10"
+    ],
+    "activePower": [
+      0,
+      0
+    ]
+  },
+  {
+    "id": 510803,
+    "qualityID": 3,
+    "qualityPlus": 0,
+    "consume": [
+      "44,20",
+      "46,5"
+    ],
+    "toFragment": [
+      "505107,60"
+    ],
+    "wearAttributes": [
+      "HPMax%=15",
+      "Attack%=15",
+      "Defence%=15"
+    ],
+    "activePower": [
+      400,
+      0
+    ]
+  },
+  {
+    "id": 510804,
+    "qualityID": 4,
+    "qualityPlus": 0,
+    "consume": [
+      "44,40"
+    ],
+    "toFragment": [
+      "505107,120"
+    ],
+    "wearAttributes": [
+      "HPMax%=20",
+      "Attack%=20",
+      "Defence%=20"
+    ],
+    "activePower": [
+      400,
+      0
+    ]
+  },
+  {
+    "id": 510805,
+    "qualityID": 4,
+    "qualityPlus": 1,
+    "consume": [
+      "44,60"
+    ],
+    "toFragment": [
+      "505107,120"
+    ],
+    "wearAttributes": [
+      "HPMax%=30",
+      "Attack%=30",
+      "Defence%=30"
+    ],
+    "activePower": [
+      400,
+      0
+    ]
+  },
+  {
+    "id": 510806,
+    "qualityID": 4,
+    "qualityPlus": 2,
+    "consume": [
+      "44,120",
+      "46,15"
+    ],
+    "toFragment": [
+      "505107,120"
+    ],
+    "wearAttributes": [
+      "HPMax%=40",
+      "Attack%=40",
+      "Defence%=40"
+    ],
+    "activePower": [
+      400,
+      0
+    ]
+  },
+  {
+    "id": 510807,
+    "qualityID": 5,
+    "qualityPlus": 0,
+    "consume": [
+      "44,180"
+    ],
+    "toFragment": [
+      "505107,360"
+    ],
+    "wearAttributes": [
+      "HPMax%=60",
+      "Attack%=60",
+      "Defence%=60"
+    ],
+    "activePower": [
+      400,
+      0
+    ]
+  },
+  {
+    "id": 510808,
+    "qualityID": 5,
+    "qualityPlus": 1,
+    "consume": [
+      "44,240"
+    ],
+    "toFragment": [
+      "505107,360"
+    ],
+    "wearAttributes": [
+      "HPMax%=80",
+      "Attack%=80",
+      "Defence%=80"
+    ],
+    "activePower": [
+      400,
+      0
+    ]
+  },
+  {
+    "id": 510809,
+    "qualityID": 5,
+    "qualityPlus": 2,
+    "consume": [
+      "44,300",
+      "46,30"
+    ],
+    "toFragment": [
+      "505107,360"
+    ],
+    "wearAttributes": [
+      "HPMax%=100",
+      "Attack%=100",
+      "Defence%=100"
+    ],
+    "activePower": [
+      400,
+      0
+    ]
+  },
+  {
+    "id": 510810,
+    "qualityID": 6,
+    "qualityPlus": 0,
+    "consume": [
+      "44,500"
+    ],
+    "toFragment": [
+      "505107,1080"
+    ],
+    "wearAttributes": [
+      "HPMax%=120",
+      "Attack%=120",
+      "Defence%=120"
+    ],
+    "activePower": [
+      400,
+      0
+    ]
+  },
+  {
+    "id": 510811,
+    "qualityID": 6,
+    "qualityPlus": 1,
+    "consume": [
+      "44,700"
+    ],
+    "toFragment": [
+      "505107,1080"
+    ],
+    "wearAttributes": [
+      "HPMax%=160",
+      "Attack%=160",
+      "Defence%=160"
+    ],
+    "activePower": [
+      400,
+      0
+    ]
+  },
+  {
+    "id": 510812,
+    "qualityID": 6,
+    "qualityPlus": 2,
+    "consume": [],
+    "toFragment": [
+      "505107,1080"
+    ],
+    "wearAttributes": [
+      "HPMax%=200",
+      "Attack%=200",
+      "Defence%=200"
+    ],
+    "activePower": [
+      400,
+      0
+    ]
+  },
+  {
+    "id": 512101,
+    "qualityID": 1,
+    "qualityPlus": 0,
+    "consume": [
+      "505121,10"
+    ],
+    "toFragment": [
+      "505121,10"
+    ],
+    "wearAttributes": [
+      "HPMax%=5",
+      "Attack%=5",
+      "Defence%=5"
+    ],
+    "activePower": [
+      0,
+      0
+    ]
+  },
+  {
+    "id": 512102,
+    "qualityID": 2,
+    "qualityPlus": 0,
+    "consume": [
+      "505121,40"
+    ],
+    "toFragment": [
+      "505121,20"
+    ],
+    "wearAttributes": [
+      "HPMax%=10",
+      "Attack%=10",
+      "Defence%=10"
+    ],
+    "activePower": [
+      0,
+      0
+    ]
+  },
+  {
+    "id": 512103,
+    "qualityID": 3,
+    "qualityPlus": 0,
+    "consume": [
+      "505121,60"
+    ],
+    "toFragment": [
+      "505121,60"
+    ],
+    "wearAttributes": [
+      "HPMax%=15",
+      "Attack%=15",
+      "Defence%=15"
+    ],
+    "activePower": [
+      0,
+      0
+    ]
+  },
+  {
+    "id": 512104,
+    "qualityID": 4,
+    "qualityPlus": 0,
+    "consume": [
+      "505121,60",
+      "43,40"
+    ],
+    "toFragment": [
+      "505121,120"
+    ],
+    "wearAttributes": [
+      "HPMax%=20",
+      "Attack%=20",
+      "Defence%=20"
+    ],
+    "activePower": [
+      300,
+      0
+    ]
+  },
+  {
+    "id": 512105,
+    "qualityID": 4,
+    "qualityPlus": 1,
+    "consume": [
+      "505121,60",
+      "43,60"
+    ],
+    "toFragment": [
+      "505121,120"
+    ],
+    "wearAttributes": [
+      "HPMax%=30",
+      "Attack%=30",
+      "Defence%=30"
+    ],
+    "activePower": [
+      300,
+      0
+    ]
+  },
+  {
+    "id": 512106,
+    "qualityID": 4,
+    "qualityPlus": 2,
+    "consume": [
+      "505121,120",
+      "43,120"
+    ],
+    "toFragment": [
+      "505121,120"
+    ],
+    "wearAttributes": [
+      "HPMax%=40",
+      "Attack%=40",
+      "Defence%=40"
+    ],
+    "activePower": [
+      300,
+      0
+    ]
+  },
+  {
+    "id": 512107,
+    "qualityID": 5,
+    "qualityPlus": 0,
+    "consume": [
+      "505121,180",
+      "43,180"
+    ],
+    "toFragment": [
+      "505121,360"
+    ],
+    "wearAttributes": [
+      "HPMax%=60",
+      "Attack%=60",
+      "Defence%=60"
+    ],
+    "activePower": [
+      600,
+      0
+    ]
+  },
+  {
+    "id": 512108,
+    "qualityID": 5,
+    "qualityPlus": 1,
+    "consume": [
+      "505121,180",
+      "43,240"
+    ],
+    "toFragment": [
+      "505121,360"
+    ],
+    "wearAttributes": [
+      "HPMax%=80",
+      "Attack%=80",
+      "Defence%=80"
+    ],
+    "activePower": [
+      600,
+      0
+    ]
+  },
+  {
+    "id": 512109,
+    "qualityID": 5,
+    "qualityPlus": 2,
+    "consume": [
+      "505121,360",
+      "43,300"
+    ],
+    "toFragment": [
+      "505121,360"
+    ],
+    "wearAttributes": [
+      "HPMax%=100",
+      "Attack%=100",
+      "Defence%=100"
+    ],
+    "activePower": [
+      600,
+      0
+    ]
+  },
+  {
+    "id": 512110,
+    "qualityID": 6,
+    "qualityPlus": 0,
+    "consume": [
+      "505121,540",
+      "43,500"
+    ],
+    "toFragment": [
+      "505121,1080"
+    ],
+    "wearAttributes": [
+      "HPMax%=120",
+      "Attack%=120",
+      "Defence%=120"
+    ],
+    "activePower": [
+      950,
+      0
+    ]
+  },
+  {
+    "id": 512111,
+    "qualityID": 6,
+    "qualityPlus": 1,
+    "consume": [
+      "505121,540",
+      "43,700"
+    ],
+    "toFragment": [
+      "505121,1080"
+    ],
+    "wearAttributes": [
+      "HPMax%=160",
+      "Attack%=160",
+      "Defence%=160"
+    ],
+    "activePower": [
+      950,
+      0
+    ]
+  },
+  {
+    "id": 512112,
+    "qualityID": 6,
+    "qualityPlus": 2,
+    "consume": [],
+    "toFragment": [
+      "505121,1080"
+    ],
+    "wearAttributes": [
+      "HPMax%=200",
+      "Attack%=200",
+      "Defence%=200"
+    ],
+    "activePower": [
+      950,
+      0
+    ]
+  },
+  {
+    "id": 512201,
+    "qualityID": 1,
+    "qualityPlus": 0,
+    "consume": [
+      "505122,10"
+    ],
+    "toFragment": [
+      "505122,10"
+    ],
+    "wearAttributes": [
+      "HPMax%=5",
+      "Attack%=5",
+      "Defence%=5"
+    ],
+    "activePower": [
+      0,
+      0
+    ]
+  },
+  {
+    "id": 512202,
+    "qualityID": 2,
+    "qualityPlus": 0,
+    "consume": [
+      "505122,40"
+    ],
+    "toFragment": [
+      "505122,20"
+    ],
+    "wearAttributes": [
+      "HPMax%=10",
+      "Attack%=10",
+      "Defence%=10"
+    ],
+    "activePower": [
+      0,
+      0
+    ]
+  },
+  {
+    "id": 512203,
+    "qualityID": 3,
+    "qualityPlus": 0,
+    "consume": [
+      "505122,60"
+    ],
+    "toFragment": [
+      "505122,60"
+    ],
+    "wearAttributes": [
+      "HPMax%=15",
+      "Attack%=15",
+      "Defence%=15"
+    ],
+    "activePower": [
+      0,
+      0
+    ]
+  },
+  {
+    "id": 512204,
+    "qualityID": 4,
+    "qualityPlus": 0,
+    "consume": [
+      "505122,60",
+      "41,40"
+    ],
+    "toFragment": [
+      "505122,120"
+    ],
+    "wearAttributes": [
+      "HPMax%=20",
+      "Attack%=20",
+      "Defence%=20"
+    ],
+    "activePower": [
+      300,
+      0
+    ]
+  },
+  {
+    "id": 512205,
+    "qualityID": 4,
+    "qualityPlus": 1,
+    "consume": [
+      "505122,60",
+      "41,60"
+    ],
+    "toFragment": [
+      "505122,120"
+    ],
+    "wearAttributes": [
+      "HPMax%=30",
+      "Attack%=30",
+      "Defence%=30"
+    ],
+    "activePower": [
+      300,
+      0
+    ]
+  },
+  {
+    "id": 512206,
+    "qualityID": 4,
+    "qualityPlus": 2,
+    "consume": [
+      "505122,120",
+      "41,120"
+    ],
+    "toFragment": [
+      "505122,120"
+    ],
+    "wearAttributes": [
+      "HPMax%=40",
+      "Attack%=40",
+      "Defence%=40"
+    ],
+    "activePower": [
+      300,
+      0
+    ]
+  },
+  {
+    "id": 512207,
+    "qualityID": 5,
+    "qualityPlus": 0,
+    "consume": [
+      "505122,180",
+      "41,180"
+    ],
+    "toFragment": [
+      "505122,360"
+    ],
+    "wearAttributes": [
+      "HPMax%=60",
+      "Attack%=60",
+      "Defence%=60"
+    ],
+    "activePower": [
+      600,
+      0
+    ]
+  },
+  {
+    "id": 512208,
+    "qualityID": 5,
+    "qualityPlus": 1,
+    "consume": [
+      "505122,180",
+      "41,240"
+    ],
+    "toFragment": [
+      "505122,360"
+    ],
+    "wearAttributes": [
+      "HPMax%=80",
+      "Attack%=80",
+      "Defence%=80"
+    ],
+    "activePower": [
+      600,
+      0
+    ]
+  },
+  {
+    "id": 512209,
+    "qualityID": 5,
+    "qualityPlus": 2,
+    "consume": [
+      "505122,360",
+      "41,300"
+    ],
+    "toFragment": [
+      "505122,360"
+    ],
+    "wearAttributes": [
+      "HPMax%=100",
+      "Attack%=100",
+      "Defence%=100"
+    ],
+    "activePower": [
+      600,
+      0
+    ]
+  },
+  {
+    "id": 512210,
+    "qualityID": 6,
+    "qualityPlus": 0,
+    "consume": [
+      "505122,540",
+      "41,500"
+    ],
+    "toFragment": [
+      "505122,1080"
+    ],
+    "wearAttributes": [
+      "HPMax%=120",
+      "Attack%=120",
+      "Defence%=120"
+    ],
+    "activePower": [
+      950,
+      0
+    ]
+  },
+  {
+    "id": 512211,
+    "qualityID": 6,
+    "qualityPlus": 1,
+    "consume": [
+      "505122,540",
+      "41,700"
+    ],
+    "toFragment": [
+      "505122,1080"
+    ],
+    "wearAttributes": [
+      "HPMax%=160",
+      "Attack%=160",
+      "Defence%=160"
+    ],
+    "activePower": [
+      950,
+      0
+    ]
+  },
+  {
+    "id": 512212,
+    "qualityID": 6,
+    "qualityPlus": 2,
+    "consume": [],
+    "toFragment": [
+      "505122,1080"
+    ],
+    "wearAttributes": [
+      "HPMax%=200",
+      "Attack%=200",
+      "Defence%=200"
+    ],
+    "activePower": [
+      950,
+      0
+    ]
+  },
+  {
+    "id": 512301,
+    "qualityID": 1,
+    "qualityPlus": 0,
+    "consume": [
+      "505123,10"
+    ],
+    "toFragment": [
+      "505123,10"
+    ],
+    "wearAttributes": [
+      "HPMax%=5",
+      "Attack%=5",
+      "Defence%=5"
+    ],
+    "activePower": [
+      0,
+      0
+    ]
+  },
+  {
+    "id": 512302,
+    "qualityID": 2,
+    "qualityPlus": 0,
+    "consume": [
+      "505123,40"
+    ],
+    "toFragment": [
+      "505123,20"
+    ],
+    "wearAttributes": [
+      "HPMax%=10",
+      "Attack%=10",
+      "Defence%=10"
+    ],
+    "activePower": [
+      0,
+      0
+    ]
+  },
+  {
+    "id": 512303,
+    "qualityID": 3,
+    "qualityPlus": 0,
+    "consume": [
+      "505123,60"
+    ],
+    "toFragment": [
+      "505123,60"
+    ],
+    "wearAttributes": [
+      "HPMax%=15",
+      "Attack%=15",
+      "Defence%=15"
+    ],
+    "activePower": [
+      0,
+      0
+    ]
+  },
+  {
+    "id": 512304,
+    "qualityID": 4,
+    "qualityPlus": 0,
+    "consume": [
+      "505123,60",
+      "44,40"
+    ],
+    "toFragment": [
+      "505123,120"
+    ],
+    "wearAttributes": [
+      "HPMax%=20",
+      "Attack%=20",
+      "Defence%=20"
+    ],
+    "activePower": [
+      300,
+      0
+    ]
+  },
+  {
+    "id": 512305,
+    "qualityID": 4,
+    "qualityPlus": 1,
+    "consume": [
+      "505123,60",
+      "44,60"
+    ],
+    "toFragment": [
+      "505123,120"
+    ],
+    "wearAttributes": [
+      "HPMax%=30",
+      "Attack%=30",
+      "Defence%=30"
+    ],
+    "activePower": [
+      300,
+      0
+    ]
+  },
+  {
+    "id": 512306,
+    "qualityID": 4,
+    "qualityPlus": 2,
+    "consume": [
+      "505123,120",
+      "44,120"
+    ],
+    "toFragment": [
+      "505123,120"
+    ],
+    "wearAttributes": [
+      "HPMax%=40",
+      "Attack%=40",
+      "Defence%=40"
+    ],
+    "activePower": [
+      300,
+      0
+    ]
+  },
+  {
+    "id": 512307,
+    "qualityID": 5,
+    "qualityPlus": 0,
+    "consume": [
+      "505123,180",
+      "44,180"
+    ],
+    "toFragment": [
+      "505123,360"
+    ],
+    "wearAttributes": [
+      "HPMax%=60",
+      "Attack%=60",
+      "Defence%=60"
+    ],
+    "activePower": [
+      600,
+      0
+    ]
+  },
+  {
+    "id": 512308,
+    "qualityID": 5,
+    "qualityPlus": 1,
+    "consume": [
+      "505123,180",
+      "44,240"
+    ],
+    "toFragment": [
+      "505123,360"
+    ],
+    "wearAttributes": [
+      "HPMax%=80",
+      "Attack%=80",
+      "Defence%=80"
+    ],
+    "activePower": [
+      600,
+      0
+    ]
+  },
+  {
+    "id": 512309,
+    "qualityID": 5,
+    "qualityPlus": 2,
+    "consume": [
+      "505123,360",
+      "44,300"
+    ],
+    "toFragment": [
+      "505123,360"
+    ],
+    "wearAttributes": [
+      "HPMax%=100",
+      "Attack%=100",
+      "Defence%=100"
+    ],
+    "activePower": [
+      600,
+      0
+    ]
+  },
+  {
+    "id": 512310,
+    "qualityID": 6,
+    "qualityPlus": 0,
+    "consume": [
+      "505123,540",
+      "44,500"
+    ],
+    "toFragment": [
+      "505123,1080"
+    ],
+    "wearAttributes": [
+      "HPMax%=120",
+      "Attack%=120",
+      "Defence%=120"
+    ],
+    "activePower": [
+      950,
+      0
+    ]
+  },
+  {
+    "id": 512311,
+    "qualityID": 6,
+    "qualityPlus": 1,
+    "consume": [
+      "505123,540",
+      "44,700"
+    ],
+    "toFragment": [
+      "505123,1080"
+    ],
+    "wearAttributes": [
+      "HPMax%=160",
+      "Attack%=160",
+      "Defence%=160"
+    ],
+    "activePower": [
+      950,
+      0
+    ]
+  },
+  {
+    "id": 512312,
+    "qualityID": 6,
+    "qualityPlus": 2,
+    "consume": [],
+    "toFragment": [
+      "505123,1080"
+    ],
+    "wearAttributes": [
+      "HPMax%=200",
+      "Attack%=200",
+      "Defence%=200"
+    ],
+    "activePower": [
+      950,
+      0
+    ]
+  },
+  {
+    "id": 512401,
+    "qualityID": 1,
+    "qualityPlus": 0,
+    "consume": [
+      "505124,10"
+    ],
+    "toFragment": [
+      "505124,10"
+    ],
+    "wearAttributes": [
+      "HPMax%=5",
+      "Attack%=5",
+      "Defence%=5"
+    ],
+    "activePower": [
+      0,
+      0
+    ]
+  },
+  {
+    "id": 512402,
+    "qualityID": 2,
+    "qualityPlus": 0,
+    "consume": [
+      "505124,40"
+    ],
+    "toFragment": [
+      "505124,20"
+    ],
+    "wearAttributes": [
+      "HPMax%=10",
+      "Attack%=10",
+      "Defence%=10"
+    ],
+    "activePower": [
+      0,
+      0
+    ]
+  },
+  {
+    "id": 512403,
+    "qualityID": 3,
+    "qualityPlus": 0,
+    "consume": [
+      "505124,60"
+    ],
+    "toFragment": [
+      "505124,60"
+    ],
+    "wearAttributes": [
+      "HPMax%=15",
+      "Attack%=15",
+      "Defence%=15"
+    ],
+    "activePower": [
+      0,
+      0
+    ]
+  },
+  {
+    "id": 512404,
+    "qualityID": 4,
+    "qualityPlus": 0,
+    "consume": [
+      "505124,60",
+      "42,40"
+    ],
+    "toFragment": [
+      "505124,120"
+    ],
+    "wearAttributes": [
+      "HPMax%=20",
+      "Attack%=20",
+      "Defence%=20"
+    ],
+    "activePower": [
+      300,
+      0
+    ]
+  },
+  {
+    "id": 512405,
+    "qualityID": 4,
+    "qualityPlus": 1,
+    "consume": [
+      "505124,60",
+      "42,60"
+    ],
+    "toFragment": [
+      "505124,120"
+    ],
+    "wearAttributes": [
+      "HPMax%=30",
+      "Attack%=30",
+      "Defence%=30"
+    ],
+    "activePower": [
+      300,
+      0
+    ]
+  },
+  {
+    "id": 512406,
+    "qualityID": 4,
+    "qualityPlus": 2,
+    "consume": [
+      "505124,120",
+      "42,120"
+    ],
+    "toFragment": [
+      "505124,120"
+    ],
+    "wearAttributes": [
+      "HPMax%=40",
+      "Attack%=40",
+      "Defence%=40"
+    ],
+    "activePower": [
+      300,
+      0
+    ]
+  },
+  {
+    "id": 512407,
+    "qualityID": 5,
+    "qualityPlus": 0,
+    "consume": [
+      "505124,180",
+      "42,180"
+    ],
+    "toFragment": [
+      "505124,360"
+    ],
+    "wearAttributes": [
+      "HPMax%=60",
+      "Attack%=60",
+      "Defence%=60"
+    ],
+    "activePower": [
+      600,
+      0
+    ]
+  },
+  {
+    "id": 512408,
+    "qualityID": 5,
+    "qualityPlus": 1,
+    "consume": [
+      "505124,180",
+      "42,240"
+    ],
+    "toFragment": [
+      "505124,360"
+    ],
+    "wearAttributes": [
+      "HPMax%=80",
+      "Attack%=80",
+      "Defence%=80"
+    ],
+    "activePower": [
+      600,
+      0
+    ]
+  },
+  {
+    "id": 512409,
+    "qualityID": 5,
+    "qualityPlus": 2,
+    "consume": [
+      "505124,360",
+      "42,300"
+    ],
+    "toFragment": [
+      "505124,360"
+    ],
+    "wearAttributes": [
+      "HPMax%=100",
+      "Attack%=100",
+      "Defence%=100"
+    ],
+    "activePower": [
+      600,
+      0
+    ]
+  },
+  {
+    "id": 512410,
+    "qualityID": 6,
+    "qualityPlus": 0,
+    "consume": [
+      "505124,540",
+      "42,500"
+    ],
+    "toFragment": [
+      "505124,1080"
+    ],
+    "wearAttributes": [
+      "HPMax%=120",
+      "Attack%=120",
+      "Defence%=120"
+    ],
+    "activePower": [
+      950,
+      0
+    ]
+  },
+  {
+    "id": 512411,
+    "qualityID": 6,
+    "qualityPlus": 1,
+    "consume": [
+      "505124,540",
+      "42,700"
+    ],
+    "toFragment": [
+      "505124,1080"
+    ],
+    "wearAttributes": [
+      "HPMax%=160",
+      "Attack%=160",
+      "Defence%=160"
+    ],
+    "activePower": [
+      950,
+      0
+    ]
+  },
+  {
+    "id": 512412,
+    "qualityID": 6,
+    "qualityPlus": 2,
+    "consume": [],
+    "toFragment": [
+      "505124,1080"
+    ],
+    "wearAttributes": [
+      "HPMax%=200",
+      "Attack%=200",
+      "Defence%=200"
+    ],
+    "activePower": [
+      950,
+      0
+    ]
+  },
+  {
+    "id": 520101,
+    "qualityID": 1,
+    "qualityPlus": 0,
+    "consume": [
+      "41,1"
+    ],
+    "toFragment": [
+      "505101,10"
+    ],
+    "wearAttributes": [
+      "HPMax%=10",
+      "Attack%=10",
+      "Defence%=10"
+    ],
+    "activePower": [
+      0,
+      0
+    ]
+  },
+  {
+    "id": 520102,
+    "qualityID": 2,
+    "qualityPlus": 0,
+    "consume": [
+      "41,5"
+    ],
+    "toFragment": [
+      "505101,20"
+    ],
+    "wearAttributes": [
+      "HPMax%=20",
+      "Attack%=20",
+      "Defence%=20"
+    ],
+    "activePower": [
+      0,
+      0
+    ]
+  },
+  {
+    "id": 520103,
+    "qualityID": 3,
+    "qualityPlus": 0,
+    "consume": [
+      "41,20",
+      "46,5"
+    ],
+    "toFragment": [
+      "505101,60"
+    ],
+    "wearAttributes": [
+      "HPMax%=30",
+      "Attack%=30",
+      "Defence%=30"
+    ],
+    "activePower": [
+      300,
+      0
+    ]
+  },
+  {
+    "id": 520104,
+    "qualityID": 4,
+    "qualityPlus": 0,
+    "consume": [
+      "41,40"
+    ],
+    "toFragment": [
+      "505101,120"
+    ],
+    "wearAttributes": [
+      "HPMax%=40",
+      "Attack%=40",
+      "Defence%=40"
+    ],
+    "activePower": [
+      300,
+      0
+    ]
+  },
+  {
+    "id": 520105,
+    "qualityID": 4,
+    "qualityPlus": 1,
+    "consume": [
+      "41,60"
+    ],
+    "toFragment": [
+      "505101,120"
+    ],
+    "wearAttributes": [
+      "HPMax%=50",
+      "Attack%=50",
+      "Defence%=50"
+    ],
+    "activePower": [
+      300,
+      0
+    ]
+  },
+  {
+    "id": 520106,
+    "qualityID": 4,
+    "qualityPlus": 2,
+    "consume": [
+      "41,120",
+      "46,15"
+    ],
+    "toFragment": [
+      "505101,120"
+    ],
+    "wearAttributes": [
+      "HPMax%=60",
+      "Attack%=60",
+      "Defence%=60"
+    ],
+    "activePower": [
+      300,
+      0
+    ]
+  },
+  {
+    "id": 520107,
+    "qualityID": 5,
+    "qualityPlus": 0,
+    "consume": [
+      "41,180"
+    ],
+    "toFragment": [
+      "505101,360"
+    ],
+    "wearAttributes": [
+      "HPMax%=90",
+      "Attack%=90",
+      "Defence%=90"
+    ],
+    "activePower": [
+      300,
+      0
+    ]
+  },
+  {
+    "id": 520108,
+    "qualityID": 5,
+    "qualityPlus": 1,
+    "consume": [
+      "41,240"
+    ],
+    "toFragment": [
+      "505101,360"
+    ],
+    "wearAttributes": [
+      "HPMax%=120",
+      "Attack%=120",
+      "Defence%=120"
+    ],
+    "activePower": [
+      300,
+      0
+    ]
+  },
+  {
+    "id": 520109,
+    "qualityID": 5,
+    "qualityPlus": 2,
+    "consume": [
+      "41,300",
+      "46,30"
+    ],
+    "toFragment": [
+      "505101,360"
+    ],
+    "wearAttributes": [
+      "HPMax%=150",
+      "Attack%=150",
+      "Defence%=150"
+    ],
+    "activePower": [
+      300,
+      0
+    ]
+  },
+  {
+    "id": 520110,
+    "qualityID": 6,
+    "qualityPlus": 0,
+    "consume": [
+      "41,500"
+    ],
+    "toFragment": [
+      "505101,1080"
+    ],
+    "wearAttributes": [
+      "HPMax%=180",
+      "Attack%=180",
+      "Defence%=180"
+    ],
+    "activePower": [
+      300,
+      0
+    ]
+  },
+  {
+    "id": 520111,
+    "qualityID": 6,
+    "qualityPlus": 1,
+    "consume": [
+      "41,700"
+    ],
+    "toFragment": [
+      "505101,1080"
+    ],
+    "wearAttributes": [
+      "HPMax%=240",
+      "Attack%=240",
+      "Defence%=240"
+    ],
+    "activePower": [
+      300,
+      0
+    ]
+  },
+  {
+    "id": 520112,
+    "qualityID": 6,
+    "qualityPlus": 2,
+    "consume": [],
+    "toFragment": [
+      "505101,1080"
+    ],
+    "wearAttributes": [
+      "HPMax%=300",
+      "Attack%=300",
+      "Defence%=300"
+    ],
+    "activePower": [
+      300,
+      0
+    ]
+  },
+  {
+    "id": 520201,
+    "qualityID": 1,
+    "qualityPlus": 0,
+    "consume": [
+      "42,1"
+    ],
+    "toFragment": [
+      "505103,10"
+    ],
+    "wearAttributes": [
+      "HPMax%=10",
+      "Attack%=10",
+      "Defence%=10"
+    ],
+    "activePower": [
+      0,
+      0
+    ]
+  },
+  {
+    "id": 520202,
+    "qualityID": 2,
+    "qualityPlus": 0,
+    "consume": [
+      "42,5"
+    ],
+    "toFragment": [
+      "505103,20"
+    ],
+    "wearAttributes": [
+      "HPMax%=20",
+      "Attack%=20",
+      "Defence%=20"
+    ],
+    "activePower": [
+      0,
+      0
+    ]
+  },
+  {
+    "id": 520203,
+    "qualityID": 3,
+    "qualityPlus": 0,
+    "consume": [
+      "42,20",
+      "46,5"
+    ],
+    "toFragment": [
+      "505103,60"
+    ],
+    "wearAttributes": [
+      "HPMax%=30",
+      "Attack%=30",
+      "Defence%=30"
+    ],
+    "activePower": [
+      300,
+      0
+    ]
+  },
+  {
+    "id": 520204,
+    "qualityID": 4,
+    "qualityPlus": 0,
+    "consume": [
+      "42,40"
+    ],
+    "toFragment": [
+      "505103,120"
+    ],
+    "wearAttributes": [
+      "HPMax%=40",
+      "Attack%=40",
+      "Defence%=40"
+    ],
+    "activePower": [
+      300,
+      0
+    ]
+  },
+  {
+    "id": 520205,
+    "qualityID": 4,
+    "qualityPlus": 1,
+    "consume": [
+      "42,60"
+    ],
+    "toFragment": [
+      "505103,120"
+    ],
+    "wearAttributes": [
+      "HPMax%=50",
+      "Attack%=50",
+      "Defence%=50"
+    ],
+    "activePower": [
+      300,
+      0
+    ]
+  },
+  {
+    "id": 520206,
+    "qualityID": 4,
+    "qualityPlus": 2,
+    "consume": [
+      "42,120",
+      "46,15"
+    ],
+    "toFragment": [
+      "505103,120"
+    ],
+    "wearAttributes": [
+      "HPMax%=60",
+      "Attack%=60",
+      "Defence%=60"
+    ],
+    "activePower": [
+      300,
+      0
+    ]
+  },
+  {
+    "id": 520207,
+    "qualityID": 5,
+    "qualityPlus": 0,
+    "consume": [
+      "42,180"
+    ],
+    "toFragment": [
+      "505103,360"
+    ],
+    "wearAttributes": [
+      "HPMax%=90",
+      "Attack%=90",
+      "Defence%=90"
+    ],
+    "activePower": [
+      300,
+      0
+    ]
+  },
+  {
+    "id": 520208,
+    "qualityID": 5,
+    "qualityPlus": 1,
+    "consume": [
+      "42,240"
+    ],
+    "toFragment": [
+      "505103,360"
+    ],
+    "wearAttributes": [
+      "HPMax%=120",
+      "Attack%=120",
+      "Defence%=120"
+    ],
+    "activePower": [
+      300,
+      0
+    ]
+  },
+  {
+    "id": 520209,
+    "qualityID": 5,
+    "qualityPlus": 2,
+    "consume": [
+      "42,300",
+      "46,30"
+    ],
+    "toFragment": [
+      "505103,360"
+    ],
+    "wearAttributes": [
+      "HPMax%=150",
+      "Attack%=150",
+      "Defence%=150"
+    ],
+    "activePower": [
+      300,
+      0
+    ]
+  },
+  {
+    "id": 520210,
+    "qualityID": 6,
+    "qualityPlus": 0,
+    "consume": [
+      "42,500"
+    ],
+    "toFragment": [
+      "505103,1080"
+    ],
+    "wearAttributes": [
+      "HPMax%=180",
+      "Attack%=180",
+      "Defence%=180"
+    ],
+    "activePower": [
+      300,
+      0
+    ]
+  },
+  {
+    "id": 520211,
+    "qualityID": 6,
+    "qualityPlus": 1,
+    "consume": [
+      "42,700"
+    ],
+    "toFragment": [
+      "505103,1080"
+    ],
+    "wearAttributes": [
+      "HPMax%=240",
+      "Attack%=240",
+      "Defence%=240"
+    ],
+    "activePower": [
+      300,
+      0
+    ]
+  },
+  {
+    "id": 520212,
+    "qualityID": 6,
+    "qualityPlus": 2,
+    "consume": [],
+    "toFragment": [
+      "505103,1080"
+    ],
+    "wearAttributes": [
+      "HPMax%=300",
+      "Attack%=300",
+      "Defence%=300"
+    ],
+    "activePower": [
+      300,
+      0
+    ]
+  },
+  {
+    "id": 520301,
+    "qualityID": 1,
+    "qualityPlus": 0,
+    "consume": [
+      "43,1"
+    ],
+    "toFragment": [
+      "505105,10"
+    ],
+    "wearAttributes": [
+      "HPMax%=10",
+      "Attack%=10",
+      "Defence%=10"
+    ],
+    "activePower": [
+      0,
+      0
+    ]
+  },
+  {
+    "id": 520302,
+    "qualityID": 2,
+    "qualityPlus": 0,
+    "consume": [
+      "43,5"
+    ],
+    "toFragment": [
+      "505105,20"
+    ],
+    "wearAttributes": [
+      "HPMax%=20",
+      "Attack%=20",
+      "Defence%=20"
+    ],
+    "activePower": [
+      0,
+      0
+    ]
+  },
+  {
+    "id": 520303,
+    "qualityID": 3,
+    "qualityPlus": 0,
+    "consume": [
+      "43,20",
+      "46,5"
+    ],
+    "toFragment": [
+      "505105,60"
+    ],
+    "wearAttributes": [
+      "HPMax%=30",
+      "Attack%=30",
+      "Defence%=30"
+    ],
+    "activePower": [
+      300,
+      0
+    ]
+  },
+  {
+    "id": 520304,
+    "qualityID": 4,
+    "qualityPlus": 0,
+    "consume": [
+      "43,40"
+    ],
+    "toFragment": [
+      "505105,120"
+    ],
+    "wearAttributes": [
+      "HPMax%=40",
+      "Attack%=40",
+      "Defence%=40"
+    ],
+    "activePower": [
+      300,
+      0
+    ]
+  },
+  {
+    "id": 520305,
+    "qualityID": 4,
+    "qualityPlus": 1,
+    "consume": [
+      "43,60"
+    ],
+    "toFragment": [
+      "505105,120"
+    ],
+    "wearAttributes": [
+      "HPMax%=50",
+      "Attack%=50",
+      "Defence%=50"
+    ],
+    "activePower": [
+      300,
+      0
+    ]
+  },
+  {
+    "id": 520306,
+    "qualityID": 4,
+    "qualityPlus": 2,
+    "consume": [
+      "43,120",
+      "46,15"
+    ],
+    "toFragment": [
+      "505105,120"
+    ],
+    "wearAttributes": [
+      "HPMax%=60",
+      "Attack%=60",
+      "Defence%=60"
+    ],
+    "activePower": [
+      300,
+      0
+    ]
+  },
+  {
+    "id": 520307,
+    "qualityID": 5,
+    "qualityPlus": 0,
+    "consume": [
+      "43,180"
+    ],
+    "toFragment": [
+      "505105,360"
+    ],
+    "wearAttributes": [
+      "HPMax%=90",
+      "Attack%=90",
+      "Defence%=90"
+    ],
+    "activePower": [
+      300,
+      0
+    ]
+  },
+  {
+    "id": 520308,
+    "qualityID": 5,
+    "qualityPlus": 1,
+    "consume": [
+      "43,240"
+    ],
+    "toFragment": [
+      "505105,360"
+    ],
+    "wearAttributes": [
+      "HPMax%=120",
+      "Attack%=120",
+      "Defence%=120"
+    ],
+    "activePower": [
+      300,
+      0
+    ]
+  },
+  {
+    "id": 520309,
+    "qualityID": 5,
+    "qualityPlus": 2,
+    "consume": [
+      "43,300",
+      "46,30"
+    ],
+    "toFragment": [
+      "505105,360"
+    ],
+    "wearAttributes": [
+      "HPMax%=150",
+      "Attack%=150",
+      "Defence%=150"
+    ],
+    "activePower": [
+      300,
+      0
+    ]
+  },
+  {
+    "id": 520310,
+    "qualityID": 6,
+    "qualityPlus": 0,
+    "consume": [
+      "43,500"
+    ],
+    "toFragment": [
+      "505105,1080"
+    ],
+    "wearAttributes": [
+      "HPMax%=180",
+      "Attack%=180",
+      "Defence%=180"
+    ],
+    "activePower": [
+      300,
+      0
+    ]
+  },
+  {
+    "id": 520311,
+    "qualityID": 6,
+    "qualityPlus": 1,
+    "consume": [
+      "43,700"
+    ],
+    "toFragment": [
+      "505105,1080"
+    ],
+    "wearAttributes": [
+      "HPMax%=240",
+      "Attack%=240",
+      "Defence%=240"
+    ],
+    "activePower": [
+      300,
+      0
+    ]
+  },
+  {
+    "id": 520312,
+    "qualityID": 6,
+    "qualityPlus": 2,
+    "consume": [],
+    "toFragment": [
+      "505105,1080"
+    ],
+    "wearAttributes": [
+      "HPMax%=300",
+      "Attack%=300",
+      "Defence%=300"
+    ],
+    "activePower": [
+      300,
+      0
+    ]
+  },
+  {
+    "id": 520401,
+    "qualityID": 1,
+    "qualityPlus": 0,
+    "consume": [
+      "44,1"
+    ],
+    "toFragment": [
+      "505107,10"
+    ],
+    "wearAttributes": [
+      "HPMax%=10",
+      "Attack%=10",
+      "Defence%=10"
+    ],
+    "activePower": [
+      0,
+      0
+    ]
+  },
+  {
+    "id": 520402,
+    "qualityID": 2,
+    "qualityPlus": 0,
+    "consume": [
+      "44,5"
+    ],
+    "toFragment": [
+      "505107,20"
+    ],
+    "wearAttributes": [
+      "HPMax%=20",
+      "Attack%=20",
+      "Defence%=20"
+    ],
+    "activePower": [
+      0,
+      0
+    ]
+  },
+  {
+    "id": 520403,
+    "qualityID": 3,
+    "qualityPlus": 0,
+    "consume": [
+      "44,20",
+      "46,5"
+    ],
+    "toFragment": [
+      "505107,60"
+    ],
+    "wearAttributes": [
+      "HPMax%=30",
+      "Attack%=30",
+      "Defence%=30"
+    ],
+    "activePower": [
+      300,
+      0
+    ]
+  },
+  {
+    "id": 520404,
+    "qualityID": 4,
+    "qualityPlus": 0,
+    "consume": [
+      "44,40"
+    ],
+    "toFragment": [
+      "505107,120"
+    ],
+    "wearAttributes": [
+      "HPMax%=40",
+      "Attack%=40",
+      "Defence%=40"
+    ],
+    "activePower": [
+      300,
+      0
+    ]
+  },
+  {
+    "id": 520405,
+    "qualityID": 4,
+    "qualityPlus": 1,
+    "consume": [
+      "44,60"
+    ],
+    "toFragment": [
+      "505107,120"
+    ],
+    "wearAttributes": [
+      "HPMax%=50",
+      "Attack%=50",
+      "Defence%=50"
+    ],
+    "activePower": [
+      300,
+      0
+    ]
+  },
+  {
+    "id": 520406,
+    "qualityID": 4,
+    "qualityPlus": 2,
+    "consume": [
+      "44,120",
+      "46,15"
+    ],
+    "toFragment": [
+      "505107,120"
+    ],
+    "wearAttributes": [
+      "HPMax%=60",
+      "Attack%=60",
+      "Defence%=60"
+    ],
+    "activePower": [
+      300,
+      0
+    ]
+  },
+  {
+    "id": 520407,
+    "qualityID": 5,
+    "qualityPlus": 0,
+    "consume": [
+      "44,180"
+    ],
+    "toFragment": [
+      "505107,360"
+    ],
+    "wearAttributes": [
+      "HPMax%=90",
+      "Attack%=90",
+      "Defence%=90"
+    ],
+    "activePower": [
+      300,
+      0
+    ]
+  },
+  {
+    "id": 520408,
+    "qualityID": 5,
+    "qualityPlus": 1,
+    "consume": [
+      "44,240"
+    ],
+    "toFragment": [
+      "505107,360"
+    ],
+    "wearAttributes": [
+      "HPMax%=120",
+      "Attack%=120",
+      "Defence%=120"
+    ],
+    "activePower": [
+      300,
+      0
+    ]
+  },
+  {
+    "id": 520409,
+    "qualityID": 5,
+    "qualityPlus": 2,
+    "consume": [
+      "44,300",
+      "46,30"
+    ],
+    "toFragment": [
+      "505107,360"
+    ],
+    "wearAttributes": [
+      "HPMax%=150",
+      "Attack%=150",
+      "Defence%=150"
+    ],
+    "activePower": [
+      300,
+      0
+    ]
+  },
+  {
+    "id": 520410,
+    "qualityID": 6,
+    "qualityPlus": 0,
+    "consume": [
+      "44,500"
+    ],
+    "toFragment": [
+      "505107,1080"
+    ],
+    "wearAttributes": [
+      "HPMax%=180",
+      "Attack%=180",
+      "Defence%=180"
+    ],
+    "activePower": [
+      300,
+      0
+    ]
+  },
+  {
+    "id": 520411,
+    "qualityID": 6,
+    "qualityPlus": 1,
+    "consume": [
+      "44,700"
+    ],
+    "toFragment": [
+      "505107,1080"
+    ],
+    "wearAttributes": [
+      "HPMax%=240",
+      "Attack%=240",
+      "Defence%=240"
+    ],
+    "activePower": [
+      300,
+      0
+    ]
+  },
+  {
+    "id": 520412,
+    "qualityID": 6,
+    "qualityPlus": 2,
+    "consume": [],
+    "toFragment": [
+      "505107,1080"
+    ],
+    "wearAttributes": [
+      "HPMax%=300",
+      "Attack%=300",
+      "Defence%=300"
+    ],
+    "activePower": [
+      300,
+      0
+    ]
+  },
+  {
+    "id": 521101,
+    "qualityID": 1,
+    "qualityPlus": 0,
+    "consume": [
+      "505211,10"
+    ],
+    "toFragment": [
+      "505211,10"
+    ],
+    "wearAttributes": [
+      "HPMax%=10",
+      "Attack%=10",
+      "Defence%=10"
+    ],
+    "activePower": [
+      0,
+      0
+    ]
+  },
+  {
+    "id": 521102,
+    "qualityID": 2,
+    "qualityPlus": 0,
+    "consume": [
+      "505211,40"
+    ],
+    "toFragment": [
+      "505211,20"
+    ],
+    "wearAttributes": [
+      "HPMax%=20",
+      "Attack%=20",
+      "Defence%=20"
+    ],
+    "activePower": [
+      0,
+      0
+    ]
+  },
+  {
+    "id": 521103,
+    "qualityID": 3,
+    "qualityPlus": 0,
+    "consume": [
+      "505211,60"
+    ],
+    "toFragment": [
+      "505211,60"
+    ],
+    "wearAttributes": [
+      "HPMax%=30",
+      "Attack%=30",
+      "Defence%=30"
+    ],
+    "activePower": [
+      0,
+      0
+    ]
+  },
+  {
+    "id": 521104,
+    "qualityID": 4,
+    "qualityPlus": 0,
+    "consume": [
+      "505211,60",
+      "41,80"
+    ],
+    "toFragment": [
+      "505211,120"
+    ],
+    "wearAttributes": [
+      "HPMax%=40",
+      "Attack%=40",
+      "Defence%=40"
+    ],
+    "activePower": [
+      400,
+      0
+    ]
+  },
+  {
+    "id": 521105,
+    "qualityID": 4,
+    "qualityPlus": 1,
+    "consume": [
+      "505211,60",
+      "41,120"
+    ],
+    "toFragment": [
+      "505211,120"
+    ],
+    "wearAttributes": [
+      "HPMax%=50",
+      "Attack%=50",
+      "Defence%=50"
+    ],
+    "activePower": [
+      400,
+      0
+    ]
+  },
+  {
+    "id": 521106,
+    "qualityID": 4,
+    "qualityPlus": 2,
+    "consume": [
+      "505211,120",
+      "41,240"
+    ],
+    "toFragment": [
+      "505211,120"
+    ],
+    "wearAttributes": [
+      "HPMax%=60",
+      "Attack%=60",
+      "Defence%=60"
+    ],
+    "activePower": [
+      400,
+      0
+    ]
+  },
+  {
+    "id": 521107,
+    "qualityID": 5,
+    "qualityPlus": 0,
+    "consume": [
+      "505211,180",
+      "41,360"
+    ],
+    "toFragment": [
+      "505211,360"
+    ],
+    "wearAttributes": [
+      "HPMax%=90",
+      "Attack%=90",
+      "Defence%=90"
+    ],
+    "activePower": [
+      850,
+      0
+    ]
+  },
+  {
+    "id": 521108,
+    "qualityID": 5,
+    "qualityPlus": 1,
+    "consume": [
+      "505211,180",
+      "41,480"
+    ],
+    "toFragment": [
+      "505211,360"
+    ],
+    "wearAttributes": [
+      "HPMax%=120",
+      "Attack%=120",
+      "Defence%=120"
+    ],
+    "activePower": [
+      850,
+      0
+    ]
+  },
+  {
+    "id": 521109,
+    "qualityID": 5,
+    "qualityPlus": 2,
+    "consume": [
+      "505211,360",
+      "41,600"
+    ],
+    "toFragment": [
+      "505211,360"
+    ],
+    "wearAttributes": [
+      "HPMax%=150",
+      "Attack%=150",
+      "Defence%=150"
+    ],
+    "activePower": [
+      850,
+      0
+    ]
+  },
+  {
+    "id": 521110,
+    "qualityID": 6,
+    "qualityPlus": 0,
+    "consume": [
+      "505211,540",
+      "41,1000"
+    ],
+    "toFragment": [
+      "505211,1080"
+    ],
+    "wearAttributes": [
+      "HPMax%=180",
+      "Attack%=180",
+      "Defence%=180"
+    ],
+    "activePower": [
+      1350,
+      0
+    ]
+  },
+  {
+    "id": 521111,
+    "qualityID": 6,
+    "qualityPlus": 1,
+    "consume": [
+      "505211,540",
+      "41,1400"
+    ],
+    "toFragment": [
+      "505211,1080"
+    ],
+    "wearAttributes": [
+      "HPMax%=240",
+      "Attack%=240",
+      "Defence%=240"
+    ],
+    "activePower": [
+      1350,
+      0
+    ]
+  },
+  {
+    "id": 521112,
+    "qualityID": 6,
+    "qualityPlus": 2,
+    "consume": [],
+    "toFragment": [
+      "505211,1080"
+    ],
+    "wearAttributes": [
+      "HPMax%=300",
+      "Attack%=300",
+      "Defence%=300"
+    ],
+    "activePower": [
+      1350,
+      0
+    ]
+  },
+  {
+    "id": 521201,
+    "qualityID": 1,
+    "qualityPlus": 0,
+    "consume": [
+      "505212,10"
+    ],
+    "toFragment": [
+      "505212,10"
+    ],
+    "wearAttributes": [
+      "HPMax%=10",
+      "Attack%=10",
+      "Defence%=10"
+    ],
+    "activePower": [
+      0,
+      0
+    ]
+  },
+  {
+    "id": 521202,
+    "qualityID": 2,
+    "qualityPlus": 0,
+    "consume": [
+      "505212,40"
+    ],
+    "toFragment": [
+      "505212,20"
+    ],
+    "wearAttributes": [
+      "HPMax%=20",
+      "Attack%=20",
+      "Defence%=20"
+    ],
+    "activePower": [
+      0,
+      0
+    ]
+  },
+  {
+    "id": 521203,
+    "qualityID": 3,
+    "qualityPlus": 0,
+    "consume": [
+      "505212,60"
+    ],
+    "toFragment": [
+      "505212,60"
+    ],
+    "wearAttributes": [
+      "HPMax%=30",
+      "Attack%=30",
+      "Defence%=30"
+    ],
+    "activePower": [
+      0,
+      0
+    ]
+  },
+  {
+    "id": 521204,
+    "qualityID": 4,
+    "qualityPlus": 0,
+    "consume": [
+      "505212,60",
+      "42,80"
+    ],
+    "toFragment": [
+      "505212,120"
+    ],
+    "wearAttributes": [
+      "HPMax%=40",
+      "Attack%=40",
+      "Defence%=40"
+    ],
+    "activePower": [
+      400,
+      0
+    ]
+  },
+  {
+    "id": 521205,
+    "qualityID": 4,
+    "qualityPlus": 1,
+    "consume": [
+      "505212,60",
+      "42,120"
+    ],
+    "toFragment": [
+      "505212,120"
+    ],
+    "wearAttributes": [
+      "HPMax%=50",
+      "Attack%=50",
+      "Defence%=50"
+    ],
+    "activePower": [
+      400,
+      0
+    ]
+  },
+  {
+    "id": 521206,
+    "qualityID": 4,
+    "qualityPlus": 2,
+    "consume": [
+      "505212,120",
+      "42,240"
+    ],
+    "toFragment": [
+      "505212,120"
+    ],
+    "wearAttributes": [
+      "HPMax%=60",
+      "Attack%=60",
+      "Defence%=60"
+    ],
+    "activePower": [
+      400,
+      0
+    ]
+  },
+  {
+    "id": 521207,
+    "qualityID": 5,
+    "qualityPlus": 0,
+    "consume": [
+      "505212,180",
+      "42,360"
+    ],
+    "toFragment": [
+      "505212,360"
+    ],
+    "wearAttributes": [
+      "HPMax%=90",
+      "Attack%=90",
+      "Defence%=90"
+    ],
+    "activePower": [
+      850,
+      0
+    ]
+  },
+  {
+    "id": 521208,
+    "qualityID": 5,
+    "qualityPlus": 1,
+    "consume": [
+      "505212,180",
+      "42,480"
+    ],
+    "toFragment": [
+      "505212,360"
+    ],
+    "wearAttributes": [
+      "HPMax%=120",
+      "Attack%=120",
+      "Defence%=120"
+    ],
+    "activePower": [
+      850,
+      0
+    ]
+  },
+  {
+    "id": 521209,
+    "qualityID": 5,
+    "qualityPlus": 2,
+    "consume": [
+      "505212,360",
+      "42,600"
+    ],
+    "toFragment": [
+      "505212,360"
+    ],
+    "wearAttributes": [
+      "HPMax%=150",
+      "Attack%=150",
+      "Defence%=150"
+    ],
+    "activePower": [
+      850,
+      0
+    ]
+  },
+  {
+    "id": 521210,
+    "qualityID": 6,
+    "qualityPlus": 0,
+    "consume": [
+      "505212,540",
+      "42,1000"
+    ],
+    "toFragment": [
+      "505212,1080"
+    ],
+    "wearAttributes": [
+      "HPMax%=180",
+      "Attack%=180",
+      "Defence%=180"
+    ],
+    "activePower": [
+      1350,
+      0
+    ]
+  },
+  {
+    "id": 521211,
+    "qualityID": 6,
+    "qualityPlus": 1,
+    "consume": [
+      "505212,540",
+      "42,1400"
+    ],
+    "toFragment": [
+      "505212,1080"
+    ],
+    "wearAttributes": [
+      "HPMax%=240",
+      "Attack%=240",
+      "Defence%=240"
+    ],
+    "activePower": [
+      1350,
+      0
+    ]
+  },
+  {
+    "id": 521212,
+    "qualityID": 6,
+    "qualityPlus": 2,
+    "consume": [],
+    "toFragment": [
+      "505212,1080"
+    ],
+    "wearAttributes": [
+      "HPMax%=300",
+      "Attack%=300",
+      "Defence%=300"
+    ],
+    "activePower": [
+      1350,
+      0
+    ]
+  },
+  {
+    "id": 521301,
+    "qualityID": 1,
+    "qualityPlus": 0,
+    "consume": [
+      "505213,10"
+    ],
+    "toFragment": [
+      "505213,10"
+    ],
+    "wearAttributes": [
+      "HPMax%=10",
+      "Attack%=10",
+      "Defence%=10"
+    ],
+    "activePower": [
+      0,
+      0
+    ]
+  },
+  {
+    "id": 521302,
+    "qualityID": 2,
+    "qualityPlus": 0,
+    "consume": [
+      "505213,40"
+    ],
+    "toFragment": [
+      "505213,20"
+    ],
+    "wearAttributes": [
+      "HPMax%=20",
+      "Attack%=20",
+      "Defence%=20"
+    ],
+    "activePower": [
+      0,
+      0
+    ]
+  },
+  {
+    "id": 521303,
+    "qualityID": 3,
+    "qualityPlus": 0,
+    "consume": [
+      "505213,60"
+    ],
+    "toFragment": [
+      "505213,60"
+    ],
+    "wearAttributes": [
+      "HPMax%=30",
+      "Attack%=30",
+      "Defence%=30"
+    ],
+    "activePower": [
+      0,
+      0
+    ]
+  },
+  {
+    "id": 521304,
+    "qualityID": 4,
+    "qualityPlus": 0,
+    "consume": [
+      "505213,60",
+      "44,80"
+    ],
+    "toFragment": [
+      "505213,120"
+    ],
+    "wearAttributes": [
+      "HPMax%=40",
+      "Attack%=40",
+      "Defence%=40"
+    ],
+    "activePower": [
+      400,
+      0
+    ]
+  },
+  {
+    "id": 521305,
+    "qualityID": 4,
+    "qualityPlus": 1,
+    "consume": [
+      "505213,60",
+      "44,120"
+    ],
+    "toFragment": [
+      "505213,120"
+    ],
+    "wearAttributes": [
+      "HPMax%=50",
+      "Attack%=50",
+      "Defence%=50"
+    ],
+    "activePower": [
+      400,
+      0
+    ]
+  },
+  {
+    "id": 521306,
+    "qualityID": 4,
+    "qualityPlus": 2,
+    "consume": [
+      "505213,120",
+      "44,240"
+    ],
+    "toFragment": [
+      "505213,120"
+    ],
+    "wearAttributes": [
+      "HPMax%=60",
+      "Attack%=60",
+      "Defence%=60"
+    ],
+    "activePower": [
+      400,
+      0
+    ]
+  },
+  {
+    "id": 521307,
+    "qualityID": 5,
+    "qualityPlus": 0,
+    "consume": [
+      "505213,180",
+      "44,360"
+    ],
+    "toFragment": [
+      "505213,360"
+    ],
+    "wearAttributes": [
+      "HPMax%=90",
+      "Attack%=90",
+      "Defence%=90"
+    ],
+    "activePower": [
+      850,
+      0
+    ]
+  },
+  {
+    "id": 521308,
+    "qualityID": 5,
+    "qualityPlus": 1,
+    "consume": [
+      "505213,180",
+      "44,480"
+    ],
+    "toFragment": [
+      "505213,360"
+    ],
+    "wearAttributes": [
+      "HPMax%=120",
+      "Attack%=120",
+      "Defence%=120"
+    ],
+    "activePower": [
+      850,
+      0
+    ]
+  },
+  {
+    "id": 521309,
+    "qualityID": 5,
+    "qualityPlus": 2,
+    "consume": [
+      "505213,360",
+      "44,600"
+    ],
+    "toFragment": [
+      "505213,360"
+    ],
+    "wearAttributes": [
+      "HPMax%=150",
+      "Attack%=150",
+      "Defence%=150"
+    ],
+    "activePower": [
+      850,
+      0
+    ]
+  },
+  {
+    "id": 521310,
+    "qualityID": 6,
+    "qualityPlus": 0,
+    "consume": [
+      "505213,540",
+      "44,1000"
+    ],
+    "toFragment": [
+      "505213,1080"
+    ],
+    "wearAttributes": [
+      "HPMax%=180",
+      "Attack%=180",
+      "Defence%=180"
+    ],
+    "activePower": [
+      1350,
+      0
+    ]
+  },
+  {
+    "id": 521311,
+    "qualityID": 6,
+    "qualityPlus": 1,
+    "consume": [
+      "505213,540",
+      "44,1400"
+    ],
+    "toFragment": [
+      "505213,1080"
+    ],
+    "wearAttributes": [
+      "HPMax%=240",
+      "Attack%=240",
+      "Defence%=240"
+    ],
+    "activePower": [
+      1350,
+      0
+    ]
+  },
+  {
+    "id": 521312,
+    "qualityID": 6,
+    "qualityPlus": 2,
+    "consume": [],
+    "toFragment": [
+      "505213,1080"
+    ],
+    "wearAttributes": [
+      "HPMax%=300",
+      "Attack%=300",
+      "Defence%=300"
+    ],
+    "activePower": [
+      1350,
+      0
+    ]
+  },
+  {
+    "id": 521401,
+    "qualityID": 1,
+    "qualityPlus": 0,
+    "consume": [
+      "505214,10"
+    ],
+    "toFragment": [
+      "505214,10"
+    ],
+    "wearAttributes": [
+      "HPMax%=10",
+      "Attack%=10",
+      "Defence%=10"
+    ],
+    "activePower": [
+      0,
+      0
+    ]
+  },
+  {
+    "id": 521402,
+    "qualityID": 2,
+    "qualityPlus": 0,
+    "consume": [
+      "505214,40"
+    ],
+    "toFragment": [
+      "505214,20"
+    ],
+    "wearAttributes": [
+      "HPMax%=20",
+      "Attack%=20",
+      "Defence%=20"
+    ],
+    "activePower": [
+      0,
+      0
+    ]
+  },
+  {
+    "id": 521403,
+    "qualityID": 3,
+    "qualityPlus": 0,
+    "consume": [
+      "505214,60"
+    ],
+    "toFragment": [
+      "505214,60"
+    ],
+    "wearAttributes": [
+      "HPMax%=30",
+      "Attack%=30",
+      "Defence%=30"
+    ],
+    "activePower": [
+      0,
+      0
+    ]
+  },
+  {
+    "id": 521404,
+    "qualityID": 4,
+    "qualityPlus": 0,
+    "consume": [
+      "505214,60",
+      "44,80"
+    ],
+    "toFragment": [
+      "505214,120"
+    ],
+    "wearAttributes": [
+      "HPMax%=40",
+      "Attack%=40",
+      "Defence%=40"
+    ],
+    "activePower": [
+      400,
+      0
+    ]
+  },
+  {
+    "id": 521405,
+    "qualityID": 4,
+    "qualityPlus": 1,
+    "consume": [
+      "505214,60",
+      "44,120"
+    ],
+    "toFragment": [
+      "505214,120"
+    ],
+    "wearAttributes": [
+      "HPMax%=50",
+      "Attack%=50",
+      "Defence%=50"
+    ],
+    "activePower": [
+      400,
+      0
+    ]
+  },
+  {
+    "id": 521406,
+    "qualityID": 4,
+    "qualityPlus": 2,
+    "consume": [
+      "505214,120",
+      "44,240"
+    ],
+    "toFragment": [
+      "505214,120"
+    ],
+    "wearAttributes": [
+      "HPMax%=60",
+      "Attack%=60",
+      "Defence%=60"
+    ],
+    "activePower": [
+      400,
+      0
+    ]
+  },
+  {
+    "id": 521407,
+    "qualityID": 5,
+    "qualityPlus": 0,
+    "consume": [
+      "505214,180",
+      "44,360"
+    ],
+    "toFragment": [
+      "505214,360"
+    ],
+    "wearAttributes": [
+      "HPMax%=90",
+      "Attack%=90",
+      "Defence%=90"
+    ],
+    "activePower": [
+      850,
+      0
+    ]
+  },
+  {
+    "id": 521408,
+    "qualityID": 5,
+    "qualityPlus": 1,
+    "consume": [
+      "505214,180",
+      "44,480"
+    ],
+    "toFragment": [
+      "505214,360"
+    ],
+    "wearAttributes": [
+      "HPMax%=120",
+      "Attack%=120",
+      "Defence%=120"
+    ],
+    "activePower": [
+      850,
+      0
+    ]
+  },
+  {
+    "id": 521409,
+    "qualityID": 5,
+    "qualityPlus": 2,
+    "consume": [
+      "505214,360",
+      "44,600"
+    ],
+    "toFragment": [
+      "505214,360"
+    ],
+    "wearAttributes": [
+      "HPMax%=150",
+      "Attack%=150",
+      "Defence%=150"
+    ],
+    "activePower": [
+      850,
+      0
+    ]
+  },
+  {
+    "id": 521410,
+    "qualityID": 6,
+    "qualityPlus": 0,
+    "consume": [
+      "505214,540",
+      "44,1000"
+    ],
+    "toFragment": [
+      "505214,1080"
+    ],
+    "wearAttributes": [
+      "HPMax%=180",
+      "Attack%=180",
+      "Defence%=180"
+    ],
+    "activePower": [
+      1350,
+      0
+    ]
+  },
+  {
+    "id": 521411,
+    "qualityID": 6,
+    "qualityPlus": 1,
+    "consume": [
+      "505214,540",
+      "44,1400"
+    ],
+    "toFragment": [
+      "505214,1080"
+    ],
+    "wearAttributes": [
+      "HPMax%=240",
+      "Attack%=240",
+      "Defence%=240"
+    ],
+    "activePower": [
+      1350,
+      0
+    ]
+  },
+  {
+    "id": 521412,
+    "qualityID": 6,
+    "qualityPlus": 2,
+    "consume": [],
+    "toFragment": [
+      "505214,1080"
+    ],
+    "wearAttributes": [
+      "HPMax%=300",
+      "Attack%=300",
+      "Defence%=300"
+    ],
+    "activePower": [
+      1350,
+      0
+    ]
+  },
+  {
+    "id": 521501,
+    "qualityID": 1,
+    "qualityPlus": 0,
+    "consume": [
+      "505215,10"
+    ],
+    "toFragment": [
+      "505215,10"
+    ],
+    "wearAttributes": [
+      "HPMax%=10",
+      "Attack%=10",
+      "Defence%=10"
+    ],
+    "activePower": [
+      0,
+      0
+    ]
+  },
+  {
+    "id": 521502,
+    "qualityID": 2,
+    "qualityPlus": 0,
+    "consume": [
+      "505215,40"
+    ],
+    "toFragment": [
+      "505215,20"
+    ],
+    "wearAttributes": [
+      "HPMax%=20",
+      "Attack%=20",
+      "Defence%=20"
+    ],
+    "activePower": [
+      0,
+      0
+    ]
+  },
+  {
+    "id": 521503,
+    "qualityID": 3,
+    "qualityPlus": 0,
+    "consume": [
+      "505215,60"
+    ],
+    "toFragment": [
+      "505215,60"
+    ],
+    "wearAttributes": [
+      "HPMax%=30",
+      "Attack%=30",
+      "Defence%=30"
+    ],
+    "activePower": [
+      0,
+      0
+    ]
+  },
+  {
+    "id": 521504,
+    "qualityID": 4,
+    "qualityPlus": 0,
+    "consume": [
+      "505215,60",
+      "43,80"
+    ],
+    "toFragment": [
+      "505215,120"
+    ],
+    "wearAttributes": [
+      "HPMax%=40",
+      "Attack%=40",
+      "Defence%=40"
+    ],
+    "activePower": [
+      400,
+      0
+    ]
+  },
+  {
+    "id": 521505,
+    "qualityID": 4,
+    "qualityPlus": 1,
+    "consume": [
+      "505215,60",
+      "43,120"
+    ],
+    "toFragment": [
+      "505215,120"
+    ],
+    "wearAttributes": [
+      "HPMax%=50",
+      "Attack%=50",
+      "Defence%=50"
+    ],
+    "activePower": [
+      400,
+      0
+    ]
+  },
+  {
+    "id": 521506,
+    "qualityID": 4,
+    "qualityPlus": 2,
+    "consume": [
+      "505215,120",
+      "43,240"
+    ],
+    "toFragment": [
+      "505215,120"
+    ],
+    "wearAttributes": [
+      "HPMax%=60",
+      "Attack%=60",
+      "Defence%=60"
+    ],
+    "activePower": [
+      400,
+      0
+    ]
+  },
+  {
+    "id": 521507,
+    "qualityID": 5,
+    "qualityPlus": 0,
+    "consume": [
+      "505215,180",
+      "43,360"
+    ],
+    "toFragment": [
+      "505215,360"
+    ],
+    "wearAttributes": [
+      "HPMax%=90",
+      "Attack%=90",
+      "Defence%=90"
+    ],
+    "activePower": [
+      850,
+      0
+    ]
+  },
+  {
+    "id": 521508,
+    "qualityID": 5,
+    "qualityPlus": 1,
+    "consume": [
+      "505215,180",
+      "43,480"
+    ],
+    "toFragment": [
+      "505215,360"
+    ],
+    "wearAttributes": [
+      "HPMax%=120",
+      "Attack%=120",
+      "Defence%=120"
+    ],
+    "activePower": [
+      850,
+      0
+    ]
+  },
+  {
+    "id": 521509,
+    "qualityID": 5,
+    "qualityPlus": 2,
+    "consume": [
+      "505215,360",
+      "43,600"
+    ],
+    "toFragment": [
+      "505215,360"
+    ],
+    "wearAttributes": [
+      "HPMax%=150",
+      "Attack%=150",
+      "Defence%=150"
+    ],
+    "activePower": [
+      850,
+      0
+    ]
+  },
+  {
+    "id": 521510,
+    "qualityID": 6,
+    "qualityPlus": 0,
+    "consume": [
+      "505215,540",
+      "43,1000"
+    ],
+    "toFragment": [
+      "505215,1080"
+    ],
+    "wearAttributes": [
+      "HPMax%=180",
+      "Attack%=180",
+      "Defence%=180"
+    ],
+    "activePower": [
+      1350,
+      0
+    ]
+  },
+  {
+    "id": 521511,
+    "qualityID": 6,
+    "qualityPlus": 1,
+    "consume": [
+      "505215,540",
+      "43,1400"
+    ],
+    "toFragment": [
+      "505215,1080"
+    ],
+    "wearAttributes": [
+      "HPMax%=240",
+      "Attack%=240",
+      "Defence%=240"
+    ],
+    "activePower": [
+      1350,
+      0
+    ]
+  },
+  {
+    "id": 521512,
+    "qualityID": 6,
+    "qualityPlus": 2,
+    "consume": [],
+    "toFragment": [
+      "505215,1080"
+    ],
+    "wearAttributes": [
+      "HPMax%=300",
+      "Attack%=300",
+      "Defence%=300"
+    ],
+    "activePower": [
+      1350,
+      0
+    ]
+  },
+  {
+    "id": 521601,
+    "qualityID": 1,
+    "qualityPlus": 0,
+    "consume": [
+      "505216,10"
+    ],
+    "toFragment": [
+      "505216,10"
+    ],
+    "wearAttributes": [
+      "HPMax%=10",
+      "Attack%=10",
+      "Defence%=10"
+    ],
+    "activePower": [
+      0,
+      0
+    ]
+  },
+  {
+    "id": 521602,
+    "qualityID": 2,
+    "qualityPlus": 0,
+    "consume": [
+      "505216,40"
+    ],
+    "toFragment": [
+      "505216,20"
+    ],
+    "wearAttributes": [
+      "HPMax%=20",
+      "Attack%=20",
+      "Defence%=20"
+    ],
+    "activePower": [
+      0,
+      0
+    ]
+  },
+  {
+    "id": 521603,
+    "qualityID": 3,
+    "qualityPlus": 0,
+    "consume": [
+      "505216,60"
+    ],
+    "toFragment": [
+      "505216,60"
+    ],
+    "wearAttributes": [
+      "HPMax%=30",
+      "Attack%=30",
+      "Defence%=30"
+    ],
+    "activePower": [
+      0,
+      0
+    ]
+  },
+  {
+    "id": 521604,
+    "qualityID": 4,
+    "qualityPlus": 0,
+    "consume": [
+      "505216,60",
+      "43,80"
+    ],
+    "toFragment": [
+      "505216,120"
+    ],
+    "wearAttributes": [
+      "HPMax%=40",
+      "Attack%=40",
+      "Defence%=40"
+    ],
+    "activePower": [
+      0,
+      0
+    ]
+  },
+  {
+    "id": 521605,
+    "qualityID": 4,
+    "qualityPlus": 1,
+    "consume": [
+      "505216,60",
+      "43,120"
+    ],
+    "toFragment": [
+      "505216,120"
+    ],
+    "wearAttributes": [
+      "HPMax%=50",
+      "Attack%=50",
+      "Defence%=50"
+    ],
+    "activePower": [
+      0,
+      0
+    ]
+  },
+  {
+    "id": 521606,
+    "qualityID": 4,
+    "qualityPlus": 2,
+    "consume": [
+      "505216,120",
+      "43,240"
+    ],
+    "toFragment": [
+      "505216,120"
+    ],
+    "wearAttributes": [
+      "HPMax%=60",
+      "Attack%=60",
+      "Defence%=60"
+    ],
+    "activePower": [
+      0,
+      0
+    ]
+  },
+  {
+    "id": 521607,
+    "qualityID": 5,
+    "qualityPlus": 0,
+    "consume": [
+      "505216,180",
+      "43,360"
+    ],
+    "toFragment": [
+      "505216,360"
+    ],
+    "wearAttributes": [
+      "HPMax%=90",
+      "Attack%=90",
+      "Defence%=90"
+    ],
+    "activePower": [
+      0,
+      0
+    ]
+  },
+  {
+    "id": 521608,
+    "qualityID": 5,
+    "qualityPlus": 1,
+    "consume": [
+      "505216,180",
+      "43,480"
+    ],
+    "toFragment": [
+      "505216,360"
+    ],
+    "wearAttributes": [
+      "HPMax%=120",
+      "Attack%=120",
+      "Defence%=120"
+    ],
+    "activePower": [
+      0,
+      0
+    ]
+  },
+  {
+    "id": 521609,
+    "qualityID": 5,
+    "qualityPlus": 2,
+    "consume": [
+      "505216,360",
+      "43,600"
+    ],
+    "toFragment": [
+      "505216,360"
+    ],
+    "wearAttributes": [
+      "HPMax%=150",
+      "Attack%=150",
+      "Defence%=150"
+    ],
+    "activePower": [
+      0,
+      0
+    ]
+  },
+  {
+    "id": 521610,
+    "qualityID": 6,
+    "qualityPlus": 0,
+    "consume": [
+      "505216,540",
+      "43,1000"
+    ],
+    "toFragment": [
+      "505216,1080"
+    ],
+    "wearAttributes": [
+      "HPMax%=180",
+      "Attack%=180",
+      "Defence%=180"
+    ],
+    "activePower": [
+      0,
+      0
+    ]
+  },
+  {
+    "id": 521611,
+    "qualityID": 6,
+    "qualityPlus": 1,
+    "consume": [
+      "505216,540",
+      "43,1400"
+    ],
+    "toFragment": [
+      "505216,1080"
+    ],
+    "wearAttributes": [
+      "HPMax%=240",
+      "Attack%=240",
+      "Defence%=240"
+    ],
+    "activePower": [
+      0,
+      0
+    ]
+  },
+  {
+    "id": 521612,
+    "qualityID": 6,
+    "qualityPlus": 2,
+    "consume": [],
+    "toFragment": [
+      "505216,1080"
+    ],
+    "wearAttributes": [
+      "HPMax%=300",
+      "Attack%=300",
+      "Defence%=300"
+    ],
+    "activePower": [
+      0,
+      0
+    ]
+  },
+  {
+    "id": 610101,
+    "qualityID": 1,
+    "qualityPlus": 0,
+    "consume": [
+      "506101,10"
+    ],
+    "toFragment": [
+      "506101,10"
+    ],
+    "wearAttributes": [
+      "HPMax%=5",
+      "Attack%=5",
+      "Defence%=5"
+    ],
+    "activePower": [
+      0,
+      0
+    ]
+  },
+  {
+    "id": 610102,
+    "qualityID": 2,
+    "qualityPlus": 0,
+    "consume": [
+      "506101,40"
+    ],
+    "toFragment": [
+      "506101,20"
+    ],
+    "wearAttributes": [
+      "HPMax%=10",
+      "Attack%=10",
+      "Defence%=10"
+    ],
+    "activePower": [
+      0,
+      0
+    ]
+  },
+  {
+    "id": 610103,
+    "qualityID": 3,
+    "qualityPlus": 0,
+    "consume": [
+      "506101,60"
+    ],
+    "toFragment": [
+      "506101,60"
+    ],
+    "wearAttributes": [
+      "HPMax%=15",
+      "Attack%=15",
+      "Defence%=15"
+    ],
+    "activePower": [
+      0,
+      0
+    ]
+  },
+  {
+    "id": 610104,
+    "qualityID": 4,
+    "qualityPlus": 0,
+    "consume": [
+      "506101,60",
+      "44,40"
+    ],
+    "toFragment": [
+      "506101,120"
+    ],
+    "wearAttributes": [
+      "HPMax%=20",
+      "Attack%=20",
+      "Defence%=20"
+    ],
+    "activePower": [
+      210,
+      0
+    ]
+  },
+  {
+    "id": 610105,
+    "qualityID": 4,
+    "qualityPlus": 1,
+    "consume": [
+      "506101,60",
+      "44,60"
+    ],
+    "toFragment": [
+      "506101,120"
+    ],
+    "wearAttributes": [
+      "HPMax%=30",
+      "Attack%=30",
+      "Defence%=30"
+    ],
+    "activePower": [
+      210,
+      0
+    ]
+  },
+  {
+    "id": 610106,
+    "qualityID": 4,
+    "qualityPlus": 2,
+    "consume": [
+      "506101,120",
+      "44,120"
+    ],
+    "toFragment": [
+      "506101,120"
+    ],
+    "wearAttributes": [
+      "HPMax%=40",
+      "Attack%=40",
+      "Defence%=40"
+    ],
+    "activePower": [
+      210,
+      0
+    ]
+  },
+  {
+    "id": 610107,
+    "qualityID": 5,
+    "qualityPlus": 0,
+    "consume": [
+      "506101,180",
+      "44,180"
+    ],
+    "toFragment": [
+      "506101,360"
+    ],
+    "wearAttributes": [
+      "HPMax%=60",
+      "Attack%=60",
+      "Defence%=60"
+    ],
+    "activePower": [
+      420,
+      0
+    ]
+  },
+  {
+    "id": 610108,
+    "qualityID": 5,
+    "qualityPlus": 1,
+    "consume": [
+      "506101,180",
+      "44,240"
+    ],
+    "toFragment": [
+      "506101,360"
+    ],
+    "wearAttributes": [
+      "HPMax%=80",
+      "Attack%=80",
+      "Defence%=80"
+    ],
+    "activePower": [
+      420,
+      0
+    ]
+  },
+  {
+    "id": 610109,
+    "qualityID": 5,
+    "qualityPlus": 2,
+    "consume": [
+      "506101,360",
+      "44,300"
+    ],
+    "toFragment": [
+      "506101,360"
+    ],
+    "wearAttributes": [
+      "HPMax%=100",
+      "Attack%=100",
+      "Defence%=100"
+    ],
+    "activePower": [
+      420,
+      0
+    ]
+  },
+  {
+    "id": 610110,
+    "qualityID": 6,
+    "qualityPlus": 0,
+    "consume": [
+      "506101,540",
+      "44,500"
+    ],
+    "toFragment": [
+      "506101,1080"
+    ],
+    "wearAttributes": [
+      "HPMax%=120",
+      "Attack%=120",
+      "Defence%=120"
+    ],
+    "activePower": [
+      665,
+      0
+    ]
+  },
+  {
+    "id": 610111,
+    "qualityID": 6,
+    "qualityPlus": 1,
+    "consume": [
+      "506101,540",
+      "44,700"
+    ],
+    "toFragment": [
+      "506101,1080"
+    ],
+    "wearAttributes": [
+      "HPMax%=160",
+      "Attack%=160",
+      "Defence%=160"
+    ],
+    "activePower": [
+      665,
+      0
+    ]
+  },
+  {
+    "id": 610112,
+    "qualityID": 6,
+    "qualityPlus": 2,
+    "consume": [],
+    "toFragment": [
+      "506101,1080"
+    ],
+    "wearAttributes": [
+      "HPMax%=200",
+      "Attack%=200",
+      "Defence%=200"
+    ],
+    "activePower": [
+      665,
+      0
+    ]
+  },
+  {
+    "id": 610201,
+    "qualityID": 1,
+    "qualityPlus": 0,
+    "consume": [
+      "506102,10"
+    ],
+    "toFragment": [
+      "506102,10"
+    ],
+    "wearAttributes": [
+      "HPMax%=5",
+      "Attack%=5",
+      "Defence%=5"
+    ],
+    "activePower": [
+      0,
+      0
+    ]
+  },
+  {
+    "id": 610202,
+    "qualityID": 2,
+    "qualityPlus": 0,
+    "consume": [
+      "506102,40"
+    ],
+    "toFragment": [
+      "506102,20"
+    ],
+    "wearAttributes": [
+      "HPMax%=10",
+      "Attack%=10",
+      "Defence%=10"
+    ],
+    "activePower": [
+      0,
+      0
+    ]
+  },
+  {
+    "id": 610203,
+    "qualityID": 3,
+    "qualityPlus": 0,
+    "consume": [
+      "506102,60"
+    ],
+    "toFragment": [
+      "506102,60"
+    ],
+    "wearAttributes": [
+      "HPMax%=15",
+      "Attack%=15",
+      "Defence%=15"
+    ],
+    "activePower": [
+      0,
+      0
+    ]
+  },
+  {
+    "id": 610204,
+    "qualityID": 4,
+    "qualityPlus": 0,
+    "consume": [
+      "506102,60",
+      "44,40"
+    ],
+    "toFragment": [
+      "506102,120"
+    ],
+    "wearAttributes": [
+      "HPMax%=20",
+      "Attack%=20",
+      "Defence%=20"
+    ],
+    "activePower": [
+      210,
+      0
+    ]
+  },
+  {
+    "id": 610205,
+    "qualityID": 4,
+    "qualityPlus": 1,
+    "consume": [
+      "506102,60",
+      "44,60"
+    ],
+    "toFragment": [
+      "506102,120"
+    ],
+    "wearAttributes": [
+      "HPMax%=30",
+      "Attack%=30",
+      "Defence%=30"
+    ],
+    "activePower": [
+      210,
+      0
+    ]
+  },
+  {
+    "id": 610206,
+    "qualityID": 4,
+    "qualityPlus": 2,
+    "consume": [
+      "506102,120",
+      "44,120"
+    ],
+    "toFragment": [
+      "506102,120"
+    ],
+    "wearAttributes": [
+      "HPMax%=40",
+      "Attack%=40",
+      "Defence%=40"
+    ],
+    "activePower": [
+      210,
+      0
+    ]
+  },
+  {
+    "id": 610207,
+    "qualityID": 5,
+    "qualityPlus": 0,
+    "consume": [
+      "506102,180",
+      "44,180"
+    ],
+    "toFragment": [
+      "506102,360"
+    ],
+    "wearAttributes": [
+      "HPMax%=60",
+      "Attack%=60",
+      "Defence%=60"
+    ],
+    "activePower": [
+      420,
+      0
+    ]
+  },
+  {
+    "id": 610208,
+    "qualityID": 5,
+    "qualityPlus": 1,
+    "consume": [
+      "506102,180",
+      "44,240"
+    ],
+    "toFragment": [
+      "506102,360"
+    ],
+    "wearAttributes": [
+      "HPMax%=80",
+      "Attack%=80",
+      "Defence%=80"
+    ],
+    "activePower": [
+      420,
+      0
+    ]
+  },
+  {
+    "id": 610209,
+    "qualityID": 5,
+    "qualityPlus": 2,
+    "consume": [
+      "506102,360",
+      "44,300"
+    ],
+    "toFragment": [
+      "506102,360"
+    ],
+    "wearAttributes": [
+      "HPMax%=100",
+      "Attack%=100",
+      "Defence%=100"
+    ],
+    "activePower": [
+      420,
+      0
+    ]
+  },
+  {
+    "id": 610210,
+    "qualityID": 6,
+    "qualityPlus": 0,
+    "consume": [
+      "506102,540",
+      "44,500"
+    ],
+    "toFragment": [
+      "506102,1080"
+    ],
+    "wearAttributes": [
+      "HPMax%=120",
+      "Attack%=120",
+      "Defence%=120"
+    ],
+    "activePower": [
+      665,
+      0
+    ]
+  },
+  {
+    "id": 610211,
+    "qualityID": 6,
+    "qualityPlus": 1,
+    "consume": [
+      "506102,540",
+      "44,700"
+    ],
+    "toFragment": [
+      "506102,1080"
+    ],
+    "wearAttributes": [
+      "HPMax%=160",
+      "Attack%=160",
+      "Defence%=160"
+    ],
+    "activePower": [
+      665,
+      0
+    ]
+  },
+  {
+    "id": 610212,
+    "qualityID": 6,
+    "qualityPlus": 2,
+    "consume": [],
+    "toFragment": [
+      "506102,1080"
+    ],
+    "wearAttributes": [
+      "HPMax%=200",
+      "Attack%=200",
+      "Defence%=200"
+    ],
+    "activePower": [
+      665,
+      0
+    ]
+  },
+  {
+    "id": 610301,
+    "qualityID": 1,
+    "qualityPlus": 0,
+    "consume": [
+      "506103,10"
+    ],
+    "toFragment": [
+      "506103,10"
+    ],
+    "wearAttributes": [
+      "HPMax%=5",
+      "Attack%=5",
+      "Defence%=5"
+    ],
+    "activePower": [
+      0,
+      0
+    ]
+  },
+  {
+    "id": 610302,
+    "qualityID": 2,
+    "qualityPlus": 0,
+    "consume": [
+      "506103,40"
+    ],
+    "toFragment": [
+      "506103,20"
+    ],
+    "wearAttributes": [
+      "HPMax%=10",
+      "Attack%=10",
+      "Defence%=10"
+    ],
+    "activePower": [
+      0,
+      0
+    ]
+  },
+  {
+    "id": 610303,
+    "qualityID": 3,
+    "qualityPlus": 0,
+    "consume": [
+      "506103,60"
+    ],
+    "toFragment": [
+      "506103,60"
+    ],
+    "wearAttributes": [
+      "HPMax%=15",
+      "Attack%=15",
+      "Defence%=15"
+    ],
+    "activePower": [
+      0,
+      0
+    ]
+  },
+  {
+    "id": 610304,
+    "qualityID": 4,
+    "qualityPlus": 0,
+    "consume": [
+      "506103,60",
+      "41,40"
+    ],
+    "toFragment": [
+      "506103,120"
+    ],
+    "wearAttributes": [
+      "HPMax%=20",
+      "Attack%=20",
+      "Defence%=20"
+    ],
+    "activePower": [
+      210,
+      0
+    ]
+  },
+  {
+    "id": 610305,
+    "qualityID": 4,
+    "qualityPlus": 1,
+    "consume": [
+      "506103,60",
+      "41,60"
+    ],
+    "toFragment": [
+      "506103,120"
+    ],
+    "wearAttributes": [
+      "HPMax%=30",
+      "Attack%=30",
+      "Defence%=30"
+    ],
+    "activePower": [
+      210,
+      0
+    ]
+  },
+  {
+    "id": 610306,
+    "qualityID": 4,
+    "qualityPlus": 2,
+    "consume": [
+      "506103,120",
+      "41,120"
+    ],
+    "toFragment": [
+      "506103,120"
+    ],
+    "wearAttributes": [
+      "HPMax%=40",
+      "Attack%=40",
+      "Defence%=40"
+    ],
+    "activePower": [
+      210,
+      0
+    ]
+  },
+  {
+    "id": 610307,
+    "qualityID": 5,
+    "qualityPlus": 0,
+    "consume": [
+      "506103,180",
+      "41,180"
+    ],
+    "toFragment": [
+      "506103,360"
+    ],
+    "wearAttributes": [
+      "HPMax%=60",
+      "Attack%=60",
+      "Defence%=60"
+    ],
+    "activePower": [
+      420,
+      0
+    ]
+  },
+  {
+    "id": 610308,
+    "qualityID": 5,
+    "qualityPlus": 1,
+    "consume": [
+      "506103,180",
+      "41,240"
+    ],
+    "toFragment": [
+      "506103,360"
+    ],
+    "wearAttributes": [
+      "HPMax%=80",
+      "Attack%=80",
+      "Defence%=80"
+    ],
+    "activePower": [
+      420,
+      0
+    ]
+  },
+  {
+    "id": 610309,
+    "qualityID": 5,
+    "qualityPlus": 2,
+    "consume": [
+      "506103,360",
+      "41,300"
+    ],
+    "toFragment": [
+      "506103,360"
+    ],
+    "wearAttributes": [
+      "HPMax%=100",
+      "Attack%=100",
+      "Defence%=100"
+    ],
+    "activePower": [
+      420,
+      0
+    ]
+  },
+  {
+    "id": 610310,
+    "qualityID": 6,
+    "qualityPlus": 0,
+    "consume": [
+      "506103,540",
+      "41,500"
+    ],
+    "toFragment": [
+      "506103,1080"
+    ],
+    "wearAttributes": [
+      "HPMax%=120",
+      "Attack%=120",
+      "Defence%=120"
+    ],
+    "activePower": [
+      665,
+      0
+    ]
+  },
+  {
+    "id": 610311,
+    "qualityID": 6,
+    "qualityPlus": 1,
+    "consume": [
+      "506103,540",
+      "41,700"
+    ],
+    "toFragment": [
+      "506103,1080"
+    ],
+    "wearAttributes": [
+      "HPMax%=160",
+      "Attack%=160",
+      "Defence%=160"
+    ],
+    "activePower": [
+      665,
+      0
+    ]
+  },
+  {
+    "id": 610312,
+    "qualityID": 6,
+    "qualityPlus": 2,
+    "consume": [],
+    "toFragment": [
+      "506103,1080"
+    ],
+    "wearAttributes": [
+      "HPMax%=200",
+      "Attack%=200",
+      "Defence%=200"
+    ],
+    "activePower": [
+      665,
+      0
+    ]
+  },
+  {
+    "id": 610401,
+    "qualityID": 1,
+    "qualityPlus": 0,
+    "consume": [
+      "506104,10"
+    ],
+    "toFragment": [
+      "506104,10"
+    ],
+    "wearAttributes": [
+      "HPMax%=5",
+      "Attack%=5",
+      "Defence%=5"
+    ],
+    "activePower": [
+      0,
+      0
+    ]
+  },
+  {
+    "id": 610402,
+    "qualityID": 2,
+    "qualityPlus": 0,
+    "consume": [
+      "506104,40"
+    ],
+    "toFragment": [
+      "506104,20"
+    ],
+    "wearAttributes": [
+      "HPMax%=10",
+      "Attack%=10",
+      "Defence%=10"
+    ],
+    "activePower": [
+      0,
+      0
+    ]
+  },
+  {
+    "id": 610403,
+    "qualityID": 3,
+    "qualityPlus": 0,
+    "consume": [
+      "506104,60"
+    ],
+    "toFragment": [
+      "506104,60"
+    ],
+    "wearAttributes": [
+      "HPMax%=15",
+      "Attack%=15",
+      "Defence%=15"
+    ],
+    "activePower": [
+      0,
+      0
+    ]
+  },
+  {
+    "id": 610404,
+    "qualityID": 4,
+    "qualityPlus": 0,
+    "consume": [
+      "506104,60",
+      "44,40"
+    ],
+    "toFragment": [
+      "506104,120"
+    ],
+    "wearAttributes": [
+      "HPMax%=20",
+      "Attack%=20",
+      "Defence%=20"
+    ],
+    "activePower": [
+      210,
+      0
+    ]
+  },
+  {
+    "id": 610405,
+    "qualityID": 4,
+    "qualityPlus": 1,
+    "consume": [
+      "506104,60",
+      "44,60"
+    ],
+    "toFragment": [
+      "506104,120"
+    ],
+    "wearAttributes": [
+      "HPMax%=30",
+      "Attack%=30",
+      "Defence%=30"
+    ],
+    "activePower": [
+      210,
+      0
+    ]
+  },
+  {
+    "id": 610406,
+    "qualityID": 4,
+    "qualityPlus": 2,
+    "consume": [
+      "506104,120",
+      "44,120"
+    ],
+    "toFragment": [
+      "506104,120"
+    ],
+    "wearAttributes": [
+      "HPMax%=40",
+      "Attack%=40",
+      "Defence%=40"
+    ],
+    "activePower": [
+      210,
+      0
+    ]
+  },
+  {
+    "id": 610407,
+    "qualityID": 5,
+    "qualityPlus": 0,
+    "consume": [
+      "506104,180",
+      "44,180"
+    ],
+    "toFragment": [
+      "506104,360"
+    ],
+    "wearAttributes": [
+      "HPMax%=60",
+      "Attack%=60",
+      "Defence%=60"
+    ],
+    "activePower": [
+      420,
+      0
+    ]
+  },
+  {
+    "id": 610408,
+    "qualityID": 5,
+    "qualityPlus": 1,
+    "consume": [
+      "506104,180",
+      "44,240"
+    ],
+    "toFragment": [
+      "506104,360"
+    ],
+    "wearAttributes": [
+      "HPMax%=80",
+      "Attack%=80",
+      "Defence%=80"
+    ],
+    "activePower": [
+      420,
+      0
+    ]
+  },
+  {
+    "id": 610409,
+    "qualityID": 5,
+    "qualityPlus": 2,
+    "consume": [
+      "506104,360",
+      "44,300"
+    ],
+    "toFragment": [
+      "506104,360"
+    ],
+    "wearAttributes": [
+      "HPMax%=100",
+      "Attack%=100",
+      "Defence%=100"
+    ],
+    "activePower": [
+      420,
+      0
+    ]
+  },
+  {
+    "id": 610410,
+    "qualityID": 6,
+    "qualityPlus": 0,
+    "consume": [
+      "506104,540",
+      "44,500"
+    ],
+    "toFragment": [
+      "506104,1080"
+    ],
+    "wearAttributes": [
+      "HPMax%=120",
+      "Attack%=120",
+      "Defence%=120"
+    ],
+    "activePower": [
+      665,
+      0
+    ]
+  },
+  {
+    "id": 610411,
+    "qualityID": 6,
+    "qualityPlus": 1,
+    "consume": [
+      "506104,540",
+      "44,700"
+    ],
+    "toFragment": [
+      "506104,1080"
+    ],
+    "wearAttributes": [
+      "HPMax%=160",
+      "Attack%=160",
+      "Defence%=160"
+    ],
+    "activePower": [
+      665,
+      0
+    ]
+  },
+  {
+    "id": 610412,
+    "qualityID": 6,
+    "qualityPlus": 2,
+    "consume": [],
+    "toFragment": [
+      "506104,1080"
+    ],
+    "wearAttributes": [
+      "HPMax%=200",
+      "Attack%=200",
+      "Defence%=200"
+    ],
+    "activePower": [
+      665,
+      0
+    ]
+  },
+  {
+    "id": 610501,
+    "qualityID": 1,
+    "qualityPlus": 0,
+    "consume": [
+      "506105,10"
+    ],
+    "toFragment": [
+      "506105,10"
+    ],
+    "wearAttributes": [
+      "HPMax%=5",
+      "Attack%=5",
+      "Defence%=5"
+    ],
+    "activePower": [
+      0,
+      0
+    ]
+  },
+  {
+    "id": 610502,
+    "qualityID": 2,
+    "qualityPlus": 0,
+    "consume": [
+      "506105,40"
+    ],
+    "toFragment": [
+      "506105,20"
+    ],
+    "wearAttributes": [
+      "HPMax%=10",
+      "Attack%=10",
+      "Defence%=10"
+    ],
+    "activePower": [
+      0,
+      0
+    ]
+  },
+  {
+    "id": 610503,
+    "qualityID": 3,
+    "qualityPlus": 0,
+    "consume": [
+      "506105,60"
+    ],
+    "toFragment": [
+      "506105,60"
+    ],
+    "wearAttributes": [
+      "HPMax%=15",
+      "Attack%=15",
+      "Defence%=15"
+    ],
+    "activePower": [
+      0,
+      0
+    ]
+  },
+  {
+    "id": 610504,
+    "qualityID": 4,
+    "qualityPlus": 0,
+    "consume": [
+      "506105,60",
+      "44,40"
+    ],
+    "toFragment": [
+      "506105,120"
+    ],
+    "wearAttributes": [
+      "HPMax%=20",
+      "Attack%=20",
+      "Defence%=20"
+    ],
+    "activePower": [
+      210,
+      0
+    ]
+  },
+  {
+    "id": 610505,
+    "qualityID": 4,
+    "qualityPlus": 1,
+    "consume": [
+      "506105,60",
+      "44,60"
+    ],
+    "toFragment": [
+      "506105,120"
+    ],
+    "wearAttributes": [
+      "HPMax%=30",
+      "Attack%=30",
+      "Defence%=30"
+    ],
+    "activePower": [
+      210,
+      0
+    ]
+  },
+  {
+    "id": 610506,
+    "qualityID": 4,
+    "qualityPlus": 2,
+    "consume": [
+      "506105,120",
+      "44,120"
+    ],
+    "toFragment": [
+      "506105,120"
+    ],
+    "wearAttributes": [
+      "HPMax%=40",
+      "Attack%=40",
+      "Defence%=40"
+    ],
+    "activePower": [
+      210,
+      0
+    ]
+  },
+  {
+    "id": 610507,
+    "qualityID": 5,
+    "qualityPlus": 0,
+    "consume": [
+      "506105,180",
+      "44,180"
+    ],
+    "toFragment": [
+      "506105,360"
+    ],
+    "wearAttributes": [
+      "HPMax%=60",
+      "Attack%=60",
+      "Defence%=60"
+    ],
+    "activePower": [
+      420,
+      0
+    ]
+  },
+  {
+    "id": 610508,
+    "qualityID": 5,
+    "qualityPlus": 1,
+    "consume": [
+      "506105,180",
+      "44,240"
+    ],
+    "toFragment": [
+      "506105,360"
+    ],
+    "wearAttributes": [
+      "HPMax%=80",
+      "Attack%=80",
+      "Defence%=80"
+    ],
+    "activePower": [
+      420,
+      0
+    ]
+  },
+  {
+    "id": 610509,
+    "qualityID": 5,
+    "qualityPlus": 2,
+    "consume": [
+      "506105,360",
+      "44,300"
+    ],
+    "toFragment": [
+      "506105,360"
+    ],
+    "wearAttributes": [
+      "HPMax%=100",
+      "Attack%=100",
+      "Defence%=100"
+    ],
+    "activePower": [
+      420,
+      0
+    ]
+  },
+  {
+    "id": 610510,
+    "qualityID": 6,
+    "qualityPlus": 0,
+    "consume": [
+      "506105,540",
+      "44,500"
+    ],
+    "toFragment": [
+      "506105,1080"
+    ],
+    "wearAttributes": [
+      "HPMax%=120",
+      "Attack%=120",
+      "Defence%=120"
+    ],
+    "activePower": [
+      665,
+      0
+    ]
+  },
+  {
+    "id": 610511,
+    "qualityID": 6,
+    "qualityPlus": 1,
+    "consume": [
+      "506105,540",
+      "44,700"
+    ],
+    "toFragment": [
+      "506105,1080"
+    ],
+    "wearAttributes": [
+      "HPMax%=160",
+      "Attack%=160",
+      "Defence%=160"
+    ],
+    "activePower": [
+      665,
+      0
+    ]
+  },
+  {
+    "id": 610512,
+    "qualityID": 6,
+    "qualityPlus": 2,
+    "consume": [],
+    "toFragment": [
+      "506105,1080"
+    ],
+    "wearAttributes": [
+      "HPMax%=200",
+      "Attack%=200",
+      "Defence%=200"
+    ],
+    "activePower": [
+      665,
+      0
+    ]
+  },
+  {
+    "id": 610601,
+    "qualityID": 1,
+    "qualityPlus": 0,
+    "consume": [
+      "506106,10"
+    ],
+    "toFragment": [
+      "506106,10"
+    ],
+    "wearAttributes": [
+      "HPMax%=5",
+      "Attack%=5",
+      "Defence%=5"
+    ],
+    "activePower": [
+      0,
+      0
+    ]
+  },
+  {
+    "id": 610602,
+    "qualityID": 2,
+    "qualityPlus": 0,
+    "consume": [
+      "506106,40"
+    ],
+    "toFragment": [
+      "506106,20"
+    ],
+    "wearAttributes": [
+      "HPMax%=10",
+      "Attack%=10",
+      "Defence%=10"
+    ],
+    "activePower": [
+      0,
+      0
+    ]
+  },
+  {
+    "id": 610603,
+    "qualityID": 3,
+    "qualityPlus": 0,
+    "consume": [
+      "506106,60"
+    ],
+    "toFragment": [
+      "506106,60"
+    ],
+    "wearAttributes": [
+      "HPMax%=15",
+      "Attack%=15",
+      "Defence%=15"
+    ],
+    "activePower": [
+      0,
+      0
+    ]
+  },
+  {
+    "id": 610604,
+    "qualityID": 4,
+    "qualityPlus": 0,
+    "consume": [
+      "506106,60",
+      "41,40"
+    ],
+    "toFragment": [
+      "506106,120"
+    ],
+    "wearAttributes": [
+      "HPMax%=20",
+      "Attack%=20",
+      "Defence%=20"
+    ],
+    "activePower": [
+      210,
+      0
+    ]
+  },
+  {
+    "id": 610605,
+    "qualityID": 4,
+    "qualityPlus": 1,
+    "consume": [
+      "506106,60",
+      "41,60"
+    ],
+    "toFragment": [
+      "506106,120"
+    ],
+    "wearAttributes": [
+      "HPMax%=30",
+      "Attack%=30",
+      "Defence%=30"
+    ],
+    "activePower": [
+      210,
+      0
+    ]
+  },
+  {
+    "id": 610606,
+    "qualityID": 4,
+    "qualityPlus": 2,
+    "consume": [
+      "506106,120",
+      "41,120"
+    ],
+    "toFragment": [
+      "506106,120"
+    ],
+    "wearAttributes": [
+      "HPMax%=40",
+      "Attack%=40",
+      "Defence%=40"
+    ],
+    "activePower": [
+      210,
+      0
+    ]
+  },
+  {
+    "id": 610607,
+    "qualityID": 5,
+    "qualityPlus": 0,
+    "consume": [
+      "506106,180",
+      "41,180"
+    ],
+    "toFragment": [
+      "506106,360"
+    ],
+    "wearAttributes": [
+      "HPMax%=60",
+      "Attack%=60",
+      "Defence%=60"
+    ],
+    "activePower": [
+      420,
+      0
+    ]
+  },
+  {
+    "id": 610608,
+    "qualityID": 5,
+    "qualityPlus": 1,
+    "consume": [
+      "506106,180",
+      "41,240"
+    ],
+    "toFragment": [
+      "506106,360"
+    ],
+    "wearAttributes": [
+      "HPMax%=80",
+      "Attack%=80",
+      "Defence%=80"
+    ],
+    "activePower": [
+      420,
+      0
+    ]
+  },
+  {
+    "id": 610609,
+    "qualityID": 5,
+    "qualityPlus": 2,
+    "consume": [
+      "506106,360",
+      "41,300"
+    ],
+    "toFragment": [
+      "506106,360"
+    ],
+    "wearAttributes": [
+      "HPMax%=100",
+      "Attack%=100",
+      "Defence%=100"
+    ],
+    "activePower": [
+      420,
+      0
+    ]
+  },
+  {
+    "id": 610610,
+    "qualityID": 6,
+    "qualityPlus": 0,
+    "consume": [
+      "506106,540",
+      "41,500"
+    ],
+    "toFragment": [
+      "506106,1080"
+    ],
+    "wearAttributes": [
+      "HPMax%=120",
+      "Attack%=120",
+      "Defence%=120"
+    ],
+    "activePower": [
+      665,
+      0
+    ]
+  },
+  {
+    "id": 610611,
+    "qualityID": 6,
+    "qualityPlus": 1,
+    "consume": [
+      "506106,540",
+      "41,700"
+    ],
+    "toFragment": [
+      "506106,1080"
+    ],
+    "wearAttributes": [
+      "HPMax%=160",
+      "Attack%=160",
+      "Defence%=160"
+    ],
+    "activePower": [
+      665,
+      0
+    ]
+  },
+  {
+    "id": 610612,
+    "qualityID": 6,
+    "qualityPlus": 2,
+    "consume": [],
+    "toFragment": [
+      "506106,1080"
+    ],
+    "wearAttributes": [
+      "HPMax%=200",
+      "Attack%=200",
+      "Defence%=200"
+    ],
+    "activePower": [
+      665,
+      0
+    ]
+  },
+  {
+    "id": 610701,
+    "qualityID": 1,
+    "qualityPlus": 0,
+    "consume": [
+      "506107,10"
+    ],
+    "toFragment": [
+      "506107,10"
+    ],
+    "wearAttributes": [
+      "HPMax%=5",
+      "Attack%=5",
+      "Defence%=5"
+    ],
+    "activePower": [
+      0,
+      0
+    ]
+  },
+  {
+    "id": 610702,
+    "qualityID": 2,
+    "qualityPlus": 0,
+    "consume": [
+      "506107,40"
+    ],
+    "toFragment": [
+      "506107,20"
+    ],
+    "wearAttributes": [
+      "HPMax%=10",
+      "Attack%=10",
+      "Defence%=10"
+    ],
+    "activePower": [
+      0,
+      0
+    ]
+  },
+  {
+    "id": 610703,
+    "qualityID": 3,
+    "qualityPlus": 0,
+    "consume": [
+      "506107,60"
+    ],
+    "toFragment": [
+      "506107,60"
+    ],
+    "wearAttributes": [
+      "HPMax%=15",
+      "Attack%=15",
+      "Defence%=15"
+    ],
+    "activePower": [
+      0,
+      0
+    ]
+  },
+  {
+    "id": 610704,
+    "qualityID": 4,
+    "qualityPlus": 0,
+    "consume": [
+      "506107,60",
+      "43,40"
+    ],
+    "toFragment": [
+      "506107,120"
+    ],
+    "wearAttributes": [
+      "HPMax%=20",
+      "Attack%=20",
+      "Defence%=20"
+    ],
+    "activePower": [
+      210,
+      0
+    ]
+  },
+  {
+    "id": 610705,
+    "qualityID": 4,
+    "qualityPlus": 1,
+    "consume": [
+      "506107,60",
+      "43,60"
+    ],
+    "toFragment": [
+      "506107,120"
+    ],
+    "wearAttributes": [
+      "HPMax%=30",
+      "Attack%=30",
+      "Defence%=30"
+    ],
+    "activePower": [
+      210,
+      0
+    ]
+  },
+  {
+    "id": 610706,
+    "qualityID": 4,
+    "qualityPlus": 2,
+    "consume": [
+      "506107,120",
+      "43,120"
+    ],
+    "toFragment": [
+      "506107,120"
+    ],
+    "wearAttributes": [
+      "HPMax%=40",
+      "Attack%=40",
+      "Defence%=40"
+    ],
+    "activePower": [
+      210,
+      0
+    ]
+  },
+  {
+    "id": 610707,
+    "qualityID": 5,
+    "qualityPlus": 0,
+    "consume": [
+      "506107,180",
+      "43,180"
+    ],
+    "toFragment": [
+      "506107,360"
+    ],
+    "wearAttributes": [
+      "HPMax%=60",
+      "Attack%=60",
+      "Defence%=60"
+    ],
+    "activePower": [
+      420,
+      0
+    ]
+  },
+  {
+    "id": 610708,
+    "qualityID": 5,
+    "qualityPlus": 1,
+    "consume": [
+      "506107,180",
+      "43,240"
+    ],
+    "toFragment": [
+      "506107,360"
+    ],
+    "wearAttributes": [
+      "HPMax%=80",
+      "Attack%=80",
+      "Defence%=80"
+    ],
+    "activePower": [
+      420,
+      0
+    ]
+  },
+  {
+    "id": 610709,
+    "qualityID": 5,
+    "qualityPlus": 2,
+    "consume": [
+      "506107,360",
+      "43,300"
+    ],
+    "toFragment": [
+      "506107,360"
+    ],
+    "wearAttributes": [
+      "HPMax%=100",
+      "Attack%=100",
+      "Defence%=100"
+    ],
+    "activePower": [
+      420,
+      0
+    ]
+  },
+  {
+    "id": 610710,
+    "qualityID": 6,
+    "qualityPlus": 0,
+    "consume": [
+      "506107,540",
+      "43,500"
+    ],
+    "toFragment": [
+      "506107,1080"
+    ],
+    "wearAttributes": [
+      "HPMax%=120",
+      "Attack%=120",
+      "Defence%=120"
+    ],
+    "activePower": [
+      665,
+      0
+    ]
+  },
+  {
+    "id": 610711,
+    "qualityID": 6,
+    "qualityPlus": 1,
+    "consume": [
+      "506107,540",
+      "43,700"
+    ],
+    "toFragment": [
+      "506107,1080"
+    ],
+    "wearAttributes": [
+      "HPMax%=160",
+      "Attack%=160",
+      "Defence%=160"
+    ],
+    "activePower": [
+      665,
+      0
+    ]
+  },
+  {
+    "id": 610712,
+    "qualityID": 6,
+    "qualityPlus": 2,
+    "consume": [],
+    "toFragment": [
+      "506107,1080"
+    ],
+    "wearAttributes": [
+      "HPMax%=200",
+      "Attack%=200",
+      "Defence%=200"
+    ],
+    "activePower": [
+      665,
+      0
+    ]
+  },
+  {
+    "id": 610801,
+    "qualityID": 1,
+    "qualityPlus": 0,
+    "consume": [
+      "506108,10"
+    ],
+    "toFragment": [
+      "506108,10"
+    ],
+    "wearAttributes": [
+      "HPMax%=5",
+      "Attack%=5",
+      "Defence%=5"
+    ],
+    "activePower": [
+      0,
+      0
+    ]
+  },
+  {
+    "id": 610802,
+    "qualityID": 2,
+    "qualityPlus": 0,
+    "consume": [
+      "506108,40"
+    ],
+    "toFragment": [
+      "506108,20"
+    ],
+    "wearAttributes": [
+      "HPMax%=10",
+      "Attack%=10",
+      "Defence%=10"
+    ],
+    "activePower": [
+      0,
+      0
+    ]
+  },
+  {
+    "id": 610803,
+    "qualityID": 3,
+    "qualityPlus": 0,
+    "consume": [
+      "506108,60"
+    ],
+    "toFragment": [
+      "506108,60"
+    ],
+    "wearAttributes": [
+      "HPMax%=15",
+      "Attack%=15",
+      "Defence%=15"
+    ],
+    "activePower": [
+      0,
+      0
+    ]
+  },
+  {
+    "id": 610804,
+    "qualityID": 4,
+    "qualityPlus": 0,
+    "consume": [
+      "506108,60",
+      "42,40"
+    ],
+    "toFragment": [
+      "506108,120"
+    ],
+    "wearAttributes": [
+      "HPMax%=20",
+      "Attack%=20",
+      "Defence%=20"
+    ],
+    "activePower": [
+      210,
+      0
+    ]
+  },
+  {
+    "id": 610805,
+    "qualityID": 4,
+    "qualityPlus": 1,
+    "consume": [
+      "506108,60",
+      "42,60"
+    ],
+    "toFragment": [
+      "506108,120"
+    ],
+    "wearAttributes": [
+      "HPMax%=30",
+      "Attack%=30",
+      "Defence%=30"
+    ],
+    "activePower": [
+      210,
+      0
+    ]
+  },
+  {
+    "id": 610806,
+    "qualityID": 4,
+    "qualityPlus": 2,
+    "consume": [
+      "506108,120",
+      "42,120"
+    ],
+    "toFragment": [
+      "506108,120"
+    ],
+    "wearAttributes": [
+      "HPMax%=40",
+      "Attack%=40",
+      "Defence%=40"
+    ],
+    "activePower": [
+      210,
+      0
+    ]
+  },
+  {
+    "id": 610807,
+    "qualityID": 5,
+    "qualityPlus": 0,
+    "consume": [
+      "506108,180",
+      "42,180"
+    ],
+    "toFragment": [
+      "506108,360"
+    ],
+    "wearAttributes": [
+      "HPMax%=60",
+      "Attack%=60",
+      "Defence%=60"
+    ],
+    "activePower": [
+      420,
+      0
+    ]
+  },
+  {
+    "id": 610808,
+    "qualityID": 5,
+    "qualityPlus": 1,
+    "consume": [
+      "506108,180",
+      "42,240"
+    ],
+    "toFragment": [
+      "506108,360"
+    ],
+    "wearAttributes": [
+      "HPMax%=80",
+      "Attack%=80",
+      "Defence%=80"
+    ],
+    "activePower": [
+      420,
+      0
+    ]
+  },
+  {
+    "id": 610809,
+    "qualityID": 5,
+    "qualityPlus": 2,
+    "consume": [
+      "506108,360",
+      "42,300"
+    ],
+    "toFragment": [
+      "506108,360"
+    ],
+    "wearAttributes": [
+      "HPMax%=100",
+      "Attack%=100",
+      "Defence%=100"
+    ],
+    "activePower": [
+      420,
+      0
+    ]
+  },
+  {
+    "id": 610810,
+    "qualityID": 6,
+    "qualityPlus": 0,
+    "consume": [
+      "506108,540",
+      "42,500"
+    ],
+    "toFragment": [
+      "506108,1080"
+    ],
+    "wearAttributes": [
+      "HPMax%=120",
+      "Attack%=120",
+      "Defence%=120"
+    ],
+    "activePower": [
+      665,
+      0
+    ]
+  },
+  {
+    "id": 610811,
+    "qualityID": 6,
+    "qualityPlus": 1,
+    "consume": [
+      "506108,540",
+      "42,700"
+    ],
+    "toFragment": [
+      "506108,1080"
+    ],
+    "wearAttributes": [
+      "HPMax%=160",
+      "Attack%=160",
+      "Defence%=160"
+    ],
+    "activePower": [
+      665,
+      0
+    ]
+  },
+  {
+    "id": 610812,
+    "qualityID": 6,
+    "qualityPlus": 2,
+    "consume": [],
+    "toFragment": [
+      "506108,1080"
+    ],
+    "wearAttributes": [
+      "HPMax%=200",
+      "Attack%=200",
+      "Defence%=200"
+    ],
+    "activePower": [
+      665,
+      0
+    ]
+  },
+  {
+    "id": 610901,
+    "qualityID": 1,
+    "qualityPlus": 0,
+    "consume": [
+      "506109,10"
+    ],
+    "toFragment": [
+      "506109,10"
+    ],
+    "wearAttributes": [
+      "HPMax%=5",
+      "Attack%=5",
+      "Defence%=5"
+    ],
+    "activePower": [
+      0,
+      0
+    ]
+  },
+  {
+    "id": 610902,
+    "qualityID": 2,
+    "qualityPlus": 0,
+    "consume": [
+      "506109,40"
+    ],
+    "toFragment": [
+      "506109,20"
+    ],
+    "wearAttributes": [
+      "HPMax%=10",
+      "Attack%=10",
+      "Defence%=10"
+    ],
+    "activePower": [
+      0,
+      0
+    ]
+  },
+  {
+    "id": 610903,
+    "qualityID": 3,
+    "qualityPlus": 0,
+    "consume": [
+      "506109,60"
+    ],
+    "toFragment": [
+      "506109,60"
+    ],
+    "wearAttributes": [
+      "HPMax%=15",
+      "Attack%=15",
+      "Defence%=15"
+    ],
+    "activePower": [
+      0,
+      0
+    ]
+  },
+  {
+    "id": 610904,
+    "qualityID": 4,
+    "qualityPlus": 0,
+    "consume": [
+      "506109,60",
+      "41,40"
+    ],
+    "toFragment": [
+      "506109,120"
+    ],
+    "wearAttributes": [
+      "HPMax%=20",
+      "Attack%=20",
+      "Defence%=20"
+    ],
+    "activePower": [
+      210,
+      0
+    ]
+  },
+  {
+    "id": 610905,
+    "qualityID": 4,
+    "qualityPlus": 1,
+    "consume": [
+      "506109,60",
+      "41,60"
+    ],
+    "toFragment": [
+      "506109,120"
+    ],
+    "wearAttributes": [
+      "HPMax%=30",
+      "Attack%=30",
+      "Defence%=30"
+    ],
+    "activePower": [
+      210,
+      0
+    ]
+  },
+  {
+    "id": 610906,
+    "qualityID": 4,
+    "qualityPlus": 2,
+    "consume": [
+      "506109,120",
+      "41,120"
+    ],
+    "toFragment": [
+      "506109,120"
+    ],
+    "wearAttributes": [
+      "HPMax%=40",
+      "Attack%=40",
+      "Defence%=40"
+    ],
+    "activePower": [
+      210,
+      0
+    ]
+  },
+  {
+    "id": 610907,
+    "qualityID": 5,
+    "qualityPlus": 0,
+    "consume": [
+      "506109,180",
+      "41,180"
+    ],
+    "toFragment": [
+      "506109,360"
+    ],
+    "wearAttributes": [
+      "HPMax%=60",
+      "Attack%=60",
+      "Defence%=60"
+    ],
+    "activePower": [
+      420,
+      0
+    ]
+  },
+  {
+    "id": 610908,
+    "qualityID": 5,
+    "qualityPlus": 1,
+    "consume": [
+      "506109,180",
+      "41,240"
+    ],
+    "toFragment": [
+      "506109,360"
+    ],
+    "wearAttributes": [
+      "HPMax%=80",
+      "Attack%=80",
+      "Defence%=80"
+    ],
+    "activePower": [
+      420,
+      0
+    ]
+  },
+  {
+    "id": 610909,
+    "qualityID": 5,
+    "qualityPlus": 2,
+    "consume": [
+      "506109,360",
+      "41,300"
+    ],
+    "toFragment": [
+      "506109,360"
+    ],
+    "wearAttributes": [
+      "HPMax%=100",
+      "Attack%=100",
+      "Defence%=100"
+    ],
+    "activePower": [
+      420,
+      0
+    ]
+  },
+  {
+    "id": 610910,
+    "qualityID": 6,
+    "qualityPlus": 0,
+    "consume": [
+      "506109,540",
+      "41,500"
+    ],
+    "toFragment": [
+      "506109,1080"
+    ],
+    "wearAttributes": [
+      "HPMax%=120",
+      "Attack%=120",
+      "Defence%=120"
+    ],
+    "activePower": [
+      665,
+      0
+    ]
+  },
+  {
+    "id": 610911,
+    "qualityID": 6,
+    "qualityPlus": 1,
+    "consume": [
+      "506109,540",
+      "41,700"
+    ],
+    "toFragment": [
+      "506109,1080"
+    ],
+    "wearAttributes": [
+      "HPMax%=160",
+      "Attack%=160",
+      "Defence%=160"
+    ],
+    "activePower": [
+      665,
+      0
+    ]
+  },
+  {
+    "id": 610912,
+    "qualityID": 6,
+    "qualityPlus": 2,
+    "consume": [],
+    "toFragment": [
+      "506109,1080"
+    ],
+    "wearAttributes": [
+      "HPMax%=200",
+      "Attack%=200",
+      "Defence%=200"
+    ],
+    "activePower": [
+      665,
+      0
+    ]
+  },
+  {
+    "id": 611001,
+    "qualityID": 1,
+    "qualityPlus": 0,
+    "consume": [
+      "506110,10"
+    ],
+    "toFragment": [
+      "506110,10"
+    ],
+    "wearAttributes": [
+      "HPMax%=5",
+      "Attack%=5",
+      "Defence%=5"
+    ],
+    "activePower": [
+      0,
+      0
+    ]
+  },
+  {
+    "id": 611002,
+    "qualityID": 2,
+    "qualityPlus": 0,
+    "consume": [
+      "506110,40"
+    ],
+    "toFragment": [
+      "506110,20"
+    ],
+    "wearAttributes": [
+      "HPMax%=10",
+      "Attack%=10",
+      "Defence%=10"
+    ],
+    "activePower": [
+      0,
+      0
+    ]
+  },
+  {
+    "id": 611003,
+    "qualityID": 3,
+    "qualityPlus": 0,
+    "consume": [
+      "506110,60"
+    ],
+    "toFragment": [
+      "506110,60"
+    ],
+    "wearAttributes": [
+      "HPMax%=15",
+      "Attack%=15",
+      "Defence%=15"
+    ],
+    "activePower": [
+      0,
+      0
+    ]
+  },
+  {
+    "id": 611004,
+    "qualityID": 4,
+    "qualityPlus": 0,
+    "consume": [
+      "506110,60",
+      "42,40"
+    ],
+    "toFragment": [
+      "506110,120"
+    ],
+    "wearAttributes": [
+      "HPMax%=20",
+      "Attack%=20",
+      "Defence%=20"
+    ],
+    "activePower": [
+      210,
+      0
+    ]
+  },
+  {
+    "id": 611005,
+    "qualityID": 4,
+    "qualityPlus": 1,
+    "consume": [
+      "506110,60",
+      "42,60"
+    ],
+    "toFragment": [
+      "506110,120"
+    ],
+    "wearAttributes": [
+      "HPMax%=30",
+      "Attack%=30",
+      "Defence%=30"
+    ],
+    "activePower": [
+      210,
+      0
+    ]
+  },
+  {
+    "id": 611006,
+    "qualityID": 4,
+    "qualityPlus": 2,
+    "consume": [
+      "506110,120",
+      "42,120"
+    ],
+    "toFragment": [
+      "506110,120"
+    ],
+    "wearAttributes": [
+      "HPMax%=40",
+      "Attack%=40",
+      "Defence%=40"
+    ],
+    "activePower": [
+      210,
+      0
+    ]
+  },
+  {
+    "id": 611007,
+    "qualityID": 5,
+    "qualityPlus": 0,
+    "consume": [
+      "506110,180",
+      "42,180"
+    ],
+    "toFragment": [
+      "506110,360"
+    ],
+    "wearAttributes": [
+      "HPMax%=60",
+      "Attack%=60",
+      "Defence%=60"
+    ],
+    "activePower": [
+      420,
+      0
+    ]
+  },
+  {
+    "id": 611008,
+    "qualityID": 5,
+    "qualityPlus": 1,
+    "consume": [
+      "506110,180",
+      "42,240"
+    ],
+    "toFragment": [
+      "506110,360"
+    ],
+    "wearAttributes": [
+      "HPMax%=80",
+      "Attack%=80",
+      "Defence%=80"
+    ],
+    "activePower": [
+      420,
+      0
+    ]
+  },
+  {
+    "id": 611009,
+    "qualityID": 5,
+    "qualityPlus": 2,
+    "consume": [
+      "506110,360",
+      "42,300"
+    ],
+    "toFragment": [
+      "506110,360"
+    ],
+    "wearAttributes": [
+      "HPMax%=100",
+      "Attack%=100",
+      "Defence%=100"
+    ],
+    "activePower": [
+      420,
+      0
+    ]
+  },
+  {
+    "id": 611010,
+    "qualityID": 6,
+    "qualityPlus": 0,
+    "consume": [
+      "506110,540",
+      "42,500"
+    ],
+    "toFragment": [
+      "506110,1080"
+    ],
+    "wearAttributes": [
+      "HPMax%=120",
+      "Attack%=120",
+      "Defence%=120"
+    ],
+    "activePower": [
+      665,
+      0
+    ]
+  },
+  {
+    "id": 611011,
+    "qualityID": 6,
+    "qualityPlus": 1,
+    "consume": [
+      "506110,540",
+      "42,700"
+    ],
+    "toFragment": [
+      "506110,1080"
+    ],
+    "wearAttributes": [
+      "HPMax%=160",
+      "Attack%=160",
+      "Defence%=160"
+    ],
+    "activePower": [
+      665,
+      0
+    ]
+  },
+  {
+    "id": 611012,
+    "qualityID": 6,
+    "qualityPlus": 2,
+    "consume": [],
+    "toFragment": [
+      "506110,1080"
+    ],
+    "wearAttributes": [
+      "HPMax%=200",
+      "Attack%=200",
+      "Defence%=200"
+    ],
+    "activePower": [
+      665,
+      0
+    ]
+  },
+  {
+    "id": 620101,
+    "qualityID": 1,
+    "qualityPlus": 0,
+    "consume": [
+      "506201,10"
+    ],
+    "toFragment": [
+      "506201,10"
+    ],
+    "wearAttributes": [
+      "HPMax%=5",
+      "Attack%=5",
+      "Defence%=5"
+    ],
+    "activePower": [
+      0,
+      0
+    ]
+  },
+  {
+    "id": 620102,
+    "qualityID": 2,
+    "qualityPlus": 0,
+    "consume": [
+      "506201,40"
+    ],
+    "toFragment": [
+      "506201,20"
+    ],
+    "wearAttributes": [
+      "HPMax%=10",
+      "Attack%=10",
+      "Defence%=10"
+    ],
+    "activePower": [
+      0,
+      0
+    ]
+  },
+  {
+    "id": 620103,
+    "qualityID": 3,
+    "qualityPlus": 0,
+    "consume": [
+      "506201,60"
+    ],
+    "toFragment": [
+      "506201,60"
+    ],
+    "wearAttributes": [
+      "HPMax%=15",
+      "Attack%=15",
+      "Defence%=15"
+    ],
+    "activePower": [
+      0,
+      0
+    ]
+  },
+  {
+    "id": 620104,
+    "qualityID": 4,
+    "qualityPlus": 0,
+    "consume": [
+      "506201,60",
+      "43,80"
+    ],
+    "toFragment": [
+      "506201,120"
+    ],
+    "wearAttributes": [
+      "HPMax%=20",
+      "Attack%=20",
+      "Defence%=20"
+    ],
+    "activePower": [
+      280,
+      0
+    ]
+  },
+  {
+    "id": 620105,
+    "qualityID": 4,
+    "qualityPlus": 1,
+    "consume": [
+      "506201,60",
+      "43,120"
+    ],
+    "toFragment": [
+      "506201,120"
+    ],
+    "wearAttributes": [
+      "HPMax%=30",
+      "Attack%=30",
+      "Defence%=30"
+    ],
+    "activePower": [
+      280,
+      0
+    ]
+  },
+  {
+    "id": 620106,
+    "qualityID": 4,
+    "qualityPlus": 2,
+    "consume": [
+      "506201,120",
+      "43,240"
+    ],
+    "toFragment": [
+      "506201,120"
+    ],
+    "wearAttributes": [
+      "HPMax%=40",
+      "Attack%=40",
+      "Defence%=40"
+    ],
+    "activePower": [
+      280,
+      0
+    ]
+  },
+  {
+    "id": 620107,
+    "qualityID": 5,
+    "qualityPlus": 0,
+    "consume": [
+      "506201,180",
+      "43,360"
+    ],
+    "toFragment": [
+      "506201,360"
+    ],
+    "wearAttributes": [
+      "HPMax%=60",
+      "Attack%=60",
+      "Defence%=60"
+    ],
+    "activePower": [
+      595,
+      0
+    ]
+  },
+  {
+    "id": 620108,
+    "qualityID": 5,
+    "qualityPlus": 1,
+    "consume": [
+      "506201,180",
+      "43,480"
+    ],
+    "toFragment": [
+      "506201,360"
+    ],
+    "wearAttributes": [
+      "HPMax%=80",
+      "Attack%=80",
+      "Defence%=80"
+    ],
+    "activePower": [
+      595,
+      0
+    ]
+  },
+  {
+    "id": 620109,
+    "qualityID": 5,
+    "qualityPlus": 2,
+    "consume": [
+      "506201,360",
+      "43,600"
+    ],
+    "toFragment": [
+      "506201,360"
+    ],
+    "wearAttributes": [
+      "HPMax%=100",
+      "Attack%=100",
+      "Defence%=100"
+    ],
+    "activePower": [
+      595,
+      0
+    ]
+  },
+  {
+    "id": 620110,
+    "qualityID": 6,
+    "qualityPlus": 0,
+    "consume": [
+      "506201,540",
+      "43,1000"
+    ],
+    "toFragment": [
+      "506201,1080"
+    ],
+    "wearAttributes": [
+      "HPMax%=120",
+      "Attack%=120",
+      "Defence%=120"
+    ],
+    "activePower": [
+      945,
+      0
+    ]
+  },
+  {
+    "id": 620111,
+    "qualityID": 6,
+    "qualityPlus": 1,
+    "consume": [
+      "506201,540",
+      "43,1400"
+    ],
+    "toFragment": [
+      "506201,1080"
+    ],
+    "wearAttributes": [
+      "HPMax%=160",
+      "Attack%=160",
+      "Defence%=160"
+    ],
+    "activePower": [
+      945,
+      0
+    ]
+  },
+  {
+    "id": 620112,
+    "qualityID": 6,
+    "qualityPlus": 2,
+    "consume": [],
+    "toFragment": [
+      "506201,1080"
+    ],
+    "wearAttributes": [
+      "HPMax%=200",
+      "Attack%=200",
+      "Defence%=200"
+    ],
+    "activePower": [
+      945,
+      0
+    ]
+  },
+  {
+    "id": 620201,
+    "qualityID": 1,
+    "qualityPlus": 0,
+    "consume": [
+      "506202,10"
+    ],
+    "toFragment": [
+      "506202,10"
+    ],
+    "wearAttributes": [
+      "HPMax%=5",
+      "Attack%=5",
+      "Defence%=5"
+    ],
+    "activePower": [
+      0,
+      0
+    ]
+  },
+  {
+    "id": 620202,
+    "qualityID": 2,
+    "qualityPlus": 0,
+    "consume": [
+      "506202,40"
+    ],
+    "toFragment": [
+      "506202,20"
+    ],
+    "wearAttributes": [
+      "HPMax%=10",
+      "Attack%=10",
+      "Defence%=10"
+    ],
+    "activePower": [
+      0,
+      0
+    ]
+  },
+  {
+    "id": 620203,
+    "qualityID": 3,
+    "qualityPlus": 0,
+    "consume": [
+      "506202,60"
+    ],
+    "toFragment": [
+      "506202,60"
+    ],
+    "wearAttributes": [
+      "HPMax%=15",
+      "Attack%=15",
+      "Defence%=15"
+    ],
+    "activePower": [
+      0,
+      0
+    ]
+  },
+  {
+    "id": 620204,
+    "qualityID": 4,
+    "qualityPlus": 0,
+    "consume": [
+      "506202,60",
+      "44,80"
+    ],
+    "toFragment": [
+      "506202,120"
+    ],
+    "wearAttributes": [
+      "HPMax%=20",
+      "Attack%=20",
+      "Defence%=20"
+    ],
+    "activePower": [
+      280,
+      0
+    ]
+  },
+  {
+    "id": 620205,
+    "qualityID": 4,
+    "qualityPlus": 1,
+    "consume": [
+      "506202,60",
+      "44,120"
+    ],
+    "toFragment": [
+      "506202,120"
+    ],
+    "wearAttributes": [
+      "HPMax%=30",
+      "Attack%=30",
+      "Defence%=30"
+    ],
+    "activePower": [
+      280,
+      0
+    ]
+  },
+  {
+    "id": 620206,
+    "qualityID": 4,
+    "qualityPlus": 2,
+    "consume": [
+      "506202,120",
+      "44,240"
+    ],
+    "toFragment": [
+      "506202,120"
+    ],
+    "wearAttributes": [
+      "HPMax%=40",
+      "Attack%=40",
+      "Defence%=40"
+    ],
+    "activePower": [
+      280,
+      0
+    ]
+  },
+  {
+    "id": 620207,
+    "qualityID": 5,
+    "qualityPlus": 0,
+    "consume": [
+      "506202,180",
+      "44,360"
+    ],
+    "toFragment": [
+      "506202,360"
+    ],
+    "wearAttributes": [
+      "HPMax%=60",
+      "Attack%=60",
+      "Defence%=60"
+    ],
+    "activePower": [
+      595,
+      0
+    ]
+  },
+  {
+    "id": 620208,
+    "qualityID": 5,
+    "qualityPlus": 1,
+    "consume": [
+      "506202,180",
+      "44,480"
+    ],
+    "toFragment": [
+      "506202,360"
+    ],
+    "wearAttributes": [
+      "HPMax%=80",
+      "Attack%=80",
+      "Defence%=80"
+    ],
+    "activePower": [
+      595,
+      0
+    ]
+  },
+  {
+    "id": 620209,
+    "qualityID": 5,
+    "qualityPlus": 2,
+    "consume": [
+      "506202,360",
+      "44,600"
+    ],
+    "toFragment": [
+      "506202,360"
+    ],
+    "wearAttributes": [
+      "HPMax%=100",
+      "Attack%=100",
+      "Defence%=100"
+    ],
+    "activePower": [
+      595,
+      0
+    ]
+  },
+  {
+    "id": 620210,
+    "qualityID": 6,
+    "qualityPlus": 0,
+    "consume": [
+      "506202,540",
+      "44,1000"
+    ],
+    "toFragment": [
+      "506202,1080"
+    ],
+    "wearAttributes": [
+      "HPMax%=120",
+      "Attack%=120",
+      "Defence%=120"
+    ],
+    "activePower": [
+      945,
+      0
+    ]
+  },
+  {
+    "id": 620211,
+    "qualityID": 6,
+    "qualityPlus": 1,
+    "consume": [
+      "506202,540",
+      "44,1400"
+    ],
+    "toFragment": [
+      "506202,1080"
+    ],
+    "wearAttributes": [
+      "HPMax%=160",
+      "Attack%=160",
+      "Defence%=160"
+    ],
+    "activePower": [
+      945,
+      0
+    ]
+  },
+  {
+    "id": 620212,
+    "qualityID": 6,
+    "qualityPlus": 2,
+    "consume": [],
+    "toFragment": [
+      "506202,1080"
+    ],
+    "wearAttributes": [
+      "HPMax%=200",
+      "Attack%=200",
+      "Defence%=200"
+    ],
+    "activePower": [
+      945,
+      0
+    ]
+  },
+  {
+    "id": 620301,
+    "qualityID": 1,
+    "qualityPlus": 0,
+    "consume": [
+      "506203,10"
+    ],
+    "toFragment": [
+      "506203,10"
+    ],
+    "wearAttributes": [
+      "HPMax%=5",
+      "Attack%=5",
+      "Defence%=5"
+    ],
+    "activePower": [
+      0,
+      0
+    ]
+  },
+  {
+    "id": 620302,
+    "qualityID": 2,
+    "qualityPlus": 0,
+    "consume": [
+      "506203,40"
+    ],
+    "toFragment": [
+      "506203,20"
+    ],
+    "wearAttributes": [
+      "HPMax%=10",
+      "Attack%=10",
+      "Defence%=10"
+    ],
+    "activePower": [
+      0,
+      0
+    ]
+  },
+  {
+    "id": 620303,
+    "qualityID": 3,
+    "qualityPlus": 0,
+    "consume": [
+      "506203,60"
+    ],
+    "toFragment": [
+      "506203,60"
+    ],
+    "wearAttributes": [
+      "HPMax%=15",
+      "Attack%=15",
+      "Defence%=15"
+    ],
+    "activePower": [
+      0,
+      0
+    ]
+  },
+  {
+    "id": 620304,
+    "qualityID": 4,
+    "qualityPlus": 0,
+    "consume": [
+      "506203,60",
+      "41,80"
+    ],
+    "toFragment": [
+      "506203,120"
+    ],
+    "wearAttributes": [
+      "HPMax%=20",
+      "Attack%=20",
+      "Defence%=20"
+    ],
+    "activePower": [
+      280,
+      0
+    ]
+  },
+  {
+    "id": 620305,
+    "qualityID": 4,
+    "qualityPlus": 1,
+    "consume": [
+      "506203,60",
+      "41,120"
+    ],
+    "toFragment": [
+      "506203,120"
+    ],
+    "wearAttributes": [
+      "HPMax%=30",
+      "Attack%=30",
+      "Defence%=30"
+    ],
+    "activePower": [
+      280,
+      0
+    ]
+  },
+  {
+    "id": 620306,
+    "qualityID": 4,
+    "qualityPlus": 2,
+    "consume": [
+      "506203,120",
+      "41,240"
+    ],
+    "toFragment": [
+      "506203,120"
+    ],
+    "wearAttributes": [
+      "HPMax%=40",
+      "Attack%=40",
+      "Defence%=40"
+    ],
+    "activePower": [
+      280,
+      0
+    ]
+  },
+  {
+    "id": 620307,
+    "qualityID": 5,
+    "qualityPlus": 0,
+    "consume": [
+      "506203,180",
+      "41,360"
+    ],
+    "toFragment": [
+      "506203,360"
+    ],
+    "wearAttributes": [
+      "HPMax%=60",
+      "Attack%=60",
+      "Defence%=60"
+    ],
+    "activePower": [
+      595,
+      0
+    ]
+  },
+  {
+    "id": 620308,
+    "qualityID": 5,
+    "qualityPlus": 1,
+    "consume": [
+      "506203,180",
+      "41,480"
+    ],
+    "toFragment": [
+      "506203,360"
+    ],
+    "wearAttributes": [
+      "HPMax%=80",
+      "Attack%=80",
+      "Defence%=80"
+    ],
+    "activePower": [
+      595,
+      0
+    ]
+  },
+  {
+    "id": 620309,
+    "qualityID": 5,
+    "qualityPlus": 2,
+    "consume": [
+      "506203,360",
+      "41,600"
+    ],
+    "toFragment": [
+      "506203,360"
+    ],
+    "wearAttributes": [
+      "HPMax%=100",
+      "Attack%=100",
+      "Defence%=100"
+    ],
+    "activePower": [
+      595,
+      0
+    ]
+  },
+  {
+    "id": 620310,
+    "qualityID": 6,
+    "qualityPlus": 0,
+    "consume": [
+      "506203,540",
+      "41,1000"
+    ],
+    "toFragment": [
+      "506203,1080"
+    ],
+    "wearAttributes": [
+      "HPMax%=120",
+      "Attack%=120",
+      "Defence%=120"
+    ],
+    "activePower": [
+      945,
+      0
+    ]
+  },
+  {
+    "id": 620311,
+    "qualityID": 6,
+    "qualityPlus": 1,
+    "consume": [
+      "506203,540",
+      "41,1400"
+    ],
+    "toFragment": [
+      "506203,1080"
+    ],
+    "wearAttributes": [
+      "HPMax%=160",
+      "Attack%=160",
+      "Defence%=160"
+    ],
+    "activePower": [
+      945,
+      0
+    ]
+  },
+  {
+    "id": 620312,
+    "qualityID": 6,
+    "qualityPlus": 2,
+    "consume": [],
+    "toFragment": [
+      "506203,1080"
+    ],
+    "wearAttributes": [
+      "HPMax%=200",
+      "Attack%=200",
+      "Defence%=200"
+    ],
+    "activePower": [
+      945,
+      0
+    ]
+  },
+  {
+    "id": 620401,
+    "qualityID": 1,
+    "qualityPlus": 0,
+    "consume": [
+      "506204,10"
+    ],
+    "toFragment": [
+      "506204,10"
+    ],
+    "wearAttributes": [
+      "HPMax%=5",
+      "Attack%=5",
+      "Defence%=5"
+    ],
+    "activePower": [
+      0,
+      0
+    ]
+  },
+  {
+    "id": 620402,
+    "qualityID": 2,
+    "qualityPlus": 0,
+    "consume": [
+      "506204,40"
+    ],
+    "toFragment": [
+      "506204,20"
+    ],
+    "wearAttributes": [
+      "HPMax%=10",
+      "Attack%=10",
+      "Defence%=10"
+    ],
+    "activePower": [
+      0,
+      0
+    ]
+  },
+  {
+    "id": 620403,
+    "qualityID": 3,
+    "qualityPlus": 0,
+    "consume": [
+      "506204,60"
+    ],
+    "toFragment": [
+      "506204,60"
+    ],
+    "wearAttributes": [
+      "HPMax%=15",
+      "Attack%=15",
+      "Defence%=15"
+    ],
+    "activePower": [
+      0,
+      0
+    ]
+  },
+  {
+    "id": 620404,
+    "qualityID": 4,
+    "qualityPlus": 0,
+    "consume": [
+      "506204,60",
+      "42,80"
+    ],
+    "toFragment": [
+      "506204,120"
+    ],
+    "wearAttributes": [
+      "HPMax%=20",
+      "Attack%=20",
+      "Defence%=20"
+    ],
+    "activePower": [
+      280,
+      0
+    ]
+  },
+  {
+    "id": 620405,
+    "qualityID": 4,
+    "qualityPlus": 1,
+    "consume": [
+      "506204,60",
+      "42,120"
+    ],
+    "toFragment": [
+      "506204,120"
+    ],
+    "wearAttributes": [
+      "HPMax%=30",
+      "Attack%=30",
+      "Defence%=30"
+    ],
+    "activePower": [
+      280,
+      0
+    ]
+  },
+  {
+    "id": 620406,
+    "qualityID": 4,
+    "qualityPlus": 2,
+    "consume": [
+      "506204,120",
+      "42,240"
+    ],
+    "toFragment": [
+      "506204,120"
+    ],
+    "wearAttributes": [
+      "HPMax%=40",
+      "Attack%=40",
+      "Defence%=40"
+    ],
+    "activePower": [
+      280,
+      0
+    ]
+  },
+  {
+    "id": 620407,
+    "qualityID": 5,
+    "qualityPlus": 0,
+    "consume": [
+      "506204,180",
+      "42,360"
+    ],
+    "toFragment": [
+      "506204,360"
+    ],
+    "wearAttributes": [
+      "HPMax%=60",
+      "Attack%=60",
+      "Defence%=60"
+    ],
+    "activePower": [
+      595,
+      0
+    ]
+  },
+  {
+    "id": 620408,
+    "qualityID": 5,
+    "qualityPlus": 1,
+    "consume": [
+      "506204,180",
+      "42,480"
+    ],
+    "toFragment": [
+      "506204,360"
+    ],
+    "wearAttributes": [
+      "HPMax%=80",
+      "Attack%=80",
+      "Defence%=80"
+    ],
+    "activePower": [
+      595,
+      0
+    ]
+  },
+  {
+    "id": 620409,
+    "qualityID": 5,
+    "qualityPlus": 2,
+    "consume": [
+      "506204,360",
+      "42,600"
+    ],
+    "toFragment": [
+      "506204,360"
+    ],
+    "wearAttributes": [
+      "HPMax%=100",
+      "Attack%=100",
+      "Defence%=100"
+    ],
+    "activePower": [
+      595,
+      0
+    ]
+  },
+  {
+    "id": 620410,
+    "qualityID": 6,
+    "qualityPlus": 0,
+    "consume": [
+      "506204,540",
+      "42,1000"
+    ],
+    "toFragment": [
+      "506204,1080"
+    ],
+    "wearAttributes": [
+      "HPMax%=120",
+      "Attack%=120",
+      "Defence%=120"
+    ],
+    "activePower": [
+      945,
+      0
+    ]
+  },
+  {
+    "id": 620411,
+    "qualityID": 6,
+    "qualityPlus": 1,
+    "consume": [
+      "506204,540",
+      "42,1400"
+    ],
+    "toFragment": [
+      "506204,1080"
+    ],
+    "wearAttributes": [
+      "HPMax%=160",
+      "Attack%=160",
+      "Defence%=160"
+    ],
+    "activePower": [
+      945,
+      0
+    ]
+  },
+  {
+    "id": 620412,
+    "qualityID": 6,
+    "qualityPlus": 2,
+    "consume": [],
+    "toFragment": [
+      "506204,1080"
+    ],
+    "wearAttributes": [
+      "HPMax%=200",
+      "Attack%=200",
+      "Defence%=200"
+    ],
+    "activePower": [
+      945,
+      0
+    ]
+  },
+  {
+    "id": 620501,
+    "qualityID": 1,
+    "qualityPlus": 0,
+    "consume": [
+      "506205,10"
+    ],
+    "toFragment": [
+      "506205,10"
+    ],
+    "wearAttributes": [
+      "HPMax%=5",
+      "Attack%=5",
+      "Defence%=5"
+    ],
+    "activePower": [
+      0,
+      0
+    ]
+  },
+  {
+    "id": 620502,
+    "qualityID": 2,
+    "qualityPlus": 0,
+    "consume": [
+      "506205,40"
+    ],
+    "toFragment": [
+      "506205,20"
+    ],
+    "wearAttributes": [
+      "HPMax%=10",
+      "Attack%=10",
+      "Defence%=10"
+    ],
+    "activePower": [
+      0,
+      0
+    ]
+  },
+  {
+    "id": 620503,
+    "qualityID": 3,
+    "qualityPlus": 0,
+    "consume": [
+      "506205,60"
+    ],
+    "toFragment": [
+      "506205,60"
+    ],
+    "wearAttributes": [
+      "HPMax%=15",
+      "Attack%=15",
+      "Defence%=15"
+    ],
+    "activePower": [
+      0,
+      0
+    ]
+  },
+  {
+    "id": 620504,
+    "qualityID": 4,
+    "qualityPlus": 0,
+    "consume": [
+      "506205,60",
+      "41,80"
+    ],
+    "toFragment": [
+      "506205,120"
+    ],
+    "wearAttributes": [
+      "HPMax%=20",
+      "Attack%=20",
+      "Defence%=20"
+    ],
+    "activePower": [
+      280,
+      0
+    ]
+  },
+  {
+    "id": 620505,
+    "qualityID": 4,
+    "qualityPlus": 1,
+    "consume": [
+      "506205,60",
+      "41,120"
+    ],
+    "toFragment": [
+      "506205,120"
+    ],
+    "wearAttributes": [
+      "HPMax%=30",
+      "Attack%=30",
+      "Defence%=30"
+    ],
+    "activePower": [
+      280,
+      0
+    ]
+  },
+  {
+    "id": 620506,
+    "qualityID": 4,
+    "qualityPlus": 2,
+    "consume": [
+      "506205,120",
+      "41,240"
+    ],
+    "toFragment": [
+      "506205,120"
+    ],
+    "wearAttributes": [
+      "HPMax%=40",
+      "Attack%=40",
+      "Defence%=40"
+    ],
+    "activePower": [
+      280,
+      0
+    ]
+  },
+  {
+    "id": 620507,
+    "qualityID": 5,
+    "qualityPlus": 0,
+    "consume": [
+      "506205,180",
+      "41,360"
+    ],
+    "toFragment": [
+      "506205,360"
+    ],
+    "wearAttributes": [
+      "HPMax%=60",
+      "Attack%=60",
+      "Defence%=60"
+    ],
+    "activePower": [
+      595,
+      0
+    ]
+  },
+  {
+    "id": 620508,
+    "qualityID": 5,
+    "qualityPlus": 1,
+    "consume": [
+      "506205,180",
+      "41,480"
+    ],
+    "toFragment": [
+      "506205,360"
+    ],
+    "wearAttributes": [
+      "HPMax%=80",
+      "Attack%=80",
+      "Defence%=80"
+    ],
+    "activePower": [
+      595,
+      0
+    ]
+  },
+  {
+    "id": 620509,
+    "qualityID": 5,
+    "qualityPlus": 2,
+    "consume": [
+      "506205,360",
+      "41,600"
+    ],
+    "toFragment": [
+      "506205,360"
+    ],
+    "wearAttributes": [
+      "HPMax%=100",
+      "Attack%=100",
+      "Defence%=100"
+    ],
+    "activePower": [
+      595,
+      0
+    ]
+  },
+  {
+    "id": 620510,
+    "qualityID": 6,
+    "qualityPlus": 0,
+    "consume": [
+      "506205,540",
+      "41,1000"
+    ],
+    "toFragment": [
+      "506205,1080"
+    ],
+    "wearAttributes": [
+      "HPMax%=120",
+      "Attack%=120",
+      "Defence%=120"
+    ],
+    "activePower": [
+      945,
+      0
+    ]
+  },
+  {
+    "id": 620511,
+    "qualityID": 6,
+    "qualityPlus": 1,
+    "consume": [
+      "506205,540",
+      "41,1400"
+    ],
+    "toFragment": [
+      "506205,1080"
+    ],
+    "wearAttributes": [
+      "HPMax%=160",
+      "Attack%=160",
+      "Defence%=160"
+    ],
+    "activePower": [
+      945,
+      0
+    ]
+  },
+  {
+    "id": 620512,
+    "qualityID": 6,
+    "qualityPlus": 2,
+    "consume": [],
+    "toFragment": [
+      "506205,1080"
+    ],
+    "wearAttributes": [
+      "HPMax%=200",
+      "Attack%=200",
+      "Defence%=200"
+    ],
+    "activePower": [
+      945,
+      0
+    ]
+  },
+  {
+    "id": 620601,
+    "qualityID": 1,
+    "qualityPlus": 0,
+    "consume": [
+      "506206,10"
+    ],
+    "toFragment": [
+      "506206,10"
+    ],
+    "wearAttributes": [
+      "HPMax%=5",
+      "Attack%=5",
+      "Defence%=5"
+    ],
+    "activePower": [
+      0,
+      0
+    ]
+  },
+  {
+    "id": 620602,
+    "qualityID": 2,
+    "qualityPlus": 0,
+    "consume": [
+      "506206,40"
+    ],
+    "toFragment": [
+      "506206,20"
+    ],
+    "wearAttributes": [
+      "HPMax%=10",
+      "Attack%=10",
+      "Defence%=10"
+    ],
+    "activePower": [
+      0,
+      0
+    ]
+  },
+  {
+    "id": 620603,
+    "qualityID": 3,
+    "qualityPlus": 0,
+    "consume": [
+      "506206,60"
+    ],
+    "toFragment": [
+      "506206,60"
+    ],
+    "wearAttributes": [
+      "HPMax%=15",
+      "Attack%=15",
+      "Defence%=15"
+    ],
+    "activePower": [
+      0,
+      0
+    ]
+  },
+  {
+    "id": 620604,
+    "qualityID": 4,
+    "qualityPlus": 0,
+    "consume": [
+      "506206,60",
+      "41,80"
+    ],
+    "toFragment": [
+      "506206,120"
+    ],
+    "wearAttributes": [
+      "HPMax%=20",
+      "Attack%=20",
+      "Defence%=20"
+    ],
+    "activePower": [
+      280,
+      0
+    ]
+  },
+  {
+    "id": 620605,
+    "qualityID": 4,
+    "qualityPlus": 1,
+    "consume": [
+      "506206,60",
+      "41,120"
+    ],
+    "toFragment": [
+      "506206,120"
+    ],
+    "wearAttributes": [
+      "HPMax%=30",
+      "Attack%=30",
+      "Defence%=30"
+    ],
+    "activePower": [
+      280,
+      0
+    ]
+  },
+  {
+    "id": 620606,
+    "qualityID": 4,
+    "qualityPlus": 2,
+    "consume": [
+      "506206,120",
+      "41,240"
+    ],
+    "toFragment": [
+      "506206,120"
+    ],
+    "wearAttributes": [
+      "HPMax%=40",
+      "Attack%=40",
+      "Defence%=40"
+    ],
+    "activePower": [
+      280,
+      0
+    ]
+  },
+  {
+    "id": 620607,
+    "qualityID": 5,
+    "qualityPlus": 0,
+    "consume": [
+      "506206,180",
+      "41,360"
+    ],
+    "toFragment": [
+      "506206,360"
+    ],
+    "wearAttributes": [
+      "HPMax%=60",
+      "Attack%=60",
+      "Defence%=60"
+    ],
+    "activePower": [
+      595,
+      0
+    ]
+  },
+  {
+    "id": 620608,
+    "qualityID": 5,
+    "qualityPlus": 1,
+    "consume": [
+      "506206,180",
+      "41,480"
+    ],
+    "toFragment": [
+      "506206,360"
+    ],
+    "wearAttributes": [
+      "HPMax%=80",
+      "Attack%=80",
+      "Defence%=80"
+    ],
+    "activePower": [
+      595,
+      0
+    ]
+  },
+  {
+    "id": 620609,
+    "qualityID": 5,
+    "qualityPlus": 2,
+    "consume": [
+      "506206,360",
+      "41,600"
+    ],
+    "toFragment": [
+      "506206,360"
+    ],
+    "wearAttributes": [
+      "HPMax%=100",
+      "Attack%=100",
+      "Defence%=100"
+    ],
+    "activePower": [
+      595,
+      0
+    ]
+  },
+  {
+    "id": 620610,
+    "qualityID": 6,
+    "qualityPlus": 0,
+    "consume": [
+      "506206,540",
+      "41,1000"
+    ],
+    "toFragment": [
+      "506206,1080"
+    ],
+    "wearAttributes": [
+      "HPMax%=120",
+      "Attack%=120",
+      "Defence%=120"
+    ],
+    "activePower": [
+      945,
+      0
+    ]
+  },
+  {
+    "id": 620611,
+    "qualityID": 6,
+    "qualityPlus": 1,
+    "consume": [
+      "506206,540",
+      "41,1400"
+    ],
+    "toFragment": [
+      "506206,1080"
+    ],
+    "wearAttributes": [
+      "HPMax%=160",
+      "Attack%=160",
+      "Defence%=160"
+    ],
+    "activePower": [
+      945,
+      0
+    ]
+  },
+  {
+    "id": 620612,
+    "qualityID": 6,
+    "qualityPlus": 2,
+    "consume": [],
+    "toFragment": [
+      "506206,1080"
+    ],
+    "wearAttributes": [
+      "HPMax%=200",
+      "Attack%=200",
+      "Defence%=200"
+    ],
+    "activePower": [
+      945,
+      0
+    ]
+  },
+  {
+    "id": 620701,
+    "qualityID": 1,
+    "qualityPlus": 0,
+    "consume": [
+      "506207,10"
+    ],
+    "toFragment": [
+      "506207,10"
+    ],
+    "wearAttributes": [
+      "HPMax%=5",
+      "Attack%=5",
+      "Defence%=5"
+    ],
+    "activePower": [
+      0,
+      0
+    ]
+  },
+  {
+    "id": 620702,
+    "qualityID": 2,
+    "qualityPlus": 0,
+    "consume": [
+      "506207,40"
+    ],
+    "toFragment": [
+      "506207,20"
+    ],
+    "wearAttributes": [
+      "HPMax%=10",
+      "Attack%=10",
+      "Defence%=10"
+    ],
+    "activePower": [
+      0,
+      0
+    ]
+  },
+  {
+    "id": 620703,
+    "qualityID": 3,
+    "qualityPlus": 0,
+    "consume": [
+      "506207,60"
+    ],
+    "toFragment": [
+      "506207,60"
+    ],
+    "wearAttributes": [
+      "HPMax%=15",
+      "Attack%=15",
+      "Defence%=15"
+    ],
+    "activePower": [
+      0,
+      0
+    ]
+  },
+  {
+    "id": 620704,
+    "qualityID": 4,
+    "qualityPlus": 0,
+    "consume": [
+      "506207,60",
+      "41,80"
+    ],
+    "toFragment": [
+      "506207,120"
+    ],
+    "wearAttributes": [
+      "HPMax%=20",
+      "Attack%=20",
+      "Defence%=20"
+    ],
+    "activePower": [
+      280,
+      0
+    ]
+  },
+  {
+    "id": 620705,
+    "qualityID": 4,
+    "qualityPlus": 1,
+    "consume": [
+      "506207,60",
+      "41,120"
+    ],
+    "toFragment": [
+      "506207,120"
+    ],
+    "wearAttributes": [
+      "HPMax%=30",
+      "Attack%=30",
+      "Defence%=30"
+    ],
+    "activePower": [
+      280,
+      0
+    ]
+  },
+  {
+    "id": 620706,
+    "qualityID": 4,
+    "qualityPlus": 2,
+    "consume": [
+      "506207,120",
+      "41,240"
+    ],
+    "toFragment": [
+      "506207,120"
+    ],
+    "wearAttributes": [
+      "HPMax%=40",
+      "Attack%=40",
+      "Defence%=40"
+    ],
+    "activePower": [
+      280,
+      0
+    ]
+  },
+  {
+    "id": 620707,
+    "qualityID": 5,
+    "qualityPlus": 0,
+    "consume": [
+      "506207,180",
+      "41,360"
+    ],
+    "toFragment": [
+      "506207,360"
+    ],
+    "wearAttributes": [
+      "HPMax%=60",
+      "Attack%=60",
+      "Defence%=60"
+    ],
+    "activePower": [
+      595,
+      0
+    ]
+  },
+  {
+    "id": 620708,
+    "qualityID": 5,
+    "qualityPlus": 1,
+    "consume": [
+      "506207,180",
+      "41,480"
+    ],
+    "toFragment": [
+      "506207,360"
+    ],
+    "wearAttributes": [
+      "HPMax%=80",
+      "Attack%=80",
+      "Defence%=80"
+    ],
+    "activePower": [
+      595,
+      0
+    ]
+  },
+  {
+    "id": 620709,
+    "qualityID": 5,
+    "qualityPlus": 2,
+    "consume": [
+      "506207,360",
+      "41,600"
+    ],
+    "toFragment": [
+      "506207,360"
+    ],
+    "wearAttributes": [
+      "HPMax%=100",
+      "Attack%=100",
+      "Defence%=100"
+    ],
+    "activePower": [
+      595,
+      0
+    ]
+  },
+  {
+    "id": 620710,
+    "qualityID": 6,
+    "qualityPlus": 0,
+    "consume": [
+      "506207,540",
+      "41,1000"
+    ],
+    "toFragment": [
+      "506207,1080"
+    ],
+    "wearAttributes": [
+      "HPMax%=120",
+      "Attack%=120",
+      "Defence%=120"
+    ],
+    "activePower": [
+      945,
+      0
+    ]
+  },
+  {
+    "id": 620711,
+    "qualityID": 6,
+    "qualityPlus": 1,
+    "consume": [
+      "506207,540",
+      "41,1400"
+    ],
+    "toFragment": [
+      "506207,1080"
+    ],
+    "wearAttributes": [
+      "HPMax%=160",
+      "Attack%=160",
+      "Defence%=160"
+    ],
+    "activePower": [
+      945,
+      0
+    ]
+  },
+  {
+    "id": 620712,
+    "qualityID": 6,
+    "qualityPlus": 2,
+    "consume": [],
+    "toFragment": [
+      "506207,1080"
+    ],
+    "wearAttributes": [
+      "HPMax%=200",
+      "Attack%=200",
+      "Defence%=200"
+    ],
+    "activePower": [
+      945,
+      0
+    ]
+  },
+  {
+    "id": 620801,
+    "qualityID": 1,
+    "qualityPlus": 0,
+    "consume": [
+      "506208,10"
+    ],
+    "toFragment": [
+      "506208,10"
+    ],
+    "wearAttributes": [
+      "HPMax%=5",
+      "Attack%=5",
+      "Defence%=5"
+    ],
+    "activePower": [
+      0,
+      0
+    ]
+  },
+  {
+    "id": 620802,
+    "qualityID": 2,
+    "qualityPlus": 0,
+    "consume": [
+      "506208,40"
+    ],
+    "toFragment": [
+      "506208,20"
+    ],
+    "wearAttributes": [
+      "HPMax%=10",
+      "Attack%=10",
+      "Defence%=10"
+    ],
+    "activePower": [
+      0,
+      0
+    ]
+  },
+  {
+    "id": 620803,
+    "qualityID": 3,
+    "qualityPlus": 0,
+    "consume": [
+      "506208,60"
+    ],
+    "toFragment": [
+      "506208,60"
+    ],
+    "wearAttributes": [
+      "HPMax%=15",
+      "Attack%=15",
+      "Defence%=15"
+    ],
+    "activePower": [
+      0,
+      0
+    ]
+  },
+  {
+    "id": 620804,
+    "qualityID": 4,
+    "qualityPlus": 0,
+    "consume": [
+      "506208,60",
+      "43,80"
+    ],
+    "toFragment": [
+      "506208,120"
+    ],
+    "wearAttributes": [
+      "HPMax%=20",
+      "Attack%=20",
+      "Defence%=20"
+    ],
+    "activePower": [
+      280,
+      0
+    ]
+  },
+  {
+    "id": 620805,
+    "qualityID": 4,
+    "qualityPlus": 1,
+    "consume": [
+      "506208,60",
+      "43,120"
+    ],
+    "toFragment": [
+      "506208,120"
+    ],
+    "wearAttributes": [
+      "HPMax%=30",
+      "Attack%=30",
+      "Defence%=30"
+    ],
+    "activePower": [
+      280,
+      0
+    ]
+  },
+  {
+    "id": 620806,
+    "qualityID": 4,
+    "qualityPlus": 2,
+    "consume": [
+      "506208,120",
+      "43,240"
+    ],
+    "toFragment": [
+      "506208,120"
+    ],
+    "wearAttributes": [
+      "HPMax%=40",
+      "Attack%=40",
+      "Defence%=40"
+    ],
+    "activePower": [
+      280,
+      0
+    ]
+  },
+  {
+    "id": 620807,
+    "qualityID": 5,
+    "qualityPlus": 0,
+    "consume": [
+      "506208,180",
+      "43,360"
+    ],
+    "toFragment": [
+      "506208,360"
+    ],
+    "wearAttributes": [
+      "HPMax%=60",
+      "Attack%=60",
+      "Defence%=60"
+    ],
+    "activePower": [
+      595,
+      0
+    ]
+  },
+  {
+    "id": 620808,
+    "qualityID": 5,
+    "qualityPlus": 1,
+    "consume": [
+      "506208,180",
+      "43,480"
+    ],
+    "toFragment": [
+      "506208,360"
+    ],
+    "wearAttributes": [
+      "HPMax%=80",
+      "Attack%=80",
+      "Defence%=80"
+    ],
+    "activePower": [
+      595,
+      0
+    ]
+  },
+  {
+    "id": 620809,
+    "qualityID": 5,
+    "qualityPlus": 2,
+    "consume": [
+      "506208,360",
+      "43,600"
+    ],
+    "toFragment": [
+      "506208,360"
+    ],
+    "wearAttributes": [
+      "HPMax%=100",
+      "Attack%=100",
+      "Defence%=100"
+    ],
+    "activePower": [
+      595,
+      0
+    ]
+  },
+  {
+    "id": 620810,
+    "qualityID": 6,
+    "qualityPlus": 0,
+    "consume": [
+      "506208,540",
+      "43,1000"
+    ],
+    "toFragment": [
+      "506208,1080"
+    ],
+    "wearAttributes": [
+      "HPMax%=120",
+      "Attack%=120",
+      "Defence%=120"
+    ],
+    "activePower": [
+      945,
+      0
+    ]
+  },
+  {
+    "id": 620811,
+    "qualityID": 6,
+    "qualityPlus": 1,
+    "consume": [
+      "506208,540",
+      "43,1400"
+    ],
+    "toFragment": [
+      "506208,1080"
+    ],
+    "wearAttributes": [
+      "HPMax%=160",
+      "Attack%=160",
+      "Defence%=160"
+    ],
+    "activePower": [
+      945,
+      0
+    ]
+  },
+  {
+    "id": 620812,
+    "qualityID": 6,
+    "qualityPlus": 2,
+    "consume": [],
+    "toFragment": [
+      "506208,1080"
+    ],
+    "wearAttributes": [
+      "HPMax%=200",
+      "Attack%=200",
+      "Defence%=200"
+    ],
+    "activePower": [
+      945,
+      0
+    ]
+  },
+  {
+    "id": 620901,
+    "qualityID": 1,
+    "qualityPlus": 0,
+    "consume": [
+      "506209,10"
+    ],
+    "toFragment": [
+      "506209,10"
+    ],
+    "wearAttributes": [
+      "HPMax%=5",
+      "Attack%=5",
+      "Defence%=5"
+    ],
+    "activePower": [
+      0,
+      0
+    ]
+  },
+  {
+    "id": 620902,
+    "qualityID": 2,
+    "qualityPlus": 0,
+    "consume": [
+      "506209,40"
+    ],
+    "toFragment": [
+      "506209,20"
+    ],
+    "wearAttributes": [
+      "HPMax%=10",
+      "Attack%=10",
+      "Defence%=10"
+    ],
+    "activePower": [
+      0,
+      0
+    ]
+  },
+  {
+    "id": 620903,
+    "qualityID": 3,
+    "qualityPlus": 0,
+    "consume": [
+      "506209,60"
+    ],
+    "toFragment": [
+      "506209,60"
+    ],
+    "wearAttributes": [
+      "HPMax%=15",
+      "Attack%=15",
+      "Defence%=15"
+    ],
+    "activePower": [
+      0,
+      0
+    ]
+  },
+  {
+    "id": 620904,
+    "qualityID": 4,
+    "qualityPlus": 0,
+    "consume": [
+      "506209,60",
+      "44,80"
+    ],
+    "toFragment": [
+      "506209,120"
+    ],
+    "wearAttributes": [
+      "HPMax%=20",
+      "Attack%=20",
+      "Defence%=20"
+    ],
+    "activePower": [
+      280,
+      0
+    ]
+  },
+  {
+    "id": 620905,
+    "qualityID": 4,
+    "qualityPlus": 1,
+    "consume": [
+      "506209,60",
+      "44,120"
+    ],
+    "toFragment": [
+      "506209,120"
+    ],
+    "wearAttributes": [
+      "HPMax%=30",
+      "Attack%=30",
+      "Defence%=30"
+    ],
+    "activePower": [
+      280,
+      0
+    ]
+  },
+  {
+    "id": 620906,
+    "qualityID": 4,
+    "qualityPlus": 2,
+    "consume": [
+      "506209,120",
+      "44,240"
+    ],
+    "toFragment": [
+      "506209,120"
+    ],
+    "wearAttributes": [
+      "HPMax%=40",
+      "Attack%=40",
+      "Defence%=40"
+    ],
+    "activePower": [
+      280,
+      0
+    ]
+  },
+  {
+    "id": 620907,
+    "qualityID": 5,
+    "qualityPlus": 0,
+    "consume": [
+      "506209,180",
+      "44,360"
+    ],
+    "toFragment": [
+      "506209,360"
+    ],
+    "wearAttributes": [
+      "HPMax%=60",
+      "Attack%=60",
+      "Defence%=60"
+    ],
+    "activePower": [
+      595,
+      0
+    ]
+  },
+  {
+    "id": 620908,
+    "qualityID": 5,
+    "qualityPlus": 1,
+    "consume": [
+      "506209,180",
+      "44,480"
+    ],
+    "toFragment": [
+      "506209,360"
+    ],
+    "wearAttributes": [
+      "HPMax%=80",
+      "Attack%=80",
+      "Defence%=80"
+    ],
+    "activePower": [
+      595,
+      0
+    ]
+  },
+  {
+    "id": 620909,
+    "qualityID": 5,
+    "qualityPlus": 2,
+    "consume": [
+      "506209,360",
+      "44,600"
+    ],
+    "toFragment": [
+      "506209,360"
+    ],
+    "wearAttributes": [
+      "HPMax%=100",
+      "Attack%=100",
+      "Defence%=100"
+    ],
+    "activePower": [
+      595,
+      0
+    ]
+  },
+  {
+    "id": 620910,
+    "qualityID": 6,
+    "qualityPlus": 0,
+    "consume": [
+      "506209,540",
+      "44,1000"
+    ],
+    "toFragment": [
+      "506209,1080"
+    ],
+    "wearAttributes": [
+      "HPMax%=120",
+      "Attack%=120",
+      "Defence%=120"
+    ],
+    "activePower": [
+      945,
+      0
+    ]
+  },
+  {
+    "id": 620911,
+    "qualityID": 6,
+    "qualityPlus": 1,
+    "consume": [
+      "506209,540",
+      "44,1400"
+    ],
+    "toFragment": [
+      "506209,1080"
+    ],
+    "wearAttributes": [
+      "HPMax%=160",
+      "Attack%=160",
+      "Defence%=160"
+    ],
+    "activePower": [
+      945,
+      0
+    ]
+  },
+  {
+    "id": 620912,
+    "qualityID": 6,
+    "qualityPlus": 2,
+    "consume": [],
+    "toFragment": [
+      "506209,1080"
+    ],
+    "wearAttributes": [
+      "HPMax%=200",
+      "Attack%=200",
+      "Defence%=200"
+    ],
+    "activePower": [
+      945,
+      0
+    ]
+  }
+]

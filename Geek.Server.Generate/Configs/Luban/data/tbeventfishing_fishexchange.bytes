@@ -1,0 +1,854 @@
+[
+  {
+    "id": 10101,
+    "tag": 0,
+    "needItem": [
+      "2004,1"
+    ],
+    "rewardItem": [
+      "2001,1"
+    ],
+    "limit": 10,
+    "group": 101
+  },
+  {
+    "id": 10102,
+    "tag": 0,
+    "needItem": [
+      "2002,1500"
+    ],
+    "rewardItem": [
+      "11,120"
+    ],
+    "limit": 50,
+    "group": 101
+  },
+  {
+    "id": 10103,
+    "tag": 0,
+    "needItem": [
+      "2002,1200"
+    ],
+    "rewardItem": [
+      "26,2000"
+    ],
+    "limit": 50,
+    "group": 101
+  },
+  {
+    "id": 10104,
+    "tag": 0,
+    "needItem": [
+      "2002,1000"
+    ],
+    "rewardItem": [
+      "27,40"
+    ],
+    "limit": 50,
+    "group": 101
+  },
+  {
+    "id": 10105,
+    "tag": 0,
+    "needItem": [
+      "2002,200"
+    ],
+    "rewardItem": [
+      "2001,5"
+    ],
+    "limit": 4,
+    "group": 101
+  },
+  {
+    "id": 10201,
+    "tag": 0,
+    "needItem": [
+      "2004,1"
+    ],
+    "rewardItem": [
+      "2001,1"
+    ],
+    "limit": 10,
+    "group": 101
+  },
+  {
+    "id": 10202,
+    "tag": 0,
+    "needItem": [
+      "2002,3000"
+    ],
+    "rewardItem": [
+      "25,20"
+    ],
+    "limit": 20,
+    "group": 101
+  },
+  {
+    "id": 10203,
+    "tag": 0,
+    "needItem": [
+      "2002,2400"
+    ],
+    "rewardItem": [
+      "61,10"
+    ],
+    "limit": 20,
+    "group": 101
+  },
+  {
+    "id": 10204,
+    "tag": 0,
+    "needItem": [
+      "2002,1400"
+    ],
+    "rewardItem": [
+      "73,2"
+    ],
+    "limit": 20,
+    "group": 101
+  },
+  {
+    "id": 10205,
+    "tag": 0,
+    "needItem": [
+      "2002,400"
+    ],
+    "rewardItem": [
+      "2001,5"
+    ],
+    "limit": 8,
+    "group": 101
+  },
+  {
+    "id": 10301,
+    "tag": 0,
+    "needItem": [
+      "2004,5"
+    ],
+    "rewardItem": [
+      "2001,5"
+    ],
+    "limit": 10,
+    "group": 101
+  },
+  {
+    "id": 10302,
+    "tag": 0,
+    "needItem": [
+      "2002,2000"
+    ],
+    "rewardItem": [
+      "28,100"
+    ],
+    "limit": 50,
+    "group": 101
+  },
+  {
+    "id": 10303,
+    "tag": 0,
+    "needItem": [
+      "2002,1800"
+    ],
+    "rewardItem": [
+      "74,1"
+    ],
+    "limit": 10,
+    "group": 101
+  },
+  {
+    "id": 10304,
+    "tag": 0,
+    "needItem": [
+      "2002,800"
+    ],
+    "rewardItem": [
+      "81,2"
+    ],
+    "limit": 10,
+    "group": 101
+  },
+  {
+    "id": 10305,
+    "tag": 0,
+    "needItem": [
+      "2002,600"
+    ],
+    "rewardItem": [
+      "2001,5"
+    ],
+    "limit": 12,
+    "group": 101
+  },
+  {
+    "id": 10401,
+    "tag": 0,
+    "needItem": [
+      "2004,5"
+    ],
+    "rewardItem": [
+      "2001,5"
+    ],
+    "limit": 10,
+    "group": 101
+  },
+  {
+    "id": 10402,
+    "tag": 0,
+    "needItem": [
+      "2002,20000"
+    ],
+    "rewardItem": [
+      "31,10"
+    ],
+    "limit": 5,
+    "group": 101
+  },
+  {
+    "id": 10403,
+    "tag": 0,
+    "needItem": [
+      "2002,10000"
+    ],
+    "rewardItem": [
+      "50,5"
+    ],
+    "limit": 3,
+    "group": 101
+  },
+  {
+    "id": 10404,
+    "tag": 0,
+    "needItem": [
+      "2002,9000"
+    ],
+    "rewardItem": [
+      "75,1"
+    ],
+    "limit": 5,
+    "group": 101
+  },
+  {
+    "id": 10405,
+    "tag": 0,
+    "needItem": [
+      "2002,6400"
+    ],
+    "rewardItem": [
+      "111,5"
+    ],
+    "limit": 5,
+    "group": 101
+  },
+  {
+    "id": 10406,
+    "tag": 0,
+    "needItem": [
+      "2002,5000"
+    ],
+    "rewardItem": [
+      "27,10"
+    ],
+    "limit": 1500,
+    "group": 101
+  },
+  {
+    "id": 10407,
+    "tag": 0,
+    "needItem": [
+      "2002,4800"
+    ],
+    "rewardItem": [
+      "5006,1"
+    ],
+    "limit": 20,
+    "group": 101
+  },
+  {
+    "id": 10408,
+    "tag": 0,
+    "needItem": [
+      "2002,4800"
+    ],
+    "rewardItem": [
+      "62,5"
+    ],
+    "limit": 5,
+    "group": 101
+  },
+  {
+    "id": 10409,
+    "tag": 0,
+    "needItem": [
+      "2002,3200"
+    ],
+    "rewardItem": [
+      "46,1"
+    ],
+    "limit": 1,
+    "group": 101
+  },
+  {
+    "id": 10410,
+    "tag": 0,
+    "needItem": [
+      "2002,1500"
+    ],
+    "rewardItem": [
+      "2001,10"
+    ],
+    "limit": 8,
+    "group": 101
+  },
+  {
+    "id": 20001,
+    "tag": 1,
+    "needItem": [
+      "2003,8"
+    ],
+    "rewardItem": [
+      "620704,1"
+    ],
+    "limit": 18,
+    "group": 101
+  },
+  {
+    "id": 20002,
+    "tag": 1,
+    "needItem": [
+      "2003,8"
+    ],
+    "rewardItem": [
+      "358002,1"
+    ],
+    "limit": 16,
+    "group": 101
+  },
+  {
+    "id": 20003,
+    "tag": 1,
+    "needItem": [
+      "2003,12"
+    ],
+    "rewardItem": [
+      "5003,1"
+    ],
+    "limit": 1,
+    "group": 101
+  },
+  {
+    "id": 20004,
+    "tag": 1,
+    "needItem": [
+      "2003,12"
+    ],
+    "rewardItem": [
+      "5007,1"
+    ],
+    "limit": 1,
+    "group": 101
+  },
+  {
+    "id": 20005,
+    "tag": 1,
+    "needItem": [
+      "2003,10"
+    ],
+    "rewardItem": [
+      "521504,1"
+    ],
+    "limit": 18,
+    "group": 101
+  },
+  {
+    "id": 20006,
+    "tag": 1,
+    "needItem": [
+      "2003,8"
+    ],
+    "rewardItem": [
+      "5005,1"
+    ],
+    "limit": 1,
+    "group": 101
+  },
+  {
+    "id": 20007,
+    "tag": 1,
+    "needItem": [
+      "2003,5"
+    ],
+    "rewardItem": [
+      "6002,1"
+    ],
+    "limit": 5,
+    "group": 101
+  },
+  {
+    "id": 20008,
+    "tag": 1,
+    "needItem": [
+      "2003,3"
+    ],
+    "rewardItem": [
+      "5004,1"
+    ],
+    "limit": 1,
+    "group": 101
+  },
+  {
+    "id": 20009,
+    "tag": 1,
+    "needItem": [
+      "2003,2"
+    ],
+    "rewardItem": [
+      "6003,1"
+    ],
+    "limit": 5,
+    "group": 101
+  },
+  {
+    "id": 20010,
+    "tag": 1,
+    "needItem": [
+      "2003,1"
+    ],
+    "rewardItem": [
+      "46,1"
+    ],
+    "limit": 20,
+    "group": 101
+  },
+  {
+    "id": 10111,
+    "tag": 0,
+    "needItem": [
+      "2004,1"
+    ],
+    "rewardItem": [
+      "2001,1"
+    ],
+    "limit": 10,
+    "group": 102
+  },
+  {
+    "id": 10112,
+    "tag": 0,
+    "needItem": [
+      "2002,1500"
+    ],
+    "rewardItem": [
+      "11,120"
+    ],
+    "limit": 50,
+    "group": 102
+  },
+  {
+    "id": 10113,
+    "tag": 0,
+    "needItem": [
+      "2002,1200"
+    ],
+    "rewardItem": [
+      "26,2000"
+    ],
+    "limit": 50,
+    "group": 102
+  },
+  {
+    "id": 10114,
+    "tag": 0,
+    "needItem": [
+      "2002,1000"
+    ],
+    "rewardItem": [
+      "27,40"
+    ],
+    "limit": 50,
+    "group": 102
+  },
+  {
+    "id": 10115,
+    "tag": 0,
+    "needItem": [
+      "2002,200"
+    ],
+    "rewardItem": [
+      "2001,5"
+    ],
+    "limit": 4,
+    "group": 102
+  },
+  {
+    "id": 10211,
+    "tag": 0,
+    "needItem": [
+      "2004,1"
+    ],
+    "rewardItem": [
+      "2001,1"
+    ],
+    "limit": 10,
+    "group": 102
+  },
+  {
+    "id": 10212,
+    "tag": 0,
+    "needItem": [
+      "2002,3000"
+    ],
+    "rewardItem": [
+      "25,20"
+    ],
+    "limit": 20,
+    "group": 102
+  },
+  {
+    "id": 10213,
+    "tag": 0,
+    "needItem": [
+      "2002,2400"
+    ],
+    "rewardItem": [
+      "61,10"
+    ],
+    "limit": 20,
+    "group": 102
+  },
+  {
+    "id": 10214,
+    "tag": 0,
+    "needItem": [
+      "2002,1400"
+    ],
+    "rewardItem": [
+      "73,2"
+    ],
+    "limit": 20,
+    "group": 102
+  },
+  {
+    "id": 10215,
+    "tag": 0,
+    "needItem": [
+      "2002,400"
+    ],
+    "rewardItem": [
+      "2001,5"
+    ],
+    "limit": 8,
+    "group": 102
+  },
+  {
+    "id": 10311,
+    "tag": 0,
+    "needItem": [
+      "2004,5"
+    ],
+    "rewardItem": [
+      "2001,5"
+    ],
+    "limit": 10,
+    "group": 102
+  },
+  {
+    "id": 10312,
+    "tag": 0,
+    "needItem": [
+      "2002,2000"
+    ],
+    "rewardItem": [
+      "28,100"
+    ],
+    "limit": 50,
+    "group": 102
+  },
+  {
+    "id": 10313,
+    "tag": 0,
+    "needItem": [
+      "2002,1800"
+    ],
+    "rewardItem": [
+      "74,1"
+    ],
+    "limit": 10,
+    "group": 102
+  },
+  {
+    "id": 10314,
+    "tag": 0,
+    "needItem": [
+      "2002,800"
+    ],
+    "rewardItem": [
+      "81,2"
+    ],
+    "limit": 10,
+    "group": 102
+  },
+  {
+    "id": 10315,
+    "tag": 0,
+    "needItem": [
+      "2002,600"
+    ],
+    "rewardItem": [
+      "2001,5"
+    ],
+    "limit": 12,
+    "group": 102
+  },
+  {
+    "id": 10421,
+    "tag": 0,
+    "needItem": [
+      "2004,5"
+    ],
+    "rewardItem": [
+      "2001,5"
+    ],
+    "limit": 10,
+    "group": 102
+  },
+  {
+    "id": 10422,
+    "tag": 0,
+    "needItem": [
+      "2002,20000"
+    ],
+    "rewardItem": [
+      "31,10"
+    ],
+    "limit": 5,
+    "group": 102
+  },
+  {
+    "id": 10423,
+    "tag": 0,
+    "needItem": [
+      "2002,10000"
+    ],
+    "rewardItem": [
+      "50,5"
+    ],
+    "limit": 2,
+    "group": 102
+  },
+  {
+    "id": 10424,
+    "tag": 0,
+    "needItem": [
+      "2002,9000"
+    ],
+    "rewardItem": [
+      "75,1"
+    ],
+    "limit": 5,
+    "group": 102
+  },
+  {
+    "id": 10425,
+    "tag": 0,
+    "needItem": [
+      "2002,6400"
+    ],
+    "rewardItem": [
+      "111,5"
+    ],
+    "limit": 3,
+    "group": 102
+  },
+  {
+    "id": 10426,
+    "tag": 0,
+    "needItem": [
+      "2002,5000"
+    ],
+    "rewardItem": [
+      "27,10"
+    ],
+    "limit": 1500,
+    "group": 102
+  },
+  {
+    "id": 10427,
+    "tag": 0,
+    "needItem": [
+      "2002,4800"
+    ],
+    "rewardItem": [
+      "5006,1"
+    ],
+    "limit": 3,
+    "group": 102
+  },
+  {
+    "id": 10428,
+    "tag": 0,
+    "needItem": [
+      "2002,4800"
+    ],
+    "rewardItem": [
+      "62,5"
+    ],
+    "limit": 3,
+    "group": 102
+  },
+  {
+    "id": 10429,
+    "tag": 0,
+    "needItem": [
+      "2002,3200"
+    ],
+    "rewardItem": [
+      "46,1"
+    ],
+    "limit": 4,
+    "group": 102
+  },
+  {
+    "id": 10430,
+    "tag": 0,
+    "needItem": [
+      "2002,1500"
+    ],
+    "rewardItem": [
+      "2001,10"
+    ],
+    "limit": 8,
+    "group": 102
+  },
+  {
+    "id": 20101,
+    "tag": 1,
+    "needItem": [
+      "2003,10"
+    ],
+    "rewardItem": [
+      "5014,1"
+    ],
+    "limit": 5,
+    "group": 102
+  },
+  {
+    "id": 20102,
+    "tag": 1,
+    "needItem": [
+      "2003,10"
+    ],
+    "rewardItem": [
+      "521504,1"
+    ],
+    "limit": 5,
+    "group": 102
+  },
+  {
+    "id": 20103,
+    "tag": 1,
+    "needItem": [
+      "2003,10"
+    ],
+    "rewardItem": [
+      "330702,1"
+    ],
+    "limit": 5,
+    "group": 102
+  },
+  {
+    "id": 20104,
+    "tag": 1,
+    "needItem": [
+      "2003,8"
+    ],
+    "rewardItem": [
+      "5015,1"
+    ],
+    "limit": 5,
+    "group": 102
+  },
+  {
+    "id": 20105,
+    "tag": 1,
+    "needItem": [
+      "2003,8"
+    ],
+    "rewardItem": [
+      "5005,1"
+    ],
+    "limit": 1,
+    "group": 102
+  },
+  {
+    "id": 20106,
+    "tag": 1,
+    "needItem": [
+      "2003,6"
+    ],
+    "rewardItem": [
+      "36,1"
+    ],
+    "limit": 1,
+    "group": 102
+  },
+  {
+    "id": 20107,
+    "tag": 1,
+    "needItem": [
+      "2003,5"
+    ],
+    "rewardItem": [
+      "6002,1"
+    ],
+    "limit": 5,
+    "group": 102
+  },
+  {
+    "id": 20108,
+    "tag": 1,
+    "needItem": [
+      "2003,4"
+    ],
+    "rewardItem": [
+      "112,1"
+    ],
+    "limit": 1,
+    "group": 102
+  },
+  {
+    "id": 20109,
+    "tag": 1,
+    "needItem": [
+      "2003,3"
+    ],
+    "rewardItem": [
+      "5004,1"
+    ],
+    "limit": 1,
+    "group": 102
+  },
+  {
+    "id": 20110,
+    "tag": 1,
+    "needItem": [
+      "2003,2"
+    ],
+    "rewardItem": [
+      "6003,1"
+    ],
+    "limit": 5,
+    "group": 102
+  },
+  {
+    "id": 20111,
+    "tag": 1,
+    "needItem": [
+      "2003,1"
+    ],
+    "rewardItem": [
+      "46,1"
+    ],
+    "limit": 5,
+    "group": 102
+  }
+]

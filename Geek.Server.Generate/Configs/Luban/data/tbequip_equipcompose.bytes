@@ -1,0 +1,560 @@
+[
+  {
+    "id": 1,
+    "composeTo": 2,
+    "qualityPlus": 0,
+    "composeNeed1": 2,
+    "composeNeed2": 1,
+    "composeNeed3": 2,
+    "universalItem": [],
+    "composeItem1": 0,
+    "composeItem2": 0,
+    "composeItem3": 0,
+    "composeItem4": 0,
+    "RecycleSelfquality": [],
+    "RecycleSelf": [],
+    "Recycle1New": [],
+    "Recycle2New": [],
+    "Recycle3New": [],
+    "Recycle4New": [],
+    "Recycle1": [],
+    "Recycle2": [],
+    "Recycle3": [],
+    "Recycle4": [],
+    "qualityAttributes": 0,
+    "qualityColor": 1,
+    "nameID": "601"
+  },
+  {
+    "id": 2,
+    "composeTo": 3,
+    "qualityPlus": 0,
+    "composeNeed1": 2,
+    "composeNeed2": 2,
+    "composeNeed3": 2,
+    "universalItem": [],
+    "composeItem1": 0,
+    "composeItem2": 0,
+    "composeItem3": 0,
+    "composeItem4": 0,
+    "RecycleSelfquality": [],
+    "RecycleSelf": [],
+    "Recycle1New": [],
+    "Recycle2New": [],
+    "Recycle3New": [],
+    "Recycle4New": [],
+    "Recycle1": [],
+    "Recycle2": [],
+    "Recycle3": [],
+    "Recycle4": [],
+    "qualityAttributes": 5000,
+    "qualityColor": 2,
+    "nameID": "602"
+  },
+  {
+    "id": 3,
+    "composeTo": 4,
+    "qualityPlus": 0,
+    "composeNeed1": 2,
+    "composeNeed2": 3,
+    "composeNeed3": 2,
+    "universalItem": [],
+    "composeItem1": 0,
+    "composeItem2": 0,
+    "composeItem3": 0,
+    "composeItem4": 0,
+    "RecycleSelfquality": [],
+    "RecycleSelf": [],
+    "Recycle1New": [],
+    "Recycle2New": [],
+    "Recycle3New": [],
+    "Recycle4New": [],
+    "Recycle1": [],
+    "Recycle2": [],
+    "Recycle3": [],
+    "Recycle4": [],
+    "qualityAttributes": 5000,
+    "qualityColor": 3,
+    "nameID": "603"
+  },
+  {
+    "id": 4,
+    "composeTo": 5,
+    "qualityPlus": 0,
+    "composeNeed1": 1,
+    "composeNeed2": 4,
+    "composeNeed3": 1,
+    "universalItem": [],
+    "composeItem1": 100104,
+    "composeItem2": 100204,
+    "composeItem3": 100304,
+    "composeItem4": 100404,
+    "RecycleSelfquality": [],
+    "RecycleSelf": [],
+    "Recycle1New": [],
+    "Recycle2New": [],
+    "Recycle3New": [],
+    "Recycle4New": [],
+    "Recycle1": [],
+    "Recycle2": [],
+    "Recycle3": [],
+    "Recycle4": [],
+    "qualityAttributes": 5000,
+    "qualityColor": 4,
+    "nameID": "604"
+  },
+  {
+    "id": 5,
+    "composeTo": 6,
+    "qualityPlus": 1,
+    "composeNeed1": 1,
+    "composeNeed2": 4,
+    "composeNeed3": 2,
+    "universalItem": [],
+    "composeItem1": 100104,
+    "composeItem2": 100204,
+    "composeItem3": 100304,
+    "composeItem4": 100404,
+    "RecycleSelfquality": [],
+    "RecycleSelf": [],
+    "Recycle1New": [
+      "100104,1"
+    ],
+    "Recycle2New": [
+      "100204,1"
+    ],
+    "Recycle3New": [
+      "100304,1"
+    ],
+    "Recycle4New": [
+      "100404,1"
+    ],
+    "Recycle1": [
+      "100104,1"
+    ],
+    "Recycle2": [
+      "100204,1"
+    ],
+    "Recycle3": [
+      "100304,1"
+    ],
+    "Recycle4": [
+      "100404,1"
+    ],
+    "qualityAttributes": 5000,
+    "qualityColor": 4,
+    "nameID": "605"
+  },
+  {
+    "id": 6,
+    "composeTo": 7,
+    "qualityPlus": 2,
+    "composeNeed1": 2,
+    "composeNeed2": 6,
+    "composeNeed3": 2,
+    "universalItem": [],
+    "composeItem1": 0,
+    "composeItem2": 0,
+    "composeItem3": 0,
+    "composeItem4": 0,
+    "RecycleSelfquality": [],
+    "RecycleSelf": [],
+    "Recycle1New": [
+      "100104,3"
+    ],
+    "Recycle2New": [
+      "100204,3"
+    ],
+    "Recycle3New": [
+      "100304,3"
+    ],
+    "Recycle4New": [
+      "100404,3"
+    ],
+    "Recycle1": [
+      "100104,3"
+    ],
+    "Recycle2": [
+      "100204,3"
+    ],
+    "Recycle3": [
+      "100304,3"
+    ],
+    "Recycle4": [
+      "100404,3"
+    ],
+    "qualityAttributes": 5000,
+    "qualityColor": 4,
+    "nameID": "606"
+  },
+  {
+    "id": 7,
+    "composeTo": 8,
+    "qualityPlus": 0,
+    "composeNeed1": 1,
+    "composeNeed2": 7,
+    "composeNeed3": 1,
+    "universalItem": [
+      100100,
+      100200,
+      100300,
+      100400
+    ],
+    "composeItem1": 100105,
+    "composeItem2": 100205,
+    "composeItem3": 100305,
+    "composeItem4": 100405,
+    "RecycleSelfquality": [],
+    "RecycleSelf": [],
+    "Recycle1New": [],
+    "Recycle2New": [],
+    "Recycle3New": [],
+    "Recycle4New": [],
+    "Recycle1": [],
+    "Recycle2": [],
+    "Recycle3": [],
+    "Recycle4": [],
+    "qualityAttributes": 15000,
+    "qualityColor": 5,
+    "nameID": "607"
+  },
+  {
+    "id": 8,
+    "composeTo": 9,
+    "qualityPlus": 1,
+    "composeNeed1": 1,
+    "composeNeed2": 7,
+    "composeNeed3": 1,
+    "universalItem": [
+      100100,
+      100200,
+      100300,
+      100400
+    ],
+    "composeItem1": 100105,
+    "composeItem2": 100205,
+    "composeItem3": 100305,
+    "composeItem4": 100405,
+    "RecycleSelfquality": [],
+    "RecycleSelf": [],
+    "Recycle1New": [
+      "100105,1"
+    ],
+    "Recycle2New": [
+      "100205,1"
+    ],
+    "Recycle3New": [
+      "100305,1"
+    ],
+    "Recycle4New": [
+      "100405,1"
+    ],
+    "Recycle1": [
+      "100105,1"
+    ],
+    "Recycle2": [
+      "100205,1"
+    ],
+    "Recycle3": [
+      "100305,1"
+    ],
+    "Recycle4": [
+      "100405,1"
+    ],
+    "qualityAttributes": 10000,
+    "qualityColor": 5,
+    "nameID": "608"
+  },
+  {
+    "id": 9,
+    "composeTo": 10,
+    "qualityPlus": 2,
+    "composeNeed1": 3,
+    "composeNeed2": 7,
+    "composeNeed3": 1,
+    "universalItem": [
+      100100,
+      100200,
+      100300,
+      100400
+    ],
+    "composeItem1": 0,
+    "composeItem2": 0,
+    "composeItem3": 0,
+    "composeItem4": 0,
+    "RecycleSelfquality": [],
+    "RecycleSelf": [],
+    "Recycle1New": [
+      "100105,2"
+    ],
+    "Recycle2New": [
+      "100205,2"
+    ],
+    "Recycle3New": [
+      "100305,2"
+    ],
+    "Recycle4New": [
+      "100405,2"
+    ],
+    "Recycle1": [
+      "100105,2"
+    ],
+    "Recycle2": [
+      "100205,2"
+    ],
+    "Recycle3": [
+      "100305,2"
+    ],
+    "Recycle4": [
+      "100405,2"
+    ],
+    "qualityAttributes": 10000,
+    "qualityColor": 5,
+    "nameID": "609"
+  },
+  {
+    "id": 10,
+    "composeTo": 11,
+    "qualityPlus": 3,
+    "composeNeed1": 2,
+    "composeNeed2": 10,
+    "composeNeed3": 2,
+    "universalItem": [
+      100100,
+      100200,
+      100300,
+      100400
+    ],
+    "composeItem1": 0,
+    "composeItem2": 0,
+    "composeItem3": 0,
+    "composeItem4": 0,
+    "RecycleSelfquality": [
+      7
+    ],
+    "RecycleSelf": [
+      1
+    ],
+    "Recycle1New": [
+      "100105,2"
+    ],
+    "Recycle2New": [
+      "100205,2"
+    ],
+    "Recycle3New": [
+      "100305,2"
+    ],
+    "Recycle4New": [
+      "100405,2"
+    ],
+    "Recycle1": [
+      "100105,3"
+    ],
+    "Recycle2": [
+      "100205,3"
+    ],
+    "Recycle3": [
+      "100305,3"
+    ],
+    "Recycle4": [
+      "100405,3"
+    ],
+    "qualityAttributes": 10000,
+    "qualityColor": 5,
+    "nameID": "610"
+  },
+  {
+    "id": 11,
+    "composeTo": 12,
+    "qualityPlus": 0,
+    "composeNeed1": 1,
+    "composeNeed2": 11,
+    "composeNeed3": 1,
+    "universalItem": [],
+    "composeItem1": 100106,
+    "composeItem2": 100206,
+    "composeItem3": 100306,
+    "composeItem4": 100406,
+    "RecycleSelfquality": [],
+    "RecycleSelf": [],
+    "Recycle1New": [],
+    "Recycle2New": [],
+    "Recycle3New": [],
+    "Recycle4New": [],
+    "Recycle1": [],
+    "Recycle2": [],
+    "Recycle3": [],
+    "Recycle4": [],
+    "qualityAttributes": 20000,
+    "qualityColor": 6,
+    "nameID": "611"
+  },
+  {
+    "id": 12,
+    "composeTo": 13,
+    "qualityPlus": 1,
+    "composeNeed1": 1,
+    "composeNeed2": 11,
+    "composeNeed3": 1,
+    "universalItem": [],
+    "composeItem1": 100106,
+    "composeItem2": 100206,
+    "composeItem3": 100306,
+    "composeItem4": 100406,
+    "RecycleSelfquality": [],
+    "RecycleSelf": [],
+    "Recycle1New": [
+      "100106,1"
+    ],
+    "Recycle2New": [
+      "100206,1"
+    ],
+    "Recycle3New": [
+      "100306,1"
+    ],
+    "Recycle4New": [
+      "100406,1"
+    ],
+    "Recycle1": [
+      "100106,1"
+    ],
+    "Recycle2": [
+      "100206,1"
+    ],
+    "Recycle3": [
+      "100306,1"
+    ],
+    "Recycle4": [
+      "100406,1"
+    ],
+    "qualityAttributes": 10000,
+    "qualityColor": 6,
+    "nameID": "612"
+  },
+  {
+    "id": 13,
+    "composeTo": 14,
+    "qualityPlus": 2,
+    "composeNeed1": 1,
+    "composeNeed2": 11,
+    "composeNeed3": 1,
+    "universalItem": [],
+    "composeItem1": 100106,
+    "composeItem2": 100206,
+    "composeItem3": 100306,
+    "composeItem4": 100406,
+    "RecycleSelfquality": [],
+    "RecycleSelf": [],
+    "Recycle1New": [
+      "100106,2"
+    ],
+    "Recycle2New": [
+      "100206,2"
+    ],
+    "Recycle3New": [
+      "100306,2"
+    ],
+    "Recycle4New": [
+      "100406,2"
+    ],
+    "Recycle1": [
+      "100106,2"
+    ],
+    "Recycle2": [
+      "100206,2"
+    ],
+    "Recycle3": [
+      "100306,2"
+    ],
+    "Recycle4": [
+      "100406,2"
+    ],
+    "qualityAttributes": 10000,
+    "qualityColor": 6,
+    "nameID": "613"
+  },
+  {
+    "id": 14,
+    "composeTo": 15,
+    "qualityPlus": 3,
+    "composeNeed1": 1,
+    "composeNeed2": 11,
+    "composeNeed3": 1,
+    "universalItem": [],
+    "composeItem1": 100106,
+    "composeItem2": 100206,
+    "composeItem3": 100306,
+    "composeItem4": 100406,
+    "RecycleSelfquality": [],
+    "RecycleSelf": [],
+    "Recycle1New": [
+      "100106,3"
+    ],
+    "Recycle2New": [
+      "100206,3"
+    ],
+    "Recycle3New": [
+      "100306,3"
+    ],
+    "Recycle4New": [
+      "100406,3"
+    ],
+    "Recycle1": [
+      "100106,3"
+    ],
+    "Recycle2": [
+      "100206,3"
+    ],
+    "Recycle3": [
+      "100306,3"
+    ],
+    "Recycle4": [
+      "100406,3"
+    ],
+    "qualityAttributes": 10000,
+    "qualityColor": 6,
+    "nameID": "614"
+  },
+  {
+    "id": 15,
+    "composeTo": 0,
+    "qualityPlus": 4,
+    "composeNeed1": 2,
+    "composeNeed2": 15,
+    "composeNeed3": 2,
+    "universalItem": [],
+    "composeItem1": 0,
+    "composeItem2": 0,
+    "composeItem3": 0,
+    "composeItem4": 0,
+    "RecycleSelfquality": [],
+    "RecycleSelf": [],
+    "Recycle1New": [
+      "100106,4"
+    ],
+    "Recycle2New": [
+      "100206,4"
+    ],
+    "Recycle3New": [
+      "100306,4"
+    ],
+    "Recycle4New": [
+      "100406,4"
+    ],
+    "Recycle1": [
+      "100106,4"
+    ],
+    "Recycle2": [
+      "100206,4"
+    ],
+    "Recycle3": [
+      "100306,4"
+    ],
+    "Recycle4": [
+      "100406,4"
+    ],
+    "qualityAttributes": 10000,
+    "qualityColor": 6,
+    "nameID": "615"
+  }
+]

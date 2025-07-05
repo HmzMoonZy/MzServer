@@ -1,0 +1,178 @@
+[
+  {
+    "id": 1,
+    "groupId": 101,
+    "weight": 30,
+    "param": [
+      "1",
+      "HPMax",
+      "7"
+    ],
+    "atlas": 101,
+    "icon": "icon_hp"
+  },
+  {
+    "id": 2,
+    "groupId": 101,
+    "weight": 30,
+    "param": [
+      "1",
+      "Attack",
+      "7"
+    ],
+    "atlas": 101,
+    "icon": "icon_attack"
+  },
+  {
+    "id": 3,
+    "groupId": 101,
+    "weight": 30,
+    "param": [
+      "1",
+      "Defense",
+      "7"
+    ],
+    "atlas": 101,
+    "icon": "icon_defense"
+  },
+  {
+    "id": 4,
+    "groupId": 101,
+    "weight": 20,
+    "param": [
+      "1",
+      "HPMax",
+      "14"
+    ],
+    "atlas": 101,
+    "icon": "icon_hp_02"
+  },
+  {
+    "id": 5,
+    "groupId": 101,
+    "weight": 20,
+    "param": [
+      "1",
+      "Attack",
+      "14"
+    ],
+    "atlas": 101,
+    "icon": "icon_attack_02"
+  },
+  {
+    "id": 6,
+    "groupId": 101,
+    "weight": 20,
+    "param": [
+      "1",
+      "Defense",
+      "14"
+    ],
+    "atlas": 101,
+    "icon": "icon_defense_02"
+  },
+  {
+    "id": 7,
+    "groupId": 101,
+    "weight": 10,
+    "param": [
+      "1",
+      "HPMax",
+      "21"
+    ],
+    "atlas": 101,
+    "icon": "icon_hp_03"
+  },
+  {
+    "id": 8,
+    "groupId": 101,
+    "weight": 10,
+    "param": [
+      "1",
+      "Attack",
+      "21"
+    ],
+    "atlas": 101,
+    "icon": "icon_attack_03"
+  },
+  {
+    "id": 9,
+    "groupId": 101,
+    "weight": 10,
+    "param": [
+      "1",
+      "Defense",
+      "21"
+    ],
+    "atlas": 101,
+    "icon": "icon_defense_03"
+  },
+  {
+    "id": 10,
+    "groupId": 102,
+    "weight": 60,
+    "param": [
+      "2",
+      "12",
+      "1"
+    ],
+    "atlas": 0,
+    "icon": ""
+  },
+  {
+    "id": 11,
+    "groupId": 102,
+    "weight": 10,
+    "param": [
+      "2",
+      "13",
+      "1"
+    ],
+    "atlas": 0,
+    "icon": ""
+  },
+  {
+    "id": 12,
+    "groupId": 102,
+    "weight": 30,
+    "param": [
+      "0"
+    ],
+    "atlas": 101,
+    "icon": "icon_bomb"
+  },
+  {
+    "id": 13,
+    "groupId": 103,
+    "weight": 30,
+    "param": [
+      "2",
+      "13",
+      "1"
+    ],
+    "atlas": 0,
+    "icon": ""
+  },
+  {
+    "id": 14,
+    "groupId": 103,
+    "weight": 10,
+    "param": [
+      "2",
+      "14",
+      "1"
+    ],
+    "atlas": 0,
+    "icon": ""
+  },
+  {
+    "id": 15,
+    "groupId": 103,
+    "weight": 60,
+    "param": [
+      "0"
+    ],
+    "atlas": 101,
+    "icon": "icon_bomb"
+  }
+]

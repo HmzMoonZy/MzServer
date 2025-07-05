@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "guildNum": [
+      "1",
+      "4"
+    ],
+    "guildRank": 103
+  },
+  {
+    "id": 2,
+    "guildNum": [
+      "5",
+      "10"
+    ],
+    "guildRank": 102
+  },
+  {
+    "id": 3,
+    "guildNum": [
+      "11",
+      "99999"
+    ],
+    "guildRank": 101
+  }
+]

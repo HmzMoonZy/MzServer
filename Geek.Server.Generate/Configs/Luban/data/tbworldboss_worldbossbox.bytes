@@ -1,0 +1,562 @@
+[
+  {
+    "ID": 101,
+    "Damage": 50000,
+    "BossId": 11001,
+    "Reward": [
+      "7000001,100"
+    ],
+    "OtherReward": [
+      "1,1"
+    ],
+    "ShowBoxAtlas": 129,
+    "ShowBoxIconIdle": "baoxiang_02_idle",
+    "ShowBoxIconOpen": "baoxiang_02_open"
+  },
+  {
+    "ID": 102,
+    "Damage": 200000,
+    "BossId": 11001,
+    "Reward": [
+      "7000001,150"
+    ],
+    "OtherReward": [
+      "1,1"
+    ],
+    "ShowBoxAtlas": 129,
+    "ShowBoxIconIdle": "baoxiang_02_idle",
+    "ShowBoxIconOpen": "baoxiang_02_open"
+  },
+  {
+    "ID": 103,
+    "Damage": 1000000,
+    "BossId": 11001,
+    "Reward": [
+      "7000001,200"
+    ],
+    "OtherReward": [
+      "1,1"
+    ],
+    "ShowBoxAtlas": 129,
+    "ShowBoxIconIdle": "baoxiang_02_idle",
+    "ShowBoxIconOpen": "baoxiang_02_open"
+  },
+  {
+    "ID": 104,
+    "Damage": 5000000,
+    "BossId": 11001,
+    "Reward": [
+      "7000001,250"
+    ],
+    "OtherReward": [
+      "1,1"
+    ],
+    "ShowBoxAtlas": 129,
+    "ShowBoxIconIdle": "baoxiang_02_idle",
+    "ShowBoxIconOpen": "baoxiang_02_open"
+  },
+  {
+    "ID": 105,
+    "Damage": 10000000,
+    "BossId": 11001,
+    "Reward": [
+      "2,50"
+    ],
+    "OtherReward": [
+      "1,1"
+    ],
+    "ShowBoxAtlas": 129,
+    "ShowBoxIconIdle": "baoxiang_02_idle",
+    "ShowBoxIconOpen": "baoxiang_02_open"
+  },
+  {
+    "ID": 106,
+    "Damage": 20000000,
+    "BossId": 11001,
+    "Reward": [
+      "7000001,300"
+    ],
+    "OtherReward": [
+      "1,1"
+    ],
+    "ShowBoxAtlas": 129,
+    "ShowBoxIconIdle": "baoxiang_02_idle",
+    "ShowBoxIconOpen": "baoxiang_02_open"
+  },
+  {
+    "ID": 107,
+    "Damage": 50000000,
+    "BossId": 11001,
+    "Reward": [
+      "7000001,350"
+    ],
+    "OtherReward": [
+      "1,1"
+    ],
+    "ShowBoxAtlas": 129,
+    "ShowBoxIconIdle": "baoxiang_02_idle",
+    "ShowBoxIconOpen": "baoxiang_02_open"
+  },
+  {
+    "ID": 108,
+    "Damage": 100000000,
+    "BossId": 11001,
+    "Reward": [
+      "7000001,400"
+    ],
+    "OtherReward": [
+      "1,1"
+    ],
+    "ShowBoxAtlas": 129,
+    "ShowBoxIconIdle": "baoxiang_02_idle",
+    "ShowBoxIconOpen": "baoxiang_02_open"
+  },
+  {
+    "ID": 109,
+    "Damage": 200000000,
+    "BossId": 11001,
+    "Reward": [
+      "7000001,500"
+    ],
+    "OtherReward": [
+      "1,1"
+    ],
+    "ShowBoxAtlas": 129,
+    "ShowBoxIconIdle": "baoxiang_02_idle",
+    "ShowBoxIconOpen": "baoxiang_02_open"
+  },
+  {
+    "ID": 110,
+    "Damage": 500000000,
+    "BossId": 11001,
+    "Reward": [
+      "2,100"
+    ],
+    "OtherReward": [
+      "1,1"
+    ],
+    "ShowBoxAtlas": 129,
+    "ShowBoxIconIdle": "baoxiang_02_idle",
+    "ShowBoxIconOpen": "baoxiang_02_open"
+  },
+  {
+    "ID": 201,
+    "Damage": 50000,
+    "BossId": 11002,
+    "Reward": [
+      "7000001,100"
+    ],
+    "OtherReward": [
+      "1,1"
+    ],
+    "ShowBoxAtlas": 129,
+    "ShowBoxIconIdle": "baoxiang_02_idle",
+    "ShowBoxIconOpen": "baoxiang_02_open"
+  },
+  {
+    "ID": 202,
+    "Damage": 200000,
+    "BossId": 11002,
+    "Reward": [
+      "7000001,150"
+    ],
+    "OtherReward": [
+      "1,1"
+    ],
+    "ShowBoxAtlas": 129,
+    "ShowBoxIconIdle": "baoxiang_02_idle",
+    "ShowBoxIconOpen": "baoxiang_02_open"
+  },
+  {
+    "ID": 203,
+    "Damage": 1000000,
+    "BossId": 11002,
+    "Reward": [
+      "7000001,200"
+    ],
+    "OtherReward": [
+      "1,1"
+    ],
+    "ShowBoxAtlas": 129,
+    "ShowBoxIconIdle": "baoxiang_02_idle",
+    "ShowBoxIconOpen": "baoxiang_02_open"
+  },
+  {
+    "ID": 204,
+    "Damage": 5000000,
+    "BossId": 11002,
+    "Reward": [
+      "7000001,250"
+    ],
+    "OtherReward": [
+      "1,1"
+    ],
+    "ShowBoxAtlas": 129,
+    "ShowBoxIconIdle": "baoxiang_02_idle",
+    "ShowBoxIconOpen": "baoxiang_02_open"
+  },
+  {
+    "ID": 205,
+    "Damage": 10000000,
+    "BossId": 11002,
+    "Reward": [
+      "2,50"
+    ],
+    "OtherReward": [
+      "1,1"
+    ],
+    "ShowBoxAtlas": 129,
+    "ShowBoxIconIdle": "baoxiang_02_idle",
+    "ShowBoxIconOpen": "baoxiang_02_open"
+  },
+  {
+    "ID": 206,
+    "Damage": 20000000,
+    "BossId": 11002,
+    "Reward": [
+      "7000001,300"
+    ],
+    "OtherReward": [
+      "1,1"
+    ],
+    "ShowBoxAtlas": 129,
+    "ShowBoxIconIdle": "baoxiang_02_idle",
+    "ShowBoxIconOpen": "baoxiang_02_open"
+  },
+  {
+    "ID": 207,
+    "Damage": 50000000,
+    "BossId": 11002,
+    "Reward": [
+      "7000001,350"
+    ],
+    "OtherReward": [
+      "1,1"
+    ],
+    "ShowBoxAtlas": 129,
+    "ShowBoxIconIdle": "baoxiang_02_idle",
+    "ShowBoxIconOpen": "baoxiang_02_open"
+  },
+  {
+    "ID": 208,
+    "Damage": 100000000,
+    "BossId": 11002,
+    "Reward": [
+      "7000001,400"
+    ],
+    "OtherReward": [
+      "1,1"
+    ],
+    "ShowBoxAtlas": 129,
+    "ShowBoxIconIdle": "baoxiang_02_idle",
+    "ShowBoxIconOpen": "baoxiang_02_open"
+  },
+  {
+    "ID": 209,
+    "Damage": 200000000,
+    "BossId": 11002,
+    "Reward": [
+      "7000001,500"
+    ],
+    "OtherReward": [
+      "1,1"
+    ],
+    "ShowBoxAtlas": 129,
+    "ShowBoxIconIdle": "baoxiang_02_idle",
+    "ShowBoxIconOpen": "baoxiang_02_open"
+  },
+  {
+    "ID": 210,
+    "Damage": 500000000,
+    "BossId": 11002,
+    "Reward": [
+      "2,100"
+    ],
+    "OtherReward": [
+      "1,1"
+    ],
+    "ShowBoxAtlas": 129,
+    "ShowBoxIconIdle": "baoxiang_02_idle",
+    "ShowBoxIconOpen": "baoxiang_02_open"
+  },
+  {
+    "ID": 301,
+    "Damage": 50000,
+    "BossId": 11003,
+    "Reward": [
+      "7000001,100"
+    ],
+    "OtherReward": [
+      "1,1"
+    ],
+    "ShowBoxAtlas": 129,
+    "ShowBoxIconIdle": "baoxiang_02_idle",
+    "ShowBoxIconOpen": "baoxiang_02_open"
+  },
+  {
+    "ID": 302,
+    "Damage": 200000,
+    "BossId": 11003,
+    "Reward": [
+      "7000001,150"
+    ],
+    "OtherReward": [
+      "1,1"
+    ],
+    "ShowBoxAtlas": 129,
+    "ShowBoxIconIdle": "baoxiang_02_idle",
+    "ShowBoxIconOpen": "baoxiang_02_open"
+  },
+  {
+    "ID": 303,
+    "Damage": 1000000,
+    "BossId": 11003,
+    "Reward": [
+      "7000001,200"
+    ],
+    "OtherReward": [
+      "1,1"
+    ],
+    "ShowBoxAtlas": 129,
+    "ShowBoxIconIdle": "baoxiang_02_idle",
+    "ShowBoxIconOpen": "baoxiang_02_open"
+  },
+  {
+    "ID": 304,
+    "Damage": 5000000,
+    "BossId": 11003,
+    "Reward": [
+      "7000001,250"
+    ],
+    "OtherReward": [
+      "1,1"
+    ],
+    "ShowBoxAtlas": 129,
+    "ShowBoxIconIdle": "baoxiang_02_idle",
+    "ShowBoxIconOpen": "baoxiang_02_open"
+  },
+  {
+    "ID": 305,
+    "Damage": 10000000,
+    "BossId": 11003,
+    "Reward": [
+      "2,50"
+    ],
+    "OtherReward": [
+      "1,1"
+    ],
+    "ShowBoxAtlas": 129,
+    "ShowBoxIconIdle": "baoxiang_02_idle",
+    "ShowBoxIconOpen": "baoxiang_02_open"
+  },
+  {
+    "ID": 306,
+    "Damage": 20000000,
+    "BossId": 11003,
+    "Reward": [
+      "7000001,300"
+    ],
+    "OtherReward": [
+      "1,1"
+    ],
+    "ShowBoxAtlas": 129,
+    "ShowBoxIconIdle": "baoxiang_02_idle",
+    "ShowBoxIconOpen": "baoxiang_02_open"
+  },
+  {
+    "ID": 307,
+    "Damage": 50000000,
+    "BossId": 11003,
+    "Reward": [
+      "7000001,350"
+    ],
+    "OtherReward": [
+      "1,1"
+    ],
+    "ShowBoxAtlas": 129,
+    "ShowBoxIconIdle": "baoxiang_02_idle",
+    "ShowBoxIconOpen": "baoxiang_02_open"
+  },
+  {
+    "ID": 308,
+    "Damage": 100000000,
+    "BossId": 11003,
+    "Reward": [
+      "7000001,400"
+    ],
+    "OtherReward": [
+      "1,1"
+    ],
+    "ShowBoxAtlas": 129,
+    "ShowBoxIconIdle": "baoxiang_02_idle",
+    "ShowBoxIconOpen": "baoxiang_02_open"
+  },
+  {
+    "ID": 309,
+    "Damage": 200000000,
+    "BossId": 11003,
+    "Reward": [
+      "7000001,500"
+    ],
+    "OtherReward": [
+      "1,1"
+    ],
+    "ShowBoxAtlas": 129,
+    "ShowBoxIconIdle": "baoxiang_02_idle",
+    "ShowBoxIconOpen": "baoxiang_02_open"
+  },
+  {
+    "ID": 310,
+    "Damage": 500000000,
+    "BossId": 11003,
+    "Reward": [
+      "2,100"
+    ],
+    "OtherReward": [
+      "1,1"
+    ],
+    "ShowBoxAtlas": 129,
+    "ShowBoxIconIdle": "baoxiang_02_idle",
+    "ShowBoxIconOpen": "baoxiang_02_open"
+  },
+  {
+    "ID": 401,
+    "Damage": 50000,
+    "BossId": 11004,
+    "Reward": [
+      "7000001,100"
+    ],
+    "OtherReward": [
+      "1,1"
+    ],
+    "ShowBoxAtlas": 129,
+    "ShowBoxIconIdle": "baoxiang_02_idle",
+    "ShowBoxIconOpen": "baoxiang_02_open"
+  },
+  {
+    "ID": 402,
+    "Damage": 200000,
+    "BossId": 11004,
+    "Reward": [
+      "7000001,150"
+    ],
+    "OtherReward": [
+      "1,1"
+    ],
+    "ShowBoxAtlas": 129,
+    "ShowBoxIconIdle": "baoxiang_02_idle",
+    "ShowBoxIconOpen": "baoxiang_02_open"
+  },
+  {
+    "ID": 403,
+    "Damage": 1000000,
+    "BossId": 11004,
+    "Reward": [
+      "7000001,200"
+    ],
+    "OtherReward": [
+      "1,1"
+    ],
+    "ShowBoxAtlas": 129,
+    "ShowBoxIconIdle": "baoxiang_02_idle",
+    "ShowBoxIconOpen": "baoxiang_02_open"
+  },
+  {
+    "ID": 404,
+    "Damage": 5000000,
+    "BossId": 11004,
+    "Reward": [
+      "7000001,250"
+    ],
+    "OtherReward": [
+      "1,1"
+    ],
+    "ShowBoxAtlas": 129,
+    "ShowBoxIconIdle": "baoxiang_02_idle",
+    "ShowBoxIconOpen": "baoxiang_02_open"
+  },
+  {
+    "ID": 405,
+    "Damage": 10000000,
+    "BossId": 11004,
+    "Reward": [
+      "2,50"
+    ],
+    "OtherReward": [
+      "1,1"
+    ],
+    "ShowBoxAtlas": 129,
+    "ShowBoxIconIdle": "baoxiang_02_idle",
+    "ShowBoxIconOpen": "baoxiang_02_open"
+  },
+  {
+    "ID": 406,
+    "Damage": 20000000,
+    "BossId": 11004,
+    "Reward": [
+      "7000001,300"
+    ],
+    "OtherReward": [
+      "1,1"
+    ],
+    "ShowBoxAtlas": 129,
+    "ShowBoxIconIdle": "baoxiang_02_idle",
+    "ShowBoxIconOpen": "baoxiang_02_open"
+  },
+  {
+    "ID": 407,
+    "Damage": 50000000,
+    "BossId": 11004,
+    "Reward": [
+      "7000001,350"
+    ],
+    "OtherReward": [
+      "1,1"
+    ],
+    "ShowBoxAtlas": 129,
+    "ShowBoxIconIdle": "baoxiang_02_idle",
+    "ShowBoxIconOpen": "baoxiang_02_open"
+  },
+  {
+    "ID": 408,
+    "Damage": 100000000,
+    "BossId": 11004,
+    "Reward": [
+      "7000001,400"
+    ],
+    "OtherReward": [
+      "1,1"
+    ],
+    "ShowBoxAtlas": 129,
+    "ShowBoxIconIdle": "baoxiang_02_idle",
+    "ShowBoxIconOpen": "baoxiang_02_open"
+  },
+  {
+    "ID": 409,
+    "Damage": 200000000,
+    "BossId": 11004,
+    "Reward": [
+      "7000001,500"
+    ],
+    "OtherReward": [
+      "1,1"
+    ],
+    "ShowBoxAtlas": 129,
+    "ShowBoxIconIdle": "baoxiang_02_idle",
+    "ShowBoxIconOpen": "baoxiang_02_open"
+  },
+  {
+    "ID": 410,
+    "Damage": 500000000,
+    "BossId": 11004,
+    "Reward": [
+      "2,100"
+    ],
+    "OtherReward": [
+      "1,1"
+    ],
+    "ShowBoxAtlas": 129,
+    "ShowBoxIconIdle": "baoxiang_02_idle",
+    "ShowBoxIconOpen": "baoxiang_02_open"
+  }
+]

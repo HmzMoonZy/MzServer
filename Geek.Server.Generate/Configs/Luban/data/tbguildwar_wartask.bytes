@@ -1,0 +1,371 @@
+[
+  {
+    "id": 100001,
+    "ModuleType": 1,
+    "TaskType": 1,
+    "Need": 3,
+    "Reward": [
+      "2,500"
+    ],
+    "languageId": "GuildWar_WarTask_Personal"
+  },
+  {
+    "id": 100002,
+    "ModuleType": 1,
+    "TaskType": 1,
+    "Need": 6,
+    "Reward": [
+      "2,500"
+    ],
+    "languageId": "GuildWar_WarTask_Personal"
+  },
+  {
+    "id": 100003,
+    "ModuleType": 1,
+    "TaskType": 1,
+    "Need": 9,
+    "Reward": [
+      "2,500"
+    ],
+    "languageId": "GuildWar_WarTask_Personal"
+  },
+  {
+    "id": 100004,
+    "ModuleType": 1,
+    "TaskType": 1,
+    "Need": 12,
+    "Reward": [
+      "2,500"
+    ],
+    "languageId": "GuildWar_WarTask_Personal"
+  },
+  {
+    "id": 100005,
+    "ModuleType": 1,
+    "TaskType": 1,
+    "Need": 15,
+    "Reward": [
+      "2,500"
+    ],
+    "languageId": "GuildWar_WarTask_Personal"
+  },
+  {
+    "id": 100006,
+    "ModuleType": 1,
+    "TaskType": 1,
+    "Need": 20,
+    "Reward": [
+      "2,500"
+    ],
+    "languageId": "GuildWar_WarTask_Personal"
+  },
+  {
+    "id": 100007,
+    "ModuleType": 1,
+    "TaskType": 1,
+    "Need": 25,
+    "Reward": [
+      "2,500"
+    ],
+    "languageId": "GuildWar_WarTask_Personal"
+  },
+  {
+    "id": 100008,
+    "ModuleType": 1,
+    "TaskType": 1,
+    "Need": 30,
+    "Reward": [
+      "2,500"
+    ],
+    "languageId": "GuildWar_WarTask_Personal"
+  },
+  {
+    "id": 100009,
+    "ModuleType": 1,
+    "TaskType": 1,
+    "Need": 40,
+    "Reward": [
+      "2,1000"
+    ],
+    "languageId": "GuildWar_WarTask_Personal"
+  },
+  {
+    "id": 100010,
+    "ModuleType": 1,
+    "TaskType": 1,
+    "Need": 50,
+    "Reward": [
+      "2,1000"
+    ],
+    "languageId": "GuildWar_WarTask_Personal"
+  },
+  {
+    "id": 100011,
+    "ModuleType": 1,
+    "TaskType": 1,
+    "Need": 60,
+    "Reward": [
+      "2,1000"
+    ],
+    "languageId": "GuildWar_WarTask_Personal"
+  },
+  {
+    "id": 100012,
+    "ModuleType": 1,
+    "TaskType": 1,
+    "Need": 70,
+    "Reward": [
+      "2,1000"
+    ],
+    "languageId": "GuildWar_WarTask_Personal"
+  },
+  {
+    "id": 100013,
+    "ModuleType": 1,
+    "TaskType": 1,
+    "Need": 80,
+    "Reward": [
+      "2,1000"
+    ],
+    "languageId": "GuildWar_WarTask_Personal"
+  },
+  {
+    "id": 100014,
+    "ModuleType": 1,
+    "TaskType": 1,
+    "Need": 90,
+    "Reward": [
+      "2,1000"
+    ],
+    "languageId": "GuildWar_WarTask_Personal"
+  },
+  {
+    "id": 100015,
+    "ModuleType": 1,
+    "TaskType": 1,
+    "Need": 100,
+    "Reward": [
+      "2,1000"
+    ],
+    "languageId": "GuildWar_WarTask_Personal"
+  },
+  {
+    "id": 100016,
+    "ModuleType": 1,
+    "TaskType": 1,
+    "Need": 200,
+    "Reward": [
+      "2,5000"
+    ],
+    "languageId": "GuildWar_WarTask_Personal"
+  },
+  {
+    "id": 100017,
+    "ModuleType": 1,
+    "TaskType": 1,
+    "Need": 300,
+    "Reward": [
+      "2,5000",
+      "406016,1"
+    ],
+    "languageId": "GuildWar_WarTask_Personal"
+  },
+  {
+    "id": 200001,
+    "ModuleType": 2,
+    "TaskType": 2,
+    "Need": 2,
+    "Reward": [
+      "12,100",
+      "62,2"
+    ],
+    "languageId": "GuildWar_WarTask_Guild"
+  },
+  {
+    "id": 200002,
+    "ModuleType": 2,
+    "TaskType": 2,
+    "Need": 4,
+    "Reward": [
+      "12,100",
+      "62,2"
+    ],
+    "languageId": "GuildWar_WarTask_Guild"
+  },
+  {
+    "id": 200003,
+    "ModuleType": 2,
+    "TaskType": 2,
+    "Need": 6,
+    "Reward": [
+      "12,100",
+      "62,2"
+    ],
+    "languageId": "GuildWar_WarTask_Guild"
+  },
+  {
+    "id": 200004,
+    "ModuleType": 2,
+    "TaskType": 2,
+    "Need": 8,
+    "Reward": [
+      "12,100",
+      "62,2"
+    ],
+    "languageId": "GuildWar_WarTask_Guild"
+  },
+  {
+    "id": 200005,
+    "ModuleType": 2,
+    "TaskType": 2,
+    "Need": 10,
+    "Reward": [
+      "12,100",
+      "62,2"
+    ],
+    "languageId": "GuildWar_WarTask_Guild"
+  },
+  {
+    "id": 200006,
+    "ModuleType": 2,
+    "TaskType": 2,
+    "Need": 12,
+    "Reward": [
+      "12,100",
+      "62,2"
+    ],
+    "languageId": "GuildWar_WarTask_Guild"
+  },
+  {
+    "id": 200007,
+    "ModuleType": 2,
+    "TaskType": 2,
+    "Need": 14,
+    "Reward": [
+      "12,100",
+      "62,2"
+    ],
+    "languageId": "GuildWar_WarTask_Guild"
+  },
+  {
+    "id": 200008,
+    "ModuleType": 2,
+    "TaskType": 2,
+    "Need": 16,
+    "Reward": [
+      "12,100",
+      "62,2"
+    ],
+    "languageId": "GuildWar_WarTask_Guild"
+  },
+  {
+    "id": 200009,
+    "ModuleType": 2,
+    "TaskType": 2,
+    "Need": 18,
+    "Reward": [
+      "12,100",
+      "62,2"
+    ],
+    "languageId": "GuildWar_WarTask_Guild"
+  },
+  {
+    "id": 200010,
+    "ModuleType": 2,
+    "TaskType": 2,
+    "Need": 20,
+    "Reward": [
+      "12,100",
+      "62,2"
+    ],
+    "languageId": "GuildWar_WarTask_Guild"
+  },
+  {
+    "id": 200011,
+    "ModuleType": 2,
+    "TaskType": 2,
+    "Need": 30,
+    "Reward": [
+      "12,200",
+      "62,5"
+    ],
+    "languageId": "GuildWar_WarTask_Guild"
+  },
+  {
+    "id": 200012,
+    "ModuleType": 2,
+    "TaskType": 2,
+    "Need": 40,
+    "Reward": [
+      "12,200",
+      "62,5"
+    ],
+    "languageId": "GuildWar_WarTask_Guild"
+  },
+  {
+    "id": 200013,
+    "ModuleType": 2,
+    "TaskType": 2,
+    "Need": 50,
+    "Reward": [
+      "12,200",
+      "62,5"
+    ],
+    "languageId": "GuildWar_WarTask_Guild"
+  },
+  {
+    "id": 200014,
+    "ModuleType": 2,
+    "TaskType": 2,
+    "Need": 60,
+    "Reward": [
+      "12,200",
+      "62,5"
+    ],
+    "languageId": "GuildWar_WarTask_Guild"
+  },
+  {
+    "id": 200015,
+    "ModuleType": 2,
+    "TaskType": 2,
+    "Need": 70,
+    "Reward": [
+      "12,200",
+      "62,5"
+    ],
+    "languageId": "GuildWar_WarTask_Guild"
+  },
+  {
+    "id": 200016,
+    "ModuleType": 2,
+    "TaskType": 2,
+    "Need": 80,
+    "Reward": [
+      "12,200",
+      "62,5"
+    ],
+    "languageId": "GuildWar_WarTask_Guild"
+  },
+  {
+    "id": 200017,
+    "ModuleType": 2,
+    "TaskType": 2,
+    "Need": 90,
+    "Reward": [
+      "12,200",
+      "62,5"
+    ],
+    "languageId": "GuildWar_WarTask_Guild"
+  },
+  {
+    "id": 200018,
+    "ModuleType": 2,
+    "TaskType": 2,
+    "Need": 100,
+    "Reward": [
+      "12,200",
+      "62,5"
+    ],
+    "languageId": "GuildWar_WarTask_Guild"
+  }
+]

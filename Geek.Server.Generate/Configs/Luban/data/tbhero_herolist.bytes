@@ -1,0 +1,332 @@
+[
+  {
+    "id": 301,
+    "initSkin": [
+      4,
+      5,
+      6
+    ],
+    "quality": 3,
+    "memberId": 301,
+    "skillGroupID": [
+      301
+    ],
+    "competency": [
+      "HeroAttack%=100",
+      "HeroHPMax%=103",
+      "HeroDefence%=100"
+    ],
+    "unlockType": 2,
+    "condition": [
+      "2,3000"
+    ],
+    "toFragment": [
+      "40301,60"
+    ],
+    "nameID": "hero_name_301",
+    "atlasID": 185,
+    "cardIcon": "img_card_hero_zhuzhu",
+    "previewIconId": 118,
+    "previewIcon": "avatar_ZhuZhu",
+    "itemGet": [
+      "30301,1"
+    ],
+    "showSoundId": 5009,
+    "heroEnterIconId": 188,
+    "heroEnterIcon": "ui_zhuzhu_enter_icon",
+    "equipSpineId": 1,
+    "ifChangeEquipSkin": 1,
+    "WeaponType": 0,
+    "systemLangNone": [],
+    "showWorldBtn": 0
+  },
+  {
+    "id": 401,
+    "initSkin": [
+      7,
+      8,
+      9
+    ],
+    "quality": 4,
+    "memberId": 401,
+    "skillGroupID": [
+      401
+    ],
+    "competency": [
+      "HeroAttack%=103",
+      "HeroHPMax%=103",
+      "HeroDefence%=100"
+    ],
+    "unlockType": 1,
+    "condition": [
+      "601"
+    ],
+    "toFragment": [
+      "40401,60"
+    ],
+    "nameID": "hero_name_401",
+    "atlasID": 185,
+    "cardIcon": "img_card_hero_xiongmao",
+    "previewIconId": 118,
+    "previewIcon": "avatar_XiongMao",
+    "itemGet": [],
+    "showSoundId": 5001,
+    "heroEnterIconId": 188,
+    "heroEnterIcon": "ui_xiongmao_enter_icon",
+    "equipSpineId": 1,
+    "ifChangeEquipSkin": 1,
+    "WeaponType": 0,
+    "systemLangNone": [],
+    "showWorldBtn": 0
+  },
+  {
+    "id": 501,
+    "initSkin": [
+      10,
+      11,
+      12
+    ],
+    "quality": 5,
+    "memberId": 501,
+    "skillGroupID": [
+      501
+    ],
+    "competency": [
+      "HeroAttack%=105",
+      "HeroHPMax%=105",
+      "HeroDefence%=100"
+    ],
+    "unlockType": 3,
+    "condition": [
+      "40501,60"
+    ],
+    "toFragment": [
+      "40501,60"
+    ],
+    "nameID": "hero_name_501",
+    "atlasID": 185,
+    "cardIcon": "img_card_hero_xiongzhanshi",
+    "previewIconId": 118,
+    "previewIcon": "avatar_Xiong",
+    "itemGet": [
+      "30501,1"
+    ],
+    "showSoundId": 5002,
+    "heroEnterIconId": 188,
+    "heroEnterIcon": "ui_xiongzhanshi_enter_icon",
+    "equipSpineId": 1,
+    "ifChangeEquipSkin": 1,
+    "WeaponType": 0,
+    "systemLangNone": [],
+    "showWorldBtn": 0
+  },
+  {
+    "id": 601,
+    "initSkin": [
+      13,
+      14,
+      15
+    ],
+    "quality": 6,
+    "memberId": 601,
+    "skillGroupID": [
+      601
+    ],
+    "competency": [
+      "HeroAttack%=115",
+      "HeroHPMax%=105",
+      "HeroDefence%=100"
+    ],
+    "unlockType": 3,
+    "condition": [
+      "40601,60"
+    ],
+    "toFragment": [
+      "40601,60"
+    ],
+    "nameID": "hero_name_601",
+    "atlasID": 185,
+    "cardIcon": "img_card_hero_kangjinxingjun",
+    "previewIconId": 118,
+    "previewIcon": "avatar_LongNv",
+    "itemGet": [
+      "30601,1"
+    ],
+    "showSoundId": 5003,
+    "heroEnterIconId": 188,
+    "heroEnterIcon": "ui_kangjinxingjun_enter_icon",
+    "equipSpineId": 1,
+    "ifChangeEquipSkin": 1,
+    "WeaponType": 0,
+    "systemLangNone": [],
+    "showWorldBtn": 0
+  },
+  {
+    "id": 602,
+    "initSkin": [
+      16,
+      17,
+      18
+    ],
+    "quality": 6,
+    "memberId": 602,
+    "skillGroupID": [
+      602
+    ],
+    "competency": [
+      "HeroAttack%=110",
+      "HeroHPMax%=110",
+      "HeroDefence%=100"
+    ],
+    "unlockType": 3,
+    "condition": [
+      "40602,60"
+    ],
+    "toFragment": [
+      "40602,60"
+    ],
+    "nameID": "hero_name_602",
+    "atlasID": 185,
+    "cardIcon": "img_card_hero_wukong",
+    "previewIconId": 118,
+    "previewIcon": "avatar_HeiHou",
+    "itemGet": [
+      "30602,1"
+    ],
+    "showSoundId": 1535,
+    "heroEnterIconId": 188,
+    "heroEnterIcon": "ui_wukong_enter_icon",
+    "equipSpineId": 2,
+    "ifChangeEquipSkin": 0,
+    "WeaponType": 21,
+    "systemLangNone": [],
+    "showWorldBtn": 0
+  },
+  {
+    "id": 603,
+    "initSkin": [
+      19,
+      20,
+      21
+    ],
+    "quality": 6,
+    "memberId": 603,
+    "skillGroupID": [
+      603
+    ],
+    "competency": [
+      "HeroAttack%=120",
+      "HeroHPMax%=100",
+      "HeroDefence%=100"
+    ],
+    "unlockType": 3,
+    "condition": [
+      "40603,60"
+    ],
+    "toFragment": [
+      "40603,60"
+    ],
+    "nameID": "hero_name_603",
+    "atlasID": 185,
+    "cardIcon": "img_card_hero_SpaceCapy",
+    "previewIconId": 118,
+    "previewIcon": "avatar_JiaJiaLin",
+    "itemGet": [
+      "30603,1"
+    ],
+    "showSoundId": 5011,
+    "heroEnterIconId": 188,
+    "heroEnterIcon": "ui_SpaceCapy_enter_icon",
+    "equipSpineId": 3,
+    "ifChangeEquipSkin": 0,
+    "WeaponType": 22,
+    "systemLangNone": [],
+    "showWorldBtn": 0
+  },
+  {
+    "id": 604,
+    "initSkin": [
+      25,
+      26,
+      27
+    ],
+    "quality": 6,
+    "memberId": 604,
+    "skillGroupID": [
+      604
+    ],
+    "competency": [
+      "HeroAttack%=110",
+      "HeroHPMax%=110",
+      "HeroDefence%=100"
+    ],
+    "unlockType": 3,
+    "condition": [
+      "40604,60"
+    ],
+    "toFragment": [
+      "40604,60"
+    ],
+    "nameID": "hero_name_604",
+    "atlasID": 185,
+    "cardIcon": "img_card_hero_BlueT",
+    "previewIconId": 118,
+    "previewIcon": "avatar_BlueT",
+    "itemGet": [
+      "30604,1"
+    ],
+    "showSoundId": 1548,
+    "heroEnterIconId": 188,
+    "heroEnterIcon": "ui_BlueT_enter_icon",
+    "equipSpineId": 1,
+    "ifChangeEquipSkin": 0,
+    "WeaponType": 23,
+    "systemLangNone": [
+      "Russian"
+    ],
+    "showWorldBtn": 1
+  },
+  {
+    "id": 605,
+    "initSkin": [
+      28,
+      29,
+      30
+    ],
+    "quality": 6,
+    "memberId": 605,
+    "skillGroupID": [
+      605
+    ],
+    "competency": [
+      "HeroAttack%=110",
+      "HeroHPMax%=110",
+      "HeroDefence%=100"
+    ],
+    "unlockType": 3,
+    "condition": [
+      "40605,60"
+    ],
+    "toFragment": [
+      "40605,60"
+    ],
+    "nameID": "hero_name_605",
+    "atlasID": 185,
+    "cardIcon": "img_card_hero_RedT",
+    "previewIconId": 118,
+    "previewIcon": "avatar_RedT",
+    "itemGet": [
+      "30605,1"
+    ],
+    "showSoundId": 1556,
+    "heroEnterIconId": 188,
+    "heroEnterIcon": "ui_RedT_enter_icon",
+    "equipSpineId": 1,
+    "ifChangeEquipSkin": 0,
+    "WeaponType": 23,
+    "systemLangNone": [
+      "Russian"
+    ],
+    "showWorldBtn": 1
+  }
+]

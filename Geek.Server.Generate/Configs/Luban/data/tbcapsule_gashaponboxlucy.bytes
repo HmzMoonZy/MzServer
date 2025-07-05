@@ -1,0 +1,362 @@
+[
+  {
+    "ID": 1,
+    "ConnectActivityId": 250526,
+    "Weight": 1,
+    "Rewards1": [
+      3502,
+      10
+    ]
+  },
+  {
+    "ID": 2,
+    "ConnectActivityId": 250526,
+    "Weight": 1,
+    "Rewards1": [
+      3503,
+      1
+    ]
+  },
+  {
+    "ID": 3,
+    "ConnectActivityId": 250526,
+    "Weight": 1,
+    "Rewards1": [
+      3503,
+      1
+    ]
+  },
+  {
+    "ID": 4,
+    "ConnectActivityId": 250526,
+    "Weight": 1,
+    "Rewards1": [
+      3502,
+      6
+    ]
+  },
+  {
+    "ID": 5,
+    "ConnectActivityId": 250526,
+    "Weight": 1,
+    "Rewards1": [
+      3502,
+      6
+    ]
+  },
+  {
+    "ID": 6,
+    "ConnectActivityId": 250526,
+    "Weight": 1,
+    "Rewards1": [
+      3502,
+      6
+    ]
+  },
+  {
+    "ID": 7,
+    "ConnectActivityId": 250526,
+    "Weight": 1,
+    "Rewards1": [
+      3502,
+      6
+    ]
+  },
+  {
+    "ID": 8,
+    "ConnectActivityId": 250526,
+    "Weight": 1,
+    "Rewards1": [
+      3502,
+      4
+    ]
+  },
+  {
+    "ID": 9,
+    "ConnectActivityId": 250526,
+    "Weight": 1,
+    "Rewards1": [
+      3502,
+      4
+    ]
+  },
+  {
+    "ID": 10,
+    "ConnectActivityId": 250526,
+    "Weight": 1,
+    "Rewards1": [
+      3502,
+      4
+    ]
+  },
+  {
+    "ID": 11,
+    "ConnectActivityId": 250526,
+    "Weight": 1,
+    "Rewards1": [
+      3502,
+      4
+    ]
+  },
+  {
+    "ID": 12,
+    "ConnectActivityId": 250526,
+    "Weight": 1,
+    "Rewards1": [
+      3501,
+      50
+    ]
+  },
+  {
+    "ID": 13,
+    "ConnectActivityId": 250526,
+    "Weight": 1,
+    "Rewards1": [
+      3501,
+      50
+    ]
+  },
+  {
+    "ID": 14,
+    "ConnectActivityId": 250526,
+    "Weight": 1,
+    "Rewards1": [
+      3501,
+      50
+    ]
+  },
+  {
+    "ID": 15,
+    "ConnectActivityId": 250526,
+    "Weight": 1,
+    "Rewards1": [
+      3501,
+      50
+    ]
+  },
+  {
+    "ID": 16,
+    "ConnectActivityId": 250526,
+    "Weight": 1,
+    "Rewards1": [
+      3501,
+      50
+    ]
+  },
+  {
+    "ID": 17,
+    "ConnectActivityId": 250526,
+    "Weight": 1,
+    "Rewards1": [
+      3501,
+      50
+    ]
+  },
+  {
+    "ID": 18,
+    "ConnectActivityId": 250526,
+    "Weight": 1,
+    "Rewards1": [
+      3501,
+      50
+    ]
+  },
+  {
+    "ID": 19,
+    "ConnectActivityId": 250526,
+    "Weight": 1,
+    "Rewards1": [
+      3501,
+      50
+    ]
+  },
+  {
+    "ID": 20,
+    "ConnectActivityId": 250526,
+    "Weight": 1,
+    "Rewards1": [
+      3501,
+      50
+    ]
+  },
+  {
+    "ID": 21,
+    "ConnectActivityId": 250526,
+    "Weight": 1,
+    "Rewards1": [
+      3501,
+      50
+    ]
+  },
+  {
+    "ID": 22,
+    "ConnectActivityId": 250526,
+    "Weight": 1,
+    "Rewards1": [
+      3501,
+      50
+    ]
+  },
+  {
+    "ID": 23,
+    "ConnectActivityId": 250526,
+    "Weight": 1,
+    "Rewards1": [
+      3501,
+      50
+    ]
+  },
+  {
+    "ID": 24,
+    "ConnectActivityId": 250526,
+    "Weight": 1,
+    "Rewards1": [
+      3501,
+      50
+    ]
+  },
+  {
+    "ID": 25,
+    "ConnectActivityId": 250526,
+    "Weight": 1,
+    "Rewards1": [
+      3501,
+      50
+    ]
+  },
+  {
+    "ID": 26,
+    "ConnectActivityId": 250526,
+    "Weight": 1,
+    "Rewards1": [
+      3501,
+      50
+    ]
+  },
+  {
+    "ID": 27,
+    "ConnectActivityId": 250526,
+    "Weight": 1,
+    "Rewards1": [
+      3501,
+      50
+    ]
+  },
+  {
+    "ID": 28,
+    "ConnectActivityId": 250526,
+    "Weight": 1,
+    "Rewards1": [
+      2,
+      66
+    ]
+  },
+  {
+    "ID": 29,
+    "ConnectActivityId": 250526,
+    "Weight": 1,
+    "Rewards1": [
+      2,
+      66
+    ]
+  },
+  {
+    "ID": 30,
+    "ConnectActivityId": 250526,
+    "Weight": 1,
+    "Rewards1": [
+      2,
+      66
+    ]
+  },
+  {
+    "ID": 31,
+    "ConnectActivityId": 250526,
+    "Weight": 1,
+    "Rewards1": [
+      2,
+      66
+    ]
+  },
+  {
+    "ID": 32,
+    "ConnectActivityId": 250526,
+    "Weight": 1,
+    "Rewards1": [
+      2,
+      66
+    ]
+  },
+  {
+    "ID": 33,
+    "ConnectActivityId": 250526,
+    "Weight": 1,
+    "Rewards1": [
+      2,
+      66
+    ]
+  },
+  {
+    "ID": 34,
+    "ConnectActivityId": 250526,
+    "Weight": 1,
+    "Rewards1": [
+      2,
+      66
+    ]
+  },
+  {
+    "ID": 35,
+    "ConnectActivityId": 250526,
+    "Weight": 1,
+    "Rewards1": [
+      2,
+      66
+    ]
+  },
+  {
+    "ID": 36,
+    "ConnectActivityId": 250526,
+    "Weight": 1,
+    "Rewards1": [
+      2,
+      66
+    ]
+  },
+  {
+    "ID": 37,
+    "ConnectActivityId": 250526,
+    "Weight": 1,
+    "Rewards1": [
+      2,
+      66
+    ]
+  },
+  {
+    "ID": 38,
+    "ConnectActivityId": 250526,
+    "Weight": 1,
+    "Rewards1": [
+      2,
+      66
+    ]
+  },
+  {
+    "ID": 39,
+    "ConnectActivityId": 250526,
+    "Weight": 1,
+    "Rewards1": [
+      2,
+      66
+    ]
+  },
+  {
+    "ID": 40,
+    "ConnectActivityId": 250526,
+    "Weight": 1,
+    "Rewards1": [
+      368004,
+      20
+    ]
+  }
+]

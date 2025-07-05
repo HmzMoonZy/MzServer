@@ -1,0 +1,194 @@
+[
+  {
+    "id": 1,
+    "stage": 0,
+    "memberId": 381001,
+    "attribute": "Miss%=0",
+    "advanceUnlock": 301,
+    "itemUnlock": "381001,1",
+    "power": [
+      0,
+      0
+    ]
+  },
+  {
+    "id": 2,
+    "stage": 1,
+    "memberId": 381001,
+    "attribute": "Miss%=5",
+    "advanceUnlock": 0,
+    "itemUnlock": "",
+    "power": [
+      100,
+      0
+    ]
+  },
+  {
+    "id": 3,
+    "stage": 2,
+    "memberId": 381002,
+    "attribute": "Miss%=8",
+    "advanceUnlock": 302,
+    "itemUnlock": "381002,1",
+    "power": [
+      160,
+      0
+    ]
+  },
+  {
+    "id": 4,
+    "stage": 3,
+    "memberId": 381003,
+    "attribute": "Miss%=10",
+    "advanceUnlock": 303,
+    "itemUnlock": "381003,1",
+    "power": [
+      200,
+      0
+    ]
+  },
+  {
+    "id": 5,
+    "stage": 4,
+    "memberId": 381004,
+    "attribute": "Miss%=15",
+    "advanceUnlock": 304,
+    "itemUnlock": "381004,1",
+    "power": [
+      300,
+      0
+    ]
+  },
+  {
+    "id": 6,
+    "stage": 5,
+    "memberId": 381005,
+    "attribute": "Miss%=20",
+    "advanceUnlock": 305,
+    "itemUnlock": "381005,1",
+    "power": [
+      400,
+      0
+    ]
+  },
+  {
+    "id": 7,
+    "stage": 6,
+    "memberId": 381006,
+    "attribute": "Miss%=25",
+    "advanceUnlock": 306,
+    "itemUnlock": "381006,1",
+    "power": [
+      500,
+      0
+    ]
+  },
+  {
+    "id": 8,
+    "stage": 7,
+    "memberId": 381007,
+    "attribute": "Miss%=30",
+    "advanceUnlock": 307,
+    "itemUnlock": "381007,1",
+    "power": [
+      600,
+      0
+    ]
+  },
+  {
+    "id": 9,
+    "stage": 8,
+    "memberId": 381007,
+    "attribute": "Miss%=32",
+    "advanceUnlock": 0,
+    "itemUnlock": "",
+    "power": [
+      640,
+      0
+    ]
+  },
+  {
+    "id": 10,
+    "stage": 9,
+    "memberId": 381008,
+    "attribute": "Miss%=34",
+    "advanceUnlock": 308,
+    "itemUnlock": "381008,1",
+    "power": [
+      680,
+      0
+    ]
+  },
+  {
+    "id": 11,
+    "stage": 10,
+    "memberId": 381008,
+    "attribute": "Miss%=36",
+    "advanceUnlock": 0,
+    "itemUnlock": "",
+    "power": [
+      720,
+      0
+    ]
+  },
+  {
+    "id": 12,
+    "stage": 11,
+    "memberId": 381008,
+    "attribute": "Miss%=38",
+    "advanceUnlock": 0,
+    "itemUnlock": "",
+    "power": [
+      760,
+      0
+    ]
+  },
+  {
+    "id": 13,
+    "stage": 12,
+    "memberId": 381008,
+    "attribute": "Miss%=40",
+    "advanceUnlock": 0,
+    "itemUnlock": "",
+    "power": [
+      800,
+      0
+    ]
+  },
+  {
+    "id": 14,
+    "stage": 13,
+    "memberId": 381008,
+    "attribute": "Miss%=42",
+    "advanceUnlock": 0,
+    "itemUnlock": "",
+    "power": [
+      840,
+      0
+    ]
+  },
+  {
+    "id": 15,
+    "stage": 14,
+    "memberId": 381008,
+    "attribute": "Miss%=44",
+    "advanceUnlock": 0,
+    "itemUnlock": "",
+    "power": [
+      880,
+      0
+    ]
+  },
+  {
+    "id": 16,
+    "stage": 15,
+    "memberId": 381008,
+    "attribute": "Miss%=46",
+    "advanceUnlock": 0,
+    "itemUnlock": "",
+    "power": [
+      920,
+      0
+    ]
+  }
+]

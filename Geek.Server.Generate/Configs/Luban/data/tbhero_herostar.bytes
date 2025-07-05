@@ -1,0 +1,2222 @@
+[
+  {
+    "id": 30100,
+    "groupID": 301,
+    "star": 0,
+    "starUpCost": [
+      "40301,60"
+    ],
+    "heroAttr": [],
+    "starupDesc": "hero_star_101",
+    "skillType": 2,
+    "skills": [
+      700111
+    ],
+    "skillsGroup": 1,
+    "skillsLv": [
+      1
+    ],
+    "skillQuality": [
+      0
+    ],
+    "starEffect": [],
+    "activePower": [
+      0,
+      50
+    ]
+  },
+  {
+    "id": 30101,
+    "groupID": 301,
+    "star": 1,
+    "starUpCost": [
+      "40301,30"
+    ],
+    "heroAttr": [],
+    "starupDesc": "hero_skill_attri_1",
+    "skillType": 3,
+    "skills": [],
+    "skillsGroup": 0,
+    "skillsLv": [],
+    "skillQuality": [],
+    "starEffect": [
+      "Attack%=10"
+    ],
+    "activePower": [
+      0,
+      50
+    ]
+  },
+  {
+    "id": 30102,
+    "groupID": 301,
+    "star": 2,
+    "starUpCost": [
+      "40301,60"
+    ],
+    "heroAttr": [],
+    "starupDesc": "hero_star_102",
+    "skillType": 2,
+    "skills": [
+      700112
+    ],
+    "skillsGroup": 1,
+    "skillsLv": [
+      2
+    ],
+    "skillQuality": [
+      0
+    ],
+    "starEffect": [],
+    "activePower": [
+      0,
+      110
+    ]
+  },
+  {
+    "id": 30103,
+    "groupID": 301,
+    "star": 3,
+    "starUpCost": [
+      "40301,90"
+    ],
+    "heroAttr": [],
+    "starupDesc": "hero_skill_attri_2",
+    "skillType": 3,
+    "skills": [],
+    "skillsGroup": 0,
+    "skillsLv": [],
+    "skillQuality": [],
+    "starEffect": [
+      "HPMax%=10"
+    ],
+    "activePower": [
+      0,
+      110
+    ]
+  },
+  {
+    "id": 30104,
+    "groupID": 301,
+    "star": 4,
+    "starUpCost": [
+      "40301,120"
+    ],
+    "heroAttr": [],
+    "starupDesc": "hero_star_103",
+    "skillType": 2,
+    "skills": [
+      700121
+    ],
+    "skillsGroup": 2,
+    "skillsLv": [
+      1
+    ],
+    "skillQuality": [
+      0
+    ],
+    "starEffect": [
+      "ExpAddRate%=6"
+    ],
+    "activePower": [
+      0,
+      180
+    ]
+  },
+  {
+    "id": 30105,
+    "groupID": 301,
+    "star": 5,
+    "starUpCost": [
+      "40301,150"
+    ],
+    "heroAttr": [],
+    "starupDesc": "hero_star_104",
+    "skillType": 2,
+    "skills": [
+      700113
+    ],
+    "skillsGroup": 1,
+    "skillsLv": [
+      3
+    ],
+    "skillQuality": [
+      0
+    ],
+    "starEffect": [],
+    "activePower": [
+      0,
+      260
+    ]
+  },
+  {
+    "id": 30106,
+    "groupID": 301,
+    "star": 6,
+    "starUpCost": [
+      "40301,180"
+    ],
+    "heroAttr": [],
+    "starupDesc": "hero_skill_attri_1",
+    "skillType": 3,
+    "skills": [],
+    "skillsGroup": 0,
+    "skillsLv": [],
+    "skillQuality": [],
+    "starEffect": [
+      "Attack%=10"
+    ],
+    "activePower": [
+      0,
+      260
+    ]
+  },
+  {
+    "id": 30107,
+    "groupID": 301,
+    "star": 7,
+    "starUpCost": [
+      "40301,210"
+    ],
+    "heroAttr": [],
+    "starupDesc": "hero_star_105",
+    "skillType": 2,
+    "skills": [
+      700122
+    ],
+    "skillsGroup": 2,
+    "skillsLv": [
+      2
+    ],
+    "skillQuality": [
+      0
+    ],
+    "starEffect": [
+      "ExpAddRate%=9"
+    ],
+    "activePower": [
+      0,
+      360
+    ]
+  },
+  {
+    "id": 30108,
+    "groupID": 301,
+    "star": 8,
+    "starUpCost": [
+      "40301,240"
+    ],
+    "heroAttr": [],
+    "starupDesc": "hero_star_106",
+    "skillType": 2,
+    "skills": [
+      700131
+    ],
+    "skillsGroup": 3,
+    "skillsLv": [
+      1
+    ],
+    "skillQuality": [
+      0
+    ],
+    "starEffect": [
+      "HpBattleEndForever%=6"
+    ],
+    "activePower": [
+      0,
+      480
+    ]
+  },
+  {
+    "id": 30109,
+    "groupID": 301,
+    "star": 9,
+    "starUpCost": [
+      "40301,300"
+    ],
+    "heroAttr": [],
+    "starupDesc": "hero_skill_attri_2",
+    "skillType": 3,
+    "skills": [],
+    "skillsGroup": 0,
+    "skillsLv": [],
+    "skillQuality": [],
+    "starEffect": [
+      "HPMax%=10"
+    ],
+    "activePower": [
+      0,
+      480
+    ]
+  },
+  {
+    "id": 30110,
+    "groupID": 301,
+    "star": 10,
+    "starUpCost": [
+      "40301,360"
+    ],
+    "heroAttr": [],
+    "starupDesc": "hero_star_107",
+    "skillType": 2,
+    "skills": [
+      700132
+    ],
+    "skillsGroup": 3,
+    "skillsLv": [
+      2
+    ],
+    "skillQuality": [
+      0
+    ],
+    "starEffect": [
+      "HpBattleEndForever%=9"
+    ],
+    "activePower": [
+      0,
+      640
+    ]
+  },
+  {
+    "id": 40100,
+    "groupID": 401,
+    "star": 0,
+    "starUpCost": [
+      "40401,60"
+    ],
+    "heroAttr": [],
+    "starupDesc": "hero_star_108",
+    "skillType": 2,
+    "skills": [
+      700211
+    ],
+    "skillsGroup": 1,
+    "skillsLv": [
+      1
+    ],
+    "skillQuality": [
+      0
+    ],
+    "starEffect": [],
+    "activePower": [
+      0,
+      75
+    ]
+  },
+  {
+    "id": 40101,
+    "groupID": 401,
+    "star": 1,
+    "starUpCost": [
+      "40401,30"
+    ],
+    "heroAttr": [],
+    "starupDesc": "hero_skill_attri_3",
+    "skillType": 3,
+    "skills": [],
+    "skillsGroup": 0,
+    "skillsLv": [],
+    "skillQuality": [],
+    "starEffect": [
+      "Attack%=15"
+    ],
+    "activePower": [
+      0,
+      75
+    ]
+  },
+  {
+    "id": 40102,
+    "groupID": 401,
+    "star": 2,
+    "starUpCost": [
+      "40401,60"
+    ],
+    "heroAttr": [],
+    "starupDesc": "hero_star_109",
+    "skillType": 2,
+    "skills": [
+      700212
+    ],
+    "skillsGroup": 1,
+    "skillsLv": [
+      2
+    ],
+    "skillQuality": [
+      0
+    ],
+    "starEffect": [],
+    "activePower": [
+      0,
+      165
+    ]
+  },
+  {
+    "id": 40103,
+    "groupID": 401,
+    "star": 3,
+    "starUpCost": [
+      "40401,90"
+    ],
+    "heroAttr": [],
+    "starupDesc": "hero_skill_attri_4",
+    "skillType": 3,
+    "skills": [],
+    "skillsGroup": 0,
+    "skillsLv": [],
+    "skillQuality": [],
+    "starEffect": [
+      "HPMax%=15"
+    ],
+    "activePower": [
+      0,
+      165
+    ]
+  },
+  {
+    "id": 40104,
+    "groupID": 401,
+    "star": 4,
+    "starUpCost": [
+      "40401,120"
+    ],
+    "heroAttr": [],
+    "starupDesc": "hero_star_110",
+    "skillType": 2,
+    "skills": [
+      700221
+    ],
+    "skillsGroup": 2,
+    "skillsLv": [
+      1
+    ],
+    "skillQuality": [
+      0
+    ],
+    "starEffect": [],
+    "activePower": [
+      0,
+      270
+    ]
+  },
+  {
+    "id": 40105,
+    "groupID": 401,
+    "star": 5,
+    "starUpCost": [
+      "40401,150"
+    ],
+    "heroAttr": [],
+    "starupDesc": "hero_star_111",
+    "skillType": 2,
+    "skills": [
+      700213
+    ],
+    "skillsGroup": 1,
+    "skillsLv": [
+      3
+    ],
+    "skillQuality": [
+      0
+    ],
+    "starEffect": [],
+    "activePower": [
+      0,
+      390
+    ]
+  },
+  {
+    "id": 40106,
+    "groupID": 401,
+    "star": 6,
+    "starUpCost": [
+      "40401,180"
+    ],
+    "heroAttr": [],
+    "starupDesc": "hero_skill_attri_3",
+    "skillType": 3,
+    "skills": [],
+    "skillsGroup": 0,
+    "skillsLv": [],
+    "skillQuality": [],
+    "starEffect": [
+      "Attack%=15"
+    ],
+    "activePower": [
+      0,
+      390
+    ]
+  },
+  {
+    "id": 40107,
+    "groupID": 401,
+    "star": 7,
+    "starUpCost": [
+      "40401,210"
+    ],
+    "heroAttr": [],
+    "starupDesc": "hero_star_112",
+    "skillType": 2,
+    "skills": [
+      700222
+    ],
+    "skillsGroup": 2,
+    "skillsLv": [
+      2
+    ],
+    "skillQuality": [
+      0
+    ],
+    "starEffect": [],
+    "activePower": [
+      0,
+      540
+    ]
+  },
+  {
+    "id": 40108,
+    "groupID": 401,
+    "star": 8,
+    "starUpCost": [
+      "40401,240"
+    ],
+    "heroAttr": [],
+    "starupDesc": "hero_star_113",
+    "skillType": 2,
+    "skills": [
+      700231
+    ],
+    "skillsGroup": 3,
+    "skillsLv": [
+      1
+    ],
+    "skillQuality": [
+      0
+    ],
+    "starEffect": [],
+    "activePower": [
+      0,
+      720
+    ]
+  },
+  {
+    "id": 40109,
+    "groupID": 401,
+    "star": 9,
+    "starUpCost": [
+      "40401,300"
+    ],
+    "heroAttr": [],
+    "starupDesc": "hero_skill_attri_4",
+    "skillType": 3,
+    "skills": [],
+    "skillsGroup": 0,
+    "skillsLv": [],
+    "skillQuality": [],
+    "starEffect": [
+      "HPMax%=15"
+    ],
+    "activePower": [
+      0,
+      720
+    ]
+  },
+  {
+    "id": 40110,
+    "groupID": 401,
+    "star": 10,
+    "starUpCost": [
+      "40401,360"
+    ],
+    "heroAttr": [],
+    "starupDesc": "hero_star_114",
+    "skillType": 2,
+    "skills": [
+      700232
+    ],
+    "skillsGroup": 3,
+    "skillsLv": [
+      2
+    ],
+    "skillQuality": [
+      0
+    ],
+    "starEffect": [],
+    "activePower": [
+      0,
+      960
+    ]
+  },
+  {
+    "id": 50100,
+    "groupID": 501,
+    "star": 0,
+    "starUpCost": [
+      "40501,60"
+    ],
+    "heroAttr": [],
+    "starupDesc": "hero_star_115",
+    "skillType": 2,
+    "skills": [
+      700311
+    ],
+    "skillsGroup": 1,
+    "skillsLv": [
+      1
+    ],
+    "skillQuality": [
+      0
+    ],
+    "starEffect": [],
+    "activePower": [
+      0,
+      125
+    ]
+  },
+  {
+    "id": 50101,
+    "groupID": 501,
+    "star": 1,
+    "starUpCost": [
+      "40501,30"
+    ],
+    "heroAttr": [],
+    "starupDesc": "hero_skill_attri_5",
+    "skillType": 3,
+    "skills": [],
+    "skillsGroup": 0,
+    "skillsLv": [],
+    "skillQuality": [],
+    "starEffect": [
+      "Attack%=20"
+    ],
+    "activePower": [
+      0,
+      125
+    ]
+  },
+  {
+    "id": 50102,
+    "groupID": 501,
+    "star": 2,
+    "starUpCost": [
+      "40501,60"
+    ],
+    "heroAttr": [],
+    "starupDesc": "hero_star_116",
+    "skillType": 2,
+    "skills": [
+      700312
+    ],
+    "skillsGroup": 1,
+    "skillsLv": [
+      2
+    ],
+    "skillQuality": [
+      0
+    ],
+    "starEffect": [],
+    "activePower": [
+      0,
+      275
+    ]
+  },
+  {
+    "id": 50103,
+    "groupID": 501,
+    "star": 3,
+    "starUpCost": [
+      "40501,90"
+    ],
+    "heroAttr": [],
+    "starupDesc": "hero_skill_attri_6",
+    "skillType": 3,
+    "skills": [],
+    "skillsGroup": 0,
+    "skillsLv": [],
+    "skillQuality": [],
+    "starEffect": [
+      "HPMax%=20"
+    ],
+    "activePower": [
+      0,
+      275
+    ]
+  },
+  {
+    "id": 50104,
+    "groupID": 501,
+    "star": 4,
+    "starUpCost": [
+      "40501,120"
+    ],
+    "heroAttr": [],
+    "starupDesc": "hero_star_117",
+    "skillType": 2,
+    "skills": [
+      700321
+    ],
+    "skillsGroup": 2,
+    "skillsLv": [
+      1
+    ],
+    "skillQuality": [
+      0
+    ],
+    "starEffect": [],
+    "activePower": [
+      0,
+      450
+    ]
+  },
+  {
+    "id": 50105,
+    "groupID": 501,
+    "star": 5,
+    "starUpCost": [
+      "40501,150"
+    ],
+    "heroAttr": [],
+    "starupDesc": "hero_star_118",
+    "skillType": 2,
+    "skills": [
+      700313
+    ],
+    "skillsGroup": 1,
+    "skillsLv": [
+      3
+    ],
+    "skillQuality": [
+      0
+    ],
+    "starEffect": [],
+    "activePower": [
+      0,
+      650
+    ]
+  },
+  {
+    "id": 50106,
+    "groupID": 501,
+    "star": 6,
+    "starUpCost": [
+      "40501,180"
+    ],
+    "heroAttr": [],
+    "starupDesc": "hero_skill_attri_5",
+    "skillType": 3,
+    "skills": [],
+    "skillsGroup": 0,
+    "skillsLv": [],
+    "skillQuality": [],
+    "starEffect": [
+      "Attack%=20"
+    ],
+    "activePower": [
+      0,
+      650
+    ]
+  },
+  {
+    "id": 50107,
+    "groupID": 501,
+    "star": 7,
+    "starUpCost": [
+      "40501,210"
+    ],
+    "heroAttr": [],
+    "starupDesc": "hero_star_119",
+    "skillType": 2,
+    "skills": [
+      700322
+    ],
+    "skillsGroup": 2,
+    "skillsLv": [
+      2
+    ],
+    "skillQuality": [
+      0
+    ],
+    "starEffect": [],
+    "activePower": [
+      0,
+      900
+    ]
+  },
+  {
+    "id": 50108,
+    "groupID": 501,
+    "star": 8,
+    "starUpCost": [
+      "40501,240"
+    ],
+    "heroAttr": [],
+    "starupDesc": "hero_star_120",
+    "skillType": 2,
+    "skills": [
+      700331
+    ],
+    "skillsGroup": 3,
+    "skillsLv": [
+      1
+    ],
+    "skillQuality": [
+      0
+    ],
+    "starEffect": [],
+    "activePower": [
+      0,
+      1200
+    ]
+  },
+  {
+    "id": 50109,
+    "groupID": 501,
+    "star": 9,
+    "starUpCost": [
+      "40501,300"
+    ],
+    "heroAttr": [],
+    "starupDesc": "hero_skill_attri_6",
+    "skillType": 3,
+    "skills": [],
+    "skillsGroup": 0,
+    "skillsLv": [],
+    "skillQuality": [],
+    "starEffect": [
+      "HPMax%=20"
+    ],
+    "activePower": [
+      0,
+      1200
+    ]
+  },
+  {
+    "id": 50110,
+    "groupID": 501,
+    "star": 10,
+    "starUpCost": [
+      "40501,360"
+    ],
+    "heroAttr": [],
+    "starupDesc": "hero_star_121",
+    "skillType": 2,
+    "skills": [
+      700332
+    ],
+    "skillsGroup": 3,
+    "skillsLv": [
+      2
+    ],
+    "skillQuality": [
+      0
+    ],
+    "starEffect": [],
+    "activePower": [
+      0,
+      1600
+    ]
+  },
+  {
+    "id": 60100,
+    "groupID": 601,
+    "star": 0,
+    "starUpCost": [
+      "40601,60"
+    ],
+    "heroAttr": [],
+    "starupDesc": "hero_star_122",
+    "skillType": 2,
+    "skills": [
+      700411
+    ],
+    "skillsGroup": 1,
+    "skillsLv": [
+      1
+    ],
+    "skillQuality": [
+      0
+    ],
+    "starEffect": [],
+    "activePower": [
+      0,
+      250
+    ]
+  },
+  {
+    "id": 60101,
+    "groupID": 601,
+    "star": 1,
+    "starUpCost": [
+      "40601,30"
+    ],
+    "heroAttr": [],
+    "starupDesc": "hero_skill_attri_7",
+    "skillType": 3,
+    "skills": [],
+    "skillsGroup": 0,
+    "skillsLv": [],
+    "skillQuality": [],
+    "starEffect": [
+      "Attack%=25"
+    ],
+    "activePower": [
+      0,
+      250
+    ]
+  },
+  {
+    "id": 60102,
+    "groupID": 601,
+    "star": 2,
+    "starUpCost": [
+      "40601,60"
+    ],
+    "heroAttr": [],
+    "starupDesc": "hero_star_123",
+    "skillType": 2,
+    "skills": [
+      700412,
+      7004121
+    ],
+    "skillsGroup": 1,
+    "skillsLv": [
+      2,
+      2
+    ],
+    "skillQuality": [
+      0,
+      0
+    ],
+    "starEffect": [],
+    "activePower": [
+      0,
+      550
+    ]
+  },
+  {
+    "id": 60103,
+    "groupID": 601,
+    "star": 3,
+    "starUpCost": [
+      "40601,90"
+    ],
+    "heroAttr": [],
+    "starupDesc": "hero_skill_attri_8",
+    "skillType": 3,
+    "skills": [],
+    "skillsGroup": 0,
+    "skillsLv": [],
+    "skillQuality": [],
+    "starEffect": [
+      "HPMax%=25"
+    ],
+    "activePower": [
+      0,
+      550
+    ]
+  },
+  {
+    "id": 60104,
+    "groupID": 601,
+    "star": 4,
+    "starUpCost": [
+      "40601,120"
+    ],
+    "heroAttr": [],
+    "starupDesc": "hero_star_124",
+    "skillType": 2,
+    "skills": [
+      700421
+    ],
+    "skillsGroup": 2,
+    "skillsLv": [
+      1
+    ],
+    "skillQuality": [
+      0
+    ],
+    "starEffect": [],
+    "activePower": [
+      0,
+      900
+    ]
+  },
+  {
+    "id": 60105,
+    "groupID": 601,
+    "star": 5,
+    "starUpCost": [
+      "40601,150"
+    ],
+    "heroAttr": [],
+    "starupDesc": "hero_star_125",
+    "skillType": 2,
+    "skills": [
+      700413,
+      7004131
+    ],
+    "skillsGroup": 1,
+    "skillsLv": [
+      3,
+      3
+    ],
+    "skillQuality": [
+      0,
+      0
+    ],
+    "starEffect": [],
+    "activePower": [
+      0,
+      1300
+    ]
+  },
+  {
+    "id": 60106,
+    "groupID": 601,
+    "star": 6,
+    "starUpCost": [
+      "40601,180"
+    ],
+    "heroAttr": [],
+    "starupDesc": "hero_skill_attri_7",
+    "skillType": 3,
+    "skills": [],
+    "skillsGroup": 0,
+    "skillsLv": [],
+    "skillQuality": [],
+    "starEffect": [
+      "Attack%=25"
+    ],
+    "activePower": [
+      0,
+      1300
+    ]
+  },
+  {
+    "id": 60107,
+    "groupID": 601,
+    "star": 7,
+    "starUpCost": [
+      "40601,210"
+    ],
+    "heroAttr": [],
+    "starupDesc": "hero_star_126",
+    "skillType": 2,
+    "skills": [
+      700422
+    ],
+    "skillsGroup": 2,
+    "skillsLv": [
+      2
+    ],
+    "skillQuality": [
+      0
+    ],
+    "starEffect": [],
+    "activePower": [
+      0,
+      1800
+    ]
+  },
+  {
+    "id": 60108,
+    "groupID": 601,
+    "star": 8,
+    "starUpCost": [
+      "40601,240"
+    ],
+    "heroAttr": [],
+    "starupDesc": "hero_star_127",
+    "skillType": 2,
+    "skills": [
+      700431
+    ],
+    "skillsGroup": 3,
+    "skillsLv": [
+      1
+    ],
+    "skillQuality": [
+      0
+    ],
+    "starEffect": [],
+    "activePower": [
+      0,
+      2400
+    ]
+  },
+  {
+    "id": 60109,
+    "groupID": 601,
+    "star": 9,
+    "starUpCost": [
+      "40601,300"
+    ],
+    "heroAttr": [],
+    "starupDesc": "hero_skill_attri_8",
+    "skillType": 3,
+    "skills": [],
+    "skillsGroup": 0,
+    "skillsLv": [],
+    "skillQuality": [],
+    "starEffect": [
+      "HPMax%=25"
+    ],
+    "activePower": [
+      0,
+      2400
+    ]
+  },
+  {
+    "id": 60110,
+    "groupID": 601,
+    "star": 10,
+    "starUpCost": [
+      "40601,360"
+    ],
+    "heroAttr": [],
+    "starupDesc": "hero_star_128",
+    "skillType": 2,
+    "skills": [
+      700432
+    ],
+    "skillsGroup": 3,
+    "skillsLv": [
+      2
+    ],
+    "skillQuality": [
+      0
+    ],
+    "starEffect": [],
+    "activePower": [
+      0,
+      3200
+    ]
+  },
+  {
+    "id": 60200,
+    "groupID": 602,
+    "star": 0,
+    "starUpCost": [
+      "40602,60"
+    ],
+    "heroAttr": [],
+    "starupDesc": "hero_star_129",
+    "skillType": 2,
+    "skills": [
+      700511
+    ],
+    "skillsGroup": 1,
+    "skillsLv": [
+      1
+    ],
+    "skillQuality": [
+      0
+    ],
+    "starEffect": [],
+    "activePower": [
+      0,
+      250
+    ]
+  },
+  {
+    "id": 60201,
+    "groupID": 602,
+    "star": 1,
+    "starUpCost": [
+      "40602,30"
+    ],
+    "heroAttr": [],
+    "starupDesc": "hero_skill_attri_7",
+    "skillType": 3,
+    "skills": [],
+    "skillsGroup": 0,
+    "skillsLv": [],
+    "skillQuality": [],
+    "starEffect": [
+      "Attack%=25"
+    ],
+    "activePower": [
+      0,
+      250
+    ]
+  },
+  {
+    "id": 60202,
+    "groupID": 602,
+    "star": 2,
+    "starUpCost": [
+      "40602,60"
+    ],
+    "heroAttr": [],
+    "starupDesc": "hero_star_130",
+    "skillType": 2,
+    "skills": [
+      700512
+    ],
+    "skillsGroup": 1,
+    "skillsLv": [
+      2
+    ],
+    "skillQuality": [
+      0
+    ],
+    "starEffect": [],
+    "activePower": [
+      0,
+      550
+    ]
+  },
+  {
+    "id": 60203,
+    "groupID": 602,
+    "star": 3,
+    "starUpCost": [
+      "40602,90"
+    ],
+    "heroAttr": [],
+    "starupDesc": "hero_skill_attri_8",
+    "skillType": 3,
+    "skills": [],
+    "skillsGroup": 0,
+    "skillsLv": [],
+    "skillQuality": [],
+    "starEffect": [
+      "HPMax%=25"
+    ],
+    "activePower": [
+      0,
+      550
+    ]
+  },
+  {
+    "id": 60204,
+    "groupID": 602,
+    "star": 4,
+    "starUpCost": [
+      "40602,120"
+    ],
+    "heroAttr": [],
+    "starupDesc": "hero_star_131",
+    "skillType": 2,
+    "skills": [
+      700531,
+      7005311
+    ],
+    "skillsGroup": 2,
+    "skillsLv": [
+      1,
+      1
+    ],
+    "skillQuality": [
+      0,
+      0
+    ],
+    "starEffect": [],
+    "activePower": [
+      0,
+      900
+    ]
+  },
+  {
+    "id": 60205,
+    "groupID": 602,
+    "star": 5,
+    "starUpCost": [
+      "40602,150"
+    ],
+    "heroAttr": [],
+    "starupDesc": "hero_star_132",
+    "skillType": 2,
+    "skills": [
+      700513
+    ],
+    "skillsGroup": 1,
+    "skillsLv": [
+      3
+    ],
+    "skillQuality": [
+      0
+    ],
+    "starEffect": [],
+    "activePower": [
+      0,
+      1300
+    ]
+  },
+  {
+    "id": 60206,
+    "groupID": 602,
+    "star": 6,
+    "starUpCost": [
+      "40602,180"
+    ],
+    "heroAttr": [],
+    "starupDesc": "hero_skill_attri_7",
+    "skillType": 3,
+    "skills": [],
+    "skillsGroup": 0,
+    "skillsLv": [],
+    "skillQuality": [],
+    "starEffect": [
+      "Attack%=25"
+    ],
+    "activePower": [
+      0,
+      1300
+    ]
+  },
+  {
+    "id": 60207,
+    "groupID": 602,
+    "star": 7,
+    "starUpCost": [
+      "40602,210"
+    ],
+    "heroAttr": [],
+    "starupDesc": "hero_star_133",
+    "skillType": 2,
+    "skills": [
+      700532,
+      7005321
+    ],
+    "skillsGroup": 2,
+    "skillsLv": [
+      2,
+      2
+    ],
+    "skillQuality": [
+      0,
+      0
+    ],
+    "starEffect": [],
+    "activePower": [
+      0,
+      1800
+    ]
+  },
+  {
+    "id": 60208,
+    "groupID": 602,
+    "star": 8,
+    "starUpCost": [
+      "40602,240"
+    ],
+    "heroAttr": [],
+    "starupDesc": "hero_star_134",
+    "skillType": 2,
+    "skills": [
+      700521
+    ],
+    "skillsGroup": 3,
+    "skillsLv": [
+      1
+    ],
+    "skillQuality": [
+      0
+    ],
+    "starEffect": [],
+    "activePower": [
+      0,
+      2400
+    ]
+  },
+  {
+    "id": 60209,
+    "groupID": 602,
+    "star": 9,
+    "starUpCost": [
+      "40602,300"
+    ],
+    "heroAttr": [],
+    "starupDesc": "hero_skill_attri_8",
+    "skillType": 3,
+    "skills": [],
+    "skillsGroup": 0,
+    "skillsLv": [],
+    "skillQuality": [],
+    "starEffect": [
+      "HPMax%=25"
+    ],
+    "activePower": [
+      0,
+      2400
+    ]
+  },
+  {
+    "id": 60210,
+    "groupID": 602,
+    "star": 10,
+    "starUpCost": [
+      "40602,360"
+    ],
+    "heroAttr": [],
+    "starupDesc": "hero_star_135",
+    "skillType": 2,
+    "skills": [
+      700522,
+      700521
+    ],
+    "skillsGroup": 3,
+    "skillsLv": [
+      2,
+      2
+    ],
+    "skillQuality": [
+      0,
+      0
+    ],
+    "starEffect": [],
+    "activePower": [
+      0,
+      3200
+    ]
+  },
+  {
+    "id": 60300,
+    "groupID": 603,
+    "star": 0,
+    "starUpCost": [
+      "40603,60"
+    ],
+    "heroAttr": [],
+    "starupDesc": "hero_star_136",
+    "skillType": 2,
+    "skills": [
+      700611,
+      7006111
+    ],
+    "skillsGroup": 1,
+    "skillsLv": [
+      1,
+      1
+    ],
+    "skillQuality": [
+      0,
+      0
+    ],
+    "starEffect": [],
+    "activePower": [
+      0,
+      250
+    ]
+  },
+  {
+    "id": 60301,
+    "groupID": 603,
+    "star": 1,
+    "starUpCost": [
+      "40603,30"
+    ],
+    "heroAttr": [],
+    "starupDesc": "hero_skill_attri_7",
+    "skillType": 3,
+    "skills": [],
+    "skillsGroup": 0,
+    "skillsLv": [],
+    "skillQuality": [],
+    "starEffect": [
+      "Attack%=25"
+    ],
+    "activePower": [
+      0,
+      250
+    ]
+  },
+  {
+    "id": 60302,
+    "groupID": 603,
+    "star": 2,
+    "starUpCost": [
+      "40603,60"
+    ],
+    "heroAttr": [],
+    "starupDesc": "hero_star_137",
+    "skillType": 2,
+    "skills": [
+      700612,
+      7006111
+    ],
+    "skillsGroup": 1,
+    "skillsLv": [
+      2,
+      2
+    ],
+    "skillQuality": [
+      0,
+      0
+    ],
+    "starEffect": [],
+    "activePower": [
+      0,
+      550
+    ]
+  },
+  {
+    "id": 60303,
+    "groupID": 603,
+    "star": 3,
+    "starUpCost": [
+      "40603,90"
+    ],
+    "heroAttr": [],
+    "starupDesc": "hero_skill_attri_8",
+    "skillType": 3,
+    "skills": [],
+    "skillsGroup": 0,
+    "skillsLv": [],
+    "skillQuality": [],
+    "starEffect": [
+      "HPMax%=25"
+    ],
+    "activePower": [
+      0,
+      550
+    ]
+  },
+  {
+    "id": 60304,
+    "groupID": 603,
+    "star": 4,
+    "starUpCost": [
+      "40603,120"
+    ],
+    "heroAttr": [],
+    "starupDesc": "hero_star_138",
+    "skillType": 2,
+    "skills": [
+      700621,
+      7006211
+    ],
+    "skillsGroup": 2,
+    "skillsLv": [
+      1,
+      1
+    ],
+    "skillQuality": [
+      0,
+      0
+    ],
+    "starEffect": [],
+    "activePower": [
+      0,
+      900
+    ]
+  },
+  {
+    "id": 60305,
+    "groupID": 603,
+    "star": 5,
+    "starUpCost": [
+      "40603,150"
+    ],
+    "heroAttr": [],
+    "starupDesc": "hero_star_139",
+    "skillType": 2,
+    "skills": [
+      700613,
+      7006111
+    ],
+    "skillsGroup": 1,
+    "skillsLv": [
+      3,
+      3
+    ],
+    "skillQuality": [
+      0,
+      0
+    ],
+    "starEffect": [],
+    "activePower": [
+      0,
+      1300
+    ]
+  },
+  {
+    "id": 60306,
+    "groupID": 603,
+    "star": 6,
+    "starUpCost": [
+      "40603,180"
+    ],
+    "heroAttr": [],
+    "starupDesc": "hero_skill_attri_7",
+    "skillType": 3,
+    "skills": [],
+    "skillsGroup": 0,
+    "skillsLv": [],
+    "skillQuality": [],
+    "starEffect": [
+      "Attack%=25"
+    ],
+    "activePower": [
+      0,
+      1300
+    ]
+  },
+  {
+    "id": 60307,
+    "groupID": 603,
+    "star": 7,
+    "starUpCost": [
+      "40603,210"
+    ],
+    "heroAttr": [],
+    "starupDesc": "hero_star_140",
+    "skillType": 2,
+    "skills": [
+      700622,
+      7006221
+    ],
+    "skillsGroup": 2,
+    "skillsLv": [
+      2,
+      2
+    ],
+    "skillQuality": [
+      0,
+      0
+    ],
+    "starEffect": [],
+    "activePower": [
+      0,
+      1800
+    ]
+  },
+  {
+    "id": 60308,
+    "groupID": 603,
+    "star": 8,
+    "starUpCost": [
+      "40603,240"
+    ],
+    "heroAttr": [],
+    "starupDesc": "hero_star_141",
+    "skillType": 2,
+    "skills": [
+      700631
+    ],
+    "skillsGroup": 3,
+    "skillsLv": [
+      1
+    ],
+    "skillQuality": [
+      0
+    ],
+    "starEffect": [],
+    "activePower": [
+      0,
+      2400
+    ]
+  },
+  {
+    "id": 60309,
+    "groupID": 603,
+    "star": 9,
+    "starUpCost": [
+      "40603,300"
+    ],
+    "heroAttr": [],
+    "starupDesc": "hero_skill_attri_8",
+    "skillType": 3,
+    "skills": [],
+    "skillsGroup": 0,
+    "skillsLv": [],
+    "skillQuality": [],
+    "starEffect": [
+      "HPMax%=25"
+    ],
+    "activePower": [
+      0,
+      2400
+    ]
+  },
+  {
+    "id": 60310,
+    "groupID": 603,
+    "star": 10,
+    "starUpCost": [
+      "40603,360"
+    ],
+    "heroAttr": [],
+    "starupDesc": "hero_star_142",
+    "skillType": 2,
+    "skills": [
+      700632,
+      700631
+    ],
+    "skillsGroup": 3,
+    "skillsLv": [
+      2,
+      2
+    ],
+    "skillQuality": [
+      0,
+      0
+    ],
+    "starEffect": [],
+    "activePower": [
+      0,
+      3200
+    ]
+  },
+  {
+    "id": 60400,
+    "groupID": 604,
+    "star": 0,
+    "starUpCost": [
+      "40604,60"
+    ],
+    "heroAttr": [],
+    "starupDesc": "hero_star_143",
+    "skillType": 2,
+    "skills": [
+      700711
+    ],
+    "skillsGroup": 1,
+    "skillsLv": [
+      1
+    ],
+    "skillQuality": [
+      0
+    ],
+    "starEffect": [],
+    "activePower": [
+      0,
+      250
+    ]
+  },
+  {
+    "id": 60401,
+    "groupID": 604,
+    "star": 1,
+    "starUpCost": [
+      "40604,30"
+    ],
+    "heroAttr": [],
+    "starupDesc": "hero_skill_attri_7",
+    "skillType": 3,
+    "skills": [],
+    "skillsGroup": 0,
+    "skillsLv": [],
+    "skillQuality": [],
+    "starEffect": [
+      "Attack%=25"
+    ],
+    "activePower": [
+      0,
+      250
+    ]
+  },
+  {
+    "id": 60402,
+    "groupID": 604,
+    "star": 2,
+    "starUpCost": [
+      "40604,60"
+    ],
+    "heroAttr": [],
+    "starupDesc": "hero_star_144",
+    "skillType": 2,
+    "skills": [
+      700712,
+      700711
+    ],
+    "skillsGroup": 1,
+    "skillsLv": [
+      2,
+      2
+    ],
+    "skillQuality": [
+      0,
+      0
+    ],
+    "starEffect": [],
+    "activePower": [
+      0,
+      550
+    ]
+  },
+  {
+    "id": 60403,
+    "groupID": 604,
+    "star": 3,
+    "starUpCost": [
+      "40604,90"
+    ],
+    "heroAttr": [],
+    "starupDesc": "hero_skill_attri_8",
+    "skillType": 3,
+    "skills": [],
+    "skillsGroup": 0,
+    "skillsLv": [],
+    "skillQuality": [],
+    "starEffect": [
+      "HPMax%=25"
+    ],
+    "activePower": [
+      0,
+      550
+    ]
+  },
+  {
+    "id": 60404,
+    "groupID": 604,
+    "star": 4,
+    "starUpCost": [
+      "40604,120"
+    ],
+    "heroAttr": [],
+    "starupDesc": "hero_star_145",
+    "skillType": 2,
+    "skills": [
+      700721
+    ],
+    "skillsGroup": 2,
+    "skillsLv": [
+      1
+    ],
+    "skillQuality": [
+      0
+    ],
+    "starEffect": [],
+    "activePower": [
+      0,
+      900
+    ]
+  },
+  {
+    "id": 60405,
+    "groupID": 604,
+    "star": 5,
+    "starUpCost": [
+      "40604,150"
+    ],
+    "heroAttr": [],
+    "starupDesc": "hero_star_146",
+    "skillType": 2,
+    "skills": [
+      700713,
+      700712
+    ],
+    "skillsGroup": 1,
+    "skillsLv": [
+      3,
+      3
+    ],
+    "skillQuality": [
+      0,
+      0
+    ],
+    "starEffect": [],
+    "activePower": [
+      0,
+      1300
+    ]
+  },
+  {
+    "id": 60406,
+    "groupID": 604,
+    "star": 6,
+    "starUpCost": [
+      "40604,180"
+    ],
+    "heroAttr": [],
+    "starupDesc": "hero_skill_attri_7",
+    "skillType": 3,
+    "skills": [],
+    "skillsGroup": 0,
+    "skillsLv": [],
+    "skillQuality": [],
+    "starEffect": [
+      "Attack%=25"
+    ],
+    "activePower": [
+      0,
+      1300
+    ]
+  },
+  {
+    "id": 60407,
+    "groupID": 604,
+    "star": 7,
+    "starUpCost": [
+      "40604,210"
+    ],
+    "heroAttr": [],
+    "starupDesc": "hero_star_147",
+    "skillType": 2,
+    "skills": [
+      700722
+    ],
+    "skillsGroup": 2,
+    "skillsLv": [
+      2
+    ],
+    "skillQuality": [
+      0
+    ],
+    "starEffect": [],
+    "activePower": [
+      0,
+      1800
+    ]
+  },
+  {
+    "id": 60408,
+    "groupID": 604,
+    "star": 8,
+    "starUpCost": [
+      "40604,240"
+    ],
+    "heroAttr": [],
+    "starupDesc": "hero_star_148",
+    "skillType": 2,
+    "skills": [
+      700731,
+      20101
+    ],
+    "skillsGroup": 3,
+    "skillsLv": [
+      1,
+      1
+    ],
+    "skillQuality": [
+      0,
+      0
+    ],
+    "starEffect": [],
+    "activePower": [
+      0,
+      2400
+    ]
+  },
+  {
+    "id": 60409,
+    "groupID": 604,
+    "star": 9,
+    "starUpCost": [
+      "40604,300"
+    ],
+    "heroAttr": [],
+    "starupDesc": "hero_skill_attri_8",
+    "skillType": 3,
+    "skills": [],
+    "skillsGroup": 0,
+    "skillsLv": [],
+    "skillQuality": [],
+    "starEffect": [
+      "HPMax%=25"
+    ],
+    "activePower": [
+      0,
+      2400
+    ]
+  },
+  {
+    "id": 60410,
+    "groupID": 604,
+    "star": 10,
+    "starUpCost": [
+      "40604,360"
+    ],
+    "heroAttr": [],
+    "starupDesc": "hero_star_149",
+    "skillType": 2,
+    "skills": [
+      700732,
+      20102
+    ],
+    "skillsGroup": 3,
+    "skillsLv": [
+      2,
+      2
+    ],
+    "skillQuality": [
+      0,
+      0
+    ],
+    "starEffect": [],
+    "activePower": [
+      0,
+      3200
+    ]
+  },
+  {
+    "id": 60500,
+    "groupID": 605,
+    "star": 0,
+    "starUpCost": [
+      "40605,60"
+    ],
+    "heroAttr": [],
+    "starupDesc": "hero_star_150",
+    "skillType": 2,
+    "skills": [
+      700811
+    ],
+    "skillsGroup": 1,
+    "skillsLv": [
+      1
+    ],
+    "skillQuality": [
+      0
+    ],
+    "starEffect": [],
+    "activePower": [
+      0,
+      250
+    ]
+  },
+  {
+    "id": 60501,
+    "groupID": 605,
+    "star": 1,
+    "starUpCost": [
+      "40605,30"
+    ],
+    "heroAttr": [],
+    "starupDesc": "hero_skill_attri_7",
+    "skillType": 3,
+    "skills": [],
+    "skillsGroup": 0,
+    "skillsLv": [],
+    "skillQuality": [],
+    "starEffect": [
+      "Attack%=25"
+    ],
+    "activePower": [
+      0,
+      250
+    ]
+  },
+  {
+    "id": 60502,
+    "groupID": 605,
+    "star": 2,
+    "starUpCost": [
+      "40605,60"
+    ],
+    "heroAttr": [],
+    "starupDesc": "hero_star_151",
+    "skillType": 2,
+    "skills": [
+      700812
+    ],
+    "skillsGroup": 1,
+    "skillsLv": [
+      2
+    ],
+    "skillQuality": [
+      0
+    ],
+    "starEffect": [],
+    "activePower": [
+      0,
+      550
+    ]
+  },
+  {
+    "id": 60503,
+    "groupID": 605,
+    "star": 3,
+    "starUpCost": [
+      "40605,90"
+    ],
+    "heroAttr": [],
+    "starupDesc": "hero_skill_attri_8",
+    "skillType": 3,
+    "skills": [],
+    "skillsGroup": 0,
+    "skillsLv": [],
+    "skillQuality": [],
+    "starEffect": [
+      "HPMax%=25"
+    ],
+    "activePower": [
+      0,
+      550
+    ]
+  },
+  {
+    "id": 60504,
+    "groupID": 605,
+    "star": 4,
+    "starUpCost": [
+      "40605,120"
+    ],
+    "heroAttr": [],
+    "starupDesc": "hero_star_152",
+    "skillType": 2,
+    "skills": [
+      700821
+    ],
+    "skillsGroup": 2,
+    "skillsLv": [
+      1
+    ],
+    "skillQuality": [
+      0
+    ],
+    "starEffect": [],
+    "activePower": [
+      0,
+      900
+    ]
+  },
+  {
+    "id": 60505,
+    "groupID": 605,
+    "star": 5,
+    "starUpCost": [
+      "40605,150"
+    ],
+    "heroAttr": [],
+    "starupDesc": "hero_star_153",
+    "skillType": 2,
+    "skills": [
+      700813
+    ],
+    "skillsGroup": 1,
+    "skillsLv": [
+      3
+    ],
+    "skillQuality": [
+      0
+    ],
+    "starEffect": [],
+    "activePower": [
+      0,
+      1300
+    ]
+  },
+  {
+    "id": 60506,
+    "groupID": 605,
+    "star": 6,
+    "starUpCost": [
+      "40605,180"
+    ],
+    "heroAttr": [],
+    "starupDesc": "hero_skill_attri_7",
+    "skillType": 3,
+    "skills": [],
+    "skillsGroup": 0,
+    "skillsLv": [],
+    "skillQuality": [],
+    "starEffect": [
+      "Attack%=25"
+    ],
+    "activePower": [
+      0,
+      1300
+    ]
+  },
+  {
+    "id": 60507,
+    "groupID": 605,
+    "star": 7,
+    "starUpCost": [
+      "40605,210"
+    ],
+    "heroAttr": [],
+    "starupDesc": "hero_star_154",
+    "skillType": 2,
+    "skills": [
+      700822
+    ],
+    "skillsGroup": 2,
+    "skillsLv": [
+      2
+    ],
+    "skillQuality": [
+      0
+    ],
+    "starEffect": [],
+    "activePower": [
+      0,
+      1800
+    ]
+  },
+  {
+    "id": 60508,
+    "groupID": 605,
+    "star": 8,
+    "starUpCost": [
+      "40605,240"
+    ],
+    "heroAttr": [],
+    "starupDesc": "hero_star_155",
+    "skillType": 2,
+    "skills": [
+      700831,
+      20201
+    ],
+    "skillsGroup": 3,
+    "skillsLv": [
+      1
+    ],
+    "skillQuality": [
+      0
+    ],
+    "starEffect": [],
+    "activePower": [
+      0,
+      2400
+    ]
+  },
+  {
+    "id": 60509,
+    "groupID": 605,
+    "star": 9,
+    "starUpCost": [
+      "40605,300"
+    ],
+    "heroAttr": [],
+    "starupDesc": "hero_skill_attri_8",
+    "skillType": 3,
+    "skills": [],
+    "skillsGroup": 0,
+    "skillsLv": [],
+    "skillQuality": [],
+    "starEffect": [
+      "HPMax%=25"
+    ],
+    "activePower": [
+      0,
+      2400
+    ]
+  },
+  {
+    "id": 60510,
+    "groupID": 605,
+    "star": 10,
+    "starUpCost": [
+      "40605,360"
+    ],
+    "heroAttr": [],
+    "starupDesc": "hero_star_156",
+    "skillType": 2,
+    "skills": [
+      700832,
+      700831,
+      20201
+    ],
+    "skillsGroup": 3,
+    "skillsLv": [
+      2,
+      2,
+      2
+    ],
+    "skillQuality": [
+      0,
+      0,
+      0
+    ],
+    "starEffect": [],
+    "activePower": [
+      0,
+      3200
+    ]
+  }
+]

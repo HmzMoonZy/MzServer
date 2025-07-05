@@ -1,0 +1,78 @@
+[
+  {
+    "id": 1001,
+    "path": "Assets/_Resources/Maps/Prefab/GuildMiningMap/1001.prefab"
+  },
+  {
+    "id": 1011,
+    "path": "Assets/_Resources/Maps/Prefab/GuildMiningMap/11.prefab"
+  },
+  {
+    "id": 1012,
+    "path": "Assets/_Resources/Maps/Prefab/GuildMiningMap/12.prefab"
+  },
+  {
+    "id": 1013,
+    "path": "Assets/_Resources/Maps/Prefab/GuildMiningMap/13.prefab"
+  },
+  {
+    "id": 1014,
+    "path": "Assets/_Resources/Maps/Prefab/GuildMiningMap/14.prefab"
+  },
+  {
+    "id": 1015,
+    "path": "Assets/_Resources/Maps/Prefab/GuildMiningMap/15.prefab"
+  },
+  {
+    "id": 2011,
+    "path": "Assets/_Resources/Maps/Prefab/GuildMiningMap/21.prefab"
+  },
+  {
+    "id": 2012,
+    "path": "Assets/_Resources/Maps/Prefab/GuildMiningMap/22.prefab"
+  },
+  {
+    "id": 2013,
+    "path": "Assets/_Resources/Maps/Prefab/GuildMiningMap/23.prefab"
+  },
+  {
+    "id": 3011,
+    "path": "Assets/_Resources/Maps/Prefab/GuildMiningMap/31.prefab"
+  },
+  {
+    "id": 4011,
+    "path": "Assets/_Resources/Maps/Prefab/GuildMiningMap/41.prefab"
+  },
+  {
+    "id": 4012,
+    "path": "Assets/_Resources/Maps/Prefab/GuildMiningMap/42.prefab"
+  },
+  {
+    "id": 4013,
+    "path": "Assets/_Resources/Maps/Prefab/GuildMiningMap/43.prefab"
+  },
+  {
+    "id": 4014,
+    "path": "Assets/_Resources/Maps/Prefab/GuildMiningMap/44.prefab"
+  },
+  {
+    "id": 4015,
+    "path": "Assets/_Resources/Maps/Prefab/GuildMiningMap/45.prefab"
+  },
+  {
+    "id": 5011,
+    "path": "Assets/_Resources/Maps/Prefab/GuildMiningMap/51.prefab"
+  },
+  {
+    "id": 5012,
+    "path": "Assets/_Resources/Maps/Prefab/GuildMiningMap/52.prefab"
+  },
+  {
+    "id": 5013,
+    "path": "Assets/_Resources/Maps/Prefab/GuildMiningMap/53.prefab"
+  },
+  {
+    "id": 6011,
+    "path": "Assets/_Resources/Maps/Prefab/GuildMiningMap/61.prefab"
+  }
+]

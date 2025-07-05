@@ -1,0 +1,222 @@
+[
+  {
+    "id": 1,
+    "notes": "通行证第1期",
+    "seasonID": 1,
+    "nameID": "8551",
+    "groupId": 1,
+    "buyTime": 0,
+    "startTime": 0,
+    "endTime": 20,
+    "finalRewardTimes": 20
+  },
+  {
+    "id": 2,
+    "notes": "通行证第2期",
+    "seasonID": 2,
+    "nameID": "8552",
+    "groupId": 2,
+    "buyTime": 21,
+    "startTime": 21,
+    "endTime": 41,
+    "finalRewardTimes": 20
+  },
+  {
+    "id": 3,
+    "notes": "通行证第3期",
+    "seasonID": 3,
+    "nameID": "8552",
+    "groupId": 3,
+    "buyTime": 42,
+    "startTime": 42,
+    "endTime": 62,
+    "finalRewardTimes": 20
+  },
+  {
+    "id": 4,
+    "notes": "通行证第4期",
+    "seasonID": 4,
+    "nameID": "8552",
+    "groupId": 4,
+    "buyTime": 63,
+    "startTime": 63,
+    "endTime": 83,
+    "finalRewardTimes": 20
+  },
+  {
+    "id": 5,
+    "notes": "通行证第5期",
+    "seasonID": 5,
+    "nameID": "8552",
+    "groupId": 4,
+    "buyTime": 84,
+    "startTime": 84,
+    "endTime": 104,
+    "finalRewardTimes": 20
+  },
+  {
+    "id": 6,
+    "notes": "通行证第6期",
+    "seasonID": 6,
+    "nameID": "8552",
+    "groupId": 4,
+    "buyTime": 105,
+    "startTime": 105,
+    "endTime": 125,
+    "finalRewardTimes": 20
+  },
+  {
+    "id": 7,
+    "notes": "通行证第7期",
+    "seasonID": 7,
+    "nameID": "8552",
+    "groupId": 4,
+    "buyTime": 126,
+    "startTime": 126,
+    "endTime": 146,
+    "finalRewardTimes": 20
+  },
+  {
+    "id": 8,
+    "notes": "通行证第8期",
+    "seasonID": 8,
+    "nameID": "8552",
+    "groupId": 4,
+    "buyTime": 147,
+    "startTime": 147,
+    "endTime": 167,
+    "finalRewardTimes": 20
+  },
+  {
+    "id": 9,
+    "notes": "通行证第9期",
+    "seasonID": 9,
+    "nameID": "8552",
+    "groupId": 4,
+    "buyTime": 168,
+    "startTime": 168,
+    "endTime": 188,
+    "finalRewardTimes": 20
+  },
+  {
+    "id": 10,
+    "notes": "通行证第10期",
+    "seasonID": 10,
+    "nameID": "8552",
+    "groupId": 4,
+    "buyTime": 189,
+    "startTime": 189,
+    "endTime": 209,
+    "finalRewardTimes": 20
+  },
+  {
+    "id": 11,
+    "notes": "通行证第11期",
+    "seasonID": 11,
+    "nameID": "8552",
+    "groupId": 5,
+    "buyTime": 210,
+    "startTime": 210,
+    "endTime": 230,
+    "finalRewardTimes": 20
+  },
+  {
+    "id": 12,
+    "notes": "通行证第12期",
+    "seasonID": 12,
+    "nameID": "8552",
+    "groupId": 5,
+    "buyTime": 231,
+    "startTime": 231,
+    "endTime": 251,
+    "finalRewardTimes": 20
+  },
+  {
+    "id": 13,
+    "notes": "通行证第13期",
+    "seasonID": 13,
+    "nameID": "8552",
+    "groupId": 5,
+    "buyTime": 252,
+    "startTime": 252,
+    "endTime": 272,
+    "finalRewardTimes": 20
+  },
+  {
+    "id": 14,
+    "notes": "通行证第14期",
+    "seasonID": 14,
+    "nameID": "8552",
+    "groupId": 5,
+    "buyTime": 273,
+    "startTime": 273,
+    "endTime": 293,
+    "finalRewardTimes": 20
+  },
+  {
+    "id": 15,
+    "notes": "通行证第15期",
+    "seasonID": 15,
+    "nameID": "8552",
+    "groupId": 5,
+    "buyTime": 294,
+    "startTime": 294,
+    "endTime": 314,
+    "finalRewardTimes": 20
+  },
+  {
+    "id": 16,
+    "notes": "通行证第16期",
+    "seasonID": 16,
+    "nameID": "8552",
+    "groupId": 5,
+    "buyTime": 315,
+    "startTime": 315,
+    "endTime": 335,
+    "finalRewardTimes": 20
+  },
+  {
+    "id": 17,
+    "notes": "通行证第17期",
+    "seasonID": 17,
+    "nameID": "8552",
+    "groupId": 5,
+    "buyTime": 336,
+    "startTime": 336,
+    "endTime": 356,
+    "finalRewardTimes": 20
+  },
+  {
+    "id": 18,
+    "notes": "通行证第18期",
+    "seasonID": 18,
+    "nameID": "8552",
+    "groupId": 5,
+    "buyTime": 357,
+    "startTime": 357,
+    "endTime": 377,
+    "finalRewardTimes": 20
+  },
+  {
+    "id": 19,
+    "notes": "通行证第19期",
+    "seasonID": 19,
+    "nameID": "8552",
+    "groupId": 5,
+    "buyTime": 378,
+    "startTime": 378,
+    "endTime": 398,
+    "finalRewardTimes": 20
+  },
+  {
+    "id": 20,
+    "notes": "通行证第20期",
+    "seasonID": 20,
+    "nameID": "8552",
+    "groupId": 5,
+    "buyTime": 399,
+    "startTime": 399,
+    "endTime": 419,
+    "finalRewardTimes": 20
+  }
+]

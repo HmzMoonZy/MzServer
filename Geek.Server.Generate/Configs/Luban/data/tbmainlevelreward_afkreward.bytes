@@ -1,0 +1,162 @@
+[
+  {
+    "ID": 1,
+    "RewardLevel": 1,
+    "RequiredLevel": 1008,
+    "HangGold": 7,
+    "HangDust": 2,
+    "HangHeroExp": 6
+  },
+  {
+    "ID": 2,
+    "RewardLevel": 2,
+    "RequiredLevel": 2010,
+    "HangGold": 8,
+    "HangDust": 3,
+    "HangHeroExp": 6
+  },
+  {
+    "ID": 3,
+    "RewardLevel": 3,
+    "RequiredLevel": 3010,
+    "HangGold": 9,
+    "HangDust": 4,
+    "HangHeroExp": 6
+  },
+  {
+    "ID": 4,
+    "RewardLevel": 4,
+    "RequiredLevel": 4010,
+    "HangGold": 10,
+    "HangDust": 5,
+    "HangHeroExp": 6
+  },
+  {
+    "ID": 5,
+    "RewardLevel": 5,
+    "RequiredLevel": 5010,
+    "HangGold": 11,
+    "HangDust": 6,
+    "HangHeroExp": 6
+  },
+  {
+    "ID": 6,
+    "RewardLevel": 6,
+    "RequiredLevel": 6010,
+    "HangGold": 12,
+    "HangDust": 7,
+    "HangHeroExp": 6
+  },
+  {
+    "ID": 7,
+    "RewardLevel": 7,
+    "RequiredLevel": 7010,
+    "HangGold": 13,
+    "HangDust": 8,
+    "HangHeroExp": 6
+  },
+  {
+    "ID": 8,
+    "RewardLevel": 8,
+    "RequiredLevel": 8010,
+    "HangGold": 14,
+    "HangDust": 9,
+    "HangHeroExp": 6
+  },
+  {
+    "ID": 9,
+    "RewardLevel": 9,
+    "RequiredLevel": 9010,
+    "HangGold": 15,
+    "HangDust": 10,
+    "HangHeroExp": 6
+  },
+  {
+    "ID": 10,
+    "RewardLevel": 10,
+    "RequiredLevel": 10010,
+    "HangGold": 16,
+    "HangDust": 11,
+    "HangHeroExp": 6
+  },
+  {
+    "ID": 11,
+    "RewardLevel": 11,
+    "RequiredLevel": 11010,
+    "HangGold": 17,
+    "HangDust": 12,
+    "HangHeroExp": 6
+  },
+  {
+    "ID": 12,
+    "RewardLevel": 12,
+    "RequiredLevel": 12010,
+    "HangGold": 18,
+    "HangDust": 13,
+    "HangHeroExp": 6
+  },
+  {
+    "ID": 13,
+    "RewardLevel": 13,
+    "RequiredLevel": 13010,
+    "HangGold": 19,
+    "HangDust": 14,
+    "HangHeroExp": 6
+  },
+  {
+    "ID": 14,
+    "RewardLevel": 14,
+    "RequiredLevel": 14010,
+    "HangGold": 20,
+    "HangDust": 15,
+    "HangHeroExp": 6
+  },
+  {
+    "ID": 15,
+    "RewardLevel": 15,
+    "RequiredLevel": 15010,
+    "HangGold": 21,
+    "HangDust": 16,
+    "HangHeroExp": 6
+  },
+  {
+    "ID": 16,
+    "RewardLevel": 16,
+    "RequiredLevel": 16010,
+    "HangGold": 22,
+    "HangDust": 17,
+    "HangHeroExp": 6
+  },
+  {
+    "ID": 17,
+    "RewardLevel": 17,
+    "RequiredLevel": 17010,
+    "HangGold": 23,
+    "HangDust": 18,
+    "HangHeroExp": 6
+  },
+  {
+    "ID": 18,
+    "RewardLevel": 18,
+    "RequiredLevel": 18010,
+    "HangGold": 24,
+    "HangDust": 19,
+    "HangHeroExp": 6
+  },
+  {
+    "ID": 19,
+    "RewardLevel": 19,
+    "RequiredLevel": 19010,
+    "HangGold": 25,
+    "HangDust": 20,
+    "HangHeroExp": 6
+  },
+  {
+    "ID": 20,
+    "RewardLevel": 20,
+    "RequiredLevel": 0,
+    "HangGold": 26,
+    "HangDust": 21,
+    "HangHeroExp": 6
+  }
+]

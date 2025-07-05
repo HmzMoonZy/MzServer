@@ -1,0 +1,17 @@
+[
+  {
+    "id": 1,
+    "path": "Assets/_Resources/Prefab/Role/Equip/Default_Equip.prefab",
+    "skinName": "default"
+  },
+  {
+    "id": 2,
+    "path": "Assets/_Resources/Prefab/Role/Equip/Default_Equip_WuKong.prefab",
+    "skinName": "default"
+  },
+  {
+    "id": 3,
+    "path": "Assets/_Resources/Prefab/Role/Equip/Default_Equip_SpaceCapy.prefab",
+    "skinName": "ZhengChang"
+  }
+]

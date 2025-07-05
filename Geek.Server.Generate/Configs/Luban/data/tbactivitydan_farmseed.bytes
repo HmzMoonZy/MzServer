@@ -1,0 +1,194 @@
+[
+  {
+    "ID": 1,
+    "SeedID": 3001,
+    "CropID": 3011,
+    "GrowTime": 300,
+    "SaleCoinType": 0,
+    "Price": 50,
+    "PriceColor": [
+      "15,40",
+      "40,50",
+      "50,100",
+      "100,150",
+      "150,225"
+    ],
+    "ConnectActivityId": 250301
+  },
+  {
+    "ID": 2,
+    "SeedID": 3002,
+    "CropID": 3012,
+    "GrowTime": 300,
+    "SaleCoinType": 0,
+    "Price": 50,
+    "PriceColor": [
+      "15,40",
+      "40,50",
+      "50,100",
+      "100,150",
+      "150,225"
+    ],
+    "ConnectActivityId": 250301
+  },
+  {
+    "ID": 3,
+    "SeedID": 3003,
+    "CropID": 3013,
+    "GrowTime": 600,
+    "SaleCoinType": 0,
+    "Price": 150,
+    "PriceColor": [
+      "45,120",
+      "120,150",
+      "150,300",
+      "300,450",
+      "450,675"
+    ],
+    "ConnectActivityId": 250301
+  },
+  {
+    "ID": 4,
+    "SeedID": 3004,
+    "CropID": 3014,
+    "GrowTime": 600,
+    "SaleCoinType": 0,
+    "Price": 150,
+    "PriceColor": [
+      "45,120",
+      "120,150",
+      "150,300",
+      "300,450",
+      "450,675"
+    ],
+    "ConnectActivityId": 250301
+  },
+  {
+    "ID": 5,
+    "SeedID": 3005,
+    "CropID": 3015,
+    "GrowTime": 14400,
+    "SaleCoinType": 1,
+    "Price": 30,
+    "PriceColor": [
+      "9,24",
+      "24,30",
+      "30,60",
+      "60,90",
+      "90,135"
+    ],
+    "ConnectActivityId": 250301
+  },
+  {
+    "ID": 6,
+    "SeedID": 3006,
+    "CropID": 3016,
+    "GrowTime": 28800,
+    "SaleCoinType": 1,
+    "Price": 90,
+    "PriceColor": [
+      "27,72",
+      "72,90",
+      "90,180",
+      "180,270",
+      "270,405"
+    ],
+    "ConnectActivityId": 250301
+  },
+  {
+    "ID": 7,
+    "SeedID": 3101,
+    "CropID": 3111,
+    "GrowTime": 300,
+    "SaleCoinType": 0,
+    "Price": 50,
+    "PriceColor": [
+      "15,40",
+      "40,50",
+      "50,100",
+      "100,150",
+      "150,225"
+    ],
+    "ConnectActivityId": 250609
+  },
+  {
+    "ID": 8,
+    "SeedID": 3102,
+    "CropID": 3112,
+    "GrowTime": 300,
+    "SaleCoinType": 0,
+    "Price": 50,
+    "PriceColor": [
+      "15,40",
+      "40,50",
+      "50,100",
+      "100,150",
+      "150,225"
+    ],
+    "ConnectActivityId": 250609
+  },
+  {
+    "ID": 9,
+    "SeedID": 3103,
+    "CropID": 3113,
+    "GrowTime": 600,
+    "SaleCoinType": 0,
+    "Price": 150,
+    "PriceColor": [
+      "45,120",
+      "120,150",
+      "150,300",
+      "300,450",
+      "450,675"
+    ],
+    "ConnectActivityId": 250609
+  },
+  {
+    "ID": 10,
+    "SeedID": 3104,
+    "CropID": 3114,
+    "GrowTime": 600,
+    "SaleCoinType": 0,
+    "Price": 150,
+    "PriceColor": [
+      "45,120",
+      "120,150",
+      "150,300",
+      "300,450",
+      "450,675"
+    ],
+    "ConnectActivityId": 250609
+  },
+  {
+    "ID": 11,
+    "SeedID": 3105,
+    "CropID": 3115,
+    "GrowTime": 14400,
+    "SaleCoinType": 1,
+    "Price": 30,
+    "PriceColor": [
+      "9,24",
+      "24,30",
+      "30,60",
+      "60,90",
+      "90,135"
+    ],
+    "ConnectActivityId": 250609
+  },
+  {
+    "ID": 12,
+    "SeedID": 3106,
+    "CropID": 3116,
+    "GrowTime": 28800,
+    "SaleCoinType": 1,
+    "Price": 90,
+    "PriceColor": [
+      "27,72",
+      "72,90",
+      "90,180",
+      "180,270",
+      "270,405"
+    ],
+    "ConnectActivityId": 250609
+  }
+]

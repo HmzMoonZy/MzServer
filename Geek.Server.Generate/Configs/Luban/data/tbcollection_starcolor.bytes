@@ -1,0 +1,188 @@
+[
+  {
+    "id": 0,
+    "starNumber": 0,
+    "atlasID": 105,
+    "iconStar": "star_1"
+  },
+  {
+    "id": 1,
+    "starNumber": 1,
+    "atlasID": 105,
+    "iconStar": "star_1"
+  },
+  {
+    "id": 2,
+    "starNumber": 2,
+    "atlasID": 105,
+    "iconStar": "star_1"
+  },
+  {
+    "id": 3,
+    "starNumber": 3,
+    "atlasID": 105,
+    "iconStar": "star_1"
+  },
+  {
+    "id": 4,
+    "starNumber": 4,
+    "atlasID": 105,
+    "iconStar": "star_1"
+  },
+  {
+    "id": 5,
+    "starNumber": 5,
+    "atlasID": 105,
+    "iconStar": "star_1"
+  },
+  {
+    "id": 6,
+    "starNumber": 1,
+    "atlasID": 105,
+    "iconStar": "star_2"
+  },
+  {
+    "id": 7,
+    "starNumber": 2,
+    "atlasID": 105,
+    "iconStar": "star_2"
+  },
+  {
+    "id": 8,
+    "starNumber": 3,
+    "atlasID": 105,
+    "iconStar": "star_2"
+  },
+  {
+    "id": 9,
+    "starNumber": 4,
+    "atlasID": 105,
+    "iconStar": "star_2"
+  },
+  {
+    "id": 10,
+    "starNumber": 5,
+    "atlasID": 105,
+    "iconStar": "star_2"
+  },
+  {
+    "id": 11,
+    "starNumber": 1,
+    "atlasID": 105,
+    "iconStar": "star_3"
+  },
+  {
+    "id": 12,
+    "starNumber": 2,
+    "atlasID": 105,
+    "iconStar": "star_3"
+  },
+  {
+    "id": 13,
+    "starNumber": 3,
+    "atlasID": 105,
+    "iconStar": "star_3"
+  },
+  {
+    "id": 14,
+    "starNumber": 4,
+    "atlasID": 105,
+    "iconStar": "star_3"
+  },
+  {
+    "id": 15,
+    "starNumber": 5,
+    "atlasID": 105,
+    "iconStar": "star_3"
+  },
+  {
+    "id": 16,
+    "starNumber": 1,
+    "atlasID": 105,
+    "iconStar": "star_4"
+  },
+  {
+    "id": 17,
+    "starNumber": 2,
+    "atlasID": 105,
+    "iconStar": "star_4"
+  },
+  {
+    "id": 18,
+    "starNumber": 3,
+    "atlasID": 105,
+    "iconStar": "star_4"
+  },
+  {
+    "id": 19,
+    "starNumber": 4,
+    "atlasID": 105,
+    "iconStar": "star_4"
+  },
+  {
+    "id": 20,
+    "starNumber": 5,
+    "atlasID": 105,
+    "iconStar": "star_4"
+  },
+  {
+    "id": 21,
+    "starNumber": 1,
+    "atlasID": 105,
+    "iconStar": "star_5"
+  },
+  {
+    "id": 22,
+    "starNumber": 2,
+    "atlasID": 105,
+    "iconStar": "star_5"
+  },
+  {
+    "id": 23,
+    "starNumber": 3,
+    "atlasID": 105,
+    "iconStar": "star_5"
+  },
+  {
+    "id": 24,
+    "starNumber": 4,
+    "atlasID": 105,
+    "iconStar": "star_5"
+  },
+  {
+    "id": 25,
+    "starNumber": 5,
+    "atlasID": 105,
+    "iconStar": "star_5"
+  },
+  {
+    "id": 26,
+    "starNumber": 1,
+    "atlasID": 105,
+    "iconStar": "star_6"
+  },
+  {
+    "id": 27,
+    "starNumber": 2,
+    "atlasID": 105,
+    "iconStar": "star_6"
+  },
+  {
+    "id": 28,
+    "starNumber": 3,
+    "atlasID": 105,
+    "iconStar": "star_6"
+  },
+  {
+    "id": 29,
+    "starNumber": 4,
+    "atlasID": 105,
+    "iconStar": "star_6"
+  },
+  {
+    "id": 30,
+    "starNumber": 5,
+    "atlasID": 105,
+    "iconStar": "star_6"
+  }
+]

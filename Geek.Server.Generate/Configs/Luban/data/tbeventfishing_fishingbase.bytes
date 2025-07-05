@@ -1,0 +1,191 @@
+[
+  {
+    "ID": 1001,
+    "FishBaitItem": 2001,
+    "FishPointItem": 2002,
+    "FishLineItem": 2004,
+    "FishKingItem": 2003,
+    "PackGroup": 101,
+    "FishBaitPrice": 100,
+    "LimitTimes": 1000,
+    "BuyLimit": [
+      "0,5000,10",
+      "5001,10000,20",
+      "10001,15000,30",
+      "15001,20000,40",
+      "20001,999999999,50"
+    ],
+    "FishFailRevive": [
+      "1,1,50",
+      "2,2,100",
+      "3,999,100"
+    ],
+    "ReviveStrenth": 100,
+    "FishUp": [
+      105,
+      110
+    ],
+    "FishUseMulti": [
+      "0,9,1",
+      "10,29,2",
+      "30,49,5",
+      "50,9999999,10"
+    ],
+    "DistanceDefault": 75,
+    "DistanceFail": 150,
+    "Point": 100,
+    "DefaultFishBait": 5,
+    "GalleryReward": [
+      "1,800",
+      "2,800",
+      "3,800",
+      "4,800"
+    ],
+    "MailItems": [
+      "2001,500",
+      "2002,500",
+      "2003,500",
+      "2004,500"
+    ],
+    "MailItemsId": "t-20240809114210",
+    "MailRankId": "t-20241213113115",
+    "ClearTime": [
+      86400,
+      172800,
+      259200,
+      345600,
+      432000,
+      518400,
+      604800
+    ],
+    "ConnectActivityId": 20241203,
+    "RankNum": 5,
+    "ExchangeGroup": 101
+  },
+  {
+    "ID": 1002,
+    "FishBaitItem": 2001,
+    "FishPointItem": 2002,
+    "FishLineItem": 2004,
+    "FishKingItem": 2003,
+    "PackGroup": 101,
+    "FishBaitPrice": 100,
+    "LimitTimes": 1000,
+    "BuyLimit": [
+      "0,5000,10",
+      "5001,10000,20",
+      "10001,15000,30",
+      "15001,20000,40",
+      "20001,999999999,50"
+    ],
+    "FishFailRevive": [
+      "1,1,50",
+      "2,2,100",
+      "3,999,100"
+    ],
+    "ReviveStrenth": 100,
+    "FishUp": [
+      105,
+      110
+    ],
+    "FishUseMulti": [
+      "0,9,1",
+      "10,29,2",
+      "30,49,5",
+      "50,9999999,10"
+    ],
+    "DistanceDefault": 75,
+    "DistanceFail": 150,
+    "Point": 100,
+    "DefaultFishBait": 5,
+    "GalleryReward": [
+      "1,800",
+      "2,800",
+      "3,800",
+      "4,800"
+    ],
+    "MailItems": [
+      "2001,500",
+      "2002,500",
+      "2003,500",
+      "2004,500"
+    ],
+    "MailItemsId": "t-20240809114210",
+    "MailRankId": "t-20241213113115",
+    "ClearTime": [
+      86400,
+      172800,
+      259200,
+      345600,
+      432000,
+      518400,
+      604800
+    ],
+    "ConnectActivityId": 250401,
+    "RankNum": 5,
+    "ExchangeGroup": 101
+  },
+  {
+    "ID": 1003,
+    "FishBaitItem": 2001,
+    "FishPointItem": 2002,
+    "FishLineItem": 2004,
+    "FishKingItem": 2003,
+    "PackGroup": 101,
+    "FishBaitPrice": 100,
+    "LimitTimes": 500,
+    "BuyLimit": [
+      "0,5000,10",
+      "5001,10000,20",
+      "10001,15000,30",
+      "15001,20000,40",
+      "20001,999999999,50"
+    ],
+    "FishFailRevive": [
+      "1,1,50",
+      "2,2,100",
+      "3,999,100"
+    ],
+    "ReviveStrenth": 100,
+    "FishUp": [
+      105,
+      110
+    ],
+    "FishUseMulti": [
+      "0,9,1",
+      "10,29,2",
+      "30,49,5",
+      "50,9999999,10"
+    ],
+    "DistanceDefault": 75,
+    "DistanceFail": 150,
+    "Point": 100,
+    "DefaultFishBait": 5,
+    "GalleryReward": [
+      "1,800",
+      "2,800",
+      "3,800",
+      "4,800"
+    ],
+    "MailItems": [
+      "2001,500",
+      "2002,500",
+      "2003,500",
+      "2004,500"
+    ],
+    "MailItemsId": "t-20240809114210",
+    "MailRankId": "t-20241213113115",
+    "ClearTime": [
+      86400,
+      172800,
+      259200,
+      345600,
+      432000,
+      518400,
+      604800
+    ],
+    "ConnectActivityId": 250512,
+    "RankNum": 5,
+    "ExchangeGroup": 102
+  }
+]

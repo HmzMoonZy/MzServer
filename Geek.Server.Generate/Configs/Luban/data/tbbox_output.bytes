@@ -1,0 +1,68 @@
+[
+  {
+    "Id": 101,
+    "num": [
+      1,
+      4
+    ],
+    "dropQuality": [
+      "10001,1,100",
+      "10002,1,15",
+      "10003,1,5"
+    ],
+    "definiteDropQuality": 0
+  },
+  {
+    "Id": 102,
+    "num": [
+      5,
+      5
+    ],
+    "dropQuality": [],
+    "definiteDropQuality": 10003
+  },
+  {
+    "Id": 103,
+    "num": [
+      6,
+      9
+    ],
+    "dropQuality": [
+      "10001,1,100",
+      "10002,1,15",
+      "10003,1,5"
+    ],
+    "definiteDropQuality": 0
+  },
+  {
+    "Id": 104,
+    "num": [
+      10,
+      10
+    ],
+    "dropQuality": [],
+    "definiteDropQuality": 10003
+  },
+  {
+    "Id": 105,
+    "num": [
+      11,
+      19
+    ],
+    "dropQuality": [
+      "10001,1,100",
+      "10002,1,15",
+      "10003,1,5"
+    ],
+    "definiteDropQuality": 0
+  },
+  {
+    "Id": 106,
+    "num": [
+      20,
+      20
+    ],
+    "dropQuality": [],
+    "definiteDropQuality": 10003
+  }
+]

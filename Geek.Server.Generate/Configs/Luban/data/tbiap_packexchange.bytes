@@ -1,0 +1,137 @@
+[
+  {
+    "id": 10101,
+    "groupId": 101,
+    "tag": 0,
+    "needItem": [
+      "1307,600"
+    ],
+    "rewardItem": [
+      "5014,1"
+    ],
+    "limit": 1,
+    "RefreshType": 2,
+    "SkinID": 0,
+    "SceneSkinID": 0
+  },
+  {
+    "id": 10102,
+    "groupId": 101,
+    "tag": 0,
+    "needItem": [
+      "1307,340"
+    ],
+    "rewardItem": [
+      "5015,1"
+    ],
+    "limit": 1,
+    "RefreshType": 2,
+    "SkinID": 0,
+    "SceneSkinID": 0
+  },
+  {
+    "id": 10103,
+    "groupId": 101,
+    "tag": 0,
+    "needItem": [
+      "1307,220"
+    ],
+    "rewardItem": [
+      "1301,50"
+    ],
+    "limit": 1,
+    "RefreshType": 2,
+    "SkinID": 0,
+    "SceneSkinID": 0
+  },
+  {
+    "id": 10104,
+    "groupId": 101,
+    "tag": 0,
+    "needItem": [
+      "1307,220"
+    ],
+    "rewardItem": [
+      "1303,50"
+    ],
+    "limit": 1,
+    "RefreshType": 2,
+    "SkinID": 0,
+    "SceneSkinID": 0
+  },
+  {
+    "id": 10105,
+    "groupId": 101,
+    "tag": 0,
+    "needItem": [
+      "1307,220"
+    ],
+    "rewardItem": [
+      "1305,50"
+    ],
+    "limit": 1,
+    "RefreshType": 2,
+    "SkinID": 0,
+    "SceneSkinID": 0
+  },
+  {
+    "id": 10106,
+    "groupId": 101,
+    "tag": 0,
+    "needItem": [
+      "1307,200"
+    ],
+    "rewardItem": [
+      "401021,1"
+    ],
+    "limit": 1,
+    "RefreshType": 0,
+    "SkinID": 1021,
+    "SceneSkinID": 0
+  },
+  {
+    "id": 10107,
+    "groupId": 101,
+    "tag": 0,
+    "needItem": [
+      "1307,100"
+    ],
+    "rewardItem": [
+      "401017,1"
+    ],
+    "limit": 1,
+    "RefreshType": 0,
+    "SkinID": 1017,
+    "SceneSkinID": 0
+  },
+  {
+    "id": 10108,
+    "groupId": 101,
+    "tag": 0,
+    "needItem": [
+      "1307,80"
+    ],
+    "rewardItem": [
+      "405003,1"
+    ],
+    "limit": 1,
+    "RefreshType": 0,
+    "SkinID": 0,
+    "SceneSkinID": 1001
+  },
+  {
+    "id": 10109,
+    "groupId": 101,
+    "tag": 0,
+    "needItem": [
+      "1307,70"
+    ],
+    "rewardItem": [
+      "49,3"
+    ],
+    "limit": 1,
+    "RefreshType": 2,
+    "SkinID": 0,
+    "SceneSkinID": 0
+  }
+]

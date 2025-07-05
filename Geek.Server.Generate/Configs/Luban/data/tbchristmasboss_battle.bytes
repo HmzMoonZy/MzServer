@@ -1,0 +1,74 @@
+[
+  {
+    "ID": 1,
+    "Desc": "boss活动-1期",
+    "actType": 1,
+    "nameId": "christmas_boss_act_1",
+    "FreeCnt": 2,
+    "MissionID": [
+      11001
+    ],
+    "OpenTime": [
+      "2025-05-06 00:00:01"
+    ],
+    "FinishTime": "2025-05-14 23:59:59",
+    "OpenTimeCN": [
+      "2024-12-30 00:00:01"
+    ],
+    "FinishTimeCN": "2025-01-05 23:59:59",
+    "groupNum": 50,
+    "ChallengeUIBg": "Assets/_Resources/Sprites/ActivityBoss/christmas_boss_bg.jpg",
+    "ChallengeUIEffect": "Assets/_Resources/Effect/UI_ActivityBoss/UIFX_Fishing_Snow.prefab",
+    "Banner": "Assets/_Resources/Sprites/ActivityBoss/banner_1.png",
+    "TitleBg": ""
+  },
+  {
+    "ID": 2,
+    "Desc": "boss活动-2期",
+    "actType": 2,
+    "nameId": "spring_boss_act_1",
+    "FreeCnt": 2,
+    "MissionID": [
+      11002
+    ],
+    "OpenTime": [
+      "2025-01-29 00:00:01"
+    ],
+    "FinishTime": "2025-02-02 23:59:59",
+    "OpenTimeCN": [
+      "2025-01-29 00:00:01"
+    ],
+    "FinishTimeCN": "2025-02-02 23:59:59",
+    "groupNum": 50,
+    "ChallengeUIBg": "Assets/_Resources/Sprites/ActivityBoss/newyear_boss_bg.png",
+    "ChallengeUIEffect": "",
+    "Banner": "Assets/_Resources/Sprites/ActivityBoss/banner_2.png",
+    "TitleBg": ""
+  },
+  {
+    "ID": 3,
+    "Desc": "忍者神龟-牛头猪面",
+    "actType": 2,
+    "nameId": "turtle_mode_boss",
+    "FreeCnt": 2,
+    "MissionID": [
+      11003,
+      11004
+    ],
+    "OpenTime": [
+      "2025-06-23 00:00:01",
+      "2025-06-29 23:59:59"
+    ],
+    "FinishTime": "2025-07-06 23:59:59",
+    "OpenTimeCN": [
+      "2025-06-23 00:00:01",
+      "2025-06-29 23:59:59"
+    ],
+    "FinishTimeCN": "2025-07-06 23:59:59",
+    "groupNum": 50,
+    "ChallengeUIBg": "Assets/_Resources/Sprites/ActivityBoss/plinko_boss_bg.png",
+    "ChallengeUIEffect": "",
+    "Banner": "Assets/_Resources/Sprites/ActivityBoss/banner_3.png",
+    "TitleBg": "title_purple"
+  }
+]

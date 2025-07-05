@@ -1,0 +1,57 @@
+[
+  {
+    "id": 1,
+    "path": "Assets/_Resources/Prefab/Game/Effect/Player/Skill_Charge.prefab",
+    "effectType": 0
+  },
+  {
+    "id": 2,
+    "path": "Assets/_Resources/Prefab/Game/Effect/Skill/Skill_Buff_HeiDong.prefab",
+    "effectType": 0
+  },
+  {
+    "id": 3,
+    "path": "Assets/_Resources/Prefab/Game/Effect/Player/Skill_Rage_Play.prefab",
+    "effectType": 0
+  },
+  {
+    "id": 4,
+    "path": "Assets/_Resources/Prefab/Game/Effect/Skill/Skill_Legacy_Smoke.prefab",
+    "effectType": 0
+  },
+  {
+    "id": 5,
+    "path": "Assets/_Resources/Prefab/Game/Effect/Skill/Skill_Artifact_Change.prefab",
+    "effectType": 0
+  },
+  {
+    "id": 6,
+    "path": "Assets/_Resources/Prefab/Game/Effect/Skill/Skill_Pet_FuLeiYa.prefab",
+    "effectType": 0
+  },
+  {
+    "id": 101,
+    "path": "Assets/_Resources/Prefab/Game/Effect/BulletStart/Bullet_Start_Arrow.prefab",
+    "effectType": 0
+  },
+  {
+    "id": 1001,
+    "path": "Assets/_Resources/Prefab/Game/Effect/Skill/Skill_ShockWave_Yellow.prefab",
+    "effectType": 0
+  },
+  {
+    "id": 1002,
+    "path": "Assets/_Resources/Prefab/Game/Effect/Skill/Skill_ShockWave_Red.prefab",
+    "effectType": 0
+  },
+  {
+    "id": 1003,
+    "path": "Assets/_Resources/Prefab/Game/Effect/Skill/Skill_ShockWave_Yellow.prefab",
+    "effectType": 0
+  },
+  {
+    "id": 1004,
+    "path": "Assets/_Resources/Prefab/Game/Effect/Skill/Skill_Equip_XingChenHuoYan.prefab",
+    "effectType": 0
+  }
+]

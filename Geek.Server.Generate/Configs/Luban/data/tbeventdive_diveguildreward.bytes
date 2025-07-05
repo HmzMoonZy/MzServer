@@ -1,0 +1,290 @@
+[
+  {
+    "ID": 1,
+    "ConnectActivityId": 250228,
+    "BridgeNeed": 500,
+    "Rewards": [
+      "2,100"
+    ],
+    "LanguageID": "dive_guild_quest_1"
+  },
+  {
+    "ID": 2,
+    "ConnectActivityId": 250228,
+    "BridgeNeed": 1000,
+    "Rewards": [
+      "2,200"
+    ],
+    "LanguageID": "dive_guild_quest_2"
+  },
+  {
+    "ID": 3,
+    "ConnectActivityId": 250228,
+    "BridgeNeed": 3000,
+    "Rewards": [
+      "2,300"
+    ],
+    "LanguageID": "dive_guild_quest_3"
+  },
+  {
+    "ID": 4,
+    "ConnectActivityId": 250228,
+    "BridgeNeed": 5000,
+    "Rewards": [
+      "2,400"
+    ],
+    "LanguageID": "dive_guild_quest_4"
+  },
+  {
+    "ID": 5,
+    "ConnectActivityId": 250228,
+    "BridgeNeed": 8000,
+    "Rewards": [
+      "2,500"
+    ],
+    "LanguageID": "dive_guild_quest_5"
+  },
+  {
+    "ID": 6,
+    "ConnectActivityId": 250228,
+    "BridgeNeed": 12000,
+    "Rewards": [
+      "2,600"
+    ],
+    "LanguageID": "dive_guild_quest_6"
+  },
+  {
+    "ID": 7,
+    "ConnectActivityId": 250228,
+    "BridgeNeed": 16000,
+    "Rewards": [
+      "2,700"
+    ],
+    "LanguageID": "dive_guild_quest_7"
+  },
+  {
+    "ID": 8,
+    "ConnectActivityId": 250228,
+    "BridgeNeed": 21000,
+    "Rewards": [
+      "2,800"
+    ],
+    "LanguageID": "dive_guild_quest_8"
+  },
+  {
+    "ID": 101,
+    "ConnectActivityId": 250302,
+    "BridgeNeed": 500,
+    "Rewards": [
+      "2,100"
+    ],
+    "LanguageID": "dive_guild_quest_1"
+  },
+  {
+    "ID": 102,
+    "ConnectActivityId": 250302,
+    "BridgeNeed": 1000,
+    "Rewards": [
+      "2,200"
+    ],
+    "LanguageID": "dive_guild_quest_2"
+  },
+  {
+    "ID": 103,
+    "ConnectActivityId": 250302,
+    "BridgeNeed": 3000,
+    "Rewards": [
+      "2,300"
+    ],
+    "LanguageID": "dive_guild_quest_3"
+  },
+  {
+    "ID": 104,
+    "ConnectActivityId": 250302,
+    "BridgeNeed": 5000,
+    "Rewards": [
+      "2,400"
+    ],
+    "LanguageID": "dive_guild_quest_4"
+  },
+  {
+    "ID": 105,
+    "ConnectActivityId": 250302,
+    "BridgeNeed": 8000,
+    "Rewards": [
+      "2,500"
+    ],
+    "LanguageID": "dive_guild_quest_5"
+  },
+  {
+    "ID": 106,
+    "ConnectActivityId": 250302,
+    "BridgeNeed": 12000,
+    "Rewards": [
+      "2,600"
+    ],
+    "LanguageID": "dive_guild_quest_6"
+  },
+  {
+    "ID": 107,
+    "ConnectActivityId": 250302,
+    "BridgeNeed": 16000,
+    "Rewards": [
+      "2,700"
+    ],
+    "LanguageID": "dive_guild_quest_7"
+  },
+  {
+    "ID": 108,
+    "ConnectActivityId": 250302,
+    "BridgeNeed": 21000,
+    "Rewards": [
+      "2,800"
+    ],
+    "LanguageID": "dive_guild_quest_8"
+  },
+  {
+    "ID": 110,
+    "ConnectActivityId": 20250505,
+    "BridgeNeed": 500,
+    "Rewards": [
+      "2,100"
+    ],
+    "LanguageID": "dive_guild_quest_1"
+  },
+  {
+    "ID": 111,
+    "ConnectActivityId": 20250505,
+    "BridgeNeed": 1000,
+    "Rewards": [
+      "2,200"
+    ],
+    "LanguageID": "dive_guild_quest_2"
+  },
+  {
+    "ID": 112,
+    "ConnectActivityId": 20250505,
+    "BridgeNeed": 3000,
+    "Rewards": [
+      "2,300"
+    ],
+    "LanguageID": "dive_guild_quest_3"
+  },
+  {
+    "ID": 113,
+    "ConnectActivityId": 20250505,
+    "BridgeNeed": 5000,
+    "Rewards": [
+      "2,400"
+    ],
+    "LanguageID": "dive_guild_quest_4"
+  },
+  {
+    "ID": 114,
+    "ConnectActivityId": 20250505,
+    "BridgeNeed": 8000,
+    "Rewards": [
+      "2,500"
+    ],
+    "LanguageID": "dive_guild_quest_5"
+  },
+  {
+    "ID": 115,
+    "ConnectActivityId": 20250505,
+    "BridgeNeed": 12000,
+    "Rewards": [
+      "2,600"
+    ],
+    "LanguageID": "dive_guild_quest_6"
+  },
+  {
+    "ID": 116,
+    "ConnectActivityId": 20250505,
+    "BridgeNeed": 16000,
+    "Rewards": [
+      "2,700"
+    ],
+    "LanguageID": "dive_guild_quest_7"
+  },
+  {
+    "ID": 117,
+    "ConnectActivityId": 20250505,
+    "BridgeNeed": 21000,
+    "Rewards": [
+      "2,800"
+    ],
+    "LanguageID": "dive_guild_quest_8"
+  },
+  {
+    "ID": 118,
+    "ConnectActivityId": 250721,
+    "BridgeNeed": 500,
+    "Rewards": [
+      "2,100"
+    ],
+    "LanguageID": "dive_guild_quest_1"
+  },
+  {
+    "ID": 119,
+    "ConnectActivityId": 250721,
+    "BridgeNeed": 1000,
+    "Rewards": [
+      "2,200"
+    ],
+    "LanguageID": "dive_guild_quest_2"
+  },
+  {
+    "ID": 120,
+    "ConnectActivityId": 250721,
+    "BridgeNeed": 3000,
+    "Rewards": [
+      "2,300"
+    ],
+    "LanguageID": "dive_guild_quest_3"
+  },
+  {
+    "ID": 121,
+    "ConnectActivityId": 250721,
+    "BridgeNeed": 5000,
+    "Rewards": [
+      "2,400"
+    ],
+    "LanguageID": "dive_guild_quest_4"
+  },
+  {
+    "ID": 122,
+    "ConnectActivityId": 250721,
+    "BridgeNeed": 8000,
+    "Rewards": [
+      "2,500"
+    ],
+    "LanguageID": "dive_guild_quest_5"
+  },
+  {
+    "ID": 123,
+    "ConnectActivityId": 250721,
+    "BridgeNeed": 12000,
+    "Rewards": [
+      "2,600"
+    ],
+    "LanguageID": "dive_guild_quest_6"
+  },
+  {
+    "ID": 124,
+    "ConnectActivityId": 250721,
+    "BridgeNeed": 16000,
+    "Rewards": [
+      "2,700"
+    ],
+    "LanguageID": "dive_guild_quest_7"
+  },
+  {
+    "ID": 125,
+    "ConnectActivityId": 250721,
+    "BridgeNeed": 21000,
+    "Rewards": [
+      "2,800"
+    ],
+    "LanguageID": "dive_guild_quest_8"
+  }
+]

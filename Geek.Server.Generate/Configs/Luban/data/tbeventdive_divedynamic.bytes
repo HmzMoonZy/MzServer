@@ -1,0 +1,794 @@
+[
+  {
+    "ID": 1,
+    "ComsumRange": [
+      0,
+      10
+    ],
+    "MinDepth": 7,
+    "MaxDepth": 10,
+    "MinItem": 0,
+    "MaxItem": 11
+  },
+  {
+    "ID": 2,
+    "ComsumRange": [
+      11,
+      20
+    ],
+    "MinDepth": 23,
+    "MaxDepth": 31,
+    "MinItem": 6,
+    "MaxItem": 22
+  },
+  {
+    "ID": 3,
+    "ComsumRange": [
+      21,
+      30
+    ],
+    "MinDepth": 38,
+    "MaxDepth": 51,
+    "MinItem": 12,
+    "MaxItem": 33
+  },
+  {
+    "ID": 4,
+    "ComsumRange": [
+      31,
+      40
+    ],
+    "MinDepth": 53,
+    "MaxDepth": 71,
+    "MinItem": 18,
+    "MaxItem": 44
+  },
+  {
+    "ID": 5,
+    "ComsumRange": [
+      41,
+      50
+    ],
+    "MinDepth": 68,
+    "MaxDepth": 91,
+    "MinItem": 24,
+    "MaxItem": 55
+  },
+  {
+    "ID": 6,
+    "ComsumRange": [
+      51,
+      60
+    ],
+    "MinDepth": 83,
+    "MaxDepth": 111,
+    "MinItem": 30,
+    "MaxItem": 67
+  },
+  {
+    "ID": 7,
+    "ComsumRange": [
+      61,
+      70
+    ],
+    "MinDepth": 98,
+    "MaxDepth": 131,
+    "MinItem": 36,
+    "MaxItem": 78
+  },
+  {
+    "ID": 8,
+    "ComsumRange": [
+      71,
+      80
+    ],
+    "MinDepth": 113,
+    "MaxDepth": 151,
+    "MinItem": 42,
+    "MaxItem": 89
+  },
+  {
+    "ID": 9,
+    "ComsumRange": [
+      81,
+      90
+    ],
+    "MinDepth": 128,
+    "MaxDepth": 171,
+    "MinItem": 48,
+    "MaxItem": 100
+  },
+  {
+    "ID": 10,
+    "ComsumRange": [
+      91,
+      100
+    ],
+    "MinDepth": 143,
+    "MaxDepth": 191,
+    "MinItem": 55,
+    "MaxItem": 110
+  },
+  {
+    "ID": 11,
+    "ComsumRange": [
+      101,
+      120
+    ],
+    "MinDepth": 165,
+    "MaxDepth": 221,
+    "MinItem": 62,
+    "MaxItem": 132
+  },
+  {
+    "ID": 12,
+    "ComsumRange": [
+      121,
+      140
+    ],
+    "MinDepth": 195,
+    "MaxDepth": 261,
+    "MinItem": 75,
+    "MaxItem": 152
+  },
+  {
+    "ID": 13,
+    "ComsumRange": [
+      141,
+      160
+    ],
+    "MinDepth": 225,
+    "MaxDepth": 301,
+    "MinItem": 89,
+    "MaxItem": 173
+  },
+  {
+    "ID": 14,
+    "ComsumRange": [
+      161,
+      180
+    ],
+    "MinDepth": 255,
+    "MaxDepth": 341,
+    "MinItem": 103,
+    "MaxItem": 193
+  },
+  {
+    "ID": 15,
+    "ComsumRange": [
+      181,
+      200
+    ],
+    "MinDepth": 285,
+    "MaxDepth": 381,
+    "MinItem": 118,
+    "MaxItem": 213
+  },
+  {
+    "ID": 16,
+    "ComsumRange": [
+      201,
+      220
+    ],
+    "MinDepth": 315,
+    "MaxDepth": 421,
+    "MinItem": 133,
+    "MaxItem": 232
+  },
+  {
+    "ID": 17,
+    "ComsumRange": [
+      221,
+      240
+    ],
+    "MinDepth": 345,
+    "MaxDepth": 461,
+    "MinItem": 148,
+    "MaxItem": 251
+  },
+  {
+    "ID": 18,
+    "ComsumRange": [
+      241,
+      260
+    ],
+    "MinDepth": 375,
+    "MaxDepth": 501,
+    "MinItem": 163,
+    "MaxItem": 270
+  },
+  {
+    "ID": 19,
+    "ComsumRange": [
+      261,
+      280
+    ],
+    "MinDepth": 405,
+    "MaxDepth": 541,
+    "MinItem": 179,
+    "MaxItem": 288
+  },
+  {
+    "ID": 20,
+    "ComsumRange": [
+      281,
+      300
+    ],
+    "MinDepth": 435,
+    "MaxDepth": 581,
+    "MinItem": 195,
+    "MaxItem": 307
+  },
+  {
+    "ID": 21,
+    "ComsumRange": [
+      301,
+      320
+    ],
+    "MinDepth": 465,
+    "MaxDepth": 621,
+    "MinItem": 212,
+    "MaxItem": 324
+  },
+  {
+    "ID": 22,
+    "ComsumRange": [
+      321,
+      340
+    ],
+    "MinDepth": 495,
+    "MaxDepth": 661,
+    "MinItem": 229,
+    "MaxItem": 342
+  },
+  {
+    "ID": 23,
+    "ComsumRange": [
+      341,
+      360
+    ],
+    "MinDepth": 525,
+    "MaxDepth": 701,
+    "MinItem": 246,
+    "MaxItem": 359
+  },
+  {
+    "ID": 24,
+    "ComsumRange": [
+      361,
+      380
+    ],
+    "MinDepth": 555,
+    "MaxDepth": 741,
+    "MinItem": 263,
+    "MaxItem": 375
+  },
+  {
+    "ID": 25,
+    "ComsumRange": [
+      381,
+      400
+    ],
+    "MinDepth": 585,
+    "MaxDepth": 781,
+    "MinItem": 281,
+    "MaxItem": 392
+  },
+  {
+    "ID": 26,
+    "ComsumRange": [
+      401,
+      450
+    ],
+    "MinDepth": 638,
+    "MaxDepth": 851,
+    "MinItem": 300,
+    "MaxItem": 437
+  },
+  {
+    "ID": 27,
+    "ComsumRange": [
+      451,
+      500
+    ],
+    "MinDepth": 713,
+    "MaxDepth": 951,
+    "MinItem": 341,
+    "MaxItem": 481
+  },
+  {
+    "ID": 28,
+    "ComsumRange": [
+      501,
+      550
+    ],
+    "MinDepth": 788,
+    "MaxDepth": 1051,
+    "MinItem": 383,
+    "MaxItem": 525
+  },
+  {
+    "ID": 29,
+    "ComsumRange": [
+      551,
+      600
+    ],
+    "MinDepth": 863,
+    "MaxDepth": 1151,
+    "MinItem": 426,
+    "MaxItem": 567
+  },
+  {
+    "ID": 30,
+    "ComsumRange": [
+      601,
+      650
+    ],
+    "MinDepth": 938,
+    "MaxDepth": 1251,
+    "MinItem": 465,
+    "MaxItem": 614
+  },
+  {
+    "ID": 31,
+    "ComsumRange": [
+      651,
+      700
+    ],
+    "MinDepth": 1013,
+    "MaxDepth": 1351,
+    "MinItem": 503,
+    "MaxItem": 662
+  },
+  {
+    "ID": 32,
+    "ComsumRange": [
+      701,
+      750
+    ],
+    "MinDepth": 1088,
+    "MaxDepth": 1451,
+    "MinItem": 542,
+    "MaxItem": 709
+  },
+  {
+    "ID": 33,
+    "ComsumRange": [
+      751,
+      800
+    ],
+    "MinDepth": 1163,
+    "MaxDepth": 1551,
+    "MinItem": 581,
+    "MaxItem": 756
+  },
+  {
+    "ID": 34,
+    "ComsumRange": [
+      801,
+      850
+    ],
+    "MinDepth": 1238,
+    "MaxDepth": 1651,
+    "MinItem": 619,
+    "MaxItem": 804
+  },
+  {
+    "ID": 35,
+    "ComsumRange": [
+      851,
+      900
+    ],
+    "MinDepth": 1313,
+    "MaxDepth": 1751,
+    "MinItem": 658,
+    "MaxItem": 851
+  },
+  {
+    "ID": 36,
+    "ComsumRange": [
+      901,
+      950
+    ],
+    "MinDepth": 1388,
+    "MaxDepth": 1851,
+    "MinItem": 697,
+    "MaxItem": 898
+  },
+  {
+    "ID": 37,
+    "ComsumRange": [
+      951,
+      1000
+    ],
+    "MinDepth": 1463,
+    "MaxDepth": 1951,
+    "MinItem": 736,
+    "MaxItem": 946
+  },
+  {
+    "ID": 38,
+    "ComsumRange": [
+      1001,
+      1100
+    ],
+    "MinDepth": 1575,
+    "MaxDepth": 2101,
+    "MinItem": 774,
+    "MaxItem": 1040
+  },
+  {
+    "ID": 39,
+    "ComsumRange": [
+      1101,
+      1200
+    ],
+    "MinDepth": 1725,
+    "MaxDepth": 2301,
+    "MinItem": 852,
+    "MaxItem": 1135
+  },
+  {
+    "ID": 40,
+    "ComsumRange": [
+      1201,
+      1300
+    ],
+    "MinDepth": 1875,
+    "MaxDepth": 2501,
+    "MinItem": 929,
+    "MaxItem": 1229
+  },
+  {
+    "ID": 41,
+    "ComsumRange": [
+      1301,
+      1400
+    ],
+    "MinDepth": 2025,
+    "MaxDepth": 2701,
+    "MinItem": 1006,
+    "MaxItem": 1324
+  },
+  {
+    "ID": 42,
+    "ComsumRange": [
+      1401,
+      1500
+    ],
+    "MinDepth": 2175,
+    "MaxDepth": 2901,
+    "MinItem": 1084,
+    "MaxItem": 1419
+  },
+  {
+    "ID": 43,
+    "ComsumRange": [
+      1501,
+      1600
+    ],
+    "MinDepth": 2325,
+    "MaxDepth": 3101,
+    "MinItem": 1161,
+    "MaxItem": 1513
+  },
+  {
+    "ID": 44,
+    "ComsumRange": [
+      1601,
+      1700
+    ],
+    "MinDepth": 2475,
+    "MaxDepth": 3301,
+    "MinItem": 1239,
+    "MaxItem": 1608
+  },
+  {
+    "ID": 45,
+    "ComsumRange": [
+      1701,
+      1800
+    ],
+    "MinDepth": 2625,
+    "MaxDepth": 3501,
+    "MinItem": 1316,
+    "MaxItem": 1702
+  },
+  {
+    "ID": 46,
+    "ComsumRange": [
+      1801,
+      1900
+    ],
+    "MinDepth": 2775,
+    "MaxDepth": 3701,
+    "MinItem": 1393,
+    "MaxItem": 1797
+  },
+  {
+    "ID": 47,
+    "ComsumRange": [
+      1901,
+      2000
+    ],
+    "MinDepth": 2925,
+    "MaxDepth": 3901,
+    "MinItem": 1471,
+    "MaxItem": 1892
+  },
+  {
+    "ID": 48,
+    "ComsumRange": [
+      2001,
+      2200
+    ],
+    "MinDepth": 3150,
+    "MaxDepth": 4201,
+    "MinItem": 1548,
+    "MaxItem": 2081
+  },
+  {
+    "ID": 49,
+    "ComsumRange": [
+      2201,
+      2400
+    ],
+    "MinDepth": 3450,
+    "MaxDepth": 4601,
+    "MinItem": 1703,
+    "MaxItem": 2270
+  },
+  {
+    "ID": 50,
+    "ComsumRange": [
+      2401,
+      2600
+    ],
+    "MinDepth": 3750,
+    "MaxDepth": 5001,
+    "MinItem": 1858,
+    "MaxItem": 2459
+  },
+  {
+    "ID": 51,
+    "ComsumRange": [
+      2601,
+      2800
+    ],
+    "MinDepth": 4050,
+    "MaxDepth": 5401,
+    "MinItem": 2013,
+    "MaxItem": 2648
+  },
+  {
+    "ID": 52,
+    "ComsumRange": [
+      2801,
+      3000
+    ],
+    "MinDepth": 4350,
+    "MaxDepth": 5801,
+    "MinItem": 2167,
+    "MaxItem": 2838
+  },
+  {
+    "ID": 53,
+    "ComsumRange": [
+      3001,
+      3200
+    ],
+    "MinDepth": 4650,
+    "MaxDepth": 6201,
+    "MinItem": 2322,
+    "MaxItem": 3027
+  },
+  {
+    "ID": 54,
+    "ComsumRange": [
+      3201,
+      3400
+    ],
+    "MinDepth": 4950,
+    "MaxDepth": 6601,
+    "MinItem": 2477,
+    "MaxItem": 3216
+  },
+  {
+    "ID": 55,
+    "ComsumRange": [
+      3401,
+      3600
+    ],
+    "MinDepth": 5250,
+    "MaxDepth": 7001,
+    "MinItem": 2632,
+    "MaxItem": 3405
+  },
+  {
+    "ID": 56,
+    "ComsumRange": [
+      3601,
+      3800
+    ],
+    "MinDepth": 5550,
+    "MaxDepth": 7401,
+    "MinItem": 2787,
+    "MaxItem": 3594
+  },
+  {
+    "ID": 57,
+    "ComsumRange": [
+      3801,
+      4000
+    ],
+    "MinDepth": 5850,
+    "MaxDepth": 7801,
+    "MinItem": 2941,
+    "MaxItem": 3784
+  },
+  {
+    "ID": 58,
+    "ComsumRange": [
+      4001,
+      4400
+    ],
+    "MinDepth": 6300,
+    "MaxDepth": 8401,
+    "MinItem": 3096,
+    "MaxItem": 4162
+  },
+  {
+    "ID": 59,
+    "ComsumRange": [
+      4401,
+      4800
+    ],
+    "MinDepth": 6900,
+    "MaxDepth": 9201,
+    "MinItem": 3406,
+    "MaxItem": 4540
+  },
+  {
+    "ID": 60,
+    "ComsumRange": [
+      4801,
+      5200
+    ],
+    "MinDepth": 7500,
+    "MaxDepth": 10001,
+    "MinItem": 3715,
+    "MaxItem": 4919
+  },
+  {
+    "ID": 61,
+    "ComsumRange": [
+      5201,
+      5600
+    ],
+    "MinDepth": 8100,
+    "MaxDepth": 10801,
+    "MinItem": 4025,
+    "MaxItem": 5297
+  },
+  {
+    "ID": 62,
+    "ComsumRange": [
+      5601,
+      6000
+    ],
+    "MinDepth": 8700,
+    "MaxDepth": 11601,
+    "MinItem": 4335,
+    "MaxItem": 5676
+  },
+  {
+    "ID": 63,
+    "ComsumRange": [
+      6001,
+      6400
+    ],
+    "MinDepth": 9300,
+    "MaxDepth": 12401,
+    "MinItem": 4644,
+    "MaxItem": 6054
+  },
+  {
+    "ID": 64,
+    "ComsumRange": [
+      6401,
+      6800
+    ],
+    "MinDepth": 9900,
+    "MaxDepth": 13201,
+    "MinItem": 4954,
+    "MaxItem": 6432
+  },
+  {
+    "ID": 65,
+    "ComsumRange": [
+      6801,
+      7200
+    ],
+    "MinDepth": 10500,
+    "MaxDepth": 14001,
+    "MinItem": 5263,
+    "MaxItem": 6811
+  },
+  {
+    "ID": 66,
+    "ComsumRange": [
+      7201,
+      7600
+    ],
+    "MinDepth": 11100,
+    "MaxDepth": 14801,
+    "MinItem": 5573,
+    "MaxItem": 7189
+  },
+  {
+    "ID": 67,
+    "ComsumRange": [
+      7601,
+      8000
+    ],
+    "MinDepth": 11700,
+    "MaxDepth": 15601,
+    "MinItem": 5883,
+    "MaxItem": 7568
+  },
+  {
+    "ID": 68,
+    "ComsumRange": [
+      8001,
+      8400
+    ],
+    "MinDepth": 12300,
+    "MaxDepth": 16401,
+    "MinItem": 6192,
+    "MaxItem": 7946
+  },
+  {
+    "ID": 69,
+    "ComsumRange": [
+      8401,
+      8800
+    ],
+    "MinDepth": 12900,
+    "MaxDepth": 17201,
+    "MinItem": 6502,
+    "MaxItem": 8324
+  },
+  {
+    "ID": 70,
+    "ComsumRange": [
+      8801,
+      9200
+    ],
+    "MinDepth": 13500,
+    "MaxDepth": 18001,
+    "MinItem": 6811,
+    "MaxItem": 8703
+  },
+  {
+    "ID": 71,
+    "ComsumRange": [
+      9201,
+      9600
+    ],
+    "MinDepth": 14100,
+    "MaxDepth": 18801,
+    "MinItem": 7121,
+    "MaxItem": 9081
+  },
+  {
+    "ID": 72,
+    "ComsumRange": [
+      9601,
+      99999
+    ],
+    "MinDepth": 14500,
+    "MaxDepth": 99999,
+    "MinItem": 7431,
+    "MaxItem": 99999
+  }
+]

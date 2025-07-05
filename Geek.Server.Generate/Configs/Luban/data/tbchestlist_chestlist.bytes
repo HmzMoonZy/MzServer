@@ -1,0 +1,110 @@
+[
+  {
+    "id": 1,
+    "point": 10,
+    "reward": [
+      "72,1"
+    ],
+    "pointCircle": 20,
+    "rewardCircle": [
+      "72,1"
+    ],
+    "next": 2
+  },
+  {
+    "id": 2,
+    "point": 30,
+    "reward": [
+      "72,1"
+    ],
+    "pointCircle": 50,
+    "rewardCircle": [
+      "72,1"
+    ],
+    "next": 3
+  },
+  {
+    "id": 3,
+    "point": 50,
+    "reward": [
+      "73,1"
+    ],
+    "pointCircle": 90,
+    "rewardCircle": [
+      "73,1"
+    ],
+    "next": 4
+  },
+  {
+    "id": 4,
+    "point": 90,
+    "reward": [
+      "74,1"
+    ],
+    "pointCircle": 170,
+    "rewardCircle": [
+      "74,1"
+    ],
+    "next": 5
+  },
+  {
+    "id": 5,
+    "point": 130,
+    "reward": [
+      "73,1"
+    ],
+    "pointCircle": 230,
+    "rewardCircle": [
+      "73,1"
+    ],
+    "next": 6
+  },
+  {
+    "id": 6,
+    "point": 230,
+    "reward": [
+      "75,1"
+    ],
+    "pointCircle": 330,
+    "rewardCircle": [
+      "75,1"
+    ],
+    "next": 7
+  },
+  {
+    "id": 7,
+    "point": 280,
+    "reward": [
+      "73,1"
+    ],
+    "pointCircle": 410,
+    "rewardCircle": [
+      "73,1"
+    ],
+    "next": 8
+  },
+  {
+    "id": 8,
+    "point": 350,
+    "reward": [
+      "74,1"
+    ],
+    "pointCircle": 530,
+    "rewardCircle": [
+      "74,1"
+    ],
+    "next": 9
+  },
+  {
+    "id": 9,
+    "point": 450,
+    "reward": [
+      "75,1"
+    ],
+    "pointCircle": 710,
+    "rewardCircle": [
+      "75,1"
+    ],
+    "next": 1
+  }
+]

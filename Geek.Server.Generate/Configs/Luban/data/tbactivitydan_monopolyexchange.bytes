@@ -1,0 +1,302 @@
+[
+  {
+    "id": 10101,
+    "groupId": 101,
+    "tag": 0,
+    "needItem": [
+      "1101,1100"
+    ],
+    "rewardItem": [
+      "5106,1"
+    ],
+    "limit": 5
+  },
+  {
+    "id": 10102,
+    "groupId": 101,
+    "tag": 0,
+    "needItem": [
+      "1101,1100"
+    ],
+    "rewardItem": [
+      "5107,1"
+    ],
+    "limit": 5
+  },
+  {
+    "id": 10103,
+    "groupId": 101,
+    "tag": 0,
+    "needItem": [
+      "1101,860"
+    ],
+    "rewardItem": [
+      "5014,1"
+    ],
+    "limit": 5
+  },
+  {
+    "id": 10104,
+    "groupId": 101,
+    "tag": 0,
+    "needItem": [
+      "1101,580"
+    ],
+    "rewardItem": [
+      "330704,10"
+    ],
+    "limit": 5
+  },
+  {
+    "id": 10105,
+    "groupId": 101,
+    "tag": 0,
+    "needItem": [
+      "1101,480"
+    ],
+    "rewardItem": [
+      "5105,1"
+    ],
+    "limit": 5
+  },
+  {
+    "id": 10106,
+    "groupId": 101,
+    "tag": 0,
+    "needItem": [
+      "1101,480"
+    ],
+    "rewardItem": [
+      "5015,1"
+    ],
+    "limit": 5
+  },
+  {
+    "id": 10107,
+    "groupId": 101,
+    "tag": 0,
+    "needItem": [
+      "1101,450"
+    ],
+    "rewardItem": [
+      "5008,1"
+    ],
+    "limit": 1
+  },
+  {
+    "id": 10108,
+    "groupId": 101,
+    "tag": 0,
+    "needItem": [
+      "1101,450"
+    ],
+    "rewardItem": [
+      "5009,1"
+    ],
+    "limit": 1
+  },
+  {
+    "id": 10109,
+    "groupId": 101,
+    "tag": 0,
+    "needItem": [
+      "1101,420"
+    ],
+    "rewardItem": [
+      "5005,1"
+    ],
+    "limit": 1
+  },
+  {
+    "id": 10110,
+    "groupId": 101,
+    "tag": 0,
+    "needItem": [
+      "1101,360"
+    ],
+    "rewardItem": [
+      "5104,1"
+    ],
+    "limit": 5
+  },
+  {
+    "id": 10111,
+    "groupId": 101,
+    "tag": 0,
+    "needItem": [
+      "1101,250"
+    ],
+    "rewardItem": [
+      "6002,1"
+    ],
+    "limit": 5
+  },
+  {
+    "id": 10112,
+    "groupId": 101,
+    "tag": 0,
+    "needItem": [
+      "1101,240"
+    ],
+    "rewardItem": [
+      "5103,1"
+    ],
+    "limit": 5
+  },
+  {
+    "id": 10113,
+    "groupId": 101,
+    "tag": 0,
+    "needItem": [
+      "1101,220"
+    ],
+    "rewardItem": [
+      "36,1"
+    ],
+    "limit": 1
+  },
+  {
+    "id": 10114,
+    "groupId": 101,
+    "tag": 0,
+    "needItem": [
+      "1101,180"
+    ],
+    "rewardItem": [
+      "5102,1"
+    ],
+    "limit": 5
+  },
+  {
+    "id": 10115,
+    "groupId": 101,
+    "tag": 0,
+    "needItem": [
+      "1101,180"
+    ],
+    "rewardItem": [
+      "27,100"
+    ],
+    "limit": 1000
+  },
+  {
+    "id": 10116,
+    "groupId": 101,
+    "tag": 0,
+    "needItem": [
+      "1101,180"
+    ],
+    "rewardItem": [
+      "5004,1"
+    ],
+    "limit": 1
+  },
+  {
+    "id": 10117,
+    "groupId": 101,
+    "tag": 0,
+    "needItem": [
+      "1101,140"
+    ],
+    "rewardItem": [
+      "50,3"
+    ],
+    "limit": 1
+  },
+  {
+    "id": 10118,
+    "groupId": 101,
+    "tag": 0,
+    "needItem": [
+      "1101,100"
+    ],
+    "rewardItem": [
+      "5006,1"
+    ],
+    "limit": 3
+  },
+  {
+    "id": 10119,
+    "groupId": 101,
+    "tag": 0,
+    "needItem": [
+      "1101,25"
+    ],
+    "rewardItem": [
+      "111,5"
+    ],
+    "limit": 2
+  },
+  {
+    "id": 10120,
+    "groupId": 101,
+    "tag": 0,
+    "needItem": [
+      "1101,25"
+    ],
+    "rewardItem": [
+      "62,5"
+    ],
+    "limit": 2
+  },
+  {
+    "id": 10121,
+    "groupId": 101,
+    "tag": 0,
+    "needItem": [
+      "1101,18"
+    ],
+    "rewardItem": [
+      "31,1"
+    ],
+    "limit": 10
+  },
+  {
+    "id": 10122,
+    "groupId": 101,
+    "tag": 0,
+    "needItem": [
+      "1101,18"
+    ],
+    "rewardItem": [
+      "27,10"
+    ],
+    "limit": 1000
+  },
+  {
+    "id": 10123,
+    "groupId": 101,
+    "tag": 0,
+    "needItem": [
+      "1101,12"
+    ],
+    "rewardItem": [
+      "46,1"
+    ],
+    "limit": 3
+  },
+  {
+    "id": 10124,
+    "groupId": 101,
+    "tag": 0,
+    "needItem": [
+      "1101,10"
+    ],
+    "rewardItem": [
+      "28,50"
+    ],
+    "limit": 200
+  },
+  {
+    "id": 10125,
+    "groupId": 101,
+    "tag": 0,
+    "needItem": [
+      "1101,10"
+    ],
+    "rewardItem": [
+      "29,50"
+    ],
+    "limit": 200
+  }
+]

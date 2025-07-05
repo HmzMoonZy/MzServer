@@ -1,0 +1,484 @@
+[
+  {
+    "id": 30100,
+    "PurchaseId": 0,
+    "ObjGroup": 1,
+    "ObjName": "IAP_name_30100",
+    "objToplimit": 1,
+    "ObjGoods": [
+      "73,1",
+      "72,2"
+    ]
+  },
+  {
+    "id": 30101,
+    "PurchaseId": 30101,
+    "ObjGroup": 1,
+    "ObjName": "IAP_name_30101",
+    "objToplimit": 1,
+    "ObjGoods": [
+      "74,1",
+      "73,3",
+      "72,10",
+      "2,600"
+    ]
+  },
+  {
+    "id": 30102,
+    "PurchaseId": 30102,
+    "ObjGroup": 1,
+    "ObjName": "IAP_name_30102",
+    "objToplimit": 2,
+    "ObjGoods": [
+      "72,30",
+      "2,1200"
+    ]
+  },
+  {
+    "id": 30103,
+    "PurchaseId": 30103,
+    "ObjGroup": 1,
+    "ObjName": "IAP_name_30103",
+    "objToplimit": 5,
+    "ObjGoods": [
+      "73,30",
+      "2,2400"
+    ]
+  },
+  {
+    "id": 30104,
+    "PurchaseId": 30104,
+    "ObjGroup": 1,
+    "ObjName": "IAP_name_30104",
+    "objToplimit": 10,
+    "ObjGoods": [
+      "74,30",
+      "2,6000"
+    ]
+  },
+  {
+    "id": 30105,
+    "PurchaseId": 30105,
+    "ObjGroup": 1,
+    "ObjName": "IAP_name_30105",
+    "objToplimit": 20,
+    "ObjGoods": [
+      "74,20",
+      "73,30",
+      "72,100",
+      "2,12000"
+    ]
+  },
+  {
+    "id": 30200,
+    "PurchaseId": 0,
+    "ObjGroup": 2,
+    "ObjName": "IAP_name_30200",
+    "objToplimit": 1,
+    "ObjGoods": [
+      "11,50"
+    ]
+  },
+  {
+    "id": 30201,
+    "PurchaseId": 30201,
+    "ObjGroup": 2,
+    "ObjName": "IAP_name_30201",
+    "objToplimit": 1,
+    "ObjGoods": [
+      "11,300",
+      "2,600"
+    ]
+  },
+  {
+    "id": 30202,
+    "PurchaseId": 30202,
+    "ObjGroup": 2,
+    "ObjName": "IAP_name_30202",
+    "objToplimit": 2,
+    "ObjGoods": [
+      "11,600",
+      "2,1200"
+    ]
+  },
+  {
+    "id": 30203,
+    "PurchaseId": 30203,
+    "ObjGroup": 2,
+    "ObjName": "IAP_name_30203",
+    "objToplimit": 5,
+    "ObjGoods": [
+      "11,1000",
+      "2,2400"
+    ]
+  },
+  {
+    "id": 30204,
+    "PurchaseId": 30204,
+    "ObjGroup": 2,
+    "ObjName": "IAP_name_30204",
+    "objToplimit": 10,
+    "ObjGoods": [
+      "11,2500",
+      "2,6000"
+    ]
+  },
+  {
+    "id": 30205,
+    "PurchaseId": 30205,
+    "ObjGroup": 2,
+    "ObjName": "IAP_name_30205",
+    "objToplimit": 20,
+    "ObjGoods": [
+      "11,5000",
+      "2,12000"
+    ]
+  },
+  {
+    "id": 30300,
+    "PurchaseId": 0,
+    "ObjGroup": 3,
+    "ObjName": "IAP_name_30300",
+    "objToplimit": 1,
+    "ObjGoods": [
+      "30,600"
+    ]
+  },
+  {
+    "id": 30301,
+    "PurchaseId": 30301,
+    "ObjGroup": 3,
+    "ObjName": "IAP_name_30301",
+    "objToplimit": 1,
+    "ObjGoods": [
+      "30,3600",
+      "2,600"
+    ]
+  },
+  {
+    "id": 30302,
+    "PurchaseId": 30302,
+    "ObjGroup": 3,
+    "ObjName": "IAP_name_30302",
+    "objToplimit": 2,
+    "ObjGoods": [
+      "30,7200",
+      "2,1200"
+    ]
+  },
+  {
+    "id": 30303,
+    "PurchaseId": 30303,
+    "ObjGroup": 3,
+    "ObjName": "IAP_name_30303",
+    "objToplimit": 5,
+    "ObjGoods": [
+      "30,15000",
+      "2,2400"
+    ]
+  },
+  {
+    "id": 30304,
+    "PurchaseId": 30304,
+    "ObjGroup": 3,
+    "ObjName": "IAP_name_30304",
+    "objToplimit": 10,
+    "ObjGoods": [
+      "30,30000",
+      "2,6000"
+    ]
+  },
+  {
+    "id": 30305,
+    "PurchaseId": 30305,
+    "ObjGroup": 3,
+    "ObjName": "IAP_name_30305",
+    "objToplimit": 20,
+    "ObjGoods": [
+      "30,60000",
+      "2,12000"
+    ]
+  },
+  {
+    "id": 30311,
+    "PurchaseId": 30311,
+    "ObjGroup": 3,
+    "ObjName": "IAP_name_30311",
+    "objToplimit": 1,
+    "ObjGoods": [
+      "31,40",
+      "2,3600"
+    ]
+  },
+  {
+    "id": 30312,
+    "PurchaseId": 30312,
+    "ObjGroup": 3,
+    "ObjName": "IAP_name_30312",
+    "objToplimit": 10,
+    "ObjGoods": [
+      "31,120",
+      "2,12000"
+    ]
+  },
+  {
+    "id": 30400,
+    "PurchaseId": 0,
+    "ObjGroup": 4,
+    "ObjName": "IAP_name_30400",
+    "objToplimit": 1,
+    "ObjGoods": [
+      "28,30"
+    ]
+  },
+  {
+    "id": 30401,
+    "PurchaseId": 30401,
+    "ObjGroup": 4,
+    "ObjName": "IAP_name_30401",
+    "objToplimit": 1,
+    "ObjGoods": [
+      "28,150",
+      "2,600"
+    ]
+  },
+  {
+    "id": 30402,
+    "PurchaseId": 30402,
+    "ObjGroup": 4,
+    "ObjName": "IAP_name_30402",
+    "objToplimit": 2,
+    "ObjGoods": [
+      "28,300",
+      "2,1200"
+    ]
+  },
+  {
+    "id": 30403,
+    "PurchaseId": 30403,
+    "ObjGroup": 4,
+    "ObjName": "IAP_name_30403",
+    "objToplimit": 5,
+    "ObjGoods": [
+      "28,600",
+      "2,2400"
+    ]
+  },
+  {
+    "id": 30404,
+    "PurchaseId": 30404,
+    "ObjGroup": 4,
+    "ObjName": "IAP_name_30404",
+    "objToplimit": 10,
+    "ObjGoods": [
+      "28,1000",
+      "2,6000"
+    ]
+  },
+  {
+    "id": 30405,
+    "PurchaseId": 30405,
+    "ObjGroup": 4,
+    "ObjName": "IAP_name_30405",
+    "objToplimit": 20,
+    "ObjGoods": [
+      "28,2000",
+      "2,12000"
+    ]
+  },
+  {
+    "id": 30600,
+    "PurchaseId": 0,
+    "ObjGroup": 6,
+    "ObjName": "IAP_name_30600",
+    "objToplimit": 1,
+    "ObjGoods": [
+      "101,100"
+    ]
+  },
+  {
+    "id": 30601,
+    "PurchaseId": 30601,
+    "ObjGroup": 6,
+    "ObjName": "IAP_name_30601",
+    "objToplimit": 1,
+    "ObjGoods": [
+      "101,600",
+      "2,600"
+    ]
+  },
+  {
+    "id": 30602,
+    "PurchaseId": 30602,
+    "ObjGroup": 6,
+    "ObjName": "IAP_name_30602",
+    "objToplimit": 2,
+    "ObjGoods": [
+      "101,900",
+      "2,1200"
+    ]
+  },
+  {
+    "id": 30603,
+    "PurchaseId": 30603,
+    "ObjGroup": 6,
+    "ObjName": "IAP_name_30603",
+    "objToplimit": 5,
+    "ObjGoods": [
+      "101,1500",
+      "2,2400"
+    ]
+  },
+  {
+    "id": 30604,
+    "PurchaseId": 30604,
+    "ObjGroup": 6,
+    "ObjName": "IAP_name_30604",
+    "objToplimit": 10,
+    "ObjGoods": [
+      "101,3000",
+      "2,6000"
+    ]
+  },
+  {
+    "id": 30605,
+    "PurchaseId": 30605,
+    "ObjGroup": 6,
+    "ObjName": "IAP_name_30605",
+    "objToplimit": 20,
+    "ObjGoods": [
+      "101,6000",
+      "2,12000"
+    ]
+  },
+  {
+    "id": 30700,
+    "PurchaseId": 0,
+    "ObjGroup": 7,
+    "ObjName": "IAP_name_30700",
+    "objToplimit": 1,
+    "ObjGoods": [
+      "102,100"
+    ]
+  },
+  {
+    "id": 30701,
+    "PurchaseId": 30701,
+    "ObjGroup": 7,
+    "ObjName": "IAP_name_30701",
+    "objToplimit": 1,
+    "ObjGoods": [
+      "102,600",
+      "2,600"
+    ]
+  },
+  {
+    "id": 30702,
+    "PurchaseId": 30702,
+    "ObjGroup": 7,
+    "ObjName": "IAP_name_30702",
+    "objToplimit": 2,
+    "ObjGoods": [
+      "102,900",
+      "2,1200"
+    ]
+  },
+  {
+    "id": 30703,
+    "PurchaseId": 30703,
+    "ObjGroup": 7,
+    "ObjName": "IAP_name_30703",
+    "objToplimit": 5,
+    "ObjGoods": [
+      "102,1500",
+      "2,2400"
+    ]
+  },
+  {
+    "id": 30704,
+    "PurchaseId": 30704,
+    "ObjGroup": 7,
+    "ObjName": "IAP_name_30704",
+    "objToplimit": 10,
+    "ObjGoods": [
+      "102,3000",
+      "2,6000"
+    ]
+  },
+  {
+    "id": 30705,
+    "PurchaseId": 30705,
+    "ObjGroup": 7,
+    "ObjName": "IAP_name_30705",
+    "objToplimit": 20,
+    "ObjGoods": [
+      "102,6000",
+      "2,12000"
+    ]
+  },
+  {
+    "id": 30800,
+    "PurchaseId": 0,
+    "ObjGroup": 8,
+    "ObjName": "IAP_name_30800",
+    "objToplimit": 1,
+    "ObjGoods": [
+      "103,100"
+    ]
+  },
+  {
+    "id": 30801,
+    "PurchaseId": 30801,
+    "ObjGroup": 8,
+    "ObjName": "IAP_name_30801",
+    "objToplimit": 1,
+    "ObjGoods": [
+      "103,600",
+      "2,600"
+    ]
+  },
+  {
+    "id": 30802,
+    "PurchaseId": 30802,
+    "ObjGroup": 8,
+    "ObjName": "IAP_name_30802",
+    "objToplimit": 2,
+    "ObjGoods": [
+      "103,900",
+      "2,1200"
+    ]
+  },
+  {
+    "id": 30803,
+    "PurchaseId": 30803,
+    "ObjGroup": 8,
+    "ObjName": "IAP_name_30803",
+    "objToplimit": 5,
+    "ObjGoods": [
+      "103,1500",
+      "2,2400"
+    ]
+  },
+  {
+    "id": 30804,
+    "PurchaseId": 30804,
+    "ObjGroup": 8,
+    "ObjName": "IAP_name_30804",
+    "objToplimit": 10,
+    "ObjGoods": [
+      "103,3000",
+      "2,6000"
+    ]
+  },
+  {
+    "id": 30805,
+    "PurchaseId": 30805,
+    "ObjGroup": 8,
+    "ObjName": "IAP_name_30805",
+    "objToplimit": 20,
+    "ObjGoods": [
+      "103,6000",
+      "2,12000"
+    ]
+  }
+]

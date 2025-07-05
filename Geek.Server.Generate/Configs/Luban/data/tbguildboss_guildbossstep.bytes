@@ -1,0 +1,542 @@
+[
+  {
+    "BossLevel": 1,
+    "BossStepName": "guild_boss_level_1",
+    "BossGradeQuality": 1,
+    "BossBgType": 1,
+    "BossId": 101,
+    "PlayerAttributes": "",
+    "BossAttributes": "Attack%=2335|HPMax%=350502|IgnoreMiss%=20|ControlImmunity%=40|FinalDamageReduction%=25",
+    "KillReward": [
+      "2,200",
+      "7000001,200"
+    ],
+    "ChallengeReward": [
+      "2,50"
+    ],
+    "baseSpeed": 10,
+    "speedAdd": 10
+  },
+  {
+    "BossLevel": 2,
+    "BossStepName": "guild_boss_level_2",
+    "BossGradeQuality": 1,
+    "BossBgType": 1,
+    "BossId": 102,
+    "PlayerAttributes": "",
+    "BossAttributes": "Attack%=4938|HPMax%=876693|IgnoreMiss%=20|ControlImmunity%=40|FinalDamageReduction%=25",
+    "KillReward": [
+      "2,200",
+      "7000001,250"
+    ],
+    "ChallengeReward": [
+      "2,50"
+    ],
+    "baseSpeed": 10,
+    "speedAdd": 20
+  },
+  {
+    "BossLevel": 3,
+    "BossStepName": "guild_boss_level_3",
+    "BossGradeQuality": 1,
+    "BossBgType": 1,
+    "BossId": 103,
+    "PlayerAttributes": "",
+    "BossAttributes": "Attack%=9503|HPMax%=2080102|IgnoreMiss%=25|ControlImmunity%=50|FinalDamageReduction%=25",
+    "KillReward": [
+      "2,200",
+      "7000001,300"
+    ],
+    "ChallengeReward": [
+      "2,50"
+    ],
+    "baseSpeed": 10,
+    "speedAdd": 30
+  },
+  {
+    "BossLevel": 4,
+    "BossStepName": "guild_boss_level_4",
+    "BossGradeQuality": 2,
+    "BossBgType": 1,
+    "BossId": 104,
+    "PlayerAttributes": "DamageAdd%=10",
+    "BossAttributes": "Attack%=17005|HPMax%=4243700|IgnoreMiss%=25|ControlImmunity%=50|FinalDamageReduction%=25",
+    "KillReward": [
+      "2,200",
+      "7000001,350"
+    ],
+    "ChallengeReward": [
+      "2,50"
+    ],
+    "baseSpeed": 10,
+    "speedAdd": 40
+  },
+  {
+    "BossLevel": 5,
+    "BossStepName": "guild_boss_level_5",
+    "BossGradeQuality": 2,
+    "BossBgType": 1,
+    "BossId": 105,
+    "PlayerAttributes": "DamageAdd%=10",
+    "BossAttributes": "Attack%=28927|HPMax%=9450583|IgnoreMiss%=30|ControlImmunity%=60|FinalDamageReduction%=25",
+    "KillReward": [
+      "2,200",
+      "7000001,400"
+    ],
+    "ChallengeReward": [
+      "2,50"
+    ],
+    "baseSpeed": 10,
+    "speedAdd": 50
+  },
+  {
+    "BossLevel": 6,
+    "BossStepName": "guild_boss_level_6",
+    "BossGradeQuality": 2,
+    "BossBgType": 1,
+    "BossId": 106,
+    "PlayerAttributes": "DamageAdd%=10",
+    "BossAttributes": "Attack%=64589|HPMax%=28795945|IgnoreMiss%=30|ControlImmunity%=60|FinalDamageReduction%=25",
+    "KillReward": [
+      "2,200",
+      "7000001,450"
+    ],
+    "ChallengeReward": [
+      "2,50"
+    ],
+    "baseSpeed": 10,
+    "speedAdd": 60
+  },
+  {
+    "BossLevel": 7,
+    "BossStepName": "guild_boss_level_7",
+    "BossGradeQuality": 3,
+    "BossBgType": 1,
+    "BossId": 107,
+    "PlayerAttributes": "DamageAdd%=20",
+    "BossAttributes": "Attack%=96846|HPMax%=59957625|IgnoreMiss%=35|ControlImmunity%=70|FinalDamageReduction%=25",
+    "KillReward": [
+      "2,200",
+      "7000001,500"
+    ],
+    "ChallengeReward": [
+      "2,50"
+    ],
+    "baseSpeed": 10,
+    "speedAdd": 70
+  },
+  {
+    "BossLevel": 8,
+    "BossStepName": "guild_boss_level_8",
+    "BossGradeQuality": 3,
+    "BossBgType": 1,
+    "BossId": 101,
+    "PlayerAttributes": "DamageAdd%=20",
+    "BossAttributes": "Attack%=141000|HPMax%=102543861|IgnoreMiss%=35|ControlImmunity%=70|FinalDamageReduction%=25",
+    "KillReward": [
+      "2,200",
+      "7000001,500"
+    ],
+    "ChallengeReward": [
+      "2,50"
+    ],
+    "baseSpeed": 10,
+    "speedAdd": 80
+  },
+  {
+    "BossLevel": 9,
+    "BossStepName": "guild_boss_level_9",
+    "BossGradeQuality": 3,
+    "BossBgType": 1,
+    "BossId": 102,
+    "PlayerAttributes": "DamageAdd%=20",
+    "BossAttributes": "Attack%=200758|HPMax%=178790818|IgnoreMiss%=40|ControlImmunity%=80|FinalDamageReduction%=25",
+    "KillReward": [
+      "2,200",
+      "7000001,550"
+    ],
+    "ChallengeReward": [
+      "2,50"
+    ],
+    "baseSpeed": 10,
+    "speedAdd": 90
+  },
+  {
+    "BossLevel": 10,
+    "BossStepName": "guild_boss_level_10",
+    "BossGradeQuality": 4,
+    "BossBgType": 2,
+    "BossId": 103,
+    "PlayerAttributes": "DamageAdd%=40",
+    "BossAttributes": "Attack%=280258|HPMax%=308236303|IgnoreMiss%=40|ControlImmunity%=80|FinalDamageReduction%=25",
+    "KillReward": [
+      "2,200",
+      "7000001,600"
+    ],
+    "ChallengeReward": [
+      "2,50"
+    ],
+    "baseSpeed": 10,
+    "speedAdd": 100
+  },
+  {
+    "BossLevel": 11,
+    "BossStepName": "guild_boss_level_11",
+    "BossGradeQuality": 4,
+    "BossBgType": 2,
+    "BossId": 104,
+    "PlayerAttributes": "DamageAdd%=40",
+    "BossAttributes": "Attack%=384885|HPMax%=529785338|IgnoreMiss%=45|ControlImmunity%=90|FinalDamageReduction%=25",
+    "KillReward": [
+      "2,200",
+      "7000001,650"
+    ],
+    "ChallengeReward": [
+      "2,50"
+    ],
+    "baseSpeed": 10,
+    "speedAdd": 110
+  },
+  {
+    "BossLevel": 12,
+    "BossStepName": "guild_boss_level_12",
+    "BossGradeQuality": 4,
+    "BossBgType": 2,
+    "BossId": 105,
+    "PlayerAttributes": "DamageAdd%=40",
+    "BossAttributes": "Attack%=586353|HPMax%=1106675749|IgnoreMiss%=45|ControlImmunity%=90|FinalDamageReduction%=25",
+    "KillReward": [
+      "2,200",
+      "7000001,700"
+    ],
+    "ChallengeReward": [
+      "2,50"
+    ],
+    "baseSpeed": 10,
+    "speedAdd": 120
+  },
+  {
+    "BossLevel": 13,
+    "BossStepName": "guild_boss_level_13",
+    "BossGradeQuality": 5,
+    "BossBgType": 2,
+    "BossId": 106,
+    "PlayerAttributes": "DamageAdd%=60",
+    "BossAttributes": "Attack%=1088825|HPMax%=2722882852|IgnoreMiss%=45|ControlImmunity%=90|FinalDamageReduction%=25",
+    "KillReward": [
+      "2,200",
+      "7000001,750"
+    ],
+    "ChallengeReward": [
+      "2,50"
+    ],
+    "baseSpeed": 10,
+    "speedAdd": 130
+  },
+  {
+    "BossLevel": 14,
+    "BossStepName": "guild_boss_level_14",
+    "BossGradeQuality": 5,
+    "BossBgType": 2,
+    "BossId": 107,
+    "PlayerAttributes": "DamageAdd%=60",
+    "BossAttributes": "Attack%=1528117|HPMax%=4711836620|IgnoreMiss%=45|ControlImmunity%=90|FinalDamageReduction%=25",
+    "KillReward": [
+      "2,200",
+      "7000001,800"
+    ],
+    "ChallengeReward": [
+      "2,50"
+    ],
+    "baseSpeed": 10,
+    "speedAdd": 140
+  },
+  {
+    "BossLevel": 15,
+    "BossStepName": "guild_boss_level_15",
+    "BossGradeQuality": 5,
+    "BossBgType": 2,
+    "BossId": 101,
+    "PlayerAttributes": "DamageAdd%=60",
+    "BossAttributes": "Attack%=2577490|HPMax%=8512322165|IgnoreMiss%=45|ControlImmunity%=90|FinalDamageReduction%=25",
+    "KillReward": [
+      "2,200",
+      "7000001,850"
+    ],
+    "ChallengeReward": [
+      "2,50"
+    ],
+    "baseSpeed": 10,
+    "speedAdd": 150
+  },
+  {
+    "BossLevel": 16,
+    "BossStepName": "guild_boss_level_16",
+    "BossGradeQuality": 6,
+    "BossBgType": 2,
+    "BossId": 102,
+    "PlayerAttributes": "DamageAdd%=80",
+    "BossAttributes": "Attack%=4337188|HPMax%=14578075608|IgnoreMiss%=45|ControlImmunity%=90|FinalDamageReduction%=25",
+    "KillReward": [
+      "2,200",
+      "7000001,900"
+    ],
+    "ChallengeReward": [
+      "2,50"
+    ],
+    "baseSpeed": 10,
+    "speedAdd": 160
+  },
+  {
+    "BossLevel": 17,
+    "BossStepName": "guild_boss_level_17",
+    "BossGradeQuality": 6,
+    "BossBgType": 2,
+    "BossId": 103,
+    "PlayerAttributes": "DamageAdd%=80",
+    "BossAttributes": "Attack%=6409602|HPMax%=24225587041|IgnoreMiss%=45|ControlImmunity%=90|FinalDamageReduction%=25",
+    "KillReward": [
+      "2,200",
+      "7000001,950"
+    ],
+    "ChallengeReward": [
+      "2,50"
+    ],
+    "baseSpeed": 10,
+    "speedAdd": 170
+  },
+  {
+    "BossLevel": 18,
+    "BossStepName": "guild_boss_level_18",
+    "BossGradeQuality": 6,
+    "BossBgType": 2,
+    "BossId": 104,
+    "PlayerAttributes": "DamageAdd%=80",
+    "BossAttributes": "Attack%=9054602|HPMax%=38645192888|IgnoreMiss%=45|ControlImmunity%=90|FinalDamageReduction%=25",
+    "KillReward": [
+      "2,200",
+      "7000001,1000"
+    ],
+    "ChallengeReward": [
+      "2,50"
+    ],
+    "baseSpeed": 10,
+    "speedAdd": 180
+  },
+  {
+    "BossLevel": 19,
+    "BossStepName": "guild_boss_level_19",
+    "BossGradeQuality": 7,
+    "BossBgType": 2,
+    "BossId": 105,
+    "PlayerAttributes": "DamageAdd%=100",
+    "BossAttributes": "Attack%=12394017|HPMax%=59417533128|IgnoreMiss%=45|ControlImmunity%=90|FinalDamageReduction%=25",
+    "KillReward": [
+      "2,200",
+      "7000001,1050"
+    ],
+    "ChallengeReward": [
+      "2,50"
+    ],
+    "baseSpeed": 10,
+    "speedAdd": 190
+  },
+  {
+    "BossLevel": 20,
+    "BossStepName": "guild_boss_level_20",
+    "BossGradeQuality": 7,
+    "BossBgType": 2,
+    "BossId": 106,
+    "PlayerAttributes": "DamageAdd%=100",
+    "BossAttributes": "Attack%=16541070|HPMax%=93803628412|IgnoreMiss%=45|ControlImmunity%=90|FinalDamageReduction%=25",
+    "KillReward": [
+      "2,200",
+      "7000001,1100"
+    ],
+    "ChallengeReward": [
+      "2,50"
+    ],
+    "baseSpeed": 10,
+    "speedAdd": 200
+  },
+  {
+    "BossLevel": 21,
+    "BossStepName": "guild_boss_level_21",
+    "BossGradeQuality": 7,
+    "BossBgType": 2,
+    "BossId": 107,
+    "PlayerAttributes": "DamageAdd%=100",
+    "BossAttributes": "Attack%=21651527|HPMax%=259839978390|IgnoreMiss%=45|ControlImmunity%=90|FinalDamageReduction%=25",
+    "KillReward": [
+      "2,200",
+      "7000001,1150"
+    ],
+    "ChallengeReward": [
+      "2,50"
+    ],
+    "baseSpeed": 10,
+    "speedAdd": 210
+  },
+  {
+    "BossLevel": 22,
+    "BossStepName": "guild_boss_level_22",
+    "BossGradeQuality": 8,
+    "BossBgType": 2,
+    "BossId": 101,
+    "PlayerAttributes": "DamageAdd%=120",
+    "BossAttributes": "Attack%=32792042|HPMax%=524705467453|IgnoreMiss%=45|ControlImmunity%=90|FinalDamageReduction%=25",
+    "KillReward": [
+      "2,200",
+      "7000001,1200"
+    ],
+    "ChallengeReward": [
+      "2,50"
+    ],
+    "baseSpeed": 10,
+    "speedAdd": 220
+  },
+  {
+    "BossLevel": 23,
+    "BossStepName": "guild_boss_level_23",
+    "BossGradeQuality": 8,
+    "BossBgType": 2,
+    "BossId": 102,
+    "PlayerAttributes": "DamageAdd%=120",
+    "BossAttributes": "Attack%=70803438|HPMax%=1486943003570|IgnoreMiss%=45|ControlImmunity%=90|FinalDamageReduction%=25",
+    "KillReward": [
+      "2,200",
+      "7000001,1250"
+    ],
+    "ChallengeReward": [
+      "2,50"
+    ],
+    "baseSpeed": 10,
+    "speedAdd": 230
+  },
+  {
+    "BossLevel": 24,
+    "BossStepName": "guild_boss_level_24",
+    "BossGradeQuality": 8,
+    "BossBgType": 2,
+    "BossId": 103,
+    "PlayerAttributes": "DamageAdd%=120",
+    "BossAttributes": "Attack%=218584101|HPMax%=6120573434700|IgnoreMiss%=45|ControlImmunity%=90|FinalDamageReduction%=25",
+    "KillReward": [
+      "2,200",
+      "7000001,1300"
+    ],
+    "ChallengeReward": [
+      "2,50"
+    ],
+    "baseSpeed": 10,
+    "speedAdd": 240
+  },
+  {
+    "BossLevel": 25,
+    "BossStepName": "guild_boss_level_25",
+    "BossGradeQuality": 8,
+    "BossBgType": 2,
+    "BossId": 104,
+    "PlayerAttributes": "DamageAdd%=140",
+    "BossAttributes": "Attack%=485951573|HPMax%=17494742606071|IgnoreMiss%=45|ControlImmunity%=90|FinalDamageReduction%=25",
+    "KillReward": [
+      "2,200",
+      "7000001,1350"
+    ],
+    "ChallengeReward": [
+      "2,50"
+    ],
+    "baseSpeed": 10,
+    "speedAdd": 250
+  },
+  {
+    "BossLevel": 26,
+    "BossStepName": "guild_boss_level_26",
+    "BossGradeQuality": 8,
+    "BossBgType": 2,
+    "BossId": 105,
+    "PlayerAttributes": "DamageAdd%=140",
+    "BossAttributes": "Attack%=545888278|HPMax%=24565518398278|IgnoreMiss%=45|ControlImmunity%=90|FinalDamageReduction%=25",
+    "KillReward": [
+      "2,200",
+      "7000001,1400"
+    ],
+    "ChallengeReward": [
+      "2,50"
+    ],
+    "baseSpeed": 10,
+    "speedAdd": 260
+  },
+  {
+    "BossLevel": 27,
+    "BossStepName": "guild_boss_level_27",
+    "BossGradeQuality": 8,
+    "BossBgType": 2,
+    "BossId": 106,
+    "PlayerAttributes": "DamageAdd%=140",
+    "BossAttributes": "Attack%=617806686|HPMax%=37069018992270|IgnoreMiss%=45|ControlImmunity%=90|FinalDamageReduction%=25",
+    "KillReward": [
+      "2,200",
+      "7000001,1450"
+    ],
+    "ChallengeReward": [
+      "2,50"
+    ],
+    "baseSpeed": 10,
+    "speedAdd": 270
+  },
+  {
+    "BossLevel": 28,
+    "BossStepName": "guild_boss_level_28",
+    "BossGradeQuality": 8,
+    "BossBgType": 2,
+    "BossId": 107,
+    "PlayerAttributes": "DamageAdd%=160",
+    "BossAttributes": "Attack%=808303478|HPMax%=64665086567843|IgnoreMiss%=45|ControlImmunity%=90|FinalDamageReduction%=25",
+    "KillReward": [
+      "2,200",
+      "7000001,1500"
+    ],
+    "ChallengeReward": [
+      "2,50"
+    ],
+    "baseSpeed": 10,
+    "speedAdd": 280
+  },
+  {
+    "BossLevel": 29,
+    "BossStepName": "guild_boss_level_29",
+    "BossGradeQuality": 8,
+    "BossBgType": 2,
+    "BossId": 101,
+    "PlayerAttributes": "DamageAdd%=160",
+    "BossAttributes": "Attack%=1472716970|HPMax%=176727509224179|IgnoreMiss%=45|ControlImmunity%=90|FinalDamageReduction%=25",
+    "KillReward": [
+      "2,200",
+      "7000001,1550"
+    ],
+    "ChallengeReward": [
+      "2,50"
+    ],
+    "baseSpeed": 10,
+    "speedAdd": 290
+  },
+  {
+    "BossLevel": 30,
+    "BossStepName": "guild_boss_level_30",
+    "BossGradeQuality": 8,
+    "BossBgType": 2,
+    "BossId": 102,
+    "PlayerAttributes": "DamageAdd%=160",
+    "BossAttributes": "Attack%=5394525269|HPMax%=99999999000000000|IgnoreMiss%=45|ControlImmunity%=90|FinalDamageReduction%=25",
+    "KillReward": [
+      "2,200",
+      "7000001,1600"
+    ],
+    "ChallengeReward": [
+      "2,50"
+    ],
+    "baseSpeed": 10,
+    "speedAdd": 300
+  }
+]

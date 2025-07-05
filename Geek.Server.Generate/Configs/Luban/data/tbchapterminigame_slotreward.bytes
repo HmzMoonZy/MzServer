@@ -1,0 +1,530 @@
+[
+  {
+    "id": 1,
+    "symbolType": 0,
+    "weight2": 250,
+    "weight3": 150,
+    "reward2": [
+      "3",
+      "4",
+      "400"
+    ],
+    "reward2txt": "",
+    "reward3": [
+      "3",
+      "4",
+      "1200"
+    ],
+    "reward3txt": "",
+    "atlasRegular": 101,
+    "iconRegular": "icon_pearl",
+    "atlasBlur": 114,
+    "iconBlur": "icon_coin_blur"
+  },
+  {
+    "id": 2,
+    "symbolType": 0,
+    "weight2": 300,
+    "weight3": 100,
+    "reward2": [
+      "3",
+      "4",
+      "600"
+    ],
+    "reward2txt": "",
+    "reward3": [
+      "3",
+      "4",
+      "1800"
+    ],
+    "reward3txt": "",
+    "atlasRegular": 101,
+    "iconRegular": "icon_pearl_02",
+    "atlasBlur": 114,
+    "iconBlur": "icon_coin_blur"
+  },
+  {
+    "id": 3,
+    "symbolType": 1,
+    "weight2": 150,
+    "weight3": 50,
+    "reward2": [
+      "3",
+      "4",
+      "800"
+    ],
+    "reward2txt": "",
+    "reward3": [
+      "3",
+      "4",
+      "2400"
+    ],
+    "reward3txt": "",
+    "atlasRegular": 101,
+    "iconRegular": "icon_pearl_03",
+    "atlasBlur": 114,
+    "iconBlur": "icon_coin_blur"
+  },
+  {
+    "id": 4,
+    "symbolType": 0,
+    "weight2": 325,
+    "weight3": 150,
+    "reward2": [
+      "3",
+      "41",
+      "1"
+    ],
+    "reward2txt": "",
+    "reward3": [
+      "3",
+      "41",
+      "3"
+    ],
+    "reward3txt": "",
+    "atlasRegular": 101,
+    "iconRegular": "icon_slot_haigu",
+    "atlasBlur": 114,
+    "iconBlur": "icon_slot_haigu_blur"
+  },
+  {
+    "id": 5,
+    "symbolType": 0,
+    "weight2": 350,
+    "weight3": 50,
+    "reward2": [
+      "3",
+      "41",
+      "2"
+    ],
+    "reward2txt": "",
+    "reward3": [
+      "3",
+      "41",
+      "6"
+    ],
+    "reward3txt": "",
+    "atlasRegular": 101,
+    "iconRegular": "icon_slot_haigu_02",
+    "atlasBlur": 114,
+    "iconBlur": "icon_slot_haigu_blur_02"
+  },
+  {
+    "id": 6,
+    "symbolType": 1,
+    "weight2": 100,
+    "weight3": 25,
+    "reward2": [
+      "3",
+      "41",
+      "3"
+    ],
+    "reward2txt": "",
+    "reward3": [
+      "3",
+      "41",
+      "9"
+    ],
+    "reward3txt": "",
+    "atlasRegular": 101,
+    "iconRegular": "icon_slot_haigu_03",
+    "atlasBlur": 114,
+    "iconBlur": "icon_slot_haigu_blur_03"
+  },
+  {
+    "id": 7,
+    "symbolType": 0,
+    "weight2": 325,
+    "weight3": 150,
+    "reward2": [
+      "3",
+      "42",
+      "1"
+    ],
+    "reward2txt": "",
+    "reward3": [
+      "3",
+      "42",
+      "3"
+    ],
+    "reward3txt": "",
+    "atlasRegular": 101,
+    "iconRegular": "icon_slot_qishi",
+    "atlasBlur": 114,
+    "iconBlur": "icon_slot_qishi_blur"
+  },
+  {
+    "id": 8,
+    "symbolType": 0,
+    "weight2": 350,
+    "weight3": 50,
+    "reward2": [
+      "3",
+      "42",
+      "2"
+    ],
+    "reward2txt": "",
+    "reward3": [
+      "3",
+      "42",
+      "6"
+    ],
+    "reward3txt": "",
+    "atlasRegular": 101,
+    "iconRegular": "icon_slot_qishi_02",
+    "atlasBlur": 114,
+    "iconBlur": "icon_slot_qishi_blur_02"
+  },
+  {
+    "id": 9,
+    "symbolType": 1,
+    "weight2": 100,
+    "weight3": 25,
+    "reward2": [
+      "3",
+      "42",
+      "3"
+    ],
+    "reward2txt": "",
+    "reward3": [
+      "3",
+      "42",
+      "9"
+    ],
+    "reward3txt": "",
+    "atlasRegular": 101,
+    "iconRegular": "icon_slot_qishi_03",
+    "atlasBlur": 114,
+    "iconBlur": "icon_slot_qishi_blur_03"
+  },
+  {
+    "id": 10,
+    "symbolType": 0,
+    "weight2": 325,
+    "weight3": 150,
+    "reward2": [
+      "3",
+      "43",
+      "1"
+    ],
+    "reward2txt": "",
+    "reward3": [
+      "3",
+      "43",
+      "3"
+    ],
+    "reward3txt": "",
+    "atlasRegular": 101,
+    "iconRegular": "icon_slot_youxia",
+    "atlasBlur": 114,
+    "iconBlur": "icon_slot_youxia_blur"
+  },
+  {
+    "id": 11,
+    "symbolType": 0,
+    "weight2": 350,
+    "weight3": 50,
+    "reward2": [
+      "3",
+      "43",
+      "2"
+    ],
+    "reward2txt": "",
+    "reward3": [
+      "3",
+      "43",
+      "6"
+    ],
+    "reward3txt": "",
+    "atlasRegular": 101,
+    "iconRegular": "icon_slot_youxia_02",
+    "atlasBlur": 114,
+    "iconBlur": "icon_slot_youxia_blur_02"
+  },
+  {
+    "id": 12,
+    "symbolType": 1,
+    "weight2": 100,
+    "weight3": 25,
+    "reward2": [
+      "3",
+      "43",
+      "3"
+    ],
+    "reward2txt": "",
+    "reward3": [
+      "3",
+      "43",
+      "9"
+    ],
+    "reward3txt": "",
+    "atlasRegular": 101,
+    "iconRegular": "icon_slot_youxia_03",
+    "atlasBlur": 114,
+    "iconBlur": "icon_slot_youxia_blur_03"
+  },
+  {
+    "id": 13,
+    "symbolType": 0,
+    "weight2": 325,
+    "weight3": 150,
+    "reward2": [
+      "3",
+      "44",
+      "1"
+    ],
+    "reward2txt": "",
+    "reward3": [
+      "3",
+      "44",
+      "3"
+    ],
+    "reward3txt": "",
+    "atlasRegular": 101,
+    "iconRegular": "icon_slot_youling",
+    "atlasBlur": 114,
+    "iconBlur": "icon_slot_youling_blur"
+  },
+  {
+    "id": 14,
+    "symbolType": 0,
+    "weight2": 350,
+    "weight3": 50,
+    "reward2": [
+      "3",
+      "44",
+      "2"
+    ],
+    "reward2txt": "",
+    "reward3": [
+      "3",
+      "44",
+      "6"
+    ],
+    "reward3txt": "",
+    "atlasRegular": 101,
+    "iconRegular": "icon_slot_youling_02",
+    "atlasBlur": 114,
+    "iconBlur": "icon_slot_youling_blur_02"
+  },
+  {
+    "id": 15,
+    "symbolType": 1,
+    "weight2": 100,
+    "weight3": 25,
+    "reward2": [
+      "3",
+      "44",
+      "3"
+    ],
+    "reward2txt": "",
+    "reward3": [
+      "3",
+      "44",
+      "9"
+    ],
+    "reward3txt": "",
+    "atlasRegular": 101,
+    "iconRegular": "icon_slot_youling_03",
+    "atlasBlur": 114,
+    "iconBlur": "icon_slot_youling_blur_03"
+  },
+  {
+    "id": 16,
+    "symbolType": 0,
+    "weight2": 325,
+    "weight3": 150,
+    "reward2": [
+      "3",
+      "45",
+      "1"
+    ],
+    "reward2txt": "",
+    "reward3": [
+      "3",
+      "45",
+      "3"
+    ],
+    "reward3txt": "",
+    "atlasRegular": 101,
+    "iconRegular": "icon_slot_long",
+    "atlasBlur": 114,
+    "iconBlur": "icon_slot_long_blur"
+  },
+  {
+    "id": 17,
+    "symbolType": 0,
+    "weight2": 350,
+    "weight3": 50,
+    "reward2": [
+      "3",
+      "45",
+      "2"
+    ],
+    "reward2txt": "",
+    "reward3": [
+      "3",
+      "45",
+      "6"
+    ],
+    "reward3txt": "",
+    "atlasRegular": 101,
+    "iconRegular": "icon_slot_long_02",
+    "atlasBlur": 114,
+    "iconBlur": "icon_slot_long_blur_02"
+  },
+  {
+    "id": 18,
+    "symbolType": 1,
+    "weight2": 100,
+    "weight3": 25,
+    "reward2": [
+      "3",
+      "45",
+      "3"
+    ],
+    "reward2txt": "",
+    "reward3": [
+      "3",
+      "45",
+      "9"
+    ],
+    "reward3txt": "",
+    "atlasRegular": 101,
+    "iconRegular": "icon_slot_long_03",
+    "atlasBlur": 114,
+    "iconBlur": "icon_slot_long_blur_03"
+  },
+  {
+    "id": 101,
+    "symbolType": 0,
+    "weight2": 250,
+    "weight3": 150,
+    "reward2": [
+      "3",
+      "1101",
+      "2"
+    ],
+    "reward2txt": "",
+    "reward3": [
+      "3",
+      "1101",
+      "6"
+    ],
+    "reward3txt": "",
+    "atlasRegular": 101,
+    "iconRegular": "icon_slot_star",
+    "atlasBlur": 114,
+    "iconBlur": "icon_slot_star_blur"
+  },
+  {
+    "id": 102,
+    "symbolType": 0,
+    "weight2": 300,
+    "weight3": 100,
+    "reward2": [
+      "3",
+      "1101",
+      "3"
+    ],
+    "reward2txt": "",
+    "reward3": [
+      "3",
+      "1101",
+      "9"
+    ],
+    "reward3txt": "",
+    "atlasRegular": 101,
+    "iconRegular": "icon_slot_star_02",
+    "atlasBlur": 114,
+    "iconBlur": "icon_slot_star_blur_02"
+  },
+  {
+    "id": 103,
+    "symbolType": 1,
+    "weight2": 150,
+    "weight3": 50,
+    "reward2": [
+      "3",
+      "1101",
+      "4"
+    ],
+    "reward2txt": "",
+    "reward3": [
+      "3",
+      "1101",
+      "12"
+    ],
+    "reward3txt": "",
+    "atlasRegular": 101,
+    "iconRegular": "icon_slot_star_03",
+    "atlasBlur": 114,
+    "iconBlur": "icon_slot_star_blur_03"
+  },
+  {
+    "id": 201,
+    "symbolType": 0,
+    "weight2": 250,
+    "weight3": 150,
+    "reward2": [
+      "3",
+      "1102",
+      "2"
+    ],
+    "reward2txt": "",
+    "reward3": [
+      "3",
+      "1102",
+      "6"
+    ],
+    "reward3txt": "",
+    "atlasRegular": 101,
+    "iconRegular": "icon_slot_denglong",
+    "atlasBlur": 114,
+    "iconBlur": "icon_slot_denglong_blur"
+  },
+  {
+    "id": 202,
+    "symbolType": 0,
+    "weight2": 300,
+    "weight3": 100,
+    "reward2": [
+      "3",
+      "1102",
+      "3"
+    ],
+    "reward2txt": "",
+    "reward3": [
+      "3",
+      "1102",
+      "9"
+    ],
+    "reward3txt": "",
+    "atlasRegular": 101,
+    "iconRegular": "icon_slot_denglong_02",
+    "atlasBlur": 114,
+    "iconBlur": "icon_slot_denglong_blur_02"
+  },
+  {
+    "id": 203,
+    "symbolType": 1,
+    "weight2": 150,
+    "weight3": 50,
+    "reward2": [
+      "3",
+      "1102",
+      "4"
+    ],
+    "reward2txt": "",
+    "reward3": [
+      "3",
+      "1102",
+      "12"
+    ],
+    "reward3txt": "",
+    "atlasRegular": 101,
+    "iconRegular": "icon_slot_denglong_03",
+    "atlasBlur": 114,
+    "iconBlur": "icon_slot_denglong_blur_03"
+  }
+]

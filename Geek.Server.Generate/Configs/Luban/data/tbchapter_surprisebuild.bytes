@@ -1,0 +1,362 @@
+[
+  {
+    "id": 1,
+    "type": 1,
+    "buildId": 1,
+    "eventPointId": 10116,
+    "memberId": 10205,
+    "modelId": 0,
+    "weight": 100
+  },
+  {
+    "id": 2,
+    "type": 2,
+    "buildId": 2,
+    "eventPointId": 10117,
+    "memberId": 10206,
+    "modelId": 0,
+    "weight": 100
+  },
+  {
+    "id": 3,
+    "type": 5,
+    "buildId": 3,
+    "eventPointId": 10118,
+    "memberId": 0,
+    "modelId": 0,
+    "weight": 100
+  },
+  {
+    "id": 4,
+    "type": 6,
+    "buildId": 4,
+    "eventPointId": 10122,
+    "memberId": 10208,
+    "modelId": 0,
+    "weight": 100
+  },
+  {
+    "id": 21,
+    "type": 1,
+    "buildId": 21,
+    "eventPointId": 10218,
+    "memberId": 10205,
+    "modelId": 0,
+    "weight": 100
+  },
+  {
+    "id": 22,
+    "type": 2,
+    "buildId": 22,
+    "eventPointId": 10219,
+    "memberId": 10206,
+    "modelId": 0,
+    "weight": 100
+  },
+  {
+    "id": 23,
+    "type": 5,
+    "buildId": 23,
+    "eventPointId": 10220,
+    "memberId": 0,
+    "modelId": 0,
+    "weight": 100
+  },
+  {
+    "id": 24,
+    "type": 6,
+    "buildId": 24,
+    "eventPointId": 10223,
+    "memberId": 10208,
+    "modelId": 0,
+    "weight": 100
+  },
+  {
+    "id": 31,
+    "type": 1,
+    "buildId": 31,
+    "eventPointId": 19118,
+    "memberId": 10205,
+    "modelId": 0,
+    "weight": 100
+  },
+  {
+    "id": 32,
+    "type": 2,
+    "buildId": 32,
+    "eventPointId": 19119,
+    "memberId": 10206,
+    "modelId": 0,
+    "weight": 100
+  },
+  {
+    "id": 33,
+    "type": 5,
+    "buildId": 33,
+    "eventPointId": 19120,
+    "memberId": 0,
+    "modelId": 0,
+    "weight": 100
+  },
+  {
+    "id": 34,
+    "type": 6,
+    "buildId": 34,
+    "eventPointId": 10122,
+    "memberId": 10208,
+    "modelId": 0,
+    "weight": 100
+  },
+  {
+    "id": 41,
+    "type": 1,
+    "buildId": 41,
+    "eventPointId": 10418,
+    "memberId": 10205,
+    "modelId": 0,
+    "weight": 100
+  },
+  {
+    "id": 42,
+    "type": 2,
+    "buildId": 42,
+    "eventPointId": 10419,
+    "memberId": 10206,
+    "modelId": 0,
+    "weight": 100
+  },
+  {
+    "id": 43,
+    "type": 5,
+    "buildId": 43,
+    "eventPointId": 10420,
+    "memberId": 0,
+    "modelId": 0,
+    "weight": 100
+  },
+  {
+    "id": 44,
+    "type": 6,
+    "buildId": 44,
+    "eventPointId": 10423,
+    "memberId": 10208,
+    "modelId": 0,
+    "weight": 100
+  },
+  {
+    "id": 51,
+    "type": 1,
+    "buildId": 51,
+    "eventPointId": 19118,
+    "memberId": 10205,
+    "modelId": 0,
+    "weight": 100
+  },
+  {
+    "id": 52,
+    "type": 2,
+    "buildId": 52,
+    "eventPointId": 19119,
+    "memberId": 10206,
+    "modelId": 0,
+    "weight": 100
+  },
+  {
+    "id": 53,
+    "type": 5,
+    "buildId": 53,
+    "eventPointId": 19120,
+    "memberId": 0,
+    "modelId": 0,
+    "weight": 100
+  },
+  {
+    "id": 54,
+    "type": 6,
+    "buildId": 54,
+    "eventPointId": 19126,
+    "memberId": 10208,
+    "modelId": 0,
+    "weight": 100
+  },
+  {
+    "id": 61,
+    "type": 1,
+    "buildId": 61,
+    "eventPointId": 19218,
+    "memberId": 10205,
+    "modelId": 0,
+    "weight": 100
+  },
+  {
+    "id": 62,
+    "type": 2,
+    "buildId": 62,
+    "eventPointId": 19219,
+    "memberId": 10206,
+    "modelId": 0,
+    "weight": 100
+  },
+  {
+    "id": 63,
+    "type": 5,
+    "buildId": 63,
+    "eventPointId": 19220,
+    "memberId": 0,
+    "modelId": 0,
+    "weight": 100
+  },
+  {
+    "id": 64,
+    "type": 6,
+    "buildId": 64,
+    "eventPointId": 19226,
+    "memberId": 10208,
+    "modelId": 0,
+    "weight": 100
+  },
+  {
+    "id": 71,
+    "type": 1,
+    "buildId": 71,
+    "eventPointId": 10718,
+    "memberId": 10205,
+    "modelId": 0,
+    "weight": 100
+  },
+  {
+    "id": 72,
+    "type": 2,
+    "buildId": 72,
+    "eventPointId": 10719,
+    "memberId": 10206,
+    "modelId": 0,
+    "weight": 100
+  },
+  {
+    "id": 73,
+    "type": 5,
+    "buildId": 73,
+    "eventPointId": 10720,
+    "memberId": 0,
+    "modelId": 0,
+    "weight": 100
+  },
+  {
+    "id": 74,
+    "type": 6,
+    "buildId": 74,
+    "eventPointId": 10723,
+    "memberId": 10208,
+    "modelId": 0,
+    "weight": 100
+  },
+  {
+    "id": 81,
+    "type": 1,
+    "buildId": 81,
+    "eventPointId": 19218,
+    "memberId": 10205,
+    "modelId": 0,
+    "weight": 100
+  },
+  {
+    "id": 82,
+    "type": 2,
+    "buildId": 82,
+    "eventPointId": 19219,
+    "memberId": 10206,
+    "modelId": 0,
+    "weight": 100
+  },
+  {
+    "id": 83,
+    "type": 5,
+    "buildId": 83,
+    "eventPointId": 19220,
+    "memberId": 0,
+    "modelId": 0,
+    "weight": 100
+  },
+  {
+    "id": 84,
+    "type": 6,
+    "buildId": 84,
+    "eventPointId": 19226,
+    "memberId": 10208,
+    "modelId": 0,
+    "weight": 100
+  },
+  {
+    "id": 91,
+    "type": 1,
+    "buildId": 91,
+    "eventPointId": 10918,
+    "memberId": 10205,
+    "modelId": 0,
+    "weight": 100
+  },
+  {
+    "id": 92,
+    "type": 2,
+    "buildId": 92,
+    "eventPointId": 10919,
+    "memberId": 10206,
+    "modelId": 0,
+    "weight": 100
+  },
+  {
+    "id": 93,
+    "type": 5,
+    "buildId": 93,
+    "eventPointId": 10920,
+    "memberId": 0,
+    "modelId": 0,
+    "weight": 100
+  },
+  {
+    "id": 94,
+    "type": 6,
+    "buildId": 94,
+    "eventPointId": 10923,
+    "memberId": 10208,
+    "modelId": 0,
+    "weight": 100
+  },
+  {
+    "id": 101,
+    "type": 1,
+    "buildId": 101,
+    "eventPointId": 11018,
+    "memberId": 10205,
+    "modelId": 0,
+    "weight": 100
+  },
+  {
+    "id": 102,
+    "type": 2,
+    "buildId": 102,
+    "eventPointId": 11019,
+    "memberId": 10206,
+    "modelId": 0,
+    "weight": 100
+  },
+  {
+    "id": 103,
+    "type": 5,
+    "buildId": 103,
+    "eventPointId": 11020,
+    "memberId": 0,
+    "modelId": 0,
+    "weight": 100
+  },
+  {
+    "id": 104,
+    "type": 6,
+    "buildId": 104,
+    "eventPointId": 11024,
+    "memberId": 10208,
+    "modelId": 0,
+    "weight": 100
+  }
+]

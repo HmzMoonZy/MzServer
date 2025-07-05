@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "fishUp": [
+      105,
+      110
+    ],
+    "distanceDefault": 100,
+    "distanceFail": 200,
+    "area": 1,
+    "bait": 0,
+    "fishRod": 912
+  },
+  {
+    "id": 2,
+    "fishUp": [
+      105,
+      110
+    ],
+    "distanceDefault": 100,
+    "distanceFail": 200,
+    "area": 1,
+    "bait": 0,
+    "fishRod": 912
+  },
+  {
+    "id": 3,
+    "fishUp": [
+      105,
+      110
+    ],
+    "distanceDefault": 100,
+    "distanceFail": 200,
+    "area": 1,
+    "bait": 0,
+    "fishRod": 912
+  },
+  {
+    "id": 4,
+    "fishUp": [
+      105,
+      110
+    ],
+    "distanceDefault": 100,
+    "distanceFail": 200,
+    "area": 1,
+    "bait": 0,
+    "fishRod": 912
+  }
+]

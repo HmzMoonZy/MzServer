@@ -1,0 +1,56 @@
+[
+  {
+    "id": 1,
+    "textId": "battle_text_miss",
+    "atlasId": 101,
+    "iconName": "hover_text_icon_1"
+  },
+  {
+    "id": 2,
+    "textId": "battle_text_counter",
+    "atlasId": 101,
+    "iconName": "hover_text_icon_2"
+  },
+  {
+    "id": 3,
+    "textId": "battle_text_combo",
+    "atlasId": 101,
+    "iconName": "hover_text_icon_3"
+  },
+  {
+    "id": 4,
+    "textId": "battle_text_frozen",
+    "atlasId": 101,
+    "iconName": "hover_text_icon_4"
+  },
+  {
+    "id": 5,
+    "textId": "battle_text_stun",
+    "atlasId": 101,
+    "iconName": "hover_text_icon_5"
+  },
+  {
+    "id": 6,
+    "textId": "common_revive",
+    "atlasId": 101,
+    "iconName": "hover_text_icon_6"
+  },
+  {
+    "id": 7,
+    "textId": "text_seckill",
+    "atlasId": 101,
+    "iconName": "hover_text_icon_7"
+  },
+  {
+    "id": 8,
+    "textId": "battle_text_silence",
+    "atlasId": 101,
+    "iconName": "hover_text_icon_5"
+  },
+  {
+    "id": 9,
+    "textId": "battle_text_numb",
+    "atlasId": 113,
+    "iconName": "Icon_Buff_Numb"
+  }
+]

@@ -1,0 +1,626 @@
+[
+  {
+    "id": 30101,
+    "level": 1,
+    "originSkillId": 100017,
+    "skillGroupID": 301,
+    "skillBuildType": 1,
+    "skillBuildId": 30101,
+    "levelupCost": [
+      "36,1"
+    ],
+    "levelupDesc": "Hero_Rougue_101",
+    "activePower": [
+      0,
+      30
+    ]
+  },
+  {
+    "id": 30102,
+    "level": 2,
+    "originSkillId": 100017,
+    "skillGroupID": 301,
+    "skillBuildType": 1,
+    "skillBuildId": 30102,
+    "levelupCost": [
+      "36,1"
+    ],
+    "levelupDesc": "Hero_Rougue_102",
+    "activePower": [
+      0,
+      53
+    ]
+  },
+  {
+    "id": 30103,
+    "level": 3,
+    "originSkillId": 100017,
+    "skillGroupID": 301,
+    "skillBuildType": 1,
+    "skillBuildId": 30103,
+    "levelupCost": [
+      "36,1"
+    ],
+    "levelupDesc": "Hero_Rougue_103",
+    "activePower": [
+      0,
+      75
+    ]
+  },
+  {
+    "id": 30104,
+    "level": 4,
+    "originSkillId": 100017,
+    "skillGroupID": 301,
+    "skillBuildType": 1,
+    "skillBuildId": 30104,
+    "levelupCost": [
+      "36,2"
+    ],
+    "levelupDesc": "Hero_Rougue_104",
+    "activePower": [
+      0,
+      98
+    ]
+  },
+  {
+    "id": 30105,
+    "level": 5,
+    "originSkillId": 100017,
+    "skillGroupID": 301,
+    "skillBuildType": 1,
+    "skillBuildId": 30105,
+    "levelupCost": [],
+    "levelupDesc": "Hero_Rougue_105",
+    "activePower": [
+      0,
+      120
+    ]
+  },
+  {
+    "id": 40101,
+    "level": 1,
+    "originSkillId": 100006,
+    "skillGroupID": 401,
+    "skillBuildType": 1,
+    "skillBuildId": 40101,
+    "levelupCost": [
+      "36,1"
+    ],
+    "levelupDesc": "Hero_Rougue_201",
+    "activePower": [
+      0,
+      50
+    ]
+  },
+  {
+    "id": 40102,
+    "level": 2,
+    "originSkillId": 100006,
+    "skillGroupID": 401,
+    "skillBuildType": 1,
+    "skillBuildId": 40102,
+    "levelupCost": [
+      "36,1"
+    ],
+    "levelupDesc": "Hero_Rougue_202",
+    "activePower": [
+      0,
+      88
+    ]
+  },
+  {
+    "id": 40103,
+    "level": 3,
+    "originSkillId": 100006,
+    "skillGroupID": 401,
+    "skillBuildType": 1,
+    "skillBuildId": 40103,
+    "levelupCost": [
+      "36,1"
+    ],
+    "levelupDesc": "Hero_Rougue_203",
+    "activePower": [
+      0,
+      125
+    ]
+  },
+  {
+    "id": 40104,
+    "level": 4,
+    "originSkillId": 100006,
+    "skillGroupID": 401,
+    "skillBuildType": 1,
+    "skillBuildId": 40104,
+    "levelupCost": [
+      "36,2"
+    ],
+    "levelupDesc": "Hero_Rougue_204",
+    "activePower": [
+      0,
+      163
+    ]
+  },
+  {
+    "id": 40105,
+    "level": 5,
+    "originSkillId": 100006,
+    "skillGroupID": 401,
+    "skillBuildType": 1,
+    "skillBuildId": 40105,
+    "levelupCost": [],
+    "levelupDesc": "Hero_Rougue_205",
+    "activePower": [
+      0,
+      200
+    ]
+  },
+  {
+    "id": 50101,
+    "level": 1,
+    "originSkillId": 100108,
+    "skillGroupID": 501,
+    "skillBuildType": 1,
+    "skillBuildId": 50101,
+    "levelupCost": [
+      "36,1"
+    ],
+    "levelupDesc": "Hero_Rougue_301",
+    "activePower": [
+      0,
+      75
+    ]
+  },
+  {
+    "id": 50102,
+    "level": 2,
+    "originSkillId": 100108,
+    "skillGroupID": 501,
+    "skillBuildType": 1,
+    "skillBuildId": 50102,
+    "levelupCost": [
+      "36,1"
+    ],
+    "levelupDesc": "Hero_Rougue_302",
+    "activePower": [
+      0,
+      131
+    ]
+  },
+  {
+    "id": 50103,
+    "level": 3,
+    "originSkillId": 100108,
+    "skillGroupID": 501,
+    "skillBuildType": 1,
+    "skillBuildId": 50103,
+    "levelupCost": [
+      "36,2"
+    ],
+    "levelupDesc": "Hero_Rougue_303",
+    "activePower": [
+      0,
+      188
+    ]
+  },
+  {
+    "id": 50104,
+    "level": 4,
+    "originSkillId": 100108,
+    "skillGroupID": 501,
+    "skillBuildType": 1,
+    "skillBuildId": 50104,
+    "levelupCost": [
+      "36,3"
+    ],
+    "levelupDesc": "Hero_Rougue_304",
+    "activePower": [
+      0,
+      244
+    ]
+  },
+  {
+    "id": 50105,
+    "level": 5,
+    "originSkillId": 100108,
+    "skillGroupID": 501,
+    "skillBuildType": 1,
+    "skillBuildId": 50105,
+    "levelupCost": [],
+    "levelupDesc": "Hero_Rougue_305",
+    "activePower": [
+      0,
+      300
+    ]
+  },
+  {
+    "id": 60101,
+    "level": 1,
+    "originSkillId": 100025,
+    "skillGroupID": 601,
+    "skillBuildType": 1,
+    "skillBuildId": 60101,
+    "levelupCost": [
+      "36,1"
+    ],
+    "levelupDesc": "Hero_Rougue_401",
+    "activePower": [
+      0,
+      100
+    ]
+  },
+  {
+    "id": 60102,
+    "level": 2,
+    "originSkillId": 100025,
+    "skillGroupID": 601,
+    "skillBuildType": 1,
+    "skillBuildId": 60102,
+    "levelupCost": [
+      "36,2"
+    ],
+    "levelupDesc": "Hero_Rougue_402",
+    "activePower": [
+      0,
+      175
+    ]
+  },
+  {
+    "id": 60103,
+    "level": 3,
+    "originSkillId": 100025,
+    "skillGroupID": 601,
+    "skillBuildType": 1,
+    "skillBuildId": 60103,
+    "levelupCost": [
+      "36,3"
+    ],
+    "levelupDesc": "Hero_Rougue_403",
+    "activePower": [
+      0,
+      250
+    ]
+  },
+  {
+    "id": 60104,
+    "level": 4,
+    "originSkillId": 100025,
+    "skillGroupID": 601,
+    "skillBuildType": 1,
+    "skillBuildId": 60104,
+    "levelupCost": [
+      "36,4"
+    ],
+    "levelupDesc": "Hero_Rougue_404",
+    "activePower": [
+      0,
+      325
+    ]
+  },
+  {
+    "id": 60105,
+    "level": 5,
+    "originSkillId": 100025,
+    "skillGroupID": 601,
+    "skillBuildType": 1,
+    "skillBuildId": 60105,
+    "levelupCost": [],
+    "levelupDesc": "Hero_Rougue_405",
+    "activePower": [
+      0,
+      400
+    ]
+  },
+  {
+    "id": 60201,
+    "level": 1,
+    "originSkillId": 100020,
+    "skillGroupID": 602,
+    "skillBuildType": 1,
+    "skillBuildId": 60201,
+    "levelupCost": [
+      "36,1"
+    ],
+    "levelupDesc": "Hero_Rougue_501",
+    "activePower": [
+      0,
+      100
+    ]
+  },
+  {
+    "id": 60202,
+    "level": 2,
+    "originSkillId": 100020,
+    "skillGroupID": 602,
+    "skillBuildType": 1,
+    "skillBuildId": 60202,
+    "levelupCost": [
+      "36,2"
+    ],
+    "levelupDesc": "Hero_Rougue_502",
+    "activePower": [
+      0,
+      175
+    ]
+  },
+  {
+    "id": 60203,
+    "level": 3,
+    "originSkillId": 100020,
+    "skillGroupID": 602,
+    "skillBuildType": 1,
+    "skillBuildId": 60203,
+    "levelupCost": [
+      "36,3"
+    ],
+    "levelupDesc": "Hero_Rougue_503",
+    "activePower": [
+      0,
+      250
+    ]
+  },
+  {
+    "id": 60204,
+    "level": 4,
+    "originSkillId": 100020,
+    "skillGroupID": 602,
+    "skillBuildType": 1,
+    "skillBuildId": 60204,
+    "levelupCost": [
+      "36,4"
+    ],
+    "levelupDesc": "Hero_Rougue_504",
+    "activePower": [
+      0,
+      325
+    ]
+  },
+  {
+    "id": 60205,
+    "level": 5,
+    "originSkillId": 100020,
+    "skillGroupID": 602,
+    "skillBuildType": 1,
+    "skillBuildId": 60205,
+    "levelupCost": [],
+    "levelupDesc": "Hero_Rougue_505",
+    "activePower": [
+      0,
+      400
+    ]
+  },
+  {
+    "id": 60301,
+    "level": 1,
+    "originSkillId": 100018,
+    "skillGroupID": 603,
+    "skillBuildType": 1,
+    "skillBuildId": 60301,
+    "levelupCost": [
+      "36,1"
+    ],
+    "levelupDesc": "Hero_Rougue_601",
+    "activePower": [
+      0,
+      100
+    ]
+  },
+  {
+    "id": 60302,
+    "level": 2,
+    "originSkillId": 100018,
+    "skillGroupID": 603,
+    "skillBuildType": 1,
+    "skillBuildId": 60302,
+    "levelupCost": [
+      "36,2"
+    ],
+    "levelupDesc": "Hero_Rougue_602",
+    "activePower": [
+      0,
+      175
+    ]
+  },
+  {
+    "id": 60303,
+    "level": 3,
+    "originSkillId": 100018,
+    "skillGroupID": 603,
+    "skillBuildType": 1,
+    "skillBuildId": 60303,
+    "levelupCost": [
+      "36,3"
+    ],
+    "levelupDesc": "Hero_Rougue_603",
+    "activePower": [
+      0,
+      250
+    ]
+  },
+  {
+    "id": 60304,
+    "level": 4,
+    "originSkillId": 100018,
+    "skillGroupID": 603,
+    "skillBuildType": 1,
+    "skillBuildId": 60304,
+    "levelupCost": [
+      "36,4"
+    ],
+    "levelupDesc": "Hero_Rougue_604",
+    "activePower": [
+      0,
+      325
+    ]
+  },
+  {
+    "id": 60305,
+    "level": 5,
+    "originSkillId": 100018,
+    "skillGroupID": 603,
+    "skillBuildType": 1,
+    "skillBuildId": 60305,
+    "levelupCost": [],
+    "levelupDesc": "Hero_Rougue_605",
+    "activePower": [
+      0,
+      400
+    ]
+  },
+  {
+    "id": 60401,
+    "level": 1,
+    "originSkillId": 100012,
+    "skillGroupID": 604,
+    "skillBuildType": 1,
+    "skillBuildId": 60401,
+    "levelupCost": [
+      "36,1"
+    ],
+    "levelupDesc": "Hero_Rougue_701",
+    "activePower": [
+      0,
+      100
+    ]
+  },
+  {
+    "id": 60402,
+    "level": 2,
+    "originSkillId": 100012,
+    "skillGroupID": 604,
+    "skillBuildType": 1,
+    "skillBuildId": 60402,
+    "levelupCost": [
+      "36,2"
+    ],
+    "levelupDesc": "Hero_Rougue_702",
+    "activePower": [
+      0,
+      175
+    ]
+  },
+  {
+    "id": 60403,
+    "level": 3,
+    "originSkillId": 100012,
+    "skillGroupID": 604,
+    "skillBuildType": 1,
+    "skillBuildId": 60403,
+    "levelupCost": [
+      "36,3"
+    ],
+    "levelupDesc": "Hero_Rougue_703",
+    "activePower": [
+      0,
+      250
+    ]
+  },
+  {
+    "id": 60404,
+    "level": 4,
+    "originSkillId": 100012,
+    "skillGroupID": 604,
+    "skillBuildType": 1,
+    "skillBuildId": 60404,
+    "levelupCost": [
+      "36,4"
+    ],
+    "levelupDesc": "Hero_Rougue_704",
+    "activePower": [
+      0,
+      325
+    ]
+  },
+  {
+    "id": 60405,
+    "level": 5,
+    "originSkillId": 100012,
+    "skillGroupID": 604,
+    "skillBuildType": 1,
+    "skillBuildId": 60405,
+    "levelupCost": [],
+    "levelupDesc": "Hero_Rougue_705",
+    "activePower": [
+      0,
+      400
+    ]
+  },
+  {
+    "id": 60501,
+    "level": 1,
+    "originSkillId": 100026,
+    "skillGroupID": 605,
+    "skillBuildType": 1,
+    "skillBuildId": 60501,
+    "levelupCost": [
+      "36,1"
+    ],
+    "levelupDesc": "Hero_Rougue_801",
+    "activePower": [
+      0,
+      100
+    ]
+  },
+  {
+    "id": 60502,
+    "level": 2,
+    "originSkillId": 100026,
+    "skillGroupID": 605,
+    "skillBuildType": 1,
+    "skillBuildId": 60502,
+    "levelupCost": [
+      "36,2"
+    ],
+    "levelupDesc": "Hero_Rougue_802",
+    "activePower": [
+      0,
+      175
+    ]
+  },
+  {
+    "id": 60503,
+    "level": 3,
+    "originSkillId": 100026,
+    "skillGroupID": 605,
+    "skillBuildType": 1,
+    "skillBuildId": 60503,
+    "levelupCost": [
+      "36,3"
+    ],
+    "levelupDesc": "Hero_Rougue_803",
+    "activePower": [
+      0,
+      250
+    ]
+  },
+  {
+    "id": 60504,
+    "level": 4,
+    "originSkillId": 100026,
+    "skillGroupID": 605,
+    "skillBuildType": 1,
+    "skillBuildId": 60504,
+    "levelupCost": [
+      "36,4"
+    ],
+    "levelupDesc": "Hero_Rougue_804",
+    "activePower": [
+      0,
+      325
+    ]
+  },
+  {
+    "id": 60505,
+    "level": 5,
+    "originSkillId": 100026,
+    "skillGroupID": 605,
+    "skillBuildType": 1,
+    "skillBuildId": 60505,
+    "levelupCost": [],
+    "levelupDesc": "Hero_Rougue_805",
+    "activePower": [
+      0,
+      400
+    ]
+  }
+]

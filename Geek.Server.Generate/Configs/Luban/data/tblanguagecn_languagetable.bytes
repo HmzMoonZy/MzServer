@@ -1,0 +1,5346 @@
+[
+  {
+    "id": "Test_CN",
+    "chinesesimplified": "测试"
+  },
+  {
+    "id": "9510102",
+    "chinesesimplified": "<color=#0ea728><b>[活动介绍]</b></color>\\n----------------------------------------------\\n完成全部任务，获得海量奖励。\\n\\n<color=#0ea728><b>[活动规则]</b></color>\\n1.活动前7日，每日解锁4个任务。\\n2.完成所有任务，赢得最终大奖。\\n3.活动持续14天，需在时限内完成任务。\\n4.未领取的奖励将在活动后失效, 请及时领取。"
+  },
+  {
+    "id": "module_desc_guildboss",
+    "chinesesimplified": "<color=#8C5826>◆公会讨伐规则：</color>\\n※每人每天拥有<color=#2FA632>「2次挑战机会」</color>，所有玩家对魔物造成的伤害将削减怪物的总生命\\n※跳槽到新公会的玩家需要24小时后才可以进行挑战\\n※<color=#BF6ACD>每天早上8点</color>，刷新挑战次数\\n※<color=#BF6ACD>任意玩家击败魔物后</color>，可为所有玩家解锁一份击败奖励\\n<color=#8C5826>◆跨服排行规则：</color>\\n※公会击败魔物达到<color=#2FA632>第9阶</color>后，将会进入跨服排行模式，将根据公会内所有玩家累计对魔物造成的伤害进行排名\\n※相同段位的公会将会优先匹配到同一组进行排名\\n◆公会排名奖励规则：\\n※每周赛季重置时，根据公会讨伐的段位以及排名，为所有成员发放<color=#2FA632>邮件奖励</color>\\n<color=#8C5826>◆段位升降级规则：</color>\\n※<color=#E47504>【见习组】：</color>\\n※每组20公会\\n※周排名前10名晋级，其余平级\\n<color=#E47504>【新秀组1星】：</color>\\n※每组20公会\\n※周排名前10名晋级，其余平级\\n<color=#E47504>【新秀组2星】：</color>\\n※每组20公会\\n※周排名前10名晋级，其余平级\\n<color=#E47504>【新秀组3星】：</color>\\n※每组20公会\\n※周排名前10名晋级，其余平级\\n<color=#E47504>【勇者1星】：</color>\\n※每组20公会\\n※周排名前10名晋级，后5名降级，其余平级\\n<color=#E47504>【勇者2星】：</color>\\n※每组20公会\\n※周排名前10名晋级，后5名降级，其余平级\\n<color=#E47504>【勇者3星】：</color>\\n※每组20公会\\n※周排名前10名晋级，后5名降级，其余平级\\n<color=#E47504>【英杰1星】：</color>\\n※每组20公会\\n※周排名前5名晋级，后5名降级，其余平级\\n<color=#E47504>【英杰2星】：</color>\\n※每组20公会\\n※周排名前5名晋级，后5名降级，其余平级\\n<color=#E47504>【英杰3星】：</color>\\n※每组20公会\\n※周排名前5名晋级，后5名降级，其余平级\\n<color=#E47504>【魔王克星组】：</color>\\n※每组20公会\\n※周排名后10名降级，其余平级 "
+  },
+  {
+    "id": "Event_20730212",
+    "chinesesimplified": "<color=#e35822>咕噜怪</color>鄙夷得看着你。"
+  },
+  {
+    "id": "Event_20330212",
+    "chinesesimplified": "<color=#e35822>咕噜怪</color>鄙夷得看着你。"
+  },
+  {
+    "id": "Event_20230212",
+    "chinesesimplified": "<color=#e35822>咕噜怪</color>鄙夷得看着你。"
+  },
+  {
+    "id": "Event_21030212",
+    "chinesesimplified": "<color=#e35822>咕噜怪</color>鄙夷得看着你。"
+  },
+  {
+    "id": "Event_20830212",
+    "chinesesimplified": "<color=#e35822>咕噜怪</color>鄙夷得看着你。"
+  },
+  {
+    "id": "Event_20630212",
+    "chinesesimplified": "<color=#e35822>咕噜怪</color>鄙夷得看着你。"
+  },
+  {
+    "id": "Event_20530212",
+    "chinesesimplified": "<color=#e35822>咕噜怪</color>鄙夷得看着你。"
+  },
+  {
+    "id": "Event_20930212",
+    "chinesesimplified": "<color=#e35822>咕噜怪</color>鄙夷得看着你。"
+  },
+  {
+    "id": "Event_20430212",
+    "chinesesimplified": "<color=#e35822>咕噜怪</color>鄙夷得看着你。"
+  },
+  {
+    "id": "Event_20730206",
+    "chinesesimplified": "<color=#e35822>咕噜怪</color>开始鼓掌，\"打得不错，挑战者！恭喜你，获得了胜者宝箱。\""
+  },
+  {
+    "id": "Event_20730209",
+    "chinesesimplified": "<color=#e35822>咕噜怪</color>开始鼓掌，\"打得不错，挑战者！恭喜你，获得了胜者宝箱。\""
+  },
+  {
+    "id": "Event_20330206",
+    "chinesesimplified": "<color=#e35822>咕噜怪</color>开始鼓掌，\"打得不错，挑战者！恭喜你，获得了胜者宝箱。\""
+  },
+  {
+    "id": "Event_20330209",
+    "chinesesimplified": "<color=#e35822>咕噜怪</color>开始鼓掌，\"打得不错，挑战者！恭喜你，获得了胜者宝箱。\""
+  },
+  {
+    "id": "Event_20230206",
+    "chinesesimplified": "<color=#e35822>咕噜怪</color>开始鼓掌，\"打得不错，挑战者！恭喜你，获得了胜者宝箱。\""
+  },
+  {
+    "id": "Event_20230209",
+    "chinesesimplified": "<color=#e35822>咕噜怪</color>开始鼓掌，\"打得不错，挑战者！恭喜你，获得了胜者宝箱。\""
+  },
+  {
+    "id": "Event_21030206",
+    "chinesesimplified": "<color=#e35822>咕噜怪</color>开始鼓掌，\"打得不错，挑战者！恭喜你，获得了胜者宝箱。\""
+  },
+  {
+    "id": "Event_21030209",
+    "chinesesimplified": "<color=#e35822>咕噜怪</color>开始鼓掌，\"打得不错，挑战者！恭喜你，获得了胜者宝箱。\""
+  },
+  {
+    "id": "Event_20830206",
+    "chinesesimplified": "<color=#e35822>咕噜怪</color>开始鼓掌，\"打得不错，挑战者！恭喜你，获得了胜者宝箱。\""
+  },
+  {
+    "id": "Event_20830209",
+    "chinesesimplified": "<color=#e35822>咕噜怪</color>开始鼓掌，\"打得不错，挑战者！恭喜你，获得了胜者宝箱。\""
+  },
+  {
+    "id": "Event_20630206",
+    "chinesesimplified": "<color=#e35822>咕噜怪</color>开始鼓掌，\"打得不错，挑战者！恭喜你，获得了胜者宝箱。\""
+  },
+  {
+    "id": "Event_20630209",
+    "chinesesimplified": "<color=#e35822>咕噜怪</color>开始鼓掌，\"打得不错，挑战者！恭喜你，获得了胜者宝箱。\""
+  },
+  {
+    "id": "Event_20530206",
+    "chinesesimplified": "<color=#e35822>咕噜怪</color>开始鼓掌，\"打得不错，挑战者！恭喜你，获得了胜者宝箱。\""
+  },
+  {
+    "id": "Event_20530209",
+    "chinesesimplified": "<color=#e35822>咕噜怪</color>开始鼓掌，\"打得不错，挑战者！恭喜你，获得了胜者宝箱。\""
+  },
+  {
+    "id": "Event_20930206",
+    "chinesesimplified": "<color=#e35822>咕噜怪</color>开始鼓掌，\"打得不错，挑战者！恭喜你，获得了胜者宝箱。\""
+  },
+  {
+    "id": "Event_20930209",
+    "chinesesimplified": "<color=#e35822>咕噜怪</color>开始鼓掌，\"打得不错，挑战者！恭喜你，获得了胜者宝箱。\""
+  },
+  {
+    "id": "Event_20430206",
+    "chinesesimplified": "<color=#e35822>咕噜怪</color>开始鼓掌，\"打得不错，挑战者！恭喜你，获得了胜者宝箱。\""
+  },
+  {
+    "id": "Event_20430209",
+    "chinesesimplified": "<color=#e35822>咕噜怪</color>开始鼓掌，\"打得不错，挑战者！恭喜你，获得了胜者宝箱。\""
+  },
+  {
+    "id": "Event_20730204",
+    "chinesesimplified": "<color=#e35822>咕噜怪</color>欣喜地说道：\"冒险者，你拥有非凡的勇气，你可以选择1位强大的勇士进行挑战。\""
+  },
+  {
+    "id": "Event_20330204",
+    "chinesesimplified": "<color=#e35822>咕噜怪</color>欣喜地说道：\"冒险者，你拥有非凡的勇气，你可以选择1位强大的勇士进行挑战。\""
+  },
+  {
+    "id": "Event_20230204",
+    "chinesesimplified": "<color=#e35822>咕噜怪</color>欣喜地说道：\"冒险者，你拥有非凡的勇气，你可以选择1位强大的勇士进行挑战。\""
+  },
+  {
+    "id": "Event_21030204",
+    "chinesesimplified": "<color=#e35822>咕噜怪</color>欣喜地说道：\"冒险者，你拥有非凡的勇气，你可以选择1位强大的勇士进行挑战。\""
+  },
+  {
+    "id": "Event_20830204",
+    "chinesesimplified": "<color=#e35822>咕噜怪</color>欣喜地说道：\"冒险者，你拥有非凡的勇气，你可以选择1位强大的勇士进行挑战。\""
+  },
+  {
+    "id": "Event_20630204",
+    "chinesesimplified": "<color=#e35822>咕噜怪</color>欣喜地说道：\"冒险者，你拥有非凡的勇气，你可以选择1位强大的勇士进行挑战。\""
+  },
+  {
+    "id": "Event_20530204",
+    "chinesesimplified": "<color=#e35822>咕噜怪</color>欣喜地说道：\"冒险者，你拥有非凡的勇气，你可以选择1位强大的勇士进行挑战。\""
+  },
+  {
+    "id": "Event_20930204",
+    "chinesesimplified": "<color=#e35822>咕噜怪</color>欣喜地说道：\"冒险者，你拥有非凡的勇气，你可以选择1位强大的勇士进行挑战。\""
+  },
+  {
+    "id": "Event_20430204",
+    "chinesesimplified": "<color=#e35822>咕噜怪</color>欣喜地说道：\"冒险者，你拥有非凡的勇气，你可以选择1位强大的勇士进行挑战。\""
+  },
+  {
+    "id": "Event_20730602",
+    "chinesesimplified": "<color=#e35822>方尖碑</color>上刻着神秘的符文，隐约有一个声音告诉你，付出小小的代价就能获得<color=#e35822>未知的力量</color>。"
+  },
+  {
+    "id": "Event_20330602",
+    "chinesesimplified": "<color=#e35822>方尖碑</color>上刻着神秘的符文，隐约有一个声音告诉你，付出小小的代价就能获得<color=#e35822>未知的力量</color>。"
+  },
+  {
+    "id": "Event_20230602",
+    "chinesesimplified": "<color=#e35822>方尖碑</color>上刻着神秘的符文，隐约有一个声音告诉你，付出小小的代价就能获得<color=#e35822>未知的力量</color>。"
+  },
+  {
+    "id": "Event_21030602",
+    "chinesesimplified": "<color=#e35822>方尖碑</color>上刻着神秘的符文，隐约有一个声音告诉你，付出小小的代价就能获得<color=#e35822>未知的力量</color>。"
+  },
+  {
+    "id": "Event_20830602",
+    "chinesesimplified": "<color=#e35822>方尖碑</color>上刻着神秘的符文，隐约有一个声音告诉你，付出小小的代价就能获得<color=#e35822>未知的力量</color>。"
+  },
+  {
+    "id": "Event_20130602",
+    "chinesesimplified": "<color=#e35822>方尖碑</color>上刻着神秘的符文，隐约有一个声音告诉你，付出小小的代价就能获得<color=#e35822>未知的力量</color>。"
+  },
+  {
+    "id": "Event_20630602",
+    "chinesesimplified": "<color=#e35822>方尖碑</color>上刻着神秘的符文，隐约有一个声音告诉你，付出小小的代价就能获得<color=#e35822>未知的力量</color>。"
+  },
+  {
+    "id": "Event_20530602",
+    "chinesesimplified": "<color=#e35822>方尖碑</color>上刻着神秘的符文，隐约有一个声音告诉你，付出小小的代价就能获得<color=#e35822>未知的力量</color>。"
+  },
+  {
+    "id": "Event_20930602",
+    "chinesesimplified": "<color=#e35822>方尖碑</color>上刻着神秘的符文，隐约有一个声音告诉你，付出小小的代价就能获得<color=#e35822>未知的力量</color>。"
+  },
+  {
+    "id": "Event_20430602",
+    "chinesesimplified": "<color=#e35822>方尖碑</color>上刻着神秘的符文，隐约有一个声音告诉你，付出小小的代价就能获得<color=#e35822>未知的力量</color>。"
+  },
+  {
+    "id": "Event_20720802",
+    "chinesesimplified": "<color=#e35822>邪恶巫师</color>高大而神秘，石像内部有一双双眼睛透着诡异的光芒，似乎是某种<color=#e35822>未知的生物</color>正警告你不要靠近。"
+  },
+  {
+    "id": "Event_20320802",
+    "chinesesimplified": "<color=#e35822>邪恶巫师</color>高大而神秘，石像内部有一双双眼睛透着诡异的光芒，似乎是某种<color=#e35822>未知的生物</color>正警告你不要靠近。"
+  },
+  {
+    "id": "Event_20220802",
+    "chinesesimplified": "<color=#e35822>邪恶巫师</color>高大而神秘，石像内部有一双双眼睛透着诡异的光芒，似乎是某种<color=#e35822>未知的生物</color>正警告你不要靠近。"
+  },
+  {
+    "id": "Event_21020802",
+    "chinesesimplified": "<color=#e35822>邪恶巫师</color>高大而神秘，石像内部有一双双眼睛透着诡异的光芒，似乎是某种<color=#e35822>未知的生物</color>正警告你不要靠近。"
+  },
+  {
+    "id": "Event_20820802",
+    "chinesesimplified": "<color=#e35822>邪恶巫师</color>高大而神秘，石像内部有一双双眼睛透着诡异的光芒，似乎是某种<color=#e35822>未知的生物</color>正警告你不要靠近。"
+  },
+  {
+    "id": "Event_20620802",
+    "chinesesimplified": "<color=#e35822>邪恶巫师</color>高大而神秘，石像内部有一双双眼睛透着诡异的光芒，似乎是某种<color=#e35822>未知的生物</color>正警告你不要靠近。"
+  },
+  {
+    "id": "Event_20520802",
+    "chinesesimplified": "<color=#e35822>邪恶巫师</color>高大而神秘，石像内部有一双双眼睛透着诡异的光芒，似乎是某种<color=#e35822>未知的生物</color>正警告你不要靠近。"
+  },
+  {
+    "id": "Event_20920802",
+    "chinesesimplified": "<color=#e35822>邪恶巫师</color>高大而神秘，石像内部有一双双眼睛透着诡异的光芒，似乎是某种<color=#e35822>未知的生物</color>正警告你不要靠近。"
+  },
+  {
+    "id": "Event_20420802",
+    "chinesesimplified": "<color=#e35822>邪恶巫师</color>高大而神秘，石像内部有一双双眼睛透着诡异的光芒，似乎是某种<color=#e35822>未知的生物</color>正警告你不要靠近。"
+  },
+  {
+    "id": "Event_20710204",
+    "chinesesimplified": "<color=#e35822>女巫</color>施展了祝福魔法，你感觉更强大了，但代价是损失了生命。"
+  },
+  {
+    "id": "Event_20310204",
+    "chinesesimplified": "<color=#e35822>女巫</color>施展了祝福魔法，你感觉更强大了，但代价是损失了生命。"
+  },
+  {
+    "id": "Event_20210204",
+    "chinesesimplified": "<color=#e35822>女巫</color>施展了祝福魔法，你感觉更强大了，但代价是损失了生命。"
+  },
+  {
+    "id": "Event_21010204",
+    "chinesesimplified": "<color=#e35822>女巫</color>施展了祝福魔法，你感觉更强大了，但代价是损失了生命。"
+  },
+  {
+    "id": "Event_20810204",
+    "chinesesimplified": "<color=#e35822>女巫</color>施展了祝福魔法，你感觉更强大了，但代价是损失了生命。"
+  },
+  {
+    "id": "Event_20110204",
+    "chinesesimplified": "<color=#e35822>女巫</color>施展了祝福魔法，你感觉更强大了，但代价是损失了生命。"
+  },
+  {
+    "id": "Event_20610204",
+    "chinesesimplified": "<color=#e35822>女巫</color>施展了祝福魔法，你感觉更强大了，但代价是损失了生命。"
+  },
+  {
+    "id": "Event_20510204",
+    "chinesesimplified": "<color=#e35822>女巫</color>施展了祝福魔法，你感觉更强大了，但代价是损失了生命。"
+  },
+  {
+    "id": "Event_20910204",
+    "chinesesimplified": "<color=#e35822>女巫</color>施展了祝福魔法，你感觉更强大了，但代价是损失了生命。"
+  },
+  {
+    "id": "Event_20410204",
+    "chinesesimplified": "<color=#e35822>女巫</color>施展了祝福魔法，你感觉更强大了，但代价是损失了生命。"
+  },
+  {
+    "id": "Event_20710304",
+    "chinesesimplified": "<color=#e35822>石灵</color>回应了你的祈求，但你感觉生命力降低了。"
+  },
+  {
+    "id": "Event_20750104",
+    "chinesesimplified": "<color=#e35822>石灵</color>回应了你的祈求，但你感觉生命力降低了。"
+  },
+  {
+    "id": "Event_20310304",
+    "chinesesimplified": "<color=#e35822>石灵</color>回应了你的祈求，但你感觉生命力降低了。"
+  },
+  {
+    "id": "Event_20350104",
+    "chinesesimplified": "<color=#e35822>石灵</color>回应了你的祈求，但你感觉生命力降低了。"
+  },
+  {
+    "id": "Event_20210304",
+    "chinesesimplified": "<color=#e35822>石灵</color>回应了你的祈求，但你感觉生命力降低了。"
+  },
+  {
+    "id": "Event_20250104",
+    "chinesesimplified": "<color=#e35822>石灵</color>回应了你的祈求，但你感觉生命力降低了。"
+  },
+  {
+    "id": "Event_21050104",
+    "chinesesimplified": "<color=#e35822>石灵</color>回应了你的祈求，但你感觉生命力降低了。"
+  },
+  {
+    "id": "Event_20810304",
+    "chinesesimplified": "<color=#e35822>石灵</color>回应了你的祈求，但你感觉生命力降低了。"
+  },
+  {
+    "id": "Event_20850104",
+    "chinesesimplified": "<color=#e35822>石灵</color>回应了你的祈求，但你感觉生命力降低了。"
+  },
+  {
+    "id": "Event_20110304",
+    "chinesesimplified": "<color=#e35822>石灵</color>回应了你的祈求，但你感觉生命力降低了。"
+  },
+  {
+    "id": "Event_20150104",
+    "chinesesimplified": "<color=#e35822>石灵</color>回应了你的祈求，但你感觉生命力降低了。"
+  },
+  {
+    "id": "Event_20610304",
+    "chinesesimplified": "<color=#e35822>石灵</color>回应了你的祈求，但你感觉生命力降低了。"
+  },
+  {
+    "id": "Event_20650104",
+    "chinesesimplified": "<color=#e35822>石灵</color>回应了你的祈求，但你感觉生命力降低了。"
+  },
+  {
+    "id": "Event_20510304",
+    "chinesesimplified": "<color=#e35822>石灵</color>回应了你的祈求，但你感觉生命力降低了。"
+  },
+  {
+    "id": "Event_20550104",
+    "chinesesimplified": "<color=#e35822>石灵</color>回应了你的祈求，但你感觉生命力降低了。"
+  },
+  {
+    "id": "Event_20950104",
+    "chinesesimplified": "<color=#e35822>石灵</color>回应了你的祈求，但你感觉生命力降低了。"
+  },
+  {
+    "id": "Event_20450104",
+    "chinesesimplified": "<color=#e35822>石灵</color>回应了你的祈求，但你感觉生命力降低了。"
+  },
+  {
+    "id": "Event_91005204",
+    "chinesesimplified": "<color=#e35822>大王花</color>感激的看着你，献上了一些<color=#e35822>魔力水晶</color>。"
+  },
+  {
+    "id": "Event_20130212",
+    "chinesesimplified": "<color=#e35822>海盗</color>鄙夷得看着你。"
+  },
+  {
+    "id": "Event_20130206",
+    "chinesesimplified": "<color=#e35822>海盗王</color>开始鼓掌，\"打得不错，挑战者！恭喜你，获得了胜者宝箱。\""
+  },
+  {
+    "id": "Event_20130209",
+    "chinesesimplified": "<color=#e35822>海盗王</color>开始鼓掌，\"打得不错，挑战者！恭喜你，获得了胜者宝箱。\""
+  },
+  {
+    "id": "Event_20130204",
+    "chinesesimplified": "<color=#e35822>海盗王</color>欣喜地说道：\"冒险者，你拥有非凡的勇气，你可以选择1位强大的勇士进行挑战。\""
+  },
+  {
+    "id": "Event_20730102",
+    "chinesesimplified": "<color=#e35822>决斗擂台</color>中一名<color=#ff604d>狼人</color>和一名<color=#275ac3>人类剑士</color>正在决斗，要不要出手帮忙。帮忙有危险！"
+  },
+  {
+    "id": "Event_20330102",
+    "chinesesimplified": "<color=#e35822>决斗擂台</color>中一名<color=#ff604d>狼人</color>和一名<color=#275ac3>人类剑士</color>正在决斗，要不要出手帮忙。帮忙有危险！"
+  },
+  {
+    "id": "Event_20230102",
+    "chinesesimplified": "<color=#e35822>决斗擂台</color>中一名<color=#ff604d>狼人</color>和一名<color=#275ac3>人类剑士</color>正在决斗，要不要出手帮忙。帮忙有危险！"
+  },
+  {
+    "id": "Event_21030102",
+    "chinesesimplified": "<color=#e35822>决斗擂台</color>中一名<color=#ff604d>狼人</color>和一名<color=#275ac3>人类剑士</color>正在决斗，要不要出手帮忙。帮忙有危险！"
+  },
+  {
+    "id": "Event_20830102",
+    "chinesesimplified": "<color=#e35822>决斗擂台</color>中一名<color=#ff604d>狼人</color>和一名<color=#275ac3>人类剑士</color>正在决斗，要不要出手帮忙。帮忙有危险！"
+  },
+  {
+    "id": "Event_20630102",
+    "chinesesimplified": "<color=#e35822>决斗擂台</color>中一名<color=#ff604d>狼人</color>和一名<color=#275ac3>人类剑士</color>正在决斗，要不要出手帮忙。帮忙有危险！"
+  },
+  {
+    "id": "Event_20530102",
+    "chinesesimplified": "<color=#e35822>决斗擂台</color>中一名<color=#ff604d>狼人</color>和一名<color=#275ac3>人类剑士</color>正在决斗，要不要出手帮忙。帮忙有危险！"
+  },
+  {
+    "id": "Event_20930102",
+    "chinesesimplified": "<color=#e35822>决斗擂台</color>中一名<color=#ff604d>狼人</color>和一名<color=#275ac3>人类剑士</color>正在决斗，要不要出手帮忙。帮忙有危险！"
+  },
+  {
+    "id": "Event_20430102",
+    "chinesesimplified": "<color=#e35822>决斗擂台</color>中一名<color=#ff604d>狼人</color>和一名<color=#275ac3>人类剑士</color>正在决斗，要不要出手帮忙。帮忙有危险！"
+  },
+  {
+    "id": "Event_20130102",
+    "chinesesimplified": "<color=#e35822>决斗擂台</color>中一只<color=#ff604d>红螃蟹</color>和一只<color=#275ac3>蓝螃蟹</color>正在决斗，要不要出手帮忙。帮忙有危险！"
+  },
+  {
+    "id": "Event_21010302",
+    "chinesesimplified": "<color=#e35822>小仙灵</color>：你需要向森林女神置换属性，获得1个<color=#275ac3>新技能</color>。"
+  },
+  {
+    "id": "Event_20910302",
+    "chinesesimplified": "<color=#e35822>小仙灵</color>：你需要向森林女神置换属性，获得1个<color=#275ac3>新技能</color>。"
+  },
+  {
+    "id": "Event_20410302",
+    "chinesesimplified": "<color=#e35822>小仙灵</color>：你需要向森林女神置换属性，获得1个<color=#275ac3>新技能</color>。"
+  },
+  {
+    "id": "Event_30920101",
+    "chinesesimplified": "<color=#e35822>海盗船长</color>再度出现，挥起长刀向你袭来——"
+  },
+  {
+    "id": "dungeon_buff_vamp_1005",
+    "chinesesimplified": "<color=#FF604D>怪物汲取生命+25%</color>"
+  },
+  {
+    "id": "battle_hud_text_21",
+    "chinesesimplified": "伤害次数"
+  },
+  {
+    "id": "Event_30730103",
+    "chinesesimplified": "半人马被你击溃，你获得了<color=#275ac3>黄金宝箱</color>。"
+  },
+  {
+    "id": "Event_30820103",
+    "chinesesimplified": "半人马被你击溃，你获得了<color=#275ac3>黄金宝箱</color>。"
+  },
+  {
+    "id": "collection_desc_351004",
+    "chinesesimplified": "编织自纯净魔力丝线的斗篷，佩戴者周身环绕着微光，能够抵御强大的魔法攻击。"
+  },
+  {
+    "id": "pet_desc_330401",
+    "chinesesimplified": "宠物大王花"
+  },
+  {
+    "id": "Skill_Name_520011",
+    "chinesesimplified": "深渊凝视"
+  },
+  {
+    "id": "Skill_Name_520012",
+    "chinesesimplified": "深渊凝视"
+  },
+  {
+    "id": "single_slot_2",
+    "chinesesimplified": "魔王之力"
+  },
+  {
+    "id": "artifact_name_393001",
+    "chinesesimplified": "魔王之眼"
+  },
+  {
+    "id": "Skill_Name_100206",
+    "chinesesimplified": "魔王之子"
+  },
+  {
+    "id": "Skill_InfoDetail_100112",
+    "chinesesimplified": "反击率<color=#2e9616>↑↑</color>，反击时<color=#0c57e2>汲取生命率</color><color=#2e9616>↑</color>，可叠加，持续到战斗结束。"
+  },
+  {
+    "id": "Skill_fullDetail_100112",
+    "chinesesimplified": "反击率<color=#2e9616>↑↑</color>，反击时<color=#0c57e2>汲取生命率</color><color=#2e9616>↑</color>，可叠加，持续到战斗结束。"
+  },
+  {
+    "id": "Skill_InfoDetail_110112",
+    "chinesesimplified": "反击率<color=#2e9616>↑↑</color>，反击时<color=#0c57e2>汲取生命率</color><color=#2e9616>↑↑</color>，可叠加，持续到战斗结束。"
+  },
+  {
+    "id": "Skill_fullDetail_110112",
+    "chinesesimplified": "反击率<color=#2e9616>↑↑</color>，反击时<color=#0c57e2>汲取生命率</color><color=#2e9616>↑↑</color>，可叠加，持续到战斗结束。"
+  },
+  {
+    "id": "Skill_Name_100202",
+    "chinesesimplified": "复苏"
+  },
+  {
+    "id": "common_revive",
+    "chinesesimplified": "复苏"
+  },
+  {
+    "id": "equip_name_2202",
+    "chinesesimplified": "复苏斗篷"
+  },
+  {
+    "id": "equip_skill_desc_220205",
+    "chinesesimplified": "复苏后攻击,防御+25%，持续3回合"
+  },
+  {
+    "id": "Event_20320801",
+    "chinesesimplified": "高原深处，你发现了一座巨大的<color=#e35822>邪恶巫师雕像</color>。"
+  },
+  {
+    "id": "Event_21020801",
+    "chinesesimplified": "高原深处，你发现了一座巨大的<color=#e35822>邪恶巫师雕像</color>。"
+  },
+  {
+    "id": "Event_20820801",
+    "chinesesimplified": "高原深处，你发现了一座巨大的<color=#e35822>邪恶巫师雕像</color>。"
+  },
+  {
+    "id": "Event_20620801",
+    "chinesesimplified": "高原深处，你发现了一座巨大的<color=#e35822>邪恶巫师雕像</color>。"
+  },
+  {
+    "id": "Event_20520801",
+    "chinesesimplified": "高原深处，你发现了一座巨大的<color=#e35822>邪恶巫师雕像</color>。"
+  },
+  {
+    "id": "Event_20920801",
+    "chinesesimplified": "高原深处，你发现了一座巨大的<color=#e35822>邪恶巫师雕像</color>。"
+  },
+  {
+    "id": "Event_20420801",
+    "chinesesimplified": "高原深处，你发现了一座巨大的<color=#e35822>邪恶巫师雕像</color>。"
+  },
+  {
+    "id": "Skill_InfoDetail_100008",
+    "chinesesimplified": "攻击有概率<color=#0c57e2>汲取生命</color>。"
+  },
+  {
+    "id": "Skill_InfoDetail_110008",
+    "chinesesimplified": "攻击有概率<color=#0c57e2>汲取生命</color>。"
+  },
+  {
+    "id": "Skill_fullDetail_100008",
+    "chinesesimplified": "攻击有概率<color=#0c57e2>汲取生命</color>。"
+  },
+  {
+    "id": "Skill_fullDetail_110008",
+    "chinesesimplified": "攻击有概率<color=#0c57e2>汲取生命</color>。"
+  },
+  {
+    "id": "collection_desc_356001",
+    "chinesesimplified": "古代精灵工艺的巅峰之作，神灯内部居住着小精灵。握持者可以请求小精灵实现愿望，但每次使用后都要向小精灵奉献自己的记忆。"
+  },
+  {
+    "id": "monster_entry_des_13",
+    "chinesesimplified": "怪物被打败后不会直接消失，而是变为更小的怪物。"
+  },
+  {
+    "id": "monster_entry_des_24",
+    "chinesesimplified": "怪物汲取生命概率、汲取生命效果增加"
+  },
+  {
+    "id": "Event_30111101",
+    "chinesesimplified": "诡异的<color=#e35822>怪物</color>向你逼近，他们拿着<color=#e35822>武器</color>显然不是为了和你嘘寒问暖。"
+  },
+  {
+    "id": "Event_30211101",
+    "chinesesimplified": "诡异的<color=#e35822>骨头</color>向你逼近，他们拿着<color=#e35822>武器</color>显然不是为了和你嘘寒问暖。"
+  },
+  {
+    "id": "turntable_name_19",
+    "chinesesimplified": "回满生命"
+  },
+  {
+    "id": "turntable_name_33",
+    "chinesesimplified": "回满生命"
+  },
+  {
+    "id": "equip_skill_desc_110105",
+    "chinesesimplified": "击败目标后恢复5%生命"
+  },
+  {
+    "id": "Event_20710303",
+    "chinesesimplified": "祈求"
+  },
+  {
+    "id": "Event_20750103",
+    "chinesesimplified": "祈求"
+  },
+  {
+    "id": "Event_20310303",
+    "chinesesimplified": "祈求"
+  },
+  {
+    "id": "Event_20350103",
+    "chinesesimplified": "祈求"
+  },
+  {
+    "id": "Event_20210303",
+    "chinesesimplified": "祈求"
+  },
+  {
+    "id": "Event_20250103",
+    "chinesesimplified": "祈求"
+  },
+  {
+    "id": "Event_21050103",
+    "chinesesimplified": "祈求"
+  },
+  {
+    "id": "Event_20810303",
+    "chinesesimplified": "祈求"
+  },
+  {
+    "id": "Event_20850103",
+    "chinesesimplified": "祈求"
+  },
+  {
+    "id": "Event_20110303",
+    "chinesesimplified": "祈求"
+  },
+  {
+    "id": "Event_20150103",
+    "chinesesimplified": "祈求"
+  },
+  {
+    "id": "Event_20610303",
+    "chinesesimplified": "祈求"
+  },
+  {
+    "id": "Event_20650103",
+    "chinesesimplified": "祈求"
+  },
+  {
+    "id": "Event_20510303",
+    "chinesesimplified": "祈求"
+  },
+  {
+    "id": "Event_20550103",
+    "chinesesimplified": "祈求"
+  },
+  {
+    "id": "Event_20950103",
+    "chinesesimplified": "祈求"
+  },
+  {
+    "id": "Event_20450103",
+    "chinesesimplified": "祈求"
+  },
+  {
+    "id": "Event_91005202",
+    "chinesesimplified": "竟是一只<color=#e35822>大王花</color>被困在笼子中。"
+  },
+  {
+    "id": "collection_name_356005",
+    "chinesesimplified": "巨人克星"
+  },
+  {
+    "id": "collection_fragment_name_366005",
+    "chinesesimplified": "巨人克星碎片"
+  },
+  {
+    "id": "Event_30130103",
+    "chinesesimplified": "巨鲨被海浪冲走，你获得了<color=#275ac3>黄金宝箱</color>。"
+  },
+  {
+    "id": "Event_20710102",
+    "chinesesimplified": "邪恶巫师旁似乎还有一些<color=#e35822>物资</color>，你不知道发生了什么。"
+  },
+  {
+    "id": "Event_20310102",
+    "chinesesimplified": "邪恶巫师旁似乎还有一些<color=#e35822>物资</color>，你不知道发生了什么。"
+  },
+  {
+    "id": "Event_20210102",
+    "chinesesimplified": "邪恶巫师旁似乎还有一些<color=#e35822>物资</color>，你不知道发生了什么。"
+  },
+  {
+    "id": "Event_21010102",
+    "chinesesimplified": "邪恶巫师旁似乎还有一些<color=#e35822>物资</color>，你不知道发生了什么。"
+  },
+  {
+    "id": "Event_20810102",
+    "chinesesimplified": "邪恶巫师旁似乎还有一些<color=#e35822>物资</color>，你不知道发生了什么。"
+  },
+  {
+    "id": "Event_20610102",
+    "chinesesimplified": "邪恶巫师旁似乎还有一些<color=#e35822>物资</color>，你不知道发生了什么。"
+  },
+  {
+    "id": "Event_20510102",
+    "chinesesimplified": "邪恶巫师旁似乎还有一些<color=#e35822>物资</color>，你不知道发生了什么。"
+  },
+  {
+    "id": "Event_20910102",
+    "chinesesimplified": "邪恶巫师旁似乎还有一些<color=#e35822>物资</color>，你不知道发生了什么。"
+  },
+  {
+    "id": "Event_20410102",
+    "chinesesimplified": "邪恶巫师旁似乎还有一些<color=#e35822>物资</color>，你不知道发生了什么。"
+  },
+  {
+    "id": "chapter_activity_name_6",
+    "chinesesimplified": "魔巫师捣蛋夜"
+  },
+  {
+    "id": "chapter_activity_score_6",
+    "chinesesimplified": "蘑菇头"
+  },
+  {
+    "id": "Skill_fullDetail_520011",
+    "chinesesimplified": "连击、反击时有概率发射魔王之眼，造成目标最大生命<color=#2e9616>1.5%</color>的伤害，并有50%概率使目标<color=#0c57e2>生命恢复效果</color><color=#2e9616>-90%</color>，持续1回合。"
+  },
+  {
+    "id": "Skill_fullDetail_520012",
+    "chinesesimplified": "连击、反击时有概率发射魔王之眼，造成目标最大生命<color=#2e9616>2.5%</color>的伤害，并有75%概率使目标<color=#0c57e2>生命恢复效果</color><color=#2e9616>-90%</color>，持续1回合。"
+  },
+  {
+    "id": "Skill_InfoDetail_110505",
+    "chinesesimplified": "每2回合触发1次冰刺，冰刺有概率<color=#0c57e2>击败弱小的敌人</color>。"
+  },
+  {
+    "id": "Skill_fullDetail_110505",
+    "chinesesimplified": "每2回合触发1次冰刺，冰刺有概率<color=#0c57e2>击败弱小的敌人</color>。"
+  },
+  {
+    "id": "Skill_InfoDetail_100505",
+    "chinesesimplified": "每2回合触发1次冰刺，所有冰刺有小概率<color=#0c57e2>击败弱小的敌人</color>。"
+  },
+  {
+    "id": "Skill_fullDetail_100505",
+    "chinesesimplified": "每2回合触发1次冰刺，所有冰刺有小概率<color=#0c57e2>击败弱小的敌人</color>。"
+  },
+  {
+    "id": "400237",
+    "chinesesimplified": "击败每个首领后，您都可以获得击败宝箱奖励"
+  },
+  {
+    "id": "ui_collection_passive_condition_20",
+    "chinesesimplified": "每获得魔物技能{0}次"
+  },
+  {
+    "id": "guild_boss_6",
+    "chinesesimplified": "妖族"
+  },
+  {
+    "id": "text_seckill",
+    "chinesesimplified": "速擒"
+  },
+  {
+    "id": "Skill_Name_520071",
+    "chinesesimplified": "斩仙飞刀"
+  },
+  {
+    "id": "Skill_Name_520072",
+    "chinesesimplified": "斩仙飞刀"
+  },
+  {
+    "id": "artifact_name_393007",
+    "chinesesimplified": "斩仙飞刀"
+  },
+  {
+    "id": "Member_Name_10101",
+    "chinesesimplified": "蝠鲼鱼"
+  },
+  {
+    "id": "turntable_result_11",
+    "chinesesimplified": "你不慎惊动了废墟中的黑夜精灵，慌忙离开，但还是遭到了<color=#e35822>黑夜精灵的惩罚</color>。"
+  },
+  {
+    "id": "Event_10420301",
+    "chinesesimplified": "你闯入了一个<color=#0c57e2>石头小镇</color>，面对怪物的侵扰，你勇敢地保卫了小镇居民的安全。"
+  },
+  {
+    "id": "Event_10500401",
+    "chinesesimplified": "你从沙滩里挖出了一颗据说能召唤海盗船的<color=#e35822>魔法海螺</color>。这不是什么吉利东西，你把它扔了。"
+  },
+  {
+    "id": "Event_10310301",
+    "chinesesimplified": "你对着一个被遗忘的旅者拜了拜，竟然意外得到了它的祝福。"
+  },
+  {
+    "id": "Event_91001101",
+    "chinesesimplified": "你发现了一个<color=#e35822>人类营地</color>。"
+  },
+  {
+    "id": "Event_91001201",
+    "chinesesimplified": "你发现了一个<color=#e35822>人类营地</color>。"
+  },
+  {
+    "id": "Event_91001301",
+    "chinesesimplified": "你发现了一个<color=#e35822>人类营地</color>。"
+  },
+  {
+    "id": "Event_20710101",
+    "chinesesimplified": "你发现了一名<color=#e35822>被遗忘的旅者</color>。"
+  },
+  {
+    "id": "Event_20310101",
+    "chinesesimplified": "你发现了一名<color=#e35822>冒险者</color>遗留的物资。"
+  },
+  {
+    "id": "Event_20210101",
+    "chinesesimplified": "你发现了一名<color=#e35822>冒险者</color>遗留的物资。"
+  },
+  {
+    "id": "Event_21010101",
+    "chinesesimplified": "你发现了一名<color=#e35822>冒险者</color>遗留的物资。"
+  },
+  {
+    "id": "Event_20810101",
+    "chinesesimplified": "你发现了一名<color=#e35822>冒险者</color>遗留的物资。"
+  },
+  {
+    "id": "Event_20610101",
+    "chinesesimplified": "你发现了一名<color=#e35822>冒险者</color>遗留的物资。"
+  },
+  {
+    "id": "Event_20510101",
+    "chinesesimplified": "你发现了一名<color=#e35822>冒险者</color>遗留的物资。"
+  },
+  {
+    "id": "Event_20910101",
+    "chinesesimplified": "你发现了一名<color=#e35822>冒险者</color>遗留的物资。"
+  },
+  {
+    "id": "Event_20410101",
+    "chinesesimplified": "你发现了一名<color=#e35822>冒险者</color>遗留的物资。"
+  },
+  {
+    "id": "Event_20750401",
+    "chinesesimplified": "你发现一个<color=#e35822>咕噜怪</color>。"
+  },
+  {
+    "id": "Event_20350401",
+    "chinesesimplified": "你发现一个<color=#e35822>咕噜怪</color>。"
+  },
+  {
+    "id": "Event_20250401",
+    "chinesesimplified": "你发现一个<color=#e35822>咕噜怪</color>。"
+  },
+  {
+    "id": "Event_21050401",
+    "chinesesimplified": "你发现一个<color=#e35822>咕噜怪</color>。"
+  },
+  {
+    "id": "Event_20850401",
+    "chinesesimplified": "你发现一个<color=#e35822>咕噜怪</color>。"
+  },
+  {
+    "id": "Event_20150401",
+    "chinesesimplified": "你发现一个<color=#e35822>咕噜怪</color>。"
+  },
+  {
+    "id": "Event_20650401",
+    "chinesesimplified": "你发现一个<color=#e35822>咕噜怪</color>。"
+  },
+  {
+    "id": "Event_20550401",
+    "chinesesimplified": "你发现一个<color=#e35822>咕噜怪</color>。"
+  },
+  {
+    "id": "Event_20950401",
+    "chinesesimplified": "你发现一个<color=#e35822>咕噜怪</color>。"
+  },
+  {
+    "id": "Event_20450401",
+    "chinesesimplified": "你发现一个<color=#e35822>咕噜怪</color>。"
+  },
+  {
+    "id": "Event_20730201",
+    "chinesesimplified": "你发现一个<color=#e35822>咕噜竞技场</color>。"
+  },
+  {
+    "id": "Event_20330201",
+    "chinesesimplified": "你发现一个<color=#e35822>咕噜竞技场</color>。"
+  },
+  {
+    "id": "Event_20230201",
+    "chinesesimplified": "你发现一个<color=#e35822>咕噜竞技场</color>。"
+  },
+  {
+    "id": "Event_21030201",
+    "chinesesimplified": "你发现一个<color=#e35822>咕噜竞技场</color>。"
+  },
+  {
+    "id": "Event_20830201",
+    "chinesesimplified": "你发现一个<color=#e35822>咕噜竞技场</color>。"
+  },
+  {
+    "id": "Event_20630201",
+    "chinesesimplified": "你发现一个<color=#e35822>咕噜竞技场</color>。"
+  },
+  {
+    "id": "Event_20530201",
+    "chinesesimplified": "你发现一个<color=#e35822>咕噜竞技场</color>。"
+  },
+  {
+    "id": "Event_20930201",
+    "chinesesimplified": "你发现一个<color=#e35822>咕噜竞技场</color>。"
+  },
+  {
+    "id": "Event_20430201",
+    "chinesesimplified": "你发现一个<color=#e35822>咕噜竞技场</color>。"
+  },
+  {
+    "id": "Event_20730101",
+    "chinesesimplified": "你发现一个<color=#e35822>决斗擂台</color>。"
+  },
+  {
+    "id": "Event_20330101",
+    "chinesesimplified": "你发现一个<color=#e35822>决斗擂台</color>。"
+  },
+  {
+    "id": "Event_20230101",
+    "chinesesimplified": "你发现一个<color=#e35822>决斗擂台</color>。"
+  },
+  {
+    "id": "Event_21030101",
+    "chinesesimplified": "你发现一个<color=#e35822>决斗擂台</color>。"
+  },
+  {
+    "id": "Event_20830101",
+    "chinesesimplified": "你发现一个<color=#e35822>决斗擂台</color>。"
+  },
+  {
+    "id": "Event_20130101",
+    "chinesesimplified": "你发现一个<color=#e35822>决斗擂台</color>。"
+  },
+  {
+    "id": "Event_20630101",
+    "chinesesimplified": "你发现一个<color=#e35822>决斗擂台</color>。"
+  },
+  {
+    "id": "Event_20530101",
+    "chinesesimplified": "你发现一个<color=#e35822>决斗擂台</color>。"
+  },
+  {
+    "id": "Event_20930101",
+    "chinesesimplified": "你发现一个<color=#e35822>决斗擂台</color>。"
+  },
+  {
+    "id": "Event_20430101",
+    "chinesesimplified": "你发现一个<color=#e35822>决斗擂台</color>。"
+  },
+  {
+    "id": "Event_30110501",
+    "chinesesimplified": "你发现一种正在<color=#e35822>狼吞虎咽</color>的史莱姆，看来它们并不像外表那样温和。"
+  },
+  {
+    "id": "Event_30210501",
+    "chinesesimplified": "你发现一种正在<color=#e35822>狼吞虎咽</color>的史莱姆，看来它们并不像外表那样温和。"
+  },
+  {
+    "id": "Event_39000103",
+    "chinesesimplified": "你击败了怪物，发现了<color=#275ac3>宝箱</color>。"
+  },
+  {
+    "id": "Event_39000203",
+    "chinesesimplified": "你击败了怪物，发现了<color=#275ac3>宝箱</color>。"
+  },
+  {
+    "id": "GameEventSurprise_105",
+    "chinesesimplified": "你拒绝了与咕噜怪签订契约。"
+  },
+  {
+    "id": "Event_180101",
+    "chinesesimplified": "你来到了<color=#275ac3>黄昏古堡</color>，这里传说是的魔王的老巢。"
+  },
+  {
+    "id": "Event_180201",
+    "chinesesimplified": "你来到了<color=#275ac3>黄昏古堡</color>，这里传说是魔王的老巢。"
+  },
+  {
+    "id": "Event_20720806",
+    "chinesesimplified": "你驱赶了<color=#275ac3>迅捷鼠</color>，获得了<color=#e35822>邪恶巫师的宝藏</color>。"
+  },
+  {
+    "id": "Event_20320806",
+    "chinesesimplified": "你驱赶了<color=#275ac3>迅捷鼠</color>，获得了<color=#e35822>邪恶巫师的宝藏</color>。"
+  },
+  {
+    "id": "Event_20220806",
+    "chinesesimplified": "你驱赶了<color=#275ac3>迅捷鼠</color>，获得了<color=#e35822>邪恶巫师的宝藏</color>。"
+  },
+  {
+    "id": "Event_21020806",
+    "chinesesimplified": "你驱赶了<color=#275ac3>迅捷鼠</color>，获得了<color=#e35822>邪恶巫师的宝藏</color>。"
+  },
+  {
+    "id": "Event_20820806",
+    "chinesesimplified": "你驱赶了<color=#275ac3>迅捷鼠</color>，获得了<color=#e35822>邪恶巫师的宝藏</color>。"
+  },
+  {
+    "id": "Event_20620806",
+    "chinesesimplified": "你驱赶了<color=#275ac3>迅捷鼠</color>，获得了<color=#e35822>邪恶巫师的宝藏</color>。"
+  },
+  {
+    "id": "Event_20520806",
+    "chinesesimplified": "你驱赶了<color=#275ac3>迅捷鼠</color>，获得了<color=#e35822>邪恶巫师的宝藏</color>。"
+  },
+  {
+    "id": "Event_20920806",
+    "chinesesimplified": "你驱赶了<color=#275ac3>迅捷鼠</color>，获得了<color=#e35822>邪恶巫师的宝藏</color>。"
+  },
+  {
+    "id": "Event_20420806",
+    "chinesesimplified": "你驱赶了<color=#275ac3>迅捷鼠</color>，获得了<color=#e35822>邪恶巫师的宝藏</color>。"
+  },
+  {
+    "id": "Event_15200801",
+    "chinesesimplified": "你看到一个传说中的<color=#e35822>傀儡巨人雕塑</color>，那是<color=#0c57e2>古代矮人</color>的杰作。"
+  },
+  {
+    "id": "Event_15100801",
+    "chinesesimplified": "你似乎看到一艘传说中的海盗船<color=#e35822>济慈号</color>，那是海伯利安的传奇战舰。"
+  },
+  {
+    "id": "Event_30120101",
+    "chinesesimplified": "你踏入了<color=#e35822>蛇发女妖</color>的禁地，她盯上了你，眼中凶机隐现。"
+  },
+  {
+    "id": "Event_91001104",
+    "chinesesimplified": "你突袭了营地，趁乱掠夺了一些<color=#e35822>号角</color>后成功逃离。"
+  },
+  {
+    "id": "Event_91001204",
+    "chinesesimplified": "你突袭了营地，趁乱掠夺了一些<color=#e35822>号角</color>后成功逃离。"
+  },
+  {
+    "id": "Event_91001304",
+    "chinesesimplified": "你突袭了营地，趁乱掠夺了一些<color=#e35822>号角</color>后成功逃离。"
+  },
+  {
+    "id": "Event_20720804",
+    "chinesesimplified": "你无视警告，靠近后发现原来是一群<color=#275ac3>狡猾的迅捷鼠</color>，正在守护<color=#e35822>邪恶巫师</color>，它们眼巴巴地看着你，似乎在祈求你离开。"
+  },
+  {
+    "id": "Event_20320804",
+    "chinesesimplified": "你无视警告，靠近后发现原来是一群<color=#275ac3>狡猾的迅捷鼠</color>，正在守护<color=#e35822>邪恶巫师</color>，它们眼巴巴地看着你，似乎在祈求你离开。"
+  },
+  {
+    "id": "Event_20220804",
+    "chinesesimplified": "你无视警告，靠近后发现原来是一群<color=#275ac3>狡猾的迅捷鼠</color>，正在守护<color=#e35822>邪恶巫师</color>，它们眼巴巴地看着你，似乎在祈求你离开。"
+  },
+  {
+    "id": "Event_21020804",
+    "chinesesimplified": "你无视警告，靠近后发现原来是一群<color=#275ac3>狡猾的迅捷鼠</color>，正在守护<color=#e35822>邪恶巫师</color>，它们眼巴巴地看着你，似乎在祈求你离开。"
+  },
+  {
+    "id": "Event_20820804",
+    "chinesesimplified": "你无视警告，靠近后发现原来是一群<color=#275ac3>狡猾的迅捷鼠</color>，正在守护<color=#e35822>邪恶巫师</color>，它们眼巴巴地看着你，似乎在祈求你离开。"
+  },
+  {
+    "id": "Event_20620804",
+    "chinesesimplified": "你无视警告，靠近后发现原来是一群<color=#275ac3>狡猾的迅捷鼠</color>，正在守护<color=#e35822>邪恶巫师</color>，它们眼巴巴地看着你，似乎在祈求你离开。"
+  },
+  {
+    "id": "Event_20520804",
+    "chinesesimplified": "你无视警告，靠近后发现原来是一群<color=#275ac3>狡猾的迅捷鼠</color>，正在守护<color=#e35822>邪恶巫师</color>，它们眼巴巴地看着你，似乎在祈求你离开。"
+  },
+  {
+    "id": "Event_20920804",
+    "chinesesimplified": "你无视警告，靠近后发现原来是一群<color=#275ac3>狡猾的迅捷鼠</color>，正在守护<color=#e35822>邪恶巫师</color>，它们眼巴巴地看着你，似乎在祈求你离开。"
+  },
+  {
+    "id": "Event_20420804",
+    "chinesesimplified": "你无视警告，靠近后发现原来是一群<color=#275ac3>狡猾的迅捷鼠</color>，正在守护<color=#e35822>邪恶巫师</color>，它们眼巴巴地看着你，似乎在祈求你离开。"
+  },
+  {
+    "id": "Event_10500501",
+    "chinesesimplified": "你无意中吹响了海螺，引来了传说中的<color=#e35822>海盗船</color>，你急忙丢弃了它。"
+  },
+  {
+    "id": "Event_15200601",
+    "chinesesimplified": "你陷入了<color=#0c57e2>一群黑魔法师</color>的包围圈中，挣扎着从其中逃脱，浑身疲惫。"
+  },
+  {
+    "id": "Event_15100601",
+    "chinesesimplified": "你陷入了<color=#0c57e2>荆棘鱼群</color>的包围圈中，挣扎着从其中逃脱，浑身疲惫。"
+  },
+  {
+    "id": "GameEventSurprise_104",
+    "chinesesimplified": "你与咕噜怪签订了契约，获得了<color=#2e9616>{0}</color>。"
+  },
+  {
+    "id": "UIGameEventDemon_92",
+    "chinesesimplified": "你遇见了咕噜怪！"
+  },
+  {
+    "id": "Event_15201001",
+    "chinesesimplified": "你发现了一具<color=#e35822>古代野兽</color>的骨头，岁月在骨头上留下了痕迹。"
+  },
+  {
+    "id": "Event_15101001",
+    "chinesesimplified": "你发现了一具<color=#e35822>远古海怪</color>的骨头，岁月与海浪在骨头上留下了痕迹。"
+  },
+  {
+    "id": "Event_10200101",
+    "chinesesimplified": "你发现了一具<color=#e35822>远古雪妖</color>的骨头，岁月与冰雪在骨头上留下了痕迹。"
+  },
+  {
+    "id": "turntable_result_8",
+    "chinesesimplified": "你在废墟中发现了<color=#e35822>冒险者</color>遗留的物资。"
+  },
+  {
+    "id": "turntable_result_10",
+    "chinesesimplified": "你在废墟中发现了<color=#e35822>冒险者</color>遗留的物资。"
+  },
+  {
+    "id": "turntable_result_12",
+    "chinesesimplified": "你在废墟中发现了<color=#e35822>冒险者</color>遗留的物资。"
+  },
+  {
+    "id": "turntable_result_14",
+    "chinesesimplified": "你在废墟中发现了<color=#e35822>冒险者</color>遗留的物资。"
+  },
+  {
+    "id": "turntable_result_15",
+    "chinesesimplified": "你在废墟中发现了<color=#e35822>冒险者</color>遗留的物资。"
+  },
+  {
+    "id": "turntable_result_16",
+    "chinesesimplified": "你在废墟中发现了<color=#e35822>冒险者</color>遗留的物资。"
+  },
+  {
+    "id": "turntable_result_18",
+    "chinesesimplified": "你在废墟中发现了<color=#e35822>冒险者</color>遗留的物资。"
+  },
+  {
+    "id": "Event_15220801",
+    "chinesesimplified": "你在一座山上，发现一颗巨大的<color=#0c57e2>魔力果实</color>，你感觉更强大了。"
+  },
+  {
+    "id": "Event_15120801",
+    "chinesesimplified": "你在一个无名岛屿上，发现一颗巨大的<color=#0c57e2>魔力果实</color>，你感觉更强大了。"
+  },
+  {
+    "id": "uigiftrecharge_des_2",
+    "chinesesimplified": "强力汲取枪"
+  },
+  {
+    "id": "400256",
+    "chinesesimplified": "全部击败奖励已领取完成"
+  },
+  {
+    "id": "Event_20720801",
+    "chinesesimplified": "沙漠深处，你发现了一个长相唬人的<color=#e35822>稻草人</color>。"
+  },
+  {
+    "id": "Event_30320201",
+    "chinesesimplified": "蛇发女妖似乎恨上了你，即使天涯海角也要对你展开<color=#e35822>追击</color>。"
+  },
+  {
+    "id": "artifact_desc_393001",
+    "chinesesimplified": "神器魔王之眼"
+  },
+  {
+    "id": "artifact_desc_393007",
+    "chinesesimplified": "神器斩仙飞刀"
+  },
+  {
+    "id": "Skill_InfoDetail_100214",
+    "chinesesimplified": "生命<color=#2e9616><30%</color>时，伤害<color=#2e9616>↑↑↑↑</color>，受到伤害<color=#e92622>↑↑↑</color>，击败敌人恢复生命。"
+  },
+  {
+    "id": "Skill_fullDetail_100214",
+    "chinesesimplified": "生命<color=#2e9616><30%</color>时，伤害<color=#2e9616>↑↑↑↑</color>，受到伤害<color=#e92622>↑↑↑↑</color>，击败敌人恢复生命。"
+  },
+  {
+    "id": "Skill_InfoDetail_100206",
+    "chinesesimplified": "生命首次<color=#2e9616><50%</color>，获得<color=#0c57e2>魔王之子</color>的庇护，持续到战斗结束。"
+  },
+  {
+    "id": "Skill_fullDetail_100206",
+    "chinesesimplified": "生命首次<color=#2e9616><50%</color>，获得<color=#0c57e2>魔王之子</color>的庇护，持续到战斗结束。"
+  },
+  {
+    "id": "pet_name_330401",
+    "chinesesimplified": "大王花"
+  },
+  {
+    "id": "avatar_item_15",
+    "chinesesimplified": "大王花头像"
+  },
+  {
+    "id": "Member_Name_10118",
+    "chinesesimplified": "荆棘鱼"
+  },
+  {
+    "id": "Event_91001202",
+    "chinesesimplified": "似乎有<color=#e35822>人类骑士</color>正在守卫营地。"
+  },
+  {
+    "id": "Event_91001102",
+    "chinesesimplified": "似乎有<color=#e35822>人类士兵</color>正在守卫营地。"
+  },
+  {
+    "id": "Event_91001302",
+    "chinesesimplified": "似乎有<color=#e35822>人类王子</color>正在守卫营地。"
+  },
+  {
+    "id": "UIGameEventDemon_93",
+    "chinesesimplified": "是否与咕噜怪签订契约，<color=#D3F24E>获得技能</color>？"
+  },
+  {
+    "id": "monster_entry_name_24",
+    "chinesesimplified": "汲取生命"
+  },
+  {
+    "id": "equip_skill_desc_220202",
+    "chinesesimplified": "战败后以20%生命再次复苏，只能生效1次"
+  },
+  {
+    "id": "Skill_Name_321091",
+    "chinesesimplified": "断绝权杖"
+  },
+  {
+    "id": "Skill_Name_321092",
+    "chinesesimplified": "断绝权杖"
+  },
+  {
+    "id": "Skill_Name_321093",
+    "chinesesimplified": "断绝权杖"
+  },
+  {
+    "id": "Skill_Name_321094",
+    "chinesesimplified": "断绝权杖"
+  },
+  {
+    "id": "Skill_Name_321095",
+    "chinesesimplified": "断绝权杖"
+  },
+  {
+    "id": "Skill_Name_321096",
+    "chinesesimplified": "断绝权杖"
+  },
+  {
+    "id": "equip_name_2109",
+    "chinesesimplified": "断绝权杖"
+  },
+  {
+    "id": "Skill_InfoDetail_100202",
+    "chinesesimplified": "在战斗中倒下时会触发<color=#0c57e2>复苏</color>，每局只生效<color=#2e9616>1</color>次。"
+  },
+  {
+    "id": "Skill_fullDetail_100202",
+    "chinesesimplified": "在战斗中倒下时会触发<color=#0c57e2>复苏</color>，每局只生效<color=#2e9616>1</color>次。"
+  },
+  {
+    "id": "Event_20330208",
+    "chinesesimplified": "挑战德古拉"
+  },
+  {
+    "id": "world_boss_3",
+    "chinesesimplified": "无畏骑士"
+  },
+  {
+    "id": "Skill_Name_100008",
+    "chinesesimplified": "汲取生命"
+  },
+  {
+    "id": "Skill_Name_110008",
+    "chinesesimplified": "汲取生命+"
+  },
+  {
+    "id": "16022",
+    "chinesesimplified": "汲取生命概率"
+  },
+  {
+    "id": "Skill_Name_190003",
+    "chinesesimplified": "德古拉！"
+  },
+  {
+    "id": "Event_30820203",
+    "chinesesimplified": "击败德古拉，你获得了<color=#275ac3>黄金宝箱</color>。"
+  },
+  {
+    "id": "Event_30630103",
+    "chinesesimplified": "打败了德古拉！你获得了<color=#275ac3>黄金宝箱</color>。"
+  },
+  {
+    "id": "Event_30630101",
+    "chinesesimplified": "德古拉对你的<color=#e35822>财宝</color>颇有兴致，露出獠牙向你袭来。"
+  },
+  {
+    "id": "Skill_InfoDetail_190003",
+    "chinesesimplified": "<color=#2e9616>吸血率、吸血效果</color><color=#2e9616>↑↑↑↑↑</color>。\\n电系、火系、冰系、毒伤害<color=#e92622>↓↓↓↓</color>。"
+  },
+  {
+    "id": "Skill_fullDetail_190003",
+    "chinesesimplified": "<color=#2e9616>吸血率、吸血效果</color><color=#2e9616>↑↑↑↑↑</color>。\\n电系、火系、冰系、毒伤害<color=#e92622>↓↓↓↓</color>。"
+  },
+  {
+    "id": "equip_skill_desc_210305",
+    "chinesesimplified": "汲取生命率+15%"
+  },
+  {
+    "id": "16023",
+    "chinesesimplified": "汲取生命效果"
+  },
+  {
+    "id": "equip_skill_desc_210306",
+    "chinesesimplified": "汲取生命效果+30%"
+  },
+  {
+    "id": "Event_91001103",
+    "chinesesimplified": "袭击营地"
+  },
+  {
+    "id": "Event_91001203",
+    "chinesesimplified": "袭击营地"
+  },
+  {
+    "id": "Event_91001303",
+    "chinesesimplified": "袭击营地"
+  },
+  {
+    "id": "Event_20730103",
+    "chinesesimplified": "出手帮忙！"
+  },
+  {
+    "id": "Event_20330103",
+    "chinesesimplified": "出手帮忙！"
+  },
+  {
+    "id": "Event_20230103",
+    "chinesesimplified": "出手帮忙！"
+  },
+  {
+    "id": "Event_21030103",
+    "chinesesimplified": "出手帮忙！"
+  },
+  {
+    "id": "Event_20830103",
+    "chinesesimplified": "出手帮忙！"
+  },
+  {
+    "id": "Event_20130103",
+    "chinesesimplified": "出手帮忙！"
+  },
+  {
+    "id": "Event_20630103",
+    "chinesesimplified": "出手帮忙！"
+  },
+  {
+    "id": "Event_20530103",
+    "chinesesimplified": "出手帮忙！"
+  },
+  {
+    "id": "Event_20930103",
+    "chinesesimplified": "出手帮忙！"
+  },
+  {
+    "id": "Event_20430103",
+    "chinesesimplified": "出手帮忙！"
+  },
+  {
+    "id": "Event_20130104",
+    "chinesesimplified": "帮<color=#ff604d>红螃蟹</color>，<color=#e35822>70%</color>概率得到15%攻击。\\n助威<color=#275ac3>蓝螃蟹</color>，<color=#e35822>30%</color>概率得到1个技能。"
+  },
+  {
+    "id": "Event_20730104",
+    "chinesesimplified": "帮<color=#ff604d>狼人</color>，<color=#e35822>70%</color>概率得到15%攻击。\\n帮<color=#275ac3>人类剑士</color>，<color=#e35822>30%</color>概率得到1个技能。"
+  },
+  {
+    "id": "Event_20330104",
+    "chinesesimplified": "帮<color=#ff604d>狼人</color>，<color=#e35822>70%</color>概率得到15%攻击。\\n帮<color=#275ac3>人类剑士</color>，<color=#e35822>30%</color>概率得到1个技能。"
+  },
+  {
+    "id": "Event_20230104",
+    "chinesesimplified": "帮<color=#ff604d>狼人</color>，<color=#e35822>70%</color>概率得到15%攻击。\\n帮<color=#275ac3>人类剑士</color>，<color=#e35822>30%</color>概率得到1个技能。"
+  },
+  {
+    "id": "Event_21030104",
+    "chinesesimplified": "帮<color=#ff604d>狼人</color>，<color=#e35822>70%</color>概率得到15%攻击。\\n帮<color=#275ac3>人类剑士</color>，<color=#e35822>30%</color>概率得到1个技能。"
+  },
+  {
+    "id": "Event_20830104",
+    "chinesesimplified": "帮<color=#ff604d>狼人</color>，<color=#e35822>70%</color>概率得到15%攻击。\\n帮<color=#275ac3>人类剑士</color>，<color=#e35822>30%</color>概率得到1个技能。"
+  },
+  {
+    "id": "Event_20630104",
+    "chinesesimplified": "帮<color=#ff604d>狼人</color>，<color=#e35822>70%</color>概率得到15%攻击。\\n帮<color=#275ac3>人类剑士</color>，<color=#e35822>30%</color>概率得到1个技能。"
+  },
+  {
+    "id": "Event_20530104",
+    "chinesesimplified": "帮<color=#ff604d>狼人</color>，<color=#e35822>70%</color>概率得到15%攻击。\\n帮<color=#275ac3>人类剑士</color>，<color=#e35822>30%</color>概率得到1个技能。"
+  },
+  {
+    "id": "Event_20930104",
+    "chinesesimplified": "帮<color=#ff604d>狼人</color>，<color=#e35822>70%</color>概率得到15%攻击。\\n帮<color=#275ac3>人类剑士</color>，<color=#e35822>30%</color>概率得到1个技能。"
+  },
+  {
+    "id": "Event_20430104",
+    "chinesesimplified": "帮<color=#ff604d>狼人</color>，<color=#e35822>70%</color>概率得到15%攻击。\\n帮<color=#275ac3>人类剑士</color>，<color=#e35822>30%</color>概率得到1个技能。"
+  },
+  {
+    "id": "Event_20730105",
+    "chinesesimplified": "帮助狼人！"
+  },
+  {
+    "id": "Event_20330105",
+    "chinesesimplified": "帮助狼人！"
+  },
+  {
+    "id": "Event_20230105",
+    "chinesesimplified": "帮助狼人！"
+  },
+  {
+    "id": "Event_21030105",
+    "chinesesimplified": "帮助狼人！"
+  },
+  {
+    "id": "Event_20830105",
+    "chinesesimplified": "帮助狼人！"
+  },
+  {
+    "id": "Event_20630105",
+    "chinesesimplified": "帮助狼人！"
+  },
+  {
+    "id": "Event_20530105",
+    "chinesesimplified": "帮助狼人！"
+  },
+  {
+    "id": "Event_20930105",
+    "chinesesimplified": "帮助狼人！"
+  },
+  {
+    "id": "Event_20430105",
+    "chinesesimplified": "帮助狼人！"
+  },
+  {
+    "id": "Event_20730108",
+    "chinesesimplified": "帮助剑士！"
+  },
+  {
+    "id": "Event_20330108",
+    "chinesesimplified": "帮助剑士！"
+  },
+  {
+    "id": "Event_20230108",
+    "chinesesimplified": "帮助剑士！"
+  },
+  {
+    "id": "Event_21030108",
+    "chinesesimplified": "帮助剑士！"
+  },
+  {
+    "id": "Event_20830108",
+    "chinesesimplified": "帮助剑士！"
+  },
+  {
+    "id": "Event_20630108",
+    "chinesesimplified": "帮助剑士！"
+  },
+  {
+    "id": "Event_20530108",
+    "chinesesimplified": "帮助剑士！"
+  },
+  {
+    "id": "Event_20930108",
+    "chinesesimplified": "帮助剑士！"
+  },
+  {
+    "id": "Event_20430108",
+    "chinesesimplified": "帮助剑士！"
+  },
+  {
+    "id": "Event_30220403",
+    "chinesesimplified": "显然，你很冷酷。作为胜利者，你获得了<color=#275ac3>黄金宝箱</color>。"
+  },
+  {
+    "id": "Event_20730603",
+    "chinesesimplified": "置换"
+  },
+  {
+    "id": "Event_20330603",
+    "chinesesimplified": "置换"
+  },
+  {
+    "id": "Event_20230603",
+    "chinesesimplified": "置换"
+  },
+  {
+    "id": "Event_21030603",
+    "chinesesimplified": "置换"
+  },
+  {
+    "id": "Event_20830603",
+    "chinesesimplified": "置换"
+  },
+  {
+    "id": "Event_20130603",
+    "chinesesimplified": "置换"
+  },
+  {
+    "id": "Event_20630603",
+    "chinesesimplified": "置换"
+  },
+  {
+    "id": "Event_20530603",
+    "chinesesimplified": "置换"
+  },
+  {
+    "id": "Event_20930603",
+    "chinesesimplified": "置换"
+  },
+  {
+    "id": "Event_20430603",
+    "chinesesimplified": "置换"
+  },
+  {
+    "id": "Event_21010303",
+    "chinesesimplified": "置换攻击"
+  },
+  {
+    "id": "Event_20910303",
+    "chinesesimplified": "置换攻击"
+  },
+  {
+    "id": "Event_20410303",
+    "chinesesimplified": "置换攻击"
+  },
+  {
+    "id": "Event_21010306",
+    "chinesesimplified": "置换生命"
+  },
+  {
+    "id": "Event_20910306",
+    "chinesesimplified": "置换生命"
+  },
+  {
+    "id": "Event_20410306",
+    "chinesesimplified": "置换生命"
+  },
+  {
+    "id": "Event_30420101",
+    "chinesesimplified": "雪怪再次出现，看来它似乎想要为同伴复仇。"
+  },
+  {
+    "id": "Event_20220801",
+    "chinesesimplified": "雪原深处，你发现了一座巨大的<color=#e35822>怪物雕像</color>。"
+  },
+  {
+    "id": "equip_name_2402",
+    "chinesesimplified": "贪婪圣杯"
+  },
+  {
+    "id": "rank_activity_score_2",
+    "chinesesimplified": "红钻"
+  },
+  {
+    "id": "collection_name_352006",
+    "chinesesimplified": "炎魔精华"
+  },
+  {
+    "id": "collection_fragment_name_362006",
+    "chinesesimplified": "炎魔精华碎片"
+  },
+  {
+    "id": "Event_20730202",
+    "chinesesimplified": "一名<color=#e35822>咕噜怪</color>微笑着说道：\"欢迎来到我的竞技场，你可以选择迎接挑战，获得<color=#275ac3>勇者的奖励</color>，当然，这需要勇气。\""
+  },
+  {
+    "id": "Event_20330202",
+    "chinesesimplified": "一名<color=#e35822>咕噜怪</color>微笑着说道：\"欢迎来到我的竞技场，你可以选择迎接挑战，获得<color=#275ac3>勇者的奖励</color>，当然，这需要勇气。\""
+  },
+  {
+    "id": "Event_20230202",
+    "chinesesimplified": "一名<color=#e35822>咕噜怪</color>微笑着说道：\"欢迎来到我的竞技场，你可以选择迎接挑战，获得<color=#275ac3>勇者的奖励</color>，当然，这需要勇气。\""
+  },
+  {
+    "id": "Event_21030202",
+    "chinesesimplified": "一名<color=#e35822>咕噜怪</color>微笑着说道：\"欢迎来到我的竞技场，你可以选择迎接挑战，获得<color=#275ac3>勇者的奖励</color>，当然，这需要勇气。\""
+  },
+  {
+    "id": "Event_20830202",
+    "chinesesimplified": "一名<color=#e35822>咕噜怪</color>微笑着说道：\"欢迎来到我的竞技场，你可以选择迎接挑战，获得<color=#275ac3>勇者的奖励</color>，当然，这需要勇气。\""
+  },
+  {
+    "id": "Event_20630202",
+    "chinesesimplified": "一名<color=#e35822>咕噜怪</color>微笑着说道：\"欢迎来到我的竞技场，你可以选择迎接挑战，获得<color=#275ac3>勇者的奖励</color>，当然，这需要勇气。\""
+  },
+  {
+    "id": "Event_20530202",
+    "chinesesimplified": "一名<color=#e35822>咕噜怪</color>微笑着说道：\"欢迎来到我的竞技场，你可以选择迎接挑战，获得<color=#275ac3>勇者的奖励</color>，当然，这需要勇气。\""
+  },
+  {
+    "id": "Event_20930202",
+    "chinesesimplified": "一名<color=#e35822>咕噜怪</color>微笑着说道：\"欢迎来到我的竞技场，你可以选择迎接挑战，获得<color=#275ac3>勇者的奖励</color>，当然，这需要勇气。\""
+  },
+  {
+    "id": "Event_20430202",
+    "chinesesimplified": "一名<color=#e35822>咕噜怪</color>微笑着说道：\"欢迎来到我的竞技场，你可以选择迎接挑战，获得<color=#275ac3>勇者的奖励</color>，当然，这需要勇气。\""
+  },
+  {
+    "id": "Event_20130202",
+    "chinesesimplified": "一名<color=#e35822>海盗王</color>微笑着说道：\"欢迎来到我的竞技场，你可以选择迎接挑战，获得<color=#275ac3>勇者的奖励</color>，当然，这需要勇气。\""
+  },
+  {
+    "id": "Event_20710708",
+    "chinesesimplified": "一名邪恶巫师在塔楼顶部，他自称曾是<color=#275ac3>海伯利安</color>时代的魔法师，对你施展了<color=#e35822>强化魔法</color>。"
+  },
+  {
+    "id": "Event_20310708",
+    "chinesesimplified": "一名邪恶巫师在塔楼顶部，他自称曾是<color=#275ac3>海伯利安</color>时代的魔法师，对你施展了<color=#e35822>强化魔法</color>。"
+  },
+  {
+    "id": "Event_20210708",
+    "chinesesimplified": "一名邪恶巫师在塔楼顶部，他自称曾是<color=#275ac3>海伯利安</color>时代的魔法师，对你施展了<color=#e35822>强化魔法</color>。"
+  },
+  {
+    "id": "Event_21010708",
+    "chinesesimplified": "一名邪恶巫师在塔楼顶部，他自称曾是<color=#275ac3>海伯利安</color>时代的魔法师，对你施展了<color=#e35822>强化魔法</color>。"
+  },
+  {
+    "id": "Event_20810708",
+    "chinesesimplified": "一名邪恶巫师在塔楼顶部，他自称曾是<color=#275ac3>海伯利安</color>时代的魔法师，对你施展了<color=#e35822>强化魔法</color>。"
+  },
+  {
+    "id": "Event_20110708",
+    "chinesesimplified": "一名邪恶巫师在塔楼顶部，他自称曾是<color=#275ac3>海伯利安</color>时代的魔法师，对你施展了<color=#e35822>强化魔法</color>。"
+  },
+  {
+    "id": "Event_20610708",
+    "chinesesimplified": "一名邪恶巫师在塔楼顶部，他自称曾是<color=#275ac3>海伯利安</color>时代的魔法师，对你施展了<color=#e35822>强化魔法</color>。"
+  },
+  {
+    "id": "Event_20510708",
+    "chinesesimplified": "一名邪恶巫师在塔楼顶部，他自称曾是<color=#275ac3>海伯利安</color>时代的魔法师，对你施展了<color=#e35822>强化魔法</color>。"
+  },
+  {
+    "id": "Event_20910708",
+    "chinesesimplified": "一名邪恶巫师在塔楼顶部，他自称曾是<color=#275ac3>海伯利安</color>时代的魔法师，对你施展了<color=#e35822>强化魔法</color>。"
+  },
+  {
+    "id": "Event_20410708",
+    "chinesesimplified": "一名邪恶巫师在塔楼顶部，他自称曾是<color=#275ac3>海伯利安</color>时代的魔法师，对你施展了<color=#e35822>强化魔法</color>。"
+  },
+  {
+    "id": "Event_220201",
+    "chinesesimplified": "一名强大的巫师发现了你。"
+  },
+  {
+    "id": "Event_210501",
+    "chinesesimplified": "一群坏蛋拦住了你，这群坏蛋似乎有人操控。"
+  },
+  {
+    "id": "Event_220301",
+    "chinesesimplified": "一群坏蛋拦住了你，这群坏蛋似乎有人操控。"
+  },
+  {
+    "id": "equip_skill_desc_220204",
+    "chinesesimplified": "以50%生命复苏"
+  },
+  {
+    "id": "collection_fragment_desc_366005",
+    "chinesesimplified": "用于解锁及升级藏品巨人克星"
+  },
+  {
+    "id": "collection_fragment_desc_362005",
+    "chinesesimplified": "用于解锁及升级藏品巨人克星"
+  },
+  {
+    "id": "collection_fragment_desc_362002",
+    "chinesesimplified": "用于解锁及升级藏品霜巨人克星"
+  },
+  {
+    "id": "collection_fragment_desc_362006",
+    "chinesesimplified": "用于解锁及升级藏品炎魔精华"
+  },
+  {
+    "id": "collection_fragment_desc_362003",
+    "chinesesimplified": "用于解锁及升级藏品海盗船济慈号"
+  },
+  {
+    "id": "collection_name_352003",
+    "chinesesimplified": "济慈号"
+  },
+  {
+    "id": "collection_fragment_name_362003",
+    "chinesesimplified": "海盗船济慈号碎片"
+  },
+  {
+    "id": "Event_30530101",
+    "chinesesimplified": "海盗船长对你似乎很感兴趣，伸出的<color=#e35822>长钩</color>试图勾走你——"
+  },
+  {
+    "id": "Event_30530103",
+    "chinesesimplified": "海盗船长散去，你获得了<color=#275ac3>黄金宝箱</color>，但你似乎仍听到了他嘲弄的笑声。"
+  },
+  {
+    "id": "Event_30920103",
+    "chinesesimplified": "海盗船长散去，你获得了<color=#275ac3>黄金宝箱</color>，但你似乎仍听到了他嘲弄的笑声。"
+  },
+  {
+    "id": "Skill_Name_100405",
+    "chinesesimplified": "精灵弧线"
+  },
+  {
+    "id": "Skill_Name_110405",
+    "chinesesimplified": "精灵弧线+"
+  },
+  {
+    "id": "Event_30820201",
+    "chinesesimplified": "又一只<color=#e35822>德古拉</color>盯上你，真是个难缠的可恶家伙。"
+  },
+  {
+    "id": "Event_20710104",
+    "chinesesimplified": "在搜索物资时，你遭遇了<color=#e35822>巫师</color>袭击。"
+  },
+  {
+    "id": "Event_20710108",
+    "chinesesimplified": "在搜索物资时，你遭遇了<color=#e35822>邪恶巫师</color>袭击。"
+  },
+  {
+    "id": "Event_20710112",
+    "chinesesimplified": "在搜索物资时，你遭遇了<color=#e35822>邪恶巫师</color>袭击。"
+  },
+  {
+    "id": "Event_20310104",
+    "chinesesimplified": "在搜索物资时，你遭遇了<color=#e35822>邪恶巫师</color>袭击。"
+  },
+  {
+    "id": "Event_20310108",
+    "chinesesimplified": "在搜索物资时，你遭遇了<color=#e35822>邪恶巫师</color>袭击。"
+  },
+  {
+    "id": "Event_20310112",
+    "chinesesimplified": "在搜索物资时，你遭遇了<color=#e35822>邪恶巫师</color>袭击。"
+  },
+  {
+    "id": "Event_20210104",
+    "chinesesimplified": "在搜索物资时，你遭遇了<color=#e35822>邪恶巫师</color>袭击。"
+  },
+  {
+    "id": "Event_20210108",
+    "chinesesimplified": "在搜索物资时，你遭遇了<color=#e35822>邪恶巫师</color>袭击。"
+  },
+  {
+    "id": "Event_20210112",
+    "chinesesimplified": "在搜索物资时，你遭遇了<color=#e35822>邪恶巫师</color>袭击。"
+  },
+  {
+    "id": "Event_21010104",
+    "chinesesimplified": "在搜索物资时，你遭遇了<color=#e35822>邪恶巫师</color>袭击。"
+  },
+  {
+    "id": "Event_21010108",
+    "chinesesimplified": "在搜索物资时，你遭遇了<color=#e35822>邪恶巫师</color>袭击。"
+  },
+  {
+    "id": "Event_21010112",
+    "chinesesimplified": "在搜索物资时，你遭遇了<color=#e35822>邪恶巫师</color>袭击。"
+  },
+  {
+    "id": "Event_20810104",
+    "chinesesimplified": "在搜索物资时，你遭遇了<color=#e35822>邪恶巫师</color>袭击。"
+  },
+  {
+    "id": "Event_20810108",
+    "chinesesimplified": "在搜索物资时，你遭遇了<color=#e35822>邪恶巫师</color>袭击。"
+  },
+  {
+    "id": "Event_20810112",
+    "chinesesimplified": "在搜索物资时，你遭遇了<color=#e35822>邪恶巫师</color>袭击。"
+  },
+  {
+    "id": "Event_20610104",
+    "chinesesimplified": "在搜索物资时，你遭遇了<color=#e35822>邪恶巫师</color>袭击。"
+  },
+  {
+    "id": "Event_20610108",
+    "chinesesimplified": "在搜索物资时，你遭遇了<color=#e35822>邪恶巫师</color>袭击。"
+  },
+  {
+    "id": "Event_20610112",
+    "chinesesimplified": "在搜索物资时，你遭遇了<color=#e35822>邪恶巫师</color>袭击。"
+  },
+  {
+    "id": "Event_20510104",
+    "chinesesimplified": "在搜索物资时，你遭遇了<color=#e35822>邪恶巫师</color>袭击。"
+  },
+  {
+    "id": "Event_20510108",
+    "chinesesimplified": "在搜索物资时，你遭遇了<color=#e35822>邪恶巫师</color>袭击。"
+  },
+  {
+    "id": "Event_20510112",
+    "chinesesimplified": "在搜索物资时，你遭遇了<color=#e35822>邪恶巫师</color>袭击。"
+  },
+  {
+    "id": "Event_20910104",
+    "chinesesimplified": "在搜索物资时，你遭遇了<color=#e35822>邪恶巫师</color>袭击。"
+  },
+  {
+    "id": "Event_20910108",
+    "chinesesimplified": "在搜索物资时，你遭遇了<color=#e35822>邪恶巫师</color>袭击。"
+  },
+  {
+    "id": "Event_20910112",
+    "chinesesimplified": "在搜索物资时，你遭遇了<color=#e35822>邪恶巫师</color>袭击。"
+  },
+  {
+    "id": "Event_20410104",
+    "chinesesimplified": "在搜索物资时，你遭遇了<color=#e35822>邪恶巫师</color>袭击。"
+  },
+  {
+    "id": "Event_20410108",
+    "chinesesimplified": "在搜索物资时，你遭遇了<color=#e35822>邪恶巫师</color>袭击。"
+  },
+  {
+    "id": "Event_20410112",
+    "chinesesimplified": "在搜索物资时，你遭遇了<color=#e35822>邪恶巫师</color>袭击。"
+  },
+  {
+    "id": "Event_10420101",
+    "chinesesimplified": "在一座古老的城堡中，你击败了邪恶女巫并解救了被囚禁的<color=#e35822>哥布林王子</color>。得到了哥布林王的赏赐。"
+  },
+  {
+    "id": "Event_10320101",
+    "chinesesimplified": "在遗迹中，你从一名<color=#e35822>邪恶巫师</color>手中夺回了<color=#0c57e2>遗迹守卫的左手</color>。"
+  },
+  {
+    "id": "Event_30120203",
+    "chinesesimplified": "章鱼怪逐渐被大海吞噬，你获得了<color=#275ac3>黄金宝箱</color>。"
+  },
+  {
+    "id": "collection_desc_352004",
+    "chinesesimplified": "这把闪烁着威武光芒的剑拥有无与伦比的力量。传说每次挥动都能发出摧毁山河的强大气浪，是英勇斗士们最为珍视的武器。"
+  },
+  {
+    "id": "collection_desc_352009",
+    "chinesesimplified": "这顶危险的帽子曾经属于一位黑暗巫师，它可以增强穿戴者的魔法力量，甚至拥有操纵生命的能力。"
+  },
+  {
+    "id": "collection_desc_352006",
+    "chinesesimplified": "这份神秘的精华来自一位炎魔。将其涂抹在武器或铠甲上，可以赋予火焰之力。炎魔精华还可用于梦境仪式，召唤出熔岩元素等强大生物。"
+  },
+  {
+    "id": "collection_desc_352003",
+    "chinesesimplified": "这艘古老的海盗船名为“济慈号”，在漆黑的夜晚中，它会突然出现在大海上。"
+  },
+  {
+    "id": "collection_desc_354001",
+    "chinesesimplified": "遵循誓言者将发挥它真正的威力。违背誓言者将遭受惩罚。"
+  },
+  {
+    "id": "Event_30111201",
+    "chinesesimplified": "周遭<color=#e35822>黑魔法</color>的气息让你感到格外压抑，而这一切的缔造者正在前方等着你。"
+  },
+  {
+    "id": "Event_30211201",
+    "chinesesimplified": "周遭<color=#e35822>黑魔法</color>的气息让你感到格外压抑，而这一切的缔造者正在前方等着你。"
+  },
+  {
+    "id": "Event_15202701",
+    "chinesesimplified": "你路过一个小镇，这里发生了一场<color=#0c57e2>战争</color>，夺走了许多人的生命。你急忙离开。"
+  },
+  {
+    "id": "UITalent_Level",
+    "chinesesimplified": "等级{0}"
+  },
+  {
+    "id": "text_level_n",
+    "chinesesimplified": "等级{0}"
+  },
+  {
+    "id": "pet_draw_level",
+    "chinesesimplified": "等级{0}"
+  },
+  {
+    "id": "pet_battle_skill_title",
+    "chinesesimplified": "参战技能 等级{0}"
+  },
+  {
+    "id": "uitower_monster_lv",
+    "chinesesimplified": "等级{0}"
+  },
+  {
+    "id": "8713",
+    "chinesesimplified": "达到等级等级{0}"
+  },
+  {
+    "id": "400150",
+    "chinesesimplified": "Lv{0}"
+  },
+  {
+    "id": "pet_training_passive_unlock",
+    "chinesesimplified": "等级{0}\\n解锁"
+  },
+  {
+    "id": "pet_training_passive_unlock_tip",
+    "chinesesimplified": "宠物培育等级{0}解锁"
+  },
+  {
+    "id": "Skill_Name_100014",
+    "chinesesimplified": "连招恢复"
+  },
+  {
+    "id": "Skill_Name_100015",
+    "chinesesimplified": "连招闪电"
+  },
+  {
+    "id": "Skill_Name_100016",
+    "chinesesimplified": "连招冰刺"
+  },
+  {
+    "id": "Skill_Name_110014",
+    "chinesesimplified": "连招恢复+"
+  },
+  {
+    "id": "Skill_Name_110015",
+    "chinesesimplified": "连招闪电+"
+  },
+  {
+    "id": "Skill_Name_110016",
+    "chinesesimplified": "连招冰刺+"
+  },
+  {
+    "id": "Skill_Name_100205",
+    "chinesesimplified": "双重连招"
+  },
+  {
+    "id": "Skill_InfoDetail_100014",
+    "chinesesimplified": "伤害次数达到 <color=#2e9616>3</color>时，<color=#0c57e2>恢复生命</color>。"
+  },
+  {
+    "id": "Skill_InfoDetail_100015",
+    "chinesesimplified": "伤害次数达到 <color=#2e9616>4</color>时，施加2道<color=#0c57e2>闪电</color>。"
+  },
+  {
+    "id": "Skill_InfoDetail_100016",
+    "chinesesimplified": "伤害次数达到 <color=#2e9616>5</color>时，施加<color=#0c57e2>冰刺</color>。"
+  },
+  {
+    "id": "Skill_InfoDetail_110014",
+    "chinesesimplified": "伤害次数达到 3-><color=#2e9616>2</color>时，<color=#0c57e2>恢复生命</color>。"
+  },
+  {
+    "id": "Skill_InfoDetail_110015",
+    "chinesesimplified": "伤害次数达到 <color=#2e9616>3</color>时，施加2道<color=#0c57e2>闪电</color>。"
+  },
+  {
+    "id": "Skill_InfoDetail_110016",
+    "chinesesimplified": "伤害次数达到 5-><color=#2e9616>4</color>时，施加<color=#0c57e2>冰刺</color>。"
+  },
+  {
+    "id": "Skill_InfoDetail_100205",
+    "chinesesimplified": "<color=#0c57e2>连击</color>次数触发的效果，可以触发<color=#2e9616>2</color>次。"
+  },
+  {
+    "id": "Skill_fullDetail_100014",
+    "chinesesimplified": "伤害次数达到 <color=#2e9616>3</color>时，<color=#0c57e2>恢复生命</color>。"
+  },
+  {
+    "id": "Skill_fullDetail_100015",
+    "chinesesimplified": "伤害次数达到 <color=#2e9616>4</color>时，施加2道<color=#0c57e2>闪电</color>。"
+  },
+  {
+    "id": "Skill_fullDetail_100016",
+    "chinesesimplified": "伤害次数达到 <color=#2e9616>5</color>时，施加<color=#0c57e2>冰刺</color>。"
+  },
+  {
+    "id": "Skill_fullDetail_110014",
+    "chinesesimplified": "伤害次数达到 <color=#2e9616>2</color>时，<color=#0c57e2>恢复生命</color>。"
+  },
+  {
+    "id": "Skill_fullDetail_110015",
+    "chinesesimplified": "伤害次数达到 <color=#2e9616>3</color>时，施加2道<color=#0c57e2>闪电</color>。"
+  },
+  {
+    "id": "Skill_fullDetail_110016",
+    "chinesesimplified": "伤害次数达到 <color=#2e9616>4</color>时，施加<color=#0c57e2>冰刺</color>。"
+  },
+  {
+    "id": "Skill_fullDetail_100205",
+    "chinesesimplified": "<color=#0c57e2>伤害次数</color>触发的效果，可以触发<color=#2e9616>2</color>次。"
+  },
+  {
+    "id": "pet_draw_exp_max",
+    "chinesesimplified": "满级"
+  },
+  {
+    "id": "talent_attribute_level_max",
+    "chinesesimplified": "满级"
+  },
+  {
+    "id": "server_err_101",
+    "chinesesimplified": "客户端版本号过低"
+  },
+  {
+    "id": "server_err_816",
+    "chinesesimplified": "排行奖励无段位ID"
+  },
+  {
+    "id": "guild_box_title",
+    "chinesesimplified": "礼包"
+  },
+  {
+    "id": "bonusgame_down",
+    "chinesesimplified": "游戏"
+  },
+  {
+    "id": "164",
+    "chinesesimplified": "松弛感保护协会"
+  },
+  {
+    "id": "rate_good_info_appstore",
+    "chinesesimplified": "谢谢您的支持!希望您能为我们评分!"
+  },
+  {
+    "id": "uimount_exp",
+    "chinesesimplified": "经验"
+  },
+  {
+    "id": "uiartifact_exp",
+    "chinesesimplified": "经验"
+  },
+  {
+    "id": "selfinfomation_uid",
+    "chinesesimplified": "用户序号"
+  },
+  {
+    "id": "selfinfomation_uid_2",
+    "chinesesimplified": "用户序号"
+  },
+  {
+    "id": "Event_15201601",
+    "chinesesimplified": "你从铁笼子里释放了一只话痨乌鸦，它想跟你作伴，但理智的你觉得这不吉利，拒绝了它。"
+  },
+  {
+    "id": "uiprivilegecard_rebate_tip",
+    "chinesesimplified": "回馈"
+  },
+  {
+    "id": "uimeeting_value",
+    "chinesesimplified": "回馈"
+  },
+  {
+    "id": "136",
+    "chinesesimplified": "[SKILL]组合解锁了新的技能[NL]你有概率从宝箱等途径获得"
+  },
+  {
+    "id": "UIChapterPowerfulEnemy_Boss",
+    "chinesesimplified": "首领来袭!!"
+  },
+  {
+    "id": "equip_name_1100",
+    "chinesesimplified": "GM无敌剑"
+  },
+  {
+    "id": "text_merge_require_0",
+    "chinesesimplified": "材料需求:{0}x{1}任意部位"
+  },
+  {
+    "id": "text_merge_require_1",
+    "chinesesimplified": "材料需求:{0}x{1}"
+  },
+  {
+    "id": "text_merge_require_2",
+    "chinesesimplified": "材料需求:{0}x{1}{2}"
+  },
+  {
+    "id": "ui_collection_passive_condition_7",
+    "chinesesimplified": "冒险中每击败{0}个精英/首领"
+  },
+  {
+    "id": "shop_equip_activity_desc_1",
+    "chinesesimplified": "能开出<color=#D672FE>S级史诗</color>装备"
+  },
+  {
+    "id": "shop_equip_activity_hardpity_1",
+    "chinesesimplified": "<color=#FF9852>{0}</color>次内必出<color=#D672FE>S级史诗</color>装备"
+  },
+  {
+    "id": "shop_equip_activity_name_2",
+    "chinesesimplified": "S级军备"
+  },
+  {
+    "id": "shop_equip_activity_desc_2",
+    "chinesesimplified": "S级军备活动描述"
+  },
+  {
+    "id": "item_name_7",
+    "chinesesimplified": "经验"
+  },
+  {
+    "id": "Chapter_Name_162",
+    "chinesesimplified": "虫巢9"
+  },
+  {
+    "id": "Chapter_Name_163",
+    "chinesesimplified": "失落迷城9"
+  },
+  {
+    "id": "Chapter_Name_164",
+    "chinesesimplified": "深岩矿洞9"
+  },
+  {
+    "id": "Chapter_Name_165",
+    "chinesesimplified": "树菇平原9"
+  },
+  {
+    "id": "Chapter_Name_166",
+    "chinesesimplified": "古代蛙国9"
+  },
+  {
+    "id": "Chapter_Name_167",
+    "chinesesimplified": "星界城9"
+  },
+  {
+    "id": "Chapter_Name_168",
+    "chinesesimplified": "熔火城9"
+  },
+  {
+    "id": "Chapter_Name_169",
+    "chinesesimplified": "磐石要塞9"
+  },
+  {
+    "id": "Chapter_Name_170",
+    "chinesesimplified": "死灵沼泽9"
+  },
+  {
+    "id": "Chapter_Name_171",
+    "chinesesimplified": "虫鸣平原9"
+  },
+  {
+    "id": "Chapter_Name_172",
+    "chinesesimplified": "虫巢10"
+  },
+  {
+    "id": "Chapter_Name_173",
+    "chinesesimplified": "失落迷城10"
+  },
+  {
+    "id": "Chapter_Name_174",
+    "chinesesimplified": "深岩矿洞10"
+  },
+  {
+    "id": "Chapter_Name_175",
+    "chinesesimplified": "树菇平原10"
+  },
+  {
+    "id": "Chapter_Name_176",
+    "chinesesimplified": "古代蛙国10"
+  },
+  {
+    "id": "Chapter_Name_177",
+    "chinesesimplified": "星界城10"
+  },
+  {
+    "id": "Chapter_Name_178",
+    "chinesesimplified": "熔火城10"
+  },
+  {
+    "id": "Chapter_Name_179",
+    "chinesesimplified": "磐石要塞10"
+  },
+  {
+    "id": "Chapter_Name_180",
+    "chinesesimplified": "死灵沼泽10"
+  },
+  {
+    "id": "Chapter_Name_181",
+    "chinesesimplified": "虫鸣平原10"
+  },
+  {
+    "id": "Chapter_Name_182",
+    "chinesesimplified": "虫巢11"
+  },
+  {
+    "id": "Chapter_Name_183",
+    "chinesesimplified": "失落迷城11"
+  },
+  {
+    "id": "Chapter_Name_184",
+    "chinesesimplified": "深岩矿洞11"
+  },
+  {
+    "id": "Chapter_Name_185",
+    "chinesesimplified": "树菇平原11"
+  },
+  {
+    "id": "Chapter_Name_186",
+    "chinesesimplified": "古代蛙国11"
+  },
+  {
+    "id": "Chapter_Name_187",
+    "chinesesimplified": "星界城11"
+  },
+  {
+    "id": "Chapter_Name_188",
+    "chinesesimplified": "熔火城11"
+  },
+  {
+    "id": "Chapter_Name_189",
+    "chinesesimplified": "磐石要塞11"
+  },
+  {
+    "id": "Chapter_Name_190",
+    "chinesesimplified": "死灵沼泽11"
+  },
+  {
+    "id": "Chapter_Name_191",
+    "chinesesimplified": "虫鸣平原12"
+  },
+  {
+    "id": "Chapter_Name_192",
+    "chinesesimplified": "虫巢12"
+  },
+  {
+    "id": "Chapter_Name_193",
+    "chinesesimplified": "失落迷城12"
+  },
+  {
+    "id": "Chapter_Name_194",
+    "chinesesimplified": "深岩矿洞12"
+  },
+  {
+    "id": "Chapter_Name_195",
+    "chinesesimplified": "树菇平原12"
+  },
+  {
+    "id": "Chapter_Name_196",
+    "chinesesimplified": "古代蛙国12"
+  },
+  {
+    "id": "Chapter_Name_197",
+    "chinesesimplified": "星界城12"
+  },
+  {
+    "id": "Chapter_Name_198",
+    "chinesesimplified": "熔火城12"
+  },
+  {
+    "id": "Chapter_Name_199",
+    "chinesesimplified": "磐石要塞12"
+  },
+  {
+    "id": "Chapter_Name_200",
+    "chinesesimplified": "死灵沼泽12"
+  },
+  {
+    "id": "chest_open_bet",
+    "chinesesimplified": "打开x{0}"
+  },
+  {
+    "id": "mainshop_off",
+    "chinesesimplified": "价值"
+  },
+  {
+    "id": "card_noad_reward1",
+    "chinesesimplified": "立即获得x2400"
+  },
+  {
+    "id": "IAP_name_801",
+    "chinesesimplified": "体力补足1"
+  },
+  {
+    "id": "IAP_name_802",
+    "chinesesimplified": "体力补足2"
+  },
+  {
+    "id": "IAP_name_803",
+    "chinesesimplified": "体力补足3"
+  },
+  {
+    "id": "IAP_name_804",
+    "chinesesimplified": "体力补足4"
+  },
+  {
+    "id": "IAP_name_805",
+    "chinesesimplified": "体力补足5"
+  },
+  {
+    "id": "IAP_name_806",
+    "chinesesimplified": "体力补足6"
+  },
+  {
+    "id": "IAP_name_1011",
+    "chinesesimplified": "小飞象礼包1"
+  },
+  {
+    "id": "IAP_name_1012",
+    "chinesesimplified": "小飞象礼包2"
+  },
+  {
+    "id": "IAP_name_1013",
+    "chinesesimplified": "装备强化礼包1"
+  },
+  {
+    "id": "IAP_name_1014",
+    "chinesesimplified": "装备强化礼包2"
+  },
+  {
+    "id": "IAP_name_9001",
+    "chinesesimplified": "银币礼包1"
+  },
+  {
+    "id": "IAP_name_9002",
+    "chinesesimplified": "银币礼包2"
+  },
+  {
+    "id": "IAP_name_9003",
+    "chinesesimplified": "银币礼包3"
+  },
+  {
+    "id": "IAP_name_9004",
+    "chinesesimplified": "银币礼包4"
+  },
+  {
+    "id": "IAP_name_9005",
+    "chinesesimplified": "银币礼包5"
+  },
+  {
+    "id": "IAP_name_9006",
+    "chinesesimplified": "银币礼包6"
+  },
+  {
+    "id": "IAP_name_20102",
+    "chinesesimplified": "装备助力礼包1"
+  },
+  {
+    "id": "IAP_name_20103",
+    "chinesesimplified": "装备助力礼包2"
+  },
+  {
+    "id": "IAP_name_20104",
+    "chinesesimplified": "装备助力礼包3"
+  },
+  {
+    "id": "IAP_name_20202",
+    "chinesesimplified": "宠物助力礼包1"
+  },
+  {
+    "id": "IAP_name_20203",
+    "chinesesimplified": "宠物助力礼包2"
+  },
+  {
+    "id": "IAP_name_20204",
+    "chinesesimplified": "宠物助力礼包3"
+  },
+  {
+    "id": "IAP_name_20302",
+    "chinesesimplified": "宝箱助力礼包1"
+  },
+  {
+    "id": "IAP_name_20303",
+    "chinesesimplified": "宝箱助力礼包2"
+  },
+  {
+    "id": "IAP_name_20304",
+    "chinesesimplified": "宝箱助力礼包3"
+  },
+  {
+    "id": "IAP_name_20402",
+    "chinesesimplified": "体力助力礼包1"
+  },
+  {
+    "id": "IAP_name_20403",
+    "chinesesimplified": "体力助力礼包2"
+  },
+  {
+    "id": "IAP_name_20404",
+    "chinesesimplified": "体力助力礼包3"
+  },
+  {
+    "id": "IAP_name_20502",
+    "chinesesimplified": "坐骑助力礼包1"
+  },
+  {
+    "id": "IAP_name_20503",
+    "chinesesimplified": "坐骑助力礼包2"
+  },
+  {
+    "id": "IAP_name_20504",
+    "chinesesimplified": "坐骑助力礼包3"
+  },
+  {
+    "id": "IAP_name_20602",
+    "chinesesimplified": "神器助力礼包1"
+  },
+  {
+    "id": "IAP_name_20603",
+    "chinesesimplified": "神器助力礼包2"
+  },
+  {
+    "id": "IAP_name_20604",
+    "chinesesimplified": "神器助力礼包3"
+  },
+  {
+    "id": "IAP_name_20702",
+    "chinesesimplified": "战力助力礼包1"
+  },
+  {
+    "id": "IAP_name_20703",
+    "chinesesimplified": "战力助力礼包2"
+  },
+  {
+    "id": "IAP_name_20704",
+    "chinesesimplified": "战力助力礼包3"
+  },
+  {
+    "id": "IAP_name_30101",
+    "chinesesimplified": "宝箱冲刺好礼1"
+  },
+  {
+    "id": "IAP_name_30102",
+    "chinesesimplified": "宝箱冲刺好礼2"
+  },
+  {
+    "id": "IAP_name_30103",
+    "chinesesimplified": "宝箱冲刺好礼3"
+  },
+  {
+    "id": "IAP_name_30104",
+    "chinesesimplified": "宝箱冲刺好礼4"
+  },
+  {
+    "id": "IAP_name_30105",
+    "chinesesimplified": "宝箱冲刺好礼5"
+  },
+  {
+    "id": "IAP_name_30201",
+    "chinesesimplified": "宠物冲刺好礼1"
+  },
+  {
+    "id": "IAP_name_30202",
+    "chinesesimplified": "宠物冲刺好礼2"
+  },
+  {
+    "id": "IAP_name_30203",
+    "chinesesimplified": "宠物冲刺好礼3"
+  },
+  {
+    "id": "IAP_name_30204",
+    "chinesesimplified": "宠物冲刺好礼4"
+  },
+  {
+    "id": "IAP_name_30205",
+    "chinesesimplified": "宠物冲刺好礼5"
+  },
+  {
+    "id": "IAP_name_30301",
+    "chinesesimplified": "培育冲刺好礼1"
+  },
+  {
+    "id": "IAP_name_30302",
+    "chinesesimplified": "培育冲刺好礼2"
+  },
+  {
+    "id": "IAP_name_30303",
+    "chinesesimplified": "培育冲刺好礼3"
+  },
+  {
+    "id": "IAP_name_30304",
+    "chinesesimplified": "培育冲刺好礼4"
+  },
+  {
+    "id": "IAP_name_30305",
+    "chinesesimplified": "培育冲刺好礼5"
+  },
+  {
+    "id": "IAP_name_30311",
+    "chinesesimplified": "不变石特惠1"
+  },
+  {
+    "id": "IAP_name_30312",
+    "chinesesimplified": "不变石特惠2"
+  },
+  {
+    "id": "IAP_name_30401",
+    "chinesesimplified": "坐骑冲刺好礼1"
+  },
+  {
+    "id": "IAP_name_30402",
+    "chinesesimplified": "坐骑冲刺好礼2"
+  },
+  {
+    "id": "IAP_name_30403",
+    "chinesesimplified": "坐骑冲刺好礼3"
+  },
+  {
+    "id": "IAP_name_30404",
+    "chinesesimplified": "坐骑冲刺好礼4"
+  },
+  {
+    "id": "IAP_name_30405",
+    "chinesesimplified": "坐骑冲刺好礼5"
+  },
+  {
+    "id": "IAP_name_30501",
+    "chinesesimplified": "黑市冲刺好礼1"
+  },
+  {
+    "id": "IAP_name_30502",
+    "chinesesimplified": "黑市冲刺好礼2"
+  },
+  {
+    "id": "IAP_name_30503",
+    "chinesesimplified": "黑市冲刺好礼3"
+  },
+  {
+    "id": "IAP_name_30504",
+    "chinesesimplified": "黑市冲刺好礼4"
+  },
+  {
+    "id": "IAP_name_30505",
+    "chinesesimplified": "黑市冲刺好礼5"
+  },
+  {
+    "id": "IAP_name_30601",
+    "chinesesimplified": "大扫除礼包1"
+  },
+  {
+    "id": "IAP_name_30602",
+    "chinesesimplified": "大扫除礼包2"
+  },
+  {
+    "id": "IAP_name_30603",
+    "chinesesimplified": "大扫除礼包3"
+  },
+  {
+    "id": "IAP_name_30604",
+    "chinesesimplified": "大扫除礼包4"
+  },
+  {
+    "id": "IAP_name_30605",
+    "chinesesimplified": "大扫除礼包5"
+  },
+  {
+    "id": "IAP_name_30701",
+    "chinesesimplified": "魔法试验礼包1"
+  },
+  {
+    "id": "IAP_name_30702",
+    "chinesesimplified": "魔法试验礼包2"
+  },
+  {
+    "id": "IAP_name_30703",
+    "chinesesimplified": "魔法试验礼包3"
+  },
+  {
+    "id": "IAP_name_30704",
+    "chinesesimplified": "魔法试验礼包4"
+  },
+  {
+    "id": "IAP_name_30705",
+    "chinesesimplified": "魔法试验礼包5"
+  },
+  {
+    "id": "IAP_name_30801",
+    "chinesesimplified": "箭术训练礼包1"
+  },
+  {
+    "id": "IAP_name_30802",
+    "chinesesimplified": "箭术训练礼包2"
+  },
+  {
+    "id": "IAP_name_30803",
+    "chinesesimplified": "箭术训练礼包3"
+  },
+  {
+    "id": "IAP_name_30804",
+    "chinesesimplified": "箭术训练礼包4"
+  },
+  {
+    "id": "IAP_name_30805",
+    "chinesesimplified": "箭术训练礼包5"
+  },
+  {
+    "id": "IAP_name_40101",
+    "chinesesimplified": "体力补足1"
+  },
+  {
+    "id": "IAP_name_40102",
+    "chinesesimplified": "体力补足2"
+  },
+  {
+    "id": "IAP_name_40103",
+    "chinesesimplified": "体力补足3"
+  },
+  {
+    "id": "IAP_name_40104",
+    "chinesesimplified": "体力补足4"
+  },
+  {
+    "id": "IAP_name_40105",
+    "chinesesimplified": "体力补足5"
+  },
+  {
+    "id": "IAP_name_40106",
+    "chinesesimplified": "体力补足6"
+  },
+  {
+    "id": "IAP_name_40201",
+    "chinesesimplified": "金币补足1"
+  },
+  {
+    "id": "IAP_name_40202",
+    "chinesesimplified": "金币补足2"
+  },
+  {
+    "id": "IAP_name_40203",
+    "chinesesimplified": "金币补足3"
+  },
+  {
+    "id": "IAP_name_40204",
+    "chinesesimplified": "金币补足4"
+  },
+  {
+    "id": "IAP_name_40301",
+    "chinesesimplified": "宝石补足1"
+  },
+  {
+    "id": "IAP_name_40302",
+    "chinesesimplified": "宝石补足2"
+  },
+  {
+    "id": "IAP_name_40303",
+    "chinesesimplified": "宝石补足3"
+  },
+  {
+    "id": "IAP_name_40304",
+    "chinesesimplified": "宝石补足4"
+  },
+  {
+    "id": "IAP_name_40401",
+    "chinesesimplified": "强化石补足1"
+  },
+  {
+    "id": "IAP_name_40402",
+    "chinesesimplified": "强化石补足2"
+  },
+  {
+    "id": "IAP_name_40403",
+    "chinesesimplified": "强化石补足3"
+  },
+  {
+    "id": "IAP_name_40404",
+    "chinesesimplified": "强化石补足4"
+  },
+  {
+    "id": "IAP_name_40501",
+    "chinesesimplified": "装备图纸补足1"
+  },
+  {
+    "id": "IAP_name_40502",
+    "chinesesimplified": "装备图纸补足2"
+  },
+  {
+    "id": "IAP_name_40503",
+    "chinesesimplified": "装备图纸补足3"
+  },
+  {
+    "id": "IAP_name_40601",
+    "chinesesimplified": "天外陨铁补足1"
+  },
+  {
+    "id": "IAP_name_40602",
+    "chinesesimplified": "天外陨铁补足2"
+  },
+  {
+    "id": "IAP_name_40603",
+    "chinesesimplified": "天外陨铁补足3"
+  },
+  {
+    "id": "IAP_name_40604",
+    "chinesesimplified": "天外陨铁补足4"
+  },
+  {
+    "id": "IAP_name_40701",
+    "chinesesimplified": "宠物粮补足1"
+  },
+  {
+    "id": "IAP_name_40702",
+    "chinesesimplified": "宠物粮补足2"
+  },
+  {
+    "id": "IAP_name_40703",
+    "chinesesimplified": "宠物粮补足3"
+  },
+  {
+    "id": "IAP_name_40704",
+    "chinesesimplified": "宠物粮补足4"
+  },
+  {
+    "id": "IAP_name_40801",
+    "chinesesimplified": "骸骨之书补足1"
+  },
+  {
+    "id": "IAP_name_40802",
+    "chinesesimplified": "骸骨之书补足2"
+  },
+  {
+    "id": "IAP_name_40803",
+    "chinesesimplified": "骸骨之书补足3"
+  },
+  {
+    "id": "IAP_name_40804",
+    "chinesesimplified": "骸骨之书补足4"
+  },
+  {
+    "id": "IAP_name_40901",
+    "chinesesimplified": "骑士之书补足1"
+  },
+  {
+    "id": "IAP_name_40902",
+    "chinesesimplified": "骑士之书补足2"
+  },
+  {
+    "id": "IAP_name_40903",
+    "chinesesimplified": "骑士之书补足3"
+  },
+  {
+    "id": "IAP_name_40904",
+    "chinesesimplified": "骑士之书补足4"
+  },
+  {
+    "id": "IAP_name_41001",
+    "chinesesimplified": "森林之书补足1"
+  },
+  {
+    "id": "IAP_name_41002",
+    "chinesesimplified": "森林之书补足2"
+  },
+  {
+    "id": "IAP_name_41003",
+    "chinesesimplified": "森林之书补足3"
+  },
+  {
+    "id": "IAP_name_41004",
+    "chinesesimplified": "森林之书补足4"
+  },
+  {
+    "id": "IAP_name_41101",
+    "chinesesimplified": "梦魇之书补足1"
+  },
+  {
+    "id": "IAP_name_41102",
+    "chinesesimplified": "梦魇之书补足2"
+  },
+  {
+    "id": "IAP_name_41103",
+    "chinesesimplified": "梦魇之书补足3"
+  },
+  {
+    "id": "IAP_name_41104",
+    "chinesesimplified": "梦魇之书补足4"
+  },
+  {
+    "id": "IAP_name_41201",
+    "chinesesimplified": "古龙之书补足1"
+  },
+  {
+    "id": "IAP_name_41202",
+    "chinesesimplified": "古龙之书补足2"
+  },
+  {
+    "id": "IAP_name_41203",
+    "chinesesimplified": "古龙之书补足3"
+  },
+  {
+    "id": "IAP_name_41204",
+    "chinesesimplified": "古龙之书补足4"
+  },
+  {
+    "id": "IAP_name_48101",
+    "chinesesimplified": "勇往直前1"
+  },
+  {
+    "id": "IAP_name_48102",
+    "chinesesimplified": "勇往直前2"
+  },
+  {
+    "id": "IAP_name_48103",
+    "chinesesimplified": "勇往直前3"
+  },
+  {
+    "id": "IAP_name_48104",
+    "chinesesimplified": "勇往直前4"
+  },
+  {
+    "id": "IAP_name_48105",
+    "chinesesimplified": "勇往直前5"
+  },
+  {
+    "id": "IAP_name_48106",
+    "chinesesimplified": "勇往直前6"
+  },
+  {
+    "id": "IAP_name_48107",
+    "chinesesimplified": "勇往直前7"
+  },
+  {
+    "id": "IAP_name_48108",
+    "chinesesimplified": "勇往直前8"
+  },
+  {
+    "id": "IAP_name_48109",
+    "chinesesimplified": "勇往直前9"
+  },
+  {
+    "id": "IAP_name_48110",
+    "chinesesimplified": "勇往直前10"
+  },
+  {
+    "id": "IAP_name_48111",
+    "chinesesimplified": "勇往直前11"
+  },
+  {
+    "id": "IAP_name_48112",
+    "chinesesimplified": "勇往直前12"
+  },
+  {
+    "id": "IAP_name_48113",
+    "chinesesimplified": "勇往直前13"
+  },
+  {
+    "id": "IAP_name_48114",
+    "chinesesimplified": "勇往直前14"
+  },
+  {
+    "id": "IAP_name_48115",
+    "chinesesimplified": "勇往直前15"
+  },
+  {
+    "id": "IAP_name_48116",
+    "chinesesimplified": "勇往直前16"
+  },
+  {
+    "id": "IAP_name_48117",
+    "chinesesimplified": "勇往直前17"
+  },
+  {
+    "id": "IAP_name_48118",
+    "chinesesimplified": "勇往直前18"
+  },
+  {
+    "id": "IAP_name_48119",
+    "chinesesimplified": "勇往直前19"
+  },
+  {
+    "id": "IAP_name_48120",
+    "chinesesimplified": "勇往直前20"
+  },
+  {
+    "id": "IAP_name_48121",
+    "chinesesimplified": "勇往直前21"
+  },
+  {
+    "id": "IAP_name_48201",
+    "chinesesimplified": "天赋爆发1"
+  },
+  {
+    "id": "IAP_name_48202",
+    "chinesesimplified": "天赋爆发2"
+  },
+  {
+    "id": "IAP_name_48203",
+    "chinesesimplified": "天赋爆发3"
+  },
+  {
+    "id": "IAP_name_48204",
+    "chinesesimplified": "天赋爆发4"
+  },
+  {
+    "id": "IAP_name_48301",
+    "chinesesimplified": "重整旗鼓1"
+  },
+  {
+    "id": "IAP_name_48302",
+    "chinesesimplified": "重整旗鼓2"
+  },
+  {
+    "id": "IAP_name_48303",
+    "chinesesimplified": "重整旗鼓3"
+  },
+  {
+    "id": "IAP_name_48304",
+    "chinesesimplified": "重整旗鼓4"
+  },
+  {
+    "id": "IAP_name_49101",
+    "chinesesimplified": "小闪加速1"
+  },
+  {
+    "id": "IAP_name_49102",
+    "chinesesimplified": "独角兽加速1"
+  },
+  {
+    "id": "IAP_name_49103",
+    "chinesesimplified": "火龙宝宝加速1"
+  },
+  {
+    "id": "IAP_name_49104",
+    "chinesesimplified": "史莱姆大王加速1"
+  },
+  {
+    "id": "IAP_name_49105",
+    "chinesesimplified": "紫魔狐加速1"
+  },
+  {
+    "id": "IAP_name_49201",
+    "chinesesimplified": "小闪加速2"
+  },
+  {
+    "id": "IAP_name_49202",
+    "chinesesimplified": "独角兽加速2"
+  },
+  {
+    "id": "IAP_name_49203",
+    "chinesesimplified": "火龙宝宝加速2"
+  },
+  {
+    "id": "IAP_name_49204",
+    "chinesesimplified": "史莱姆大王加速2"
+  },
+  {
+    "id": "IAP_name_49205",
+    "chinesesimplified": "紫魔狐加速2"
+  },
+  {
+    "id": "IAP_name_49111",
+    "chinesesimplified": "艾莎加速1"
+  },
+  {
+    "id": "IAP_name_49211",
+    "chinesesimplified": "艾莎加速2"
+  },
+  {
+    "id": "uigiftrecharge_value_des_1",
+    "chinesesimplified": "X30 价值"
+  },
+  {
+    "id": "server_err_1709",
+    "chinesesimplified": "没有会员卡等级礼包可以领取"
+  },
+  {
+    "id": "server_err_808",
+    "chinesesimplified": "限时活动组ID错误"
+  },
+  {
+    "id": "server_err_812",
+    "chinesesimplified": "限时活动groupid不匹配"
+  },
+  {
+    "id": "server_err_321057",
+    "chinesesimplified": "副本id异常"
+  },
+  {
+    "id": "guild_search_tip",
+    "chinesesimplified": "点击搜索公会名称或id"
+  },
+  {
+    "id": "guild_boss_10",
+    "chinesesimplified": "战胜第{0}阶首领后开启公会排名"
+  },
+  {
+    "id": "bonusgame_up",
+    "chinesesimplified": "大奖"
+  },
+  {
+    "id": "module_desc_114",
+    "chinesesimplified": "<color=#8C5826>◆挑战规则：</color>\\n※每人每天拥有<color=#2FA632>「2次挑战机会」</color>，<color=#BF6ACD>每天0点（UTC）</color>刷新挑战次数。\\n<color=#8C5826>◆排名规则：</color>\\n※每周为1个赛季，每4个赛季为一轮。\\n※赛季期间，玩家对魔物累计造成的伤害将进行排名。\\n<color=#8C5826>◆开放时间：</color>\\n※每周一<color=#2FA632>UTC0:00~每周日UTC0:00</color>\\n※结算期前10分钟无法进入战斗。\\n<color=#8C5826>◆段位与分组规则：</color>\\n※每周首次进入竞技场时，会按上周日结算的<color=#BF6ACD>段位、排名，</color>匹配段位与分组，分组后本周仅同组玩家进行排行。\\n<color=#8C5826>◆各段位分组、升降级规则：</color>\\n<color=#E47504>【见习组】：</color>\\n※每组50人。\\n※周排名前30名晋级，其余平级。\\n<color=#E47504>【新秀Ⅰ组】：</color>\\n※每组50人。\\n※周排名前30名晋级，其余平级。\\n<color=#E47504>【新秀Ⅱ组】：</color>\\n※每组50人。\\n※周排名前30名晋级，其余平级。\\n<color=#E47504>【新秀Ⅲ组】：</color>\\n※每组50人。\\n※周排名前30名晋级，其余平级。\\n<color=#E47504>【勇者Ⅰ组】：</color>\\n※每组50人。\\n※周排名前20名晋级，后15名降级，其余平级。\\n<color=#E47504>【勇者Ⅱ组】：</color>\\n※每组50人。\\n※周排名前20名晋级，后15名降级，其余平级。\\n<color=#E47504>【勇者Ⅲ组】：</color>\\n※每组50人。\\n※周排名前20名晋级，后15名降级，其余平级。\\n<color=#E47504>【英杰Ⅰ组】：</color>\\n※每组50人。\\n※周排名前15名晋级，后15名降级，其余平级。\\n<color=#E47504>【英杰Ⅱ组】：</color>\\n※每组50人。\\n※周排名前15名晋级，后15名降级，其余平级。\\n<color=#E47504>【英杰Ⅲ组】：</color>\\n※每组50人。\\n※周排名前15名晋级，后15名降级，其余平级。\\n<color=#E47504>【魔王克星组】：</color>\\n※每组50人。\\n※周排名后20名降级。"
+  },
+  {
+    "id": "module_desc_crossarena",
+    "chinesesimplified": "<color=#8C5826>◆竞技场挑战规则：</color>\\n※共计6个段位，玩家初始段位为青铜段。\\n※竞技场<color=#BF6ACD>每天UTC00:00~UTC16:00</color>开放。\\n※每次可消耗<color=#BF6ACD>1张「竞技券」</color>，挑选1位匹配到的冒险者进行对战。\\n※优先匹配战斗力相近的冒险者。\\n<color=#8C5826>◆竞技场升降段规则：</color>\\n※<color=#BF6ACD>每周周一UTC6:00~周日UTC20:00</color>，首次进入竞技场时，会按上周日结算的段位排名，匹配段位和分组。\\n※对战胜利者，将会获得<color=#2FA632>增加积分</color>，失败者则会<color=#BF6ACD>扣除积分</color>。\\n※每个赛季结束时，根据每个段位的名次决定升降段位。 \\n<color=#8C5826>【青铜段】：</color> \\n※每<color=#BF6ACD>50人</color>一组\\n※周排名<color=#2FA632>前30%</color>晋级，其余玩家不变\\n<color=#8C5826>【白银段】：</color>\\n※每<color=#BF6ACD>50人</color>一组\\n※周排名<color=#2FA632>前30%</color>晋级，其余玩家不变\\n<color=#8C5826>【黄金段】：</color>\\n※每<color=#BF6ACD>100人</color>一组\\n※周排名<color=#2FA632>前30%</color>晋级，倒数10%降级，其余玩家不变\\n<color=#8C5826>【白金段】：</color>\\n※每<color=#BF6ACD>100人</color>一组\\n※周排名<color=#2FA632>前20%</color>晋级，倒数30%降级，其余玩家不变\\n<color=#8C5826>【钻石段】：</color>\\n※每<color=#BF6ACD>200人</color>一组\\n※周排名<color=#2FA632>前10%</color>晋级，倒数40%降级，其余玩家不变\\n<color=#8C5826>【大师段】：</color>\\n※每<color=#BF6ACD>999999人</color>一组\\n※周排名<color=#2FA632>前50%</color>段位不变，其余玩家降段\\n<color=#8C5826>◆竞技场奖励规则：</color>\\n※每日、每周结算后，将会根据结算时的竞技场排名，发放对应的<color=#2FA632>竞技场奖励邮件</color>"
+  },
+  {
+    "id": "module_desc_julongchaoxue",
+    "chinesesimplified": "◆巨龙巢穴规则：\n※每次消耗1张巨龙巢穴挑战券进行挑战，战斗胜利后将会获得对应的道具奖励\n※每天UTC0:00会刷新2张挑战券，但不可超过额度上限\n※每一关的敌人将会获得不同的强化效果词条\n※可花费挑战券快速扫荡已通过的关卡"
+  },
+  {
+    "id": "module_desc_huanjiankongdao",
+    "chinesesimplified": "◆幻剑空岛规则：\n※每次消耗1张幻剑空岛挑战券进行挑战，战斗胜利后将会获得对应的道具奖励\n※每天UTC0:00会刷新2张挑战券，但不可超过额度上限\n※每一关的敌人将会获得不同的强化效果词条\n※可花费挑战券快速扫荡已通过的关卡\""
+  },
+  {
+    "id": "module_desc_xingjieshu",
+    "chinesesimplified": "◆星界树规则：\n※每次消耗1张星界树挑战券进行挑战，战斗胜利后将会获得对应的道具奖励\n※每天UTC0:00会刷新2张挑战券，但不可超过额度上限\n※每一关的敌人将会获得不同的强化效果词条\n※可花费挑战券快速扫荡已通过的关卡"
+  },
+  {
+    "id": "server_prefix_1",
+    "chinesesimplified": "JP-{0}"
+  },
+  {
+    "id": "server_prefix_2",
+    "chinesesimplified": "KR-{0}"
+  },
+  {
+    "id": "server_prefix_3",
+    "chinesesimplified": "TC-{0}"
+  },
+  {
+    "id": "server_prefix_4",
+    "chinesesimplified": "GL-{0}"
+  },
+  {
+    "id": "skin_name_1003",
+    "chinesesimplified": "桔子桔子"
+  },
+  {
+    "id": "skin_item_3",
+    "chinesesimplified": "桔子桔子头饰"
+  },
+  {
+    "id": "WorldBoss_Rank_Group_21",
+    "chinesesimplified": "新秀1组"
+  },
+  {
+    "id": "WorldBoss_Rank_Group_22",
+    "chinesesimplified": "新秀2组"
+  },
+  {
+    "id": "WorldBoss_Rank_Group_23",
+    "chinesesimplified": "新秀3组"
+  },
+  {
+    "id": "WorldBoss_Rank_Group_31",
+    "chinesesimplified": "勇者1组"
+  },
+  {
+    "id": "WorldBoss_Rank_Group_32",
+    "chinesesimplified": "勇者2组"
+  },
+  {
+    "id": "WorldBoss_Rank_Group_33",
+    "chinesesimplified": "勇者3组"
+  },
+  {
+    "id": "WorldBoss_Rank_Group_41",
+    "chinesesimplified": "英杰1组"
+  },
+  {
+    "id": "WorldBoss_Rank_Group_42",
+    "chinesesimplified": "英杰2组"
+  },
+  {
+    "id": "WorldBoss_Rank_Group_43",
+    "chinesesimplified": "英杰3组"
+  },
+  {
+    "id": "102",
+    "chinesesimplified": "{0}年{1}月{2}日 {3:d2}:{4:d2}:{5:d2}"
+  },
+  {
+    "id": "8801",
+    "chinesesimplified": "会员卡{0}特权"
+  },
+  {
+    "id": "8804",
+    "chinesesimplified": "会员卡{0}"
+  },
+  {
+    "id": "8808",
+    "chinesesimplified": "会员卡等级提升"
+  },
+  {
+    "id": "8811",
+    "chinesesimplified": "会员卡等级不足"
+  },
+  {
+    "id": "8812",
+    "chinesesimplified": "会员卡经验已满"
+  },
+  {
+    "id": "400126",
+    "chinesesimplified": "请输入公会名称或编号"
+  },
+  {
+    "id": "400231",
+    "chinesesimplified": "{0}对首领造成了{1}伤害"
+  },
+  {
+    "id": "113",
+    "chinesesimplified": "zh-CN"
+  },
+  {
+    "id": "monster_entry_des_35",
+    "chinesesimplified": "最后1关出现2个首领。"
+  },
+  {
+    "id": "8810",
+    "chinesesimplified": "新的会员卡专属折扣已解锁,请前往领取！"
+  },
+  {
+    "id": "16077",
+    "chinesesimplified": "对首领伤害"
+  },
+  {
+    "id": "playerinformation_uid",
+    "chinesesimplified": "角色编号"
+  },
+  {
+    "id": "rate_good_info_google",
+    "chinesesimplified": "谢谢您的支持!希望您能为我们评分!"
+  },
+  {
+    "id": "none",
+    "chinesesimplified": "none"
+  },
+  {
+    "id": "unlcok_skill_info",
+    "chinesesimplified": "[SKILL]组合解锁了新的技能"
+  },
+  {
+    "id": "chainpacks_title1",
+    "chinesesimplified": "魔灵献礼1"
+  },
+  {
+    "id": "chainpacks_title2",
+    "chinesesimplified": "魔灵献礼2"
+  },
+  {
+    "id": "server_group_name_50001",
+    "chinesesimplified": "入我豚门"
+  },
+  {
+    "id": "server_group_name_50002",
+    "chinesesimplified": "心宽体胖"
+  },
+  {
+    "id": "server_group_name_50003",
+    "chinesesimplified": "随遇而安"
+  },
+  {
+    "id": "server_group_name_50004",
+    "chinesesimplified": "得过且过"
+  },
+  {
+    "id": "server_group_name_50005",
+    "chinesesimplified": "吃饱就睡"
+  },
+  {
+    "id": "server_group_name_50006",
+    "chinesesimplified": "睡饱就吃"
+  },
+  {
+    "id": "server_group_name_50007",
+    "chinesesimplified": "吃好喝好"
+  },
+  {
+    "id": "server_group_name_50008",
+    "chinesesimplified": "长生不老"
+  },
+  {
+    "id": "server_group_name_50009",
+    "chinesesimplified": "淡定如初"
+  },
+  {
+    "id": "server_group_name_50010",
+    "chinesesimplified": "心如止水"
+  },
+  {
+    "id": "server_group_name_50011",
+    "chinesesimplified": "随心所欲"
+  },
+  {
+    "id": "server_group_name_50012",
+    "chinesesimplified": "自得其乐"
+  },
+  {
+    "id": "server_group_name_50013",
+    "chinesesimplified": "坐看风云"
+  },
+  {
+    "id": "server_group_name_50014",
+    "chinesesimplified": "无欲无求"
+  },
+  {
+    "id": "server_group_name_50015",
+    "chinesesimplified": "好吃好喝"
+  },
+  {
+    "id": "server_group_name_50016",
+    "chinesesimplified": "逍遥自在"
+  },
+  {
+    "id": "server_group_name_50017",
+    "chinesesimplified": "云淡风轻"
+  },
+  {
+    "id": "server_group_name_50018",
+    "chinesesimplified": "无为而治"
+  },
+  {
+    "id": "server_group_name_50019",
+    "chinesesimplified": "自在随心"
+  },
+  {
+    "id": "server_group_name_50020",
+    "chinesesimplified": "不慌不忙"
+  },
+  {
+    "id": "server_group_name_50021",
+    "chinesesimplified": "闲云野鹤"
+  },
+  {
+    "id": "server_group_name_50022",
+    "chinesesimplified": "安然自得"
+  },
+  {
+    "id": "server_group_name_50023",
+    "chinesesimplified": "凑合够用"
+  },
+  {
+    "id": "server_group_name_50024",
+    "chinesesimplified": "淡定淡定"
+  },
+  {
+    "id": "server_group_name_50025",
+    "chinesesimplified": "乐在随缘"
+  },
+  {
+    "id": "server_group_name_50026",
+    "chinesesimplified": "懒懒散散"
+  },
+  {
+    "id": "server_group_name_50027",
+    "chinesesimplified": "无忧无虑"
+  },
+  {
+    "id": "server_group_name_50028",
+    "chinesesimplified": "自在逍遥"
+  },
+  {
+    "id": "server_group_name_50029",
+    "chinesesimplified": "悠游自在"
+  },
+  {
+    "id": "server_group_name_50030",
+    "chinesesimplified": "静观其变"
+  },
+  {
+    "id": "server_group_name_50031",
+    "chinesesimplified": "悠哉悠哉"
+  },
+  {
+    "id": "server_group_name_50032",
+    "chinesesimplified": "从容不迫"
+  },
+  {
+    "id": "server_group_name_50033",
+    "chinesesimplified": "何必计较"
+  },
+  {
+    "id": "server_group_name_50034",
+    "chinesesimplified": "早睡早起"
+  },
+  {
+    "id": "server_group_name_50035",
+    "chinesesimplified": "岁月静好"
+  },
+  {
+    "id": "server_group_name_50036",
+    "chinesesimplified": "水到渠成"
+  },
+  {
+    "id": "server_group_name_50037",
+    "chinesesimplified": "安之若素"
+  },
+  {
+    "id": "server_group_name_50038",
+    "chinesesimplified": "懒得解释"
+  },
+  {
+    "id": "server_group_name_50039",
+    "chinesesimplified": "心旷神怡"
+  },
+  {
+    "id": "server_group_name_50040",
+    "chinesesimplified": "还好都行"
+  },
+  {
+    "id": "server_group_name_50041",
+    "chinesesimplified": "与世无争"
+  },
+  {
+    "id": "server_group_name_50042",
+    "chinesesimplified": "寡欲清心"
+  },
+  {
+    "id": "server_group_name_50043",
+    "chinesesimplified": "波澜不惊"
+  },
+  {
+    "id": "server_group_name_50044",
+    "chinesesimplified": "平心静气"
+  },
+  {
+    "id": "server_group_name_50045",
+    "chinesesimplified": "置之度外"
+  },
+  {
+    "id": "server_group_name_50046",
+    "chinesesimplified": "听天由命"
+  },
+  {
+    "id": "server_group_name_50047",
+    "chinesesimplified": "慢慢悠悠"
+  },
+  {
+    "id": "server_group_name_50048",
+    "chinesesimplified": "随心而动"
+  },
+  {
+    "id": "server_group_name_50049",
+    "chinesesimplified": "虚怀若谷"
+  },
+  {
+    "id": "server_group_name_50050",
+    "chinesesimplified": "不卑不亢"
+  },
+  {
+    "id": "server_group_name_50051",
+    "chinesesimplified": "放空一切"
+  },
+  {
+    "id": "server_group_name_50052",
+    "chinesesimplified": "继续摸鱼"
+  },
+  {
+    "id": "server_group_name_50053",
+    "chinesesimplified": "懒得计较"
+  },
+  {
+    "id": "server_group_name_50054",
+    "chinesesimplified": "自然散漫"
+  },
+  {
+    "id": "server_group_name_50055",
+    "chinesesimplified": "悠然自得"
+  },
+  {
+    "id": "server_group_name_50056",
+    "chinesesimplified": "慢条斯理"
+  },
+  {
+    "id": "server_group_name_50057",
+    "chinesesimplified": "淡然若素"
+  },
+  {
+    "id": "server_group_name_50058",
+    "chinesesimplified": "处之泰然"
+  },
+  {
+    "id": "server_group_name_50059",
+    "chinesesimplified": "淡然若水"
+  },
+  {
+    "id": "server_group_name_50060",
+    "chinesesimplified": "安贫乐道"
+  },
+  {
+    "id": "server_group_name_50061",
+    "chinesesimplified": "宠辱不惊"
+  },
+  {
+    "id": "server_group_name_50062",
+    "chinesesimplified": "泰然自若"
+  },
+  {
+    "id": "server_group_name_50063",
+    "chinesesimplified": "心安理得"
+  },
+  {
+    "id": "server_group_name_50064",
+    "chinesesimplified": "超然脱俗"
+  },
+  {
+    "id": "server_group_name_50065",
+    "chinesesimplified": "淡泊名利"
+  },
+  {
+    "id": "server_group_name_50066",
+    "chinesesimplified": "看破红尘"
+  },
+  {
+    "id": "server_group_name_50067",
+    "chinesesimplified": "返璞归真"
+  },
+  {
+    "id": "server_group_name_50068",
+    "chinesesimplified": "见素抱朴"
+  },
+  {
+    "id": "server_group_name_50069",
+    "chinesesimplified": "悠闲时光"
+  },
+  {
+    "id": "server_group_name_50070",
+    "chinesesimplified": "爱咋咋地"
+  },
+  {
+    "id": "server_group_name_50071",
+    "chinesesimplified": "一切随缘"
+  },
+  {
+    "id": "server_group_name_50072",
+    "chinesesimplified": "道法自然"
+  },
+  {
+    "id": "server_group_name_50073",
+    "chinesesimplified": "恬静自然"
+  },
+  {
+    "id": "server_group_name_50074",
+    "chinesesimplified": "不以物喜"
+  },
+  {
+    "id": "server_group_name_50075",
+    "chinesesimplified": "不以己悲"
+  },
+  {
+    "id": "server_group_name_50076",
+    "chinesesimplified": "懒得动弹"
+  },
+  {
+    "id": "server_group_name_50077",
+    "chinesesimplified": "悠游自若"
+  },
+  {
+    "id": "server_group_name_50078",
+    "chinesesimplified": "和光同尘"
+  },
+  {
+    "id": "server_group_name_50079",
+    "chinesesimplified": "乐天安命"
+  },
+  {
+    "id": "server_group_name_50080",
+    "chinesesimplified": "神清气朗"
+  },
+  {
+    "id": "server_group_name_50081",
+    "chinesesimplified": "远离喧嚣"
+  },
+  {
+    "id": "server_group_name_50082",
+    "chinesesimplified": "清风徐来"
+  },
+  {
+    "id": "server_group_name_50083",
+    "chinesesimplified": "安份守己"
+  },
+  {
+    "id": "server_group_name_50084",
+    "chinesesimplified": "沉默寡言"
+  },
+  {
+    "id": "server_group_name_50085",
+    "chinesesimplified": "知白守黑"
+  },
+  {
+    "id": "server_group_name_50086",
+    "chinesesimplified": "淡泊明志"
+  },
+  {
+    "id": "server_group_name_50087",
+    "chinesesimplified": "默然处之"
+  },
+  {
+    "id": "server_group_name_50088",
+    "chinesesimplified": "随缘慢行"
+  },
+  {
+    "id": "server_group_name_50089",
+    "chinesesimplified": "清闲自在"
+  },
+  {
+    "id": "server_group_name_50090",
+    "chinesesimplified": "独善其身"
+  },
+  {
+    "id": "server_group_name_50091",
+    "chinesesimplified": "无欲无念"
+  },
+  {
+    "id": "server_group_name_50092",
+    "chinesesimplified": "不为所动"
+  },
+  {
+    "id": "server_group_name_50093",
+    "chinesesimplified": "不动声色"
+  },
+  {
+    "id": "server_group_name_50094",
+    "chinesesimplified": "心素如简"
+  },
+  {
+    "id": "server_group_name_50095",
+    "chinesesimplified": "悠哉游哉"
+  },
+  {
+    "id": "server_group_name_50096",
+    "chinesesimplified": "忙里偷闲"
+  },
+  {
+    "id": "server_group_name_50097",
+    "chinesesimplified": "放松随意"
+  },
+  {
+    "id": "server_group_name_50098",
+    "chinesesimplified": "天真自得"
+  },
+  {
+    "id": "server_group_name_50099",
+    "chinesesimplified": "心平气和"
+  },
+  {
+    "id": "server_group_name_50100",
+    "chinesesimplified": "得之淡然"
+  },
+  {
+    "id": "server_group_name_50101",
+    "chinesesimplified": "随波逐流"
+  },
+  {
+    "id": "server_group_name_50102",
+    "chinesesimplified": "心境淡然"
+  },
+  {
+    "id": "server_group_name_50103",
+    "chinesesimplified": "悠然心会"
+  },
+  {
+    "id": "server_group_name_50104",
+    "chinesesimplified": "寂然不动"
+  },
+  {
+    "id": "server_group_name_50105",
+    "chinesesimplified": "一心无忧"
+  },
+  {
+    "id": "server_group_name_50106",
+    "chinesesimplified": "冷眼旁观"
+  },
+  {
+    "id": "server_group_name_50107",
+    "chinesesimplified": "乐天知命"
+  },
+  {
+    "id": "server_group_name_50108",
+    "chinesesimplified": "坐看云起"
+  },
+  {
+    "id": "server_group_name_50109",
+    "chinesesimplified": "清风自来"
+  },
+  {
+    "id": "server_group_name_50110",
+    "chinesesimplified": "清幽自在"
+  },
+  {
+    "id": "server_group_name_50111",
+    "chinesesimplified": "风轻云淡"
+  },
+  {
+    "id": "server_group_name_50112",
+    "chinesesimplified": "悠然自若"
+  },
+  {
+    "id": "server_group_name_50113",
+    "chinesesimplified": "淡定从容"
+  },
+  {
+    "id": "server_group_name_50114",
+    "chinesesimplified": "淡泊宁静"
+  },
+  {
+    "id": "server_group_name_50115",
+    "chinesesimplified": "旷达无忧"
+  },
+  {
+    "id": "server_group_name_50116",
+    "chinesesimplified": "神闲气定"
+  },
+  {
+    "id": "server_group_name_50117",
+    "chinesesimplified": "笑看风云"
+  },
+  {
+    "id": "server_group_name_50118",
+    "chinesesimplified": "逍遥自得"
+  },
+  {
+    "id": "server_group_name_50119",
+    "chinesesimplified": "知足常乐"
+  },
+  {
+    "id": "server_group_name_50120",
+    "chinesesimplified": "心无挂碍"
+  },
+  {
+    "id": "server_group_name_50121",
+    "chinesesimplified": "优游自得"
+  },
+  {
+    "id": "server_group_name_50122",
+    "chinesesimplified": "平和安然"
+  },
+  {
+    "id": "server_group_name_50123",
+    "chinesesimplified": "落花无言"
+  },
+  {
+    "id": "server_group_name_50124",
+    "chinesesimplified": "心如古井"
+  },
+  {
+    "id": "server_group_name_50125",
+    "chinesesimplified": "澄心静气"
+  },
+  {
+    "id": "server_group_name_50126",
+    "chinesesimplified": "闲庭信步"
+  },
+  {
+    "id": "server_group_name_50127",
+    "chinesesimplified": "洒脱自如"
+  },
+  {
+    "id": "server_group_name_50128",
+    "chinesesimplified": "寻幽探静"
+  },
+  {
+    "id": "server_group_name_50129",
+    "chinesesimplified": "随心而行"
+  },
+  {
+    "id": "server_group_name_50130",
+    "chinesesimplified": "优哉游哉"
+  },
+  {
+    "id": "server_group_name_50131",
+    "chinesesimplified": "随性而安"
+  },
+  {
+    "id": "server_group_name_50132",
+    "chinesesimplified": "随风飘然"
+  },
+  {
+    "id": "server_group_name_50133",
+    "chinesesimplified": "莫逆于心"
+  },
+  {
+    "id": "server_group_name_50134",
+    "chinesesimplified": "天地独悠"
+  },
+  {
+    "id": "server_group_name_50135",
+    "chinesesimplified": "谷中悠然"
+  },
+  {
+    "id": "server_group_name_50136",
+    "chinesesimplified": "神游天外"
+  },
+  {
+    "id": "server_group_name_50137",
+    "chinesesimplified": "天高地远"
+  },
+  {
+    "id": "server_group_name_50138",
+    "chinesesimplified": "云水禅心"
+  },
+  {
+    "id": "server_group_name_50139",
+    "chinesesimplified": "洒脱不羁"
+  },
+  {
+    "id": "server_group_name_50140",
+    "chinesesimplified": "一心随缘"
+  },
+  {
+    "id": "server_group_name_50141",
+    "chinesesimplified": "坐观沧海"
+  },
+  {
+    "id": "server_group_name_50142",
+    "chinesesimplified": "万物皆空"
+  },
+  {
+    "id": "server_group_name_50143",
+    "chinesesimplified": "水墨江湖"
+  },
+  {
+    "id": "server_group_name_50144",
+    "chinesesimplified": "轻描淡写"
+  },
+  {
+    "id": "server_group_name_50145",
+    "chinesesimplified": "一任自然"
+  },
+  {
+    "id": "server_group_name_50146",
+    "chinesesimplified": "淡然自若"
+  },
+  {
+    "id": "server_group_name_50147",
+    "chinesesimplified": "逸然自适"
+  },
+  {
+    "id": "server_group_name_50148",
+    "chinesesimplified": "归隐山林"
+  },
+  {
+    "id": "server_group_name_50149",
+    "chinesesimplified": "自适其乐"
+  },
+  {
+    "id": "server_group_name_50150",
+    "chinesesimplified": "游目骋怀"
+  },
+  {
+    "id": "server_group_name_50151",
+    "chinesesimplified": "舒心怡然"
+  },
+  {
+    "id": "server_group_name_50152",
+    "chinesesimplified": "恬淡如水"
+  },
+  {
+    "id": "server_group_name_50153",
+    "chinesesimplified": "悠悠然然"
+  },
+  {
+    "id": "server_group_name_50154",
+    "chinesesimplified": "风过无痕"
+  },
+  {
+    "id": "server_group_name_50155",
+    "chinesesimplified": "安步当车"
+  },
+  {
+    "id": "server_group_name_50156",
+    "chinesesimplified": "逍遥云游"
+  },
+  {
+    "id": "server_group_name_50157",
+    "chinesesimplified": "慧心宁静"
+  },
+  {
+    "id": "server_group_name_50158",
+    "chinesesimplified": "悠然神定"
+  },
+  {
+    "id": "server_group_name_50159",
+    "chinesesimplified": "从容淡定"
+  },
+  {
+    "id": "server_group_name_50160",
+    "chinesesimplified": "抱朴守真"
+  },
+  {
+    "id": "server_group_name_50161",
+    "chinesesimplified": "悠闲自在"
+  },
+  {
+    "id": "server_group_name_50162",
+    "chinesesimplified": "意气悠然"
+  },
+  {
+    "id": "server_group_name_50163",
+    "chinesesimplified": "默然相对"
+  },
+  {
+    "id": "server_group_name_50164",
+    "chinesesimplified": "超然洒脱"
+  },
+  {
+    "id": "server_group_name_50165",
+    "chinesesimplified": "泊心静气"
+  },
+  {
+    "id": "server_group_name_50166",
+    "chinesesimplified": "寂然淡泊"
+  },
+  {
+    "id": "server_group_name_50167",
+    "chinesesimplified": "淡然而行"
+  },
+  {
+    "id": "server_group_name_50168",
+    "chinesesimplified": "风度闲雅"
+  },
+  {
+    "id": "server_group_name_50169",
+    "chinesesimplified": "大隐于世"
+  },
+  {
+    "id": "server_group_name_50170",
+    "chinesesimplified": "心如空谷"
+  },
+  {
+    "id": "server_group_name_50171",
+    "chinesesimplified": "慧心淡然"
+  },
+  {
+    "id": "server_group_name_50172",
+    "chinesesimplified": "淡雅如莲"
+  },
+  {
+    "id": "server_group_name_50173",
+    "chinesesimplified": "无声胜有"
+  },
+  {
+    "id": "server_group_name_50174",
+    "chinesesimplified": "轻松悠然"
+  },
+  {
+    "id": "server_group_name_50175",
+    "chinesesimplified": "自然之道"
+  },
+  {
+    "id": "server_group_name_50176",
+    "chinesesimplified": "流水无声"
+  },
+  {
+    "id": "server_group_name_50177",
+    "chinesesimplified": "恬静自若"
+  },
+  {
+    "id": "server_group_name_50178",
+    "chinesesimplified": "悠游恬淡"
+  },
+  {
+    "id": "server_group_name_50179",
+    "chinesesimplified": "随缘而安"
+  },
+  {
+    "id": "server_group_name_50180",
+    "chinesesimplified": "自在忘忧"
+  },
+  {
+    "id": "server_group_name_50181",
+    "chinesesimplified": "天淡云轻"
+  },
+  {
+    "id": "server_group_name_50182",
+    "chinesesimplified": "淡如清风"
+  },
+  {
+    "id": "server_group_name_50183",
+    "chinesesimplified": "闲适自在"
+  },
+  {
+    "id": "server_group_name_50184",
+    "chinesesimplified": "平和安祥"
+  },
+  {
+    "id": "server_group_name_50185",
+    "chinesesimplified": "闲情逸致"
+  },
+  {
+    "id": "server_group_name_50186",
+    "chinesesimplified": "淡雅高致"
+  },
+  {
+    "id": "server_group_name_50187",
+    "chinesesimplified": "心无尘埃"
+  },
+  {
+    "id": "server_group_name_50188",
+    "chinesesimplified": "清净无为"
+  },
+  {
+    "id": "server_group_name_50189",
+    "chinesesimplified": "心静如水"
+  },
+  {
+    "id": "server_group_name_50190",
+    "chinesesimplified": "超然自逸"
+  },
+  {
+    "id": "server_group_name_50191",
+    "chinesesimplified": "自得其道"
+  },
+  {
+    "id": "server_group_name_50192",
+    "chinesesimplified": "天真烂漫"
+  },
+  {
+    "id": "server_group_name_50193",
+    "chinesesimplified": "悠悠我心"
+  },
+  {
+    "id": "server_group_name_50194",
+    "chinesesimplified": "随缘自适"
+  },
+  {
+    "id": "server_group_name_50195",
+    "chinesesimplified": "心若浮云"
+  },
+  {
+    "id": "server_group_name_50196",
+    "chinesesimplified": "笑看风花"
+  },
+  {
+    "id": "server_group_name_50197",
+    "chinesesimplified": "随喜而行"
+  },
+  {
+    "id": "server_group_name_50198",
+    "chinesesimplified": "悠游天地"
+  },
+  {
+    "id": "server_group_name_50199",
+    "chinesesimplified": "淡定悠然"
+  },
+  {
+    "id": "server_group_name_50200",
+    "chinesesimplified": "超凡脱俗"
+  },
+  {
+    "id": "server_group_name_50201",
+    "chinesesimplified": "乘风归去"
+  },
+  {
+    "id": "server_group_name_50202",
+    "chinesesimplified": "落英缤纷"
+  },
+  {
+    "id": "server_group_name_50203",
+    "chinesesimplified": "闲淡无争"
+  },
+  {
+    "id": "server_group_name_50204",
+    "chinesesimplified": "风轻雾淡"
+  },
+  {
+    "id": "server_group_name_50205",
+    "chinesesimplified": "天高云淡"
+  },
+  {
+    "id": "server_group_name_50206",
+    "chinesesimplified": "洒脱悠然"
+  },
+  {
+    "id": "server_group_name_50207",
+    "chinesesimplified": "澹泊宁静"
+  },
+  {
+    "id": "server_group_name_50208",
+    "chinesesimplified": "心无挂虑"
+  },
+  {
+    "id": "server_group_name_50209",
+    "chinesesimplified": "观云听雨"
+  },
+  {
+    "id": "server_group_name_50210",
+    "chinesesimplified": "悠然忘忧"
+  },
+  {
+    "id": "server_group_name_50211",
+    "chinesesimplified": "澄怀味道"
+  },
+  {
+    "id": "server_group_name_50212",
+    "chinesesimplified": "逍遥江湖"
+  },
+  {
+    "id": "server_group_name_50213",
+    "chinesesimplified": "莫问尘事"
+  },
+  {
+    "id": "server_group_name_50214",
+    "chinesesimplified": "浮云逐月"
+  },
+  {
+    "id": "server_group_name_50215",
+    "chinesesimplified": "恬然无虑"
+  },
+  {
+    "id": "server_group_name_50216",
+    "chinesesimplified": "淡淡微风"
+  },
+  {
+    "id": "server_group_name_50217",
+    "chinesesimplified": "随遇自如"
+  },
+  {
+    "id": "server_group_name_50218",
+    "chinesesimplified": "观海听涛"
+  },
+  {
+    "id": "server_group_name_50219",
+    "chinesesimplified": "岁月从容"
+  },
+  {
+    "id": "server_group_name_50220",
+    "chinesesimplified": "心随云散"
+  },
+  {
+    "id": "server_group_name_50221",
+    "chinesesimplified": "乐天知足"
+  },
+  {
+    "id": "server_group_name_50222",
+    "chinesesimplified": "心无旁骛"
+  },
+  {
+    "id": "server_group_name_50223",
+    "chinesesimplified": "心若冰清"
+  },
+  {
+    "id": "server_group_name_50224",
+    "chinesesimplified": "安乐自在"
+  },
+  {
+    "id": "server_group_name_50225",
+    "chinesesimplified": "淡然宁静"
+  },
+  {
+    "id": "server_group_name_50226",
+    "chinesesimplified": "凡尘无染"
+  },
+  {
+    "id": "server_group_name_50227",
+    "chinesesimplified": "洒脱自在"
+  },
+  {
+    "id": "server_group_name_50228",
+    "chinesesimplified": "自在飘然"
+  },
+  {
+    "id": "server_group_name_50229",
+    "chinesesimplified": "恬静如水"
+  },
+  {
+    "id": "server_group_name_50230",
+    "chinesesimplified": "淡然风轻"
+  },
+  {
+    "id": "server_group_name_50231",
+    "chinesesimplified": "忘却尘劳"
+  },
+  {
+    "id": "server_group_name_50232",
+    "chinesesimplified": "悠游云间"
+  },
+  {
+    "id": "server_group_name_50233",
+    "chinesesimplified": "远离纷争"
+  },
+  {
+    "id": "server_group_name_50234",
+    "chinesesimplified": "恬然自足"
+  },
+  {
+    "id": "server_group_name_50235",
+    "chinesesimplified": "静观天外"
+  },
+  {
+    "id": "server_group_name_50236",
+    "chinesesimplified": "安心怡神"
+  },
+  {
+    "id": "server_group_name_50237",
+    "chinesesimplified": "高远无争"
+  },
+  {
+    "id": "server_group_name_50238",
+    "chinesesimplified": "放浪形骸"
+  },
+  {
+    "id": "server_group_name_50239",
+    "chinesesimplified": "静观世变"
+  },
+  {
+    "id": "server_group_name_50240",
+    "chinesesimplified": "悠闲淡然"
+  },
+  {
+    "id": "server_group_name_50241",
+    "chinesesimplified": "寻幽探胜"
+  },
+  {
+    "id": "server_group_name_50242",
+    "chinesesimplified": "谦和自适"
+  },
+  {
+    "id": "server_group_name_50243",
+    "chinesesimplified": "尽情逍遥"
+  },
+  {
+    "id": "server_group_name_50244",
+    "chinesesimplified": "虚怀自照"
+  },
+  {
+    "id": "server_group_name_50245",
+    "chinesesimplified": "天地自宽"
+  },
+  {
+    "id": "server_group_name_50246",
+    "chinesesimplified": "放任自然"
+  },
+  {
+    "id": "server_group_name_50247",
+    "chinesesimplified": "云影悠悠"
+  },
+  {
+    "id": "server_group_name_50248",
+    "chinesesimplified": "洒然淡然"
+  },
+  {
+    "id": "server_group_name_50249",
+    "chinesesimplified": "悠闲安适"
+  },
+  {
+    "id": "server_group_name_50250",
+    "chinesesimplified": "自在坦然"
+  },
+  {
+    "id": "server_group_name_50251",
+    "chinesesimplified": "舍得从容"
+  },
+  {
+    "id": "server_group_name_50252",
+    "chinesesimplified": "任性逍遥"
+  },
+  {
+    "id": "server_group_name_50253",
+    "chinesesimplified": "清茶淡酒"
+  },
+  {
+    "id": "server_group_name_50254",
+    "chinesesimplified": "云卷云舒"
+  },
+  {
+    "id": "server_group_name_50255",
+    "chinesesimplified": "淡淡人生"
+  },
+  {
+    "id": "server_group_name_50256",
+    "chinesesimplified": "从容优雅"
+  },
+  {
+    "id": "server_group_name_50257",
+    "chinesesimplified": "微风清淡"
+  },
+  {
+    "id": "server_group_name_50258",
+    "chinesesimplified": "幽然悠闲"
+  },
+  {
+    "id": "server_group_name_50259",
+    "chinesesimplified": "寂静无声"
+  },
+  {
+    "id": "server_group_name_50260",
+    "chinesesimplified": "静水流深"
+  },
+  {
+    "id": "server_group_name_50261",
+    "chinesesimplified": "顺其自然"
+  },
+  {
+    "id": "server_group_name_50262",
+    "chinesesimplified": "轻描淡然"
+  },
+  {
+    "id": "server_group_name_50263",
+    "chinesesimplified": "恬淡自然"
+  },
+  {
+    "id": "server_group_name_50264",
+    "chinesesimplified": "清幽淡雅"
+  },
+  {
+    "id": "server_group_name_50265",
+    "chinesesimplified": "安逸自得"
+  },
+  {
+    "id": "server_group_name_50266",
+    "chinesesimplified": "冷眼观潮"
+  },
+  {
+    "id": "server_group_name_50267",
+    "chinesesimplified": "心远志高"
+  },
+  {
+    "id": "server_group_name_50268",
+    "chinesesimplified": "安闲自适"
+  },
+  {
+    "id": "server_group_name_50269",
+    "chinesesimplified": "风轻月朗"
+  },
+  {
+    "id": "server_group_name_50270",
+    "chinesesimplified": "落霞孤鹜"
+  },
+  {
+    "id": "server_group_name_50271",
+    "chinesesimplified": "低调优雅"
+  },
+  {
+    "id": "server_group_name_50272",
+    "chinesesimplified": "优游自在"
+  },
+  {
+    "id": "server_group_name_50273",
+    "chinesesimplified": "淡泊雅致"
+  },
+  {
+    "id": "server_group_name_50274",
+    "chinesesimplified": "自在心宽"
+  },
+  {
+    "id": "server_group_name_50275",
+    "chinesesimplified": "云淡心静"
+  },
+  {
+    "id": "server_group_name_50276",
+    "chinesesimplified": "仙风道骨"
+  },
+  {
+    "id": "server_group_name_50277",
+    "chinesesimplified": "心静意安"
+  },
+  {
+    "id": "server_group_name_50278",
+    "chinesesimplified": "风雅从容"
+  },
+  {
+    "id": "server_group_name_50279",
+    "chinesesimplified": "云水之间"
+  },
+  {
+    "id": "server_group_name_50280",
+    "chinesesimplified": "知行合一"
+  },
+  {
+    "id": "server_group_name_50281",
+    "chinesesimplified": "蓬头垢面"
+  },
+  {
+    "id": "server_group_name_50282",
+    "chinesesimplified": "安然自在"
+  },
+  {
+    "id": "server_group_name_50283",
+    "chinesesimplified": "超然物外"
+  },
+  {
+    "id": "server_group_name_50284",
+    "chinesesimplified": "不拘小节"
+  },
+  {
+    "id": "server_group_name_50285",
+    "chinesesimplified": "笑谈风云"
+  },
+  {
+    "id": "server_group_name_50286",
+    "chinesesimplified": "洒然一笑"
+  },
+  {
+    "id": "server_group_name_50287",
+    "chinesesimplified": "沉静优雅"
+  },
+  {
+    "id": "server_group_name_50288",
+    "chinesesimplified": "清心寡欲"
+  },
+  {
+    "id": "server_group_name_50289",
+    "chinesesimplified": "自在悠然"
+  },
+  {
+    "id": "server_group_name_50290",
+    "chinesesimplified": "遁世离尘"
+  },
+  {
+    "id": "server_group_name_50291",
+    "chinesesimplified": "清澈淡然"
+  },
+  {
+    "id": "server_group_name_50292",
+    "chinesesimplified": "不争不竞"
+  },
+  {
+    "id": "server_group_name_50293",
+    "chinesesimplified": "悠然岁月"
+  },
+  {
+    "id": "server_group_name_50294",
+    "chinesesimplified": "平淡无奇"
+  },
+  {
+    "id": "server_group_name_50295",
+    "chinesesimplified": "静候佳音"
+  },
+  {
+    "id": "server_group_name_50296",
+    "chinesesimplified": "恬然无争"
+  },
+  {
+    "id": "server_group_name_50297",
+    "chinesesimplified": "自成一体"
+  },
+  {
+    "id": "server_group_name_50298",
+    "chinesesimplified": "淡然行止"
+  },
+  {
+    "id": "server_group_name_50299",
+    "chinesesimplified": "潇洒不羁"
+  },
+  {
+    "id": "server_group_name_50300",
+    "chinesesimplified": "自在之心"
+  },
+  {
+    "id": "server_group_name_50301",
+    "chinesesimplified": "悠然远行"
+  },
+  {
+    "id": "server_group_name_50302",
+    "chinesesimplified": "目送归鸿"
+  },
+  {
+    "id": "server_group_name_50303",
+    "chinesesimplified": "平心静神"
+  },
+  {
+    "id": "server_group_name_50304",
+    "chinesesimplified": "心远地宽"
+  },
+  {
+    "id": "server_group_name_50305",
+    "chinesesimplified": "从容度日"
+  },
+  {
+    "id": "server_group_name_50306",
+    "chinesesimplified": "默然微笑"
+  },
+  {
+    "id": "server_group_name_50307",
+    "chinesesimplified": "心态悠然"
+  },
+  {
+    "id": "server_group_name_50308",
+    "chinesesimplified": "春和景明"
+  },
+  {
+    "id": "server_group_name_50309",
+    "chinesesimplified": "神闲心定"
+  },
+  {
+    "id": "server_group_name_50310",
+    "chinesesimplified": "心静如止"
+  },
+  {
+    "id": "server_group_name_50311",
+    "chinesesimplified": "遗世独立"
+  },
+  {
+    "id": "server_group_name_50312",
+    "chinesesimplified": "淡然自如"
+  },
+  {
+    "id": "server_group_name_50313",
+    "chinesesimplified": "心无旁求"
+  },
+  {
+    "id": "server_group_name_50314",
+    "chinesesimplified": "安适恬淡"
+  },
+  {
+    "id": "server_group_name_50315",
+    "chinesesimplified": "如履平地"
+  },
+  {
+    "id": "server_group_name_50316",
+    "chinesesimplified": "云淡心闲"
+  },
+  {
+    "id": "server_group_name_50317",
+    "chinesesimplified": "淡如水莲"
+  },
+  {
+    "id": "server_group_name_50318",
+    "chinesesimplified": "谦恭淡泊"
+  },
+  {
+    "id": "server_group_name_50319",
+    "chinesesimplified": "洒然自得"
+  },
+  {
+    "id": "server_group_name_50320",
+    "chinesesimplified": "心安体闲"
+  },
+  {
+    "id": "server_group_name_50321",
+    "chinesesimplified": "不骛于俗"
+  },
+  {
+    "id": "server_group_name_50322",
+    "chinesesimplified": "任性随心"
+  },
+  {
+    "id": "server_group_name_50323",
+    "chinesesimplified": "不逐俗流"
+  },
+  {
+    "id": "server_group_name_50324",
+    "chinesesimplified": "云端散步"
+  },
+  {
+    "id": "server_group_name_50325",
+    "chinesesimplified": "静谧悠然"
+  },
+  {
+    "id": "server_group_name_50326",
+    "chinesesimplified": "轻风徐来"
+  },
+  {
+    "id": "server_group_name_50327",
+    "chinesesimplified": "悠然忘返"
+  },
+  {
+    "id": "server_group_name_50328",
+    "chinesesimplified": "心无旁物"
+  },
+  {
+    "id": "server_group_name_50329",
+    "chinesesimplified": "天高水远"
+  },
+  {
+    "id": "server_group_name_50330",
+    "chinesesimplified": "微然含笑"
+  },
+  {
+    "id": "server_group_name_50331",
+    "chinesesimplified": "闲看水月"
+  },
+  {
+    "id": "server_group_name_50332",
+    "chinesesimplified": "安闲无忧"
+  },
+  {
+    "id": "server_group_name_50333",
+    "chinesesimplified": "心远求静"
+  },
+  {
+    "id": "server_group_name_50334",
+    "chinesesimplified": "自然本真"
+  },
+  {
+    "id": "server_group_name_50335",
+    "chinesesimplified": "自在无为"
+  },
+  {
+    "id": "server_group_name_50336",
+    "chinesesimplified": "飘然物外"
+  },
+  {
+    "id": "server_group_name_50337",
+    "chinesesimplified": "万象归心"
+  },
+  {
+    "id": "server_group_name_50338",
+    "chinesesimplified": "超然淡定"
+  },
+  {
+    "id": "server_group_name_50339",
+    "chinesesimplified": "寂然自得"
+  },
+  {
+    "id": "server_group_name_50340",
+    "chinesesimplified": "云游四方"
+  },
+  {
+    "id": "server_group_name_50341",
+    "chinesesimplified": "笑傲风雨"
+  },
+  {
+    "id": "server_group_name_50342",
+    "chinesesimplified": "潇洒度日"
+  },
+  {
+    "id": "server_group_name_50343",
+    "chinesesimplified": "洒脱人生"
+  },
+  {
+    "id": "server_group_name_50344",
+    "chinesesimplified": "恬淡无欲"
+  },
+  {
+    "id": "server_group_name_50345",
+    "chinesesimplified": "乐在清闲"
+  },
+  {
+    "id": "server_group_name_50346",
+    "chinesesimplified": "悠然怡神"
+  },
+  {
+    "id": "server_group_name_50347",
+    "chinesesimplified": "高风亮节"
+  },
+  {
+    "id": "server_group_name_50348",
+    "chinesesimplified": "心之所适"
+  },
+  {
+    "id": "server_group_name_50349",
+    "chinesesimplified": "随性淡然"
+  },
+  {
+    "id": "server_group_name_50350",
+    "chinesesimplified": "一心宁静"
+  },
+  {
+    "id": "server_group_name_50351",
+    "chinesesimplified": "目送流云"
+  },
+  {
+    "id": "server_group_name_50352",
+    "chinesesimplified": "恬然安然"
+  },
+  {
+    "id": "server_group_name_50353",
+    "chinesesimplified": "淡然风度"
+  },
+  {
+    "id": "server_group_name_50354",
+    "chinesesimplified": "悠然自乐"
+  },
+  {
+    "id": "server_group_name_50355",
+    "chinesesimplified": "听风观雨"
+  },
+  {
+    "id": "server_group_name_50356",
+    "chinesesimplified": "淡然一生"
+  },
+  {
+    "id": "server_group_name_50357",
+    "chinesesimplified": "心灵平和"
+  },
+  {
+    "id": "server_group_name_50358",
+    "chinesesimplified": "世外桃源"
+  },
+  {
+    "id": "server_group_name_50359",
+    "chinesesimplified": "乘风弄月"
+  },
+  {
+    "id": "server_group_name_50360",
+    "chinesesimplified": "云山雾绕"
+  },
+  {
+    "id": "server_group_name_50361",
+    "chinesesimplified": "静谧如月"
+  },
+  {
+    "id": "server_group_name_50362",
+    "chinesesimplified": "心广体胖"
+  },
+  {
+    "id": "server_group_name_50363",
+    "chinesesimplified": "气定神闲"
+  },
+  {
+    "id": "server_group_name_50364",
+    "chinesesimplified": "淡然无忧"
+  },
+  {
+    "id": "server_group_name_50365",
+    "chinesesimplified": "淡雅如菊"
+  },
+  {
+    "id": "server_group_name_50366",
+    "chinesesimplified": "云水悠悠"
+  },
+  {
+    "id": "server_group_name_50367",
+    "chinesesimplified": "潇洒自如"
+  },
+  {
+    "id": "server_group_name_50368",
+    "chinesesimplified": "悠然自适"
+  },
+  {
+    "id": "server_group_name_50369",
+    "chinesesimplified": "淡定无忧"
+  },
+  {
+    "id": "server_group_name_50370",
+    "chinesesimplified": "从善如流"
+  },
+  {
+    "id": "server_group_name_50371",
+    "chinesesimplified": "淡泊清雅"
+  },
+  {
+    "id": "server_group_name_50372",
+    "chinesesimplified": "忘机忘情"
+  },
+  {
+    "id": "server_group_name_50373",
+    "chinesesimplified": "心清如水"
+  },
+  {
+    "id": "server_group_name_50374",
+    "chinesesimplified": "内外兼修"
+  },
+  {
+    "id": "server_group_name_50375",
+    "chinesesimplified": "逍遥心境"
+  },
+  {
+    "id": "server_group_name_50376",
+    "chinesesimplified": "云淡日暖"
+  },
+  {
+    "id": "server_group_name_50377",
+    "chinesesimplified": "从容淡泊"
+  },
+  {
+    "id": "server_group_name_50378",
+    "chinesesimplified": "古道热肠"
+  },
+  {
+    "id": "server_group_name_50379",
+    "chinesesimplified": "心宽似海"
+  },
+  {
+    "id": "server_group_name_50380",
+    "chinesesimplified": "清清浅浅"
+  },
+  {
+    "id": "server_group_name_50381",
+    "chinesesimplified": "情真意切"
+  },
+  {
+    "id": "server_group_name_50382",
+    "chinesesimplified": "浩然之气"
+  },
+  {
+    "id": "server_group_name_50383",
+    "chinesesimplified": "温文尔雅"
+  },
+  {
+    "id": "server_group_name_50384",
+    "chinesesimplified": "以德报怨"
+  },
+  {
+    "id": "server_group_name_50385",
+    "chinesesimplified": "德才兼备"
+  },
+  {
+    "id": "server_group_name_50386",
+    "chinesesimplified": "宁静致远"
+  },
+  {
+    "id": "server_group_name_50387",
+    "chinesesimplified": "乐善好施"
+  },
+  {
+    "id": "server_group_name_50388",
+    "chinesesimplified": "淡然心境"
+  },
+  {
+    "id": "server_group_name_50389",
+    "chinesesimplified": "心怀宽广"
+  },
+  {
+    "id": "server_group_name_50390",
+    "chinesesimplified": "平和温雅"
+  },
+  {
+    "id": "server_group_name_50391",
+    "chinesesimplified": "淡泊寡欲"
+  },
+  {
+    "id": "server_group_name_50392",
+    "chinesesimplified": "仁者无敌"
+  },
+  {
+    "id": "server_group_name_50393",
+    "chinesesimplified": "安分守己"
+  },
+  {
+    "id": "server_group_name_50394",
+    "chinesesimplified": "谦虚谨慎"
+  },
+  {
+    "id": "server_group_name_50395",
+    "chinesesimplified": "抱朴守静"
+  },
+  {
+    "id": "server_group_name_50396",
+    "chinesesimplified": "恬然若水"
+  },
+  {
+    "id": "server_group_name_50397",
+    "chinesesimplified": "含英咀华"
+  },
+  {
+    "id": "server_group_name_50398",
+    "chinesesimplified": "幽然自得"
+  },
+  {
+    "id": "server_group_name_50399",
+    "chinesesimplified": "德艺双馨"
+  },
+  {
+    "id": "server_group_name_50400",
+    "chinesesimplified": "心若无尘"
+  },
+  {
+    "id": "server_group_name_50401",
+    "chinesesimplified": "修身养性"
+  },
+  {
+    "id": "server_group_name_50402",
+    "chinesesimplified": "仁爱之心"
+  },
+  {
+    "id": "server_group_name_50403",
+    "chinesesimplified": "至诚至真"
+  },
+  {
+    "id": "server_group_name_50404",
+    "chinesesimplified": "温故知新"
+  },
+  {
+    "id": "server_group_name_50405",
+    "chinesesimplified": "清静无为"
+  },
+  {
+    "id": "server_group_name_50406",
+    "chinesesimplified": "志存高远"
+  },
+  {
+    "id": "server_group_name_50407",
+    "chinesesimplified": "正大光明"
+  },
+  {
+    "id": "server_group_name_50408",
+    "chinesesimplified": "心神宁静"
+  },
+  {
+    "id": "server_group_name_50409",
+    "chinesesimplified": "慎独自持"
+  },
+  {
+    "id": "server_group_name_50410",
+    "chinesesimplified": "纯净自持"
+  },
+  {
+    "id": "server_group_name_50411",
+    "chinesesimplified": "心如秋水"
+  },
+  {
+    "id": "server_group_name_50412",
+    "chinesesimplified": "清风明月"
+  },
+  {
+    "id": "server_group_name_50413",
+    "chinesesimplified": "情深意重"
+  },
+  {
+    "id": "server_group_name_50414",
+    "chinesesimplified": "心有灵犀"
+  },
+  {
+    "id": "server_group_name_50415",
+    "chinesesimplified": "仪态端庄"
+  },
+  {
+    "id": "server_group_name_50416",
+    "chinesesimplified": "平和自信"
+  },
+  {
+    "id": "server_group_name_50417",
+    "chinesesimplified": "心若止水"
+  },
+  {
+    "id": "server_group_name_50418",
+    "chinesesimplified": "一尘不染"
+  },
+  {
+    "id": "server_group_name_50419",
+    "chinesesimplified": "旷达乐观"
+  },
+  {
+    "id": "server_group_name_50420",
+    "chinesesimplified": "内心宁静"
+  },
+  {
+    "id": "server_group_name_50421",
+    "chinesesimplified": "心中有爱"
+  },
+  {
+    "id": "server_group_name_50422",
+    "chinesesimplified": "至诚至善"
+  },
+  {
+    "id": "server_group_name_50423",
+    "chinesesimplified": "谦恭礼让"
+  },
+  {
+    "id": "server_group_name_50424",
+    "chinesesimplified": "德高望重"
+  },
+  {
+    "id": "server_group_name_50425",
+    "chinesesimplified": "思无邪念"
+  },
+  {
+    "id": "server_group_name_50426",
+    "chinesesimplified": "云水谣言"
+  },
+  {
+    "id": "server_group_name_50427",
+    "chinesesimplified": "仁德博爱"
+  },
+  {
+    "id": "server_group_name_50428",
+    "chinesesimplified": "心怀坦荡"
+  },
+  {
+    "id": "server_group_name_50429",
+    "chinesesimplified": "潇洒如风"
+  },
+  {
+    "id": "server_group_name_50430",
+    "chinesesimplified": "安然自适"
+  },
+  {
+    "id": "server_group_name_50431",
+    "chinesesimplified": "文质彬彬"
+  },
+  {
+    "id": "server_group_name_50432",
+    "chinesesimplified": "高洁清雅"
+  },
+  {
+    "id": "server_group_name_50433",
+    "chinesesimplified": "一生无悔"
+  },
+  {
+    "id": "server_group_name_50434",
+    "chinesesimplified": "端庄优雅"
+  },
+  {
+    "id": "server_group_name_50435",
+    "chinesesimplified": "澄清寰宇"
+  },
+  {
+    "id": "server_group_name_50436",
+    "chinesesimplified": "慷慨大方"
+  },
+  {
+    "id": "server_group_name_50437",
+    "chinesesimplified": "以诚待人"
+  },
+  {
+    "id": "server_group_name_50438",
+    "chinesesimplified": "大道之行"
+  },
+  {
+    "id": "server_group_name_50439",
+    "chinesesimplified": "雅量高致"
+  },
+  {
+    "id": "server_group_name_50440",
+    "chinesesimplified": "光明磊落"
+  },
+  {
+    "id": "server_group_name_50441",
+    "chinesesimplified": "温厚纯良"
+  },
+  {
+    "id": "server_group_name_50442",
+    "chinesesimplified": "谦和安然"
+  },
+  {
+    "id": "server_group_name_50443",
+    "chinesesimplified": "德容兼备"
+  },
+  {
+    "id": "server_group_name_50444",
+    "chinesesimplified": "无私无畏"
+  },
+  {
+    "id": "server_group_name_50445",
+    "chinesesimplified": "胸怀大志"
+  },
+  {
+    "id": "server_group_name_50446",
+    "chinesesimplified": "内心充实"
+  },
+  {
+    "id": "server_group_name_50447",
+    "chinesesimplified": "志在千里"
+  },
+  {
+    "id": "server_group_name_50448",
+    "chinesesimplified": "心胸广阔"
+  },
+  {
+    "id": "server_group_name_50449",
+    "chinesesimplified": "君子之道"
+  },
+  {
+    "id": "server_group_name_50450",
+    "chinesesimplified": "雅量大度"
+  },
+  {
+    "id": "server_group_name_50451",
+    "chinesesimplified": "与世无求"
+  },
+  {
+    "id": "server_group_name_50452",
+    "chinesesimplified": "心旷怡然"
+  },
+  {
+    "id": "server_group_name_50453",
+    "chinesesimplified": "明心见性"
+  },
+  {
+    "id": "server_group_name_50454",
+    "chinesesimplified": "恬淡虚无"
+  },
+  {
+    "id": "server_group_name_50455",
+    "chinesesimplified": "风骨清扬"
+  },
+  {
+    "id": "server_group_name_50456",
+    "chinesesimplified": "恬然自乐"
+  },
+  {
+    "id": "server_group_name_50457",
+    "chinesesimplified": "神采奕奕"
+  },
+  {
+    "id": "server_group_name_50458",
+    "chinesesimplified": "性情中人"
+  },
+  {
+    "id": "server_group_name_50459",
+    "chinesesimplified": "不拘一格"
+  },
+  {
+    "id": "server_group_name_50460",
+    "chinesesimplified": "落落大方"
+  },
+  {
+    "id": "server_group_name_50461",
+    "chinesesimplified": "适情率性"
+  },
+  {
+    "id": "server_group_name_50462",
+    "chinesesimplified": "顺心随缘"
+  },
+  {
+    "id": "server_group_name_50463",
+    "chinesesimplified": "仁心义胆"
+  },
+  {
+    "id": "server_group_name_50464",
+    "chinesesimplified": "度量宏大"
+  },
+  {
+    "id": "server_group_name_50465",
+    "chinesesimplified": "古井无波"
+  },
+  {
+    "id": "server_group_name_50466",
+    "chinesesimplified": "澄怀观道"
+  },
+  {
+    "id": "server_group_name_50467",
+    "chinesesimplified": "宁静和谐"
+  },
+  {
+    "id": "server_group_name_50468",
+    "chinesesimplified": "宽宏大量"
+  },
+  {
+    "id": "server_group_name_50469",
+    "chinesesimplified": "安分守道"
+  },
+  {
+    "id": "server_group_name_50470",
+    "chinesesimplified": "心无烦扰"
+  },
+  {
+    "id": "server_group_name_50471",
+    "chinesesimplified": "宽以待人"
+  },
+  {
+    "id": "server_group_name_50472",
+    "chinesesimplified": "行云如水"
+  },
+  {
+    "id": "server_group_name_50473",
+    "chinesesimplified": "自得之境"
+  },
+  {
+    "id": "server_group_name_50474",
+    "chinesesimplified": "行止自若"
+  },
+  {
+    "id": "server_group_name_50475",
+    "chinesesimplified": "如水之容"
+  },
+  {
+    "id": "server_group_name_50476",
+    "chinesesimplified": "真诚厚道"
+  },
+  {
+    "id": "server_group_name_50477",
+    "chinesesimplified": "雍容自若"
+  },
+  {
+    "id": "server_group_name_50478",
+    "chinesesimplified": "淡然处之"
+  },
+  {
+    "id": "server_group_name_50479",
+    "chinesesimplified": "安然自若"
+  },
+  {
+    "id": "server_group_name_50480",
+    "chinesesimplified": "清白之心"
+  },
+  {
+    "id": "server_group_name_50481",
+    "chinesesimplified": "端庄大方"
+  },
+  {
+    "id": "server_group_name_50482",
+    "chinesesimplified": "虚怀若虚"
+  },
+  {
+    "id": "server_group_name_50483",
+    "chinesesimplified": "容与正道"
+  },
+  {
+    "id": "server_group_name_50484",
+    "chinesesimplified": "洁身自持"
+  },
+  {
+    "id": "server_group_name_50485",
+    "chinesesimplified": "寄情山水"
+  },
+  {
+    "id": "server_group_name_50486",
+    "chinesesimplified": "心灵宁静"
+  },
+  {
+    "id": "server_group_name_50487",
+    "chinesesimplified": "不事张扬"
+  },
+  {
+    "id": "server_group_name_50488",
+    "chinesesimplified": "温润如玉"
+  },
+  {
+    "id": "server_group_name_50489",
+    "chinesesimplified": "淡泊寡欢"
+  },
+  {
+    "id": "server_group_name_50490",
+    "chinesesimplified": "和气致祥"
+  },
+  {
+    "id": "server_group_name_50491",
+    "chinesesimplified": "心宽气和"
+  },
+  {
+    "id": "server_group_name_50492",
+    "chinesesimplified": "谦逊有礼"
+  },
+  {
+    "id": "server_group_name_50493",
+    "chinesesimplified": "恬静优雅"
+  },
+  {
+    "id": "server_group_name_50494",
+    "chinesesimplified": "大智若愚"
+  },
+  {
+    "id": "server_group_name_50495",
+    "chinesesimplified": "内心祥和"
+  },
+  {
+    "id": "server_group_name_50496",
+    "chinesesimplified": "忠厚仁爱"
+  },
+  {
+    "id": "server_group_name_50497",
+    "chinesesimplified": "恬淡无忧"
+  },
+  {
+    "id": "server_group_name_50498",
+    "chinesesimplified": "光风霁月"
+  },
+  {
+    "id": "server_group_name_50499",
+    "chinesesimplified": "宁心安神"
+  },
+  {
+    "id": "server_group_name_50500",
+    "chinesesimplified": "德馨流芳"
+  },
+  {
+    "id": "server_group_name_50501",
+    "chinesesimplified": "忘情绝欲"
+  },
+  {
+    "id": "server_group_name_50502",
+    "chinesesimplified": "神闲意定"
+  },
+  {
+    "id": "server_group_name_50503",
+    "chinesesimplified": "行云流水"
+  },
+  {
+    "id": "server_group_name_50504",
+    "chinesesimplified": "安稳平和"
+  },
+  {
+    "id": "server_group_name_50505",
+    "chinesesimplified": "笑口常开"
+  },
+  {
+    "id": "server_group_name_50506",
+    "chinesesimplified": "无忧无惧"
+  },
+  {
+    "id": "server_group_name_50507",
+    "chinesesimplified": "忠厚宽容"
+  },
+  {
+    "id": "server_group_name_50508",
+    "chinesesimplified": "风度翩翩"
+  },
+  {
+    "id": "server_group_name_50509",
+    "chinesesimplified": "仁厚宽容"
+  },
+  {
+    "id": "server_group_name_50510",
+    "chinesesimplified": "洁身自好"
+  },
+  {
+    "id": "server_group_name_50511",
+    "chinesesimplified": "一心不乱"
+  },
+  {
+    "id": "server_group_name_50512",
+    "chinesesimplified": "君子之交"
+  },
+  {
+    "id": "server_group_name_50513",
+    "chinesesimplified": "心无杂念"
+  },
+  {
+    "id": "server_group_name_50514",
+    "chinesesimplified": "谦和自持"
+  },
+  {
+    "id": "server_group_name_50515",
+    "chinesesimplified": "淡然处世"
+  },
+  {
+    "id": "server_group_name_50516",
+    "chinesesimplified": "以德服人"
+  },
+  {
+    "id": "server_group_name_50517",
+    "chinesesimplified": "诚实守信"
+  },
+  {
+    "id": "server_group_name_50518",
+    "chinesesimplified": "礼让谦恭"
+  },
+  {
+    "id": "server_group_name_50519",
+    "chinesesimplified": "至纯至净"
+  },
+  {
+    "id": "server_group_name_50520",
+    "chinesesimplified": "平易近人"
+  },
+  {
+    "id": "server_group_name_50521",
+    "chinesesimplified": "心灵纯净"
+  },
+  {
+    "id": "server_group_name_50522",
+    "chinesesimplified": "不争名利"
+  },
+  {
+    "id": "server_group_name_50523",
+    "chinesesimplified": "静以修身"
+  },
+  {
+    "id": "server_group_name_50524",
+    "chinesesimplified": "行止端正"
+  },
+  {
+    "id": "server_group_name_50525",
+    "chinesesimplified": "慈悲为怀"
+  },
+  {
+    "id": "server_group_name_50526",
+    "chinesesimplified": "风度庄重"
+  },
+  {
+    "id": "server_group_name_50527",
+    "chinesesimplified": "内敛沉稳"
+  },
+  {
+    "id": "server_group_name_50528",
+    "chinesesimplified": "厚德载物"
+  },
+  {
+    "id": "server_group_name_50529",
+    "chinesesimplified": "思无邪恶"
+  },
+  {
+    "id": "server_group_name_50530",
+    "chinesesimplified": "雅人深致"
+  },
+  {
+    "id": "server_group_name_50531",
+    "chinesesimplified": "仁心仁德"
+  },
+  {
+    "id": "server_group_name_50532",
+    "chinesesimplified": "自然天成"
+  },
+  {
+    "id": "server_group_name_50533",
+    "chinesesimplified": "德高行远"
+  },
+  {
+    "id": "server_err_321088",
+    "chinesesimplified": "今日抽取次数已达上限"
+  },
+  {
+    "id": "limit_dec_4",
+    "chinesesimplified": "每次抽取<color=#D672FE>S装备</color>时，<color=#D672FE>必得</color>当期<color=#D672FE>UP装备</color>！！"
+  },
+  {
+    "id": "frame_desc_2011",
+    "chinesesimplified": "活动获取"
+  },
+  {
+    "id": "selfinfomation_btn_gameclub",
+    "chinesesimplified": "游戏圈"
+  },
+  {
+    "id": "uiOfficialAccount_title",
+    "chinesesimplified": "关注公众号"
+  },
+  {
+    "id": "uiOfficialAccount_constract",
+    "chinesesimplified": "关注公众号以联系我们"
+  },
+  {
+    "id": "uiOfficialAccount_copy",
+    "chinesesimplified": "复制公众号"
+  },
+  {
+    "id": "item_desc_1201",
+    "chinesesimplified": "用于在丰收寻宝中抽取奖励"
+  },
+  {
+    "id": "module_name_400",
+    "chinesesimplified": "丰收寻宝规则"
+  },
+  {
+    "id": "avatar_name_1012",
+    "chinesesimplified": "愉悦丰收"
+  },
+  {
+    "id": "frame_name_2012",
+    "chinesesimplified": "丰收庆典"
+  },
+  {
+    "id": "avatar_desc_1015",
+    "chinesesimplified": "丰收庆典活动获得"
+  },
+  {
+    "id": "frame_desc_2012",
+    "chinesesimplified": "丰收庆典活动获取"
+  },
+  {
+    "id": "skin_name_1020",
+    "chinesesimplified": "丰收鸡"
+  },
+  {
+    "id": "skin_desc_1020",
+    "chinesesimplified": "丰收庆典活动获得"
+  },
+  {
+    "id": "avatar_item_31",
+    "chinesesimplified": "愉悦丰收头像"
+  },
+  {
+    "id": "frame_item_12",
+    "chinesesimplified": "丰收庆典头像框"
+  },
+  {
+    "id": "skin_item_20",
+    "chinesesimplified": "丰收鸡时装"
+  },
+  {
+    "id": "HolidayFeast_Tanks_EntryName",
+    "chinesesimplified": "丰收庆典"
+  },
+  {
+    "id": "Feast_Title_Thanks",
+    "chinesesimplified": "丰收庆典"
+  },
+  {
+    "id": "Feast_HelperTitle_Thanks",
+    "chinesesimplified": "丰收庆典规则"
+  },
+  {
+    "id": "server_err_103",
+    "chinesesimplified": "参数异常（103）"
+  },
+  {
+    "id": "server_err_117",
+    "chinesesimplified": "结算奖励异常，涉嫌作弊"
+  },
+  {
+    "id": "server_err_125",
+    "chinesesimplified": "昵称长度异常"
+  },
+  {
+    "id": "server_err_126",
+    "chinesesimplified": "请使用其他昵称"
+  },
+  {
+    "id": "server_err_310001",
+    "chinesesimplified": "参数异常（310001）"
+  },
+  {
+    "id": "TalentLegacySummon_FullBallSummonTip_CN",
+    "chinesesimplified": "每1抽同时获得320金币"
+  }
+]

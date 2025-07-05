@@ -1,0 +1,6718 @@
+[
+  {
+    "id": 1,
+    "nameId": "Mythic_Floor_Name_1",
+    "desId": [
+      "Mythic_Drop_Desc_1"
+    ],
+    "probabilitiesStr": [
+      "Mythic_Rate_1"
+    ],
+    "speedBoxRound": 60,
+    "speedBoxDropID": 8001,
+    "fightFeaturePre": 0,
+    "fightFeatureAll": [],
+    "dropPre": [
+      "107",
+      "gem_white",
+      "105",
+      "item_frame_1",
+      "Mythic_Drop_Name_1",
+      "Mythic_Drop_Desc_1"
+    ],
+    "dropAll": [
+      8101
+    ],
+    "maxRound": 120,
+    "progress": 1000,
+    "normalDropLimit": 2,
+    "normalDropID": 41001,
+    "normalBossDropLimit": 2,
+    "normalBossDropId": 41201,
+    "bossDropID": 41401,
+    "curseBoxDropID": 41801,
+    "bossLevelEventID": 5001,
+    "attributes": "Attack%=159797|HPMax%=666353",
+    "normalBattleAttr": "Attack%=0|HPMax%=-25|IgnoreMiss%=3|ControlImmunity%=6|DamageAdd%=0",
+    "eliteBattleAttr": "Attack%=0|HPMax%=-10|IgnoreMiss%=4|ControlImmunity%=9|DamageAdd%=0",
+    "bossBattleAttr": "Attack%=0|HPMax%=0|IgnoreMiss%=4|ControlImmunity%=9|DamageAdd%=0",
+    "mapId": 2001,
+    "campEventPointId": 10217,
+    "campOffset": [
+      0,
+      5.6
+    ],
+    "jumpPower": -1,
+    "speedAdd": 8000
+  },
+  {
+    "id": 2,
+    "nameId": "Mythic_Floor_Name_2",
+    "desId": [
+      "Mythic_Drop_Desc_2"
+    ],
+    "probabilitiesStr": [
+      "Mythic_Rate_2"
+    ],
+    "speedBoxRound": 60,
+    "speedBoxDropID": 8002,
+    "fightFeaturePre": 0,
+    "fightFeatureAll": [],
+    "dropPre": [
+      "107",
+      "gem_green",
+      "105",
+      "item_frame_2",
+      "Mythic_Drop_Name_2",
+      "Mythic_Drop_Desc_2"
+    ],
+    "dropAll": [
+      8102
+    ],
+    "maxRound": 120,
+    "progress": 1000,
+    "normalDropLimit": 2,
+    "normalDropID": 41002,
+    "normalBossDropLimit": 2,
+    "normalBossDropId": 41202,
+    "bossDropID": 41402,
+    "curseBoxDropID": 41802,
+    "bossLevelEventID": 5002,
+    "attributes": "Attack%=181368|HPMax%=770815",
+    "normalBattleAttr": "Attack%=0|HPMax%=-25|IgnoreMiss%=3|ControlImmunity%=6|DamageAdd%=0",
+    "eliteBattleAttr": "Attack%=0|HPMax%=-10|IgnoreMiss%=4|ControlImmunity%=9|DamageAdd%=0",
+    "bossBattleAttr": "Attack%=0|HPMax%=0|IgnoreMiss%=4|ControlImmunity%=9|DamageAdd%=0",
+    "mapId": 2002,
+    "campEventPointId": 19117,
+    "campOffset": [
+      0,
+      5.6
+    ],
+    "jumpPower": -1,
+    "speedAdd": 8000
+  },
+  {
+    "id": 3,
+    "nameId": "Mythic_Floor_Name_3",
+    "desId": [
+      "Mythic_Des_1_3"
+    ],
+    "probabilitiesStr": [
+      "Mythic_Rate_3"
+    ],
+    "speedBoxRound": 60,
+    "speedBoxDropID": 8011,
+    "fightFeaturePre": 0,
+    "fightFeatureAll": [],
+    "dropPre": [],
+    "dropAll": [
+      8102
+    ],
+    "maxRound": 120,
+    "progress": 1000,
+    "normalDropLimit": 2,
+    "normalDropID": 41003,
+    "normalBossDropLimit": 2,
+    "normalBossDropId": 41203,
+    "bossDropID": 41403,
+    "curseBoxDropID": 41803,
+    "bossLevelEventID": 5003,
+    "attributes": "Attack%=210564|HPMax%=911742",
+    "normalBattleAttr": "Attack%=0|HPMax%=-25|IgnoreMiss%=3|ControlImmunity%=6|DamageAdd%=0",
+    "eliteBattleAttr": "Attack%=0|HPMax%=-10|IgnoreMiss%=4|ControlImmunity%=9|DamageAdd%=0",
+    "bossBattleAttr": "Attack%=0|HPMax%=0|IgnoreMiss%=4|ControlImmunity%=9|DamageAdd%=0",
+    "mapId": 2003,
+    "campEventPointId": 10417,
+    "campOffset": [
+      0,
+      5.6
+    ],
+    "jumpPower": -1,
+    "speedAdd": 8000
+  },
+  {
+    "id": 4,
+    "nameId": "Mythic_Floor_Name_4",
+    "desId": [
+      "Mythic_Des_1_3"
+    ],
+    "probabilitiesStr": [
+      "Mythic_Rate_4"
+    ],
+    "speedBoxRound": 60,
+    "speedBoxDropID": 8011,
+    "fightFeaturePre": 0,
+    "fightFeatureAll": [],
+    "dropPre": [],
+    "dropAll": [
+      8102
+    ],
+    "maxRound": 120,
+    "progress": 1000,
+    "normalDropLimit": 2,
+    "normalDropID": 41004,
+    "normalBossDropLimit": 2,
+    "normalBossDropId": 41204,
+    "bossDropID": 41404,
+    "curseBoxDropID": 41804,
+    "bossLevelEventID": 5004,
+    "attributes": "Attack%=243289|HPMax%=1072907",
+    "normalBattleAttr": "Attack%=0|HPMax%=-25|IgnoreMiss%=3|ControlImmunity%=6|DamageAdd%=0",
+    "eliteBattleAttr": "Attack%=0|HPMax%=-10|IgnoreMiss%=4|ControlImmunity%=9|DamageAdd%=0",
+    "bossBattleAttr": "Attack%=0|HPMax%=0|IgnoreMiss%=4|ControlImmunity%=9|DamageAdd%=0",
+    "mapId": 2004,
+    "campEventPointId": 19117,
+    "campOffset": [
+      0,
+      5.6
+    ],
+    "jumpPower": -1,
+    "speedAdd": 8000
+  },
+  {
+    "id": 5,
+    "nameId": "Mythic_Floor_Name_5",
+    "desId": [
+      "Mythic_Des_1_3"
+    ],
+    "probabilitiesStr": [
+      "Mythic_Rate_5"
+    ],
+    "speedBoxRound": 60,
+    "speedBoxDropID": 8011,
+    "fightFeaturePre": 0,
+    "fightFeatureAll": [],
+    "dropPre": [],
+    "dropAll": [
+      8102
+    ],
+    "maxRound": 120,
+    "progress": 1000,
+    "normalDropLimit": 2,
+    "normalDropID": 41005,
+    "normalBossDropLimit": 2,
+    "normalBossDropId": 41205,
+    "bossDropID": 41405,
+    "curseBoxDropID": 41805,
+    "bossLevelEventID": 5005,
+    "attributes": "Attack%=277808|HPMax%=1247361",
+    "normalBattleAttr": "Attack%=0|HPMax%=-25|IgnoreMiss%=3|ControlImmunity%=6|DamageAdd%=0",
+    "eliteBattleAttr": "Attack%=0|HPMax%=-10|IgnoreMiss%=4|ControlImmunity%=9|DamageAdd%=0",
+    "bossBattleAttr": "Attack%=0|HPMax%=0|IgnoreMiss%=4|ControlImmunity%=9|DamageAdd%=0",
+    "mapId": 2005,
+    "campEventPointId": 19217,
+    "campOffset": [
+      0,
+      5.6
+    ],
+    "jumpPower": -1,
+    "speedAdd": 8000
+  },
+  {
+    "id": 6,
+    "nameId": "Mythic_Floor_Name_6",
+    "desId": [
+      "Mythic_Des_1_3"
+    ],
+    "probabilitiesStr": [
+      "Mythic_Rate_6"
+    ],
+    "speedBoxRound": 60,
+    "speedBoxDropID": 8011,
+    "fightFeaturePre": 0,
+    "fightFeatureAll": [],
+    "dropPre": [],
+    "dropAll": [
+      8102
+    ],
+    "maxRound": 120,
+    "progress": 1000,
+    "normalDropLimit": 2,
+    "normalDropID": 41006,
+    "normalBossDropLimit": 2,
+    "normalBossDropId": 41206,
+    "bossDropID": 41406,
+    "curseBoxDropID": 41806,
+    "bossLevelEventID": 5006,
+    "attributes": "Attack%=366793|HPMax%=1705588",
+    "normalBattleAttr": "Attack%=0|HPMax%=-25|IgnoreMiss%=4|ControlImmunity%=9|DamageAdd%=0",
+    "eliteBattleAttr": "Attack%=0|HPMax%=-10|IgnoreMiss%=7|ControlImmunity%=14|DamageAdd%=0",
+    "bossBattleAttr": "Attack%=0|HPMax%=0|IgnoreMiss%=7|ControlImmunity%=14|DamageAdd%=0",
+    "mapId": 2006,
+    "campEventPointId": 10705,
+    "campOffset": [
+      0,
+      5.6
+    ],
+    "jumpPower": -1,
+    "speedAdd": 10000
+  },
+  {
+    "id": 7,
+    "nameId": "Mythic_Floor_Name_7",
+    "desId": [
+      "Mythic_Des_1_3"
+    ],
+    "probabilitiesStr": [
+      "Mythic_Rate_7"
+    ],
+    "speedBoxRound": 60,
+    "speedBoxDropID": 8011,
+    "fightFeaturePre": 0,
+    "fightFeatureAll": [],
+    "dropPre": [],
+    "dropAll": [
+      8102
+    ],
+    "maxRound": 120,
+    "progress": 1000,
+    "normalDropLimit": 2,
+    "normalDropID": 41007,
+    "normalBossDropLimit": 2,
+    "normalBossDropId": 41207,
+    "bossDropID": 41407,
+    "curseBoxDropID": 41807,
+    "bossLevelEventID": 5007,
+    "attributes": "Attack%=608104|HPMax%=2924980",
+    "normalBattleAttr": "Attack%=0|HPMax%=-25|IgnoreMiss%=4|ControlImmunity%=9|DamageAdd%=0",
+    "eliteBattleAttr": "Attack%=0|HPMax%=-10|IgnoreMiss%=7|ControlImmunity%=14|DamageAdd%=0",
+    "bossBattleAttr": "Attack%=0|HPMax%=0|IgnoreMiss%=7|ControlImmunity%=14|DamageAdd%=0",
+    "mapId": 2007,
+    "campEventPointId": 19217,
+    "campOffset": [
+      0,
+      5.6
+    ],
+    "jumpPower": -1,
+    "speedAdd": 10000
+  },
+  {
+    "id": 8,
+    "nameId": "Mythic_Floor_Name_8",
+    "desId": [
+      "Mythic_Des_1_3"
+    ],
+    "probabilitiesStr": [
+      "Mythic_Rate_8"
+    ],
+    "speedBoxRound": 60,
+    "speedBoxDropID": 8011,
+    "fightFeaturePre": 0,
+    "fightFeatureAll": [],
+    "dropPre": [],
+    "dropAll": [
+      8102
+    ],
+    "maxRound": 120,
+    "progress": 1000,
+    "normalDropLimit": 2,
+    "normalDropID": 41008,
+    "normalBossDropLimit": 2,
+    "normalBossDropId": 41208,
+    "bossDropID": 41408,
+    "curseBoxDropID": 41808,
+    "bossLevelEventID": 5008,
+    "attributes": "Attack%=756002|HPMax%=3757331",
+    "normalBattleAttr": "Attack%=0|HPMax%=-25|IgnoreMiss%=4|ControlImmunity%=9|DamageAdd%=0",
+    "eliteBattleAttr": "Attack%=0|HPMax%=-10|IgnoreMiss%=7|ControlImmunity%=14|DamageAdd%=0",
+    "bossBattleAttr": "Attack%=0|HPMax%=0|IgnoreMiss%=7|ControlImmunity%=14|DamageAdd%=0",
+    "mapId": 2008,
+    "campEventPointId": 10917,
+    "campOffset": [
+      0,
+      5.6
+    ],
+    "jumpPower": -1,
+    "speedAdd": 12000
+  },
+  {
+    "id": 9,
+    "nameId": "Mythic_Floor_Name_9",
+    "desId": [
+      "Mythic_Des_1_3"
+    ],
+    "probabilitiesStr": [
+      "Mythic_Rate_9"
+    ],
+    "speedBoxRound": 60,
+    "speedBoxDropID": 8011,
+    "fightFeaturePre": 0,
+    "fightFeatureAll": [],
+    "dropPre": [],
+    "dropAll": [
+      8102
+    ],
+    "maxRound": 120,
+    "progress": 1000,
+    "normalDropLimit": 2,
+    "normalDropID": 41009,
+    "normalBossDropLimit": 2,
+    "normalBossDropId": 41209,
+    "bossDropID": 41409,
+    "curseBoxDropID": 41809,
+    "bossLevelEventID": 5009,
+    "attributes": "Attack%=936134|HPMax%=4802369",
+    "normalBattleAttr": "Attack%=0|HPMax%=-25|IgnoreMiss%=4|ControlImmunity%=9|DamageAdd%=0",
+    "eliteBattleAttr": "Attack%=0|HPMax%=-10|IgnoreMiss%=7|ControlImmunity%=14|DamageAdd%=0",
+    "bossBattleAttr": "Attack%=0|HPMax%=0|IgnoreMiss%=7|ControlImmunity%=14|DamageAdd%=0",
+    "mapId": 2009,
+    "campEventPointId": 11017,
+    "campOffset": [
+      0,
+      5.6
+    ],
+    "jumpPower": -1,
+    "speedAdd": 12000
+  },
+  {
+    "id": 10,
+    "nameId": "Mythic_Floor_Name_10",
+    "desId": [
+      "Mythic_Feature_Des_11"
+    ],
+    "probabilitiesStr": [
+      "Mythic_Rate_10"
+    ],
+    "speedBoxRound": 60,
+    "speedBoxDropID": 8011,
+    "fightFeaturePre": 11,
+    "fightFeatureAll": [
+      11
+    ],
+    "dropPre": [],
+    "dropAll": [
+      8102
+    ],
+    "maxRound": 120,
+    "progress": 1000,
+    "normalDropLimit": 2,
+    "normalDropID": 41010,
+    "normalBossDropLimit": 2,
+    "normalBossDropId": 41210,
+    "bossDropID": 41410,
+    "curseBoxDropID": 41810,
+    "bossLevelEventID": 5010,
+    "attributes": "Attack%=1172252|HPMax%=6201216",
+    "normalBattleAttr": "Attack%=0|HPMax%=-25|IgnoreMiss%=4|ControlImmunity%=9|DamageAdd%=0",
+    "eliteBattleAttr": "Attack%=0|HPMax%=-10|IgnoreMiss%=7|ControlImmunity%=14|DamageAdd%=0",
+    "bossBattleAttr": "Attack%=0|HPMax%=0|IgnoreMiss%=7|ControlImmunity%=14|DamageAdd%=0",
+    "mapId": 1001,
+    "campEventPointId": 10115,
+    "campOffset": [
+      0,
+      5.6
+    ],
+    "jumpPower": -1,
+    "speedAdd": 12000
+  },
+  {
+    "id": 11,
+    "nameId": "Mythic_Floor_Name_11",
+    "desId": [
+      "Mythic_Drop_Desc_3"
+    ],
+    "probabilitiesStr": [
+      "Mythic_Rate_11"
+    ],
+    "speedBoxRound": 60,
+    "speedBoxDropID": 8003,
+    "fightFeaturePre": 0,
+    "fightFeatureAll": [
+      11
+    ],
+    "dropPre": [
+      "107",
+      "gem_blue",
+      "105",
+      "item_frame_3",
+      "Mythic_Drop_Name_3",
+      "Mythic_Drop_Desc_3"
+    ],
+    "dropAll": [
+      8103
+    ],
+    "maxRound": 120,
+    "progress": 1000,
+    "normalDropLimit": 2,
+    "normalDropID": 41011,
+    "normalBossDropLimit": 2,
+    "normalBossDropId": 41211,
+    "bossDropID": 41411,
+    "curseBoxDropID": 41811,
+    "bossLevelEventID": 5011,
+    "attributes": "Attack%=1509930|HPMax%=8229120",
+    "normalBattleAttr": "Attack%=0|HPMax%=-25|IgnoreMiss%=6|ControlImmunity%=12|DamageAdd%=0",
+    "eliteBattleAttr": "Attack%=0|HPMax%=-10|IgnoreMiss%=9|ControlImmunity%=19|DamageAdd%=0",
+    "bossBattleAttr": "Attack%=0|HPMax%=0|IgnoreMiss%=9|ControlImmunity%=19|DamageAdd%=0",
+    "mapId": 1002,
+    "campEventPointId": 10115,
+    "campOffset": [
+      0,
+      5.6
+    ],
+    "jumpPower": -1,
+    "speedAdd": 14000
+  },
+  {
+    "id": 12,
+    "nameId": "Mythic_Floor_Name_12",
+    "desId": [
+      "Mythic_Des_1_3"
+    ],
+    "probabilitiesStr": [
+      "Mythic_Rate_12"
+    ],
+    "speedBoxRound": 60,
+    "speedBoxDropID": 8012,
+    "fightFeaturePre": 0,
+    "fightFeatureAll": [
+      11
+    ],
+    "dropPre": [],
+    "dropAll": [
+      8103
+    ],
+    "maxRound": 120,
+    "progress": 1000,
+    "normalDropLimit": 2,
+    "normalDropID": 41012,
+    "normalBossDropLimit": 2,
+    "normalBossDropId": 41212,
+    "bossDropID": 41412,
+    "curseBoxDropID": 41812,
+    "bossLevelEventID": 5012,
+    "attributes": "Attack%=1972217|HPMax%=11064140",
+    "normalBattleAttr": "Attack%=0|HPMax%=-25|IgnoreMiss%=6|ControlImmunity%=12|DamageAdd%=0",
+    "eliteBattleAttr": "Attack%=0|HPMax%=-10|IgnoreMiss%=9|ControlImmunity%=19|DamageAdd%=0",
+    "bossBattleAttr": "Attack%=0|HPMax%=0|IgnoreMiss%=9|ControlImmunity%=19|DamageAdd%=0",
+    "mapId": 1003,
+    "campEventPointId": 10115,
+    "campOffset": [
+      0,
+      5.6
+    ],
+    "jumpPower": -1,
+    "speedAdd": 14000
+  },
+  {
+    "id": 13,
+    "nameId": "Mythic_Floor_Name_13",
+    "desId": [
+      "Mythic_Des_1_3"
+    ],
+    "probabilitiesStr": [
+      "Mythic_Rate_13"
+    ],
+    "speedBoxRound": 60,
+    "speedBoxDropID": 8012,
+    "fightFeaturePre": 0,
+    "fightFeatureAll": [
+      11
+    ],
+    "dropPre": [],
+    "dropAll": [
+      8103
+    ],
+    "maxRound": 120,
+    "progress": 1000,
+    "normalDropLimit": 2,
+    "normalDropID": 41013,
+    "normalBossDropLimit": 2,
+    "normalBossDropId": 41213,
+    "bossDropID": 41413,
+    "curseBoxDropID": 41813,
+    "bossLevelEventID": 5013,
+    "attributes": "Attack%=2466038|HPMax%=14229044",
+    "normalBattleAttr": "Attack%=0|HPMax%=-25|IgnoreMiss%=6|ControlImmunity%=12|DamageAdd%=0",
+    "eliteBattleAttr": "Attack%=0|HPMax%=-10|IgnoreMiss%=9|ControlImmunity%=19|DamageAdd%=0",
+    "bossBattleAttr": "Attack%=0|HPMax%=0|IgnoreMiss%=9|ControlImmunity%=19|DamageAdd%=0",
+    "mapId": 1004,
+    "campEventPointId": 10115,
+    "campOffset": [
+      0,
+      5.6
+    ],
+    "jumpPower": -1,
+    "speedAdd": 16000
+  },
+  {
+    "id": 14,
+    "nameId": "Mythic_Floor_Name_14",
+    "desId": [
+      "Mythic_Des_1_3"
+    ],
+    "probabilitiesStr": [
+      "Mythic_Rate_14"
+    ],
+    "speedBoxRound": 60,
+    "speedBoxDropID": 8012,
+    "fightFeaturePre": 0,
+    "fightFeatureAll": [
+      11
+    ],
+    "dropPre": [],
+    "dropAll": [
+      8103
+    ],
+    "maxRound": 120,
+    "progress": 1000,
+    "normalDropLimit": 2,
+    "normalDropID": 41014,
+    "normalBossDropLimit": 2,
+    "normalBossDropId": 41214,
+    "bossDropID": 41414,
+    "curseBoxDropID": 41814,
+    "bossLevelEventID": 5014,
+    "attributes": "Attack%=3100066|HPMax%=18383394",
+    "normalBattleAttr": "Attack%=0|HPMax%=-25|IgnoreMiss%=6|ControlImmunity%=12|DamageAdd%=0",
+    "eliteBattleAttr": "Attack%=0|HPMax%=-10|IgnoreMiss%=9|ControlImmunity%=19|DamageAdd%=0",
+    "bossBattleAttr": "Attack%=0|HPMax%=0|IgnoreMiss%=9|ControlImmunity%=19|DamageAdd%=0",
+    "mapId": 5001,
+    "campEventPointId": 10115,
+    "campOffset": [
+      0,
+      5.6
+    ],
+    "jumpPower": -1,
+    "speedAdd": 16000
+  },
+  {
+    "id": 15,
+    "nameId": "Mythic_Floor_Name_15",
+    "desId": [
+      "Mythic_Des_1_3"
+    ],
+    "probabilitiesStr": [
+      "Mythic_Rate_15"
+    ],
+    "speedBoxRound": 60,
+    "speedBoxDropID": 8012,
+    "fightFeaturePre": 0,
+    "fightFeatureAll": [
+      11
+    ],
+    "dropPre": [],
+    "dropAll": [
+      8103
+    ],
+    "maxRound": 120,
+    "progress": 1000,
+    "normalDropLimit": 2,
+    "normalDropID": 41015,
+    "normalBossDropLimit": 2,
+    "normalBossDropId": 41215,
+    "bossDropID": 41415,
+    "curseBoxDropID": 41815,
+    "bossLevelEventID": 5015,
+    "attributes": "Attack%=3962324|HPMax%=24130553",
+    "normalBattleAttr": "Attack%=0|HPMax%=-25|IgnoreMiss%=6|ControlImmunity%=12|DamageAdd%=0",
+    "eliteBattleAttr": "Attack%=0|HPMax%=-10|IgnoreMiss%=9|ControlImmunity%=19|DamageAdd%=0",
+    "bossBattleAttr": "Attack%=0|HPMax%=0|IgnoreMiss%=9|ControlImmunity%=19|DamageAdd%=0",
+    "mapId": 5002,
+    "campEventPointId": 10115,
+    "campOffset": [
+      0,
+      5.6
+    ],
+    "jumpPower": -1,
+    "speedAdd": 16000
+  },
+  {
+    "id": 16,
+    "nameId": "Mythic_Floor_Name_16",
+    "desId": [
+      "Mythic_Des_1_3"
+    ],
+    "probabilitiesStr": [
+      "Mythic_Rate_16"
+    ],
+    "speedBoxRound": 60,
+    "speedBoxDropID": 8012,
+    "fightFeaturePre": 0,
+    "fightFeatureAll": [
+      11
+    ],
+    "dropPre": [],
+    "dropAll": [
+      8103
+    ],
+    "maxRound": 120,
+    "progress": 1000,
+    "normalDropLimit": 2,
+    "normalDropID": 41016,
+    "normalBossDropLimit": 2,
+    "normalBossDropId": 41216,
+    "bossDropID": 41416,
+    "curseBoxDropID": 41816,
+    "bossLevelEventID": 5016,
+    "attributes": "Attack%=5117096|HPMax%=31981853",
+    "normalBattleAttr": "Attack%=0|HPMax%=-25|IgnoreMiss%=7|ControlImmunity%=15|DamageAdd%=0",
+    "eliteBattleAttr": "Attack%=0|HPMax%=-10|IgnoreMiss%=12|ControlImmunity%=24|DamageAdd%=0",
+    "bossBattleAttr": "Attack%=0|HPMax%=0|IgnoreMiss%=12|ControlImmunity%=24|DamageAdd%=0",
+    "mapId": 5003,
+    "campEventPointId": 10917,
+    "campOffset": [
+      0,
+      5.6
+    ],
+    "jumpPower": -1,
+    "speedAdd": 22000
+  },
+  {
+    "id": 17,
+    "nameId": "Mythic_Floor_Name_17",
+    "desId": [
+      "Mythic_Des_1_3"
+    ],
+    "probabilitiesStr": [
+      "Mythic_Rate_17"
+    ],
+    "speedBoxRound": 60,
+    "speedBoxDropID": 8012,
+    "fightFeaturePre": 0,
+    "fightFeatureAll": [
+      11
+    ],
+    "dropPre": [],
+    "dropAll": [
+      8103
+    ],
+    "maxRound": 120,
+    "progress": 1000,
+    "normalDropLimit": 2,
+    "normalDropID": 41017,
+    "normalBossDropLimit": 2,
+    "normalBossDropId": 41217,
+    "bossDropID": 41417,
+    "curseBoxDropID": 41817,
+    "bossLevelEventID": 5017,
+    "attributes": "Attack%=6562617|HPMax%=42066378",
+    "normalBattleAttr": "Attack%=0|HPMax%=-25|IgnoreMiss%=7|ControlImmunity%=15|DamageAdd%=0",
+    "eliteBattleAttr": "Attack%=0|HPMax%=-10|IgnoreMiss%=12|ControlImmunity%=24|DamageAdd%=0",
+    "bossBattleAttr": "Attack%=0|HPMax%=0|IgnoreMiss%=12|ControlImmunity%=24|DamageAdd%=0",
+    "mapId": 5004,
+    "campEventPointId": 10917,
+    "campOffset": [
+      0,
+      5.6
+    ],
+    "jumpPower": -1,
+    "speedAdd": 22000
+  },
+  {
+    "id": 18,
+    "nameId": "Mythic_Floor_Name_18",
+    "desId": [
+      "Mythic_Des_1_3"
+    ],
+    "probabilitiesStr": [
+      "Mythic_Rate_18"
+    ],
+    "speedBoxRound": 60,
+    "speedBoxDropID": 8012,
+    "fightFeaturePre": 0,
+    "fightFeatureAll": [
+      11
+    ],
+    "dropPre": [],
+    "dropAll": [
+      8103
+    ],
+    "maxRound": 120,
+    "progress": 1000,
+    "normalDropLimit": 2,
+    "normalDropID": 41018,
+    "normalBossDropLimit": 2,
+    "normalBossDropId": 41218,
+    "bossDropID": 41418,
+    "curseBoxDropID": 41818,
+    "bossLevelEventID": 5018,
+    "attributes": "Attack%=8454005|HPMax%=55542816",
+    "normalBattleAttr": "Attack%=0|HPMax%=-25|IgnoreMiss%=7|ControlImmunity%=15|DamageAdd%=0",
+    "eliteBattleAttr": "Attack%=0|HPMax%=-10|IgnoreMiss%=12|ControlImmunity%=24|DamageAdd%=0",
+    "bossBattleAttr": "Attack%=0|HPMax%=0|IgnoreMiss%=12|ControlImmunity%=24|DamageAdd%=0",
+    "mapId": 5005,
+    "campEventPointId": 21121,
+    "campOffset": [
+      0,
+      5.6
+    ],
+    "jumpPower": -1,
+    "speedAdd": 28000
+  },
+  {
+    "id": 19,
+    "nameId": "Mythic_Floor_Name_19",
+    "desId": [
+      "Mythic_Des_1_3"
+    ],
+    "probabilitiesStr": [
+      "Mythic_Rate_19"
+    ],
+    "speedBoxRound": 60,
+    "speedBoxDropID": 8012,
+    "fightFeaturePre": 0,
+    "fightFeatureAll": [
+      11
+    ],
+    "dropPre": [],
+    "dropAll": [
+      8103
+    ],
+    "maxRound": 120,
+    "progress": 1000,
+    "normalDropLimit": 2,
+    "normalDropID": 41019,
+    "normalBossDropLimit": 2,
+    "normalBossDropId": 41219,
+    "bossDropID": 41419,
+    "curseBoxDropID": 41819,
+    "bossLevelEventID": 5019,
+    "attributes": "Attack%=10745847|HPMax%=72212092",
+    "normalBattleAttr": "Attack%=0|HPMax%=-25|IgnoreMiss%=7|ControlImmunity%=15|DamageAdd%=0",
+    "eliteBattleAttr": "Attack%=0|HPMax%=-10|IgnoreMiss%=12|ControlImmunity%=24|DamageAdd%=0",
+    "bossBattleAttr": "Attack%=0|HPMax%=0|IgnoreMiss%=12|ControlImmunity%=24|DamageAdd%=0",
+    "mapId": 5006,
+    "campEventPointId": 21121,
+    "campOffset": [
+      0,
+      5.6
+    ],
+    "jumpPower": -1,
+    "speedAdd": 28000
+  },
+  {
+    "id": 20,
+    "nameId": "Mythic_Floor_Name_20",
+    "desId": [
+      "Mythic_Feature_Des_21"
+    ],
+    "probabilitiesStr": [
+      "Mythic_Rate_20"
+    ],
+    "speedBoxRound": 60,
+    "speedBoxDropID": 8012,
+    "fightFeaturePre": 21,
+    "fightFeatureAll": [
+      11,
+      21
+    ],
+    "dropPre": [],
+    "dropAll": [
+      8103
+    ],
+    "maxRound": 120,
+    "progress": 1000,
+    "normalDropLimit": 2,
+    "normalDropID": 41020,
+    "normalBossDropLimit": 2,
+    "normalBossDropId": 41220,
+    "bossDropID": 41420,
+    "curseBoxDropID": 41820,
+    "bossLevelEventID": 5020,
+    "attributes": "Attack%=13572065|HPMax%=93104366",
+    "normalBattleAttr": "Attack%=0|HPMax%=-25|IgnoreMiss%=7|ControlImmunity%=15|DamageAdd%=0",
+    "eliteBattleAttr": "Attack%=0|HPMax%=-10|IgnoreMiss%=12|ControlImmunity%=24|DamageAdd%=0",
+    "bossBattleAttr": "Attack%=0|HPMax%=0|IgnoreMiss%=12|ControlImmunity%=24|DamageAdd%=0",
+    "mapId": 4001,
+    "campEventPointId": 21121,
+    "campOffset": [
+      0,
+      5.6
+    ],
+    "jumpPower": -1,
+    "speedAdd": 28000
+  },
+  {
+    "id": 21,
+    "nameId": "Mythic_Floor_Name_21",
+    "desId": [
+      "Mythic_Drop_Desc_4"
+    ],
+    "probabilitiesStr": [
+      "Mythic_Rate_21"
+    ],
+    "speedBoxRound": 60,
+    "speedBoxDropID": 8004,
+    "fightFeaturePre": 0,
+    "fightFeatureAll": [
+      11,
+      21
+    ],
+    "dropPre": [
+      "107",
+      "gem_purple",
+      "105",
+      "item_frame_4",
+      "Mythic_Drop_Name_4",
+      "Mythic_Drop_Desc_4"
+    ],
+    "dropAll": [
+      8104
+    ],
+    "maxRound": 120,
+    "progress": 1000,
+    "normalDropLimit": 2,
+    "normalDropID": 41021,
+    "normalBossDropLimit": 2,
+    "normalBossDropId": 41221,
+    "bossDropID": 41421,
+    "curseBoxDropID": 41821,
+    "bossLevelEventID": 5021,
+    "attributes": "Attack%=17117670|HPMax%=119823694",
+    "normalBattleAttr": "Attack%=0|HPMax%=-25|IgnoreMiss%=9|ControlImmunity%=18|DamageAdd%=0",
+    "eliteBattleAttr": "Attack%=0|HPMax%=-10|IgnoreMiss%=14|ControlImmunity%=28|DamageAdd%=0",
+    "bossBattleAttr": "Attack%=0|HPMax%=0|IgnoreMiss%=14|ControlImmunity%=28|DamageAdd%=0",
+    "mapId": 5008,
+    "campEventPointId": 21121,
+    "campOffset": [
+      0,
+      5.6
+    ],
+    "jumpPower": -1,
+    "speedAdd": 34000
+  },
+  {
+    "id": 22,
+    "nameId": "Mythic_Floor_Name_22",
+    "desId": [
+      "Mythic_Des_1_3"
+    ],
+    "probabilitiesStr": [
+      "Mythic_Rate_22"
+    ],
+    "speedBoxRound": 60,
+    "speedBoxDropID": 8013,
+    "fightFeaturePre": 0,
+    "fightFeatureAll": [
+      11,
+      21
+    ],
+    "dropPre": [],
+    "dropAll": [
+      8104
+    ],
+    "maxRound": 120,
+    "progress": 1000,
+    "normalDropLimit": 2,
+    "normalDropID": 41022,
+    "normalBossDropLimit": 2,
+    "normalBossDropId": 41222,
+    "bossDropID": 41422,
+    "curseBoxDropID": 41822,
+    "bossLevelEventID": 5022,
+    "attributes": "Attack%=21359652|HPMax%=151653533",
+    "normalBattleAttr": "Attack%=0|HPMax%=-25|IgnoreMiss%=9|ControlImmunity%=18|DamageAdd%=0",
+    "eliteBattleAttr": "Attack%=0|HPMax%=-10|IgnoreMiss%=14|ControlImmunity%=28|DamageAdd%=0",
+    "bossBattleAttr": "Attack%=0|HPMax%=0|IgnoreMiss%=14|ControlImmunity%=28|DamageAdd%=0",
+    "mapId": 5009,
+    "campEventPointId": 21121,
+    "campOffset": [
+      0,
+      5.6
+    ],
+    "jumpPower": -1,
+    "speedAdd": 34000
+  },
+  {
+    "id": 23,
+    "nameId": "Mythic_Floor_Name_23",
+    "desId": [
+      "Mythic_Des_1_3"
+    ],
+    "probabilitiesStr": [
+      "Mythic_Rate_23"
+    ],
+    "speedBoxRound": 60,
+    "speedBoxDropID": 8013,
+    "fightFeaturePre": 0,
+    "fightFeatureAll": [
+      11,
+      21
+    ],
+    "dropPre": [],
+    "dropAll": [
+      8104
+    ],
+    "maxRound": 120,
+    "progress": 1000,
+    "normalDropLimit": 2,
+    "normalDropID": 41023,
+    "normalBossDropLimit": 2,
+    "normalBossDropId": 41223,
+    "bossDropID": 41423,
+    "curseBoxDropID": 41823,
+    "bossLevelEventID": 5023,
+    "attributes": "Attack%=26739657|HPMax%=192525534",
+    "normalBattleAttr": "Attack%=0|HPMax%=-25|IgnoreMiss%=9|ControlImmunity%=18|DamageAdd%=0",
+    "eliteBattleAttr": "Attack%=0|HPMax%=-10|IgnoreMiss%=14|ControlImmunity%=28|DamageAdd%=0",
+    "bossBattleAttr": "Attack%=0|HPMax%=0|IgnoreMiss%=14|ControlImmunity%=28|DamageAdd%=0",
+    "mapId": 5007,
+    "campEventPointId": 21121,
+    "campOffset": [
+      0,
+      5.6
+    ],
+    "jumpPower": -1,
+    "speedAdd": 40000
+  },
+  {
+    "id": 24,
+    "nameId": "Mythic_Floor_Name_24",
+    "desId": [
+      "Mythic_Des_1_3"
+    ],
+    "probabilitiesStr": [
+      "Mythic_Rate_24"
+    ],
+    "speedBoxRound": 60,
+    "speedBoxDropID": 8013,
+    "fightFeaturePre": 0,
+    "fightFeatureAll": [
+      11,
+      21
+    ],
+    "dropPre": [],
+    "dropAll": [
+      8104
+    ],
+    "maxRound": 120,
+    "progress": 1000,
+    "normalDropLimit": 2,
+    "normalDropID": 41024,
+    "normalBossDropLimit": 2,
+    "normalBossDropId": 41224,
+    "bossDropID": 41424,
+    "curseBoxDropID": 41824,
+    "bossLevelEventID": 5024,
+    "attributes": "Attack%=33285257|HPMax%=242982380",
+    "normalBattleAttr": "Attack%=0|HPMax%=-25|IgnoreMiss%=9|ControlImmunity%=18|DamageAdd%=0",
+    "eliteBattleAttr": "Attack%=0|HPMax%=-10|IgnoreMiss%=14|ControlImmunity%=28|DamageAdd%=0",
+    "bossBattleAttr": "Attack%=0|HPMax%=0|IgnoreMiss%=14|ControlImmunity%=28|DamageAdd%=0",
+    "mapId": 5010,
+    "campEventPointId": 21121,
+    "campOffset": [
+      0,
+      5.6
+    ],
+    "jumpPower": -1,
+    "speedAdd": 40000
+  },
+  {
+    "id": 25,
+    "nameId": "Mythic_Floor_Name_25",
+    "desId": [
+      "Mythic_Des_1_3"
+    ],
+    "probabilitiesStr": [
+      "Mythic_Rate_25"
+    ],
+    "speedBoxRound": 60,
+    "speedBoxDropID": 8013,
+    "fightFeaturePre": 0,
+    "fightFeatureAll": [
+      11,
+      21
+    ],
+    "dropPre": [],
+    "dropAll": [
+      8104
+    ],
+    "maxRound": 120,
+    "progress": 1000,
+    "normalDropLimit": 2,
+    "normalDropID": 41025,
+    "normalBossDropLimit": 2,
+    "normalBossDropId": 41225,
+    "bossDropID": 41425,
+    "curseBoxDropID": 41825,
+    "bossLevelEventID": 5001,
+    "attributes": "Attack%=40740838|HPMax%=301482204",
+    "normalBattleAttr": "Attack%=0|HPMax%=-25|IgnoreMiss%=9|ControlImmunity%=18|DamageAdd%=0",
+    "eliteBattleAttr": "Attack%=0|HPMax%=-10|IgnoreMiss%=14|ControlImmunity%=28|DamageAdd%=0",
+    "bossBattleAttr": "Attack%=0|HPMax%=0|IgnoreMiss%=14|ControlImmunity%=28|DamageAdd%=0",
+    "mapId": 2001,
+    "campEventPointId": 10217,
+    "campOffset": [
+      0,
+      5.6
+    ],
+    "jumpPower": -1,
+    "speedAdd": 40000
+  },
+  {
+    "id": 26,
+    "nameId": "Mythic_Floor_Name_26",
+    "desId": [
+      "Mythic_Des_1_3"
+    ],
+    "probabilitiesStr": [
+      "Mythic_Rate_26"
+    ],
+    "speedBoxRound": 60,
+    "speedBoxDropID": 8013,
+    "fightFeaturePre": 0,
+    "fightFeatureAll": [
+      11,
+      21
+    ],
+    "dropPre": [],
+    "dropAll": [
+      8104
+    ],
+    "maxRound": 120,
+    "progress": 1000,
+    "normalDropLimit": 2,
+    "normalDropID": 41026,
+    "normalBossDropLimit": 2,
+    "normalBossDropId": 41226,
+    "bossDropID": 41426,
+    "curseBoxDropID": 41826,
+    "bossLevelEventID": 5002,
+    "attributes": "Attack%=49848134|HPMax%=373861008",
+    "normalBattleAttr": "Attack%=0|HPMax%=-25|IgnoreMiss%=10|ControlImmunity%=21|DamageAdd%=0",
+    "eliteBattleAttr": "Attack%=0|HPMax%=-10|IgnoreMiss%=16|ControlImmunity%=33|DamageAdd%=0",
+    "bossBattleAttr": "Attack%=0|HPMax%=0|IgnoreMiss%=16|ControlImmunity%=33|DamageAdd%=0",
+    "mapId": 2002,
+    "campEventPointId": 19117,
+    "campOffset": [
+      0,
+      5.6
+    ],
+    "jumpPower": -1,
+    "speedAdd": 46000
+  },
+  {
+    "id": 27,
+    "nameId": "Mythic_Floor_Name_27",
+    "desId": [
+      "Mythic_Des_1_3"
+    ],
+    "probabilitiesStr": [
+      "Mythic_Rate_27"
+    ],
+    "speedBoxRound": 60,
+    "speedBoxDropID": 8013,
+    "fightFeaturePre": 0,
+    "fightFeatureAll": [
+      11,
+      21
+    ],
+    "dropPre": [],
+    "dropAll": [
+      8104
+    ],
+    "maxRound": 120,
+    "progress": 1000,
+    "normalDropLimit": 2,
+    "normalDropID": 41027,
+    "normalBossDropLimit": 2,
+    "normalBossDropId": 41227,
+    "bossDropID": 41427,
+    "curseBoxDropID": 41827,
+    "bossLevelEventID": 5003,
+    "attributes": "Attack%=56641608|HPMax%=430476220",
+    "normalBattleAttr": "Attack%=0|HPMax%=-25|IgnoreMiss%=10|ControlImmunity%=21|DamageAdd%=0",
+    "eliteBattleAttr": "Attack%=0|HPMax%=-10|IgnoreMiss%=16|ControlImmunity%=33|DamageAdd%=0",
+    "bossBattleAttr": "Attack%=0|HPMax%=0|IgnoreMiss%=16|ControlImmunity%=33|DamageAdd%=0",
+    "mapId": 2003,
+    "campEventPointId": 10417,
+    "campOffset": [
+      0,
+      5.6
+    ],
+    "jumpPower": -1,
+    "speedAdd": 46000
+  },
+  {
+    "id": 28,
+    "nameId": "Mythic_Floor_Name_28",
+    "desId": [
+      "Mythic_Des_1_3"
+    ],
+    "probabilitiesStr": [
+      "Mythic_Rate_28"
+    ],
+    "speedBoxRound": 60,
+    "speedBoxDropID": 8013,
+    "fightFeaturePre": 0,
+    "fightFeatureAll": [
+      11,
+      21
+    ],
+    "dropPre": [],
+    "dropAll": [
+      8104
+    ],
+    "maxRound": 120,
+    "progress": 1000,
+    "normalDropLimit": 2,
+    "normalDropID": 41028,
+    "normalBossDropLimit": 2,
+    "normalBossDropId": 41228,
+    "bossDropID": 41428,
+    "curseBoxDropID": 41828,
+    "bossLevelEventID": 5004,
+    "attributes": "Attack%=64107420|HPMax%=493627137",
+    "normalBattleAttr": "Attack%=0|HPMax%=-25|IgnoreMiss%=10|ControlImmunity%=21|DamageAdd%=0",
+    "eliteBattleAttr": "Attack%=0|HPMax%=-10|IgnoreMiss%=16|ControlImmunity%=33|DamageAdd%=0",
+    "bossBattleAttr": "Attack%=0|HPMax%=0|IgnoreMiss%=16|ControlImmunity%=33|DamageAdd%=0",
+    "mapId": 2004,
+    "campEventPointId": 19117,
+    "campOffset": [
+      0,
+      5.6
+    ],
+    "jumpPower": -1,
+    "speedAdd": 52000
+  },
+  {
+    "id": 29,
+    "nameId": "Mythic_Floor_Name_29",
+    "desId": [
+      "Mythic_Des_1_3"
+    ],
+    "probabilitiesStr": [
+      "Mythic_Rate_29"
+    ],
+    "speedBoxRound": 60,
+    "speedBoxDropID": 8013,
+    "fightFeaturePre": 0,
+    "fightFeatureAll": [
+      11,
+      21
+    ],
+    "dropPre": [],
+    "dropAll": [
+      8104
+    ],
+    "maxRound": 120,
+    "progress": 1000,
+    "normalDropLimit": 2,
+    "normalDropID": 41029,
+    "normalBossDropLimit": 2,
+    "normalBossDropId": 41229,
+    "bossDropID": 41429,
+    "curseBoxDropID": 41829,
+    "bossLevelEventID": 5005,
+    "attributes": "Attack%=72247317|HPMax%=586085611",
+    "normalBattleAttr": "Attack%=0|HPMax%=-25|IgnoreMiss%=10|ControlImmunity%=21|DamageAdd%=0",
+    "eliteBattleAttr": "Attack%=0|HPMax%=-10|IgnoreMiss%=16|ControlImmunity%=33|DamageAdd%=0",
+    "bossBattleAttr": "Attack%=0|HPMax%=0|IgnoreMiss%=16|ControlImmunity%=33|DamageAdd%=0",
+    "mapId": 2005,
+    "campEventPointId": 19217,
+    "campOffset": [
+      0,
+      5.6
+    ],
+    "jumpPower": -1,
+    "speedAdd": 52000
+  },
+  {
+    "id": 30,
+    "nameId": "Mythic_Floor_Name_30",
+    "desId": [
+      "Mythic_Feature_Des_51"
+    ],
+    "probabilitiesStr": [
+      "Mythic_Rate_30"
+    ],
+    "speedBoxRound": 60,
+    "speedBoxDropID": 8013,
+    "fightFeaturePre": 51,
+    "fightFeatureAll": [
+      11,
+      21,
+      51
+    ],
+    "dropPre": [],
+    "dropAll": [
+      8104
+    ],
+    "maxRound": 120,
+    "progress": 1000,
+    "normalDropLimit": 2,
+    "normalDropID": 41030,
+    "normalBossDropLimit": 2,
+    "normalBossDropId": 41230,
+    "bossDropID": 41430,
+    "curseBoxDropID": 41830,
+    "bossLevelEventID": 5006,
+    "attributes": "Attack%=82417472|HPMax%=663873196",
+    "normalBattleAttr": "Attack%=0|HPMax%=-25|IgnoreMiss%=10|ControlImmunity%=21|DamageAdd%=0",
+    "eliteBattleAttr": "Attack%=0|HPMax%=-10|IgnoreMiss%=16|ControlImmunity%=33|DamageAdd%=0",
+    "bossBattleAttr": "Attack%=0|HPMax%=0|IgnoreMiss%=16|ControlImmunity%=33|DamageAdd%=0",
+    "mapId": 2006,
+    "campEventPointId": 10705,
+    "campOffset": [
+      0,
+      5.6
+    ],
+    "jumpPower": -1,
+    "speedAdd": 52000
+  },
+  {
+    "id": 31,
+    "nameId": "Mythic_Floor_Name_31",
+    "desId": [
+      "Mythic_Drop_Desc_5"
+    ],
+    "probabilitiesStr": [
+      "Mythic_Rate_31"
+    ],
+    "speedBoxRound": 60,
+    "speedBoxDropID": 8005,
+    "fightFeaturePre": 0,
+    "fightFeatureAll": [
+      11,
+      21,
+      51
+    ],
+    "dropPre": [
+      "107",
+      "gem_orange",
+      "105",
+      "item_frame_5",
+      "Mythic_Drop_Name_5",
+      "Mythic_Drop_Desc_5"
+    ],
+    "dropAll": [
+      8105
+    ],
+    "maxRound": 120,
+    "progress": 1000,
+    "normalDropLimit": 2,
+    "normalDropID": 41031,
+    "normalBossDropLimit": 2,
+    "normalBossDropId": 41231,
+    "bossDropID": 41431,
+    "curseBoxDropID": 41831,
+    "bossLevelEventID": 5007,
+    "attributes": "Attack%=77718758|HPMax%=758535086",
+    "normalBattleAttr": "Attack%=0|HPMax%=-25|IgnoreMiss%=12|ControlImmunity%=24|DamageAdd%=22",
+    "eliteBattleAttr": "Attack%=0|HPMax%=-10|IgnoreMiss%=19|ControlImmunity%=38|DamageAdd%=22",
+    "bossBattleAttr": "Attack%=0|HPMax%=0|IgnoreMiss%=19|ControlImmunity%=38|DamageAdd%=22",
+    "mapId": 2007,
+    "campEventPointId": 19217,
+    "campOffset": [
+      0,
+      5.6
+    ],
+    "jumpPower": -1,
+    "speedAdd": 58000
+  },
+  {
+    "id": 32,
+    "nameId": "Mythic_Floor_Name_32",
+    "desId": [
+      "Mythic_Des_1_3"
+    ],
+    "probabilitiesStr": [
+      "Mythic_Rate_32"
+    ],
+    "speedBoxRound": 60,
+    "speedBoxDropID": 8015,
+    "fightFeaturePre": 0,
+    "fightFeatureAll": [
+      11,
+      21,
+      51
+    ],
+    "dropPre": [],
+    "dropAll": [
+      8105
+    ],
+    "maxRound": 120,
+    "progress": 1000,
+    "normalDropLimit": 2,
+    "normalDropID": 41032,
+    "normalBossDropLimit": 2,
+    "normalBossDropId": 41232,
+    "bossDropID": 41432,
+    "curseBoxDropID": 41832,
+    "bossLevelEventID": 5008,
+    "attributes": "Attack%=86891413|HPMax%=898813242",
+    "normalBattleAttr": "Attack%=0|HPMax%=-25|IgnoreMiss%=12|ControlImmunity%=24|DamageAdd%=24",
+    "eliteBattleAttr": "Attack%=0|HPMax%=-10|IgnoreMiss%=19|ControlImmunity%=38|DamageAdd%=24",
+    "bossBattleAttr": "Attack%=0|HPMax%=0|IgnoreMiss%=19|ControlImmunity%=38|DamageAdd%=24",
+    "mapId": 2008,
+    "campEventPointId": 10917,
+    "campOffset": [
+      0,
+      5.6
+    ],
+    "jumpPower": -1,
+    "speedAdd": 58000
+  },
+  {
+    "id": 33,
+    "nameId": "Mythic_Floor_Name_33",
+    "desId": [
+      "Mythic_Des_1_3"
+    ],
+    "probabilitiesStr": [
+      "Mythic_Rate_33"
+    ],
+    "speedBoxRound": 60,
+    "speedBoxDropID": 8015,
+    "fightFeaturePre": 0,
+    "fightFeatureAll": [
+      11,
+      21,
+      51
+    ],
+    "dropPre": [],
+    "dropAll": [
+      8105
+    ],
+    "maxRound": 120,
+    "progress": 1000,
+    "normalDropLimit": 2,
+    "normalDropID": 41033,
+    "normalBossDropLimit": 2,
+    "normalBossDropId": 41233,
+    "bossDropID": 41433,
+    "curseBoxDropID": 41833,
+    "bossLevelEventID": 5009,
+    "attributes": "Attack%=96120708|HPMax%=1002816882",
+    "normalBattleAttr": "Attack%=0|HPMax%=-25|IgnoreMiss%=12|ControlImmunity%=24|DamageAdd%=26",
+    "eliteBattleAttr": "Attack%=0|HPMax%=-10|IgnoreMiss%=19|ControlImmunity%=38|DamageAdd%=26",
+    "bossBattleAttr": "Attack%=0|HPMax%=0|IgnoreMiss%=19|ControlImmunity%=38|DamageAdd%=26",
+    "mapId": 2009,
+    "campEventPointId": 11017,
+    "campOffset": [
+      0,
+      5.6
+    ],
+    "jumpPower": -1,
+    "speedAdd": 64000
+  },
+  {
+    "id": 34,
+    "nameId": "Mythic_Floor_Name_34",
+    "desId": [
+      "Mythic_Des_1_3"
+    ],
+    "probabilitiesStr": [
+      "Mythic_Rate_34"
+    ],
+    "speedBoxRound": 60,
+    "speedBoxDropID": 8015,
+    "fightFeaturePre": 0,
+    "fightFeatureAll": [
+      11,
+      21,
+      51
+    ],
+    "dropPre": [],
+    "dropAll": [
+      8105
+    ],
+    "maxRound": 120,
+    "progress": 1000,
+    "normalDropLimit": 2,
+    "normalDropID": 41034,
+    "normalBossDropLimit": 2,
+    "normalBossDropId": 41234,
+    "bossDropID": 41434,
+    "curseBoxDropID": 41834,
+    "bossLevelEventID": 5010,
+    "attributes": "Attack%=105443496|HPMax%=1164812303",
+    "normalBattleAttr": "Attack%=0|HPMax%=-25|IgnoreMiss%=12|ControlImmunity%=24|DamageAdd%=28",
+    "eliteBattleAttr": "Attack%=0|HPMax%=-10|IgnoreMiss%=19|ControlImmunity%=38|DamageAdd%=28",
+    "bossBattleAttr": "Attack%=0|HPMax%=0|IgnoreMiss%=19|ControlImmunity%=38|DamageAdd%=28",
+    "mapId": 1001,
+    "campEventPointId": 10115,
+    "campOffset": [
+      0,
+      5.6
+    ],
+    "jumpPower": -1,
+    "speedAdd": 64000
+  },
+  {
+    "id": 35,
+    "nameId": "Mythic_Floor_Name_35",
+    "desId": [
+      "Mythic_Des_1_3"
+    ],
+    "probabilitiesStr": [
+      "Mythic_Rate_35"
+    ],
+    "speedBoxRound": 60,
+    "speedBoxDropID": 8015,
+    "fightFeaturePre": 0,
+    "fightFeatureAll": [
+      11,
+      21,
+      51
+    ],
+    "dropPre": [],
+    "dropAll": [
+      8105
+    ],
+    "maxRound": 120,
+    "progress": 1000,
+    "normalDropLimit": 2,
+    "normalDropID": 41035,
+    "normalBossDropLimit": 2,
+    "normalBossDropId": 41235,
+    "bossDropID": 41435,
+    "curseBoxDropID": 41835,
+    "bossLevelEventID": 5011,
+    "attributes": "Attack%=118793338|HPMax%=1322531731",
+    "normalBattleAttr": "Attack%=0|HPMax%=-25|IgnoreMiss%=12|ControlImmunity%=24|DamageAdd%=30",
+    "eliteBattleAttr": "Attack%=0|HPMax%=-10|IgnoreMiss%=19|ControlImmunity%=38|DamageAdd%=30",
+    "bossBattleAttr": "Attack%=0|HPMax%=0|IgnoreMiss%=19|ControlImmunity%=38|DamageAdd%=30",
+    "mapId": 1002,
+    "campEventPointId": 10115,
+    "campOffset": [
+      0,
+      5.6
+    ],
+    "jumpPower": -1,
+    "speedAdd": 64000
+  },
+  {
+    "id": 36,
+    "nameId": "Mythic_Floor_Name_36",
+    "desId": [
+      "Mythic_Des_1_3"
+    ],
+    "probabilitiesStr": [
+      "Mythic_Rate_36"
+    ],
+    "speedBoxRound": 60,
+    "speedBoxDropID": 8015,
+    "fightFeaturePre": 0,
+    "fightFeatureAll": [
+      11,
+      21,
+      51
+    ],
+    "dropPre": [],
+    "dropAll": [
+      8105
+    ],
+    "maxRound": 120,
+    "progress": 1000,
+    "normalDropLimit": 2,
+    "normalDropID": 41036,
+    "normalBossDropLimit": 2,
+    "normalBossDropId": 41236,
+    "bossDropID": 41436,
+    "curseBoxDropID": 41836,
+    "bossLevelEventID": 5012,
+    "attributes": "Attack%=136178540|HPMax%=1527923227",
+    "normalBattleAttr": "Attack%=0|HPMax%=-25|IgnoreMiss%=13|ControlImmunity%=27|DamageAdd%=32",
+    "eliteBattleAttr": "Attack%=0|HPMax%=-10|IgnoreMiss%=21|ControlImmunity%=43|DamageAdd%=32",
+    "bossBattleAttr": "Attack%=0|HPMax%=0|IgnoreMiss%=21|ControlImmunity%=43|DamageAdd%=32",
+    "mapId": 1003,
+    "campEventPointId": 10115,
+    "campOffset": [
+      0,
+      5.6
+    ],
+    "jumpPower": -1,
+    "speedAdd": 70000
+  },
+  {
+    "id": 37,
+    "nameId": "Mythic_Floor_Name_37",
+    "desId": [
+      "Mythic_Des_1_3"
+    ],
+    "probabilitiesStr": [
+      "Mythic_Rate_37"
+    ],
+    "speedBoxRound": 60,
+    "speedBoxDropID": 8015,
+    "fightFeaturePre": 0,
+    "fightFeatureAll": [
+      11,
+      21,
+      51
+    ],
+    "dropPre": [],
+    "dropAll": [
+      8105
+    ],
+    "maxRound": 120,
+    "progress": 1000,
+    "normalDropLimit": 2,
+    "normalDropID": 41037,
+    "normalBossDropLimit": 2,
+    "normalBossDropId": 41237,
+    "bossDropID": 41437,
+    "curseBoxDropID": 41837,
+    "bossLevelEventID": 5013,
+    "attributes": "Attack%=153832890|HPMax%=1825260059",
+    "normalBattleAttr": "Attack%=0|HPMax%=-25|IgnoreMiss%=13|ControlImmunity%=27|DamageAdd%=34",
+    "eliteBattleAttr": "Attack%=0|HPMax%=-10|IgnoreMiss%=21|ControlImmunity%=43|DamageAdd%=34",
+    "bossBattleAttr": "Attack%=0|HPMax%=0|IgnoreMiss%=21|ControlImmunity%=43|DamageAdd%=34",
+    "mapId": 1004,
+    "campEventPointId": 10115,
+    "campOffset": [
+      0,
+      5.6
+    ],
+    "jumpPower": -1,
+    "speedAdd": 70000
+  },
+  {
+    "id": 38,
+    "nameId": "Mythic_Floor_Name_38",
+    "desId": [
+      "Mythic_Des_1_3"
+    ],
+    "probabilitiesStr": [
+      "Mythic_Rate_38"
+    ],
+    "speedBoxRound": 60,
+    "speedBoxDropID": 8015,
+    "fightFeaturePre": 0,
+    "fightFeatureAll": [
+      11,
+      21,
+      51
+    ],
+    "dropPre": [],
+    "dropAll": [
+      8105
+    ],
+    "maxRound": 120,
+    "progress": 1000,
+    "normalDropLimit": 2,
+    "normalDropID": 41038,
+    "normalBossDropLimit": 2,
+    "normalBossDropId": 41238,
+    "bossDropID": 41438,
+    "curseBoxDropID": 41838,
+    "bossLevelEventID": 5014,
+    "attributes": "Attack%=171628700|HPMax%=2050365207",
+    "normalBattleAttr": "Attack%=0|HPMax%=-25|IgnoreMiss%=13|ControlImmunity%=27|DamageAdd%=36",
+    "eliteBattleAttr": "Attack%=0|HPMax%=-10|IgnoreMiss%=21|ControlImmunity%=43|DamageAdd%=36",
+    "bossBattleAttr": "Attack%=0|HPMax%=0|IgnoreMiss%=21|ControlImmunity%=43|DamageAdd%=36",
+    "mapId": 5001,
+    "campEventPointId": 10115,
+    "campOffset": [
+      0,
+      5.6
+    ],
+    "jumpPower": -1,
+    "speedAdd": 76000
+  },
+  {
+    "id": 39,
+    "nameId": "Mythic_Floor_Name_39",
+    "desId": [
+      "Mythic_Des_1_3"
+    ],
+    "probabilitiesStr": [
+      "Mythic_Rate_39"
+    ],
+    "speedBoxRound": 60,
+    "speedBoxDropID": 8015,
+    "fightFeaturePre": 0,
+    "fightFeatureAll": [
+      11,
+      21,
+      51
+    ],
+    "dropPre": [],
+    "dropAll": [
+      8105
+    ],
+    "maxRound": 120,
+    "progress": 1000,
+    "normalDropLimit": 2,
+    "normalDropID": 41039,
+    "normalBossDropLimit": 2,
+    "normalBossDropId": 41239,
+    "bossDropID": 41439,
+    "curseBoxDropID": 41839,
+    "bossLevelEventID": 5015,
+    "attributes": "Attack%=189650196|HPMax%=2394930787",
+    "normalBattleAttr": "Attack%=0|HPMax%=-25|IgnoreMiss%=13|ControlImmunity%=27|DamageAdd%=38",
+    "eliteBattleAttr": "Attack%=0|HPMax%=-10|IgnoreMiss%=21|ControlImmunity%=43|DamageAdd%=38",
+    "bossBattleAttr": "Attack%=0|HPMax%=0|IgnoreMiss%=21|ControlImmunity%=43|DamageAdd%=38",
+    "mapId": 5002,
+    "campEventPointId": 10115,
+    "campOffset": [
+      0,
+      5.6
+    ],
+    "jumpPower": -1,
+    "speedAdd": 76000
+  },
+  {
+    "id": 40,
+    "nameId": "Mythic_Floor_Name_40",
+    "desId": [
+      "Mythic_Feature_Des_31"
+    ],
+    "probabilitiesStr": [
+      "Mythic_Rate_40"
+    ],
+    "speedBoxRound": 60,
+    "speedBoxDropID": 8015,
+    "fightFeaturePre": 31,
+    "fightFeatureAll": [
+      11,
+      21,
+      51,
+      31
+    ],
+    "dropPre": [],
+    "dropAll": [
+      8105
+    ],
+    "maxRound": 120,
+    "progress": 1000,
+    "normalDropLimit": 2,
+    "normalDropID": 41040,
+    "normalBossDropLimit": 2,
+    "normalBossDropId": 41240,
+    "bossDropID": 41440,
+    "curseBoxDropID": 41840,
+    "bossLevelEventID": 5016,
+    "attributes": "Attack%=211360788|HPMax%=2685025779",
+    "normalBattleAttr": "Attack%=0|HPMax%=-25|IgnoreMiss%=13|ControlImmunity%=27|DamageAdd%=40",
+    "eliteBattleAttr": "Attack%=0|HPMax%=-10|IgnoreMiss%=21|ControlImmunity%=43|DamageAdd%=40",
+    "bossBattleAttr": "Attack%=0|HPMax%=0|IgnoreMiss%=21|ControlImmunity%=43|DamageAdd%=40",
+    "mapId": 5003,
+    "campEventPointId": 10917,
+    "campOffset": [
+      0,
+      5.6
+    ],
+    "jumpPower": -1,
+    "speedAdd": 76000
+  },
+  {
+    "id": 41,
+    "nameId": "Mythic_Floor_Name_41",
+    "desId": [
+      "Mythic_Drop_Desc_6"
+    ],
+    "probabilitiesStr": [
+      "Mythic_Rate_41"
+    ],
+    "speedBoxRound": 60,
+    "speedBoxDropID": 8006,
+    "fightFeaturePre": 0,
+    "fightFeatureAll": [
+      11,
+      21,
+      51,
+      31
+    ],
+    "dropPre": [
+      "107",
+      "gem_red",
+      "105",
+      "item_frame_6",
+      "Mythic_Drop_Name_6",
+      "Mythic_Drop_Desc_6"
+    ],
+    "dropAll": [
+      8106
+    ],
+    "maxRound": 120,
+    "progress": 1000,
+    "normalDropLimit": 2,
+    "normalDropID": 41041,
+    "normalBossDropLimit": 2,
+    "normalBossDropId": 41241,
+    "bossDropID": 41441,
+    "curseBoxDropID": 41841,
+    "bossLevelEventID": 5017,
+    "attributes": "Attack%=236724082|HPMax%=3025333780",
+    "normalBattleAttr": "Attack%=0|HPMax%=-25|IgnoreMiss%=15|ControlImmunity%=30|DamageAdd%=42",
+    "eliteBattleAttr": "Attack%=0|HPMax%=-10|IgnoreMiss%=24|ControlImmunity%=48|DamageAdd%=42",
+    "bossBattleAttr": "Attack%=0|HPMax%=0|IgnoreMiss%=24|ControlImmunity%=48|DamageAdd%=42",
+    "mapId": 5004,
+    "campEventPointId": 10917,
+    "campOffset": [
+      0,
+      5.6
+    ],
+    "jumpPower": -1,
+    "speedAdd": 82000
+  },
+  {
+    "id": 42,
+    "nameId": "Mythic_Floor_Name_42",
+    "desId": [
+      "Mythic_Des_1_3"
+    ],
+    "probabilitiesStr": [
+      "Mythic_Rate_42"
+    ],
+    "speedBoxRound": 60,
+    "speedBoxDropID": 8021,
+    "fightFeaturePre": 0,
+    "fightFeatureAll": [
+      11,
+      21,
+      51,
+      31
+    ],
+    "dropPre": [],
+    "dropAll": [
+      8106
+    ],
+    "maxRound": 120,
+    "progress": 1000,
+    "normalDropLimit": 2,
+    "normalDropID": 41042,
+    "normalBossDropLimit": 2,
+    "normalBossDropId": 41242,
+    "bossDropID": 41442,
+    "curseBoxDropID": 41842,
+    "bossLevelEventID": 5018,
+    "attributes": "Attack%=266023504|HPMax%=3569213117",
+    "normalBattleAttr": "Attack%=0|HPMax%=-25|IgnoreMiss%=15|ControlImmunity%=30|DamageAdd%=44",
+    "eliteBattleAttr": "Attack%=0|HPMax%=-10|IgnoreMiss%=24|ControlImmunity%=48|DamageAdd%=44",
+    "bossBattleAttr": "Attack%=0|HPMax%=0|IgnoreMiss%=24|ControlImmunity%=48|DamageAdd%=44",
+    "mapId": 5005,
+    "campEventPointId": 21121,
+    "campOffset": [
+      0,
+      5.6
+    ],
+    "jumpPower": -1,
+    "speedAdd": 82000
+  },
+  {
+    "id": 43,
+    "nameId": "Mythic_Floor_Name_43",
+    "desId": [
+      "Mythic_Des_1_3"
+    ],
+    "probabilitiesStr": [
+      "Mythic_Rate_43"
+    ],
+    "speedBoxRound": 60,
+    "speedBoxDropID": 8021,
+    "fightFeaturePre": 0,
+    "fightFeatureAll": [
+      11,
+      21,
+      51,
+      31
+    ],
+    "dropPre": [],
+    "dropAll": [
+      8106
+    ],
+    "maxRound": 120,
+    "progress": 1000,
+    "normalDropLimit": 2,
+    "normalDropID": 41043,
+    "normalBossDropLimit": 2,
+    "normalBossDropId": 41243,
+    "bossDropID": 41443,
+    "curseBoxDropID": 41843,
+    "bossLevelEventID": 5019,
+    "attributes": "Attack%=292096554|HPMax%=3918264329",
+    "normalBattleAttr": "Attack%=0|HPMax%=-25|IgnoreMiss%=15|ControlImmunity%=30|DamageAdd%=46",
+    "eliteBattleAttr": "Attack%=0|HPMax%=-10|IgnoreMiss%=24|ControlImmunity%=48|DamageAdd%=46",
+    "bossBattleAttr": "Attack%=0|HPMax%=0|IgnoreMiss%=24|ControlImmunity%=48|DamageAdd%=46",
+    "mapId": 5006,
+    "campEventPointId": 21121,
+    "campOffset": [
+      0,
+      5.6
+    ],
+    "jumpPower": -1,
+    "speedAdd": 88000
+  },
+  {
+    "id": 44,
+    "nameId": "Mythic_Floor_Name_44",
+    "desId": [
+      "Mythic_Des_1_3"
+    ],
+    "probabilitiesStr": [
+      "Mythic_Rate_44"
+    ],
+    "speedBoxRound": 60,
+    "speedBoxDropID": 8021,
+    "fightFeaturePre": 0,
+    "fightFeatureAll": [
+      11,
+      21,
+      51,
+      31
+    ],
+    "dropPre": [],
+    "dropAll": [
+      8106
+    ],
+    "maxRound": 120,
+    "progress": 1000,
+    "normalDropLimit": 2,
+    "normalDropID": 41044,
+    "normalBossDropLimit": 2,
+    "normalBossDropId": 41244,
+    "bossDropID": 41444,
+    "curseBoxDropID": 41844,
+    "bossLevelEventID": 5020,
+    "attributes": "Attack%=320341750|HPMax%=4511989822",
+    "normalBattleAttr": "Attack%=0|HPMax%=-25|IgnoreMiss%=15|ControlImmunity%=30|DamageAdd%=48",
+    "eliteBattleAttr": "Attack%=0|HPMax%=-10|IgnoreMiss%=24|ControlImmunity%=48|DamageAdd%=48",
+    "bossBattleAttr": "Attack%=0|HPMax%=0|IgnoreMiss%=24|ControlImmunity%=48|DamageAdd%=48",
+    "mapId": 4001,
+    "campEventPointId": 21121,
+    "campOffset": [
+      0,
+      5.6
+    ],
+    "jumpPower": -1,
+    "speedAdd": 88000
+  },
+  {
+    "id": 45,
+    "nameId": "Mythic_Floor_Name_45",
+    "desId": [
+      "Mythic_Des_1_3"
+    ],
+    "probabilitiesStr": [
+      "Mythic_Rate_45"
+    ],
+    "speedBoxRound": 60,
+    "speedBoxDropID": 8021,
+    "fightFeaturePre": 0,
+    "fightFeatureAll": [
+      11,
+      21,
+      51,
+      31
+    ],
+    "dropPre": [],
+    "dropAll": [
+      8106
+    ],
+    "maxRound": 120,
+    "progress": 1000,
+    "normalDropLimit": 2,
+    "normalDropID": 41045,
+    "normalBossDropLimit": 2,
+    "normalBossDropId": 41245,
+    "bossDropID": 41445,
+    "curseBoxDropID": 41845,
+    "bossLevelEventID": 5021,
+    "attributes": "Attack%=357328420|HPMax%=5028039087",
+    "normalBattleAttr": "Attack%=0|HPMax%=-25|IgnoreMiss%=15|ControlImmunity%=30|DamageAdd%=50",
+    "eliteBattleAttr": "Attack%=0|HPMax%=-10|IgnoreMiss%=24|ControlImmunity%=48|DamageAdd%=50",
+    "bossBattleAttr": "Attack%=0|HPMax%=0|IgnoreMiss%=24|ControlImmunity%=48|DamageAdd%=50",
+    "mapId": 5008,
+    "campEventPointId": 21121,
+    "campOffset": [
+      0,
+      5.6
+    ],
+    "jumpPower": -1,
+    "speedAdd": 88000
+  },
+  {
+    "id": 46,
+    "nameId": "Mythic_Floor_Name_46",
+    "desId": [
+      "Mythic_Des_1_3"
+    ],
+    "probabilitiesStr": [
+      "Mythic_Rate_46"
+    ],
+    "speedBoxRound": 60,
+    "speedBoxDropID": 8021,
+    "fightFeaturePre": 0,
+    "fightFeatureAll": [
+      11,
+      21,
+      51,
+      31
+    ],
+    "dropPre": [],
+    "dropAll": [
+      8106
+    ],
+    "maxRound": 120,
+    "progress": 1000,
+    "normalDropLimit": 2,
+    "normalDropID": 41046,
+    "normalBossDropLimit": 2,
+    "normalBossDropId": 41246,
+    "bossDropID": 41446,
+    "curseBoxDropID": 41846,
+    "bossLevelEventID": 5022,
+    "attributes": "Attack%=401247741|HPMax%=5641543252",
+    "normalBattleAttr": "Attack%=0|HPMax%=-25|IgnoreMiss%=15|ControlImmunity%=30|DamageAdd%=52",
+    "eliteBattleAttr": "Attack%=0|HPMax%=-10|IgnoreMiss%=24|ControlImmunity%=48|DamageAdd%=52",
+    "bossBattleAttr": "Attack%=0|HPMax%=0|IgnoreMiss%=24|ControlImmunity%=48|DamageAdd%=52",
+    "mapId": 5009,
+    "campEventPointId": 21121,
+    "campOffset": [
+      0,
+      5.6
+    ],
+    "jumpPower": -1,
+    "speedAdd": 94000
+  },
+  {
+    "id": 47,
+    "nameId": "Mythic_Floor_Name_47",
+    "desId": [
+      "Mythic_Des_1_3"
+    ],
+    "probabilitiesStr": [
+      "Mythic_Rate_47"
+    ],
+    "speedBoxRound": 60,
+    "speedBoxDropID": 8021,
+    "fightFeaturePre": 0,
+    "fightFeatureAll": [
+      11,
+      21,
+      51,
+      31
+    ],
+    "dropPre": [],
+    "dropAll": [
+      8106
+    ],
+    "maxRound": 120,
+    "progress": 1000,
+    "normalDropLimit": 2,
+    "normalDropID": 41047,
+    "normalBossDropLimit": 2,
+    "normalBossDropId": 41247,
+    "bossDropID": 41447,
+    "curseBoxDropID": 41847,
+    "bossLevelEventID": 5023,
+    "attributes": "Attack%=451984101|HPMax%=6664925536",
+    "normalBattleAttr": "Attack%=0|HPMax%=-25|IgnoreMiss%=15|ControlImmunity%=30|DamageAdd%=54",
+    "eliteBattleAttr": "Attack%=0|HPMax%=-10|IgnoreMiss%=24|ControlImmunity%=48|DamageAdd%=54",
+    "bossBattleAttr": "Attack%=0|HPMax%=0|IgnoreMiss%=24|ControlImmunity%=48|DamageAdd%=54",
+    "mapId": 5007,
+    "campEventPointId": 21121,
+    "campOffset": [
+      0,
+      5.6
+    ],
+    "jumpPower": -1,
+    "speedAdd": 94000
+  },
+  {
+    "id": 48,
+    "nameId": "Mythic_Floor_Name_48",
+    "desId": [
+      "Mythic_Des_1_3"
+    ],
+    "probabilitiesStr": [
+      "Mythic_Rate_48"
+    ],
+    "speedBoxRound": 60,
+    "speedBoxDropID": 8021,
+    "fightFeaturePre": 0,
+    "fightFeatureAll": [
+      11,
+      21,
+      51,
+      31
+    ],
+    "dropPre": [],
+    "dropAll": [
+      8106
+    ],
+    "maxRound": 120,
+    "progress": 1000,
+    "normalDropLimit": 2,
+    "normalDropID": 41048,
+    "normalBossDropLimit": 2,
+    "normalBossDropId": 41248,
+    "bossDropID": 41448,
+    "curseBoxDropID": 41848,
+    "bossLevelEventID": 5024,
+    "attributes": "Attack%=497251849|HPMax%=7323092412",
+    "normalBattleAttr": "Attack%=0|HPMax%=-25|IgnoreMiss%=15|ControlImmunity%=30|DamageAdd%=56",
+    "eliteBattleAttr": "Attack%=0|HPMax%=-10|IgnoreMiss%=24|ControlImmunity%=48|DamageAdd%=56",
+    "bossBattleAttr": "Attack%=0|HPMax%=0|IgnoreMiss%=24|ControlImmunity%=48|DamageAdd%=56",
+    "mapId": 5010,
+    "campEventPointId": 21121,
+    "campOffset": [
+      0,
+      5.6
+    ],
+    "jumpPower": -1,
+    "speedAdd": 100000
+  },
+  {
+    "id": 49,
+    "nameId": "Mythic_Floor_Name_49",
+    "desId": [
+      "Mythic_Des_1_3"
+    ],
+    "probabilitiesStr": [
+      "Mythic_Rate_49"
+    ],
+    "speedBoxRound": 60,
+    "speedBoxDropID": 8021,
+    "fightFeaturePre": 0,
+    "fightFeatureAll": [
+      11,
+      21,
+      51,
+      31
+    ],
+    "dropPre": [],
+    "dropAll": [
+      8106
+    ],
+    "maxRound": 120,
+    "progress": 1000,
+    "normalDropLimit": 2,
+    "normalDropID": 41049,
+    "normalBossDropLimit": 2,
+    "normalBossDropId": 41249,
+    "bossDropID": 41449,
+    "curseBoxDropID": 41849,
+    "bossLevelEventID": 5001,
+    "attributes": "Attack%=546303803|HPMax%=8438098844",
+    "normalBattleAttr": "Attack%=0|HPMax%=-25|IgnoreMiss%=15|ControlImmunity%=30|DamageAdd%=58",
+    "eliteBattleAttr": "Attack%=0|HPMax%=-10|IgnoreMiss%=24|ControlImmunity%=48|DamageAdd%=58",
+    "bossBattleAttr": "Attack%=0|HPMax%=0|IgnoreMiss%=24|ControlImmunity%=48|DamageAdd%=58",
+    "mapId": 2001,
+    "campEventPointId": 10217,
+    "campOffset": [
+      0,
+      5.6
+    ],
+    "jumpPower": -1,
+    "speedAdd": 100000
+  },
+  {
+    "id": 50,
+    "nameId": "Mythic_Floor_Name_50",
+    "desId": [
+      "Mythic_Feature_Des_61"
+    ],
+    "probabilitiesStr": [
+      "Mythic_Rate_50"
+    ],
+    "speedBoxRound": 60,
+    "speedBoxDropID": 8006,
+    "fightFeaturePre": 61,
+    "fightFeatureAll": [
+      11,
+      21,
+      51,
+      31,
+      61
+    ],
+    "dropPre": [],
+    "dropAll": [
+      8106
+    ],
+    "maxRound": 120,
+    "progress": 1000,
+    "normalDropLimit": 2,
+    "normalDropID": 41050,
+    "normalBossDropLimit": 2,
+    "normalBossDropId": 41250,
+    "bossDropID": 41450,
+    "curseBoxDropID": 41850,
+    "bossLevelEventID": 5002,
+    "attributes": "Attack%=609038646|HPMax%=9389142697",
+    "normalBattleAttr": "Attack%=0|HPMax%=-25|IgnoreMiss%=15|ControlImmunity%=30|DamageAdd%=60",
+    "eliteBattleAttr": "Attack%=0|HPMax%=-10|IgnoreMiss%=24|ControlImmunity%=48|DamageAdd%=60",
+    "bossBattleAttr": "Attack%=0|HPMax%=0|IgnoreMiss%=24|ControlImmunity%=48|DamageAdd%=60",
+    "mapId": 2002,
+    "campEventPointId": 19117,
+    "campOffset": [
+      0,
+      5.6
+    ],
+    "jumpPower": -1,
+    "speedAdd": 100000
+  },
+  {
+    "id": 51,
+    "nameId": "Mythic_Floor_Name_51",
+    "desId": [
+      "Mythic_Drop_Desc_7"
+    ],
+    "probabilitiesStr": [
+      "Mythic_Rate_51"
+    ],
+    "speedBoxRound": 60,
+    "speedBoxDropID": 8022,
+    "fightFeaturePre": 0,
+    "fightFeatureAll": [
+      11,
+      21,
+      51,
+      31,
+      61
+    ],
+    "dropPre": [
+      "107",
+      "gem_pink",
+      "105",
+      "item_frame_7",
+      "Mythic_Drop_Name_7",
+      "Mythic_Drop_Desc_7"
+    ],
+    "dropAll": [
+      8107
+    ],
+    "maxRound": 120,
+    "progress": 1000,
+    "normalDropLimit": 2,
+    "normalDropID": 41051,
+    "normalBossDropLimit": 2,
+    "normalBossDropId": 41251,
+    "bossDropID": 41451,
+    "curseBoxDropID": 41851,
+    "bossLevelEventID": 5003,
+    "attributes": "Attack%=682365260|HPMax%=10501601357",
+    "normalBattleAttr": "Attack%=0|HPMax%=-25|IgnoreMiss%=16|ControlImmunity%=32|DamageAdd%=62",
+    "eliteBattleAttr": "Attack%=0|HPMax%=-10|IgnoreMiss%=25|ControlImmunity%=51|DamageAdd%=62",
+    "bossBattleAttr": "Attack%=0|HPMax%=0|IgnoreMiss%=25|ControlImmunity%=51|DamageAdd%=62",
+    "mapId": 2003,
+    "campEventPointId": 10417,
+    "campOffset": [
+      0,
+      5.6
+    ],
+    "jumpPower": -1,
+    "speedAdd": 106000
+  },
+  {
+    "id": 52,
+    "nameId": "Mythic_Floor_Name_52",
+    "desId": [
+      "Mythic_Des_1_3"
+    ],
+    "probabilitiesStr": [
+      "Mythic_Rate_52"
+    ],
+    "speedBoxRound": 60,
+    "speedBoxDropID": 8022,
+    "fightFeaturePre": 0,
+    "fightFeatureAll": [
+      11,
+      21,
+      51,
+      31,
+      61
+    ],
+    "dropPre": [],
+    "dropAll": [
+      8107
+    ],
+    "maxRound": 120,
+    "progress": 1000,
+    "normalDropLimit": 2,
+    "normalDropID": 41052,
+    "normalBossDropLimit": 2,
+    "normalBossDropId": 41252,
+    "bossDropID": 41452,
+    "curseBoxDropID": 41852,
+    "bossLevelEventID": 5004,
+    "attributes": "Attack%=767204936|HPMax%=12373101187",
+    "normalBattleAttr": "Attack%=0|HPMax%=-25|IgnoreMiss%=16|ControlImmunity%=32|DamageAdd%=64",
+    "eliteBattleAttr": "Attack%=0|HPMax%=-10|IgnoreMiss%=25|ControlImmunity%=51|DamageAdd%=64",
+    "bossBattleAttr": "Attack%=0|HPMax%=0|IgnoreMiss%=25|ControlImmunity%=51|DamageAdd%=64",
+    "mapId": 2004,
+    "campEventPointId": 19117,
+    "campOffset": [
+      0,
+      5.6
+    ],
+    "jumpPower": -1,
+    "speedAdd": 106000
+  },
+  {
+    "id": 53,
+    "nameId": "Mythic_Floor_Name_53",
+    "desId": [
+      "Mythic_Des_1_3"
+    ],
+    "probabilitiesStr": [
+      "Mythic_Rate_53"
+    ],
+    "speedBoxRound": 60,
+    "speedBoxDropID": 8022,
+    "fightFeaturePre": 0,
+    "fightFeatureAll": [
+      11,
+      21,
+      51,
+      31,
+      61
+    ],
+    "dropPre": [],
+    "dropAll": [
+      8107
+    ],
+    "maxRound": 120,
+    "progress": 1000,
+    "normalDropLimit": 2,
+    "normalDropID": 41053,
+    "normalBossDropLimit": 2,
+    "normalBossDropId": 41253,
+    "bossDropID": 41453,
+    "curseBoxDropID": 41853,
+    "bossLevelEventID": 5005,
+    "attributes": "Attack%=843097478|HPMax%=13566125738",
+    "normalBattleAttr": "Attack%=0|HPMax%=-25|IgnoreMiss%=16|ControlImmunity%=32|DamageAdd%=66",
+    "eliteBattleAttr": "Attack%=0|HPMax%=-10|IgnoreMiss%=25|ControlImmunity%=51|DamageAdd%=66",
+    "bossBattleAttr": "Attack%=0|HPMax%=0|IgnoreMiss%=25|ControlImmunity%=51|DamageAdd%=66",
+    "mapId": 2005,
+    "campEventPointId": 19217,
+    "campOffset": [
+      0,
+      5.6
+    ],
+    "jumpPower": -1,
+    "speedAdd": 112000
+  },
+  {
+    "id": 54,
+    "nameId": "Mythic_Floor_Name_54",
+    "desId": [
+      "Mythic_Des_1_3"
+    ],
+    "probabilitiesStr": [
+      "Mythic_Rate_54"
+    ],
+    "speedBoxRound": 60,
+    "speedBoxDropID": 8022,
+    "fightFeaturePre": 0,
+    "fightFeatureAll": [
+      11,
+      21,
+      51,
+      31,
+      61
+    ],
+    "dropPre": [],
+    "dropAll": [
+      8107
+    ],
+    "maxRound": 120,
+    "progress": 1000,
+    "normalDropLimit": 2,
+    "normalDropID": 41054,
+    "normalBossDropLimit": 2,
+    "normalBossDropId": 41254,
+    "bossDropID": 41454,
+    "curseBoxDropID": 41854,
+    "bossLevelEventID": 5006,
+    "attributes": "Attack%=925360236|HPMax%=15602055130",
+    "normalBattleAttr": "Attack%=0|HPMax%=-25|IgnoreMiss%=16|ControlImmunity%=32|DamageAdd%=68",
+    "eliteBattleAttr": "Attack%=0|HPMax%=-10|IgnoreMiss%=25|ControlImmunity%=51|DamageAdd%=68",
+    "bossBattleAttr": "Attack%=0|HPMax%=0|IgnoreMiss%=25|ControlImmunity%=51|DamageAdd%=68",
+    "mapId": 2006,
+    "campEventPointId": 10705,
+    "campOffset": [
+      0,
+      5.6
+    ],
+    "jumpPower": -1,
+    "speedAdd": 112000
+  },
+  {
+    "id": 55,
+    "nameId": "Mythic_Floor_Name_55",
+    "desId": [
+      "Mythic_Des_1_3"
+    ],
+    "probabilitiesStr": [
+      "Mythic_Rate_55"
+    ],
+    "speedBoxRound": 60,
+    "speedBoxDropID": 8022,
+    "fightFeaturePre": 0,
+    "fightFeatureAll": [
+      11,
+      21,
+      51,
+      31,
+      61
+    ],
+    "dropPre": [],
+    "dropAll": [
+      8107
+    ],
+    "maxRound": 120,
+    "progress": 1000,
+    "normalDropLimit": 2,
+    "normalDropID": 41055,
+    "normalBossDropLimit": 2,
+    "normalBossDropId": 41255,
+    "bossDropID": 41455,
+    "curseBoxDropID": 41855,
+    "bossLevelEventID": 5007,
+    "attributes": "Attack%=1024342666|HPMax%=17222634925",
+    "normalBattleAttr": "Attack%=0|HPMax%=-25|IgnoreMiss%=16|ControlImmunity%=32|DamageAdd%=70",
+    "eliteBattleAttr": "Attack%=0|HPMax%=-10|IgnoreMiss%=25|ControlImmunity%=51|DamageAdd%=70",
+    "bossBattleAttr": "Attack%=0|HPMax%=0|IgnoreMiss%=25|ControlImmunity%=51|DamageAdd%=70",
+    "mapId": 2007,
+    "campEventPointId": 19217,
+    "campOffset": [
+      0,
+      5.6
+    ],
+    "jumpPower": -1,
+    "speedAdd": 112000
+  },
+  {
+    "id": 56,
+    "nameId": "Mythic_Floor_Name_56",
+    "desId": [
+      "Mythic_Des_1_3"
+    ],
+    "probabilitiesStr": [
+      "Mythic_Rate_56"
+    ],
+    "speedBoxRound": 60,
+    "speedBoxDropID": 8022,
+    "fightFeaturePre": 0,
+    "fightFeatureAll": [
+      11,
+      21,
+      51,
+      31,
+      61
+    ],
+    "dropPre": [],
+    "dropAll": [
+      8107
+    ],
+    "maxRound": 120,
+    "progress": 1000,
+    "normalDropLimit": 2,
+    "normalDropID": 41056,
+    "normalBossDropLimit": 2,
+    "normalBossDropId": 41256,
+    "bossDropID": 41456,
+    "curseBoxDropID": 41856,
+    "bossLevelEventID": 5008,
+    "attributes": "Attack%=1134827217|HPMax%=19031052434",
+    "normalBattleAttr": "Attack%=0|HPMax%=-25|IgnoreMiss%=16|ControlImmunity%=32|DamageAdd%=72",
+    "eliteBattleAttr": "Attack%=0|HPMax%=-10|IgnoreMiss%=25|ControlImmunity%=51|DamageAdd%=72",
+    "bossBattleAttr": "Attack%=0|HPMax%=0|IgnoreMiss%=25|ControlImmunity%=51|DamageAdd%=72",
+    "mapId": 2008,
+    "campEventPointId": 10917,
+    "campOffset": [
+      0,
+      5.6
+    ],
+    "jumpPower": -1,
+    "speedAdd": 118000
+  },
+  {
+    "id": 57,
+    "nameId": "Mythic_Floor_Name_57",
+    "desId": [
+      "Mythic_Des_1_3"
+    ],
+    "probabilitiesStr": [
+      "Mythic_Rate_57"
+    ],
+    "speedBoxRound": 60,
+    "speedBoxDropID": 8022,
+    "fightFeaturePre": 0,
+    "fightFeatureAll": [
+      11,
+      21,
+      51,
+      31,
+      61
+    ],
+    "dropPre": [],
+    "dropAll": [
+      8107
+    ],
+    "maxRound": 120,
+    "progress": 1000,
+    "normalDropLimit": 2,
+    "normalDropID": 41057,
+    "normalBossDropLimit": 2,
+    "normalBossDropId": 41257,
+    "bossDropID": 41457,
+    "curseBoxDropID": 41857,
+    "bossLevelEventID": 5009,
+    "attributes": "Attack%=1273640758|HPMax%=22361472202",
+    "normalBattleAttr": "Attack%=0|HPMax%=-25|IgnoreMiss%=16|ControlImmunity%=32|DamageAdd%=74",
+    "eliteBattleAttr": "Attack%=0|HPMax%=-10|IgnoreMiss%=25|ControlImmunity%=51|DamageAdd%=74",
+    "bossBattleAttr": "Attack%=0|HPMax%=0|IgnoreMiss%=25|ControlImmunity%=51|DamageAdd%=74",
+    "mapId": 2009,
+    "campEventPointId": 11017,
+    "campOffset": [
+      0,
+      5.6
+    ],
+    "jumpPower": -1,
+    "speedAdd": 118000
+  },
+  {
+    "id": 58,
+    "nameId": "Mythic_Floor_Name_58",
+    "desId": [
+      "Mythic_Des_1_3"
+    ],
+    "probabilitiesStr": [
+      "Mythic_Rate_58"
+    ],
+    "speedBoxRound": 60,
+    "speedBoxDropID": 8022,
+    "fightFeaturePre": 0,
+    "fightFeatureAll": [
+      11,
+      21,
+      51,
+      31,
+      61
+    ],
+    "dropPre": [],
+    "dropAll": [
+      8107
+    ],
+    "maxRound": 120,
+    "progress": 1000,
+    "normalDropLimit": 2,
+    "normalDropID": 41058,
+    "normalBossDropLimit": 2,
+    "normalBossDropId": 41258,
+    "bossDropID": 41458,
+    "curseBoxDropID": 41858,
+    "bossLevelEventID": 5010,
+    "attributes": "Attack%=1388284218|HPMax%=24300339250",
+    "normalBattleAttr": "Attack%=0|HPMax%=-25|IgnoreMiss%=16|ControlImmunity%=32|DamageAdd%=76",
+    "eliteBattleAttr": "Attack%=0|HPMax%=-10|IgnoreMiss%=25|ControlImmunity%=51|DamageAdd%=76",
+    "bossBattleAttr": "Attack%=0|HPMax%=0|IgnoreMiss%=25|ControlImmunity%=51|DamageAdd%=76",
+    "mapId": 1001,
+    "campEventPointId": 10115,
+    "campOffset": [
+      0,
+      5.6
+    ],
+    "jumpPower": -1,
+    "speedAdd": 124000
+  },
+  {
+    "id": 59,
+    "nameId": "Mythic_Floor_Name_59",
+    "desId": [
+      "Mythic_Des_1_3"
+    ],
+    "probabilitiesStr": [
+      "Mythic_Rate_59"
+    ],
+    "speedBoxRound": 60,
+    "speedBoxDropID": 8022,
+    "fightFeaturePre": 0,
+    "fightFeatureAll": [
+      11,
+      21,
+      51,
+      31,
+      61
+    ],
+    "dropPre": [],
+    "dropAll": [
+      8107
+    ],
+    "maxRound": 120,
+    "progress": 1000,
+    "normalDropLimit": 2,
+    "normalDropID": 41059,
+    "normalBossDropLimit": 2,
+    "normalBossDropId": 41259,
+    "bossDropID": 41459,
+    "curseBoxDropID": 41859,
+    "bossLevelEventID": 5011,
+    "attributes": "Attack%=1518272696|HPMax%=27827059033",
+    "normalBattleAttr": "Attack%=0|HPMax%=-25|IgnoreMiss%=16|ControlImmunity%=32|DamageAdd%=78",
+    "eliteBattleAttr": "Attack%=0|HPMax%=-10|IgnoreMiss%=25|ControlImmunity%=51|DamageAdd%=78",
+    "bossBattleAttr": "Attack%=0|HPMax%=0|IgnoreMiss%=25|ControlImmunity%=51|DamageAdd%=78",
+    "mapId": 1002,
+    "campEventPointId": 10115,
+    "campOffset": [
+      0,
+      5.6
+    ],
+    "jumpPower": -1,
+    "speedAdd": 124000
+  },
+  {
+    "id": 60,
+    "nameId": "Mythic_Floor_Name_60",
+    "desId": [
+      "Mythic_Feature_Des_12"
+    ],
+    "probabilitiesStr": [
+      "Mythic_Rate_60"
+    ],
+    "speedBoxRound": 60,
+    "speedBoxDropID": 8006,
+    "fightFeaturePre": 12,
+    "fightFeatureAll": [
+      12,
+      21,
+      51,
+      31,
+      61
+    ],
+    "dropPre": [],
+    "dropAll": [
+      8107
+    ],
+    "maxRound": 120,
+    "progress": 1000,
+    "normalDropLimit": 2,
+    "normalDropID": 41060,
+    "normalBossDropLimit": 2,
+    "normalBossDropId": 41260,
+    "bossDropID": 41460,
+    "curseBoxDropID": 41860,
+    "bossLevelEventID": 5012,
+    "attributes": "Attack%=1677294534|HPMax%=30630373761",
+    "normalBattleAttr": "Attack%=0|HPMax%=-25|IgnoreMiss%=16|ControlImmunity%=32|DamageAdd%=80",
+    "eliteBattleAttr": "Attack%=0|HPMax%=-10|IgnoreMiss%=25|ControlImmunity%=51|DamageAdd%=80",
+    "bossBattleAttr": "Attack%=0|HPMax%=0|IgnoreMiss%=25|ControlImmunity%=51|DamageAdd%=80",
+    "mapId": 1003,
+    "campEventPointId": 10115,
+    "campOffset": [
+      0,
+      5.6
+    ],
+    "jumpPower": -1,
+    "speedAdd": 124000
+  },
+  {
+    "id": 61,
+    "nameId": "Mythic_Floor_Name_61",
+    "desId": [
+      "Mythic_Des_1_3"
+    ],
+    "probabilitiesStr": [
+      "Mythic_Rate_61"
+    ],
+    "speedBoxRound": 60,
+    "speedBoxDropID": 8023,
+    "fightFeaturePre": 0,
+    "fightFeatureAll": [
+      12,
+      21,
+      51,
+      31,
+      61
+    ],
+    "dropPre": [],
+    "dropAll": [
+      8107
+    ],
+    "maxRound": 120,
+    "progress": 1000,
+    "normalDropLimit": 2,
+    "normalDropID": 41061,
+    "normalBossDropLimit": 2,
+    "normalBossDropId": 41261,
+    "bossDropID": 41461,
+    "curseBoxDropID": 41861,
+    "bossLevelEventID": 5013,
+    "attributes": "Attack%=1831724828|HPMax%=33703736838",
+    "normalBattleAttr": "Attack%=0|HPMax%=-25|IgnoreMiss%=17|ControlImmunity%=34|DamageAdd%=84",
+    "eliteBattleAttr": "Attack%=0|HPMax%=-10|IgnoreMiss%=27|ControlImmunity%=54|DamageAdd%=84",
+    "bossBattleAttr": "Attack%=0|HPMax%=0|IgnoreMiss%=27|ControlImmunity%=54|DamageAdd%=84",
+    "mapId": 1004,
+    "campEventPointId": 10115,
+    "campOffset": [
+      0,
+      5.6
+    ],
+    "jumpPower": -1,
+    "speedAdd": 130000
+  },
+  {
+    "id": 62,
+    "nameId": "Mythic_Floor_Name_62",
+    "desId": [
+      "Mythic_Des_1_3"
+    ],
+    "probabilitiesStr": [
+      "Mythic_Rate_62"
+    ],
+    "speedBoxRound": 60,
+    "speedBoxDropID": 8023,
+    "fightFeaturePre": 0,
+    "fightFeatureAll": [
+      12,
+      21,
+      51,
+      31,
+      61
+    ],
+    "dropPre": [],
+    "dropAll": [
+      8107
+    ],
+    "maxRound": 120,
+    "progress": 1000,
+    "normalDropLimit": 2,
+    "normalDropID": 41062,
+    "normalBossDropLimit": 2,
+    "normalBossDropId": 41262,
+    "bossDropID": 41462,
+    "curseBoxDropID": 41862,
+    "bossLevelEventID": 5014,
+    "attributes": "Attack%=2026822068|HPMax%=39427234352",
+    "normalBattleAttr": "Attack%=0|HPMax%=-25|IgnoreMiss%=17|ControlImmunity%=34|DamageAdd%=88",
+    "eliteBattleAttr": "Attack%=0|HPMax%=-10|IgnoreMiss%=27|ControlImmunity%=54|DamageAdd%=88",
+    "bossBattleAttr": "Attack%=0|HPMax%=0|IgnoreMiss%=27|ControlImmunity%=54|DamageAdd%=88",
+    "mapId": 5001,
+    "campEventPointId": 10115,
+    "campOffset": [
+      0,
+      5.6
+    ],
+    "jumpPower": -1,
+    "speedAdd": 130000
+  },
+  {
+    "id": 63,
+    "nameId": "Mythic_Floor_Name_63",
+    "desId": [
+      "Mythic_Des_1_3"
+    ],
+    "probabilitiesStr": [
+      "Mythic_Rate_63"
+    ],
+    "speedBoxRound": 60,
+    "speedBoxDropID": 8023,
+    "fightFeaturePre": 0,
+    "fightFeatureAll": [
+      12,
+      21,
+      51,
+      31,
+      61
+    ],
+    "dropPre": [],
+    "dropAll": [
+      8107
+    ],
+    "maxRound": 120,
+    "progress": 1000,
+    "normalDropLimit": 2,
+    "normalDropID": 41063,
+    "normalBossDropLimit": 2,
+    "normalBossDropId": 41263,
+    "bossDropID": 41463,
+    "curseBoxDropID": 41863,
+    "bossLevelEventID": 5015,
+    "attributes": "Attack%=2181892694|HPMax%=42720277603",
+    "normalBattleAttr": "Attack%=0|HPMax%=-25|IgnoreMiss%=17|ControlImmunity%=34|DamageAdd%=92",
+    "eliteBattleAttr": "Attack%=0|HPMax%=-10|IgnoreMiss%=27|ControlImmunity%=54|DamageAdd%=92",
+    "bossBattleAttr": "Attack%=0|HPMax%=0|IgnoreMiss%=27|ControlImmunity%=54|DamageAdd%=92",
+    "mapId": 5002,
+    "campEventPointId": 10115,
+    "campOffset": [
+      0,
+      5.6
+    ],
+    "jumpPower": -1,
+    "speedAdd": 136000
+  },
+  {
+    "id": 64,
+    "nameId": "Mythic_Floor_Name_64",
+    "desId": [
+      "Mythic_Des_1_3"
+    ],
+    "probabilitiesStr": [
+      "Mythic_Rate_64"
+    ],
+    "speedBoxRound": 60,
+    "speedBoxDropID": 8023,
+    "fightFeaturePre": 0,
+    "fightFeatureAll": [
+      12,
+      21,
+      51,
+      31,
+      61
+    ],
+    "dropPre": [],
+    "dropAll": [
+      8107
+    ],
+    "maxRound": 120,
+    "progress": 1000,
+    "normalDropLimit": 2,
+    "normalDropID": 41064,
+    "normalBossDropLimit": 2,
+    "normalBossDropId": 41264,
+    "bossDropID": 41464,
+    "curseBoxDropID": 41864,
+    "bossLevelEventID": 5016,
+    "attributes": "Attack%=2357507303|HPMax%=48769209552",
+    "normalBattleAttr": "Attack%=0|HPMax%=-25|IgnoreMiss%=17|ControlImmunity%=34|DamageAdd%=96",
+    "eliteBattleAttr": "Attack%=0|HPMax%=-10|IgnoreMiss%=27|ControlImmunity%=54|DamageAdd%=96",
+    "bossBattleAttr": "Attack%=0|HPMax%=0|IgnoreMiss%=27|ControlImmunity%=54|DamageAdd%=96",
+    "mapId": 5003,
+    "campEventPointId": 10917,
+    "campOffset": [
+      0,
+      5.6
+    ],
+    "jumpPower": -1,
+    "speedAdd": 136000
+  },
+  {
+    "id": 65,
+    "nameId": "Mythic_Floor_Name_65",
+    "desId": [
+      "Mythic_Des_1_3"
+    ],
+    "probabilitiesStr": [
+      "Mythic_Rate_65"
+    ],
+    "speedBoxRound": 60,
+    "speedBoxDropID": 8023,
+    "fightFeaturePre": 0,
+    "fightFeatureAll": [
+      12,
+      21,
+      51,
+      31,
+      61
+    ],
+    "dropPre": [],
+    "dropAll": [
+      8107
+    ],
+    "maxRound": 120,
+    "progress": 1000,
+    "normalDropLimit": 2,
+    "normalDropID": 41065,
+    "normalBossDropLimit": 2,
+    "normalBossDropId": 41265,
+    "bossDropID": 41465,
+    "curseBoxDropID": 41865,
+    "bossLevelEventID": 5017,
+    "attributes": "Attack%=2586718986|HPMax%=53799942144",
+    "normalBattleAttr": "Attack%=0|HPMax%=-25|IgnoreMiss%=17|ControlImmunity%=34|DamageAdd%=100",
+    "eliteBattleAttr": "Attack%=0|HPMax%=-10|IgnoreMiss%=27|ControlImmunity%=54|DamageAdd%=100",
+    "bossBattleAttr": "Attack%=0|HPMax%=0|IgnoreMiss%=27|ControlImmunity%=54|DamageAdd%=100",
+    "mapId": 5004,
+    "campEventPointId": 10917,
+    "campOffset": [
+      0,
+      5.6
+    ],
+    "jumpPower": -1,
+    "speedAdd": 136000
+  },
+  {
+    "id": 66,
+    "nameId": "Mythic_Floor_Name_66",
+    "desId": [
+      "Mythic_Des_1_3"
+    ],
+    "probabilitiesStr": [
+      "Mythic_Rate_66"
+    ],
+    "speedBoxRound": 60,
+    "speedBoxDropID": 8023,
+    "fightFeaturePre": 0,
+    "fightFeatureAll": [
+      12,
+      21,
+      51,
+      31,
+      61
+    ],
+    "dropPre": [],
+    "dropAll": [
+      8107
+    ],
+    "maxRound": 120,
+    "progress": 1000,
+    "normalDropLimit": 2,
+    "normalDropID": 41066,
+    "normalBossDropLimit": 2,
+    "normalBossDropId": 41266,
+    "bossDropID": 41466,
+    "curseBoxDropID": 41866,
+    "bossLevelEventID": 5018,
+    "attributes": "Attack%=2848653790|HPMax%=59565350750",
+    "normalBattleAttr": "Attack%=0|HPMax%=-25|IgnoreMiss%=17|ControlImmunity%=34|DamageAdd%=104",
+    "eliteBattleAttr": "Attack%=0|HPMax%=-10|IgnoreMiss%=27|ControlImmunity%=54|DamageAdd%=104",
+    "bossBattleAttr": "Attack%=0|HPMax%=0|IgnoreMiss%=27|ControlImmunity%=54|DamageAdd%=104",
+    "mapId": 5005,
+    "campEventPointId": 21121,
+    "campOffset": [
+      0,
+      5.6
+    ],
+    "jumpPower": -1,
+    "speedAdd": 142000
+  },
+  {
+    "id": 67,
+    "nameId": "Mythic_Floor_Name_67",
+    "desId": [
+      "Mythic_Des_1_3"
+    ],
+    "probabilitiesStr": [
+      "Mythic_Rate_67"
+    ],
+    "speedBoxRound": 60,
+    "speedBoxDropID": 8023,
+    "fightFeaturePre": 0,
+    "fightFeatureAll": [
+      12,
+      21,
+      51,
+      31,
+      61
+    ],
+    "dropPre": [],
+    "dropAll": [
+      8107
+    ],
+    "maxRound": 120,
+    "progress": 1000,
+    "normalDropLimit": 2,
+    "normalDropID": 41067,
+    "normalBossDropLimit": 2,
+    "normalBossDropId": 41267,
+    "bossDropID": 41467,
+    "curseBoxDropID": 41867,
+    "bossLevelEventID": 5019,
+    "attributes": "Attack%=3165907792|HPMax%=69830813651",
+    "normalBattleAttr": "Attack%=0|HPMax%=-25|IgnoreMiss%=17|ControlImmunity%=34|DamageAdd%=108",
+    "eliteBattleAttr": "Attack%=0|HPMax%=-10|IgnoreMiss%=27|ControlImmunity%=54|DamageAdd%=108",
+    "bossBattleAttr": "Attack%=0|HPMax%=0|IgnoreMiss%=27|ControlImmunity%=54|DamageAdd%=108",
+    "mapId": 5006,
+    "campEventPointId": 21121,
+    "campOffset": [
+      0,
+      5.6
+    ],
+    "jumpPower": -1,
+    "speedAdd": 142000
+  },
+  {
+    "id": 68,
+    "nameId": "Mythic_Floor_Name_68",
+    "desId": [
+      "Mythic_Des_1_3"
+    ],
+    "probabilitiesStr": [
+      "Mythic_Rate_68"
+    ],
+    "speedBoxRound": 60,
+    "speedBoxDropID": 8023,
+    "fightFeaturePre": 0,
+    "fightFeatureAll": [
+      12,
+      21,
+      51,
+      31,
+      61
+    ],
+    "dropPre": [],
+    "dropAll": [
+      8107
+    ],
+    "maxRound": 120,
+    "progress": 1000,
+    "normalDropLimit": 2,
+    "normalDropID": 41068,
+    "normalBossDropLimit": 2,
+    "normalBossDropId": 41268,
+    "bossDropID": 41468,
+    "curseBoxDropID": 41868,
+    "bossLevelEventID": 5020,
+    "attributes": "Attack%=3430729795|HPMax%=76004275344",
+    "normalBattleAttr": "Attack%=0|HPMax%=-25|IgnoreMiss%=17|ControlImmunity%=34|DamageAdd%=112",
+    "eliteBattleAttr": "Attack%=0|HPMax%=-10|IgnoreMiss%=27|ControlImmunity%=54|DamageAdd%=112",
+    "bossBattleAttr": "Attack%=0|HPMax%=0|IgnoreMiss%=27|ControlImmunity%=54|DamageAdd%=112",
+    "mapId": 4001,
+    "campEventPointId": 21121,
+    "campOffset": [
+      0,
+      5.6
+    ],
+    "jumpPower": -1,
+    "speedAdd": 148000
+  },
+  {
+    "id": 69,
+    "nameId": "Mythic_Floor_Name_69",
+    "desId": [
+      "Mythic_Des_1_3"
+    ],
+    "probabilitiesStr": [
+      "Mythic_Rate_69"
+    ],
+    "speedBoxRound": 60,
+    "speedBoxDropID": 8023,
+    "fightFeaturePre": 0,
+    "fightFeatureAll": [
+      12,
+      21,
+      51,
+      31,
+      61
+    ],
+    "dropPre": [],
+    "dropAll": [
+      8107
+    ],
+    "maxRound": 120,
+    "progress": 1000,
+    "normalDropLimit": 2,
+    "normalDropID": 41069,
+    "normalBossDropLimit": 2,
+    "normalBossDropId": 41269,
+    "bossDropID": 41469,
+    "curseBoxDropID": 41869,
+    "bossLevelEventID": 5021,
+    "attributes": "Attack%=3724004888|HPMax%=86998728708",
+    "normalBattleAttr": "Attack%=0|HPMax%=-25|IgnoreMiss%=17|ControlImmunity%=34|DamageAdd%=116",
+    "eliteBattleAttr": "Attack%=0|HPMax%=-10|IgnoreMiss%=27|ControlImmunity%=54|DamageAdd%=116",
+    "bossBattleAttr": "Attack%=0|HPMax%=0|IgnoreMiss%=27|ControlImmunity%=54|DamageAdd%=116",
+    "mapId": 5008,
+    "campEventPointId": 21121,
+    "campOffset": [
+      0,
+      5.6
+    ],
+    "jumpPower": -1,
+    "speedAdd": 148000
+  },
+  {
+    "id": 70,
+    "nameId": "Mythic_Floor_Name_70",
+    "desId": [
+      "Mythic_Feature_Des_22"
+    ],
+    "probabilitiesStr": [
+      "Mythic_Rate_70"
+    ],
+    "speedBoxRound": 60,
+    "speedBoxDropID": 8006,
+    "fightFeaturePre": 22,
+    "fightFeatureAll": [
+      12,
+      22,
+      51,
+      31,
+      61
+    ],
+    "dropPre": [],
+    "dropAll": [
+      8107
+    ],
+    "maxRound": 120,
+    "progress": 1000,
+    "normalDropLimit": 2,
+    "normalDropID": 41070,
+    "normalBossDropLimit": 2,
+    "normalBossDropId": 41270,
+    "bossDropID": 41470,
+    "curseBoxDropID": 41870,
+    "bossLevelEventID": 5022,
+    "attributes": "Attack%=4085732558|HPMax%=95770855169",
+    "normalBattleAttr": "Attack%=0|HPMax%=-25|IgnoreMiss%=17|ControlImmunity%=34|DamageAdd%=120",
+    "eliteBattleAttr": "Attack%=0|HPMax%=-10|IgnoreMiss%=27|ControlImmunity%=54|DamageAdd%=120",
+    "bossBattleAttr": "Attack%=0|HPMax%=0|IgnoreMiss%=27|ControlImmunity%=54|DamageAdd%=120",
+    "mapId": 5009,
+    "campEventPointId": 21121,
+    "campOffset": [
+      0,
+      5.6
+    ],
+    "jumpPower": -1,
+    "speedAdd": 148000
+  },
+  {
+    "id": 71,
+    "nameId": "Mythic_Floor_Name_71",
+    "desId": [
+      "Mythic_Des_1_3"
+    ],
+    "probabilitiesStr": [
+      "Mythic_Rate_71"
+    ],
+    "speedBoxRound": 60,
+    "speedBoxDropID": 8024,
+    "fightFeaturePre": 0,
+    "fightFeatureAll": [
+      12,
+      22,
+      51,
+      31,
+      61
+    ],
+    "dropPre": [],
+    "dropAll": [
+      8107
+    ],
+    "maxRound": 120,
+    "progress": 1000,
+    "normalDropLimit": 2,
+    "normalDropID": 41071,
+    "normalBossDropLimit": 2,
+    "normalBossDropId": 41271,
+    "bossDropID": 41471,
+    "curseBoxDropID": 41871,
+    "bossLevelEventID": 5023,
+    "attributes": "Attack%=4487906935|HPMax%=105555571125",
+    "normalBattleAttr": "Attack%=0|HPMax%=-25|IgnoreMiss%=18|ControlImmunity%=36|DamageAdd%=124",
+    "eliteBattleAttr": "Attack%=0|HPMax%=-10|IgnoreMiss%=28|ControlImmunity%=57|DamageAdd%=124",
+    "bossBattleAttr": "Attack%=0|HPMax%=0|IgnoreMiss%=28|ControlImmunity%=57|DamageAdd%=124",
+    "mapId": 5007,
+    "campEventPointId": 21121,
+    "campOffset": [
+      0,
+      5.6
+    ],
+    "jumpPower": -1,
+    "speedAdd": 154000
+  },
+  {
+    "id": 72,
+    "nameId": "Mythic_Floor_Name_72",
+    "desId": [
+      "Mythic_Des_1_3"
+    ],
+    "probabilitiesStr": [
+      "Mythic_Rate_72"
+    ],
+    "speedBoxRound": 60,
+    "speedBoxDropID": 8024,
+    "fightFeaturePre": 0,
+    "fightFeatureAll": [
+      12,
+      22,
+      51,
+      31,
+      61
+    ],
+    "dropPre": [],
+    "dropAll": [
+      8107
+    ],
+    "maxRound": 120,
+    "progress": 1000,
+    "normalDropLimit": 2,
+    "normalDropID": 41072,
+    "normalBossDropLimit": 2,
+    "normalBossDropId": 41272,
+    "bossDropID": 41472,
+    "curseBoxDropID": 41872,
+    "bossLevelEventID": 5024,
+    "attributes": "Attack%=4975226035|HPMax%=123230283324",
+    "normalBattleAttr": "Attack%=0|HPMax%=-25|IgnoreMiss%=18|ControlImmunity%=36|DamageAdd%=128",
+    "eliteBattleAttr": "Attack%=0|HPMax%=-10|IgnoreMiss%=28|ControlImmunity%=57|DamageAdd%=128",
+    "bossBattleAttr": "Attack%=0|HPMax%=0|IgnoreMiss%=28|ControlImmunity%=57|DamageAdd%=128",
+    "mapId": 5010,
+    "campEventPointId": 21121,
+    "campOffset": [
+      0,
+      5.6
+    ],
+    "jumpPower": -1,
+    "speedAdd": 154000
+  },
+  {
+    "id": 73,
+    "nameId": "Mythic_Floor_Name_73",
+    "desId": [
+      "Mythic_Des_1_3"
+    ],
+    "probabilitiesStr": [
+      "Mythic_Rate_73"
+    ],
+    "speedBoxRound": 60,
+    "speedBoxDropID": 8024,
+    "fightFeaturePre": 0,
+    "fightFeatureAll": [
+      12,
+      22,
+      51,
+      31,
+      61
+    ],
+    "dropPre": [],
+    "dropAll": [
+      8107
+    ],
+    "maxRound": 120,
+    "progress": 1000,
+    "normalDropLimit": 2,
+    "normalDropID": 41073,
+    "normalBossDropLimit": 2,
+    "normalBossDropId": 41273,
+    "bossDropID": 41473,
+    "curseBoxDropID": 41873,
+    "bossLevelEventID": 5001,
+    "attributes": "Attack%=5384644786|HPMax%=133705346943",
+    "normalBattleAttr": "Attack%=0|HPMax%=-25|IgnoreMiss%=18|ControlImmunity%=36|DamageAdd%=132",
+    "eliteBattleAttr": "Attack%=0|HPMax%=-10|IgnoreMiss%=28|ControlImmunity%=57|DamageAdd%=132",
+    "bossBattleAttr": "Attack%=0|HPMax%=0|IgnoreMiss%=28|ControlImmunity%=57|DamageAdd%=132",
+    "mapId": 2001,
+    "campEventPointId": 10217,
+    "campOffset": [
+      0,
+      5.6
+    ],
+    "jumpPower": -1,
+    "speedAdd": 160000
+  },
+  {
+    "id": 74,
+    "nameId": "Mythic_Floor_Name_74",
+    "desId": [
+      "Mythic_Des_1_3"
+    ],
+    "probabilitiesStr": [
+      "Mythic_Rate_74"
+    ],
+    "speedBoxRound": 60,
+    "speedBoxDropID": 8024,
+    "fightFeaturePre": 0,
+    "fightFeatureAll": [
+      12,
+      22,
+      51,
+      31,
+      61
+    ],
+    "dropPre": [],
+    "dropAll": [
+      8107
+    ],
+    "maxRound": 120,
+    "progress": 1000,
+    "normalDropLimit": 2,
+    "normalDropID": 41074,
+    "normalBossDropLimit": 2,
+    "normalBossDropId": 41274,
+    "bossDropID": 41474,
+    "curseBoxDropID": 41874,
+    "bossLevelEventID": 5002,
+    "attributes": "Attack%=5838112395|HPMax%=152605620113",
+    "normalBattleAttr": "Attack%=0|HPMax%=-25|IgnoreMiss%=18|ControlImmunity%=36|DamageAdd%=136",
+    "eliteBattleAttr": "Attack%=0|HPMax%=-10|IgnoreMiss%=28|ControlImmunity%=57|DamageAdd%=136",
+    "bossBattleAttr": "Attack%=0|HPMax%=0|IgnoreMiss%=28|ControlImmunity%=57|DamageAdd%=136",
+    "mapId": 2002,
+    "campEventPointId": 19117,
+    "campOffset": [
+      0,
+      5.6
+    ],
+    "jumpPower": -1,
+    "speedAdd": 160000
+  },
+  {
+    "id": 75,
+    "nameId": "Mythic_Floor_Name_75",
+    "desId": [
+      "Mythic_Des_1_3"
+    ],
+    "probabilitiesStr": [
+      "Mythic_Rate_75"
+    ],
+    "speedBoxRound": 60,
+    "speedBoxDropID": 8024,
+    "fightFeaturePre": 0,
+    "fightFeatureAll": [
+      12,
+      22,
+      51,
+      31,
+      61
+    ],
+    "dropPre": [],
+    "dropAll": [
+      8107
+    ],
+    "maxRound": 120,
+    "progress": 1000,
+    "normalDropLimit": 2,
+    "normalDropID": 41075,
+    "normalBossDropLimit": 2,
+    "normalBossDropId": 41275,
+    "bossDropID": 41475,
+    "curseBoxDropID": 41875,
+    "bossLevelEventID": 5003,
+    "attributes": "Attack%=6429816471|HPMax%=168355882731",
+    "normalBattleAttr": "Attack%=0|HPMax%=-25|IgnoreMiss%=18|ControlImmunity%=36|DamageAdd%=140",
+    "eliteBattleAttr": "Attack%=0|HPMax%=-10|IgnoreMiss%=28|ControlImmunity%=57|DamageAdd%=140",
+    "bossBattleAttr": "Attack%=0|HPMax%=0|IgnoreMiss%=28|ControlImmunity%=57|DamageAdd%=140",
+    "mapId": 2003,
+    "campEventPointId": 10417,
+    "campOffset": [
+      0,
+      5.6
+    ],
+    "jumpPower": -1,
+    "speedAdd": 160000
+  },
+  {
+    "id": 76,
+    "nameId": "Mythic_Floor_Name_76",
+    "desId": [
+      "Mythic_Des_1_3"
+    ],
+    "probabilitiesStr": [
+      "Mythic_Rate_76"
+    ],
+    "speedBoxRound": 60,
+    "speedBoxDropID": 8024,
+    "fightFeaturePre": 0,
+    "fightFeatureAll": [
+      12,
+      22,
+      51,
+      31,
+      61
+    ],
+    "dropPre": [],
+    "dropAll": [
+      8107
+    ],
+    "maxRound": 120,
+    "progress": 1000,
+    "normalDropLimit": 2,
+    "normalDropID": 41076,
+    "normalBossDropLimit": 2,
+    "normalBossDropId": 41276,
+    "bossDropID": 41476,
+    "curseBoxDropID": 41876,
+    "bossLevelEventID": 5004,
+    "attributes": "Attack%=7118011740|HPMax%=186705447963",
+    "normalBattleAttr": "Attack%=0|HPMax%=-25|IgnoreMiss%=18|ControlImmunity%=36|DamageAdd%=144",
+    "eliteBattleAttr": "Attack%=0|HPMax%=-10|IgnoreMiss%=28|ControlImmunity%=57|DamageAdd%=144",
+    "bossBattleAttr": "Attack%=0|HPMax%=0|IgnoreMiss%=28|ControlImmunity%=57|DamageAdd%=144",
+    "mapId": 2004,
+    "campEventPointId": 19117,
+    "campOffset": [
+      0,
+      5.6
+    ],
+    "jumpPower": -1,
+    "speedAdd": 166000
+  },
+  {
+    "id": 77,
+    "nameId": "Mythic_Floor_Name_77",
+    "desId": [
+      "Mythic_Des_1_3"
+    ],
+    "probabilitiesStr": [
+      "Mythic_Rate_77"
+    ],
+    "speedBoxRound": 60,
+    "speedBoxDropID": 8024,
+    "fightFeaturePre": 0,
+    "fightFeatureAll": [
+      12,
+      22,
+      51,
+      31,
+      61
+    ],
+    "dropPre": [],
+    "dropAll": [
+      8107
+    ],
+    "maxRound": 120,
+    "progress": 1000,
+    "normalDropLimit": 2,
+    "normalDropID": 41077,
+    "normalBossDropLimit": 2,
+    "normalBossDropId": 41277,
+    "bossDropID": 41477,
+    "curseBoxDropID": 41877,
+    "bossLevelEventID": 5005,
+    "attributes": "Attack%=7950850557|HPMax%=219268007486",
+    "normalBattleAttr": "Attack%=0|HPMax%=-25|IgnoreMiss%=18|ControlImmunity%=36|DamageAdd%=148",
+    "eliteBattleAttr": "Attack%=0|HPMax%=-10|IgnoreMiss%=28|ControlImmunity%=57|DamageAdd%=148",
+    "bossBattleAttr": "Attack%=0|HPMax%=0|IgnoreMiss%=28|ControlImmunity%=57|DamageAdd%=148",
+    "mapId": 2005,
+    "campEventPointId": 19217,
+    "campOffset": [
+      0,
+      5.6
+    ],
+    "jumpPower": -1,
+    "speedAdd": 166000
+  },
+  {
+    "id": 78,
+    "nameId": "Mythic_Floor_Name_78",
+    "desId": [
+      "Mythic_Des_1_3"
+    ],
+    "probabilitiesStr": [
+      "Mythic_Rate_78"
+    ],
+    "speedBoxRound": 60,
+    "speedBoxDropID": 8024,
+    "fightFeaturePre": 0,
+    "fightFeatureAll": [
+      12,
+      22,
+      51,
+      31,
+      61
+    ],
+    "dropPre": [],
+    "dropAll": [
+      8107
+    ],
+    "maxRound": 120,
+    "progress": 1000,
+    "normalDropLimit": 2,
+    "normalDropID": 41078,
+    "normalBossDropLimit": 2,
+    "normalBossDropId": 41278,
+    "bossDropID": 41478,
+    "curseBoxDropID": 41878,
+    "bossLevelEventID": 5006,
+    "attributes": "Attack%=8653726713|HPMax%=238902757050",
+    "normalBattleAttr": "Attack%=0|HPMax%=-25|IgnoreMiss%=18|ControlImmunity%=36|DamageAdd%=152",
+    "eliteBattleAttr": "Attack%=0|HPMax%=-10|IgnoreMiss%=28|ControlImmunity%=57|DamageAdd%=152",
+    "bossBattleAttr": "Attack%=0|HPMax%=0|IgnoreMiss%=28|ControlImmunity%=57|DamageAdd%=152",
+    "mapId": 2006,
+    "campEventPointId": 10705,
+    "campOffset": [
+      0,
+      5.6
+    ],
+    "jumpPower": -1,
+    "speedAdd": 172000
+  },
+  {
+    "id": 79,
+    "nameId": "Mythic_Floor_Name_79",
+    "desId": [
+      "Mythic_Des_1_3"
+    ],
+    "probabilitiesStr": [
+      "Mythic_Rate_79"
+    ],
+    "speedBoxRound": 60,
+    "speedBoxDropID": 8024,
+    "fightFeaturePre": 0,
+    "fightFeatureAll": [
+      12,
+      22,
+      51,
+      31,
+      61
+    ],
+    "dropPre": [],
+    "dropAll": [
+      8107
+    ],
+    "maxRound": 120,
+    "progress": 1000,
+    "normalDropLimit": 2,
+    "normalDropID": 41079,
+    "normalBossDropLimit": 2,
+    "normalBossDropId": 41279,
+    "bossDropID": 41479,
+    "curseBoxDropID": 41879,
+    "bossLevelEventID": 5007,
+    "attributes": "Attack%=9432749053|HPMax%=273738514111",
+    "normalBattleAttr": "Attack%=0|HPMax%=-25|IgnoreMiss%=18|ControlImmunity%=36|DamageAdd%=156",
+    "eliteBattleAttr": "Attack%=0|HPMax%=-10|IgnoreMiss%=28|ControlImmunity%=57|DamageAdd%=156",
+    "bossBattleAttr": "Attack%=0|HPMax%=0|IgnoreMiss%=28|ControlImmunity%=57|DamageAdd%=156",
+    "mapId": 2007,
+    "campEventPointId": 19217,
+    "campOffset": [
+      0,
+      5.6
+    ],
+    "jumpPower": -1,
+    "speedAdd": 172000
+  },
+  {
+    "id": 80,
+    "nameId": "Mythic_Floor_Name_80",
+    "desId": [
+      "Mythic_Feature_Des_52"
+    ],
+    "probabilitiesStr": [
+      "Mythic_Rate_80"
+    ],
+    "speedBoxRound": 60,
+    "speedBoxDropID": 8006,
+    "fightFeaturePre": 52,
+    "fightFeatureAll": [
+      12,
+      22,
+      52,
+      31,
+      61
+    ],
+    "dropPre": [],
+    "dropAll": [
+      8107
+    ],
+    "maxRound": 120,
+    "progress": 1000,
+    "normalDropLimit": 2,
+    "normalDropID": 41080,
+    "normalBossDropLimit": 2,
+    "normalBossDropId": 41280,
+    "bossDropID": 41480,
+    "curseBoxDropID": 41880,
+    "bossLevelEventID": 5008,
+    "attributes": "Attack%=10425406678|HPMax%=302630414188",
+    "normalBattleAttr": "Attack%=0|HPMax%=-25|IgnoreMiss%=18|ControlImmunity%=36|DamageAdd%=160",
+    "eliteBattleAttr": "Attack%=0|HPMax%=-10|IgnoreMiss%=28|ControlImmunity%=57|DamageAdd%=160",
+    "bossBattleAttr": "Attack%=0|HPMax%=0|IgnoreMiss%=28|ControlImmunity%=57|DamageAdd%=160",
+    "mapId": 2008,
+    "campEventPointId": 10917,
+    "campOffset": [
+      0,
+      5.6
+    ],
+    "jumpPower": -1,
+    "speedAdd": 172000
+  },
+  {
+    "id": 81,
+    "nameId": "Mythic_Floor_Name_81",
+    "desId": [
+      "Mythic_Des_1_3"
+    ],
+    "probabilitiesStr": [
+      "Mythic_Rate_81"
+    ],
+    "speedBoxRound": 60,
+    "speedBoxDropID": 8025,
+    "fightFeaturePre": 0,
+    "fightFeatureAll": [
+      12,
+      22,
+      52,
+      31,
+      61
+    ],
+    "dropPre": [],
+    "dropAll": [
+      8107
+    ],
+    "maxRound": 120,
+    "progress": 1000,
+    "normalDropLimit": 2,
+    "normalDropID": 41081,
+    "normalBossDropLimit": 2,
+    "normalBossDropId": 41281,
+    "bossDropID": 41481,
+    "curseBoxDropID": 41881,
+    "bossLevelEventID": 5009,
+    "attributes": "Attack%=11561320889|HPMax%=335740758625",
+    "normalBattleAttr": "Attack%=0|HPMax%=-25|IgnoreMiss%=19|ControlImmunity%=38|DamageAdd%=164",
+    "eliteBattleAttr": "Attack%=0|HPMax%=-10|IgnoreMiss%=30|ControlImmunity%=60|DamageAdd%=164",
+    "bossBattleAttr": "Attack%=0|HPMax%=0|IgnoreMiss%=30|ControlImmunity%=60|DamageAdd%=164",
+    "mapId": 2009,
+    "campEventPointId": 11017,
+    "campOffset": [
+      0,
+      5.6
+    ],
+    "jumpPower": -1,
+    "speedAdd": 178000
+  },
+  {
+    "id": 82,
+    "nameId": "Mythic_Floor_Name_82",
+    "desId": [
+      "Mythic_Des_1_3"
+    ],
+    "probabilitiesStr": [
+      "Mythic_Rate_82"
+    ],
+    "speedBoxRound": 60,
+    "speedBoxDropID": 8025,
+    "fightFeaturePre": 0,
+    "fightFeatureAll": [
+      12,
+      22,
+      52,
+      31,
+      61
+    ],
+    "dropPre": [],
+    "dropAll": [
+      8107
+    ],
+    "maxRound": 120,
+    "progress": 1000,
+    "normalDropLimit": 2,
+    "normalDropID": 41082,
+    "normalBossDropLimit": 2,
+    "normalBossDropId": 41282,
+    "bossDropID": 41482,
+    "curseBoxDropID": 41882,
+    "bossLevelEventID": 5010,
+    "attributes": "Attack%=12991277639|HPMax%=396147665452",
+    "normalBattleAttr": "Attack%=0|HPMax%=-25|IgnoreMiss%=19|ControlImmunity%=38|DamageAdd%=168",
+    "eliteBattleAttr": "Attack%=0|HPMax%=-10|IgnoreMiss%=30|ControlImmunity%=60|DamageAdd%=168",
+    "bossBattleAttr": "Attack%=0|HPMax%=0|IgnoreMiss%=30|ControlImmunity%=60|DamageAdd%=168",
+    "mapId": 1001,
+    "campEventPointId": 10115,
+    "campOffset": [
+      0,
+      5.6
+    ],
+    "jumpPower": -1,
+    "speedAdd": 178000
+  },
+  {
+    "id": 83,
+    "nameId": "Mythic_Floor_Name_83",
+    "desId": [
+      "Mythic_Des_1_3"
+    ],
+    "probabilitiesStr": [
+      "Mythic_Rate_83"
+    ],
+    "speedBoxRound": 60,
+    "speedBoxDropID": 8025,
+    "fightFeaturePre": 0,
+    "fightFeatureAll": [
+      12,
+      22,
+      52,
+      31,
+      61
+    ],
+    "dropPre": [],
+    "dropAll": [
+      8107
+    ],
+    "maxRound": 120,
+    "progress": 1000,
+    "normalDropLimit": 2,
+    "normalDropID": 41083,
+    "normalBossDropLimit": 2,
+    "normalBossDropId": 41283,
+    "bossDropID": 41483,
+    "curseBoxDropID": 41883,
+    "bossLevelEventID": 5011,
+    "attributes": "Attack%=14156898896|HPMax%=431573615065",
+    "normalBattleAttr": "Attack%=0|HPMax%=-25|IgnoreMiss%=19|ControlImmunity%=38|DamageAdd%=172",
+    "eliteBattleAttr": "Attack%=0|HPMax%=-10|IgnoreMiss%=30|ControlImmunity%=60|DamageAdd%=172",
+    "bossBattleAttr": "Attack%=0|HPMax%=0|IgnoreMiss%=30|ControlImmunity%=60|DamageAdd%=172",
+    "mapId": 1002,
+    "campEventPointId": 10115,
+    "campOffset": [
+      0,
+      5.6
+    ],
+    "jumpPower": -1,
+    "speedAdd": 184000
+  },
+  {
+    "id": 84,
+    "nameId": "Mythic_Floor_Name_84",
+    "desId": [
+      "Mythic_Des_1_3"
+    ],
+    "probabilitiesStr": [
+      "Mythic_Rate_84"
+    ],
+    "speedBoxRound": 60,
+    "speedBoxDropID": 8025,
+    "fightFeaturePre": 0,
+    "fightFeatureAll": [
+      12,
+      22,
+      52,
+      31,
+      61
+    ],
+    "dropPre": [],
+    "dropAll": [
+      8107
+    ],
+    "maxRound": 120,
+    "progress": 1000,
+    "normalDropLimit": 2,
+    "normalDropID": 41084,
+    "normalBossDropLimit": 2,
+    "normalBossDropId": 41284,
+    "bossDropID": 41484,
+    "curseBoxDropID": 41884,
+    "bossLevelEventID": 5012,
+    "attributes": "Attack%=15476647631|HPMax%=495289032928",
+    "normalBattleAttr": "Attack%=0|HPMax%=-25|IgnoreMiss%=19|ControlImmunity%=38|DamageAdd%=176",
+    "eliteBattleAttr": "Attack%=0|HPMax%=-10|IgnoreMiss%=30|ControlImmunity%=60|DamageAdd%=176",
+    "bossBattleAttr": "Attack%=0|HPMax%=0|IgnoreMiss%=30|ControlImmunity%=60|DamageAdd%=176",
+    "mapId": 1003,
+    "campEventPointId": 10115,
+    "campOffset": [
+      0,
+      5.6
+    ],
+    "jumpPower": -1,
+    "speedAdd": 184000
+  },
+  {
+    "id": 85,
+    "nameId": "Mythic_Floor_Name_85",
+    "desId": [
+      "Mythic_Des_1_3"
+    ],
+    "probabilitiesStr": [
+      "Mythic_Rate_85"
+    ],
+    "speedBoxRound": 60,
+    "speedBoxDropID": 8025,
+    "fightFeaturePre": 0,
+    "fightFeatureAll": [
+      12,
+      22,
+      52,
+      31,
+      61
+    ],
+    "dropPre": [],
+    "dropAll": [
+      8107
+    ],
+    "maxRound": 120,
+    "progress": 1000,
+    "normalDropLimit": 2,
+    "normalDropID": 41085,
+    "normalBossDropLimit": 2,
+    "normalBossDropId": 41285,
+    "bossDropID": 41485,
+    "curseBoxDropID": 41885,
+    "bossLevelEventID": 5013,
+    "attributes": "Attack%=17162654166|HPMax%=548752212621",
+    "normalBattleAttr": "Attack%=0|HPMax%=-25|IgnoreMiss%=19|ControlImmunity%=38|DamageAdd%=180",
+    "eliteBattleAttr": "Attack%=0|HPMax%=-10|IgnoreMiss%=30|ControlImmunity%=60|DamageAdd%=180",
+    "bossBattleAttr": "Attack%=0|HPMax%=0|IgnoreMiss%=30|ControlImmunity%=60|DamageAdd%=180",
+    "mapId": 1004,
+    "campEventPointId": 10115,
+    "campOffset": [
+      0,
+      5.6
+    ],
+    "jumpPower": -1,
+    "speedAdd": 184000
+  },
+  {
+    "id": 86,
+    "nameId": "Mythic_Floor_Name_86",
+    "desId": [
+      "Mythic_Des_1_3"
+    ],
+    "probabilitiesStr": [
+      "Mythic_Rate_86"
+    ],
+    "speedBoxRound": 60,
+    "speedBoxDropID": 8025,
+    "fightFeaturePre": 0,
+    "fightFeatureAll": [
+      12,
+      22,
+      52,
+      31,
+      61
+    ],
+    "dropPre": [],
+    "dropAll": [
+      8107
+    ],
+    "maxRound": 120,
+    "progress": 1000,
+    "normalDropLimit": 2,
+    "normalDropID": 41086,
+    "normalBossDropLimit": 2,
+    "normalBossDropId": 41286,
+    "bossDropID": 41486,
+    "curseBoxDropID": 41886,
+    "bossLevelEventID": 5014,
+    "attributes": "Attack%=21454583545|HPMax%=685473944285",
+    "normalBattleAttr": "Attack%=0|HPMax%=-25|IgnoreMiss%=19|ControlImmunity%=38|DamageAdd%=184",
+    "eliteBattleAttr": "Attack%=0|HPMax%=-10|IgnoreMiss%=30|ControlImmunity%=60|DamageAdd%=184",
+    "bossBattleAttr": "Attack%=0|HPMax%=0|IgnoreMiss%=30|ControlImmunity%=60|DamageAdd%=184",
+    "mapId": 5001,
+    "campEventPointId": 10115,
+    "campOffset": [
+      0,
+      5.6
+    ],
+    "jumpPower": -1,
+    "speedAdd": 190000
+  },
+  {
+    "id": 87,
+    "nameId": "Mythic_Floor_Name_87",
+    "desId": [
+      "Mythic_Des_1_3"
+    ],
+    "probabilitiesStr": [
+      "Mythic_Rate_87"
+    ],
+    "speedBoxRound": 60,
+    "speedBoxDropID": 8025,
+    "fightFeaturePre": 0,
+    "fightFeatureAll": [
+      12,
+      22,
+      52,
+      31,
+      61
+    ],
+    "dropPre": [],
+    "dropAll": [
+      8107
+    ],
+    "maxRound": 120,
+    "progress": 1000,
+    "normalDropLimit": 2,
+    "normalDropID": 41087,
+    "normalBossDropLimit": 2,
+    "normalBossDropId": 41287,
+    "bossDropID": 41487,
+    "curseBoxDropID": 41887,
+    "bossLevelEventID": 5015,
+    "attributes": "Attack%=29193883813|HPMax%=978288129472",
+    "normalBattleAttr": "Attack%=0|HPMax%=-25|IgnoreMiss%=19|ControlImmunity%=38|DamageAdd%=188",
+    "eliteBattleAttr": "Attack%=0|HPMax%=-10|IgnoreMiss%=30|ControlImmunity%=60|DamageAdd%=188",
+    "bossBattleAttr": "Attack%=0|HPMax%=0|IgnoreMiss%=30|ControlImmunity%=60|DamageAdd%=188",
+    "mapId": 5002,
+    "campEventPointId": 10115,
+    "campOffset": [
+      0,
+      5.6
+    ],
+    "jumpPower": -1,
+    "speedAdd": 190000
+  },
+  {
+    "id": 88,
+    "nameId": "Mythic_Floor_Name_88",
+    "desId": [
+      "Mythic_Des_1_3"
+    ],
+    "probabilitiesStr": [
+      "Mythic_Rate_88"
+    ],
+    "speedBoxRound": 60,
+    "speedBoxDropID": 8025,
+    "fightFeaturePre": 0,
+    "fightFeatureAll": [
+      12,
+      22,
+      52,
+      31,
+      61
+    ],
+    "dropPre": [],
+    "dropAll": [
+      8107
+    ],
+    "maxRound": 120,
+    "progress": 1000,
+    "normalDropLimit": 2,
+    "normalDropID": 41088,
+    "normalBossDropLimit": 2,
+    "normalBossDropId": 41288,
+    "bossDropID": 41488,
+    "curseBoxDropID": 41888,
+    "bossLevelEventID": 5016,
+    "attributes": "Attack%=42121182977|HPMax%=1409524978210",
+    "normalBattleAttr": "Attack%=0|HPMax%=-25|IgnoreMiss%=19|ControlImmunity%=38|DamageAdd%=192",
+    "eliteBattleAttr": "Attack%=0|HPMax%=-10|IgnoreMiss%=30|ControlImmunity%=60|DamageAdd%=192",
+    "bossBattleAttr": "Attack%=0|HPMax%=0|IgnoreMiss%=30|ControlImmunity%=60|DamageAdd%=192",
+    "mapId": 5003,
+    "campEventPointId": 10917,
+    "campOffset": [
+      0,
+      5.6
+    ],
+    "jumpPower": -1,
+    "speedAdd": 196000
+  },
+  {
+    "id": 89,
+    "nameId": "Mythic_Floor_Name_89",
+    "desId": [
+      "Mythic_Des_1_3"
+    ],
+    "probabilitiesStr": [
+      "Mythic_Rate_89"
+    ],
+    "speedBoxRound": 60,
+    "speedBoxDropID": 8025,
+    "fightFeaturePre": 0,
+    "fightFeatureAll": [
+      12,
+      22,
+      52,
+      31,
+      61
+    ],
+    "dropPre": [],
+    "dropAll": [
+      8107
+    ],
+    "maxRound": 120,
+    "progress": 1000,
+    "normalDropLimit": 2,
+    "normalDropID": 41089,
+    "normalBossDropLimit": 2,
+    "normalBossDropId": 41289,
+    "bossDropID": 41489,
+    "curseBoxDropID": 41889,
+    "bossLevelEventID": 5017,
+    "attributes": "Attack%=60918265508|HPMax%=2137746040839",
+    "normalBattleAttr": "Attack%=0|HPMax%=-25|IgnoreMiss%=19|ControlImmunity%=38|DamageAdd%=196",
+    "eliteBattleAttr": "Attack%=0|HPMax%=-10|IgnoreMiss%=30|ControlImmunity%=60|DamageAdd%=196",
+    "bossBattleAttr": "Attack%=0|HPMax%=0|IgnoreMiss%=30|ControlImmunity%=60|DamageAdd%=196",
+    "mapId": 5004,
+    "campEventPointId": 10917,
+    "campOffset": [
+      0,
+      5.6
+    ],
+    "jumpPower": -1,
+    "speedAdd": 196000
+  },
+  {
+    "id": 90,
+    "nameId": "Mythic_Floor_Name_90",
+    "desId": [
+      "Mythic_Feature_Des_32"
+    ],
+    "probabilitiesStr": [
+      "Mythic_Rate_90"
+    ],
+    "speedBoxRound": 60,
+    "speedBoxDropID": 8006,
+    "fightFeaturePre": 32,
+    "fightFeatureAll": [
+      12,
+      22,
+      52,
+      32,
+      61
+    ],
+    "dropPre": [],
+    "dropAll": [
+      8107
+    ],
+    "maxRound": 120,
+    "progress": 1000,
+    "normalDropLimit": 2,
+    "normalDropID": 41090,
+    "normalBossDropLimit": 2,
+    "normalBossDropId": 41290,
+    "bossDropID": 41490,
+    "curseBoxDropID": 41890,
+    "bossLevelEventID": 5018,
+    "attributes": "Attack%=87140856072|HPMax%=3049241469900",
+    "normalBattleAttr": "Attack%=0|HPMax%=-25|IgnoreMiss%=19|ControlImmunity%=38|DamageAdd%=200",
+    "eliteBattleAttr": "Attack%=0|HPMax%=-10|IgnoreMiss%=30|ControlImmunity%=60|DamageAdd%=200",
+    "bossBattleAttr": "Attack%=0|HPMax%=0|IgnoreMiss%=30|ControlImmunity%=60|DamageAdd%=200",
+    "mapId": 5005,
+    "campEventPointId": 21121,
+    "campOffset": [
+      0,
+      5.6
+    ],
+    "jumpPower": -1,
+    "speedAdd": 196000
+  },
+  {
+    "id": 91,
+    "nameId": "Mythic_Floor_Name_91",
+    "desId": [
+      "Mythic_Des_1_3"
+    ],
+    "probabilitiesStr": [
+      "Mythic_Rate_91"
+    ],
+    "speedBoxRound": 60,
+    "speedBoxDropID": 8026,
+    "fightFeaturePre": 0,
+    "fightFeatureAll": [
+      12,
+      22,
+      52,
+      32,
+      61
+    ],
+    "dropPre": [],
+    "dropAll": [
+      8107
+    ],
+    "maxRound": 120,
+    "progress": 1000,
+    "normalDropLimit": 2,
+    "normalDropID": 41091,
+    "normalBossDropLimit": 2,
+    "normalBossDropId": 41291,
+    "bossDropID": 41491,
+    "curseBoxDropID": 41891,
+    "bossLevelEventID": 5019,
+    "attributes": "Attack%=106110225791|HPMax%=3683443822631",
+    "normalBattleAttr": "Attack%=0|HPMax%=-25|IgnoreMiss%=19|ControlImmunity%=38|DamageAdd%=200",
+    "eliteBattleAttr": "Attack%=0|HPMax%=-10|IgnoreMiss%=30|ControlImmunity%=60|DamageAdd%=200",
+    "bossBattleAttr": "Attack%=0|HPMax%=0|IgnoreMiss%=30|ControlImmunity%=60|DamageAdd%=200",
+    "mapId": 5006,
+    "campEventPointId": 21121,
+    "campOffset": [
+      0,
+      5.6
+    ],
+    "jumpPower": -1,
+    "speedAdd": 202000
+  },
+  {
+    "id": 92,
+    "nameId": "Mythic_Floor_Name_92",
+    "desId": [
+      "Mythic_Des_1_3"
+    ],
+    "probabilitiesStr": [
+      "Mythic_Rate_92"
+    ],
+    "speedBoxRound": 60,
+    "speedBoxDropID": 8026,
+    "fightFeaturePre": 0,
+    "fightFeatureAll": [
+      12,
+      22,
+      52,
+      32,
+      61
+    ],
+    "dropPre": [],
+    "dropAll": [
+      8107
+    ],
+    "maxRound": 120,
+    "progress": 1000,
+    "normalDropLimit": 2,
+    "normalDropID": 41092,
+    "normalBossDropLimit": 2,
+    "normalBossDropId": 41292,
+    "bossDropID": 41492,
+    "curseBoxDropID": 41892,
+    "bossLevelEventID": 5020,
+    "attributes": "Attack%=129089285509|HPMax%=4445834992962",
+    "normalBattleAttr": "Attack%=0|HPMax%=-25|IgnoreMiss%=19|ControlImmunity%=38|DamageAdd%=200",
+    "eliteBattleAttr": "Attack%=0|HPMax%=-10|IgnoreMiss%=30|ControlImmunity%=60|DamageAdd%=200",
+    "bossBattleAttr": "Attack%=0|HPMax%=0|IgnoreMiss%=30|ControlImmunity%=60|DamageAdd%=200",
+    "mapId": 4001,
+    "campEventPointId": 21121,
+    "campOffset": [
+      0,
+      5.6
+    ],
+    "jumpPower": -1,
+    "speedAdd": 202000
+  },
+  {
+    "id": 93,
+    "nameId": "Mythic_Floor_Name_93",
+    "desId": [
+      "Mythic_Des_1_3"
+    ],
+    "probabilitiesStr": [
+      "Mythic_Rate_93"
+    ],
+    "speedBoxRound": 60,
+    "speedBoxDropID": 8026,
+    "fightFeaturePre": 0,
+    "fightFeatureAll": [
+      12,
+      22,
+      52,
+      32,
+      61
+    ],
+    "dropPre": [],
+    "dropAll": [
+      8107
+    ],
+    "maxRound": 120,
+    "progress": 1000,
+    "normalDropLimit": 2,
+    "normalDropID": 41093,
+    "normalBossDropLimit": 2,
+    "normalBossDropId": 41293,
+    "bossDropID": 41493,
+    "curseBoxDropID": 41893,
+    "bossLevelEventID": 5021,
+    "attributes": "Attack%=156254757851|HPMax%=5605651788995",
+    "normalBattleAttr": "Attack%=0|HPMax%=-25|IgnoreMiss%=19|ControlImmunity%=38|DamageAdd%=200",
+    "eliteBattleAttr": "Attack%=0|HPMax%=-10|IgnoreMiss%=30|ControlImmunity%=60|DamageAdd%=200",
+    "bossBattleAttr": "Attack%=0|HPMax%=0|IgnoreMiss%=30|ControlImmunity%=60|DamageAdd%=200",
+    "mapId": 5008,
+    "campEventPointId": 21121,
+    "campOffset": [
+      0,
+      5.6
+    ],
+    "jumpPower": -1,
+    "speedAdd": 202000
+  },
+  {
+    "id": 94,
+    "nameId": "Mythic_Floor_Name_94",
+    "desId": [
+      "Mythic_Des_1_3"
+    ],
+    "probabilitiesStr": [
+      "Mythic_Rate_94"
+    ],
+    "speedBoxRound": 60,
+    "speedBoxDropID": 8026,
+    "fightFeaturePre": 0,
+    "fightFeatureAll": [
+      12,
+      22,
+      52,
+      32,
+      61
+    ],
+    "dropPre": [],
+    "dropAll": [
+      8107
+    ],
+    "maxRound": 120,
+    "progress": 1000,
+    "normalDropLimit": 2,
+    "normalDropID": 41094,
+    "normalBossDropLimit": 2,
+    "normalBossDropId": 41294,
+    "bossDropID": 41494,
+    "curseBoxDropID": 41894,
+    "bossLevelEventID": 5022,
+    "attributes": "Attack%=187667706859|HPMax%=6677763167828",
+    "normalBattleAttr": "Attack%=0|HPMax%=-25|IgnoreMiss%=19|ControlImmunity%=38|DamageAdd%=200",
+    "eliteBattleAttr": "Attack%=0|HPMax%=-10|IgnoreMiss%=30|ControlImmunity%=60|DamageAdd%=200",
+    "bossBattleAttr": "Attack%=0|HPMax%=0|IgnoreMiss%=30|ControlImmunity%=60|DamageAdd%=200",
+    "mapId": 5009,
+    "campEventPointId": 21121,
+    "campOffset": [
+      0,
+      5.6
+    ],
+    "jumpPower": -1,
+    "speedAdd": 202000
+  },
+  {
+    "id": 95,
+    "nameId": "Mythic_Floor_Name_95",
+    "desId": [
+      "Mythic_Des_1_3"
+    ],
+    "probabilitiesStr": [
+      "Mythic_Rate_95"
+    ],
+    "speedBoxRound": 60,
+    "speedBoxDropID": 8026,
+    "fightFeaturePre": 0,
+    "fightFeatureAll": [
+      12,
+      22,
+      52,
+      32,
+      61
+    ],
+    "dropPre": [],
+    "dropAll": [
+      8107
+    ],
+    "maxRound": 120,
+    "progress": 1000,
+    "normalDropLimit": 2,
+    "normalDropID": 41095,
+    "normalBossDropLimit": 2,
+    "normalBossDropId": 41295,
+    "bossDropID": 41495,
+    "curseBoxDropID": 41895,
+    "bossLevelEventID": 5023,
+    "attributes": "Attack%=223438592534|HPMax%=7886589154861",
+    "normalBattleAttr": "Attack%=0|HPMax%=-25|IgnoreMiss%=19|ControlImmunity%=38|DamageAdd%=200",
+    "eliteBattleAttr": "Attack%=0|HPMax%=-10|IgnoreMiss%=30|ControlImmunity%=60|DamageAdd%=200",
+    "bossBattleAttr": "Attack%=0|HPMax%=0|IgnoreMiss%=30|ControlImmunity%=60|DamageAdd%=200",
+    "mapId": 5007,
+    "campEventPointId": 21121,
+    "campOffset": [
+      0,
+      5.6
+    ],
+    "jumpPower": -1,
+    "speedAdd": 202000
+  },
+  {
+    "id": 96,
+    "nameId": "Mythic_Floor_Name_96",
+    "desId": [
+      "Mythic_Des_1_3"
+    ],
+    "probabilitiesStr": [
+      "Mythic_Rate_96"
+    ],
+    "speedBoxRound": 60,
+    "speedBoxDropID": 8026,
+    "fightFeaturePre": 0,
+    "fightFeatureAll": [
+      12,
+      22,
+      52,
+      32,
+      61
+    ],
+    "dropPre": [],
+    "dropAll": [
+      8107
+    ],
+    "maxRound": 120,
+    "progress": 1000,
+    "normalDropLimit": 2,
+    "normalDropID": 41096,
+    "normalBossDropLimit": 2,
+    "normalBossDropId": 41296,
+    "bossDropID": 41496,
+    "curseBoxDropID": 41896,
+    "bossLevelEventID": 5024,
+    "attributes": "Attack%=263677874875|HPMax%=9232821392294",
+    "normalBattleAttr": "Attack%=0|HPMax%=-25|IgnoreMiss%=19|ControlImmunity%=38|DamageAdd%=200",
+    "eliteBattleAttr": "Attack%=0|HPMax%=-10|IgnoreMiss%=30|ControlImmunity%=60|DamageAdd%=200",
+    "bossBattleAttr": "Attack%=0|HPMax%=0|IgnoreMiss%=30|ControlImmunity%=60|DamageAdd%=200",
+    "mapId": 5010,
+    "campEventPointId": 21121,
+    "campOffset": [
+      0,
+      5.6
+    ],
+    "jumpPower": -1,
+    "speedAdd": 208000
+  },
+  {
+    "id": 97,
+    "nameId": "Mythic_Floor_Name_97",
+    "desId": [
+      "Mythic_Des_1_3"
+    ],
+    "probabilitiesStr": [
+      "Mythic_Rate_97"
+    ],
+    "speedBoxRound": 60,
+    "speedBoxDropID": 8026,
+    "fightFeaturePre": 0,
+    "fightFeatureAll": [
+      12,
+      22,
+      52,
+      32,
+      61
+    ],
+    "dropPre": [],
+    "dropAll": [
+      8107
+    ],
+    "maxRound": 120,
+    "progress": 1000,
+    "normalDropLimit": 2,
+    "normalDropID": 41097,
+    "normalBossDropLimit": 2,
+    "normalBossDropId": 41297,
+    "bossDropID": 41497,
+    "curseBoxDropID": 41897,
+    "bossLevelEventID": 5001,
+    "attributes": "Attack%=308496013883|HPMax%=10717151522327",
+    "normalBattleAttr": "Attack%=0|HPMax%=-25|IgnoreMiss%=19|ControlImmunity%=38|DamageAdd%=200",
+    "eliteBattleAttr": "Attack%=0|HPMax%=-10|IgnoreMiss%=30|ControlImmunity%=60|DamageAdd%=200",
+    "bossBattleAttr": "Attack%=0|HPMax%=0|IgnoreMiss%=30|ControlImmunity%=60|DamageAdd%=200",
+    "mapId": 2001,
+    "campEventPointId": 10217,
+    "campOffset": [
+      0,
+      5.6
+    ],
+    "jumpPower": -1,
+    "speedAdd": 208000
+  },
+  {
+    "id": 98,
+    "nameId": "Mythic_Floor_Name_98",
+    "desId": [
+      "Mythic_Des_1_3"
+    ],
+    "probabilitiesStr": [
+      "Mythic_Rate_98"
+    ],
+    "speedBoxRound": 60,
+    "speedBoxDropID": 8026,
+    "fightFeaturePre": 0,
+    "fightFeatureAll": [
+      12,
+      22,
+      52,
+      32,
+      61
+    ],
+    "dropPre": [],
+    "dropAll": [
+      8107
+    ],
+    "maxRound": 120,
+    "progress": 1000,
+    "normalDropLimit": 2,
+    "normalDropID": 41098,
+    "normalBossDropLimit": 2,
+    "normalBossDropId": 41298,
+    "bossDropID": 41498,
+    "curseBoxDropID": 41898,
+    "bossLevelEventID": 5002,
+    "attributes": "Attack%=358175737020|HPMax%=12961493492848",
+    "normalBattleAttr": "Attack%=0|HPMax%=-25|IgnoreMiss%=19|ControlImmunity%=38|DamageAdd%=200",
+    "eliteBattleAttr": "Attack%=0|HPMax%=-10|IgnoreMiss%=30|ControlImmunity%=60|DamageAdd%=200",
+    "bossBattleAttr": "Attack%=0|HPMax%=0|IgnoreMiss%=30|ControlImmunity%=60|DamageAdd%=200",
+    "mapId": 2002,
+    "campEventPointId": 19117,
+    "campOffset": [
+      0,
+      5.6
+    ],
+    "jumpPower": -1,
+    "speedAdd": 208000
+  },
+  {
+    "id": 99,
+    "nameId": "Mythic_Floor_Name_99",
+    "desId": [
+      "Mythic_Des_1_3"
+    ],
+    "probabilitiesStr": [
+      "Mythic_Rate_99"
+    ],
+    "speedBoxRound": 60,
+    "speedBoxDropID": 8026,
+    "fightFeaturePre": 0,
+    "fightFeatureAll": [
+      12,
+      22,
+      52,
+      32,
+      61
+    ],
+    "dropPre": [],
+    "dropAll": [
+      8107
+    ],
+    "maxRound": 120,
+    "progress": 1000,
+    "normalDropLimit": 2,
+    "normalDropID": 41099,
+    "normalBossDropLimit": 2,
+    "normalBossDropId": 41299,
+    "bossDropID": 41499,
+    "curseBoxDropID": 41899,
+    "bossLevelEventID": 5003,
+    "attributes": "Attack%=412703770156|HPMax%=14812825525622",
+    "normalBattleAttr": "Attack%=0|HPMax%=-25|IgnoreMiss%=19|ControlImmunity%=38|DamageAdd%=200",
+    "eliteBattleAttr": "Attack%=0|HPMax%=-10|IgnoreMiss%=30|ControlImmunity%=60|DamageAdd%=200",
+    "bossBattleAttr": "Attack%=0|HPMax%=0|IgnoreMiss%=30|ControlImmunity%=60|DamageAdd%=200",
+    "mapId": 2003,
+    "campEventPointId": 10417,
+    "campOffset": [
+      0,
+      5.6
+    ],
+    "jumpPower": -1,
+    "speedAdd": 208000
+  },
+  {
+    "id": 100,
+    "nameId": "Mythic_Floor_Name_100",
+    "desId": [
+      "Mythic_Feature_Des_62"
+    ],
+    "probabilitiesStr": [
+      "Mythic_Rate_100"
+    ],
+    "speedBoxRound": 60,
+    "speedBoxDropID": 8006,
+    "fightFeaturePre": 62,
+    "fightFeatureAll": [
+      12,
+      22,
+      52,
+      32,
+      62
+    ],
+    "dropPre": [],
+    "dropAll": [
+      8107
+    ],
+    "maxRound": 120,
+    "progress": 1000,
+    "normalDropLimit": 2,
+    "normalDropID": 41100,
+    "normalBossDropLimit": 2,
+    "normalBossDropId": 41300,
+    "bossDropID": 41500,
+    "curseBoxDropID": 41900,
+    "bossLevelEventID": 5004,
+    "attributes": "Attack%=472196173292|HPMax%=16811386825595",
+    "normalBattleAttr": "Attack%=0|HPMax%=-25|IgnoreMiss%=19|ControlImmunity%=38|DamageAdd%=200",
+    "eliteBattleAttr": "Attack%=0|HPMax%=-10|IgnoreMiss%=30|ControlImmunity%=60|DamageAdd%=200",
+    "bossBattleAttr": "Attack%=0|HPMax%=0|IgnoreMiss%=30|ControlImmunity%=60|DamageAdd%=200",
+    "mapId": 2004,
+    "campEventPointId": 19117,
+    "campOffset": [
+      0,
+      5.6
+    ],
+    "jumpPower": -1,
+    "speedAdd": 208000
+  },
+  {
+    "id": 101,
+    "nameId": "Mythic_Floor_Name_101",
+    "desId": [
+      "Mythic_Des_1_3"
+    ],
+    "probabilitiesStr": [
+      "Mythic_Rate_101"
+    ],
+    "speedBoxRound": 60,
+    "speedBoxDropID": 8026,
+    "fightFeaturePre": 0,
+    "fightFeatureAll": [
+      12,
+      22,
+      52,
+      32,
+      62
+    ],
+    "dropPre": [],
+    "dropAll": [
+      8107
+    ],
+    "maxRound": 120,
+    "progress": 1000,
+    "normalDropLimit": 2,
+    "normalDropID": 41101,
+    "normalBossDropLimit": 2,
+    "normalBossDropId": 41301,
+    "bossDropID": 41501,
+    "curseBoxDropID": 41901,
+    "bossLevelEventID": 5005,
+    "attributes": "Attack%=536769006428|HPMax%=18957903852969",
+    "normalBattleAttr": "Attack%=0|HPMax%=-25|IgnoreMiss%=19|ControlImmunity%=38|DamageAdd%=200",
+    "eliteBattleAttr": "Attack%=0|HPMax%=-10|IgnoreMiss%=30|ControlImmunity%=60|DamageAdd%=200",
+    "bossBattleAttr": "Attack%=0|HPMax%=0|IgnoreMiss%=30|ControlImmunity%=60|DamageAdd%=200",
+    "mapId": 2005,
+    "campEventPointId": 19217,
+    "campOffset": [
+      0,
+      5.6
+    ],
+    "jumpPower": -1,
+    "speedAdd": 214000
+  },
+  {
+    "id": 102,
+    "nameId": "Mythic_Floor_Name_102",
+    "desId": [
+      "Mythic_Des_1_3"
+    ],
+    "probabilitiesStr": [
+      "Mythic_Rate_102"
+    ],
+    "speedBoxRound": 60,
+    "speedBoxDropID": 8026,
+    "fightFeaturePre": 0,
+    "fightFeatureAll": [
+      12,
+      22,
+      52,
+      32,
+      62
+    ],
+    "dropPre": [],
+    "dropAll": [
+      8107
+    ],
+    "maxRound": 120,
+    "progress": 1000,
+    "normalDropLimit": 2,
+    "normalDropID": 41102,
+    "normalBossDropLimit": 2,
+    "normalBossDropId": 41302,
+    "bossDropID": 41502,
+    "curseBoxDropID": 41902,
+    "bossLevelEventID": 5006,
+    "attributes": "Attack%=606538329564|HPMax%=21253103067943",
+    "normalBattleAttr": "Attack%=0|HPMax%=-25|IgnoreMiss%=19|ControlImmunity%=38|DamageAdd%=200",
+    "eliteBattleAttr": "Attack%=0|HPMax%=-10|IgnoreMiss%=30|ControlImmunity%=60|DamageAdd%=200",
+    "bossBattleAttr": "Attack%=0|HPMax%=0|IgnoreMiss%=30|ControlImmunity%=60|DamageAdd%=200",
+    "mapId": 2006,
+    "campEventPointId": 10705,
+    "campOffset": [
+      0,
+      5.6
+    ],
+    "jumpPower": -1,
+    "speedAdd": 214000
+  },
+  {
+    "id": 103,
+    "nameId": "Mythic_Floor_Name_103",
+    "desId": [
+      "Mythic_Des_1_3"
+    ],
+    "probabilitiesStr": [
+      "Mythic_Rate_103"
+    ],
+    "speedBoxRound": 60,
+    "speedBoxDropID": 8026,
+    "fightFeaturePre": 0,
+    "fightFeatureAll": [
+      12,
+      22,
+      52,
+      32,
+      62
+    ],
+    "dropPre": [],
+    "dropAll": [
+      8107
+    ],
+    "maxRound": 120,
+    "progress": 1000,
+    "normalDropLimit": 2,
+    "normalDropID": 41103,
+    "normalBossDropLimit": 2,
+    "normalBossDropId": 41303,
+    "bossDropID": 41503,
+    "curseBoxDropID": 41903,
+    "bossLevelEventID": 5007,
+    "attributes": "Attack%=681963696908|HPMax%=24893785084519",
+    "normalBattleAttr": "Attack%=0|HPMax%=-25|IgnoreMiss%=19|ControlImmunity%=38|DamageAdd%=200",
+    "eliteBattleAttr": "Attack%=0|HPMax%=-10|IgnoreMiss%=30|ControlImmunity%=60|DamageAdd%=200",
+    "bossBattleAttr": "Attack%=0|HPMax%=0|IgnoreMiss%=30|ControlImmunity%=60|DamageAdd%=200",
+    "mapId": 2007,
+    "campEventPointId": 19217,
+    "campOffset": [
+      0,
+      5.6
+    ],
+    "jumpPower": -1,
+    "speedAdd": 214000
+  },
+  {
+    "id": 104,
+    "nameId": "Mythic_Floor_Name_104",
+    "desId": [
+      "Mythic_Des_1_3"
+    ],
+    "probabilitiesStr": [
+      "Mythic_Rate_104"
+    ],
+    "speedBoxRound": 60,
+    "speedBoxDropID": 8026,
+    "fightFeaturePre": 0,
+    "fightFeatureAll": [
+      12,
+      22,
+      52,
+      32,
+      62
+    ],
+    "dropPre": [],
+    "dropAll": [
+      8107
+    ],
+    "maxRound": 120,
+    "progress": 1000,
+    "normalDropLimit": 2,
+    "normalDropID": 41104,
+    "normalBossDropLimit": 2,
+    "normalBossDropId": 41304,
+    "bossDropID": 41504,
+    "curseBoxDropID": 41904,
+    "bossLevelEventID": 5008,
+    "attributes": "Attack%=762891594251|HPMax%=27619490282496",
+    "normalBattleAttr": "Attack%=0|HPMax%=-25|IgnoreMiss%=19|ControlImmunity%=38|DamageAdd%=200",
+    "eliteBattleAttr": "Attack%=0|HPMax%=-10|IgnoreMiss%=30|ControlImmunity%=60|DamageAdd%=200",
+    "bossBattleAttr": "Attack%=0|HPMax%=0|IgnoreMiss%=30|ControlImmunity%=60|DamageAdd%=200",
+    "mapId": 2008,
+    "campEventPointId": 10917,
+    "campOffset": [
+      0,
+      5.6
+    ],
+    "jumpPower": -1,
+    "speedAdd": 214000
+  },
+  {
+    "id": 105,
+    "nameId": "Mythic_Floor_Name_105",
+    "desId": [
+      "Mythic_Des_1_3"
+    ],
+    "probabilitiesStr": [
+      "Mythic_Rate_105"
+    ],
+    "speedBoxRound": 60,
+    "speedBoxDropID": 8026,
+    "fightFeaturePre": 0,
+    "fightFeatureAll": [
+      12,
+      22,
+      52,
+      32,
+      62
+    ],
+    "dropPre": [],
+    "dropAll": [
+      8107
+    ],
+    "maxRound": 120,
+    "progress": 1000,
+    "normalDropLimit": 2,
+    "normalDropID": 41105,
+    "normalBossDropLimit": 2,
+    "normalBossDropId": 41305,
+    "bossDropID": 41505,
+    "curseBoxDropID": 41905,
+    "bossLevelEventID": 5009,
+    "attributes": "Attack%=853602351595|HPMax%=30652989714473",
+    "normalBattleAttr": "Attack%=0|HPMax%=-25|IgnoreMiss%=19|ControlImmunity%=38|DamageAdd%=200",
+    "eliteBattleAttr": "Attack%=0|HPMax%=-10|IgnoreMiss%=30|ControlImmunity%=60|DamageAdd%=200",
+    "bossBattleAttr": "Attack%=0|HPMax%=0|IgnoreMiss%=30|ControlImmunity%=60|DamageAdd%=200",
+    "mapId": 2009,
+    "campEventPointId": 11017,
+    "campOffset": [
+      0,
+      5.6
+    ],
+    "jumpPower": -1,
+    "speedAdd": 214000
+  },
+  {
+    "id": 106,
+    "nameId": "Mythic_Floor_Name_106",
+    "desId": [
+      "Mythic_Des_1_3"
+    ],
+    "probabilitiesStr": [
+      "Mythic_Rate_106"
+    ],
+    "speedBoxRound": 60,
+    "speedBoxDropID": 8026,
+    "fightFeaturePre": 0,
+    "fightFeatureAll": [
+      12,
+      22,
+      52,
+      32,
+      62
+    ],
+    "dropPre": [],
+    "dropAll": [
+      8107
+    ],
+    "maxRound": 120,
+    "progress": 1000,
+    "normalDropLimit": 2,
+    "normalDropID": 41106,
+    "normalBossDropLimit": 2,
+    "normalBossDropId": 41306,
+    "bossDropID": 41506,
+    "curseBoxDropID": 41906,
+    "bossLevelEventID": 5010,
+    "attributes": "Attack%=954340408939|HPMax%=33995809632850",
+    "normalBattleAttr": "Attack%=0|HPMax%=-25|IgnoreMiss%=19|ControlImmunity%=38|DamageAdd%=200",
+    "eliteBattleAttr": "Attack%=0|HPMax%=-10|IgnoreMiss%=30|ControlImmunity%=60|DamageAdd%=200",
+    "bossBattleAttr": "Attack%=0|HPMax%=0|IgnoreMiss%=30|ControlImmunity%=60|DamageAdd%=200",
+    "mapId": 1001,
+    "campEventPointId": 10115,
+    "campOffset": [
+      0,
+      5.6
+    ],
+    "jumpPower": -1,
+    "speedAdd": 220000
+  },
+  {
+    "id": 107,
+    "nameId": "Mythic_Floor_Name_107",
+    "desId": [
+      "Mythic_Des_1_3"
+    ],
+    "probabilitiesStr": [
+      "Mythic_Rate_107"
+    ],
+    "speedBoxRound": 60,
+    "speedBoxDropID": 8026,
+    "fightFeaturePre": 0,
+    "fightFeatureAll": [
+      12,
+      22,
+      52,
+      32,
+      62
+    ],
+    "dropPre": [],
+    "dropAll": [
+      8107
+    ],
+    "maxRound": 120,
+    "progress": 1000,
+    "normalDropLimit": 2,
+    "normalDropID": 41107,
+    "normalBossDropLimit": 2,
+    "normalBossDropId": 41307,
+    "bossDropID": 41507,
+    "curseBoxDropID": 41907,
+    "bossLevelEventID": 5011,
+    "attributes": "Attack%=1065350206282|HPMax%=37649476290027",
+    "normalBattleAttr": "Attack%=0|HPMax%=-25|IgnoreMiss%=19|ControlImmunity%=38|DamageAdd%=200",
+    "eliteBattleAttr": "Attack%=0|HPMax%=-10|IgnoreMiss%=30|ControlImmunity%=60|DamageAdd%=200",
+    "bossBattleAttr": "Attack%=0|HPMax%=0|IgnoreMiss%=30|ControlImmunity%=60|DamageAdd%=200",
+    "mapId": 1002,
+    "campEventPointId": 10115,
+    "campOffset": [
+      0,
+      5.6
+    ],
+    "jumpPower": -1,
+    "speedAdd": 220000
+  },
+  {
+    "id": 108,
+    "nameId": "Mythic_Floor_Name_108",
+    "desId": [
+      "Mythic_Des_1_3"
+    ],
+    "probabilitiesStr": [
+      "Mythic_Rate_108"
+    ],
+    "speedBoxRound": 60,
+    "speedBoxDropID": 8026,
+    "fightFeaturePre": 0,
+    "fightFeatureAll": [
+      12,
+      22,
+      52,
+      32,
+      62
+    ],
+    "dropPre": [],
+    "dropAll": [
+      8107
+    ],
+    "maxRound": 120,
+    "progress": 1000,
+    "normalDropLimit": 2,
+    "normalDropID": 41108,
+    "normalBossDropLimit": 2,
+    "normalBossDropId": 41308,
+    "bossDropID": 41508,
+    "curseBoxDropID": 41908,
+    "bossLevelEventID": 5012,
+    "attributes": "Attack%=1187451090223|HPMax%=43716779215878",
+    "normalBattleAttr": "Attack%=0|HPMax%=-25|IgnoreMiss%=19|ControlImmunity%=38|DamageAdd%=200",
+    "eliteBattleAttr": "Attack%=0|HPMax%=-10|IgnoreMiss%=30|ControlImmunity%=60|DamageAdd%=200",
+    "bossBattleAttr": "Attack%=0|HPMax%=0|IgnoreMiss%=30|ControlImmunity%=60|DamageAdd%=200",
+    "mapId": 1003,
+    "campEventPointId": 10115,
+    "campOffset": [
+      0,
+      5.6
+    ],
+    "jumpPower": -1,
+    "speedAdd": 220000
+  },
+  {
+    "id": 109,
+    "nameId": "Mythic_Floor_Name_109",
+    "desId": [
+      "Mythic_Des_1_3"
+    ],
+    "probabilitiesStr": [
+      "Mythic_Rate_109"
+    ],
+    "speedBoxRound": 60,
+    "speedBoxDropID": 8026,
+    "fightFeaturePre": 0,
+    "fightFeatureAll": [
+      12,
+      22,
+      52,
+      32,
+      62
+    ],
+    "dropPre": [],
+    "dropAll": [
+      8107
+    ],
+    "maxRound": 120,
+    "progress": 1000,
+    "normalDropLimit": 2,
+    "normalDropID": 41109,
+    "normalBossDropLimit": 2,
+    "normalBossDropId": 41309,
+    "bossDropID": 41509,
+    "curseBoxDropID": 41909,
+    "bossLevelEventID": 5013,
+    "attributes": "Attack%=1320428700830|HPMax%=48212822083037",
+    "normalBattleAttr": "Attack%=0|HPMax%=-25|IgnoreMiss%=19|ControlImmunity%=38|DamageAdd%=200",
+    "eliteBattleAttr": "Attack%=0|HPMax%=-10|IgnoreMiss%=30|ControlImmunity%=60|DamageAdd%=200",
+    "bossBattleAttr": "Attack%=0|HPMax%=0|IgnoreMiss%=30|ControlImmunity%=60|DamageAdd%=200",
+    "mapId": 1004,
+    "campEventPointId": 10115,
+    "campOffset": [
+      0,
+      5.6
+    ],
+    "jumpPower": -1,
+    "speedAdd": 220000
+  },
+  {
+    "id": 110,
+    "nameId": "Mythic_Floor_Name_110",
+    "desId": [
+      "Mythic_Feature_Des_41"
+    ],
+    "probabilitiesStr": [
+      "Mythic_Rate_110"
+    ],
+    "speedBoxRound": 60,
+    "speedBoxDropID": 8006,
+    "fightFeaturePre": 41,
+    "fightFeatureAll": [
+      12,
+      22,
+      52,
+      32,
+      62,
+      41
+    ],
+    "dropPre": [],
+    "dropAll": [
+      8107
+    ],
+    "maxRound": 120,
+    "progress": 1000,
+    "normalDropLimit": 2,
+    "normalDropID": 41110,
+    "normalBossDropLimit": 2,
+    "normalBossDropId": 41310,
+    "bossDropID": 41510,
+    "curseBoxDropID": 41910,
+    "bossLevelEventID": 5014,
+    "attributes": "Attack%=1464539918104|HPMax%=53040217006196",
+    "normalBattleAttr": "Attack%=0|HPMax%=-25|IgnoreMiss%=19|ControlImmunity%=38|DamageAdd%=200",
+    "eliteBattleAttr": "Attack%=0|HPMax%=-10|IgnoreMiss%=30|ControlImmunity%=60|DamageAdd%=200",
+    "bossBattleAttr": "Attack%=0|HPMax%=0|IgnoreMiss%=30|ControlImmunity%=60|DamageAdd%=200",
+    "mapId": 5001,
+    "campEventPointId": 10115,
+    "campOffset": [
+      0,
+      5.6
+    ],
+    "jumpPower": -1,
+    "speedAdd": 220000
+  },
+  {
+    "id": 111,
+    "nameId": "Mythic_Floor_Name_111",
+    "desId": [
+      "Mythic_Des_1_3"
+    ],
+    "probabilitiesStr": [
+      "Mythic_Rate_111"
+    ],
+    "speedBoxRound": 60,
+    "speedBoxDropID": 8026,
+    "fightFeaturePre": 0,
+    "fightFeatureAll": [
+      12,
+      22,
+      52,
+      32,
+      62,
+      41
+    ],
+    "dropPre": [],
+    "dropAll": [
+      8107
+    ],
+    "maxRound": 120,
+    "progress": 1000,
+    "normalDropLimit": 2,
+    "normalDropID": 41111,
+    "normalBossDropLimit": 2,
+    "normalBossDropId": 41311,
+    "bossDropID": 41511,
+    "curseBoxDropID": 41911,
+    "bossLevelEventID": 5015,
+    "attributes": "Attack%=1620041622044|HPMax%=58200567301755",
+    "normalBattleAttr": "Attack%=0|HPMax%=-25|IgnoreMiss%=19|ControlImmunity%=38|DamageAdd%=200",
+    "eliteBattleAttr": "Attack%=0|HPMax%=-10|IgnoreMiss%=30|ControlImmunity%=60|DamageAdd%=200",
+    "bossBattleAttr": "Attack%=0|HPMax%=0|IgnoreMiss%=30|ControlImmunity%=60|DamageAdd%=200",
+    "mapId": 5002,
+    "campEventPointId": 10115,
+    "campOffset": [
+      0,
+      5.6
+    ],
+    "jumpPower": -1,
+    "speedAdd": 226000
+  },
+  {
+    "id": 112,
+    "nameId": "Mythic_Floor_Name_112",
+    "desId": [
+      "Mythic_Des_1_3"
+    ],
+    "probabilitiesStr": [
+      "Mythic_Rate_112"
+    ],
+    "speedBoxRound": 60,
+    "speedBoxDropID": 8026,
+    "fightFeaturePre": 0,
+    "fightFeatureAll": [
+      12,
+      22,
+      52,
+      32,
+      62,
+      41
+    ],
+    "dropPre": [],
+    "dropAll": [
+      8107
+    ],
+    "maxRound": 120,
+    "progress": 1000,
+    "normalDropLimit": 2,
+    "normalDropID": 41112,
+    "normalBossDropLimit": 2,
+    "normalBossDropId": 41312,
+    "bossDropID": 41512,
+    "curseBoxDropID": 41912,
+    "bossLevelEventID": 5016,
+    "attributes": "Attack%=1787190692651|HPMax%=63695476286115",
+    "normalBattleAttr": "Attack%=0|HPMax%=-25|IgnoreMiss%=19|ControlImmunity%=38|DamageAdd%=200",
+    "eliteBattleAttr": "Attack%=0|HPMax%=-10|IgnoreMiss%=30|ControlImmunity%=60|DamageAdd%=200",
+    "bossBattleAttr": "Attack%=0|HPMax%=0|IgnoreMiss%=30|ControlImmunity%=60|DamageAdd%=200",
+    "mapId": 5003,
+    "campEventPointId": 10917,
+    "campOffset": [
+      0,
+      5.6
+    ],
+    "jumpPower": -1,
+    "speedAdd": 226000
+  },
+  {
+    "id": 113,
+    "nameId": "Mythic_Floor_Name_113",
+    "desId": [
+      "Mythic_Des_1_3"
+    ],
+    "probabilitiesStr": [
+      "Mythic_Rate_113"
+    ],
+    "speedBoxRound": 60,
+    "speedBoxDropID": 8026,
+    "fightFeaturePre": 0,
+    "fightFeatureAll": [
+      12,
+      22,
+      52,
+      32,
+      62,
+      41
+    ],
+    "dropPre": [],
+    "dropAll": [
+      8107
+    ],
+    "maxRound": 120,
+    "progress": 1000,
+    "normalDropLimit": 2,
+    "normalDropID": 41113,
+    "normalBossDropLimit": 2,
+    "normalBossDropId": 41313,
+    "bossDropID": 41513,
+    "curseBoxDropID": 41913,
+    "bossLevelEventID": 5017,
+    "attributes": "Attack%=1967159395578|HPMax%=73031763008131",
+    "normalBattleAttr": "Attack%=0|HPMax%=-25|IgnoreMiss%=19|ControlImmunity%=38|DamageAdd%=200",
+    "eliteBattleAttr": "Attack%=0|HPMax%=-10|IgnoreMiss%=30|ControlImmunity%=60|DamageAdd%=200",
+    "bossBattleAttr": "Attack%=0|HPMax%=0|IgnoreMiss%=30|ControlImmunity%=60|DamageAdd%=200",
+    "mapId": 5004,
+    "campEventPointId": 10917,
+    "campOffset": [
+      0,
+      5.6
+    ],
+    "jumpPower": -1,
+    "speedAdd": 226000
+  },
+  {
+    "id": 114,
+    "nameId": "Mythic_Floor_Name_114",
+    "desId": [
+      "Mythic_Des_1_3"
+    ],
+    "probabilitiesStr": [
+      "Mythic_Rate_114"
+    ],
+    "speedBoxRound": 60,
+    "speedBoxDropID": 8026,
+    "fightFeaturePre": 0,
+    "fightFeatureAll": [
+      12,
+      22,
+      52,
+      32,
+      62,
+      41
+    ],
+    "dropPre": [],
+    "dropAll": [
+      8107
+    ],
+    "maxRound": 120,
+    "progress": 1000,
+    "normalDropLimit": 2,
+    "normalDropID": 41114,
+    "normalBossDropLimit": 2,
+    "normalBossDropId": 41314,
+    "bossDropID": 41514,
+    "curseBoxDropID": 41914,
+    "bossLevelEventID": 5018,
+    "attributes": "Attack%=2159448318505|HPMax%=79511604294169",
+    "normalBattleAttr": "Attack%=0|HPMax%=-25|IgnoreMiss%=19|ControlImmunity%=38|DamageAdd%=200",
+    "eliteBattleAttr": "Attack%=0|HPMax%=-10|IgnoreMiss%=30|ControlImmunity%=60|DamageAdd%=200",
+    "bossBattleAttr": "Attack%=0|HPMax%=0|IgnoreMiss%=30|ControlImmunity%=60|DamageAdd%=200",
+    "mapId": 5005,
+    "campEventPointId": 21121,
+    "campOffset": [
+      0,
+      5.6
+    ],
+    "jumpPower": -1,
+    "speedAdd": 226000
+  },
+  {
+    "id": 115,
+    "nameId": "Mythic_Floor_Name_115",
+    "desId": [
+      "Mythic_Des_1_3"
+    ],
+    "probabilitiesStr": [
+      "Mythic_Rate_115"
+    ],
+    "speedBoxRound": 60,
+    "speedBoxDropID": 8026,
+    "fightFeaturePre": 0,
+    "fightFeatureAll": [
+      12,
+      22,
+      52,
+      32,
+      62,
+      41
+    ],
+    "dropPre": [],
+    "dropAll": [
+      8107
+    ],
+    "maxRound": 120,
+    "progress": 1000,
+    "normalDropLimit": 2,
+    "normalDropID": 41115,
+    "normalBossDropLimit": 2,
+    "normalBossDropId": 41315,
+    "bossDropID": 41515,
+    "curseBoxDropID": 41915,
+    "bossLevelEventID": 5019,
+    "attributes": "Attack%=2364326901432|HPMax%=86347923658206",
+    "normalBattleAttr": "Attack%=0|HPMax%=-25|IgnoreMiss%=19|ControlImmunity%=38|DamageAdd%=200",
+    "eliteBattleAttr": "Attack%=0|HPMax%=-10|IgnoreMiss%=30|ControlImmunity%=60|DamageAdd%=200",
+    "bossBattleAttr": "Attack%=0|HPMax%=0|IgnoreMiss%=30|ControlImmunity%=60|DamageAdd%=200",
+    "mapId": 5006,
+    "campEventPointId": 21121,
+    "campOffset": [
+      0,
+      5.6
+    ],
+    "jumpPower": -1,
+    "speedAdd": 226000
+  },
+  {
+    "id": 116,
+    "nameId": "Mythic_Floor_Name_116",
+    "desId": [
+      "Mythic_Des_1_3"
+    ],
+    "probabilitiesStr": [
+      "Mythic_Rate_116"
+    ],
+    "speedBoxRound": 60,
+    "speedBoxDropID": 8026,
+    "fightFeaturePre": 0,
+    "fightFeatureAll": [
+      12,
+      22,
+      52,
+      32,
+      62,
+      41
+    ],
+    "dropPre": [],
+    "dropAll": [
+      8107
+    ],
+    "maxRound": 120,
+    "progress": 1000,
+    "normalDropLimit": 2,
+    "normalDropID": 41116,
+    "normalBossDropLimit": 2,
+    "normalBossDropId": 41316,
+    "bossDropID": 41516,
+    "curseBoxDropID": 41916,
+    "bossLevelEventID": 5020,
+    "attributes": "Attack%=2582064584359|HPMax%=93542405248643",
+    "normalBattleAttr": "Attack%=0|HPMax%=-25|IgnoreMiss%=19|ControlImmunity%=38|DamageAdd%=200",
+    "eliteBattleAttr": "Attack%=0|HPMax%=-10|IgnoreMiss%=30|ControlImmunity%=60|DamageAdd%=200",
+    "bossBattleAttr": "Attack%=0|HPMax%=0|IgnoreMiss%=30|ControlImmunity%=60|DamageAdd%=200",
+    "mapId": 4001,
+    "campEventPointId": 21121,
+    "campOffset": [
+      0,
+      5.6
+    ],
+    "jumpPower": -1,
+    "speedAdd": 232000
+  },
+  {
+    "id": 117,
+    "nameId": "Mythic_Floor_Name_117",
+    "desId": [
+      "Mythic_Des_1_3"
+    ],
+    "probabilitiesStr": [
+      "Mythic_Rate_117"
+    ],
+    "speedBoxRound": 60,
+    "speedBoxDropID": 8026,
+    "fightFeaturePre": 0,
+    "fightFeatureAll": [
+      12,
+      22,
+      52,
+      32,
+      62,
+      41
+    ],
+    "dropPre": [],
+    "dropAll": [
+      8107
+    ],
+    "maxRound": 120,
+    "progress": 1000,
+    "normalDropLimit": 2,
+    "normalDropID": 41117,
+    "normalBossDropLimit": 2,
+    "normalBossDropId": 41317,
+    "bossDropID": 41517,
+    "curseBoxDropID": 41917,
+    "bossLevelEventID": 5021,
+    "attributes": "Attack%=2812930807286|HPMax%=101096733213881",
+    "normalBattleAttr": "Attack%=0|HPMax%=-25|IgnoreMiss%=19|ControlImmunity%=38|DamageAdd%=200",
+    "eliteBattleAttr": "Attack%=0|HPMax%=-10|IgnoreMiss%=30|ControlImmunity%=60|DamageAdd%=200",
+    "bossBattleAttr": "Attack%=0|HPMax%=0|IgnoreMiss%=30|ControlImmunity%=60|DamageAdd%=200",
+    "mapId": 5008,
+    "campEventPointId": 21121,
+    "campOffset": [
+      0,
+      5.6
+    ],
+    "jumpPower": -1,
+    "speedAdd": 232000
+  },
+  {
+    "id": 118,
+    "nameId": "Mythic_Floor_Name_118",
+    "desId": [
+      "Mythic_Des_1_3"
+    ],
+    "probabilitiesStr": [
+      "Mythic_Rate_118"
+    ],
+    "speedBoxRound": 60,
+    "speedBoxDropID": 8026,
+    "fightFeaturePre": 0,
+    "fightFeatureAll": [
+      12,
+      22,
+      52,
+      32,
+      62,
+      41
+    ],
+    "dropPre": [],
+    "dropAll": [
+      8107
+    ],
+    "maxRound": 120,
+    "progress": 1000,
+    "normalDropLimit": 2,
+    "normalDropID": 41118,
+    "normalBossDropLimit": 2,
+    "normalBossDropId": 41318,
+    "bossDropID": 41518,
+    "curseBoxDropID": 41918,
+    "bossLevelEventID": 5022,
+    "attributes": "Attack%=3058670822612|HPMax%=114510381261022",
+    "normalBattleAttr": "Attack%=0|HPMax%=-25|IgnoreMiss%=19|ControlImmunity%=38|DamageAdd%=200",
+    "eliteBattleAttr": "Attack%=0|HPMax%=-10|IgnoreMiss%=30|ControlImmunity%=60|DamageAdd%=200",
+    "bossBattleAttr": "Attack%=0|HPMax%=0|IgnoreMiss%=30|ControlImmunity%=60|DamageAdd%=200",
+    "mapId": 5009,
+    "campEventPointId": 21121,
+    "campOffset": [
+      0,
+      5.6
+    ],
+    "jumpPower": -1,
+    "speedAdd": 232000
+  },
+  {
+    "id": 119,
+    "nameId": "Mythic_Floor_Name_119",
+    "desId": [
+      "Mythic_Des_1_3"
+    ],
+    "probabilitiesStr": [
+      "Mythic_Rate_119"
+    ],
+    "speedBoxRound": 60,
+    "speedBoxDropID": 8026,
+    "fightFeaturePre": 0,
+    "fightFeatureAll": [
+      12,
+      22,
+      52,
+      32,
+      62,
+      41
+    ],
+    "dropPre": [],
+    "dropAll": [
+      8107
+    ],
+    "maxRound": 120,
+    "progress": 1000,
+    "normalDropLimit": 2,
+    "normalDropID": 41119,
+    "normalBossDropLimit": 2,
+    "normalBossDropId": 41319,
+    "bossDropID": 41519,
+    "curseBoxDropID": 41919,
+    "bossLevelEventID": 5023,
+    "attributes": "Attack%=3318297137938|HPMax%=123104488036339",
+    "normalBattleAttr": "Attack%=0|HPMax%=-25|IgnoreMiss%=19|ControlImmunity%=38|DamageAdd%=200",
+    "eliteBattleAttr": "Attack%=0|HPMax%=-10|IgnoreMiss%=30|ControlImmunity%=60|DamageAdd%=200",
+    "bossBattleAttr": "Attack%=0|HPMax%=0|IgnoreMiss%=30|ControlImmunity%=60|DamageAdd%=200",
+    "mapId": 5007,
+    "campEventPointId": 21121,
+    "campOffset": [
+      0,
+      5.6
+    ],
+    "jumpPower": -1,
+    "speedAdd": 232000
+  },
+  {
+    "id": 120,
+    "nameId": "Mythic_Floor_Name_120",
+    "desId": [
+      "Mythic_Feature_Des_53"
+    ],
+    "probabilitiesStr": [
+      "Mythic_Rate_120"
+    ],
+    "speedBoxRound": 60,
+    "speedBoxDropID": 8006,
+    "fightFeaturePre": 53,
+    "fightFeatureAll": [
+      12,
+      22,
+      53,
+      32,
+      62,
+      41
+    ],
+    "dropPre": [],
+    "dropAll": [
+      8107
+    ],
+    "maxRound": 120,
+    "progress": 1000,
+    "normalDropLimit": 2,
+    "normalDropID": 41120,
+    "normalBossDropLimit": 2,
+    "normalBossDropId": 41320,
+    "bossDropID": 41520,
+    "curseBoxDropID": 41920,
+    "bossLevelEventID": 5024,
+    "attributes": "Attack%=3592092873265|HPMax%=132067154061657",
+    "normalBattleAttr": "Attack%=0|HPMax%=-25|IgnoreMiss%=19|ControlImmunity%=38|DamageAdd%=200",
+    "eliteBattleAttr": "Attack%=0|HPMax%=-10|IgnoreMiss%=30|ControlImmunity%=60|DamageAdd%=200",
+    "bossBattleAttr": "Attack%=0|HPMax%=0|IgnoreMiss%=30|ControlImmunity%=60|DamageAdd%=200",
+    "mapId": 5010,
+    "campEventPointId": 21121,
+    "campOffset": [
+      0,
+      5.6
+    ],
+    "jumpPower": -1,
+    "speedAdd": 232000
+  },
+  {
+    "id": 121,
+    "nameId": "Mythic_Floor_Name_121",
+    "desId": [
+      "Mythic_Des_1_3"
+    ],
+    "probabilitiesStr": [
+      "Mythic_Rate_121"
+    ],
+    "speedBoxRound": 60,
+    "speedBoxDropID": 8026,
+    "fightFeaturePre": 0,
+    "fightFeatureAll": [
+      12,
+      22,
+      53,
+      32,
+      62,
+      41
+    ],
+    "dropPre": [],
+    "dropAll": [
+      8107
+    ],
+    "maxRound": 120,
+    "progress": 1000,
+    "normalDropLimit": 2,
+    "normalDropID": 41121,
+    "normalBossDropLimit": 2,
+    "normalBossDropId": 41321,
+    "bossDropID": 41521,
+    "curseBoxDropID": 41921,
+    "bossLevelEventID": 5001,
+    "attributes": "Attack%=3894941958591|HPMax%=141931316012474",
+    "normalBattleAttr": "Attack%=0|HPMax%=-25|IgnoreMiss%=19|ControlImmunity%=38|DamageAdd%=200",
+    "eliteBattleAttr": "Attack%=0|HPMax%=-10|IgnoreMiss%=30|ControlImmunity%=60|DamageAdd%=200",
+    "bossBattleAttr": "Attack%=0|HPMax%=0|IgnoreMiss%=30|ControlImmunity%=60|DamageAdd%=200",
+    "mapId": 2001,
+    "campEventPointId": 10217,
+    "campOffset": [
+      0,
+      5.6
+    ],
+    "jumpPower": -1,
+    "speedAdd": 238000
+  },
+  {
+    "id": 122,
+    "nameId": "Mythic_Floor_Name_122",
+    "desId": [
+      "Mythic_Des_1_3"
+    ],
+    "probabilitiesStr": [
+      "Mythic_Rate_122"
+    ],
+    "speedBoxRound": 60,
+    "speedBoxDropID": 8026,
+    "fightFeaturePre": 0,
+    "fightFeatureAll": [
+      12,
+      22,
+      53,
+      32,
+      62,
+      41
+    ],
+    "dropPre": [],
+    "dropAll": [
+      8107
+    ],
+    "maxRound": 120,
+    "progress": 1000,
+    "normalDropLimit": 2,
+    "normalDropID": 41122,
+    "normalBossDropLimit": 2,
+    "normalBossDropId": 41322,
+    "bossDropID": 41522,
+    "curseBoxDropID": 41922,
+    "bossLevelEventID": 5002,
+    "attributes": "Attack%=4227552193917|HPMax%=152699185244292",
+    "normalBattleAttr": "Attack%=0|HPMax%=-25|IgnoreMiss%=19|ControlImmunity%=38|DamageAdd%=200",
+    "eliteBattleAttr": "Attack%=0|HPMax%=-10|IgnoreMiss%=30|ControlImmunity%=60|DamageAdd%=200",
+    "bossBattleAttr": "Attack%=0|HPMax%=0|IgnoreMiss%=30|ControlImmunity%=60|DamageAdd%=200",
+    "mapId": 2002,
+    "campEventPointId": 19117,
+    "campOffset": [
+      0,
+      5.6
+    ],
+    "jumpPower": -1,
+    "speedAdd": 238000
+  },
+  {
+    "id": 123,
+    "nameId": "Mythic_Floor_Name_123",
+    "desId": [
+      "Mythic_Des_1_3"
+    ],
+    "probabilitiesStr": [
+      "Mythic_Rate_123"
+    ],
+    "speedBoxRound": 60,
+    "speedBoxDropID": 8026,
+    "fightFeaturePre": 0,
+    "fightFeatureAll": [
+      12,
+      22,
+      53,
+      32,
+      62,
+      41
+    ],
+    "dropPre": [],
+    "dropAll": [
+      8107
+    ],
+    "maxRound": 120,
+    "progress": 1000,
+    "normalDropLimit": 2,
+    "normalDropID": 41123,
+    "normalBossDropLimit": 2,
+    "normalBossDropId": 41323,
+    "bossDropID": 41523,
+    "curseBoxDropID": 41923,
+    "bossLevelEventID": 5003,
+    "attributes": "Attack%=4592765705939|HPMax%=172650508898158",
+    "normalBattleAttr": "Attack%=0|HPMax%=-25|IgnoreMiss%=19|ControlImmunity%=38|DamageAdd%=200",
+    "eliteBattleAttr": "Attack%=0|HPMax%=-10|IgnoreMiss%=30|ControlImmunity%=60|DamageAdd%=200",
+    "bossBattleAttr": "Attack%=0|HPMax%=0|IgnoreMiss%=30|ControlImmunity%=60|DamageAdd%=200",
+    "mapId": 2003,
+    "campEventPointId": 10417,
+    "campOffset": [
+      0,
+      5.6
+    ],
+    "jumpPower": -1,
+    "speedAdd": 238000
+  },
+  {
+    "id": 124,
+    "nameId": "Mythic_Floor_Name_124",
+    "desId": [
+      "Mythic_Des_1_3"
+    ],
+    "probabilitiesStr": [
+      "Mythic_Rate_124"
+    ],
+    "speedBoxRound": 60,
+    "speedBoxDropID": 8026,
+    "fightFeaturePre": 0,
+    "fightFeatureAll": [
+      12,
+      22,
+      53,
+      32,
+      62,
+      41
+    ],
+    "dropPre": [],
+    "dropAll": [
+      8107
+    ],
+    "maxRound": 120,
+    "progress": 1000,
+    "normalDropLimit": 2,
+    "normalDropID": 41124,
+    "normalBossDropLimit": 2,
+    "normalBossDropId": 41324,
+    "bossDropID": 41524,
+    "curseBoxDropID": 41924,
+    "bossLevelEventID": 5004,
+    "attributes": "Attack%=4989478901295|HPMax%=185866030162779",
+    "normalBattleAttr": "Attack%=0|HPMax%=-25|IgnoreMiss%=19|ControlImmunity%=38|DamageAdd%=200",
+    "eliteBattleAttr": "Attack%=0|HPMax%=-10|IgnoreMiss%=30|ControlImmunity%=60|DamageAdd%=200",
+    "bossBattleAttr": "Attack%=0|HPMax%=0|IgnoreMiss%=30|ControlImmunity%=60|DamageAdd%=200",
+    "mapId": 2004,
+    "campEventPointId": 19117,
+    "campOffset": [
+      0,
+      5.6
+    ],
+    "jumpPower": -1,
+    "speedAdd": 238000
+  },
+  {
+    "id": 125,
+    "nameId": "Mythic_Floor_Name_125",
+    "desId": [
+      "Mythic_Des_1_3"
+    ],
+    "probabilitiesStr": [
+      "Mythic_Rate_125"
+    ],
+    "speedBoxRound": 60,
+    "speedBoxDropID": 8026,
+    "fightFeaturePre": 0,
+    "fightFeatureAll": [
+      12,
+      22,
+      53,
+      32,
+      62,
+      41
+    ],
+    "dropPre": [],
+    "dropAll": [
+      8107
+    ],
+    "maxRound": 120,
+    "progress": 1000,
+    "normalDropLimit": 2,
+    "normalDropID": 41125,
+    "normalBossDropLimit": 2,
+    "normalBossDropId": 41325,
+    "bossDropID": 41525,
+    "curseBoxDropID": 41925,
+    "bossLevelEventID": 5005,
+    "attributes": "Attack%=5443747196651|HPMax%=200972241844400",
+    "normalBattleAttr": "Attack%=0|HPMax%=-25|IgnoreMiss%=19|ControlImmunity%=38|DamageAdd%=200",
+    "eliteBattleAttr": "Attack%=0|HPMax%=-10|IgnoreMiss%=30|ControlImmunity%=60|DamageAdd%=200",
+    "bossBattleAttr": "Attack%=0|HPMax%=0|IgnoreMiss%=30|ControlImmunity%=60|DamageAdd%=200",
+    "mapId": 2005,
+    "campEventPointId": 19217,
+    "campOffset": [
+      0,
+      5.6
+    ],
+    "jumpPower": -1,
+    "speedAdd": 238000
+  },
+  {
+    "id": 126,
+    "nameId": "Mythic_Floor_Name_126",
+    "desId": [
+      "Mythic_Des_1_3"
+    ],
+    "probabilitiesStr": [
+      "Mythic_Rate_126"
+    ],
+    "speedBoxRound": 60,
+    "speedBoxDropID": 8026,
+    "fightFeaturePre": 0,
+    "fightFeatureAll": [
+      12,
+      22,
+      53,
+      32,
+      62,
+      41
+    ],
+    "dropPre": [],
+    "dropAll": [
+      8107
+    ],
+    "maxRound": 120,
+    "progress": 1000,
+    "normalDropLimit": 2,
+    "normalDropID": 41126,
+    "normalBossDropLimit": 2,
+    "normalBossDropId": 41326,
+    "bossDropID": 41526,
+    "curseBoxDropID": 41926,
+    "bossLevelEventID": 5006,
+    "attributes": "Attack%=5957055392006|HPMax%=217973789374021",
+    "normalBattleAttr": "Attack%=0|HPMax%=-25|IgnoreMiss%=19|ControlImmunity%=38|DamageAdd%=200",
+    "eliteBattleAttr": "Attack%=0|HPMax%=-10|IgnoreMiss%=30|ControlImmunity%=60|DamageAdd%=200",
+    "bossBattleAttr": "Attack%=0|HPMax%=0|IgnoreMiss%=30|ControlImmunity%=60|DamageAdd%=200",
+    "mapId": 2006,
+    "campEventPointId": 10705,
+    "campOffset": [
+      0,
+      5.6
+    ],
+    "jumpPower": -1,
+    "speedAdd": 244000
+  },
+  {
+    "id": 127,
+    "nameId": "Mythic_Floor_Name_127",
+    "desId": [
+      "Mythic_Des_1_3"
+    ],
+    "probabilitiesStr": [
+      "Mythic_Rate_127"
+    ],
+    "speedBoxRound": 60,
+    "speedBoxDropID": 8026,
+    "fightFeaturePre": 0,
+    "fightFeatureAll": [
+      12,
+      22,
+      53,
+      32,
+      62,
+      41
+    ],
+    "dropPre": [],
+    "dropAll": [
+      8107
+    ],
+    "maxRound": 120,
+    "progress": 1000,
+    "normalDropLimit": 2,
+    "normalDropID": 41127,
+    "normalBossDropLimit": 2,
+    "normalBossDropId": 41327,
+    "bossDropID": 41527,
+    "curseBoxDropID": 41927,
+    "bossLevelEventID": 5007,
+    "attributes": "Attack%=6530888287362|HPMax%=236875318182642",
+    "normalBattleAttr": "Attack%=0|HPMax%=-25|IgnoreMiss%=19|ControlImmunity%=38|DamageAdd%=200",
+    "eliteBattleAttr": "Attack%=0|HPMax%=-10|IgnoreMiss%=30|ControlImmunity%=60|DamageAdd%=200",
+    "bossBattleAttr": "Attack%=0|HPMax%=0|IgnoreMiss%=30|ControlImmunity%=60|DamageAdd%=200",
+    "mapId": 2007,
+    "campEventPointId": 19217,
+    "campOffset": [
+      0,
+      5.6
+    ],
+    "jumpPower": -1,
+    "speedAdd": 244000
+  },
+  {
+    "id": 128,
+    "nameId": "Mythic_Floor_Name_128",
+    "desId": [
+      "Mythic_Des_1_3"
+    ],
+    "probabilitiesStr": [
+      "Mythic_Rate_128"
+    ],
+    "speedBoxRound": 60,
+    "speedBoxDropID": 8026,
+    "fightFeaturePre": 0,
+    "fightFeatureAll": [
+      12,
+      22,
+      53,
+      32,
+      62,
+      41
+    ],
+    "dropPre": [],
+    "dropAll": [
+      8107
+    ],
+    "maxRound": 120,
+    "progress": 1000,
+    "normalDropLimit": 2,
+    "normalDropID": 41128,
+    "normalBossDropLimit": 2,
+    "normalBossDropId": 41328,
+    "bossDropID": 41528,
+    "curseBoxDropID": 41928,
+    "bossLevelEventID": 5008,
+    "attributes": "Attack%=7170159729494|HPMax%=270658096098124",
+    "normalBattleAttr": "Attack%=0|HPMax%=-25|IgnoreMiss%=19|ControlImmunity%=38|DamageAdd%=200",
+    "eliteBattleAttr": "Attack%=0|HPMax%=-10|IgnoreMiss%=30|ControlImmunity%=60|DamageAdd%=200",
+    "bossBattleAttr": "Attack%=0|HPMax%=0|IgnoreMiss%=30|ControlImmunity%=60|DamageAdd%=200",
+    "mapId": 2008,
+    "campEventPointId": 10917,
+    "campOffset": [
+      0,
+      5.6
+    ],
+    "jumpPower": -1,
+    "speedAdd": 244000
+  },
+  {
+    "id": 129,
+    "nameId": "Mythic_Floor_Name_129",
+    "desId": [
+      "Mythic_Des_1_3"
+    ],
+    "probabilitiesStr": [
+      "Mythic_Rate_129"
+    ],
+    "speedBoxRound": 60,
+    "speedBoxDropID": 8026,
+    "fightFeaturePre": 0,
+    "fightFeatureAll": [
+      12,
+      22,
+      53,
+      32,
+      62,
+      41
+    ],
+    "dropPre": [],
+    "dropAll": [
+      8107
+    ],
+    "maxRound": 120,
+    "progress": 1000,
+    "normalDropLimit": 2,
+    "normalDropID": 41129,
+    "normalBossDropLimit": 2,
+    "normalBossDropId": 41329,
+    "bossDropID": 41529,
+    "curseBoxDropID": 41929,
+    "bossLevelEventID": 5009,
+    "attributes": "Attack%=7873523871625|HPMax%=294517453599065",
+    "normalBattleAttr": "Attack%=0|HPMax%=-25|IgnoreMiss%=19|ControlImmunity%=38|DamageAdd%=200",
+    "eliteBattleAttr": "Attack%=0|HPMax%=-10|IgnoreMiss%=30|ControlImmunity%=60|DamageAdd%=200",
+    "bossBattleAttr": "Attack%=0|HPMax%=0|IgnoreMiss%=30|ControlImmunity%=60|DamageAdd%=200",
+    "mapId": 2009,
+    "campEventPointId": 11017,
+    "campOffset": [
+      0,
+      5.6
+    ],
+    "jumpPower": -1,
+    "speedAdd": 244000
+  },
+  {
+    "id": 130,
+    "nameId": "Mythic_Floor_Name_130",
+    "desId": [
+      "Mythic_Feature_Des_63"
+    ],
+    "probabilitiesStr": [
+      "Mythic_Rate_130"
+    ],
+    "speedBoxRound": 60,
+    "speedBoxDropID": 8006,
+    "fightFeaturePre": 63,
+    "fightFeatureAll": [
+      12,
+      22,
+      53,
+      32,
+      63,
+      41
+    ],
+    "dropPre": [],
+    "dropAll": [
+      8107
+    ],
+    "maxRound": 120,
+    "progress": 1000,
+    "normalDropLimit": 2,
+    "normalDropID": 41130,
+    "normalBossDropLimit": 2,
+    "normalBossDropId": 41330,
+    "bossDropID": 41530,
+    "curseBoxDropID": 41930,
+    "bossLevelEventID": 5010,
+    "attributes": "Attack%=8695715813757|HPMax%=322358377836005",
+    "normalBattleAttr": "Attack%=0|HPMax%=-25|IgnoreMiss%=19|ControlImmunity%=38|DamageAdd%=200",
+    "eliteBattleAttr": "Attack%=0|HPMax%=-10|IgnoreMiss%=30|ControlImmunity%=60|DamageAdd%=200",
+    "bossBattleAttr": "Attack%=0|HPMax%=0|IgnoreMiss%=30|ControlImmunity%=60|DamageAdd%=200",
+    "mapId": 1001,
+    "campEventPointId": 10115,
+    "campOffset": [
+      0,
+      5.6
+    ],
+    "jumpPower": -1,
+    "speedAdd": 244000
+  },
+  {
+    "id": 131,
+    "nameId": "Mythic_Floor_Name_131",
+    "desId": [
+      "Mythic_Des_1_3"
+    ],
+    "probabilitiesStr": [
+      "Mythic_Rate_131"
+    ],
+    "speedBoxRound": 60,
+    "speedBoxDropID": 8026,
+    "fightFeaturePre": 0,
+    "fightFeatureAll": [
+      12,
+      22,
+      53,
+      32,
+      63,
+      41
+    ],
+    "dropPre": [],
+    "dropAll": [
+      8107
+    ],
+    "maxRound": 120,
+    "progress": 1000,
+    "normalDropLimit": 2,
+    "normalDropID": 41131,
+    "normalBossDropLimit": 2,
+    "normalBossDropId": 41331,
+    "bossDropID": 41531,
+    "curseBoxDropID": 41931,
+    "bossLevelEventID": 5011,
+    "attributes": "Attack%=9639854755888|HPMax%=354190627550946",
+    "normalBattleAttr": "Attack%=0|HPMax%=-25|IgnoreMiss%=19|ControlImmunity%=38|DamageAdd%=200",
+    "eliteBattleAttr": "Attack%=0|HPMax%=-10|IgnoreMiss%=30|ControlImmunity%=60|DamageAdd%=200",
+    "bossBattleAttr": "Attack%=0|HPMax%=0|IgnoreMiss%=30|ControlImmunity%=60|DamageAdd%=200",
+    "mapId": 1002,
+    "campEventPointId": 10115,
+    "campOffset": [
+      0,
+      5.6
+    ],
+    "jumpPower": -1,
+    "speedAdd": 250000
+  },
+  {
+    "id": 132,
+    "nameId": "Mythic_Floor_Name_132",
+    "desId": [
+      "Mythic_Des_1_3"
+    ],
+    "probabilitiesStr": [
+      "Mythic_Rate_132"
+    ],
+    "speedBoxRound": 60,
+    "speedBoxDropID": 8026,
+    "fightFeaturePre": 0,
+    "fightFeatureAll": [
+      12,
+      22,
+      53,
+      32,
+      63,
+      41
+    ],
+    "dropPre": [],
+    "dropAll": [
+      8107
+    ],
+    "maxRound": 120,
+    "progress": 1000,
+    "normalDropLimit": 2,
+    "normalDropID": 41132,
+    "normalBossDropLimit": 2,
+    "normalBossDropId": 41332,
+    "bossDropID": 41532,
+    "curseBoxDropID": 41932,
+    "bossLevelEventID": 5012,
+    "attributes": "Attack%=10709059898019|HPMax%=390023961485887",
+    "normalBattleAttr": "Attack%=0|HPMax%=-25|IgnoreMiss%=19|ControlImmunity%=38|DamageAdd%=200",
+    "eliteBattleAttr": "Attack%=0|HPMax%=-10|IgnoreMiss%=30|ControlImmunity%=60|DamageAdd%=200",
+    "bossBattleAttr": "Attack%=0|HPMax%=0|IgnoreMiss%=30|ControlImmunity%=60|DamageAdd%=200",
+    "mapId": 1003,
+    "campEventPointId": 10115,
+    "campOffset": [
+      0,
+      5.6
+    ],
+    "jumpPower": -1,
+    "speedAdd": 250000
+  },
+  {
+    "id": 133,
+    "nameId": "Mythic_Floor_Name_133",
+    "desId": [
+      "Mythic_Des_1_3"
+    ],
+    "probabilitiesStr": [
+      "Mythic_Rate_133"
+    ],
+    "speedBoxRound": 60,
+    "speedBoxDropID": 8026,
+    "fightFeaturePre": 0,
+    "fightFeatureAll": [
+      12,
+      22,
+      53,
+      32,
+      63,
+      41
+    ],
+    "dropPre": [],
+    "dropAll": [
+      8107
+    ],
+    "maxRound": 120,
+    "progress": 1000,
+    "normalDropLimit": 2,
+    "normalDropID": 41133,
+    "normalBossDropLimit": 2,
+    "normalBossDropId": 41333,
+    "bossDropID": 41533,
+    "curseBoxDropID": 41933,
+    "bossLevelEventID": 5013,
+    "attributes": "Attack%=11912294708914|HPMax%=451543157168307",
+    "normalBattleAttr": "Attack%=0|HPMax%=-25|IgnoreMiss%=19|ControlImmunity%=38|DamageAdd%=200",
+    "eliteBattleAttr": "Attack%=0|HPMax%=-10|IgnoreMiss%=30|ControlImmunity%=60|DamageAdd%=200",
+    "bossBattleAttr": "Attack%=0|HPMax%=0|IgnoreMiss%=30|ControlImmunity%=60|DamageAdd%=200",
+    "mapId": 1004,
+    "campEventPointId": 10115,
+    "campOffset": [
+      0,
+      5.6
+    ],
+    "jumpPower": -1,
+    "speedAdd": 250000
+  },
+  {
+    "id": 134,
+    "nameId": "Mythic_Floor_Name_134",
+    "desId": [
+      "Mythic_Des_1_3"
+    ],
+    "probabilitiesStr": [
+      "Mythic_Rate_134"
+    ],
+    "speedBoxRound": 60,
+    "speedBoxDropID": 8026,
+    "fightFeaturePre": 0,
+    "fightFeatureAll": [
+      12,
+      22,
+      53,
+      32,
+      63,
+      41
+    ],
+    "dropPre": [],
+    "dropAll": [
+      8107
+    ],
+    "maxRound": 120,
+    "progress": 1000,
+    "normalDropLimit": 2,
+    "normalDropID": 41134,
+    "normalBossDropLimit": 2,
+    "normalBossDropId": 41334,
+    "bossDropID": 41534,
+    "curseBoxDropID": 41934,
+    "bossLevelEventID": 5014,
+    "attributes": "Attack%=13469251053141|HPMax%=505929690298882",
+    "normalBattleAttr": "Attack%=0|HPMax%=-25|IgnoreMiss%=19|ControlImmunity%=38|DamageAdd%=200",
+    "eliteBattleAttr": "Attack%=0|HPMax%=-10|IgnoreMiss%=30|ControlImmunity%=60|DamageAdd%=200",
+    "bossBattleAttr": "Attack%=0|HPMax%=0|IgnoreMiss%=30|ControlImmunity%=60|DamageAdd%=200",
+    "mapId": 5001,
+    "campEventPointId": 10115,
+    "campOffset": [
+      0,
+      5.6
+    ],
+    "jumpPower": -1,
+    "speedAdd": 250000
+  },
+  {
+    "id": 135,
+    "nameId": "Mythic_Floor_Name_135",
+    "desId": [
+      "Mythic_Des_1_3"
+    ],
+    "probabilitiesStr": [
+      "Mythic_Rate_135"
+    ],
+    "speedBoxRound": 60,
+    "speedBoxDropID": 8026,
+    "fightFeaturePre": 0,
+    "fightFeatureAll": [
+      12,
+      22,
+      53,
+      32,
+      63,
+      41
+    ],
+    "dropPre": [],
+    "dropAll": [
+      8107
+    ],
+    "maxRound": 120,
+    "progress": 1000,
+    "normalDropLimit": 2,
+    "normalDropID": 41135,
+    "normalBossDropLimit": 2,
+    "normalBossDropId": 41335,
+    "bossDropID": 41535,
+    "curseBoxDropID": 41935,
+    "bossLevelEventID": 5015,
+    "attributes": "Attack%=15389770130702|HPMax%=572880289747457",
+    "normalBattleAttr": "Attack%=0|HPMax%=-25|IgnoreMiss%=19|ControlImmunity%=38|DamageAdd%=200",
+    "eliteBattleAttr": "Attack%=0|HPMax%=-10|IgnoreMiss%=30|ControlImmunity%=60|DamageAdd%=200",
+    "bossBattleAttr": "Attack%=0|HPMax%=0|IgnoreMiss%=30|ControlImmunity%=60|DamageAdd%=200",
+    "mapId": 5002,
+    "campEventPointId": 10115,
+    "campOffset": [
+      0,
+      5.6
+    ],
+    "jumpPower": -1,
+    "speedAdd": 250000
+  },
+  {
+    "id": 136,
+    "nameId": "Mythic_Floor_Name_136",
+    "desId": [
+      "Mythic_Des_1_3"
+    ],
+    "probabilitiesStr": [
+      "Mythic_Rate_136"
+    ],
+    "speedBoxRound": 60,
+    "speedBoxDropID": 8026,
+    "fightFeaturePre": 0,
+    "fightFeatureAll": [
+      12,
+      22,
+      53,
+      32,
+      63,
+      41
+    ],
+    "dropPre": [],
+    "dropAll": [
+      8107
+    ],
+    "maxRound": 120,
+    "progress": 1000,
+    "normalDropLimit": 2,
+    "normalDropID": 41136,
+    "normalBossDropLimit": 2,
+    "normalBossDropId": 41336,
+    "bossDropID": 41536,
+    "curseBoxDropID": 41936,
+    "bossLevelEventID": 5016,
+    "attributes": "Attack%=17796497474930|HPMax%=656587533532032",
+    "normalBattleAttr": "Attack%=0|HPMax%=-25|IgnoreMiss%=19|ControlImmunity%=38|DamageAdd%=200",
+    "eliteBattleAttr": "Attack%=0|HPMax%=-10|IgnoreMiss%=30|ControlImmunity%=60|DamageAdd%=200",
+    "bossBattleAttr": "Attack%=0|HPMax%=0|IgnoreMiss%=30|ControlImmunity%=60|DamageAdd%=200",
+    "mapId": 5003,
+    "campEventPointId": 10917,
+    "campOffset": [
+      0,
+      5.6
+    ],
+    "jumpPower": -1,
+    "speedAdd": 256000
+  },
+  {
+    "id": 137,
+    "nameId": "Mythic_Floor_Name_137",
+    "desId": [
+      "Mythic_Des_1_3"
+    ],
+    "probabilitiesStr": [
+      "Mythic_Rate_137"
+    ],
+    "speedBoxRound": 60,
+    "speedBoxDropID": 8026,
+    "fightFeaturePre": 0,
+    "fightFeatureAll": [
+      12,
+      22,
+      53,
+      32,
+      63,
+      41
+    ],
+    "dropPre": [],
+    "dropAll": [
+      8107
+    ],
+    "maxRound": 120,
+    "progress": 1000,
+    "normalDropLimit": 2,
+    "normalDropID": 41137,
+    "normalBossDropLimit": 2,
+    "normalBossDropId": 41337,
+    "bossDropID": 41537,
+    "curseBoxDropID": 41937,
+    "bossLevelEventID": 5017,
+    "attributes": "Attack%=21385941485824|HPMax%=782083880136607",
+    "normalBattleAttr": "Attack%=0|HPMax%=-25|IgnoreMiss%=19|ControlImmunity%=38|DamageAdd%=200",
+    "eliteBattleAttr": "Attack%=0|HPMax%=-10|IgnoreMiss%=30|ControlImmunity%=60|DamageAdd%=200",
+    "bossBattleAttr": "Attack%=0|HPMax%=0|IgnoreMiss%=30|ControlImmunity%=60|DamageAdd%=200",
+    "mapId": 5004,
+    "campEventPointId": 10917,
+    "campOffset": [
+      0,
+      5.6
+    ],
+    "jumpPower": -1,
+    "speedAdd": 256000
+  },
+  {
+    "id": 138,
+    "nameId": "Mythic_Floor_Name_138",
+    "desId": [
+      "Mythic_Des_1_3"
+    ],
+    "probabilitiesStr": [
+      "Mythic_Rate_138"
+    ],
+    "speedBoxRound": 60,
+    "speedBoxDropID": 8026,
+    "fightFeaturePre": 0,
+    "fightFeatureAll": [
+      12,
+      22,
+      53,
+      32,
+      63,
+      41
+    ],
+    "dropPre": [],
+    "dropAll": [
+      8107
+    ],
+    "maxRound": 120,
+    "progress": 1000,
+    "normalDropLimit": 2,
+    "normalDropID": 41138,
+    "normalBossDropLimit": 2,
+    "normalBossDropId": 41338,
+    "bossDropID": 41538,
+    "curseBoxDropID": 41938,
+    "bossLevelEventID": 5018,
+    "attributes": "Attack%=26206333399113|HPMax%=997871661712959",
+    "normalBattleAttr": "Attack%=0|HPMax%=-25|IgnoreMiss%=19|ControlImmunity%=38|DamageAdd%=200",
+    "eliteBattleAttr": "Attack%=0|HPMax%=-10|IgnoreMiss%=30|ControlImmunity%=60|DamageAdd%=200",
+    "bossBattleAttr": "Attack%=0|HPMax%=0|IgnoreMiss%=30|ControlImmunity%=60|DamageAdd%=200",
+    "mapId": 5005,
+    "campEventPointId": 21121,
+    "campOffset": [
+      0,
+      5.6
+    ],
+    "jumpPower": -1,
+    "speedAdd": 256000
+  },
+  {
+    "id": 139,
+    "nameId": "Mythic_Floor_Name_139",
+    "desId": [
+      "Mythic_Des_1_3"
+    ],
+    "probabilitiesStr": [
+      "Mythic_Rate_139"
+    ],
+    "speedBoxRound": 60,
+    "speedBoxDropID": 8026,
+    "fightFeaturePre": 0,
+    "fightFeatureAll": [
+      12,
+      22,
+      53,
+      32,
+      63,
+      41
+    ],
+    "dropPre": [],
+    "dropAll": [
+      8107
+    ],
+    "maxRound": 120,
+    "progress": 1000,
+    "normalDropLimit": 2,
+    "normalDropID": 41139,
+    "normalBossDropLimit": 2,
+    "normalBossDropId": 41339,
+    "bossDropID": 41539,
+    "curseBoxDropID": 41939,
+    "bossLevelEventID": 5019,
+    "attributes": "Attack%=32281823312401|HPMax%=1217927099004530",
+    "normalBattleAttr": "Attack%=0|HPMax%=-25|IgnoreMiss%=19|ControlImmunity%=38|DamageAdd%=200",
+    "eliteBattleAttr": "Attack%=0|HPMax%=-10|IgnoreMiss%=30|ControlImmunity%=60|DamageAdd%=200",
+    "bossBattleAttr": "Attack%=0|HPMax%=0|IgnoreMiss%=30|ControlImmunity%=60|DamageAdd%=200",
+    "mapId": 5006,
+    "campEventPointId": 21121,
+    "campOffset": [
+      0,
+      5.6
+    ],
+    "jumpPower": -1,
+    "speedAdd": 256000
+  },
+  {
+    "id": 140,
+    "nameId": "Mythic_Floor_Name_140",
+    "desId": [
+      "Mythic_Feature_Des_33"
+    ],
+    "probabilitiesStr": [
+      "Mythic_Rate_140"
+    ],
+    "speedBoxRound": 60,
+    "speedBoxDropID": 8006,
+    "fightFeaturePre": 33,
+    "fightFeatureAll": [
+      12,
+      22,
+      53,
+      33,
+      63,
+      41
+    ],
+    "dropPre": [],
+    "dropAll": [
+      8107
+    ],
+    "maxRound": 120,
+    "progress": 1000,
+    "normalDropLimit": 2,
+    "normalDropID": 41140,
+    "normalBossDropLimit": 2,
+    "normalBossDropId": 41340,
+    "bossDropID": 41540,
+    "curseBoxDropID": 41940,
+    "bossLevelEventID": 5020,
+    "attributes": "Attack%=41994875225689|HPMax%=1569991886936090",
+    "normalBattleAttr": "Attack%=0|HPMax%=-25|IgnoreMiss%=19|ControlImmunity%=38|DamageAdd%=200",
+    "eliteBattleAttr": "Attack%=0|HPMax%=-10|IgnoreMiss%=30|ControlImmunity%=60|DamageAdd%=200",
+    "bossBattleAttr": "Attack%=0|HPMax%=0|IgnoreMiss%=30|ControlImmunity%=60|DamageAdd%=200",
+    "mapId": 4001,
+    "campEventPointId": 21121,
+    "campOffset": [
+      0,
+      5.6
+    ],
+    "jumpPower": -1,
+    "speedAdd": 256000
+  },
+  {
+    "id": 141,
+    "nameId": "Mythic_Floor_Name_141",
+    "desId": [
+      "Mythic_Des_1_3"
+    ],
+    "probabilitiesStr": [
+      "Mythic_Rate_141"
+    ],
+    "speedBoxRound": 60,
+    "speedBoxDropID": 8026,
+    "fightFeaturePre": 0,
+    "fightFeatureAll": [
+      12,
+      22,
+      53,
+      33,
+      63,
+      41
+    ],
+    "dropPre": [],
+    "dropAll": [
+      8107
+    ],
+    "maxRound": 120,
+    "progress": 1000,
+    "normalDropLimit": 2,
+    "normalDropID": 41141,
+    "normalBossDropLimit": 2,
+    "normalBossDropId": 41341,
+    "bossDropID": 41541,
+    "curseBoxDropID": 41941,
+    "bossLevelEventID": 5021,
+    "attributes": "Attack%=48337441138978|HPMax%=1790873280447660",
+    "normalBattleAttr": "Attack%=0|HPMax%=-25|IgnoreMiss%=19|ControlImmunity%=38|DamageAdd%=200",
+    "eliteBattleAttr": "Attack%=0|HPMax%=-10|IgnoreMiss%=30|ControlImmunity%=60|DamageAdd%=200",
+    "bossBattleAttr": "Attack%=0|HPMax%=0|IgnoreMiss%=30|ControlImmunity%=60|DamageAdd%=200",
+    "mapId": 5008,
+    "campEventPointId": 21121,
+    "campOffset": [
+      0,
+      5.6
+    ],
+    "jumpPower": -1,
+    "speedAdd": 262000
+  },
+  {
+    "id": 142,
+    "nameId": "Mythic_Floor_Name_142",
+    "desId": [
+      "Mythic_Des_1_3"
+    ],
+    "probabilitiesStr": [
+      "Mythic_Rate_142"
+    ],
+    "speedBoxRound": 60,
+    "speedBoxDropID": 8026,
+    "fightFeaturePre": 0,
+    "fightFeatureAll": [
+      12,
+      22,
+      53,
+      33,
+      63,
+      41
+    ],
+    "dropPre": [],
+    "dropAll": [
+      8107
+    ],
+    "maxRound": 120,
+    "progress": 1000,
+    "normalDropLimit": 2,
+    "normalDropID": 41142,
+    "normalBossDropLimit": 2,
+    "normalBossDropId": 41342,
+    "bossDropID": 41542,
+    "curseBoxDropID": 41942,
+    "bossLevelEventID": 5022,
+    "attributes": "Attack%=54796127052266|HPMax%=2012113785359230",
+    "normalBattleAttr": "Attack%=0|HPMax%=-25|IgnoreMiss%=19|ControlImmunity%=38|DamageAdd%=200",
+    "eliteBattleAttr": "Attack%=0|HPMax%=-10|IgnoreMiss%=30|ControlImmunity%=60|DamageAdd%=200",
+    "bossBattleAttr": "Attack%=0|HPMax%=0|IgnoreMiss%=30|ControlImmunity%=60|DamageAdd%=200",
+    "mapId": 5009,
+    "campEventPointId": 21121,
+    "campOffset": [
+      0,
+      5.6
+    ],
+    "jumpPower": -1,
+    "speedAdd": 262000
+  },
+  {
+    "id": 143,
+    "nameId": "Mythic_Floor_Name_143",
+    "desId": [
+      "Mythic_Des_1_3"
+    ],
+    "probabilitiesStr": [
+      "Mythic_Rate_143"
+    ],
+    "speedBoxRound": 60,
+    "speedBoxDropID": 8026,
+    "fightFeaturePre": 0,
+    "fightFeatureAll": [
+      12,
+      22,
+      53,
+      33,
+      63,
+      41
+    ],
+    "dropPre": [],
+    "dropAll": [
+      8107
+    ],
+    "maxRound": 120,
+    "progress": 1000,
+    "normalDropLimit": 2,
+    "normalDropID": 41143,
+    "normalBossDropLimit": 2,
+    "normalBossDropId": 41343,
+    "bossDropID": 41543,
+    "curseBoxDropID": 41943,
+    "bossLevelEventID": 5023,
+    "attributes": "Attack%=61393748508416|HPMax%=2346247681738290",
+    "normalBattleAttr": "Attack%=0|HPMax%=-25|IgnoreMiss%=19|ControlImmunity%=38|DamageAdd%=200",
+    "eliteBattleAttr": "Attack%=0|HPMax%=-10|IgnoreMiss%=30|ControlImmunity%=60|DamageAdd%=200",
+    "bossBattleAttr": "Attack%=0|HPMax%=0|IgnoreMiss%=30|ControlImmunity%=60|DamageAdd%=200",
+    "mapId": 5007,
+    "campEventPointId": 21121,
+    "campOffset": [
+      0,
+      5.6
+    ],
+    "jumpPower": -1,
+    "speedAdd": 262000
+  },
+  {
+    "id": 144,
+    "nameId": "Mythic_Floor_Name_144",
+    "desId": [
+      "Mythic_Des_1_3"
+    ],
+    "probabilitiesStr": [
+      "Mythic_Rate_144"
+    ],
+    "speedBoxRound": 60,
+    "speedBoxDropID": 8026,
+    "fightFeaturePre": 0,
+    "fightFeatureAll": [
+      12,
+      22,
+      53,
+      33,
+      63,
+      41
+    ],
+    "dropPre": [],
+    "dropAll": [
+      8107
+    ],
+    "maxRound": 120,
+    "progress": 1000,
+    "normalDropLimit": 2,
+    "normalDropID": 41144,
+    "normalBossDropLimit": 2,
+    "normalBossDropId": 41344,
+    "bossDropID": 41544,
+    "curseBoxDropID": 41944,
+    "bossLevelEventID": 5024,
+    "attributes": "Attack%=69333143964565|HPMax%=2625633807008280",
+    "normalBattleAttr": "Attack%=0|HPMax%=-25|IgnoreMiss%=19|ControlImmunity%=38|DamageAdd%=200",
+    "eliteBattleAttr": "Attack%=0|HPMax%=-10|IgnoreMiss%=30|ControlImmunity%=60|DamageAdd%=200",
+    "bossBattleAttr": "Attack%=0|HPMax%=0|IgnoreMiss%=30|ControlImmunity%=60|DamageAdd%=200",
+    "mapId": 5010,
+    "campEventPointId": 21121,
+    "campOffset": [
+      0,
+      5.6
+    ],
+    "jumpPower": -1,
+    "speedAdd": 262000
+  },
+  {
+    "id": 145,
+    "nameId": "Mythic_Floor_Name_145",
+    "desId": [
+      "Mythic_Des_1_3"
+    ],
+    "probabilitiesStr": [
+      "Mythic_Rate_145"
+    ],
+    "speedBoxRound": 60,
+    "speedBoxDropID": 8026,
+    "fightFeaturePre": 0,
+    "fightFeatureAll": [
+      12,
+      22,
+      53,
+      33,
+      63,
+      41
+    ],
+    "dropPre": [],
+    "dropAll": [
+      8107
+    ],
+    "maxRound": 120,
+    "progress": 1000,
+    "normalDropLimit": 2,
+    "normalDropID": 41145,
+    "normalBossDropLimit": 2,
+    "normalBossDropId": 41345,
+    "bossDropID": 41545,
+    "curseBoxDropID": 41945,
+    "bossLevelEventID": 5001,
+    "attributes": "Attack%=77417275420715|HPMax%=2905472576358270",
+    "normalBattleAttr": "Attack%=0|HPMax%=-25|IgnoreMiss%=19|ControlImmunity%=38|DamageAdd%=200",
+    "eliteBattleAttr": "Attack%=0|HPMax%=-10|IgnoreMiss%=30|ControlImmunity%=60|DamageAdd%=200",
+    "bossBattleAttr": "Attack%=0|HPMax%=0|IgnoreMiss%=30|ControlImmunity%=60|DamageAdd%=200",
+    "mapId": 2001,
+    "campEventPointId": 10217,
+    "campOffset": [
+      0,
+      5.6
+    ],
+    "jumpPower": -1,
+    "speedAdd": 262000
+  },
+  {
+    "id": 146,
+    "nameId": "Mythic_Floor_Name_146",
+    "desId": [
+      "Mythic_Des_1_3"
+    ],
+    "probabilitiesStr": [
+      "Mythic_Rate_146"
+    ],
+    "speedBoxRound": 60,
+    "speedBoxDropID": 8026,
+    "fightFeaturePre": 0,
+    "fightFeatureAll": [
+      12,
+      22,
+      53,
+      33,
+      63,
+      41
+    ],
+    "dropPre": [],
+    "dropAll": [
+      8107
+    ],
+    "maxRound": 120,
+    "progress": 1000,
+    "normalDropLimit": 2,
+    "normalDropID": 41146,
+    "normalBossDropLimit": 2,
+    "normalBossDropId": 41346,
+    "bossDropID": 41546,
+    "curseBoxDropID": 41946,
+    "bossLevelEventID": 5002,
+    "attributes": "Attack%=85646142876865|HPMax%=3185763989788260",
+    "normalBattleAttr": "Attack%=0|HPMax%=-25|IgnoreMiss%=19|ControlImmunity%=38|DamageAdd%=200",
+    "eliteBattleAttr": "Attack%=0|HPMax%=-10|IgnoreMiss%=30|ControlImmunity%=60|DamageAdd%=200",
+    "bossBattleAttr": "Attack%=0|HPMax%=0|IgnoreMiss%=30|ControlImmunity%=60|DamageAdd%=200",
+    "mapId": 2002,
+    "campEventPointId": 19117,
+    "campOffset": [
+      0,
+      5.6
+    ],
+    "jumpPower": -1,
+    "speedAdd": 268000
+  },
+  {
+    "id": 147,
+    "nameId": "Mythic_Floor_Name_147",
+    "desId": [
+      "Mythic_Des_1_3"
+    ],
+    "probabilitiesStr": [
+      "Mythic_Rate_147"
+    ],
+    "speedBoxRound": 60,
+    "speedBoxDropID": 8026,
+    "fightFeaturePre": 0,
+    "fightFeatureAll": [
+      12,
+      22,
+      53,
+      33,
+      63,
+      41
+    ],
+    "dropPre": [],
+    "dropAll": [
+      8107
+    ],
+    "maxRound": 120,
+    "progress": 1000,
+    "normalDropLimit": 2,
+    "normalDropID": 41147,
+    "normalBossDropLimit": 2,
+    "normalBossDropId": 41347,
+    "bossDropID": 41547,
+    "curseBoxDropID": 41947,
+    "bossLevelEventID": 5003,
+    "attributes": "Attack%=94019746333014|HPMax%=3466508047298250",
+    "normalBattleAttr": "Attack%=0|HPMax%=-25|IgnoreMiss%=19|ControlImmunity%=38|DamageAdd%=200",
+    "eliteBattleAttr": "Attack%=0|HPMax%=-10|IgnoreMiss%=30|ControlImmunity%=60|DamageAdd%=200",
+    "bossBattleAttr": "Attack%=0|HPMax%=0|IgnoreMiss%=30|ControlImmunity%=60|DamageAdd%=200",
+    "mapId": 2003,
+    "campEventPointId": 10417,
+    "campOffset": [
+      0,
+      5.6
+    ],
+    "jumpPower": -1,
+    "speedAdd": 268000
+  },
+  {
+    "id": 148,
+    "nameId": "Mythic_Floor_Name_148",
+    "desId": [
+      "Mythic_Des_1_3"
+    ],
+    "probabilitiesStr": [
+      "Mythic_Rate_148"
+    ],
+    "speedBoxRound": 60,
+    "speedBoxDropID": 8026,
+    "fightFeaturePre": 0,
+    "fightFeatureAll": [
+      12,
+      22,
+      53,
+      33,
+      63,
+      41
+    ],
+    "dropPre": [],
+    "dropAll": [
+      8107
+    ],
+    "maxRound": 120,
+    "progress": 1000,
+    "normalDropLimit": 2,
+    "normalDropID": 41148,
+    "normalBossDropLimit": 2,
+    "normalBossDropId": 41348,
+    "bossDropID": 41548,
+    "curseBoxDropID": 41948,
+    "bossLevelEventID": 5004,
+    "attributes": "Attack%=102574704437748|HPMax%=3934213973211590",
+    "normalBattleAttr": "Attack%=0|HPMax%=-25|IgnoreMiss%=19|ControlImmunity%=38|DamageAdd%=200",
+    "eliteBattleAttr": "Attack%=0|HPMax%=-10|IgnoreMiss%=30|ControlImmunity%=60|DamageAdd%=200",
+    "bossBattleAttr": "Attack%=0|HPMax%=0|IgnoreMiss%=30|ControlImmunity%=60|DamageAdd%=200",
+    "mapId": 2004,
+    "campEventPointId": 19117,
+    "campOffset": [
+      0,
+      5.6
+    ],
+    "jumpPower": -1,
+    "speedAdd": 268000
+  },
+  {
+    "id": 149,
+    "nameId": "Mythic_Floor_Name_149",
+    "desId": [
+      "Mythic_Des_1_3"
+    ],
+    "probabilitiesStr": [
+      "Mythic_Rate_149"
+    ],
+    "speedBoxRound": 60,
+    "speedBoxDropID": 8026,
+    "fightFeaturePre": 0,
+    "fightFeatureAll": [
+      12,
+      22,
+      53,
+      33,
+      63,
+      41
+    ],
+    "dropPre": [],
+    "dropAll": [
+      8107
+    ],
+    "maxRound": 120,
+    "progress": 1000,
+    "normalDropLimit": 2,
+    "normalDropID": 41149,
+    "normalBossDropLimit": 2,
+    "normalBossDropId": 41349,
+    "bossDropID": 41549,
+    "curseBoxDropID": 41949,
+    "bossLevelEventID": 5005,
+    "attributes": "Attack%=113844586542482|HPMax%=4327369095077290",
+    "normalBattleAttr": "Attack%=0|HPMax%=-25|IgnoreMiss%=19|ControlImmunity%=38|DamageAdd%=200",
+    "eliteBattleAttr": "Attack%=0|HPMax%=-10|IgnoreMiss%=30|ControlImmunity%=60|DamageAdd%=200",
+    "bossBattleAttr": "Attack%=0|HPMax%=0|IgnoreMiss%=30|ControlImmunity%=60|DamageAdd%=200",
+    "mapId": 2005,
+    "campEventPointId": 19217,
+    "campOffset": [
+      0,
+      5.6
+    ],
+    "jumpPower": -1,
+    "speedAdd": 268000
+  },
+  {
+    "id": 150,
+    "nameId": "Mythic_Floor_Name_150",
+    "desId": [
+      "Mythic_Feature_Des_42"
+    ],
+    "probabilitiesStr": [
+      "Mythic_Rate_150"
+    ],
+    "speedBoxRound": 60,
+    "speedBoxDropID": 8006,
+    "fightFeaturePre": 42,
+    "fightFeatureAll": [
+      12,
+      22,
+      53,
+      33,
+      63,
+      42
+    ],
+    "dropPre": [],
+    "dropAll": [
+      8107
+    ],
+    "maxRound": 120,
+    "progress": 1000,
+    "normalDropLimit": 2,
+    "normalDropID": 41150,
+    "normalBossDropLimit": 2,
+    "normalBossDropId": 41350,
+    "bossDropID": 41550,
+    "curseBoxDropID": 41950,
+    "bossLevelEventID": 5006,
+    "attributes": "Attack%=127904480647215|HPMax%=4818726116142990",
+    "normalBattleAttr": "Attack%=0|HPMax%=-25|IgnoreMiss%=19|ControlImmunity%=38|DamageAdd%=200",
+    "eliteBattleAttr": "Attack%=0|HPMax%=-10|IgnoreMiss%=30|ControlImmunity%=60|DamageAdd%=200",
+    "bossBattleAttr": "Attack%=0|HPMax%=0|IgnoreMiss%=30|ControlImmunity%=60|DamageAdd%=200",
+    "mapId": 2006,
+    "campEventPointId": 10705,
+    "campOffset": [
+      0,
+      5.6
+    ],
+    "jumpPower": -1,
+    "speedAdd": 268000
+  },
+  {
+    "id": 151,
+    "nameId": "Mythic_Floor_Name_000",
+    "desId": [],
+    "probabilitiesStr": [],
+    "speedBoxRound": 0,
+    "speedBoxDropID": 0,
+    "fightFeaturePre": 0,
+    "fightFeatureAll": [],
+    "dropPre": [],
+    "dropAll": [],
+    "maxRound": 0,
+    "progress": 0,
+    "normalDropLimit": 0,
+    "normalDropID": 0,
+    "normalBossDropLimit": 0,
+    "normalBossDropId": 0,
+    "bossDropID": 0,
+    "curseBoxDropID": 0,
+    "bossLevelEventID": 0,
+    "attributes": "",
+    "normalBattleAttr": "",
+    "eliteBattleAttr": "",
+    "bossBattleAttr": "",
+    "mapId": 0,
+    "campEventPointId": 0,
+    "campOffset": [],
+    "jumpPower": 0,
+    "speedAdd": 0
+  }
+]

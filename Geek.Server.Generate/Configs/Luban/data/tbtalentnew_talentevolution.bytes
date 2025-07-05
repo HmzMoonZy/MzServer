@@ -1,0 +1,1704 @@
+[
+  {
+    "id": 1,
+    "type": 2,
+    "modelID": "",
+    "iconAtlasID": 0,
+    "iconSpriteName": "",
+    "exp": 0,
+    "evolutionAttributes": "HPMax=48|Attack=12|Defence=1",
+    "attributeGroup": "HPMax=12|Attack=3|Defence=1",
+    "levelLimit": 10,
+    "levelupCost": [
+      1,
+      240
+    ],
+    "stepLanguageId": "talent_stage_1001",
+    "desc": "talent_stage_desc_1001",
+    "powerLvl": [
+      "[1,0,0]"
+    ],
+    "powerEvolution": [
+      "[100,0,0]"
+    ]
+  },
+  {
+    "id": 2,
+    "type": 2,
+    "modelID": "",
+    "iconAtlasID": 0,
+    "iconSpriteName": "",
+    "exp": 30,
+    "evolutionAttributes": "HPMax=60|Attack=15|Defence=2",
+    "attributeGroup": "HPMax=16|Attack=4|Defence=1",
+    "levelLimit": 10,
+    "levelupCost": [
+      1,
+      480
+    ],
+    "stepLanguageId": "talent_stage_1002",
+    "desc": "talent_stage_desc_1002",
+    "powerLvl": [
+      "[1,0,0]"
+    ],
+    "powerEvolution": [
+      "[100,0,0]"
+    ]
+  },
+  {
+    "id": 3,
+    "type": 2,
+    "modelID": "",
+    "iconAtlasID": 0,
+    "iconSpriteName": "",
+    "exp": 60,
+    "evolutionAttributes": "HPMax=300|Attack=75|Defence=18",
+    "attributeGroup": "HPMax=20|Attack=5|Defence=1",
+    "levelLimit": 10,
+    "levelupCost": [
+      1,
+      800
+    ],
+    "stepLanguageId": "talent_stage_1003",
+    "desc": "talent_stage_desc_1003",
+    "powerLvl": [
+      "[1,0,0]"
+    ],
+    "powerEvolution": [
+      "[100,0,0]"
+    ]
+  },
+  {
+    "id": 4,
+    "type": 3,
+    "modelID": "",
+    "iconAtlasID": 0,
+    "iconSpriteName": "",
+    "exp": 90,
+    "evolutionAttributes": "HPMax=140|Attack=35|Defence=8",
+    "attributeGroup": "HPMax=24|Attack=6|Defence=1",
+    "levelLimit": 10,
+    "levelupCost": [
+      1,
+      1080
+    ],
+    "stepLanguageId": "talent_stage_2001",
+    "desc": "talent_stage_desc_2001",
+    "powerLvl": [
+      "[1,0,0]"
+    ],
+    "powerEvolution": [
+      "[100,0,0]"
+    ]
+  },
+  {
+    "id": 5,
+    "type": 2,
+    "modelID": "",
+    "iconAtlasID": 0,
+    "iconSpriteName": "",
+    "exp": 120,
+    "evolutionAttributes": "HPMax=180|Attack=45|Defence=11",
+    "attributeGroup": "HPMax=28|Attack=7|Defence=1",
+    "levelLimit": 10,
+    "levelupCost": [
+      1,
+      1400
+    ],
+    "stepLanguageId": "talent_stage_2002",
+    "desc": "talent_stage_desc_2002",
+    "powerLvl": [
+      "[1,0,0]"
+    ],
+    "powerEvolution": [
+      "[100,0,0]"
+    ]
+  },
+  {
+    "id": 6,
+    "type": 2,
+    "modelID": "",
+    "iconAtlasID": 0,
+    "iconSpriteName": "",
+    "exp": 150,
+    "evolutionAttributes": "HPMax=220|Attack=55|Defence=13",
+    "attributeGroup": "HPMax=32|Attack=8|Defence=2",
+    "levelLimit": 10,
+    "levelupCost": [
+      1,
+      1920
+    ],
+    "stepLanguageId": "talent_stage_2003",
+    "desc": "talent_stage_desc_2003",
+    "powerLvl": [
+      "[1,0,0]"
+    ],
+    "powerEvolution": [
+      "[100,0,0]"
+    ]
+  },
+  {
+    "id": 7,
+    "type": 2,
+    "modelID": "",
+    "iconAtlasID": 0,
+    "iconSpriteName": "",
+    "exp": 180,
+    "evolutionAttributes": "HPMax=280|Attack=70|Defence=17",
+    "attributeGroup": "HPMax=36|Attack=9|Defence=2",
+    "levelLimit": 10,
+    "levelupCost": [
+      1,
+      2700
+    ],
+    "stepLanguageId": "talent_stage_2004",
+    "desc": "talent_stage_desc_2004",
+    "powerLvl": [
+      "[1,0,0]"
+    ],
+    "powerEvolution": [
+      "[100,0,0]"
+    ]
+  },
+  {
+    "id": 8,
+    "type": 2,
+    "modelID": "",
+    "iconAtlasID": 0,
+    "iconSpriteName": "",
+    "exp": 210,
+    "evolutionAttributes": "HPMax=1000|Attack=250|Defence=62",
+    "attributeGroup": "HPMax=40|Attack=10|Defence=2",
+    "levelLimit": 10,
+    "levelupCost": [
+      1,
+      3200
+    ],
+    "stepLanguageId": "talent_stage_2005",
+    "desc": "talent_stage_desc_2005",
+    "powerLvl": [
+      "[1,0,0]"
+    ],
+    "powerEvolution": [
+      "[100,0,0]"
+    ]
+  },
+  {
+    "id": 9,
+    "type": 3,
+    "modelID": "",
+    "iconAtlasID": 0,
+    "iconSpriteName": "",
+    "exp": 240,
+    "evolutionAttributes": "HPMax=460|Attack=115|Defence=28",
+    "attributeGroup": "HPMax=44|Attack=11|Defence=2",
+    "levelLimit": 10,
+    "levelupCost": [
+      1,
+      3960
+    ],
+    "stepLanguageId": "talent_stage_3001",
+    "desc": "talent_stage_desc_3001",
+    "powerLvl": [
+      "[1,0,0]"
+    ],
+    "powerEvolution": [
+      "[100,0,0]"
+    ]
+  },
+  {
+    "id": 10,
+    "type": 2,
+    "modelID": "",
+    "iconAtlasID": 0,
+    "iconSpriteName": "",
+    "exp": 270,
+    "evolutionAttributes": "HPMax=540|Attack=135|Defence=33",
+    "attributeGroup": "HPMax=50|Attack=12|Defence=3",
+    "levelLimit": 10,
+    "levelupCost": [
+      1,
+      5000
+    ],
+    "stepLanguageId": "talent_stage_3002",
+    "desc": "talent_stage_desc_3002",
+    "powerLvl": [
+      "[1,0,0]"
+    ],
+    "powerEvolution": [
+      "[100,0,0]"
+    ]
+  },
+  {
+    "id": 11,
+    "type": 2,
+    "modelID": "",
+    "iconAtlasID": 0,
+    "iconSpriteName": "",
+    "exp": 300,
+    "evolutionAttributes": "HPMax=600|Attack=150|Defence=37",
+    "attributeGroup": "HPMax=55|Attack=13|Defence=3",
+    "levelLimit": 10,
+    "levelupCost": [
+      1,
+      6000
+    ],
+    "stepLanguageId": "talent_stage_3003",
+    "desc": "talent_stage_desc_3003",
+    "powerLvl": [
+      "[1,0,0]"
+    ],
+    "powerEvolution": [
+      "[100,0,0]"
+    ]
+  },
+  {
+    "id": 12,
+    "type": 2,
+    "modelID": "",
+    "iconAtlasID": 0,
+    "iconSpriteName": "",
+    "exp": 330,
+    "evolutionAttributes": "HPMax=720|Attack=180|Defence=45",
+    "attributeGroup": "HPMax=59|Attack=14|Defence=3",
+    "levelLimit": 10,
+    "levelupCost": [
+      1,
+      6667
+    ],
+    "stepLanguageId": "talent_stage_3004",
+    "desc": "talent_stage_desc_3004",
+    "powerLvl": [
+      "[1,0,0]"
+    ],
+    "powerEvolution": [
+      "[100,0,0]"
+    ]
+  },
+  {
+    "id": 13,
+    "type": 2,
+    "modelID": "",
+    "iconAtlasID": 0,
+    "iconSpriteName": "",
+    "exp": 360,
+    "evolutionAttributes": "HPMax=800|Attack=200|Defence=50",
+    "attributeGroup": "HPMax=65|Attack=16|Defence=4",
+    "levelLimit": 10,
+    "levelupCost": [
+      1,
+      7609
+    ],
+    "stepLanguageId": "talent_stage_3005",
+    "desc": "talent_stage_desc_3005",
+    "powerLvl": [
+      "[1,0,0]"
+    ],
+    "powerEvolution": [
+      "[100,0,0]"
+    ]
+  },
+  {
+    "id": 14,
+    "type": 2,
+    "modelID": "",
+    "iconAtlasID": 0,
+    "iconSpriteName": "",
+    "exp": 390,
+    "evolutionAttributes": "HPMax=960|Attack=240|Defence=60",
+    "attributeGroup": "HPMax=70|Attack=17|Defence=4",
+    "levelLimit": 10,
+    "levelupCost": [
+      1,
+      8488
+    ],
+    "stepLanguageId": "talent_stage_3006",
+    "desc": "talent_stage_desc_3006",
+    "powerLvl": [
+      "[1,0,0]"
+    ],
+    "powerEvolution": [
+      "[100,0,0]"
+    ]
+  },
+  {
+    "id": 15,
+    "type": 2,
+    "modelID": "",
+    "iconAtlasID": 0,
+    "iconSpriteName": "",
+    "exp": 420,
+    "evolutionAttributes": "HPMax=1100|Attack=275|Defence=68",
+    "attributeGroup": "HPMax=76|Attack=19|Defence=4",
+    "levelLimit": 10,
+    "levelupCost": [
+      1,
+      9546
+    ],
+    "stepLanguageId": "talent_stage_3007",
+    "desc": "talent_stage_desc_3007",
+    "powerLvl": [
+      "[1,0,0]"
+    ],
+    "powerEvolution": [
+      "[100,0,0]"
+    ]
+  },
+  {
+    "id": 16,
+    "type": 2,
+    "modelID": "",
+    "iconAtlasID": 0,
+    "iconSpriteName": "",
+    "exp": 450,
+    "evolutionAttributes": "HPMax=1300|Attack=325|Defence=81",
+    "attributeGroup": "HPMax=82|Attack=20|Defence=5",
+    "levelLimit": 10,
+    "levelupCost": [
+      1,
+      10669
+    ],
+    "stepLanguageId": "talent_stage_3008",
+    "desc": "talent_stage_desc_3008",
+    "powerLvl": [
+      "[1,0,0]"
+    ],
+    "powerEvolution": [
+      "[100,0,0]"
+    ]
+  },
+  {
+    "id": 17,
+    "type": 2,
+    "modelID": "",
+    "iconAtlasID": 0,
+    "iconSpriteName": "",
+    "exp": 480,
+    "evolutionAttributes": "HPMax=1460|Attack=365|Defence=91",
+    "attributeGroup": "HPMax=89|Attack=22|Defence=5",
+    "levelLimit": 10,
+    "levelupCost": [
+      1,
+      11995
+    ],
+    "stepLanguageId": "talent_stage_3009",
+    "desc": "talent_stage_desc_3009",
+    "powerLvl": [
+      "[1,0,0]"
+    ],
+    "powerEvolution": [
+      "[100,0,0]"
+    ]
+  },
+  {
+    "id": 18,
+    "type": 2,
+    "modelID": "",
+    "iconAtlasID": 0,
+    "iconSpriteName": "",
+    "exp": 510,
+    "evolutionAttributes": "HPMax=10000|Attack=2500|Defence=625",
+    "attributeGroup": "HPMax=92|Attack=23|Defence=5",
+    "levelLimit": 10,
+    "levelupCost": [
+      1,
+      12844
+    ],
+    "stepLanguageId": "talent_stage_3010",
+    "desc": "talent_stage_desc_3010",
+    "powerLvl": [
+      "[1,0,0]"
+    ],
+    "powerEvolution": [
+      "[100,0,0]"
+    ]
+  },
+  {
+    "id": 19,
+    "type": 3,
+    "modelID": "",
+    "iconAtlasID": 0,
+    "iconSpriteName": "",
+    "exp": 540,
+    "evolutionAttributes": "HPMax=2000|Attack=500|Defence=125",
+    "attributeGroup": "HPMax=133|Attack=33|Defence=8",
+    "levelLimit": 10,
+    "levelupCost": [
+      1,
+      19234
+    ],
+    "stepLanguageId": "talent_stage_4001",
+    "desc": "talent_stage_desc_4001",
+    "powerLvl": [
+      "[1,0,0]"
+    ],
+    "powerEvolution": [
+      "[100,0,0]"
+    ]
+  },
+  {
+    "id": 20,
+    "type": 2,
+    "modelID": "",
+    "iconAtlasID": 0,
+    "iconSpriteName": "",
+    "exp": 570,
+    "evolutionAttributes": "HPMax=2220|Attack=555|Defence=138",
+    "attributeGroup": "HPMax=136|Attack=34|Defence=8",
+    "levelLimit": 10,
+    "levelupCost": [
+      1,
+      20373
+    ],
+    "stepLanguageId": "talent_stage_4002",
+    "desc": "talent_stage_desc_4002",
+    "powerLvl": [
+      "[1,0,0]"
+    ],
+    "powerEvolution": [
+      "[100,0,0]"
+    ]
+  },
+  {
+    "id": 21,
+    "type": 2,
+    "modelID": "",
+    "iconAtlasID": 0,
+    "iconSpriteName": "",
+    "exp": 600,
+    "evolutionAttributes": "HPMax=2450|Attack=612.5|Defence=153",
+    "attributeGroup": "HPMax=139|Attack=34|Defence=8",
+    "levelLimit": 10,
+    "levelupCost": [
+      1,
+      21569
+    ],
+    "stepLanguageId": "talent_stage_4003",
+    "desc": "talent_stage_desc_4003",
+    "powerLvl": [
+      "[1,0,0]"
+    ],
+    "powerEvolution": [
+      "[100,0,0]"
+    ]
+  },
+  {
+    "id": 22,
+    "type": 2,
+    "modelID": "",
+    "iconAtlasID": 0,
+    "iconSpriteName": "",
+    "exp": 630,
+    "evolutionAttributes": "HPMax=2710|Attack=677.5|Defence=169",
+    "attributeGroup": "HPMax=143|Attack=35|Defence=8",
+    "levelLimit": 10,
+    "levelupCost": [
+      1,
+      22986
+    ],
+    "stepLanguageId": "talent_stage_4004",
+    "desc": "talent_stage_desc_4004",
+    "powerLvl": [
+      "[1,0,0]"
+    ],
+    "powerEvolution": [
+      "[100,0,0]"
+    ]
+  },
+  {
+    "id": 23,
+    "type": 2,
+    "modelID": "",
+    "iconAtlasID": 0,
+    "iconSpriteName": "",
+    "exp": 660,
+    "evolutionAttributes": "HPMax=2980|Attack=745|Defence=186",
+    "attributeGroup": "HPMax=147|Attack=36|Defence=9",
+    "levelLimit": 10,
+    "levelupCost": [
+      1,
+      24476
+    ],
+    "stepLanguageId": "talent_stage_4005",
+    "desc": "talent_stage_desc_4005",
+    "powerLvl": [
+      "[1,0,0]"
+    ],
+    "powerEvolution": [
+      "[100,0,0]"
+    ]
+  },
+  {
+    "id": 24,
+    "type": 2,
+    "modelID": "",
+    "iconAtlasID": 0,
+    "iconSpriteName": "",
+    "exp": 690,
+    "evolutionAttributes": "HPMax=3270|Attack=817.5|Defence=204",
+    "attributeGroup": "HPMax=152|Attack=38|Defence=9",
+    "levelLimit": 10,
+    "levelupCost": [
+      1,
+      26217
+    ],
+    "stepLanguageId": "talent_stage_4006",
+    "desc": "talent_stage_desc_4006",
+    "powerLvl": [
+      "[1,0,0]"
+    ],
+    "powerEvolution": [
+      "[100,0,0]"
+    ]
+  },
+  {
+    "id": 25,
+    "type": 2,
+    "modelID": "",
+    "iconAtlasID": 0,
+    "iconSpriteName": "",
+    "exp": 720,
+    "evolutionAttributes": "HPMax=3590|Attack=897.5|Defence=224",
+    "attributeGroup": "HPMax=157|Attack=39|Defence=9",
+    "levelLimit": 10,
+    "levelupCost": [
+      1,
+      28050
+    ],
+    "stepLanguageId": "talent_stage_4007",
+    "desc": "talent_stage_desc_4007",
+    "powerLvl": [
+      "[1,0,0]"
+    ],
+    "powerEvolution": [
+      "[100,0,0]"
+    ]
+  },
+  {
+    "id": 26,
+    "type": 2,
+    "modelID": "",
+    "iconAtlasID": 0,
+    "iconSpriteName": "",
+    "exp": 750,
+    "evolutionAttributes": "HPMax=3930|Attack=982.5|Defence=245",
+    "attributeGroup": "HPMax=163|Attack=40|Defence=10",
+    "levelLimit": 10,
+    "levelupCost": [
+      1,
+      30167
+    ],
+    "stepLanguageId": "talent_stage_4008",
+    "desc": "talent_stage_desc_4008",
+    "powerLvl": [
+      "[1,0,0]"
+    ],
+    "powerEvolution": [
+      "[100,0,0]"
+    ]
+  },
+  {
+    "id": 27,
+    "type": 2,
+    "modelID": "",
+    "iconAtlasID": 0,
+    "iconSpriteName": "",
+    "exp": 780,
+    "evolutionAttributes": "HPMax=4290|Attack=1072.5|Defence=268",
+    "attributeGroup": "HPMax=169|Attack=42|Defence=10",
+    "levelLimit": 10,
+    "levelupCost": [
+      1,
+      32399
+    ],
+    "stepLanguageId": "talent_stage_4009",
+    "desc": "talent_stage_desc_4009",
+    "powerLvl": [
+      "[1,0,0]"
+    ],
+    "powerEvolution": [
+      "[100,0,0]"
+    ]
+  },
+  {
+    "id": 28,
+    "type": 2,
+    "modelID": "",
+    "iconAtlasID": 0,
+    "iconSpriteName": "",
+    "exp": 810,
+    "evolutionAttributes": "HPMax=4700|Attack=1175|Defence=293",
+    "attributeGroup": "HPMax=175|Attack=43|Defence=10",
+    "levelLimit": 10,
+    "levelupCost": [
+      1,
+      34753
+    ],
+    "stepLanguageId": "talent_stage_4010",
+    "desc": "talent_stage_desc_4010",
+    "powerLvl": [
+      "[1,0,0]"
+    ],
+    "powerEvolution": [
+      "[100,0,0]"
+    ]
+  },
+  {
+    "id": 29,
+    "type": 2,
+    "modelID": "",
+    "iconAtlasID": 0,
+    "iconSpriteName": "",
+    "exp": 840,
+    "evolutionAttributes": "HPMax=5100|Attack=1275|Defence=318",
+    "attributeGroup": "HPMax=182|Attack=45|Defence=11",
+    "levelLimit": 10,
+    "levelupCost": [
+      1,
+      37439
+    ],
+    "stepLanguageId": "talent_stage_4011",
+    "desc": "talent_stage_desc_4011",
+    "powerLvl": [
+      "[1,0,0]"
+    ],
+    "powerEvolution": [
+      "[100,0,0]"
+    ]
+  },
+  {
+    "id": 30,
+    "type": 2,
+    "modelID": "",
+    "iconAtlasID": 0,
+    "iconSpriteName": "",
+    "exp": 870,
+    "evolutionAttributes": "HPMax=5600|Attack=1400|Defence=350",
+    "attributeGroup": "HPMax=190|Attack=47|Defence=11",
+    "levelLimit": 10,
+    "levelupCost": [
+      1,
+      40486
+    ],
+    "stepLanguageId": "talent_stage_4012",
+    "desc": "talent_stage_desc_4012",
+    "powerLvl": [
+      "[1,0,0]"
+    ],
+    "powerEvolution": [
+      "[100,0,0]"
+    ]
+  },
+  {
+    "id": 31,
+    "type": 2,
+    "modelID": "",
+    "iconAtlasID": 0,
+    "iconSpriteName": "",
+    "exp": 900,
+    "evolutionAttributes": "HPMax=6100|Attack=1525|Defence=381",
+    "attributeGroup": "HPMax=198|Attack=49|Defence=12",
+    "levelLimit": 10,
+    "levelupCost": [
+      1,
+      43704
+    ],
+    "stepLanguageId": "talent_stage_4013",
+    "desc": "talent_stage_desc_4013",
+    "powerLvl": [
+      "[1,0,0]"
+    ],
+    "powerEvolution": [
+      "[100,0,0]"
+    ]
+  },
+  {
+    "id": 32,
+    "type": 2,
+    "modelID": "",
+    "iconAtlasID": 0,
+    "iconSpriteName": "",
+    "exp": 930,
+    "evolutionAttributes": "HPMax=6600|Attack=1650|Defence=412",
+    "attributeGroup": "HPMax=206|Attack=51|Defence=12",
+    "levelLimit": 10,
+    "levelupCost": [
+      1,
+      47101
+    ],
+    "stepLanguageId": "talent_stage_4014",
+    "desc": "talent_stage_desc_4014",
+    "powerLvl": [
+      "[1,0,0]"
+    ],
+    "powerEvolution": [
+      "[100,0,0]"
+    ]
+  },
+  {
+    "id": 33,
+    "type": 2,
+    "modelID": "",
+    "iconAtlasID": 0,
+    "iconSpriteName": "",
+    "exp": 960,
+    "evolutionAttributes": "HPMax=40000|Attack=10000|Defence=2500",
+    "attributeGroup": "HPMax=215|Attack=53|Defence=13",
+    "levelLimit": 10,
+    "levelupCost": [
+      1,
+      50922
+    ],
+    "stepLanguageId": "talent_stage_4015",
+    "desc": "talent_stage_desc_4015",
+    "powerLvl": [
+      "[1,0,0]"
+    ],
+    "powerEvolution": [
+      "[100,0,0]"
+    ]
+  },
+  {
+    "id": 34,
+    "type": 3,
+    "modelID": "",
+    "iconAtlasID": 0,
+    "iconSpriteName": "",
+    "exp": 990,
+    "evolutionAttributes": "HPMax=7600|Attack=1900|Defence=475",
+    "attributeGroup": "HPMax=192|Attack=48|Defence=12",
+    "levelLimit": 15,
+    "levelupCost": [
+      1,
+      46512
+    ],
+    "stepLanguageId": "talent_stage_5101",
+    "desc": "talent_stage_desc_5101",
+    "powerLvl": [
+      "[1,0,0]"
+    ],
+    "powerEvolution": [
+      "[100,0,0]"
+    ]
+  },
+  {
+    "id": 35,
+    "type": 2,
+    "modelID": "",
+    "iconAtlasID": 0,
+    "iconSpriteName": "",
+    "exp": 1035,
+    "evolutionAttributes": "HPMax=8200|Attack=2050|Defence=512",
+    "attributeGroup": "HPMax=198|Attack=49|Defence=12",
+    "levelLimit": 15,
+    "levelupCost": [
+      1,
+      49059
+    ],
+    "stepLanguageId": "talent_stage_5102",
+    "desc": "talent_stage_desc_5102",
+    "powerLvl": [
+      "[1,0,0]"
+    ],
+    "powerEvolution": [
+      "[100,0,0]"
+    ]
+  },
+  {
+    "id": 36,
+    "type": 2,
+    "modelID": "",
+    "iconAtlasID": 0,
+    "iconSpriteName": "",
+    "exp": 1080,
+    "evolutionAttributes": "HPMax=8700|Attack=2175|Defence=543",
+    "attributeGroup": "HPMax=204|Attack=51|Defence=12",
+    "levelLimit": 15,
+    "levelupCost": [
+      1,
+      51699
+    ],
+    "stepLanguageId": "talent_stage_5103",
+    "desc": "talent_stage_desc_5103",
+    "powerLvl": [
+      "[1,0,0]"
+    ],
+    "powerEvolution": [
+      "[100,0,0]"
+    ]
+  },
+  {
+    "id": 37,
+    "type": 2,
+    "modelID": "",
+    "iconAtlasID": 0,
+    "iconSpriteName": "",
+    "exp": 1125,
+    "evolutionAttributes": "HPMax=9300|Attack=2325|Defence=581",
+    "attributeGroup": "HPMax=210|Attack=52|Defence=13",
+    "levelLimit": 15,
+    "levelupCost": [
+      1,
+      54433
+    ],
+    "stepLanguageId": "talent_stage_5104",
+    "desc": "talent_stage_desc_5104",
+    "powerLvl": [
+      "[1,0,0]"
+    ],
+    "powerEvolution": [
+      "[100,0,0]"
+    ]
+  },
+  {
+    "id": 38,
+    "type": 2,
+    "modelID": "",
+    "iconAtlasID": 0,
+    "iconSpriteName": "",
+    "exp": 1170,
+    "evolutionAttributes": "HPMax=10000|Attack=2500|Defence=625",
+    "attributeGroup": "HPMax=217|Attack=54|Defence=13",
+    "levelLimit": 15,
+    "levelupCost": [
+      1,
+      57530
+    ],
+    "stepLanguageId": "talent_stage_5105",
+    "desc": "talent_stage_desc_5105",
+    "powerLvl": [
+      "[1,0,0]"
+    ],
+    "powerEvolution": [
+      "[100,0,0]"
+    ]
+  },
+  {
+    "id": 39,
+    "type": 2,
+    "modelID": "",
+    "iconAtlasID": 0,
+    "iconSpriteName": "",
+    "exp": 1215,
+    "evolutionAttributes": "HPMax=10600|Attack=2650|Defence=662",
+    "attributeGroup": "HPMax=224|Attack=56|Defence=14",
+    "levelLimit": 15,
+    "levelupCost": [
+      1,
+      60741
+    ],
+    "stepLanguageId": "talent_stage_5106",
+    "desc": "talent_stage_desc_5106",
+    "powerLvl": [
+      "[1,0,0]"
+    ],
+    "powerEvolution": [
+      "[100,0,0]"
+    ]
+  },
+  {
+    "id": 40,
+    "type": 2,
+    "modelID": "",
+    "iconAtlasID": 0,
+    "iconSpriteName": "",
+    "exp": 1260,
+    "evolutionAttributes": "HPMax=11300|Attack=2825|Defence=706",
+    "attributeGroup": "HPMax=232|Attack=58|Defence=14",
+    "levelLimit": 15,
+    "levelupCost": [
+      1,
+      64345
+    ],
+    "stepLanguageId": "talent_stage_5107",
+    "desc": "talent_stage_desc_5107",
+    "powerLvl": [
+      "[1,0,0]"
+    ],
+    "powerEvolution": [
+      "[100,0,0]"
+    ]
+  },
+  {
+    "id": 41,
+    "type": 2,
+    "modelID": "",
+    "iconAtlasID": 0,
+    "iconSpriteName": "",
+    "exp": 1305,
+    "evolutionAttributes": "HPMax=12100|Attack=3025|Defence=756",
+    "attributeGroup": "HPMax=240|Attack=60|Defence=15",
+    "levelLimit": 15,
+    "levelupCost": [
+      1,
+      68082
+    ],
+    "stepLanguageId": "talent_stage_5108",
+    "desc": "talent_stage_desc_5108",
+    "powerLvl": [
+      "[1,0,0]"
+    ],
+    "powerEvolution": [
+      "[100,0,0]"
+    ]
+  },
+  {
+    "id": 42,
+    "type": 2,
+    "modelID": "",
+    "iconAtlasID": 0,
+    "iconSpriteName": "",
+    "exp": 1350,
+    "evolutionAttributes": "HPMax=12900|Attack=3225|Defence=806",
+    "attributeGroup": "HPMax=248|Attack=62|Defence=15",
+    "levelLimit": 15,
+    "levelupCost": [
+      1,
+      71956
+    ],
+    "stepLanguageId": "talent_stage_5109",
+    "desc": "talent_stage_desc_5109",
+    "powerLvl": [
+      "[1,0,0]"
+    ],
+    "powerEvolution": [
+      "[100,0,0]"
+    ]
+  },
+  {
+    "id": 43,
+    "type": 2,
+    "modelID": "",
+    "iconAtlasID": 0,
+    "iconSpriteName": "",
+    "exp": 1395,
+    "evolutionAttributes": "HPMax=13700|Attack=3425|Defence=856",
+    "attributeGroup": "HPMax=257|Attack=64|Defence=16",
+    "levelLimit": 15,
+    "levelupCost": [
+      1,
+      76268
+    ],
+    "stepLanguageId": "talent_stage_5110",
+    "desc": "talent_stage_desc_5110",
+    "powerLvl": [
+      "[1,0,0]"
+    ],
+    "powerEvolution": [
+      "[100,0,0]"
+    ]
+  },
+  {
+    "id": 44,
+    "type": 2,
+    "modelID": "",
+    "iconAtlasID": 0,
+    "iconSpriteName": "",
+    "exp": 1440,
+    "evolutionAttributes": "HPMax=12800|Attack=3200|Defence=800",
+    "attributeGroup": "HPMax=266|Attack=66|Defence=16",
+    "levelLimit": 15,
+    "levelupCost": [
+      1,
+      80739
+    ],
+    "stepLanguageId": "talent_stage_5201",
+    "desc": "talent_stage_desc_5201",
+    "powerLvl": [
+      "[1,0,0]"
+    ],
+    "powerEvolution": [
+      "[100,0,0]"
+    ]
+  },
+  {
+    "id": 45,
+    "type": 2,
+    "modelID": "",
+    "iconAtlasID": 0,
+    "iconSpriteName": "",
+    "exp": 1485,
+    "evolutionAttributes": "HPMax=13600|Attack=3400|Defence=850",
+    "attributeGroup": "HPMax=274|Attack=68|Defence=17",
+    "levelLimit": 15,
+    "levelupCost": [
+      1,
+      85064
+    ],
+    "stepLanguageId": "talent_stage_5202",
+    "desc": "talent_stage_desc_5202",
+    "powerLvl": [
+      "[1,0,0]"
+    ],
+    "powerEvolution": [
+      "[100,0,0]"
+    ]
+  },
+  {
+    "id": 46,
+    "type": 2,
+    "modelID": "",
+    "iconAtlasID": 0,
+    "iconSpriteName": "",
+    "exp": 1530,
+    "evolutionAttributes": "HPMax=14400|Attack=3600|Defence=900",
+    "attributeGroup": "HPMax=282|Attack=70|Defence=17",
+    "levelLimit": 15,
+    "levelupCost": [
+      1,
+      89540
+    ],
+    "stepLanguageId": "talent_stage_5203",
+    "desc": "talent_stage_desc_5203",
+    "powerLvl": [
+      "[1,0,0]"
+    ],
+    "powerEvolution": [
+      "[100,0,0]"
+    ]
+  },
+  {
+    "id": 47,
+    "type": 2,
+    "modelID": "",
+    "iconAtlasID": 0,
+    "iconSpriteName": "",
+    "exp": 1575,
+    "evolutionAttributes": "HPMax=15200|Attack=3800|Defence=950",
+    "attributeGroup": "HPMax=291|Attack=72|Defence=18",
+    "levelLimit": 15,
+    "levelupCost": [
+      1,
+      94510
+    ],
+    "stepLanguageId": "talent_stage_5204",
+    "desc": "talent_stage_desc_5204",
+    "powerLvl": [
+      "[1,0,0]"
+    ],
+    "powerEvolution": [
+      "[100,0,0]"
+    ]
+  },
+  {
+    "id": 48,
+    "type": 2,
+    "modelID": "",
+    "iconAtlasID": 0,
+    "iconSpriteName": "",
+    "exp": 1620,
+    "evolutionAttributes": "HPMax=16100|Attack=4025|Defence=1006",
+    "attributeGroup": "HPMax=300|Attack=75|Defence=18",
+    "levelLimit": 15,
+    "levelupCost": [
+      1,
+      99660
+    ],
+    "stepLanguageId": "talent_stage_5205",
+    "desc": "talent_stage_desc_5205",
+    "powerLvl": [
+      "[1,0,0]"
+    ],
+    "powerEvolution": [
+      "[100,0,0]"
+    ]
+  },
+  {
+    "id": 49,
+    "type": 2,
+    "modelID": "",
+    "iconAtlasID": 0,
+    "iconSpriteName": "",
+    "exp": 1665,
+    "evolutionAttributes": "HPMax=16600|Attack=4150|Defence=1037",
+    "attributeGroup": "HPMax=309|Attack=77|Defence=19",
+    "levelLimit": 15,
+    "levelupCost": [
+      1,
+      104990
+    ],
+    "stepLanguageId": "talent_stage_5206",
+    "desc": "talent_stage_desc_5206",
+    "powerLvl": [
+      "[1,0,0]"
+    ],
+    "powerEvolution": [
+      "[100,0,0]"
+    ]
+  },
+  {
+    "id": 50,
+    "type": 2,
+    "modelID": "",
+    "iconAtlasID": 0,
+    "iconSpriteName": "",
+    "exp": 1710,
+    "evolutionAttributes": "HPMax=17500|Attack=4375|Defence=1093",
+    "attributeGroup": "HPMax=319|Attack=79|Defence=19",
+    "levelLimit": 15,
+    "levelupCost": [
+      1,
+      110860
+    ],
+    "stepLanguageId": "talent_stage_5207",
+    "desc": "talent_stage_desc_5207",
+    "powerLvl": [
+      "[1,0,0]"
+    ],
+    "powerEvolution": [
+      "[100,0,0]"
+    ]
+  },
+  {
+    "id": 51,
+    "type": 2,
+    "modelID": "",
+    "iconAtlasID": 0,
+    "iconSpriteName": "",
+    "exp": 1755,
+    "evolutionAttributes": "HPMax=18500|Attack=4625|Defence=1156",
+    "attributeGroup": "HPMax=329|Attack=82|Defence=20",
+    "levelLimit": 15,
+    "levelupCost": [
+      1,
+      116940
+    ],
+    "stepLanguageId": "talent_stage_5208",
+    "desc": "talent_stage_desc_5208",
+    "powerLvl": [
+      "[1,0,0]"
+    ],
+    "powerEvolution": [
+      "[100,0,0]"
+    ]
+  },
+  {
+    "id": 52,
+    "type": 2,
+    "modelID": "",
+    "iconAtlasID": 0,
+    "iconSpriteName": "",
+    "exp": 1800,
+    "evolutionAttributes": "HPMax=19500|Attack=4875|Defence=1218",
+    "attributeGroup": "HPMax=339|Attack=84|Defence=21",
+    "levelLimit": 15,
+    "levelupCost": [
+      1,
+      123240
+    ],
+    "stepLanguageId": "talent_stage_5209",
+    "desc": "talent_stage_desc_5209",
+    "powerLvl": [
+      "[1,0,0]"
+    ],
+    "powerEvolution": [
+      "[100,0,0]"
+    ]
+  },
+  {
+    "id": 53,
+    "type": 2,
+    "modelID": "",
+    "iconAtlasID": 0,
+    "iconSpriteName": "",
+    "exp": 1845,
+    "evolutionAttributes": "HPMax=20500|Attack=5125|Defence=1281",
+    "attributeGroup": "HPMax=350|Attack=87|Defence=21",
+    "levelLimit": 15,
+    "levelupCost": [
+      1,
+      130140
+    ],
+    "stepLanguageId": "talent_stage_5210",
+    "desc": "talent_stage_desc_5210",
+    "powerLvl": [
+      "[1,0,0]"
+    ],
+    "powerEvolution": [
+      "[100,0,0]"
+    ]
+  },
+  {
+    "id": 54,
+    "type": 2,
+    "modelID": "",
+    "iconAtlasID": 0,
+    "iconSpriteName": "",
+    "exp": 1890,
+    "evolutionAttributes": "HPMax=21200|Attack=5300|Defence=1325",
+    "attributeGroup": "HPMax=361|Attack=90|Defence=22",
+    "levelLimit": 15,
+    "levelupCost": [
+      1,
+      137290
+    ],
+    "stepLanguageId": "talent_stage_5211",
+    "desc": "talent_stage_desc_5211",
+    "powerLvl": [
+      "[1,0,0]"
+    ],
+    "powerEvolution": [
+      "[100,0,0]"
+    ]
+  },
+  {
+    "id": 55,
+    "type": 2,
+    "modelID": "",
+    "iconAtlasID": 0,
+    "iconSpriteName": "",
+    "exp": 1935,
+    "evolutionAttributes": "HPMax=22300|Attack=5575|Defence=1393",
+    "attributeGroup": "HPMax=372|Attack=93|Defence=23",
+    "levelLimit": 15,
+    "levelupCost": [
+      1,
+      144700
+    ],
+    "stepLanguageId": "talent_stage_5212",
+    "desc": "talent_stage_desc_5212",
+    "powerLvl": [
+      "[1,0,0]"
+    ],
+    "powerEvolution": [
+      "[100,0,0]"
+    ]
+  },
+  {
+    "id": 56,
+    "type": 2,
+    "modelID": "",
+    "iconAtlasID": 0,
+    "iconSpriteName": "",
+    "exp": 1980,
+    "evolutionAttributes": "HPMax=23500|Attack=5875|Defence=1468",
+    "attributeGroup": "HPMax=383|Attack=95|Defence=23",
+    "levelLimit": 15,
+    "levelupCost": [
+      1,
+      152380
+    ],
+    "stepLanguageId": "talent_stage_5213",
+    "desc": "talent_stage_desc_5213",
+    "powerLvl": [
+      "[1,0,0]"
+    ],
+    "powerEvolution": [
+      "[100,0,0]"
+    ]
+  },
+  {
+    "id": 57,
+    "type": 2,
+    "modelID": "",
+    "iconAtlasID": 0,
+    "iconSpriteName": "",
+    "exp": 2025,
+    "evolutionAttributes": "HPMax=24700|Attack=6175|Defence=1543",
+    "attributeGroup": "HPMax=395|Attack=98|Defence=24",
+    "levelLimit": 15,
+    "levelupCost": [
+      1,
+      160740
+    ],
+    "stepLanguageId": "talent_stage_5214",
+    "desc": "talent_stage_desc_5214",
+    "powerLvl": [
+      "[1,0,0]"
+    ],
+    "powerEvolution": [
+      "[100,0,0]"
+    ]
+  },
+  {
+    "id": 58,
+    "type": 2,
+    "modelID": "",
+    "iconAtlasID": 0,
+    "iconSpriteName": "",
+    "exp": 2070,
+    "evolutionAttributes": "HPMax=26000|Attack=6500|Defence=1625",
+    "attributeGroup": "HPMax=408|Attack=102|Defence=25",
+    "levelLimit": 15,
+    "levelupCost": [
+      1,
+      169820
+    ],
+    "stepLanguageId": "talent_stage_5215",
+    "desc": "talent_stage_desc_5215",
+    "powerLvl": [
+      "[1,0,0]"
+    ],
+    "powerEvolution": [
+      "[100,0,0]"
+    ]
+  },
+  {
+    "id": 59,
+    "type": 2,
+    "modelID": "",
+    "iconAtlasID": 0,
+    "iconSpriteName": "",
+    "exp": 2115,
+    "evolutionAttributes": "HPMax=26100|Attack=6525|Defence=1631",
+    "attributeGroup": "HPMax=429|Attack=107|Defence=26",
+    "levelLimit": 15,
+    "levelupCost": [
+      1,
+      182630
+    ],
+    "stepLanguageId": "talent_stage_5301",
+    "desc": "talent_stage_desc_5301",
+    "powerLvl": [
+      "[1,0,0]"
+    ],
+    "powerEvolution": [
+      "[100,0,0]"
+    ]
+  },
+  {
+    "id": 60,
+    "type": 2,
+    "modelID": "",
+    "iconAtlasID": 0,
+    "iconSpriteName": "",
+    "exp": 2160,
+    "evolutionAttributes": "HPMax=27000|Attack=6750|Defence=1687",
+    "attributeGroup": "HPMax=451|Attack=112|Defence=28",
+    "levelLimit": 15,
+    "levelupCost": [
+      1,
+      196380
+    ],
+    "stepLanguageId": "talent_stage_5302",
+    "desc": "talent_stage_desc_5302",
+    "powerLvl": [
+      "[1,0,0]"
+    ],
+    "powerEvolution": [
+      "[100,0,0]"
+    ]
+  },
+  {
+    "id": 61,
+    "type": 2,
+    "modelID": "",
+    "iconAtlasID": 0,
+    "iconSpriteName": "",
+    "exp": 2205,
+    "evolutionAttributes": "HPMax=29000|Attack=7250|Defence=1812",
+    "attributeGroup": "HPMax=474|Attack=118|Defence=29",
+    "levelLimit": 15,
+    "levelupCost": [
+      1,
+      211100
+    ],
+    "stepLanguageId": "talent_stage_5303",
+    "desc": "talent_stage_desc_5303",
+    "powerLvl": [
+      "[1,0,0]"
+    ],
+    "powerEvolution": [
+      "[100,0,0]"
+    ]
+  },
+  {
+    "id": 62,
+    "type": 2,
+    "modelID": "",
+    "iconAtlasID": 0,
+    "iconSpriteName": "",
+    "exp": 2250,
+    "evolutionAttributes": "HPMax=30000|Attack=7500|Defence=1875",
+    "attributeGroup": "HPMax=498|Attack=124|Defence=31",
+    "levelLimit": 15,
+    "levelupCost": [
+      1,
+      226850
+    ],
+    "stepLanguageId": "talent_stage_5304",
+    "desc": "talent_stage_desc_5304",
+    "powerLvl": [
+      "[1,0,0]"
+    ],
+    "powerEvolution": [
+      "[100,0,0]"
+    ]
+  },
+  {
+    "id": 63,
+    "type": 2,
+    "modelID": "",
+    "iconAtlasID": 0,
+    "iconSpriteName": "",
+    "exp": 2295,
+    "evolutionAttributes": "HPMax=32000|Attack=8000|Defence=2000",
+    "attributeGroup": "HPMax=523|Attack=130|Defence=32",
+    "levelLimit": 15,
+    "levelupCost": [
+      1,
+      243670
+    ],
+    "stepLanguageId": "talent_stage_5305",
+    "desc": "talent_stage_desc_5305",
+    "powerLvl": [
+      "[1,0,0]"
+    ],
+    "powerEvolution": [
+      "[100,0,0]"
+    ]
+  },
+  {
+    "id": 64,
+    "type": 2,
+    "modelID": "",
+    "iconAtlasID": 0,
+    "iconSpriteName": "",
+    "exp": 2340,
+    "evolutionAttributes": "HPMax=33000|Attack=8250|Defence=2062",
+    "attributeGroup": "HPMax=549|Attack=137|Defence=34",
+    "levelLimit": 15,
+    "levelupCost": [
+      1,
+      261610
+    ],
+    "stepLanguageId": "talent_stage_5306",
+    "desc": "talent_stage_desc_5306",
+    "powerLvl": [
+      "[1,0,0]"
+    ],
+    "powerEvolution": [
+      "[100,0,0]"
+    ]
+  },
+  {
+    "id": 65,
+    "type": 2,
+    "modelID": "",
+    "iconAtlasID": 0,
+    "iconSpriteName": "",
+    "exp": 2385,
+    "evolutionAttributes": "HPMax=35000|Attack=8750|Defence=2187",
+    "attributeGroup": "HPMax=577|Attack=144|Defence=36",
+    "levelLimit": 15,
+    "levelupCost": [
+      1,
+      281230
+    ],
+    "stepLanguageId": "talent_stage_5307",
+    "desc": "talent_stage_desc_5307",
+    "powerLvl": [
+      "[1,0,0]"
+    ],
+    "powerEvolution": [
+      "[100,0,0]"
+    ]
+  },
+  {
+    "id": 66,
+    "type": 2,
+    "modelID": "",
+    "iconAtlasID": 0,
+    "iconSpriteName": "",
+    "exp": 2430,
+    "evolutionAttributes": "HPMax=37000|Attack=9250|Defence=2312",
+    "attributeGroup": "HPMax=606|Attack=151|Defence=37",
+    "levelLimit": 15,
+    "levelupCost": [
+      1,
+      302100
+    ],
+    "stepLanguageId": "talent_stage_5308",
+    "desc": "talent_stage_desc_5308",
+    "powerLvl": [
+      "[1,0,0]"
+    ],
+    "powerEvolution": [
+      "[100,0,0]"
+    ]
+  },
+  {
+    "id": 67,
+    "type": 2,
+    "modelID": "",
+    "iconAtlasID": 0,
+    "iconSpriteName": "",
+    "exp": 2475,
+    "evolutionAttributes": "HPMax=39000|Attack=9750|Defence=2437",
+    "attributeGroup": "HPMax=637|Attack=159|Defence=39",
+    "levelLimit": 15,
+    "levelupCost": [
+      1,
+      324800
+    ],
+    "stepLanguageId": "talent_stage_5309",
+    "desc": "talent_stage_desc_5309",
+    "powerLvl": [
+      "[1,0,0]"
+    ],
+    "powerEvolution": [
+      "[100,0,0]"
+    ]
+  },
+  {
+    "id": 68,
+    "type": 2,
+    "modelID": "",
+    "iconAtlasID": 0,
+    "iconSpriteName": "",
+    "exp": 2520,
+    "evolutionAttributes": "HPMax=41000|Attack=10250|Defence=2562",
+    "attributeGroup": "HPMax=669|Attack=167|Defence=41",
+    "levelLimit": 15,
+    "levelupCost": [
+      1,
+      348890
+    ],
+    "stepLanguageId": "talent_stage_5310",
+    "desc": "talent_stage_desc_5310",
+    "powerLvl": [
+      "[1,0,0]"
+    ],
+    "powerEvolution": [
+      "[100,0,0]"
+    ]
+  },
+  {
+    "id": 69,
+    "type": 2,
+    "modelID": "",
+    "iconAtlasID": 0,
+    "iconSpriteName": "",
+    "exp": 2565,
+    "evolutionAttributes": "HPMax=43000|Attack=10750|Defence=2687",
+    "attributeGroup": "HPMax=703|Attack=175|Defence=43",
+    "levelLimit": 15,
+    "levelupCost": [
+      1,
+      374990
+    ],
+    "stepLanguageId": "talent_stage_5311",
+    "desc": "talent_stage_desc_5311",
+    "powerLvl": [
+      "[1,0,0]"
+    ],
+    "powerEvolution": [
+      "[100,0,0]"
+    ]
+  },
+  {
+    "id": 70,
+    "type": 2,
+    "modelID": "",
+    "iconAtlasID": 0,
+    "iconSpriteName": "",
+    "exp": 2610,
+    "evolutionAttributes": "HPMax=45000|Attack=11250|Defence=2812",
+    "attributeGroup": "HPMax=739|Attack=184|Defence=46",
+    "levelLimit": 15,
+    "levelupCost": [
+      1,
+      403180
+    ],
+    "stepLanguageId": "talent_stage_5312",
+    "desc": "talent_stage_desc_5312",
+    "powerLvl": [
+      "[1,0,0]"
+    ],
+    "powerEvolution": [
+      "[100,0,0]"
+    ]
+  },
+  {
+    "id": 71,
+    "type": 2,
+    "modelID": "",
+    "iconAtlasID": 0,
+    "iconSpriteName": "",
+    "exp": 2655,
+    "evolutionAttributes": "HPMax=47000|Attack=11750|Defence=2937",
+    "attributeGroup": "HPMax=776|Attack=194|Defence=48",
+    "levelLimit": 15,
+    "levelupCost": [
+      1,
+      433020
+    ],
+    "stepLanguageId": "talent_stage_5313",
+    "desc": "talent_stage_desc_5313",
+    "powerLvl": [
+      "[1,0,0]"
+    ],
+    "powerEvolution": [
+      "[100,0,0]"
+    ]
+  },
+  {
+    "id": 72,
+    "type": 2,
+    "modelID": "",
+    "iconAtlasID": 0,
+    "iconSpriteName": "",
+    "exp": 2700,
+    "evolutionAttributes": "HPMax=49000|Attack=12250|Defence=3062",
+    "attributeGroup": "HPMax=815|Attack=203|Defence=50",
+    "levelLimit": 15,
+    "levelupCost": [
+      1,
+      465160
+    ],
+    "stepLanguageId": "talent_stage_5314",
+    "desc": "talent_stage_desc_5314",
+    "powerLvl": [
+      "[1,0,0]"
+    ],
+    "powerEvolution": [
+      "[100,0,0]"
+    ]
+  },
+  {
+    "id": 73,
+    "type": 2,
+    "modelID": "",
+    "iconAtlasID": 0,
+    "iconSpriteName": "",
+    "exp": 2745,
+    "evolutionAttributes": "HPMax=52000|Attack=13000|Defence=3250",
+    "attributeGroup": "HPMax=856|Attack=214|Defence=53",
+    "levelLimit": 15,
+    "levelupCost": [
+      1,
+      499700
+    ],
+    "stepLanguageId": "talent_stage_5315",
+    "desc": "talent_stage_desc_5315",
+    "powerLvl": [
+      "[1,0,0]"
+    ],
+    "powerEvolution": [
+      "[100,0,0]"
+    ]
+  },
+  {
+    "id": 74,
+    "type": 3,
+    "modelID": "",
+    "iconAtlasID": 0,
+    "iconSpriteName": "",
+    "exp": 2790,
+    "evolutionAttributes": "HPMax=55000|Attack=13750|Defence=3437",
+    "attributeGroup": "HPMax=1349|Attack=337|Defence=84",
+    "levelLimit": 20,
+    "levelupCost": [
+      1,
+      787500
+    ],
+    "stepLanguageId": "talent_stage_6001",
+    "desc": "talent_stage_desc_6001",
+    "powerLvl": [
+      "[1,0,0]"
+    ],
+    "powerEvolution": [
+      "[100,0,0]"
+    ]
+  }
+]

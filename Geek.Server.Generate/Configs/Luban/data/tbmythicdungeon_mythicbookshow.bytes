@@ -1,0 +1,62 @@
+[
+  {
+    "id": 107,
+    "nameId": "Mythic_Book_GroupName107",
+    "detailNameId": "Mythic_Book_DetailName2",
+    "atlasId": 213,
+    "spriteName": "UD_MythicBook_SkillTitle4",
+    "itemBg": "",
+    "quaAtlasId": 213,
+    "quaSpriteName": "UD_MythicBook_MonsterQuaBg4"
+  },
+  {
+    "id": 201,
+    "nameId": "Mythic_Book_GroupName201",
+    "detailNameId": "Mythic_Book_DetailName3",
+    "atlasId": 213,
+    "spriteName": "UD_MythicBook_MonsterTitle1",
+    "itemBg": "UD_MythicBook_MonsterBg1",
+    "quaAtlasId": 213,
+    "quaSpriteName": "UD_MythicBook_MonsterQuaBg1"
+  },
+  {
+    "id": 202,
+    "nameId": "Mythic_Book_GroupName202",
+    "detailNameId": "Mythic_Book_DetailName3",
+    "atlasId": 213,
+    "spriteName": "UD_MythicBook_MonsterTitle2",
+    "itemBg": "UD_MythicBook_MonsterBg2",
+    "quaAtlasId": 213,
+    "quaSpriteName": "UD_MythicBook_MonsterQuaBg2"
+  },
+  {
+    "id": 203,
+    "nameId": "Mythic_Book_GroupName203",
+    "detailNameId": "Mythic_Book_DetailName3",
+    "atlasId": 213,
+    "spriteName": "UD_MythicBook_MonsterTitle3",
+    "itemBg": "UD_MythicBook_MonsterBg3",
+    "quaAtlasId": 213,
+    "quaSpriteName": "UD_MythicBook_MonsterQuaBg3"
+  },
+  {
+    "id": 301,
+    "nameId": "Mythic_Book_GroupName301",
+    "detailNameId": "Mythic_Book_DetailName4",
+    "atlasId": 213,
+    "spriteName": "UD_MythicBook_SkillTitle2",
+    "itemBg": "UD_MythicBook_SkillBg2",
+    "quaAtlasId": 105,
+    "quaSpriteName": "item_frame_5"
+  },
+  {
+    "id": 302,
+    "nameId": "Mythic_Book_GroupName302",
+    "detailNameId": "Mythic_Book_DetailName5",
+    "atlasId": 213,
+    "spriteName": "UD_MythicBook_SkillTitle2",
+    "itemBg": "UD_MythicBook_SkillBg2",
+    "quaAtlasId": 105,
+    "quaSpriteName": "item_frame_5"
+  }
+]

@@ -1,0 +1,197 @@
+[
+  {
+    "id": 1,
+    "sClassName": "Server.SBuff_Default",
+    "cClassName": "HotFix.Client.CBuff_Default"
+  },
+  {
+    "id": 2,
+    "sClassName": "Server.SBuff_Silence",
+    "cClassName": "HotFix.Client.CBuff_Silence"
+  },
+  {
+    "id": 3,
+    "sClassName": "Server.SBuff_Stun",
+    "cClassName": "HotFix.Client.CBuff_Stun"
+  },
+  {
+    "id": 4,
+    "sClassName": "Server.SBuff_Frozen",
+    "cClassName": "HotFix.Client.CBuff_Frozen"
+  },
+  {
+    "id": 5,
+    "sClassName": "Server.SBuff_Fire",
+    "cClassName": "HotFix.Client.CBuff_Default"
+  },
+  {
+    "id": 6,
+    "sClassName": "Server.SBuff_ChangeVolume",
+    "cClassName": "HotFix.Client.CBuff_ChangeVolume"
+  },
+  {
+    "id": 7,
+    "sClassName": "Server.SBuff_Shield",
+    "cClassName": "HotFix.Client.CBuff_Default"
+  },
+  {
+    "id": 8,
+    "sClassName": "Server.SBuff_AddSkill",
+    "cClassName": "HotFix.Client.CBuff_Default"
+  },
+  {
+    "id": 9,
+    "sClassName": "Server.SBuff_Morph",
+    "cClassName": "HotFix.Client.CBuff_Morph"
+  },
+  {
+    "id": 10,
+    "sClassName": "Server.SBuff_RemoveBuff",
+    "cClassName": "HotFix.Client.CBuff_Default"
+  },
+  {
+    "id": 11,
+    "sClassName": "Server.SBuff_IceBoom",
+    "cClassName": "HotFix.Client.CBuff_Default"
+  },
+  {
+    "id": 12,
+    "sClassName": "Server.SBuff_DaemonMark",
+    "cClassName": "HotFix.Client.CBuff_Default"
+  },
+  {
+    "id": 13,
+    "sClassName": "Server.SBuff_DaemonMarkCounter",
+    "cClassName": "HotFix.Client.CBuff_Default"
+  },
+  {
+    "id": 14,
+    "sClassName": "Server.SBuff_Poison",
+    "cClassName": "HotFix.Client.CBuff_Default"
+  },
+  {
+    "id": 15,
+    "sClassName": "Server.SBuff_SerpentMark",
+    "cClassName": "HotFix.Client.CBuff_Default"
+  },
+  {
+    "id": 16,
+    "sClassName": "Server.SBuff_Bleeding",
+    "cClassName": "HotFix.Client.CBuff_Default"
+  },
+  {
+    "id": 17,
+    "sClassName": "Server.SBuff_DragonSoulMark",
+    "cClassName": "HotFix.Client.CBuff_Default"
+  },
+  {
+    "id": 18,
+    "sClassName": "Server.SBuff_Custom1",
+    "cClassName": "HotFix.Client.CBuff_Default"
+  },
+  {
+    "id": 19,
+    "sClassName": "Server.SBuff_ManaMark",
+    "cClassName": "HotFix.Client.CBuff_Default"
+  },
+  {
+    "id": 20,
+    "sClassName": "Server.SBuff_DamageLimit",
+    "cClassName": "HotFix.Client.CBuff_Default"
+  },
+  {
+    "id": 21,
+    "sClassName": "Server.SBuff_HpConvertShield",
+    "cClassName": "HotFix.Client.CBuff_Default"
+  },
+  {
+    "id": 22,
+    "sClassName": "Server.SBuff_Awe",
+    "cClassName": "HotFix.Client.CBuff_Default"
+  },
+  {
+    "id": 23,
+    "sClassName": "Server.SBuff_DisableSkill",
+    "cClassName": "HotFix.Client.CBuff_Default"
+  },
+  {
+    "id": 24,
+    "sClassName": "Server.SBuff_CustomBuffLayerDamage",
+    "cClassName": "HotFix.Client.CBuff_Default"
+  },
+  {
+    "id": 25,
+    "sClassName": "Server.SBuff_GhostlyObsession",
+    "cClassName": "HotFix.Client.CBuff_Default"
+  },
+  {
+    "id": 26,
+    "sClassName": "Server.SBuff_Numb",
+    "cClassName": "HotFix.Client.CBuff_Numb"
+  },
+  {
+    "id": 27,
+    "sClassName": "Server.SBuff_Immunity",
+    "cClassName": "HotFix.Client.CBuff_Default"
+  },
+  {
+    "id": 28,
+    "sClassName": "Server.SBuff_SkillShield",
+    "cClassName": "HotFix.Client.CBuff_Default"
+  },
+  {
+    "id": 29,
+    "sClassName": "Server.SBuff_Repair",
+    "cClassName": "HotFix.Client.CBuff_Default"
+  },
+  {
+    "id": 30,
+    "sClassName": "Server.SBuff_SpaceWalk",
+    "cClassName": "HotFix.Client.CBuff_Morph"
+  },
+  {
+    "id": 31,
+    "sClassName": "Server.SBuff_RecoverOverHPToShield",
+    "cClassName": "HotFix.Client.CBuff_Default"
+  },
+  {
+    "id": 32,
+    "sClassName": "Server.SBuff_Custom2",
+    "cClassName": "HotFix.Client.CBuff_Default"
+  },
+  {
+    "id": 33,
+    "sClassName": "Server.SBuff_CustomBuffLayerAddBuff",
+    "cClassName": "HotFix.Client.CBuff_Default"
+  },
+  {
+    "id": 34,
+    "sClassName": "Server.SBuff_StunOrAttribute",
+    "cClassName": "HotFix.Client.CBuff_Default"
+  },
+  {
+    "id": 35,
+    "sClassName": "Server.SBuff_ShieldToAttack",
+    "cClassName": "HotFix.Client.CBuff_Default"
+  },
+  {
+    "id": 36,
+    "sClassName": "Server.SBuff_ShieldAddAttack",
+    "cClassName": "HotFix.Client.CBuff_Default"
+  },
+  {
+    "id": 37,
+    "sClassName": "Server.SBuff_Wound",
+    "cClassName": "HotFix.Client.CBuff_Default"
+  },
+  {
+    "id": 38,
+    "sClassName": "Server.SBuff_Heroic",
+    "cClassName": "HotFix.Client.CBuff_Default"
+  },
+  {
+    "id": 39,
+    "sClassName": "Server.SBuff_StateAddBuff",
+    "cClassName": "HotFix.Client.CBuff_Default"
+  }
+]

@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "weight": 100,
+    "sort": 4,
+    "atlasId": 212,
+    "icon": "mythic_bigwin_en",
+    "soundId": 5101,
+    "iconCN": "mythic_bigwin_cn",
+    "iconTW": "mythic_bigwin_cn",
+    "iconJP": "mythic_bigwin_cn",
+    "iconKR": "mythic_bigwin_kr"
+  },
+  {
+    "id": 2,
+    "weight": 100,
+    "sort": 1,
+    "atlasId": 212,
+    "icon": "mythic_majorwin_en",
+    "soundId": 5102,
+    "iconCN": "mythic_majorwin_cn",
+    "iconTW": "mythic_majorwin_cn",
+    "iconJP": "mythic_majorwin_cn",
+    "iconKR": "mythic_majorwin_kr"
+  },
+  {
+    "id": 3,
+    "weight": 100,
+    "sort": 2,
+    "atlasId": 212,
+    "icon": "mythic_minorwin_en",
+    "soundId": 5103,
+    "iconCN": "mythic_minorwin_cn",
+    "iconTW": "mythic_minorwin_cn",
+    "iconJP": "mythic_minorwin_cn",
+    "iconKR": "mythic_minorwin_kr"
+  },
+  {
+    "id": 4,
+    "weight": 100,
+    "sort": 3,
+    "atlasId": 212,
+    "icon": "mythic_badluck_en",
+    "soundId": 5104,
+    "iconCN": "mythic_badluck_cn",
+    "iconTW": "mythic_badluck_tw",
+    "iconJP": "mythic_badluck_jp",
+    "iconKR": "mythic_badluck_kr"
+  }
+]

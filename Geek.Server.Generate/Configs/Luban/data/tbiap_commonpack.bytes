@@ -1,0 +1,12 @@
+[
+  {
+    "id": 601,
+    "group": 101,
+    "purchaseId": 601,
+    "nameId": "IAP_name_601",
+    "buyLimit": 1,
+    "goods": [
+      "30401,1"
+    ]
+  }
+]

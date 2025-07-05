@@ -1,0 +1,112 @@
+[
+  {
+    "id": 11,
+    "type": 1,
+    "parameter": "11"
+  },
+  {
+    "id": 12,
+    "type": 1,
+    "parameter": "7"
+  },
+  {
+    "id": 13,
+    "type": 1,
+    "parameter": "4"
+  },
+  {
+    "id": 21,
+    "type": 2,
+    "parameter": "10"
+  },
+  {
+    "id": 22,
+    "type": 2,
+    "parameter": "7"
+  },
+  {
+    "id": 23,
+    "type": 2,
+    "parameter": "4"
+  },
+  {
+    "id": 31,
+    "type": 3,
+    "parameter": "6"
+  },
+  {
+    "id": 32,
+    "type": 3,
+    "parameter": "3"
+  },
+  {
+    "id": 33,
+    "type": 3,
+    "parameter": "0"
+  },
+  {
+    "id": 41,
+    "type": 4,
+    "parameter": "Attack%=-10%|HPMax%=-10%|Defence%=-10%"
+  },
+  {
+    "id": 42,
+    "type": 4,
+    "parameter": "Attack%=-20%|HPMax%=-20%|Defence%=-20%"
+  },
+  {
+    "id": 43,
+    "type": 4,
+    "parameter": "Attack%=-30%|HPMax%=-30%|Defence%=-30%"
+  },
+  {
+    "id": 44,
+    "type": 4,
+    "parameter": "Attack%=-40%|HPMax%=-40%|Defence%=-40%"
+  },
+  {
+    "id": 45,
+    "type": 4,
+    "parameter": "Attack%=-50%|HPMax%=-50%|Defence%=-50%"
+  },
+  {
+    "id": 46,
+    "type": 4,
+    "parameter": "Attack%=-60%|HPMax%=-60%|Defence%=-60%"
+  },
+  {
+    "id": 51,
+    "type": 5,
+    "parameter": "-2500"
+  },
+  {
+    "id": 52,
+    "type": 5,
+    "parameter": "-5000"
+  },
+  {
+    "id": 53,
+    "type": 5,
+    "parameter": "-7500"
+  },
+  {
+    "id": 54,
+    "type": 5,
+    "parameter": "-9900"
+  },
+  {
+    "id": 61,
+    "type": 6,
+    "parameter": "3200235"
+  },
+  {
+    "id": 62,
+    "type": 6,
+    "parameter": "3200236"
+  },
+  {
+    "id": 63,
+    "type": 6,
+    "parameter": "3200237"
+  }
+]

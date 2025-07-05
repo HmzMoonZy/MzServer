@@ -1,0 +1,112 @@
+[
+  {
+    "id": 9201,
+    "group": 101,
+    "purchaseId": 9201,
+    "nameId": "IAP_name_9201",
+    "buyLimit": 1,
+    "goods": [
+      "2103,1",
+      "2001,30",
+      "2,600"
+    ]
+  },
+  {
+    "id": 9202,
+    "group": 101,
+    "purchaseId": 9202,
+    "nameId": "IAP_name_9202",
+    "buyLimit": 1,
+    "goods": [
+      "2105,1",
+      "2001,150",
+      "2,3600"
+    ]
+  },
+  {
+    "id": 9203,
+    "group": 101,
+    "purchaseId": 9203,
+    "nameId": "IAP_name_9203",
+    "buyLimit": 5,
+    "goods": [
+      "2001,30",
+      "75,1",
+      "2,600"
+    ]
+  },
+  {
+    "id": 9204,
+    "group": 101,
+    "purchaseId": 9204,
+    "nameId": "IAP_name_9204",
+    "buyLimit": 5,
+    "goods": [
+      "2001,50",
+      "75,2",
+      "2,1200"
+    ]
+  },
+  {
+    "id": 9205,
+    "group": 101,
+    "purchaseId": 9205,
+    "nameId": "IAP_name_9205",
+    "buyLimit": 5,
+    "goods": [
+      "2001,120",
+      "75,5",
+      "2,3600"
+    ]
+  },
+  {
+    "id": 9206,
+    "group": 101,
+    "purchaseId": 9206,
+    "nameId": "IAP_name_9206",
+    "buyLimit": 5,
+    "goods": [
+      "2001,150",
+      "75,8",
+      "2,6000"
+    ]
+  },
+  {
+    "id": 9207,
+    "group": 101,
+    "purchaseId": 9207,
+    "nameId": "IAP_name_9207",
+    "buyLimit": 1,
+    "goods": [
+      "2001,240",
+      "75,10",
+      "5012,1",
+      "2,12000"
+    ]
+  },
+  {
+    "id": 9208,
+    "group": 101,
+    "purchaseId": 9208,
+    "nameId": "IAP_name_9208",
+    "buyLimit": 1,
+    "goods": [
+      "2001,240",
+      "75,10",
+      "5013,1",
+      "2,12000"
+    ]
+  },
+  {
+    "id": 9209,
+    "group": 101,
+    "purchaseId": 9209,
+    "nameId": "IAP_name_9209",
+    "buyLimit": 99,
+    "goods": [
+      "2001,240",
+      "75,15",
+      "2,12000"
+    ]
+  }
+]

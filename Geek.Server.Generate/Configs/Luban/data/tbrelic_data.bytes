@@ -1,0 +1,57 @@
+[
+  {
+    "id": 1,
+    "ParamType": 1,
+    "LangugaeID": "8601"
+  },
+  {
+    "id": 2,
+    "ParamType": 1,
+    "LangugaeID": "8602"
+  },
+  {
+    "id": 3,
+    "ParamType": 2,
+    "LangugaeID": "8603"
+  },
+  {
+    "id": 4,
+    "ParamType": 2,
+    "LangugaeID": "8604"
+  },
+  {
+    "id": 5,
+    "ParamType": 2,
+    "LangugaeID": "8605"
+  },
+  {
+    "id": 6,
+    "ParamType": 1,
+    "LangugaeID": "8606"
+  },
+  {
+    "id": 7,
+    "ParamType": 1,
+    "LangugaeID": "8607"
+  },
+  {
+    "id": 8,
+    "ParamType": 3,
+    "LangugaeID": "8608"
+  },
+  {
+    "id": 9,
+    "ParamType": 3,
+    "LangugaeID": "8609"
+  },
+  {
+    "id": 10,
+    "ParamType": 3,
+    "LangugaeID": "8610"
+  },
+  {
+    "id": 11,
+    "ParamType": 1,
+    "LangugaeID": "8611"
+  }
+]

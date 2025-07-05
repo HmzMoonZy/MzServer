@@ -1,0 +1,57 @@
+[
+  {
+    "id": 1,
+    "FunctionId": 0,
+    "isOpen": 1,
+    "atlasId": 173,
+    "tabIcon": "img_gamerank_level",
+    "titleName": "gamerank_level_title",
+    "tabName": "gamerank_level_title",
+    "numDesc": "gamerank_level_subtitle",
+    "rankType": 7
+  },
+  {
+    "id": 2,
+    "FunctionId": 411,
+    "isOpen": 1,
+    "atlasId": 173,
+    "tabIcon": "img_gamerank_guild",
+    "titleName": "gamerank_guild_title",
+    "tabName": "gamerank_guild_title",
+    "numDesc": "gamerank_guild_subtitle",
+    "rankType": 9
+  },
+  {
+    "id": 3,
+    "FunctionId": 410,
+    "isOpen": 1,
+    "atlasId": 173,
+    "tabIcon": "img_gamerank_tower",
+    "titleName": "gamerank_tower_title",
+    "tabName": "gamerank_tower_title",
+    "numDesc": "gamerank_tower_subtitle",
+    "rankType": 6
+  },
+  {
+    "id": 4,
+    "FunctionId": 412,
+    "isOpen": 1,
+    "atlasId": 173,
+    "tabIcon": "img_gamerank_roguedungeon",
+    "titleName": "gamerank_roguedungeon_title",
+    "tabName": "gamerank_roguedungeon_title",
+    "numDesc": "gamerank_roguedungeon_subtitle",
+    "rankType": 2
+  },
+  {
+    "id": 5,
+    "FunctionId": 413,
+    "isOpen": 1,
+    "atlasId": 173,
+    "tabIcon": "img_gamerank_chapterHard",
+    "titleName": "ChapterHard_Rank_Title",
+    "tabName": "ChapterHard_Rank_Title",
+    "numDesc": "",
+    "rankType": 17
+  }
+]

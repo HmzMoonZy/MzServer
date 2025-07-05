@@ -1,0 +1,68 @@
+[
+  {
+    "id": 1,
+    "weight": 1000,
+    "weightAdd": 0,
+    "showWeight": 1,
+    "reward": 300,
+    "again": 1,
+    "planeColor": 3,
+    "textColor": "#FFF17F",
+    "xNumtId": ""
+  },
+  {
+    "id": 2,
+    "weight": 2500,
+    "weightAdd": 0,
+    "showWeight": 1,
+    "reward": 50,
+    "again": 0,
+    "planeColor": 2,
+    "textColor": "#FFFFFF",
+    "xNumtId": ""
+  },
+  {
+    "id": 3,
+    "weight": 2500,
+    "weightAdd": 0,
+    "showWeight": 1,
+    "reward": 100,
+    "again": 0,
+    "planeColor": 2,
+    "textColor": "#FFFFFF",
+    "xNumtId": "wheel_x1"
+  },
+  {
+    "id": 4,
+    "weight": 500,
+    "weightAdd": 10,
+    "showWeight": 1,
+    "reward": 1000,
+    "again": 0,
+    "planeColor": 4,
+    "textColor": "#FFF17F",
+    "xNumtId": "wheel_x4"
+  },
+  {
+    "id": 5,
+    "weight": 2500,
+    "weightAdd": 0,
+    "showWeight": 1,
+    "reward": 200,
+    "again": 0,
+    "planeColor": 2,
+    "textColor": "#FFFFFF",
+    "xNumtId": "wheel_x2"
+  },
+  {
+    "id": 6,
+    "weight": 1000,
+    "weightAdd": 0,
+    "showWeight": 1,
+    "reward": 500,
+    "again": 0,
+    "planeColor": 2,
+    "textColor": "#FFFFFF",
+    "xNumtId": "wheel_x3"
+  }
+]

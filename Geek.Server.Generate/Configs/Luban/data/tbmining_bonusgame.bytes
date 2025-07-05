@@ -1,0 +1,330 @@
+[
+  {
+    "id": 1,
+    "unlockLayer": 1,
+    "itemid": 4,
+    "num": 10000,
+    "showWeight": 1000,
+    "getRate": 8000
+  },
+  {
+    "id": 2,
+    "unlockLayer": 1,
+    "itemid": 4,
+    "num": 50000,
+    "showWeight": 500,
+    "getRate": 5000
+  },
+  {
+    "id": 3,
+    "unlockLayer": 1,
+    "itemid": 72,
+    "num": 1,
+    "showWeight": 500,
+    "getRate": 5000
+  },
+  {
+    "id": 4,
+    "unlockLayer": 1,
+    "itemid": 73,
+    "num": 1,
+    "showWeight": 500,
+    "getRate": 2500
+  },
+  {
+    "id": 5,
+    "unlockLayer": 1,
+    "itemid": 74,
+    "num": 1,
+    "showWeight": 400,
+    "getRate": 1000
+  },
+  {
+    "id": 6,
+    "unlockLayer": 1,
+    "itemid": 24,
+    "num": 100,
+    "showWeight": 500,
+    "getRate": 5000
+  },
+  {
+    "id": 7,
+    "unlockLayer": 1,
+    "itemid": 25,
+    "num": 5,
+    "showWeight": 500,
+    "getRate": 2500
+  },
+  {
+    "id": 8,
+    "unlockLayer": 1,
+    "itemid": 27,
+    "num": 20,
+    "showWeight": 500,
+    "getRate": 5000
+  },
+  {
+    "id": 9,
+    "unlockLayer": 1,
+    "itemid": 28,
+    "num": 20,
+    "showWeight": 500,
+    "getRate": 5000
+  },
+  {
+    "id": 10,
+    "unlockLayer": 1,
+    "itemid": 29,
+    "num": 20,
+    "showWeight": 500,
+    "getRate": 2500
+  },
+  {
+    "id": 11,
+    "unlockLayer": 1,
+    "itemid": 30,
+    "num": 200,
+    "showWeight": 500,
+    "getRate": 5000
+  },
+  {
+    "id": 12,
+    "unlockLayer": 1,
+    "itemid": 31,
+    "num": 1,
+    "showWeight": 500,
+    "getRate": 1000
+  },
+  {
+    "id": 13,
+    "unlockLayer": 1,
+    "itemid": 81,
+    "num": 1,
+    "showWeight": 450,
+    "getRate": 1000
+  },
+  {
+    "id": 14,
+    "unlockLayer": 1,
+    "itemid": 82,
+    "num": 1,
+    "showWeight": 400,
+    "getRate": 1000
+  },
+  {
+    "id": 15,
+    "unlockLayer": 1,
+    "itemid": 83,
+    "num": 1,
+    "showWeight": 400,
+    "getRate": 1000
+  },
+  {
+    "id": 16,
+    "unlockLayer": 1,
+    "itemid": 330101,
+    "num": 1,
+    "showWeight": 100,
+    "getRate": 5000
+  },
+  {
+    "id": 17,
+    "unlockLayer": 1,
+    "itemid": 330102,
+    "num": 1,
+    "showWeight": 100,
+    "getRate": 5000
+  },
+  {
+    "id": 18,
+    "unlockLayer": 1,
+    "itemid": 330103,
+    "num": 1,
+    "showWeight": 100,
+    "getRate": 5000
+  },
+  {
+    "id": 19,
+    "unlockLayer": 1,
+    "itemid": 330201,
+    "num": 1,
+    "showWeight": 100,
+    "getRate": 5000
+  },
+  {
+    "id": 20,
+    "unlockLayer": 1,
+    "itemid": 330202,
+    "num": 1,
+    "showWeight": 100,
+    "getRate": 5000
+  },
+  {
+    "id": 21,
+    "unlockLayer": 1,
+    "itemid": 330203,
+    "num": 1,
+    "showWeight": 100,
+    "getRate": 5000
+  },
+  {
+    "id": 22,
+    "unlockLayer": 1,
+    "itemid": 330301,
+    "num": 1,
+    "showWeight": 100,
+    "getRate": 2500
+  },
+  {
+    "id": 23,
+    "unlockLayer": 1,
+    "itemid": 330302,
+    "num": 1,
+    "showWeight": 100,
+    "getRate": 2500
+  },
+  {
+    "id": 24,
+    "unlockLayer": 1,
+    "itemid": 330303,
+    "num": 1,
+    "showWeight": 100,
+    "getRate": 2500
+  },
+  {
+    "id": 25,
+    "unlockLayer": 1,
+    "itemid": 330304,
+    "num": 1,
+    "showWeight": 100,
+    "getRate": 2500
+  },
+  {
+    "id": 26,
+    "unlockLayer": 1,
+    "itemid": 330305,
+    "num": 1,
+    "showWeight": 100,
+    "getRate": 2500
+  },
+  {
+    "id": 27,
+    "unlockLayer": 1,
+    "itemid": 330401,
+    "num": 1,
+    "showWeight": 100,
+    "getRate": 2500
+  },
+  {
+    "id": 28,
+    "unlockLayer": 1,
+    "itemid": 330402,
+    "num": 1,
+    "showWeight": 100,
+    "getRate": 2500
+  },
+  {
+    "id": 29,
+    "unlockLayer": 1,
+    "itemid": 330403,
+    "num": 1,
+    "showWeight": 100,
+    "getRate": 2500
+  },
+  {
+    "id": 30,
+    "unlockLayer": 1,
+    "itemid": 330404,
+    "num": 1,
+    "showWeight": 100,
+    "getRate": 2500
+  },
+  {
+    "id": 31,
+    "unlockLayer": 1,
+    "itemid": 330501,
+    "num": 1,
+    "showWeight": 100,
+    "getRate": 1000
+  },
+  {
+    "id": 32,
+    "unlockLayer": 1,
+    "itemid": 330502,
+    "num": 1,
+    "showWeight": 100,
+    "getRate": 1000
+  },
+  {
+    "id": 33,
+    "unlockLayer": 1,
+    "itemid": 330503,
+    "num": 1,
+    "showWeight": 100,
+    "getRate": 1000
+  },
+  {
+    "id": 34,
+    "unlockLayer": 1,
+    "itemid": 330504,
+    "num": 1,
+    "showWeight": 100,
+    "getRate": 1000
+  },
+  {
+    "id": 35,
+    "unlockLayer": 1,
+    "itemid": 330505,
+    "num": 1,
+    "showWeight": 100,
+    "getRate": 1000
+  },
+  {
+    "id": 36,
+    "unlockLayer": 1,
+    "itemid": 330506,
+    "num": 1,
+    "showWeight": 100,
+    "getRate": 1000
+  },
+  {
+    "id": 37,
+    "unlockLayer": 1,
+    "itemid": 330601,
+    "num": 1,
+    "showWeight": 50,
+    "getRate": 1000
+  },
+  {
+    "id": 38,
+    "unlockLayer": 1,
+    "itemid": 330602,
+    "num": 1,
+    "showWeight": 50,
+    "getRate": 1000
+  },
+  {
+    "id": 39,
+    "unlockLayer": 1,
+    "itemid": 330603,
+    "num": 1,
+    "showWeight": 50,
+    "getRate": 1000
+  },
+  {
+    "id": 40,
+    "unlockLayer": 1,
+    "itemid": 330604,
+    "num": 1,
+    "showWeight": 50,
+    "getRate": 1000
+  },
+  {
+    "id": 41,
+    "unlockLayer": 1,
+    "itemid": 330605,
+    "num": 1,
+    "showWeight": 50,
+    "getRate": 1000
+  }
+]

@@ -1,0 +1,82 @@
+[
+  {
+    "Id": 1,
+    "EntryFunctionId": 402,
+    "EntryRedPointName": "Main.Activity_HolidayFeast.Thanks",
+    "Feast_ViewName": "ActivityHolidayFeastViewModule_Thanks",
+    "JumpType": 45,
+    "PreView_Bg": 1001,
+    "PreView_Bg_Spine": "",
+    "CVLangId": ""
+  },
+  {
+    "Id": 2,
+    "EntryFunctionId": 420,
+    "EntryRedPointName": "Main.Activity_HolidayFeast.Christmas",
+    "Feast_ViewName": "ActivityHolidayFeastViewModule_Christmas",
+    "JumpType": 46,
+    "PreView_Bg": 1002,
+    "PreView_Bg_Spine": "",
+    "CVLangId": ""
+  },
+  {
+    "Id": 3,
+    "EntryFunctionId": 421,
+    "EntryRedPointName": "Main.Activity_HolidayFeast.NewYear",
+    "Feast_ViewName": "ActivityHolidayFeastViewModule_NewYear",
+    "JumpType": 47,
+    "PreView_Bg": 1002,
+    "PreView_Bg_Spine": "",
+    "CVLangId": ""
+  },
+  {
+    "Id": 4,
+    "EntryFunctionId": 423,
+    "EntryRedPointName": "Main.Activity_HolidayFeast.SpringFestival",
+    "Feast_ViewName": "ActivityHolidayFeastViewModule_SpringFestival",
+    "JumpType": 50,
+    "PreView_Bg": 1003,
+    "PreView_Bg_Spine": "",
+    "CVLangId": ""
+  },
+  {
+    "Id": 5,
+    "EntryFunctionId": 424,
+    "EntryRedPointName": "Main.Activity_HolidayFeast.AprilFools",
+    "Feast_ViewName": "ActivityHolidayFeastViewModule_AprilFools",
+    "JumpType": 56,
+    "PreView_Bg": 1004,
+    "PreView_Bg_Spine": "",
+    "CVLangId": ""
+  },
+  {
+    "Id": 6,
+    "EntryFunctionId": 425,
+    "EntryRedPointName": "Main.Activity_HolidayFeast.LaborDay",
+    "Feast_ViewName": "ActivityHolidayFeastViewModule_LaborDay",
+    "JumpType": 57,
+    "PreView_Bg": 0,
+    "PreView_Bg_Spine": "Assets/_Art/Spine/UI/LaoDongJie/PaiLianTu/skeleton_xs_SkeletonData.asset",
+    "CVLangId": ""
+  },
+  {
+    "Id": 7,
+    "EntryFunctionId": 426,
+    "EntryRedPointName": "Main.Activity_HolidayFeast.DragonBoat",
+    "Feast_ViewName": "ActivityHolidayFeastViewModule_DragonBoat",
+    "JumpType": 58,
+    "PreView_Bg": 1006,
+    "PreView_Bg_Spine": "",
+    "CVLangId": ""
+  },
+  {
+    "Id": 8,
+    "EntryFunctionId": 501,
+    "EntryRedPointName": "Main.Activity_HolidayFeast.Turtle",
+    "Feast_ViewName": "ActivityHolidayFeastViewModule_Turtle",
+    "JumpType": 72,
+    "PreView_Bg": 0,
+    "PreView_Bg_Spine": "Assets/_Art/Spine/UI/RenZheShenGui/PaiLianTu/skeleton_xs_SkeletonData.asset",
+    "CVLangId": "plinko_cv"
+  }
+]

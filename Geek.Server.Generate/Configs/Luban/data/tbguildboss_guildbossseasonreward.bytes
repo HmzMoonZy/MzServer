@@ -1,0 +1,422 @@
+[
+  {
+    "ID": 1,
+    "levelID": 1,
+    "ranking": [
+      "1",
+      "1"
+    ],
+    "weeklyRewards": [
+      "2,1000",
+      "12,100"
+    ]
+  },
+  {
+    "ID": 2,
+    "levelID": 1,
+    "ranking": [
+      "2",
+      "2"
+    ],
+    "weeklyRewards": [
+      "2,800",
+      "12,80"
+    ]
+  },
+  {
+    "ID": 3,
+    "levelID": 1,
+    "ranking": [
+      "3",
+      "3"
+    ],
+    "weeklyRewards": [
+      "2,700",
+      "12,60"
+    ]
+  },
+  {
+    "ID": 4,
+    "levelID": 1,
+    "ranking": [
+      "4",
+      "4"
+    ],
+    "weeklyRewards": [
+      "2,600",
+      "12,50"
+    ]
+  },
+  {
+    "ID": 5,
+    "levelID": 1,
+    "ranking": [
+      "5",
+      "5"
+    ],
+    "weeklyRewards": [
+      "2,500",
+      "12,40"
+    ]
+  },
+  {
+    "ID": 6,
+    "levelID": 1,
+    "ranking": [
+      "6",
+      "10"
+    ],
+    "weeklyRewards": [
+      "2,400",
+      "12,32"
+    ]
+  },
+  {
+    "ID": 7,
+    "levelID": 1,
+    "ranking": [
+      "11",
+      "20"
+    ],
+    "weeklyRewards": [
+      "2,300",
+      "12,24"
+    ]
+  },
+  {
+    "ID": 8,
+    "levelID": 2,
+    "ranking": [
+      "1",
+      "1"
+    ],
+    "weeklyRewards": [
+      "2,1500",
+      "12,150"
+    ]
+  },
+  {
+    "ID": 9,
+    "levelID": 2,
+    "ranking": [
+      "2",
+      "2"
+    ],
+    "weeklyRewards": [
+      "2,1200",
+      "12,120"
+    ]
+  },
+  {
+    "ID": 10,
+    "levelID": 2,
+    "ranking": [
+      "3",
+      "3"
+    ],
+    "weeklyRewards": [
+      "2,1000",
+      "12,90"
+    ]
+  },
+  {
+    "ID": 11,
+    "levelID": 2,
+    "ranking": [
+      "4",
+      "4"
+    ],
+    "weeklyRewards": [
+      "2,800",
+      "12,75"
+    ]
+  },
+  {
+    "ID": 12,
+    "levelID": 2,
+    "ranking": [
+      "5",
+      "5"
+    ],
+    "weeklyRewards": [
+      "2,700",
+      "12,60"
+    ]
+  },
+  {
+    "ID": 13,
+    "levelID": 2,
+    "ranking": [
+      "6",
+      "10"
+    ],
+    "weeklyRewards": [
+      "2,600",
+      "12,48"
+    ]
+  },
+  {
+    "ID": 14,
+    "levelID": 2,
+    "ranking": [
+      "11",
+      "20"
+    ],
+    "weeklyRewards": [
+      "2,500",
+      "12,36"
+    ]
+  },
+  {
+    "ID": 15,
+    "levelID": 3,
+    "ranking": [
+      "1",
+      "1"
+    ],
+    "weeklyRewards": [
+      "2,2000",
+      "12,200"
+    ]
+  },
+  {
+    "ID": 16,
+    "levelID": 3,
+    "ranking": [
+      "2",
+      "2"
+    ],
+    "weeklyRewards": [
+      "2,1600",
+      "12,160"
+    ]
+  },
+  {
+    "ID": 17,
+    "levelID": 3,
+    "ranking": [
+      "3",
+      "3"
+    ],
+    "weeklyRewards": [
+      "2,1400",
+      "12,120"
+    ]
+  },
+  {
+    "ID": 18,
+    "levelID": 3,
+    "ranking": [
+      "4",
+      "4"
+    ],
+    "weeklyRewards": [
+      "2,1200",
+      "12,100"
+    ]
+  },
+  {
+    "ID": 19,
+    "levelID": 3,
+    "ranking": [
+      "5",
+      "5"
+    ],
+    "weeklyRewards": [
+      "2,1000",
+      "12,80"
+    ]
+  },
+  {
+    "ID": 20,
+    "levelID": 3,
+    "ranking": [
+      "6",
+      "10"
+    ],
+    "weeklyRewards": [
+      "2,800",
+      "12,64"
+    ]
+  },
+  {
+    "ID": 21,
+    "levelID": 3,
+    "ranking": [
+      "11",
+      "20"
+    ],
+    "weeklyRewards": [
+      "2,600",
+      "12,48"
+    ]
+  },
+  {
+    "ID": 22,
+    "levelID": 4,
+    "ranking": [
+      "1",
+      "1"
+    ],
+    "weeklyRewards": [
+      "2,2500",
+      "12,240"
+    ]
+  },
+  {
+    "ID": 23,
+    "levelID": 4,
+    "ranking": [
+      "2",
+      "2"
+    ],
+    "weeklyRewards": [
+      "2,2000",
+      "12,180"
+    ]
+  },
+  {
+    "ID": 24,
+    "levelID": 4,
+    "ranking": [
+      "3",
+      "3"
+    ],
+    "weeklyRewards": [
+      "2,1600",
+      "12,150"
+    ]
+  },
+  {
+    "ID": 25,
+    "levelID": 4,
+    "ranking": [
+      "4",
+      "4"
+    ],
+    "weeklyRewards": [
+      "2,1400",
+      "12,120"
+    ]
+  },
+  {
+    "ID": 26,
+    "levelID": 4,
+    "ranking": [
+      "5",
+      "5"
+    ],
+    "weeklyRewards": [
+      "2,1200",
+      "12,100"
+    ]
+  },
+  {
+    "ID": 27,
+    "levelID": 4,
+    "ranking": [
+      "6",
+      "10"
+    ],
+    "weeklyRewards": [
+      "2,1000",
+      "12,80"
+    ]
+  },
+  {
+    "ID": 28,
+    "levelID": 4,
+    "ranking": [
+      "11",
+      "20"
+    ],
+    "weeklyRewards": [
+      "2,800",
+      "12,70"
+    ]
+  },
+  {
+    "ID": 29,
+    "levelID": 5,
+    "ranking": [
+      "1",
+      "1"
+    ],
+    "weeklyRewards": [
+      "2,3200",
+      "12,300"
+    ]
+  },
+  {
+    "ID": 30,
+    "levelID": 5,
+    "ranking": [
+      "2",
+      "2"
+    ],
+    "weeklyRewards": [
+      "2,2800",
+      "12,240"
+    ]
+  },
+  {
+    "ID": 31,
+    "levelID": 5,
+    "ranking": [
+      "3",
+      "3"
+    ],
+    "weeklyRewards": [
+      "2,2400",
+      "12,200"
+    ]
+  },
+  {
+    "ID": 32,
+    "levelID": 5,
+    "ranking": [
+      "4",
+      "4"
+    ],
+    "weeklyRewards": [
+      "2,2000",
+      "12,160"
+    ]
+  },
+  {
+    "ID": 33,
+    "levelID": 5,
+    "ranking": [
+      "5",
+      "5"
+    ],
+    "weeklyRewards": [
+      "2,1600",
+      "12,120"
+    ]
+  },
+  {
+    "ID": 34,
+    "levelID": 5,
+    "ranking": [
+      "6",
+      "10"
+    ],
+    "weeklyRewards": [
+      "2,1400",
+      "12,100"
+    ]
+  },
+  {
+    "ID": 35,
+    "levelID": 5,
+    "ranking": [
+      "11",
+      "20"
+    ],
+    "weeklyRewards": [
+      "2,1200",
+      "12,90"
+    ]
+  }
+]

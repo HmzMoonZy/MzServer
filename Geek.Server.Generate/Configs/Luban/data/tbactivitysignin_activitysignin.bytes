@@ -1,0 +1,274 @@
+[
+  {
+    "ID": 1,
+    "openTime": "2024-11-26 00:00:01",
+    "endTime": "2024-12-02 23:59:59",
+    "openTimeCN": "2024-12-07 00:00:01",
+    "endTimeCN": "2024-12-13 23:59:59",
+    "Day1": [
+      "1001,20"
+    ],
+    "Day2": [
+      "62,2"
+    ],
+    "Day3": [
+      "1001,20"
+    ],
+    "Day4": [
+      "32,50"
+    ],
+    "Day5": [
+      "2,500"
+    ],
+    "Day6": [
+      "74,1"
+    ],
+    "Day7": [
+      "400101,1",
+      "1201,5"
+    ],
+    "colour": "7",
+    "atlasId": 171,
+    "imgBanner": "Assets/_Resources/Sprites/ActivitySign/img_tankful_signin_title.png",
+    "itemBg": "img_thankful_signin_itemBg",
+    "CVLangId": ""
+  },
+  {
+    "ID": 2,
+    "openTime": "2024-12-23 00:00:01",
+    "endTime": "2024-12-29 23:59:59",
+    "openTimeCN": "2024-12-23 00:00:01",
+    "endTimeCN": "2024-12-29 23:59:59",
+    "Day1": [
+      "2,500"
+    ],
+    "Day2": [
+      "2001,10"
+    ],
+    "Day3": [
+      "111,2"
+    ],
+    "Day4": [
+      "32,50"
+    ],
+    "Day5": [
+      "400102,1"
+    ],
+    "Day6": [
+      "74,1"
+    ],
+    "Day7": [
+      "2,500",
+      "2001,10"
+    ],
+    "colour": "7",
+    "atlasId": 171,
+    "imgBanner": "Assets/_Resources/Sprites/ActivitySign/img_winter_signin_title.png",
+    "itemBg": "img_thankful_signin_itemBg",
+    "CVLangId": ""
+  },
+  {
+    "ID": 3,
+    "openTime": "2024-12-30 00:00:01",
+    "endTime": "2025-01-05 23:59:59",
+    "openTimeCN": "2024-12-30 00:00:01",
+    "endTimeCN": "2025-01-05 23:59:59",
+    "Day1": [
+      "2,500"
+    ],
+    "Day2": [
+      "62,2"
+    ],
+    "Day3": [
+      "111,2"
+    ],
+    "Day4": [
+      "32,50"
+    ],
+    "Day5": [
+      "2,500"
+    ],
+    "Day6": [
+      "74,1"
+    ],
+    "Day7": [
+      "2,500",
+      "111,2"
+    ],
+    "colour": "7",
+    "atlasId": 171,
+    "imgBanner": "Assets/_Resources/Sprites/ActivitySign/img_winter_signin_title.png",
+    "itemBg": "img_thankful_signin_itemBg",
+    "CVLangId": ""
+  },
+  {
+    "ID": 4,
+    "openTime": "2025-01-24 00:00:01",
+    "endTime": "2025-02-02 23:59:59",
+    "openTimeCN": "2025-01-24 00:00:01",
+    "endTimeCN": "2025-02-02 23:59:59",
+    "Day1": [
+      "2,500"
+    ],
+    "Day2": [
+      "62,2"
+    ],
+    "Day3": [
+      "1003,25"
+    ],
+    "Day4": [
+      "32,50"
+    ],
+    "Day5": [
+      "1003,25"
+    ],
+    "Day6": [
+      "2,500"
+    ],
+    "Day7": [
+      "2,500",
+      "111,2"
+    ],
+    "colour": "7",
+    "atlasId": 171,
+    "imgBanner": "Assets/_Resources/Sprites/ActivitySign/img_spring_signin_title.png",
+    "itemBg": "img_thankful_signin_itemBg",
+    "CVLangId": ""
+  },
+  {
+    "ID": 5,
+    "openTime": "2025-03-31 00:00:01",
+    "endTime": "2025-04-09 23:59:59",
+    "openTimeCN": "2025-03-31 00:00:01",
+    "endTimeCN": "2025-04-09 23:59:59",
+    "Day1": [
+      "2,500"
+    ],
+    "Day2": [
+      "2001,10"
+    ],
+    "Day3": [
+      "111,2"
+    ],
+    "Day4": [
+      "32,50"
+    ],
+    "Day5": [
+      "2001,10"
+    ],
+    "Day6": [
+      "74,1"
+    ],
+    "Day7": [
+      "2,500",
+      "400111,1"
+    ],
+    "colour": "7",
+    "atlasId": 171,
+    "imgBanner": "Assets/_Resources/Sprites/ActivitySign/img_aprilfools_signin_title.png",
+    "itemBg": "img_thankful_signin_itemBg",
+    "CVLangId": ""
+  },
+  {
+    "ID": 6,
+    "openTime": "2025-04-28 00:00:01",
+    "endTime": "2025-05-07 23:59:59",
+    "openTimeCN": "2025-04-28 00:00:01",
+    "endTimeCN": "2025-05-07 23:59:59",
+    "Day1": [
+      "2,500"
+    ],
+    "Day2": [
+      "62,2"
+    ],
+    "Day3": [
+      "2511,10"
+    ],
+    "Day4": [
+      "32,50"
+    ],
+    "Day5": [
+      "2511,10"
+    ],
+    "Day6": [
+      "2,500"
+    ],
+    "Day7": [
+      "2,500",
+      "111,2"
+    ],
+    "colour": "7",
+    "atlasId": 171,
+    "imgBanner": "Assets/_Resources/Sprites/ActivitySign/img_laborday_signin_title.png",
+    "itemBg": "img_thankful_signin_itemBg",
+    "CVLangId": ""
+  },
+  {
+    "ID": 7,
+    "openTime": "2025-05-26 00:00:01",
+    "endTime": "2025-06-04 23:59:59",
+    "openTimeCN": "2025-05-26 00:00:01",
+    "endTimeCN": "2025-06-04 23:59:59",
+    "Day1": [
+      "2,500"
+    ],
+    "Day2": [
+      "62,2"
+    ],
+    "Day3": [
+      "3500,10"
+    ],
+    "Day4": [
+      "32,50"
+    ],
+    "Day5": [
+      "3500,10"
+    ],
+    "Day6": [
+      "2,500"
+    ],
+    "Day7": [
+      "2,500",
+      "111,2"
+    ],
+    "colour": "7",
+    "atlasId": 171,
+    "imgBanner": "Assets/_Resources/Sprites/ActivitySign/img_dragonboat_signin_title.png",
+    "itemBg": "img_thankful_signin_itemBg",
+    "CVLangId": ""
+  },
+  {
+    "ID": 8,
+    "openTime": "2025-06-23 00:00:01",
+    "endTime": "2025-07-09 23:59:59",
+    "openTimeCN": "2025-06-23 00:00:01",
+    "endTimeCN": "2025-07-09 23:59:59",
+    "Day1": [
+      "2,500"
+    ],
+    "Day2": [
+      "62,2"
+    ],
+    "Day3": [
+      "3200,50"
+    ],
+    "Day4": [
+      "32,50"
+    ],
+    "Day5": [
+      "3200,50"
+    ],
+    "Day6": [
+      "2,500"
+    ],
+    "Day7": [
+      "2,500",
+      "111,2"
+    ],
+    "colour": "7",
+    "atlasId": 171,
+    "imgBanner": "Assets/_Resources/Sprites/ActivitySign/img_turtle_signin_title.png",
+    "itemBg": "img_thankful_signin_itemBg",
+    "CVLangId": "plinko_cv"
+  }
+]

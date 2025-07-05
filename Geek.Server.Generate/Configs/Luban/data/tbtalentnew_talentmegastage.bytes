@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "languageId": "talent_step_1",
+    "minStep": 0,
+    "maxStep": 3
+  },
+  {
+    "id": 2,
+    "languageId": "talent_step_2",
+    "minStep": 4,
+    "maxStep": 8
+  },
+  {
+    "id": 3,
+    "languageId": "talent_step_3",
+    "minStep": 9,
+    "maxStep": 18
+  },
+  {
+    "id": 4,
+    "languageId": "talent_step_4",
+    "minStep": 19,
+    "maxStep": 33
+  },
+  {
+    "id": 5,
+    "languageId": "talent_step_5",
+    "minStep": 34,
+    "maxStep": 73
+  },
+  {
+    "id": 6,
+    "languageId": "talent_step_6",
+    "minStep": 74,
+    "maxStep": 74
+  }
+]

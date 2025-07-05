@@ -1,0 +1,34 @@
+[
+  {
+    "id": 1001,
+    "path": "Assets/_Resources/Prefab/Game/Member/Ride/Ride_MuFa.prefab"
+  },
+  {
+    "id": 20301,
+    "path": "Assets/_Resources/Prefab/Game/Member/Event/Island/Event_DaoHaiGui.prefab"
+  },
+  {
+    "id": 20302,
+    "path": "Assets/_Resources/Prefab/Game/Member/Event/Island/Event_DaoShanDong.prefab"
+  },
+  {
+    "id": 20303,
+    "path": "Assets/_Resources/Prefab/Game/Member/Event/Island/Event_DaoJinKuang.prefab"
+  },
+  {
+    "id": 20304,
+    "path": "Assets/_Resources/Prefab/Game/Member/Event/Island/Event_DaoShiXiang.prefab"
+  },
+  {
+    "id": 20305,
+    "path": "Assets/_Resources/Prefab/Game/Member/Event/Island/Event_DaoKuLou.prefab"
+  },
+  {
+    "id": 20306,
+    "path": "Assets/_Resources/Prefab/Game/Member/Event/Island/Event_DaoFaShiTa.prefab"
+  },
+  {
+    "id": 20307,
+    "path": "Assets/_Resources/Prefab/Game/Member/Event/Island/Event_DengTa.prefab"
+  }
+]

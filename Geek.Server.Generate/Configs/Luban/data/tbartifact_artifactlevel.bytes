@@ -1,0 +1,1934 @@
+[
+  {
+    "id": 1,
+    "stage": 0,
+    "star": 0,
+    "itemCost": 29,
+    "levelCost": 5,
+    "attribute": [
+      "HPMax%=0",
+      "Attack%=0",
+      "Defence%=0"
+    ]
+  },
+  {
+    "id": 2,
+    "stage": 0,
+    "star": 1,
+    "itemCost": 29,
+    "levelCost": 10,
+    "attribute": [
+      "HPMax%=1",
+      "Attack%=1",
+      "Defence%=1"
+    ]
+  },
+  {
+    "id": 3,
+    "stage": 0,
+    "star": 2,
+    "itemCost": 29,
+    "levelCost": 20,
+    "attribute": [
+      "HPMax%=2",
+      "Attack%=2",
+      "Defence%=2"
+    ]
+  },
+  {
+    "id": 4,
+    "stage": 0,
+    "star": 3,
+    "itemCost": 29,
+    "levelCost": 50,
+    "attribute": [
+      "HPMax%=3",
+      "Attack%=3",
+      "Defence%=3"
+    ]
+  },
+  {
+    "id": 5,
+    "stage": 0,
+    "star": 4,
+    "itemCost": 29,
+    "levelCost": 100,
+    "attribute": [
+      "HPMax%=4",
+      "Attack%=4",
+      "Defence%=4"
+    ]
+  },
+  {
+    "id": 6,
+    "stage": 0,
+    "star": 5,
+    "itemCost": 29,
+    "levelCost": 200,
+    "attribute": [
+      "HPMax%=5",
+      "Attack%=5",
+      "Defence%=5"
+    ]
+  },
+  {
+    "id": 7,
+    "stage": 0,
+    "star": 6,
+    "itemCost": 29,
+    "levelCost": 300,
+    "attribute": [
+      "HPMax%=6",
+      "Attack%=6",
+      "Defence%=6"
+    ]
+  },
+  {
+    "id": 8,
+    "stage": 0,
+    "star": 7,
+    "itemCost": 29,
+    "levelCost": 400,
+    "attribute": [
+      "HPMax%=7",
+      "Attack%=7",
+      "Defence%=7"
+    ]
+  },
+  {
+    "id": 9,
+    "stage": 0,
+    "star": 8,
+    "itemCost": 29,
+    "levelCost": 500,
+    "attribute": [
+      "HPMax%=8",
+      "Attack%=8",
+      "Defence%=8"
+    ]
+  },
+  {
+    "id": 10,
+    "stage": 0,
+    "star": 9,
+    "itemCost": 29,
+    "levelCost": 600,
+    "attribute": [
+      "HPMax%=9",
+      "Attack%=9",
+      "Defence%=9"
+    ]
+  },
+  {
+    "id": 11,
+    "stage": 0,
+    "star": 10,
+    "itemCost": 29,
+    "levelCost": 25,
+    "attribute": [
+      "HPMax%=14",
+      "Attack%=14",
+      "Defence%=14"
+    ]
+  },
+  {
+    "id": 12,
+    "stage": 1,
+    "star": 1,
+    "itemCost": 29,
+    "levelCost": 50,
+    "attribute": [
+      "HPMax%=16",
+      "Attack%=16",
+      "Defence%=16"
+    ]
+  },
+  {
+    "id": 13,
+    "stage": 1,
+    "star": 2,
+    "itemCost": 29,
+    "levelCost": 100,
+    "attribute": [
+      "HPMax%=18",
+      "Attack%=18",
+      "Defence%=18"
+    ]
+  },
+  {
+    "id": 14,
+    "stage": 1,
+    "star": 3,
+    "itemCost": 29,
+    "levelCost": 200,
+    "attribute": [
+      "HPMax%=20",
+      "Attack%=20",
+      "Defence%=20"
+    ]
+  },
+  {
+    "id": 15,
+    "stage": 1,
+    "star": 4,
+    "itemCost": 29,
+    "levelCost": 300,
+    "attribute": [
+      "HPMax%=22",
+      "Attack%=22",
+      "Defence%=22"
+    ]
+  },
+  {
+    "id": 16,
+    "stage": 1,
+    "star": 5,
+    "itemCost": 29,
+    "levelCost": 400,
+    "attribute": [
+      "HPMax%=24",
+      "Attack%=24",
+      "Defence%=24"
+    ]
+  },
+  {
+    "id": 17,
+    "stage": 1,
+    "star": 6,
+    "itemCost": 29,
+    "levelCost": 500,
+    "attribute": [
+      "HPMax%=26",
+      "Attack%=26",
+      "Defence%=26"
+    ]
+  },
+  {
+    "id": 18,
+    "stage": 1,
+    "star": 7,
+    "itemCost": 29,
+    "levelCost": 600,
+    "attribute": [
+      "HPMax%=28",
+      "Attack%=28",
+      "Defence%=28"
+    ]
+  },
+  {
+    "id": 19,
+    "stage": 1,
+    "star": 8,
+    "itemCost": 29,
+    "levelCost": 800,
+    "attribute": [
+      "HPMax%=30",
+      "Attack%=30",
+      "Defence%=30"
+    ]
+  },
+  {
+    "id": 20,
+    "stage": 1,
+    "star": 9,
+    "itemCost": 29,
+    "levelCost": 1000,
+    "attribute": [
+      "HPMax%=32",
+      "Attack%=32",
+      "Defence%=32"
+    ]
+  },
+  {
+    "id": 21,
+    "stage": 1,
+    "star": 10,
+    "itemCost": 29,
+    "levelCost": 50,
+    "attribute": [
+      "HPMax%=42",
+      "Attack%=42",
+      "Defence%=42"
+    ]
+  },
+  {
+    "id": 22,
+    "stage": 2,
+    "star": 1,
+    "itemCost": 29,
+    "levelCost": 100,
+    "attribute": [
+      "HPMax%=45",
+      "Attack%=45",
+      "Defence%=45"
+    ]
+  },
+  {
+    "id": 23,
+    "stage": 2,
+    "star": 2,
+    "itemCost": 29,
+    "levelCost": 300,
+    "attribute": [
+      "HPMax%=48",
+      "Attack%=48",
+      "Defence%=48"
+    ]
+  },
+  {
+    "id": 24,
+    "stage": 2,
+    "star": 3,
+    "itemCost": 29,
+    "levelCost": 500,
+    "attribute": [
+      "HPMax%=51",
+      "Attack%=51",
+      "Defence%=51"
+    ]
+  },
+  {
+    "id": 25,
+    "stage": 2,
+    "star": 4,
+    "itemCost": 29,
+    "levelCost": 1000,
+    "attribute": [
+      "HPMax%=54",
+      "Attack%=54",
+      "Defence%=54"
+    ]
+  },
+  {
+    "id": 26,
+    "stage": 2,
+    "star": 5,
+    "itemCost": 29,
+    "levelCost": 1500,
+    "attribute": [
+      "HPMax%=57",
+      "Attack%=57",
+      "Defence%=57"
+    ]
+  },
+  {
+    "id": 27,
+    "stage": 2,
+    "star": 6,
+    "itemCost": 29,
+    "levelCost": 2000,
+    "attribute": [
+      "HPMax%=60",
+      "Attack%=60",
+      "Defence%=60"
+    ]
+  },
+  {
+    "id": 28,
+    "stage": 2,
+    "star": 7,
+    "itemCost": 29,
+    "levelCost": 2500,
+    "attribute": [
+      "HPMax%=63",
+      "Attack%=63",
+      "Defence%=63"
+    ]
+  },
+  {
+    "id": 29,
+    "stage": 2,
+    "star": 8,
+    "itemCost": 29,
+    "levelCost": 3000,
+    "attribute": [
+      "HPMax%=66",
+      "Attack%=66",
+      "Defence%=66"
+    ]
+  },
+  {
+    "id": 30,
+    "stage": 2,
+    "star": 9,
+    "itemCost": 29,
+    "levelCost": 5000,
+    "attribute": [
+      "HPMax%=69",
+      "Attack%=69",
+      "Defence%=69"
+    ]
+  },
+  {
+    "id": 31,
+    "stage": 2,
+    "star": 10,
+    "itemCost": 29,
+    "levelCost": 100,
+    "attribute": [
+      "HPMax%=84",
+      "Attack%=84",
+      "Defence%=84"
+    ]
+  },
+  {
+    "id": 32,
+    "stage": 3,
+    "star": 1,
+    "itemCost": 29,
+    "levelCost": 300,
+    "attribute": [
+      "HPMax%=88",
+      "Attack%=88",
+      "Defence%=88"
+    ]
+  },
+  {
+    "id": 33,
+    "stage": 3,
+    "star": 2,
+    "itemCost": 29,
+    "levelCost": 500,
+    "attribute": [
+      "HPMax%=92",
+      "Attack%=92",
+      "Defence%=92"
+    ]
+  },
+  {
+    "id": 34,
+    "stage": 3,
+    "star": 3,
+    "itemCost": 29,
+    "levelCost": 1000,
+    "attribute": [
+      "HPMax%=96",
+      "Attack%=96",
+      "Defence%=96"
+    ]
+  },
+  {
+    "id": 35,
+    "stage": 3,
+    "star": 4,
+    "itemCost": 29,
+    "levelCost": 1500,
+    "attribute": [
+      "HPMax%=100",
+      "Attack%=100",
+      "Defence%=100"
+    ]
+  },
+  {
+    "id": 36,
+    "stage": 3,
+    "star": 5,
+    "itemCost": 29,
+    "levelCost": 2000,
+    "attribute": [
+      "HPMax%=104",
+      "Attack%=104",
+      "Defence%=104"
+    ]
+  },
+  {
+    "id": 37,
+    "stage": 3,
+    "star": 6,
+    "itemCost": 29,
+    "levelCost": 3000,
+    "attribute": [
+      "HPMax%=108",
+      "Attack%=108",
+      "Defence%=108"
+    ]
+  },
+  {
+    "id": 38,
+    "stage": 3,
+    "star": 7,
+    "itemCost": 29,
+    "levelCost": 4000,
+    "attribute": [
+      "HPMax%=112",
+      "Attack%=112",
+      "Defence%=112"
+    ]
+  },
+  {
+    "id": 39,
+    "stage": 3,
+    "star": 8,
+    "itemCost": 29,
+    "levelCost": 5000,
+    "attribute": [
+      "HPMax%=116",
+      "Attack%=116",
+      "Defence%=116"
+    ]
+  },
+  {
+    "id": 40,
+    "stage": 3,
+    "star": 9,
+    "itemCost": 29,
+    "levelCost": 6000,
+    "attribute": [
+      "HPMax%=120",
+      "Attack%=120",
+      "Defence%=120"
+    ]
+  },
+  {
+    "id": 41,
+    "stage": 3,
+    "star": 10,
+    "itemCost": 29,
+    "levelCost": 200,
+    "attribute": [
+      "HPMax%=140",
+      "Attack%=140",
+      "Defence%=140"
+    ]
+  },
+  {
+    "id": 42,
+    "stage": 4,
+    "star": 1,
+    "itemCost": 29,
+    "levelCost": 400,
+    "attribute": [
+      "HPMax%=145",
+      "Attack%=145",
+      "Defence%=145"
+    ]
+  },
+  {
+    "id": 43,
+    "stage": 4,
+    "star": 2,
+    "itemCost": 29,
+    "levelCost": 800,
+    "attribute": [
+      "HPMax%=150",
+      "Attack%=150",
+      "Defence%=150"
+    ]
+  },
+  {
+    "id": 44,
+    "stage": 4,
+    "star": 3,
+    "itemCost": 29,
+    "levelCost": 1200,
+    "attribute": [
+      "HPMax%=155",
+      "Attack%=155",
+      "Defence%=155"
+    ]
+  },
+  {
+    "id": 45,
+    "stage": 4,
+    "star": 4,
+    "itemCost": 29,
+    "levelCost": 2000,
+    "attribute": [
+      "HPMax%=160",
+      "Attack%=160",
+      "Defence%=160"
+    ]
+  },
+  {
+    "id": 46,
+    "stage": 4,
+    "star": 5,
+    "itemCost": 29,
+    "levelCost": 3000,
+    "attribute": [
+      "HPMax%=165",
+      "Attack%=165",
+      "Defence%=165"
+    ]
+  },
+  {
+    "id": 47,
+    "stage": 4,
+    "star": 6,
+    "itemCost": 29,
+    "levelCost": 4000,
+    "attribute": [
+      "HPMax%=170",
+      "Attack%=170",
+      "Defence%=170"
+    ]
+  },
+  {
+    "id": 48,
+    "stage": 4,
+    "star": 7,
+    "itemCost": 29,
+    "levelCost": 5000,
+    "attribute": [
+      "HPMax%=175",
+      "Attack%=175",
+      "Defence%=175"
+    ]
+  },
+  {
+    "id": 49,
+    "stage": 4,
+    "star": 8,
+    "itemCost": 29,
+    "levelCost": 6000,
+    "attribute": [
+      "HPMax%=180",
+      "Attack%=180",
+      "Defence%=180"
+    ]
+  },
+  {
+    "id": 50,
+    "stage": 4,
+    "star": 9,
+    "itemCost": 29,
+    "levelCost": 8000,
+    "attribute": [
+      "HPMax%=185",
+      "Attack%=185",
+      "Defence%=185"
+    ]
+  },
+  {
+    "id": 51,
+    "stage": 4,
+    "star": 10,
+    "itemCost": 29,
+    "levelCost": 300,
+    "attribute": [
+      "HPMax%=210",
+      "Attack%=210",
+      "Defence%=210"
+    ]
+  },
+  {
+    "id": 52,
+    "stage": 5,
+    "star": 1,
+    "itemCost": 29,
+    "levelCost": 500,
+    "attribute": [
+      "HPMax%=216",
+      "Attack%=216",
+      "Defence%=216"
+    ]
+  },
+  {
+    "id": 53,
+    "stage": 5,
+    "star": 2,
+    "itemCost": 29,
+    "levelCost": 1000,
+    "attribute": [
+      "HPMax%=222",
+      "Attack%=222",
+      "Defence%=222"
+    ]
+  },
+  {
+    "id": 54,
+    "stage": 5,
+    "star": 3,
+    "itemCost": 29,
+    "levelCost": 2000,
+    "attribute": [
+      "HPMax%=228",
+      "Attack%=228",
+      "Defence%=228"
+    ]
+  },
+  {
+    "id": 55,
+    "stage": 5,
+    "star": 4,
+    "itemCost": 29,
+    "levelCost": 3000,
+    "attribute": [
+      "HPMax%=234",
+      "Attack%=234",
+      "Defence%=234"
+    ]
+  },
+  {
+    "id": 56,
+    "stage": 5,
+    "star": 5,
+    "itemCost": 29,
+    "levelCost": 4000,
+    "attribute": [
+      "HPMax%=240",
+      "Attack%=240",
+      "Defence%=240"
+    ]
+  },
+  {
+    "id": 57,
+    "stage": 5,
+    "star": 6,
+    "itemCost": 29,
+    "levelCost": 5000,
+    "attribute": [
+      "HPMax%=246",
+      "Attack%=246",
+      "Defence%=246"
+    ]
+  },
+  {
+    "id": 58,
+    "stage": 5,
+    "star": 7,
+    "itemCost": 29,
+    "levelCost": 6000,
+    "attribute": [
+      "HPMax%=252",
+      "Attack%=252",
+      "Defence%=252"
+    ]
+  },
+  {
+    "id": 59,
+    "stage": 5,
+    "star": 8,
+    "itemCost": 29,
+    "levelCost": 7000,
+    "attribute": [
+      "HPMax%=258",
+      "Attack%=258",
+      "Defence%=258"
+    ]
+  },
+  {
+    "id": 60,
+    "stage": 5,
+    "star": 9,
+    "itemCost": 29,
+    "levelCost": 8000,
+    "attribute": [
+      "HPMax%=264",
+      "Attack%=264",
+      "Defence%=264"
+    ]
+  },
+  {
+    "id": 61,
+    "stage": 5,
+    "star": 10,
+    "itemCost": 29,
+    "levelCost": 1200,
+    "attribute": [
+      "HPMax%=294",
+      "Attack%=294",
+      "Defence%=294"
+    ]
+  },
+  {
+    "id": 62,
+    "stage": 6,
+    "star": 1,
+    "itemCost": 29,
+    "levelCost": 1600,
+    "attribute": [
+      "HPMax%=301",
+      "Attack%=301",
+      "Defence%=301"
+    ]
+  },
+  {
+    "id": 63,
+    "stage": 6,
+    "star": 2,
+    "itemCost": 29,
+    "levelCost": 2000,
+    "attribute": [
+      "HPMax%=308",
+      "Attack%=308",
+      "Defence%=308"
+    ]
+  },
+  {
+    "id": 64,
+    "stage": 6,
+    "star": 3,
+    "itemCost": 29,
+    "levelCost": 2500,
+    "attribute": [
+      "HPMax%=315",
+      "Attack%=315",
+      "Defence%=315"
+    ]
+  },
+  {
+    "id": 65,
+    "stage": 6,
+    "star": 4,
+    "itemCost": 29,
+    "levelCost": 3200,
+    "attribute": [
+      "HPMax%=322",
+      "Attack%=322",
+      "Defence%=322"
+    ]
+  },
+  {
+    "id": 66,
+    "stage": 6,
+    "star": 5,
+    "itemCost": 29,
+    "levelCost": 4000,
+    "attribute": [
+      "HPMax%=329",
+      "Attack%=329",
+      "Defence%=329"
+    ]
+  },
+  {
+    "id": 67,
+    "stage": 6,
+    "star": 6,
+    "itemCost": 29,
+    "levelCost": 5000,
+    "attribute": [
+      "HPMax%=336",
+      "Attack%=336",
+      "Defence%=336"
+    ]
+  },
+  {
+    "id": 68,
+    "stage": 6,
+    "star": 7,
+    "itemCost": 29,
+    "levelCost": 6000,
+    "attribute": [
+      "HPMax%=343",
+      "Attack%=343",
+      "Defence%=343"
+    ]
+  },
+  {
+    "id": 69,
+    "stage": 6,
+    "star": 8,
+    "itemCost": 29,
+    "levelCost": 8000,
+    "attribute": [
+      "HPMax%=350",
+      "Attack%=350",
+      "Defence%=350"
+    ]
+  },
+  {
+    "id": 70,
+    "stage": 6,
+    "star": 9,
+    "itemCost": 29,
+    "levelCost": 10000,
+    "attribute": [
+      "HPMax%=357",
+      "Attack%=357",
+      "Defence%=357"
+    ]
+  },
+  {
+    "id": 71,
+    "stage": 6,
+    "star": 10,
+    "itemCost": 29,
+    "levelCost": 1800,
+    "attribute": [
+      "HPMax%=392",
+      "Attack%=392",
+      "Defence%=392"
+    ]
+  },
+  {
+    "id": 72,
+    "stage": 7,
+    "star": 1,
+    "itemCost": 29,
+    "levelCost": 2800,
+    "attribute": [
+      "HPMax%=400",
+      "Attack%=400",
+      "Defence%=400"
+    ]
+  },
+  {
+    "id": 73,
+    "stage": 7,
+    "star": 2,
+    "itemCost": 29,
+    "levelCost": 4000,
+    "attribute": [
+      "HPMax%=408",
+      "Attack%=408",
+      "Defence%=408"
+    ]
+  },
+  {
+    "id": 74,
+    "stage": 7,
+    "star": 3,
+    "itemCost": 29,
+    "levelCost": 5300,
+    "attribute": [
+      "HPMax%=416",
+      "Attack%=416",
+      "Defence%=416"
+    ]
+  },
+  {
+    "id": 75,
+    "stage": 7,
+    "star": 4,
+    "itemCost": 29,
+    "levelCost": 7600,
+    "attribute": [
+      "HPMax%=424",
+      "Attack%=424",
+      "Defence%=424"
+    ]
+  },
+  {
+    "id": 76,
+    "stage": 7,
+    "star": 5,
+    "itemCost": 29,
+    "levelCost": 9000,
+    "attribute": [
+      "HPMax%=432",
+      "Attack%=432",
+      "Defence%=432"
+    ]
+  },
+  {
+    "id": 77,
+    "stage": 7,
+    "star": 6,
+    "itemCost": 29,
+    "levelCost": 10500,
+    "attribute": [
+      "HPMax%=440",
+      "Attack%=440",
+      "Defence%=440"
+    ]
+  },
+  {
+    "id": 78,
+    "stage": 7,
+    "star": 7,
+    "itemCost": 29,
+    "levelCost": 12000,
+    "attribute": [
+      "HPMax%=448",
+      "Attack%=448",
+      "Defence%=448"
+    ]
+  },
+  {
+    "id": 79,
+    "stage": 7,
+    "star": 8,
+    "itemCost": 29,
+    "levelCost": 13500,
+    "attribute": [
+      "HPMax%=456",
+      "Attack%=456",
+      "Defence%=456"
+    ]
+  },
+  {
+    "id": 80,
+    "stage": 7,
+    "star": 9,
+    "itemCost": 29,
+    "levelCost": 15000,
+    "attribute": [
+      "HPMax%=464",
+      "Attack%=464",
+      "Defence%=464"
+    ]
+  },
+  {
+    "id": 81,
+    "stage": 7,
+    "star": 10,
+    "itemCost": 29,
+    "levelCost": 4500,
+    "attribute": [
+      "HPMax%=504",
+      "Attack%=504",
+      "Defence%=504"
+    ]
+  },
+  {
+    "id": 82,
+    "stage": 8,
+    "star": 1,
+    "itemCost": 29,
+    "levelCost": 5500,
+    "attribute": [
+      "HPMax%=513",
+      "Attack%=513",
+      "Defence%=513"
+    ]
+  },
+  {
+    "id": 83,
+    "stage": 8,
+    "star": 2,
+    "itemCost": 29,
+    "levelCost": 7000,
+    "attribute": [
+      "HPMax%=522",
+      "Attack%=522",
+      "Defence%=522"
+    ]
+  },
+  {
+    "id": 84,
+    "stage": 8,
+    "star": 3,
+    "itemCost": 29,
+    "levelCost": 8500,
+    "attribute": [
+      "HPMax%=531",
+      "Attack%=531",
+      "Defence%=531"
+    ]
+  },
+  {
+    "id": 85,
+    "stage": 8,
+    "star": 4,
+    "itemCost": 29,
+    "levelCost": 10000,
+    "attribute": [
+      "HPMax%=540",
+      "Attack%=540",
+      "Defence%=540"
+    ]
+  },
+  {
+    "id": 86,
+    "stage": 8,
+    "star": 5,
+    "itemCost": 29,
+    "levelCost": 11700,
+    "attribute": [
+      "HPMax%=549",
+      "Attack%=549",
+      "Defence%=549"
+    ]
+  },
+  {
+    "id": 87,
+    "stage": 8,
+    "star": 6,
+    "itemCost": 29,
+    "levelCost": 13500,
+    "attribute": [
+      "HPMax%=558",
+      "Attack%=558",
+      "Defence%=558"
+    ]
+  },
+  {
+    "id": 88,
+    "stage": 8,
+    "star": 7,
+    "itemCost": 29,
+    "levelCost": 15500,
+    "attribute": [
+      "HPMax%=567",
+      "Attack%=567",
+      "Defence%=567"
+    ]
+  },
+  {
+    "id": 89,
+    "stage": 8,
+    "star": 8,
+    "itemCost": 29,
+    "levelCost": 17500,
+    "attribute": [
+      "HPMax%=576",
+      "Attack%=576",
+      "Defence%=576"
+    ]
+  },
+  {
+    "id": 90,
+    "stage": 8,
+    "star": 9,
+    "itemCost": 29,
+    "levelCost": 20000,
+    "attribute": [
+      "HPMax%=585",
+      "Attack%=585",
+      "Defence%=585"
+    ]
+  },
+  {
+    "id": 91,
+    "stage": 8,
+    "star": 10,
+    "itemCost": 29,
+    "levelCost": 6000,
+    "attribute": [
+      "HPMax%=630",
+      "Attack%=630",
+      "Defence%=630"
+    ]
+  },
+  {
+    "id": 92,
+    "stage": 9,
+    "star": 1,
+    "itemCost": 29,
+    "levelCost": 8000,
+    "attribute": [
+      "HPMax%=640",
+      "Attack%=640",
+      "Defence%=640"
+    ]
+  },
+  {
+    "id": 93,
+    "stage": 9,
+    "star": 2,
+    "itemCost": 29,
+    "levelCost": 10000,
+    "attribute": [
+      "HPMax%=650",
+      "Attack%=650",
+      "Defence%=650"
+    ]
+  },
+  {
+    "id": 94,
+    "stage": 9,
+    "star": 3,
+    "itemCost": 29,
+    "levelCost": 12000,
+    "attribute": [
+      "HPMax%=660",
+      "Attack%=660",
+      "Defence%=660"
+    ]
+  },
+  {
+    "id": 95,
+    "stage": 9,
+    "star": 4,
+    "itemCost": 29,
+    "levelCost": 14000,
+    "attribute": [
+      "HPMax%=670",
+      "Attack%=670",
+      "Defence%=670"
+    ]
+  },
+  {
+    "id": 96,
+    "stage": 9,
+    "star": 5,
+    "itemCost": 29,
+    "levelCost": 16000,
+    "attribute": [
+      "HPMax%=680",
+      "Attack%=680",
+      "Defence%=680"
+    ]
+  },
+  {
+    "id": 97,
+    "stage": 9,
+    "star": 6,
+    "itemCost": 29,
+    "levelCost": 18000,
+    "attribute": [
+      "HPMax%=690",
+      "Attack%=690",
+      "Defence%=690"
+    ]
+  },
+  {
+    "id": 98,
+    "stage": 9,
+    "star": 7,
+    "itemCost": 29,
+    "levelCost": 21000,
+    "attribute": [
+      "HPMax%=700",
+      "Attack%=700",
+      "Defence%=700"
+    ]
+  },
+  {
+    "id": 99,
+    "stage": 9,
+    "star": 8,
+    "itemCost": 29,
+    "levelCost": 25000,
+    "attribute": [
+      "HPMax%=710",
+      "Attack%=710",
+      "Defence%=710"
+    ]
+  },
+  {
+    "id": 100,
+    "stage": 9,
+    "star": 9,
+    "itemCost": 29,
+    "levelCost": 8000,
+    "attribute": [
+      "HPMax%=720",
+      "Attack%=720",
+      "Defence%=720"
+    ]
+  },
+  {
+    "id": 101,
+    "stage": 9,
+    "star": 10,
+    "itemCost": 29,
+    "levelCost": 12000,
+    "attribute": [
+      "HPMax%=770",
+      "Attack%=770",
+      "Defence%=770"
+    ]
+  },
+  {
+    "id": 102,
+    "stage": 10,
+    "star": 1,
+    "itemCost": 29,
+    "levelCost": 16000,
+    "attribute": [
+      "HPMax%=781",
+      "Attack%=781",
+      "Defence%=781"
+    ]
+  },
+  {
+    "id": 103,
+    "stage": 10,
+    "star": 2,
+    "itemCost": 29,
+    "levelCost": 20000,
+    "attribute": [
+      "HPMax%=792",
+      "Attack%=792",
+      "Defence%=792"
+    ]
+  },
+  {
+    "id": 104,
+    "stage": 10,
+    "star": 3,
+    "itemCost": 29,
+    "levelCost": 25000,
+    "attribute": [
+      "HPMax%=803",
+      "Attack%=803",
+      "Defence%=803"
+    ]
+  },
+  {
+    "id": 105,
+    "stage": 10,
+    "star": 4,
+    "itemCost": 29,
+    "levelCost": 30000,
+    "attribute": [
+      "HPMax%=814",
+      "Attack%=814",
+      "Defence%=814"
+    ]
+  },
+  {
+    "id": 106,
+    "stage": 10,
+    "star": 5,
+    "itemCost": 29,
+    "levelCost": 40000,
+    "attribute": [
+      "HPMax%=825",
+      "Attack%=825",
+      "Defence%=825"
+    ]
+  },
+  {
+    "id": 107,
+    "stage": 10,
+    "star": 6,
+    "itemCost": 29,
+    "levelCost": 50000,
+    "attribute": [
+      "HPMax%=836",
+      "Attack%=836",
+      "Defence%=836"
+    ]
+  },
+  {
+    "id": 108,
+    "stage": 10,
+    "star": 7,
+    "itemCost": 29,
+    "levelCost": 60000,
+    "attribute": [
+      "HPMax%=847",
+      "Attack%=847",
+      "Defence%=847"
+    ]
+  },
+  {
+    "id": 109,
+    "stage": 10,
+    "star": 8,
+    "itemCost": 29,
+    "levelCost": 70000,
+    "attribute": [
+      "HPMax%=858",
+      "Attack%=858",
+      "Defence%=858"
+    ]
+  },
+  {
+    "id": 110,
+    "stage": 10,
+    "star": 9,
+    "itemCost": 29,
+    "levelCost": 10000,
+    "attribute": [
+      "HPMax%=869",
+      "Attack%=869",
+      "Defence%=869"
+    ]
+  },
+  {
+    "id": 111,
+    "stage": 10,
+    "star": 10,
+    "itemCost": 29,
+    "levelCost": 14000,
+    "attribute": [
+      "HPMax%=924",
+      "Attack%=924",
+      "Defence%=924"
+    ]
+  },
+  {
+    "id": 112,
+    "stage": 11,
+    "star": 1,
+    "itemCost": 29,
+    "levelCost": 19000,
+    "attribute": [
+      "HPMax%=936",
+      "Attack%=936",
+      "Defence%=936"
+    ]
+  },
+  {
+    "id": 113,
+    "stage": 11,
+    "star": 2,
+    "itemCost": 29,
+    "levelCost": 25000,
+    "attribute": [
+      "HPMax%=948",
+      "Attack%=948",
+      "Defence%=948"
+    ]
+  },
+  {
+    "id": 114,
+    "stage": 11,
+    "star": 3,
+    "itemCost": 29,
+    "levelCost": 32000,
+    "attribute": [
+      "HPMax%=960",
+      "Attack%=960",
+      "Defence%=960"
+    ]
+  },
+  {
+    "id": 115,
+    "stage": 11,
+    "star": 4,
+    "itemCost": 29,
+    "levelCost": 40000,
+    "attribute": [
+      "HPMax%=972",
+      "Attack%=972",
+      "Defence%=972"
+    ]
+  },
+  {
+    "id": 116,
+    "stage": 11,
+    "star": 5,
+    "itemCost": 29,
+    "levelCost": 50000,
+    "attribute": [
+      "HPMax%=984",
+      "Attack%=984",
+      "Defence%=984"
+    ]
+  },
+  {
+    "id": 117,
+    "stage": 11,
+    "star": 6,
+    "itemCost": 29,
+    "levelCost": 60000,
+    "attribute": [
+      "HPMax%=996",
+      "Attack%=996",
+      "Defence%=996"
+    ]
+  },
+  {
+    "id": 118,
+    "stage": 11,
+    "star": 7,
+    "itemCost": 29,
+    "levelCost": 70000,
+    "attribute": [
+      "HPMax%=1008",
+      "Attack%=1008",
+      "Defence%=1008"
+    ]
+  },
+  {
+    "id": 119,
+    "stage": 11,
+    "star": 8,
+    "itemCost": 29,
+    "levelCost": 80000,
+    "attribute": [
+      "HPMax%=1020",
+      "Attack%=1020",
+      "Defence%=1020"
+    ]
+  },
+  {
+    "id": 120,
+    "stage": 11,
+    "star": 9,
+    "itemCost": 29,
+    "levelCost": 15000,
+    "attribute": [
+      "HPMax%=1032",
+      "Attack%=1032",
+      "Defence%=1032"
+    ]
+  },
+  {
+    "id": 121,
+    "stage": 11,
+    "star": 10,
+    "itemCost": 29,
+    "levelCost": 19000,
+    "attribute": [
+      "HPMax%=1092",
+      "Attack%=1092",
+      "Defence%=1092"
+    ]
+  },
+  {
+    "id": 122,
+    "stage": 12,
+    "star": 1,
+    "itemCost": 29,
+    "levelCost": 25000,
+    "attribute": [
+      "HPMax%=1105",
+      "Attack%=1105",
+      "Defence%=1105"
+    ]
+  },
+  {
+    "id": 123,
+    "stage": 12,
+    "star": 2,
+    "itemCost": 29,
+    "levelCost": 32000,
+    "attribute": [
+      "HPMax%=1118",
+      "Attack%=1118",
+      "Defence%=1118"
+    ]
+  },
+  {
+    "id": 124,
+    "stage": 12,
+    "star": 3,
+    "itemCost": 29,
+    "levelCost": 40000,
+    "attribute": [
+      "HPMax%=1131",
+      "Attack%=1131",
+      "Defence%=1131"
+    ]
+  },
+  {
+    "id": 125,
+    "stage": 12,
+    "star": 4,
+    "itemCost": 29,
+    "levelCost": 50000,
+    "attribute": [
+      "HPMax%=1144",
+      "Attack%=1144",
+      "Defence%=1144"
+    ]
+  },
+  {
+    "id": 126,
+    "stage": 12,
+    "star": 5,
+    "itemCost": 29,
+    "levelCost": 60000,
+    "attribute": [
+      "HPMax%=1157",
+      "Attack%=1157",
+      "Defence%=1157"
+    ]
+  },
+  {
+    "id": 127,
+    "stage": 12,
+    "star": 6,
+    "itemCost": 29,
+    "levelCost": 70000,
+    "attribute": [
+      "HPMax%=1170",
+      "Attack%=1170",
+      "Defence%=1170"
+    ]
+  },
+  {
+    "id": 128,
+    "stage": 12,
+    "star": 7,
+    "itemCost": 29,
+    "levelCost": 80000,
+    "attribute": [
+      "HPMax%=1183",
+      "Attack%=1183",
+      "Defence%=1183"
+    ]
+  },
+  {
+    "id": 129,
+    "stage": 12,
+    "star": 8,
+    "itemCost": 29,
+    "levelCost": 90000,
+    "attribute": [
+      "HPMax%=1196",
+      "Attack%=1196",
+      "Defence%=1196"
+    ]
+  },
+  {
+    "id": 130,
+    "stage": 12,
+    "star": 9,
+    "itemCost": 29,
+    "levelCost": 20000,
+    "attribute": [
+      "HPMax%=1209",
+      "Attack%=1209",
+      "Defence%=1209"
+    ]
+  },
+  {
+    "id": 131,
+    "stage": 12,
+    "star": 10,
+    "itemCost": 29,
+    "levelCost": 25000,
+    "attribute": [
+      "HPMax%=1274",
+      "Attack%=1274",
+      "Defence%=1274"
+    ]
+  },
+  {
+    "id": 132,
+    "stage": 13,
+    "star": 1,
+    "itemCost": 29,
+    "levelCost": 30000,
+    "attribute": [
+      "HPMax%=1288",
+      "Attack%=1288",
+      "Defence%=1288"
+    ]
+  },
+  {
+    "id": 133,
+    "stage": 13,
+    "star": 2,
+    "itemCost": 29,
+    "levelCost": 40000,
+    "attribute": [
+      "HPMax%=1302",
+      "Attack%=1302",
+      "Defence%=1302"
+    ]
+  },
+  {
+    "id": 134,
+    "stage": 13,
+    "star": 3,
+    "itemCost": 29,
+    "levelCost": 50000,
+    "attribute": [
+      "HPMax%=1316",
+      "Attack%=1316",
+      "Defence%=1316"
+    ]
+  },
+  {
+    "id": 135,
+    "stage": 13,
+    "star": 4,
+    "itemCost": 29,
+    "levelCost": 60000,
+    "attribute": [
+      "HPMax%=1330",
+      "Attack%=1330",
+      "Defence%=1330"
+    ]
+  },
+  {
+    "id": 136,
+    "stage": 13,
+    "star": 5,
+    "itemCost": 29,
+    "levelCost": 70000,
+    "attribute": [
+      "HPMax%=1344",
+      "Attack%=1344",
+      "Defence%=1344"
+    ]
+  },
+  {
+    "id": 137,
+    "stage": 13,
+    "star": 6,
+    "itemCost": 29,
+    "levelCost": 80000,
+    "attribute": [
+      "HPMax%=1358",
+      "Attack%=1358",
+      "Defence%=1358"
+    ]
+  },
+  {
+    "id": 138,
+    "stage": 13,
+    "star": 7,
+    "itemCost": 29,
+    "levelCost": 90000,
+    "attribute": [
+      "HPMax%=1372",
+      "Attack%=1372",
+      "Defence%=1372"
+    ]
+  },
+  {
+    "id": 139,
+    "stage": 13,
+    "star": 8,
+    "itemCost": 29,
+    "levelCost": 100000,
+    "attribute": [
+      "HPMax%=1386",
+      "Attack%=1386",
+      "Defence%=1386"
+    ]
+  },
+  {
+    "id": 140,
+    "stage": 13,
+    "star": 9,
+    "itemCost": 29,
+    "levelCost": 24000,
+    "attribute": [
+      "HPMax%=1400",
+      "Attack%=1400",
+      "Defence%=1400"
+    ]
+  },
+  {
+    "id": 141,
+    "stage": 13,
+    "star": 10,
+    "itemCost": 29,
+    "levelCost": 30000,
+    "attribute": [
+      "HPMax%=1470",
+      "Attack%=1470",
+      "Defence%=1470"
+    ]
+  },
+  {
+    "id": 142,
+    "stage": 14,
+    "star": 1,
+    "itemCost": 29,
+    "levelCost": 40000,
+    "attribute": [
+      "HPMax%=1485",
+      "Attack%=1485",
+      "Defence%=1485"
+    ]
+  },
+  {
+    "id": 143,
+    "stage": 14,
+    "star": 2,
+    "itemCost": 29,
+    "levelCost": 50000,
+    "attribute": [
+      "HPMax%=1500",
+      "Attack%=1500",
+      "Defence%=1500"
+    ]
+  },
+  {
+    "id": 144,
+    "stage": 14,
+    "star": 3,
+    "itemCost": 29,
+    "levelCost": 60000,
+    "attribute": [
+      "HPMax%=1515",
+      "Attack%=1515",
+      "Defence%=1515"
+    ]
+  },
+  {
+    "id": 145,
+    "stage": 14,
+    "star": 4,
+    "itemCost": 29,
+    "levelCost": 70000,
+    "attribute": [
+      "HPMax%=1530",
+      "Attack%=1530",
+      "Defence%=1530"
+    ]
+  },
+  {
+    "id": 146,
+    "stage": 14,
+    "star": 5,
+    "itemCost": 29,
+    "levelCost": 80000,
+    "attribute": [
+      "HPMax%=1545",
+      "Attack%=1545",
+      "Defence%=1545"
+    ]
+  },
+  {
+    "id": 147,
+    "stage": 14,
+    "star": 6,
+    "itemCost": 29,
+    "levelCost": 90000,
+    "attribute": [
+      "HPMax%=1560",
+      "Attack%=1560",
+      "Defence%=1560"
+    ]
+  },
+  {
+    "id": 148,
+    "stage": 14,
+    "star": 7,
+    "itemCost": 29,
+    "levelCost": 100000,
+    "attribute": [
+      "HPMax%=1575",
+      "Attack%=1575",
+      "Defence%=1575"
+    ]
+  },
+  {
+    "id": 149,
+    "stage": 14,
+    "star": 8,
+    "itemCost": 29,
+    "levelCost": 120000,
+    "attribute": [
+      "HPMax%=1590",
+      "Attack%=1590",
+      "Defence%=1590"
+    ]
+  },
+  {
+    "id": 150,
+    "stage": 14,
+    "star": 9,
+    "itemCost": 29,
+    "levelCost": 30000,
+    "attribute": [
+      "HPMax%=1605",
+      "Attack%=1605",
+      "Defence%=1605"
+    ]
+  },
+  {
+    "id": 151,
+    "stage": 14,
+    "star": 10,
+    "itemCost": 29,
+    "levelCost": 40000,
+    "attribute": [
+      "HPMax%=1680",
+      "Attack%=1680",
+      "Defence%=1680"
+    ]
+  },
+  {
+    "id": 152,
+    "stage": 15,
+    "star": 1,
+    "itemCost": 29,
+    "levelCost": 50000,
+    "attribute": [
+      "HPMax%=1695",
+      "Attack%=1695",
+      "Defence%=1695"
+    ]
+  },
+  {
+    "id": 153,
+    "stage": 15,
+    "star": 2,
+    "itemCost": 29,
+    "levelCost": 60000,
+    "attribute": [
+      "HPMax%=1710",
+      "Attack%=1710",
+      "Defence%=1710"
+    ]
+  },
+  {
+    "id": 154,
+    "stage": 15,
+    "star": 3,
+    "itemCost": 29,
+    "levelCost": 70000,
+    "attribute": [
+      "HPMax%=1725",
+      "Attack%=1725",
+      "Defence%=1725"
+    ]
+  },
+  {
+    "id": 155,
+    "stage": 15,
+    "star": 4,
+    "itemCost": 29,
+    "levelCost": 80000,
+    "attribute": [
+      "HPMax%=1740",
+      "Attack%=1740",
+      "Defence%=1740"
+    ]
+  },
+  {
+    "id": 156,
+    "stage": 15,
+    "star": 5,
+    "itemCost": 29,
+    "levelCost": 90000,
+    "attribute": [
+      "HPMax%=1755",
+      "Attack%=1755",
+      "Defence%=1755"
+    ]
+  },
+  {
+    "id": 157,
+    "stage": 15,
+    "star": 6,
+    "itemCost": 29,
+    "levelCost": 100000,
+    "attribute": [
+      "HPMax%=1770",
+      "Attack%=1770",
+      "Defence%=1770"
+    ]
+  },
+  {
+    "id": 158,
+    "stage": 15,
+    "star": 7,
+    "itemCost": 29,
+    "levelCost": 120000,
+    "attribute": [
+      "HPMax%=1785",
+      "Attack%=1785",
+      "Defence%=1785"
+    ]
+  },
+  {
+    "id": 159,
+    "stage": 15,
+    "star": 8,
+    "itemCost": 29,
+    "levelCost": 150000,
+    "attribute": [
+      "HPMax%=1800",
+      "Attack%=1800",
+      "Defence%=1800"
+    ]
+  },
+  {
+    "id": 160,
+    "stage": 15,
+    "star": 9,
+    "itemCost": 29,
+    "levelCost": 180000,
+    "attribute": [
+      "HPMax%=1815",
+      "Attack%=1815",
+      "Defence%=1815"
+    ]
+  },
+  {
+    "id": 161,
+    "stage": 15,
+    "star": 10,
+    "itemCost": 29,
+    "levelCost": 0,
+    "attribute": [
+      "HPMax%=1890",
+      "Attack%=1890",
+      "Defence%=1890"
+    ]
+  }
+]

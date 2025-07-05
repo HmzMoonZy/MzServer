@@ -1,0 +1,4676 @@
+[
+  {
+    "id": 10100,
+    "AwakeLevel": 0,
+    "AwakeCost": [],
+    "hpFactor": 3500,
+    "SkillLevel": 1,
+    "initSkill": [
+      530151
+    ],
+    "initSkillSimple": "Skill_simpleDetail_530151",
+    "UpDescribe": "Skill_upDetail_530151",
+    "attribute": [
+      "Speed=0"
+    ],
+    "power": [
+      0,
+      0
+    ],
+    "activePower": [
+      0,
+      50
+    ]
+  },
+  {
+    "id": 10101,
+    "AwakeLevel": 1,
+    "AwakeCost": [
+      "380501,30"
+    ],
+    "hpFactor": 3900,
+    "SkillLevel": 0,
+    "initSkill": [
+      530151
+    ],
+    "initSkillSimple": "",
+    "UpDescribe": "",
+    "attribute": [
+      "Speed=3"
+    ],
+    "power": [
+      18,
+      0
+    ],
+    "activePower": [
+      0,
+      100
+    ]
+  },
+  {
+    "id": 10102,
+    "AwakeLevel": 2,
+    "AwakeCost": [
+      "380501,30"
+    ],
+    "hpFactor": 4300,
+    "SkillLevel": 2,
+    "initSkill": [
+      530152
+    ],
+    "initSkillSimple": "Skill_simpleDetail_530152",
+    "UpDescribe": "Skill_upDetail_530152",
+    "attribute": [
+      "Speed=6"
+    ],
+    "power": [
+      36,
+      0
+    ],
+    "activePower": [
+      0,
+      175
+    ]
+  },
+  {
+    "id": 10103,
+    "AwakeLevel": 3,
+    "AwakeCost": [
+      "380501,30"
+    ],
+    "hpFactor": 4700,
+    "SkillLevel": 0,
+    "initSkill": [
+      530152
+    ],
+    "initSkillSimple": "",
+    "UpDescribe": "",
+    "attribute": [
+      "Speed=9"
+    ],
+    "power": [
+      54,
+      0
+    ],
+    "activePower": [
+      0,
+      225
+    ]
+  },
+  {
+    "id": 10104,
+    "AwakeLevel": 4,
+    "AwakeCost": [
+      "380501,30"
+    ],
+    "hpFactor": 5100,
+    "SkillLevel": 3,
+    "initSkill": [
+      530153
+    ],
+    "initSkillSimple": "Skill_simpleDetail_530153",
+    "UpDescribe": "Skill_upDetail_530153",
+    "attribute": [
+      "Speed=12"
+    ],
+    "power": [
+      72,
+      0
+    ],
+    "activePower": [
+      0,
+      300
+    ]
+  },
+  {
+    "id": 10105,
+    "AwakeLevel": 5,
+    "AwakeCost": [
+      "380501,30"
+    ],
+    "hpFactor": 5500,
+    "SkillLevel": 0,
+    "initSkill": [
+      530153
+    ],
+    "initSkillSimple": "",
+    "UpDescribe": "",
+    "attribute": [
+      "Speed=15"
+    ],
+    "power": [
+      90,
+      0
+    ],
+    "activePower": [
+      0,
+      350
+    ]
+  },
+  {
+    "id": 10106,
+    "AwakeLevel": 6,
+    "AwakeCost": [
+      "380501,60"
+    ],
+    "hpFactor": 5900,
+    "SkillLevel": 0,
+    "initSkill": [
+      530153
+    ],
+    "initSkillSimple": "",
+    "UpDescribe": "",
+    "attribute": [
+      "Speed=18"
+    ],
+    "power": [
+      108,
+      0
+    ],
+    "activePower": [
+      0,
+      400
+    ]
+  },
+  {
+    "id": 10107,
+    "AwakeLevel": 7,
+    "AwakeCost": [
+      "380501,60"
+    ],
+    "hpFactor": 6300,
+    "SkillLevel": 4,
+    "initSkill": [
+      530154
+    ],
+    "initSkillSimple": "Skill_simpleDetail_530154",
+    "UpDescribe": "Skill_upDetail_530154",
+    "attribute": [
+      "Speed=21"
+    ],
+    "power": [
+      126,
+      0
+    ],
+    "activePower": [
+      0,
+      475
+    ]
+  },
+  {
+    "id": 10108,
+    "AwakeLevel": 8,
+    "AwakeCost": [
+      "380501,60"
+    ],
+    "hpFactor": 6700,
+    "SkillLevel": 0,
+    "initSkill": [
+      530154
+    ],
+    "initSkillSimple": "",
+    "UpDescribe": "",
+    "attribute": [
+      "Speed=24"
+    ],
+    "power": [
+      144,
+      0
+    ],
+    "activePower": [
+      0,
+      525
+    ]
+  },
+  {
+    "id": 10109,
+    "AwakeLevel": 9,
+    "AwakeCost": [
+      "380501,60"
+    ],
+    "hpFactor": 7100,
+    "SkillLevel": 0,
+    "initSkill": [
+      530154
+    ],
+    "initSkillSimple": "",
+    "UpDescribe": "",
+    "attribute": [
+      "Speed=27"
+    ],
+    "power": [
+      162,
+      0
+    ],
+    "activePower": [
+      0,
+      575
+    ]
+  },
+  {
+    "id": 10110,
+    "AwakeLevel": 10,
+    "AwakeCost": [
+      "380501,60"
+    ],
+    "hpFactor": 7500,
+    "SkillLevel": 5,
+    "initSkill": [
+      530155,
+      530154
+    ],
+    "initSkillSimple": "Skill_simpleDetail_530155",
+    "UpDescribe": "Skill_upDetail_530155",
+    "attribute": [
+      "Speed=30"
+    ],
+    "power": [
+      180,
+      0
+    ],
+    "activePower": [
+      0,
+      650
+    ]
+  },
+  {
+    "id": 10200,
+    "AwakeLevel": 0,
+    "AwakeCost": [],
+    "hpFactor": 3500,
+    "SkillLevel": 1,
+    "initSkill": [
+      530071
+    ],
+    "initSkillSimple": "Skill_simpleDetail_530071",
+    "UpDescribe": "Skill_upDetail_530071",
+    "attribute": [
+      "Speed=0"
+    ],
+    "power": [
+      0,
+      0
+    ],
+    "activePower": [
+      0,
+      50
+    ]
+  },
+  {
+    "id": 10201,
+    "AwakeLevel": 1,
+    "AwakeCost": [
+      "380502,30"
+    ],
+    "hpFactor": 3900,
+    "SkillLevel": 0,
+    "initSkill": [
+      530071
+    ],
+    "initSkillSimple": "",
+    "UpDescribe": "",
+    "attribute": [
+      "Speed=3"
+    ],
+    "power": [
+      18,
+      0
+    ],
+    "activePower": [
+      0,
+      100
+    ]
+  },
+  {
+    "id": 10202,
+    "AwakeLevel": 2,
+    "AwakeCost": [
+      "380502,30"
+    ],
+    "hpFactor": 4300,
+    "SkillLevel": 2,
+    "initSkill": [
+      530072
+    ],
+    "initSkillSimple": "Skill_simpleDetail_530072",
+    "UpDescribe": "Skill_upDetail_530072",
+    "attribute": [
+      "Speed=6"
+    ],
+    "power": [
+      36,
+      0
+    ],
+    "activePower": [
+      0,
+      175
+    ]
+  },
+  {
+    "id": 10203,
+    "AwakeLevel": 3,
+    "AwakeCost": [
+      "380502,30"
+    ],
+    "hpFactor": 4700,
+    "SkillLevel": 0,
+    "initSkill": [
+      530072
+    ],
+    "initSkillSimple": "",
+    "UpDescribe": "",
+    "attribute": [
+      "Speed=9"
+    ],
+    "power": [
+      54,
+      0
+    ],
+    "activePower": [
+      0,
+      225
+    ]
+  },
+  {
+    "id": 10204,
+    "AwakeLevel": 4,
+    "AwakeCost": [
+      "380502,30"
+    ],
+    "hpFactor": 5100,
+    "SkillLevel": 3,
+    "initSkill": [
+      530073
+    ],
+    "initSkillSimple": "Skill_simpleDetail_530073",
+    "UpDescribe": "Skill_upDetail_530073",
+    "attribute": [
+      "Speed=12"
+    ],
+    "power": [
+      72,
+      0
+    ],
+    "activePower": [
+      0,
+      300
+    ]
+  },
+  {
+    "id": 10205,
+    "AwakeLevel": 5,
+    "AwakeCost": [
+      "380502,30"
+    ],
+    "hpFactor": 5500,
+    "SkillLevel": 0,
+    "initSkill": [
+      530073
+    ],
+    "initSkillSimple": "",
+    "UpDescribe": "",
+    "attribute": [
+      "Speed=15"
+    ],
+    "power": [
+      90,
+      0
+    ],
+    "activePower": [
+      0,
+      350
+    ]
+  },
+  {
+    "id": 10206,
+    "AwakeLevel": 6,
+    "AwakeCost": [
+      "380502,60"
+    ],
+    "hpFactor": 5900,
+    "SkillLevel": 0,
+    "initSkill": [
+      530073
+    ],
+    "initSkillSimple": "",
+    "UpDescribe": "",
+    "attribute": [
+      "Speed=18"
+    ],
+    "power": [
+      108,
+      0
+    ],
+    "activePower": [
+      0,
+      400
+    ]
+  },
+  {
+    "id": 10207,
+    "AwakeLevel": 7,
+    "AwakeCost": [
+      "380502,60"
+    ],
+    "hpFactor": 6300,
+    "SkillLevel": 4,
+    "initSkill": [
+      530074
+    ],
+    "initSkillSimple": "Skill_simpleDetail_530074",
+    "UpDescribe": "Skill_upDetail_530074",
+    "attribute": [
+      "Speed=21"
+    ],
+    "power": [
+      126,
+      0
+    ],
+    "activePower": [
+      0,
+      475
+    ]
+  },
+  {
+    "id": 10208,
+    "AwakeLevel": 8,
+    "AwakeCost": [
+      "380502,60"
+    ],
+    "hpFactor": 6700,
+    "SkillLevel": 0,
+    "initSkill": [
+      530074
+    ],
+    "initSkillSimple": "",
+    "UpDescribe": "",
+    "attribute": [
+      "Speed=24"
+    ],
+    "power": [
+      144,
+      0
+    ],
+    "activePower": [
+      0,
+      525
+    ]
+  },
+  {
+    "id": 10209,
+    "AwakeLevel": 9,
+    "AwakeCost": [
+      "380502,60"
+    ],
+    "hpFactor": 7100,
+    "SkillLevel": 0,
+    "initSkill": [
+      530074
+    ],
+    "initSkillSimple": "",
+    "UpDescribe": "",
+    "attribute": [
+      "Speed=27"
+    ],
+    "power": [
+      162,
+      0
+    ],
+    "activePower": [
+      0,
+      575
+    ]
+  },
+  {
+    "id": 10210,
+    "AwakeLevel": 10,
+    "AwakeCost": [
+      "380502,60"
+    ],
+    "hpFactor": 7500,
+    "SkillLevel": 5,
+    "initSkill": [
+      530075
+    ],
+    "initSkillSimple": "Skill_simpleDetail_530075",
+    "UpDescribe": "Skill_upDetail_530075",
+    "attribute": [
+      "Speed=30"
+    ],
+    "power": [
+      180,
+      0
+    ],
+    "activePower": [
+      0,
+      650
+    ]
+  },
+  {
+    "id": 10300,
+    "AwakeLevel": 0,
+    "AwakeCost": [],
+    "hpFactor": 3500,
+    "SkillLevel": 1,
+    "initSkill": [
+      530161
+    ],
+    "initSkillSimple": "Skill_simpleDetail_530161",
+    "UpDescribe": "Skill_upDetail_530161",
+    "attribute": [
+      "Speed=0"
+    ],
+    "power": [
+      0,
+      0
+    ],
+    "activePower": [
+      0,
+      50
+    ]
+  },
+  {
+    "id": 10301,
+    "AwakeLevel": 1,
+    "AwakeCost": [
+      "380503,30"
+    ],
+    "hpFactor": 3900,
+    "SkillLevel": 0,
+    "initSkill": [
+      530161
+    ],
+    "initSkillSimple": "",
+    "UpDescribe": "",
+    "attribute": [
+      "Speed=3"
+    ],
+    "power": [
+      18,
+      0
+    ],
+    "activePower": [
+      0,
+      100
+    ]
+  },
+  {
+    "id": 10302,
+    "AwakeLevel": 2,
+    "AwakeCost": [
+      "380503,30"
+    ],
+    "hpFactor": 4300,
+    "SkillLevel": 2,
+    "initSkill": [
+      530162
+    ],
+    "initSkillSimple": "Skill_simpleDetail_530162",
+    "UpDescribe": "Skill_upDetail_530162",
+    "attribute": [
+      "Speed=6"
+    ],
+    "power": [
+      36,
+      0
+    ],
+    "activePower": [
+      0,
+      175
+    ]
+  },
+  {
+    "id": 10303,
+    "AwakeLevel": 3,
+    "AwakeCost": [
+      "380503,30"
+    ],
+    "hpFactor": 4700,
+    "SkillLevel": 0,
+    "initSkill": [
+      530162
+    ],
+    "initSkillSimple": "",
+    "UpDescribe": "",
+    "attribute": [
+      "Speed=9"
+    ],
+    "power": [
+      54,
+      0
+    ],
+    "activePower": [
+      0,
+      225
+    ]
+  },
+  {
+    "id": 10304,
+    "AwakeLevel": 4,
+    "AwakeCost": [
+      "380503,30"
+    ],
+    "hpFactor": 5100,
+    "SkillLevel": 3,
+    "initSkill": [
+      530163
+    ],
+    "initSkillSimple": "Skill_simpleDetail_530163",
+    "UpDescribe": "Skill_upDetail_530163",
+    "attribute": [
+      "Speed=12"
+    ],
+    "power": [
+      72,
+      0
+    ],
+    "activePower": [
+      0,
+      300
+    ]
+  },
+  {
+    "id": 10305,
+    "AwakeLevel": 5,
+    "AwakeCost": [
+      "380503,30"
+    ],
+    "hpFactor": 5500,
+    "SkillLevel": 0,
+    "initSkill": [
+      530163
+    ],
+    "initSkillSimple": "",
+    "UpDescribe": "",
+    "attribute": [
+      "Speed=15"
+    ],
+    "power": [
+      90,
+      0
+    ],
+    "activePower": [
+      0,
+      350
+    ]
+  },
+  {
+    "id": 10306,
+    "AwakeLevel": 6,
+    "AwakeCost": [
+      "380503,60"
+    ],
+    "hpFactor": 5900,
+    "SkillLevel": 0,
+    "initSkill": [
+      530163
+    ],
+    "initSkillSimple": "",
+    "UpDescribe": "",
+    "attribute": [
+      "Speed=18"
+    ],
+    "power": [
+      108,
+      0
+    ],
+    "activePower": [
+      0,
+      400
+    ]
+  },
+  {
+    "id": 10307,
+    "AwakeLevel": 7,
+    "AwakeCost": [
+      "380503,60"
+    ],
+    "hpFactor": 6300,
+    "SkillLevel": 4,
+    "initSkill": [
+      530164
+    ],
+    "initSkillSimple": "Skill_simpleDetail_530164",
+    "UpDescribe": "Skill_upDetail_530164",
+    "attribute": [
+      "Speed=21"
+    ],
+    "power": [
+      126,
+      0
+    ],
+    "activePower": [
+      0,
+      475
+    ]
+  },
+  {
+    "id": 10308,
+    "AwakeLevel": 8,
+    "AwakeCost": [
+      "380503,60"
+    ],
+    "hpFactor": 6700,
+    "SkillLevel": 0,
+    "initSkill": [
+      530164
+    ],
+    "initSkillSimple": "",
+    "UpDescribe": "",
+    "attribute": [
+      "Speed=24"
+    ],
+    "power": [
+      144,
+      0
+    ],
+    "activePower": [
+      0,
+      525
+    ]
+  },
+  {
+    "id": 10309,
+    "AwakeLevel": 9,
+    "AwakeCost": [
+      "380503,60"
+    ],
+    "hpFactor": 7100,
+    "SkillLevel": 0,
+    "initSkill": [
+      530164
+    ],
+    "initSkillSimple": "",
+    "UpDescribe": "",
+    "attribute": [
+      "Speed=27"
+    ],
+    "power": [
+      162,
+      0
+    ],
+    "activePower": [
+      0,
+      575
+    ]
+  },
+  {
+    "id": 10310,
+    "AwakeLevel": 10,
+    "AwakeCost": [
+      "380503,60"
+    ],
+    "hpFactor": 7500,
+    "SkillLevel": 5,
+    "initSkill": [
+      530165,
+      530164
+    ],
+    "initSkillSimple": "Skill_simpleDetail_530165",
+    "UpDescribe": "Skill_upDetail_530165",
+    "attribute": [
+      "Speed=30"
+    ],
+    "power": [
+      180,
+      0
+    ],
+    "activePower": [
+      0,
+      650
+    ]
+  },
+  {
+    "id": 20100,
+    "AwakeLevel": 0,
+    "AwakeCost": [],
+    "hpFactor": 4000,
+    "SkillLevel": 1,
+    "initSkill": [
+      530141
+    ],
+    "initSkillSimple": "Skill_simpleDetail_530141",
+    "UpDescribe": "Skill_upDetail_530141",
+    "attribute": [
+      "Speed=0"
+    ],
+    "power": [
+      0,
+      0
+    ],
+    "activePower": [
+      0,
+      100
+    ]
+  },
+  {
+    "id": 20101,
+    "AwakeLevel": 1,
+    "AwakeCost": [
+      "380605,30"
+    ],
+    "hpFactor": 4500,
+    "SkillLevel": 0,
+    "initSkill": [
+      530141
+    ],
+    "initSkillSimple": "",
+    "UpDescribe": "",
+    "attribute": [
+      "Speed=4"
+    ],
+    "power": [
+      25,
+      0
+    ],
+    "activePower": [
+      0,
+      200
+    ]
+  },
+  {
+    "id": 20102,
+    "AwakeLevel": 2,
+    "AwakeCost": [
+      "380605,30"
+    ],
+    "hpFactor": 5000,
+    "SkillLevel": 2,
+    "initSkill": [
+      530142
+    ],
+    "initSkillSimple": "Skill_simpleDetail_530142",
+    "UpDescribe": "Skill_upDetail_530142",
+    "attribute": [
+      "Speed=8"
+    ],
+    "power": [
+      50,
+      0
+    ],
+    "activePower": [
+      0,
+      350
+    ]
+  },
+  {
+    "id": 20103,
+    "AwakeLevel": 3,
+    "AwakeCost": [
+      "380605,30"
+    ],
+    "hpFactor": 5500,
+    "SkillLevel": 0,
+    "initSkill": [
+      530142
+    ],
+    "initSkillSimple": "",
+    "UpDescribe": "",
+    "attribute": [
+      "Speed=12"
+    ],
+    "power": [
+      75,
+      0
+    ],
+    "activePower": [
+      0,
+      450
+    ]
+  },
+  {
+    "id": 20104,
+    "AwakeLevel": 4,
+    "AwakeCost": [
+      "380605,30"
+    ],
+    "hpFactor": 6000,
+    "SkillLevel": 3,
+    "initSkill": [
+      530143
+    ],
+    "initSkillSimple": "Skill_simpleDetail_530143",
+    "UpDescribe": "Skill_upDetail_530143",
+    "attribute": [
+      "Speed=16"
+    ],
+    "power": [
+      100,
+      0
+    ],
+    "activePower": [
+      0,
+      600
+    ]
+  },
+  {
+    "id": 20105,
+    "AwakeLevel": 5,
+    "AwakeCost": [
+      "380605,30"
+    ],
+    "hpFactor": 6500,
+    "SkillLevel": 0,
+    "initSkill": [
+      530143
+    ],
+    "initSkillSimple": "",
+    "UpDescribe": "",
+    "attribute": [
+      "Speed=20"
+    ],
+    "power": [
+      125,
+      0
+    ],
+    "activePower": [
+      0,
+      700
+    ]
+  },
+  {
+    "id": 20106,
+    "AwakeLevel": 6,
+    "AwakeCost": [
+      "380605,60"
+    ],
+    "hpFactor": 7000,
+    "SkillLevel": 0,
+    "initSkill": [
+      530143
+    ],
+    "initSkillSimple": "",
+    "UpDescribe": "",
+    "attribute": [
+      "Speed=24"
+    ],
+    "power": [
+      150,
+      0
+    ],
+    "activePower": [
+      0,
+      800
+    ]
+  },
+  {
+    "id": 20107,
+    "AwakeLevel": 7,
+    "AwakeCost": [
+      "380605,60"
+    ],
+    "hpFactor": 7500,
+    "SkillLevel": 4,
+    "initSkill": [
+      530144
+    ],
+    "initSkillSimple": "Skill_simpleDetail_530144",
+    "UpDescribe": "Skill_upDetail_530144",
+    "attribute": [
+      "Speed=28"
+    ],
+    "power": [
+      175,
+      0
+    ],
+    "activePower": [
+      0,
+      950
+    ]
+  },
+  {
+    "id": 20108,
+    "AwakeLevel": 8,
+    "AwakeCost": [
+      "380605,60"
+    ],
+    "hpFactor": 8000,
+    "SkillLevel": 0,
+    "initSkill": [
+      530144
+    ],
+    "initSkillSimple": "",
+    "UpDescribe": "",
+    "attribute": [
+      "Speed=32"
+    ],
+    "power": [
+      200,
+      0
+    ],
+    "activePower": [
+      0,
+      1050
+    ]
+  },
+  {
+    "id": 20109,
+    "AwakeLevel": 9,
+    "AwakeCost": [
+      "380605,60"
+    ],
+    "hpFactor": 8500,
+    "SkillLevel": 0,
+    "initSkill": [
+      530144
+    ],
+    "initSkillSimple": "",
+    "UpDescribe": "",
+    "attribute": [
+      "Speed=36"
+    ],
+    "power": [
+      225,
+      0
+    ],
+    "activePower": [
+      0,
+      1150
+    ]
+  },
+  {
+    "id": 20110,
+    "AwakeLevel": 10,
+    "AwakeCost": [
+      "380605,60"
+    ],
+    "hpFactor": 9000,
+    "SkillLevel": 5,
+    "initSkill": [
+      530145,
+      530144
+    ],
+    "initSkillSimple": "Skill_simpleDetail_530145",
+    "UpDescribe": "Skill_upDetail_530145",
+    "attribute": [
+      "Speed=40"
+    ],
+    "power": [
+      250,
+      0
+    ],
+    "activePower": [
+      0,
+      1300
+    ]
+  },
+  {
+    "id": 20200,
+    "AwakeLevel": 0,
+    "AwakeCost": [],
+    "hpFactor": 4000,
+    "SkillLevel": 1,
+    "initSkill": [
+      530111
+    ],
+    "initSkillSimple": "Skill_simpleDetail_530111",
+    "UpDescribe": "Skill_upDetail_530111",
+    "attribute": [
+      "Speed=0"
+    ],
+    "power": [
+      0,
+      0
+    ],
+    "activePower": [
+      0,
+      100
+    ]
+  },
+  {
+    "id": 20201,
+    "AwakeLevel": 1,
+    "AwakeCost": [
+      "380601,30"
+    ],
+    "hpFactor": 4500,
+    "SkillLevel": 0,
+    "initSkill": [
+      530111
+    ],
+    "initSkillSimple": "",
+    "UpDescribe": "",
+    "attribute": [
+      "Speed=4"
+    ],
+    "power": [
+      25,
+      0
+    ],
+    "activePower": [
+      0,
+      200
+    ]
+  },
+  {
+    "id": 20202,
+    "AwakeLevel": 2,
+    "AwakeCost": [
+      "380601,30"
+    ],
+    "hpFactor": 5000,
+    "SkillLevel": 2,
+    "initSkill": [
+      530112
+    ],
+    "initSkillSimple": "Skill_simpleDetail_530112",
+    "UpDescribe": "Skill_upDetail_530112",
+    "attribute": [
+      "Speed=8"
+    ],
+    "power": [
+      50,
+      0
+    ],
+    "activePower": [
+      0,
+      350
+    ]
+  },
+  {
+    "id": 20203,
+    "AwakeLevel": 3,
+    "AwakeCost": [
+      "380601,30"
+    ],
+    "hpFactor": 5500,
+    "SkillLevel": 0,
+    "initSkill": [
+      530112
+    ],
+    "initSkillSimple": "",
+    "UpDescribe": "",
+    "attribute": [
+      "Speed=12"
+    ],
+    "power": [
+      75,
+      0
+    ],
+    "activePower": [
+      0,
+      450
+    ]
+  },
+  {
+    "id": 20204,
+    "AwakeLevel": 4,
+    "AwakeCost": [
+      "380601,30"
+    ],
+    "hpFactor": 6000,
+    "SkillLevel": 3,
+    "initSkill": [
+      530113,
+      530112,
+      5301131
+    ],
+    "initSkillSimple": "Skill_simpleDetail_530113",
+    "UpDescribe": "Skill_upDetail_530113",
+    "attribute": [
+      "Speed=16"
+    ],
+    "power": [
+      100,
+      0
+    ],
+    "activePower": [
+      0,
+      600
+    ]
+  },
+  {
+    "id": 20205,
+    "AwakeLevel": 5,
+    "AwakeCost": [
+      "380601,30"
+    ],
+    "hpFactor": 6500,
+    "SkillLevel": 0,
+    "initSkill": [
+      530113,
+      530112,
+      5301131
+    ],
+    "initSkillSimple": "",
+    "UpDescribe": "",
+    "attribute": [
+      "Speed=20"
+    ],
+    "power": [
+      125,
+      0
+    ],
+    "activePower": [
+      0,
+      700
+    ]
+  },
+  {
+    "id": 20206,
+    "AwakeLevel": 6,
+    "AwakeCost": [
+      "380601,60"
+    ],
+    "hpFactor": 7000,
+    "SkillLevel": 0,
+    "initSkill": [
+      530113,
+      530112,
+      5301131
+    ],
+    "initSkillSimple": "",
+    "UpDescribe": "",
+    "attribute": [
+      "Speed=24"
+    ],
+    "power": [
+      150,
+      0
+    ],
+    "activePower": [
+      0,
+      800
+    ]
+  },
+  {
+    "id": 20207,
+    "AwakeLevel": 7,
+    "AwakeCost": [
+      "380601,60"
+    ],
+    "hpFactor": 7500,
+    "SkillLevel": 4,
+    "initSkill": [
+      530114,
+      530113,
+      5301131
+    ],
+    "initSkillSimple": "Skill_simpleDetail_530114",
+    "UpDescribe": "Skill_upDetail_530114",
+    "attribute": [
+      "Speed=28"
+    ],
+    "power": [
+      175,
+      0
+    ],
+    "activePower": [
+      0,
+      950
+    ]
+  },
+  {
+    "id": 20208,
+    "AwakeLevel": 8,
+    "AwakeCost": [
+      "380601,60"
+    ],
+    "hpFactor": 8000,
+    "SkillLevel": 0,
+    "initSkill": [
+      530114,
+      530113,
+      5301131
+    ],
+    "initSkillSimple": "",
+    "UpDescribe": "",
+    "attribute": [
+      "Speed=32"
+    ],
+    "power": [
+      200,
+      0
+    ],
+    "activePower": [
+      0,
+      1050
+    ]
+  },
+  {
+    "id": 20209,
+    "AwakeLevel": 9,
+    "AwakeCost": [
+      "380601,60"
+    ],
+    "hpFactor": 8500,
+    "SkillLevel": 0,
+    "initSkill": [
+      530114,
+      530113,
+      5301131
+    ],
+    "initSkillSimple": "",
+    "UpDescribe": "",
+    "attribute": [
+      "Speed=36"
+    ],
+    "power": [
+      225,
+      0
+    ],
+    "activePower": [
+      0,
+      1150
+    ]
+  },
+  {
+    "id": 20210,
+    "AwakeLevel": 10,
+    "AwakeCost": [
+      "380601,60"
+    ],
+    "hpFactor": 9000,
+    "SkillLevel": 5,
+    "initSkill": [
+      530115,
+      530113,
+      5301131
+    ],
+    "initSkillSimple": "Skill_simpleDetail_530115",
+    "UpDescribe": "Skill_upDetail_530115",
+    "attribute": [
+      "Speed=40"
+    ],
+    "power": [
+      250,
+      0
+    ],
+    "activePower": [
+      0,
+      1300
+    ]
+  },
+  {
+    "id": 20300,
+    "AwakeLevel": 0,
+    "AwakeCost": [],
+    "hpFactor": 4000,
+    "SkillLevel": 1,
+    "initSkill": [
+      530061
+    ],
+    "initSkillSimple": "Skill_simpleDetail_530061",
+    "UpDescribe": "Skill_upDetail_530061",
+    "attribute": [
+      "Speed=0"
+    ],
+    "power": [
+      0,
+      0
+    ],
+    "activePower": [
+      0,
+      100
+    ]
+  },
+  {
+    "id": 20301,
+    "AwakeLevel": 1,
+    "AwakeCost": [
+      "380602,30"
+    ],
+    "hpFactor": 4500,
+    "SkillLevel": 0,
+    "initSkill": [
+      530061
+    ],
+    "initSkillSimple": "",
+    "UpDescribe": "",
+    "attribute": [
+      "Speed=4"
+    ],
+    "power": [
+      25,
+      0
+    ],
+    "activePower": [
+      0,
+      200
+    ]
+  },
+  {
+    "id": 20302,
+    "AwakeLevel": 2,
+    "AwakeCost": [
+      "380602,30"
+    ],
+    "hpFactor": 5000,
+    "SkillLevel": 2,
+    "initSkill": [
+      530062
+    ],
+    "initSkillSimple": "Skill_simpleDetail_530062",
+    "UpDescribe": "Skill_upDetail_530062",
+    "attribute": [
+      "Speed=8"
+    ],
+    "power": [
+      50,
+      0
+    ],
+    "activePower": [
+      0,
+      350
+    ]
+  },
+  {
+    "id": 20303,
+    "AwakeLevel": 3,
+    "AwakeCost": [
+      "380602,30"
+    ],
+    "hpFactor": 5500,
+    "SkillLevel": 0,
+    "initSkill": [
+      530062
+    ],
+    "initSkillSimple": "",
+    "UpDescribe": "",
+    "attribute": [
+      "Speed=12"
+    ],
+    "power": [
+      75,
+      0
+    ],
+    "activePower": [
+      0,
+      450
+    ]
+  },
+  {
+    "id": 20304,
+    "AwakeLevel": 4,
+    "AwakeCost": [
+      "380602,30"
+    ],
+    "hpFactor": 6000,
+    "SkillLevel": 3,
+    "initSkill": [
+      530063,
+      530062
+    ],
+    "initSkillSimple": "Skill_simpleDetail_530063",
+    "UpDescribe": "Skill_upDetail_530063",
+    "attribute": [
+      "Speed=16"
+    ],
+    "power": [
+      100,
+      0
+    ],
+    "activePower": [
+      0,
+      600
+    ]
+  },
+  {
+    "id": 20305,
+    "AwakeLevel": 5,
+    "AwakeCost": [
+      "380602,30"
+    ],
+    "hpFactor": 6500,
+    "SkillLevel": 0,
+    "initSkill": [
+      530063,
+      530062
+    ],
+    "initSkillSimple": "",
+    "UpDescribe": "",
+    "attribute": [
+      "Speed=20"
+    ],
+    "power": [
+      125,
+      0
+    ],
+    "activePower": [
+      0,
+      700
+    ]
+  },
+  {
+    "id": 20306,
+    "AwakeLevel": 6,
+    "AwakeCost": [
+      "380602,60"
+    ],
+    "hpFactor": 7000,
+    "SkillLevel": 0,
+    "initSkill": [
+      530063,
+      530062
+    ],
+    "initSkillSimple": "",
+    "UpDescribe": "",
+    "attribute": [
+      "Speed=24"
+    ],
+    "power": [
+      150,
+      0
+    ],
+    "activePower": [
+      0,
+      800
+    ]
+  },
+  {
+    "id": 20307,
+    "AwakeLevel": 7,
+    "AwakeCost": [
+      "380602,60"
+    ],
+    "hpFactor": 7500,
+    "SkillLevel": 4,
+    "initSkill": [
+      530064,
+      530063
+    ],
+    "initSkillSimple": "Skill_simpleDetail_530064",
+    "UpDescribe": "Skill_upDetail_530064",
+    "attribute": [
+      "Speed=28"
+    ],
+    "power": [
+      175,
+      0
+    ],
+    "activePower": [
+      0,
+      950
+    ]
+  },
+  {
+    "id": 20308,
+    "AwakeLevel": 8,
+    "AwakeCost": [
+      "380602,60"
+    ],
+    "hpFactor": 8000,
+    "SkillLevel": 0,
+    "initSkill": [
+      530064,
+      530063
+    ],
+    "initSkillSimple": "",
+    "UpDescribe": "",
+    "attribute": [
+      "Speed=32"
+    ],
+    "power": [
+      200,
+      0
+    ],
+    "activePower": [
+      0,
+      1050
+    ]
+  },
+  {
+    "id": 20309,
+    "AwakeLevel": 9,
+    "AwakeCost": [
+      "380602,60"
+    ],
+    "hpFactor": 8500,
+    "SkillLevel": 0,
+    "initSkill": [
+      530064,
+      530063
+    ],
+    "initSkillSimple": "",
+    "UpDescribe": "",
+    "attribute": [
+      "Speed=36"
+    ],
+    "power": [
+      225,
+      0
+    ],
+    "activePower": [
+      0,
+      1150
+    ]
+  },
+  {
+    "id": 20310,
+    "AwakeLevel": 10,
+    "AwakeCost": [
+      "380602,60"
+    ],
+    "hpFactor": 9000,
+    "SkillLevel": 5,
+    "initSkill": [
+      530065,
+      530064
+    ],
+    "initSkillSimple": "Skill_simpleDetail_530065",
+    "UpDescribe": "Skill_upDetail_530065",
+    "attribute": [
+      "Speed=40"
+    ],
+    "power": [
+      250,
+      0
+    ],
+    "activePower": [
+      0,
+      1300
+    ]
+  },
+  {
+    "id": 20400,
+    "AwakeLevel": 0,
+    "AwakeCost": [],
+    "hpFactor": 4000,
+    "SkillLevel": 1,
+    "initSkill": [
+      530131
+    ],
+    "initSkillSimple": "Skill_simpleDetail_530131",
+    "UpDescribe": "Skill_upDetail_530131",
+    "attribute": [
+      "Speed=0"
+    ],
+    "power": [
+      0,
+      0
+    ],
+    "activePower": [
+      0,
+      100
+    ]
+  },
+  {
+    "id": 20401,
+    "AwakeLevel": 1,
+    "AwakeCost": [
+      "380603,30"
+    ],
+    "hpFactor": 4500,
+    "SkillLevel": 0,
+    "initSkill": [
+      530131
+    ],
+    "initSkillSimple": "",
+    "UpDescribe": "",
+    "attribute": [
+      "Speed=4"
+    ],
+    "power": [
+      25,
+      0
+    ],
+    "activePower": [
+      0,
+      200
+    ]
+  },
+  {
+    "id": 20402,
+    "AwakeLevel": 2,
+    "AwakeCost": [
+      "380603,30"
+    ],
+    "hpFactor": 5000,
+    "SkillLevel": 2,
+    "initSkill": [
+      530132
+    ],
+    "initSkillSimple": "Skill_simpleDetail_530132",
+    "UpDescribe": "Skill_upDetail_530132",
+    "attribute": [
+      "Speed=8"
+    ],
+    "power": [
+      50,
+      0
+    ],
+    "activePower": [
+      0,
+      350
+    ]
+  },
+  {
+    "id": 20403,
+    "AwakeLevel": 3,
+    "AwakeCost": [
+      "380603,30"
+    ],
+    "hpFactor": 5500,
+    "SkillLevel": 0,
+    "initSkill": [
+      530132
+    ],
+    "initSkillSimple": "",
+    "UpDescribe": "",
+    "attribute": [
+      "Speed=12"
+    ],
+    "power": [
+      75,
+      0
+    ],
+    "activePower": [
+      0,
+      450
+    ]
+  },
+  {
+    "id": 20404,
+    "AwakeLevel": 4,
+    "AwakeCost": [
+      "380603,30"
+    ],
+    "hpFactor": 6000,
+    "SkillLevel": 3,
+    "initSkill": [
+      530133,
+      530132
+    ],
+    "initSkillSimple": "Skill_simpleDetail_530133",
+    "UpDescribe": "Skill_upDetail_530133",
+    "attribute": [
+      "Speed=16"
+    ],
+    "power": [
+      100,
+      0
+    ],
+    "activePower": [
+      0,
+      600
+    ]
+  },
+  {
+    "id": 20405,
+    "AwakeLevel": 5,
+    "AwakeCost": [
+      "380603,30"
+    ],
+    "hpFactor": 6500,
+    "SkillLevel": 0,
+    "initSkill": [
+      530133,
+      530132
+    ],
+    "initSkillSimple": "",
+    "UpDescribe": "",
+    "attribute": [
+      "Speed=20"
+    ],
+    "power": [
+      125,
+      0
+    ],
+    "activePower": [
+      0,
+      700
+    ]
+  },
+  {
+    "id": 20406,
+    "AwakeLevel": 6,
+    "AwakeCost": [
+      "380603,60"
+    ],
+    "hpFactor": 7000,
+    "SkillLevel": 0,
+    "initSkill": [
+      530133,
+      530132
+    ],
+    "initSkillSimple": "",
+    "UpDescribe": "",
+    "attribute": [
+      "Speed=24"
+    ],
+    "power": [
+      150,
+      0
+    ],
+    "activePower": [
+      0,
+      800
+    ]
+  },
+  {
+    "id": 20407,
+    "AwakeLevel": 7,
+    "AwakeCost": [
+      "380603,60"
+    ],
+    "hpFactor": 7500,
+    "SkillLevel": 4,
+    "initSkill": [
+      530134,
+      530133
+    ],
+    "initSkillSimple": "Skill_simpleDetail_530134",
+    "UpDescribe": "Skill_upDetail_530134",
+    "attribute": [
+      "Speed=28"
+    ],
+    "power": [
+      175,
+      0
+    ],
+    "activePower": [
+      0,
+      950
+    ]
+  },
+  {
+    "id": 20408,
+    "AwakeLevel": 8,
+    "AwakeCost": [
+      "380603,60"
+    ],
+    "hpFactor": 8000,
+    "SkillLevel": 0,
+    "initSkill": [
+      530134,
+      530133
+    ],
+    "initSkillSimple": "",
+    "UpDescribe": "",
+    "attribute": [
+      "Speed=32"
+    ],
+    "power": [
+      200,
+      0
+    ],
+    "activePower": [
+      0,
+      1050
+    ]
+  },
+  {
+    "id": 20409,
+    "AwakeLevel": 9,
+    "AwakeCost": [
+      "380603,60"
+    ],
+    "hpFactor": 8500,
+    "SkillLevel": 0,
+    "initSkill": [
+      530134,
+      530133
+    ],
+    "initSkillSimple": "",
+    "UpDescribe": "",
+    "attribute": [
+      "Speed=36"
+    ],
+    "power": [
+      225,
+      0
+    ],
+    "activePower": [
+      0,
+      1150
+    ]
+  },
+  {
+    "id": 20410,
+    "AwakeLevel": 10,
+    "AwakeCost": [
+      "380603,60"
+    ],
+    "hpFactor": 9000,
+    "SkillLevel": 5,
+    "initSkill": [
+      530135,
+      5301351,
+      530134,
+      530133
+    ],
+    "initSkillSimple": "Skill_simpleDetail_530135",
+    "UpDescribe": "Skill_upDetail_530135",
+    "attribute": [
+      "Speed=40"
+    ],
+    "power": [
+      250,
+      0
+    ],
+    "activePower": [
+      0,
+      1300
+    ]
+  },
+  {
+    "id": 20500,
+    "AwakeLevel": 0,
+    "AwakeCost": [],
+    "hpFactor": 4000,
+    "SkillLevel": 1,
+    "initSkill": [
+      530121
+    ],
+    "initSkillSimple": "Skill_simpleDetail_530121",
+    "UpDescribe": "Skill_upDetail_530121",
+    "attribute": [
+      "Speed=0"
+    ],
+    "power": [
+      0,
+      0
+    ],
+    "activePower": [
+      0,
+      100
+    ]
+  },
+  {
+    "id": 20501,
+    "AwakeLevel": 1,
+    "AwakeCost": [
+      "380604,30"
+    ],
+    "hpFactor": 4500,
+    "SkillLevel": 0,
+    "initSkill": [
+      530121
+    ],
+    "initSkillSimple": "",
+    "UpDescribe": "",
+    "attribute": [
+      "Speed=4"
+    ],
+    "power": [
+      25,
+      0
+    ],
+    "activePower": [
+      0,
+      200
+    ]
+  },
+  {
+    "id": 20502,
+    "AwakeLevel": 2,
+    "AwakeCost": [
+      "380604,30"
+    ],
+    "hpFactor": 5000,
+    "SkillLevel": 2,
+    "initSkill": [
+      530122
+    ],
+    "initSkillSimple": "Skill_simpleDetail_530122",
+    "UpDescribe": "Skill_upDetail_530122",
+    "attribute": [
+      "Speed=8"
+    ],
+    "power": [
+      50,
+      0
+    ],
+    "activePower": [
+      0,
+      350
+    ]
+  },
+  {
+    "id": 20503,
+    "AwakeLevel": 3,
+    "AwakeCost": [
+      "380604,30"
+    ],
+    "hpFactor": 5500,
+    "SkillLevel": 0,
+    "initSkill": [
+      530122
+    ],
+    "initSkillSimple": "",
+    "UpDescribe": "",
+    "attribute": [
+      "Speed=12"
+    ],
+    "power": [
+      75,
+      0
+    ],
+    "activePower": [
+      0,
+      450
+    ]
+  },
+  {
+    "id": 20504,
+    "AwakeLevel": 4,
+    "AwakeCost": [
+      "380604,30"
+    ],
+    "hpFactor": 6000,
+    "SkillLevel": 3,
+    "initSkill": [
+      530123
+    ],
+    "initSkillSimple": "Skill_simpleDetail_530123",
+    "UpDescribe": "Skill_upDetail_530123",
+    "attribute": [
+      "Speed=16"
+    ],
+    "power": [
+      100,
+      0
+    ],
+    "activePower": [
+      0,
+      600
+    ]
+  },
+  {
+    "id": 20505,
+    "AwakeLevel": 5,
+    "AwakeCost": [
+      "380604,30"
+    ],
+    "hpFactor": 6500,
+    "SkillLevel": 0,
+    "initSkill": [
+      530123
+    ],
+    "initSkillSimple": "",
+    "UpDescribe": "",
+    "attribute": [
+      "Speed=20"
+    ],
+    "power": [
+      125,
+      0
+    ],
+    "activePower": [
+      0,
+      700
+    ]
+  },
+  {
+    "id": 20506,
+    "AwakeLevel": 6,
+    "AwakeCost": [
+      "380604,60"
+    ],
+    "hpFactor": 7000,
+    "SkillLevel": 0,
+    "initSkill": [
+      530123
+    ],
+    "initSkillSimple": "",
+    "UpDescribe": "",
+    "attribute": [
+      "Speed=24"
+    ],
+    "power": [
+      150,
+      0
+    ],
+    "activePower": [
+      0,
+      800
+    ]
+  },
+  {
+    "id": 20507,
+    "AwakeLevel": 7,
+    "AwakeCost": [
+      "380604,60"
+    ],
+    "hpFactor": 7500,
+    "SkillLevel": 4,
+    "initSkill": [
+      530124
+    ],
+    "initSkillSimple": "Skill_simpleDetail_530124",
+    "UpDescribe": "Skill_upDetail_530124",
+    "attribute": [
+      "Speed=28"
+    ],
+    "power": [
+      175,
+      0
+    ],
+    "activePower": [
+      0,
+      950
+    ]
+  },
+  {
+    "id": 20508,
+    "AwakeLevel": 8,
+    "AwakeCost": [
+      "380604,60"
+    ],
+    "hpFactor": 8000,
+    "SkillLevel": 0,
+    "initSkill": [
+      530124
+    ],
+    "initSkillSimple": "",
+    "UpDescribe": "",
+    "attribute": [
+      "Speed=32"
+    ],
+    "power": [
+      200,
+      0
+    ],
+    "activePower": [
+      0,
+      1050
+    ]
+  },
+  {
+    "id": 20509,
+    "AwakeLevel": 9,
+    "AwakeCost": [
+      "380604,60"
+    ],
+    "hpFactor": 8500,
+    "SkillLevel": 0,
+    "initSkill": [
+      530124
+    ],
+    "initSkillSimple": "",
+    "UpDescribe": "",
+    "attribute": [
+      "Speed=36"
+    ],
+    "power": [
+      225,
+      0
+    ],
+    "activePower": [
+      0,
+      1150
+    ]
+  },
+  {
+    "id": 20510,
+    "AwakeLevel": 10,
+    "AwakeCost": [
+      "380604,60"
+    ],
+    "hpFactor": 9000,
+    "SkillLevel": 5,
+    "initSkill": [
+      530125
+    ],
+    "initSkillSimple": "Skill_simpleDetail_530125",
+    "UpDescribe": "Skill_upDetail_530125",
+    "attribute": [
+      "Speed=40"
+    ],
+    "power": [
+      250,
+      0
+    ],
+    "activePower": [
+      0,
+      1300
+    ]
+  },
+  {
+    "id": 25100,
+    "AwakeLevel": 0,
+    "AwakeCost": [],
+    "hpFactor": 5000,
+    "SkillLevel": 1,
+    "initSkill": [
+      530171
+    ],
+    "initSkillSimple": "Skill_simpleDetail_530171",
+    "UpDescribe": "Skill_upDetail_530171",
+    "attribute": [
+      "Speed=0"
+    ],
+    "power": [
+      0,
+      0
+    ],
+    "activePower": [
+      0,
+      120
+    ]
+  },
+  {
+    "id": 25101,
+    "AwakeLevel": 1,
+    "AwakeCost": [
+      "380701,30"
+    ],
+    "hpFactor": 5500,
+    "SkillLevel": 0,
+    "initSkill": [
+      530171
+    ],
+    "initSkillSimple": "",
+    "UpDescribe": "",
+    "attribute": [
+      "Speed=5"
+    ],
+    "power": [
+      30,
+      0
+    ],
+    "activePower": [
+      0,
+      240
+    ]
+  },
+  {
+    "id": 25102,
+    "AwakeLevel": 2,
+    "AwakeCost": [
+      "380701,30"
+    ],
+    "hpFactor": 6000,
+    "SkillLevel": 2,
+    "initSkill": [
+      530172
+    ],
+    "initSkillSimple": "Skill_simpleDetail_530172",
+    "UpDescribe": "Skill_upDetail_530172",
+    "attribute": [
+      "Speed=10"
+    ],
+    "power": [
+      60,
+      0
+    ],
+    "activePower": [
+      0,
+      420
+    ]
+  },
+  {
+    "id": 25103,
+    "AwakeLevel": 3,
+    "AwakeCost": [
+      "380701,30"
+    ],
+    "hpFactor": 6500,
+    "SkillLevel": 0,
+    "initSkill": [
+      530172
+    ],
+    "initSkillSimple": "",
+    "UpDescribe": "",
+    "attribute": [
+      "Speed=15"
+    ],
+    "power": [
+      90,
+      0
+    ],
+    "activePower": [
+      0,
+      540
+    ]
+  },
+  {
+    "id": 25104,
+    "AwakeLevel": 4,
+    "AwakeCost": [
+      "380701,30"
+    ],
+    "hpFactor": 7000,
+    "SkillLevel": 3,
+    "initSkill": [
+      530173
+    ],
+    "initSkillSimple": "Skill_simpleDetail_530173",
+    "UpDescribe": "Skill_upDetail_530173",
+    "attribute": [
+      "Speed=20"
+    ],
+    "power": [
+      120,
+      0
+    ],
+    "activePower": [
+      0,
+      720
+    ]
+  },
+  {
+    "id": 25105,
+    "AwakeLevel": 5,
+    "AwakeCost": [
+      "380701,30"
+    ],
+    "hpFactor": 7500,
+    "SkillLevel": 0,
+    "initSkill": [
+      530173
+    ],
+    "initSkillSimple": "",
+    "UpDescribe": "",
+    "attribute": [
+      "Speed=25"
+    ],
+    "power": [
+      150,
+      0
+    ],
+    "activePower": [
+      0,
+      840
+    ]
+  },
+  {
+    "id": 25106,
+    "AwakeLevel": 6,
+    "AwakeCost": [
+      "380701,60"
+    ],
+    "hpFactor": 8000,
+    "SkillLevel": 0,
+    "initSkill": [
+      530173
+    ],
+    "initSkillSimple": "",
+    "UpDescribe": "",
+    "attribute": [
+      "Speed=30"
+    ],
+    "power": [
+      180,
+      0
+    ],
+    "activePower": [
+      0,
+      960
+    ]
+  },
+  {
+    "id": 25107,
+    "AwakeLevel": 7,
+    "AwakeCost": [
+      "380701,60"
+    ],
+    "hpFactor": 8500,
+    "SkillLevel": 4,
+    "initSkill": [
+      530174
+    ],
+    "initSkillSimple": "Skill_simpleDetail_530174",
+    "UpDescribe": "Skill_upDetail_530174",
+    "attribute": [
+      "Speed=35"
+    ],
+    "power": [
+      210,
+      0
+    ],
+    "activePower": [
+      0,
+      1140
+    ]
+  },
+  {
+    "id": 25108,
+    "AwakeLevel": 8,
+    "AwakeCost": [
+      "380701,60"
+    ],
+    "hpFactor": 9000,
+    "SkillLevel": 0,
+    "initSkill": [
+      530174
+    ],
+    "initSkillSimple": "",
+    "UpDescribe": "",
+    "attribute": [
+      "Speed=40"
+    ],
+    "power": [
+      240,
+      0
+    ],
+    "activePower": [
+      0,
+      1260
+    ]
+  },
+  {
+    "id": 25109,
+    "AwakeLevel": 9,
+    "AwakeCost": [
+      "380701,60"
+    ],
+    "hpFactor": 9500,
+    "SkillLevel": 0,
+    "initSkill": [
+      530174
+    ],
+    "initSkillSimple": "",
+    "UpDescribe": "",
+    "attribute": [
+      "Speed=45"
+    ],
+    "power": [
+      270,
+      0
+    ],
+    "activePower": [
+      0,
+      1380
+    ]
+  },
+  {
+    "id": 25110,
+    "AwakeLevel": 10,
+    "AwakeCost": [
+      "380701,60"
+    ],
+    "hpFactor": 10000,
+    "SkillLevel": 5,
+    "initSkill": [
+      530175
+    ],
+    "initSkillSimple": "Skill_simpleDetail_530175",
+    "UpDescribe": "Skill_upDetail_530175",
+    "attribute": [
+      "Speed=50"
+    ],
+    "power": [
+      300,
+      0
+    ],
+    "activePower": [
+      0,
+      1560
+    ]
+  },
+  {
+    "id": 30100,
+    "AwakeLevel": 0,
+    "AwakeCost": [],
+    "hpFactor": 1000,
+    "SkillLevel": 1,
+    "initSkill": [
+      530011
+    ],
+    "initSkillSimple": "Skill_simpleDetail_530011",
+    "UpDescribe": "Skill_upDetail_530011",
+    "attribute": [
+      "Speed=0"
+    ],
+    "power": [
+      0,
+      0
+    ],
+    "activePower": [
+      0,
+      10
+    ]
+  },
+  {
+    "id": 30101,
+    "AwakeLevel": 1,
+    "AwakeCost": [
+      "380201,30"
+    ],
+    "hpFactor": 1200,
+    "SkillLevel": 0,
+    "initSkill": [
+      530011
+    ],
+    "initSkillSimple": "",
+    "UpDescribe": "",
+    "attribute": [
+      "Speed=1"
+    ],
+    "power": [
+      8,
+      0
+    ],
+    "activePower": [
+      0,
+      20
+    ]
+  },
+  {
+    "id": 30102,
+    "AwakeLevel": 2,
+    "AwakeCost": [
+      "380201,30"
+    ],
+    "hpFactor": 1400,
+    "SkillLevel": 2,
+    "initSkill": [
+      530012
+    ],
+    "initSkillSimple": "Skill_simpleDetail_530012",
+    "UpDescribe": "Skill_upDetail_530012",
+    "attribute": [
+      "Speed=2"
+    ],
+    "power": [
+      16,
+      0
+    ],
+    "activePower": [
+      0,
+      35
+    ]
+  },
+  {
+    "id": 30103,
+    "AwakeLevel": 3,
+    "AwakeCost": [
+      "380201,30"
+    ],
+    "hpFactor": 1600,
+    "SkillLevel": 0,
+    "initSkill": [
+      530012
+    ],
+    "initSkillSimple": "",
+    "UpDescribe": "",
+    "attribute": [
+      "Speed=3"
+    ],
+    "power": [
+      24,
+      0
+    ],
+    "activePower": [
+      0,
+      45
+    ]
+  },
+  {
+    "id": 30104,
+    "AwakeLevel": 4,
+    "AwakeCost": [
+      "380201,30"
+    ],
+    "hpFactor": 1800,
+    "SkillLevel": 3,
+    "initSkill": [
+      530013
+    ],
+    "initSkillSimple": "Skill_simpleDetail_530013",
+    "UpDescribe": "Skill_upDetail_530013",
+    "attribute": [
+      "Speed=4"
+    ],
+    "power": [
+      32,
+      0
+    ],
+    "activePower": [
+      0,
+      60
+    ]
+  },
+  {
+    "id": 30105,
+    "AwakeLevel": 5,
+    "AwakeCost": [
+      "380201,30"
+    ],
+    "hpFactor": 2000,
+    "SkillLevel": 0,
+    "initSkill": [
+      530013
+    ],
+    "initSkillSimple": "",
+    "UpDescribe": "",
+    "attribute": [
+      "Speed=5"
+    ],
+    "power": [
+      40,
+      0
+    ],
+    "activePower": [
+      0,
+      70
+    ]
+  },
+  {
+    "id": 30106,
+    "AwakeLevel": 6,
+    "AwakeCost": [
+      "380201,60"
+    ],
+    "hpFactor": 2200,
+    "SkillLevel": 0,
+    "initSkill": [
+      530013
+    ],
+    "initSkillSimple": "",
+    "UpDescribe": "",
+    "attribute": [
+      "Speed=6"
+    ],
+    "power": [
+      48,
+      0
+    ],
+    "activePower": [
+      0,
+      80
+    ]
+  },
+  {
+    "id": 30107,
+    "AwakeLevel": 7,
+    "AwakeCost": [
+      "380201,60"
+    ],
+    "hpFactor": 2400,
+    "SkillLevel": 4,
+    "initSkill": [
+      530014
+    ],
+    "initSkillSimple": "Skill_simpleDetail_530014",
+    "UpDescribe": "Skill_upDetail_530014",
+    "attribute": [
+      "Speed=7"
+    ],
+    "power": [
+      56,
+      0
+    ],
+    "activePower": [
+      0,
+      95
+    ]
+  },
+  {
+    "id": 30108,
+    "AwakeLevel": 8,
+    "AwakeCost": [
+      "380201,60"
+    ],
+    "hpFactor": 2600,
+    "SkillLevel": 0,
+    "initSkill": [
+      530014
+    ],
+    "initSkillSimple": "",
+    "UpDescribe": "",
+    "attribute": [
+      "Speed=8"
+    ],
+    "power": [
+      64,
+      0
+    ],
+    "activePower": [
+      0,
+      105
+    ]
+  },
+  {
+    "id": 30109,
+    "AwakeLevel": 9,
+    "AwakeCost": [
+      "380201,60"
+    ],
+    "hpFactor": 2800,
+    "SkillLevel": 0,
+    "initSkill": [
+      530014
+    ],
+    "initSkillSimple": "",
+    "UpDescribe": "",
+    "attribute": [
+      "Speed=9"
+    ],
+    "power": [
+      72,
+      0
+    ],
+    "activePower": [
+      0,
+      115
+    ]
+  },
+  {
+    "id": 30110,
+    "AwakeLevel": 10,
+    "AwakeCost": [
+      "380201,60"
+    ],
+    "hpFactor": 3000,
+    "SkillLevel": 5,
+    "initSkill": [
+      530015
+    ],
+    "initSkillSimple": "Skill_simpleDetail_530015",
+    "UpDescribe": "Skill_upDetail_530015",
+    "attribute": [
+      "Speed=10"
+    ],
+    "power": [
+      80,
+      0
+    ],
+    "activePower": [
+      0,
+      130
+    ]
+  },
+  {
+    "id": 30200,
+    "AwakeLevel": 0,
+    "AwakeCost": [],
+    "hpFactor": 1000,
+    "SkillLevel": 1,
+    "initSkill": [
+      530081
+    ],
+    "initSkillSimple": "Skill_simpleDetail_530081",
+    "UpDescribe": "Skill_upDetail_530081",
+    "attribute": [
+      "Speed=0"
+    ],
+    "power": [
+      0,
+      0
+    ],
+    "activePower": [
+      0,
+      10
+    ]
+  },
+  {
+    "id": 30201,
+    "AwakeLevel": 1,
+    "AwakeCost": [
+      "380202,30"
+    ],
+    "hpFactor": 1200,
+    "SkillLevel": 0,
+    "initSkill": [
+      530081
+    ],
+    "initSkillSimple": "",
+    "UpDescribe": "",
+    "attribute": [
+      "Speed=1"
+    ],
+    "power": [
+      8,
+      0
+    ],
+    "activePower": [
+      0,
+      20
+    ]
+  },
+  {
+    "id": 30202,
+    "AwakeLevel": 2,
+    "AwakeCost": [
+      "380202,30"
+    ],
+    "hpFactor": 1400,
+    "SkillLevel": 2,
+    "initSkill": [
+      530082
+    ],
+    "initSkillSimple": "Skill_simpleDetail_530082",
+    "UpDescribe": "Skill_upDetail_530082",
+    "attribute": [
+      "Speed=2"
+    ],
+    "power": [
+      16,
+      0
+    ],
+    "activePower": [
+      0,
+      35
+    ]
+  },
+  {
+    "id": 30203,
+    "AwakeLevel": 3,
+    "AwakeCost": [
+      "380202,30"
+    ],
+    "hpFactor": 1600,
+    "SkillLevel": 0,
+    "initSkill": [
+      530082
+    ],
+    "initSkillSimple": "",
+    "UpDescribe": "",
+    "attribute": [
+      "Speed=3"
+    ],
+    "power": [
+      24,
+      0
+    ],
+    "activePower": [
+      0,
+      45
+    ]
+  },
+  {
+    "id": 30204,
+    "AwakeLevel": 4,
+    "AwakeCost": [
+      "380202,30"
+    ],
+    "hpFactor": 1800,
+    "SkillLevel": 3,
+    "initSkill": [
+      530083
+    ],
+    "initSkillSimple": "Skill_simpleDetail_530083",
+    "UpDescribe": "Skill_upDetail_530083",
+    "attribute": [
+      "Speed=4"
+    ],
+    "power": [
+      32,
+      0
+    ],
+    "activePower": [
+      0,
+      60
+    ]
+  },
+  {
+    "id": 30205,
+    "AwakeLevel": 5,
+    "AwakeCost": [
+      "380202,30"
+    ],
+    "hpFactor": 2000,
+    "SkillLevel": 0,
+    "initSkill": [
+      530083
+    ],
+    "initSkillSimple": "",
+    "UpDescribe": "",
+    "attribute": [
+      "Speed=5"
+    ],
+    "power": [
+      40,
+      0
+    ],
+    "activePower": [
+      0,
+      70
+    ]
+  },
+  {
+    "id": 30206,
+    "AwakeLevel": 6,
+    "AwakeCost": [
+      "380202,60"
+    ],
+    "hpFactor": 2200,
+    "SkillLevel": 0,
+    "initSkill": [
+      530083
+    ],
+    "initSkillSimple": "",
+    "UpDescribe": "",
+    "attribute": [
+      "Speed=6"
+    ],
+    "power": [
+      48,
+      0
+    ],
+    "activePower": [
+      0,
+      80
+    ]
+  },
+  {
+    "id": 30207,
+    "AwakeLevel": 7,
+    "AwakeCost": [
+      "380202,60"
+    ],
+    "hpFactor": 2400,
+    "SkillLevel": 4,
+    "initSkill": [
+      530084
+    ],
+    "initSkillSimple": "Skill_simpleDetail_530084",
+    "UpDescribe": "Skill_upDetail_530084",
+    "attribute": [
+      "Speed=7"
+    ],
+    "power": [
+      56,
+      0
+    ],
+    "activePower": [
+      0,
+      95
+    ]
+  },
+  {
+    "id": 30208,
+    "AwakeLevel": 8,
+    "AwakeCost": [
+      "380202,60"
+    ],
+    "hpFactor": 2600,
+    "SkillLevel": 0,
+    "initSkill": [
+      530084
+    ],
+    "initSkillSimple": "",
+    "UpDescribe": "",
+    "attribute": [
+      "Speed=8"
+    ],
+    "power": [
+      64,
+      0
+    ],
+    "activePower": [
+      0,
+      105
+    ]
+  },
+  {
+    "id": 30209,
+    "AwakeLevel": 9,
+    "AwakeCost": [
+      "380202,60"
+    ],
+    "hpFactor": 2800,
+    "SkillLevel": 0,
+    "initSkill": [
+      530084
+    ],
+    "initSkillSimple": "",
+    "UpDescribe": "",
+    "attribute": [
+      "Speed=9"
+    ],
+    "power": [
+      72,
+      0
+    ],
+    "activePower": [
+      0,
+      115
+    ]
+  },
+  {
+    "id": 30210,
+    "AwakeLevel": 10,
+    "AwakeCost": [
+      "380202,60"
+    ],
+    "hpFactor": 3000,
+    "SkillLevel": 5,
+    "initSkill": [
+      530085
+    ],
+    "initSkillSimple": "Skill_simpleDetail_530085",
+    "UpDescribe": "Skill_upDetail_530085",
+    "attribute": [
+      "Speed=10"
+    ],
+    "power": [
+      80,
+      0
+    ],
+    "activePower": [
+      0,
+      130
+    ]
+  },
+  {
+    "id": 30300,
+    "AwakeLevel": 0,
+    "AwakeCost": [],
+    "hpFactor": 1500,
+    "SkillLevel": 1,
+    "initSkill": [
+      530091
+    ],
+    "initSkillSimple": "Skill_simpleDetail_530091",
+    "UpDescribe": "Skill_upDetail_530091",
+    "attribute": [
+      "Speed=0"
+    ],
+    "power": [
+      0,
+      0
+    ],
+    "activePower": [
+      0,
+      15
+    ]
+  },
+  {
+    "id": 30301,
+    "AwakeLevel": 1,
+    "AwakeCost": [
+      "380301,30"
+    ],
+    "hpFactor": 1800,
+    "SkillLevel": 0,
+    "initSkill": [
+      530091
+    ],
+    "initSkillSimple": "",
+    "UpDescribe": "",
+    "attribute": [
+      "Speed=2"
+    ],
+    "power": [
+      10,
+      0
+    ],
+    "activePower": [
+      0,
+      30
+    ]
+  },
+  {
+    "id": 30302,
+    "AwakeLevel": 2,
+    "AwakeCost": [
+      "380301,30"
+    ],
+    "hpFactor": 2100,
+    "SkillLevel": 2,
+    "initSkill": [
+      530092
+    ],
+    "initSkillSimple": "Skill_simpleDetail_530092",
+    "UpDescribe": "Skill_upDetail_530092",
+    "attribute": [
+      "Speed=3"
+    ],
+    "power": [
+      20,
+      0
+    ],
+    "activePower": [
+      0,
+      53
+    ]
+  },
+  {
+    "id": 30303,
+    "AwakeLevel": 3,
+    "AwakeCost": [
+      "380301,30"
+    ],
+    "hpFactor": 2400,
+    "SkillLevel": 0,
+    "initSkill": [
+      530092
+    ],
+    "initSkillSimple": "",
+    "UpDescribe": "",
+    "attribute": [
+      "Speed=5"
+    ],
+    "power": [
+      30,
+      0
+    ],
+    "activePower": [
+      0,
+      68
+    ]
+  },
+  {
+    "id": 30304,
+    "AwakeLevel": 4,
+    "AwakeCost": [
+      "380301,30"
+    ],
+    "hpFactor": 2700,
+    "SkillLevel": 3,
+    "initSkill": [
+      530093
+    ],
+    "initSkillSimple": "Skill_simpleDetail_530093",
+    "UpDescribe": "Skill_upDetail_530093",
+    "attribute": [
+      "Speed=6"
+    ],
+    "power": [
+      40,
+      0
+    ],
+    "activePower": [
+      0,
+      90
+    ]
+  },
+  {
+    "id": 30305,
+    "AwakeLevel": 5,
+    "AwakeCost": [
+      "380301,30"
+    ],
+    "hpFactor": 3000,
+    "SkillLevel": 0,
+    "initSkill": [
+      530093
+    ],
+    "initSkillSimple": "",
+    "UpDescribe": "",
+    "attribute": [
+      "Speed=9"
+    ],
+    "power": [
+      50,
+      0
+    ],
+    "activePower": [
+      0,
+      105
+    ]
+  },
+  {
+    "id": 30306,
+    "AwakeLevel": 6,
+    "AwakeCost": [
+      "380301,60"
+    ],
+    "hpFactor": 3300,
+    "SkillLevel": 0,
+    "initSkill": [
+      530093
+    ],
+    "initSkillSimple": "",
+    "UpDescribe": "",
+    "attribute": [
+      "Speed=9"
+    ],
+    "power": [
+      60,
+      0
+    ],
+    "activePower": [
+      0,
+      120
+    ]
+  },
+  {
+    "id": 30307,
+    "AwakeLevel": 7,
+    "AwakeCost": [
+      "380301,60"
+    ],
+    "hpFactor": 3600,
+    "SkillLevel": 4,
+    "initSkill": [
+      530094
+    ],
+    "initSkillSimple": "Skill_simpleDetail_530094",
+    "UpDescribe": "Skill_upDetail_530094",
+    "attribute": [
+      "Speed=11"
+    ],
+    "power": [
+      70,
+      0
+    ],
+    "activePower": [
+      0,
+      143
+    ]
+  },
+  {
+    "id": 30308,
+    "AwakeLevel": 8,
+    "AwakeCost": [
+      "380301,60"
+    ],
+    "hpFactor": 3900,
+    "SkillLevel": 0,
+    "initSkill": [
+      530094
+    ],
+    "initSkillSimple": "",
+    "UpDescribe": "",
+    "attribute": [
+      "Speed=12"
+    ],
+    "power": [
+      80,
+      0
+    ],
+    "activePower": [
+      0,
+      158
+    ]
+  },
+  {
+    "id": 30309,
+    "AwakeLevel": 9,
+    "AwakeCost": [
+      "380301,60"
+    ],
+    "hpFactor": 4200,
+    "SkillLevel": 0,
+    "initSkill": [
+      530094
+    ],
+    "initSkillSimple": "",
+    "UpDescribe": "",
+    "attribute": [
+      "Speed=14"
+    ],
+    "power": [
+      90,
+      0
+    ],
+    "activePower": [
+      0,
+      173
+    ]
+  },
+  {
+    "id": 30310,
+    "AwakeLevel": 10,
+    "AwakeCost": [
+      "380301,60"
+    ],
+    "hpFactor": 4500,
+    "SkillLevel": 5,
+    "initSkill": [
+      530095
+    ],
+    "initSkillSimple": "Skill_simpleDetail_530095",
+    "UpDescribe": "Skill_upDetail_530095",
+    "attribute": [
+      "Speed=15"
+    ],
+    "power": [
+      100,
+      0
+    ],
+    "activePower": [
+      0,
+      195
+    ]
+  },
+  {
+    "id": 30400,
+    "AwakeLevel": 0,
+    "AwakeCost": [],
+    "hpFactor": 1500,
+    "SkillLevel": 1,
+    "initSkill": [
+      530051
+    ],
+    "initSkillSimple": "Skill_simpleDetail_530051",
+    "UpDescribe": "Skill_upDetail_530051",
+    "attribute": [
+      "Speed=0"
+    ],
+    "power": [
+      0,
+      0
+    ],
+    "activePower": [
+      0,
+      15
+    ]
+  },
+  {
+    "id": 30401,
+    "AwakeLevel": 1,
+    "AwakeCost": [
+      "380302,30"
+    ],
+    "hpFactor": 1800,
+    "SkillLevel": 0,
+    "initSkill": [
+      530051
+    ],
+    "initSkillSimple": "",
+    "UpDescribe": "",
+    "attribute": [
+      "Speed=2"
+    ],
+    "power": [
+      10,
+      0
+    ],
+    "activePower": [
+      0,
+      30
+    ]
+  },
+  {
+    "id": 30402,
+    "AwakeLevel": 2,
+    "AwakeCost": [
+      "380302,30"
+    ],
+    "hpFactor": 2100,
+    "SkillLevel": 2,
+    "initSkill": [
+      530052
+    ],
+    "initSkillSimple": "Skill_simpleDetail_530052",
+    "UpDescribe": "Skill_upDetail_530052",
+    "attribute": [
+      "Speed=3"
+    ],
+    "power": [
+      20,
+      0
+    ],
+    "activePower": [
+      0,
+      53
+    ]
+  },
+  {
+    "id": 30403,
+    "AwakeLevel": 3,
+    "AwakeCost": [
+      "380302,30"
+    ],
+    "hpFactor": 2400,
+    "SkillLevel": 0,
+    "initSkill": [
+      530052
+    ],
+    "initSkillSimple": "",
+    "UpDescribe": "",
+    "attribute": [
+      "Speed=5"
+    ],
+    "power": [
+      30,
+      0
+    ],
+    "activePower": [
+      0,
+      68
+    ]
+  },
+  {
+    "id": 30404,
+    "AwakeLevel": 4,
+    "AwakeCost": [
+      "380302,30"
+    ],
+    "hpFactor": 2700,
+    "SkillLevel": 3,
+    "initSkill": [
+      530053
+    ],
+    "initSkillSimple": "Skill_simpleDetail_530053",
+    "UpDescribe": "Skill_upDetail_530053",
+    "attribute": [
+      "Speed=6"
+    ],
+    "power": [
+      40,
+      0
+    ],
+    "activePower": [
+      0,
+      90
+    ]
+  },
+  {
+    "id": 30405,
+    "AwakeLevel": 5,
+    "AwakeCost": [
+      "380302,30"
+    ],
+    "hpFactor": 3000,
+    "SkillLevel": 0,
+    "initSkill": [
+      530053
+    ],
+    "initSkillSimple": "",
+    "UpDescribe": "",
+    "attribute": [
+      "Speed=9"
+    ],
+    "power": [
+      50,
+      0
+    ],
+    "activePower": [
+      0,
+      105
+    ]
+  },
+  {
+    "id": 30406,
+    "AwakeLevel": 6,
+    "AwakeCost": [
+      "380302,60"
+    ],
+    "hpFactor": 3300,
+    "SkillLevel": 0,
+    "initSkill": [
+      530053
+    ],
+    "initSkillSimple": "",
+    "UpDescribe": "",
+    "attribute": [
+      "Speed=9"
+    ],
+    "power": [
+      60,
+      0
+    ],
+    "activePower": [
+      0,
+      120
+    ]
+  },
+  {
+    "id": 30407,
+    "AwakeLevel": 7,
+    "AwakeCost": [
+      "380302,60"
+    ],
+    "hpFactor": 3600,
+    "SkillLevel": 4,
+    "initSkill": [
+      530054
+    ],
+    "initSkillSimple": "Skill_simpleDetail_530054",
+    "UpDescribe": "Skill_upDetail_530054",
+    "attribute": [
+      "Speed=11"
+    ],
+    "power": [
+      70,
+      0
+    ],
+    "activePower": [
+      0,
+      143
+    ]
+  },
+  {
+    "id": 30408,
+    "AwakeLevel": 8,
+    "AwakeCost": [
+      "380302,60"
+    ],
+    "hpFactor": 3900,
+    "SkillLevel": 0,
+    "initSkill": [
+      530054
+    ],
+    "initSkillSimple": "",
+    "UpDescribe": "",
+    "attribute": [
+      "Speed=12"
+    ],
+    "power": [
+      80,
+      0
+    ],
+    "activePower": [
+      0,
+      158
+    ]
+  },
+  {
+    "id": 30409,
+    "AwakeLevel": 9,
+    "AwakeCost": [
+      "380302,60"
+    ],
+    "hpFactor": 4200,
+    "SkillLevel": 0,
+    "initSkill": [
+      530054
+    ],
+    "initSkillSimple": "",
+    "UpDescribe": "",
+    "attribute": [
+      "Speed=14"
+    ],
+    "power": [
+      90,
+      0
+    ],
+    "activePower": [
+      0,
+      173
+    ]
+  },
+  {
+    "id": 30410,
+    "AwakeLevel": 10,
+    "AwakeCost": [
+      "380302,60"
+    ],
+    "hpFactor": 4500,
+    "SkillLevel": 5,
+    "initSkill": [
+      530055
+    ],
+    "initSkillSimple": "Skill_simpleDetail_530055",
+    "UpDescribe": "Skill_upDetail_530055",
+    "attribute": [
+      "Speed=15"
+    ],
+    "power": [
+      100,
+      0
+    ],
+    "activePower": [
+      0,
+      195
+    ]
+  },
+  {
+    "id": 30500,
+    "AwakeLevel": 0,
+    "AwakeCost": [],
+    "hpFactor": 1500,
+    "SkillLevel": 1,
+    "initSkill": [
+      530021
+    ],
+    "initSkillSimple": "Skill_simpleDetail_530021",
+    "UpDescribe": "Skill_upDetail_530021",
+    "attribute": [
+      "Speed=0"
+    ],
+    "power": [
+      0,
+      0
+    ],
+    "activePower": [
+      0,
+      15
+    ]
+  },
+  {
+    "id": 30501,
+    "AwakeLevel": 1,
+    "AwakeCost": [
+      "380303,30"
+    ],
+    "hpFactor": 1800,
+    "SkillLevel": 0,
+    "initSkill": [
+      530021
+    ],
+    "initSkillSimple": "",
+    "UpDescribe": "",
+    "attribute": [
+      "Speed=2"
+    ],
+    "power": [
+      10,
+      0
+    ],
+    "activePower": [
+      0,
+      30
+    ]
+  },
+  {
+    "id": 30502,
+    "AwakeLevel": 2,
+    "AwakeCost": [
+      "380303,30"
+    ],
+    "hpFactor": 2100,
+    "SkillLevel": 2,
+    "initSkill": [
+      530022
+    ],
+    "initSkillSimple": "Skill_simpleDetail_530022",
+    "UpDescribe": "Skill_upDetail_530022",
+    "attribute": [
+      "Speed=3"
+    ],
+    "power": [
+      20,
+      0
+    ],
+    "activePower": [
+      0,
+      53
+    ]
+  },
+  {
+    "id": 30503,
+    "AwakeLevel": 3,
+    "AwakeCost": [
+      "380303,30"
+    ],
+    "hpFactor": 2400,
+    "SkillLevel": 0,
+    "initSkill": [
+      530022
+    ],
+    "initSkillSimple": "",
+    "UpDescribe": "",
+    "attribute": [
+      "Speed=5"
+    ],
+    "power": [
+      30,
+      0
+    ],
+    "activePower": [
+      0,
+      68
+    ]
+  },
+  {
+    "id": 30504,
+    "AwakeLevel": 4,
+    "AwakeCost": [
+      "380303,30"
+    ],
+    "hpFactor": 2700,
+    "SkillLevel": 3,
+    "initSkill": [
+      530023
+    ],
+    "initSkillSimple": "Skill_simpleDetail_530023",
+    "UpDescribe": "Skill_upDetail_530023",
+    "attribute": [
+      "Speed=6"
+    ],
+    "power": [
+      40,
+      0
+    ],
+    "activePower": [
+      0,
+      90
+    ]
+  },
+  {
+    "id": 30505,
+    "AwakeLevel": 5,
+    "AwakeCost": [
+      "380303,30"
+    ],
+    "hpFactor": 3000,
+    "SkillLevel": 0,
+    "initSkill": [
+      530023
+    ],
+    "initSkillSimple": "",
+    "UpDescribe": "",
+    "attribute": [
+      "Speed=9"
+    ],
+    "power": [
+      50,
+      0
+    ],
+    "activePower": [
+      0,
+      105
+    ]
+  },
+  {
+    "id": 30506,
+    "AwakeLevel": 6,
+    "AwakeCost": [
+      "380303,60"
+    ],
+    "hpFactor": 3300,
+    "SkillLevel": 0,
+    "initSkill": [
+      530023
+    ],
+    "initSkillSimple": "",
+    "UpDescribe": "",
+    "attribute": [
+      "Speed=9"
+    ],
+    "power": [
+      60,
+      0
+    ],
+    "activePower": [
+      0,
+      120
+    ]
+  },
+  {
+    "id": 30507,
+    "AwakeLevel": 7,
+    "AwakeCost": [
+      "380303,60"
+    ],
+    "hpFactor": 3600,
+    "SkillLevel": 4,
+    "initSkill": [
+      530024
+    ],
+    "initSkillSimple": "Skill_simpleDetail_530024",
+    "UpDescribe": "Skill_upDetail_530024",
+    "attribute": [
+      "Speed=11"
+    ],
+    "power": [
+      70,
+      0
+    ],
+    "activePower": [
+      0,
+      143
+    ]
+  },
+  {
+    "id": 30508,
+    "AwakeLevel": 8,
+    "AwakeCost": [
+      "380303,60"
+    ],
+    "hpFactor": 3900,
+    "SkillLevel": 0,
+    "initSkill": [
+      530024
+    ],
+    "initSkillSimple": "",
+    "UpDescribe": "",
+    "attribute": [
+      "Speed=12"
+    ],
+    "power": [
+      80,
+      0
+    ],
+    "activePower": [
+      0,
+      158
+    ]
+  },
+  {
+    "id": 30509,
+    "AwakeLevel": 9,
+    "AwakeCost": [
+      "380303,60"
+    ],
+    "hpFactor": 4200,
+    "SkillLevel": 0,
+    "initSkill": [
+      530024
+    ],
+    "initSkillSimple": "",
+    "UpDescribe": "",
+    "attribute": [
+      "Speed=14"
+    ],
+    "power": [
+      90,
+      0
+    ],
+    "activePower": [
+      0,
+      173
+    ]
+  },
+  {
+    "id": 30510,
+    "AwakeLevel": 10,
+    "AwakeCost": [
+      "380303,60"
+    ],
+    "hpFactor": 4500,
+    "SkillLevel": 5,
+    "initSkill": [
+      530025
+    ],
+    "initSkillSimple": "Skill_simpleDetail_530025",
+    "UpDescribe": "Skill_upDetail_530025",
+    "attribute": [
+      "Speed=15"
+    ],
+    "power": [
+      100,
+      0
+    ],
+    "activePower": [
+      0,
+      195
+    ]
+  },
+  {
+    "id": 30600,
+    "AwakeLevel": 0,
+    "AwakeCost": [],
+    "hpFactor": 2000,
+    "SkillLevel": 1,
+    "initSkill": [
+      530101
+    ],
+    "initSkillSimple": "Skill_simpleDetail_530101",
+    "UpDescribe": "Skill_upDetail_530101",
+    "attribute": [
+      "Speed=0"
+    ],
+    "power": [
+      0,
+      0
+    ],
+    "activePower": [
+      0,
+      25
+    ]
+  },
+  {
+    "id": 30601,
+    "AwakeLevel": 1,
+    "AwakeCost": [
+      "380401,30"
+    ],
+    "hpFactor": 2400,
+    "SkillLevel": 0,
+    "initSkill": [
+      530101
+    ],
+    "initSkillSimple": "",
+    "UpDescribe": "",
+    "attribute": [
+      "Speed=2"
+    ],
+    "power": [
+      13,
+      0
+    ],
+    "activePower": [
+      0,
+      50
+    ]
+  },
+  {
+    "id": 30602,
+    "AwakeLevel": 2,
+    "AwakeCost": [
+      "380401,30"
+    ],
+    "hpFactor": 2800,
+    "SkillLevel": 2,
+    "initSkill": [
+      530102
+    ],
+    "initSkillSimple": "Skill_simpleDetail_530102",
+    "UpDescribe": "Skill_upDetail_530102",
+    "attribute": [
+      "Speed=4"
+    ],
+    "power": [
+      26,
+      0
+    ],
+    "activePower": [
+      0,
+      88
+    ]
+  },
+  {
+    "id": 30603,
+    "AwakeLevel": 3,
+    "AwakeCost": [
+      "380401,30"
+    ],
+    "hpFactor": 3200,
+    "SkillLevel": 0,
+    "initSkill": [
+      530102
+    ],
+    "initSkillSimple": "",
+    "UpDescribe": "",
+    "attribute": [
+      "Speed=6"
+    ],
+    "power": [
+      39,
+      0
+    ],
+    "activePower": [
+      0,
+      113
+    ]
+  },
+  {
+    "id": 30604,
+    "AwakeLevel": 4,
+    "AwakeCost": [
+      "380401,30"
+    ],
+    "hpFactor": 3600,
+    "SkillLevel": 3,
+    "initSkill": [
+      530103
+    ],
+    "initSkillSimple": "Skill_simpleDetail_530103",
+    "UpDescribe": "Skill_upDetail_530103",
+    "attribute": [
+      "Speed=8"
+    ],
+    "power": [
+      52,
+      0
+    ],
+    "activePower": [
+      0,
+      150
+    ]
+  },
+  {
+    "id": 30605,
+    "AwakeLevel": 5,
+    "AwakeCost": [
+      "380401,30"
+    ],
+    "hpFactor": 4000,
+    "SkillLevel": 0,
+    "initSkill": [
+      530103
+    ],
+    "initSkillSimple": "",
+    "UpDescribe": "",
+    "attribute": [
+      "Speed=10"
+    ],
+    "power": [
+      65,
+      0
+    ],
+    "activePower": [
+      0,
+      175
+    ]
+  },
+  {
+    "id": 30606,
+    "AwakeLevel": 6,
+    "AwakeCost": [
+      "380401,60"
+    ],
+    "hpFactor": 4400,
+    "SkillLevel": 0,
+    "initSkill": [
+      530103
+    ],
+    "initSkillSimple": "",
+    "UpDescribe": "",
+    "attribute": [
+      "Speed=12"
+    ],
+    "power": [
+      78,
+      0
+    ],
+    "activePower": [
+      0,
+      200
+    ]
+  },
+  {
+    "id": 30607,
+    "AwakeLevel": 7,
+    "AwakeCost": [
+      "380401,60"
+    ],
+    "hpFactor": 4800,
+    "SkillLevel": 4,
+    "initSkill": [
+      530104
+    ],
+    "initSkillSimple": "Skill_simpleDetail_530104",
+    "UpDescribe": "Skill_upDetail_530104",
+    "attribute": [
+      "Speed=14"
+    ],
+    "power": [
+      91,
+      0
+    ],
+    "activePower": [
+      0,
+      238
+    ]
+  },
+  {
+    "id": 30608,
+    "AwakeLevel": 8,
+    "AwakeCost": [
+      "380401,60"
+    ],
+    "hpFactor": 5200,
+    "SkillLevel": 0,
+    "initSkill": [
+      530104
+    ],
+    "initSkillSimple": "",
+    "UpDescribe": "",
+    "attribute": [
+      "Speed=16"
+    ],
+    "power": [
+      104,
+      0
+    ],
+    "activePower": [
+      0,
+      263
+    ]
+  },
+  {
+    "id": 30609,
+    "AwakeLevel": 9,
+    "AwakeCost": [
+      "380401,60"
+    ],
+    "hpFactor": 5600,
+    "SkillLevel": 0,
+    "initSkill": [
+      530104
+    ],
+    "initSkillSimple": "",
+    "UpDescribe": "",
+    "attribute": [
+      "Speed=18"
+    ],
+    "power": [
+      117,
+      0
+    ],
+    "activePower": [
+      0,
+      288
+    ]
+  },
+  {
+    "id": 30610,
+    "AwakeLevel": 10,
+    "AwakeCost": [
+      "380401,60"
+    ],
+    "hpFactor": 6000,
+    "SkillLevel": 5,
+    "initSkill": [
+      530105
+    ],
+    "initSkillSimple": "Skill_simpleDetail_530105",
+    "UpDescribe": "Skill_upDetail_530105",
+    "attribute": [
+      "Speed=20"
+    ],
+    "power": [
+      130,
+      0
+    ],
+    "activePower": [
+      0,
+      325
+    ]
+  },
+  {
+    "id": 30700,
+    "AwakeLevel": 0,
+    "AwakeCost": [],
+    "hpFactor": 2000,
+    "SkillLevel": 1,
+    "initSkill": [
+      530031
+    ],
+    "initSkillSimple": "Skill_simpleDetail_530031",
+    "UpDescribe": "Skill_upDetail_530031",
+    "attribute": [
+      "Speed=0"
+    ],
+    "power": [
+      0,
+      0
+    ],
+    "activePower": [
+      0,
+      25
+    ]
+  },
+  {
+    "id": 30701,
+    "AwakeLevel": 1,
+    "AwakeCost": [
+      "380402,30"
+    ],
+    "hpFactor": 2400,
+    "SkillLevel": 0,
+    "initSkill": [
+      530031
+    ],
+    "initSkillSimple": "",
+    "UpDescribe": "",
+    "attribute": [
+      "Speed=2"
+    ],
+    "power": [
+      13,
+      0
+    ],
+    "activePower": [
+      0,
+      50
+    ]
+  },
+  {
+    "id": 30702,
+    "AwakeLevel": 2,
+    "AwakeCost": [
+      "380402,30"
+    ],
+    "hpFactor": 2800,
+    "SkillLevel": 2,
+    "initSkill": [
+      530032
+    ],
+    "initSkillSimple": "Skill_simpleDetail_530032",
+    "UpDescribe": "Skill_upDetail_530032",
+    "attribute": [
+      "Speed=4"
+    ],
+    "power": [
+      26,
+      0
+    ],
+    "activePower": [
+      0,
+      88
+    ]
+  },
+  {
+    "id": 30703,
+    "AwakeLevel": 3,
+    "AwakeCost": [
+      "380402,30"
+    ],
+    "hpFactor": 3200,
+    "SkillLevel": 0,
+    "initSkill": [
+      530032
+    ],
+    "initSkillSimple": "",
+    "UpDescribe": "",
+    "attribute": [
+      "Speed=6"
+    ],
+    "power": [
+      39,
+      0
+    ],
+    "activePower": [
+      0,
+      113
+    ]
+  },
+  {
+    "id": 30704,
+    "AwakeLevel": 4,
+    "AwakeCost": [
+      "380402,30"
+    ],
+    "hpFactor": 3600,
+    "SkillLevel": 3,
+    "initSkill": [
+      530033
+    ],
+    "initSkillSimple": "Skill_simpleDetail_530033",
+    "UpDescribe": "Skill_upDetail_530033",
+    "attribute": [
+      "Speed=8"
+    ],
+    "power": [
+      52,
+      0
+    ],
+    "activePower": [
+      0,
+      150
+    ]
+  },
+  {
+    "id": 30705,
+    "AwakeLevel": 5,
+    "AwakeCost": [
+      "380402,30"
+    ],
+    "hpFactor": 4000,
+    "SkillLevel": 0,
+    "initSkill": [
+      530033
+    ],
+    "initSkillSimple": "",
+    "UpDescribe": "",
+    "attribute": [
+      "Speed=10"
+    ],
+    "power": [
+      65,
+      0
+    ],
+    "activePower": [
+      0,
+      175
+    ]
+  },
+  {
+    "id": 30706,
+    "AwakeLevel": 6,
+    "AwakeCost": [
+      "380402,60"
+    ],
+    "hpFactor": 4400,
+    "SkillLevel": 0,
+    "initSkill": [
+      530033
+    ],
+    "initSkillSimple": "",
+    "UpDescribe": "",
+    "attribute": [
+      "Speed=12"
+    ],
+    "power": [
+      78,
+      0
+    ],
+    "activePower": [
+      0,
+      200
+    ]
+  },
+  {
+    "id": 30707,
+    "AwakeLevel": 7,
+    "AwakeCost": [
+      "380402,60"
+    ],
+    "hpFactor": 4800,
+    "SkillLevel": 4,
+    "initSkill": [
+      530034
+    ],
+    "initSkillSimple": "Skill_simpleDetail_530034",
+    "UpDescribe": "Skill_upDetail_530034",
+    "attribute": [
+      "Speed=14"
+    ],
+    "power": [
+      91,
+      0
+    ],
+    "activePower": [
+      0,
+      238
+    ]
+  },
+  {
+    "id": 30708,
+    "AwakeLevel": 8,
+    "AwakeCost": [
+      "380402,60"
+    ],
+    "hpFactor": 5200,
+    "SkillLevel": 0,
+    "initSkill": [
+      530034
+    ],
+    "initSkillSimple": "",
+    "UpDescribe": "",
+    "attribute": [
+      "Speed=16"
+    ],
+    "power": [
+      104,
+      0
+    ],
+    "activePower": [
+      0,
+      263
+    ]
+  },
+  {
+    "id": 30709,
+    "AwakeLevel": 9,
+    "AwakeCost": [
+      "380402,60"
+    ],
+    "hpFactor": 5600,
+    "SkillLevel": 0,
+    "initSkill": [
+      530034
+    ],
+    "initSkillSimple": "",
+    "UpDescribe": "",
+    "attribute": [
+      "Speed=18"
+    ],
+    "power": [
+      117,
+      0
+    ],
+    "activePower": [
+      0,
+      288
+    ]
+  },
+  {
+    "id": 30710,
+    "AwakeLevel": 10,
+    "AwakeCost": [
+      "380402,60"
+    ],
+    "hpFactor": 6000,
+    "SkillLevel": 5,
+    "initSkill": [
+      530035
+    ],
+    "initSkillSimple": "Skill_simpleDetail_530035",
+    "UpDescribe": "Skill_upDetail_530035",
+    "attribute": [
+      "Speed=20"
+    ],
+    "power": [
+      130,
+      0
+    ],
+    "activePower": [
+      0,
+      325
+    ]
+  },
+  {
+    "id": 30800,
+    "AwakeLevel": 0,
+    "AwakeCost": [],
+    "hpFactor": 2000,
+    "SkillLevel": 1,
+    "initSkill": [
+      530041
+    ],
+    "initSkillSimple": "Skill_simpleDetail_530041",
+    "UpDescribe": "Skill_upDetail_530041",
+    "attribute": [
+      "Speed=0"
+    ],
+    "power": [
+      0,
+      0
+    ],
+    "activePower": [
+      0,
+      25
+    ]
+  },
+  {
+    "id": 30801,
+    "AwakeLevel": 1,
+    "AwakeCost": [
+      "380403,30"
+    ],
+    "hpFactor": 2400,
+    "SkillLevel": 0,
+    "initSkill": [
+      530041
+    ],
+    "initSkillSimple": "",
+    "UpDescribe": "",
+    "attribute": [
+      "Speed=2"
+    ],
+    "power": [
+      13,
+      0
+    ],
+    "activePower": [
+      0,
+      50
+    ]
+  },
+  {
+    "id": 30802,
+    "AwakeLevel": 2,
+    "AwakeCost": [
+      "380403,30"
+    ],
+    "hpFactor": 2800,
+    "SkillLevel": 2,
+    "initSkill": [
+      530042
+    ],
+    "initSkillSimple": "Skill_simpleDetail_530042",
+    "UpDescribe": "Skill_upDetail_530042",
+    "attribute": [
+      "Speed=4"
+    ],
+    "power": [
+      26,
+      0
+    ],
+    "activePower": [
+      0,
+      88
+    ]
+  },
+  {
+    "id": 30803,
+    "AwakeLevel": 3,
+    "AwakeCost": [
+      "380403,30"
+    ],
+    "hpFactor": 3200,
+    "SkillLevel": 0,
+    "initSkill": [
+      530042
+    ],
+    "initSkillSimple": "",
+    "UpDescribe": "",
+    "attribute": [
+      "Speed=6"
+    ],
+    "power": [
+      39,
+      0
+    ],
+    "activePower": [
+      0,
+      113
+    ]
+  },
+  {
+    "id": 30804,
+    "AwakeLevel": 4,
+    "AwakeCost": [
+      "380403,30"
+    ],
+    "hpFactor": 3600,
+    "SkillLevel": 3,
+    "initSkill": [
+      530043
+    ],
+    "initSkillSimple": "Skill_simpleDetail_530043",
+    "UpDescribe": "Skill_upDetail_530043",
+    "attribute": [
+      "Speed=8"
+    ],
+    "power": [
+      52,
+      0
+    ],
+    "activePower": [
+      0,
+      150
+    ]
+  },
+  {
+    "id": 30805,
+    "AwakeLevel": 5,
+    "AwakeCost": [
+      "380403,30"
+    ],
+    "hpFactor": 4000,
+    "SkillLevel": 0,
+    "initSkill": [
+      530043
+    ],
+    "initSkillSimple": "",
+    "UpDescribe": "",
+    "attribute": [
+      "Speed=10"
+    ],
+    "power": [
+      65,
+      0
+    ],
+    "activePower": [
+      0,
+      175
+    ]
+  },
+  {
+    "id": 30806,
+    "AwakeLevel": 6,
+    "AwakeCost": [
+      "380403,60"
+    ],
+    "hpFactor": 4400,
+    "SkillLevel": 0,
+    "initSkill": [
+      530043
+    ],
+    "initSkillSimple": "",
+    "UpDescribe": "",
+    "attribute": [
+      "Speed=12"
+    ],
+    "power": [
+      78,
+      0
+    ],
+    "activePower": [
+      0,
+      200
+    ]
+  },
+  {
+    "id": 30807,
+    "AwakeLevel": 7,
+    "AwakeCost": [
+      "380403,60"
+    ],
+    "hpFactor": 4800,
+    "SkillLevel": 4,
+    "initSkill": [
+      530044
+    ],
+    "initSkillSimple": "Skill_simpleDetail_530044",
+    "UpDescribe": "Skill_upDetail_530044",
+    "attribute": [
+      "Speed=14"
+    ],
+    "power": [
+      91,
+      0
+    ],
+    "activePower": [
+      0,
+      238
+    ]
+  },
+  {
+    "id": 30808,
+    "AwakeLevel": 8,
+    "AwakeCost": [
+      "380403,60"
+    ],
+    "hpFactor": 5200,
+    "SkillLevel": 0,
+    "initSkill": [
+      530044
+    ],
+    "initSkillSimple": "",
+    "UpDescribe": "",
+    "attribute": [
+      "Speed=16"
+    ],
+    "power": [
+      104,
+      0
+    ],
+    "activePower": [
+      0,
+      263
+    ]
+  },
+  {
+    "id": 30809,
+    "AwakeLevel": 9,
+    "AwakeCost": [
+      "380403,60"
+    ],
+    "hpFactor": 5600,
+    "SkillLevel": 0,
+    "initSkill": [
+      530044
+    ],
+    "initSkillSimple": "",
+    "UpDescribe": "",
+    "attribute": [
+      "Speed=18"
+    ],
+    "power": [
+      117,
+      0
+    ],
+    "activePower": [
+      0,
+      288
+    ]
+  },
+  {
+    "id": 30810,
+    "AwakeLevel": 10,
+    "AwakeCost": [
+      "380403,60"
+    ],
+    "hpFactor": 6000,
+    "SkillLevel": 5,
+    "initSkill": [
+      530045
+    ],
+    "initSkillSimple": "Skill_simpleDetail_530045",
+    "UpDescribe": "Skill_upDetail_530045",
+    "attribute": [
+      "Speed=20"
+    ],
+    "power": [
+      130,
+      0
+    ],
+    "activePower": [
+      0,
+      325
+    ]
+  }
+]

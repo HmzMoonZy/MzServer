@@ -1,0 +1,1370 @@
+[
+  {
+    "ID": 1,
+    "ComsumRange": [
+      0,
+      500
+    ],
+    "MinValue": 0,
+    "MaxValue": 25000
+  },
+  {
+    "ID": 2,
+    "ComsumRange": [
+      501,
+      600
+    ],
+    "MinValue": 25050,
+    "MaxValue": 30000
+  },
+  {
+    "ID": 3,
+    "ComsumRange": [
+      601,
+      700
+    ],
+    "MinValue": 30050,
+    "MaxValue": 35000
+  },
+  {
+    "ID": 4,
+    "ComsumRange": [
+      701,
+      800
+    ],
+    "MinValue": 35050,
+    "MaxValue": 40000
+  },
+  {
+    "ID": 5,
+    "ComsumRange": [
+      801,
+      900
+    ],
+    "MinValue": 40050,
+    "MaxValue": 45000
+  },
+  {
+    "ID": 6,
+    "ComsumRange": [
+      901,
+      1000
+    ],
+    "MinValue": 45050,
+    "MaxValue": 50000
+  },
+  {
+    "ID": 7,
+    "ComsumRange": [
+      1001,
+      1100
+    ],
+    "MinValue": 50050,
+    "MaxValue": 55000
+  },
+  {
+    "ID": 8,
+    "ComsumRange": [
+      1101,
+      1200
+    ],
+    "MinValue": 55050,
+    "MaxValue": 60000
+  },
+  {
+    "ID": 9,
+    "ComsumRange": [
+      1201,
+      1300
+    ],
+    "MinValue": 60050,
+    "MaxValue": 65000
+  },
+  {
+    "ID": 10,
+    "ComsumRange": [
+      1301,
+      1400
+    ],
+    "MinValue": 65050,
+    "MaxValue": 70000
+  },
+  {
+    "ID": 11,
+    "ComsumRange": [
+      1401,
+      1500
+    ],
+    "MinValue": 70050,
+    "MaxValue": 75000
+  },
+  {
+    "ID": 12,
+    "ComsumRange": [
+      1501,
+      1600
+    ],
+    "MinValue": 75050,
+    "MaxValue": 80000
+  },
+  {
+    "ID": 13,
+    "ComsumRange": [
+      1601,
+      1700
+    ],
+    "MinValue": 80050,
+    "MaxValue": 85000
+  },
+  {
+    "ID": 14,
+    "ComsumRange": [
+      1701,
+      1800
+    ],
+    "MinValue": 85050,
+    "MaxValue": 90000
+  },
+  {
+    "ID": 15,
+    "ComsumRange": [
+      1801,
+      1900
+    ],
+    "MinValue": 90050,
+    "MaxValue": 95000
+  },
+  {
+    "ID": 16,
+    "ComsumRange": [
+      1901,
+      2000
+    ],
+    "MinValue": 95050,
+    "MaxValue": 100000
+  },
+  {
+    "ID": 17,
+    "ComsumRange": [
+      2001,
+      2200
+    ],
+    "MinValue": 100050,
+    "MaxValue": 110000
+  },
+  {
+    "ID": 18,
+    "ComsumRange": [
+      2201,
+      2400
+    ],
+    "MinValue": 110050,
+    "MaxValue": 120000
+  },
+  {
+    "ID": 19,
+    "ComsumRange": [
+      2401,
+      2600
+    ],
+    "MinValue": 120050,
+    "MaxValue": 130000
+  },
+  {
+    "ID": 20,
+    "ComsumRange": [
+      2601,
+      2800
+    ],
+    "MinValue": 130050,
+    "MaxValue": 140000
+  },
+  {
+    "ID": 21,
+    "ComsumRange": [
+      2801,
+      3000
+    ],
+    "MinValue": 140050,
+    "MaxValue": 150000
+  },
+  {
+    "ID": 22,
+    "ComsumRange": [
+      3001,
+      3200
+    ],
+    "MinValue": 150050,
+    "MaxValue": 160000
+  },
+  {
+    "ID": 23,
+    "ComsumRange": [
+      3201,
+      3400
+    ],
+    "MinValue": 160050,
+    "MaxValue": 170000
+  },
+  {
+    "ID": 24,
+    "ComsumRange": [
+      3401,
+      3600
+    ],
+    "MinValue": 170050,
+    "MaxValue": 180000
+  },
+  {
+    "ID": 25,
+    "ComsumRange": [
+      3601,
+      3800
+    ],
+    "MinValue": 180050,
+    "MaxValue": 190000
+  },
+  {
+    "ID": 26,
+    "ComsumRange": [
+      3801,
+      4000
+    ],
+    "MinValue": 190050,
+    "MaxValue": 200000
+  },
+  {
+    "ID": 27,
+    "ComsumRange": [
+      4001,
+      4200
+    ],
+    "MinValue": 200050,
+    "MaxValue": 210000
+  },
+  {
+    "ID": 28,
+    "ComsumRange": [
+      4201,
+      4400
+    ],
+    "MinValue": 210050,
+    "MaxValue": 220000
+  },
+  {
+    "ID": 29,
+    "ComsumRange": [
+      4401,
+      4600
+    ],
+    "MinValue": 220050,
+    "MaxValue": 230000
+  },
+  {
+    "ID": 30,
+    "ComsumRange": [
+      4601,
+      4800
+    ],
+    "MinValue": 230050,
+    "MaxValue": 240000
+  },
+  {
+    "ID": 31,
+    "ComsumRange": [
+      4801,
+      5000
+    ],
+    "MinValue": 240050,
+    "MaxValue": 250000
+  },
+  {
+    "ID": 32,
+    "ComsumRange": [
+      5001,
+      5200
+    ],
+    "MinValue": 250050,
+    "MaxValue": 260000
+  },
+  {
+    "ID": 33,
+    "ComsumRange": [
+      5201,
+      5400
+    ],
+    "MinValue": 260050,
+    "MaxValue": 270000
+  },
+  {
+    "ID": 34,
+    "ComsumRange": [
+      5401,
+      5600
+    ],
+    "MinValue": 270050,
+    "MaxValue": 280000
+  },
+  {
+    "ID": 35,
+    "ComsumRange": [
+      5601,
+      5800
+    ],
+    "MinValue": 280050,
+    "MaxValue": 290000
+  },
+  {
+    "ID": 36,
+    "ComsumRange": [
+      5801,
+      6000
+    ],
+    "MinValue": 290050,
+    "MaxValue": 300000
+  },
+  {
+    "ID": 37,
+    "ComsumRange": [
+      6001,
+      6200
+    ],
+    "MinValue": 300050,
+    "MaxValue": 310000
+  },
+  {
+    "ID": 38,
+    "ComsumRange": [
+      6201,
+      6400
+    ],
+    "MinValue": 310050,
+    "MaxValue": 320000
+  },
+  {
+    "ID": 39,
+    "ComsumRange": [
+      6401,
+      6600
+    ],
+    "MinValue": 320050,
+    "MaxValue": 330000
+  },
+  {
+    "ID": 40,
+    "ComsumRange": [
+      6601,
+      6800
+    ],
+    "MinValue": 330050,
+    "MaxValue": 340000
+  },
+  {
+    "ID": 41,
+    "ComsumRange": [
+      6801,
+      7000
+    ],
+    "MinValue": 340050,
+    "MaxValue": 350000
+  },
+  {
+    "ID": 42,
+    "ComsumRange": [
+      7001,
+      7200
+    ],
+    "MinValue": 350050,
+    "MaxValue": 360000
+  },
+  {
+    "ID": 43,
+    "ComsumRange": [
+      7201,
+      7400
+    ],
+    "MinValue": 360050,
+    "MaxValue": 370000
+  },
+  {
+    "ID": 44,
+    "ComsumRange": [
+      7401,
+      7600
+    ],
+    "MinValue": 370050,
+    "MaxValue": 380000
+  },
+  {
+    "ID": 45,
+    "ComsumRange": [
+      7601,
+      7800
+    ],
+    "MinValue": 380050,
+    "MaxValue": 390000
+  },
+  {
+    "ID": 46,
+    "ComsumRange": [
+      7801,
+      8000
+    ],
+    "MinValue": 390050,
+    "MaxValue": 400000
+  },
+  {
+    "ID": 47,
+    "ComsumRange": [
+      8001,
+      8200
+    ],
+    "MinValue": 400050,
+    "MaxValue": 410000
+  },
+  {
+    "ID": 48,
+    "ComsumRange": [
+      8201,
+      8400
+    ],
+    "MinValue": 410050,
+    "MaxValue": 420000
+  },
+  {
+    "ID": 49,
+    "ComsumRange": [
+      8401,
+      8600
+    ],
+    "MinValue": 420050,
+    "MaxValue": 430000
+  },
+  {
+    "ID": 50,
+    "ComsumRange": [
+      8601,
+      8800
+    ],
+    "MinValue": 430050,
+    "MaxValue": 440000
+  },
+  {
+    "ID": 51,
+    "ComsumRange": [
+      8801,
+      9000
+    ],
+    "MinValue": 440050,
+    "MaxValue": 450000
+  },
+  {
+    "ID": 52,
+    "ComsumRange": [
+      9001,
+      9200
+    ],
+    "MinValue": 450050,
+    "MaxValue": 460000
+  },
+  {
+    "ID": 53,
+    "ComsumRange": [
+      9201,
+      9400
+    ],
+    "MinValue": 460050,
+    "MaxValue": 470000
+  },
+  {
+    "ID": 54,
+    "ComsumRange": [
+      9401,
+      9600
+    ],
+    "MinValue": 470050,
+    "MaxValue": 480000
+  },
+  {
+    "ID": 55,
+    "ComsumRange": [
+      9601,
+      9800
+    ],
+    "MinValue": 480050,
+    "MaxValue": 490000
+  },
+  {
+    "ID": 56,
+    "ComsumRange": [
+      9801,
+      10000
+    ],
+    "MinValue": 490050,
+    "MaxValue": 500000
+  },
+  {
+    "ID": 57,
+    "ComsumRange": [
+      10001,
+      10200
+    ],
+    "MinValue": 500050,
+    "MaxValue": 510000
+  },
+  {
+    "ID": 58,
+    "ComsumRange": [
+      10201,
+      10400
+    ],
+    "MinValue": 510050,
+    "MaxValue": 520000
+  },
+  {
+    "ID": 59,
+    "ComsumRange": [
+      10401,
+      10600
+    ],
+    "MinValue": 520050,
+    "MaxValue": 530000
+  },
+  {
+    "ID": 60,
+    "ComsumRange": [
+      10601,
+      10800
+    ],
+    "MinValue": 530050,
+    "MaxValue": 540000
+  },
+  {
+    "ID": 61,
+    "ComsumRange": [
+      10801,
+      11000
+    ],
+    "MinValue": 540050,
+    "MaxValue": 550000
+  },
+  {
+    "ID": 62,
+    "ComsumRange": [
+      11001,
+      11500
+    ],
+    "MinValue": 550050,
+    "MaxValue": 575000
+  },
+  {
+    "ID": 63,
+    "ComsumRange": [
+      11501,
+      12000
+    ],
+    "MinValue": 575050,
+    "MaxValue": 600000
+  },
+  {
+    "ID": 64,
+    "ComsumRange": [
+      12001,
+      12500
+    ],
+    "MinValue": 600050,
+    "MaxValue": 625000
+  },
+  {
+    "ID": 65,
+    "ComsumRange": [
+      12501,
+      13000
+    ],
+    "MinValue": 625050,
+    "MaxValue": 650000
+  },
+  {
+    "ID": 66,
+    "ComsumRange": [
+      13001,
+      13500
+    ],
+    "MinValue": 650050,
+    "MaxValue": 675000
+  },
+  {
+    "ID": 67,
+    "ComsumRange": [
+      13501,
+      14000
+    ],
+    "MinValue": 675050,
+    "MaxValue": 700000
+  },
+  {
+    "ID": 68,
+    "ComsumRange": [
+      14001,
+      14500
+    ],
+    "MinValue": 700050,
+    "MaxValue": 725000
+  },
+  {
+    "ID": 69,
+    "ComsumRange": [
+      14501,
+      15000
+    ],
+    "MinValue": 725050,
+    "MaxValue": 750000
+  },
+  {
+    "ID": 70,
+    "ComsumRange": [
+      15001,
+      15500
+    ],
+    "MinValue": 750050,
+    "MaxValue": 775000
+  },
+  {
+    "ID": 71,
+    "ComsumRange": [
+      15501,
+      16000
+    ],
+    "MinValue": 775050,
+    "MaxValue": 800000
+  },
+  {
+    "ID": 72,
+    "ComsumRange": [
+      16001,
+      16500
+    ],
+    "MinValue": 800050,
+    "MaxValue": 825000
+  },
+  {
+    "ID": 73,
+    "ComsumRange": [
+      16501,
+      17000
+    ],
+    "MinValue": 825050,
+    "MaxValue": 850000
+  },
+  {
+    "ID": 74,
+    "ComsumRange": [
+      17001,
+      17500
+    ],
+    "MinValue": 850050,
+    "MaxValue": 875000
+  },
+  {
+    "ID": 75,
+    "ComsumRange": [
+      17501,
+      18000
+    ],
+    "MinValue": 875050,
+    "MaxValue": 900000
+  },
+  {
+    "ID": 76,
+    "ComsumRange": [
+      18001,
+      18500
+    ],
+    "MinValue": 900050,
+    "MaxValue": 925000
+  },
+  {
+    "ID": 77,
+    "ComsumRange": [
+      18501,
+      19000
+    ],
+    "MinValue": 925050,
+    "MaxValue": 950000
+  },
+  {
+    "ID": 78,
+    "ComsumRange": [
+      19001,
+      19500
+    ],
+    "MinValue": 950050,
+    "MaxValue": 975000
+  },
+  {
+    "ID": 79,
+    "ComsumRange": [
+      19501,
+      20000
+    ],
+    "MinValue": 975050,
+    "MaxValue": 1000000
+  },
+  {
+    "ID": 80,
+    "ComsumRange": [
+      20001,
+      21000
+    ],
+    "MinValue": 1000050,
+    "MaxValue": 1050000
+  },
+  {
+    "ID": 81,
+    "ComsumRange": [
+      21001,
+      21500
+    ],
+    "MinValue": 1050050,
+    "MaxValue": 1075000
+  },
+  {
+    "ID": 82,
+    "ComsumRange": [
+      21501,
+      22000
+    ],
+    "MinValue": 1075050,
+    "MaxValue": 1100000
+  },
+  {
+    "ID": 83,
+    "ComsumRange": [
+      22001,
+      22500
+    ],
+    "MinValue": 1100050,
+    "MaxValue": 1125000
+  },
+  {
+    "ID": 84,
+    "ComsumRange": [
+      22501,
+      23000
+    ],
+    "MinValue": 1125050,
+    "MaxValue": 1150000
+  },
+  {
+    "ID": 85,
+    "ComsumRange": [
+      23001,
+      23500
+    ],
+    "MinValue": 1150050,
+    "MaxValue": 1175000
+  },
+  {
+    "ID": 86,
+    "ComsumRange": [
+      23501,
+      24000
+    ],
+    "MinValue": 1175050,
+    "MaxValue": 1200000
+  },
+  {
+    "ID": 87,
+    "ComsumRange": [
+      24001,
+      24500
+    ],
+    "MinValue": 1200050,
+    "MaxValue": 1225000
+  },
+  {
+    "ID": 88,
+    "ComsumRange": [
+      24501,
+      25000
+    ],
+    "MinValue": 1225050,
+    "MaxValue": 1250000
+  },
+  {
+    "ID": 89,
+    "ComsumRange": [
+      25001,
+      25500
+    ],
+    "MinValue": 1250050,
+    "MaxValue": 1275000
+  },
+  {
+    "ID": 90,
+    "ComsumRange": [
+      25501,
+      26000
+    ],
+    "MinValue": 1275050,
+    "MaxValue": 1300000
+  },
+  {
+    "ID": 91,
+    "ComsumRange": [
+      26001,
+      26500
+    ],
+    "MinValue": 1300050,
+    "MaxValue": 1325000
+  },
+  {
+    "ID": 92,
+    "ComsumRange": [
+      26501,
+      27000
+    ],
+    "MinValue": 1325050,
+    "MaxValue": 1350000
+  },
+  {
+    "ID": 93,
+    "ComsumRange": [
+      27001,
+      27500
+    ],
+    "MinValue": 1350050,
+    "MaxValue": 1375000
+  },
+  {
+    "ID": 94,
+    "ComsumRange": [
+      27501,
+      28000
+    ],
+    "MinValue": 1375050,
+    "MaxValue": 1400000
+  },
+  {
+    "ID": 95,
+    "ComsumRange": [
+      28001,
+      28500
+    ],
+    "MinValue": 1400050,
+    "MaxValue": 1425000
+  },
+  {
+    "ID": 96,
+    "ComsumRange": [
+      28501,
+      29000
+    ],
+    "MinValue": 1425050,
+    "MaxValue": 1450000
+  },
+  {
+    "ID": 97,
+    "ComsumRange": [
+      29001,
+      29200
+    ],
+    "MinValue": 1450050,
+    "MaxValue": 1460000
+  },
+  {
+    "ID": 98,
+    "ComsumRange": [
+      29201,
+      29400
+    ],
+    "MinValue": 1460050,
+    "MaxValue": 1470000
+  },
+  {
+    "ID": 99,
+    "ComsumRange": [
+      29401,
+      29600
+    ],
+    "MinValue": 1470050,
+    "MaxValue": 1480000
+  },
+  {
+    "ID": 100,
+    "ComsumRange": [
+      29601,
+      29800
+    ],
+    "MinValue": 1480050,
+    "MaxValue": 1490000
+  },
+  {
+    "ID": 101,
+    "ComsumRange": [
+      29801,
+      30000
+    ],
+    "MinValue": 1490050,
+    "MaxValue": 1500000
+  },
+  {
+    "ID": 102,
+    "ComsumRange": [
+      30001,
+      30200
+    ],
+    "MinValue": 1500050,
+    "MaxValue": 1510000
+  },
+  {
+    "ID": 103,
+    "ComsumRange": [
+      30201,
+      30400
+    ],
+    "MinValue": 1510050,
+    "MaxValue": 1520000
+  },
+  {
+    "ID": 104,
+    "ComsumRange": [
+      30401,
+      30600
+    ],
+    "MinValue": 1520050,
+    "MaxValue": 1530000
+  },
+  {
+    "ID": 105,
+    "ComsumRange": [
+      30601,
+      30800
+    ],
+    "MinValue": 1530050,
+    "MaxValue": 1540000
+  },
+  {
+    "ID": 106,
+    "ComsumRange": [
+      30801,
+      31000
+    ],
+    "MinValue": 1540050,
+    "MaxValue": 1550000
+  },
+  {
+    "ID": 107,
+    "ComsumRange": [
+      31001,
+      31200
+    ],
+    "MinValue": 1550050,
+    "MaxValue": 1560000
+  },
+  {
+    "ID": 108,
+    "ComsumRange": [
+      31201,
+      31400
+    ],
+    "MinValue": 1560050,
+    "MaxValue": 1570000
+  },
+  {
+    "ID": 109,
+    "ComsumRange": [
+      31401,
+      31600
+    ],
+    "MinValue": 1570050,
+    "MaxValue": 1580000
+  },
+  {
+    "ID": 110,
+    "ComsumRange": [
+      31601,
+      31800
+    ],
+    "MinValue": 1580050,
+    "MaxValue": 1590000
+  },
+  {
+    "ID": 111,
+    "ComsumRange": [
+      31801,
+      32000
+    ],
+    "MinValue": 1590050,
+    "MaxValue": 1600000
+  },
+  {
+    "ID": 112,
+    "ComsumRange": [
+      32001,
+      32200
+    ],
+    "MinValue": 1600050,
+    "MaxValue": 1610000
+  },
+  {
+    "ID": 113,
+    "ComsumRange": [
+      32201,
+      32400
+    ],
+    "MinValue": 1610050,
+    "MaxValue": 1620000
+  },
+  {
+    "ID": 114,
+    "ComsumRange": [
+      32401,
+      32600
+    ],
+    "MinValue": 1620050,
+    "MaxValue": 1630000
+  },
+  {
+    "ID": 115,
+    "ComsumRange": [
+      32601,
+      32800
+    ],
+    "MinValue": 1630050,
+    "MaxValue": 1640000
+  },
+  {
+    "ID": 116,
+    "ComsumRange": [
+      32801,
+      33000
+    ],
+    "MinValue": 1640050,
+    "MaxValue": 1650000
+  },
+  {
+    "ID": 117,
+    "ComsumRange": [
+      33001,
+      33200
+    ],
+    "MinValue": 1650050,
+    "MaxValue": 1660000
+  },
+  {
+    "ID": 118,
+    "ComsumRange": [
+      33201,
+      33400
+    ],
+    "MinValue": 1660050,
+    "MaxValue": 1670000
+  },
+  {
+    "ID": 119,
+    "ComsumRange": [
+      33401,
+      33600
+    ],
+    "MinValue": 1670050,
+    "MaxValue": 1680000
+  },
+  {
+    "ID": 120,
+    "ComsumRange": [
+      33601,
+      33800
+    ],
+    "MinValue": 1680050,
+    "MaxValue": 1690000
+  },
+  {
+    "ID": 121,
+    "ComsumRange": [
+      33801,
+      34000
+    ],
+    "MinValue": 1690050,
+    "MaxValue": 1700000
+  },
+  {
+    "ID": 122,
+    "ComsumRange": [
+      34001,
+      34200
+    ],
+    "MinValue": 1700050,
+    "MaxValue": 1710000
+  },
+  {
+    "ID": 123,
+    "ComsumRange": [
+      34201,
+      34400
+    ],
+    "MinValue": 1710050,
+    "MaxValue": 1720000
+  },
+  {
+    "ID": 124,
+    "ComsumRange": [
+      34401,
+      34600
+    ],
+    "MinValue": 1720050,
+    "MaxValue": 1730000
+  },
+  {
+    "ID": 125,
+    "ComsumRange": [
+      34601,
+      34800
+    ],
+    "MinValue": 1730050,
+    "MaxValue": 1740000
+  },
+  {
+    "ID": 126,
+    "ComsumRange": [
+      34801,
+      35000
+    ],
+    "MinValue": 1740050,
+    "MaxValue": 1750000
+  },
+  {
+    "ID": 127,
+    "ComsumRange": [
+      35001,
+      35200
+    ],
+    "MinValue": 1750050,
+    "MaxValue": 1760000
+  },
+  {
+    "ID": 128,
+    "ComsumRange": [
+      35201,
+      35400
+    ],
+    "MinValue": 1760050,
+    "MaxValue": 1770000
+  },
+  {
+    "ID": 129,
+    "ComsumRange": [
+      35401,
+      35600
+    ],
+    "MinValue": 1770050,
+    "MaxValue": 1780000
+  },
+  {
+    "ID": 130,
+    "ComsumRange": [
+      35601,
+      35800
+    ],
+    "MinValue": 1780050,
+    "MaxValue": 1790000
+  },
+  {
+    "ID": 131,
+    "ComsumRange": [
+      35801,
+      36000
+    ],
+    "MinValue": 1790050,
+    "MaxValue": 1800000
+  },
+  {
+    "ID": 132,
+    "ComsumRange": [
+      36001,
+      36200
+    ],
+    "MinValue": 1800050,
+    "MaxValue": 1810000
+  },
+  {
+    "ID": 133,
+    "ComsumRange": [
+      36201,
+      36400
+    ],
+    "MinValue": 1810050,
+    "MaxValue": 1820000
+  },
+  {
+    "ID": 134,
+    "ComsumRange": [
+      36401,
+      36600
+    ],
+    "MinValue": 1820050,
+    "MaxValue": 1830000
+  },
+  {
+    "ID": 135,
+    "ComsumRange": [
+      36601,
+      36800
+    ],
+    "MinValue": 1830050,
+    "MaxValue": 1840000
+  },
+  {
+    "ID": 136,
+    "ComsumRange": [
+      36801,
+      37000
+    ],
+    "MinValue": 1840050,
+    "MaxValue": 1850000
+  },
+  {
+    "ID": 137,
+    "ComsumRange": [
+      37001,
+      37200
+    ],
+    "MinValue": 1850050,
+    "MaxValue": 1860000
+  },
+  {
+    "ID": 138,
+    "ComsumRange": [
+      37201,
+      37400
+    ],
+    "MinValue": 1860050,
+    "MaxValue": 1870000
+  },
+  {
+    "ID": 139,
+    "ComsumRange": [
+      37401,
+      37600
+    ],
+    "MinValue": 1870050,
+    "MaxValue": 1880000
+  },
+  {
+    "ID": 140,
+    "ComsumRange": [
+      37601,
+      37800
+    ],
+    "MinValue": 1880050,
+    "MaxValue": 1890000
+  },
+  {
+    "ID": 141,
+    "ComsumRange": [
+      37801,
+      38000
+    ],
+    "MinValue": 1890050,
+    "MaxValue": 1900000
+  },
+  {
+    "ID": 142,
+    "ComsumRange": [
+      38001,
+      38200
+    ],
+    "MinValue": 1900050,
+    "MaxValue": 1910000
+  },
+  {
+    "ID": 143,
+    "ComsumRange": [
+      38201,
+      38400
+    ],
+    "MinValue": 1910050,
+    "MaxValue": 1920000
+  },
+  {
+    "ID": 144,
+    "ComsumRange": [
+      38401,
+      38600
+    ],
+    "MinValue": 1920050,
+    "MaxValue": 1930000
+  },
+  {
+    "ID": 145,
+    "ComsumRange": [
+      38601,
+      38800
+    ],
+    "MinValue": 1930050,
+    "MaxValue": 1940000
+  },
+  {
+    "ID": 146,
+    "ComsumRange": [
+      38801,
+      39000
+    ],
+    "MinValue": 1940050,
+    "MaxValue": 1950000
+  },
+  {
+    "ID": 147,
+    "ComsumRange": [
+      39001,
+      39200
+    ],
+    "MinValue": 1950050,
+    "MaxValue": 1960000
+  },
+  {
+    "ID": 148,
+    "ComsumRange": [
+      39201,
+      39400
+    ],
+    "MinValue": 1960050,
+    "MaxValue": 1970000
+  },
+  {
+    "ID": 149,
+    "ComsumRange": [
+      39401,
+      39600
+    ],
+    "MinValue": 1970050,
+    "MaxValue": 1980000
+  },
+  {
+    "ID": 150,
+    "ComsumRange": [
+      39601,
+      39800
+    ],
+    "MinValue": 1980050,
+    "MaxValue": 1990000
+  },
+  {
+    "ID": 151,
+    "ComsumRange": [
+      39801,
+      40000
+    ],
+    "MinValue": 1990050,
+    "MaxValue": 2000000
+  },
+  {
+    "ID": 152,
+    "ComsumRange": [
+      40001,
+      99999999
+    ],
+    "MinValue": 2000050,
+    "MaxValue": 999999999
+  }
+]

@@ -1,0 +1,78 @@
+[
+  {
+    "id": 9000,
+    "PurchaseId": 0,
+    "AdId": 13,
+    "ObjName": "IAP_name_9000",
+    "objToplimit": 1,
+    "ObjGoods": [
+      "50,2"
+    ]
+  },
+  {
+    "id": 9001,
+    "PurchaseId": 9001,
+    "AdId": 0,
+    "ObjName": "IAP_name_9001",
+    "objToplimit": 1,
+    "ObjGoods": [
+      "50,3",
+      "2,120"
+    ]
+  },
+  {
+    "id": 9002,
+    "PurchaseId": 9002,
+    "AdId": 0,
+    "ObjName": "IAP_name_9002",
+    "objToplimit": 1,
+    "ObjGoods": [
+      "50,10",
+      "2,600"
+    ]
+  },
+  {
+    "id": 9003,
+    "PurchaseId": 9003,
+    "AdId": 0,
+    "ObjName": "IAP_name_9003",
+    "objToplimit": 1,
+    "ObjGoods": [
+      "50,20",
+      "2,1200"
+    ]
+  },
+  {
+    "id": 9004,
+    "PurchaseId": 9004,
+    "AdId": 0,
+    "ObjName": "IAP_name_9004",
+    "objToplimit": 2,
+    "ObjGoods": [
+      "50,30",
+      "2,2400"
+    ]
+  },
+  {
+    "id": 9005,
+    "PurchaseId": 9005,
+    "AdId": 0,
+    "ObjName": "IAP_name_9005",
+    "objToplimit": 3,
+    "ObjGoods": [
+      "50,70",
+      "2,6000"
+    ]
+  },
+  {
+    "id": 9006,
+    "PurchaseId": 9006,
+    "AdId": 0,
+    "ObjName": "IAP_name_9006",
+    "objToplimit": 0,
+    "ObjGoods": [
+      "50,130",
+      "2,12000"
+    ]
+  }
+]

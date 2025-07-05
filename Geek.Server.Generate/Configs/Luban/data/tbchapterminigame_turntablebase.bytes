@@ -1,0 +1,144 @@
+[
+  {
+    "id": 1,
+    "rewards": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "count": 1,
+    "cost": [
+      0
+    ],
+    "offsetAngle": 30
+  },
+  {
+    "id": 2,
+    "rewards": [
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "count": 1,
+    "cost": [
+      0
+    ],
+    "offsetAngle": 30
+  },
+  {
+    "id": 3,
+    "rewards": [
+      13,
+      14,
+      15,
+      16,
+      17,
+      18
+    ],
+    "count": 1,
+    "cost": [
+      0
+    ],
+    "offsetAngle": 30
+  },
+  {
+    "id": 4,
+    "rewards": [
+      19,
+      20,
+      21,
+      22,
+      23,
+      24
+    ],
+    "count": 1,
+    "cost": [
+      0
+    ],
+    "offsetAngle": 30
+  },
+  {
+    "id": 5,
+    "rewards": [
+      25,
+      26,
+      27,
+      28,
+      29,
+      30
+    ],
+    "count": 1,
+    "cost": [
+      0
+    ],
+    "offsetAngle": 30
+  },
+  {
+    "id": 6,
+    "rewards": [
+      31,
+      32,
+      33,
+      34,
+      35,
+      36
+    ],
+    "count": 1,
+    "cost": [
+      0
+    ],
+    "offsetAngle": 30
+  },
+  {
+    "id": 7,
+    "rewards": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42
+    ],
+    "count": 1,
+    "cost": [
+      0
+    ],
+    "offsetAngle": 30
+  },
+  {
+    "id": 8,
+    "rewards": [
+      43,
+      44,
+      45,
+      46,
+      47,
+      48
+    ],
+    "count": 1,
+    "cost": [
+      0
+    ],
+    "offsetAngle": 30
+  },
+  {
+    "id": 9,
+    "rewards": [
+      49,
+      50,
+      51,
+      52
+    ],
+    "count": 1,
+    "cost": [
+      0
+    ],
+    "offsetAngle": 30
+  }
+]

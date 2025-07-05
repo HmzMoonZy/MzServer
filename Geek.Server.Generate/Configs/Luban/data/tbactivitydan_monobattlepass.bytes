@@ -1,0 +1,133 @@
+[
+  {
+    "id": 1,
+    "tga_bp_type": "活动通行证",
+    "tga_event_name": "大富翁",
+    "name": "RichMan_BattlePass_Name_1",
+    "type": 1,
+    "parameter": [
+      "910011,1500",
+      "910012,1500",
+      "910013,1000"
+    ],
+    "atlasID": 107,
+    "itemIcon": "icon_item_turn",
+    "openTime": "0",
+    "endTime": "13",
+    "group": 10001,
+    "purchaseId": 902,
+    "finalRewardLimit": 20,
+    "finalQualityRandom": [
+      "1,65",
+      "2,30",
+      "3,5"
+    ],
+    "finalDrop": [
+      511,
+      512,
+      513,
+      514,
+      515,
+      516
+    ],
+    "finalDropShow": [
+      "1201,1",
+      "1201,3",
+      "1201,5",
+      "1201,10",
+      "1201,20",
+      "1201,50"
+    ],
+    "BottomTipId": "RichMan_BattlePass_BottomTip_1",
+    "bigRewardDesc": "",
+    "bigRewardShow": []
+  },
+  {
+    "id": 2,
+    "tga_bp_type": "活动通行证",
+    "tga_event_name": "大富翁",
+    "name": "Spring_BattlePass_Name",
+    "type": 1,
+    "parameter": [
+      "910011,1500",
+      "910012,1500",
+      "910013,1000"
+    ],
+    "atlasID": 107,
+    "itemIcon": "icon_item_denglong",
+    "openTime": "0",
+    "endTime": "13",
+    "group": 10002,
+    "purchaseId": 903,
+    "finalRewardLimit": 20,
+    "finalQualityRandom": [
+      "1,65",
+      "2,30",
+      "3,5"
+    ],
+    "finalDrop": [
+      521,
+      522,
+      523,
+      524,
+      525,
+      526
+    ],
+    "finalDropShow": [
+      "2,60",
+      "2,120",
+      "2,240",
+      "2,500",
+      "2,1000",
+      "2,2000"
+    ],
+    "BottomTipId": "RichMan_BattlePass_BottomTip_2",
+    "bigRewardDesc": "battalpass_big_reward_desc_2",
+    "bigRewardShow": [
+      "405002,1"
+    ]
+  },
+  {
+    "id": 3,
+    "tga_bp_type": "活动通行证",
+    "tga_event_name": "大富翁",
+    "name": "RichMan_BattlePass_Name_6",
+    "type": 1,
+    "parameter": [
+      "910011,1500",
+      "910012,1500",
+      "910013,1000"
+    ],
+    "atlasID": 107,
+    "itemIcon": "icon_item_turn",
+    "openTime": "0",
+    "endTime": "13",
+    "group": 10003,
+    "purchaseId": 908,
+    "finalRewardLimit": 10,
+    "finalQualityRandom": [
+      "1,70",
+      "2,25",
+      "3,5"
+    ],
+    "finalDrop": [
+      521,
+      522,
+      523,
+      524,
+      525,
+      526
+    ],
+    "finalDropShow": [
+      "2,60",
+      "2,120",
+      "2,240",
+      "2,500",
+      "2,1000",
+      "2,2000"
+    ],
+    "BottomTipId": "RichMan_BattlePass_BottomTip_3",
+    "bigRewardDesc": "",
+    "bigRewardShow": []
+  }
+]

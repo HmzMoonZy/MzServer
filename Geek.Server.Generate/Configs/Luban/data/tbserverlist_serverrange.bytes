@@ -1,0 +1,6135 @@
+[
+  {
+    "id": 1,
+    "guildRange": [
+      "1,2"
+    ],
+    "chatRange": [
+      "1,2"
+    ],
+    "miningRange": [
+      "1,2"
+    ],
+    "dailyLevelRange": [
+      "1,2"
+    ],
+    "activityRange": [
+      "1,2"
+    ],
+    "friendRange": [
+      "1,2"
+    ],
+    "mythicRange": [
+      "1,2"
+    ],
+    "pvpRange1": [
+      "1,2"
+    ],
+    "pvpRange2": [
+      "1,2"
+    ],
+    "pvpRange3": [
+      "1,2"
+    ],
+    "pvpRange4": [
+      "1,2"
+    ],
+    "LuckyKoiRange1": [
+      "1,2"
+    ],
+    "LuckyKoiRange2": [
+      "1,2"
+    ],
+    "guildWarRange": [
+      "1,2"
+    ],
+    "worldBossRange": [
+      "1,2"
+    ],
+    "arenaRange": [
+      "1,2"
+    ]
+  },
+  {
+    "id": 2,
+    "guildRange": [
+      "3,4"
+    ],
+    "chatRange": [
+      "3,4"
+    ],
+    "miningRange": [
+      "3,4"
+    ],
+    "dailyLevelRange": [
+      "3,4"
+    ],
+    "activityRange": [
+      "3,4"
+    ],
+    "friendRange": [
+      "3,4"
+    ],
+    "mythicRange": [
+      "3,4"
+    ],
+    "pvpRange1": [
+      "3,4"
+    ],
+    "pvpRange2": [
+      "3,4"
+    ],
+    "pvpRange3": [
+      "3,4"
+    ],
+    "pvpRange4": [
+      "3,4"
+    ],
+    "LuckyKoiRange1": [
+      "3,4"
+    ],
+    "LuckyKoiRange2": [
+      "3,4"
+    ],
+    "guildWarRange": [
+      "3,4"
+    ],
+    "worldBossRange": [
+      "3,4"
+    ],
+    "arenaRange": [
+      "3,4"
+    ]
+  },
+  {
+    "id": 3,
+    "guildRange": [
+      "5,6"
+    ],
+    "chatRange": [
+      "5,6"
+    ],
+    "miningRange": [
+      "5,6"
+    ],
+    "dailyLevelRange": [
+      "5,6"
+    ],
+    "activityRange": [
+      "5,6"
+    ],
+    "friendRange": [
+      "5,6"
+    ],
+    "mythicRange": [
+      "5,6"
+    ],
+    "pvpRange1": [
+      "5,6"
+    ],
+    "pvpRange2": [
+      "5,6"
+    ],
+    "pvpRange3": [
+      "5,6"
+    ],
+    "pvpRange4": [
+      "5,6"
+    ],
+    "LuckyKoiRange1": [
+      "5,6"
+    ],
+    "LuckyKoiRange2": [
+      "5,6"
+    ],
+    "guildWarRange": [
+      "5,6"
+    ],
+    "worldBossRange": [
+      "5,6"
+    ],
+    "arenaRange": [
+      "5,6"
+    ]
+  },
+  {
+    "id": 4,
+    "guildRange": [
+      "7,999"
+    ],
+    "chatRange": [
+      "7,999"
+    ],
+    "miningRange": [
+      "7,999"
+    ],
+    "dailyLevelRange": [
+      "7,999"
+    ],
+    "activityRange": [
+      "7,999"
+    ],
+    "friendRange": [
+      "7,999"
+    ],
+    "mythicRange": [
+      "7,999"
+    ],
+    "pvpRange1": [
+      "7,999"
+    ],
+    "pvpRange2": [
+      "7,999"
+    ],
+    "pvpRange3": [
+      "7,999"
+    ],
+    "pvpRange4": [
+      "7,999"
+    ],
+    "LuckyKoiRange1": [
+      "7,999"
+    ],
+    "LuckyKoiRange2": [
+      "7,999"
+    ],
+    "guildWarRange": [
+      "7,999"
+    ],
+    "worldBossRange": [
+      "7,999"
+    ],
+    "arenaRange": [
+      "7,999"
+    ]
+  },
+  {
+    "id": 5,
+    "guildRange": [
+      "400001,400480"
+    ],
+    "chatRange": [
+      "400001,400480"
+    ],
+    "miningRange": [
+      "400001,401280"
+    ],
+    "dailyLevelRange": [
+      "400001,400480"
+    ],
+    "activityRange": [
+      "400001,500000"
+    ],
+    "friendRange": [
+      "400001,500000"
+    ],
+    "mythicRange": [
+      "400001,400480"
+    ],
+    "pvpRange1": [
+      "400001,400480"
+    ],
+    "pvpRange2": [
+      "300001,300120",
+      "200001,200180",
+      "300121,300180",
+      "400001,400480",
+      "400481,400800",
+      "100001,100120"
+    ],
+    "pvpRange3": [
+      "300001,300120",
+      "200001,200180",
+      "300121,300180",
+      "400001,400480",
+      "400481,400800",
+      "100001,100120",
+      "400801,401040",
+      "401041,401280",
+      "300181,300240",
+      "200181,200360",
+      "401281,401520"
+    ],
+    "pvpRange4": [
+      "300001,300060"
+    ],
+    "LuckyKoiRange1": [
+      "300001,300060"
+    ],
+    "LuckyKoiRange2": [
+      "300001,300060"
+    ],
+    "guildWarRange": [
+      "400001,400480"
+    ],
+    "worldBossRange": [
+      "400001,400480"
+    ],
+    "arenaRange": [
+      "400001,400480"
+    ]
+  },
+  {
+    "id": 6,
+    "guildRange": [
+      "400481,400800"
+    ],
+    "chatRange": [
+      "400481,400800"
+    ],
+    "miningRange": [
+      "401281,402000"
+    ],
+    "dailyLevelRange": [
+      "400481,400800"
+    ],
+    "activityRange": [
+      "100001,200000",
+      "200001,300000",
+      "300001,400000",
+      "700001,800000"
+    ],
+    "friendRange": [
+      "100001,200000",
+      "200001,300000",
+      "300001,400000",
+      "700001,800000"
+    ],
+    "mythicRange": [
+      "400481,400800"
+    ],
+    "pvpRange1": [
+      "400481,400800"
+    ],
+    "pvpRange2": [
+      "400801,401040",
+      "401041,401280",
+      "300181,300240",
+      "200181,200360",
+      "401281,401520"
+    ],
+    "pvpRange3": [
+      "401521,401680",
+      "401681,401840",
+      "401841,402000",
+      "402001,402080",
+      "402081,402160",
+      "300241,300320",
+      "100121,100180",
+      "200361,200430",
+      "402161,402240",
+      "700001,702100",
+      "402241,410000"
+    ],
+    "pvpRange4": [
+      "300061,300120",
+      "200001,200090"
+    ],
+    "LuckyKoiRange1": [
+      "300061,300120",
+      "200001,200090"
+    ],
+    "LuckyKoiRange2": [
+      "300061,300120",
+      "200001,200090"
+    ],
+    "guildWarRange": [
+      "400481,400800"
+    ],
+    "worldBossRange": [
+      "400481,400800"
+    ],
+    "arenaRange": [
+      "400481,400800"
+    ]
+  },
+  {
+    "id": 7,
+    "guildRange": [
+      "400801,401040"
+    ],
+    "chatRange": [
+      "400801,401040"
+    ],
+    "miningRange": [
+      "402001,402400"
+    ],
+    "dailyLevelRange": [
+      "400801,401040"
+    ],
+    "activityRange": [],
+    "friendRange": [],
+    "mythicRange": [
+      "400801,401040"
+    ],
+    "pvpRange1": [
+      "400801,401040"
+    ],
+    "pvpRange2": [
+      "401521,401680",
+      "401681,401840",
+      "401841,402000"
+    ],
+    "pvpRange3": [],
+    "pvpRange4": [
+      "200091,200180",
+      "300121,300180"
+    ],
+    "LuckyKoiRange1": [
+      "200091,200180",
+      "300121,300180"
+    ],
+    "LuckyKoiRange2": [
+      "200091,200180",
+      "300121,300180"
+    ],
+    "guildWarRange": [
+      "400801,401040"
+    ],
+    "worldBossRange": [
+      "400801,401040"
+    ],
+    "arenaRange": [
+      "400801,401040"
+    ]
+  },
+  {
+    "id": 8,
+    "guildRange": [
+      "401041,401280"
+    ],
+    "chatRange": [
+      "401041,401280"
+    ],
+    "miningRange": [
+      "402401,402800"
+    ],
+    "dailyLevelRange": [
+      "401041,401280"
+    ],
+    "activityRange": [],
+    "friendRange": [],
+    "mythicRange": [
+      "401041,401280"
+    ],
+    "pvpRange1": [
+      "401041,401280"
+    ],
+    "pvpRange2": [
+      "402001,402160",
+      "300241,300320",
+      "100121,100180",
+      "200361,200430"
+    ],
+    "pvpRange3": [],
+    "pvpRange4": [
+      "400001,400800",
+      "100001,100120"
+    ],
+    "LuckyKoiRange1": [
+      "400001,400800",
+      "100001,100120"
+    ],
+    "LuckyKoiRange2": [
+      "400001,400800",
+      "100001,100120"
+    ],
+    "guildWarRange": [
+      "401041,401280"
+    ],
+    "worldBossRange": [
+      "401041,401280"
+    ],
+    "arenaRange": [
+      "401041,401280"
+    ]
+  },
+  {
+    "id": 9,
+    "guildRange": [
+      "401281,401520"
+    ],
+    "chatRange": [
+      "401281,401520"
+    ],
+    "miningRange": [
+      "402801,403200"
+    ],
+    "dailyLevelRange": [
+      "401281,401520"
+    ],
+    "activityRange": [],
+    "friendRange": [],
+    "mythicRange": [
+      "401281,401520"
+    ],
+    "pvpRange1": [
+      "401281,401520"
+    ],
+    "pvpRange2": [
+      "402161,402240",
+      "700001,700060",
+      "402241,402320"
+    ],
+    "pvpRange3": [],
+    "pvpRange4": [
+      "400801,401680"
+    ],
+    "LuckyKoiRange1": [
+      "400801,401680"
+    ],
+    "LuckyKoiRange2": [
+      "400801,401680"
+    ],
+    "guildWarRange": [
+      "401281,401520"
+    ],
+    "worldBossRange": [
+      "401281,401520"
+    ],
+    "arenaRange": [
+      "401281,401520"
+    ]
+  },
+  {
+    "id": 10,
+    "guildRange": [
+      "401521,401680"
+    ],
+    "chatRange": [
+      "401521,401680"
+    ],
+    "miningRange": [
+      "403201,403600"
+    ],
+    "dailyLevelRange": [
+      "401521,401680"
+    ],
+    "activityRange": [],
+    "friendRange": [],
+    "mythicRange": [
+      "401521,401680"
+    ],
+    "pvpRange1": [
+      "401521,401680"
+    ],
+    "pvpRange2": [
+      "700061,700180"
+    ],
+    "pvpRange3": [],
+    "pvpRange4": [
+      "200181,200360"
+    ],
+    "LuckyKoiRange1": [
+      "200181,200360"
+    ],
+    "LuckyKoiRange2": [
+      "200181,200360"
+    ],
+    "guildWarRange": [
+      "401521,401680"
+    ],
+    "worldBossRange": [
+      "401521,401680"
+    ],
+    "arenaRange": [
+      "401521,401680"
+    ]
+  },
+  {
+    "id": 11,
+    "guildRange": [
+      "401681,401840"
+    ],
+    "chatRange": [
+      "401681,401840"
+    ],
+    "miningRange": [
+      "403601,404000"
+    ],
+    "dailyLevelRange": [
+      "401681,401840"
+    ],
+    "activityRange": [],
+    "friendRange": [],
+    "mythicRange": [
+      "401681,401840"
+    ],
+    "pvpRange1": [
+      "401681,401840"
+    ],
+    "pvpRange2": [
+      "700181,700300"
+    ],
+    "pvpRange3": [],
+    "pvpRange4": [
+      "300181,300240",
+      "401681,402000"
+    ],
+    "LuckyKoiRange1": [
+      "300181,300240",
+      "401681,402000"
+    ],
+    "LuckyKoiRange2": [
+      "300181,300240",
+      "401681,402000"
+    ],
+    "guildWarRange": [
+      "401681,401840"
+    ],
+    "worldBossRange": [
+      "401681,401840"
+    ],
+    "arenaRange": [
+      "401681,401840"
+    ]
+  },
+  {
+    "id": 12,
+    "guildRange": [
+      "401841,402000"
+    ],
+    "chatRange": [
+      "401841,402000"
+    ],
+    "miningRange": [
+      "404001,404400"
+    ],
+    "dailyLevelRange": [
+      "401841,402000"
+    ],
+    "activityRange": [],
+    "friendRange": [],
+    "mythicRange": [
+      "401841,402000"
+    ],
+    "pvpRange1": [
+      "401841,402000"
+    ],
+    "pvpRange2": [
+      "700301,700420"
+    ],
+    "pvpRange3": [],
+    "pvpRange4": [
+      "402001,402160",
+      "300241,300320"
+    ],
+    "LuckyKoiRange1": [
+      "402001,402160",
+      "300241,300320"
+    ],
+    "LuckyKoiRange2": [
+      "402001,402160",
+      "300241,300320"
+    ],
+    "guildWarRange": [
+      "401841,402000"
+    ],
+    "worldBossRange": [
+      "401841,402000"
+    ],
+    "arenaRange": [
+      "401841,402000"
+    ]
+  },
+  {
+    "id": 13,
+    "guildRange": [
+      "402001,402080"
+    ],
+    "chatRange": [
+      "402001,402080"
+    ],
+    "miningRange": [
+      "404401,404800"
+    ],
+    "dailyLevelRange": [
+      "402001,402080"
+    ],
+    "activityRange": [],
+    "friendRange": [],
+    "mythicRange": [
+      "402001,402080"
+    ],
+    "pvpRange1": [
+      "402001,402080"
+    ],
+    "pvpRange2": [
+      "700421,700540"
+    ],
+    "pvpRange3": [],
+    "pvpRange4": [
+      "100121,100180",
+      "200361,200430"
+    ],
+    "LuckyKoiRange1": [
+      "100121,100180",
+      "200361,200430"
+    ],
+    "LuckyKoiRange2": [
+      "100121,100180",
+      "200361,200430"
+    ],
+    "guildWarRange": [
+      "402001,402080"
+    ],
+    "worldBossRange": [
+      "402001,402080"
+    ],
+    "arenaRange": [
+      "402001,402080"
+    ]
+  },
+  {
+    "id": 14,
+    "guildRange": [
+      "402081,402160"
+    ],
+    "chatRange": [
+      "402081,402160"
+    ],
+    "miningRange": [
+      "404801,405200"
+    ],
+    "dailyLevelRange": [
+      "402081,402160"
+    ],
+    "activityRange": [],
+    "friendRange": [],
+    "mythicRange": [
+      "402081,402160"
+    ],
+    "pvpRange1": [
+      "402081,402160"
+    ],
+    "pvpRange2": [
+      "700541,700660"
+    ],
+    "pvpRange3": [],
+    "pvpRange4": [
+      "402161,402240",
+      "700001,700060",
+      "402241,402320"
+    ],
+    "LuckyKoiRange1": [
+      "402161,402240",
+      "700001,700060",
+      "402241,402320"
+    ],
+    "LuckyKoiRange2": [
+      "402161,402240",
+      "700001,700060",
+      "402241,402320"
+    ],
+    "guildWarRange": [
+      "402081,402160"
+    ],
+    "worldBossRange": [
+      "402081,402160"
+    ],
+    "arenaRange": [
+      "402081,402160"
+    ]
+  },
+  {
+    "id": 15,
+    "guildRange": [
+      "402161,402240"
+    ],
+    "chatRange": [
+      "402161,402240"
+    ],
+    "miningRange": [
+      "405201,405600"
+    ],
+    "dailyLevelRange": [
+      "402161,402240"
+    ],
+    "activityRange": [],
+    "friendRange": [],
+    "mythicRange": [
+      "402161,402240"
+    ],
+    "pvpRange1": [
+      "402161,402240"
+    ],
+    "pvpRange2": [
+      "700661,700780"
+    ],
+    "pvpRange3": [],
+    "pvpRange4": [
+      "700061,700180"
+    ],
+    "LuckyKoiRange1": [
+      "700061,700180"
+    ],
+    "LuckyKoiRange2": [
+      "700061,700180"
+    ],
+    "guildWarRange": [
+      "402161,402240"
+    ],
+    "worldBossRange": [
+      "402161,402240"
+    ],
+    "arenaRange": [
+      "402161,402240"
+    ]
+  },
+  {
+    "id": 16,
+    "guildRange": [
+      "402241,402320"
+    ],
+    "chatRange": [
+      "402241,402320"
+    ],
+    "miningRange": [
+      "405601,406000"
+    ],
+    "dailyLevelRange": [
+      "402241,402320"
+    ],
+    "activityRange": [],
+    "friendRange": [],
+    "mythicRange": [
+      "402241,402320"
+    ],
+    "pvpRange1": [
+      "402241,402320"
+    ],
+    "pvpRange2": [
+      "700781,700900"
+    ],
+    "pvpRange3": [],
+    "pvpRange4": [
+      "700181,700300"
+    ],
+    "LuckyKoiRange1": [
+      "700181,700300"
+    ],
+    "LuckyKoiRange2": [
+      "700181,700300"
+    ],
+    "guildWarRange": [
+      "402241,402320"
+    ],
+    "worldBossRange": [
+      "402241,402320"
+    ],
+    "arenaRange": [
+      "402241,402320"
+    ]
+  },
+  {
+    "id": 17,
+    "guildRange": [
+      "402321,402400"
+    ],
+    "chatRange": [
+      "402321,402400"
+    ],
+    "miningRange": [
+      "406001,406400"
+    ],
+    "dailyLevelRange": [
+      "402321,402400"
+    ],
+    "activityRange": [],
+    "friendRange": [],
+    "mythicRange": [
+      "402321,402400"
+    ],
+    "pvpRange1": [
+      "402321,402400"
+    ],
+    "pvpRange2": [
+      "700901,701020"
+    ],
+    "pvpRange3": [],
+    "pvpRange4": [
+      "700301,700420"
+    ],
+    "LuckyKoiRange1": [
+      "700301,700420"
+    ],
+    "LuckyKoiRange2": [
+      "700301,700420"
+    ],
+    "guildWarRange": [
+      "402321,402400"
+    ],
+    "worldBossRange": [
+      "402321,402400"
+    ],
+    "arenaRange": [
+      "402321,402400"
+    ]
+  },
+  {
+    "id": 18,
+    "guildRange": [
+      "402401,402480"
+    ],
+    "chatRange": [
+      "402401,402480"
+    ],
+    "miningRange": [
+      "406401,406800"
+    ],
+    "dailyLevelRange": [
+      "402401,402480"
+    ],
+    "activityRange": [],
+    "friendRange": [],
+    "mythicRange": [
+      "402401,402480"
+    ],
+    "pvpRange1": [
+      "402401,402480"
+    ],
+    "pvpRange2": [
+      "701021,701140"
+    ],
+    "pvpRange3": [],
+    "pvpRange4": [
+      "700421,700540"
+    ],
+    "LuckyKoiRange1": [
+      "700421,700540"
+    ],
+    "LuckyKoiRange2": [
+      "700421,700540"
+    ],
+    "guildWarRange": [
+      "402401,402480"
+    ],
+    "worldBossRange": [
+      "402401,402480"
+    ],
+    "arenaRange": [
+      "402401,402480"
+    ]
+  },
+  {
+    "id": 19,
+    "guildRange": [
+      "402481,402560"
+    ],
+    "chatRange": [
+      "402481,402560"
+    ],
+    "miningRange": [
+      "406801,407200"
+    ],
+    "dailyLevelRange": [
+      "402481,402560"
+    ],
+    "activityRange": [],
+    "friendRange": [],
+    "mythicRange": [
+      "402481,402560"
+    ],
+    "pvpRange1": [
+      "402481,402560"
+    ],
+    "pvpRange2": [
+      "701141,701260"
+    ],
+    "pvpRange3": [],
+    "pvpRange4": [
+      "700541,700660"
+    ],
+    "LuckyKoiRange1": [
+      "700541,700660"
+    ],
+    "LuckyKoiRange2": [
+      "700541,700660"
+    ],
+    "guildWarRange": [
+      "402481,402560"
+    ],
+    "worldBossRange": [
+      "402481,402560"
+    ],
+    "arenaRange": [
+      "402481,402560"
+    ]
+  },
+  {
+    "id": 20,
+    "guildRange": [
+      "402561,402640"
+    ],
+    "chatRange": [
+      "402561,402640"
+    ],
+    "miningRange": [
+      "407201,407600"
+    ],
+    "dailyLevelRange": [
+      "402561,402640"
+    ],
+    "activityRange": [],
+    "friendRange": [],
+    "mythicRange": [
+      "402561,402640"
+    ],
+    "pvpRange1": [
+      "402561,402640"
+    ],
+    "pvpRange2": [
+      "701261,701380"
+    ],
+    "pvpRange3": [],
+    "pvpRange4": [
+      "700661,700780"
+    ],
+    "LuckyKoiRange1": [
+      "700661,700780"
+    ],
+    "LuckyKoiRange2": [
+      "700661,700780"
+    ],
+    "guildWarRange": [
+      "402561,402640"
+    ],
+    "worldBossRange": [
+      "402561,402640"
+    ],
+    "arenaRange": [
+      "402561,402640"
+    ]
+  },
+  {
+    "id": 21,
+    "guildRange": [
+      "402641,402720"
+    ],
+    "chatRange": [
+      "402641,402720"
+    ],
+    "miningRange": [
+      "407601,408000"
+    ],
+    "dailyLevelRange": [
+      "402641,402720"
+    ],
+    "activityRange": [],
+    "friendRange": [],
+    "mythicRange": [
+      "402641,402720"
+    ],
+    "pvpRange1": [
+      "402641,402720"
+    ],
+    "pvpRange2": [
+      "701381,701500"
+    ],
+    "pvpRange3": [],
+    "pvpRange4": [
+      "700781,700900"
+    ],
+    "LuckyKoiRange1": [
+      "700781,700900"
+    ],
+    "LuckyKoiRange2": [
+      "700781,700900"
+    ],
+    "guildWarRange": [
+      "402641,402720"
+    ],
+    "worldBossRange": [
+      "402641,402720"
+    ],
+    "arenaRange": [
+      "402641,402720"
+    ]
+  },
+  {
+    "id": 22,
+    "guildRange": [
+      "402721,402800"
+    ],
+    "chatRange": [
+      "402721,402800"
+    ],
+    "miningRange": [
+      "408001,408400"
+    ],
+    "dailyLevelRange": [
+      "402721,402800"
+    ],
+    "activityRange": [],
+    "friendRange": [],
+    "mythicRange": [
+      "402721,402800"
+    ],
+    "pvpRange1": [
+      "402721,402800"
+    ],
+    "pvpRange2": [
+      "701501,701620"
+    ],
+    "pvpRange3": [],
+    "pvpRange4": [
+      "700901,701020"
+    ],
+    "LuckyKoiRange1": [
+      "700901,701020"
+    ],
+    "LuckyKoiRange2": [
+      "700901,701020"
+    ],
+    "guildWarRange": [
+      "402721,402800"
+    ],
+    "worldBossRange": [
+      "402721,402800"
+    ],
+    "arenaRange": [
+      "402721,402800"
+    ]
+  },
+  {
+    "id": 23,
+    "guildRange": [
+      "402801,402880"
+    ],
+    "chatRange": [
+      "402801,402880"
+    ],
+    "miningRange": [
+      "408401,408800"
+    ],
+    "dailyLevelRange": [
+      "402801,402880"
+    ],
+    "activityRange": [],
+    "friendRange": [],
+    "mythicRange": [
+      "402801,402880"
+    ],
+    "pvpRange1": [
+      "402801,402880"
+    ],
+    "pvpRange2": [
+      "701621,701740"
+    ],
+    "pvpRange3": [],
+    "pvpRange4": [
+      "701021,701140"
+    ],
+    "LuckyKoiRange1": [
+      "701021,701140"
+    ],
+    "LuckyKoiRange2": [
+      "701021,701140"
+    ],
+    "guildWarRange": [
+      "402801,402880"
+    ],
+    "worldBossRange": [
+      "402801,402880"
+    ],
+    "arenaRange": [
+      "402801,402880"
+    ]
+  },
+  {
+    "id": 24,
+    "guildRange": [
+      "402881,402960"
+    ],
+    "chatRange": [
+      "402881,402960"
+    ],
+    "miningRange": [
+      "408801,409200"
+    ],
+    "dailyLevelRange": [
+      "402881,402960"
+    ],
+    "activityRange": [],
+    "friendRange": [],
+    "mythicRange": [
+      "402881,402960"
+    ],
+    "pvpRange1": [
+      "402881,402960"
+    ],
+    "pvpRange2": [
+      "701741,701860"
+    ],
+    "pvpRange3": [],
+    "pvpRange4": [
+      "701141,701260"
+    ],
+    "LuckyKoiRange1": [
+      "701141,701260"
+    ],
+    "LuckyKoiRange2": [
+      "701141,701260"
+    ],
+    "guildWarRange": [
+      "402881,402960"
+    ],
+    "worldBossRange": [
+      "402881,402960"
+    ],
+    "arenaRange": [
+      "402881,402960"
+    ]
+  },
+  {
+    "id": 25,
+    "guildRange": [
+      "402961,403040"
+    ],
+    "chatRange": [
+      "402961,403040"
+    ],
+    "miningRange": [
+      "409201,409600"
+    ],
+    "dailyLevelRange": [
+      "402961,403040"
+    ],
+    "activityRange": [],
+    "friendRange": [],
+    "mythicRange": [
+      "402961,403040"
+    ],
+    "pvpRange1": [
+      "402961,403040"
+    ],
+    "pvpRange2": [
+      "701861,701980"
+    ],
+    "pvpRange3": [],
+    "pvpRange4": [
+      "701261,701380"
+    ],
+    "LuckyKoiRange1": [
+      "701261,701380"
+    ],
+    "LuckyKoiRange2": [
+      "701261,701380"
+    ],
+    "guildWarRange": [
+      "402961,403040"
+    ],
+    "worldBossRange": [
+      "402961,403040"
+    ],
+    "arenaRange": [
+      "402961,403040"
+    ]
+  },
+  {
+    "id": 26,
+    "guildRange": [
+      "403041,403120"
+    ],
+    "chatRange": [
+      "403041,403120"
+    ],
+    "miningRange": [
+      "409601,410000"
+    ],
+    "dailyLevelRange": [
+      "403041,403120"
+    ],
+    "activityRange": [],
+    "friendRange": [],
+    "mythicRange": [
+      "403041,403120"
+    ],
+    "pvpRange1": [
+      "403041,403120"
+    ],
+    "pvpRange2": [
+      "701981,702100"
+    ],
+    "pvpRange3": [],
+    "pvpRange4": [
+      "701381,701500"
+    ],
+    "LuckyKoiRange1": [
+      "701381,701500"
+    ],
+    "LuckyKoiRange2": [
+      "701381,701500"
+    ],
+    "guildWarRange": [
+      "403041,403120"
+    ],
+    "worldBossRange": [
+      "403041,403120"
+    ],
+    "arenaRange": [
+      "403041,403120"
+    ]
+  },
+  {
+    "id": 27,
+    "guildRange": [
+      "403121,403200"
+    ],
+    "chatRange": [
+      "403121,403200"
+    ],
+    "miningRange": [
+      "100001,100180",
+      "200001,200360",
+      "300001,300180"
+    ],
+    "dailyLevelRange": [
+      "403121,403200"
+    ],
+    "activityRange": [],
+    "friendRange": [],
+    "mythicRange": [
+      "403121,403200"
+    ],
+    "pvpRange1": [
+      "403121,403200"
+    ],
+    "pvpRange2": [
+      "402321,402400"
+    ],
+    "pvpRange3": [],
+    "pvpRange4": [
+      "701501,701620"
+    ],
+    "LuckyKoiRange1": [
+      "701501,701620"
+    ],
+    "LuckyKoiRange2": [
+      "701501,701620"
+    ],
+    "guildWarRange": [
+      "403121,403200"
+    ],
+    "worldBossRange": [
+      "403121,403200"
+    ],
+    "arenaRange": [
+      "403121,403200"
+    ]
+  },
+  {
+    "id": 28,
+    "guildRange": [
+      "403201,403280"
+    ],
+    "chatRange": [
+      "403201,403280"
+    ],
+    "miningRange": [
+      "200361,200430",
+      "300181,300320",
+      "700001,700180"
+    ],
+    "dailyLevelRange": [
+      "403201,403280"
+    ],
+    "activityRange": [],
+    "friendRange": [],
+    "mythicRange": [
+      "403201,403280"
+    ],
+    "pvpRange1": [
+      "403201,403280"
+    ],
+    "pvpRange2": [
+      "402401,402480"
+    ],
+    "pvpRange3": [],
+    "pvpRange4": [
+      "701621,701740"
+    ],
+    "LuckyKoiRange1": [
+      "701621,701740"
+    ],
+    "LuckyKoiRange2": [
+      "701621,701740"
+    ],
+    "guildWarRange": [
+      "403201,403280"
+    ],
+    "worldBossRange": [
+      "403201,403280"
+    ],
+    "arenaRange": [
+      "403201,403280"
+    ]
+  },
+  {
+    "id": 29,
+    "guildRange": [
+      "403281,403360"
+    ],
+    "chatRange": [
+      "403281,403360"
+    ],
+    "miningRange": [
+      "700181,700420"
+    ],
+    "dailyLevelRange": [
+      "403281,403360"
+    ],
+    "activityRange": [],
+    "friendRange": [],
+    "mythicRange": [
+      "403281,403360"
+    ],
+    "pvpRange1": [
+      "403281,403360"
+    ],
+    "pvpRange2": [
+      "402481,402560"
+    ],
+    "pvpRange3": [],
+    "pvpRange4": [
+      "701741,701860"
+    ],
+    "LuckyKoiRange1": [
+      "701741,701860"
+    ],
+    "LuckyKoiRange2": [
+      "701741,701860"
+    ],
+    "guildWarRange": [
+      "403281,403360"
+    ],
+    "worldBossRange": [
+      "403281,403360"
+    ],
+    "arenaRange": [
+      "403281,403360"
+    ]
+  },
+  {
+    "id": 30,
+    "guildRange": [
+      "403361,403440"
+    ],
+    "chatRange": [
+      "403361,403440"
+    ],
+    "miningRange": [
+      "700421,700660"
+    ],
+    "dailyLevelRange": [
+      "403361,403440"
+    ],
+    "activityRange": [],
+    "friendRange": [],
+    "mythicRange": [
+      "403361,403440"
+    ],
+    "pvpRange1": [
+      "403361,403440"
+    ],
+    "pvpRange2": [
+      "402561,402640"
+    ],
+    "pvpRange3": [],
+    "pvpRange4": [
+      "701861,701980"
+    ],
+    "LuckyKoiRange1": [
+      "701861,701980"
+    ],
+    "LuckyKoiRange2": [
+      "701861,701980"
+    ],
+    "guildWarRange": [
+      "403361,403440"
+    ],
+    "worldBossRange": [
+      "403361,403440"
+    ],
+    "arenaRange": [
+      "403361,403440"
+    ]
+  },
+  {
+    "id": 31,
+    "guildRange": [
+      "403441,403520"
+    ],
+    "chatRange": [
+      "403441,403520"
+    ],
+    "miningRange": [
+      "700661,700900"
+    ],
+    "dailyLevelRange": [
+      "403441,403520"
+    ],
+    "activityRange": [],
+    "friendRange": [],
+    "mythicRange": [
+      "403441,403520"
+    ],
+    "pvpRange1": [
+      "403441,403520"
+    ],
+    "pvpRange2": [
+      "402641,402720"
+    ],
+    "pvpRange3": [],
+    "pvpRange4": [
+      "701981,702100"
+    ],
+    "LuckyKoiRange1": [
+      "701981,702100"
+    ],
+    "LuckyKoiRange2": [
+      "701981,702100"
+    ],
+    "guildWarRange": [
+      "403441,403520"
+    ],
+    "worldBossRange": [
+      "403441,403520"
+    ],
+    "arenaRange": [
+      "403441,403520"
+    ]
+  },
+  {
+    "id": 32,
+    "guildRange": [
+      "403521,403600"
+    ],
+    "chatRange": [
+      "403521,403600"
+    ],
+    "miningRange": [
+      "700901,701140"
+    ],
+    "dailyLevelRange": [
+      "403521,403600"
+    ],
+    "activityRange": [],
+    "friendRange": [],
+    "mythicRange": [
+      "403521,403600"
+    ],
+    "pvpRange1": [
+      "403521,403600"
+    ],
+    "pvpRange2": [
+      "402721,402800"
+    ],
+    "pvpRange3": [],
+    "pvpRange4": [
+      "402321,402400"
+    ],
+    "LuckyKoiRange1": [
+      "402321,402400"
+    ],
+    "LuckyKoiRange2": [
+      "402321,402400"
+    ],
+    "guildWarRange": [
+      "403521,403600"
+    ],
+    "worldBossRange": [
+      "403521,403600"
+    ],
+    "arenaRange": [
+      "403521,403600"
+    ]
+  },
+  {
+    "id": 33,
+    "guildRange": [
+      "403601,403680"
+    ],
+    "chatRange": [
+      "403601,403680"
+    ],
+    "miningRange": [
+      "701141,701380"
+    ],
+    "dailyLevelRange": [
+      "403601,403680"
+    ],
+    "activityRange": [],
+    "friendRange": [],
+    "mythicRange": [
+      "403601,403680"
+    ],
+    "pvpRange1": [
+      "403601,403680"
+    ],
+    "pvpRange2": [
+      "402801,402880"
+    ],
+    "pvpRange3": [],
+    "pvpRange4": [
+      "402401,402480"
+    ],
+    "LuckyKoiRange1": [
+      "402401,402480"
+    ],
+    "LuckyKoiRange2": [
+      "402401,402480"
+    ],
+    "guildWarRange": [
+      "403601,403680"
+    ],
+    "worldBossRange": [
+      "403601,403680"
+    ],
+    "arenaRange": [
+      "403601,403680"
+    ]
+  },
+  {
+    "id": 34,
+    "guildRange": [
+      "403681,403760"
+    ],
+    "chatRange": [
+      "403681,403760"
+    ],
+    "miningRange": [
+      "701381,701620"
+    ],
+    "dailyLevelRange": [
+      "403681,403760"
+    ],
+    "activityRange": [],
+    "friendRange": [],
+    "mythicRange": [
+      "403681,403760"
+    ],
+    "pvpRange1": [
+      "403681,403760"
+    ],
+    "pvpRange2": [
+      "402881,402960"
+    ],
+    "pvpRange3": [],
+    "pvpRange4": [
+      "402481,402560"
+    ],
+    "LuckyKoiRange1": [
+      "402481,402560"
+    ],
+    "LuckyKoiRange2": [
+      "402481,402560"
+    ],
+    "guildWarRange": [
+      "403681,403760"
+    ],
+    "worldBossRange": [
+      "403681,403760"
+    ],
+    "arenaRange": [
+      "403681,403760"
+    ]
+  },
+  {
+    "id": 35,
+    "guildRange": [
+      "403761,403840"
+    ],
+    "chatRange": [
+      "403761,403840"
+    ],
+    "miningRange": [
+      "701621,701860"
+    ],
+    "dailyLevelRange": [
+      "403761,403840"
+    ],
+    "activityRange": [],
+    "friendRange": [],
+    "mythicRange": [
+      "403761,403840"
+    ],
+    "pvpRange1": [
+      "403761,403840"
+    ],
+    "pvpRange2": [
+      "402961,403040"
+    ],
+    "pvpRange3": [],
+    "pvpRange4": [
+      "402561,402640"
+    ],
+    "LuckyKoiRange1": [
+      "402561,402640"
+    ],
+    "LuckyKoiRange2": [
+      "402561,402640"
+    ],
+    "guildWarRange": [
+      "403761,403840"
+    ],
+    "worldBossRange": [
+      "403761,403840"
+    ],
+    "arenaRange": [
+      "403761,403840"
+    ]
+  },
+  {
+    "id": 36,
+    "guildRange": [
+      "403841,403920"
+    ],
+    "chatRange": [
+      "403841,403920"
+    ],
+    "miningRange": [
+      "701861,702100"
+    ],
+    "dailyLevelRange": [
+      "403841,403920"
+    ],
+    "activityRange": [],
+    "friendRange": [],
+    "mythicRange": [
+      "403841,403920"
+    ],
+    "pvpRange1": [
+      "403841,403920"
+    ],
+    "pvpRange2": [
+      "403041,403120"
+    ],
+    "pvpRange3": [],
+    "pvpRange4": [
+      "402641,402720"
+    ],
+    "LuckyKoiRange1": [
+      "402641,402720"
+    ],
+    "LuckyKoiRange2": [
+      "402641,402720"
+    ],
+    "guildWarRange": [
+      "403841,403920"
+    ],
+    "worldBossRange": [
+      "403841,403920"
+    ],
+    "arenaRange": [
+      "403841,403920"
+    ]
+  },
+  {
+    "id": 37,
+    "guildRange": [
+      "403921,404000"
+    ],
+    "chatRange": [
+      "403921,404000"
+    ],
+    "miningRange": [
+      "702101,702340"
+    ],
+    "dailyLevelRange": [
+      "403921,404000"
+    ],
+    "activityRange": [],
+    "friendRange": [],
+    "mythicRange": [
+      "403921,404000"
+    ],
+    "pvpRange1": [
+      "403921,404000"
+    ],
+    "pvpRange2": [
+      "403121,403200"
+    ],
+    "pvpRange3": [],
+    "pvpRange4": [
+      "402721,402800"
+    ],
+    "LuckyKoiRange1": [
+      "402721,402800"
+    ],
+    "LuckyKoiRange2": [
+      "402721,402800"
+    ],
+    "guildWarRange": [
+      "403921,404000"
+    ],
+    "worldBossRange": [
+      "403921,404000"
+    ],
+    "arenaRange": [
+      "403921,404000"
+    ]
+  },
+  {
+    "id": 38,
+    "guildRange": [
+      "404001,404080"
+    ],
+    "chatRange": [
+      "404001,404080"
+    ],
+    "miningRange": [
+      "702341,702580"
+    ],
+    "dailyLevelRange": [
+      "404001,404080"
+    ],
+    "activityRange": [],
+    "friendRange": [],
+    "mythicRange": [
+      "404001,404080"
+    ],
+    "pvpRange1": [
+      "404001,404080"
+    ],
+    "pvpRange2": [
+      "403201,403280"
+    ],
+    "pvpRange3": [],
+    "pvpRange4": [
+      "402801,402880"
+    ],
+    "LuckyKoiRange1": [
+      "402801,402880"
+    ],
+    "LuckyKoiRange2": [
+      "402801,402880"
+    ],
+    "guildWarRange": [
+      "404001,404080"
+    ],
+    "worldBossRange": [
+      "404001,404080"
+    ],
+    "arenaRange": [
+      "404001,404080"
+    ]
+  },
+  {
+    "id": 39,
+    "guildRange": [
+      "404081,404160"
+    ],
+    "chatRange": [
+      "404081,404160"
+    ],
+    "miningRange": [
+      "702581,702820"
+    ],
+    "dailyLevelRange": [
+      "404081,404160"
+    ],
+    "activityRange": [],
+    "friendRange": [],
+    "mythicRange": [
+      "404081,404160"
+    ],
+    "pvpRange1": [
+      "404081,404160"
+    ],
+    "pvpRange2": [
+      "403281,403360"
+    ],
+    "pvpRange3": [],
+    "pvpRange4": [
+      "402881,402960"
+    ],
+    "LuckyKoiRange1": [
+      "402881,402960"
+    ],
+    "LuckyKoiRange2": [
+      "402881,402960"
+    ],
+    "guildWarRange": [
+      "404081,404160"
+    ],
+    "worldBossRange": [
+      "404081,404160"
+    ],
+    "arenaRange": [
+      "404081,404160"
+    ]
+  },
+  {
+    "id": 40,
+    "guildRange": [
+      "404161,404240"
+    ],
+    "chatRange": [
+      "404161,404240"
+    ],
+    "miningRange": [
+      "702821,703060"
+    ],
+    "dailyLevelRange": [
+      "404161,404240"
+    ],
+    "activityRange": [],
+    "friendRange": [],
+    "mythicRange": [
+      "404161,404240"
+    ],
+    "pvpRange1": [
+      "404161,404240"
+    ],
+    "pvpRange2": [
+      "403361,403440"
+    ],
+    "pvpRange3": [],
+    "pvpRange4": [
+      "402961,403040"
+    ],
+    "LuckyKoiRange1": [
+      "402961,403040"
+    ],
+    "LuckyKoiRange2": [
+      "402961,403040"
+    ],
+    "guildWarRange": [
+      "404161,404240"
+    ],
+    "worldBossRange": [
+      "404161,404240"
+    ],
+    "arenaRange": [
+      "404161,404240"
+    ]
+  },
+  {
+    "id": 41,
+    "guildRange": [
+      "404241,404320"
+    ],
+    "chatRange": [
+      "404241,404320"
+    ],
+    "miningRange": [
+      "703061,703300"
+    ],
+    "dailyLevelRange": [
+      "404241,404320"
+    ],
+    "activityRange": [],
+    "friendRange": [],
+    "mythicRange": [
+      "404241,404320"
+    ],
+    "pvpRange1": [
+      "404241,404320"
+    ],
+    "pvpRange2": [
+      "403441,403520"
+    ],
+    "pvpRange3": [],
+    "pvpRange4": [
+      "403041,403120"
+    ],
+    "LuckyKoiRange1": [
+      "403041,403120"
+    ],
+    "LuckyKoiRange2": [
+      "403041,403120"
+    ],
+    "guildWarRange": [
+      "404241,404320"
+    ],
+    "worldBossRange": [
+      "404241,404320"
+    ],
+    "arenaRange": [
+      "404241,404320"
+    ]
+  },
+  {
+    "id": 42,
+    "guildRange": [
+      "404321,404400"
+    ],
+    "chatRange": [
+      "404321,404400"
+    ],
+    "miningRange": [
+      "703301,703540"
+    ],
+    "dailyLevelRange": [
+      "404321,404400"
+    ],
+    "activityRange": [],
+    "friendRange": [],
+    "mythicRange": [
+      "404321,404400"
+    ],
+    "pvpRange1": [
+      "404321,404400"
+    ],
+    "pvpRange2": [
+      "403521,403600"
+    ],
+    "pvpRange3": [],
+    "pvpRange4": [
+      "403121,403200"
+    ],
+    "LuckyKoiRange1": [
+      "403121,403200"
+    ],
+    "LuckyKoiRange2": [
+      "403121,403200"
+    ],
+    "guildWarRange": [
+      "404321,404400"
+    ],
+    "worldBossRange": [
+      "404321,404400"
+    ],
+    "arenaRange": [
+      "404321,404400"
+    ]
+  },
+  {
+    "id": 43,
+    "guildRange": [
+      "404401,404480"
+    ],
+    "chatRange": [
+      "404401,404480"
+    ],
+    "miningRange": [
+      "703541,703780"
+    ],
+    "dailyLevelRange": [
+      "404401,404480"
+    ],
+    "activityRange": [],
+    "friendRange": [],
+    "mythicRange": [
+      "404401,404480"
+    ],
+    "pvpRange1": [
+      "404401,404480"
+    ],
+    "pvpRange2": [
+      "403601,403680"
+    ],
+    "pvpRange3": [],
+    "pvpRange4": [
+      "403201,403280"
+    ],
+    "LuckyKoiRange1": [
+      "403201,403280"
+    ],
+    "LuckyKoiRange2": [
+      "403201,403280"
+    ],
+    "guildWarRange": [
+      "404401,404480"
+    ],
+    "worldBossRange": [
+      "404401,404480"
+    ],
+    "arenaRange": [
+      "404401,404480"
+    ]
+  },
+  {
+    "id": 44,
+    "guildRange": [
+      "404481,404560"
+    ],
+    "chatRange": [
+      "404481,404560"
+    ],
+    "miningRange": [
+      "703781,704020"
+    ],
+    "dailyLevelRange": [
+      "404481,404560"
+    ],
+    "activityRange": [],
+    "friendRange": [],
+    "mythicRange": [
+      "404481,404560"
+    ],
+    "pvpRange1": [
+      "404481,404560"
+    ],
+    "pvpRange2": [
+      "403681,403760"
+    ],
+    "pvpRange3": [],
+    "pvpRange4": [
+      "403281,403360"
+    ],
+    "LuckyKoiRange1": [
+      "403281,403360"
+    ],
+    "LuckyKoiRange2": [
+      "403281,403360"
+    ],
+    "guildWarRange": [
+      "404481,404560"
+    ],
+    "worldBossRange": [
+      "404481,404560"
+    ],
+    "arenaRange": [
+      "404481,404560"
+    ]
+  },
+  {
+    "id": 45,
+    "guildRange": [
+      "404561,404640"
+    ],
+    "chatRange": [
+      "404561,404640"
+    ],
+    "miningRange": [
+      "704021,704260"
+    ],
+    "dailyLevelRange": [
+      "404561,404640"
+    ],
+    "activityRange": [],
+    "friendRange": [],
+    "mythicRange": [
+      "404561,404640"
+    ],
+    "pvpRange1": [
+      "404561,404640"
+    ],
+    "pvpRange2": [
+      "403761,403840"
+    ],
+    "pvpRange3": [],
+    "pvpRange4": [
+      "403361,403440"
+    ],
+    "LuckyKoiRange1": [
+      "403361,403440"
+    ],
+    "LuckyKoiRange2": [
+      "403361,403440"
+    ],
+    "guildWarRange": [
+      "404561,404640"
+    ],
+    "worldBossRange": [
+      "404561,404640"
+    ],
+    "arenaRange": [
+      "404561,404640"
+    ]
+  },
+  {
+    "id": 46,
+    "guildRange": [
+      "404641,404720"
+    ],
+    "chatRange": [
+      "404641,404720"
+    ],
+    "miningRange": [
+      "704261,704500"
+    ],
+    "dailyLevelRange": [
+      "404641,404720"
+    ],
+    "activityRange": [],
+    "friendRange": [],
+    "mythicRange": [
+      "404641,404720"
+    ],
+    "pvpRange1": [
+      "404641,404720"
+    ],
+    "pvpRange2": [
+      "403841,403920"
+    ],
+    "pvpRange3": [],
+    "pvpRange4": [
+      "403441,403520"
+    ],
+    "LuckyKoiRange1": [
+      "403441,403520"
+    ],
+    "LuckyKoiRange2": [
+      "403441,403520"
+    ],
+    "guildWarRange": [
+      "404641,404720"
+    ],
+    "worldBossRange": [
+      "404641,404720"
+    ],
+    "arenaRange": [
+      "404641,404720"
+    ]
+  },
+  {
+    "id": 47,
+    "guildRange": [
+      "404721,404800"
+    ],
+    "chatRange": [
+      "404721,404800"
+    ],
+    "miningRange": [
+      "704501,704740"
+    ],
+    "dailyLevelRange": [
+      "404721,404800"
+    ],
+    "activityRange": [],
+    "friendRange": [],
+    "mythicRange": [
+      "404721,404800"
+    ],
+    "pvpRange1": [
+      "404721,404800"
+    ],
+    "pvpRange2": [
+      "403921,404000"
+    ],
+    "pvpRange3": [],
+    "pvpRange4": [
+      "403521,403600"
+    ],
+    "LuckyKoiRange1": [
+      "403521,403600"
+    ],
+    "LuckyKoiRange2": [
+      "403521,403600"
+    ],
+    "guildWarRange": [
+      "404721,404800"
+    ],
+    "worldBossRange": [
+      "404721,404800"
+    ],
+    "arenaRange": [
+      "404721,404800"
+    ]
+  },
+  {
+    "id": 48,
+    "guildRange": [
+      "404801,404880"
+    ],
+    "chatRange": [
+      "404801,404880"
+    ],
+    "miningRange": [
+      "704741,704980"
+    ],
+    "dailyLevelRange": [
+      "404801,404880"
+    ],
+    "activityRange": [],
+    "friendRange": [],
+    "mythicRange": [
+      "404801,404880"
+    ],
+    "pvpRange1": [
+      "404801,404880"
+    ],
+    "pvpRange2": [
+      "404001,404080"
+    ],
+    "pvpRange3": [],
+    "pvpRange4": [
+      "403601,403680"
+    ],
+    "LuckyKoiRange1": [
+      "403601,403680"
+    ],
+    "LuckyKoiRange2": [
+      "403601,403680"
+    ],
+    "guildWarRange": [
+      "404801,404880"
+    ],
+    "worldBossRange": [
+      "404801,404880"
+    ],
+    "arenaRange": [
+      "404801,404880"
+    ]
+  },
+  {
+    "id": 49,
+    "guildRange": [
+      "404881,404960"
+    ],
+    "chatRange": [
+      "404881,404960"
+    ],
+    "miningRange": [
+      "704981,705220"
+    ],
+    "dailyLevelRange": [
+      "404881,404960"
+    ],
+    "activityRange": [],
+    "friendRange": [],
+    "mythicRange": [
+      "404881,404960"
+    ],
+    "pvpRange1": [
+      "404881,404960"
+    ],
+    "pvpRange2": [
+      "404081,404160"
+    ],
+    "pvpRange3": [],
+    "pvpRange4": [
+      "403681,403760"
+    ],
+    "LuckyKoiRange1": [
+      "403681,403760"
+    ],
+    "LuckyKoiRange2": [
+      "403681,403760"
+    ],
+    "guildWarRange": [
+      "404881,404960"
+    ],
+    "worldBossRange": [
+      "404881,404960"
+    ],
+    "arenaRange": [
+      "404881,404960"
+    ]
+  },
+  {
+    "id": 50,
+    "guildRange": [
+      "404961,405040"
+    ],
+    "chatRange": [
+      "404961,405040"
+    ],
+    "miningRange": [
+      "705221,705460"
+    ],
+    "dailyLevelRange": [
+      "404961,405040"
+    ],
+    "activityRange": [],
+    "friendRange": [],
+    "mythicRange": [
+      "404961,405040"
+    ],
+    "pvpRange1": [
+      "404961,405040"
+    ],
+    "pvpRange2": [
+      "404161,404240"
+    ],
+    "pvpRange3": [],
+    "pvpRange4": [
+      "403761,403840"
+    ],
+    "LuckyKoiRange1": [
+      "403761,403840"
+    ],
+    "LuckyKoiRange2": [
+      "403761,403840"
+    ],
+    "guildWarRange": [
+      "404961,405040"
+    ],
+    "worldBossRange": [
+      "404961,405040"
+    ],
+    "arenaRange": [
+      "404961,405040"
+    ]
+  },
+  {
+    "id": 51,
+    "guildRange": [
+      "405041,405120"
+    ],
+    "chatRange": [
+      "405041,405120"
+    ],
+    "miningRange": [
+      "705461,705700"
+    ],
+    "dailyLevelRange": [
+      "405041,405120"
+    ],
+    "activityRange": [],
+    "friendRange": [],
+    "mythicRange": [
+      "405041,405120"
+    ],
+    "pvpRange1": [
+      "405041,405120"
+    ],
+    "pvpRange2": [
+      "404241,404320"
+    ],
+    "pvpRange3": [],
+    "pvpRange4": [
+      "403841,403920"
+    ],
+    "LuckyKoiRange1": [
+      "403841,403920"
+    ],
+    "LuckyKoiRange2": [
+      "403841,403920"
+    ],
+    "guildWarRange": [
+      "405041,405120"
+    ],
+    "worldBossRange": [
+      "405041,405120"
+    ],
+    "arenaRange": [
+      "405041,405120"
+    ]
+  },
+  {
+    "id": 52,
+    "guildRange": [
+      "405121,405200"
+    ],
+    "chatRange": [
+      "405121,405200"
+    ],
+    "miningRange": [
+      "705701,705940"
+    ],
+    "dailyLevelRange": [
+      "405121,405200"
+    ],
+    "activityRange": [],
+    "friendRange": [],
+    "mythicRange": [
+      "405121,405200"
+    ],
+    "pvpRange1": [
+      "405121,405200"
+    ],
+    "pvpRange2": [
+      "404321,404400"
+    ],
+    "pvpRange3": [],
+    "pvpRange4": [
+      "403921,404000"
+    ],
+    "LuckyKoiRange1": [
+      "403921,404000"
+    ],
+    "LuckyKoiRange2": [
+      "403921,404000"
+    ],
+    "guildWarRange": [
+      "405121,405200"
+    ],
+    "worldBossRange": [
+      "405121,405200"
+    ],
+    "arenaRange": [
+      "405121,405200"
+    ]
+  },
+  {
+    "id": 53,
+    "guildRange": [
+      "405201,405280"
+    ],
+    "chatRange": [
+      "405201,405280"
+    ],
+    "miningRange": [
+      "705941,706180"
+    ],
+    "dailyLevelRange": [
+      "405201,405280"
+    ],
+    "activityRange": [],
+    "friendRange": [],
+    "mythicRange": [
+      "405201,405280"
+    ],
+    "pvpRange1": [
+      "405201,405280"
+    ],
+    "pvpRange2": [
+      "404401,404480"
+    ],
+    "pvpRange3": [],
+    "pvpRange4": [
+      "404001,404080"
+    ],
+    "LuckyKoiRange1": [
+      "404001,404080"
+    ],
+    "LuckyKoiRange2": [
+      "404001,404080"
+    ],
+    "guildWarRange": [
+      "405201,405280"
+    ],
+    "worldBossRange": [
+      "405201,405280"
+    ],
+    "arenaRange": [
+      "405201,405280"
+    ]
+  },
+  {
+    "id": 54,
+    "guildRange": [
+      "405281,405360"
+    ],
+    "chatRange": [
+      "405281,405360"
+    ],
+    "miningRange": [
+      "706181,706420"
+    ],
+    "dailyLevelRange": [
+      "405281,405360"
+    ],
+    "activityRange": [],
+    "friendRange": [],
+    "mythicRange": [
+      "405281,405360"
+    ],
+    "pvpRange1": [
+      "405281,405360"
+    ],
+    "pvpRange2": [
+      "404481,404560"
+    ],
+    "pvpRange3": [],
+    "pvpRange4": [
+      "404081,404160"
+    ],
+    "LuckyKoiRange1": [
+      "404081,404160"
+    ],
+    "LuckyKoiRange2": [
+      "404081,404160"
+    ],
+    "guildWarRange": [
+      "405281,405360"
+    ],
+    "worldBossRange": [
+      "405281,405360"
+    ],
+    "arenaRange": [
+      "405281,405360"
+    ]
+  },
+  {
+    "id": 55,
+    "guildRange": [
+      "405361,405440"
+    ],
+    "chatRange": [
+      "405361,405440"
+    ],
+    "miningRange": [
+      "706421,706660"
+    ],
+    "dailyLevelRange": [
+      "405361,405440"
+    ],
+    "activityRange": [],
+    "friendRange": [],
+    "mythicRange": [
+      "405361,405440"
+    ],
+    "pvpRange1": [
+      "405361,405440"
+    ],
+    "pvpRange2": [
+      "404561,404640"
+    ],
+    "pvpRange3": [],
+    "pvpRange4": [
+      "404161,404240"
+    ],
+    "LuckyKoiRange1": [
+      "404161,404240"
+    ],
+    "LuckyKoiRange2": [
+      "404161,404240"
+    ],
+    "guildWarRange": [
+      "405361,405440"
+    ],
+    "worldBossRange": [
+      "405361,405440"
+    ],
+    "arenaRange": [
+      "405361,405440"
+    ]
+  },
+  {
+    "id": 56,
+    "guildRange": [
+      "405441,405520"
+    ],
+    "chatRange": [
+      "405441,405520"
+    ],
+    "miningRange": [
+      "706661,706900"
+    ],
+    "dailyLevelRange": [
+      "405441,405520"
+    ],
+    "activityRange": [],
+    "friendRange": [],
+    "mythicRange": [
+      "405441,405520"
+    ],
+    "pvpRange1": [
+      "405441,405520"
+    ],
+    "pvpRange2": [
+      "404641,404720"
+    ],
+    "pvpRange3": [],
+    "pvpRange4": [
+      "404241,404320"
+    ],
+    "LuckyKoiRange1": [
+      "404241,404320"
+    ],
+    "LuckyKoiRange2": [
+      "404241,404320"
+    ],
+    "guildWarRange": [
+      "405441,405520"
+    ],
+    "worldBossRange": [
+      "405441,405520"
+    ],
+    "arenaRange": [
+      "405441,405520"
+    ]
+  },
+  {
+    "id": 57,
+    "guildRange": [
+      "405521,405600"
+    ],
+    "chatRange": [
+      "405521,405600"
+    ],
+    "miningRange": [
+      "706901,707140"
+    ],
+    "dailyLevelRange": [
+      "405521,405600"
+    ],
+    "activityRange": [],
+    "friendRange": [],
+    "mythicRange": [
+      "405521,405600"
+    ],
+    "pvpRange1": [
+      "405521,405600"
+    ],
+    "pvpRange2": [
+      "404721,404800"
+    ],
+    "pvpRange3": [],
+    "pvpRange4": [
+      "404321,404400"
+    ],
+    "LuckyKoiRange1": [
+      "404321,404400"
+    ],
+    "LuckyKoiRange2": [
+      "404321,404400"
+    ],
+    "guildWarRange": [
+      "405521,405600"
+    ],
+    "worldBossRange": [
+      "405521,405600"
+    ],
+    "arenaRange": [
+      "405521,405600"
+    ]
+  },
+  {
+    "id": 58,
+    "guildRange": [
+      "405601,405680"
+    ],
+    "chatRange": [
+      "405601,405680"
+    ],
+    "miningRange": [
+      "707141,707380"
+    ],
+    "dailyLevelRange": [
+      "405601,405680"
+    ],
+    "activityRange": [],
+    "friendRange": [],
+    "mythicRange": [
+      "405601,405680"
+    ],
+    "pvpRange1": [
+      "405601,405680"
+    ],
+    "pvpRange2": [
+      "404801,404880"
+    ],
+    "pvpRange3": [],
+    "pvpRange4": [
+      "404401,404480"
+    ],
+    "LuckyKoiRange1": [
+      "404401,404480"
+    ],
+    "LuckyKoiRange2": [
+      "404401,404480"
+    ],
+    "guildWarRange": [
+      "405601,405680"
+    ],
+    "worldBossRange": [
+      "405601,405680"
+    ],
+    "arenaRange": [
+      "405601,405680"
+    ]
+  },
+  {
+    "id": 59,
+    "guildRange": [
+      "405681,405760"
+    ],
+    "chatRange": [
+      "405681,405760"
+    ],
+    "miningRange": [
+      "707381,707620"
+    ],
+    "dailyLevelRange": [
+      "405681,405760"
+    ],
+    "activityRange": [],
+    "friendRange": [],
+    "mythicRange": [
+      "405681,405760"
+    ],
+    "pvpRange1": [
+      "405681,405760"
+    ],
+    "pvpRange2": [
+      "404881,404960"
+    ],
+    "pvpRange3": [],
+    "pvpRange4": [
+      "404481,404560"
+    ],
+    "LuckyKoiRange1": [
+      "404481,404560"
+    ],
+    "LuckyKoiRange2": [
+      "404481,404560"
+    ],
+    "guildWarRange": [
+      "405681,405760"
+    ],
+    "worldBossRange": [
+      "405681,405760"
+    ],
+    "arenaRange": [
+      "405681,405760"
+    ]
+  },
+  {
+    "id": 60,
+    "guildRange": [
+      "405761,405840"
+    ],
+    "chatRange": [
+      "405761,405840"
+    ],
+    "miningRange": [
+      "707621,707860"
+    ],
+    "dailyLevelRange": [
+      "405761,405840"
+    ],
+    "activityRange": [],
+    "friendRange": [],
+    "mythicRange": [
+      "405761,405840"
+    ],
+    "pvpRange1": [
+      "405761,405840"
+    ],
+    "pvpRange2": [
+      "404961,405040"
+    ],
+    "pvpRange3": [],
+    "pvpRange4": [
+      "404561,404640"
+    ],
+    "LuckyKoiRange1": [
+      "404561,404640"
+    ],
+    "LuckyKoiRange2": [
+      "404561,404640"
+    ],
+    "guildWarRange": [
+      "405761,405840"
+    ],
+    "worldBossRange": [
+      "405761,405840"
+    ],
+    "arenaRange": [
+      "405761,405840"
+    ]
+  },
+  {
+    "id": 61,
+    "guildRange": [
+      "405841,405920"
+    ],
+    "chatRange": [
+      "405841,405920"
+    ],
+    "miningRange": [
+      "707861,708100"
+    ],
+    "dailyLevelRange": [
+      "405841,405920"
+    ],
+    "activityRange": [],
+    "friendRange": [],
+    "mythicRange": [
+      "405841,405920"
+    ],
+    "pvpRange1": [
+      "405841,405920"
+    ],
+    "pvpRange2": [
+      "405041,405120"
+    ],
+    "pvpRange3": [],
+    "pvpRange4": [
+      "404641,404720"
+    ],
+    "LuckyKoiRange1": [
+      "404641,404720"
+    ],
+    "LuckyKoiRange2": [
+      "404641,404720"
+    ],
+    "guildWarRange": [
+      "405841,405920"
+    ],
+    "worldBossRange": [
+      "405841,405920"
+    ],
+    "arenaRange": [
+      "405841,405920"
+    ]
+  },
+  {
+    "id": 62,
+    "guildRange": [
+      "405921,406000"
+    ],
+    "chatRange": [
+      "405921,406000"
+    ],
+    "miningRange": [
+      "708101,708340"
+    ],
+    "dailyLevelRange": [
+      "405921,406000"
+    ],
+    "activityRange": [],
+    "friendRange": [],
+    "mythicRange": [
+      "405921,406000"
+    ],
+    "pvpRange1": [
+      "405921,406000"
+    ],
+    "pvpRange2": [
+      "405121,405200"
+    ],
+    "pvpRange3": [],
+    "pvpRange4": [
+      "404721,404800"
+    ],
+    "LuckyKoiRange1": [
+      "404721,404800"
+    ],
+    "LuckyKoiRange2": [
+      "404721,404800"
+    ],
+    "guildWarRange": [
+      "405921,406000"
+    ],
+    "worldBossRange": [
+      "405921,406000"
+    ],
+    "arenaRange": [
+      "405921,406000"
+    ]
+  },
+  {
+    "id": 63,
+    "guildRange": [
+      "406001,406080"
+    ],
+    "chatRange": [
+      "406001,406080"
+    ],
+    "miningRange": [
+      "708341,708580"
+    ],
+    "dailyLevelRange": [
+      "406001,406080"
+    ],
+    "activityRange": [],
+    "friendRange": [],
+    "mythicRange": [
+      "406001,406080"
+    ],
+    "pvpRange1": [
+      "406001,406080"
+    ],
+    "pvpRange2": [
+      "405201,405280"
+    ],
+    "pvpRange3": [],
+    "pvpRange4": [
+      "404801,404880"
+    ],
+    "LuckyKoiRange1": [
+      "404801,404880"
+    ],
+    "LuckyKoiRange2": [
+      "404801,404880"
+    ],
+    "guildWarRange": [
+      "406001,406080"
+    ],
+    "worldBossRange": [
+      "406001,406080"
+    ],
+    "arenaRange": [
+      "406001,406080"
+    ]
+  },
+  {
+    "id": 64,
+    "guildRange": [
+      "406081,406160"
+    ],
+    "chatRange": [
+      "406081,406160"
+    ],
+    "miningRange": [
+      "708581,708820"
+    ],
+    "dailyLevelRange": [
+      "406081,406160"
+    ],
+    "activityRange": [],
+    "friendRange": [],
+    "mythicRange": [
+      "406081,406160"
+    ],
+    "pvpRange1": [
+      "406081,406160"
+    ],
+    "pvpRange2": [
+      "405281,405360"
+    ],
+    "pvpRange3": [],
+    "pvpRange4": [
+      "404881,404960"
+    ],
+    "LuckyKoiRange1": [
+      "404881,404960"
+    ],
+    "LuckyKoiRange2": [
+      "404881,404960"
+    ],
+    "guildWarRange": [
+      "406081,406160"
+    ],
+    "worldBossRange": [
+      "406081,406160"
+    ],
+    "arenaRange": [
+      "406081,406160"
+    ]
+  },
+  {
+    "id": 65,
+    "guildRange": [
+      "406161,406240"
+    ],
+    "chatRange": [
+      "406161,406240"
+    ],
+    "miningRange": [
+      "708821,709060"
+    ],
+    "dailyLevelRange": [
+      "406161,406240"
+    ],
+    "activityRange": [],
+    "friendRange": [],
+    "mythicRange": [
+      "406161,406240"
+    ],
+    "pvpRange1": [
+      "406161,406240"
+    ],
+    "pvpRange2": [
+      "405361,405440"
+    ],
+    "pvpRange3": [],
+    "pvpRange4": [
+      "404961,405040"
+    ],
+    "LuckyKoiRange1": [
+      "404961,405040"
+    ],
+    "LuckyKoiRange2": [
+      "404961,405040"
+    ],
+    "guildWarRange": [
+      "406161,406240"
+    ],
+    "worldBossRange": [
+      "406161,406240"
+    ],
+    "arenaRange": [
+      "406161,406240"
+    ]
+  },
+  {
+    "id": 66,
+    "guildRange": [
+      "406241,406320"
+    ],
+    "chatRange": [
+      "406241,406320"
+    ],
+    "miningRange": [
+      "709061,709300"
+    ],
+    "dailyLevelRange": [
+      "406241,406320"
+    ],
+    "activityRange": [],
+    "friendRange": [],
+    "mythicRange": [
+      "406241,406320"
+    ],
+    "pvpRange1": [
+      "406241,406320"
+    ],
+    "pvpRange2": [
+      "405441,405520"
+    ],
+    "pvpRange3": [],
+    "pvpRange4": [
+      "405041,405120"
+    ],
+    "LuckyKoiRange1": [
+      "405041,405120"
+    ],
+    "LuckyKoiRange2": [
+      "405041,405120"
+    ],
+    "guildWarRange": [
+      "406241,406320"
+    ],
+    "worldBossRange": [
+      "406241,406320"
+    ],
+    "arenaRange": [
+      "406241,406320"
+    ]
+  },
+  {
+    "id": 67,
+    "guildRange": [
+      "406321,406400"
+    ],
+    "chatRange": [
+      "406321,406400"
+    ],
+    "miningRange": [
+      "709301,709540"
+    ],
+    "dailyLevelRange": [
+      "406321,406400"
+    ],
+    "activityRange": [],
+    "friendRange": [],
+    "mythicRange": [
+      "406321,406400"
+    ],
+    "pvpRange1": [
+      "406321,406400"
+    ],
+    "pvpRange2": [
+      "405521,405600"
+    ],
+    "pvpRange3": [],
+    "pvpRange4": [
+      "405121,405200"
+    ],
+    "LuckyKoiRange1": [
+      "405121,405200"
+    ],
+    "LuckyKoiRange2": [
+      "405121,405200"
+    ],
+    "guildWarRange": [
+      "406321,406400"
+    ],
+    "worldBossRange": [
+      "406321,406400"
+    ],
+    "arenaRange": [
+      "406321,406400"
+    ]
+  },
+  {
+    "id": 68,
+    "guildRange": [
+      "406401,406480"
+    ],
+    "chatRange": [
+      "406401,406480"
+    ],
+    "miningRange": [
+      "709541,709780"
+    ],
+    "dailyLevelRange": [
+      "406401,406480"
+    ],
+    "activityRange": [],
+    "friendRange": [],
+    "mythicRange": [
+      "406401,406480"
+    ],
+    "pvpRange1": [
+      "406401,406480"
+    ],
+    "pvpRange2": [
+      "405601,405680"
+    ],
+    "pvpRange3": [],
+    "pvpRange4": [
+      "405201,405280"
+    ],
+    "LuckyKoiRange1": [
+      "405201,405280"
+    ],
+    "LuckyKoiRange2": [
+      "405201,405280"
+    ],
+    "guildWarRange": [
+      "406401,406480"
+    ],
+    "worldBossRange": [
+      "406401,406480"
+    ],
+    "arenaRange": [
+      "406401,406480"
+    ]
+  },
+  {
+    "id": 69,
+    "guildRange": [
+      "406481,406560"
+    ],
+    "chatRange": [
+      "406481,406560"
+    ],
+    "miningRange": [
+      "709781,710020"
+    ],
+    "dailyLevelRange": [
+      "406481,406560"
+    ],
+    "activityRange": [],
+    "friendRange": [],
+    "mythicRange": [
+      "406481,406560"
+    ],
+    "pvpRange1": [
+      "406481,406560"
+    ],
+    "pvpRange2": [
+      "405681,405760"
+    ],
+    "pvpRange3": [],
+    "pvpRange4": [
+      "405281,405360"
+    ],
+    "LuckyKoiRange1": [
+      "405281,405360"
+    ],
+    "LuckyKoiRange2": [
+      "405281,405360"
+    ],
+    "guildWarRange": [
+      "406481,406560"
+    ],
+    "worldBossRange": [
+      "406481,406560"
+    ],
+    "arenaRange": [
+      "406481,406560"
+    ]
+  },
+  {
+    "id": 70,
+    "guildRange": [
+      "406561,406640"
+    ],
+    "chatRange": [
+      "406561,406640"
+    ],
+    "miningRange": [],
+    "dailyLevelRange": [
+      "406561,406640"
+    ],
+    "activityRange": [],
+    "friendRange": [],
+    "mythicRange": [
+      "406561,406640"
+    ],
+    "pvpRange1": [
+      "406561,406640"
+    ],
+    "pvpRange2": [
+      "405761,405840"
+    ],
+    "pvpRange3": [],
+    "pvpRange4": [
+      "405361,405440"
+    ],
+    "LuckyKoiRange1": [
+      "405361,405440"
+    ],
+    "LuckyKoiRange2": [
+      "405361,405440"
+    ],
+    "guildWarRange": [
+      "406561,406640"
+    ],
+    "worldBossRange": [
+      "406561,406640"
+    ],
+    "arenaRange": [
+      "406561,406640"
+    ]
+  },
+  {
+    "id": 71,
+    "guildRange": [
+      "406641,406720"
+    ],
+    "chatRange": [
+      "406641,406720"
+    ],
+    "miningRange": [],
+    "dailyLevelRange": [
+      "406641,406720"
+    ],
+    "activityRange": [],
+    "friendRange": [],
+    "mythicRange": [
+      "406641,406720"
+    ],
+    "pvpRange1": [
+      "406641,406720"
+    ],
+    "pvpRange2": [
+      "405841,405920"
+    ],
+    "pvpRange3": [],
+    "pvpRange4": [
+      "405441,405520"
+    ],
+    "LuckyKoiRange1": [
+      "405441,405520"
+    ],
+    "LuckyKoiRange2": [
+      "405441,405520"
+    ],
+    "guildWarRange": [
+      "406641,406720"
+    ],
+    "worldBossRange": [
+      "406641,406720"
+    ],
+    "arenaRange": [
+      "406641,406720"
+    ]
+  },
+  {
+    "id": 72,
+    "guildRange": [
+      "406721,406800"
+    ],
+    "chatRange": [
+      "406721,406800"
+    ],
+    "miningRange": [],
+    "dailyLevelRange": [
+      "406721,406800"
+    ],
+    "activityRange": [],
+    "friendRange": [],
+    "mythicRange": [
+      "406721,406800"
+    ],
+    "pvpRange1": [
+      "406721,406800"
+    ],
+    "pvpRange2": [
+      "405921,406000"
+    ],
+    "pvpRange3": [],
+    "pvpRange4": [
+      "405521,405600"
+    ],
+    "LuckyKoiRange1": [
+      "405521,405600"
+    ],
+    "LuckyKoiRange2": [
+      "405521,405600"
+    ],
+    "guildWarRange": [
+      "406721,406800"
+    ],
+    "worldBossRange": [
+      "406721,406800"
+    ],
+    "arenaRange": [
+      "406721,406800"
+    ]
+  },
+  {
+    "id": 73,
+    "guildRange": [
+      "406801,406880"
+    ],
+    "chatRange": [
+      "406801,406880"
+    ],
+    "miningRange": [],
+    "dailyLevelRange": [
+      "406801,406880"
+    ],
+    "activityRange": [],
+    "friendRange": [],
+    "mythicRange": [
+      "406801,406880"
+    ],
+    "pvpRange1": [
+      "406801,406880"
+    ],
+    "pvpRange2": [
+      "406001,406080"
+    ],
+    "pvpRange3": [],
+    "pvpRange4": [
+      "405601,405680"
+    ],
+    "LuckyKoiRange1": [
+      "405601,405680"
+    ],
+    "LuckyKoiRange2": [
+      "405601,405680"
+    ],
+    "guildWarRange": [
+      "406801,406880"
+    ],
+    "worldBossRange": [
+      "406801,406880"
+    ],
+    "arenaRange": [
+      "406801,406880"
+    ]
+  },
+  {
+    "id": 74,
+    "guildRange": [
+      "406881,406960"
+    ],
+    "chatRange": [
+      "406881,406960"
+    ],
+    "miningRange": [],
+    "dailyLevelRange": [
+      "406881,406960"
+    ],
+    "activityRange": [],
+    "friendRange": [],
+    "mythicRange": [
+      "406881,406960"
+    ],
+    "pvpRange1": [
+      "406881,406960"
+    ],
+    "pvpRange2": [
+      "406081,406160"
+    ],
+    "pvpRange3": [],
+    "pvpRange4": [
+      "405681,405760"
+    ],
+    "LuckyKoiRange1": [
+      "405681,405760"
+    ],
+    "LuckyKoiRange2": [
+      "405681,405760"
+    ],
+    "guildWarRange": [
+      "406881,406960"
+    ],
+    "worldBossRange": [
+      "406881,406960"
+    ],
+    "arenaRange": [
+      "406881,406960"
+    ]
+  },
+  {
+    "id": 75,
+    "guildRange": [
+      "406961,407040"
+    ],
+    "chatRange": [
+      "406961,407040"
+    ],
+    "miningRange": [],
+    "dailyLevelRange": [
+      "406961,407040"
+    ],
+    "activityRange": [],
+    "friendRange": [],
+    "mythicRange": [
+      "406961,407040"
+    ],
+    "pvpRange1": [
+      "406961,407040"
+    ],
+    "pvpRange2": [
+      "406161,406240"
+    ],
+    "pvpRange3": [],
+    "pvpRange4": [
+      "405761,405840"
+    ],
+    "LuckyKoiRange1": [
+      "405761,405840"
+    ],
+    "LuckyKoiRange2": [
+      "405761,405840"
+    ],
+    "guildWarRange": [
+      "406961,407040"
+    ],
+    "worldBossRange": [
+      "406961,407040"
+    ],
+    "arenaRange": [
+      "406961,407040"
+    ]
+  },
+  {
+    "id": 76,
+    "guildRange": [
+      "407041,407120"
+    ],
+    "chatRange": [
+      "407041,407120"
+    ],
+    "miningRange": [],
+    "dailyLevelRange": [
+      "407041,407120"
+    ],
+    "activityRange": [],
+    "friendRange": [],
+    "mythicRange": [
+      "407041,407120"
+    ],
+    "pvpRange1": [
+      "407041,407120"
+    ],
+    "pvpRange2": [
+      "406241,406320"
+    ],
+    "pvpRange3": [],
+    "pvpRange4": [
+      "405841,405920"
+    ],
+    "LuckyKoiRange1": [
+      "405841,405920"
+    ],
+    "LuckyKoiRange2": [
+      "405841,405920"
+    ],
+    "guildWarRange": [
+      "407041,407120"
+    ],
+    "worldBossRange": [
+      "407041,407120"
+    ],
+    "arenaRange": [
+      "407041,407120"
+    ]
+  },
+  {
+    "id": 77,
+    "guildRange": [
+      "407121,407200"
+    ],
+    "chatRange": [
+      "407121,407200"
+    ],
+    "miningRange": [],
+    "dailyLevelRange": [
+      "407121,407200"
+    ],
+    "activityRange": [],
+    "friendRange": [],
+    "mythicRange": [
+      "407121,407200"
+    ],
+    "pvpRange1": [
+      "407121,407200"
+    ],
+    "pvpRange2": [
+      "406321,406400"
+    ],
+    "pvpRange3": [],
+    "pvpRange4": [
+      "405921,406000"
+    ],
+    "LuckyKoiRange1": [
+      "405921,406000"
+    ],
+    "LuckyKoiRange2": [
+      "405921,406000"
+    ],
+    "guildWarRange": [
+      "407121,407200"
+    ],
+    "worldBossRange": [
+      "407121,407200"
+    ],
+    "arenaRange": [
+      "407121,407200"
+    ]
+  },
+  {
+    "id": 78,
+    "guildRange": [
+      "407201,407280"
+    ],
+    "chatRange": [
+      "407201,407280"
+    ],
+    "miningRange": [],
+    "dailyLevelRange": [
+      "407201,407280"
+    ],
+    "activityRange": [],
+    "friendRange": [],
+    "mythicRange": [
+      "407201,407280"
+    ],
+    "pvpRange1": [
+      "407201,407280"
+    ],
+    "pvpRange2": [
+      "406401,406480"
+    ],
+    "pvpRange3": [],
+    "pvpRange4": [
+      "406001,406080"
+    ],
+    "LuckyKoiRange1": [
+      "406001,406080"
+    ],
+    "LuckyKoiRange2": [
+      "406001,406080"
+    ],
+    "guildWarRange": [
+      "407201,407280"
+    ],
+    "worldBossRange": [
+      "407201,407280"
+    ],
+    "arenaRange": [
+      "407201,407280"
+    ]
+  },
+  {
+    "id": 79,
+    "guildRange": [
+      "407281,407360"
+    ],
+    "chatRange": [
+      "407281,407360"
+    ],
+    "miningRange": [],
+    "dailyLevelRange": [
+      "407281,407360"
+    ],
+    "activityRange": [],
+    "friendRange": [],
+    "mythicRange": [
+      "407281,407360"
+    ],
+    "pvpRange1": [
+      "407281,407360"
+    ],
+    "pvpRange2": [
+      "406481,406560"
+    ],
+    "pvpRange3": [],
+    "pvpRange4": [
+      "406081,406160"
+    ],
+    "LuckyKoiRange1": [
+      "406081,406160"
+    ],
+    "LuckyKoiRange2": [
+      "406081,406160"
+    ],
+    "guildWarRange": [
+      "407281,407360"
+    ],
+    "worldBossRange": [
+      "407281,407360"
+    ],
+    "arenaRange": [
+      "407281,407360"
+    ]
+  },
+  {
+    "id": 80,
+    "guildRange": [
+      "407361,407440"
+    ],
+    "chatRange": [
+      "407361,407440"
+    ],
+    "miningRange": [],
+    "dailyLevelRange": [
+      "407361,407440"
+    ],
+    "activityRange": [],
+    "friendRange": [],
+    "mythicRange": [
+      "407361,407440"
+    ],
+    "pvpRange1": [
+      "407361,407440"
+    ],
+    "pvpRange2": [
+      "406561,406640"
+    ],
+    "pvpRange3": [],
+    "pvpRange4": [
+      "406161,406240"
+    ],
+    "LuckyKoiRange1": [
+      "406161,406240"
+    ],
+    "LuckyKoiRange2": [
+      "406161,406240"
+    ],
+    "guildWarRange": [
+      "407361,407440"
+    ],
+    "worldBossRange": [
+      "407361,407440"
+    ],
+    "arenaRange": [
+      "407361,407440"
+    ]
+  },
+  {
+    "id": 81,
+    "guildRange": [
+      "407441,407520"
+    ],
+    "chatRange": [
+      "407441,407520"
+    ],
+    "miningRange": [],
+    "dailyLevelRange": [
+      "407441,407520"
+    ],
+    "activityRange": [],
+    "friendRange": [],
+    "mythicRange": [
+      "407441,407520"
+    ],
+    "pvpRange1": [
+      "407441,407520"
+    ],
+    "pvpRange2": [
+      "406641,406720"
+    ],
+    "pvpRange3": [],
+    "pvpRange4": [
+      "406241,406320"
+    ],
+    "LuckyKoiRange1": [
+      "406241,406320"
+    ],
+    "LuckyKoiRange2": [
+      "406241,406320"
+    ],
+    "guildWarRange": [
+      "407441,407520"
+    ],
+    "worldBossRange": [
+      "407441,407520"
+    ],
+    "arenaRange": [
+      "407441,407520"
+    ]
+  },
+  {
+    "id": 82,
+    "guildRange": [
+      "407521,407600"
+    ],
+    "chatRange": [
+      "407521,407600"
+    ],
+    "miningRange": [],
+    "dailyLevelRange": [
+      "407521,407600"
+    ],
+    "activityRange": [],
+    "friendRange": [],
+    "mythicRange": [
+      "407521,407600"
+    ],
+    "pvpRange1": [
+      "407521,407600"
+    ],
+    "pvpRange2": [
+      "406721,406800"
+    ],
+    "pvpRange3": [],
+    "pvpRange4": [
+      "406321,406400"
+    ],
+    "LuckyKoiRange1": [
+      "406321,406400"
+    ],
+    "LuckyKoiRange2": [
+      "406321,406400"
+    ],
+    "guildWarRange": [
+      "407521,407600"
+    ],
+    "worldBossRange": [
+      "407521,407600"
+    ],
+    "arenaRange": [
+      "407521,407600"
+    ]
+  },
+  {
+    "id": 83,
+    "guildRange": [
+      "407601,407680"
+    ],
+    "chatRange": [
+      "407601,407680"
+    ],
+    "miningRange": [],
+    "dailyLevelRange": [
+      "407601,407680"
+    ],
+    "activityRange": [],
+    "friendRange": [],
+    "mythicRange": [
+      "407601,407680"
+    ],
+    "pvpRange1": [
+      "407601,407680"
+    ],
+    "pvpRange2": [
+      "406801,406880"
+    ],
+    "pvpRange3": [],
+    "pvpRange4": [
+      "406401,406480"
+    ],
+    "LuckyKoiRange1": [
+      "406401,406480"
+    ],
+    "LuckyKoiRange2": [
+      "406401,406480"
+    ],
+    "guildWarRange": [
+      "407601,407680"
+    ],
+    "worldBossRange": [
+      "407601,407680"
+    ],
+    "arenaRange": [
+      "407601,407680"
+    ]
+  },
+  {
+    "id": 84,
+    "guildRange": [
+      "407681,407760"
+    ],
+    "chatRange": [
+      "407681,407760"
+    ],
+    "miningRange": [],
+    "dailyLevelRange": [
+      "407681,407760"
+    ],
+    "activityRange": [],
+    "friendRange": [],
+    "mythicRange": [
+      "407681,407760"
+    ],
+    "pvpRange1": [
+      "407681,407760"
+    ],
+    "pvpRange2": [
+      "406881,406960"
+    ],
+    "pvpRange3": [],
+    "pvpRange4": [
+      "406481,406560"
+    ],
+    "LuckyKoiRange1": [
+      "406481,406560"
+    ],
+    "LuckyKoiRange2": [
+      "406481,406560"
+    ],
+    "guildWarRange": [
+      "407681,407760"
+    ],
+    "worldBossRange": [
+      "407681,407760"
+    ],
+    "arenaRange": [
+      "407681,407760"
+    ]
+  },
+  {
+    "id": 85,
+    "guildRange": [
+      "407761,407840"
+    ],
+    "chatRange": [
+      "407761,407840"
+    ],
+    "miningRange": [],
+    "dailyLevelRange": [
+      "407761,407840"
+    ],
+    "activityRange": [],
+    "friendRange": [],
+    "mythicRange": [
+      "407761,407840"
+    ],
+    "pvpRange1": [
+      "407761,407840"
+    ],
+    "pvpRange2": [
+      "406961,407040"
+    ],
+    "pvpRange3": [],
+    "pvpRange4": [
+      "406561,406640"
+    ],
+    "LuckyKoiRange1": [
+      "406561,406640"
+    ],
+    "LuckyKoiRange2": [
+      "406561,406640"
+    ],
+    "guildWarRange": [
+      "407761,407840"
+    ],
+    "worldBossRange": [
+      "407761,407840"
+    ],
+    "arenaRange": [
+      "407761,407840"
+    ]
+  },
+  {
+    "id": 86,
+    "guildRange": [
+      "407841,407920"
+    ],
+    "chatRange": [
+      "407841,407920"
+    ],
+    "miningRange": [],
+    "dailyLevelRange": [
+      "407841,407920"
+    ],
+    "activityRange": [],
+    "friendRange": [],
+    "mythicRange": [
+      "407841,407920"
+    ],
+    "pvpRange1": [
+      "407841,407920"
+    ],
+    "pvpRange2": [
+      "407041,407120"
+    ],
+    "pvpRange3": [],
+    "pvpRange4": [
+      "406641,406720"
+    ],
+    "LuckyKoiRange1": [
+      "406641,406720"
+    ],
+    "LuckyKoiRange2": [
+      "406641,406720"
+    ],
+    "guildWarRange": [
+      "407841,407920"
+    ],
+    "worldBossRange": [
+      "407841,407920"
+    ],
+    "arenaRange": [
+      "407841,407920"
+    ]
+  },
+  {
+    "id": 87,
+    "guildRange": [
+      "407921,408000"
+    ],
+    "chatRange": [
+      "407921,408000"
+    ],
+    "miningRange": [],
+    "dailyLevelRange": [
+      "407921,408000"
+    ],
+    "activityRange": [],
+    "friendRange": [],
+    "mythicRange": [
+      "407921,408000"
+    ],
+    "pvpRange1": [
+      "407921,408000"
+    ],
+    "pvpRange2": [
+      "407121,407200"
+    ],
+    "pvpRange3": [],
+    "pvpRange4": [
+      "406721,406800"
+    ],
+    "LuckyKoiRange1": [
+      "406721,406800"
+    ],
+    "LuckyKoiRange2": [
+      "406721,406800"
+    ],
+    "guildWarRange": [
+      "407921,408000"
+    ],
+    "worldBossRange": [
+      "407921,408000"
+    ],
+    "arenaRange": [
+      "407921,408000"
+    ]
+  },
+  {
+    "id": 88,
+    "guildRange": [
+      "408001,408080"
+    ],
+    "chatRange": [
+      "408001,408080"
+    ],
+    "miningRange": [],
+    "dailyLevelRange": [
+      "408001,408080"
+    ],
+    "activityRange": [],
+    "friendRange": [],
+    "mythicRange": [
+      "408001,408080"
+    ],
+    "pvpRange1": [
+      "408001,408080"
+    ],
+    "pvpRange2": [
+      "407201,407280"
+    ],
+    "pvpRange3": [],
+    "pvpRange4": [
+      "406801,406880"
+    ],
+    "LuckyKoiRange1": [
+      "406801,406880"
+    ],
+    "LuckyKoiRange2": [
+      "406801,406880"
+    ],
+    "guildWarRange": [
+      "408001,408080"
+    ],
+    "worldBossRange": [
+      "408001,408080"
+    ],
+    "arenaRange": [
+      "408001,408080"
+    ]
+  },
+  {
+    "id": 89,
+    "guildRange": [
+      "408081,408160"
+    ],
+    "chatRange": [
+      "408081,408160"
+    ],
+    "miningRange": [],
+    "dailyLevelRange": [
+      "408081,408160"
+    ],
+    "activityRange": [],
+    "friendRange": [],
+    "mythicRange": [
+      "408081,408160"
+    ],
+    "pvpRange1": [
+      "408081,408160"
+    ],
+    "pvpRange2": [
+      "407281,407360"
+    ],
+    "pvpRange3": [],
+    "pvpRange4": [
+      "406881,406960"
+    ],
+    "LuckyKoiRange1": [
+      "406881,406960"
+    ],
+    "LuckyKoiRange2": [
+      "406881,406960"
+    ],
+    "guildWarRange": [
+      "408081,408160"
+    ],
+    "worldBossRange": [
+      "408081,408160"
+    ],
+    "arenaRange": [
+      "408081,408160"
+    ]
+  },
+  {
+    "id": 90,
+    "guildRange": [
+      "408161,408240"
+    ],
+    "chatRange": [
+      "408161,408240"
+    ],
+    "miningRange": [],
+    "dailyLevelRange": [
+      "408161,408240"
+    ],
+    "activityRange": [],
+    "friendRange": [],
+    "mythicRange": [
+      "408161,408240"
+    ],
+    "pvpRange1": [
+      "408161,408240"
+    ],
+    "pvpRange2": [
+      "407361,407440"
+    ],
+    "pvpRange3": [],
+    "pvpRange4": [
+      "406961,407040"
+    ],
+    "LuckyKoiRange1": [
+      "406961,407040"
+    ],
+    "LuckyKoiRange2": [
+      "406961,407040"
+    ],
+    "guildWarRange": [
+      "408161,408240"
+    ],
+    "worldBossRange": [
+      "408161,408240"
+    ],
+    "arenaRange": [
+      "408161,408240"
+    ]
+  },
+  {
+    "id": 91,
+    "guildRange": [
+      "408241,408320"
+    ],
+    "chatRange": [
+      "408241,408320"
+    ],
+    "miningRange": [],
+    "dailyLevelRange": [
+      "408241,408320"
+    ],
+    "activityRange": [],
+    "friendRange": [],
+    "mythicRange": [
+      "408241,408320"
+    ],
+    "pvpRange1": [
+      "408241,408320"
+    ],
+    "pvpRange2": [
+      "407441,407520"
+    ],
+    "pvpRange3": [],
+    "pvpRange4": [
+      "407041,407120"
+    ],
+    "LuckyKoiRange1": [
+      "407041,407120"
+    ],
+    "LuckyKoiRange2": [
+      "407041,407120"
+    ],
+    "guildWarRange": [
+      "408241,408320"
+    ],
+    "worldBossRange": [
+      "408241,408320"
+    ],
+    "arenaRange": [
+      "408241,408320"
+    ]
+  },
+  {
+    "id": 92,
+    "guildRange": [
+      "408321,408400"
+    ],
+    "chatRange": [
+      "408321,408400"
+    ],
+    "miningRange": [],
+    "dailyLevelRange": [
+      "408321,408400"
+    ],
+    "activityRange": [],
+    "friendRange": [],
+    "mythicRange": [
+      "408321,408400"
+    ],
+    "pvpRange1": [
+      "408321,408400"
+    ],
+    "pvpRange2": [
+      "407521,407600"
+    ],
+    "pvpRange3": [],
+    "pvpRange4": [
+      "407121,407200"
+    ],
+    "LuckyKoiRange1": [
+      "407121,407200"
+    ],
+    "LuckyKoiRange2": [
+      "407121,407200"
+    ],
+    "guildWarRange": [
+      "408321,408400"
+    ],
+    "worldBossRange": [
+      "408321,408400"
+    ],
+    "arenaRange": [
+      "408321,408400"
+    ]
+  },
+  {
+    "id": 93,
+    "guildRange": [
+      "408401,408480"
+    ],
+    "chatRange": [
+      "408401,408480"
+    ],
+    "miningRange": [],
+    "dailyLevelRange": [
+      "408401,408480"
+    ],
+    "activityRange": [],
+    "friendRange": [],
+    "mythicRange": [
+      "408401,408480"
+    ],
+    "pvpRange1": [
+      "408401,408480"
+    ],
+    "pvpRange2": [
+      "407601,407680"
+    ],
+    "pvpRange3": [],
+    "pvpRange4": [
+      "407201,407280"
+    ],
+    "LuckyKoiRange1": [
+      "407201,407280"
+    ],
+    "LuckyKoiRange2": [
+      "407201,407280"
+    ],
+    "guildWarRange": [
+      "408401,408480"
+    ],
+    "worldBossRange": [
+      "408401,408480"
+    ],
+    "arenaRange": [
+      "408401,408480"
+    ]
+  },
+  {
+    "id": 94,
+    "guildRange": [
+      "408481,408560"
+    ],
+    "chatRange": [
+      "408481,408560"
+    ],
+    "miningRange": [],
+    "dailyLevelRange": [
+      "408481,408560"
+    ],
+    "activityRange": [],
+    "friendRange": [],
+    "mythicRange": [
+      "408481,408560"
+    ],
+    "pvpRange1": [
+      "408481,408560"
+    ],
+    "pvpRange2": [
+      "407681,407760"
+    ],
+    "pvpRange3": [],
+    "pvpRange4": [
+      "407281,407360"
+    ],
+    "LuckyKoiRange1": [
+      "407281,407360"
+    ],
+    "LuckyKoiRange2": [
+      "407281,407360"
+    ],
+    "guildWarRange": [
+      "408481,408560"
+    ],
+    "worldBossRange": [
+      "408481,408560"
+    ],
+    "arenaRange": [
+      "408481,408560"
+    ]
+  },
+  {
+    "id": 95,
+    "guildRange": [
+      "408561,408640"
+    ],
+    "chatRange": [
+      "408561,408640"
+    ],
+    "miningRange": [],
+    "dailyLevelRange": [
+      "408561,408640"
+    ],
+    "activityRange": [],
+    "friendRange": [],
+    "mythicRange": [
+      "408561,408640"
+    ],
+    "pvpRange1": [
+      "408561,408640"
+    ],
+    "pvpRange2": [
+      "407761,407840"
+    ],
+    "pvpRange3": [],
+    "pvpRange4": [
+      "407361,407440"
+    ],
+    "LuckyKoiRange1": [
+      "407361,407440"
+    ],
+    "LuckyKoiRange2": [
+      "407361,407440"
+    ],
+    "guildWarRange": [
+      "408561,408640"
+    ],
+    "worldBossRange": [
+      "408561,408640"
+    ],
+    "arenaRange": [
+      "408561,408640"
+    ]
+  },
+  {
+    "id": 96,
+    "guildRange": [
+      "408641,408720"
+    ],
+    "chatRange": [
+      "408641,408720"
+    ],
+    "miningRange": [],
+    "dailyLevelRange": [
+      "408641,408720"
+    ],
+    "activityRange": [],
+    "friendRange": [],
+    "mythicRange": [
+      "408641,408720"
+    ],
+    "pvpRange1": [
+      "408641,408720"
+    ],
+    "pvpRange2": [
+      "407841,407920"
+    ],
+    "pvpRange3": [],
+    "pvpRange4": [
+      "407441,407520"
+    ],
+    "LuckyKoiRange1": [
+      "407441,407520"
+    ],
+    "LuckyKoiRange2": [
+      "407441,407520"
+    ],
+    "guildWarRange": [
+      "408641,408720"
+    ],
+    "worldBossRange": [
+      "408641,408720"
+    ],
+    "arenaRange": [
+      "408641,408720"
+    ]
+  },
+  {
+    "id": 97,
+    "guildRange": [
+      "408721,408800"
+    ],
+    "chatRange": [
+      "408721,408800"
+    ],
+    "miningRange": [],
+    "dailyLevelRange": [
+      "408721,408800"
+    ],
+    "activityRange": [],
+    "friendRange": [],
+    "mythicRange": [
+      "408721,408800"
+    ],
+    "pvpRange1": [
+      "408721,408800"
+    ],
+    "pvpRange2": [
+      "407921,408000"
+    ],
+    "pvpRange3": [],
+    "pvpRange4": [
+      "407521,407600"
+    ],
+    "LuckyKoiRange1": [
+      "407521,407600"
+    ],
+    "LuckyKoiRange2": [
+      "407521,407600"
+    ],
+    "guildWarRange": [
+      "408721,408800"
+    ],
+    "worldBossRange": [
+      "408721,408800"
+    ],
+    "arenaRange": [
+      "408721,408800"
+    ]
+  },
+  {
+    "id": 98,
+    "guildRange": [
+      "408801,408880"
+    ],
+    "chatRange": [
+      "408801,408880"
+    ],
+    "miningRange": [],
+    "dailyLevelRange": [
+      "408801,408880"
+    ],
+    "activityRange": [],
+    "friendRange": [],
+    "mythicRange": [
+      "408801,408880"
+    ],
+    "pvpRange1": [
+      "408801,408880"
+    ],
+    "pvpRange2": [
+      "408001,408080"
+    ],
+    "pvpRange3": [],
+    "pvpRange4": [
+      "407601,407680"
+    ],
+    "LuckyKoiRange1": [
+      "407601,407680"
+    ],
+    "LuckyKoiRange2": [
+      "407601,407680"
+    ],
+    "guildWarRange": [
+      "408801,408880"
+    ],
+    "worldBossRange": [
+      "408801,408880"
+    ],
+    "arenaRange": [
+      "408801,408880"
+    ]
+  },
+  {
+    "id": 99,
+    "guildRange": [
+      "408881,408960"
+    ],
+    "chatRange": [
+      "408881,408960"
+    ],
+    "miningRange": [],
+    "dailyLevelRange": [
+      "408881,408960"
+    ],
+    "activityRange": [],
+    "friendRange": [],
+    "mythicRange": [
+      "408881,408960"
+    ],
+    "pvpRange1": [
+      "408881,408960"
+    ],
+    "pvpRange2": [
+      "408081,408160"
+    ],
+    "pvpRange3": [],
+    "pvpRange4": [
+      "407681,407760"
+    ],
+    "LuckyKoiRange1": [
+      "407681,407760"
+    ],
+    "LuckyKoiRange2": [
+      "407681,407760"
+    ],
+    "guildWarRange": [
+      "408881,408960"
+    ],
+    "worldBossRange": [
+      "408881,408960"
+    ],
+    "arenaRange": [
+      "408881,408960"
+    ]
+  },
+  {
+    "id": 100,
+    "guildRange": [
+      "408961,409040"
+    ],
+    "chatRange": [
+      "408961,409040"
+    ],
+    "miningRange": [],
+    "dailyLevelRange": [
+      "408961,409040"
+    ],
+    "activityRange": [],
+    "friendRange": [],
+    "mythicRange": [
+      "408961,409040"
+    ],
+    "pvpRange1": [
+      "408961,409040"
+    ],
+    "pvpRange2": [
+      "408161,408240"
+    ],
+    "pvpRange3": [],
+    "pvpRange4": [
+      "407761,407840"
+    ],
+    "LuckyKoiRange1": [
+      "407761,407840"
+    ],
+    "LuckyKoiRange2": [
+      "407761,407840"
+    ],
+    "guildWarRange": [
+      "408961,409040"
+    ],
+    "worldBossRange": [
+      "408961,409040"
+    ],
+    "arenaRange": [
+      "408961,409040"
+    ]
+  },
+  {
+    "id": 101,
+    "guildRange": [
+      "409041,409120"
+    ],
+    "chatRange": [
+      "409041,409120"
+    ],
+    "miningRange": [],
+    "dailyLevelRange": [
+      "409041,409120"
+    ],
+    "activityRange": [],
+    "friendRange": [],
+    "mythicRange": [
+      "409041,409120"
+    ],
+    "pvpRange1": [
+      "409041,409120"
+    ],
+    "pvpRange2": [
+      "408241,408320"
+    ],
+    "pvpRange3": [],
+    "pvpRange4": [
+      "407841,407920"
+    ],
+    "LuckyKoiRange1": [
+      "407841,407920"
+    ],
+    "LuckyKoiRange2": [
+      "407841,407920"
+    ],
+    "guildWarRange": [
+      "409041,409120"
+    ],
+    "worldBossRange": [
+      "409041,409120"
+    ],
+    "arenaRange": [
+      "409041,409120"
+    ]
+  },
+  {
+    "id": 102,
+    "guildRange": [
+      "409121,409200"
+    ],
+    "chatRange": [
+      "409121,409200"
+    ],
+    "miningRange": [],
+    "dailyLevelRange": [
+      "409121,409200"
+    ],
+    "activityRange": [],
+    "friendRange": [],
+    "mythicRange": [
+      "409121,409200"
+    ],
+    "pvpRange1": [
+      "409121,409200"
+    ],
+    "pvpRange2": [
+      "408321,408400"
+    ],
+    "pvpRange3": [],
+    "pvpRange4": [
+      "407921,408000"
+    ],
+    "LuckyKoiRange1": [
+      "407921,408000"
+    ],
+    "LuckyKoiRange2": [
+      "407921,408000"
+    ],
+    "guildWarRange": [
+      "409121,409200"
+    ],
+    "worldBossRange": [
+      "409121,409200"
+    ],
+    "arenaRange": [
+      "409121,409200"
+    ]
+  },
+  {
+    "id": 103,
+    "guildRange": [
+      "409201,409280"
+    ],
+    "chatRange": [
+      "409201,409280"
+    ],
+    "miningRange": [],
+    "dailyLevelRange": [
+      "409201,409280"
+    ],
+    "activityRange": [],
+    "friendRange": [],
+    "mythicRange": [
+      "409201,409280"
+    ],
+    "pvpRange1": [
+      "409201,409280"
+    ],
+    "pvpRange2": [
+      "408401,408480"
+    ],
+    "pvpRange3": [],
+    "pvpRange4": [
+      "408001,408080"
+    ],
+    "LuckyKoiRange1": [
+      "408001,408080"
+    ],
+    "LuckyKoiRange2": [
+      "408001,408080"
+    ],
+    "guildWarRange": [
+      "409201,409280"
+    ],
+    "worldBossRange": [
+      "409201,409280"
+    ],
+    "arenaRange": [
+      "409201,409280"
+    ]
+  },
+  {
+    "id": 104,
+    "guildRange": [
+      "409281,409360"
+    ],
+    "chatRange": [
+      "409281,409360"
+    ],
+    "miningRange": [],
+    "dailyLevelRange": [
+      "409281,409360"
+    ],
+    "activityRange": [],
+    "friendRange": [],
+    "mythicRange": [
+      "409281,409360"
+    ],
+    "pvpRange1": [
+      "409281,409360"
+    ],
+    "pvpRange2": [
+      "408481,408560"
+    ],
+    "pvpRange3": [],
+    "pvpRange4": [
+      "408081,408160"
+    ],
+    "LuckyKoiRange1": [
+      "408081,408160"
+    ],
+    "LuckyKoiRange2": [
+      "408081,408160"
+    ],
+    "guildWarRange": [
+      "409281,409360"
+    ],
+    "worldBossRange": [
+      "409281,409360"
+    ],
+    "arenaRange": [
+      "409281,409360"
+    ]
+  },
+  {
+    "id": 105,
+    "guildRange": [
+      "409361,409440"
+    ],
+    "chatRange": [
+      "409361,409440"
+    ],
+    "miningRange": [],
+    "dailyLevelRange": [
+      "409361,409440"
+    ],
+    "activityRange": [],
+    "friendRange": [],
+    "mythicRange": [
+      "409361,409440"
+    ],
+    "pvpRange1": [
+      "409361,409440"
+    ],
+    "pvpRange2": [
+      "408561,408640"
+    ],
+    "pvpRange3": [],
+    "pvpRange4": [
+      "408161,408240"
+    ],
+    "LuckyKoiRange1": [
+      "408161,408240"
+    ],
+    "LuckyKoiRange2": [
+      "408161,408240"
+    ],
+    "guildWarRange": [
+      "409361,409440"
+    ],
+    "worldBossRange": [
+      "409361,409440"
+    ],
+    "arenaRange": [
+      "409361,409440"
+    ]
+  },
+  {
+    "id": 106,
+    "guildRange": [
+      "409441,409520"
+    ],
+    "chatRange": [
+      "409441,409520"
+    ],
+    "miningRange": [],
+    "dailyLevelRange": [
+      "409441,409520"
+    ],
+    "activityRange": [],
+    "friendRange": [],
+    "mythicRange": [
+      "409441,409520"
+    ],
+    "pvpRange1": [
+      "409441,409520"
+    ],
+    "pvpRange2": [
+      "408641,408720"
+    ],
+    "pvpRange3": [],
+    "pvpRange4": [
+      "408241,408320"
+    ],
+    "LuckyKoiRange1": [
+      "408241,408320"
+    ],
+    "LuckyKoiRange2": [
+      "408241,408320"
+    ],
+    "guildWarRange": [
+      "409441,409520"
+    ],
+    "worldBossRange": [
+      "409441,409520"
+    ],
+    "arenaRange": [
+      "409441,409520"
+    ]
+  },
+  {
+    "id": 107,
+    "guildRange": [
+      "409521,409600"
+    ],
+    "chatRange": [
+      "409521,409600"
+    ],
+    "miningRange": [],
+    "dailyLevelRange": [
+      "409521,409600"
+    ],
+    "activityRange": [],
+    "friendRange": [],
+    "mythicRange": [
+      "409521,409600"
+    ],
+    "pvpRange1": [
+      "409521,409600"
+    ],
+    "pvpRange2": [
+      "408721,408800"
+    ],
+    "pvpRange3": [],
+    "pvpRange4": [
+      "408321,408400"
+    ],
+    "LuckyKoiRange1": [
+      "408321,408400"
+    ],
+    "LuckyKoiRange2": [
+      "408321,408400"
+    ],
+    "guildWarRange": [
+      "409521,409600"
+    ],
+    "worldBossRange": [
+      "409521,409600"
+    ],
+    "arenaRange": [
+      "409521,409600"
+    ]
+  },
+  {
+    "id": 108,
+    "guildRange": [
+      "409601,409680"
+    ],
+    "chatRange": [
+      "409601,409680"
+    ],
+    "miningRange": [],
+    "dailyLevelRange": [
+      "409601,409680"
+    ],
+    "activityRange": [],
+    "friendRange": [],
+    "mythicRange": [
+      "409601,409680"
+    ],
+    "pvpRange1": [
+      "409601,409680"
+    ],
+    "pvpRange2": [
+      "408801,408880"
+    ],
+    "pvpRange3": [],
+    "pvpRange4": [
+      "408401,408480"
+    ],
+    "LuckyKoiRange1": [
+      "408401,408480"
+    ],
+    "LuckyKoiRange2": [
+      "408401,408480"
+    ],
+    "guildWarRange": [
+      "409601,409680"
+    ],
+    "worldBossRange": [
+      "409601,409680"
+    ],
+    "arenaRange": [
+      "409601,409680"
+    ]
+  },
+  {
+    "id": 109,
+    "guildRange": [
+      "409681,409760"
+    ],
+    "chatRange": [
+      "409681,409760"
+    ],
+    "miningRange": [],
+    "dailyLevelRange": [
+      "409681,409760"
+    ],
+    "activityRange": [],
+    "friendRange": [],
+    "mythicRange": [
+      "409681,409760"
+    ],
+    "pvpRange1": [
+      "409681,409760"
+    ],
+    "pvpRange2": [
+      "408881,408960"
+    ],
+    "pvpRange3": [],
+    "pvpRange4": [
+      "408481,408560"
+    ],
+    "LuckyKoiRange1": [
+      "408481,408560"
+    ],
+    "LuckyKoiRange2": [
+      "408481,408560"
+    ],
+    "guildWarRange": [
+      "409681,409760"
+    ],
+    "worldBossRange": [
+      "409681,409760"
+    ],
+    "arenaRange": [
+      "409681,409760"
+    ]
+  },
+  {
+    "id": 110,
+    "guildRange": [
+      "409761,409840"
+    ],
+    "chatRange": [
+      "409761,409840"
+    ],
+    "miningRange": [],
+    "dailyLevelRange": [
+      "409761,409840"
+    ],
+    "activityRange": [],
+    "friendRange": [],
+    "mythicRange": [
+      "409761,409840"
+    ],
+    "pvpRange1": [
+      "409761,409840"
+    ],
+    "pvpRange2": [
+      "408961,409040"
+    ],
+    "pvpRange3": [],
+    "pvpRange4": [
+      "408561,408640"
+    ],
+    "LuckyKoiRange1": [
+      "408561,408640"
+    ],
+    "LuckyKoiRange2": [
+      "408561,408640"
+    ],
+    "guildWarRange": [
+      "409761,409840"
+    ],
+    "worldBossRange": [
+      "409761,409840"
+    ],
+    "arenaRange": [
+      "409761,409840"
+    ]
+  },
+  {
+    "id": 111,
+    "guildRange": [
+      "409841,409920"
+    ],
+    "chatRange": [
+      "409841,409920"
+    ],
+    "miningRange": [],
+    "dailyLevelRange": [
+      "409841,409920"
+    ],
+    "activityRange": [],
+    "friendRange": [],
+    "mythicRange": [
+      "409841,409920"
+    ],
+    "pvpRange1": [
+      "409841,409920"
+    ],
+    "pvpRange2": [
+      "409041,409120"
+    ],
+    "pvpRange3": [],
+    "pvpRange4": [
+      "408641,408720"
+    ],
+    "LuckyKoiRange1": [
+      "408641,408720"
+    ],
+    "LuckyKoiRange2": [
+      "408641,408720"
+    ],
+    "guildWarRange": [
+      "409841,409920"
+    ],
+    "worldBossRange": [
+      "409841,409920"
+    ],
+    "arenaRange": [
+      "409841,409920"
+    ]
+  },
+  {
+    "id": 112,
+    "guildRange": [
+      "409921,410000"
+    ],
+    "chatRange": [
+      "409921,410000"
+    ],
+    "miningRange": [],
+    "dailyLevelRange": [
+      "409921,410000"
+    ],
+    "activityRange": [],
+    "friendRange": [],
+    "mythicRange": [
+      "409921,410000"
+    ],
+    "pvpRange1": [
+      "409921,410000"
+    ],
+    "pvpRange2": [
+      "409121,409200"
+    ],
+    "pvpRange3": [],
+    "pvpRange4": [
+      "408721,408800"
+    ],
+    "LuckyKoiRange1": [
+      "408721,408800"
+    ],
+    "LuckyKoiRange2": [
+      "408721,408800"
+    ],
+    "guildWarRange": [
+      "409921,410000"
+    ],
+    "worldBossRange": [
+      "409921,410000"
+    ],
+    "arenaRange": [
+      "409921,410000"
+    ]
+  },
+  {
+    "id": 113,
+    "guildRange": [
+      "410001,410080"
+    ],
+    "chatRange": [
+      "410001,410080"
+    ],
+    "miningRange": [],
+    "dailyLevelRange": [
+      "410001,410080"
+    ],
+    "activityRange": [],
+    "friendRange": [],
+    "mythicRange": [
+      "410001,410080"
+    ],
+    "pvpRange1": [
+      "410001,410080"
+    ],
+    "pvpRange2": [
+      "409201,409280"
+    ],
+    "pvpRange3": [],
+    "pvpRange4": [
+      "408801,408880"
+    ],
+    "LuckyKoiRange1": [
+      "408801,408880"
+    ],
+    "LuckyKoiRange2": [
+      "408801,408880"
+    ],
+    "guildWarRange": [
+      "410001,410080"
+    ],
+    "worldBossRange": [
+      "410001,410080"
+    ],
+    "arenaRange": [
+      "410001,410080"
+    ]
+  },
+  {
+    "id": 114,
+    "guildRange": [
+      "410081,410160"
+    ],
+    "chatRange": [
+      "410081,410160"
+    ],
+    "miningRange": [],
+    "dailyLevelRange": [
+      "410081,410160"
+    ],
+    "activityRange": [],
+    "friendRange": [],
+    "mythicRange": [
+      "410081,410160"
+    ],
+    "pvpRange1": [
+      "410081,410160"
+    ],
+    "pvpRange2": [
+      "409281,409360"
+    ],
+    "pvpRange3": [],
+    "pvpRange4": [
+      "408881,408960"
+    ],
+    "LuckyKoiRange1": [
+      "408881,408960"
+    ],
+    "LuckyKoiRange2": [
+      "408881,408960"
+    ],
+    "guildWarRange": [
+      "410081,410160"
+    ],
+    "worldBossRange": [
+      "410081,410160"
+    ],
+    "arenaRange": [
+      "410081,410160"
+    ]
+  },
+  {
+    "id": 115,
+    "guildRange": [
+      "410161,410240"
+    ],
+    "chatRange": [
+      "410161,410240"
+    ],
+    "miningRange": [],
+    "dailyLevelRange": [
+      "410161,410240"
+    ],
+    "activityRange": [],
+    "friendRange": [],
+    "mythicRange": [
+      "410161,410240"
+    ],
+    "pvpRange1": [
+      "410161,410240"
+    ],
+    "pvpRange2": [
+      "409361,409440"
+    ],
+    "pvpRange3": [],
+    "pvpRange4": [
+      "408961,409040"
+    ],
+    "LuckyKoiRange1": [
+      "408961,409040"
+    ],
+    "LuckyKoiRange2": [
+      "408961,409040"
+    ],
+    "guildWarRange": [
+      "410161,410240"
+    ],
+    "worldBossRange": [
+      "410161,410240"
+    ],
+    "arenaRange": [
+      "410161,410240"
+    ]
+  },
+  {
+    "id": 116,
+    "guildRange": [
+      "410241,410320"
+    ],
+    "chatRange": [
+      "410241,410320"
+    ],
+    "miningRange": [],
+    "dailyLevelRange": [
+      "410241,410320"
+    ],
+    "activityRange": [],
+    "friendRange": [],
+    "mythicRange": [
+      "410241,410320"
+    ],
+    "pvpRange1": [
+      "410241,410320"
+    ],
+    "pvpRange2": [
+      "409441,409520"
+    ],
+    "pvpRange3": [],
+    "pvpRange4": [
+      "409041,409120"
+    ],
+    "LuckyKoiRange1": [
+      "409041,409120"
+    ],
+    "LuckyKoiRange2": [
+      "409041,409120"
+    ],
+    "guildWarRange": [
+      "410241,410320"
+    ],
+    "worldBossRange": [
+      "410241,410320"
+    ],
+    "arenaRange": [
+      "410241,410320"
+    ]
+  },
+  {
+    "id": 117,
+    "guildRange": [
+      "100001,100180"
+    ],
+    "chatRange": [
+      "100001,100180",
+      "200001,200430",
+      "300001,300180"
+    ],
+    "miningRange": [],
+    "dailyLevelRange": [
+      "100001,100120",
+      "200001,200180",
+      "300001,300120"
+    ],
+    "activityRange": [],
+    "friendRange": [],
+    "mythicRange": [
+      "100001,100120",
+      "200001,200180",
+      "300001,300120"
+    ],
+    "pvpRange1": [
+      "100001,100120",
+      "200001,200180",
+      "300001,300120"
+    ],
+    "pvpRange2": [
+      "409521,409600"
+    ],
+    "pvpRange3": [],
+    "pvpRange4": [
+      "409121,409200"
+    ],
+    "LuckyKoiRange1": [
+      "409121,409200"
+    ],
+    "LuckyKoiRange2": [
+      "409121,409200"
+    ],
+    "guildWarRange": [
+      "100001,100120",
+      "200001,200180",
+      "300001,300120"
+    ],
+    "worldBossRange": [
+      "100001,100120",
+      "200001,200180",
+      "300001,300120"
+    ],
+    "arenaRange": [
+      "100001,100120",
+      "200001,200180",
+      "300001,300120"
+    ]
+  },
+  {
+    "id": 118,
+    "guildRange": [
+      "200001,200430"
+    ],
+    "chatRange": [
+      "300181,300320",
+      "700001,700060"
+    ],
+    "miningRange": [],
+    "dailyLevelRange": [
+      "100121,100180",
+      "200181,200360",
+      "300121,300180"
+    ],
+    "activityRange": [],
+    "friendRange": [],
+    "mythicRange": [
+      "100121,100180",
+      "200181,200360",
+      "300121,300180"
+    ],
+    "pvpRange1": [
+      "100121,100180",
+      "200181,200360",
+      "300121,300180"
+    ],
+    "pvpRange2": [
+      "409601,409680"
+    ],
+    "pvpRange3": [],
+    "pvpRange4": [
+      "409201,409280"
+    ],
+    "LuckyKoiRange1": [
+      "409201,409280"
+    ],
+    "LuckyKoiRange2": [
+      "409201,409280"
+    ],
+    "guildWarRange": [
+      "100121,100180",
+      "200181,200360",
+      "300121,300180"
+    ],
+    "worldBossRange": [
+      "100121,100180",
+      "200181,200360",
+      "300121,300180"
+    ],
+    "arenaRange": [
+      "100121,100180",
+      "200181,200360",
+      "300121,300180"
+    ]
+  },
+  {
+    "id": 119,
+    "guildRange": [
+      "300001,300180"
+    ],
+    "chatRange": [
+      "700061,700180"
+    ],
+    "miningRange": [],
+    "dailyLevelRange": [
+      "200361,200430",
+      "300181,300240"
+    ],
+    "activityRange": [],
+    "friendRange": [],
+    "mythicRange": [
+      "200361,200430",
+      "300181,300240"
+    ],
+    "pvpRange1": [
+      "200361,200430",
+      "300181,300240"
+    ],
+    "pvpRange2": [
+      "409681,409760"
+    ],
+    "pvpRange3": [],
+    "pvpRange4": [
+      "409281,409360"
+    ],
+    "LuckyKoiRange1": [
+      "409281,409360"
+    ],
+    "LuckyKoiRange2": [
+      "409281,409360"
+    ],
+    "guildWarRange": [
+      "200361,200430",
+      "300181,300240"
+    ],
+    "worldBossRange": [
+      "200361,200430",
+      "300181,300240"
+    ],
+    "arenaRange": [
+      "200361,200430",
+      "300181,300240"
+    ]
+  },
+  {
+    "id": 120,
+    "guildRange": [
+      "300181,300320"
+    ],
+    "chatRange": [
+      "700181,700300"
+    ],
+    "miningRange": [],
+    "dailyLevelRange": [
+      "700001,700060",
+      "300241,300320"
+    ],
+    "activityRange": [],
+    "friendRange": [],
+    "mythicRange": [
+      "700001,700060",
+      "300241,300320"
+    ],
+    "pvpRange1": [
+      "700001,700060",
+      "300241,300320"
+    ],
+    "pvpRange2": [
+      "409761,409840"
+    ],
+    "pvpRange3": [],
+    "pvpRange4": [
+      "409361,409440"
+    ],
+    "LuckyKoiRange1": [
+      "409361,409440"
+    ],
+    "LuckyKoiRange2": [
+      "409361,409440"
+    ],
+    "guildWarRange": [
+      "700001,700060",
+      "300241,300320"
+    ],
+    "worldBossRange": [
+      "700001,700060",
+      "300241,300320"
+    ],
+    "arenaRange": [
+      "700001,700060",
+      "300241,300320"
+    ]
+  },
+  {
+    "id": 121,
+    "guildRange": [
+      "700001,700060"
+    ],
+    "chatRange": [
+      "700301,700420"
+    ],
+    "miningRange": [],
+    "dailyLevelRange": [
+      "700061,700180"
+    ],
+    "activityRange": [],
+    "friendRange": [],
+    "mythicRange": [
+      "700061,700180"
+    ],
+    "pvpRange1": [
+      "700061,700180"
+    ],
+    "pvpRange2": [
+      "409841,409920"
+    ],
+    "pvpRange3": [],
+    "pvpRange4": [
+      "409441,409520"
+    ],
+    "LuckyKoiRange1": [
+      "409441,409520"
+    ],
+    "LuckyKoiRange2": [
+      "409441,409520"
+    ],
+    "guildWarRange": [
+      "700061,700180"
+    ],
+    "worldBossRange": [
+      "700061,700180"
+    ],
+    "arenaRange": [
+      "700061,700180"
+    ]
+  },
+  {
+    "id": 122,
+    "guildRange": [
+      "700061,700180"
+    ],
+    "chatRange": [
+      "700421,700540"
+    ],
+    "miningRange": [],
+    "dailyLevelRange": [
+      "700181,700300"
+    ],
+    "activityRange": [],
+    "friendRange": [],
+    "mythicRange": [
+      "700181,700300"
+    ],
+    "pvpRange1": [
+      "700181,700300"
+    ],
+    "pvpRange2": [
+      "409921,410000"
+    ],
+    "pvpRange3": [],
+    "pvpRange4": [
+      "409521,409600"
+    ],
+    "LuckyKoiRange1": [
+      "409521,409600"
+    ],
+    "LuckyKoiRange2": [
+      "409521,409600"
+    ],
+    "guildWarRange": [
+      "700181,700300"
+    ],
+    "worldBossRange": [
+      "700181,700300"
+    ],
+    "arenaRange": [
+      "700181,700300"
+    ]
+  },
+  {
+    "id": 123,
+    "guildRange": [
+      "700181,700300"
+    ],
+    "chatRange": [
+      "700541,700660"
+    ],
+    "miningRange": [],
+    "dailyLevelRange": [
+      "700301,700420"
+    ],
+    "activityRange": [],
+    "friendRange": [],
+    "mythicRange": [
+      "700301,700420"
+    ],
+    "pvpRange1": [
+      "700301,700420"
+    ],
+    "pvpRange2": [
+      "410001,410080"
+    ],
+    "pvpRange3": [],
+    "pvpRange4": [
+      "409601,409680"
+    ],
+    "LuckyKoiRange1": [
+      "409601,409680"
+    ],
+    "LuckyKoiRange2": [
+      "409601,409680"
+    ],
+    "guildWarRange": [
+      "700301,700420"
+    ],
+    "worldBossRange": [
+      "700301,700420"
+    ],
+    "arenaRange": [
+      "700301,700420"
+    ]
+  },
+  {
+    "id": 124,
+    "guildRange": [
+      "700301,700420"
+    ],
+    "chatRange": [
+      "700661,700780"
+    ],
+    "miningRange": [],
+    "dailyLevelRange": [
+      "700421,700540"
+    ],
+    "activityRange": [],
+    "friendRange": [],
+    "mythicRange": [
+      "700421,700540"
+    ],
+    "pvpRange1": [
+      "700421,700540"
+    ],
+    "pvpRange2": [
+      "410081,410160"
+    ],
+    "pvpRange3": [],
+    "pvpRange4": [
+      "409681,409760"
+    ],
+    "LuckyKoiRange1": [
+      "409681,409760"
+    ],
+    "LuckyKoiRange2": [
+      "409681,409760"
+    ],
+    "guildWarRange": [
+      "700421,700540"
+    ],
+    "worldBossRange": [
+      "700421,700540"
+    ],
+    "arenaRange": [
+      "700421,700540"
+    ]
+  },
+  {
+    "id": 125,
+    "guildRange": [
+      "700421,700540"
+    ],
+    "chatRange": [
+      "700781,700900"
+    ],
+    "miningRange": [],
+    "dailyLevelRange": [
+      "700541,700660"
+    ],
+    "activityRange": [],
+    "friendRange": [],
+    "mythicRange": [
+      "700541,700660"
+    ],
+    "pvpRange1": [
+      "700541,700660"
+    ],
+    "pvpRange2": [
+      "410161,410240"
+    ],
+    "pvpRange3": [],
+    "pvpRange4": [
+      "409761,409840"
+    ],
+    "LuckyKoiRange1": [
+      "409761,409840"
+    ],
+    "LuckyKoiRange2": [
+      "409761,409840"
+    ],
+    "guildWarRange": [
+      "700541,700660"
+    ],
+    "worldBossRange": [
+      "700541,700660"
+    ],
+    "arenaRange": [
+      "700541,700660"
+    ]
+  },
+  {
+    "id": 126,
+    "guildRange": [
+      "700541,700660"
+    ],
+    "chatRange": [
+      "700901,701020"
+    ],
+    "miningRange": [],
+    "dailyLevelRange": [
+      "700661,700780"
+    ],
+    "activityRange": [],
+    "friendRange": [],
+    "mythicRange": [
+      "700661,700780"
+    ],
+    "pvpRange1": [
+      "700661,700780"
+    ],
+    "pvpRange2": [
+      "410241,410320"
+    ],
+    "pvpRange3": [],
+    "pvpRange4": [
+      "409841,409920"
+    ],
+    "LuckyKoiRange1": [
+      "409841,409920"
+    ],
+    "LuckyKoiRange2": [
+      "409841,409920"
+    ],
+    "guildWarRange": [
+      "700661,700780"
+    ],
+    "worldBossRange": [
+      "700661,700780"
+    ],
+    "arenaRange": [
+      "700661,700780"
+    ]
+  },
+  {
+    "id": 127,
+    "guildRange": [
+      "700661,700780"
+    ],
+    "chatRange": [
+      "701021,701140"
+    ],
+    "miningRange": [],
+    "dailyLevelRange": [
+      "700781,700900"
+    ],
+    "activityRange": [],
+    "friendRange": [],
+    "mythicRange": [
+      "700781,700900"
+    ],
+    "pvpRange1": [
+      "700781,700900"
+    ],
+    "pvpRange2": [],
+    "pvpRange3": [],
+    "pvpRange4": [
+      "409921,410000"
+    ],
+    "LuckyKoiRange1": [
+      "409921,410000"
+    ],
+    "LuckyKoiRange2": [
+      "409921,410000"
+    ],
+    "guildWarRange": [
+      "700781,700900"
+    ],
+    "worldBossRange": [
+      "700781,700900"
+    ],
+    "arenaRange": [
+      "700781,700900"
+    ]
+  },
+  {
+    "id": 128,
+    "guildRange": [
+      "700781,700900"
+    ],
+    "chatRange": [
+      "701141,701260"
+    ],
+    "miningRange": [],
+    "dailyLevelRange": [
+      "700901,701020"
+    ],
+    "activityRange": [],
+    "friendRange": [],
+    "mythicRange": [
+      "700901,701020"
+    ],
+    "pvpRange1": [
+      "700901,701020"
+    ],
+    "pvpRange2": [],
+    "pvpRange3": [],
+    "pvpRange4": [
+      "410001,410080"
+    ],
+    "LuckyKoiRange1": [
+      "410001,410080"
+    ],
+    "LuckyKoiRange2": [
+      "410001,410080"
+    ],
+    "guildWarRange": [
+      "700901,701020"
+    ],
+    "worldBossRange": [
+      "700901,701020"
+    ],
+    "arenaRange": [
+      "700901,701020"
+    ]
+  },
+  {
+    "id": 129,
+    "guildRange": [
+      "700901,701020"
+    ],
+    "chatRange": [
+      "701261,701380"
+    ],
+    "miningRange": [],
+    "dailyLevelRange": [
+      "701021,701140"
+    ],
+    "activityRange": [],
+    "friendRange": [],
+    "mythicRange": [
+      "701021,701140"
+    ],
+    "pvpRange1": [
+      "701021,701140"
+    ],
+    "pvpRange2": [],
+    "pvpRange3": [],
+    "pvpRange4": [
+      "410081,410160"
+    ],
+    "LuckyKoiRange1": [
+      "410081,410160"
+    ],
+    "LuckyKoiRange2": [
+      "410081,410160"
+    ],
+    "guildWarRange": [
+      "701021,701140"
+    ],
+    "worldBossRange": [
+      "701021,701140"
+    ],
+    "arenaRange": [
+      "701021,701140"
+    ]
+  },
+  {
+    "id": 130,
+    "guildRange": [
+      "701021,701140"
+    ],
+    "chatRange": [
+      "701381,701500"
+    ],
+    "miningRange": [],
+    "dailyLevelRange": [
+      "701141,701260"
+    ],
+    "activityRange": [],
+    "friendRange": [],
+    "mythicRange": [
+      "701141,701260"
+    ],
+    "pvpRange1": [
+      "701141,701260"
+    ],
+    "pvpRange2": [],
+    "pvpRange3": [],
+    "pvpRange4": [
+      "410161,410240"
+    ],
+    "LuckyKoiRange1": [
+      "410161,410240"
+    ],
+    "LuckyKoiRange2": [
+      "410161,410240"
+    ],
+    "guildWarRange": [
+      "701141,701260"
+    ],
+    "worldBossRange": [
+      "701141,701260"
+    ],
+    "arenaRange": [
+      "701141,701260"
+    ]
+  },
+  {
+    "id": 131,
+    "guildRange": [
+      "701141,701260"
+    ],
+    "chatRange": [
+      "701501,701620"
+    ],
+    "miningRange": [],
+    "dailyLevelRange": [
+      "701261,701380"
+    ],
+    "activityRange": [],
+    "friendRange": [],
+    "mythicRange": [
+      "701261,701380"
+    ],
+    "pvpRange1": [
+      "701261,701380"
+    ],
+    "pvpRange2": [],
+    "pvpRange3": [],
+    "pvpRange4": [
+      "410241,410320"
+    ],
+    "LuckyKoiRange1": [
+      "410241,410320"
+    ],
+    "LuckyKoiRange2": [
+      "410241,410320"
+    ],
+    "guildWarRange": [
+      "701261,701380"
+    ],
+    "worldBossRange": [
+      "701261,701380"
+    ],
+    "arenaRange": [
+      "701261,701380"
+    ]
+  },
+  {
+    "id": 132,
+    "guildRange": [
+      "701261,701380"
+    ],
+    "chatRange": [
+      "701621,701740"
+    ],
+    "miningRange": [],
+    "dailyLevelRange": [
+      "701381,701500"
+    ],
+    "activityRange": [],
+    "friendRange": [],
+    "mythicRange": [
+      "701381,701500"
+    ],
+    "pvpRange1": [
+      "701381,701500"
+    ],
+    "pvpRange2": [],
+    "pvpRange3": [],
+    "pvpRange4": [],
+    "LuckyKoiRange1": [],
+    "LuckyKoiRange2": [],
+    "guildWarRange": [
+      "701381,701500"
+    ],
+    "worldBossRange": [
+      "701381,701500"
+    ],
+    "arenaRange": [
+      "701381,701500"
+    ]
+  },
+  {
+    "id": 133,
+    "guildRange": [
+      "701381,701500"
+    ],
+    "chatRange": [
+      "701741,701860"
+    ],
+    "miningRange": [],
+    "dailyLevelRange": [
+      "701501,701620"
+    ],
+    "activityRange": [],
+    "friendRange": [],
+    "mythicRange": [
+      "701501,701620"
+    ],
+    "pvpRange1": [
+      "701501,701620"
+    ],
+    "pvpRange2": [],
+    "pvpRange3": [],
+    "pvpRange4": [],
+    "LuckyKoiRange1": [],
+    "LuckyKoiRange2": [],
+    "guildWarRange": [
+      "701501,701620"
+    ],
+    "worldBossRange": [
+      "701501,701620"
+    ],
+    "arenaRange": [
+      "701501,701620"
+    ]
+  },
+  {
+    "id": 134,
+    "guildRange": [
+      "701501,701620"
+    ],
+    "chatRange": [
+      "701861,701980"
+    ],
+    "miningRange": [],
+    "dailyLevelRange": [
+      "701621,701740"
+    ],
+    "activityRange": [],
+    "friendRange": [],
+    "mythicRange": [
+      "701621,701740"
+    ],
+    "pvpRange1": [
+      "701621,701740"
+    ],
+    "pvpRange2": [],
+    "pvpRange3": [],
+    "pvpRange4": [],
+    "LuckyKoiRange1": [],
+    "LuckyKoiRange2": [],
+    "guildWarRange": [
+      "701621,701740"
+    ],
+    "worldBossRange": [
+      "701621,701740"
+    ],
+    "arenaRange": [
+      "701621,701740"
+    ]
+  },
+  {
+    "id": 135,
+    "guildRange": [
+      "701621,701740"
+    ],
+    "chatRange": [
+      "701981,702100"
+    ],
+    "miningRange": [],
+    "dailyLevelRange": [
+      "701741,701860"
+    ],
+    "activityRange": [],
+    "friendRange": [],
+    "mythicRange": [
+      "701741,701860"
+    ],
+    "pvpRange1": [
+      "701741,701860"
+    ],
+    "pvpRange2": [],
+    "pvpRange3": [],
+    "pvpRange4": [],
+    "LuckyKoiRange1": [],
+    "LuckyKoiRange2": [],
+    "guildWarRange": [
+      "701741,701860"
+    ],
+    "worldBossRange": [
+      "701741,701860"
+    ],
+    "arenaRange": [
+      "701741,701860"
+    ]
+  },
+  {
+    "id": 136,
+    "guildRange": [
+      "701741,701860"
+    ],
+    "chatRange": [],
+    "miningRange": [],
+    "dailyLevelRange": [
+      "701861,701980"
+    ],
+    "activityRange": [],
+    "friendRange": [],
+    "mythicRange": [
+      "701861,701980"
+    ],
+    "pvpRange1": [
+      "701861,701980"
+    ],
+    "pvpRange2": [],
+    "pvpRange3": [],
+    "pvpRange4": [],
+    "LuckyKoiRange1": [],
+    "LuckyKoiRange2": [],
+    "guildWarRange": [
+      "701861,701980"
+    ],
+    "worldBossRange": [
+      "701861,701980"
+    ],
+    "arenaRange": [
+      "701861,701980"
+    ]
+  },
+  {
+    "id": 137,
+    "guildRange": [
+      "701861,701980"
+    ],
+    "chatRange": [],
+    "miningRange": [],
+    "dailyLevelRange": [
+      "701981,702100"
+    ],
+    "activityRange": [],
+    "friendRange": [],
+    "mythicRange": [
+      "701981,702100"
+    ],
+    "pvpRange1": [
+      "701981,702100"
+    ],
+    "pvpRange2": [],
+    "pvpRange3": [],
+    "pvpRange4": [],
+    "LuckyKoiRange1": [],
+    "LuckyKoiRange2": [],
+    "guildWarRange": [
+      "701981,702100"
+    ],
+    "worldBossRange": [
+      "701981,702100"
+    ],
+    "arenaRange": [
+      "701981,702100"
+    ]
+  },
+  {
+    "id": 138,
+    "guildRange": [
+      "701981,702100"
+    ],
+    "chatRange": [],
+    "miningRange": [],
+    "dailyLevelRange": [],
+    "activityRange": [],
+    "friendRange": [],
+    "mythicRange": [],
+    "pvpRange1": [],
+    "pvpRange2": [],
+    "pvpRange3": [],
+    "pvpRange4": [],
+    "LuckyKoiRange1": [],
+    "LuckyKoiRange2": [],
+    "guildWarRange": [],
+    "worldBossRange": [],
+    "arenaRange": []
+  }
+]

@@ -1,0 +1,128 @@
+[
+  {
+    "id": 101,
+    "products": [
+      "2,120"
+    ],
+    "parameters": "107"
+  },
+  {
+    "id": 102,
+    "products": [
+      "2,620"
+    ],
+    "parameters": "108"
+  },
+  {
+    "id": 103,
+    "products": [
+      "2,1900"
+    ],
+    "parameters": "109"
+  },
+  {
+    "id": 104,
+    "products": [
+      "2,4000"
+    ],
+    "parameters": "110"
+  },
+  {
+    "id": 105,
+    "products": [
+      "2,6800"
+    ],
+    "parameters": "111"
+  },
+  {
+    "id": 106,
+    "products": [
+      "2,14000"
+    ],
+    "parameters": "112"
+  },
+  {
+    "id": 107,
+    "products": [
+      "2,240"
+    ],
+    "parameters": ""
+  },
+  {
+    "id": 108,
+    "products": [
+      "2,1200"
+    ],
+    "parameters": ""
+  },
+  {
+    "id": 109,
+    "products": [
+      "2,3600"
+    ],
+    "parameters": ""
+  },
+  {
+    "id": 110,
+    "products": [
+      "2,7200"
+    ],
+    "parameters": ""
+  },
+  {
+    "id": 111,
+    "products": [
+      "2,12000"
+    ],
+    "parameters": ""
+  },
+  {
+    "id": 112,
+    "products": [
+      "2,24000"
+    ],
+    "parameters": ""
+  },
+  {
+    "id": 113,
+    "products": [
+      "100,100"
+    ],
+    "parameters": ""
+  },
+  {
+    "id": 114,
+    "products": [
+      "100,500"
+    ],
+    "parameters": ""
+  },
+  {
+    "id": 115,
+    "products": [
+      "100,1500"
+    ],
+    "parameters": ""
+  },
+  {
+    "id": 116,
+    "products": [
+      "100,3000"
+    ],
+    "parameters": ""
+  },
+  {
+    "id": 117,
+    "products": [
+      "100,5000"
+    ],
+    "parameters": ""
+  },
+  {
+    "id": 118,
+    "products": [
+      "100,10000"
+    ],
+    "parameters": ""
+  }
+]

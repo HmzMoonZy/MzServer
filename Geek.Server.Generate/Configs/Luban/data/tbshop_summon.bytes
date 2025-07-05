@@ -1,0 +1,350 @@
+[
+  {
+    "id": 200001,
+    "orderId": 1,
+    "groupId": 200001,
+    "freeTimes": 1,
+    "adId": 2,
+    "priceId": 60,
+    "singlePrice": 1,
+    "singlePriceOrigin": 80,
+    "quickDraw": 1,
+    "tenPrice": 10,
+    "tenPriceOrigin": 0,
+    "first": [
+      "101"
+    ],
+    "rateShow": [
+      "2,1000,602,2",
+      "1,3000,601,1",
+      "13,6000,shop_show_rate,1"
+    ],
+    "normalRate": [
+      "2,1000",
+      "1,3000",
+      "13,6000"
+    ],
+    "reverseRate": [],
+    "reverseCount": 0,
+    "reversePool": 0,
+    "goldGet": [
+      "1,80"
+    ],
+    "limitTimes": 99999,
+    "miniPityCount": 10,
+    "miniPityRate": [
+      "2,100"
+    ],
+    "miniPityPool": 2,
+    "hardPityCount": 0,
+    "hardPityRate": [],
+    "hardPityPool": 0,
+    "upEquipID": 0,
+    "boxId": 2
+  },
+  {
+    "id": 200002,
+    "orderId": 2,
+    "groupId": 200002,
+    "freeTimes": 0,
+    "adId": 3,
+    "priceId": 61,
+    "singlePrice": 1,
+    "singlePriceOrigin": 0,
+    "quickDraw": 1,
+    "tenPrice": 10,
+    "tenPriceOrigin": 0,
+    "first": [
+      "102"
+    ],
+    "rateShow": [
+      "5,40,604,4",
+      "4,260,604,4",
+      "3,600,603,3",
+      "2,1500,602,2",
+      "1,1600,601,1",
+      "12,6000,shop_show_rate,1"
+    ],
+    "normalRate": [
+      "5,40",
+      "4,260",
+      "3,600",
+      "2,1500",
+      "1,1600",
+      "12,6000"
+    ],
+    "reverseRate": [
+      "4,260",
+      "3,600",
+      "2,1500",
+      "1,1600",
+      "12,6000"
+    ],
+    "reverseCount": 100,
+    "reversePool": 5,
+    "goldGet": [
+      "1,300"
+    ],
+    "limitTimes": 99999,
+    "miniPityCount": 10,
+    "miniPityRate": [
+      "4,100"
+    ],
+    "miniPityPool": 4,
+    "hardPityCount": 0,
+    "hardPityRate": [],
+    "hardPityPool": 0,
+    "upEquipID": 0,
+    "boxId": 3
+  },
+  {
+    "id": 200003,
+    "orderId": 3,
+    "groupId": 200003,
+    "freeTimes": 0,
+    "adId": 0,
+    "priceId": 62,
+    "singlePrice": 1,
+    "singlePriceOrigin": 320,
+    "quickDraw": 0,
+    "tenPrice": 10,
+    "tenPriceOrigin": 2980,
+    "first": [
+      "103"
+    ],
+    "rateShow": [
+      "5,65,604,4",
+      "4,300,604,4",
+      "3,900,603,3",
+      "2,2500,602,2",
+      "1,6235,601,1"
+    ],
+    "normalRate": [
+      "5,65",
+      "4,300",
+      "3,900",
+      "2,2500",
+      "1,6235"
+    ],
+    "reverseRate": [],
+    "reverseCount": 0,
+    "reversePool": 0,
+    "goldGet": [
+      "1,320"
+    ],
+    "limitTimes": 99999,
+    "miniPityCount": 10,
+    "miniPityRate": [
+      "5,82",
+      "4,9918"
+    ],
+    "miniPityPool": 4,
+    "hardPityCount": 60,
+    "hardPityRate": [
+      "5,100"
+    ],
+    "hardPityPool": 5,
+    "upEquipID": 0,
+    "boxId": 4
+  },
+  {
+    "id": 201001,
+    "orderId": 1001,
+    "groupId": 1,
+    "freeTimes": 0,
+    "adId": 0,
+    "priceId": 62,
+    "singlePrice": 1,
+    "singlePriceOrigin": 320,
+    "quickDraw": 0,
+    "tenPrice": 10,
+    "tenPriceOrigin": 2980,
+    "first": [
+      "3"
+    ],
+    "rateShow": [
+      "1001,65,604,4",
+      "4,300,604,4",
+      "3,900,603,3",
+      "2,2500,602,2",
+      "1,6235,601,1"
+    ],
+    "normalRate": [
+      "1001,65",
+      "4,300",
+      "3,900",
+      "2,2500",
+      "1,6235"
+    ],
+    "reverseRate": [],
+    "reverseCount": 0,
+    "reversePool": 0,
+    "goldGet": [
+      "1,320"
+    ],
+    "limitTimes": 99999,
+    "miniPityCount": 10,
+    "miniPityRate": [
+      "1001,82",
+      "4,9918"
+    ],
+    "miniPityPool": 4,
+    "hardPityCount": 60,
+    "hardPityRate": [
+      "1001,100"
+    ],
+    "hardPityPool": 1001,
+    "upEquipID": 0,
+    "boxId": 4
+  },
+  {
+    "id": 201002,
+    "orderId": 1002,
+    "groupId": 1,
+    "freeTimes": 0,
+    "adId": 0,
+    "priceId": 62,
+    "singlePrice": 1,
+    "singlePriceOrigin": 320,
+    "quickDraw": 0,
+    "tenPrice": 10,
+    "tenPriceOrigin": 2980,
+    "first": [
+      "3"
+    ],
+    "rateShow": [
+      "1002,65,604,4",
+      "4,300,604,4",
+      "3,900,603,3",
+      "2,2500,602,2",
+      "1,6235,601,1"
+    ],
+    "normalRate": [
+      "1002,65",
+      "4,300",
+      "3,900",
+      "2,2500",
+      "1,6235"
+    ],
+    "reverseRate": [],
+    "reverseCount": 0,
+    "reversePool": 0,
+    "goldGet": [
+      "1,320"
+    ],
+    "limitTimes": 99999,
+    "miniPityCount": 10,
+    "miniPityRate": [
+      "1002,82",
+      "4,9918"
+    ],
+    "miniPityPool": 4,
+    "hardPityCount": 60,
+    "hardPityRate": [
+      "1002,100"
+    ],
+    "hardPityPool": 1002,
+    "upEquipID": 0,
+    "boxId": 4
+  },
+  {
+    "id": 201003,
+    "orderId": 1003,
+    "groupId": 1,
+    "freeTimes": 0,
+    "adId": 0,
+    "priceId": 62,
+    "singlePrice": 1,
+    "singlePriceOrigin": 320,
+    "quickDraw": 0,
+    "tenPrice": 10,
+    "tenPriceOrigin": 2980,
+    "first": [
+      "3"
+    ],
+    "rateShow": [
+      "1003,65,604,4",
+      "4,300,604,4",
+      "3,900,603,3",
+      "2,2500,602,2",
+      "1,6235,601,1"
+    ],
+    "normalRate": [
+      "1003,65",
+      "4,300",
+      "3,900",
+      "2,2500",
+      "1,6235"
+    ],
+    "reverseRate": [],
+    "reverseCount": 0,
+    "reversePool": 0,
+    "goldGet": [
+      "1,320"
+    ],
+    "limitTimes": 99999,
+    "miniPityCount": 10,
+    "miniPityRate": [
+      "1003,82",
+      "4,9918"
+    ],
+    "miniPityPool": 4,
+    "hardPityCount": 60,
+    "hardPityRate": [
+      "1003,100"
+    ],
+    "hardPityPool": 1003,
+    "upEquipID": 0,
+    "boxId": 4
+  },
+  {
+    "id": 201004,
+    "orderId": 1004,
+    "groupId": 1,
+    "freeTimes": 0,
+    "adId": 0,
+    "priceId": 62,
+    "singlePrice": 1,
+    "singlePriceOrigin": 320,
+    "quickDraw": 0,
+    "tenPrice": 10,
+    "tenPriceOrigin": 2980,
+    "first": [
+      "3"
+    ],
+    "rateShow": [
+      "1004,65,604,4",
+      "4,300,604,4",
+      "3,900,603,3",
+      "2,2500,602,2",
+      "1,6235,601,1"
+    ],
+    "normalRate": [
+      "1004,65",
+      "4,300",
+      "3,900",
+      "2,2500",
+      "1,6235"
+    ],
+    "reverseRate": [],
+    "reverseCount": 0,
+    "reversePool": 0,
+    "goldGet": [
+      "1,320"
+    ],
+    "limitTimes": 99999,
+    "miniPityCount": 10,
+    "miniPityRate": [
+      "1004,82",
+      "4,9918"
+    ],
+    "miniPityPool": 4,
+    "hardPityCount": 60,
+    "hardPityRate": [
+      "1004,100"
+    ],
+    "hardPityPool": 1004,
+    "upEquipID": 0,
+    "boxId": 4
+  }
+]

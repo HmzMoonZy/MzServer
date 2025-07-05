@@ -1,0 +1,176 @@
+[
+  {
+    "id": 1,
+    "animationEnterName": "",
+    "animationAttackName": "Raft_Attack",
+    "animationExitName": ""
+  },
+  {
+    "id": 2,
+    "animationEnterName": "",
+    "animationAttackName": "Attack",
+    "animationExitName": ""
+  },
+  {
+    "id": 3,
+    "animationEnterName": "",
+    "animationAttackName": "Skill",
+    "animationExitName": ""
+  },
+  {
+    "id": 4,
+    "animationEnterName": "",
+    "animationAttackName": "Shoot",
+    "animationExitName": ""
+  },
+  {
+    "id": 5,
+    "animationEnterName": "",
+    "animationAttackName": "Battle/Cast",
+    "animationExitName": ""
+  },
+  {
+    "id": 6,
+    "animationEnterName": "",
+    "animationAttackName": "Skill02",
+    "animationExitName": ""
+  },
+  {
+    "id": 7,
+    "animationEnterName": "",
+    "animationAttackName": "Attack_2",
+    "animationExitName": ""
+  },
+  {
+    "id": 8,
+    "animationEnterName": "",
+    "animationAttackName": "Attack_3",
+    "animationExitName": ""
+  },
+  {
+    "id": 9,
+    "animationEnterName": "",
+    "animationAttackName": "Attack_4",
+    "animationExitName": ""
+  },
+  {
+    "id": 10,
+    "animationEnterName": "",
+    "animationAttackName": "Attack2",
+    "animationExitName": ""
+  },
+  {
+    "id": 11,
+    "animationEnterName": "",
+    "animationAttackName": "Skill_1",
+    "animationExitName": ""
+  },
+  {
+    "id": 12,
+    "animationEnterName": "",
+    "animationAttackName": "Skill_Low",
+    "animationExitName": ""
+  },
+  {
+    "id": 101,
+    "animationEnterName": "",
+    "animationAttackName": "Battle/Attack_Sword",
+    "animationExitName": ""
+  },
+  {
+    "id": 102,
+    "animationEnterName": "",
+    "animationAttackName": "Battle/Attack_Spear",
+    "animationExitName": ""
+  },
+  {
+    "id": 103,
+    "animationEnterName": "",
+    "animationAttackName": "Battle/Attack_Magic",
+    "animationExitName": ""
+  },
+  {
+    "id": 104,
+    "animationEnterName": "",
+    "animationAttackName": "Battle/Attack_Bow",
+    "animationExitName": ""
+  },
+  {
+    "id": 201,
+    "animationEnterName": "",
+    "animationAttackName": "Battle/Skill_Sword",
+    "animationExitName": ""
+  },
+  {
+    "id": 202,
+    "animationEnterName": "",
+    "animationAttackName": "Battle/Skill_Sword02",
+    "animationExitName": ""
+  },
+  {
+    "id": 203,
+    "animationEnterName": "",
+    "animationAttackName": "Battle/Skill_Spear",
+    "animationExitName": ""
+  },
+  {
+    "id": 204,
+    "animationEnterName": "",
+    "animationAttackName": "Battle/Skill_Magic",
+    "animationExitName": ""
+  },
+  {
+    "id": 205,
+    "animationEnterName": "",
+    "animationAttackName": "Battle/Skill_Bow",
+    "animationExitName": ""
+  },
+  {
+    "id": 301,
+    "animationEnterName": "",
+    "animationAttackName": "Battle/Skill_AnYingChang",
+    "animationExitName": ""
+  },
+  {
+    "id": 302,
+    "animationEnterName": "",
+    "animationAttackName": "Battle/Skill_LongXiJuJian",
+    "animationExitName": ""
+  },
+  {
+    "id": 401,
+    "animationEnterName": "",
+    "animationAttackName": "Battle/Skill_Long",
+    "animationExitName": ""
+  },
+  {
+    "id": 402,
+    "animationEnterName": "",
+    "animationAttackName": "Skill2",
+    "animationExitName": ""
+  },
+  {
+    "id": 501,
+    "animationEnterName": "",
+    "animationAttackName": "Skill01",
+    "animationExitName": ""
+  },
+  {
+    "id": 601,
+    "animationEnterName": "",
+    "animationAttackName": "Battle/Skill",
+    "animationExitName": ""
+  },
+  {
+    "id": 701,
+    "animationEnterName": "",
+    "animationAttackName": "Battle/Skill_01",
+    "animationExitName": ""
+  },
+  {
+    "id": 702,
+    "animationEnterName": "",
+    "animationAttackName": "Battle/Skill_02",
+    "animationExitName": ""
+  }
+]

@@ -1,0 +1,53 @@
+[
+  {
+    "id": 1,
+    "NameId": "14000",
+    "DescId": "14100",
+    "type": 1,
+    "Content": [
+      6001001,
+      6001002,
+      6001003,
+      6001004,
+      6001005
+    ],
+    "GroupAttributes": [
+      "0,Attack%=300",
+      "1,Attack%=400",
+      "2,Attack%=500",
+      "3,Attack%=600"
+    ]
+  },
+  {
+    "id": 2,
+    "NameId": "14001",
+    "DescId": "14101",
+    "type": 1,
+    "Content": [
+      6002001,
+      6002002,
+      6002003,
+      6002004,
+      6002005
+    ],
+    "GroupAttributes": [
+      "0,Attack%=300",
+      "1,Attack%=400",
+      "2,Attack%=500",
+      "3,Attack%=600"
+    ]
+  },
+  {
+    "id": 3,
+    "NameId": "14002",
+    "DescId": "14102",
+    "type": 2,
+    "Content": [
+      6003001,
+      6003002
+    ],
+    "GroupAttributes": [
+      "0,HPMax%=300"
+    ]
+  }
+]

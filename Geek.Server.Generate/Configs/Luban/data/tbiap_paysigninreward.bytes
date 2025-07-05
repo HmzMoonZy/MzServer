@@ -1,0 +1,100 @@
+[
+  {
+    "id": 10101,
+    "groupId": 101,
+    "days": 1,
+    "freeReward": [
+      "2,50"
+    ],
+    "payReward": [
+      "5016,2"
+    ],
+    "signInPrice": [
+      "2,20"
+    ]
+  },
+  {
+    "id": 10102,
+    "groupId": 101,
+    "days": 2,
+    "freeReward": [
+      "2,50"
+    ],
+    "payReward": [
+      "5016,3"
+    ],
+    "signInPrice": [
+      "2,20"
+    ]
+  },
+  {
+    "id": 10103,
+    "groupId": 101,
+    "days": 3,
+    "freeReward": [
+      "2,50"
+    ],
+    "payReward": [
+      "5016,3"
+    ],
+    "signInPrice": [
+      "2,20"
+    ]
+  },
+  {
+    "id": 10104,
+    "groupId": 101,
+    "days": 4,
+    "freeReward": [
+      "2,50"
+    ],
+    "payReward": [
+      "5016,3"
+    ],
+    "signInPrice": [
+      "2,20"
+    ]
+  },
+  {
+    "id": 10105,
+    "groupId": 101,
+    "days": 5,
+    "freeReward": [
+      "2,50"
+    ],
+    "payReward": [
+      "5016,3"
+    ],
+    "signInPrice": [
+      "2,20"
+    ]
+  },
+  {
+    "id": 10106,
+    "groupId": 101,
+    "days": 6,
+    "freeReward": [
+      "2,50"
+    ],
+    "payReward": [
+      "5016,3"
+    ],
+    "signInPrice": [
+      "2,20"
+    ]
+  },
+  {
+    "id": 10107,
+    "groupId": 101,
+    "days": 7,
+    "freeReward": [
+      "2,50"
+    ],
+    "payReward": [
+      "5016,3"
+    ],
+    "signInPrice": [
+      "2,20"
+    ]
+  }
+]

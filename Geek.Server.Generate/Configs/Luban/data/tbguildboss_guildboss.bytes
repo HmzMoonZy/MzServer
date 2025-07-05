@@ -1,0 +1,44 @@
+[
+  {
+    "ID": 101,
+    "BossId": 200589,
+    "NameID": "guild_boss_1",
+    "uiScale": 1
+  },
+  {
+    "ID": 102,
+    "BossId": 200590,
+    "NameID": "guild_boss_2",
+    "uiScale": 0.5
+  },
+  {
+    "ID": 103,
+    "BossId": 200591,
+    "NameID": "guild_boss_3",
+    "uiScale": 0.5
+  },
+  {
+    "ID": 104,
+    "BossId": 200592,
+    "NameID": "guild_boss_4",
+    "uiScale": 0.5
+  },
+  {
+    "ID": 105,
+    "BossId": 200593,
+    "NameID": "guild_boss_5",
+    "uiScale": 0.5
+  },
+  {
+    "ID": 106,
+    "BossId": 200594,
+    "NameID": "guild_boss_6",
+    "uiScale": 0.5
+  },
+  {
+    "ID": 107,
+    "BossId": 200595,
+    "NameID": "guild_boss_7",
+    "uiScale": 0.5
+  }
+]

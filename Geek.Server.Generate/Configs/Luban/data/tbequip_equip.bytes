@@ -1,0 +1,8402 @@
+[
+  {
+    "id": 110001,
+    "rank": 1,
+    "Type": 1,
+    "subType": 104,
+    "tagID": 1100,
+    "baseAttributes": "Attack=20|HPMax=80",
+    "composeId": 1,
+    "skinId": 1101,
+    "activePower": [
+      56,
+      0
+    ]
+  },
+  {
+    "id": 110002,
+    "rank": 1,
+    "Type": 1,
+    "subType": 104,
+    "tagID": 1100,
+    "baseAttributes": "Attack=20|HPMax=80",
+    "composeId": 2,
+    "skinId": 1101,
+    "activePower": [
+      102,
+      0
+    ]
+  },
+  {
+    "id": 110003,
+    "rank": 1,
+    "Type": 1,
+    "subType": 104,
+    "tagID": 1100,
+    "baseAttributes": "Attack=20|HPMax=80",
+    "composeId": 3,
+    "skinId": 1101,
+    "activePower": [
+      153,
+      0
+    ]
+  },
+  {
+    "id": 110004,
+    "rank": 1,
+    "Type": 1,
+    "subType": 104,
+    "tagID": 1100,
+    "baseAttributes": "Attack=20|HPMax=80",
+    "composeId": 4,
+    "skinId": 1101,
+    "activePower": [
+      204,
+      0
+    ]
+  },
+  {
+    "id": 110005,
+    "rank": 1,
+    "Type": 1,
+    "subType": 104,
+    "tagID": 1100,
+    "baseAttributes": "Attack=20|HPMax=80",
+    "composeId": 5,
+    "skinId": 1101,
+    "activePower": [
+      240,
+      0
+    ]
+  },
+  {
+    "id": 110006,
+    "rank": 1,
+    "Type": 1,
+    "subType": 104,
+    "tagID": 1100,
+    "baseAttributes": "Attack=20|HPMax=80",
+    "composeId": 6,
+    "skinId": 1101,
+    "activePower": [
+      276,
+      0
+    ]
+  },
+  {
+    "id": 110007,
+    "rank": 1,
+    "Type": 1,
+    "subType": 104,
+    "tagID": 1100,
+    "baseAttributes": "Attack=20|HPMax=80",
+    "composeId": 7,
+    "skinId": 1101,
+    "activePower": [
+      342,
+      0
+    ]
+  },
+  {
+    "id": 110008,
+    "rank": 1,
+    "Type": 1,
+    "subType": 104,
+    "tagID": 1100,
+    "baseAttributes": "Attack=20|HPMax=80",
+    "composeId": 8,
+    "skinId": 1101,
+    "activePower": [
+      378,
+      0
+    ]
+  },
+  {
+    "id": 110009,
+    "rank": 1,
+    "Type": 1,
+    "subType": 104,
+    "tagID": 1100,
+    "baseAttributes": "Attack=20|HPMax=80",
+    "composeId": 9,
+    "skinId": 1101,
+    "activePower": [
+      414,
+      0
+    ]
+  },
+  {
+    "id": 110010,
+    "rank": 1,
+    "Type": 1,
+    "subType": 104,
+    "tagID": 1100,
+    "baseAttributes": "Attack=20|HPMax=80",
+    "composeId": 10,
+    "skinId": 1101,
+    "activePower": [
+      450,
+      0
+    ]
+  },
+  {
+    "id": 110011,
+    "rank": 1,
+    "Type": 1,
+    "subType": 104,
+    "tagID": 1100,
+    "baseAttributes": "Attack=20|HPMax=80",
+    "composeId": 11,
+    "skinId": 1101,
+    "activePower": [
+      516,
+      0
+    ]
+  },
+  {
+    "id": 110012,
+    "rank": 1,
+    "Type": 1,
+    "subType": 104,
+    "tagID": 1100,
+    "baseAttributes": "Attack=20|HPMax=80",
+    "composeId": 12,
+    "skinId": 1101,
+    "activePower": [
+      552,
+      0
+    ]
+  },
+  {
+    "id": 110013,
+    "rank": 1,
+    "Type": 1,
+    "subType": 104,
+    "tagID": 1100,
+    "baseAttributes": "Attack=20|HPMax=80",
+    "composeId": 13,
+    "skinId": 1101,
+    "activePower": [
+      588,
+      0
+    ]
+  },
+  {
+    "id": 110014,
+    "rank": 1,
+    "Type": 1,
+    "subType": 104,
+    "tagID": 1100,
+    "baseAttributes": "Attack=20|HPMax=80",
+    "composeId": 14,
+    "skinId": 1101,
+    "activePower": [
+      624,
+      0
+    ]
+  },
+  {
+    "id": 110015,
+    "rank": 1,
+    "Type": 1,
+    "subType": 104,
+    "tagID": 1100,
+    "baseAttributes": "Attack=20|HPMax=80",
+    "composeId": 15,
+    "skinId": 1101,
+    "activePower": [
+      660,
+      0
+    ]
+  },
+  {
+    "id": 110101,
+    "rank": 1,
+    "Type": 1,
+    "subType": 104,
+    "tagID": 1101,
+    "baseAttributes": "Attack=10",
+    "composeId": 1,
+    "skinId": 1101,
+    "activePower": [
+      20,
+      0
+    ]
+  },
+  {
+    "id": 110102,
+    "rank": 1,
+    "Type": 1,
+    "subType": 104,
+    "tagID": 1101,
+    "baseAttributes": "Attack=20",
+    "composeId": 2,
+    "skinId": 1101,
+    "activePower": [
+      30,
+      0
+    ]
+  },
+  {
+    "id": 110103,
+    "rank": 1,
+    "Type": 1,
+    "subType": 104,
+    "tagID": 1101,
+    "baseAttributes": "Attack=20",
+    "composeId": 3,
+    "skinId": 1101,
+    "activePower": [
+      45,
+      0
+    ]
+  },
+  {
+    "id": 110104,
+    "rank": 1,
+    "Type": 1,
+    "subType": 104,
+    "tagID": 1101,
+    "baseAttributes": "Attack=20",
+    "composeId": 4,
+    "skinId": 1101,
+    "activePower": [
+      360,
+      0
+    ]
+  },
+  {
+    "id": 110105,
+    "rank": 1,
+    "Type": 1,
+    "subType": 104,
+    "tagID": 1101,
+    "baseAttributes": "Attack=20",
+    "composeId": 5,
+    "skinId": 1101,
+    "activePower": [
+      360,
+      0
+    ]
+  },
+  {
+    "id": 110106,
+    "rank": 1,
+    "Type": 1,
+    "subType": 104,
+    "tagID": 1101,
+    "baseAttributes": "Attack=20",
+    "composeId": 6,
+    "skinId": 1101,
+    "activePower": [
+      360,
+      0
+    ]
+  },
+  {
+    "id": 110107,
+    "rank": 1,
+    "Type": 1,
+    "subType": 104,
+    "tagID": 1101,
+    "baseAttributes": "Attack=20",
+    "composeId": 7,
+    "skinId": 1101,
+    "activePower": [
+      390,
+      0
+    ]
+  },
+  {
+    "id": 110108,
+    "rank": 1,
+    "Type": 1,
+    "subType": 104,
+    "tagID": 1101,
+    "baseAttributes": "Attack=20",
+    "composeId": 8,
+    "skinId": 1101,
+    "activePower": [
+      390,
+      0
+    ]
+  },
+  {
+    "id": 110109,
+    "rank": 1,
+    "Type": 1,
+    "subType": 104,
+    "tagID": 1101,
+    "baseAttributes": "Attack=20",
+    "composeId": 9,
+    "skinId": 1101,
+    "activePower": [
+      390,
+      0
+    ]
+  },
+  {
+    "id": 110110,
+    "rank": 1,
+    "Type": 1,
+    "subType": 104,
+    "tagID": 1101,
+    "baseAttributes": "Attack=20",
+    "composeId": 10,
+    "skinId": 1101,
+    "activePower": [
+      390,
+      0
+    ]
+  },
+  {
+    "id": 110111,
+    "rank": 1,
+    "Type": 1,
+    "subType": 104,
+    "tagID": 1101,
+    "baseAttributes": "Attack=20",
+    "composeId": 11,
+    "skinId": 1101,
+    "activePower": [
+      820,
+      0
+    ]
+  },
+  {
+    "id": 110112,
+    "rank": 1,
+    "Type": 1,
+    "subType": 104,
+    "tagID": 1101,
+    "baseAttributes": "Attack=20",
+    "composeId": 12,
+    "skinId": 1101,
+    "activePower": [
+      820,
+      0
+    ]
+  },
+  {
+    "id": 110113,
+    "rank": 1,
+    "Type": 1,
+    "subType": 104,
+    "tagID": 1101,
+    "baseAttributes": "Attack=20",
+    "composeId": 13,
+    "skinId": 1101,
+    "activePower": [
+      820,
+      0
+    ]
+  },
+  {
+    "id": 110114,
+    "rank": 1,
+    "Type": 1,
+    "subType": 104,
+    "tagID": 1101,
+    "baseAttributes": "Attack=20",
+    "composeId": 14,
+    "skinId": 1101,
+    "activePower": [
+      820,
+      0
+    ]
+  },
+  {
+    "id": 110115,
+    "rank": 1,
+    "Type": 1,
+    "subType": 104,
+    "tagID": 1101,
+    "baseAttributes": "Attack=20",
+    "composeId": 15,
+    "skinId": 1101,
+    "activePower": [
+      820,
+      0
+    ]
+  },
+  {
+    "id": 110201,
+    "rank": 1,
+    "Type": 1,
+    "subType": 104,
+    "tagID": 1102,
+    "baseAttributes": "Attack=20|NormalCombo%=3",
+    "composeId": 1,
+    "skinId": 1102,
+    "activePower": [
+      56,
+      0
+    ]
+  },
+  {
+    "id": 110202,
+    "rank": 1,
+    "Type": 1,
+    "subType": 104,
+    "tagID": 1102,
+    "baseAttributes": "Attack=20|NormalCombo%=3",
+    "composeId": 2,
+    "skinId": 1102,
+    "activePower": [
+      102,
+      0
+    ]
+  },
+  {
+    "id": 110203,
+    "rank": 1,
+    "Type": 1,
+    "subType": 104,
+    "tagID": 1102,
+    "baseAttributes": "Attack=20|NormalCombo%=3",
+    "composeId": 3,
+    "skinId": 1102,
+    "activePower": [
+      153,
+      0
+    ]
+  },
+  {
+    "id": 110204,
+    "rank": 1,
+    "Type": 1,
+    "subType": 104,
+    "tagID": 1102,
+    "baseAttributes": "Attack=20|NormalCombo%=3",
+    "composeId": 4,
+    "skinId": 1102,
+    "activePower": [
+      504,
+      0
+    ]
+  },
+  {
+    "id": 110205,
+    "rank": 1,
+    "Type": 1,
+    "subType": 104,
+    "tagID": 1102,
+    "baseAttributes": "Attack=20|NormalCombo%=3",
+    "composeId": 5,
+    "skinId": 1102,
+    "activePower": [
+      540,
+      0
+    ]
+  },
+  {
+    "id": 110206,
+    "rank": 1,
+    "Type": 1,
+    "subType": 104,
+    "tagID": 1102,
+    "baseAttributes": "Attack=20|NormalCombo%=3",
+    "composeId": 6,
+    "skinId": 1102,
+    "activePower": [
+      576,
+      0
+    ]
+  },
+  {
+    "id": 110207,
+    "rank": 1,
+    "Type": 1,
+    "subType": 104,
+    "tagID": 1102,
+    "baseAttributes": "Attack=20|NormalCombo%=3",
+    "composeId": 7,
+    "skinId": 1102,
+    "activePower": [
+      642,
+      0
+    ]
+  },
+  {
+    "id": 110208,
+    "rank": 1,
+    "Type": 1,
+    "subType": 104,
+    "tagID": 1102,
+    "baseAttributes": "Attack=20|NormalCombo%=3",
+    "composeId": 8,
+    "skinId": 1102,
+    "activePower": [
+      678,
+      0
+    ]
+  },
+  {
+    "id": 110209,
+    "rank": 1,
+    "Type": 1,
+    "subType": 104,
+    "tagID": 1102,
+    "baseAttributes": "Attack=20|NormalCombo%=3",
+    "composeId": 9,
+    "skinId": 1102,
+    "activePower": [
+      714,
+      0
+    ]
+  },
+  {
+    "id": 110210,
+    "rank": 1,
+    "Type": 1,
+    "subType": 104,
+    "tagID": 1102,
+    "baseAttributes": "Attack=20|NormalCombo%=3",
+    "composeId": 10,
+    "skinId": 1102,
+    "activePower": [
+      750,
+      0
+    ]
+  },
+  {
+    "id": 110211,
+    "rank": 1,
+    "Type": 1,
+    "subType": 104,
+    "tagID": 1102,
+    "baseAttributes": "Attack=20|NormalCombo%=3",
+    "composeId": 11,
+    "skinId": 1102,
+    "activePower": [
+      1216,
+      0
+    ]
+  },
+  {
+    "id": 110212,
+    "rank": 1,
+    "Type": 1,
+    "subType": 104,
+    "tagID": 1102,
+    "baseAttributes": "Attack=20|NormalCombo%=3",
+    "composeId": 12,
+    "skinId": 1102,
+    "activePower": [
+      1252,
+      0
+    ]
+  },
+  {
+    "id": 110213,
+    "rank": 1,
+    "Type": 1,
+    "subType": 104,
+    "tagID": 1102,
+    "baseAttributes": "Attack=20|NormalCombo%=3",
+    "composeId": 13,
+    "skinId": 1102,
+    "activePower": [
+      1288,
+      0
+    ]
+  },
+  {
+    "id": 110214,
+    "rank": 1,
+    "Type": 1,
+    "subType": 104,
+    "tagID": 1102,
+    "baseAttributes": "Attack=20|NormalCombo%=3",
+    "composeId": 14,
+    "skinId": 1102,
+    "activePower": [
+      1324,
+      0
+    ]
+  },
+  {
+    "id": 110215,
+    "rank": 1,
+    "Type": 1,
+    "subType": 104,
+    "tagID": 1102,
+    "baseAttributes": "Attack=20|NormalCombo%=3",
+    "composeId": 15,
+    "skinId": 1102,
+    "activePower": [
+      1360,
+      0
+    ]
+  },
+  {
+    "id": 110301,
+    "rank": 1,
+    "Type": 1,
+    "subType": 104,
+    "tagID": 1103,
+    "baseAttributes": "Attack=20|NormalCombo%=3",
+    "composeId": 1,
+    "skinId": 1103,
+    "activePower": [
+      56,
+      0
+    ]
+  },
+  {
+    "id": 110302,
+    "rank": 1,
+    "Type": 1,
+    "subType": 104,
+    "tagID": 1103,
+    "baseAttributes": "Attack=20|NormalCombo%=3",
+    "composeId": 2,
+    "skinId": 1103,
+    "activePower": [
+      102,
+      0
+    ]
+  },
+  {
+    "id": 110303,
+    "rank": 1,
+    "Type": 1,
+    "subType": 104,
+    "tagID": 1103,
+    "baseAttributes": "Attack=20|NormalCombo%=3",
+    "composeId": 3,
+    "skinId": 1103,
+    "activePower": [
+      153,
+      0
+    ]
+  },
+  {
+    "id": 110304,
+    "rank": 1,
+    "Type": 1,
+    "subType": 104,
+    "tagID": 1103,
+    "baseAttributes": "Attack=20|NormalCombo%=3",
+    "composeId": 4,
+    "skinId": 1103,
+    "activePower": [
+      504,
+      0
+    ]
+  },
+  {
+    "id": 110305,
+    "rank": 1,
+    "Type": 1,
+    "subType": 104,
+    "tagID": 1103,
+    "baseAttributes": "Attack=20|NormalCombo%=3",
+    "composeId": 5,
+    "skinId": 1103,
+    "activePower": [
+      540,
+      0
+    ]
+  },
+  {
+    "id": 110306,
+    "rank": 1,
+    "Type": 1,
+    "subType": 104,
+    "tagID": 1103,
+    "baseAttributes": "Attack=20|NormalCombo%=3",
+    "composeId": 6,
+    "skinId": 1103,
+    "activePower": [
+      576,
+      0
+    ]
+  },
+  {
+    "id": 110307,
+    "rank": 1,
+    "Type": 1,
+    "subType": 104,
+    "tagID": 1103,
+    "baseAttributes": "Attack=20|NormalCombo%=3",
+    "composeId": 7,
+    "skinId": 1103,
+    "activePower": [
+      642,
+      0
+    ]
+  },
+  {
+    "id": 110308,
+    "rank": 1,
+    "Type": 1,
+    "subType": 104,
+    "tagID": 1103,
+    "baseAttributes": "Attack=20|NormalCombo%=3",
+    "composeId": 8,
+    "skinId": 1103,
+    "activePower": [
+      678,
+      0
+    ]
+  },
+  {
+    "id": 110309,
+    "rank": 1,
+    "Type": 1,
+    "subType": 104,
+    "tagID": 1103,
+    "baseAttributes": "Attack=20|NormalCombo%=3",
+    "composeId": 9,
+    "skinId": 1103,
+    "activePower": [
+      714,
+      0
+    ]
+  },
+  {
+    "id": 110310,
+    "rank": 1,
+    "Type": 1,
+    "subType": 104,
+    "tagID": 1103,
+    "baseAttributes": "Attack=20|NormalCombo%=3",
+    "composeId": 10,
+    "skinId": 1103,
+    "activePower": [
+      750,
+      0
+    ]
+  },
+  {
+    "id": 110311,
+    "rank": 1,
+    "Type": 1,
+    "subType": 104,
+    "tagID": 1103,
+    "baseAttributes": "Attack=20|NormalCombo%=3",
+    "composeId": 11,
+    "skinId": 1103,
+    "activePower": [
+      1216,
+      0
+    ]
+  },
+  {
+    "id": 110312,
+    "rank": 1,
+    "Type": 1,
+    "subType": 104,
+    "tagID": 1103,
+    "baseAttributes": "Attack=20|NormalCombo%=3",
+    "composeId": 12,
+    "skinId": 1103,
+    "activePower": [
+      1252,
+      0
+    ]
+  },
+  {
+    "id": 110313,
+    "rank": 1,
+    "Type": 1,
+    "subType": 104,
+    "tagID": 1103,
+    "baseAttributes": "Attack=20|NormalCombo%=3",
+    "composeId": 13,
+    "skinId": 1103,
+    "activePower": [
+      1288,
+      0
+    ]
+  },
+  {
+    "id": 110314,
+    "rank": 1,
+    "Type": 1,
+    "subType": 104,
+    "tagID": 1103,
+    "baseAttributes": "Attack=20|NormalCombo%=3",
+    "composeId": 14,
+    "skinId": 1103,
+    "activePower": [
+      1324,
+      0
+    ]
+  },
+  {
+    "id": 110315,
+    "rank": 1,
+    "Type": 1,
+    "subType": 104,
+    "tagID": 1103,
+    "baseAttributes": "Attack=20|NormalCombo%=3",
+    "composeId": 15,
+    "skinId": 1103,
+    "activePower": [
+      1360,
+      0
+    ]
+  },
+  {
+    "id": 110401,
+    "rank": 1,
+    "Type": 1,
+    "subType": 102,
+    "tagID": 1104,
+    "baseAttributes": "Attack=20|Revenge%=3",
+    "composeId": 1,
+    "skinId": 1104,
+    "activePower": [
+      56,
+      0
+    ]
+  },
+  {
+    "id": 110402,
+    "rank": 1,
+    "Type": 1,
+    "subType": 102,
+    "tagID": 1104,
+    "baseAttributes": "Attack=20|Revenge%=3",
+    "composeId": 2,
+    "skinId": 1104,
+    "activePower": [
+      102,
+      0
+    ]
+  },
+  {
+    "id": 110403,
+    "rank": 1,
+    "Type": 1,
+    "subType": 102,
+    "tagID": 1104,
+    "baseAttributes": "Attack=20|Revenge%=3",
+    "composeId": 3,
+    "skinId": 1104,
+    "activePower": [
+      153,
+      0
+    ]
+  },
+  {
+    "id": 110404,
+    "rank": 1,
+    "Type": 1,
+    "subType": 102,
+    "tagID": 1104,
+    "baseAttributes": "Attack=20|Revenge%=3",
+    "composeId": 4,
+    "skinId": 1104,
+    "activePower": [
+      504,
+      0
+    ]
+  },
+  {
+    "id": 110405,
+    "rank": 1,
+    "Type": 1,
+    "subType": 102,
+    "tagID": 1104,
+    "baseAttributes": "Attack=20|Revenge%=3",
+    "composeId": 5,
+    "skinId": 1104,
+    "activePower": [
+      540,
+      0
+    ]
+  },
+  {
+    "id": 110406,
+    "rank": 1,
+    "Type": 1,
+    "subType": 102,
+    "tagID": 1104,
+    "baseAttributes": "Attack=20|Revenge%=3",
+    "composeId": 6,
+    "skinId": 1104,
+    "activePower": [
+      576,
+      0
+    ]
+  },
+  {
+    "id": 110407,
+    "rank": 1,
+    "Type": 1,
+    "subType": 102,
+    "tagID": 1104,
+    "baseAttributes": "Attack=20|Revenge%=3",
+    "composeId": 7,
+    "skinId": 1104,
+    "activePower": [
+      642,
+      0
+    ]
+  },
+  {
+    "id": 110408,
+    "rank": 1,
+    "Type": 1,
+    "subType": 102,
+    "tagID": 1104,
+    "baseAttributes": "Attack=20|Revenge%=3",
+    "composeId": 8,
+    "skinId": 1104,
+    "activePower": [
+      678,
+      0
+    ]
+  },
+  {
+    "id": 110409,
+    "rank": 1,
+    "Type": 1,
+    "subType": 102,
+    "tagID": 1104,
+    "baseAttributes": "Attack=20|Revenge%=3",
+    "composeId": 9,
+    "skinId": 1104,
+    "activePower": [
+      714,
+      0
+    ]
+  },
+  {
+    "id": 110410,
+    "rank": 1,
+    "Type": 1,
+    "subType": 102,
+    "tagID": 1104,
+    "baseAttributes": "Attack=20|Revenge%=3",
+    "composeId": 10,
+    "skinId": 1104,
+    "activePower": [
+      750,
+      0
+    ]
+  },
+  {
+    "id": 110411,
+    "rank": 1,
+    "Type": 1,
+    "subType": 102,
+    "tagID": 1104,
+    "baseAttributes": "Attack=20|Revenge%=3",
+    "composeId": 11,
+    "skinId": 1104,
+    "activePower": [
+      1216,
+      0
+    ]
+  },
+  {
+    "id": 110412,
+    "rank": 1,
+    "Type": 1,
+    "subType": 102,
+    "tagID": 1104,
+    "baseAttributes": "Attack=20|Revenge%=3",
+    "composeId": 12,
+    "skinId": 1104,
+    "activePower": [
+      1252,
+      0
+    ]
+  },
+  {
+    "id": 110413,
+    "rank": 1,
+    "Type": 1,
+    "subType": 102,
+    "tagID": 1104,
+    "baseAttributes": "Attack=20|Revenge%=3",
+    "composeId": 13,
+    "skinId": 1104,
+    "activePower": [
+      1288,
+      0
+    ]
+  },
+  {
+    "id": 110414,
+    "rank": 1,
+    "Type": 1,
+    "subType": 102,
+    "tagID": 1104,
+    "baseAttributes": "Attack=20|Revenge%=3",
+    "composeId": 14,
+    "skinId": 1104,
+    "activePower": [
+      1324,
+      0
+    ]
+  },
+  {
+    "id": 110415,
+    "rank": 1,
+    "Type": 1,
+    "subType": 102,
+    "tagID": 1104,
+    "baseAttributes": "Attack=20|Revenge%=3",
+    "composeId": 15,
+    "skinId": 1104,
+    "activePower": [
+      1360,
+      0
+    ]
+  },
+  {
+    "id": 110501,
+    "rank": 1,
+    "Type": 1,
+    "subType": 105,
+    "tagID": 1105,
+    "baseAttributes": "Attack=20|Revenge%=3",
+    "composeId": 1,
+    "skinId": 1105,
+    "activePower": [
+      56,
+      0
+    ]
+  },
+  {
+    "id": 110502,
+    "rank": 1,
+    "Type": 1,
+    "subType": 105,
+    "tagID": 1105,
+    "baseAttributes": "Attack=20|Revenge%=3",
+    "composeId": 2,
+    "skinId": 1105,
+    "activePower": [
+      102,
+      0
+    ]
+  },
+  {
+    "id": 110503,
+    "rank": 1,
+    "Type": 1,
+    "subType": 105,
+    "tagID": 1105,
+    "baseAttributes": "Attack=20|Revenge%=3",
+    "composeId": 3,
+    "skinId": 1105,
+    "activePower": [
+      153,
+      0
+    ]
+  },
+  {
+    "id": 110504,
+    "rank": 1,
+    "Type": 1,
+    "subType": 105,
+    "tagID": 1105,
+    "baseAttributes": "Attack=20|Revenge%=3",
+    "composeId": 4,
+    "skinId": 1105,
+    "activePower": [
+      504,
+      0
+    ]
+  },
+  {
+    "id": 110505,
+    "rank": 1,
+    "Type": 1,
+    "subType": 105,
+    "tagID": 1105,
+    "baseAttributes": "Attack=20|Revenge%=3",
+    "composeId": 5,
+    "skinId": 1105,
+    "activePower": [
+      540,
+      0
+    ]
+  },
+  {
+    "id": 110506,
+    "rank": 1,
+    "Type": 1,
+    "subType": 105,
+    "tagID": 1105,
+    "baseAttributes": "Attack=20|Revenge%=3",
+    "composeId": 6,
+    "skinId": 1105,
+    "activePower": [
+      576,
+      0
+    ]
+  },
+  {
+    "id": 110507,
+    "rank": 1,
+    "Type": 1,
+    "subType": 105,
+    "tagID": 1105,
+    "baseAttributes": "Attack=20|Revenge%=3",
+    "composeId": 7,
+    "skinId": 1105,
+    "activePower": [
+      642,
+      0
+    ]
+  },
+  {
+    "id": 110508,
+    "rank": 1,
+    "Type": 1,
+    "subType": 105,
+    "tagID": 1105,
+    "baseAttributes": "Attack=20|Revenge%=3",
+    "composeId": 8,
+    "skinId": 1105,
+    "activePower": [
+      678,
+      0
+    ]
+  },
+  {
+    "id": 110509,
+    "rank": 1,
+    "Type": 1,
+    "subType": 105,
+    "tagID": 1105,
+    "baseAttributes": "Attack=20|Revenge%=3",
+    "composeId": 9,
+    "skinId": 1105,
+    "activePower": [
+      714,
+      0
+    ]
+  },
+  {
+    "id": 110510,
+    "rank": 1,
+    "Type": 1,
+    "subType": 105,
+    "tagID": 1105,
+    "baseAttributes": "Attack=20|Revenge%=3",
+    "composeId": 10,
+    "skinId": 1105,
+    "activePower": [
+      750,
+      0
+    ]
+  },
+  {
+    "id": 110511,
+    "rank": 1,
+    "Type": 1,
+    "subType": 105,
+    "tagID": 1105,
+    "baseAttributes": "Attack=20|Revenge%=3",
+    "composeId": 11,
+    "skinId": 1105,
+    "activePower": [
+      1216,
+      0
+    ]
+  },
+  {
+    "id": 110512,
+    "rank": 1,
+    "Type": 1,
+    "subType": 105,
+    "tagID": 1105,
+    "baseAttributes": "Attack=20|Revenge%=3",
+    "composeId": 12,
+    "skinId": 1105,
+    "activePower": [
+      1252,
+      0
+    ]
+  },
+  {
+    "id": 110513,
+    "rank": 1,
+    "Type": 1,
+    "subType": 105,
+    "tagID": 1105,
+    "baseAttributes": "Attack=20|Revenge%=3",
+    "composeId": 13,
+    "skinId": 1105,
+    "activePower": [
+      1288,
+      0
+    ]
+  },
+  {
+    "id": 110514,
+    "rank": 1,
+    "Type": 1,
+    "subType": 105,
+    "tagID": 1105,
+    "baseAttributes": "Attack=20|Revenge%=3",
+    "composeId": 14,
+    "skinId": 1105,
+    "activePower": [
+      1324,
+      0
+    ]
+  },
+  {
+    "id": 110515,
+    "rank": 1,
+    "Type": 1,
+    "subType": 105,
+    "tagID": 1105,
+    "baseAttributes": "Attack=20|Revenge%=3",
+    "composeId": 15,
+    "skinId": 1105,
+    "activePower": [
+      1360,
+      0
+    ]
+  },
+  {
+    "id": 110601,
+    "rank": 1,
+    "Type": 1,
+    "subType": 101,
+    "tagID": 1106,
+    "baseAttributes": "Attack=20|WeaponCritRate%=3",
+    "composeId": 1,
+    "skinId": 1106,
+    "activePower": [
+      56,
+      0
+    ]
+  },
+  {
+    "id": 110602,
+    "rank": 1,
+    "Type": 1,
+    "subType": 101,
+    "tagID": 1106,
+    "baseAttributes": "Attack=20|WeaponCritRate%=3",
+    "composeId": 2,
+    "skinId": 1106,
+    "activePower": [
+      102,
+      0
+    ]
+  },
+  {
+    "id": 110603,
+    "rank": 1,
+    "Type": 1,
+    "subType": 101,
+    "tagID": 1106,
+    "baseAttributes": "Attack=20|WeaponCritRate%=3",
+    "composeId": 3,
+    "skinId": 1106,
+    "activePower": [
+      153,
+      0
+    ]
+  },
+  {
+    "id": 110604,
+    "rank": 1,
+    "Type": 1,
+    "subType": 101,
+    "tagID": 1106,
+    "baseAttributes": "Attack=20|WeaponCritRate%=3",
+    "composeId": 4,
+    "skinId": 1106,
+    "activePower": [
+      504,
+      0
+    ]
+  },
+  {
+    "id": 110605,
+    "rank": 1,
+    "Type": 1,
+    "subType": 101,
+    "tagID": 1106,
+    "baseAttributes": "Attack=20|WeaponCritRate%=3",
+    "composeId": 5,
+    "skinId": 1106,
+    "activePower": [
+      540,
+      0
+    ]
+  },
+  {
+    "id": 110606,
+    "rank": 1,
+    "Type": 1,
+    "subType": 101,
+    "tagID": 1106,
+    "baseAttributes": "Attack=20|WeaponCritRate%=3",
+    "composeId": 6,
+    "skinId": 1106,
+    "activePower": [
+      576,
+      0
+    ]
+  },
+  {
+    "id": 110607,
+    "rank": 1,
+    "Type": 1,
+    "subType": 101,
+    "tagID": 1106,
+    "baseAttributes": "Attack=20|WeaponCritRate%=3",
+    "composeId": 7,
+    "skinId": 1106,
+    "activePower": [
+      642,
+      0
+    ]
+  },
+  {
+    "id": 110608,
+    "rank": 1,
+    "Type": 1,
+    "subType": 101,
+    "tagID": 1106,
+    "baseAttributes": "Attack=20|WeaponCritRate%=3",
+    "composeId": 8,
+    "skinId": 1106,
+    "activePower": [
+      678,
+      0
+    ]
+  },
+  {
+    "id": 110609,
+    "rank": 1,
+    "Type": 1,
+    "subType": 101,
+    "tagID": 1106,
+    "baseAttributes": "Attack=20|WeaponCritRate%=3",
+    "composeId": 9,
+    "skinId": 1106,
+    "activePower": [
+      714,
+      0
+    ]
+  },
+  {
+    "id": 110610,
+    "rank": 1,
+    "Type": 1,
+    "subType": 101,
+    "tagID": 1106,
+    "baseAttributes": "Attack=20|WeaponCritRate%=3",
+    "composeId": 10,
+    "skinId": 1106,
+    "activePower": [
+      750,
+      0
+    ]
+  },
+  {
+    "id": 110611,
+    "rank": 1,
+    "Type": 1,
+    "subType": 101,
+    "tagID": 1106,
+    "baseAttributes": "Attack=20|WeaponCritRate%=3",
+    "composeId": 11,
+    "skinId": 1106,
+    "activePower": [
+      1216,
+      0
+    ]
+  },
+  {
+    "id": 110612,
+    "rank": 1,
+    "Type": 1,
+    "subType": 101,
+    "tagID": 1106,
+    "baseAttributes": "Attack=20|WeaponCritRate%=3",
+    "composeId": 12,
+    "skinId": 1106,
+    "activePower": [
+      1252,
+      0
+    ]
+  },
+  {
+    "id": 110613,
+    "rank": 1,
+    "Type": 1,
+    "subType": 101,
+    "tagID": 1106,
+    "baseAttributes": "Attack=20|WeaponCritRate%=3",
+    "composeId": 13,
+    "skinId": 1106,
+    "activePower": [
+      1288,
+      0
+    ]
+  },
+  {
+    "id": 110614,
+    "rank": 1,
+    "Type": 1,
+    "subType": 101,
+    "tagID": 1106,
+    "baseAttributes": "Attack=20|WeaponCritRate%=3",
+    "composeId": 14,
+    "skinId": 1106,
+    "activePower": [
+      1324,
+      0
+    ]
+  },
+  {
+    "id": 110615,
+    "rank": 1,
+    "Type": 1,
+    "subType": 101,
+    "tagID": 1106,
+    "baseAttributes": "Attack=20|WeaponCritRate%=3",
+    "composeId": 15,
+    "skinId": 1106,
+    "activePower": [
+      1360,
+      0
+    ]
+  },
+  {
+    "id": 110701,
+    "rank": 1,
+    "Type": 1,
+    "subType": 101,
+    "tagID": 1107,
+    "baseAttributes": "Attack=20|WeaponCritRate%=3",
+    "composeId": 1,
+    "skinId": 1107,
+    "activePower": [
+      56,
+      0
+    ]
+  },
+  {
+    "id": 110702,
+    "rank": 1,
+    "Type": 1,
+    "subType": 101,
+    "tagID": 1107,
+    "baseAttributes": "Attack=20|WeaponCritRate%=3",
+    "composeId": 2,
+    "skinId": 1107,
+    "activePower": [
+      102,
+      0
+    ]
+  },
+  {
+    "id": 110703,
+    "rank": 1,
+    "Type": 1,
+    "subType": 101,
+    "tagID": 1107,
+    "baseAttributes": "Attack=20|WeaponCritRate%=3",
+    "composeId": 3,
+    "skinId": 1107,
+    "activePower": [
+      153,
+      0
+    ]
+  },
+  {
+    "id": 110704,
+    "rank": 1,
+    "Type": 1,
+    "subType": 101,
+    "tagID": 1107,
+    "baseAttributes": "Attack=20|WeaponCritRate%=3",
+    "composeId": 4,
+    "skinId": 1107,
+    "activePower": [
+      504,
+      0
+    ]
+  },
+  {
+    "id": 110705,
+    "rank": 1,
+    "Type": 1,
+    "subType": 101,
+    "tagID": 1107,
+    "baseAttributes": "Attack=20|WeaponCritRate%=3",
+    "composeId": 5,
+    "skinId": 1107,
+    "activePower": [
+      540,
+      0
+    ]
+  },
+  {
+    "id": 110706,
+    "rank": 1,
+    "Type": 1,
+    "subType": 101,
+    "tagID": 1107,
+    "baseAttributes": "Attack=20|WeaponCritRate%=3",
+    "composeId": 6,
+    "skinId": 1107,
+    "activePower": [
+      576,
+      0
+    ]
+  },
+  {
+    "id": 110707,
+    "rank": 1,
+    "Type": 1,
+    "subType": 101,
+    "tagID": 1107,
+    "baseAttributes": "Attack=20|WeaponCritRate%=3",
+    "composeId": 7,
+    "skinId": 1107,
+    "activePower": [
+      642,
+      0
+    ]
+  },
+  {
+    "id": 110708,
+    "rank": 1,
+    "Type": 1,
+    "subType": 101,
+    "tagID": 1107,
+    "baseAttributes": "Attack=20|WeaponCritRate%=3",
+    "composeId": 8,
+    "skinId": 1107,
+    "activePower": [
+      678,
+      0
+    ]
+  },
+  {
+    "id": 110709,
+    "rank": 1,
+    "Type": 1,
+    "subType": 101,
+    "tagID": 1107,
+    "baseAttributes": "Attack=20|WeaponCritRate%=3",
+    "composeId": 9,
+    "skinId": 1107,
+    "activePower": [
+      714,
+      0
+    ]
+  },
+  {
+    "id": 110710,
+    "rank": 1,
+    "Type": 1,
+    "subType": 101,
+    "tagID": 1107,
+    "baseAttributes": "Attack=20|WeaponCritRate%=3",
+    "composeId": 10,
+    "skinId": 1107,
+    "activePower": [
+      750,
+      0
+    ]
+  },
+  {
+    "id": 110711,
+    "rank": 1,
+    "Type": 1,
+    "subType": 101,
+    "tagID": 1107,
+    "baseAttributes": "Attack=20|WeaponCritRate%=3",
+    "composeId": 11,
+    "skinId": 1107,
+    "activePower": [
+      1216,
+      0
+    ]
+  },
+  {
+    "id": 110712,
+    "rank": 1,
+    "Type": 1,
+    "subType": 101,
+    "tagID": 1107,
+    "baseAttributes": "Attack=20|WeaponCritRate%=3",
+    "composeId": 12,
+    "skinId": 1107,
+    "activePower": [
+      1252,
+      0
+    ]
+  },
+  {
+    "id": 110713,
+    "rank": 1,
+    "Type": 1,
+    "subType": 101,
+    "tagID": 1107,
+    "baseAttributes": "Attack=20|WeaponCritRate%=3",
+    "composeId": 13,
+    "skinId": 1107,
+    "activePower": [
+      1288,
+      0
+    ]
+  },
+  {
+    "id": 110714,
+    "rank": 1,
+    "Type": 1,
+    "subType": 101,
+    "tagID": 1107,
+    "baseAttributes": "Attack=20|WeaponCritRate%=3",
+    "composeId": 14,
+    "skinId": 1107,
+    "activePower": [
+      1324,
+      0
+    ]
+  },
+  {
+    "id": 110715,
+    "rank": 1,
+    "Type": 1,
+    "subType": 101,
+    "tagID": 1107,
+    "baseAttributes": "Attack=20|WeaponCritRate%=3",
+    "composeId": 15,
+    "skinId": 1107,
+    "activePower": [
+      1360,
+      0
+    ]
+  },
+  {
+    "id": 110801,
+    "rank": 1,
+    "Type": 1,
+    "subType": 103,
+    "tagID": 1108,
+    "baseAttributes": "Attack=20|SkillDamageAdd%=3",
+    "composeId": 1,
+    "skinId": 1108,
+    "activePower": [
+      56,
+      0
+    ]
+  },
+  {
+    "id": 110802,
+    "rank": 1,
+    "Type": 1,
+    "subType": 103,
+    "tagID": 1108,
+    "baseAttributes": "Attack=20|SkillDamageAdd%=3",
+    "composeId": 2,
+    "skinId": 1108,
+    "activePower": [
+      102,
+      0
+    ]
+  },
+  {
+    "id": 110803,
+    "rank": 1,
+    "Type": 1,
+    "subType": 103,
+    "tagID": 1108,
+    "baseAttributes": "Attack=20|SkillDamageAdd%=3",
+    "composeId": 3,
+    "skinId": 1108,
+    "activePower": [
+      153,
+      0
+    ]
+  },
+  {
+    "id": 110804,
+    "rank": 1,
+    "Type": 1,
+    "subType": 103,
+    "tagID": 1108,
+    "baseAttributes": "Attack=20|SkillDamageAdd%=3",
+    "composeId": 4,
+    "skinId": 1108,
+    "activePower": [
+      504,
+      0
+    ]
+  },
+  {
+    "id": 110805,
+    "rank": 1,
+    "Type": 1,
+    "subType": 103,
+    "tagID": 1108,
+    "baseAttributes": "Attack=20|SkillDamageAdd%=3",
+    "composeId": 5,
+    "skinId": 1108,
+    "activePower": [
+      540,
+      0
+    ]
+  },
+  {
+    "id": 110806,
+    "rank": 1,
+    "Type": 1,
+    "subType": 103,
+    "tagID": 1108,
+    "baseAttributes": "Attack=20|SkillDamageAdd%=3",
+    "composeId": 6,
+    "skinId": 1108,
+    "activePower": [
+      576,
+      0
+    ]
+  },
+  {
+    "id": 110807,
+    "rank": 1,
+    "Type": 1,
+    "subType": 103,
+    "tagID": 1108,
+    "baseAttributes": "Attack=20|SkillDamageAdd%=3",
+    "composeId": 7,
+    "skinId": 1108,
+    "activePower": [
+      1042,
+      0
+    ]
+  },
+  {
+    "id": 110808,
+    "rank": 1,
+    "Type": 1,
+    "subType": 103,
+    "tagID": 1108,
+    "baseAttributes": "Attack=20|SkillDamageAdd%=3",
+    "composeId": 8,
+    "skinId": 1108,
+    "activePower": [
+      1078,
+      0
+    ]
+  },
+  {
+    "id": 110809,
+    "rank": 1,
+    "Type": 1,
+    "subType": 103,
+    "tagID": 1108,
+    "baseAttributes": "Attack=20|SkillDamageAdd%=3",
+    "composeId": 9,
+    "skinId": 1108,
+    "activePower": [
+      1114,
+      0
+    ]
+  },
+  {
+    "id": 110810,
+    "rank": 1,
+    "Type": 1,
+    "subType": 103,
+    "tagID": 1108,
+    "baseAttributes": "Attack=20|SkillDamageAdd%=3",
+    "composeId": 10,
+    "skinId": 1108,
+    "activePower": [
+      1150,
+      0
+    ]
+  },
+  {
+    "id": 110811,
+    "rank": 1,
+    "Type": 1,
+    "subType": 103,
+    "tagID": 1108,
+    "baseAttributes": "Attack=20|SkillDamageAdd%=3",
+    "composeId": 11,
+    "skinId": 1108,
+    "activePower": [
+      1616,
+      0
+    ]
+  },
+  {
+    "id": 110812,
+    "rank": 1,
+    "Type": 1,
+    "subType": 103,
+    "tagID": 1108,
+    "baseAttributes": "Attack=20|SkillDamageAdd%=3",
+    "composeId": 12,
+    "skinId": 1108,
+    "activePower": [
+      1652,
+      0
+    ]
+  },
+  {
+    "id": 110813,
+    "rank": 1,
+    "Type": 1,
+    "subType": 103,
+    "tagID": 1108,
+    "baseAttributes": "Attack=20|SkillDamageAdd%=3",
+    "composeId": 13,
+    "skinId": 1108,
+    "activePower": [
+      1688,
+      0
+    ]
+  },
+  {
+    "id": 110814,
+    "rank": 1,
+    "Type": 1,
+    "subType": 103,
+    "tagID": 1108,
+    "baseAttributes": "Attack=20|SkillDamageAdd%=3",
+    "composeId": 14,
+    "skinId": 1108,
+    "activePower": [
+      1724,
+      0
+    ]
+  },
+  {
+    "id": 110815,
+    "rank": 1,
+    "Type": 1,
+    "subType": 103,
+    "tagID": 1108,
+    "baseAttributes": "Attack=20|SkillDamageAdd%=3",
+    "composeId": 15,
+    "skinId": 1108,
+    "activePower": [
+      1760,
+      0
+    ]
+  },
+  {
+    "id": 110901,
+    "rank": 1,
+    "Type": 1,
+    "subType": 103,
+    "tagID": 1109,
+    "baseAttributes": "Attack=20|SkillDamageAdd%=3",
+    "composeId": 1,
+    "skinId": 1109,
+    "activePower": [
+      56,
+      0
+    ]
+  },
+  {
+    "id": 110902,
+    "rank": 1,
+    "Type": 1,
+    "subType": 103,
+    "tagID": 1109,
+    "baseAttributes": "Attack=20|SkillDamageAdd%=3",
+    "composeId": 2,
+    "skinId": 1109,
+    "activePower": [
+      102,
+      0
+    ]
+  },
+  {
+    "id": 110903,
+    "rank": 1,
+    "Type": 1,
+    "subType": 103,
+    "tagID": 1109,
+    "baseAttributes": "Attack=20|SkillDamageAdd%=3",
+    "composeId": 3,
+    "skinId": 1109,
+    "activePower": [
+      153,
+      0
+    ]
+  },
+  {
+    "id": 110904,
+    "rank": 1,
+    "Type": 1,
+    "subType": 103,
+    "tagID": 1109,
+    "baseAttributes": "Attack=20|SkillDamageAdd%=3",
+    "composeId": 4,
+    "skinId": 1109,
+    "activePower": [
+      504,
+      0
+    ]
+  },
+  {
+    "id": 110905,
+    "rank": 1,
+    "Type": 1,
+    "subType": 103,
+    "tagID": 1109,
+    "baseAttributes": "Attack=20|SkillDamageAdd%=3",
+    "composeId": 5,
+    "skinId": 1109,
+    "activePower": [
+      540,
+      0
+    ]
+  },
+  {
+    "id": 110906,
+    "rank": 1,
+    "Type": 1,
+    "subType": 103,
+    "tagID": 1109,
+    "baseAttributes": "Attack=20|SkillDamageAdd%=3",
+    "composeId": 6,
+    "skinId": 1109,
+    "activePower": [
+      576,
+      0
+    ]
+  },
+  {
+    "id": 110907,
+    "rank": 1,
+    "Type": 1,
+    "subType": 103,
+    "tagID": 1109,
+    "baseAttributes": "Attack=20|SkillDamageAdd%=3",
+    "composeId": 7,
+    "skinId": 1109,
+    "activePower": [
+      1042,
+      0
+    ]
+  },
+  {
+    "id": 110908,
+    "rank": 1,
+    "Type": 1,
+    "subType": 103,
+    "tagID": 1109,
+    "baseAttributes": "Attack=20|SkillDamageAdd%=3",
+    "composeId": 8,
+    "skinId": 1109,
+    "activePower": [
+      1078,
+      0
+    ]
+  },
+  {
+    "id": 110909,
+    "rank": 1,
+    "Type": 1,
+    "subType": 103,
+    "tagID": 1109,
+    "baseAttributes": "Attack=20|SkillDamageAdd%=3",
+    "composeId": 9,
+    "skinId": 1109,
+    "activePower": [
+      1114,
+      0
+    ]
+  },
+  {
+    "id": 110910,
+    "rank": 1,
+    "Type": 1,
+    "subType": 103,
+    "tagID": 1109,
+    "baseAttributes": "Attack=20|SkillDamageAdd%=3",
+    "composeId": 10,
+    "skinId": 1109,
+    "activePower": [
+      1150,
+      0
+    ]
+  },
+  {
+    "id": 110911,
+    "rank": 1,
+    "Type": 1,
+    "subType": 103,
+    "tagID": 1109,
+    "baseAttributes": "Attack=20|SkillDamageAdd%=3",
+    "composeId": 11,
+    "skinId": 1109,
+    "activePower": [
+      1616,
+      0
+    ]
+  },
+  {
+    "id": 110912,
+    "rank": 1,
+    "Type": 1,
+    "subType": 103,
+    "tagID": 1109,
+    "baseAttributes": "Attack=20|SkillDamageAdd%=3",
+    "composeId": 12,
+    "skinId": 1109,
+    "activePower": [
+      1652,
+      0
+    ]
+  },
+  {
+    "id": 110913,
+    "rank": 1,
+    "Type": 1,
+    "subType": 103,
+    "tagID": 1109,
+    "baseAttributes": "Attack=20|SkillDamageAdd%=3",
+    "composeId": 13,
+    "skinId": 1109,
+    "activePower": [
+      1688,
+      0
+    ]
+  },
+  {
+    "id": 110914,
+    "rank": 1,
+    "Type": 1,
+    "subType": 103,
+    "tagID": 1109,
+    "baseAttributes": "Attack=20|SkillDamageAdd%=3",
+    "composeId": 14,
+    "skinId": 1109,
+    "activePower": [
+      1724,
+      0
+    ]
+  },
+  {
+    "id": 110915,
+    "rank": 1,
+    "Type": 1,
+    "subType": 103,
+    "tagID": 1109,
+    "baseAttributes": "Attack=20|SkillDamageAdd%=3",
+    "composeId": 15,
+    "skinId": 1109,
+    "activePower": [
+      1760,
+      0
+    ]
+  },
+  {
+    "id": 111001,
+    "rank": 1,
+    "Type": 1,
+    "subType": 103,
+    "tagID": 1110,
+    "baseAttributes": "Attack=20|SkillDamageAdd%=3",
+    "composeId": 1,
+    "skinId": 1110,
+    "activePower": [
+      56,
+      0
+    ]
+  },
+  {
+    "id": 111002,
+    "rank": 1,
+    "Type": 1,
+    "subType": 103,
+    "tagID": 1110,
+    "baseAttributes": "Attack=20|SkillDamageAdd%=3",
+    "composeId": 2,
+    "skinId": 1110,
+    "activePower": [
+      102,
+      0
+    ]
+  },
+  {
+    "id": 111003,
+    "rank": 1,
+    "Type": 1,
+    "subType": 103,
+    "tagID": 1110,
+    "baseAttributes": "Attack=20|SkillDamageAdd%=3",
+    "composeId": 3,
+    "skinId": 1110,
+    "activePower": [
+      153,
+      0
+    ]
+  },
+  {
+    "id": 111004,
+    "rank": 1,
+    "Type": 1,
+    "subType": 103,
+    "tagID": 1110,
+    "baseAttributes": "Attack=20|SkillDamageAdd%=3",
+    "composeId": 4,
+    "skinId": 1110,
+    "activePower": [
+      504,
+      0
+    ]
+  },
+  {
+    "id": 111005,
+    "rank": 1,
+    "Type": 1,
+    "subType": 103,
+    "tagID": 1110,
+    "baseAttributes": "Attack=20|SkillDamageAdd%=3",
+    "composeId": 5,
+    "skinId": 1110,
+    "activePower": [
+      540,
+      0
+    ]
+  },
+  {
+    "id": 111006,
+    "rank": 1,
+    "Type": 1,
+    "subType": 103,
+    "tagID": 1110,
+    "baseAttributes": "Attack=20|SkillDamageAdd%=3",
+    "composeId": 6,
+    "skinId": 1110,
+    "activePower": [
+      576,
+      0
+    ]
+  },
+  {
+    "id": 111007,
+    "rank": 1,
+    "Type": 1,
+    "subType": 103,
+    "tagID": 1110,
+    "baseAttributes": "Attack=20|SkillDamageAdd%=3",
+    "composeId": 7,
+    "skinId": 1110,
+    "activePower": [
+      1042,
+      0
+    ]
+  },
+  {
+    "id": 111008,
+    "rank": 1,
+    "Type": 1,
+    "subType": 103,
+    "tagID": 1110,
+    "baseAttributes": "Attack=20|SkillDamageAdd%=3",
+    "composeId": 8,
+    "skinId": 1110,
+    "activePower": [
+      1078,
+      0
+    ]
+  },
+  {
+    "id": 111009,
+    "rank": 1,
+    "Type": 1,
+    "subType": 103,
+    "tagID": 1110,
+    "baseAttributes": "Attack=20|SkillDamageAdd%=3",
+    "composeId": 9,
+    "skinId": 1110,
+    "activePower": [
+      1114,
+      0
+    ]
+  },
+  {
+    "id": 111010,
+    "rank": 1,
+    "Type": 1,
+    "subType": 103,
+    "tagID": 1110,
+    "baseAttributes": "Attack=20|SkillDamageAdd%=3",
+    "composeId": 10,
+    "skinId": 1110,
+    "activePower": [
+      1150,
+      0
+    ]
+  },
+  {
+    "id": 111011,
+    "rank": 1,
+    "Type": 1,
+    "subType": 103,
+    "tagID": 1110,
+    "baseAttributes": "Attack=20|SkillDamageAdd%=3",
+    "composeId": 11,
+    "skinId": 1110,
+    "activePower": [
+      1616,
+      0
+    ]
+  },
+  {
+    "id": 111012,
+    "rank": 1,
+    "Type": 1,
+    "subType": 103,
+    "tagID": 1110,
+    "baseAttributes": "Attack=20|SkillDamageAdd%=3",
+    "composeId": 12,
+    "skinId": 1110,
+    "activePower": [
+      1652,
+      0
+    ]
+  },
+  {
+    "id": 111013,
+    "rank": 1,
+    "Type": 1,
+    "subType": 103,
+    "tagID": 1110,
+    "baseAttributes": "Attack=20|SkillDamageAdd%=3",
+    "composeId": 13,
+    "skinId": 1110,
+    "activePower": [
+      1688,
+      0
+    ]
+  },
+  {
+    "id": 111014,
+    "rank": 1,
+    "Type": 1,
+    "subType": 103,
+    "tagID": 1110,
+    "baseAttributes": "Attack=20|SkillDamageAdd%=3",
+    "composeId": 14,
+    "skinId": 1110,
+    "activePower": [
+      1724,
+      0
+    ]
+  },
+  {
+    "id": 111015,
+    "rank": 1,
+    "Type": 1,
+    "subType": 103,
+    "tagID": 1110,
+    "baseAttributes": "Attack=20|SkillDamageAdd%=3",
+    "composeId": 15,
+    "skinId": 1110,
+    "activePower": [
+      1760,
+      0
+    ]
+  },
+  {
+    "id": 210101,
+    "rank": 2,
+    "Type": 1,
+    "subType": 104,
+    "tagID": 2101,
+    "baseAttributes": "Attack=20|NormalCombo%=5",
+    "composeId": 1,
+    "skinId": 2101,
+    "activePower": [
+      160,
+      0
+    ]
+  },
+  {
+    "id": 210102,
+    "rank": 2,
+    "Type": 1,
+    "subType": 104,
+    "tagID": 2101,
+    "baseAttributes": "Attack=20|NormalCombo%=5",
+    "composeId": 2,
+    "skinId": 2101,
+    "activePower": [
+      420,
+      0
+    ]
+  },
+  {
+    "id": 210103,
+    "rank": 2,
+    "Type": 1,
+    "subType": 104,
+    "tagID": 2101,
+    "baseAttributes": "Attack=20|NormalCombo%=5",
+    "composeId": 3,
+    "skinId": 2101,
+    "activePower": [
+      780,
+      0
+    ]
+  },
+  {
+    "id": 210104,
+    "rank": 2,
+    "Type": 1,
+    "subType": 104,
+    "tagID": 2101,
+    "baseAttributes": "Attack=20|NormalCombo%=5",
+    "composeId": 4,
+    "skinId": 2101,
+    "activePower": [
+      840,
+      0
+    ]
+  },
+  {
+    "id": 210105,
+    "rank": 2,
+    "Type": 1,
+    "subType": 104,
+    "tagID": 2101,
+    "baseAttributes": "Attack=20|NormalCombo%=5",
+    "composeId": 5,
+    "skinId": 2101,
+    "activePower": [
+      900,
+      0
+    ]
+  },
+  {
+    "id": 210106,
+    "rank": 2,
+    "Type": 1,
+    "subType": 104,
+    "tagID": 2101,
+    "baseAttributes": "Attack=20|NormalCombo%=5",
+    "composeId": 6,
+    "skinId": 2101,
+    "activePower": [
+      960,
+      0
+    ]
+  },
+  {
+    "id": 210107,
+    "rank": 2,
+    "Type": 1,
+    "subType": 104,
+    "tagID": 2101,
+    "baseAttributes": "Attack=20|NormalCombo%=5",
+    "composeId": 7,
+    "skinId": 2101,
+    "activePower": [
+      1570,
+      0
+    ]
+  },
+  {
+    "id": 210108,
+    "rank": 2,
+    "Type": 1,
+    "subType": 104,
+    "tagID": 2101,
+    "baseAttributes": "Attack=20|NormalCombo%=5",
+    "composeId": 8,
+    "skinId": 2101,
+    "activePower": [
+      1630,
+      0
+    ]
+  },
+  {
+    "id": 210109,
+    "rank": 2,
+    "Type": 1,
+    "subType": 104,
+    "tagID": 2101,
+    "baseAttributes": "Attack=20|NormalCombo%=5",
+    "composeId": 9,
+    "skinId": 2101,
+    "activePower": [
+      1690,
+      0
+    ]
+  },
+  {
+    "id": 210110,
+    "rank": 2,
+    "Type": 1,
+    "subType": 104,
+    "tagID": 2101,
+    "baseAttributes": "Attack=20|NormalCombo%=5",
+    "composeId": 10,
+    "skinId": 2101,
+    "activePower": [
+      1750,
+      0
+    ]
+  },
+  {
+    "id": 210111,
+    "rank": 2,
+    "Type": 1,
+    "subType": 104,
+    "tagID": 2101,
+    "baseAttributes": "Attack=20|NormalCombo%=5",
+    "composeId": 11,
+    "skinId": 2101,
+    "activePower": [
+      2460,
+      0
+    ]
+  },
+  {
+    "id": 210112,
+    "rank": 2,
+    "Type": 1,
+    "subType": 104,
+    "tagID": 2101,
+    "baseAttributes": "Attack=20|NormalCombo%=5",
+    "composeId": 12,
+    "skinId": 2101,
+    "activePower": [
+      2520,
+      0
+    ]
+  },
+  {
+    "id": 210113,
+    "rank": 2,
+    "Type": 1,
+    "subType": 104,
+    "tagID": 2101,
+    "baseAttributes": "Attack=20|NormalCombo%=5",
+    "composeId": 13,
+    "skinId": 2101,
+    "activePower": [
+      2580,
+      0
+    ]
+  },
+  {
+    "id": 210114,
+    "rank": 2,
+    "Type": 1,
+    "subType": 104,
+    "tagID": 2101,
+    "baseAttributes": "Attack=20|NormalCombo%=5",
+    "composeId": 14,
+    "skinId": 2101,
+    "activePower": [
+      2640,
+      0
+    ]
+  },
+  {
+    "id": 210115,
+    "rank": 2,
+    "Type": 1,
+    "subType": 104,
+    "tagID": 2101,
+    "baseAttributes": "Attack=20|NormalCombo%=5",
+    "composeId": 15,
+    "skinId": 2101,
+    "activePower": [
+      2700,
+      0
+    ]
+  },
+  {
+    "id": 210201,
+    "rank": 2,
+    "Type": 1,
+    "subType": 104,
+    "tagID": 2102,
+    "baseAttributes": "Attack=20|NormalCombo%=5",
+    "composeId": 1,
+    "skinId": 2102,
+    "activePower": [
+      160,
+      0
+    ]
+  },
+  {
+    "id": 210202,
+    "rank": 2,
+    "Type": 1,
+    "subType": 104,
+    "tagID": 2102,
+    "baseAttributes": "Attack=20|NormalCombo%=5",
+    "composeId": 2,
+    "skinId": 2102,
+    "activePower": [
+      420,
+      0
+    ]
+  },
+  {
+    "id": 210203,
+    "rank": 2,
+    "Type": 1,
+    "subType": 104,
+    "tagID": 2102,
+    "baseAttributes": "Attack=20|NormalCombo%=5",
+    "composeId": 3,
+    "skinId": 2102,
+    "activePower": [
+      780,
+      0
+    ]
+  },
+  {
+    "id": 210204,
+    "rank": 2,
+    "Type": 1,
+    "subType": 104,
+    "tagID": 2102,
+    "baseAttributes": "Attack=20|NormalCombo%=5",
+    "composeId": 4,
+    "skinId": 2102,
+    "activePower": [
+      840,
+      0
+    ]
+  },
+  {
+    "id": 210205,
+    "rank": 2,
+    "Type": 1,
+    "subType": 104,
+    "tagID": 2102,
+    "baseAttributes": "Attack=20|NormalCombo%=5",
+    "composeId": 5,
+    "skinId": 2102,
+    "activePower": [
+      900,
+      0
+    ]
+  },
+  {
+    "id": 210206,
+    "rank": 2,
+    "Type": 1,
+    "subType": 104,
+    "tagID": 2102,
+    "baseAttributes": "Attack=20|NormalCombo%=5",
+    "composeId": 6,
+    "skinId": 2102,
+    "activePower": [
+      960,
+      0
+    ]
+  },
+  {
+    "id": 210207,
+    "rank": 2,
+    "Type": 1,
+    "subType": 104,
+    "tagID": 2102,
+    "baseAttributes": "Attack=20|NormalCombo%=5",
+    "composeId": 7,
+    "skinId": 2102,
+    "activePower": [
+      1570,
+      0
+    ]
+  },
+  {
+    "id": 210208,
+    "rank": 2,
+    "Type": 1,
+    "subType": 104,
+    "tagID": 2102,
+    "baseAttributes": "Attack=20|NormalCombo%=5",
+    "composeId": 8,
+    "skinId": 2102,
+    "activePower": [
+      1630,
+      0
+    ]
+  },
+  {
+    "id": 210209,
+    "rank": 2,
+    "Type": 1,
+    "subType": 104,
+    "tagID": 2102,
+    "baseAttributes": "Attack=20|NormalCombo%=5",
+    "composeId": 9,
+    "skinId": 2102,
+    "activePower": [
+      1690,
+      0
+    ]
+  },
+  {
+    "id": 210210,
+    "rank": 2,
+    "Type": 1,
+    "subType": 104,
+    "tagID": 2102,
+    "baseAttributes": "Attack=20|NormalCombo%=5",
+    "composeId": 10,
+    "skinId": 2102,
+    "activePower": [
+      1750,
+      0
+    ]
+  },
+  {
+    "id": 210211,
+    "rank": 2,
+    "Type": 1,
+    "subType": 104,
+    "tagID": 2102,
+    "baseAttributes": "Attack=20|NormalCombo%=5",
+    "composeId": 11,
+    "skinId": 2102,
+    "activePower": [
+      2460,
+      0
+    ]
+  },
+  {
+    "id": 210212,
+    "rank": 2,
+    "Type": 1,
+    "subType": 104,
+    "tagID": 2102,
+    "baseAttributes": "Attack=20|NormalCombo%=5",
+    "composeId": 12,
+    "skinId": 2102,
+    "activePower": [
+      2520,
+      0
+    ]
+  },
+  {
+    "id": 210213,
+    "rank": 2,
+    "Type": 1,
+    "subType": 104,
+    "tagID": 2102,
+    "baseAttributes": "Attack=20|NormalCombo%=5",
+    "composeId": 13,
+    "skinId": 2102,
+    "activePower": [
+      2580,
+      0
+    ]
+  },
+  {
+    "id": 210214,
+    "rank": 2,
+    "Type": 1,
+    "subType": 104,
+    "tagID": 2102,
+    "baseAttributes": "Attack=20|NormalCombo%=5",
+    "composeId": 14,
+    "skinId": 2102,
+    "activePower": [
+      2640,
+      0
+    ]
+  },
+  {
+    "id": 210215,
+    "rank": 2,
+    "Type": 1,
+    "subType": 104,
+    "tagID": 2102,
+    "baseAttributes": "Attack=20|NormalCombo%=5",
+    "composeId": 15,
+    "skinId": 2102,
+    "activePower": [
+      2700,
+      0
+    ]
+  },
+  {
+    "id": 210301,
+    "rank": 2,
+    "Type": 1,
+    "subType": 105,
+    "tagID": 2103,
+    "baseAttributes": "Attack=20|Revenge%=5",
+    "composeId": 1,
+    "skinId": 2103,
+    "activePower": [
+      160,
+      0
+    ]
+  },
+  {
+    "id": 210302,
+    "rank": 2,
+    "Type": 1,
+    "subType": 105,
+    "tagID": 2103,
+    "baseAttributes": "Attack=20|Revenge%=5",
+    "composeId": 2,
+    "skinId": 2103,
+    "activePower": [
+      420,
+      0
+    ]
+  },
+  {
+    "id": 210303,
+    "rank": 2,
+    "Type": 1,
+    "subType": 105,
+    "tagID": 2103,
+    "baseAttributes": "Attack=20|Revenge%=5",
+    "composeId": 3,
+    "skinId": 2103,
+    "activePower": [
+      780,
+      0
+    ]
+  },
+  {
+    "id": 210304,
+    "rank": 2,
+    "Type": 1,
+    "subType": 105,
+    "tagID": 2103,
+    "baseAttributes": "Attack=20|Revenge%=5",
+    "composeId": 4,
+    "skinId": 2103,
+    "activePower": [
+      840,
+      0
+    ]
+  },
+  {
+    "id": 210305,
+    "rank": 2,
+    "Type": 1,
+    "subType": 105,
+    "tagID": 2103,
+    "baseAttributes": "Attack=20|Revenge%=5",
+    "composeId": 5,
+    "skinId": 2103,
+    "activePower": [
+      900,
+      0
+    ]
+  },
+  {
+    "id": 210306,
+    "rank": 2,
+    "Type": 1,
+    "subType": 105,
+    "tagID": 2103,
+    "baseAttributes": "Attack=20|Revenge%=5",
+    "composeId": 6,
+    "skinId": 2103,
+    "activePower": [
+      960,
+      0
+    ]
+  },
+  {
+    "id": 210307,
+    "rank": 2,
+    "Type": 1,
+    "subType": 105,
+    "tagID": 2103,
+    "baseAttributes": "Attack=20|Revenge%=5",
+    "composeId": 7,
+    "skinId": 2103,
+    "activePower": [
+      1570,
+      0
+    ]
+  },
+  {
+    "id": 210308,
+    "rank": 2,
+    "Type": 1,
+    "subType": 105,
+    "tagID": 2103,
+    "baseAttributes": "Attack=20|Revenge%=5",
+    "composeId": 8,
+    "skinId": 2103,
+    "activePower": [
+      1630,
+      0
+    ]
+  },
+  {
+    "id": 210309,
+    "rank": 2,
+    "Type": 1,
+    "subType": 105,
+    "tagID": 2103,
+    "baseAttributes": "Attack=20|Revenge%=5",
+    "composeId": 9,
+    "skinId": 2103,
+    "activePower": [
+      1690,
+      0
+    ]
+  },
+  {
+    "id": 210310,
+    "rank": 2,
+    "Type": 1,
+    "subType": 105,
+    "tagID": 2103,
+    "baseAttributes": "Attack=20|Revenge%=5",
+    "composeId": 10,
+    "skinId": 2103,
+    "activePower": [
+      1750,
+      0
+    ]
+  },
+  {
+    "id": 210311,
+    "rank": 2,
+    "Type": 1,
+    "subType": 105,
+    "tagID": 2103,
+    "baseAttributes": "Attack=20|Revenge%=5",
+    "composeId": 11,
+    "skinId": 2103,
+    "activePower": [
+      2460,
+      0
+    ]
+  },
+  {
+    "id": 210312,
+    "rank": 2,
+    "Type": 1,
+    "subType": 105,
+    "tagID": 2103,
+    "baseAttributes": "Attack=20|Revenge%=5",
+    "composeId": 12,
+    "skinId": 2103,
+    "activePower": [
+      2520,
+      0
+    ]
+  },
+  {
+    "id": 210313,
+    "rank": 2,
+    "Type": 1,
+    "subType": 105,
+    "tagID": 2103,
+    "baseAttributes": "Attack=20|Revenge%=5",
+    "composeId": 13,
+    "skinId": 2103,
+    "activePower": [
+      2580,
+      0
+    ]
+  },
+  {
+    "id": 210314,
+    "rank": 2,
+    "Type": 1,
+    "subType": 105,
+    "tagID": 2103,
+    "baseAttributes": "Attack=20|Revenge%=5",
+    "composeId": 14,
+    "skinId": 2103,
+    "activePower": [
+      2640,
+      0
+    ]
+  },
+  {
+    "id": 210315,
+    "rank": 2,
+    "Type": 1,
+    "subType": 105,
+    "tagID": 2103,
+    "baseAttributes": "Attack=20|Revenge%=5",
+    "composeId": 15,
+    "skinId": 2103,
+    "activePower": [
+      2700,
+      0
+    ]
+  },
+  {
+    "id": 210401,
+    "rank": 2,
+    "Type": 1,
+    "subType": 102,
+    "tagID": 2104,
+    "baseAttributes": "Attack=20|Revenge%=5",
+    "composeId": 1,
+    "skinId": 2104,
+    "activePower": [
+      160,
+      0
+    ]
+  },
+  {
+    "id": 210402,
+    "rank": 2,
+    "Type": 1,
+    "subType": 102,
+    "tagID": 2104,
+    "baseAttributes": "Attack=20|Revenge%=5",
+    "composeId": 2,
+    "skinId": 2104,
+    "activePower": [
+      420,
+      0
+    ]
+  },
+  {
+    "id": 210403,
+    "rank": 2,
+    "Type": 1,
+    "subType": 102,
+    "tagID": 2104,
+    "baseAttributes": "Attack=20|Revenge%=5",
+    "composeId": 3,
+    "skinId": 2104,
+    "activePower": [
+      780,
+      0
+    ]
+  },
+  {
+    "id": 210404,
+    "rank": 2,
+    "Type": 1,
+    "subType": 102,
+    "tagID": 2104,
+    "baseAttributes": "Attack=20|Revenge%=5",
+    "composeId": 4,
+    "skinId": 2104,
+    "activePower": [
+      840,
+      0
+    ]
+  },
+  {
+    "id": 210405,
+    "rank": 2,
+    "Type": 1,
+    "subType": 102,
+    "tagID": 2104,
+    "baseAttributes": "Attack=20|Revenge%=5",
+    "composeId": 5,
+    "skinId": 2104,
+    "activePower": [
+      900,
+      0
+    ]
+  },
+  {
+    "id": 210406,
+    "rank": 2,
+    "Type": 1,
+    "subType": 102,
+    "tagID": 2104,
+    "baseAttributes": "Attack=20|Revenge%=5",
+    "composeId": 6,
+    "skinId": 2104,
+    "activePower": [
+      960,
+      0
+    ]
+  },
+  {
+    "id": 210407,
+    "rank": 2,
+    "Type": 1,
+    "subType": 102,
+    "tagID": 2104,
+    "baseAttributes": "Attack=20|Revenge%=5",
+    "composeId": 7,
+    "skinId": 2104,
+    "activePower": [
+      1570,
+      0
+    ]
+  },
+  {
+    "id": 210408,
+    "rank": 2,
+    "Type": 1,
+    "subType": 102,
+    "tagID": 2104,
+    "baseAttributes": "Attack=20|Revenge%=5",
+    "composeId": 8,
+    "skinId": 2104,
+    "activePower": [
+      1630,
+      0
+    ]
+  },
+  {
+    "id": 210409,
+    "rank": 2,
+    "Type": 1,
+    "subType": 102,
+    "tagID": 2104,
+    "baseAttributes": "Attack=20|Revenge%=5",
+    "composeId": 9,
+    "skinId": 2104,
+    "activePower": [
+      1690,
+      0
+    ]
+  },
+  {
+    "id": 210410,
+    "rank": 2,
+    "Type": 1,
+    "subType": 102,
+    "tagID": 2104,
+    "baseAttributes": "Attack=20|Revenge%=5",
+    "composeId": 10,
+    "skinId": 2104,
+    "activePower": [
+      1750,
+      0
+    ]
+  },
+  {
+    "id": 210411,
+    "rank": 2,
+    "Type": 1,
+    "subType": 102,
+    "tagID": 2104,
+    "baseAttributes": "Attack=20|Revenge%=5",
+    "composeId": 11,
+    "skinId": 2104,
+    "activePower": [
+      2460,
+      0
+    ]
+  },
+  {
+    "id": 210412,
+    "rank": 2,
+    "Type": 1,
+    "subType": 102,
+    "tagID": 2104,
+    "baseAttributes": "Attack=20|Revenge%=5",
+    "composeId": 12,
+    "skinId": 2104,
+    "activePower": [
+      2520,
+      0
+    ]
+  },
+  {
+    "id": 210413,
+    "rank": 2,
+    "Type": 1,
+    "subType": 102,
+    "tagID": 2104,
+    "baseAttributes": "Attack=20|Revenge%=5",
+    "composeId": 13,
+    "skinId": 2104,
+    "activePower": [
+      2580,
+      0
+    ]
+  },
+  {
+    "id": 210414,
+    "rank": 2,
+    "Type": 1,
+    "subType": 102,
+    "tagID": 2104,
+    "baseAttributes": "Attack=20|Revenge%=5",
+    "composeId": 14,
+    "skinId": 2104,
+    "activePower": [
+      2640,
+      0
+    ]
+  },
+  {
+    "id": 210415,
+    "rank": 2,
+    "Type": 1,
+    "subType": 102,
+    "tagID": 2104,
+    "baseAttributes": "Attack=20|Revenge%=5",
+    "composeId": 15,
+    "skinId": 2104,
+    "activePower": [
+      2700,
+      0
+    ]
+  },
+  {
+    "id": 210501,
+    "rank": 2,
+    "Type": 1,
+    "subType": 102,
+    "tagID": 2105,
+    "baseAttributes": "Attack=20|Revenge%=5",
+    "composeId": 1,
+    "skinId": 2105,
+    "activePower": [
+      160,
+      0
+    ]
+  },
+  {
+    "id": 210502,
+    "rank": 2,
+    "Type": 1,
+    "subType": 102,
+    "tagID": 2105,
+    "baseAttributes": "Attack=20|Revenge%=5",
+    "composeId": 2,
+    "skinId": 2105,
+    "activePower": [
+      420,
+      0
+    ]
+  },
+  {
+    "id": 210503,
+    "rank": 2,
+    "Type": 1,
+    "subType": 102,
+    "tagID": 2105,
+    "baseAttributes": "Attack=20|Revenge%=5",
+    "composeId": 3,
+    "skinId": 2105,
+    "activePower": [
+      780,
+      0
+    ]
+  },
+  {
+    "id": 210504,
+    "rank": 2,
+    "Type": 1,
+    "subType": 102,
+    "tagID": 2105,
+    "baseAttributes": "Attack=20|Revenge%=5",
+    "composeId": 4,
+    "skinId": 2105,
+    "activePower": [
+      840,
+      0
+    ]
+  },
+  {
+    "id": 210505,
+    "rank": 2,
+    "Type": 1,
+    "subType": 102,
+    "tagID": 2105,
+    "baseAttributes": "Attack=20|Revenge%=5",
+    "composeId": 5,
+    "skinId": 2105,
+    "activePower": [
+      900,
+      0
+    ]
+  },
+  {
+    "id": 210506,
+    "rank": 2,
+    "Type": 1,
+    "subType": 102,
+    "tagID": 2105,
+    "baseAttributes": "Attack=20|Revenge%=5",
+    "composeId": 6,
+    "skinId": 2105,
+    "activePower": [
+      960,
+      0
+    ]
+  },
+  {
+    "id": 210507,
+    "rank": 2,
+    "Type": 1,
+    "subType": 102,
+    "tagID": 2105,
+    "baseAttributes": "Attack=20|Revenge%=5",
+    "composeId": 7,
+    "skinId": 2105,
+    "activePower": [
+      1570,
+      0
+    ]
+  },
+  {
+    "id": 210508,
+    "rank": 2,
+    "Type": 1,
+    "subType": 102,
+    "tagID": 2105,
+    "baseAttributes": "Attack=20|Revenge%=5",
+    "composeId": 8,
+    "skinId": 2105,
+    "activePower": [
+      1630,
+      0
+    ]
+  },
+  {
+    "id": 210509,
+    "rank": 2,
+    "Type": 1,
+    "subType": 102,
+    "tagID": 2105,
+    "baseAttributes": "Attack=20|Revenge%=5",
+    "composeId": 9,
+    "skinId": 2105,
+    "activePower": [
+      1690,
+      0
+    ]
+  },
+  {
+    "id": 210510,
+    "rank": 2,
+    "Type": 1,
+    "subType": 102,
+    "tagID": 2105,
+    "baseAttributes": "Attack=20|Revenge%=5",
+    "composeId": 10,
+    "skinId": 2105,
+    "activePower": [
+      1750,
+      0
+    ]
+  },
+  {
+    "id": 210511,
+    "rank": 2,
+    "Type": 1,
+    "subType": 102,
+    "tagID": 2105,
+    "baseAttributes": "Attack=20|Revenge%=5",
+    "composeId": 11,
+    "skinId": 2105,
+    "activePower": [
+      2460,
+      0
+    ]
+  },
+  {
+    "id": 210512,
+    "rank": 2,
+    "Type": 1,
+    "subType": 102,
+    "tagID": 2105,
+    "baseAttributes": "Attack=20|Revenge%=5",
+    "composeId": 12,
+    "skinId": 2105,
+    "activePower": [
+      2520,
+      0
+    ]
+  },
+  {
+    "id": 210513,
+    "rank": 2,
+    "Type": 1,
+    "subType": 102,
+    "tagID": 2105,
+    "baseAttributes": "Attack=20|Revenge%=5",
+    "composeId": 13,
+    "skinId": 2105,
+    "activePower": [
+      2580,
+      0
+    ]
+  },
+  {
+    "id": 210514,
+    "rank": 2,
+    "Type": 1,
+    "subType": 102,
+    "tagID": 2105,
+    "baseAttributes": "Attack=20|Revenge%=5",
+    "composeId": 14,
+    "skinId": 2105,
+    "activePower": [
+      2640,
+      0
+    ]
+  },
+  {
+    "id": 210515,
+    "rank": 2,
+    "Type": 1,
+    "subType": 102,
+    "tagID": 2105,
+    "baseAttributes": "Attack=20|Revenge%=5",
+    "composeId": 15,
+    "skinId": 2105,
+    "activePower": [
+      2700,
+      0
+    ]
+  },
+  {
+    "id": 210601,
+    "rank": 2,
+    "Type": 1,
+    "subType": 101,
+    "tagID": 2106,
+    "baseAttributes": "Attack=20|WeaponCritRate%=5",
+    "composeId": 1,
+    "skinId": 2106,
+    "activePower": [
+      160,
+      0
+    ]
+  },
+  {
+    "id": 210602,
+    "rank": 2,
+    "Type": 1,
+    "subType": 101,
+    "tagID": 2106,
+    "baseAttributes": "Attack=20|WeaponCritRate%=5",
+    "composeId": 2,
+    "skinId": 2106,
+    "activePower": [
+      420,
+      0
+    ]
+  },
+  {
+    "id": 210603,
+    "rank": 2,
+    "Type": 1,
+    "subType": 101,
+    "tagID": 2106,
+    "baseAttributes": "Attack=20|WeaponCritRate%=5",
+    "composeId": 3,
+    "skinId": 2106,
+    "activePower": [
+      780,
+      0
+    ]
+  },
+  {
+    "id": 210604,
+    "rank": 2,
+    "Type": 1,
+    "subType": 101,
+    "tagID": 2106,
+    "baseAttributes": "Attack=20|WeaponCritRate%=5",
+    "composeId": 4,
+    "skinId": 2106,
+    "activePower": [
+      840,
+      0
+    ]
+  },
+  {
+    "id": 210605,
+    "rank": 2,
+    "Type": 1,
+    "subType": 101,
+    "tagID": 2106,
+    "baseAttributes": "Attack=20|WeaponCritRate%=5",
+    "composeId": 5,
+    "skinId": 2106,
+    "activePower": [
+      900,
+      0
+    ]
+  },
+  {
+    "id": 210606,
+    "rank": 2,
+    "Type": 1,
+    "subType": 101,
+    "tagID": 2106,
+    "baseAttributes": "Attack=20|WeaponCritRate%=5",
+    "composeId": 6,
+    "skinId": 2106,
+    "activePower": [
+      960,
+      0
+    ]
+  },
+  {
+    "id": 210607,
+    "rank": 2,
+    "Type": 1,
+    "subType": 101,
+    "tagID": 2106,
+    "baseAttributes": "Attack=20|WeaponCritRate%=5",
+    "composeId": 7,
+    "skinId": 2106,
+    "activePower": [
+      1570,
+      0
+    ]
+  },
+  {
+    "id": 210608,
+    "rank": 2,
+    "Type": 1,
+    "subType": 101,
+    "tagID": 2106,
+    "baseAttributes": "Attack=20|WeaponCritRate%=5",
+    "composeId": 8,
+    "skinId": 2106,
+    "activePower": [
+      1630,
+      0
+    ]
+  },
+  {
+    "id": 210609,
+    "rank": 2,
+    "Type": 1,
+    "subType": 101,
+    "tagID": 2106,
+    "baseAttributes": "Attack=20|WeaponCritRate%=5",
+    "composeId": 9,
+    "skinId": 2106,
+    "activePower": [
+      1690,
+      0
+    ]
+  },
+  {
+    "id": 210610,
+    "rank": 2,
+    "Type": 1,
+    "subType": 101,
+    "tagID": 2106,
+    "baseAttributes": "Attack=20|WeaponCritRate%=5",
+    "composeId": 10,
+    "skinId": 2106,
+    "activePower": [
+      1750,
+      0
+    ]
+  },
+  {
+    "id": 210611,
+    "rank": 2,
+    "Type": 1,
+    "subType": 101,
+    "tagID": 2106,
+    "baseAttributes": "Attack=20|WeaponCritRate%=5",
+    "composeId": 11,
+    "skinId": 2106,
+    "activePower": [
+      2460,
+      0
+    ]
+  },
+  {
+    "id": 210612,
+    "rank": 2,
+    "Type": 1,
+    "subType": 101,
+    "tagID": 2106,
+    "baseAttributes": "Attack=20|WeaponCritRate%=5",
+    "composeId": 12,
+    "skinId": 2106,
+    "activePower": [
+      2520,
+      0
+    ]
+  },
+  {
+    "id": 210613,
+    "rank": 2,
+    "Type": 1,
+    "subType": 101,
+    "tagID": 2106,
+    "baseAttributes": "Attack=20|WeaponCritRate%=5",
+    "composeId": 13,
+    "skinId": 2106,
+    "activePower": [
+      2580,
+      0
+    ]
+  },
+  {
+    "id": 210614,
+    "rank": 2,
+    "Type": 1,
+    "subType": 101,
+    "tagID": 2106,
+    "baseAttributes": "Attack=20|WeaponCritRate%=5",
+    "composeId": 14,
+    "skinId": 2106,
+    "activePower": [
+      2640,
+      0
+    ]
+  },
+  {
+    "id": 210615,
+    "rank": 2,
+    "Type": 1,
+    "subType": 101,
+    "tagID": 2106,
+    "baseAttributes": "Attack=20|WeaponCritRate%=5",
+    "composeId": 15,
+    "skinId": 2106,
+    "activePower": [
+      2700,
+      0
+    ]
+  },
+  {
+    "id": 210701,
+    "rank": 2,
+    "Type": 1,
+    "subType": 101,
+    "tagID": 2107,
+    "baseAttributes": "Attack=20|WeaponCritRate%=5",
+    "composeId": 1,
+    "skinId": 2107,
+    "activePower": [
+      160,
+      0
+    ]
+  },
+  {
+    "id": 210702,
+    "rank": 2,
+    "Type": 1,
+    "subType": 101,
+    "tagID": 2107,
+    "baseAttributes": "Attack=20|WeaponCritRate%=5",
+    "composeId": 2,
+    "skinId": 2107,
+    "activePower": [
+      420,
+      0
+    ]
+  },
+  {
+    "id": 210703,
+    "rank": 2,
+    "Type": 1,
+    "subType": 101,
+    "tagID": 2107,
+    "baseAttributes": "Attack=20|WeaponCritRate%=5",
+    "composeId": 3,
+    "skinId": 2107,
+    "activePower": [
+      780,
+      0
+    ]
+  },
+  {
+    "id": 210704,
+    "rank": 2,
+    "Type": 1,
+    "subType": 101,
+    "tagID": 2107,
+    "baseAttributes": "Attack=20|WeaponCritRate%=5",
+    "composeId": 4,
+    "skinId": 2107,
+    "activePower": [
+      840,
+      0
+    ]
+  },
+  {
+    "id": 210705,
+    "rank": 2,
+    "Type": 1,
+    "subType": 101,
+    "tagID": 2107,
+    "baseAttributes": "Attack=20|WeaponCritRate%=5",
+    "composeId": 5,
+    "skinId": 2107,
+    "activePower": [
+      900,
+      0
+    ]
+  },
+  {
+    "id": 210706,
+    "rank": 2,
+    "Type": 1,
+    "subType": 101,
+    "tagID": 2107,
+    "baseAttributes": "Attack=20|WeaponCritRate%=5",
+    "composeId": 6,
+    "skinId": 2107,
+    "activePower": [
+      960,
+      0
+    ]
+  },
+  {
+    "id": 210707,
+    "rank": 2,
+    "Type": 1,
+    "subType": 101,
+    "tagID": 2107,
+    "baseAttributes": "Attack=20|WeaponCritRate%=5",
+    "composeId": 7,
+    "skinId": 2107,
+    "activePower": [
+      1570,
+      0
+    ]
+  },
+  {
+    "id": 210708,
+    "rank": 2,
+    "Type": 1,
+    "subType": 101,
+    "tagID": 2107,
+    "baseAttributes": "Attack=20|WeaponCritRate%=5",
+    "composeId": 8,
+    "skinId": 2107,
+    "activePower": [
+      1630,
+      0
+    ]
+  },
+  {
+    "id": 210709,
+    "rank": 2,
+    "Type": 1,
+    "subType": 101,
+    "tagID": 2107,
+    "baseAttributes": "Attack=20|WeaponCritRate%=5",
+    "composeId": 9,
+    "skinId": 2107,
+    "activePower": [
+      1690,
+      0
+    ]
+  },
+  {
+    "id": 210710,
+    "rank": 2,
+    "Type": 1,
+    "subType": 101,
+    "tagID": 2107,
+    "baseAttributes": "Attack=20|WeaponCritRate%=5",
+    "composeId": 10,
+    "skinId": 2107,
+    "activePower": [
+      1750,
+      0
+    ]
+  },
+  {
+    "id": 210711,
+    "rank": 2,
+    "Type": 1,
+    "subType": 101,
+    "tagID": 2107,
+    "baseAttributes": "Attack=20|WeaponCritRate%=5",
+    "composeId": 11,
+    "skinId": 2107,
+    "activePower": [
+      2460,
+      0
+    ]
+  },
+  {
+    "id": 210712,
+    "rank": 2,
+    "Type": 1,
+    "subType": 101,
+    "tagID": 2107,
+    "baseAttributes": "Attack=20|WeaponCritRate%=5",
+    "composeId": 12,
+    "skinId": 2107,
+    "activePower": [
+      2520,
+      0
+    ]
+  },
+  {
+    "id": 210713,
+    "rank": 2,
+    "Type": 1,
+    "subType": 101,
+    "tagID": 2107,
+    "baseAttributes": "Attack=20|WeaponCritRate%=5",
+    "composeId": 13,
+    "skinId": 2107,
+    "activePower": [
+      2580,
+      0
+    ]
+  },
+  {
+    "id": 210714,
+    "rank": 2,
+    "Type": 1,
+    "subType": 101,
+    "tagID": 2107,
+    "baseAttributes": "Attack=20|WeaponCritRate%=5",
+    "composeId": 14,
+    "skinId": 2107,
+    "activePower": [
+      2640,
+      0
+    ]
+  },
+  {
+    "id": 210715,
+    "rank": 2,
+    "Type": 1,
+    "subType": 101,
+    "tagID": 2107,
+    "baseAttributes": "Attack=20|WeaponCritRate%=5",
+    "composeId": 15,
+    "skinId": 2107,
+    "activePower": [
+      2700,
+      0
+    ]
+  },
+  {
+    "id": 210801,
+    "rank": 2,
+    "Type": 1,
+    "subType": 103,
+    "tagID": 2108,
+    "baseAttributes": "Attack=20|SkillDamageAdd%=5",
+    "composeId": 1,
+    "skinId": 2108,
+    "activePower": [
+      160,
+      0
+    ]
+  },
+  {
+    "id": 210802,
+    "rank": 2,
+    "Type": 1,
+    "subType": 103,
+    "tagID": 2108,
+    "baseAttributes": "Attack=20|SkillDamageAdd%=5",
+    "composeId": 2,
+    "skinId": 2108,
+    "activePower": [
+      420,
+      0
+    ]
+  },
+  {
+    "id": 210803,
+    "rank": 2,
+    "Type": 1,
+    "subType": 103,
+    "tagID": 2108,
+    "baseAttributes": "Attack=20|SkillDamageAdd%=5",
+    "composeId": 3,
+    "skinId": 2108,
+    "activePower": [
+      780,
+      0
+    ]
+  },
+  {
+    "id": 210804,
+    "rank": 2,
+    "Type": 1,
+    "subType": 103,
+    "tagID": 2108,
+    "baseAttributes": "Attack=20|SkillDamageAdd%=5",
+    "composeId": 4,
+    "skinId": 2108,
+    "activePower": [
+      1540,
+      0
+    ]
+  },
+  {
+    "id": 210805,
+    "rank": 2,
+    "Type": 1,
+    "subType": 103,
+    "tagID": 2108,
+    "baseAttributes": "Attack=20|SkillDamageAdd%=5",
+    "composeId": 5,
+    "skinId": 2108,
+    "activePower": [
+      1600,
+      0
+    ]
+  },
+  {
+    "id": 210806,
+    "rank": 2,
+    "Type": 1,
+    "subType": 103,
+    "tagID": 2108,
+    "baseAttributes": "Attack=20|SkillDamageAdd%=5",
+    "composeId": 6,
+    "skinId": 2108,
+    "activePower": [
+      1660,
+      0
+    ]
+  },
+  {
+    "id": 210807,
+    "rank": 2,
+    "Type": 1,
+    "subType": 103,
+    "tagID": 2108,
+    "baseAttributes": "Attack=20|SkillDamageAdd%=5",
+    "composeId": 7,
+    "skinId": 2108,
+    "activePower": [
+      2270,
+      0
+    ]
+  },
+  {
+    "id": 210808,
+    "rank": 2,
+    "Type": 1,
+    "subType": 103,
+    "tagID": 2108,
+    "baseAttributes": "Attack=20|SkillDamageAdd%=5",
+    "composeId": 8,
+    "skinId": 2108,
+    "activePower": [
+      2330,
+      0
+    ]
+  },
+  {
+    "id": 210809,
+    "rank": 2,
+    "Type": 1,
+    "subType": 103,
+    "tagID": 2108,
+    "baseAttributes": "Attack=20|SkillDamageAdd%=5",
+    "composeId": 9,
+    "skinId": 2108,
+    "activePower": [
+      2390,
+      0
+    ]
+  },
+  {
+    "id": 210810,
+    "rank": 2,
+    "Type": 1,
+    "subType": 103,
+    "tagID": 2108,
+    "baseAttributes": "Attack=20|SkillDamageAdd%=5",
+    "composeId": 10,
+    "skinId": 2108,
+    "activePower": [
+      2450,
+      0
+    ]
+  },
+  {
+    "id": 210811,
+    "rank": 2,
+    "Type": 1,
+    "subType": 103,
+    "tagID": 2108,
+    "baseAttributes": "Attack=20|SkillDamageAdd%=5",
+    "composeId": 11,
+    "skinId": 2108,
+    "activePower": [
+      3160,
+      0
+    ]
+  },
+  {
+    "id": 210812,
+    "rank": 2,
+    "Type": 1,
+    "subType": 103,
+    "tagID": 2108,
+    "baseAttributes": "Attack=20|SkillDamageAdd%=5",
+    "composeId": 12,
+    "skinId": 2108,
+    "activePower": [
+      3220,
+      0
+    ]
+  },
+  {
+    "id": 210813,
+    "rank": 2,
+    "Type": 1,
+    "subType": 103,
+    "tagID": 2108,
+    "baseAttributes": "Attack=20|SkillDamageAdd%=5",
+    "composeId": 13,
+    "skinId": 2108,
+    "activePower": [
+      3280,
+      0
+    ]
+  },
+  {
+    "id": 210814,
+    "rank": 2,
+    "Type": 1,
+    "subType": 103,
+    "tagID": 2108,
+    "baseAttributes": "Attack=20|SkillDamageAdd%=5",
+    "composeId": 14,
+    "skinId": 2108,
+    "activePower": [
+      3340,
+      0
+    ]
+  },
+  {
+    "id": 210815,
+    "rank": 2,
+    "Type": 1,
+    "subType": 103,
+    "tagID": 2108,
+    "baseAttributes": "Attack=20|SkillDamageAdd%=5",
+    "composeId": 15,
+    "skinId": 2108,
+    "activePower": [
+      3400,
+      0
+    ]
+  },
+  {
+    "id": 210901,
+    "rank": 2,
+    "Type": 1,
+    "subType": 103,
+    "tagID": 2109,
+    "baseAttributes": "Attack=20|SkillDamageAdd%=5",
+    "composeId": 1,
+    "skinId": 2109,
+    "activePower": [
+      160,
+      0
+    ]
+  },
+  {
+    "id": 210902,
+    "rank": 2,
+    "Type": 1,
+    "subType": 103,
+    "tagID": 2109,
+    "baseAttributes": "Attack=20|SkillDamageAdd%=5",
+    "composeId": 2,
+    "skinId": 2109,
+    "activePower": [
+      420,
+      0
+    ]
+  },
+  {
+    "id": 210903,
+    "rank": 2,
+    "Type": 1,
+    "subType": 103,
+    "tagID": 2109,
+    "baseAttributes": "Attack=20|SkillDamageAdd%=5",
+    "composeId": 3,
+    "skinId": 2109,
+    "activePower": [
+      780,
+      0
+    ]
+  },
+  {
+    "id": 210904,
+    "rank": 2,
+    "Type": 1,
+    "subType": 103,
+    "tagID": 2109,
+    "baseAttributes": "Attack=20|SkillDamageAdd%=5",
+    "composeId": 4,
+    "skinId": 2109,
+    "activePower": [
+      1540,
+      0
+    ]
+  },
+  {
+    "id": 210905,
+    "rank": 2,
+    "Type": 1,
+    "subType": 103,
+    "tagID": 2109,
+    "baseAttributes": "Attack=20|SkillDamageAdd%=5",
+    "composeId": 5,
+    "skinId": 2109,
+    "activePower": [
+      1600,
+      0
+    ]
+  },
+  {
+    "id": 210906,
+    "rank": 2,
+    "Type": 1,
+    "subType": 103,
+    "tagID": 2109,
+    "baseAttributes": "Attack=20|SkillDamageAdd%=5",
+    "composeId": 6,
+    "skinId": 2109,
+    "activePower": [
+      1660,
+      0
+    ]
+  },
+  {
+    "id": 210907,
+    "rank": 2,
+    "Type": 1,
+    "subType": 103,
+    "tagID": 2109,
+    "baseAttributes": "Attack=20|SkillDamageAdd%=5",
+    "composeId": 7,
+    "skinId": 2109,
+    "activePower": [
+      2270,
+      0
+    ]
+  },
+  {
+    "id": 210908,
+    "rank": 2,
+    "Type": 1,
+    "subType": 103,
+    "tagID": 2109,
+    "baseAttributes": "Attack=20|SkillDamageAdd%=5",
+    "composeId": 8,
+    "skinId": 2109,
+    "activePower": [
+      2330,
+      0
+    ]
+  },
+  {
+    "id": 210909,
+    "rank": 2,
+    "Type": 1,
+    "subType": 103,
+    "tagID": 2109,
+    "baseAttributes": "Attack=20|SkillDamageAdd%=5",
+    "composeId": 9,
+    "skinId": 2109,
+    "activePower": [
+      2390,
+      0
+    ]
+  },
+  {
+    "id": 210910,
+    "rank": 2,
+    "Type": 1,
+    "subType": 103,
+    "tagID": 2109,
+    "baseAttributes": "Attack=20|SkillDamageAdd%=5",
+    "composeId": 10,
+    "skinId": 2109,
+    "activePower": [
+      2450,
+      0
+    ]
+  },
+  {
+    "id": 210911,
+    "rank": 2,
+    "Type": 1,
+    "subType": 103,
+    "tagID": 2109,
+    "baseAttributes": "Attack=20|SkillDamageAdd%=5",
+    "composeId": 11,
+    "skinId": 2109,
+    "activePower": [
+      3160,
+      0
+    ]
+  },
+  {
+    "id": 210912,
+    "rank": 2,
+    "Type": 1,
+    "subType": 103,
+    "tagID": 2109,
+    "baseAttributes": "Attack=20|SkillDamageAdd%=5",
+    "composeId": 12,
+    "skinId": 2109,
+    "activePower": [
+      3220,
+      0
+    ]
+  },
+  {
+    "id": 210913,
+    "rank": 2,
+    "Type": 1,
+    "subType": 103,
+    "tagID": 2109,
+    "baseAttributes": "Attack=20|SkillDamageAdd%=5",
+    "composeId": 13,
+    "skinId": 2109,
+    "activePower": [
+      3280,
+      0
+    ]
+  },
+  {
+    "id": 210914,
+    "rank": 2,
+    "Type": 1,
+    "subType": 103,
+    "tagID": 2109,
+    "baseAttributes": "Attack=20|SkillDamageAdd%=5",
+    "composeId": 14,
+    "skinId": 2109,
+    "activePower": [
+      3340,
+      0
+    ]
+  },
+  {
+    "id": 210915,
+    "rank": 2,
+    "Type": 1,
+    "subType": 103,
+    "tagID": 2109,
+    "baseAttributes": "Attack=20|SkillDamageAdd%=5",
+    "composeId": 15,
+    "skinId": 2109,
+    "activePower": [
+      3400,
+      0
+    ]
+  },
+  {
+    "id": 211001,
+    "rank": 2,
+    "Type": 1,
+    "subType": 103,
+    "tagID": 2110,
+    "baseAttributes": "Attack=20|SkillDamageAdd%=5",
+    "composeId": 1,
+    "skinId": 2110,
+    "activePower": [
+      160,
+      0
+    ]
+  },
+  {
+    "id": 211002,
+    "rank": 2,
+    "Type": 1,
+    "subType": 103,
+    "tagID": 2110,
+    "baseAttributes": "Attack=20|SkillDamageAdd%=5",
+    "composeId": 2,
+    "skinId": 2110,
+    "activePower": [
+      420,
+      0
+    ]
+  },
+  {
+    "id": 211003,
+    "rank": 2,
+    "Type": 1,
+    "subType": 103,
+    "tagID": 2110,
+    "baseAttributes": "Attack=20|SkillDamageAdd%=5",
+    "composeId": 3,
+    "skinId": 2110,
+    "activePower": [
+      780,
+      0
+    ]
+  },
+  {
+    "id": 211004,
+    "rank": 2,
+    "Type": 1,
+    "subType": 103,
+    "tagID": 2110,
+    "baseAttributes": "Attack=20|SkillDamageAdd%=5",
+    "composeId": 4,
+    "skinId": 2110,
+    "activePower": [
+      1540,
+      0
+    ]
+  },
+  {
+    "id": 211005,
+    "rank": 2,
+    "Type": 1,
+    "subType": 103,
+    "tagID": 2110,
+    "baseAttributes": "Attack=20|SkillDamageAdd%=5",
+    "composeId": 5,
+    "skinId": 2110,
+    "activePower": [
+      1600,
+      0
+    ]
+  },
+  {
+    "id": 211006,
+    "rank": 2,
+    "Type": 1,
+    "subType": 103,
+    "tagID": 2110,
+    "baseAttributes": "Attack=20|SkillDamageAdd%=5",
+    "composeId": 6,
+    "skinId": 2110,
+    "activePower": [
+      1660,
+      0
+    ]
+  },
+  {
+    "id": 211007,
+    "rank": 2,
+    "Type": 1,
+    "subType": 103,
+    "tagID": 2110,
+    "baseAttributes": "Attack=20|SkillDamageAdd%=5",
+    "composeId": 7,
+    "skinId": 2110,
+    "activePower": [
+      2270,
+      0
+    ]
+  },
+  {
+    "id": 211008,
+    "rank": 2,
+    "Type": 1,
+    "subType": 103,
+    "tagID": 2110,
+    "baseAttributes": "Attack=20|SkillDamageAdd%=5",
+    "composeId": 8,
+    "skinId": 2110,
+    "activePower": [
+      2330,
+      0
+    ]
+  },
+  {
+    "id": 211009,
+    "rank": 2,
+    "Type": 1,
+    "subType": 103,
+    "tagID": 2110,
+    "baseAttributes": "Attack=20|SkillDamageAdd%=5",
+    "composeId": 9,
+    "skinId": 2110,
+    "activePower": [
+      2390,
+      0
+    ]
+  },
+  {
+    "id": 211010,
+    "rank": 2,
+    "Type": 1,
+    "subType": 103,
+    "tagID": 2110,
+    "baseAttributes": "Attack=20|SkillDamageAdd%=5",
+    "composeId": 10,
+    "skinId": 2110,
+    "activePower": [
+      2450,
+      0
+    ]
+  },
+  {
+    "id": 211011,
+    "rank": 2,
+    "Type": 1,
+    "subType": 103,
+    "tagID": 2110,
+    "baseAttributes": "Attack=20|SkillDamageAdd%=5",
+    "composeId": 11,
+    "skinId": 2110,
+    "activePower": [
+      3160,
+      0
+    ]
+  },
+  {
+    "id": 211012,
+    "rank": 2,
+    "Type": 1,
+    "subType": 103,
+    "tagID": 2110,
+    "baseAttributes": "Attack=20|SkillDamageAdd%=5",
+    "composeId": 12,
+    "skinId": 2110,
+    "activePower": [
+      3220,
+      0
+    ]
+  },
+  {
+    "id": 211013,
+    "rank": 2,
+    "Type": 1,
+    "subType": 103,
+    "tagID": 2110,
+    "baseAttributes": "Attack=20|SkillDamageAdd%=5",
+    "composeId": 13,
+    "skinId": 2110,
+    "activePower": [
+      3280,
+      0
+    ]
+  },
+  {
+    "id": 211014,
+    "rank": 2,
+    "Type": 1,
+    "subType": 103,
+    "tagID": 2110,
+    "baseAttributes": "Attack=20|SkillDamageAdd%=5",
+    "composeId": 14,
+    "skinId": 2110,
+    "activePower": [
+      3340,
+      0
+    ]
+  },
+  {
+    "id": 211015,
+    "rank": 2,
+    "Type": 1,
+    "subType": 103,
+    "tagID": 2110,
+    "baseAttributes": "Attack=20|SkillDamageAdd%=5",
+    "composeId": 15,
+    "skinId": 2110,
+    "activePower": [
+      3400,
+      0
+    ]
+  },
+  {
+    "id": 120001,
+    "rank": 1,
+    "Type": 2,
+    "subType": 0,
+    "tagID": 1200,
+    "baseAttributes": "HPMax=80|GlobalDamageReduction%=5",
+    "composeId": 1,
+    "skinId": 0,
+    "activePower": [
+      0,
+      0
+    ]
+  },
+  {
+    "id": 120002,
+    "rank": 1,
+    "Type": 2,
+    "subType": 0,
+    "tagID": 1200,
+    "baseAttributes": "HPMax=80|GlobalDamageReduction%=5",
+    "composeId": 2,
+    "skinId": 0,
+    "activePower": [
+      0,
+      0
+    ]
+  },
+  {
+    "id": 120003,
+    "rank": 1,
+    "Type": 2,
+    "subType": 0,
+    "tagID": 1200,
+    "baseAttributes": "HPMax=80|GlobalDamageReduction%=5",
+    "composeId": 3,
+    "skinId": 0,
+    "activePower": [
+      0,
+      0
+    ]
+  },
+  {
+    "id": 120004,
+    "rank": 1,
+    "Type": 2,
+    "subType": 0,
+    "tagID": 1200,
+    "baseAttributes": "HPMax=80|GlobalDamageReduction%=5",
+    "composeId": 4,
+    "skinId": 0,
+    "activePower": [
+      300,
+      0
+    ]
+  },
+  {
+    "id": 120005,
+    "rank": 1,
+    "Type": 2,
+    "subType": 0,
+    "tagID": 1200,
+    "baseAttributes": "HPMax=80|GlobalDamageReduction%=5",
+    "composeId": 5,
+    "skinId": 0,
+    "activePower": [
+      300,
+      0
+    ]
+  },
+  {
+    "id": 120006,
+    "rank": 1,
+    "Type": 2,
+    "subType": 0,
+    "tagID": 1200,
+    "baseAttributes": "HPMax=80|GlobalDamageReduction%=5",
+    "composeId": 6,
+    "skinId": 0,
+    "activePower": [
+      300,
+      0
+    ]
+  },
+  {
+    "id": 120007,
+    "rank": 1,
+    "Type": 2,
+    "subType": 0,
+    "tagID": 1200,
+    "baseAttributes": "HPMax=80|GlobalDamageReduction%=5",
+    "composeId": 7,
+    "skinId": 0,
+    "activePower": [
+      700,
+      0
+    ]
+  },
+  {
+    "id": 120008,
+    "rank": 1,
+    "Type": 2,
+    "subType": 0,
+    "tagID": 1200,
+    "baseAttributes": "HPMax=80|GlobalDamageReduction%=5",
+    "composeId": 8,
+    "skinId": 0,
+    "activePower": [
+      700,
+      0
+    ]
+  },
+  {
+    "id": 120009,
+    "rank": 1,
+    "Type": 2,
+    "subType": 0,
+    "tagID": 1200,
+    "baseAttributes": "HPMax=80|GlobalDamageReduction%=5",
+    "composeId": 9,
+    "skinId": 0,
+    "activePower": [
+      700,
+      0
+    ]
+  },
+  {
+    "id": 120010,
+    "rank": 1,
+    "Type": 2,
+    "subType": 0,
+    "tagID": 1200,
+    "baseAttributes": "HPMax=80|GlobalDamageReduction%=5",
+    "composeId": 10,
+    "skinId": 0,
+    "activePower": [
+      700,
+      0
+    ]
+  },
+  {
+    "id": 120011,
+    "rank": 1,
+    "Type": 2,
+    "subType": 0,
+    "tagID": 1200,
+    "baseAttributes": "HPMax=80|GlobalDamageReduction%=5",
+    "composeId": 11,
+    "skinId": 0,
+    "activePower": [
+      1100,
+      0
+    ]
+  },
+  {
+    "id": 120012,
+    "rank": 1,
+    "Type": 2,
+    "subType": 0,
+    "tagID": 1200,
+    "baseAttributes": "HPMax=80|GlobalDamageReduction%=5",
+    "composeId": 12,
+    "skinId": 0,
+    "activePower": [
+      1100,
+      0
+    ]
+  },
+  {
+    "id": 120013,
+    "rank": 1,
+    "Type": 2,
+    "subType": 0,
+    "tagID": 1200,
+    "baseAttributes": "HPMax=80|GlobalDamageReduction%=5",
+    "composeId": 13,
+    "skinId": 0,
+    "activePower": [
+      1100,
+      0
+    ]
+  },
+  {
+    "id": 120014,
+    "rank": 1,
+    "Type": 2,
+    "subType": 0,
+    "tagID": 1200,
+    "baseAttributes": "HPMax=80|GlobalDamageReduction%=5",
+    "composeId": 14,
+    "skinId": 0,
+    "activePower": [
+      1100,
+      0
+    ]
+  },
+  {
+    "id": 120015,
+    "rank": 1,
+    "Type": 2,
+    "subType": 0,
+    "tagID": 1200,
+    "baseAttributes": "HPMax=80|GlobalDamageReduction%=5",
+    "composeId": 15,
+    "skinId": 0,
+    "activePower": [
+      1100,
+      0
+    ]
+  },
+  {
+    "id": 120101,
+    "rank": 1,
+    "Type": 2,
+    "subType": 0,
+    "tagID": 1201,
+    "baseAttributes": "HPMax=80",
+    "composeId": 1,
+    "skinId": 0,
+    "activePower": [
+      0,
+      0
+    ]
+  },
+  {
+    "id": 120102,
+    "rank": 1,
+    "Type": 2,
+    "subType": 0,
+    "tagID": 1201,
+    "baseAttributes": "HPMax=80",
+    "composeId": 2,
+    "skinId": 0,
+    "activePower": [
+      0,
+      0
+    ]
+  },
+  {
+    "id": 120103,
+    "rank": 1,
+    "Type": 2,
+    "subType": 0,
+    "tagID": 1201,
+    "baseAttributes": "HPMax=80",
+    "composeId": 3,
+    "skinId": 0,
+    "activePower": [
+      0,
+      0
+    ]
+  },
+  {
+    "id": 120104,
+    "rank": 1,
+    "Type": 2,
+    "subType": 0,
+    "tagID": 1201,
+    "baseAttributes": "HPMax=80",
+    "composeId": 4,
+    "skinId": 0,
+    "activePower": [
+      300,
+      0
+    ]
+  },
+  {
+    "id": 120105,
+    "rank": 1,
+    "Type": 2,
+    "subType": 0,
+    "tagID": 1201,
+    "baseAttributes": "HPMax=80",
+    "composeId": 5,
+    "skinId": 0,
+    "activePower": [
+      300,
+      0
+    ]
+  },
+  {
+    "id": 120106,
+    "rank": 1,
+    "Type": 2,
+    "subType": 0,
+    "tagID": 1201,
+    "baseAttributes": "HPMax=80",
+    "composeId": 6,
+    "skinId": 0,
+    "activePower": [
+      300,
+      0
+    ]
+  },
+  {
+    "id": 120107,
+    "rank": 1,
+    "Type": 2,
+    "subType": 0,
+    "tagID": 1201,
+    "baseAttributes": "HPMax=80",
+    "composeId": 7,
+    "skinId": 0,
+    "activePower": [
+      700,
+      0
+    ]
+  },
+  {
+    "id": 120108,
+    "rank": 1,
+    "Type": 2,
+    "subType": 0,
+    "tagID": 1201,
+    "baseAttributes": "HPMax=80",
+    "composeId": 8,
+    "skinId": 0,
+    "activePower": [
+      700,
+      0
+    ]
+  },
+  {
+    "id": 120109,
+    "rank": 1,
+    "Type": 2,
+    "subType": 0,
+    "tagID": 1201,
+    "baseAttributes": "HPMax=80",
+    "composeId": 9,
+    "skinId": 0,
+    "activePower": [
+      700,
+      0
+    ]
+  },
+  {
+    "id": 120110,
+    "rank": 1,
+    "Type": 2,
+    "subType": 0,
+    "tagID": 1201,
+    "baseAttributes": "HPMax=80",
+    "composeId": 10,
+    "skinId": 0,
+    "activePower": [
+      700,
+      0
+    ]
+  },
+  {
+    "id": 120111,
+    "rank": 1,
+    "Type": 2,
+    "subType": 0,
+    "tagID": 1201,
+    "baseAttributes": "HPMax=80",
+    "composeId": 11,
+    "skinId": 0,
+    "activePower": [
+      1100,
+      0
+    ]
+  },
+  {
+    "id": 120112,
+    "rank": 1,
+    "Type": 2,
+    "subType": 0,
+    "tagID": 1201,
+    "baseAttributes": "HPMax=80",
+    "composeId": 12,
+    "skinId": 0,
+    "activePower": [
+      1100,
+      0
+    ]
+  },
+  {
+    "id": 120113,
+    "rank": 1,
+    "Type": 2,
+    "subType": 0,
+    "tagID": 1201,
+    "baseAttributes": "HPMax=80",
+    "composeId": 13,
+    "skinId": 0,
+    "activePower": [
+      1100,
+      0
+    ]
+  },
+  {
+    "id": 120114,
+    "rank": 1,
+    "Type": 2,
+    "subType": 0,
+    "tagID": 1201,
+    "baseAttributes": "HPMax=80",
+    "composeId": 14,
+    "skinId": 0,
+    "activePower": [
+      1100,
+      0
+    ]
+  },
+  {
+    "id": 120115,
+    "rank": 1,
+    "Type": 2,
+    "subType": 0,
+    "tagID": 1201,
+    "baseAttributes": "HPMax=80",
+    "composeId": 15,
+    "skinId": 0,
+    "activePower": [
+      1100,
+      0
+    ]
+  },
+  {
+    "id": 120201,
+    "rank": 1,
+    "Type": 2,
+    "subType": 0,
+    "tagID": 1202,
+    "baseAttributes": "HPMax=80",
+    "composeId": 1,
+    "skinId": 0,
+    "activePower": [
+      0,
+      0
+    ]
+  },
+  {
+    "id": 120202,
+    "rank": 1,
+    "Type": 2,
+    "subType": 0,
+    "tagID": 1202,
+    "baseAttributes": "HPMax=80",
+    "composeId": 2,
+    "skinId": 0,
+    "activePower": [
+      0,
+      0
+    ]
+  },
+  {
+    "id": 120203,
+    "rank": 1,
+    "Type": 2,
+    "subType": 0,
+    "tagID": 1202,
+    "baseAttributes": "HPMax=80",
+    "composeId": 3,
+    "skinId": 0,
+    "activePower": [
+      0,
+      0
+    ]
+  },
+  {
+    "id": 120204,
+    "rank": 1,
+    "Type": 2,
+    "subType": 0,
+    "tagID": 1202,
+    "baseAttributes": "HPMax=80",
+    "composeId": 4,
+    "skinId": 0,
+    "activePower": [
+      300,
+      0
+    ]
+  },
+  {
+    "id": 120205,
+    "rank": 1,
+    "Type": 2,
+    "subType": 0,
+    "tagID": 1202,
+    "baseAttributes": "HPMax=80",
+    "composeId": 5,
+    "skinId": 0,
+    "activePower": [
+      300,
+      0
+    ]
+  },
+  {
+    "id": 120206,
+    "rank": 1,
+    "Type": 2,
+    "subType": 0,
+    "tagID": 1202,
+    "baseAttributes": "HPMax=80",
+    "composeId": 6,
+    "skinId": 0,
+    "activePower": [
+      300,
+      0
+    ]
+  },
+  {
+    "id": 120207,
+    "rank": 1,
+    "Type": 2,
+    "subType": 0,
+    "tagID": 1202,
+    "baseAttributes": "HPMax=80",
+    "composeId": 7,
+    "skinId": 0,
+    "activePower": [
+      700,
+      0
+    ]
+  },
+  {
+    "id": 120208,
+    "rank": 1,
+    "Type": 2,
+    "subType": 0,
+    "tagID": 1202,
+    "baseAttributes": "HPMax=80",
+    "composeId": 8,
+    "skinId": 0,
+    "activePower": [
+      700,
+      0
+    ]
+  },
+  {
+    "id": 120209,
+    "rank": 1,
+    "Type": 2,
+    "subType": 0,
+    "tagID": 1202,
+    "baseAttributes": "HPMax=80",
+    "composeId": 9,
+    "skinId": 0,
+    "activePower": [
+      700,
+      0
+    ]
+  },
+  {
+    "id": 120210,
+    "rank": 1,
+    "Type": 2,
+    "subType": 0,
+    "tagID": 1202,
+    "baseAttributes": "HPMax=80",
+    "composeId": 10,
+    "skinId": 0,
+    "activePower": [
+      700,
+      0
+    ]
+  },
+  {
+    "id": 120211,
+    "rank": 1,
+    "Type": 2,
+    "subType": 0,
+    "tagID": 1202,
+    "baseAttributes": "HPMax=80",
+    "composeId": 11,
+    "skinId": 0,
+    "activePower": [
+      1100,
+      0
+    ]
+  },
+  {
+    "id": 120212,
+    "rank": 1,
+    "Type": 2,
+    "subType": 0,
+    "tagID": 1202,
+    "baseAttributes": "HPMax=80",
+    "composeId": 12,
+    "skinId": 0,
+    "activePower": [
+      1100,
+      0
+    ]
+  },
+  {
+    "id": 120213,
+    "rank": 1,
+    "Type": 2,
+    "subType": 0,
+    "tagID": 1202,
+    "baseAttributes": "HPMax=80",
+    "composeId": 13,
+    "skinId": 0,
+    "activePower": [
+      1100,
+      0
+    ]
+  },
+  {
+    "id": 120214,
+    "rank": 1,
+    "Type": 2,
+    "subType": 0,
+    "tagID": 1202,
+    "baseAttributes": "HPMax=80",
+    "composeId": 14,
+    "skinId": 0,
+    "activePower": [
+      1100,
+      0
+    ]
+  },
+  {
+    "id": 120215,
+    "rank": 1,
+    "Type": 2,
+    "subType": 0,
+    "tagID": 1202,
+    "baseAttributes": "HPMax=80",
+    "composeId": 15,
+    "skinId": 0,
+    "activePower": [
+      1100,
+      0
+    ]
+  },
+  {
+    "id": 120301,
+    "rank": 1,
+    "Type": 2,
+    "subType": 0,
+    "tagID": 1203,
+    "baseAttributes": "HPMax=80",
+    "composeId": 1,
+    "skinId": 0,
+    "activePower": [
+      0,
+      0
+    ]
+  },
+  {
+    "id": 120302,
+    "rank": 1,
+    "Type": 2,
+    "subType": 0,
+    "tagID": 1203,
+    "baseAttributes": "HPMax=80",
+    "composeId": 2,
+    "skinId": 0,
+    "activePower": [
+      0,
+      0
+    ]
+  },
+  {
+    "id": 120303,
+    "rank": 1,
+    "Type": 2,
+    "subType": 0,
+    "tagID": 1203,
+    "baseAttributes": "HPMax=80",
+    "composeId": 3,
+    "skinId": 0,
+    "activePower": [
+      0,
+      0
+    ]
+  },
+  {
+    "id": 120304,
+    "rank": 1,
+    "Type": 2,
+    "subType": 0,
+    "tagID": 1203,
+    "baseAttributes": "HPMax=80",
+    "composeId": 4,
+    "skinId": 0,
+    "activePower": [
+      300,
+      0
+    ]
+  },
+  {
+    "id": 120305,
+    "rank": 1,
+    "Type": 2,
+    "subType": 0,
+    "tagID": 1203,
+    "baseAttributes": "HPMax=80",
+    "composeId": 5,
+    "skinId": 0,
+    "activePower": [
+      300,
+      0
+    ]
+  },
+  {
+    "id": 120306,
+    "rank": 1,
+    "Type": 2,
+    "subType": 0,
+    "tagID": 1203,
+    "baseAttributes": "HPMax=80",
+    "composeId": 6,
+    "skinId": 0,
+    "activePower": [
+      300,
+      0
+    ]
+  },
+  {
+    "id": 120307,
+    "rank": 1,
+    "Type": 2,
+    "subType": 0,
+    "tagID": 1203,
+    "baseAttributes": "HPMax=80",
+    "composeId": 7,
+    "skinId": 0,
+    "activePower": [
+      700,
+      0
+    ]
+  },
+  {
+    "id": 120308,
+    "rank": 1,
+    "Type": 2,
+    "subType": 0,
+    "tagID": 1203,
+    "baseAttributes": "HPMax=80",
+    "composeId": 8,
+    "skinId": 0,
+    "activePower": [
+      700,
+      0
+    ]
+  },
+  {
+    "id": 120309,
+    "rank": 1,
+    "Type": 2,
+    "subType": 0,
+    "tagID": 1203,
+    "baseAttributes": "HPMax=80",
+    "composeId": 9,
+    "skinId": 0,
+    "activePower": [
+      700,
+      0
+    ]
+  },
+  {
+    "id": 120310,
+    "rank": 1,
+    "Type": 2,
+    "subType": 0,
+    "tagID": 1203,
+    "baseAttributes": "HPMax=80",
+    "composeId": 10,
+    "skinId": 0,
+    "activePower": [
+      700,
+      0
+    ]
+  },
+  {
+    "id": 120311,
+    "rank": 1,
+    "Type": 2,
+    "subType": 0,
+    "tagID": 1203,
+    "baseAttributes": "HPMax=80",
+    "composeId": 11,
+    "skinId": 0,
+    "activePower": [
+      1100,
+      0
+    ]
+  },
+  {
+    "id": 120312,
+    "rank": 1,
+    "Type": 2,
+    "subType": 0,
+    "tagID": 1203,
+    "baseAttributes": "HPMax=80",
+    "composeId": 12,
+    "skinId": 0,
+    "activePower": [
+      1100,
+      0
+    ]
+  },
+  {
+    "id": 120313,
+    "rank": 1,
+    "Type": 2,
+    "subType": 0,
+    "tagID": 1203,
+    "baseAttributes": "HPMax=80",
+    "composeId": 13,
+    "skinId": 0,
+    "activePower": [
+      1100,
+      0
+    ]
+  },
+  {
+    "id": 120314,
+    "rank": 1,
+    "Type": 2,
+    "subType": 0,
+    "tagID": 1203,
+    "baseAttributes": "HPMax=80",
+    "composeId": 14,
+    "skinId": 0,
+    "activePower": [
+      1100,
+      0
+    ]
+  },
+  {
+    "id": 120315,
+    "rank": 1,
+    "Type": 2,
+    "subType": 0,
+    "tagID": 1203,
+    "baseAttributes": "HPMax=80",
+    "composeId": 15,
+    "skinId": 0,
+    "activePower": [
+      1100,
+      0
+    ]
+  },
+  {
+    "id": 220101,
+    "rank": 2,
+    "Type": 2,
+    "subType": 0,
+    "tagID": 2201,
+    "baseAttributes": "HPMax=80",
+    "composeId": 1,
+    "skinId": 0,
+    "activePower": [
+      0,
+      0
+    ]
+  },
+  {
+    "id": 220102,
+    "rank": 2,
+    "Type": 2,
+    "subType": 0,
+    "tagID": 2201,
+    "baseAttributes": "HPMax=80",
+    "composeId": 2,
+    "skinId": 0,
+    "activePower": [
+      0,
+      0
+    ]
+  },
+  {
+    "id": 220103,
+    "rank": 2,
+    "Type": 2,
+    "subType": 0,
+    "tagID": 2201,
+    "baseAttributes": "HPMax=80",
+    "composeId": 3,
+    "skinId": 0,
+    "activePower": [
+      300,
+      0
+    ]
+  },
+  {
+    "id": 220104,
+    "rank": 2,
+    "Type": 2,
+    "subType": 0,
+    "tagID": 2201,
+    "baseAttributes": "HPMax=80",
+    "composeId": 4,
+    "skinId": 0,
+    "activePower": [
+      300,
+      0
+    ]
+  },
+  {
+    "id": 220105,
+    "rank": 2,
+    "Type": 2,
+    "subType": 0,
+    "tagID": 2201,
+    "baseAttributes": "HPMax=80",
+    "composeId": 5,
+    "skinId": 0,
+    "activePower": [
+      300,
+      0
+    ]
+  },
+  {
+    "id": 220106,
+    "rank": 2,
+    "Type": 2,
+    "subType": 0,
+    "tagID": 2201,
+    "baseAttributes": "HPMax=80",
+    "composeId": 6,
+    "skinId": 0,
+    "activePower": [
+      300,
+      0
+    ]
+  },
+  {
+    "id": 220107,
+    "rank": 2,
+    "Type": 2,
+    "subType": 0,
+    "tagID": 2201,
+    "baseAttributes": "HPMax=80",
+    "composeId": 7,
+    "skinId": 0,
+    "activePower": [
+      800,
+      0
+    ]
+  },
+  {
+    "id": 220108,
+    "rank": 2,
+    "Type": 2,
+    "subType": 0,
+    "tagID": 2201,
+    "baseAttributes": "HPMax=80",
+    "composeId": 8,
+    "skinId": 0,
+    "activePower": [
+      800,
+      0
+    ]
+  },
+  {
+    "id": 220109,
+    "rank": 2,
+    "Type": 2,
+    "subType": 0,
+    "tagID": 2201,
+    "baseAttributes": "HPMax=80",
+    "composeId": 9,
+    "skinId": 0,
+    "activePower": [
+      800,
+      0
+    ]
+  },
+  {
+    "id": 220110,
+    "rank": 2,
+    "Type": 2,
+    "subType": 0,
+    "tagID": 2201,
+    "baseAttributes": "HPMax=80",
+    "composeId": 10,
+    "skinId": 0,
+    "activePower": [
+      800,
+      0
+    ]
+  },
+  {
+    "id": 220111,
+    "rank": 2,
+    "Type": 2,
+    "subType": 0,
+    "tagID": 2201,
+    "baseAttributes": "HPMax=80",
+    "composeId": 11,
+    "skinId": 0,
+    "activePower": [
+      1400,
+      0
+    ]
+  },
+  {
+    "id": 220112,
+    "rank": 2,
+    "Type": 2,
+    "subType": 0,
+    "tagID": 2201,
+    "baseAttributes": "HPMax=80",
+    "composeId": 12,
+    "skinId": 0,
+    "activePower": [
+      1400,
+      0
+    ]
+  },
+  {
+    "id": 220113,
+    "rank": 2,
+    "Type": 2,
+    "subType": 0,
+    "tagID": 2201,
+    "baseAttributes": "HPMax=80",
+    "composeId": 13,
+    "skinId": 0,
+    "activePower": [
+      1400,
+      0
+    ]
+  },
+  {
+    "id": 220114,
+    "rank": 2,
+    "Type": 2,
+    "subType": 0,
+    "tagID": 2201,
+    "baseAttributes": "HPMax=80",
+    "composeId": 14,
+    "skinId": 0,
+    "activePower": [
+      1400,
+      0
+    ]
+  },
+  {
+    "id": 220115,
+    "rank": 2,
+    "Type": 2,
+    "subType": 0,
+    "tagID": 2201,
+    "baseAttributes": "HPMax=80",
+    "composeId": 15,
+    "skinId": 0,
+    "activePower": [
+      1400,
+      0
+    ]
+  },
+  {
+    "id": 220201,
+    "rank": 2,
+    "Type": 2,
+    "subType": 0,
+    "tagID": 2202,
+    "baseAttributes": "HPMax=80",
+    "composeId": 1,
+    "skinId": 0,
+    "activePower": [
+      0,
+      0
+    ]
+  },
+  {
+    "id": 220202,
+    "rank": 2,
+    "Type": 2,
+    "subType": 0,
+    "tagID": 2202,
+    "baseAttributes": "HPMax=80",
+    "composeId": 2,
+    "skinId": 0,
+    "activePower": [
+      0,
+      0
+    ]
+  },
+  {
+    "id": 220203,
+    "rank": 2,
+    "Type": 2,
+    "subType": 0,
+    "tagID": 2202,
+    "baseAttributes": "HPMax=80",
+    "composeId": 3,
+    "skinId": 0,
+    "activePower": [
+      300,
+      0
+    ]
+  },
+  {
+    "id": 220204,
+    "rank": 2,
+    "Type": 2,
+    "subType": 0,
+    "tagID": 2202,
+    "baseAttributes": "HPMax=80",
+    "composeId": 4,
+    "skinId": 0,
+    "activePower": [
+      300,
+      0
+    ]
+  },
+  {
+    "id": 220205,
+    "rank": 2,
+    "Type": 2,
+    "subType": 0,
+    "tagID": 2202,
+    "baseAttributes": "HPMax=80",
+    "composeId": 5,
+    "skinId": 0,
+    "activePower": [
+      300,
+      0
+    ]
+  },
+  {
+    "id": 220206,
+    "rank": 2,
+    "Type": 2,
+    "subType": 0,
+    "tagID": 2202,
+    "baseAttributes": "HPMax=80",
+    "composeId": 6,
+    "skinId": 0,
+    "activePower": [
+      300,
+      0
+    ]
+  },
+  {
+    "id": 220207,
+    "rank": 2,
+    "Type": 2,
+    "subType": 0,
+    "tagID": 2202,
+    "baseAttributes": "HPMax=80",
+    "composeId": 7,
+    "skinId": 0,
+    "activePower": [
+      800,
+      0
+    ]
+  },
+  {
+    "id": 220208,
+    "rank": 2,
+    "Type": 2,
+    "subType": 0,
+    "tagID": 2202,
+    "baseAttributes": "HPMax=80",
+    "composeId": 8,
+    "skinId": 0,
+    "activePower": [
+      800,
+      0
+    ]
+  },
+  {
+    "id": 220209,
+    "rank": 2,
+    "Type": 2,
+    "subType": 0,
+    "tagID": 2202,
+    "baseAttributes": "HPMax=80",
+    "composeId": 9,
+    "skinId": 0,
+    "activePower": [
+      800,
+      0
+    ]
+  },
+  {
+    "id": 220210,
+    "rank": 2,
+    "Type": 2,
+    "subType": 0,
+    "tagID": 2202,
+    "baseAttributes": "HPMax=80",
+    "composeId": 10,
+    "skinId": 0,
+    "activePower": [
+      800,
+      0
+    ]
+  },
+  {
+    "id": 220211,
+    "rank": 2,
+    "Type": 2,
+    "subType": 0,
+    "tagID": 2202,
+    "baseAttributes": "HPMax=80",
+    "composeId": 11,
+    "skinId": 0,
+    "activePower": [
+      1400,
+      0
+    ]
+  },
+  {
+    "id": 220212,
+    "rank": 2,
+    "Type": 2,
+    "subType": 0,
+    "tagID": 2202,
+    "baseAttributes": "HPMax=80",
+    "composeId": 12,
+    "skinId": 0,
+    "activePower": [
+      1400,
+      0
+    ]
+  },
+  {
+    "id": 220213,
+    "rank": 2,
+    "Type": 2,
+    "subType": 0,
+    "tagID": 2202,
+    "baseAttributes": "HPMax=80",
+    "composeId": 13,
+    "skinId": 0,
+    "activePower": [
+      1400,
+      0
+    ]
+  },
+  {
+    "id": 220214,
+    "rank": 2,
+    "Type": 2,
+    "subType": 0,
+    "tagID": 2202,
+    "baseAttributes": "HPMax=80",
+    "composeId": 14,
+    "skinId": 0,
+    "activePower": [
+      1400,
+      0
+    ]
+  },
+  {
+    "id": 220215,
+    "rank": 2,
+    "Type": 2,
+    "subType": 0,
+    "tagID": 2202,
+    "baseAttributes": "HPMax=80",
+    "composeId": 15,
+    "skinId": 0,
+    "activePower": [
+      1400,
+      0
+    ]
+  },
+  {
+    "id": 130101,
+    "rank": 1,
+    "Type": 3,
+    "subType": 0,
+    "tagID": 1301,
+    "baseAttributes": "Attack=10|Defence=3",
+    "composeId": 1,
+    "skinId": 0,
+    "activePower": [
+      0,
+      0
+    ]
+  },
+  {
+    "id": 130102,
+    "rank": 1,
+    "Type": 3,
+    "subType": 0,
+    "tagID": 1301,
+    "baseAttributes": "Attack=10|Defence=3",
+    "composeId": 2,
+    "skinId": 0,
+    "activePower": [
+      0,
+      0
+    ]
+  },
+  {
+    "id": 130103,
+    "rank": 1,
+    "Type": 3,
+    "subType": 0,
+    "tagID": 1301,
+    "baseAttributes": "Attack=10|Defence=3",
+    "composeId": 3,
+    "skinId": 0,
+    "activePower": [
+      0,
+      0
+    ]
+  },
+  {
+    "id": 130104,
+    "rank": 1,
+    "Type": 3,
+    "subType": 0,
+    "tagID": 1301,
+    "baseAttributes": "Attack=10|Defence=3",
+    "composeId": 4,
+    "skinId": 0,
+    "activePower": [
+      300,
+      0
+    ]
+  },
+  {
+    "id": 130105,
+    "rank": 1,
+    "Type": 3,
+    "subType": 0,
+    "tagID": 1301,
+    "baseAttributes": "Attack=10|Defence=3",
+    "composeId": 5,
+    "skinId": 0,
+    "activePower": [
+      300,
+      0
+    ]
+  },
+  {
+    "id": 130106,
+    "rank": 1,
+    "Type": 3,
+    "subType": 0,
+    "tagID": 1301,
+    "baseAttributes": "Attack=10|Defence=3",
+    "composeId": 6,
+    "skinId": 0,
+    "activePower": [
+      300,
+      0
+    ]
+  },
+  {
+    "id": 130107,
+    "rank": 1,
+    "Type": 3,
+    "subType": 0,
+    "tagID": 1301,
+    "baseAttributes": "Attack=10|Defence=3",
+    "composeId": 7,
+    "skinId": 0,
+    "activePower": [
+      700,
+      0
+    ]
+  },
+  {
+    "id": 130108,
+    "rank": 1,
+    "Type": 3,
+    "subType": 0,
+    "tagID": 1301,
+    "baseAttributes": "Attack=10|Defence=3",
+    "composeId": 8,
+    "skinId": 0,
+    "activePower": [
+      700,
+      0
+    ]
+  },
+  {
+    "id": 130109,
+    "rank": 1,
+    "Type": 3,
+    "subType": 0,
+    "tagID": 1301,
+    "baseAttributes": "Attack=10|Defence=3",
+    "composeId": 9,
+    "skinId": 0,
+    "activePower": [
+      700,
+      0
+    ]
+  },
+  {
+    "id": 130110,
+    "rank": 1,
+    "Type": 3,
+    "subType": 0,
+    "tagID": 1301,
+    "baseAttributes": "Attack=10|Defence=3",
+    "composeId": 10,
+    "skinId": 0,
+    "activePower": [
+      700,
+      0
+    ]
+  },
+  {
+    "id": 130111,
+    "rank": 1,
+    "Type": 3,
+    "subType": 0,
+    "tagID": 1301,
+    "baseAttributes": "Attack=10|Defence=3",
+    "composeId": 11,
+    "skinId": 0,
+    "activePower": [
+      1100,
+      0
+    ]
+  },
+  {
+    "id": 130112,
+    "rank": 1,
+    "Type": 3,
+    "subType": 0,
+    "tagID": 1301,
+    "baseAttributes": "Attack=10|Defence=3",
+    "composeId": 12,
+    "skinId": 0,
+    "activePower": [
+      1100,
+      0
+    ]
+  },
+  {
+    "id": 130113,
+    "rank": 1,
+    "Type": 3,
+    "subType": 0,
+    "tagID": 1301,
+    "baseAttributes": "Attack=10|Defence=3",
+    "composeId": 13,
+    "skinId": 0,
+    "activePower": [
+      1100,
+      0
+    ]
+  },
+  {
+    "id": 130114,
+    "rank": 1,
+    "Type": 3,
+    "subType": 0,
+    "tagID": 1301,
+    "baseAttributes": "Attack=10|Defence=3",
+    "composeId": 14,
+    "skinId": 0,
+    "activePower": [
+      1100,
+      0
+    ]
+  },
+  {
+    "id": 130115,
+    "rank": 1,
+    "Type": 3,
+    "subType": 0,
+    "tagID": 1301,
+    "baseAttributes": "Attack=10|Defence=3",
+    "composeId": 15,
+    "skinId": 0,
+    "activePower": [
+      1100,
+      0
+    ]
+  },
+  {
+    "id": 130201,
+    "rank": 1,
+    "Type": 3,
+    "subType": 0,
+    "tagID": 1302,
+    "baseAttributes": "Attack=10|Defence=3",
+    "composeId": 1,
+    "skinId": 0,
+    "activePower": [
+      0,
+      0
+    ]
+  },
+  {
+    "id": 130202,
+    "rank": 1,
+    "Type": 3,
+    "subType": 0,
+    "tagID": 1302,
+    "baseAttributes": "Attack=10|Defence=3",
+    "composeId": 2,
+    "skinId": 0,
+    "activePower": [
+      0,
+      0
+    ]
+  },
+  {
+    "id": 130203,
+    "rank": 1,
+    "Type": 3,
+    "subType": 0,
+    "tagID": 1302,
+    "baseAttributes": "Attack=10|Defence=3",
+    "composeId": 3,
+    "skinId": 0,
+    "activePower": [
+      0,
+      0
+    ]
+  },
+  {
+    "id": 130204,
+    "rank": 1,
+    "Type": 3,
+    "subType": 0,
+    "tagID": 1302,
+    "baseAttributes": "Attack=10|Defence=3",
+    "composeId": 4,
+    "skinId": 0,
+    "activePower": [
+      300,
+      0
+    ]
+  },
+  {
+    "id": 130205,
+    "rank": 1,
+    "Type": 3,
+    "subType": 0,
+    "tagID": 1302,
+    "baseAttributes": "Attack=10|Defence=3",
+    "composeId": 5,
+    "skinId": 0,
+    "activePower": [
+      300,
+      0
+    ]
+  },
+  {
+    "id": 130206,
+    "rank": 1,
+    "Type": 3,
+    "subType": 0,
+    "tagID": 1302,
+    "baseAttributes": "Attack=10|Defence=3",
+    "composeId": 6,
+    "skinId": 0,
+    "activePower": [
+      300,
+      0
+    ]
+  },
+  {
+    "id": 130207,
+    "rank": 1,
+    "Type": 3,
+    "subType": 0,
+    "tagID": 1302,
+    "baseAttributes": "Attack=10|Defence=3",
+    "composeId": 7,
+    "skinId": 0,
+    "activePower": [
+      700,
+      0
+    ]
+  },
+  {
+    "id": 130208,
+    "rank": 1,
+    "Type": 3,
+    "subType": 0,
+    "tagID": 1302,
+    "baseAttributes": "Attack=10|Defence=3",
+    "composeId": 8,
+    "skinId": 0,
+    "activePower": [
+      700,
+      0
+    ]
+  },
+  {
+    "id": 130209,
+    "rank": 1,
+    "Type": 3,
+    "subType": 0,
+    "tagID": 1302,
+    "baseAttributes": "Attack=10|Defence=3",
+    "composeId": 9,
+    "skinId": 0,
+    "activePower": [
+      700,
+      0
+    ]
+  },
+  {
+    "id": 130210,
+    "rank": 1,
+    "Type": 3,
+    "subType": 0,
+    "tagID": 1302,
+    "baseAttributes": "Attack=10|Defence=3",
+    "composeId": 10,
+    "skinId": 0,
+    "activePower": [
+      700,
+      0
+    ]
+  },
+  {
+    "id": 130211,
+    "rank": 1,
+    "Type": 3,
+    "subType": 0,
+    "tagID": 1302,
+    "baseAttributes": "Attack=10|Defence=3",
+    "composeId": 11,
+    "skinId": 0,
+    "activePower": [
+      1100,
+      0
+    ]
+  },
+  {
+    "id": 130212,
+    "rank": 1,
+    "Type": 3,
+    "subType": 0,
+    "tagID": 1302,
+    "baseAttributes": "Attack=10|Defence=3",
+    "composeId": 12,
+    "skinId": 0,
+    "activePower": [
+      1100,
+      0
+    ]
+  },
+  {
+    "id": 130213,
+    "rank": 1,
+    "Type": 3,
+    "subType": 0,
+    "tagID": 1302,
+    "baseAttributes": "Attack=10|Defence=3",
+    "composeId": 13,
+    "skinId": 0,
+    "activePower": [
+      1100,
+      0
+    ]
+  },
+  {
+    "id": 130214,
+    "rank": 1,
+    "Type": 3,
+    "subType": 0,
+    "tagID": 1302,
+    "baseAttributes": "Attack=10|Defence=3",
+    "composeId": 14,
+    "skinId": 0,
+    "activePower": [
+      1100,
+      0
+    ]
+  },
+  {
+    "id": 130215,
+    "rank": 1,
+    "Type": 3,
+    "subType": 0,
+    "tagID": 1302,
+    "baseAttributes": "Attack=10|Defence=3",
+    "composeId": 15,
+    "skinId": 0,
+    "activePower": [
+      1100,
+      0
+    ]
+  },
+  {
+    "id": 130301,
+    "rank": 1,
+    "Type": 3,
+    "subType": 0,
+    "tagID": 1303,
+    "baseAttributes": "Attack=10|Defence=3",
+    "composeId": 1,
+    "skinId": 0,
+    "activePower": [
+      0,
+      0
+    ]
+  },
+  {
+    "id": 130302,
+    "rank": 1,
+    "Type": 3,
+    "subType": 0,
+    "tagID": 1303,
+    "baseAttributes": "Attack=10|Defence=3",
+    "composeId": 2,
+    "skinId": 0,
+    "activePower": [
+      0,
+      0
+    ]
+  },
+  {
+    "id": 130303,
+    "rank": 1,
+    "Type": 3,
+    "subType": 0,
+    "tagID": 1303,
+    "baseAttributes": "Attack=10|Defence=3",
+    "composeId": 3,
+    "skinId": 0,
+    "activePower": [
+      0,
+      0
+    ]
+  },
+  {
+    "id": 130304,
+    "rank": 1,
+    "Type": 3,
+    "subType": 0,
+    "tagID": 1303,
+    "baseAttributes": "Attack=10|Defence=3",
+    "composeId": 4,
+    "skinId": 0,
+    "activePower": [
+      300,
+      0
+    ]
+  },
+  {
+    "id": 130305,
+    "rank": 1,
+    "Type": 3,
+    "subType": 0,
+    "tagID": 1303,
+    "baseAttributes": "Attack=10|Defence=3",
+    "composeId": 5,
+    "skinId": 0,
+    "activePower": [
+      300,
+      0
+    ]
+  },
+  {
+    "id": 130306,
+    "rank": 1,
+    "Type": 3,
+    "subType": 0,
+    "tagID": 1303,
+    "baseAttributes": "Attack=10|Defence=3",
+    "composeId": 6,
+    "skinId": 0,
+    "activePower": [
+      300,
+      0
+    ]
+  },
+  {
+    "id": 130307,
+    "rank": 1,
+    "Type": 3,
+    "subType": 0,
+    "tagID": 1303,
+    "baseAttributes": "Attack=10|Defence=3",
+    "composeId": 7,
+    "skinId": 0,
+    "activePower": [
+      700,
+      0
+    ]
+  },
+  {
+    "id": 130308,
+    "rank": 1,
+    "Type": 3,
+    "subType": 0,
+    "tagID": 1303,
+    "baseAttributes": "Attack=10|Defence=3",
+    "composeId": 8,
+    "skinId": 0,
+    "activePower": [
+      700,
+      0
+    ]
+  },
+  {
+    "id": 130309,
+    "rank": 1,
+    "Type": 3,
+    "subType": 0,
+    "tagID": 1303,
+    "baseAttributes": "Attack=10|Defence=3",
+    "composeId": 9,
+    "skinId": 0,
+    "activePower": [
+      700,
+      0
+    ]
+  },
+  {
+    "id": 130310,
+    "rank": 1,
+    "Type": 3,
+    "subType": 0,
+    "tagID": 1303,
+    "baseAttributes": "Attack=10|Defence=3",
+    "composeId": 10,
+    "skinId": 0,
+    "activePower": [
+      700,
+      0
+    ]
+  },
+  {
+    "id": 130311,
+    "rank": 1,
+    "Type": 3,
+    "subType": 0,
+    "tagID": 1303,
+    "baseAttributes": "Attack=10|Defence=3",
+    "composeId": 11,
+    "skinId": 0,
+    "activePower": [
+      1100,
+      0
+    ]
+  },
+  {
+    "id": 130312,
+    "rank": 1,
+    "Type": 3,
+    "subType": 0,
+    "tagID": 1303,
+    "baseAttributes": "Attack=10|Defence=3",
+    "composeId": 12,
+    "skinId": 0,
+    "activePower": [
+      1100,
+      0
+    ]
+  },
+  {
+    "id": 130313,
+    "rank": 1,
+    "Type": 3,
+    "subType": 0,
+    "tagID": 1303,
+    "baseAttributes": "Attack=10|Defence=3",
+    "composeId": 13,
+    "skinId": 0,
+    "activePower": [
+      1100,
+      0
+    ]
+  },
+  {
+    "id": 130314,
+    "rank": 1,
+    "Type": 3,
+    "subType": 0,
+    "tagID": 1303,
+    "baseAttributes": "Attack=10|Defence=3",
+    "composeId": 14,
+    "skinId": 0,
+    "activePower": [
+      1100,
+      0
+    ]
+  },
+  {
+    "id": 130315,
+    "rank": 1,
+    "Type": 3,
+    "subType": 0,
+    "tagID": 1303,
+    "baseAttributes": "Attack=10|Defence=3",
+    "composeId": 15,
+    "skinId": 0,
+    "activePower": [
+      1100,
+      0
+    ]
+  },
+  {
+    "id": 230101,
+    "rank": 2,
+    "Type": 3,
+    "subType": 0,
+    "tagID": 2301,
+    "baseAttributes": "Attack=10|Defence=3",
+    "composeId": 1,
+    "skinId": 0,
+    "activePower": [
+      0,
+      0
+    ]
+  },
+  {
+    "id": 230102,
+    "rank": 2,
+    "Type": 3,
+    "subType": 0,
+    "tagID": 2301,
+    "baseAttributes": "Attack=10|Defence=3",
+    "composeId": 2,
+    "skinId": 0,
+    "activePower": [
+      0,
+      0
+    ]
+  },
+  {
+    "id": 230103,
+    "rank": 2,
+    "Type": 3,
+    "subType": 0,
+    "tagID": 2301,
+    "baseAttributes": "Attack=10|Defence=3",
+    "composeId": 3,
+    "skinId": 0,
+    "activePower": [
+      300,
+      0
+    ]
+  },
+  {
+    "id": 230104,
+    "rank": 2,
+    "Type": 3,
+    "subType": 0,
+    "tagID": 2301,
+    "baseAttributes": "Attack=10|Defence=3",
+    "composeId": 4,
+    "skinId": 0,
+    "activePower": [
+      300,
+      0
+    ]
+  },
+  {
+    "id": 230105,
+    "rank": 2,
+    "Type": 3,
+    "subType": 0,
+    "tagID": 2301,
+    "baseAttributes": "Attack=10|Defence=3",
+    "composeId": 5,
+    "skinId": 0,
+    "activePower": [
+      300,
+      0
+    ]
+  },
+  {
+    "id": 230106,
+    "rank": 2,
+    "Type": 3,
+    "subType": 0,
+    "tagID": 2301,
+    "baseAttributes": "Attack=10|Defence=3",
+    "composeId": 6,
+    "skinId": 0,
+    "activePower": [
+      300,
+      0
+    ]
+  },
+  {
+    "id": 230107,
+    "rank": 2,
+    "Type": 3,
+    "subType": 0,
+    "tagID": 2301,
+    "baseAttributes": "Attack=10|Defence=3",
+    "composeId": 7,
+    "skinId": 0,
+    "activePower": [
+      800,
+      0
+    ]
+  },
+  {
+    "id": 230108,
+    "rank": 2,
+    "Type": 3,
+    "subType": 0,
+    "tagID": 2301,
+    "baseAttributes": "Attack=10|Defence=3",
+    "composeId": 8,
+    "skinId": 0,
+    "activePower": [
+      800,
+      0
+    ]
+  },
+  {
+    "id": 230109,
+    "rank": 2,
+    "Type": 3,
+    "subType": 0,
+    "tagID": 2301,
+    "baseAttributes": "Attack=10|Defence=3",
+    "composeId": 9,
+    "skinId": 0,
+    "activePower": [
+      800,
+      0
+    ]
+  },
+  {
+    "id": 230110,
+    "rank": 2,
+    "Type": 3,
+    "subType": 0,
+    "tagID": 2301,
+    "baseAttributes": "Attack=10|Defence=3",
+    "composeId": 10,
+    "skinId": 0,
+    "activePower": [
+      800,
+      0
+    ]
+  },
+  {
+    "id": 230111,
+    "rank": 2,
+    "Type": 3,
+    "subType": 0,
+    "tagID": 2301,
+    "baseAttributes": "Attack=10|Defence=3",
+    "composeId": 11,
+    "skinId": 0,
+    "activePower": [
+      1400,
+      0
+    ]
+  },
+  {
+    "id": 230112,
+    "rank": 2,
+    "Type": 3,
+    "subType": 0,
+    "tagID": 2301,
+    "baseAttributes": "Attack=10|Defence=3",
+    "composeId": 12,
+    "skinId": 0,
+    "activePower": [
+      1400,
+      0
+    ]
+  },
+  {
+    "id": 230113,
+    "rank": 2,
+    "Type": 3,
+    "subType": 0,
+    "tagID": 2301,
+    "baseAttributes": "Attack=10|Defence=3",
+    "composeId": 13,
+    "skinId": 0,
+    "activePower": [
+      1400,
+      0
+    ]
+  },
+  {
+    "id": 230114,
+    "rank": 2,
+    "Type": 3,
+    "subType": 0,
+    "tagID": 2301,
+    "baseAttributes": "Attack=10|Defence=3",
+    "composeId": 14,
+    "skinId": 0,
+    "activePower": [
+      1400,
+      0
+    ]
+  },
+  {
+    "id": 230115,
+    "rank": 2,
+    "Type": 3,
+    "subType": 0,
+    "tagID": 2301,
+    "baseAttributes": "Attack=10|Defence=3",
+    "composeId": 15,
+    "skinId": 0,
+    "activePower": [
+      1400,
+      0
+    ]
+  },
+  {
+    "id": 230201,
+    "rank": 2,
+    "Type": 3,
+    "subType": 0,
+    "tagID": 2302,
+    "baseAttributes": "Attack=10|Defence=3",
+    "composeId": 1,
+    "skinId": 0,
+    "activePower": [
+      0,
+      0
+    ]
+  },
+  {
+    "id": 230202,
+    "rank": 2,
+    "Type": 3,
+    "subType": 0,
+    "tagID": 2302,
+    "baseAttributes": "Attack=10|Defence=3",
+    "composeId": 2,
+    "skinId": 0,
+    "activePower": [
+      0,
+      0
+    ]
+  },
+  {
+    "id": 230203,
+    "rank": 2,
+    "Type": 3,
+    "subType": 0,
+    "tagID": 2302,
+    "baseAttributes": "Attack=10|Defence=3",
+    "composeId": 3,
+    "skinId": 0,
+    "activePower": [
+      300,
+      0
+    ]
+  },
+  {
+    "id": 230204,
+    "rank": 2,
+    "Type": 3,
+    "subType": 0,
+    "tagID": 2302,
+    "baseAttributes": "Attack=10|Defence=3",
+    "composeId": 4,
+    "skinId": 0,
+    "activePower": [
+      300,
+      0
+    ]
+  },
+  {
+    "id": 230205,
+    "rank": 2,
+    "Type": 3,
+    "subType": 0,
+    "tagID": 2302,
+    "baseAttributes": "Attack=10|Defence=3",
+    "composeId": 5,
+    "skinId": 0,
+    "activePower": [
+      300,
+      0
+    ]
+  },
+  {
+    "id": 230206,
+    "rank": 2,
+    "Type": 3,
+    "subType": 0,
+    "tagID": 2302,
+    "baseAttributes": "Attack=10|Defence=3",
+    "composeId": 6,
+    "skinId": 0,
+    "activePower": [
+      300,
+      0
+    ]
+  },
+  {
+    "id": 230207,
+    "rank": 2,
+    "Type": 3,
+    "subType": 0,
+    "tagID": 2302,
+    "baseAttributes": "Attack=10|Defence=3",
+    "composeId": 7,
+    "skinId": 0,
+    "activePower": [
+      800,
+      0
+    ]
+  },
+  {
+    "id": 230208,
+    "rank": 2,
+    "Type": 3,
+    "subType": 0,
+    "tagID": 2302,
+    "baseAttributes": "Attack=10|Defence=3",
+    "composeId": 8,
+    "skinId": 0,
+    "activePower": [
+      800,
+      0
+    ]
+  },
+  {
+    "id": 230209,
+    "rank": 2,
+    "Type": 3,
+    "subType": 0,
+    "tagID": 2302,
+    "baseAttributes": "Attack=10|Defence=3",
+    "composeId": 9,
+    "skinId": 0,
+    "activePower": [
+      800,
+      0
+    ]
+  },
+  {
+    "id": 230210,
+    "rank": 2,
+    "Type": 3,
+    "subType": 0,
+    "tagID": 2302,
+    "baseAttributes": "Attack=10|Defence=3",
+    "composeId": 10,
+    "skinId": 0,
+    "activePower": [
+      800,
+      0
+    ]
+  },
+  {
+    "id": 230211,
+    "rank": 2,
+    "Type": 3,
+    "subType": 0,
+    "tagID": 2302,
+    "baseAttributes": "Attack=10|Defence=3",
+    "composeId": 11,
+    "skinId": 0,
+    "activePower": [
+      1400,
+      0
+    ]
+  },
+  {
+    "id": 230212,
+    "rank": 2,
+    "Type": 3,
+    "subType": 0,
+    "tagID": 2302,
+    "baseAttributes": "Attack=10|Defence=3",
+    "composeId": 12,
+    "skinId": 0,
+    "activePower": [
+      1400,
+      0
+    ]
+  },
+  {
+    "id": 230213,
+    "rank": 2,
+    "Type": 3,
+    "subType": 0,
+    "tagID": 2302,
+    "baseAttributes": "Attack=10|Defence=3",
+    "composeId": 13,
+    "skinId": 0,
+    "activePower": [
+      1400,
+      0
+    ]
+  },
+  {
+    "id": 230214,
+    "rank": 2,
+    "Type": 3,
+    "subType": 0,
+    "tagID": 2302,
+    "baseAttributes": "Attack=10|Defence=3",
+    "composeId": 14,
+    "skinId": 0,
+    "activePower": [
+      1400,
+      0
+    ]
+  },
+  {
+    "id": 230215,
+    "rank": 2,
+    "Type": 3,
+    "subType": 0,
+    "tagID": 2302,
+    "baseAttributes": "Attack=10|Defence=3",
+    "composeId": 15,
+    "skinId": 0,
+    "activePower": [
+      1400,
+      0
+    ]
+  },
+  {
+    "id": 230301,
+    "rank": 2,
+    "Type": 3,
+    "subType": 0,
+    "tagID": 2303,
+    "baseAttributes": "Attack=10|Defence=3",
+    "composeId": 1,
+    "skinId": 0,
+    "activePower": [
+      0,
+      0
+    ]
+  },
+  {
+    "id": 230302,
+    "rank": 2,
+    "Type": 3,
+    "subType": 0,
+    "tagID": 2303,
+    "baseAttributes": "Attack=10|Defence=3",
+    "composeId": 2,
+    "skinId": 0,
+    "activePower": [
+      0,
+      0
+    ]
+  },
+  {
+    "id": 230303,
+    "rank": 2,
+    "Type": 3,
+    "subType": 0,
+    "tagID": 2303,
+    "baseAttributes": "Attack=10|Defence=3",
+    "composeId": 3,
+    "skinId": 0,
+    "activePower": [
+      300,
+      0
+    ]
+  },
+  {
+    "id": 230304,
+    "rank": 2,
+    "Type": 3,
+    "subType": 0,
+    "tagID": 2303,
+    "baseAttributes": "Attack=10|Defence=3",
+    "composeId": 4,
+    "skinId": 0,
+    "activePower": [
+      300,
+      0
+    ]
+  },
+  {
+    "id": 230305,
+    "rank": 2,
+    "Type": 3,
+    "subType": 0,
+    "tagID": 2303,
+    "baseAttributes": "Attack=10|Defence=3",
+    "composeId": 5,
+    "skinId": 0,
+    "activePower": [
+      300,
+      0
+    ]
+  },
+  {
+    "id": 230306,
+    "rank": 2,
+    "Type": 3,
+    "subType": 0,
+    "tagID": 2303,
+    "baseAttributes": "Attack=10|Defence=3",
+    "composeId": 6,
+    "skinId": 0,
+    "activePower": [
+      300,
+      0
+    ]
+  },
+  {
+    "id": 230307,
+    "rank": 2,
+    "Type": 3,
+    "subType": 0,
+    "tagID": 2303,
+    "baseAttributes": "Attack=10|Defence=3",
+    "composeId": 7,
+    "skinId": 0,
+    "activePower": [
+      800,
+      0
+    ]
+  },
+  {
+    "id": 230308,
+    "rank": 2,
+    "Type": 3,
+    "subType": 0,
+    "tagID": 2303,
+    "baseAttributes": "Attack=10|Defence=3",
+    "composeId": 8,
+    "skinId": 0,
+    "activePower": [
+      800,
+      0
+    ]
+  },
+  {
+    "id": 230309,
+    "rank": 2,
+    "Type": 3,
+    "subType": 0,
+    "tagID": 2303,
+    "baseAttributes": "Attack=10|Defence=3",
+    "composeId": 9,
+    "skinId": 0,
+    "activePower": [
+      800,
+      0
+    ]
+  },
+  {
+    "id": 230310,
+    "rank": 2,
+    "Type": 3,
+    "subType": 0,
+    "tagID": 2303,
+    "baseAttributes": "Attack=10|Defence=3",
+    "composeId": 10,
+    "skinId": 0,
+    "activePower": [
+      800,
+      0
+    ]
+  },
+  {
+    "id": 230311,
+    "rank": 2,
+    "Type": 3,
+    "subType": 0,
+    "tagID": 2303,
+    "baseAttributes": "Attack=10|Defence=3",
+    "composeId": 11,
+    "skinId": 0,
+    "activePower": [
+      1400,
+      0
+    ]
+  },
+  {
+    "id": 230312,
+    "rank": 2,
+    "Type": 3,
+    "subType": 0,
+    "tagID": 2303,
+    "baseAttributes": "Attack=10|Defence=3",
+    "composeId": 12,
+    "skinId": 0,
+    "activePower": [
+      1400,
+      0
+    ]
+  },
+  {
+    "id": 230313,
+    "rank": 2,
+    "Type": 3,
+    "subType": 0,
+    "tagID": 2303,
+    "baseAttributes": "Attack=10|Defence=3",
+    "composeId": 13,
+    "skinId": 0,
+    "activePower": [
+      1400,
+      0
+    ]
+  },
+  {
+    "id": 230314,
+    "rank": 2,
+    "Type": 3,
+    "subType": 0,
+    "tagID": 2303,
+    "baseAttributes": "Attack=10|Defence=3",
+    "composeId": 14,
+    "skinId": 0,
+    "activePower": [
+      1400,
+      0
+    ]
+  },
+  {
+    "id": 230315,
+    "rank": 2,
+    "Type": 3,
+    "subType": 0,
+    "tagID": 2303,
+    "baseAttributes": "Attack=10|Defence=3",
+    "composeId": 15,
+    "skinId": 0,
+    "activePower": [
+      1400,
+      0
+    ]
+  },
+  {
+    "id": 230401,
+    "rank": 2,
+    "Type": 3,
+    "subType": 0,
+    "tagID": 2304,
+    "baseAttributes": "Attack=10|Defence=3",
+    "composeId": 1,
+    "skinId": 0,
+    "activePower": [
+      0,
+      0
+    ]
+  },
+  {
+    "id": 230402,
+    "rank": 2,
+    "Type": 3,
+    "subType": 0,
+    "tagID": 2304,
+    "baseAttributes": "Attack=10|Defence=3",
+    "composeId": 2,
+    "skinId": 0,
+    "activePower": [
+      0,
+      0
+    ]
+  },
+  {
+    "id": 230403,
+    "rank": 2,
+    "Type": 3,
+    "subType": 0,
+    "tagID": 2304,
+    "baseAttributes": "Attack=10|Defence=3",
+    "composeId": 3,
+    "skinId": 0,
+    "activePower": [
+      300,
+      0
+    ]
+  },
+  {
+    "id": 230404,
+    "rank": 2,
+    "Type": 3,
+    "subType": 0,
+    "tagID": 2304,
+    "baseAttributes": "Attack=10|Defence=3",
+    "composeId": 4,
+    "skinId": 0,
+    "activePower": [
+      300,
+      0
+    ]
+  },
+  {
+    "id": 230405,
+    "rank": 2,
+    "Type": 3,
+    "subType": 0,
+    "tagID": 2304,
+    "baseAttributes": "Attack=10|Defence=3",
+    "composeId": 5,
+    "skinId": 0,
+    "activePower": [
+      300,
+      0
+    ]
+  },
+  {
+    "id": 230406,
+    "rank": 2,
+    "Type": 3,
+    "subType": 0,
+    "tagID": 2304,
+    "baseAttributes": "Attack=10|Defence=3",
+    "composeId": 6,
+    "skinId": 0,
+    "activePower": [
+      300,
+      0
+    ]
+  },
+  {
+    "id": 230407,
+    "rank": 2,
+    "Type": 3,
+    "subType": 0,
+    "tagID": 2304,
+    "baseAttributes": "Attack=10|Defence=3",
+    "composeId": 7,
+    "skinId": 0,
+    "activePower": [
+      800,
+      0
+    ]
+  },
+  {
+    "id": 230408,
+    "rank": 2,
+    "Type": 3,
+    "subType": 0,
+    "tagID": 2304,
+    "baseAttributes": "Attack=10|Defence=3",
+    "composeId": 8,
+    "skinId": 0,
+    "activePower": [
+      800,
+      0
+    ]
+  },
+  {
+    "id": 230409,
+    "rank": 2,
+    "Type": 3,
+    "subType": 0,
+    "tagID": 2304,
+    "baseAttributes": "Attack=10|Defence=3",
+    "composeId": 9,
+    "skinId": 0,
+    "activePower": [
+      800,
+      0
+    ]
+  },
+  {
+    "id": 230410,
+    "rank": 2,
+    "Type": 3,
+    "subType": 0,
+    "tagID": 2304,
+    "baseAttributes": "Attack=10|Defence=3",
+    "composeId": 10,
+    "skinId": 0,
+    "activePower": [
+      800,
+      0
+    ]
+  },
+  {
+    "id": 230411,
+    "rank": 2,
+    "Type": 3,
+    "subType": 0,
+    "tagID": 2304,
+    "baseAttributes": "Attack=10|Defence=3",
+    "composeId": 11,
+    "skinId": 0,
+    "activePower": [
+      1400,
+      0
+    ]
+  },
+  {
+    "id": 230412,
+    "rank": 2,
+    "Type": 3,
+    "subType": 0,
+    "tagID": 2304,
+    "baseAttributes": "Attack=10|Defence=3",
+    "composeId": 12,
+    "skinId": 0,
+    "activePower": [
+      1400,
+      0
+    ]
+  },
+  {
+    "id": 230413,
+    "rank": 2,
+    "Type": 3,
+    "subType": 0,
+    "tagID": 2304,
+    "baseAttributes": "Attack=10|Defence=3",
+    "composeId": 13,
+    "skinId": 0,
+    "activePower": [
+      1400,
+      0
+    ]
+  },
+  {
+    "id": 230414,
+    "rank": 2,
+    "Type": 3,
+    "subType": 0,
+    "tagID": 2304,
+    "baseAttributes": "Attack=10|Defence=3",
+    "composeId": 14,
+    "skinId": 0,
+    "activePower": [
+      1400,
+      0
+    ]
+  },
+  {
+    "id": 230415,
+    "rank": 2,
+    "Type": 3,
+    "subType": 0,
+    "tagID": 2304,
+    "baseAttributes": "Attack=10|Defence=3",
+    "composeId": 15,
+    "skinId": 0,
+    "activePower": [
+      1400,
+      0
+    ]
+  },
+  {
+    "id": 140101,
+    "rank": 1,
+    "Type": 4,
+    "subType": 0,
+    "tagID": 1401,
+    "baseAttributes": "HPMax=40|Defence=3",
+    "composeId": 1,
+    "skinId": 0,
+    "activePower": [
+      0,
+      0
+    ]
+  },
+  {
+    "id": 140102,
+    "rank": 1,
+    "Type": 4,
+    "subType": 0,
+    "tagID": 1401,
+    "baseAttributes": "HPMax=40|Defence=3",
+    "composeId": 2,
+    "skinId": 0,
+    "activePower": [
+      0,
+      0
+    ]
+  },
+  {
+    "id": 140103,
+    "rank": 1,
+    "Type": 4,
+    "subType": 0,
+    "tagID": 1401,
+    "baseAttributes": "HPMax=40|Defence=3",
+    "composeId": 3,
+    "skinId": 0,
+    "activePower": [
+      0,
+      0
+    ]
+  },
+  {
+    "id": 140104,
+    "rank": 1,
+    "Type": 4,
+    "subType": 0,
+    "tagID": 1401,
+    "baseAttributes": "HPMax=40|Defence=3",
+    "composeId": 4,
+    "skinId": 0,
+    "activePower": [
+      300,
+      0
+    ]
+  },
+  {
+    "id": 140105,
+    "rank": 1,
+    "Type": 4,
+    "subType": 0,
+    "tagID": 1401,
+    "baseAttributes": "HPMax=40|Defence=3",
+    "composeId": 5,
+    "skinId": 0,
+    "activePower": [
+      300,
+      0
+    ]
+  },
+  {
+    "id": 140106,
+    "rank": 1,
+    "Type": 4,
+    "subType": 0,
+    "tagID": 1401,
+    "baseAttributes": "HPMax=40|Defence=3",
+    "composeId": 6,
+    "skinId": 0,
+    "activePower": [
+      300,
+      0
+    ]
+  },
+  {
+    "id": 140107,
+    "rank": 1,
+    "Type": 4,
+    "subType": 0,
+    "tagID": 1401,
+    "baseAttributes": "HPMax=40|Defence=3",
+    "composeId": 7,
+    "skinId": 0,
+    "activePower": [
+      700,
+      0
+    ]
+  },
+  {
+    "id": 140108,
+    "rank": 1,
+    "Type": 4,
+    "subType": 0,
+    "tagID": 1401,
+    "baseAttributes": "HPMax=40|Defence=3",
+    "composeId": 8,
+    "skinId": 0,
+    "activePower": [
+      700,
+      0
+    ]
+  },
+  {
+    "id": 140109,
+    "rank": 1,
+    "Type": 4,
+    "subType": 0,
+    "tagID": 1401,
+    "baseAttributes": "HPMax=40|Defence=3",
+    "composeId": 9,
+    "skinId": 0,
+    "activePower": [
+      700,
+      0
+    ]
+  },
+  {
+    "id": 140110,
+    "rank": 1,
+    "Type": 4,
+    "subType": 0,
+    "tagID": 1401,
+    "baseAttributes": "HPMax=40|Defence=3",
+    "composeId": 10,
+    "skinId": 0,
+    "activePower": [
+      700,
+      0
+    ]
+  },
+  {
+    "id": 140111,
+    "rank": 1,
+    "Type": 4,
+    "subType": 0,
+    "tagID": 1401,
+    "baseAttributes": "HPMax=40|Defence=3",
+    "composeId": 11,
+    "skinId": 0,
+    "activePower": [
+      1100,
+      0
+    ]
+  },
+  {
+    "id": 140112,
+    "rank": 1,
+    "Type": 4,
+    "subType": 0,
+    "tagID": 1401,
+    "baseAttributes": "HPMax=40|Defence=3",
+    "composeId": 12,
+    "skinId": 0,
+    "activePower": [
+      1100,
+      0
+    ]
+  },
+  {
+    "id": 140113,
+    "rank": 1,
+    "Type": 4,
+    "subType": 0,
+    "tagID": 1401,
+    "baseAttributes": "HPMax=40|Defence=3",
+    "composeId": 13,
+    "skinId": 0,
+    "activePower": [
+      1100,
+      0
+    ]
+  },
+  {
+    "id": 140114,
+    "rank": 1,
+    "Type": 4,
+    "subType": 0,
+    "tagID": 1401,
+    "baseAttributes": "HPMax=40|Defence=3",
+    "composeId": 14,
+    "skinId": 0,
+    "activePower": [
+      1100,
+      0
+    ]
+  },
+  {
+    "id": 140115,
+    "rank": 1,
+    "Type": 4,
+    "subType": 0,
+    "tagID": 1401,
+    "baseAttributes": "HPMax=40|Defence=3",
+    "composeId": 15,
+    "skinId": 0,
+    "activePower": [
+      1100,
+      0
+    ]
+  },
+  {
+    "id": 140201,
+    "rank": 1,
+    "Type": 4,
+    "subType": 0,
+    "tagID": 1402,
+    "baseAttributes": "HPMax=40|Defence=3",
+    "composeId": 1,
+    "skinId": 0,
+    "activePower": [
+      0,
+      0
+    ]
+  },
+  {
+    "id": 140202,
+    "rank": 1,
+    "Type": 4,
+    "subType": 0,
+    "tagID": 1402,
+    "baseAttributes": "HPMax=40|Defence=3",
+    "composeId": 2,
+    "skinId": 0,
+    "activePower": [
+      0,
+      0
+    ]
+  },
+  {
+    "id": 140203,
+    "rank": 1,
+    "Type": 4,
+    "subType": 0,
+    "tagID": 1402,
+    "baseAttributes": "HPMax=40|Defence=3",
+    "composeId": 3,
+    "skinId": 0,
+    "activePower": [
+      0,
+      0
+    ]
+  },
+  {
+    "id": 140204,
+    "rank": 1,
+    "Type": 4,
+    "subType": 0,
+    "tagID": 1402,
+    "baseAttributes": "HPMax=40|Defence=3",
+    "composeId": 4,
+    "skinId": 0,
+    "activePower": [
+      300,
+      0
+    ]
+  },
+  {
+    "id": 140205,
+    "rank": 1,
+    "Type": 4,
+    "subType": 0,
+    "tagID": 1402,
+    "baseAttributes": "HPMax=40|Defence=3",
+    "composeId": 5,
+    "skinId": 0,
+    "activePower": [
+      300,
+      0
+    ]
+  },
+  {
+    "id": 140206,
+    "rank": 1,
+    "Type": 4,
+    "subType": 0,
+    "tagID": 1402,
+    "baseAttributes": "HPMax=40|Defence=3",
+    "composeId": 6,
+    "skinId": 0,
+    "activePower": [
+      300,
+      0
+    ]
+  },
+  {
+    "id": 140207,
+    "rank": 1,
+    "Type": 4,
+    "subType": 0,
+    "tagID": 1402,
+    "baseAttributes": "HPMax=40|Defence=3",
+    "composeId": 7,
+    "skinId": 0,
+    "activePower": [
+      700,
+      0
+    ]
+  },
+  {
+    "id": 140208,
+    "rank": 1,
+    "Type": 4,
+    "subType": 0,
+    "tagID": 1402,
+    "baseAttributes": "HPMax=40|Defence=3",
+    "composeId": 8,
+    "skinId": 0,
+    "activePower": [
+      700,
+      0
+    ]
+  },
+  {
+    "id": 140209,
+    "rank": 1,
+    "Type": 4,
+    "subType": 0,
+    "tagID": 1402,
+    "baseAttributes": "HPMax=40|Defence=3",
+    "composeId": 9,
+    "skinId": 0,
+    "activePower": [
+      700,
+      0
+    ]
+  },
+  {
+    "id": 140210,
+    "rank": 1,
+    "Type": 4,
+    "subType": 0,
+    "tagID": 1402,
+    "baseAttributes": "HPMax=40|Defence=3",
+    "composeId": 10,
+    "skinId": 0,
+    "activePower": [
+      700,
+      0
+    ]
+  },
+  {
+    "id": 140211,
+    "rank": 1,
+    "Type": 4,
+    "subType": 0,
+    "tagID": 1402,
+    "baseAttributes": "HPMax=40|Defence=3",
+    "composeId": 11,
+    "skinId": 0,
+    "activePower": [
+      1100,
+      0
+    ]
+  },
+  {
+    "id": 140212,
+    "rank": 1,
+    "Type": 4,
+    "subType": 0,
+    "tagID": 1402,
+    "baseAttributes": "HPMax=40|Defence=3",
+    "composeId": 12,
+    "skinId": 0,
+    "activePower": [
+      1100,
+      0
+    ]
+  },
+  {
+    "id": 140213,
+    "rank": 1,
+    "Type": 4,
+    "subType": 0,
+    "tagID": 1402,
+    "baseAttributes": "HPMax=40|Defence=3",
+    "composeId": 13,
+    "skinId": 0,
+    "activePower": [
+      1100,
+      0
+    ]
+  },
+  {
+    "id": 140214,
+    "rank": 1,
+    "Type": 4,
+    "subType": 0,
+    "tagID": 1402,
+    "baseAttributes": "HPMax=40|Defence=3",
+    "composeId": 14,
+    "skinId": 0,
+    "activePower": [
+      1100,
+      0
+    ]
+  },
+  {
+    "id": 140215,
+    "rank": 1,
+    "Type": 4,
+    "subType": 0,
+    "tagID": 1402,
+    "baseAttributes": "HPMax=40|Defence=3",
+    "composeId": 15,
+    "skinId": 0,
+    "activePower": [
+      1100,
+      0
+    ]
+  },
+  {
+    "id": 140301,
+    "rank": 1,
+    "Type": 4,
+    "subType": 0,
+    "tagID": 1403,
+    "baseAttributes": "HPMax=40|Defence=3",
+    "composeId": 1,
+    "skinId": 0,
+    "activePower": [
+      0,
+      0
+    ]
+  },
+  {
+    "id": 140302,
+    "rank": 1,
+    "Type": 4,
+    "subType": 0,
+    "tagID": 1403,
+    "baseAttributes": "HPMax=40|Defence=3",
+    "composeId": 2,
+    "skinId": 0,
+    "activePower": [
+      0,
+      0
+    ]
+  },
+  {
+    "id": 140303,
+    "rank": 1,
+    "Type": 4,
+    "subType": 0,
+    "tagID": 1403,
+    "baseAttributes": "HPMax=40|Defence=3",
+    "composeId": 3,
+    "skinId": 0,
+    "activePower": [
+      0,
+      0
+    ]
+  },
+  {
+    "id": 140304,
+    "rank": 1,
+    "Type": 4,
+    "subType": 0,
+    "tagID": 1403,
+    "baseAttributes": "HPMax=40|Defence=3",
+    "composeId": 4,
+    "skinId": 0,
+    "activePower": [
+      300,
+      0
+    ]
+  },
+  {
+    "id": 140305,
+    "rank": 1,
+    "Type": 4,
+    "subType": 0,
+    "tagID": 1403,
+    "baseAttributes": "HPMax=40|Defence=3",
+    "composeId": 5,
+    "skinId": 0,
+    "activePower": [
+      300,
+      0
+    ]
+  },
+  {
+    "id": 140306,
+    "rank": 1,
+    "Type": 4,
+    "subType": 0,
+    "tagID": 1403,
+    "baseAttributes": "HPMax=40|Defence=3",
+    "composeId": 6,
+    "skinId": 0,
+    "activePower": [
+      300,
+      0
+    ]
+  },
+  {
+    "id": 140307,
+    "rank": 1,
+    "Type": 4,
+    "subType": 0,
+    "tagID": 1403,
+    "baseAttributes": "HPMax=40|Defence=3",
+    "composeId": 7,
+    "skinId": 0,
+    "activePower": [
+      700,
+      0
+    ]
+  },
+  {
+    "id": 140308,
+    "rank": 1,
+    "Type": 4,
+    "subType": 0,
+    "tagID": 1403,
+    "baseAttributes": "HPMax=40|Defence=3",
+    "composeId": 8,
+    "skinId": 0,
+    "activePower": [
+      700,
+      0
+    ]
+  },
+  {
+    "id": 140309,
+    "rank": 1,
+    "Type": 4,
+    "subType": 0,
+    "tagID": 1403,
+    "baseAttributes": "HPMax=40|Defence=3",
+    "composeId": 9,
+    "skinId": 0,
+    "activePower": [
+      700,
+      0
+    ]
+  },
+  {
+    "id": 140310,
+    "rank": 1,
+    "Type": 4,
+    "subType": 0,
+    "tagID": 1403,
+    "baseAttributes": "HPMax=40|Defence=3",
+    "composeId": 10,
+    "skinId": 0,
+    "activePower": [
+      700,
+      0
+    ]
+  },
+  {
+    "id": 140311,
+    "rank": 1,
+    "Type": 4,
+    "subType": 0,
+    "tagID": 1403,
+    "baseAttributes": "HPMax=40|Defence=3",
+    "composeId": 11,
+    "skinId": 0,
+    "activePower": [
+      1100,
+      0
+    ]
+  },
+  {
+    "id": 140312,
+    "rank": 1,
+    "Type": 4,
+    "subType": 0,
+    "tagID": 1403,
+    "baseAttributes": "HPMax=40|Defence=3",
+    "composeId": 12,
+    "skinId": 0,
+    "activePower": [
+      1100,
+      0
+    ]
+  },
+  {
+    "id": 140313,
+    "rank": 1,
+    "Type": 4,
+    "subType": 0,
+    "tagID": 1403,
+    "baseAttributes": "HPMax=40|Defence=3",
+    "composeId": 13,
+    "skinId": 0,
+    "activePower": [
+      1100,
+      0
+    ]
+  },
+  {
+    "id": 140314,
+    "rank": 1,
+    "Type": 4,
+    "subType": 0,
+    "tagID": 1403,
+    "baseAttributes": "HPMax=40|Defence=3",
+    "composeId": 14,
+    "skinId": 0,
+    "activePower": [
+      1100,
+      0
+    ]
+  },
+  {
+    "id": 140315,
+    "rank": 1,
+    "Type": 4,
+    "subType": 0,
+    "tagID": 1403,
+    "baseAttributes": "HPMax=40|Defence=3",
+    "composeId": 15,
+    "skinId": 0,
+    "activePower": [
+      1100,
+      0
+    ]
+  },
+  {
+    "id": 240101,
+    "rank": 2,
+    "Type": 4,
+    "subType": 0,
+    "tagID": 2401,
+    "baseAttributes": "HPMax=40|Defence=3",
+    "composeId": 1,
+    "skinId": 0,
+    "activePower": [
+      0,
+      0
+    ]
+  },
+  {
+    "id": 240102,
+    "rank": 2,
+    "Type": 4,
+    "subType": 0,
+    "tagID": 2401,
+    "baseAttributes": "HPMax=40|Defence=3",
+    "composeId": 2,
+    "skinId": 0,
+    "activePower": [
+      0,
+      0
+    ]
+  },
+  {
+    "id": 240103,
+    "rank": 2,
+    "Type": 4,
+    "subType": 0,
+    "tagID": 2401,
+    "baseAttributes": "HPMax=40|Defence=3",
+    "composeId": 3,
+    "skinId": 0,
+    "activePower": [
+      300,
+      0
+    ]
+  },
+  {
+    "id": 240104,
+    "rank": 2,
+    "Type": 4,
+    "subType": 0,
+    "tagID": 2401,
+    "baseAttributes": "HPMax=40|Defence=3",
+    "composeId": 4,
+    "skinId": 0,
+    "activePower": [
+      300,
+      0
+    ]
+  },
+  {
+    "id": 240105,
+    "rank": 2,
+    "Type": 4,
+    "subType": 0,
+    "tagID": 2401,
+    "baseAttributes": "HPMax=40|Defence=3",
+    "composeId": 5,
+    "skinId": 0,
+    "activePower": [
+      300,
+      0
+    ]
+  },
+  {
+    "id": 240106,
+    "rank": 2,
+    "Type": 4,
+    "subType": 0,
+    "tagID": 2401,
+    "baseAttributes": "HPMax=40|Defence=3",
+    "composeId": 6,
+    "skinId": 0,
+    "activePower": [
+      300,
+      0
+    ]
+  },
+  {
+    "id": 240107,
+    "rank": 2,
+    "Type": 4,
+    "subType": 0,
+    "tagID": 2401,
+    "baseAttributes": "HPMax=40|Defence=3",
+    "composeId": 7,
+    "skinId": 0,
+    "activePower": [
+      800,
+      0
+    ]
+  },
+  {
+    "id": 240108,
+    "rank": 2,
+    "Type": 4,
+    "subType": 0,
+    "tagID": 2401,
+    "baseAttributes": "HPMax=40|Defence=3",
+    "composeId": 8,
+    "skinId": 0,
+    "activePower": [
+      800,
+      0
+    ]
+  },
+  {
+    "id": 240109,
+    "rank": 2,
+    "Type": 4,
+    "subType": 0,
+    "tagID": 2401,
+    "baseAttributes": "HPMax=40|Defence=3",
+    "composeId": 9,
+    "skinId": 0,
+    "activePower": [
+      800,
+      0
+    ]
+  },
+  {
+    "id": 240110,
+    "rank": 2,
+    "Type": 4,
+    "subType": 0,
+    "tagID": 2401,
+    "baseAttributes": "HPMax=40|Defence=3",
+    "composeId": 10,
+    "skinId": 0,
+    "activePower": [
+      800,
+      0
+    ]
+  },
+  {
+    "id": 240111,
+    "rank": 2,
+    "Type": 4,
+    "subType": 0,
+    "tagID": 2401,
+    "baseAttributes": "HPMax=40|Defence=3",
+    "composeId": 11,
+    "skinId": 0,
+    "activePower": [
+      1400,
+      0
+    ]
+  },
+  {
+    "id": 240112,
+    "rank": 2,
+    "Type": 4,
+    "subType": 0,
+    "tagID": 2401,
+    "baseAttributes": "HPMax=40|Defence=3",
+    "composeId": 12,
+    "skinId": 0,
+    "activePower": [
+      1400,
+      0
+    ]
+  },
+  {
+    "id": 240113,
+    "rank": 2,
+    "Type": 4,
+    "subType": 0,
+    "tagID": 2401,
+    "baseAttributes": "HPMax=40|Defence=3",
+    "composeId": 13,
+    "skinId": 0,
+    "activePower": [
+      1400,
+      0
+    ]
+  },
+  {
+    "id": 240114,
+    "rank": 2,
+    "Type": 4,
+    "subType": 0,
+    "tagID": 2401,
+    "baseAttributes": "HPMax=40|Defence=3",
+    "composeId": 14,
+    "skinId": 0,
+    "activePower": [
+      1400,
+      0
+    ]
+  },
+  {
+    "id": 240115,
+    "rank": 2,
+    "Type": 4,
+    "subType": 0,
+    "tagID": 2401,
+    "baseAttributes": "HPMax=40|Defence=3",
+    "composeId": 15,
+    "skinId": 0,
+    "activePower": [
+      1400,
+      0
+    ]
+  },
+  {
+    "id": 240201,
+    "rank": 2,
+    "Type": 4,
+    "subType": 0,
+    "tagID": 2402,
+    "baseAttributes": "HPMax=40|Defence=3",
+    "composeId": 1,
+    "skinId": 0,
+    "activePower": [
+      0,
+      0
+    ]
+  },
+  {
+    "id": 240202,
+    "rank": 2,
+    "Type": 4,
+    "subType": 0,
+    "tagID": 2402,
+    "baseAttributes": "HPMax=40|Defence=3",
+    "composeId": 2,
+    "skinId": 0,
+    "activePower": [
+      0,
+      0
+    ]
+  },
+  {
+    "id": 240203,
+    "rank": 2,
+    "Type": 4,
+    "subType": 0,
+    "tagID": 2402,
+    "baseAttributes": "HPMax=40|Defence=3",
+    "composeId": 3,
+    "skinId": 0,
+    "activePower": [
+      300,
+      0
+    ]
+  },
+  {
+    "id": 240204,
+    "rank": 2,
+    "Type": 4,
+    "subType": 0,
+    "tagID": 2402,
+    "baseAttributes": "HPMax=40|Defence=3",
+    "composeId": 4,
+    "skinId": 0,
+    "activePower": [
+      300,
+      0
+    ]
+  },
+  {
+    "id": 240205,
+    "rank": 2,
+    "Type": 4,
+    "subType": 0,
+    "tagID": 2402,
+    "baseAttributes": "HPMax=40|Defence=3",
+    "composeId": 5,
+    "skinId": 0,
+    "activePower": [
+      300,
+      0
+    ]
+  },
+  {
+    "id": 240206,
+    "rank": 2,
+    "Type": 4,
+    "subType": 0,
+    "tagID": 2402,
+    "baseAttributes": "HPMax=40|Defence=3",
+    "composeId": 6,
+    "skinId": 0,
+    "activePower": [
+      300,
+      0
+    ]
+  },
+  {
+    "id": 240207,
+    "rank": 2,
+    "Type": 4,
+    "subType": 0,
+    "tagID": 2402,
+    "baseAttributes": "HPMax=40|Defence=3",
+    "composeId": 7,
+    "skinId": 0,
+    "activePower": [
+      800,
+      0
+    ]
+  },
+  {
+    "id": 240208,
+    "rank": 2,
+    "Type": 4,
+    "subType": 0,
+    "tagID": 2402,
+    "baseAttributes": "HPMax=40|Defence=3",
+    "composeId": 8,
+    "skinId": 0,
+    "activePower": [
+      800,
+      0
+    ]
+  },
+  {
+    "id": 240209,
+    "rank": 2,
+    "Type": 4,
+    "subType": 0,
+    "tagID": 2402,
+    "baseAttributes": "HPMax=40|Defence=3",
+    "composeId": 9,
+    "skinId": 0,
+    "activePower": [
+      800,
+      0
+    ]
+  },
+  {
+    "id": 240210,
+    "rank": 2,
+    "Type": 4,
+    "subType": 0,
+    "tagID": 2402,
+    "baseAttributes": "HPMax=40|Defence=3",
+    "composeId": 10,
+    "skinId": 0,
+    "activePower": [
+      800,
+      0
+    ]
+  },
+  {
+    "id": 240211,
+    "rank": 2,
+    "Type": 4,
+    "subType": 0,
+    "tagID": 2402,
+    "baseAttributes": "HPMax=40|Defence=3",
+    "composeId": 11,
+    "skinId": 0,
+    "activePower": [
+      1400,
+      0
+    ]
+  },
+  {
+    "id": 240212,
+    "rank": 2,
+    "Type": 4,
+    "subType": 0,
+    "tagID": 2402,
+    "baseAttributes": "HPMax=40|Defence=3",
+    "composeId": 12,
+    "skinId": 0,
+    "activePower": [
+      1400,
+      0
+    ]
+  },
+  {
+    "id": 240213,
+    "rank": 2,
+    "Type": 4,
+    "subType": 0,
+    "tagID": 2402,
+    "baseAttributes": "HPMax=40|Defence=3",
+    "composeId": 13,
+    "skinId": 0,
+    "activePower": [
+      1400,
+      0
+    ]
+  },
+  {
+    "id": 240214,
+    "rank": 2,
+    "Type": 4,
+    "subType": 0,
+    "tagID": 2402,
+    "baseAttributes": "HPMax=40|Defence=3",
+    "composeId": 14,
+    "skinId": 0,
+    "activePower": [
+      1400,
+      0
+    ]
+  },
+  {
+    "id": 240215,
+    "rank": 2,
+    "Type": 4,
+    "subType": 0,
+    "tagID": 2402,
+    "baseAttributes": "HPMax=40|Defence=3",
+    "composeId": 15,
+    "skinId": 0,
+    "activePower": [
+      1400,
+      0
+    ]
+  },
+  {
+    "id": 240301,
+    "rank": 2,
+    "Type": 4,
+    "subType": 0,
+    "tagID": 2403,
+    "baseAttributes": "HPMax=40|Defence=3",
+    "composeId": 1,
+    "skinId": 0,
+    "activePower": [
+      0,
+      0
+    ]
+  },
+  {
+    "id": 240302,
+    "rank": 2,
+    "Type": 4,
+    "subType": 0,
+    "tagID": 2403,
+    "baseAttributes": "HPMax=40|Defence=3",
+    "composeId": 2,
+    "skinId": 0,
+    "activePower": [
+      0,
+      0
+    ]
+  },
+  {
+    "id": 240303,
+    "rank": 2,
+    "Type": 4,
+    "subType": 0,
+    "tagID": 2403,
+    "baseAttributes": "HPMax=40|Defence=3",
+    "composeId": 3,
+    "skinId": 0,
+    "activePower": [
+      300,
+      0
+    ]
+  },
+  {
+    "id": 240304,
+    "rank": 2,
+    "Type": 4,
+    "subType": 0,
+    "tagID": 2403,
+    "baseAttributes": "HPMax=40|Defence=3",
+    "composeId": 4,
+    "skinId": 0,
+    "activePower": [
+      300,
+      0
+    ]
+  },
+  {
+    "id": 240305,
+    "rank": 2,
+    "Type": 4,
+    "subType": 0,
+    "tagID": 2403,
+    "baseAttributes": "HPMax=40|Defence=3",
+    "composeId": 5,
+    "skinId": 0,
+    "activePower": [
+      300,
+      0
+    ]
+  },
+  {
+    "id": 240306,
+    "rank": 2,
+    "Type": 4,
+    "subType": 0,
+    "tagID": 2403,
+    "baseAttributes": "HPMax=40|Defence=3",
+    "composeId": 6,
+    "skinId": 0,
+    "activePower": [
+      300,
+      0
+    ]
+  },
+  {
+    "id": 240307,
+    "rank": 2,
+    "Type": 4,
+    "subType": 0,
+    "tagID": 2403,
+    "baseAttributes": "HPMax=40|Defence=3",
+    "composeId": 7,
+    "skinId": 0,
+    "activePower": [
+      800,
+      0
+    ]
+  },
+  {
+    "id": 240308,
+    "rank": 2,
+    "Type": 4,
+    "subType": 0,
+    "tagID": 2403,
+    "baseAttributes": "HPMax=40|Defence=3",
+    "composeId": 8,
+    "skinId": 0,
+    "activePower": [
+      800,
+      0
+    ]
+  },
+  {
+    "id": 240309,
+    "rank": 2,
+    "Type": 4,
+    "subType": 0,
+    "tagID": 2403,
+    "baseAttributes": "HPMax=40|Defence=3",
+    "composeId": 9,
+    "skinId": 0,
+    "activePower": [
+      800,
+      0
+    ]
+  },
+  {
+    "id": 240310,
+    "rank": 2,
+    "Type": 4,
+    "subType": 0,
+    "tagID": 2403,
+    "baseAttributes": "HPMax=40|Defence=3",
+    "composeId": 10,
+    "skinId": 0,
+    "activePower": [
+      800,
+      0
+    ]
+  },
+  {
+    "id": 240311,
+    "rank": 2,
+    "Type": 4,
+    "subType": 0,
+    "tagID": 2403,
+    "baseAttributes": "HPMax=40|Defence=3",
+    "composeId": 11,
+    "skinId": 0,
+    "activePower": [
+      1400,
+      0
+    ]
+  },
+  {
+    "id": 240312,
+    "rank": 2,
+    "Type": 4,
+    "subType": 0,
+    "tagID": 2403,
+    "baseAttributes": "HPMax=40|Defence=3",
+    "composeId": 12,
+    "skinId": 0,
+    "activePower": [
+      1400,
+      0
+    ]
+  },
+  {
+    "id": 240313,
+    "rank": 2,
+    "Type": 4,
+    "subType": 0,
+    "tagID": 2403,
+    "baseAttributes": "HPMax=40|Defence=3",
+    "composeId": 13,
+    "skinId": 0,
+    "activePower": [
+      1400,
+      0
+    ]
+  },
+  {
+    "id": 240314,
+    "rank": 2,
+    "Type": 4,
+    "subType": 0,
+    "tagID": 2403,
+    "baseAttributes": "HPMax=40|Defence=3",
+    "composeId": 14,
+    "skinId": 0,
+    "activePower": [
+      1400,
+      0
+    ]
+  },
+  {
+    "id": 240315,
+    "rank": 2,
+    "Type": 4,
+    "subType": 0,
+    "tagID": 2403,
+    "baseAttributes": "HPMax=40|Defence=3",
+    "composeId": 15,
+    "skinId": 0,
+    "activePower": [
+      1400,
+      0
+    ]
+  }
+]

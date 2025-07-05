@@ -1,0 +1,14 @@
+[
+  {
+    "id": 101,
+    "path": "Assets/_Resources/Prefab/Game/Member/Morph/Morph_Demon.prefab"
+  },
+  {
+    "id": 102,
+    "path": "Assets/_Resources/Prefab/Game/Member/Morph/Morph_Angel.prefab"
+  },
+  {
+    "id": 201,
+    "path": "Assets/_Resources/Prefab/Game/Member/Morph/Morph_XS_SpaceCapy.prefab"
+  }
+]

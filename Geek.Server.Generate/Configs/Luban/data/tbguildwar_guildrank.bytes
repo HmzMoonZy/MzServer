@@ -1,0 +1,416 @@
+[
+  {
+    "id": 100,
+    "warRange": 1,
+    "name": "GuildWar_Rank_0",
+    "serverRange": 1,
+    "atlas": 163,
+    "icon": "BronzeTierWithStars",
+    "starIcon": "BronzeStar",
+    "StarCount": 0,
+    "score": [
+      1000,
+      1000
+    ],
+    "winScore": 10,
+    "loseScore": 0,
+    "winAdd": [
+      "0",
+      "0"
+    ],
+    "loseReduce": [],
+    "rankReturn": 100,
+    "emptyScore": 5,
+    "MouthRewards": [
+      "7000001,1000",
+      "12,100"
+    ]
+  },
+  {
+    "id": 101,
+    "warRange": 2,
+    "name": "GuildWar_Rank_1",
+    "serverRange": 1,
+    "atlas": 163,
+    "icon": "BronzeTierWithStars",
+    "starIcon": "BronzeStar",
+    "StarCount": 1,
+    "score": [
+      1001,
+      1100
+    ],
+    "winScore": 30,
+    "loseScore": 0,
+    "winAdd": [
+      "10",
+      "30"
+    ],
+    "loseReduce": [],
+    "rankReturn": 101,
+    "emptyScore": 15,
+    "MouthRewards": [
+      "7000001,2000",
+      "12,200"
+    ]
+  },
+  {
+    "id": 102,
+    "warRange": 2,
+    "name": "GuildWar_Rank_2",
+    "serverRange": 1,
+    "atlas": 163,
+    "icon": "BronzeTierWithStars",
+    "starIcon": "BronzeStar",
+    "StarCount": 2,
+    "score": [
+      1101,
+      1200
+    ],
+    "winScore": 30,
+    "loseScore": 5,
+    "winAdd": [
+      "10",
+      "30"
+    ],
+    "loseReduce": [
+      "0",
+      "0"
+    ],
+    "rankReturn": 102,
+    "emptyScore": 15,
+    "MouthRewards": [
+      "7000001,2000",
+      "12,200"
+    ]
+  },
+  {
+    "id": 103,
+    "warRange": 2,
+    "name": "GuildWar_Rank_3",
+    "serverRange": 1,
+    "atlas": 163,
+    "icon": "BronzeTierWithStars",
+    "starIcon": "BronzeStar",
+    "StarCount": 3,
+    "score": [
+      1201,
+      1300
+    ],
+    "winScore": 30,
+    "loseScore": 5,
+    "winAdd": [
+      "10",
+      "30"
+    ],
+    "loseReduce": [
+      "0",
+      "0"
+    ],
+    "rankReturn": 103,
+    "emptyScore": 15,
+    "MouthRewards": [
+      "7000001,2000",
+      "12,200"
+    ]
+  },
+  {
+    "id": 201,
+    "warRange": 3,
+    "name": "GuildWar_Rank_4",
+    "serverRange": 1,
+    "atlas": 163,
+    "icon": "SilverTierWithStars",
+    "starIcon": "SilverStar",
+    "StarCount": 1,
+    "score": [
+      1301,
+      1400
+    ],
+    "winScore": 30,
+    "loseScore": 10,
+    "winAdd": [
+      "10",
+      "30"
+    ],
+    "loseReduce": [
+      "0",
+      "0"
+    ],
+    "rankReturn": 103,
+    "emptyScore": 15,
+    "MouthRewards": [
+      "7000001,3000",
+      "12,300"
+    ]
+  },
+  {
+    "id": 202,
+    "warRange": 3,
+    "name": "GuildWar_Rank_5",
+    "serverRange": 1,
+    "atlas": 163,
+    "icon": "SilverTierWithStars",
+    "starIcon": "SilverStar",
+    "StarCount": 2,
+    "score": [
+      1401,
+      1500
+    ],
+    "winScore": 30,
+    "loseScore": 10,
+    "winAdd": [
+      "10",
+      "30"
+    ],
+    "loseReduce": [
+      "0",
+      "0"
+    ],
+    "rankReturn": 201,
+    "emptyScore": 15,
+    "MouthRewards": [
+      "7000001,3000",
+      "12,300"
+    ]
+  },
+  {
+    "id": 203,
+    "warRange": 3,
+    "name": "GuildWar_Rank_6",
+    "serverRange": 1,
+    "atlas": 163,
+    "icon": "SilverTierWithStars",
+    "starIcon": "SilverStar",
+    "StarCount": 3,
+    "score": [
+      1501,
+      1600
+    ],
+    "winScore": 30,
+    "loseScore": 10,
+    "winAdd": [
+      "10",
+      "30"
+    ],
+    "loseReduce": [
+      "0",
+      "0"
+    ],
+    "rankReturn": 201,
+    "emptyScore": 15,
+    "MouthRewards": [
+      "7000001,3000",
+      "12,300"
+    ]
+  },
+  {
+    "id": 301,
+    "warRange": 4,
+    "name": "GuildWar_Rank_7",
+    "serverRange": 2,
+    "atlas": 163,
+    "icon": "GoldTierWithStars",
+    "starIcon": "GoldStar",
+    "StarCount": 1,
+    "score": [
+      1601,
+      1800
+    ],
+    "winScore": 50,
+    "loseScore": 25,
+    "winAdd": [
+      "15",
+      "50"
+    ],
+    "loseReduce": [
+      "0",
+      "0"
+    ],
+    "rankReturn": 202,
+    "emptyScore": 25,
+    "MouthRewards": [
+      "7000001,4000",
+      "12,350"
+    ]
+  },
+  {
+    "id": 302,
+    "warRange": 4,
+    "name": "GuildWar_Rank_8",
+    "serverRange": 2,
+    "atlas": 163,
+    "icon": "GoldTierWithStars",
+    "starIcon": "GoldStar",
+    "StarCount": 2,
+    "score": [
+      1801,
+      2000
+    ],
+    "winScore": 50,
+    "loseScore": 25,
+    "winAdd": [
+      "15",
+      "50"
+    ],
+    "loseReduce": [
+      "0",
+      "0"
+    ],
+    "rankReturn": 203,
+    "emptyScore": 25,
+    "MouthRewards": [
+      "7000001,4000",
+      "12,350"
+    ]
+  },
+  {
+    "id": 303,
+    "warRange": 4,
+    "name": "GuildWar_Rank_9",
+    "serverRange": 2,
+    "atlas": 163,
+    "icon": "GoldTierWithStars",
+    "starIcon": "GoldStar",
+    "StarCount": 3,
+    "score": [
+      2001,
+      2200
+    ],
+    "winScore": 50,
+    "loseScore": 25,
+    "winAdd": [
+      "15",
+      "50"
+    ],
+    "loseReduce": [
+      "0",
+      "0"
+    ],
+    "rankReturn": 301,
+    "emptyScore": 25,
+    "MouthRewards": [
+      "7000001,4000",
+      "12,350"
+    ]
+  },
+  {
+    "id": 401,
+    "warRange": 5,
+    "name": "GuildWar_Rank_10",
+    "serverRange": 3,
+    "atlas": 163,
+    "icon": "RedTilerWithStars",
+    "starIcon": "RedStar",
+    "StarCount": 1,
+    "score": [
+      2201,
+      2400
+    ],
+    "winScore": 100,
+    "loseScore": 50,
+    "winAdd": [
+      "25",
+      "100"
+    ],
+    "loseReduce": [
+      "0",
+      "50"
+    ],
+    "rankReturn": 302,
+    "emptyScore": 50,
+    "MouthRewards": [
+      "7000001,6000",
+      "12,400"
+    ]
+  },
+  {
+    "id": 402,
+    "warRange": 5,
+    "name": "GuildWar_Rank_11",
+    "serverRange": 3,
+    "atlas": 163,
+    "icon": "RedTilerWithStars",
+    "starIcon": "RedStar",
+    "StarCount": 2,
+    "score": [
+      2401,
+      2700
+    ],
+    "winScore": 100,
+    "loseScore": 50,
+    "winAdd": [
+      "25",
+      "100"
+    ],
+    "loseReduce": [
+      "0",
+      "50"
+    ],
+    "rankReturn": 303,
+    "emptyScore": 50,
+    "MouthRewards": [
+      "7000001,6000",
+      "12,400"
+    ]
+  },
+  {
+    "id": 403,
+    "warRange": 5,
+    "name": "GuildWar_Rank_12",
+    "serverRange": 3,
+    "atlas": 163,
+    "icon": "RedTilerWithStars",
+    "starIcon": "RedStar",
+    "StarCount": 3,
+    "score": [
+      2701,
+      3000
+    ],
+    "winScore": 100,
+    "loseScore": 50,
+    "winAdd": [
+      "25",
+      "100"
+    ],
+    "loseReduce": [
+      "0",
+      "50"
+    ],
+    "rankReturn": 401,
+    "emptyScore": 50,
+    "MouthRewards": [
+      "7000001,6000",
+      "12,400"
+    ]
+  },
+  {
+    "id": 501,
+    "warRange": 5,
+    "name": "GuildWar_Rank_13",
+    "serverRange": 3,
+    "atlas": 163,
+    "icon": "Crown",
+    "starIcon": "",
+    "StarCount": 0,
+    "score": [
+      3001,
+      999999
+    ],
+    "winScore": 100,
+    "loseScore": 100,
+    "winAdd": [
+      "25",
+      "100"
+    ],
+    "loseReduce": [
+      "0",
+      "50"
+    ],
+    "rankReturn": 402,
+    "emptyScore": 50,
+    "MouthRewards": [
+      "7000001,10000",
+      "12,500"
+    ]
+  }
+]

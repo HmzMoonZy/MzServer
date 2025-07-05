@@ -1,0 +1,602 @@
+[
+  {
+    "id": 101,
+    "gameEventType": 1,
+    "events": [
+      21101
+    ]
+  },
+  {
+    "id": 102,
+    "gameEventType": 1,
+    "events": [
+      21201
+    ]
+  },
+  {
+    "id": 103,
+    "gameEventType": 1,
+    "events": [
+      21301
+    ]
+  },
+  {
+    "id": 104,
+    "gameEventType": 2,
+    "events": [
+      101,
+      102,
+      103
+    ]
+  },
+  {
+    "id": 201,
+    "gameEventType": 1,
+    "events": [
+      22101
+    ]
+  },
+  {
+    "id": 202,
+    "gameEventType": 1,
+    "events": [
+      22201
+    ]
+  },
+  {
+    "id": 203,
+    "gameEventType": 1,
+    "events": [
+      22301
+    ]
+  },
+  {
+    "id": 204,
+    "gameEventType": 2,
+    "events": [
+      201,
+      202,
+      203
+    ]
+  },
+  {
+    "id": 301,
+    "gameEventType": 1,
+    "events": [
+      23101
+    ]
+  },
+  {
+    "id": 302,
+    "gameEventType": 1,
+    "events": [
+      23201
+    ]
+  },
+  {
+    "id": 303,
+    "gameEventType": 1,
+    "events": [
+      23301
+    ]
+  },
+  {
+    "id": 304,
+    "gameEventType": 2,
+    "events": [
+      301,
+      302,
+      303
+    ]
+  },
+  {
+    "id": 401,
+    "gameEventType": 1,
+    "events": [
+      24101
+    ]
+  },
+  {
+    "id": 402,
+    "gameEventType": 1,
+    "events": [
+      24201
+    ]
+  },
+  {
+    "id": 403,
+    "gameEventType": 1,
+    "events": [
+      24301
+    ]
+  },
+  {
+    "id": 404,
+    "gameEventType": 2,
+    "events": [
+      401,
+      402,
+      403
+    ]
+  },
+  {
+    "id": 501,
+    "gameEventType": 1,
+    "events": [
+      25101
+    ]
+  },
+  {
+    "id": 502,
+    "gameEventType": 1,
+    "events": [
+      25201
+    ]
+  },
+  {
+    "id": 503,
+    "gameEventType": 1,
+    "events": [
+      25301
+    ]
+  },
+  {
+    "id": 504,
+    "gameEventType": 2,
+    "events": [
+      501,
+      502,
+      503
+    ]
+  },
+  {
+    "id": 601,
+    "gameEventType": 1,
+    "events": [
+      26101
+    ]
+  },
+  {
+    "id": 602,
+    "gameEventType": 1,
+    "events": [
+      26201
+    ]
+  },
+  {
+    "id": 603,
+    "gameEventType": 1,
+    "events": [
+      26301
+    ]
+  },
+  {
+    "id": 604,
+    "gameEventType": 2,
+    "events": [
+      601,
+      602,
+      603
+    ]
+  },
+  {
+    "id": 701,
+    "gameEventType": 1,
+    "events": [
+      27101
+    ]
+  },
+  {
+    "id": 702,
+    "gameEventType": 1,
+    "events": [
+      27201
+    ]
+  },
+  {
+    "id": 703,
+    "gameEventType": 1,
+    "events": [
+      27301
+    ]
+  },
+  {
+    "id": 704,
+    "gameEventType": 2,
+    "events": [
+      701,
+      702,
+      703
+    ]
+  },
+  {
+    "id": 801,
+    "gameEventType": 1,
+    "events": [
+      28101
+    ]
+  },
+  {
+    "id": 802,
+    "gameEventType": 1,
+    "events": [
+      28201
+    ]
+  },
+  {
+    "id": 803,
+    "gameEventType": 1,
+    "events": [
+      28301
+    ]
+  },
+  {
+    "id": 804,
+    "gameEventType": 2,
+    "events": [
+      801,
+      802,
+      803
+    ]
+  },
+  {
+    "id": 901,
+    "gameEventType": 1,
+    "events": [
+      29101
+    ]
+  },
+  {
+    "id": 902,
+    "gameEventType": 1,
+    "events": [
+      29201
+    ]
+  },
+  {
+    "id": 903,
+    "gameEventType": 1,
+    "events": [
+      29301
+    ]
+  },
+  {
+    "id": 904,
+    "gameEventType": 2,
+    "events": [
+      901,
+      902,
+      903
+    ]
+  },
+  {
+    "id": 1001,
+    "gameEventType": 1,
+    "events": [
+      210101
+    ]
+  },
+  {
+    "id": 1002,
+    "gameEventType": 1,
+    "events": [
+      210201
+    ]
+  },
+  {
+    "id": 1003,
+    "gameEventType": 1,
+    "events": [
+      210301
+    ]
+  },
+  {
+    "id": 1004,
+    "gameEventType": 2,
+    "events": [
+      1001,
+      1002,
+      1003
+    ]
+  },
+  {
+    "id": 1101,
+    "gameEventType": 1,
+    "events": [
+      211101
+    ]
+  },
+  {
+    "id": 1102,
+    "gameEventType": 1,
+    "events": [
+      211201
+    ]
+  },
+  {
+    "id": 1103,
+    "gameEventType": 1,
+    "events": [
+      211301
+    ]
+  },
+  {
+    "id": 1104,
+    "gameEventType": 2,
+    "events": [
+      1101,
+      1102,
+      1103
+    ]
+  },
+  {
+    "id": 1201,
+    "gameEventType": 1,
+    "events": [
+      212101
+    ]
+  },
+  {
+    "id": 1202,
+    "gameEventType": 1,
+    "events": [
+      212201
+    ]
+  },
+  {
+    "id": 1203,
+    "gameEventType": 1,
+    "events": [
+      212301
+    ]
+  },
+  {
+    "id": 1204,
+    "gameEventType": 2,
+    "events": [
+      1201,
+      1202,
+      1203
+    ]
+  },
+  {
+    "id": 1301,
+    "gameEventType": 1,
+    "events": [
+      213101
+    ]
+  },
+  {
+    "id": 1302,
+    "gameEventType": 1,
+    "events": [
+      213201
+    ]
+  },
+  {
+    "id": 1303,
+    "gameEventType": 1,
+    "events": [
+      213301
+    ]
+  },
+  {
+    "id": 1304,
+    "gameEventType": 2,
+    "events": [
+      1301,
+      1302,
+      1303
+    ]
+  },
+  {
+    "id": 1401,
+    "gameEventType": 1,
+    "events": [
+      214101
+    ]
+  },
+  {
+    "id": 1402,
+    "gameEventType": 1,
+    "events": [
+      214201
+    ]
+  },
+  {
+    "id": 1403,
+    "gameEventType": 1,
+    "events": [
+      214301
+    ]
+  },
+  {
+    "id": 1404,
+    "gameEventType": 2,
+    "events": [
+      1401,
+      1402,
+      1403
+    ]
+  },
+  {
+    "id": 1501,
+    "gameEventType": 1,
+    "events": [
+      215101
+    ]
+  },
+  {
+    "id": 1502,
+    "gameEventType": 1,
+    "events": [
+      215201
+    ]
+  },
+  {
+    "id": 1503,
+    "gameEventType": 1,
+    "events": [
+      215301
+    ]
+  },
+  {
+    "id": 1504,
+    "gameEventType": 2,
+    "events": [
+      1501,
+      1502,
+      1503
+    ]
+  },
+  {
+    "id": 1601,
+    "gameEventType": 1,
+    "events": [
+      216101
+    ]
+  },
+  {
+    "id": 1602,
+    "gameEventType": 1,
+    "events": [
+      216201
+    ]
+  },
+  {
+    "id": 1603,
+    "gameEventType": 1,
+    "events": [
+      216301
+    ]
+  },
+  {
+    "id": 1604,
+    "gameEventType": 2,
+    "events": [
+      1601,
+      1602,
+      1603
+    ]
+  },
+  {
+    "id": 1701,
+    "gameEventType": 1,
+    "events": [
+      217101
+    ]
+  },
+  {
+    "id": 1702,
+    "gameEventType": 1,
+    "events": [
+      217201
+    ]
+  },
+  {
+    "id": 1703,
+    "gameEventType": 1,
+    "events": [
+      217301
+    ]
+  },
+  {
+    "id": 1704,
+    "gameEventType": 2,
+    "events": [
+      1701,
+      1702,
+      1703
+    ]
+  },
+  {
+    "id": 1801,
+    "gameEventType": 1,
+    "events": [
+      218101
+    ]
+  },
+  {
+    "id": 1802,
+    "gameEventType": 1,
+    "events": [
+      218201
+    ]
+  },
+  {
+    "id": 1803,
+    "gameEventType": 1,
+    "events": [
+      218301
+    ]
+  },
+  {
+    "id": 1804,
+    "gameEventType": 2,
+    "events": [
+      1801,
+      1802,
+      1803
+    ]
+  },
+  {
+    "id": 1901,
+    "gameEventType": 1,
+    "events": [
+      219101
+    ]
+  },
+  {
+    "id": 1902,
+    "gameEventType": 1,
+    "events": [
+      219201
+    ]
+  },
+  {
+    "id": 1903,
+    "gameEventType": 1,
+    "events": [
+      219301
+    ]
+  },
+  {
+    "id": 1904,
+    "gameEventType": 2,
+    "events": [
+      1901,
+      1902,
+      1903
+    ]
+  },
+  {
+    "id": 2001,
+    "gameEventType": 1,
+    "events": [
+      220101
+    ]
+  },
+  {
+    "id": 2002,
+    "gameEventType": 1,
+    "events": [
+      220201
+    ]
+  },
+  {
+    "id": 2003,
+    "gameEventType": 1,
+    "events": [
+      220301
+    ]
+  },
+  {
+    "id": 2004,
+    "gameEventType": 2,
+    "events": [
+      2001,
+      2002,
+      2003
+    ]
+  }
+]

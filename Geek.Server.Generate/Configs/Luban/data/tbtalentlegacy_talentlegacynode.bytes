@@ -1,0 +1,4337 @@
+[
+  {
+    "id": 10101,
+    "romeNumber": "Ⅰ",
+    "getSkill": 510103,
+    "type": 3,
+    "spineID": 40011,
+    "name": "legacy_name_10101",
+    "iconId": 162,
+    "icon": "img_talentLegacy_xiaogu",
+    "career": 1,
+    "pos": [
+      "1",
+      "3"
+    ],
+    "condition": []
+  },
+  {
+    "id": 10102,
+    "romeNumber": "",
+    "getSkill": 0,
+    "type": 1,
+    "spineID": 0,
+    "name": "legacy_name_10102",
+    "iconId": 161,
+    "icon": "talentlegacy_att_llife",
+    "career": 1,
+    "pos": [
+      "2",
+      "1"
+    ],
+    "condition": [
+      "10101,1"
+    ]
+  },
+  {
+    "id": 10103,
+    "romeNumber": "",
+    "getSkill": 0,
+    "type": 1,
+    "spineID": 0,
+    "name": "legacy_name_10103",
+    "iconId": 161,
+    "icon": "talentlegacy_att_atk",
+    "career": 1,
+    "pos": [
+      "3",
+      "1"
+    ],
+    "condition": [
+      "10102,10"
+    ]
+  },
+  {
+    "id": 10104,
+    "romeNumber": "",
+    "getSkill": 0,
+    "type": 1,
+    "spineID": 0,
+    "name": "legacy_name_10104",
+    "iconId": 161,
+    "icon": "talentlegacy_att_de",
+    "career": 1,
+    "pos": [
+      "4",
+      "1"
+    ],
+    "condition": [
+      "10103,10"
+    ]
+  },
+  {
+    "id": 10105,
+    "romeNumber": "",
+    "getSkill": 0,
+    "type": 1,
+    "spineID": 0,
+    "name": "legacy_name_10105",
+    "iconId": 161,
+    "icon": "talentlegacy_att_llife%",
+    "career": 1,
+    "pos": [
+      "2",
+      "5"
+    ],
+    "condition": [
+      "10101,1"
+    ]
+  },
+  {
+    "id": 10106,
+    "romeNumber": "",
+    "getSkill": 0,
+    "type": 1,
+    "spineID": 0,
+    "name": "legacy_name_10106",
+    "iconId": 161,
+    "icon": "talentlegacy_att_atk%",
+    "career": 1,
+    "pos": [
+      "3",
+      "5"
+    ],
+    "condition": [
+      "10105,5"
+    ]
+  },
+  {
+    "id": 10107,
+    "romeNumber": "",
+    "getSkill": 0,
+    "type": 1,
+    "spineID": 0,
+    "name": "legacy_name_10107",
+    "iconId": 161,
+    "icon": "talentlegacy_att_de%",
+    "career": 1,
+    "pos": [
+      "4",
+      "5"
+    ],
+    "condition": [
+      "10106,5"
+    ]
+  },
+  {
+    "id": 10108,
+    "romeNumber": "",
+    "getSkill": 0,
+    "type": 4,
+    "spineID": 0,
+    "name": "legacy_name_10108",
+    "iconId": 161,
+    "icon": "talentlegacy_buff_bone1",
+    "career": 1,
+    "pos": [
+      "3",
+      "3"
+    ],
+    "condition": [
+      "10106,5"
+    ]
+  },
+  {
+    "id": 10201,
+    "romeNumber": "Ⅱ",
+    "getSkill": 0,
+    "type": 4,
+    "spineID": 0,
+    "name": "legacy_name_10201",
+    "iconId": 161,
+    "icon": "talentlegacy_buff_bone2",
+    "career": 1,
+    "pos": [
+      "5",
+      "3"
+    ],
+    "condition": [
+      "10104,10",
+      "10107,5"
+    ]
+  },
+  {
+    "id": 10202,
+    "romeNumber": "",
+    "getSkill": 0,
+    "type": 1,
+    "spineID": 0,
+    "name": "legacy_name_10202",
+    "iconId": 161,
+    "icon": "talentlegacy_att_llife",
+    "career": 1,
+    "pos": [
+      "6",
+      "1"
+    ],
+    "condition": [
+      "10201,1"
+    ]
+  },
+  {
+    "id": 10203,
+    "romeNumber": "",
+    "getSkill": 0,
+    "type": 1,
+    "spineID": 0,
+    "name": "legacy_name_10203",
+    "iconId": 161,
+    "icon": "talentlegacy_att_atk",
+    "career": 1,
+    "pos": [
+      "7",
+      "1"
+    ],
+    "condition": [
+      "10202,10"
+    ]
+  },
+  {
+    "id": 10204,
+    "romeNumber": "",
+    "getSkill": 0,
+    "type": 1,
+    "spineID": 0,
+    "name": "legacy_name_10204",
+    "iconId": 161,
+    "icon": "talentlegacy_att_de",
+    "career": 1,
+    "pos": [
+      "8",
+      "1"
+    ],
+    "condition": [
+      "10203,10"
+    ]
+  },
+  {
+    "id": 10205,
+    "romeNumber": "",
+    "getSkill": 0,
+    "type": 1,
+    "spineID": 0,
+    "name": "legacy_name_10205",
+    "iconId": 161,
+    "icon": "talentlegacy_att_combo",
+    "career": 1,
+    "pos": [
+      "6",
+      "5"
+    ],
+    "condition": [
+      "10201,1"
+    ]
+  },
+  {
+    "id": 10206,
+    "romeNumber": "",
+    "getSkill": 0,
+    "type": 1,
+    "spineID": 0,
+    "name": "legacy_name_10206",
+    "iconId": 161,
+    "icon": "talentlegacy_att_atknormal",
+    "career": 1,
+    "pos": [
+      "7",
+      "5"
+    ],
+    "condition": [
+      "10205,5"
+    ]
+  },
+  {
+    "id": 10207,
+    "romeNumber": "",
+    "getSkill": 0,
+    "type": 1,
+    "spineID": 0,
+    "name": "legacy_name_10207",
+    "iconId": 161,
+    "icon": "talentlegacy_att_crit",
+    "career": 1,
+    "pos": [
+      "8",
+      "5"
+    ],
+    "condition": [
+      "10206,5"
+    ]
+  },
+  {
+    "id": 10208,
+    "romeNumber": "",
+    "getSkill": 0,
+    "type": 2,
+    "spineID": 0,
+    "name": "legacy_name_10208",
+    "iconId": 161,
+    "icon": "talentlegacy_buff_att",
+    "career": 1,
+    "pos": [
+      "7",
+      "3"
+    ],
+    "condition": [
+      "10206,5"
+    ]
+  },
+  {
+    "id": 10301,
+    "romeNumber": "Ⅲ",
+    "getSkill": 0,
+    "type": 4,
+    "spineID": 0,
+    "name": "legacy_name_10301",
+    "iconId": 161,
+    "icon": "talentlegacy_buff_bone3",
+    "career": 1,
+    "pos": [
+      "9",
+      "3"
+    ],
+    "condition": [
+      "10204,10",
+      "10207,5"
+    ]
+  },
+  {
+    "id": 10302,
+    "romeNumber": "",
+    "getSkill": 0,
+    "type": 1,
+    "spineID": 0,
+    "name": "legacy_name_10302",
+    "iconId": 161,
+    "icon": "talentlegacy_att_llife",
+    "career": 1,
+    "pos": [
+      "10",
+      "1"
+    ],
+    "condition": [
+      "10301,1"
+    ]
+  },
+  {
+    "id": 10303,
+    "romeNumber": "",
+    "getSkill": 0,
+    "type": 1,
+    "spineID": 0,
+    "name": "legacy_name_10303",
+    "iconId": 161,
+    "icon": "talentlegacy_att_atk",
+    "career": 1,
+    "pos": [
+      "11",
+      "1"
+    ],
+    "condition": [
+      "10302,10"
+    ]
+  },
+  {
+    "id": 10304,
+    "romeNumber": "",
+    "getSkill": 0,
+    "type": 1,
+    "spineID": 0,
+    "name": "legacy_name_10304",
+    "iconId": 161,
+    "icon": "talentlegacy_att_de",
+    "career": 1,
+    "pos": [
+      "12",
+      "1"
+    ],
+    "condition": [
+      "10303,10"
+    ]
+  },
+  {
+    "id": 10305,
+    "romeNumber": "",
+    "getSkill": 0,
+    "type": 1,
+    "spineID": 0,
+    "name": "legacy_name_10305",
+    "iconId": 161,
+    "icon": "talentlegacy_att_redefend",
+    "career": 1,
+    "pos": [
+      "10",
+      "5"
+    ],
+    "condition": [
+      "10301,1"
+    ]
+  },
+  {
+    "id": 10306,
+    "romeNumber": "",
+    "getSkill": 0,
+    "type": 1,
+    "spineID": 0,
+    "name": "legacy_name_10306",
+    "iconId": 161,
+    "icon": "talentlegacy_att_reatk",
+    "career": 1,
+    "pos": [
+      "11",
+      "5"
+    ],
+    "condition": [
+      "10305,5"
+    ]
+  },
+  {
+    "id": 10307,
+    "romeNumber": "",
+    "getSkill": 0,
+    "type": 1,
+    "spineID": 0,
+    "name": "legacy_name_10307",
+    "iconId": 161,
+    "icon": "talentlegacy_att_reskill",
+    "career": 1,
+    "pos": [
+      "12",
+      "5"
+    ],
+    "condition": [
+      "10306,5"
+    ]
+  },
+  {
+    "id": 10308,
+    "romeNumber": "",
+    "getSkill": 0,
+    "type": 2,
+    "spineID": 0,
+    "name": "legacy_name_10308",
+    "iconId": 161,
+    "icon": "talentlegacy_buff_att",
+    "career": 1,
+    "pos": [
+      "11",
+      "3"
+    ],
+    "condition": [
+      "10306,5"
+    ]
+  },
+  {
+    "id": 10401,
+    "romeNumber": "Ⅳ",
+    "getSkill": 510203,
+    "type": 3,
+    "spineID": 40012,
+    "name": "legacy_name_10401",
+    "iconId": 162,
+    "icon": "img_talentLegacy_kuloubin",
+    "career": 1,
+    "pos": [
+      "13",
+      "3"
+    ],
+    "condition": [
+      "10304,10",
+      "10307,5"
+    ]
+  },
+  {
+    "id": 10402,
+    "romeNumber": "",
+    "getSkill": 0,
+    "type": 1,
+    "spineID": 0,
+    "name": "legacy_name_10402",
+    "iconId": 161,
+    "icon": "talentlegacy_att_llife",
+    "career": 1,
+    "pos": [
+      "14",
+      "1"
+    ],
+    "condition": [
+      "10401,1"
+    ]
+  },
+  {
+    "id": 10403,
+    "romeNumber": "",
+    "getSkill": 0,
+    "type": 1,
+    "spineID": 0,
+    "name": "legacy_name_10403",
+    "iconId": 161,
+    "icon": "talentlegacy_att_atk",
+    "career": 1,
+    "pos": [
+      "15",
+      "1"
+    ],
+    "condition": [
+      "10402,10"
+    ]
+  },
+  {
+    "id": 10404,
+    "romeNumber": "",
+    "getSkill": 0,
+    "type": 1,
+    "spineID": 0,
+    "name": "legacy_name_10404",
+    "iconId": 161,
+    "icon": "talentlegacy_att_de",
+    "career": 1,
+    "pos": [
+      "16",
+      "1"
+    ],
+    "condition": [
+      "10403,10"
+    ]
+  },
+  {
+    "id": 10405,
+    "romeNumber": "",
+    "getSkill": 0,
+    "type": 1,
+    "spineID": 0,
+    "name": "legacy_name_10405",
+    "iconId": 161,
+    "icon": "talentlegacy_att_llife%",
+    "career": 1,
+    "pos": [
+      "14",
+      "5"
+    ],
+    "condition": [
+      "10401,1"
+    ]
+  },
+  {
+    "id": 10406,
+    "romeNumber": "",
+    "getSkill": 0,
+    "type": 1,
+    "spineID": 0,
+    "name": "legacy_name_10406",
+    "iconId": 161,
+    "icon": "talentlegacy_att_atk%",
+    "career": 1,
+    "pos": [
+      "15",
+      "5"
+    ],
+    "condition": [
+      "10405,5"
+    ]
+  },
+  {
+    "id": 10407,
+    "romeNumber": "",
+    "getSkill": 0,
+    "type": 1,
+    "spineID": 0,
+    "name": "legacy_name_10407",
+    "iconId": 161,
+    "icon": "talentlegacy_att_de%",
+    "career": 1,
+    "pos": [
+      "16",
+      "5"
+    ],
+    "condition": [
+      "10406,5"
+    ]
+  },
+  {
+    "id": 10408,
+    "romeNumber": "",
+    "getSkill": 0,
+    "type": 4,
+    "spineID": 0,
+    "name": "legacy_name_10408",
+    "iconId": 161,
+    "icon": "talentlegacy_buff_bone4",
+    "career": 1,
+    "pos": [
+      "15",
+      "3"
+    ],
+    "condition": [
+      "10406,5"
+    ]
+  },
+  {
+    "id": 10501,
+    "romeNumber": "Ⅴ",
+    "getSkill": 0,
+    "type": 4,
+    "spineID": 0,
+    "name": "legacy_name_10501",
+    "iconId": 161,
+    "icon": "talentlegacy_buff_bone5",
+    "career": 1,
+    "pos": [
+      "17",
+      "3"
+    ],
+    "condition": [
+      "10404,10",
+      "10407,5"
+    ]
+  },
+  {
+    "id": 10502,
+    "romeNumber": "",
+    "getSkill": 0,
+    "type": 1,
+    "spineID": 0,
+    "name": "legacy_name_10502",
+    "iconId": 161,
+    "icon": "talentlegacy_att_llife",
+    "career": 1,
+    "pos": [
+      "18",
+      "1"
+    ],
+    "condition": [
+      "10501,1"
+    ]
+  },
+  {
+    "id": 10503,
+    "romeNumber": "",
+    "getSkill": 0,
+    "type": 1,
+    "spineID": 0,
+    "name": "legacy_name_10503",
+    "iconId": 161,
+    "icon": "talentlegacy_att_atk",
+    "career": 1,
+    "pos": [
+      "19",
+      "1"
+    ],
+    "condition": [
+      "10502,10"
+    ]
+  },
+  {
+    "id": 10504,
+    "romeNumber": "",
+    "getSkill": 0,
+    "type": 1,
+    "spineID": 0,
+    "name": "legacy_name_10504",
+    "iconId": 161,
+    "icon": "talentlegacy_att_de",
+    "career": 1,
+    "pos": [
+      "20",
+      "1"
+    ],
+    "condition": [
+      "10503,10"
+    ]
+  },
+  {
+    "id": 10505,
+    "romeNumber": "",
+    "getSkill": 0,
+    "type": 1,
+    "spineID": 0,
+    "name": "legacy_name_10505",
+    "iconId": 161,
+    "icon": "talentlegacy_att_combo",
+    "career": 1,
+    "pos": [
+      "18",
+      "5"
+    ],
+    "condition": [
+      "10501,1"
+    ]
+  },
+  {
+    "id": 10506,
+    "romeNumber": "",
+    "getSkill": 0,
+    "type": 1,
+    "spineID": 0,
+    "name": "legacy_name_10506",
+    "iconId": 161,
+    "icon": "talentlegacy_att_atknormal",
+    "career": 1,
+    "pos": [
+      "19",
+      "5"
+    ],
+    "condition": [
+      "10505,5"
+    ]
+  },
+  {
+    "id": 10507,
+    "romeNumber": "",
+    "getSkill": 0,
+    "type": 1,
+    "spineID": 0,
+    "name": "legacy_name_10507",
+    "iconId": 161,
+    "icon": "talentlegacy_att_crit",
+    "career": 1,
+    "pos": [
+      "20",
+      "5"
+    ],
+    "condition": [
+      "10506,5"
+    ]
+  },
+  {
+    "id": 10508,
+    "romeNumber": "",
+    "getSkill": 0,
+    "type": 2,
+    "spineID": 0,
+    "name": "legacy_name_10508",
+    "iconId": 161,
+    "icon": "talentlegacy_buff_att",
+    "career": 1,
+    "pos": [
+      "19",
+      "3"
+    ],
+    "condition": [
+      "10506,5"
+    ]
+  },
+  {
+    "id": 10601,
+    "romeNumber": "Ⅵ",
+    "getSkill": 520104,
+    "type": 3,
+    "spineID": 40013,
+    "name": "legacy_name_10601",
+    "iconId": 162,
+    "icon": "img_talentLegacy_kulouwang",
+    "career": 1,
+    "pos": [
+      "21",
+      "3"
+    ],
+    "condition": [
+      "10504,10",
+      "10507,5"
+    ]
+  },
+  {
+    "id": 10602,
+    "romeNumber": "",
+    "getSkill": 0,
+    "type": 1,
+    "spineID": 0,
+    "name": "legacy_name_10602",
+    "iconId": 161,
+    "icon": "talentlegacy_att_llife",
+    "career": 1,
+    "pos": [
+      "22",
+      "1"
+    ],
+    "condition": [
+      "10601,1"
+    ]
+  },
+  {
+    "id": 10603,
+    "romeNumber": "",
+    "getSkill": 0,
+    "type": 1,
+    "spineID": 0,
+    "name": "legacy_name_10603",
+    "iconId": 161,
+    "icon": "talentlegacy_att_atk",
+    "career": 1,
+    "pos": [
+      "23",
+      "1"
+    ],
+    "condition": [
+      "10602,10"
+    ]
+  },
+  {
+    "id": 10604,
+    "romeNumber": "",
+    "getSkill": 0,
+    "type": 1,
+    "spineID": 0,
+    "name": "legacy_name_10604",
+    "iconId": 161,
+    "icon": "talentlegacy_att_de",
+    "career": 1,
+    "pos": [
+      "24",
+      "1"
+    ],
+    "condition": [
+      "10603,10"
+    ]
+  },
+  {
+    "id": 10605,
+    "romeNumber": "",
+    "getSkill": 0,
+    "type": 1,
+    "spineID": 0,
+    "name": "legacy_name_10605",
+    "iconId": 161,
+    "icon": "talentlegacy_att_redefend",
+    "career": 1,
+    "pos": [
+      "22",
+      "5"
+    ],
+    "condition": [
+      "10601,1"
+    ]
+  },
+  {
+    "id": 10606,
+    "romeNumber": "",
+    "getSkill": 0,
+    "type": 1,
+    "spineID": 0,
+    "name": "legacy_name_10606",
+    "iconId": 161,
+    "icon": "talentlegacy_att_reatk",
+    "career": 1,
+    "pos": [
+      "23",
+      "5"
+    ],
+    "condition": [
+      "10605,5"
+    ]
+  },
+  {
+    "id": 10607,
+    "romeNumber": "",
+    "getSkill": 0,
+    "type": 1,
+    "spineID": 0,
+    "name": "legacy_name_10607",
+    "iconId": 161,
+    "icon": "talentlegacy_att_reskill",
+    "career": 1,
+    "pos": [
+      "24",
+      "5"
+    ],
+    "condition": [
+      "10606,5"
+    ]
+  },
+  {
+    "id": 10608,
+    "romeNumber": "",
+    "getSkill": 0,
+    "type": 4,
+    "spineID": 0,
+    "name": "legacy_name_10608",
+    "iconId": 161,
+    "icon": "img_talentLegacy",
+    "career": 1,
+    "pos": [
+      "23",
+      "3"
+    ],
+    "condition": [
+      "10606,5"
+    ]
+  },
+  {
+    "id": 20101,
+    "romeNumber": "Ⅰ",
+    "getSkill": 510303,
+    "type": 3,
+    "spineID": 40021,
+    "name": "legacy_name_20101",
+    "iconId": 162,
+    "icon": "img_talentLegacy_qiangqi",
+    "career": 2,
+    "pos": [
+      "1",
+      "3"
+    ],
+    "condition": []
+  },
+  {
+    "id": 20102,
+    "romeNumber": "",
+    "getSkill": 0,
+    "type": 1,
+    "spineID": 0,
+    "name": "legacy_name_20102",
+    "iconId": 161,
+    "icon": "talentlegacy_att_llife",
+    "career": 2,
+    "pos": [
+      "2",
+      "1"
+    ],
+    "condition": [
+      "20101,1"
+    ]
+  },
+  {
+    "id": 20103,
+    "romeNumber": "",
+    "getSkill": 0,
+    "type": 1,
+    "spineID": 0,
+    "name": "legacy_name_20103",
+    "iconId": 161,
+    "icon": "talentlegacy_att_atk",
+    "career": 2,
+    "pos": [
+      "3",
+      "1"
+    ],
+    "condition": [
+      "20102,10"
+    ]
+  },
+  {
+    "id": 20104,
+    "romeNumber": "",
+    "getSkill": 0,
+    "type": 1,
+    "spineID": 0,
+    "name": "legacy_name_20104",
+    "iconId": 161,
+    "icon": "talentlegacy_att_de",
+    "career": 2,
+    "pos": [
+      "4",
+      "1"
+    ],
+    "condition": [
+      "20103,10"
+    ]
+  },
+  {
+    "id": 20105,
+    "romeNumber": "",
+    "getSkill": 0,
+    "type": 1,
+    "spineID": 0,
+    "name": "legacy_name_20105",
+    "iconId": 161,
+    "icon": "talentlegacy_att_llife%",
+    "career": 2,
+    "pos": [
+      "2",
+      "5"
+    ],
+    "condition": [
+      "20101,1"
+    ]
+  },
+  {
+    "id": 20106,
+    "romeNumber": "",
+    "getSkill": 0,
+    "type": 1,
+    "spineID": 0,
+    "name": "legacy_name_20106",
+    "iconId": 161,
+    "icon": "talentlegacy_att_atk%",
+    "career": 2,
+    "pos": [
+      "3",
+      "5"
+    ],
+    "condition": [
+      "20105,5"
+    ]
+  },
+  {
+    "id": 20107,
+    "romeNumber": "",
+    "getSkill": 0,
+    "type": 1,
+    "spineID": 0,
+    "name": "legacy_name_20107",
+    "iconId": 161,
+    "icon": "talentlegacy_att_de%",
+    "career": 2,
+    "pos": [
+      "4",
+      "5"
+    ],
+    "condition": [
+      "20106,5"
+    ]
+  },
+  {
+    "id": 20108,
+    "romeNumber": "",
+    "getSkill": 0,
+    "type": 4,
+    "spineID": 0,
+    "name": "legacy_name_20108",
+    "iconId": 161,
+    "icon": "talentlegacy_buff_knight0",
+    "career": 2,
+    "pos": [
+      "3",
+      "3"
+    ],
+    "condition": [
+      "20106,5"
+    ]
+  },
+  {
+    "id": 20201,
+    "romeNumber": "Ⅱ",
+    "getSkill": 0,
+    "type": 4,
+    "spineID": 0,
+    "name": "legacy_name_20201",
+    "iconId": 161,
+    "icon": "talentlegacy_buff_knight1",
+    "career": 2,
+    "pos": [
+      "5",
+      "3"
+    ],
+    "condition": [
+      "20104,10",
+      "20107,5"
+    ]
+  },
+  {
+    "id": 20202,
+    "romeNumber": "",
+    "getSkill": 0,
+    "type": 1,
+    "spineID": 0,
+    "name": "legacy_name_20202",
+    "iconId": 161,
+    "icon": "talentlegacy_att_llife",
+    "career": 2,
+    "pos": [
+      "6",
+      "1"
+    ],
+    "condition": [
+      "20201,1"
+    ]
+  },
+  {
+    "id": 20203,
+    "romeNumber": "",
+    "getSkill": 0,
+    "type": 1,
+    "spineID": 0,
+    "name": "legacy_name_20203",
+    "iconId": 161,
+    "icon": "talentlegacy_att_atk",
+    "career": 2,
+    "pos": [
+      "7",
+      "1"
+    ],
+    "condition": [
+      "20202,10"
+    ]
+  },
+  {
+    "id": 20204,
+    "romeNumber": "",
+    "getSkill": 0,
+    "type": 1,
+    "spineID": 0,
+    "name": "legacy_name_20204",
+    "iconId": 161,
+    "icon": "talentlegacy_att_de",
+    "career": 2,
+    "pos": [
+      "8",
+      "1"
+    ],
+    "condition": [
+      "20203,10"
+    ]
+  },
+  {
+    "id": 20205,
+    "romeNumber": "",
+    "getSkill": 0,
+    "type": 1,
+    "spineID": 0,
+    "name": "legacy_name_50609",
+    "iconId": 161,
+    "icon": "talentlegacy_combo_re",
+    "career": 2,
+    "pos": [
+      "6",
+      "5"
+    ],
+    "condition": [
+      "20201,1"
+    ]
+  },
+  {
+    "id": 20206,
+    "romeNumber": "",
+    "getSkill": 0,
+    "type": 1,
+    "spineID": 0,
+    "name": "legacy_name_50610",
+    "iconId": 161,
+    "icon": "talentlegacy_att_de%",
+    "career": 2,
+    "pos": [
+      "7",
+      "5"
+    ],
+    "condition": [
+      "20205,5"
+    ]
+  },
+  {
+    "id": 20207,
+    "romeNumber": "",
+    "getSkill": 0,
+    "type": 1,
+    "spineID": 0,
+    "name": "legacy_name_30307",
+    "iconId": 161,
+    "icon": "talentlegacy_att_reskill",
+    "career": 2,
+    "pos": [
+      "8",
+      "5"
+    ],
+    "condition": [
+      "20206,5"
+    ]
+  },
+  {
+    "id": 20208,
+    "romeNumber": "",
+    "getSkill": 0,
+    "type": 2,
+    "spineID": 0,
+    "name": "legacy_name_20208",
+    "iconId": 161,
+    "icon": "talentlegacy_buff_att",
+    "career": 2,
+    "pos": [
+      "7",
+      "3"
+    ],
+    "condition": [
+      "20206,5"
+    ]
+  },
+  {
+    "id": 20301,
+    "romeNumber": "Ⅲ",
+    "getSkill": 0,
+    "type": 4,
+    "spineID": 0,
+    "name": "legacy_name_20301",
+    "iconId": 161,
+    "icon": "talentlegacy_buff_knight2",
+    "career": 2,
+    "pos": [
+      "9",
+      "3"
+    ],
+    "condition": [
+      "20204,10",
+      "20207,5"
+    ]
+  },
+  {
+    "id": 20302,
+    "romeNumber": "",
+    "getSkill": 0,
+    "type": 1,
+    "spineID": 0,
+    "name": "legacy_name_20302",
+    "iconId": 161,
+    "icon": "talentlegacy_att_llife",
+    "career": 2,
+    "pos": [
+      "10",
+      "1"
+    ],
+    "condition": [
+      "20301,1"
+    ]
+  },
+  {
+    "id": 20303,
+    "romeNumber": "",
+    "getSkill": 0,
+    "type": 1,
+    "spineID": 0,
+    "name": "legacy_name_20303",
+    "iconId": 161,
+    "icon": "talentlegacy_att_atk",
+    "career": 2,
+    "pos": [
+      "11",
+      "1"
+    ],
+    "condition": [
+      "20302,10"
+    ]
+  },
+  {
+    "id": 20304,
+    "romeNumber": "",
+    "getSkill": 0,
+    "type": 1,
+    "spineID": 0,
+    "name": "legacy_name_20304",
+    "iconId": 161,
+    "icon": "talentlegacy_att_de",
+    "career": 2,
+    "pos": [
+      "12",
+      "1"
+    ],
+    "condition": [
+      "20303,10"
+    ]
+  },
+  {
+    "id": 20305,
+    "romeNumber": "",
+    "getSkill": 0,
+    "type": 1,
+    "spineID": 0,
+    "name": "legacy_name_50611",
+    "iconId": 161,
+    "icon": "talentlegacy_buff_knight4",
+    "career": 2,
+    "pos": [
+      "10",
+      "5"
+    ],
+    "condition": [
+      "20301,1"
+    ]
+  },
+  {
+    "id": 20306,
+    "romeNumber": "",
+    "getSkill": 0,
+    "type": 1,
+    "spineID": 0,
+    "name": "legacy_name_10206",
+    "iconId": 161,
+    "icon": "talentlegacy_att_atknormal",
+    "career": 2,
+    "pos": [
+      "11",
+      "5"
+    ],
+    "condition": [
+      "20305,5"
+    ]
+  },
+  {
+    "id": 20307,
+    "romeNumber": "",
+    "getSkill": 0,
+    "type": 1,
+    "spineID": 0,
+    "name": "legacy_name_10507",
+    "iconId": 161,
+    "icon": "talentlegacy_att_crit",
+    "career": 2,
+    "pos": [
+      "12",
+      "5"
+    ],
+    "condition": [
+      "20306,5"
+    ]
+  },
+  {
+    "id": 20308,
+    "romeNumber": "",
+    "getSkill": 0,
+    "type": 2,
+    "spineID": 0,
+    "name": "legacy_name_20308",
+    "iconId": 161,
+    "icon": "talentlegacy_buff_att",
+    "career": 2,
+    "pos": [
+      "11",
+      "3"
+    ],
+    "condition": [
+      "20306,5"
+    ]
+  },
+  {
+    "id": 20401,
+    "romeNumber": "Ⅳ",
+    "getSkill": 510403,
+    "type": 3,
+    "spineID": 40022,
+    "name": "legacy_name_20401",
+    "iconId": 162,
+    "icon": "img_talentLegacy_xiaoqi",
+    "career": 2,
+    "pos": [
+      "13",
+      "3"
+    ],
+    "condition": [
+      "20304,10",
+      "20307,5"
+    ]
+  },
+  {
+    "id": 20402,
+    "romeNumber": "",
+    "getSkill": 0,
+    "type": 1,
+    "spineID": 0,
+    "name": "legacy_name_20402",
+    "iconId": 161,
+    "icon": "talentlegacy_att_llife",
+    "career": 2,
+    "pos": [
+      "14",
+      "1"
+    ],
+    "condition": [
+      "20401,1"
+    ]
+  },
+  {
+    "id": 20403,
+    "romeNumber": "",
+    "getSkill": 0,
+    "type": 1,
+    "spineID": 0,
+    "name": "legacy_name_20403",
+    "iconId": 161,
+    "icon": "talentlegacy_att_atk",
+    "career": 2,
+    "pos": [
+      "15",
+      "1"
+    ],
+    "condition": [
+      "20402,10"
+    ]
+  },
+  {
+    "id": 20404,
+    "romeNumber": "",
+    "getSkill": 0,
+    "type": 1,
+    "spineID": 0,
+    "name": "legacy_name_20404",
+    "iconId": 161,
+    "icon": "talentlegacy_att_de",
+    "career": 2,
+    "pos": [
+      "16",
+      "1"
+    ],
+    "condition": [
+      "20403,10"
+    ]
+  },
+  {
+    "id": 20405,
+    "romeNumber": "",
+    "getSkill": 0,
+    "type": 1,
+    "spineID": 0,
+    "name": "legacy_name_20405",
+    "iconId": 161,
+    "icon": "talentlegacy_att_llife%",
+    "career": 2,
+    "pos": [
+      "14",
+      "5"
+    ],
+    "condition": [
+      "20401,1"
+    ]
+  },
+  {
+    "id": 20406,
+    "romeNumber": "",
+    "getSkill": 0,
+    "type": 1,
+    "spineID": 0,
+    "name": "legacy_name_20406",
+    "iconId": 161,
+    "icon": "talentlegacy_att_atk%",
+    "career": 2,
+    "pos": [
+      "15",
+      "5"
+    ],
+    "condition": [
+      "20405,5"
+    ]
+  },
+  {
+    "id": 20407,
+    "romeNumber": "",
+    "getSkill": 0,
+    "type": 1,
+    "spineID": 0,
+    "name": "legacy_name_20407",
+    "iconId": 161,
+    "icon": "talentlegacy_att_de%",
+    "career": 2,
+    "pos": [
+      "16",
+      "5"
+    ],
+    "condition": [
+      "20406,5"
+    ]
+  },
+  {
+    "id": 20408,
+    "romeNumber": "",
+    "getSkill": 0,
+    "type": 4,
+    "spineID": 0,
+    "name": "legacy_name_20408",
+    "iconId": 161,
+    "icon": "talentlegacy_buff_knight4",
+    "career": 2,
+    "pos": [
+      "15",
+      "3"
+    ],
+    "condition": [
+      "20406,5"
+    ]
+  },
+  {
+    "id": 20501,
+    "romeNumber": "Ⅴ",
+    "getSkill": 0,
+    "type": 4,
+    "spineID": 0,
+    "name": "legacy_name_20501",
+    "iconId": 161,
+    "icon": "talentlegacy_buff_recover",
+    "career": 2,
+    "pos": [
+      "17",
+      "3"
+    ],
+    "condition": [
+      "20404,10",
+      "20407,5"
+    ]
+  },
+  {
+    "id": 20502,
+    "romeNumber": "",
+    "getSkill": 0,
+    "type": 1,
+    "spineID": 0,
+    "name": "legacy_name_20502",
+    "iconId": 161,
+    "icon": "talentlegacy_att_llife",
+    "career": 2,
+    "pos": [
+      "18",
+      "1"
+    ],
+    "condition": [
+      "20501,1"
+    ]
+  },
+  {
+    "id": 20503,
+    "romeNumber": "",
+    "getSkill": 0,
+    "type": 1,
+    "spineID": 0,
+    "name": "legacy_name_20503",
+    "iconId": 161,
+    "icon": "talentlegacy_att_atk",
+    "career": 2,
+    "pos": [
+      "19",
+      "1"
+    ],
+    "condition": [
+      "20502,10"
+    ]
+  },
+  {
+    "id": 20504,
+    "romeNumber": "",
+    "getSkill": 0,
+    "type": 1,
+    "spineID": 0,
+    "name": "legacy_name_20504",
+    "iconId": 161,
+    "icon": "talentlegacy_att_de",
+    "career": 2,
+    "pos": [
+      "20",
+      "1"
+    ],
+    "condition": [
+      "20503,10"
+    ]
+  },
+  {
+    "id": 20505,
+    "romeNumber": "",
+    "getSkill": 0,
+    "type": 1,
+    "spineID": 0,
+    "name": "legacy_name_50609",
+    "iconId": 161,
+    "icon": "talentlegacy_combo_re",
+    "career": 2,
+    "pos": [
+      "18",
+      "5"
+    ],
+    "condition": [
+      "20501,1"
+    ]
+  },
+  {
+    "id": 20506,
+    "romeNumber": "",
+    "getSkill": 0,
+    "type": 1,
+    "spineID": 0,
+    "name": "legacy_name_50610",
+    "iconId": 161,
+    "icon": "talentlegacy_att_de%",
+    "career": 2,
+    "pos": [
+      "19",
+      "5"
+    ],
+    "condition": [
+      "20505,5"
+    ]
+  },
+  {
+    "id": 20507,
+    "romeNumber": "",
+    "getSkill": 0,
+    "type": 1,
+    "spineID": 0,
+    "name": "legacy_name_30307",
+    "iconId": 161,
+    "icon": "talentlegacy_att_reskill",
+    "career": 2,
+    "pos": [
+      "20",
+      "5"
+    ],
+    "condition": [
+      "20506,5"
+    ]
+  },
+  {
+    "id": 20508,
+    "romeNumber": "",
+    "getSkill": 0,
+    "type": 2,
+    "spineID": 0,
+    "name": "legacy_name_20508",
+    "iconId": 161,
+    "icon": "talentlegacy_buff_att",
+    "career": 2,
+    "pos": [
+      "19",
+      "3"
+    ],
+    "condition": [
+      "20506,5"
+    ]
+  },
+  {
+    "id": 20601,
+    "romeNumber": "Ⅵ",
+    "getSkill": 520204,
+    "type": 3,
+    "spineID": 40023,
+    "name": "legacy_name_20601",
+    "iconId": 162,
+    "icon": "img_talentLegacy_huangjia",
+    "career": 2,
+    "pos": [
+      "21",
+      "3"
+    ],
+    "condition": [
+      "20504,10",
+      "20507,5"
+    ]
+  },
+  {
+    "id": 20602,
+    "romeNumber": "",
+    "getSkill": 0,
+    "type": 1,
+    "spineID": 0,
+    "name": "legacy_name_20602",
+    "iconId": 161,
+    "icon": "talentlegacy_att_llife",
+    "career": 2,
+    "pos": [
+      "22",
+      "1"
+    ],
+    "condition": [
+      "20601,1"
+    ]
+  },
+  {
+    "id": 20603,
+    "romeNumber": "",
+    "getSkill": 0,
+    "type": 1,
+    "spineID": 0,
+    "name": "legacy_name_20603",
+    "iconId": 161,
+    "icon": "talentlegacy_att_atk",
+    "career": 2,
+    "pos": [
+      "23",
+      "1"
+    ],
+    "condition": [
+      "20602,10"
+    ]
+  },
+  {
+    "id": 20604,
+    "romeNumber": "",
+    "getSkill": 0,
+    "type": 1,
+    "spineID": 0,
+    "name": "legacy_name_20604",
+    "iconId": 161,
+    "icon": "talentlegacy_att_de",
+    "career": 2,
+    "pos": [
+      "24",
+      "1"
+    ],
+    "condition": [
+      "20603,10"
+    ]
+  },
+  {
+    "id": 20605,
+    "romeNumber": "",
+    "getSkill": 0,
+    "type": 1,
+    "spineID": 0,
+    "name": "legacy_name_50611",
+    "iconId": 161,
+    "icon": "talentlegacy_buff_knight4",
+    "career": 2,
+    "pos": [
+      "22",
+      "5"
+    ],
+    "condition": [
+      "20601,1"
+    ]
+  },
+  {
+    "id": 20606,
+    "romeNumber": "",
+    "getSkill": 0,
+    "type": 1,
+    "spineID": 0,
+    "name": "legacy_name_10206",
+    "iconId": 161,
+    "icon": "talentlegacy_att_atknormal",
+    "career": 2,
+    "pos": [
+      "23",
+      "5"
+    ],
+    "condition": [
+      "20605,5"
+    ]
+  },
+  {
+    "id": 20607,
+    "romeNumber": "",
+    "getSkill": 0,
+    "type": 1,
+    "spineID": 0,
+    "name": "legacy_name_10507",
+    "iconId": 161,
+    "icon": "talentlegacy_att_crit",
+    "career": 2,
+    "pos": [
+      "24",
+      "5"
+    ],
+    "condition": [
+      "20606,5"
+    ]
+  },
+  {
+    "id": 20608,
+    "romeNumber": "",
+    "getSkill": 0,
+    "type": 4,
+    "spineID": 0,
+    "name": "legacy_name_20608",
+    "iconId": 161,
+    "icon": "img_talentLegacy",
+    "career": 2,
+    "pos": [
+      "23",
+      "3"
+    ],
+    "condition": [
+      "20606,5"
+    ]
+  },
+  {
+    "id": 30101,
+    "romeNumber": "Ⅰ",
+    "getSkill": 510503,
+    "type": 3,
+    "spineID": 40031,
+    "name": "legacy_name_30101",
+    "iconId": 162,
+    "icon": "img_talentLegacy_chihou",
+    "career": 3,
+    "pos": [
+      "1",
+      "3"
+    ],
+    "condition": []
+  },
+  {
+    "id": 30102,
+    "romeNumber": "",
+    "getSkill": 0,
+    "type": 1,
+    "spineID": 0,
+    "name": "legacy_name_30102",
+    "iconId": 161,
+    "icon": "talentlegacy_att_llife",
+    "career": 3,
+    "pos": [
+      "2",
+      "1"
+    ],
+    "condition": [
+      "30101,1"
+    ]
+  },
+  {
+    "id": 30103,
+    "romeNumber": "",
+    "getSkill": 0,
+    "type": 1,
+    "spineID": 0,
+    "name": "legacy_name_30103",
+    "iconId": 161,
+    "icon": "talentlegacy_att_atk",
+    "career": 3,
+    "pos": [
+      "3",
+      "1"
+    ],
+    "condition": [
+      "30102,10"
+    ]
+  },
+  {
+    "id": 30104,
+    "romeNumber": "",
+    "getSkill": 0,
+    "type": 1,
+    "spineID": 0,
+    "name": "legacy_name_30104",
+    "iconId": 161,
+    "icon": "talentlegacy_att_de",
+    "career": 3,
+    "pos": [
+      "4",
+      "1"
+    ],
+    "condition": [
+      "30103,10"
+    ]
+  },
+  {
+    "id": 30105,
+    "romeNumber": "",
+    "getSkill": 0,
+    "type": 1,
+    "spineID": 0,
+    "name": "legacy_name_30105",
+    "iconId": 161,
+    "icon": "talentlegacy_att_llife%",
+    "career": 3,
+    "pos": [
+      "2",
+      "5"
+    ],
+    "condition": [
+      "30101,1"
+    ]
+  },
+  {
+    "id": 30106,
+    "romeNumber": "",
+    "getSkill": 0,
+    "type": 1,
+    "spineID": 0,
+    "name": "legacy_name_30106",
+    "iconId": 161,
+    "icon": "talentlegacy_att_atk%",
+    "career": 3,
+    "pos": [
+      "3",
+      "5"
+    ],
+    "condition": [
+      "30105,5"
+    ]
+  },
+  {
+    "id": 30107,
+    "romeNumber": "",
+    "getSkill": 0,
+    "type": 1,
+    "spineID": 0,
+    "name": "legacy_name_30107",
+    "iconId": 161,
+    "icon": "talentlegacy_att_de%",
+    "career": 3,
+    "pos": [
+      "4",
+      "5"
+    ],
+    "condition": [
+      "30106,5"
+    ]
+  },
+  {
+    "id": 30108,
+    "romeNumber": "",
+    "getSkill": 0,
+    "type": 4,
+    "spineID": 0,
+    "name": "legacy_name_30108",
+    "iconId": 161,
+    "icon": "talentlegacy_buff_archer1",
+    "career": 3,
+    "pos": [
+      "3",
+      "3"
+    ],
+    "condition": [
+      "30106,5"
+    ]
+  },
+  {
+    "id": 30201,
+    "romeNumber": "Ⅱ",
+    "getSkill": 0,
+    "type": 4,
+    "spineID": 0,
+    "name": "legacy_name_30201",
+    "iconId": 161,
+    "icon": "talentlegacy_buff_archer2",
+    "career": 3,
+    "pos": [
+      "5",
+      "3"
+    ],
+    "condition": [
+      "30104,10",
+      "30107,5"
+    ]
+  },
+  {
+    "id": 30202,
+    "romeNumber": "",
+    "getSkill": 0,
+    "type": 1,
+    "spineID": 0,
+    "name": "legacy_name_30202",
+    "iconId": 161,
+    "icon": "talentlegacy_att_llife",
+    "career": 3,
+    "pos": [
+      "6",
+      "1"
+    ],
+    "condition": [
+      "30201,1"
+    ]
+  },
+  {
+    "id": 30203,
+    "romeNumber": "",
+    "getSkill": 0,
+    "type": 1,
+    "spineID": 0,
+    "name": "legacy_name_30203",
+    "iconId": 161,
+    "icon": "talentlegacy_att_atk",
+    "career": 3,
+    "pos": [
+      "7",
+      "1"
+    ],
+    "condition": [
+      "30202,10"
+    ]
+  },
+  {
+    "id": 30204,
+    "romeNumber": "",
+    "getSkill": 0,
+    "type": 1,
+    "spineID": 0,
+    "name": "legacy_name_30204",
+    "iconId": 161,
+    "icon": "talentlegacy_att_de",
+    "career": 3,
+    "pos": [
+      "8",
+      "1"
+    ],
+    "condition": [
+      "30203,10"
+    ]
+  },
+  {
+    "id": 30205,
+    "romeNumber": "",
+    "getSkill": 0,
+    "type": 1,
+    "spineID": 0,
+    "name": "legacy_name_10206",
+    "iconId": 161,
+    "icon": "talentlegacy_att_atknormal",
+    "career": 3,
+    "pos": [
+      "6",
+      "5"
+    ],
+    "condition": [
+      "30201,1"
+    ]
+  },
+  {
+    "id": 30206,
+    "romeNumber": "",
+    "getSkill": 0,
+    "type": 1,
+    "spineID": 0,
+    "name": "legacy_name_50612",
+    "iconId": 161,
+    "icon": "talentlegacy_Sp",
+    "career": 3,
+    "pos": [
+      "7",
+      "5"
+    ],
+    "condition": [
+      "30205,5"
+    ]
+  },
+  {
+    "id": 30207,
+    "romeNumber": "",
+    "getSkill": 0,
+    "type": 1,
+    "spineID": 0,
+    "name": "legacy_name_30207",
+    "iconId": 161,
+    "icon": "talentlegacy_att_crit",
+    "career": 3,
+    "pos": [
+      "8",
+      "5"
+    ],
+    "condition": [
+      "30206,5"
+    ]
+  },
+  {
+    "id": 30208,
+    "romeNumber": "",
+    "getSkill": 0,
+    "type": 2,
+    "spineID": 0,
+    "name": "legacy_name_30208",
+    "iconId": 161,
+    "icon": "talentlegacy_buff_att",
+    "career": 3,
+    "pos": [
+      "7",
+      "3"
+    ],
+    "condition": [
+      "30206,5"
+    ]
+  },
+  {
+    "id": 30301,
+    "romeNumber": "Ⅲ",
+    "getSkill": 0,
+    "type": 4,
+    "spineID": 0,
+    "name": "legacy_name_30301",
+    "iconId": 161,
+    "icon": "talentlegacy_buff_archer3",
+    "career": 3,
+    "pos": [
+      "9",
+      "3"
+    ],
+    "condition": [
+      "30204,10",
+      "30207,5"
+    ]
+  },
+  {
+    "id": 30302,
+    "romeNumber": "",
+    "getSkill": 0,
+    "type": 1,
+    "spineID": 0,
+    "name": "legacy_name_30302",
+    "iconId": 161,
+    "icon": "talentlegacy_att_llife",
+    "career": 3,
+    "pos": [
+      "10",
+      "1"
+    ],
+    "condition": [
+      "30301,1"
+    ]
+  },
+  {
+    "id": 30303,
+    "romeNumber": "",
+    "getSkill": 0,
+    "type": 1,
+    "spineID": 0,
+    "name": "legacy_name_30303",
+    "iconId": 161,
+    "icon": "talentlegacy_att_atk",
+    "career": 3,
+    "pos": [
+      "11",
+      "1"
+    ],
+    "condition": [
+      "30302,10"
+    ]
+  },
+  {
+    "id": 30304,
+    "romeNumber": "",
+    "getSkill": 0,
+    "type": 1,
+    "spineID": 0,
+    "name": "legacy_name_30304",
+    "iconId": 161,
+    "icon": "talentlegacy_att_de",
+    "career": 3,
+    "pos": [
+      "12",
+      "1"
+    ],
+    "condition": [
+      "30303,10"
+    ]
+  },
+  {
+    "id": 30305,
+    "romeNumber": "",
+    "getSkill": 0,
+    "type": 1,
+    "spineID": 0,
+    "name": "legacy_name_30305",
+    "iconId": 161,
+    "icon": "talentlegacy_att_redefend",
+    "career": 3,
+    "pos": [
+      "10",
+      "5"
+    ],
+    "condition": [
+      "30301,1"
+    ]
+  },
+  {
+    "id": 30306,
+    "romeNumber": "",
+    "getSkill": 0,
+    "type": 1,
+    "spineID": 0,
+    "name": "legacy_name_30306",
+    "iconId": 161,
+    "icon": "talentlegacy_att_reatk",
+    "career": 3,
+    "pos": [
+      "11",
+      "5"
+    ],
+    "condition": [
+      "30305,5"
+    ]
+  },
+  {
+    "id": 30307,
+    "romeNumber": "",
+    "getSkill": 0,
+    "type": 1,
+    "spineID": 0,
+    "name": "legacy_name_30307",
+    "iconId": 161,
+    "icon": "talentlegacy_att_reskill",
+    "career": 3,
+    "pos": [
+      "12",
+      "5"
+    ],
+    "condition": [
+      "30306,5"
+    ]
+  },
+  {
+    "id": 30308,
+    "romeNumber": "",
+    "getSkill": 0,
+    "type": 2,
+    "spineID": 0,
+    "name": "legacy_name_30308",
+    "iconId": 161,
+    "icon": "talentlegacy_buff_att",
+    "career": 3,
+    "pos": [
+      "11",
+      "3"
+    ],
+    "condition": [
+      "30306,5"
+    ]
+  },
+  {
+    "id": 30401,
+    "romeNumber": "Ⅳ",
+    "getSkill": 510603,
+    "type": 3,
+    "spineID": 40032,
+    "name": "legacy_name_30401",
+    "iconId": 162,
+    "icon": "img_talentLegacy_fengxing",
+    "career": 3,
+    "pos": [
+      "13",
+      "3"
+    ],
+    "condition": [
+      "30304,10",
+      "30307,5"
+    ]
+  },
+  {
+    "id": 30402,
+    "romeNumber": "",
+    "getSkill": 0,
+    "type": 1,
+    "spineID": 0,
+    "name": "legacy_name_30402",
+    "iconId": 161,
+    "icon": "talentlegacy_att_llife",
+    "career": 3,
+    "pos": [
+      "14",
+      "1"
+    ],
+    "condition": [
+      "30401,1"
+    ]
+  },
+  {
+    "id": 30403,
+    "romeNumber": "",
+    "getSkill": 0,
+    "type": 1,
+    "spineID": 0,
+    "name": "legacy_name_30403",
+    "iconId": 161,
+    "icon": "talentlegacy_att_atk",
+    "career": 3,
+    "pos": [
+      "15",
+      "1"
+    ],
+    "condition": [
+      "30402,10"
+    ]
+  },
+  {
+    "id": 30404,
+    "romeNumber": "",
+    "getSkill": 0,
+    "type": 1,
+    "spineID": 0,
+    "name": "legacy_name_30404",
+    "iconId": 161,
+    "icon": "talentlegacy_att_de",
+    "career": 3,
+    "pos": [
+      "16",
+      "1"
+    ],
+    "condition": [
+      "30403,10"
+    ]
+  },
+  {
+    "id": 30405,
+    "romeNumber": "",
+    "getSkill": 0,
+    "type": 1,
+    "spineID": 0,
+    "name": "legacy_name_30405",
+    "iconId": 161,
+    "icon": "talentlegacy_att_llife%",
+    "career": 3,
+    "pos": [
+      "14",
+      "5"
+    ],
+    "condition": [
+      "30401,1"
+    ]
+  },
+  {
+    "id": 30406,
+    "romeNumber": "",
+    "getSkill": 0,
+    "type": 1,
+    "spineID": 0,
+    "name": "legacy_name_30406",
+    "iconId": 161,
+    "icon": "talentlegacy_att_atk%",
+    "career": 3,
+    "pos": [
+      "15",
+      "5"
+    ],
+    "condition": [
+      "30405,5"
+    ]
+  },
+  {
+    "id": 30407,
+    "romeNumber": "",
+    "getSkill": 0,
+    "type": 1,
+    "spineID": 0,
+    "name": "legacy_name_30407",
+    "iconId": 161,
+    "icon": "talentlegacy_att_de%",
+    "career": 3,
+    "pos": [
+      "16",
+      "5"
+    ],
+    "condition": [
+      "30406,5"
+    ]
+  },
+  {
+    "id": 30408,
+    "romeNumber": "",
+    "getSkill": 0,
+    "type": 4,
+    "spineID": 0,
+    "name": "legacy_name_30408",
+    "iconId": 161,
+    "icon": "talentlegacy_buff_archer4",
+    "career": 3,
+    "pos": [
+      "15",
+      "3"
+    ],
+    "condition": [
+      "30406,5"
+    ]
+  },
+  {
+    "id": 30501,
+    "romeNumber": "Ⅴ",
+    "getSkill": 0,
+    "type": 4,
+    "spineID": 0,
+    "name": "legacy_name_30501",
+    "iconId": 161,
+    "icon": "talentlegacy_buff_archer5",
+    "career": 3,
+    "pos": [
+      "17",
+      "3"
+    ],
+    "condition": [
+      "30404,10",
+      "30407,5"
+    ]
+  },
+  {
+    "id": 30502,
+    "romeNumber": "",
+    "getSkill": 0,
+    "type": 1,
+    "spineID": 0,
+    "name": "legacy_name_30502",
+    "iconId": 161,
+    "icon": "talentlegacy_att_llife",
+    "career": 3,
+    "pos": [
+      "18",
+      "1"
+    ],
+    "condition": [
+      "30501,1"
+    ]
+  },
+  {
+    "id": 30503,
+    "romeNumber": "",
+    "getSkill": 0,
+    "type": 1,
+    "spineID": 0,
+    "name": "legacy_name_30503",
+    "iconId": 161,
+    "icon": "talentlegacy_att_atk",
+    "career": 3,
+    "pos": [
+      "19",
+      "1"
+    ],
+    "condition": [
+      "30502,10"
+    ]
+  },
+  {
+    "id": 30504,
+    "romeNumber": "",
+    "getSkill": 0,
+    "type": 1,
+    "spineID": 0,
+    "name": "legacy_name_30504",
+    "iconId": 161,
+    "icon": "talentlegacy_att_de",
+    "career": 3,
+    "pos": [
+      "20",
+      "1"
+    ],
+    "condition": [
+      "30503,10"
+    ]
+  },
+  {
+    "id": 30505,
+    "romeNumber": "",
+    "getSkill": 0,
+    "type": 1,
+    "spineID": 0,
+    "name": "legacy_name_10206",
+    "iconId": 161,
+    "icon": "talentlegacy_att_atknormal",
+    "career": 3,
+    "pos": [
+      "18",
+      "5"
+    ],
+    "condition": [
+      "30501,1"
+    ]
+  },
+  {
+    "id": 30506,
+    "romeNumber": "",
+    "getSkill": 0,
+    "type": 1,
+    "spineID": 0,
+    "name": "legacy_name_50612",
+    "iconId": 161,
+    "icon": "talentlegacy_Sp",
+    "career": 3,
+    "pos": [
+      "19",
+      "5"
+    ],
+    "condition": [
+      "30505,5"
+    ]
+  },
+  {
+    "id": 30507,
+    "romeNumber": "",
+    "getSkill": 0,
+    "type": 1,
+    "spineID": 0,
+    "name": "legacy_name_30507",
+    "iconId": 161,
+    "icon": "talentlegacy_att_crit",
+    "career": 3,
+    "pos": [
+      "20",
+      "5"
+    ],
+    "condition": [
+      "30506,5"
+    ]
+  },
+  {
+    "id": 30508,
+    "romeNumber": "",
+    "getSkill": 0,
+    "type": 2,
+    "spineID": 0,
+    "name": "legacy_name_30508",
+    "iconId": 161,
+    "icon": "talentlegacy_buff_att",
+    "career": 3,
+    "pos": [
+      "19",
+      "3"
+    ],
+    "condition": [
+      "30506,5"
+    ]
+  },
+  {
+    "id": 30601,
+    "romeNumber": "Ⅵ",
+    "getSkill": 520304,
+    "type": 3,
+    "spineID": 40033,
+    "name": "legacy_name_30601",
+    "iconId": 162,
+    "icon": "img_talentLegacy_youxia",
+    "career": 3,
+    "pos": [
+      "21",
+      "3"
+    ],
+    "condition": [
+      "30504,10",
+      "30507,5"
+    ]
+  },
+  {
+    "id": 30602,
+    "romeNumber": "",
+    "getSkill": 0,
+    "type": 1,
+    "spineID": 0,
+    "name": "legacy_name_30602",
+    "iconId": 161,
+    "icon": "talentlegacy_att_llife",
+    "career": 3,
+    "pos": [
+      "22",
+      "1"
+    ],
+    "condition": [
+      "30601,1"
+    ]
+  },
+  {
+    "id": 30603,
+    "romeNumber": "",
+    "getSkill": 0,
+    "type": 1,
+    "spineID": 0,
+    "name": "legacy_name_30603",
+    "iconId": 161,
+    "icon": "talentlegacy_att_atk",
+    "career": 3,
+    "pos": [
+      "23",
+      "1"
+    ],
+    "condition": [
+      "30602,10"
+    ]
+  },
+  {
+    "id": 30604,
+    "romeNumber": "",
+    "getSkill": 0,
+    "type": 1,
+    "spineID": 0,
+    "name": "legacy_name_30604",
+    "iconId": 161,
+    "icon": "talentlegacy_att_de",
+    "career": 3,
+    "pos": [
+      "24",
+      "1"
+    ],
+    "condition": [
+      "30603,10"
+    ]
+  },
+  {
+    "id": 30605,
+    "romeNumber": "",
+    "getSkill": 0,
+    "type": 1,
+    "spineID": 0,
+    "name": "legacy_name_30605",
+    "iconId": 161,
+    "icon": "talentlegacy_att_redefend",
+    "career": 3,
+    "pos": [
+      "22",
+      "5"
+    ],
+    "condition": [
+      "30601,1"
+    ]
+  },
+  {
+    "id": 30606,
+    "romeNumber": "",
+    "getSkill": 0,
+    "type": 1,
+    "spineID": 0,
+    "name": "legacy_name_30606",
+    "iconId": 161,
+    "icon": "talentlegacy_att_reatk",
+    "career": 3,
+    "pos": [
+      "23",
+      "5"
+    ],
+    "condition": [
+      "30605,5"
+    ]
+  },
+  {
+    "id": 30607,
+    "romeNumber": "",
+    "getSkill": 0,
+    "type": 1,
+    "spineID": 0,
+    "name": "legacy_name_30607",
+    "iconId": 161,
+    "icon": "talentlegacy_att_reskill",
+    "career": 3,
+    "pos": [
+      "24",
+      "5"
+    ],
+    "condition": [
+      "30606,5"
+    ]
+  },
+  {
+    "id": 30608,
+    "romeNumber": "",
+    "getSkill": 0,
+    "type": 4,
+    "spineID": 0,
+    "name": "legacy_name_30608",
+    "iconId": 161,
+    "icon": "img_talentLegacy",
+    "career": 3,
+    "pos": [
+      "23",
+      "3"
+    ],
+    "condition": [
+      "30606,5"
+    ]
+  },
+  {
+    "id": 40101,
+    "romeNumber": "Ⅰ",
+    "getSkill": 510703,
+    "type": 3,
+    "spineID": 40041,
+    "name": "legacy_name_40101",
+    "iconId": 162,
+    "icon": "img_talentLegacy_maomiyou",
+    "career": 4,
+    "pos": [
+      "1",
+      "3"
+    ],
+    "condition": []
+  },
+  {
+    "id": 40102,
+    "romeNumber": "",
+    "getSkill": 0,
+    "type": 1,
+    "spineID": 0,
+    "name": "legacy_name_40102",
+    "iconId": 161,
+    "icon": "talentlegacy_att_llife",
+    "career": 4,
+    "pos": [
+      "2",
+      "1"
+    ],
+    "condition": [
+      "40101,1"
+    ]
+  },
+  {
+    "id": 40103,
+    "romeNumber": "",
+    "getSkill": 0,
+    "type": 1,
+    "spineID": 0,
+    "name": "legacy_name_40103",
+    "iconId": 161,
+    "icon": "talentlegacy_att_atk",
+    "career": 4,
+    "pos": [
+      "3",
+      "1"
+    ],
+    "condition": [
+      "40102,10"
+    ]
+  },
+  {
+    "id": 40104,
+    "romeNumber": "",
+    "getSkill": 0,
+    "type": 1,
+    "spineID": 0,
+    "name": "legacy_name_40104",
+    "iconId": 161,
+    "icon": "talentlegacy_att_de",
+    "career": 4,
+    "pos": [
+      "4",
+      "1"
+    ],
+    "condition": [
+      "40103,10"
+    ]
+  },
+  {
+    "id": 40105,
+    "romeNumber": "",
+    "getSkill": 0,
+    "type": 1,
+    "spineID": 0,
+    "name": "legacy_name_40105",
+    "iconId": 161,
+    "icon": "talentlegacy_att_llife%",
+    "career": 4,
+    "pos": [
+      "2",
+      "5"
+    ],
+    "condition": [
+      "40101,1"
+    ]
+  },
+  {
+    "id": 40106,
+    "romeNumber": "",
+    "getSkill": 0,
+    "type": 1,
+    "spineID": 0,
+    "name": "legacy_name_40106",
+    "iconId": 161,
+    "icon": "talentlegacy_att_atk%",
+    "career": 4,
+    "pos": [
+      "3",
+      "5"
+    ],
+    "condition": [
+      "40105,5"
+    ]
+  },
+  {
+    "id": 40107,
+    "romeNumber": "",
+    "getSkill": 0,
+    "type": 1,
+    "spineID": 0,
+    "name": "legacy_name_40107",
+    "iconId": 161,
+    "icon": "talentlegacy_att_de%",
+    "career": 4,
+    "pos": [
+      "4",
+      "5"
+    ],
+    "condition": [
+      "40106,5"
+    ]
+  },
+  {
+    "id": 40108,
+    "romeNumber": "",
+    "getSkill": 0,
+    "type": 4,
+    "spineID": 0,
+    "name": "legacy_name_40108",
+    "iconId": 161,
+    "icon": "talentlegacy_att_ghost1",
+    "career": 4,
+    "pos": [
+      "3",
+      "3"
+    ],
+    "condition": [
+      "40106,5"
+    ]
+  },
+  {
+    "id": 40201,
+    "romeNumber": "Ⅱ",
+    "getSkill": 0,
+    "type": 4,
+    "spineID": 0,
+    "name": "legacy_name_40201",
+    "iconId": 161,
+    "icon": "talentlegacy_att_ghost2",
+    "career": 4,
+    "pos": [
+      "5",
+      "3"
+    ],
+    "condition": [
+      "40104,10",
+      "40107,5"
+    ]
+  },
+  {
+    "id": 40202,
+    "romeNumber": "",
+    "getSkill": 0,
+    "type": 1,
+    "spineID": 0,
+    "name": "legacy_name_40202",
+    "iconId": 161,
+    "icon": "talentlegacy_att_llife",
+    "career": 4,
+    "pos": [
+      "6",
+      "1"
+    ],
+    "condition": [
+      "40201,1"
+    ]
+  },
+  {
+    "id": 40203,
+    "romeNumber": "",
+    "getSkill": 0,
+    "type": 1,
+    "spineID": 0,
+    "name": "legacy_name_40203",
+    "iconId": 161,
+    "icon": "talentlegacy_att_atk",
+    "career": 4,
+    "pos": [
+      "7",
+      "1"
+    ],
+    "condition": [
+      "40202,10"
+    ]
+  },
+  {
+    "id": 40204,
+    "romeNumber": "",
+    "getSkill": 0,
+    "type": 1,
+    "spineID": 0,
+    "name": "legacy_name_40204",
+    "iconId": 161,
+    "icon": "talentlegacy_att_de",
+    "career": 4,
+    "pos": [
+      "8",
+      "1"
+    ],
+    "condition": [
+      "40203,10"
+    ]
+  },
+  {
+    "id": 40205,
+    "romeNumber": "",
+    "getSkill": 0,
+    "type": 1,
+    "spineID": 0,
+    "name": "legacy_name_50613",
+    "iconId": 161,
+    "icon": "talentlegacy_att_ghost3",
+    "career": 4,
+    "pos": [
+      "6",
+      "5"
+    ],
+    "condition": [
+      "40201,1"
+    ]
+  },
+  {
+    "id": 40206,
+    "romeNumber": "",
+    "getSkill": 0,
+    "type": 1,
+    "spineID": 0,
+    "name": "legacy_name_50614",
+    "iconId": 161,
+    "icon": "talentlegacy_fire_up",
+    "career": 4,
+    "pos": [
+      "7",
+      "5"
+    ],
+    "condition": [
+      "40205,5"
+    ]
+  },
+  {
+    "id": 40207,
+    "romeNumber": "",
+    "getSkill": 0,
+    "type": 1,
+    "spineID": 0,
+    "name": "legacy_name_50615",
+    "iconId": 161,
+    "icon": "talentlegacy_thunder_up",
+    "career": 4,
+    "pos": [
+      "8",
+      "5"
+    ],
+    "condition": [
+      "40206,5"
+    ]
+  },
+  {
+    "id": 40208,
+    "romeNumber": "",
+    "getSkill": 0,
+    "type": 2,
+    "spineID": 0,
+    "name": "legacy_name_40208",
+    "iconId": 161,
+    "icon": "talentlegacy_buff_att",
+    "career": 4,
+    "pos": [
+      "7",
+      "3"
+    ],
+    "condition": [
+      "40206,5"
+    ]
+  },
+  {
+    "id": 40301,
+    "romeNumber": "Ⅲ",
+    "getSkill": 0,
+    "type": 4,
+    "spineID": 0,
+    "name": "legacy_name_40301",
+    "iconId": 161,
+    "icon": "talentlegacy_att_ghost3",
+    "career": 4,
+    "pos": [
+      "9",
+      "3"
+    ],
+    "condition": [
+      "40204,10",
+      "40207,5"
+    ]
+  },
+  {
+    "id": 40302,
+    "romeNumber": "",
+    "getSkill": 0,
+    "type": 1,
+    "spineID": 0,
+    "name": "legacy_name_40302",
+    "iconId": 161,
+    "icon": "talentlegacy_att_llife",
+    "career": 4,
+    "pos": [
+      "10",
+      "1"
+    ],
+    "condition": [
+      "40301,1"
+    ]
+  },
+  {
+    "id": 40303,
+    "romeNumber": "",
+    "getSkill": 0,
+    "type": 1,
+    "spineID": 0,
+    "name": "legacy_name_40303",
+    "iconId": 161,
+    "icon": "talentlegacy_att_atk",
+    "career": 4,
+    "pos": [
+      "11",
+      "1"
+    ],
+    "condition": [
+      "40302,10"
+    ]
+  },
+  {
+    "id": 40304,
+    "romeNumber": "",
+    "getSkill": 0,
+    "type": 1,
+    "spineID": 0,
+    "name": "legacy_name_40304",
+    "iconId": 161,
+    "icon": "talentlegacy_att_de",
+    "career": 4,
+    "pos": [
+      "12",
+      "1"
+    ],
+    "condition": [
+      "40303,10"
+    ]
+  },
+  {
+    "id": 40305,
+    "romeNumber": "",
+    "getSkill": 0,
+    "type": 1,
+    "spineID": 0,
+    "name": "legacy_name_50609",
+    "iconId": 161,
+    "icon": "talentlegacy_combo_re",
+    "career": 4,
+    "pos": [
+      "10",
+      "5"
+    ],
+    "condition": [
+      "40301,1"
+    ]
+  },
+  {
+    "id": 40306,
+    "romeNumber": "",
+    "getSkill": 0,
+    "type": 1,
+    "spineID": 0,
+    "name": "legacy_name_10305",
+    "iconId": 161,
+    "icon": "talentlegacy_att_redefend",
+    "career": 4,
+    "pos": [
+      "11",
+      "5"
+    ],
+    "condition": [
+      "40305,5"
+    ]
+  },
+  {
+    "id": 40307,
+    "romeNumber": "",
+    "getSkill": 0,
+    "type": 1,
+    "spineID": 0,
+    "name": "legacy_name_10306",
+    "iconId": 161,
+    "icon": "talentlegacy_att_reatk",
+    "career": 4,
+    "pos": [
+      "12",
+      "5"
+    ],
+    "condition": [
+      "40306,5"
+    ]
+  },
+  {
+    "id": 40308,
+    "romeNumber": "",
+    "getSkill": 0,
+    "type": 2,
+    "spineID": 0,
+    "name": "legacy_name_40308",
+    "iconId": 161,
+    "icon": "talentlegacy_buff_att",
+    "career": 4,
+    "pos": [
+      "11",
+      "3"
+    ],
+    "condition": [
+      "40306,5"
+    ]
+  },
+  {
+    "id": 40401,
+    "romeNumber": "Ⅳ",
+    "getSkill": 510803,
+    "type": 3,
+    "spineID": 40042,
+    "name": "legacy_name_40401",
+    "iconId": 162,
+    "icon": "img_talentLegacy_maoziyou",
+    "career": 4,
+    "pos": [
+      "13",
+      "3"
+    ],
+    "condition": [
+      "40304,10",
+      "40307,5"
+    ]
+  },
+  {
+    "id": 40402,
+    "romeNumber": "",
+    "getSkill": 0,
+    "type": 1,
+    "spineID": 0,
+    "name": "legacy_name_40402",
+    "iconId": 161,
+    "icon": "talentlegacy_att_llife",
+    "career": 4,
+    "pos": [
+      "14",
+      "1"
+    ],
+    "condition": [
+      "40401,1"
+    ]
+  },
+  {
+    "id": 40403,
+    "romeNumber": "",
+    "getSkill": 0,
+    "type": 1,
+    "spineID": 0,
+    "name": "legacy_name_40403",
+    "iconId": 161,
+    "icon": "talentlegacy_att_atk",
+    "career": 4,
+    "pos": [
+      "15",
+      "1"
+    ],
+    "condition": [
+      "40402,10"
+    ]
+  },
+  {
+    "id": 40404,
+    "romeNumber": "",
+    "getSkill": 0,
+    "type": 1,
+    "spineID": 0,
+    "name": "legacy_name_40404",
+    "iconId": 161,
+    "icon": "talentlegacy_att_de",
+    "career": 4,
+    "pos": [
+      "16",
+      "1"
+    ],
+    "condition": [
+      "40403,10"
+    ]
+  },
+  {
+    "id": 40405,
+    "romeNumber": "",
+    "getSkill": 0,
+    "type": 1,
+    "spineID": 0,
+    "name": "legacy_name_40405",
+    "iconId": 161,
+    "icon": "talentlegacy_att_llife%",
+    "career": 4,
+    "pos": [
+      "14",
+      "5"
+    ],
+    "condition": [
+      "40401,1"
+    ]
+  },
+  {
+    "id": 40406,
+    "romeNumber": "",
+    "getSkill": 0,
+    "type": 1,
+    "spineID": 0,
+    "name": "legacy_name_40406",
+    "iconId": 161,
+    "icon": "talentlegacy_att_atk%",
+    "career": 4,
+    "pos": [
+      "15",
+      "5"
+    ],
+    "condition": [
+      "40405,5"
+    ]
+  },
+  {
+    "id": 40407,
+    "romeNumber": "",
+    "getSkill": 0,
+    "type": 1,
+    "spineID": 0,
+    "name": "legacy_name_40407",
+    "iconId": 161,
+    "icon": "talentlegacy_att_de%",
+    "career": 4,
+    "pos": [
+      "16",
+      "5"
+    ],
+    "condition": [
+      "40406,5"
+    ]
+  },
+  {
+    "id": 40408,
+    "romeNumber": "",
+    "getSkill": 0,
+    "type": 4,
+    "spineID": 0,
+    "name": "legacy_name_40408",
+    "iconId": 161,
+    "icon": "talentlegacy_att_ghost4",
+    "career": 4,
+    "pos": [
+      "15",
+      "3"
+    ],
+    "condition": [
+      "40406,5"
+    ]
+  },
+  {
+    "id": 40501,
+    "romeNumber": "Ⅴ",
+    "getSkill": 0,
+    "type": 4,
+    "spineID": 0,
+    "name": "legacy_name_40501",
+    "iconId": 161,
+    "icon": "talentlegacy_att_ghost5",
+    "career": 4,
+    "pos": [
+      "17",
+      "3"
+    ],
+    "condition": [
+      "40404,10",
+      "40407,5"
+    ]
+  },
+  {
+    "id": 40502,
+    "romeNumber": "",
+    "getSkill": 0,
+    "type": 1,
+    "spineID": 0,
+    "name": "legacy_name_40502",
+    "iconId": 161,
+    "icon": "talentlegacy_att_llife",
+    "career": 4,
+    "pos": [
+      "18",
+      "1"
+    ],
+    "condition": [
+      "40501,1"
+    ]
+  },
+  {
+    "id": 40503,
+    "romeNumber": "",
+    "getSkill": 0,
+    "type": 1,
+    "spineID": 0,
+    "name": "legacy_name_40503",
+    "iconId": 161,
+    "icon": "talentlegacy_att_atk",
+    "career": 4,
+    "pos": [
+      "19",
+      "1"
+    ],
+    "condition": [
+      "40502,10"
+    ]
+  },
+  {
+    "id": 40504,
+    "romeNumber": "",
+    "getSkill": 0,
+    "type": 1,
+    "spineID": 0,
+    "name": "legacy_name_40504",
+    "iconId": 161,
+    "icon": "talentlegacy_att_de",
+    "career": 4,
+    "pos": [
+      "20",
+      "1"
+    ],
+    "condition": [
+      "40503,10"
+    ]
+  },
+  {
+    "id": 40505,
+    "romeNumber": "",
+    "getSkill": 0,
+    "type": 1,
+    "spineID": 0,
+    "name": "legacy_name_50613",
+    "iconId": 161,
+    "icon": "talentlegacy_att_ghost3",
+    "career": 4,
+    "pos": [
+      "18",
+      "5"
+    ],
+    "condition": [
+      "40501,1"
+    ]
+  },
+  {
+    "id": 40506,
+    "romeNumber": "",
+    "getSkill": 0,
+    "type": 1,
+    "spineID": 0,
+    "name": "legacy_name_50614",
+    "iconId": 161,
+    "icon": "talentlegacy_fire_up",
+    "career": 4,
+    "pos": [
+      "19",
+      "5"
+    ],
+    "condition": [
+      "40505,5"
+    ]
+  },
+  {
+    "id": 40507,
+    "romeNumber": "",
+    "getSkill": 0,
+    "type": 1,
+    "spineID": 0,
+    "name": "legacy_name_50615",
+    "iconId": 161,
+    "icon": "talentlegacy_thunder_up",
+    "career": 4,
+    "pos": [
+      "20",
+      "5"
+    ],
+    "condition": [
+      "40506,5"
+    ]
+  },
+  {
+    "id": 40508,
+    "romeNumber": "",
+    "getSkill": 0,
+    "type": 2,
+    "spineID": 0,
+    "name": "legacy_name_40508",
+    "iconId": 161,
+    "icon": "talentlegacy_buff_att",
+    "career": 4,
+    "pos": [
+      "19",
+      "3"
+    ],
+    "condition": [
+      "40506,5"
+    ]
+  },
+  {
+    "id": 40601,
+    "romeNumber": "Ⅵ",
+    "getSkill": 520404,
+    "type": 3,
+    "spineID": 40043,
+    "name": "legacy_name_40601",
+    "iconId": 162,
+    "icon": "img_talentLegacy_gongzhuyou",
+    "career": 4,
+    "pos": [
+      "21",
+      "3"
+    ],
+    "condition": [
+      "40504,10",
+      "40507,5"
+    ]
+  },
+  {
+    "id": 40602,
+    "romeNumber": "",
+    "getSkill": 0,
+    "type": 1,
+    "spineID": 0,
+    "name": "legacy_name_40602",
+    "iconId": 161,
+    "icon": "talentlegacy_att_llife",
+    "career": 4,
+    "pos": [
+      "22",
+      "1"
+    ],
+    "condition": [
+      "40601,1"
+    ]
+  },
+  {
+    "id": 40603,
+    "romeNumber": "",
+    "getSkill": 0,
+    "type": 1,
+    "spineID": 0,
+    "name": "legacy_name_40603",
+    "iconId": 161,
+    "icon": "talentlegacy_att_atk",
+    "career": 4,
+    "pos": [
+      "23",
+      "1"
+    ],
+    "condition": [
+      "40602,10"
+    ]
+  },
+  {
+    "id": 40604,
+    "romeNumber": "",
+    "getSkill": 0,
+    "type": 1,
+    "spineID": 0,
+    "name": "legacy_name_40604",
+    "iconId": 161,
+    "icon": "talentlegacy_att_de",
+    "career": 4,
+    "pos": [
+      "24",
+      "1"
+    ],
+    "condition": [
+      "40603,10"
+    ]
+  },
+  {
+    "id": 40605,
+    "romeNumber": "",
+    "getSkill": 0,
+    "type": 1,
+    "spineID": 0,
+    "name": "legacy_name_50609",
+    "iconId": 161,
+    "icon": "talentlegacy_combo_re",
+    "career": 4,
+    "pos": [
+      "22",
+      "5"
+    ],
+    "condition": [
+      "40601,1"
+    ]
+  },
+  {
+    "id": 40606,
+    "romeNumber": "",
+    "getSkill": 0,
+    "type": 1,
+    "spineID": 0,
+    "name": "legacy_name_10305",
+    "iconId": 161,
+    "icon": "talentlegacy_att_redefend",
+    "career": 4,
+    "pos": [
+      "23",
+      "5"
+    ],
+    "condition": [
+      "40605,5"
+    ]
+  },
+  {
+    "id": 40607,
+    "romeNumber": "",
+    "getSkill": 0,
+    "type": 1,
+    "spineID": 0,
+    "name": "legacy_name_10306",
+    "iconId": 161,
+    "icon": "talentlegacy_att_reatk",
+    "career": 4,
+    "pos": [
+      "24",
+      "5"
+    ],
+    "condition": [
+      "40606,5"
+    ]
+  },
+  {
+    "id": 40608,
+    "romeNumber": "",
+    "getSkill": 0,
+    "type": 4,
+    "spineID": 0,
+    "name": "legacy_name_40608",
+    "iconId": 161,
+    "icon": "img_talentLegacy",
+    "career": 4,
+    "pos": [
+      "23",
+      "3"
+    ],
+    "condition": [
+      "40606,5"
+    ]
+  },
+  {
+    "id": 50101,
+    "romeNumber": "Ⅰ",
+    "getSkill": 0,
+    "type": 3,
+    "spineID": 40051,
+    "name": "legacy_name_50101",
+    "iconId": 162,
+    "icon": "img_talentLegacy_bigalong",
+    "career": 5,
+    "pos": [
+      "1",
+      "3"
+    ],
+    "condition": []
+  },
+  {
+    "id": 50102,
+    "romeNumber": "",
+    "getSkill": 0,
+    "type": 1,
+    "spineID": 0,
+    "name": "legacy_name_50102",
+    "iconId": 161,
+    "icon": "talentlegacy_att_llife",
+    "career": 5,
+    "pos": [
+      "2",
+      "1"
+    ],
+    "condition": [
+      "50101,1"
+    ]
+  },
+  {
+    "id": 50103,
+    "romeNumber": "",
+    "getSkill": 0,
+    "type": 1,
+    "spineID": 0,
+    "name": "legacy_name_50103",
+    "iconId": 161,
+    "icon": "talentlegacy_att_atk",
+    "career": 5,
+    "pos": [
+      "3",
+      "1"
+    ],
+    "condition": [
+      "50102,10"
+    ]
+  },
+  {
+    "id": 50104,
+    "romeNumber": "",
+    "getSkill": 0,
+    "type": 1,
+    "spineID": 0,
+    "name": "legacy_name_50104",
+    "iconId": 161,
+    "icon": "talentlegacy_att_de",
+    "career": 5,
+    "pos": [
+      "4",
+      "1"
+    ],
+    "condition": [
+      "50103,10"
+    ]
+  },
+  {
+    "id": 50105,
+    "romeNumber": "",
+    "getSkill": 0,
+    "type": 1,
+    "spineID": 0,
+    "name": "legacy_name_50105",
+    "iconId": 161,
+    "icon": "talentlegacy_att_llife%",
+    "career": 5,
+    "pos": [
+      "2",
+      "5"
+    ],
+    "condition": [
+      "50101,1"
+    ]
+  },
+  {
+    "id": 50106,
+    "romeNumber": "",
+    "getSkill": 0,
+    "type": 1,
+    "spineID": 0,
+    "name": "legacy_name_50106",
+    "iconId": 161,
+    "icon": "talentlegacy_att_atk%",
+    "career": 5,
+    "pos": [
+      "3",
+      "5"
+    ],
+    "condition": [
+      "50105,5"
+    ]
+  },
+  {
+    "id": 50107,
+    "romeNumber": "",
+    "getSkill": 0,
+    "type": 1,
+    "spineID": 0,
+    "name": "legacy_name_50107",
+    "iconId": 161,
+    "icon": "talentlegacy_att_de%",
+    "career": 5,
+    "pos": [
+      "4",
+      "5"
+    ],
+    "condition": [
+      "50106,5"
+    ]
+  },
+  {
+    "id": 50108,
+    "romeNumber": "",
+    "getSkill": 0,
+    "type": 4,
+    "spineID": 0,
+    "name": "legacy_name_50108",
+    "iconId": 161,
+    "icon": "talentlegacy_buff_dragon1",
+    "career": 5,
+    "pos": [
+      "3",
+      "3"
+    ],
+    "condition": [
+      "50106,5"
+    ]
+  },
+  {
+    "id": 50201,
+    "romeNumber": "Ⅱ",
+    "getSkill": 0,
+    "type": 4,
+    "spineID": 0,
+    "name": "legacy_name_50201",
+    "iconId": 161,
+    "icon": "talentlegacy_buff_dragon2",
+    "career": 5,
+    "pos": [
+      "5",
+      "3"
+    ],
+    "condition": [
+      "50104,10",
+      "50107,5"
+    ]
+  },
+  {
+    "id": 50202,
+    "romeNumber": "",
+    "getSkill": 0,
+    "type": 1,
+    "spineID": 0,
+    "name": "legacy_name_50202",
+    "iconId": 161,
+    "icon": "talentlegacy_att_llife",
+    "career": 5,
+    "pos": [
+      "6",
+      "1"
+    ],
+    "condition": [
+      "50201,1"
+    ]
+  },
+  {
+    "id": 50203,
+    "romeNumber": "",
+    "getSkill": 0,
+    "type": 1,
+    "spineID": 0,
+    "name": "legacy_name_50203",
+    "iconId": 161,
+    "icon": "talentlegacy_att_atk",
+    "career": 5,
+    "pos": [
+      "7",
+      "1"
+    ],
+    "condition": [
+      "50202,10"
+    ]
+  },
+  {
+    "id": 50204,
+    "romeNumber": "",
+    "getSkill": 0,
+    "type": 1,
+    "spineID": 0,
+    "name": "legacy_name_50204",
+    "iconId": 161,
+    "icon": "talentlegacy_att_de",
+    "career": 5,
+    "pos": [
+      "8",
+      "1"
+    ],
+    "condition": [
+      "50203,10"
+    ]
+  },
+  {
+    "id": 50205,
+    "romeNumber": "",
+    "getSkill": 0,
+    "type": 1,
+    "spineID": 0,
+    "name": "legacy_name_50609",
+    "iconId": 161,
+    "icon": "talentlegacy_combo_re",
+    "career": 5,
+    "pos": [
+      "6",
+      "5"
+    ],
+    "condition": [
+      "50201,1"
+    ]
+  },
+  {
+    "id": 50206,
+    "romeNumber": "",
+    "getSkill": 0,
+    "type": 1,
+    "spineID": 0,
+    "name": "legacy_name_10305",
+    "iconId": 161,
+    "icon": "talentlegacy_att_redefend",
+    "career": 5,
+    "pos": [
+      "7",
+      "5"
+    ],
+    "condition": [
+      "50205,5"
+    ]
+  },
+  {
+    "id": 50207,
+    "romeNumber": "",
+    "getSkill": 0,
+    "type": 1,
+    "spineID": 0,
+    "name": "legacy_name_10306",
+    "iconId": 161,
+    "icon": "talentlegacy_att_reatk",
+    "career": 5,
+    "pos": [
+      "8",
+      "5"
+    ],
+    "condition": [
+      "50206,5"
+    ]
+  },
+  {
+    "id": 50208,
+    "romeNumber": "",
+    "getSkill": 0,
+    "type": 2,
+    "spineID": 0,
+    "name": "legacy_name_50208",
+    "iconId": 161,
+    "icon": "talentlegacy_buff_att",
+    "career": 5,
+    "pos": [
+      "7",
+      "3"
+    ],
+    "condition": [
+      "50206,5"
+    ]
+  },
+  {
+    "id": 50301,
+    "romeNumber": "Ⅲ",
+    "getSkill": 0,
+    "type": 4,
+    "spineID": 0,
+    "name": "legacy_name_50301",
+    "iconId": 161,
+    "icon": "talentlegacy_buff_dragon3",
+    "career": 5,
+    "pos": [
+      "9",
+      "3"
+    ],
+    "condition": [
+      "50204,10",
+      "50207,5"
+    ]
+  },
+  {
+    "id": 50302,
+    "romeNumber": "",
+    "getSkill": 0,
+    "type": 1,
+    "spineID": 0,
+    "name": "legacy_name_50302",
+    "iconId": 161,
+    "icon": "talentlegacy_att_llife",
+    "career": 5,
+    "pos": [
+      "10",
+      "1"
+    ],
+    "condition": [
+      "50301,1"
+    ]
+  },
+  {
+    "id": 50303,
+    "romeNumber": "",
+    "getSkill": 0,
+    "type": 1,
+    "spineID": 0,
+    "name": "legacy_name_50303",
+    "iconId": 161,
+    "icon": "talentlegacy_att_atk",
+    "career": 5,
+    "pos": [
+      "11",
+      "1"
+    ],
+    "condition": [
+      "50302,10"
+    ]
+  },
+  {
+    "id": 50304,
+    "romeNumber": "",
+    "getSkill": 0,
+    "type": 1,
+    "spineID": 0,
+    "name": "legacy_name_50304",
+    "iconId": 161,
+    "icon": "talentlegacy_att_de",
+    "career": 5,
+    "pos": [
+      "12",
+      "1"
+    ],
+    "condition": [
+      "50303,10"
+    ]
+  },
+  {
+    "id": 50305,
+    "romeNumber": "",
+    "getSkill": 0,
+    "type": 1,
+    "spineID": 0,
+    "name": "legacy_name_50616",
+    "iconId": 161,
+    "icon": "talentlegacy_buff_dragon2",
+    "career": 5,
+    "pos": [
+      "10",
+      "5"
+    ],
+    "condition": [
+      "50301,1"
+    ]
+  },
+  {
+    "id": 50306,
+    "romeNumber": "",
+    "getSkill": 0,
+    "type": 1,
+    "spineID": 0,
+    "name": "legacy_name_10206",
+    "iconId": 161,
+    "icon": "talentlegacy_att_atknormal",
+    "career": 5,
+    "pos": [
+      "11",
+      "5"
+    ],
+    "condition": [
+      "50305,5"
+    ]
+  },
+  {
+    "id": 50307,
+    "romeNumber": "",
+    "getSkill": 0,
+    "type": 1,
+    "spineID": 0,
+    "name": "legacy_name_50613",
+    "iconId": 161,
+    "icon": "talentlegacy_att_ghost3",
+    "career": 5,
+    "pos": [
+      "12",
+      "5"
+    ],
+    "condition": [
+      "50306,5"
+    ]
+  },
+  {
+    "id": 50308,
+    "romeNumber": "",
+    "getSkill": 0,
+    "type": 2,
+    "spineID": 0,
+    "name": "legacy_name_50308",
+    "iconId": 161,
+    "icon": "talentlegacy_buff_att",
+    "career": 5,
+    "pos": [
+      "11",
+      "3"
+    ],
+    "condition": [
+      "50306,5"
+    ]
+  },
+  {
+    "id": 50401,
+    "romeNumber": "Ⅳ",
+    "getSkill": 0,
+    "type": 3,
+    "spineID": 40052,
+    "name": "legacy_name_50401",
+    "iconId": 162,
+    "icon": "img_talentLegacy_zilong",
+    "career": 5,
+    "pos": [
+      "13",
+      "3"
+    ],
+    "condition": [
+      "50304,10",
+      "50307,5"
+    ]
+  },
+  {
+    "id": 50402,
+    "romeNumber": "",
+    "getSkill": 0,
+    "type": 1,
+    "spineID": 0,
+    "name": "legacy_name_50402",
+    "iconId": 161,
+    "icon": "talentlegacy_att_llife",
+    "career": 5,
+    "pos": [
+      "14",
+      "1"
+    ],
+    "condition": [
+      "50401,1"
+    ]
+  },
+  {
+    "id": 50403,
+    "romeNumber": "",
+    "getSkill": 0,
+    "type": 1,
+    "spineID": 0,
+    "name": "legacy_name_50403",
+    "iconId": 161,
+    "icon": "talentlegacy_att_atk",
+    "career": 5,
+    "pos": [
+      "15",
+      "1"
+    ],
+    "condition": [
+      "50402,10"
+    ]
+  },
+  {
+    "id": 50404,
+    "romeNumber": "",
+    "getSkill": 0,
+    "type": 1,
+    "spineID": 0,
+    "name": "legacy_name_50404",
+    "iconId": 161,
+    "icon": "talentlegacy_att_de",
+    "career": 5,
+    "pos": [
+      "16",
+      "1"
+    ],
+    "condition": [
+      "50403,10"
+    ]
+  },
+  {
+    "id": 50405,
+    "romeNumber": "",
+    "getSkill": 0,
+    "type": 1,
+    "spineID": 0,
+    "name": "legacy_name_50405",
+    "iconId": 161,
+    "icon": "talentlegacy_att_llife%",
+    "career": 5,
+    "pos": [
+      "14",
+      "5"
+    ],
+    "condition": [
+      "50401,1"
+    ]
+  },
+  {
+    "id": 50406,
+    "romeNumber": "",
+    "getSkill": 0,
+    "type": 1,
+    "spineID": 0,
+    "name": "legacy_name_50406",
+    "iconId": 161,
+    "icon": "talentlegacy_att_atk%",
+    "career": 5,
+    "pos": [
+      "15",
+      "5"
+    ],
+    "condition": [
+      "50405,5"
+    ]
+  },
+  {
+    "id": 50407,
+    "romeNumber": "",
+    "getSkill": 0,
+    "type": 1,
+    "spineID": 0,
+    "name": "legacy_name_50407",
+    "iconId": 161,
+    "icon": "talentlegacy_att_de%",
+    "career": 5,
+    "pos": [
+      "16",
+      "5"
+    ],
+    "condition": [
+      "50406,5"
+    ]
+  },
+  {
+    "id": 50408,
+    "romeNumber": "",
+    "getSkill": 0,
+    "type": 4,
+    "spineID": 0,
+    "name": "legacy_name_50408",
+    "iconId": 161,
+    "icon": "img_talentLegacy",
+    "career": 5,
+    "pos": [
+      "15",
+      "3"
+    ],
+    "condition": [
+      "50406,5"
+    ]
+  },
+  {
+    "id": 50501,
+    "romeNumber": "Ⅴ",
+    "getSkill": 0,
+    "type": 4,
+    "spineID": 0,
+    "name": "legacy_name_50501",
+    "iconId": 161,
+    "icon": "talentlegacy_buff_pet",
+    "career": 5,
+    "pos": [
+      "17",
+      "3"
+    ],
+    "condition": [
+      "50404,10",
+      "50407,5"
+    ]
+  },
+  {
+    "id": 50502,
+    "romeNumber": "",
+    "getSkill": 0,
+    "type": 1,
+    "spineID": 0,
+    "name": "legacy_name_50502",
+    "iconId": 161,
+    "icon": "talentlegacy_att_llife",
+    "career": 5,
+    "pos": [
+      "18",
+      "1"
+    ],
+    "condition": [
+      "50501,1"
+    ]
+  },
+  {
+    "id": 50503,
+    "romeNumber": "",
+    "getSkill": 0,
+    "type": 1,
+    "spineID": 0,
+    "name": "legacy_name_50503",
+    "iconId": 161,
+    "icon": "talentlegacy_att_atk",
+    "career": 5,
+    "pos": [
+      "19",
+      "1"
+    ],
+    "condition": [
+      "50502,10"
+    ]
+  },
+  {
+    "id": 50504,
+    "romeNumber": "",
+    "getSkill": 0,
+    "type": 1,
+    "spineID": 0,
+    "name": "legacy_name_50504",
+    "iconId": 161,
+    "icon": "talentlegacy_att_de",
+    "career": 5,
+    "pos": [
+      "20",
+      "1"
+    ],
+    "condition": [
+      "50503,10"
+    ]
+  },
+  {
+    "id": 50505,
+    "romeNumber": "",
+    "getSkill": 0,
+    "type": 1,
+    "spineID": 0,
+    "name": "legacy_name_50609",
+    "iconId": 161,
+    "icon": "talentlegacy_combo_re",
+    "career": 5,
+    "pos": [
+      "18",
+      "5"
+    ],
+    "condition": [
+      "50501,1"
+    ]
+  },
+  {
+    "id": 50506,
+    "romeNumber": "",
+    "getSkill": 0,
+    "type": 1,
+    "spineID": 0,
+    "name": "legacy_name_10305",
+    "iconId": 161,
+    "icon": "talentlegacy_att_redefend",
+    "career": 5,
+    "pos": [
+      "19",
+      "5"
+    ],
+    "condition": [
+      "50505,5"
+    ]
+  },
+  {
+    "id": 50507,
+    "romeNumber": "",
+    "getSkill": 0,
+    "type": 1,
+    "spineID": 0,
+    "name": "legacy_name_10306",
+    "iconId": 161,
+    "icon": "talentlegacy_att_reatk",
+    "career": 5,
+    "pos": [
+      "20",
+      "5"
+    ],
+    "condition": [
+      "50506,5"
+    ]
+  },
+  {
+    "id": 50508,
+    "romeNumber": "",
+    "getSkill": 0,
+    "type": 2,
+    "spineID": 0,
+    "name": "legacy_name_50508",
+    "iconId": 161,
+    "icon": "talentlegacy_buff_dragon4",
+    "career": 5,
+    "pos": [
+      "19",
+      "3"
+    ],
+    "condition": [
+      "50506,5"
+    ]
+  },
+  {
+    "id": 50601,
+    "romeNumber": "Ⅵ",
+    "getSkill": 0,
+    "type": 3,
+    "spineID": 40053,
+    "name": "legacy_name_50601",
+    "iconId": 162,
+    "icon": "img_talentLegacy_huolong",
+    "career": 5,
+    "pos": [
+      "21",
+      "3"
+    ],
+    "condition": [
+      "50504,10",
+      "50507,5"
+    ]
+  },
+  {
+    "id": 50602,
+    "romeNumber": "",
+    "getSkill": 0,
+    "type": 1,
+    "spineID": 0,
+    "name": "legacy_name_50602",
+    "iconId": 161,
+    "icon": "talentlegacy_att_llife",
+    "career": 5,
+    "pos": [
+      "22",
+      "1"
+    ],
+    "condition": [
+      "50601,1"
+    ]
+  },
+  {
+    "id": 50603,
+    "romeNumber": "",
+    "getSkill": 0,
+    "type": 1,
+    "spineID": 0,
+    "name": "legacy_name_50603",
+    "iconId": 161,
+    "icon": "talentlegacy_att_atk",
+    "career": 5,
+    "pos": [
+      "23",
+      "1"
+    ],
+    "condition": [
+      "50602,10"
+    ]
+  },
+  {
+    "id": 50604,
+    "romeNumber": "",
+    "getSkill": 0,
+    "type": 1,
+    "spineID": 0,
+    "name": "legacy_name_50604",
+    "iconId": 161,
+    "icon": "talentlegacy_att_de",
+    "career": 5,
+    "pos": [
+      "24",
+      "1"
+    ],
+    "condition": [
+      "50603,10"
+    ]
+  },
+  {
+    "id": 50605,
+    "romeNumber": "",
+    "getSkill": 0,
+    "type": 1,
+    "spineID": 0,
+    "name": "legacy_name_50616",
+    "iconId": 161,
+    "icon": "talentlegacy_buff_dragon2",
+    "career": 5,
+    "pos": [
+      "22",
+      "5"
+    ],
+    "condition": [
+      "50601,1"
+    ]
+  },
+  {
+    "id": 50606,
+    "romeNumber": "",
+    "getSkill": 0,
+    "type": 1,
+    "spineID": 0,
+    "name": "legacy_name_10206",
+    "iconId": 161,
+    "icon": "talentlegacy_att_atknormal",
+    "career": 5,
+    "pos": [
+      "23",
+      "5"
+    ],
+    "condition": [
+      "50605,5"
+    ]
+  },
+  {
+    "id": 50607,
+    "romeNumber": "",
+    "getSkill": 0,
+    "type": 1,
+    "spineID": 0,
+    "name": "legacy_name_50613",
+    "iconId": 161,
+    "icon": "talentlegacy_att_ghost3",
+    "career": 5,
+    "pos": [
+      "24",
+      "5"
+    ],
+    "condition": [
+      "50606,5"
+    ]
+  },
+  {
+    "id": 50608,
+    "romeNumber": "",
+    "getSkill": 0,
+    "type": 4,
+    "spineID": 0,
+    "name": "legacy_name_50608",
+    "iconId": 161,
+    "icon": "talentlegacy_buff_att",
+    "career": 5,
+    "pos": [
+      "23",
+      "3"
+    ],
+    "condition": [
+      "50606,5"
+    ]
+  }
+]

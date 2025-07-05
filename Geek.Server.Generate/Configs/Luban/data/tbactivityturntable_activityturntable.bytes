@@ -1,0 +1,5100 @@
+[
+  {
+    "id": 300001,
+    "OpenTime": 5,
+    "EndTime": 6,
+    "OpenTimeNew": 0,
+    "EndTimeNew": 0,
+    "OpenDateTime": "",
+    "EndDateTime": "",
+    "dateTimeLimit": 0,
+    "shopGroup": 0,
+    "ShopRes": [],
+    "priceId": 50,
+    "singlePrice": 1,
+    "tenPrice": 10,
+    "poolTimes": [
+      "0",
+      "51",
+      "301"
+    ],
+    "pool": [
+      "202",
+      "200",
+      "210"
+    ],
+    "rate": [
+      "9940,60,0",
+      "9910,60,30",
+      "9880,60,300"
+    ],
+    "showRate": [
+      "9600",
+      "400"
+    ],
+    "showRateBig": [
+      "100",
+      "150",
+      "150"
+    ],
+    "miniPityCount": 100,
+    "miniPityRate": 200,
+    "limitItems": [
+      "75,2",
+      "29,2"
+    ],
+    "bigPityCount": 500,
+    "timesRewardID": 1,
+    "ProdMailTempId": "t-20240731122833"
+  },
+  {
+    "id": 300002,
+    "OpenTime": 12,
+    "EndTime": 13,
+    "OpenTimeNew": 0,
+    "EndTimeNew": 0,
+    "OpenDateTime": "",
+    "EndDateTime": "",
+    "dateTimeLimit": 0,
+    "shopGroup": 0,
+    "ShopRes": [],
+    "priceId": 50,
+    "singlePrice": 1,
+    "tenPrice": 10,
+    "poolTimes": [
+      "0",
+      "51",
+      "101"
+    ],
+    "pool": [
+      "202",
+      "201",
+      "410"
+    ],
+    "rate": [
+      "9900,100,0",
+      "9860,100,40",
+      "9820,100,300"
+    ],
+    "showRate": [
+      "9600",
+      "400"
+    ],
+    "showRateBig": [
+      "100",
+      "150",
+      "150"
+    ],
+    "miniPityCount": 100,
+    "miniPityRate": 201,
+    "limitItems": [
+      "75,1",
+      "31,1"
+    ],
+    "bigPityCount": 300,
+    "timesRewardID": 1,
+    "ProdMailTempId": "t-20240731122833"
+  },
+  {
+    "id": 300003,
+    "OpenTime": 19,
+    "EndTime": 20,
+    "OpenTimeNew": 0,
+    "EndTimeNew": 0,
+    "OpenDateTime": "",
+    "EndDateTime": "",
+    "dateTimeLimit": 0,
+    "shopGroup": 0,
+    "ShopRes": [],
+    "priceId": 50,
+    "singlePrice": 1,
+    "tenPrice": 10,
+    "poolTimes": [
+      "0",
+      "51",
+      "301"
+    ],
+    "pool": [
+      "202",
+      "200",
+      "310"
+    ],
+    "rate": [
+      "9940,60,0",
+      "9910,60,30",
+      "9880,60,300"
+    ],
+    "showRate": [
+      "9600",
+      "400"
+    ],
+    "showRateBig": [
+      "100",
+      "150",
+      "150"
+    ],
+    "miniPityCount": 100,
+    "miniPityRate": 200,
+    "limitItems": [
+      "75,2",
+      "29,2"
+    ],
+    "bigPityCount": 500,
+    "timesRewardID": 1,
+    "ProdMailTempId": "t-20240731122833"
+  },
+  {
+    "id": 300004,
+    "OpenTime": 26,
+    "EndTime": 27,
+    "OpenTimeNew": 0,
+    "EndTimeNew": 0,
+    "OpenDateTime": "",
+    "EndDateTime": "",
+    "dateTimeLimit": 0,
+    "shopGroup": 0,
+    "ShopRes": [],
+    "priceId": 50,
+    "singlePrice": 1,
+    "tenPrice": 10,
+    "poolTimes": [
+      "0",
+      "51",
+      "301"
+    ],
+    "pool": [
+      "202",
+      "200",
+      "211"
+    ],
+    "rate": [
+      "9940,60,0",
+      "9910,60,30",
+      "9880,60,300"
+    ],
+    "showRate": [
+      "9600",
+      "400"
+    ],
+    "showRateBig": [
+      "100",
+      "150",
+      "150"
+    ],
+    "miniPityCount": 100,
+    "miniPityRate": 200,
+    "limitItems": [
+      "75,2",
+      "29,2"
+    ],
+    "bigPityCount": 500,
+    "timesRewardID": 1,
+    "ProdMailTempId": "t-20240731122833"
+  },
+  {
+    "id": 300005,
+    "OpenTime": 33,
+    "EndTime": 34,
+    "OpenTimeNew": 0,
+    "EndTimeNew": 0,
+    "OpenDateTime": "",
+    "EndDateTime": "",
+    "dateTimeLimit": 0,
+    "shopGroup": 0,
+    "ShopRes": [],
+    "priceId": 50,
+    "singlePrice": 1,
+    "tenPrice": 10,
+    "poolTimes": [
+      "0",
+      "51",
+      "101"
+    ],
+    "pool": [
+      "202",
+      "201",
+      "411"
+    ],
+    "rate": [
+      "9900,100,0",
+      "9860,100,40",
+      "9820,100,300"
+    ],
+    "showRate": [
+      "9600",
+      "400"
+    ],
+    "showRateBig": [
+      "100",
+      "150",
+      "150"
+    ],
+    "miniPityCount": 100,
+    "miniPityRate": 201,
+    "limitItems": [
+      "75,1",
+      "31,1"
+    ],
+    "bigPityCount": 300,
+    "timesRewardID": 1,
+    "ProdMailTempId": "t-20240731122833"
+  },
+  {
+    "id": 300006,
+    "OpenTime": 40,
+    "EndTime": 41,
+    "OpenTimeNew": 0,
+    "EndTimeNew": 0,
+    "OpenDateTime": "",
+    "EndDateTime": "",
+    "dateTimeLimit": 0,
+    "shopGroup": 0,
+    "ShopRes": [],
+    "priceId": 50,
+    "singlePrice": 1,
+    "tenPrice": 10,
+    "poolTimes": [
+      "0",
+      "51",
+      "301"
+    ],
+    "pool": [
+      "202",
+      "200",
+      "311"
+    ],
+    "rate": [
+      "9940,60,0",
+      "9910,60,30",
+      "9880,60,300"
+    ],
+    "showRate": [
+      "9600",
+      "400"
+    ],
+    "showRateBig": [
+      "100",
+      "150",
+      "150"
+    ],
+    "miniPityCount": 100,
+    "miniPityRate": 200,
+    "limitItems": [
+      "75,2",
+      "29,2"
+    ],
+    "bigPityCount": 500,
+    "timesRewardID": 1,
+    "ProdMailTempId": "t-20240731122833"
+  },
+  {
+    "id": 300007,
+    "OpenTime": 47,
+    "EndTime": 48,
+    "OpenTimeNew": 0,
+    "EndTimeNew": 0,
+    "OpenDateTime": "",
+    "EndDateTime": "",
+    "dateTimeLimit": 0,
+    "shopGroup": 0,
+    "ShopRes": [],
+    "priceId": 50,
+    "singlePrice": 1,
+    "tenPrice": 10,
+    "poolTimes": [
+      "0",
+      "51",
+      "301"
+    ],
+    "pool": [
+      "202",
+      "200",
+      "212"
+    ],
+    "rate": [
+      "9940,60,0",
+      "9910,60,30",
+      "9880,60,300"
+    ],
+    "showRate": [
+      "9600",
+      "400"
+    ],
+    "showRateBig": [
+      "100",
+      "150",
+      "150"
+    ],
+    "miniPityCount": 100,
+    "miniPityRate": 200,
+    "limitItems": [
+      "75,2",
+      "29,2"
+    ],
+    "bigPityCount": 500,
+    "timesRewardID": 1,
+    "ProdMailTempId": "t-20240731122833"
+  },
+  {
+    "id": 300008,
+    "OpenTime": 54,
+    "EndTime": 55,
+    "OpenTimeNew": 0,
+    "EndTimeNew": 0,
+    "OpenDateTime": "",
+    "EndDateTime": "",
+    "dateTimeLimit": 0,
+    "shopGroup": 0,
+    "ShopRes": [],
+    "priceId": 50,
+    "singlePrice": 1,
+    "tenPrice": 10,
+    "poolTimes": [
+      "0",
+      "51",
+      "101"
+    ],
+    "pool": [
+      "202",
+      "201",
+      "412"
+    ],
+    "rate": [
+      "9900,100,0",
+      "9860,100,40",
+      "9820,100,300"
+    ],
+    "showRate": [
+      "9600",
+      "400"
+    ],
+    "showRateBig": [
+      "100",
+      "150",
+      "150"
+    ],
+    "miniPityCount": 100,
+    "miniPityRate": 201,
+    "limitItems": [
+      "75,1",
+      "31,1"
+    ],
+    "bigPityCount": 300,
+    "timesRewardID": 1,
+    "ProdMailTempId": "t-20240731122833"
+  },
+  {
+    "id": 300009,
+    "OpenTime": 61,
+    "EndTime": 62,
+    "OpenTimeNew": 0,
+    "EndTimeNew": 0,
+    "OpenDateTime": "",
+    "EndDateTime": "",
+    "dateTimeLimit": 0,
+    "shopGroup": 0,
+    "ShopRes": [],
+    "priceId": 50,
+    "singlePrice": 1,
+    "tenPrice": 10,
+    "poolTimes": [
+      "0",
+      "51",
+      "301"
+    ],
+    "pool": [
+      "202",
+      "200",
+      "312"
+    ],
+    "rate": [
+      "9940,60,0",
+      "9910,60,30",
+      "9880,60,300"
+    ],
+    "showRate": [
+      "9600",
+      "400"
+    ],
+    "showRateBig": [
+      "100",
+      "150",
+      "150"
+    ],
+    "miniPityCount": 100,
+    "miniPityRate": 200,
+    "limitItems": [
+      "75,2",
+      "29,2"
+    ],
+    "bigPityCount": 500,
+    "timesRewardID": 1,
+    "ProdMailTempId": "t-20240731122833"
+  },
+  {
+    "id": 300010,
+    "OpenTime": 68,
+    "EndTime": 69,
+    "OpenTimeNew": 0,
+    "EndTimeNew": 0,
+    "OpenDateTime": "",
+    "EndDateTime": "",
+    "dateTimeLimit": 0,
+    "shopGroup": 0,
+    "ShopRes": [],
+    "priceId": 50,
+    "singlePrice": 1,
+    "tenPrice": 10,
+    "poolTimes": [
+      "0",
+      "51",
+      "301"
+    ],
+    "pool": [
+      "202",
+      "200",
+      "213"
+    ],
+    "rate": [
+      "9940,60,0",
+      "9910,60,30",
+      "9880,60,300"
+    ],
+    "showRate": [
+      "9600",
+      "400"
+    ],
+    "showRateBig": [
+      "100",
+      "150",
+      "150"
+    ],
+    "miniPityCount": 100,
+    "miniPityRate": 200,
+    "limitItems": [
+      "75,2",
+      "29,2"
+    ],
+    "bigPityCount": 500,
+    "timesRewardID": 1,
+    "ProdMailTempId": "t-20240731122833"
+  },
+  {
+    "id": 300011,
+    "OpenTime": 75,
+    "EndTime": 76,
+    "OpenTimeNew": 0,
+    "EndTimeNew": 0,
+    "OpenDateTime": "",
+    "EndDateTime": "",
+    "dateTimeLimit": 0,
+    "shopGroup": 0,
+    "ShopRes": [],
+    "priceId": 50,
+    "singlePrice": 1,
+    "tenPrice": 10,
+    "poolTimes": [
+      "0",
+      "51",
+      "101"
+    ],
+    "pool": [
+      "202",
+      "201",
+      "413"
+    ],
+    "rate": [
+      "9900,100,0",
+      "9860,100,40",
+      "9820,100,300"
+    ],
+    "showRate": [
+      "9600",
+      "400"
+    ],
+    "showRateBig": [
+      "100",
+      "150",
+      "150"
+    ],
+    "miniPityCount": 100,
+    "miniPityRate": 201,
+    "limitItems": [
+      "75,1",
+      "31,1"
+    ],
+    "bigPityCount": 300,
+    "timesRewardID": 1,
+    "ProdMailTempId": "t-20240731122833"
+  },
+  {
+    "id": 300012,
+    "OpenTime": 82,
+    "EndTime": 83,
+    "OpenTimeNew": 0,
+    "EndTimeNew": 0,
+    "OpenDateTime": "",
+    "EndDateTime": "",
+    "dateTimeLimit": 0,
+    "shopGroup": 0,
+    "ShopRes": [],
+    "priceId": 50,
+    "singlePrice": 1,
+    "tenPrice": 10,
+    "poolTimes": [
+      "0",
+      "51",
+      "301"
+    ],
+    "pool": [
+      "202",
+      "200",
+      "313"
+    ],
+    "rate": [
+      "9940,60,0",
+      "9910,60,30",
+      "9880,60,300"
+    ],
+    "showRate": [
+      "9600",
+      "400"
+    ],
+    "showRateBig": [
+      "100",
+      "150",
+      "150"
+    ],
+    "miniPityCount": 100,
+    "miniPityRate": 200,
+    "limitItems": [
+      "75,2",
+      "29,2"
+    ],
+    "bigPityCount": 500,
+    "timesRewardID": 1,
+    "ProdMailTempId": "t-20240731122833"
+  },
+  {
+    "id": 300013,
+    "OpenTime": 89,
+    "EndTime": 90,
+    "OpenTimeNew": 0,
+    "EndTimeNew": 0,
+    "OpenDateTime": "",
+    "EndDateTime": "",
+    "dateTimeLimit": 0,
+    "shopGroup": 0,
+    "ShopRes": [],
+    "priceId": 50,
+    "singlePrice": 1,
+    "tenPrice": 10,
+    "poolTimes": [
+      "0",
+      "51",
+      "301"
+    ],
+    "pool": [
+      "202",
+      "200",
+      "213"
+    ],
+    "rate": [
+      "9940,60,0",
+      "9910,60,30",
+      "9880,60,300"
+    ],
+    "showRate": [
+      "9600",
+      "400"
+    ],
+    "showRateBig": [
+      "100",
+      "150",
+      "150"
+    ],
+    "miniPityCount": 100,
+    "miniPityRate": 200,
+    "limitItems": [
+      "75,2",
+      "29,2"
+    ],
+    "bigPityCount": 500,
+    "timesRewardID": 1,
+    "ProdMailTempId": "t-20240731122833"
+  },
+  {
+    "id": 300014,
+    "OpenTime": 96,
+    "EndTime": 97,
+    "OpenTimeNew": 0,
+    "EndTimeNew": 0,
+    "OpenDateTime": "",
+    "EndDateTime": "",
+    "dateTimeLimit": 0,
+    "shopGroup": 0,
+    "ShopRes": [],
+    "priceId": 50,
+    "singlePrice": 1,
+    "tenPrice": 10,
+    "poolTimes": [
+      "0",
+      "51",
+      "101"
+    ],
+    "pool": [
+      "202",
+      "201",
+      "413"
+    ],
+    "rate": [
+      "9900,100,0",
+      "9860,100,40",
+      "9820,100,300"
+    ],
+    "showRate": [
+      "9600",
+      "400"
+    ],
+    "showRateBig": [
+      "100",
+      "150",
+      "150"
+    ],
+    "miniPityCount": 100,
+    "miniPityRate": 201,
+    "limitItems": [
+      "75,1",
+      "31,1"
+    ],
+    "bigPityCount": 300,
+    "timesRewardID": 1,
+    "ProdMailTempId": "t-20240731122833"
+  },
+  {
+    "id": 300015,
+    "OpenTime": 103,
+    "EndTime": 104,
+    "OpenTimeNew": 0,
+    "EndTimeNew": 0,
+    "OpenDateTime": "",
+    "EndDateTime": "",
+    "dateTimeLimit": 0,
+    "shopGroup": 0,
+    "ShopRes": [],
+    "priceId": 50,
+    "singlePrice": 1,
+    "tenPrice": 10,
+    "poolTimes": [
+      "0",
+      "51",
+      "301"
+    ],
+    "pool": [
+      "202",
+      "200",
+      "313"
+    ],
+    "rate": [
+      "9940,60,0",
+      "9910,60,30",
+      "9880,60,300"
+    ],
+    "showRate": [
+      "9600",
+      "400"
+    ],
+    "showRateBig": [
+      "100",
+      "150",
+      "150"
+    ],
+    "miniPityCount": 100,
+    "miniPityRate": 200,
+    "limitItems": [
+      "75,2",
+      "29,2"
+    ],
+    "bigPityCount": 500,
+    "timesRewardID": 1,
+    "ProdMailTempId": "t-20240731122833"
+  },
+  {
+    "id": 300016,
+    "OpenTime": 110,
+    "EndTime": 111,
+    "OpenTimeNew": 0,
+    "EndTimeNew": 0,
+    "OpenDateTime": "",
+    "EndDateTime": "",
+    "dateTimeLimit": 0,
+    "shopGroup": 0,
+    "ShopRes": [],
+    "priceId": 50,
+    "singlePrice": 1,
+    "tenPrice": 10,
+    "poolTimes": [
+      "0",
+      "51",
+      "301"
+    ],
+    "pool": [
+      "202",
+      "200",
+      "213"
+    ],
+    "rate": [
+      "9940,60,0",
+      "9910,60,30",
+      "9880,60,300"
+    ],
+    "showRate": [
+      "9600",
+      "400"
+    ],
+    "showRateBig": [
+      "100",
+      "150",
+      "150"
+    ],
+    "miniPityCount": 100,
+    "miniPityRate": 200,
+    "limitItems": [
+      "75,2",
+      "29,2"
+    ],
+    "bigPityCount": 500,
+    "timesRewardID": 1,
+    "ProdMailTempId": "t-20240731122833"
+  },
+  {
+    "id": 300017,
+    "OpenTime": 117,
+    "EndTime": 118,
+    "OpenTimeNew": 0,
+    "EndTimeNew": 0,
+    "OpenDateTime": "",
+    "EndDateTime": "",
+    "dateTimeLimit": 0,
+    "shopGroup": 0,
+    "ShopRes": [],
+    "priceId": 50,
+    "singlePrice": 1,
+    "tenPrice": 10,
+    "poolTimes": [
+      "0",
+      "51",
+      "101"
+    ],
+    "pool": [
+      "202",
+      "201",
+      "413"
+    ],
+    "rate": [
+      "9900,100,0",
+      "9860,100,40",
+      "9820,100,300"
+    ],
+    "showRate": [
+      "9600",
+      "400"
+    ],
+    "showRateBig": [
+      "100",
+      "150",
+      "150"
+    ],
+    "miniPityCount": 100,
+    "miniPityRate": 201,
+    "limitItems": [
+      "75,1",
+      "31,1"
+    ],
+    "bigPityCount": 300,
+    "timesRewardID": 1,
+    "ProdMailTempId": "t-20240731122833"
+  },
+  {
+    "id": 300018,
+    "OpenTime": 124,
+    "EndTime": 125,
+    "OpenTimeNew": 0,
+    "EndTimeNew": 0,
+    "OpenDateTime": "",
+    "EndDateTime": "",
+    "dateTimeLimit": 0,
+    "shopGroup": 0,
+    "ShopRes": [],
+    "priceId": 50,
+    "singlePrice": 1,
+    "tenPrice": 10,
+    "poolTimes": [
+      "0",
+      "51",
+      "301"
+    ],
+    "pool": [
+      "202",
+      "200",
+      "313"
+    ],
+    "rate": [
+      "9940,60,0",
+      "9910,60,30",
+      "9880,60,300"
+    ],
+    "showRate": [
+      "9600",
+      "400"
+    ],
+    "showRateBig": [
+      "100",
+      "150",
+      "150"
+    ],
+    "miniPityCount": 100,
+    "miniPityRate": 200,
+    "limitItems": [
+      "75,2",
+      "29,2"
+    ],
+    "bigPityCount": 500,
+    "timesRewardID": 1,
+    "ProdMailTempId": "t-20240731122833"
+  },
+  {
+    "id": 300019,
+    "OpenTime": 131,
+    "EndTime": 132,
+    "OpenTimeNew": 0,
+    "EndTimeNew": 0,
+    "OpenDateTime": "",
+    "EndDateTime": "",
+    "dateTimeLimit": 0,
+    "shopGroup": 0,
+    "ShopRes": [],
+    "priceId": 50,
+    "singlePrice": 1,
+    "tenPrice": 10,
+    "poolTimes": [
+      "0",
+      "51",
+      "301"
+    ],
+    "pool": [
+      "202",
+      "200",
+      "213"
+    ],
+    "rate": [
+      "9940,60,0",
+      "9910,60,30",
+      "9880,60,300"
+    ],
+    "showRate": [
+      "9600",
+      "400"
+    ],
+    "showRateBig": [
+      "100",
+      "150",
+      "150"
+    ],
+    "miniPityCount": 100,
+    "miniPityRate": 200,
+    "limitItems": [
+      "75,2",
+      "29,2"
+    ],
+    "bigPityCount": 500,
+    "timesRewardID": 1,
+    "ProdMailTempId": "t-20240731122833"
+  },
+  {
+    "id": 300020,
+    "OpenTime": 138,
+    "EndTime": 139,
+    "OpenTimeNew": 0,
+    "EndTimeNew": 0,
+    "OpenDateTime": "",
+    "EndDateTime": "",
+    "dateTimeLimit": 0,
+    "shopGroup": 0,
+    "ShopRes": [],
+    "priceId": 50,
+    "singlePrice": 1,
+    "tenPrice": 10,
+    "poolTimes": [
+      "0",
+      "51",
+      "101"
+    ],
+    "pool": [
+      "202",
+      "201",
+      "413"
+    ],
+    "rate": [
+      "9900,100,0",
+      "9860,100,40",
+      "9820,100,300"
+    ],
+    "showRate": [
+      "9600",
+      "400"
+    ],
+    "showRateBig": [
+      "100",
+      "150",
+      "150"
+    ],
+    "miniPityCount": 100,
+    "miniPityRate": 201,
+    "limitItems": [
+      "75,1",
+      "31,1"
+    ],
+    "bigPityCount": 300,
+    "timesRewardID": 1,
+    "ProdMailTempId": "t-20240731122833"
+  },
+  {
+    "id": 300021,
+    "OpenTime": 145,
+    "EndTime": 146,
+    "OpenTimeNew": 0,
+    "EndTimeNew": 0,
+    "OpenDateTime": "",
+    "EndDateTime": "",
+    "dateTimeLimit": 0,
+    "shopGroup": 0,
+    "ShopRes": [],
+    "priceId": 50,
+    "singlePrice": 1,
+    "tenPrice": 10,
+    "poolTimes": [
+      "0",
+      "51",
+      "301"
+    ],
+    "pool": [
+      "202",
+      "200",
+      "313"
+    ],
+    "rate": [
+      "9940,60,0",
+      "9910,60,30",
+      "9880,60,300"
+    ],
+    "showRate": [
+      "9600",
+      "400"
+    ],
+    "showRateBig": [
+      "100",
+      "150",
+      "150"
+    ],
+    "miniPityCount": 100,
+    "miniPityRate": 200,
+    "limitItems": [
+      "75,2",
+      "29,2"
+    ],
+    "bigPityCount": 500,
+    "timesRewardID": 1,
+    "ProdMailTempId": "t-20240731122833"
+  },
+  {
+    "id": 300022,
+    "OpenTime": 152,
+    "EndTime": 153,
+    "OpenTimeNew": 0,
+    "EndTimeNew": 0,
+    "OpenDateTime": "",
+    "EndDateTime": "",
+    "dateTimeLimit": 0,
+    "shopGroup": 0,
+    "ShopRes": [],
+    "priceId": 50,
+    "singlePrice": 1,
+    "tenPrice": 10,
+    "poolTimes": [
+      "0",
+      "51",
+      "301"
+    ],
+    "pool": [
+      "202",
+      "200",
+      "213"
+    ],
+    "rate": [
+      "9940,60,0",
+      "9910,60,30",
+      "9880,60,300"
+    ],
+    "showRate": [
+      "9600",
+      "400"
+    ],
+    "showRateBig": [
+      "100",
+      "150",
+      "150"
+    ],
+    "miniPityCount": 100,
+    "miniPityRate": 200,
+    "limitItems": [
+      "75,2",
+      "29,2"
+    ],
+    "bigPityCount": 500,
+    "timesRewardID": 1,
+    "ProdMailTempId": "t-20240731122833"
+  },
+  {
+    "id": 300023,
+    "OpenTime": 159,
+    "EndTime": 160,
+    "OpenTimeNew": 0,
+    "EndTimeNew": 0,
+    "OpenDateTime": "",
+    "EndDateTime": "",
+    "dateTimeLimit": 0,
+    "shopGroup": 0,
+    "ShopRes": [],
+    "priceId": 50,
+    "singlePrice": 1,
+    "tenPrice": 10,
+    "poolTimes": [
+      "0",
+      "51",
+      "101"
+    ],
+    "pool": [
+      "202",
+      "201",
+      "413"
+    ],
+    "rate": [
+      "9900,100,0",
+      "9860,100,40",
+      "9820,100,300"
+    ],
+    "showRate": [
+      "9600",
+      "400"
+    ],
+    "showRateBig": [
+      "100",
+      "150",
+      "150"
+    ],
+    "miniPityCount": 100,
+    "miniPityRate": 201,
+    "limitItems": [
+      "75,1",
+      "31,1"
+    ],
+    "bigPityCount": 300,
+    "timesRewardID": 1,
+    "ProdMailTempId": "t-20240731122833"
+  },
+  {
+    "id": 300024,
+    "OpenTime": 166,
+    "EndTime": 167,
+    "OpenTimeNew": 0,
+    "EndTimeNew": 0,
+    "OpenDateTime": "",
+    "EndDateTime": "",
+    "dateTimeLimit": 0,
+    "shopGroup": 0,
+    "ShopRes": [],
+    "priceId": 50,
+    "singlePrice": 1,
+    "tenPrice": 10,
+    "poolTimes": [
+      "0",
+      "51",
+      "301"
+    ],
+    "pool": [
+      "202",
+      "200",
+      "313"
+    ],
+    "rate": [
+      "9940,60,0",
+      "9910,60,30",
+      "9880,60,300"
+    ],
+    "showRate": [
+      "9600",
+      "400"
+    ],
+    "showRateBig": [
+      "100",
+      "150",
+      "150"
+    ],
+    "miniPityCount": 100,
+    "miniPityRate": 200,
+    "limitItems": [
+      "75,2",
+      "29,2"
+    ],
+    "bigPityCount": 500,
+    "timesRewardID": 1,
+    "ProdMailTempId": "t-20240731122833"
+  },
+  {
+    "id": 300025,
+    "OpenTime": 173,
+    "EndTime": 174,
+    "OpenTimeNew": 0,
+    "EndTimeNew": 0,
+    "OpenDateTime": "",
+    "EndDateTime": "",
+    "dateTimeLimit": 0,
+    "shopGroup": 0,
+    "ShopRes": [],
+    "priceId": 50,
+    "singlePrice": 1,
+    "tenPrice": 10,
+    "poolTimes": [
+      "0",
+      "51",
+      "301"
+    ],
+    "pool": [
+      "202",
+      "200",
+      "213"
+    ],
+    "rate": [
+      "9940,60,0",
+      "9910,60,30",
+      "9880,60,300"
+    ],
+    "showRate": [
+      "9600",
+      "400"
+    ],
+    "showRateBig": [
+      "100",
+      "150",
+      "150"
+    ],
+    "miniPityCount": 100,
+    "miniPityRate": 200,
+    "limitItems": [
+      "75,2",
+      "29,2"
+    ],
+    "bigPityCount": 500,
+    "timesRewardID": 1,
+    "ProdMailTempId": "t-20240731122833"
+  },
+  {
+    "id": 300026,
+    "OpenTime": 180,
+    "EndTime": 181,
+    "OpenTimeNew": 0,
+    "EndTimeNew": 0,
+    "OpenDateTime": "",
+    "EndDateTime": "",
+    "dateTimeLimit": 0,
+    "shopGroup": 0,
+    "ShopRes": [],
+    "priceId": 50,
+    "singlePrice": 1,
+    "tenPrice": 10,
+    "poolTimes": [
+      "0",
+      "51",
+      "101"
+    ],
+    "pool": [
+      "202",
+      "201",
+      "413"
+    ],
+    "rate": [
+      "9900,100,0",
+      "9860,100,40",
+      "9820,100,300"
+    ],
+    "showRate": [
+      "9600",
+      "400"
+    ],
+    "showRateBig": [
+      "100",
+      "150",
+      "150"
+    ],
+    "miniPityCount": 100,
+    "miniPityRate": 201,
+    "limitItems": [
+      "75,1",
+      "31,1"
+    ],
+    "bigPityCount": 300,
+    "timesRewardID": 1,
+    "ProdMailTempId": "t-20240731122833"
+  },
+  {
+    "id": 300027,
+    "OpenTime": 187,
+    "EndTime": 188,
+    "OpenTimeNew": 0,
+    "EndTimeNew": 0,
+    "OpenDateTime": "",
+    "EndDateTime": "",
+    "dateTimeLimit": 0,
+    "shopGroup": 0,
+    "ShopRes": [],
+    "priceId": 50,
+    "singlePrice": 1,
+    "tenPrice": 10,
+    "poolTimes": [
+      "0",
+      "51",
+      "301"
+    ],
+    "pool": [
+      "202",
+      "200",
+      "313"
+    ],
+    "rate": [
+      "9940,60,0",
+      "9910,60,30",
+      "9880,60,300"
+    ],
+    "showRate": [
+      "9600",
+      "400"
+    ],
+    "showRateBig": [
+      "100",
+      "150",
+      "150"
+    ],
+    "miniPityCount": 100,
+    "miniPityRate": 200,
+    "limitItems": [
+      "75,2",
+      "29,2"
+    ],
+    "bigPityCount": 500,
+    "timesRewardID": 1,
+    "ProdMailTempId": "t-20240731122833"
+  },
+  {
+    "id": 300028,
+    "OpenTime": 194,
+    "EndTime": 195,
+    "OpenTimeNew": 0,
+    "EndTimeNew": 0,
+    "OpenDateTime": "",
+    "EndDateTime": "",
+    "dateTimeLimit": 0,
+    "shopGroup": 0,
+    "ShopRes": [],
+    "priceId": 50,
+    "singlePrice": 1,
+    "tenPrice": 10,
+    "poolTimes": [
+      "0",
+      "51",
+      "301"
+    ],
+    "pool": [
+      "202",
+      "200",
+      "213"
+    ],
+    "rate": [
+      "9940,60,0",
+      "9910,60,30",
+      "9880,60,300"
+    ],
+    "showRate": [
+      "9600",
+      "400"
+    ],
+    "showRateBig": [
+      "100",
+      "150",
+      "150"
+    ],
+    "miniPityCount": 100,
+    "miniPityRate": 200,
+    "limitItems": [
+      "75,2",
+      "29,2"
+    ],
+    "bigPityCount": 500,
+    "timesRewardID": 1,
+    "ProdMailTempId": "t-20240731122833"
+  },
+  {
+    "id": 300029,
+    "OpenTime": 201,
+    "EndTime": 202,
+    "OpenTimeNew": 0,
+    "EndTimeNew": 0,
+    "OpenDateTime": "",
+    "EndDateTime": "",
+    "dateTimeLimit": 0,
+    "shopGroup": 0,
+    "ShopRes": [],
+    "priceId": 50,
+    "singlePrice": 1,
+    "tenPrice": 10,
+    "poolTimes": [
+      "0",
+      "51",
+      "101"
+    ],
+    "pool": [
+      "202",
+      "201",
+      "413"
+    ],
+    "rate": [
+      "9900,100,0",
+      "9860,100,40",
+      "9820,100,300"
+    ],
+    "showRate": [
+      "9600",
+      "400"
+    ],
+    "showRateBig": [
+      "100",
+      "150",
+      "150"
+    ],
+    "miniPityCount": 100,
+    "miniPityRate": 201,
+    "limitItems": [
+      "75,1",
+      "31,1"
+    ],
+    "bigPityCount": 300,
+    "timesRewardID": 1,
+    "ProdMailTempId": "t-20240731122833"
+  },
+  {
+    "id": 300030,
+    "OpenTime": 208,
+    "EndTime": 209,
+    "OpenTimeNew": 0,
+    "EndTimeNew": 0,
+    "OpenDateTime": "",
+    "EndDateTime": "",
+    "dateTimeLimit": 0,
+    "shopGroup": 0,
+    "ShopRes": [],
+    "priceId": 50,
+    "singlePrice": 1,
+    "tenPrice": 10,
+    "poolTimes": [
+      "0",
+      "51",
+      "301"
+    ],
+    "pool": [
+      "202",
+      "200",
+      "313"
+    ],
+    "rate": [
+      "9940,60,0",
+      "9910,60,30",
+      "9880,60,300"
+    ],
+    "showRate": [
+      "9600",
+      "400"
+    ],
+    "showRateBig": [
+      "100",
+      "150",
+      "150"
+    ],
+    "miniPityCount": 100,
+    "miniPityRate": 200,
+    "limitItems": [
+      "75,2",
+      "29,2"
+    ],
+    "bigPityCount": 500,
+    "timesRewardID": 1,
+    "ProdMailTempId": "t-20240731122833"
+  },
+  {
+    "id": 300031,
+    "OpenTime": 215,
+    "EndTime": 216,
+    "OpenTimeNew": 0,
+    "EndTimeNew": 0,
+    "OpenDateTime": "",
+    "EndDateTime": "",
+    "dateTimeLimit": 0,
+    "shopGroup": 0,
+    "ShopRes": [],
+    "priceId": 50,
+    "singlePrice": 1,
+    "tenPrice": 10,
+    "poolTimes": [
+      "0",
+      "51",
+      "301"
+    ],
+    "pool": [
+      "202",
+      "200",
+      "213"
+    ],
+    "rate": [
+      "9940,60,0",
+      "9910,60,30",
+      "9880,60,300"
+    ],
+    "showRate": [
+      "9600",
+      "400"
+    ],
+    "showRateBig": [
+      "100",
+      "150",
+      "150"
+    ],
+    "miniPityCount": 100,
+    "miniPityRate": 200,
+    "limitItems": [
+      "75,2",
+      "29,2"
+    ],
+    "bigPityCount": 500,
+    "timesRewardID": 1,
+    "ProdMailTempId": "t-20240731122833"
+  },
+  {
+    "id": 300032,
+    "OpenTime": 222,
+    "EndTime": 223,
+    "OpenTimeNew": 0,
+    "EndTimeNew": 0,
+    "OpenDateTime": "",
+    "EndDateTime": "",
+    "dateTimeLimit": 0,
+    "shopGroup": 0,
+    "ShopRes": [],
+    "priceId": 50,
+    "singlePrice": 1,
+    "tenPrice": 10,
+    "poolTimes": [
+      "0",
+      "51",
+      "101"
+    ],
+    "pool": [
+      "202",
+      "201",
+      "413"
+    ],
+    "rate": [
+      "9900,100,0",
+      "9860,100,40",
+      "9820,100,300"
+    ],
+    "showRate": [
+      "9600",
+      "400"
+    ],
+    "showRateBig": [
+      "100",
+      "150",
+      "150"
+    ],
+    "miniPityCount": 100,
+    "miniPityRate": 201,
+    "limitItems": [
+      "75,1",
+      "31,1"
+    ],
+    "bigPityCount": 300,
+    "timesRewardID": 1,
+    "ProdMailTempId": "t-20240731122833"
+  },
+  {
+    "id": 300033,
+    "OpenTime": 229,
+    "EndTime": 230,
+    "OpenTimeNew": 0,
+    "EndTimeNew": 0,
+    "OpenDateTime": "",
+    "EndDateTime": "",
+    "dateTimeLimit": 0,
+    "shopGroup": 0,
+    "ShopRes": [],
+    "priceId": 50,
+    "singlePrice": 1,
+    "tenPrice": 10,
+    "poolTimes": [
+      "0",
+      "51",
+      "301"
+    ],
+    "pool": [
+      "202",
+      "200",
+      "313"
+    ],
+    "rate": [
+      "9940,60,0",
+      "9910,60,30",
+      "9880,60,300"
+    ],
+    "showRate": [
+      "9600",
+      "400"
+    ],
+    "showRateBig": [
+      "100",
+      "150",
+      "150"
+    ],
+    "miniPityCount": 100,
+    "miniPityRate": 200,
+    "limitItems": [
+      "75,2",
+      "29,2"
+    ],
+    "bigPityCount": 500,
+    "timesRewardID": 1,
+    "ProdMailTempId": "t-20240731122833"
+  },
+  {
+    "id": 300034,
+    "OpenTime": 236,
+    "EndTime": 237,
+    "OpenTimeNew": 0,
+    "EndTimeNew": 0,
+    "OpenDateTime": "",
+    "EndDateTime": "",
+    "dateTimeLimit": 0,
+    "shopGroup": 0,
+    "ShopRes": [],
+    "priceId": 50,
+    "singlePrice": 1,
+    "tenPrice": 10,
+    "poolTimes": [
+      "0",
+      "51",
+      "301"
+    ],
+    "pool": [
+      "202",
+      "200",
+      "213"
+    ],
+    "rate": [
+      "9940,60,0",
+      "9910,60,30",
+      "9880,60,300"
+    ],
+    "showRate": [
+      "9600",
+      "400"
+    ],
+    "showRateBig": [
+      "100",
+      "150",
+      "150"
+    ],
+    "miniPityCount": 100,
+    "miniPityRate": 200,
+    "limitItems": [
+      "75,2",
+      "29,2"
+    ],
+    "bigPityCount": 500,
+    "timesRewardID": 1,
+    "ProdMailTempId": "t-20240731122833"
+  },
+  {
+    "id": 300035,
+    "OpenTime": 243,
+    "EndTime": 244,
+    "OpenTimeNew": 0,
+    "EndTimeNew": 0,
+    "OpenDateTime": "",
+    "EndDateTime": "",
+    "dateTimeLimit": 0,
+    "shopGroup": 0,
+    "ShopRes": [],
+    "priceId": 50,
+    "singlePrice": 1,
+    "tenPrice": 10,
+    "poolTimes": [
+      "0",
+      "51",
+      "101"
+    ],
+    "pool": [
+      "202",
+      "201",
+      "413"
+    ],
+    "rate": [
+      "9900,100,0",
+      "9860,100,40",
+      "9820,100,300"
+    ],
+    "showRate": [
+      "9600",
+      "400"
+    ],
+    "showRateBig": [
+      "100",
+      "150",
+      "150"
+    ],
+    "miniPityCount": 100,
+    "miniPityRate": 201,
+    "limitItems": [
+      "75,1",
+      "31,1"
+    ],
+    "bigPityCount": 300,
+    "timesRewardID": 1,
+    "ProdMailTempId": "t-20240731122833"
+  },
+  {
+    "id": 300036,
+    "OpenTime": 250,
+    "EndTime": 251,
+    "OpenTimeNew": 0,
+    "EndTimeNew": 0,
+    "OpenDateTime": "",
+    "EndDateTime": "",
+    "dateTimeLimit": 0,
+    "shopGroup": 0,
+    "ShopRes": [],
+    "priceId": 50,
+    "singlePrice": 1,
+    "tenPrice": 10,
+    "poolTimes": [
+      "0",
+      "51",
+      "301"
+    ],
+    "pool": [
+      "202",
+      "200",
+      "313"
+    ],
+    "rate": [
+      "9940,60,0",
+      "9910,60,30",
+      "9880,60,300"
+    ],
+    "showRate": [
+      "9600",
+      "400"
+    ],
+    "showRateBig": [
+      "100",
+      "150",
+      "150"
+    ],
+    "miniPityCount": 100,
+    "miniPityRate": 200,
+    "limitItems": [
+      "75,2",
+      "29,2"
+    ],
+    "bigPityCount": 500,
+    "timesRewardID": 1,
+    "ProdMailTempId": "t-20240731122833"
+  },
+  {
+    "id": 300037,
+    "OpenTime": 257,
+    "EndTime": 258,
+    "OpenTimeNew": 0,
+    "EndTimeNew": 0,
+    "OpenDateTime": "",
+    "EndDateTime": "",
+    "dateTimeLimit": 0,
+    "shopGroup": 0,
+    "ShopRes": [],
+    "priceId": 50,
+    "singlePrice": 1,
+    "tenPrice": 10,
+    "poolTimes": [
+      "0",
+      "51",
+      "301"
+    ],
+    "pool": [
+      "202",
+      "200",
+      "213"
+    ],
+    "rate": [
+      "9940,60,0",
+      "9910,60,30",
+      "9880,60,300"
+    ],
+    "showRate": [
+      "9600",
+      "400"
+    ],
+    "showRateBig": [
+      "100",
+      "150",
+      "150"
+    ],
+    "miniPityCount": 100,
+    "miniPityRate": 200,
+    "limitItems": [
+      "75,2",
+      "29,2"
+    ],
+    "bigPityCount": 500,
+    "timesRewardID": 1,
+    "ProdMailTempId": "t-20240731122833"
+  },
+  {
+    "id": 300038,
+    "OpenTime": 264,
+    "EndTime": 265,
+    "OpenTimeNew": 0,
+    "EndTimeNew": 0,
+    "OpenDateTime": "",
+    "EndDateTime": "",
+    "dateTimeLimit": 0,
+    "shopGroup": 0,
+    "ShopRes": [],
+    "priceId": 50,
+    "singlePrice": 1,
+    "tenPrice": 10,
+    "poolTimes": [
+      "0",
+      "51",
+      "101"
+    ],
+    "pool": [
+      "202",
+      "201",
+      "413"
+    ],
+    "rate": [
+      "9900,100,0",
+      "9860,100,40",
+      "9820,100,300"
+    ],
+    "showRate": [
+      "9600",
+      "400"
+    ],
+    "showRateBig": [
+      "100",
+      "150",
+      "150"
+    ],
+    "miniPityCount": 100,
+    "miniPityRate": 201,
+    "limitItems": [
+      "75,1",
+      "31,1"
+    ],
+    "bigPityCount": 300,
+    "timesRewardID": 1,
+    "ProdMailTempId": "t-20240731122833"
+  },
+  {
+    "id": 300039,
+    "OpenTime": 271,
+    "EndTime": 272,
+    "OpenTimeNew": 0,
+    "EndTimeNew": 0,
+    "OpenDateTime": "",
+    "EndDateTime": "",
+    "dateTimeLimit": 0,
+    "shopGroup": 0,
+    "ShopRes": [],
+    "priceId": 50,
+    "singlePrice": 1,
+    "tenPrice": 10,
+    "poolTimes": [
+      "0",
+      "51",
+      "301"
+    ],
+    "pool": [
+      "202",
+      "200",
+      "313"
+    ],
+    "rate": [
+      "9940,60,0",
+      "9910,60,30",
+      "9880,60,300"
+    ],
+    "showRate": [
+      "9600",
+      "400"
+    ],
+    "showRateBig": [
+      "100",
+      "150",
+      "150"
+    ],
+    "miniPityCount": 100,
+    "miniPityRate": 200,
+    "limitItems": [
+      "75,2",
+      "29,2"
+    ],
+    "bigPityCount": 500,
+    "timesRewardID": 1,
+    "ProdMailTempId": "t-20240731122833"
+  },
+  {
+    "id": 300040,
+    "OpenTime": 278,
+    "EndTime": 279,
+    "OpenTimeNew": 0,
+    "EndTimeNew": 0,
+    "OpenDateTime": "",
+    "EndDateTime": "",
+    "dateTimeLimit": 0,
+    "shopGroup": 0,
+    "ShopRes": [],
+    "priceId": 50,
+    "singlePrice": 1,
+    "tenPrice": 10,
+    "poolTimes": [
+      "0",
+      "51",
+      "301"
+    ],
+    "pool": [
+      "202",
+      "200",
+      "213"
+    ],
+    "rate": [
+      "9940,60,0",
+      "9910,60,30",
+      "9880,60,300"
+    ],
+    "showRate": [
+      "9600",
+      "400"
+    ],
+    "showRateBig": [
+      "100",
+      "150",
+      "150"
+    ],
+    "miniPityCount": 100,
+    "miniPityRate": 200,
+    "limitItems": [
+      "75,2",
+      "29,2"
+    ],
+    "bigPityCount": 500,
+    "timesRewardID": 1,
+    "ProdMailTempId": "t-20240731122833"
+  },
+  {
+    "id": 300041,
+    "OpenTime": 285,
+    "EndTime": 286,
+    "OpenTimeNew": 0,
+    "EndTimeNew": 0,
+    "OpenDateTime": "",
+    "EndDateTime": "",
+    "dateTimeLimit": 0,
+    "shopGroup": 0,
+    "ShopRes": [],
+    "priceId": 50,
+    "singlePrice": 1,
+    "tenPrice": 10,
+    "poolTimes": [
+      "0",
+      "51",
+      "101"
+    ],
+    "pool": [
+      "202",
+      "201",
+      "413"
+    ],
+    "rate": [
+      "9900,100,0",
+      "9860,100,40",
+      "9820,100,300"
+    ],
+    "showRate": [
+      "9600",
+      "400"
+    ],
+    "showRateBig": [
+      "100",
+      "150",
+      "150"
+    ],
+    "miniPityCount": 100,
+    "miniPityRate": 201,
+    "limitItems": [
+      "75,1",
+      "31,1"
+    ],
+    "bigPityCount": 300,
+    "timesRewardID": 1,
+    "ProdMailTempId": "t-20240731122833"
+  },
+  {
+    "id": 300042,
+    "OpenTime": 292,
+    "EndTime": 293,
+    "OpenTimeNew": 0,
+    "EndTimeNew": 0,
+    "OpenDateTime": "",
+    "EndDateTime": "",
+    "dateTimeLimit": 0,
+    "shopGroup": 0,
+    "ShopRes": [],
+    "priceId": 50,
+    "singlePrice": 1,
+    "tenPrice": 10,
+    "poolTimes": [
+      "0",
+      "51",
+      "301"
+    ],
+    "pool": [
+      "202",
+      "200",
+      "313"
+    ],
+    "rate": [
+      "9940,60,0",
+      "9910,60,30",
+      "9880,60,300"
+    ],
+    "showRate": [
+      "9600",
+      "400"
+    ],
+    "showRateBig": [
+      "100",
+      "150",
+      "150"
+    ],
+    "miniPityCount": 100,
+    "miniPityRate": 200,
+    "limitItems": [
+      "75,2",
+      "29,2"
+    ],
+    "bigPityCount": 500,
+    "timesRewardID": 1,
+    "ProdMailTempId": "t-20240731122833"
+  },
+  {
+    "id": 300043,
+    "OpenTime": 299,
+    "EndTime": 300,
+    "OpenTimeNew": 0,
+    "EndTimeNew": 0,
+    "OpenDateTime": "",
+    "EndDateTime": "",
+    "dateTimeLimit": 0,
+    "shopGroup": 0,
+    "ShopRes": [],
+    "priceId": 50,
+    "singlePrice": 1,
+    "tenPrice": 10,
+    "poolTimes": [
+      "0",
+      "51",
+      "301"
+    ],
+    "pool": [
+      "202",
+      "200",
+      "213"
+    ],
+    "rate": [
+      "9940,60,0",
+      "9910,60,30",
+      "9880,60,300"
+    ],
+    "showRate": [
+      "9600",
+      "400"
+    ],
+    "showRateBig": [
+      "100",
+      "150",
+      "150"
+    ],
+    "miniPityCount": 100,
+    "miniPityRate": 200,
+    "limitItems": [
+      "75,2",
+      "29,2"
+    ],
+    "bigPityCount": 500,
+    "timesRewardID": 1,
+    "ProdMailTempId": "t-20240731122833"
+  },
+  {
+    "id": 300044,
+    "OpenTime": 306,
+    "EndTime": 307,
+    "OpenTimeNew": 0,
+    "EndTimeNew": 0,
+    "OpenDateTime": "",
+    "EndDateTime": "",
+    "dateTimeLimit": 0,
+    "shopGroup": 0,
+    "ShopRes": [],
+    "priceId": 50,
+    "singlePrice": 1,
+    "tenPrice": 10,
+    "poolTimes": [
+      "0",
+      "51",
+      "101"
+    ],
+    "pool": [
+      "202",
+      "201",
+      "413"
+    ],
+    "rate": [
+      "9900,100,0",
+      "9860,100,40",
+      "9820,100,300"
+    ],
+    "showRate": [
+      "9600",
+      "400"
+    ],
+    "showRateBig": [
+      "100",
+      "150",
+      "150"
+    ],
+    "miniPityCount": 100,
+    "miniPityRate": 201,
+    "limitItems": [
+      "75,1",
+      "31,1"
+    ],
+    "bigPityCount": 300,
+    "timesRewardID": 1,
+    "ProdMailTempId": "t-20240731122833"
+  },
+  {
+    "id": 300045,
+    "OpenTime": 313,
+    "EndTime": 314,
+    "OpenTimeNew": 0,
+    "EndTimeNew": 0,
+    "OpenDateTime": "",
+    "EndDateTime": "",
+    "dateTimeLimit": 0,
+    "shopGroup": 0,
+    "ShopRes": [],
+    "priceId": 50,
+    "singlePrice": 1,
+    "tenPrice": 10,
+    "poolTimes": [
+      "0",
+      "51",
+      "301"
+    ],
+    "pool": [
+      "202",
+      "200",
+      "313"
+    ],
+    "rate": [
+      "9940,60,0",
+      "9910,60,30",
+      "9880,60,300"
+    ],
+    "showRate": [
+      "9600",
+      "400"
+    ],
+    "showRateBig": [
+      "100",
+      "150",
+      "150"
+    ],
+    "miniPityCount": 100,
+    "miniPityRate": 200,
+    "limitItems": [
+      "75,2",
+      "29,2"
+    ],
+    "bigPityCount": 500,
+    "timesRewardID": 1,
+    "ProdMailTempId": "t-20240731122833"
+  },
+  {
+    "id": 300046,
+    "OpenTime": 320,
+    "EndTime": 321,
+    "OpenTimeNew": 0,
+    "EndTimeNew": 0,
+    "OpenDateTime": "",
+    "EndDateTime": "",
+    "dateTimeLimit": 0,
+    "shopGroup": 0,
+    "ShopRes": [],
+    "priceId": 50,
+    "singlePrice": 1,
+    "tenPrice": 10,
+    "poolTimes": [
+      "0",
+      "51",
+      "301"
+    ],
+    "pool": [
+      "202",
+      "200",
+      "213"
+    ],
+    "rate": [
+      "9940,60,0",
+      "9910,60,30",
+      "9880,60,300"
+    ],
+    "showRate": [
+      "9600",
+      "400"
+    ],
+    "showRateBig": [
+      "100",
+      "150",
+      "150"
+    ],
+    "miniPityCount": 100,
+    "miniPityRate": 200,
+    "limitItems": [
+      "75,2",
+      "29,2"
+    ],
+    "bigPityCount": 500,
+    "timesRewardID": 1,
+    "ProdMailTempId": "t-20240731122833"
+  },
+  {
+    "id": 300047,
+    "OpenTime": 327,
+    "EndTime": 328,
+    "OpenTimeNew": 0,
+    "EndTimeNew": 0,
+    "OpenDateTime": "",
+    "EndDateTime": "",
+    "dateTimeLimit": 0,
+    "shopGroup": 0,
+    "ShopRes": [],
+    "priceId": 50,
+    "singlePrice": 1,
+    "tenPrice": 10,
+    "poolTimes": [
+      "0",
+      "51",
+      "101"
+    ],
+    "pool": [
+      "202",
+      "201",
+      "413"
+    ],
+    "rate": [
+      "9900,100,0",
+      "9860,100,40",
+      "9820,100,300"
+    ],
+    "showRate": [
+      "9600",
+      "400"
+    ],
+    "showRateBig": [
+      "100",
+      "150",
+      "150"
+    ],
+    "miniPityCount": 100,
+    "miniPityRate": 201,
+    "limitItems": [
+      "75,1",
+      "31,1"
+    ],
+    "bigPityCount": 300,
+    "timesRewardID": 1,
+    "ProdMailTempId": "t-20240731122833"
+  },
+  {
+    "id": 300048,
+    "OpenTime": 334,
+    "EndTime": 335,
+    "OpenTimeNew": 0,
+    "EndTimeNew": 0,
+    "OpenDateTime": "",
+    "EndDateTime": "",
+    "dateTimeLimit": 0,
+    "shopGroup": 0,
+    "ShopRes": [],
+    "priceId": 50,
+    "singlePrice": 1,
+    "tenPrice": 10,
+    "poolTimes": [
+      "0",
+      "51",
+      "301"
+    ],
+    "pool": [
+      "202",
+      "200",
+      "313"
+    ],
+    "rate": [
+      "9940,60,0",
+      "9910,60,30",
+      "9880,60,300"
+    ],
+    "showRate": [
+      "9600",
+      "400"
+    ],
+    "showRateBig": [
+      "100",
+      "150",
+      "150"
+    ],
+    "miniPityCount": 100,
+    "miniPityRate": 200,
+    "limitItems": [
+      "75,2",
+      "29,2"
+    ],
+    "bigPityCount": 500,
+    "timesRewardID": 1,
+    "ProdMailTempId": "t-20240731122833"
+  },
+  {
+    "id": 300049,
+    "OpenTime": 341,
+    "EndTime": 342,
+    "OpenTimeNew": 0,
+    "EndTimeNew": 0,
+    "OpenDateTime": "",
+    "EndDateTime": "",
+    "dateTimeLimit": 0,
+    "shopGroup": 0,
+    "ShopRes": [],
+    "priceId": 50,
+    "singlePrice": 1,
+    "tenPrice": 10,
+    "poolTimes": [
+      "0",
+      "51",
+      "301"
+    ],
+    "pool": [
+      "202",
+      "200",
+      "213"
+    ],
+    "rate": [
+      "9940,60,0",
+      "9910,60,30",
+      "9880,60,300"
+    ],
+    "showRate": [
+      "9600",
+      "400"
+    ],
+    "showRateBig": [
+      "100",
+      "150",
+      "150"
+    ],
+    "miniPityCount": 100,
+    "miniPityRate": 200,
+    "limitItems": [
+      "75,2",
+      "29,2"
+    ],
+    "bigPityCount": 500,
+    "timesRewardID": 1,
+    "ProdMailTempId": "t-20240731122833"
+  },
+  {
+    "id": 300050,
+    "OpenTime": 348,
+    "EndTime": 349,
+    "OpenTimeNew": 0,
+    "EndTimeNew": 0,
+    "OpenDateTime": "",
+    "EndDateTime": "",
+    "dateTimeLimit": 0,
+    "shopGroup": 0,
+    "ShopRes": [],
+    "priceId": 50,
+    "singlePrice": 1,
+    "tenPrice": 10,
+    "poolTimes": [
+      "0",
+      "51",
+      "101"
+    ],
+    "pool": [
+      "202",
+      "201",
+      "413"
+    ],
+    "rate": [
+      "9900,100,0",
+      "9860,100,40",
+      "9820,100,300"
+    ],
+    "showRate": [
+      "9600",
+      "400"
+    ],
+    "showRateBig": [
+      "100",
+      "150",
+      "150"
+    ],
+    "miniPityCount": 100,
+    "miniPityRate": 201,
+    "limitItems": [
+      "75,1",
+      "31,1"
+    ],
+    "bigPityCount": 300,
+    "timesRewardID": 1,
+    "ProdMailTempId": "t-20240731122833"
+  },
+  {
+    "id": 300051,
+    "OpenTime": 355,
+    "EndTime": 356,
+    "OpenTimeNew": 0,
+    "EndTimeNew": 0,
+    "OpenDateTime": "",
+    "EndDateTime": "",
+    "dateTimeLimit": 0,
+    "shopGroup": 0,
+    "ShopRes": [],
+    "priceId": 50,
+    "singlePrice": 1,
+    "tenPrice": 10,
+    "poolTimes": [
+      "0",
+      "51",
+      "301"
+    ],
+    "pool": [
+      "202",
+      "200",
+      "313"
+    ],
+    "rate": [
+      "9940,60,0",
+      "9910,60,30",
+      "9880,60,300"
+    ],
+    "showRate": [
+      "9600",
+      "400"
+    ],
+    "showRateBig": [
+      "100",
+      "150",
+      "150"
+    ],
+    "miniPityCount": 100,
+    "miniPityRate": 200,
+    "limitItems": [
+      "75,2",
+      "29,2"
+    ],
+    "bigPityCount": 500,
+    "timesRewardID": 1,
+    "ProdMailTempId": "t-20240731122833"
+  },
+  {
+    "id": 400001,
+    "OpenTime": 0,
+    "EndTime": 0,
+    "OpenTimeNew": 5,
+    "EndTimeNew": 6,
+    "OpenDateTime": "",
+    "EndDateTime": "",
+    "dateTimeLimit": 0,
+    "shopGroup": 1,
+    "ShopRes": [
+      54
+    ],
+    "priceId": 50,
+    "singlePrice": 1,
+    "tenPrice": 10,
+    "poolTimes": [
+      "0",
+      "51",
+      "301"
+    ],
+    "pool": [
+      "202",
+      "200",
+      "209"
+    ],
+    "rate": [
+      "9940,60,0",
+      "9910,60,30",
+      "9880,60,300"
+    ],
+    "showRate": [
+      "9600",
+      "400"
+    ],
+    "showRateBig": [
+      "100",
+      "150",
+      "150"
+    ],
+    "miniPityCount": 100,
+    "miniPityRate": 200,
+    "limitItems": [
+      "75,2",
+      "29,2"
+    ],
+    "bigPityCount": 500,
+    "timesRewardID": 1,
+    "ProdMailTempId": "t-20240731122833"
+  },
+  {
+    "id": 400002,
+    "OpenTime": 0,
+    "EndTime": 0,
+    "OpenTimeNew": 19,
+    "EndTimeNew": 20,
+    "OpenDateTime": "",
+    "EndDateTime": "",
+    "dateTimeLimit": 0,
+    "shopGroup": 2,
+    "ShopRes": [
+      54
+    ],
+    "priceId": 50,
+    "singlePrice": 1,
+    "tenPrice": 10,
+    "poolTimes": [
+      "0",
+      "51",
+      "301"
+    ],
+    "pool": [
+      "202",
+      "200",
+      "209"
+    ],
+    "rate": [
+      "9940,60,0",
+      "9910,60,30",
+      "9880,60,300"
+    ],
+    "showRate": [
+      "9600",
+      "400"
+    ],
+    "showRateBig": [
+      "100",
+      "150",
+      "150"
+    ],
+    "miniPityCount": 100,
+    "miniPityRate": 200,
+    "limitItems": [
+      "75,2",
+      "29,2"
+    ],
+    "bigPityCount": 500,
+    "timesRewardID": 1,
+    "ProdMailTempId": "t-20240731122833"
+  },
+  {
+    "id": 410001,
+    "OpenTime": 0,
+    "EndTime": 0,
+    "OpenTimeNew": 0,
+    "EndTimeNew": 0,
+    "OpenDateTime": "2025-01-18 00:00:01",
+    "EndDateTime": "2025-01-19 23:59:59",
+    "dateTimeLimit": 20,
+    "shopGroup": 2,
+    "ShopRes": [
+      54
+    ],
+    "priceId": 50,
+    "singlePrice": 1,
+    "tenPrice": 10,
+    "poolTimes": [
+      "0",
+      "51",
+      "301"
+    ],
+    "pool": [
+      "202",
+      "200",
+      "209"
+    ],
+    "rate": [
+      "9940,60,0",
+      "9910,60,30",
+      "9880,60,300"
+    ],
+    "showRate": [
+      "9600",
+      "400"
+    ],
+    "showRateBig": [
+      "100",
+      "150",
+      "150"
+    ],
+    "miniPityCount": 100,
+    "miniPityRate": 200,
+    "limitItems": [
+      "75,2",
+      "29,2"
+    ],
+    "bigPityCount": 500,
+    "timesRewardID": 1,
+    "ProdMailTempId": "t-20240731122833"
+  },
+  {
+    "id": 410002,
+    "OpenTime": 0,
+    "EndTime": 0,
+    "OpenTimeNew": 0,
+    "EndTimeNew": 0,
+    "OpenDateTime": "2025-01-25 00:00:01",
+    "EndDateTime": "2025-01-26 23:59:59",
+    "dateTimeLimit": 20,
+    "shopGroup": 2,
+    "ShopRes": [
+      54
+    ],
+    "priceId": 50,
+    "singlePrice": 1,
+    "tenPrice": 10,
+    "poolTimes": [
+      "0",
+      "51",
+      "301"
+    ],
+    "pool": [
+      "202",
+      "200",
+      "209"
+    ],
+    "rate": [
+      "9940,60,0",
+      "9910,60,30",
+      "9880,60,300"
+    ],
+    "showRate": [
+      "9600",
+      "400"
+    ],
+    "showRateBig": [
+      "100",
+      "150",
+      "150"
+    ],
+    "miniPityCount": 100,
+    "miniPityRate": 200,
+    "limitItems": [
+      "75,2",
+      "29,2"
+    ],
+    "bigPityCount": 500,
+    "timesRewardID": 1,
+    "ProdMailTempId": "t-20240731122833"
+  },
+  {
+    "id": 410003,
+    "OpenTime": 0,
+    "EndTime": 0,
+    "OpenTimeNew": 0,
+    "EndTimeNew": 0,
+    "OpenDateTime": "2025-02-01 00:00:01",
+    "EndDateTime": "2025-02-02 23:59:59",
+    "dateTimeLimit": 20,
+    "shopGroup": 2,
+    "ShopRes": [
+      54
+    ],
+    "priceId": 50,
+    "singlePrice": 1,
+    "tenPrice": 10,
+    "poolTimes": [
+      "0",
+      "51",
+      "301"
+    ],
+    "pool": [
+      "202",
+      "200",
+      "209"
+    ],
+    "rate": [
+      "9940,60,0",
+      "9910,60,30",
+      "9880,60,300"
+    ],
+    "showRate": [
+      "9600",
+      "400"
+    ],
+    "showRateBig": [
+      "100",
+      "150",
+      "150"
+    ],
+    "miniPityCount": 100,
+    "miniPityRate": 200,
+    "limitItems": [
+      "75,2",
+      "29,2"
+    ],
+    "bigPityCount": 500,
+    "timesRewardID": 1,
+    "ProdMailTempId": "t-20240731122833"
+  },
+  {
+    "id": 410004,
+    "OpenTime": 0,
+    "EndTime": 0,
+    "OpenTimeNew": 0,
+    "EndTimeNew": 0,
+    "OpenDateTime": "2025-02-08 00:00:01",
+    "EndDateTime": "2025-02-09 23:59:59",
+    "dateTimeLimit": 20,
+    "shopGroup": 2,
+    "ShopRes": [
+      54
+    ],
+    "priceId": 50,
+    "singlePrice": 1,
+    "tenPrice": 10,
+    "poolTimes": [
+      "0",
+      "51",
+      "301"
+    ],
+    "pool": [
+      "202",
+      "200",
+      "209"
+    ],
+    "rate": [
+      "9940,60,0",
+      "9910,60,30",
+      "9880,60,300"
+    ],
+    "showRate": [
+      "9600",
+      "400"
+    ],
+    "showRateBig": [
+      "100",
+      "150",
+      "150"
+    ],
+    "miniPityCount": 100,
+    "miniPityRate": 200,
+    "limitItems": [
+      "75,2",
+      "29,2"
+    ],
+    "bigPityCount": 500,
+    "timesRewardID": 1,
+    "ProdMailTempId": "t-20240731122833"
+  },
+  {
+    "id": 410005,
+    "OpenTime": 0,
+    "EndTime": 0,
+    "OpenTimeNew": 0,
+    "EndTimeNew": 0,
+    "OpenDateTime": "2025-02-15 00:00:01",
+    "EndDateTime": "2025-02-16 23:59:59",
+    "dateTimeLimit": 20,
+    "shopGroup": 2,
+    "ShopRes": [
+      54
+    ],
+    "priceId": 50,
+    "singlePrice": 1,
+    "tenPrice": 10,
+    "poolTimes": [
+      "0",
+      "51",
+      "301"
+    ],
+    "pool": [
+      "202",
+      "200",
+      "209"
+    ],
+    "rate": [
+      "9940,60,0",
+      "9910,60,30",
+      "9880,60,300"
+    ],
+    "showRate": [
+      "9600",
+      "400"
+    ],
+    "showRateBig": [
+      "100",
+      "150",
+      "150"
+    ],
+    "miniPityCount": 100,
+    "miniPityRate": 200,
+    "limitItems": [
+      "75,2",
+      "29,2"
+    ],
+    "bigPityCount": 500,
+    "timesRewardID": 1,
+    "ProdMailTempId": "t-20240731122833"
+  },
+  {
+    "id": 410006,
+    "OpenTime": 0,
+    "EndTime": 0,
+    "OpenTimeNew": 0,
+    "EndTimeNew": 0,
+    "OpenDateTime": "2025-02-22 00:00:01",
+    "EndDateTime": "2025-02-23 23:59:59",
+    "dateTimeLimit": 20,
+    "shopGroup": 2,
+    "ShopRes": [
+      54
+    ],
+    "priceId": 50,
+    "singlePrice": 1,
+    "tenPrice": 10,
+    "poolTimes": [
+      "0",
+      "51",
+      "301"
+    ],
+    "pool": [
+      "202",
+      "200",
+      "209"
+    ],
+    "rate": [
+      "9940,60,0",
+      "9910,60,30",
+      "9880,60,300"
+    ],
+    "showRate": [
+      "9600",
+      "400"
+    ],
+    "showRateBig": [
+      "100",
+      "150",
+      "150"
+    ],
+    "miniPityCount": 100,
+    "miniPityRate": 200,
+    "limitItems": [
+      "75,2",
+      "29,2"
+    ],
+    "bigPityCount": 500,
+    "timesRewardID": 1,
+    "ProdMailTempId": "t-20240731122833"
+  },
+  {
+    "id": 410007,
+    "OpenTime": 0,
+    "EndTime": 0,
+    "OpenTimeNew": 0,
+    "EndTimeNew": 0,
+    "OpenDateTime": "2025-03-01 00:00:01",
+    "EndDateTime": "2025-03-02 23:59:59",
+    "dateTimeLimit": 20,
+    "shopGroup": 2,
+    "ShopRes": [
+      54
+    ],
+    "priceId": 50,
+    "singlePrice": 1,
+    "tenPrice": 10,
+    "poolTimes": [
+      "0",
+      "51",
+      "301"
+    ],
+    "pool": [
+      "202",
+      "200",
+      "209"
+    ],
+    "rate": [
+      "9940,60,0",
+      "9910,60,30",
+      "9880,60,300"
+    ],
+    "showRate": [
+      "9600",
+      "400"
+    ],
+    "showRateBig": [
+      "100",
+      "150",
+      "150"
+    ],
+    "miniPityCount": 100,
+    "miniPityRate": 200,
+    "limitItems": [
+      "75,2",
+      "29,2"
+    ],
+    "bigPityCount": 500,
+    "timesRewardID": 1,
+    "ProdMailTempId": "t-20240731122833"
+  },
+  {
+    "id": 410008,
+    "OpenTime": 0,
+    "EndTime": 0,
+    "OpenTimeNew": 0,
+    "EndTimeNew": 0,
+    "OpenDateTime": "2025-03-08 00:00:01",
+    "EndDateTime": "2025-03-09 23:59:59",
+    "dateTimeLimit": 20,
+    "shopGroup": 2,
+    "ShopRes": [
+      54
+    ],
+    "priceId": 50,
+    "singlePrice": 1,
+    "tenPrice": 10,
+    "poolTimes": [
+      "0",
+      "51",
+      "301"
+    ],
+    "pool": [
+      "202",
+      "200",
+      "209"
+    ],
+    "rate": [
+      "9940,60,0",
+      "9910,60,30",
+      "9880,60,300"
+    ],
+    "showRate": [
+      "9600",
+      "400"
+    ],
+    "showRateBig": [
+      "100",
+      "150",
+      "150"
+    ],
+    "miniPityCount": 100,
+    "miniPityRate": 200,
+    "limitItems": [
+      "75,2",
+      "29,2"
+    ],
+    "bigPityCount": 500,
+    "timesRewardID": 1,
+    "ProdMailTempId": "t-20240731122833"
+  },
+  {
+    "id": 410009,
+    "OpenTime": 0,
+    "EndTime": 0,
+    "OpenTimeNew": 0,
+    "EndTimeNew": 0,
+    "OpenDateTime": "2025-03-15 00:00:01",
+    "EndDateTime": "2025-03-16 23:59:59",
+    "dateTimeLimit": 20,
+    "shopGroup": 2,
+    "ShopRes": [
+      54
+    ],
+    "priceId": 50,
+    "singlePrice": 1,
+    "tenPrice": 10,
+    "poolTimes": [
+      "0",
+      "51",
+      "301"
+    ],
+    "pool": [
+      "202",
+      "200",
+      "209"
+    ],
+    "rate": [
+      "9940,60,0",
+      "9910,60,30",
+      "9880,60,300"
+    ],
+    "showRate": [
+      "9600",
+      "400"
+    ],
+    "showRateBig": [
+      "100",
+      "150",
+      "150"
+    ],
+    "miniPityCount": 100,
+    "miniPityRate": 200,
+    "limitItems": [
+      "75,2",
+      "29,2"
+    ],
+    "bigPityCount": 500,
+    "timesRewardID": 1,
+    "ProdMailTempId": "t-20240731122833"
+  },
+  {
+    "id": 410010,
+    "OpenTime": 0,
+    "EndTime": 0,
+    "OpenTimeNew": 0,
+    "EndTimeNew": 0,
+    "OpenDateTime": "2025-03-22 00:00:01",
+    "EndDateTime": "2025-03-23 23:59:59",
+    "dateTimeLimit": 20,
+    "shopGroup": 2,
+    "ShopRes": [
+      54
+    ],
+    "priceId": 50,
+    "singlePrice": 1,
+    "tenPrice": 10,
+    "poolTimes": [
+      "0",
+      "51",
+      "301"
+    ],
+    "pool": [
+      "202",
+      "200",
+      "209"
+    ],
+    "rate": [
+      "9940,60,0",
+      "9910,60,30",
+      "9880,60,300"
+    ],
+    "showRate": [
+      "9600",
+      "400"
+    ],
+    "showRateBig": [
+      "100",
+      "150",
+      "150"
+    ],
+    "miniPityCount": 100,
+    "miniPityRate": 200,
+    "limitItems": [
+      "75,2",
+      "29,2"
+    ],
+    "bigPityCount": 500,
+    "timesRewardID": 1,
+    "ProdMailTempId": "t-20240731122833"
+  },
+  {
+    "id": 410011,
+    "OpenTime": 0,
+    "EndTime": 0,
+    "OpenTimeNew": 0,
+    "EndTimeNew": 0,
+    "OpenDateTime": "2025-03-29 00:00:01",
+    "EndDateTime": "2025-03-30 23:59:59",
+    "dateTimeLimit": 20,
+    "shopGroup": 2,
+    "ShopRes": [
+      54
+    ],
+    "priceId": 50,
+    "singlePrice": 1,
+    "tenPrice": 10,
+    "poolTimes": [
+      "0",
+      "51",
+      "301"
+    ],
+    "pool": [
+      "202",
+      "200",
+      "209"
+    ],
+    "rate": [
+      "9940,60,0",
+      "9910,60,30",
+      "9880,60,300"
+    ],
+    "showRate": [
+      "9600",
+      "400"
+    ],
+    "showRateBig": [
+      "100",
+      "150",
+      "150"
+    ],
+    "miniPityCount": 100,
+    "miniPityRate": 200,
+    "limitItems": [
+      "75,2",
+      "29,2"
+    ],
+    "bigPityCount": 500,
+    "timesRewardID": 1,
+    "ProdMailTempId": "t-20240731122833"
+  },
+  {
+    "id": 410012,
+    "OpenTime": 0,
+    "EndTime": 0,
+    "OpenTimeNew": 0,
+    "EndTimeNew": 0,
+    "OpenDateTime": "2025-04-05 00:00:01",
+    "EndDateTime": "2025-04-06 23:59:59",
+    "dateTimeLimit": 20,
+    "shopGroup": 2,
+    "ShopRes": [
+      54
+    ],
+    "priceId": 50,
+    "singlePrice": 1,
+    "tenPrice": 10,
+    "poolTimes": [
+      "0",
+      "51",
+      "301"
+    ],
+    "pool": [
+      "202",
+      "200",
+      "209"
+    ],
+    "rate": [
+      "9940,60,0",
+      "9910,60,30",
+      "9880,60,300"
+    ],
+    "showRate": [
+      "9600",
+      "400"
+    ],
+    "showRateBig": [
+      "100",
+      "150",
+      "150"
+    ],
+    "miniPityCount": 100,
+    "miniPityRate": 200,
+    "limitItems": [
+      "75,2",
+      "29,2"
+    ],
+    "bigPityCount": 500,
+    "timesRewardID": 1,
+    "ProdMailTempId": "t-20240731122833"
+  },
+  {
+    "id": 410013,
+    "OpenTime": 0,
+    "EndTime": 0,
+    "OpenTimeNew": 0,
+    "EndTimeNew": 0,
+    "OpenDateTime": "2025-04-12 00:00:01",
+    "EndDateTime": "2025-04-13 23:59:59",
+    "dateTimeLimit": 20,
+    "shopGroup": 2,
+    "ShopRes": [
+      54
+    ],
+    "priceId": 50,
+    "singlePrice": 1,
+    "tenPrice": 10,
+    "poolTimes": [
+      "0",
+      "51",
+      "301"
+    ],
+    "pool": [
+      "202",
+      "200",
+      "209"
+    ],
+    "rate": [
+      "9940,60,0",
+      "9910,60,30",
+      "9880,60,300"
+    ],
+    "showRate": [
+      "9600",
+      "400"
+    ],
+    "showRateBig": [
+      "100",
+      "150",
+      "150"
+    ],
+    "miniPityCount": 100,
+    "miniPityRate": 200,
+    "limitItems": [
+      "75,2",
+      "29,2"
+    ],
+    "bigPityCount": 500,
+    "timesRewardID": 1,
+    "ProdMailTempId": "t-20240731122833"
+  },
+  {
+    "id": 410014,
+    "OpenTime": 0,
+    "EndTime": 0,
+    "OpenTimeNew": 0,
+    "EndTimeNew": 0,
+    "OpenDateTime": "2025-04-19 00:00:01",
+    "EndDateTime": "2025-04-20 23:59:59",
+    "dateTimeLimit": 20,
+    "shopGroup": 2,
+    "ShopRes": [
+      54
+    ],
+    "priceId": 50,
+    "singlePrice": 1,
+    "tenPrice": 10,
+    "poolTimes": [
+      "0",
+      "51",
+      "301"
+    ],
+    "pool": [
+      "202",
+      "200",
+      "209"
+    ],
+    "rate": [
+      "9940,60,0",
+      "9910,60,30",
+      "9880,60,300"
+    ],
+    "showRate": [
+      "9600",
+      "400"
+    ],
+    "showRateBig": [
+      "100",
+      "150",
+      "150"
+    ],
+    "miniPityCount": 100,
+    "miniPityRate": 200,
+    "limitItems": [
+      "75,2",
+      "29,2"
+    ],
+    "bigPityCount": 500,
+    "timesRewardID": 1,
+    "ProdMailTempId": "t-20240731122833"
+  },
+  {
+    "id": 410015,
+    "OpenTime": 0,
+    "EndTime": 0,
+    "OpenTimeNew": 0,
+    "EndTimeNew": 0,
+    "OpenDateTime": "2025-04-26 00:00:01",
+    "EndDateTime": "2025-04-27 23:59:59",
+    "dateTimeLimit": 20,
+    "shopGroup": 2,
+    "ShopRes": [
+      54
+    ],
+    "priceId": 50,
+    "singlePrice": 1,
+    "tenPrice": 10,
+    "poolTimes": [
+      "0",
+      "51",
+      "301"
+    ],
+    "pool": [
+      "202",
+      "200",
+      "209"
+    ],
+    "rate": [
+      "9940,60,0",
+      "9910,60,30",
+      "9880,60,300"
+    ],
+    "showRate": [
+      "9600",
+      "400"
+    ],
+    "showRateBig": [
+      "100",
+      "150",
+      "150"
+    ],
+    "miniPityCount": 100,
+    "miniPityRate": 200,
+    "limitItems": [
+      "75,2",
+      "29,2"
+    ],
+    "bigPityCount": 500,
+    "timesRewardID": 1,
+    "ProdMailTempId": "t-20240731122833"
+  },
+  {
+    "id": 410016,
+    "OpenTime": 0,
+    "EndTime": 0,
+    "OpenTimeNew": 0,
+    "EndTimeNew": 0,
+    "OpenDateTime": "2025-05-03 00:00:01",
+    "EndDateTime": "2025-05-04 23:59:59",
+    "dateTimeLimit": 20,
+    "shopGroup": 2,
+    "ShopRes": [
+      54
+    ],
+    "priceId": 50,
+    "singlePrice": 1,
+    "tenPrice": 10,
+    "poolTimes": [
+      "0",
+      "51",
+      "301"
+    ],
+    "pool": [
+      "202",
+      "200",
+      "209"
+    ],
+    "rate": [
+      "9940,60,0",
+      "9910,60,30",
+      "9880,60,300"
+    ],
+    "showRate": [
+      "9600",
+      "400"
+    ],
+    "showRateBig": [
+      "100",
+      "150",
+      "150"
+    ],
+    "miniPityCount": 100,
+    "miniPityRate": 200,
+    "limitItems": [
+      "75,2",
+      "29,2"
+    ],
+    "bigPityCount": 500,
+    "timesRewardID": 1,
+    "ProdMailTempId": "t-20240731122833"
+  },
+  {
+    "id": 410017,
+    "OpenTime": 0,
+    "EndTime": 0,
+    "OpenTimeNew": 0,
+    "EndTimeNew": 0,
+    "OpenDateTime": "2025-05-10 00:00:01",
+    "EndDateTime": "2025-05-11 23:59:59",
+    "dateTimeLimit": 20,
+    "shopGroup": 2,
+    "ShopRes": [
+      54
+    ],
+    "priceId": 50,
+    "singlePrice": 1,
+    "tenPrice": 10,
+    "poolTimes": [
+      "0",
+      "51",
+      "301"
+    ],
+    "pool": [
+      "202",
+      "200",
+      "209"
+    ],
+    "rate": [
+      "9940,60,0",
+      "9910,60,30",
+      "9880,60,300"
+    ],
+    "showRate": [
+      "9600",
+      "400"
+    ],
+    "showRateBig": [
+      "100",
+      "150",
+      "150"
+    ],
+    "miniPityCount": 100,
+    "miniPityRate": 200,
+    "limitItems": [
+      "75,2",
+      "29,2"
+    ],
+    "bigPityCount": 500,
+    "timesRewardID": 1,
+    "ProdMailTempId": "t-20240731122833"
+  },
+  {
+    "id": 410018,
+    "OpenTime": 0,
+    "EndTime": 0,
+    "OpenTimeNew": 0,
+    "EndTimeNew": 0,
+    "OpenDateTime": "2025-05-17 00:00:01",
+    "EndDateTime": "2025-05-18 23:59:59",
+    "dateTimeLimit": 20,
+    "shopGroup": 2,
+    "ShopRes": [
+      54
+    ],
+    "priceId": 50,
+    "singlePrice": 1,
+    "tenPrice": 10,
+    "poolTimes": [
+      "0",
+      "51",
+      "301"
+    ],
+    "pool": [
+      "202",
+      "200",
+      "209"
+    ],
+    "rate": [
+      "9940,60,0",
+      "9910,60,30",
+      "9880,60,300"
+    ],
+    "showRate": [
+      "9600",
+      "400"
+    ],
+    "showRateBig": [
+      "100",
+      "150",
+      "150"
+    ],
+    "miniPityCount": 100,
+    "miniPityRate": 200,
+    "limitItems": [
+      "75,2",
+      "29,2"
+    ],
+    "bigPityCount": 500,
+    "timesRewardID": 1,
+    "ProdMailTempId": "t-20240731122833"
+  },
+  {
+    "id": 410019,
+    "OpenTime": 0,
+    "EndTime": 0,
+    "OpenTimeNew": 0,
+    "EndTimeNew": 0,
+    "OpenDateTime": "2025-05-24 00:00:01",
+    "EndDateTime": "2025-05-25 23:59:59",
+    "dateTimeLimit": 20,
+    "shopGroup": 2,
+    "ShopRes": [
+      54
+    ],
+    "priceId": 50,
+    "singlePrice": 1,
+    "tenPrice": 10,
+    "poolTimes": [
+      "0",
+      "51",
+      "301"
+    ],
+    "pool": [
+      "202",
+      "200",
+      "209"
+    ],
+    "rate": [
+      "9940,60,0",
+      "9910,60,30",
+      "9880,60,300"
+    ],
+    "showRate": [
+      "9600",
+      "400"
+    ],
+    "showRateBig": [
+      "100",
+      "150",
+      "150"
+    ],
+    "miniPityCount": 100,
+    "miniPityRate": 200,
+    "limitItems": [
+      "75,2",
+      "29,2"
+    ],
+    "bigPityCount": 500,
+    "timesRewardID": 1,
+    "ProdMailTempId": "t-20240731122833"
+  },
+  {
+    "id": 410020,
+    "OpenTime": 0,
+    "EndTime": 0,
+    "OpenTimeNew": 0,
+    "EndTimeNew": 0,
+    "OpenDateTime": "2025-05-31 00:00:01",
+    "EndDateTime": "2025-06-01 23:59:59",
+    "dateTimeLimit": 20,
+    "shopGroup": 2,
+    "ShopRes": [
+      54
+    ],
+    "priceId": 50,
+    "singlePrice": 1,
+    "tenPrice": 10,
+    "poolTimes": [
+      "0",
+      "51",
+      "301"
+    ],
+    "pool": [
+      "202",
+      "200",
+      "209"
+    ],
+    "rate": [
+      "9940,60,0",
+      "9910,60,30",
+      "9880,60,300"
+    ],
+    "showRate": [
+      "9600",
+      "400"
+    ],
+    "showRateBig": [
+      "100",
+      "150",
+      "150"
+    ],
+    "miniPityCount": 100,
+    "miniPityRate": 200,
+    "limitItems": [
+      "75,2",
+      "29,2"
+    ],
+    "bigPityCount": 500,
+    "timesRewardID": 1,
+    "ProdMailTempId": "t-20240731122833"
+  },
+  {
+    "id": 410021,
+    "OpenTime": 0,
+    "EndTime": 0,
+    "OpenTimeNew": 0,
+    "EndTimeNew": 0,
+    "OpenDateTime": "2025-06-07 00:00:01",
+    "EndDateTime": "2025-06-08 23:59:59",
+    "dateTimeLimit": 20,
+    "shopGroup": 2,
+    "ShopRes": [
+      54
+    ],
+    "priceId": 50,
+    "singlePrice": 1,
+    "tenPrice": 10,
+    "poolTimes": [
+      "0",
+      "51",
+      "301"
+    ],
+    "pool": [
+      "202",
+      "200",
+      "209"
+    ],
+    "rate": [
+      "9940,60,0",
+      "9910,60,30",
+      "9880,60,300"
+    ],
+    "showRate": [
+      "9600",
+      "400"
+    ],
+    "showRateBig": [
+      "100",
+      "150",
+      "150"
+    ],
+    "miniPityCount": 100,
+    "miniPityRate": 200,
+    "limitItems": [
+      "75,2",
+      "29,2"
+    ],
+    "bigPityCount": 500,
+    "timesRewardID": 1,
+    "ProdMailTempId": "t-20240731122833"
+  },
+  {
+    "id": 410022,
+    "OpenTime": 0,
+    "EndTime": 0,
+    "OpenTimeNew": 0,
+    "EndTimeNew": 0,
+    "OpenDateTime": "2025-06-14 00:00:01",
+    "EndDateTime": "2025-06-15 23:59:59",
+    "dateTimeLimit": 20,
+    "shopGroup": 2,
+    "ShopRes": [
+      54
+    ],
+    "priceId": 50,
+    "singlePrice": 1,
+    "tenPrice": 10,
+    "poolTimes": [
+      "0",
+      "51",
+      "301"
+    ],
+    "pool": [
+      "202",
+      "200",
+      "209"
+    ],
+    "rate": [
+      "9940,60,0",
+      "9910,60,30",
+      "9880,60,300"
+    ],
+    "showRate": [
+      "9600",
+      "400"
+    ],
+    "showRateBig": [
+      "100",
+      "150",
+      "150"
+    ],
+    "miniPityCount": 100,
+    "miniPityRate": 200,
+    "limitItems": [
+      "75,2",
+      "29,2"
+    ],
+    "bigPityCount": 500,
+    "timesRewardID": 1,
+    "ProdMailTempId": "t-20240731122833"
+  },
+  {
+    "id": 410023,
+    "OpenTime": 0,
+    "EndTime": 0,
+    "OpenTimeNew": 0,
+    "EndTimeNew": 0,
+    "OpenDateTime": "2025-06-21 00:00:01",
+    "EndDateTime": "2025-06-22 23:59:59",
+    "dateTimeLimit": 20,
+    "shopGroup": 2,
+    "ShopRes": [
+      54
+    ],
+    "priceId": 50,
+    "singlePrice": 1,
+    "tenPrice": 10,
+    "poolTimes": [
+      "0",
+      "51",
+      "301"
+    ],
+    "pool": [
+      "202",
+      "200",
+      "209"
+    ],
+    "rate": [
+      "9940,60,0",
+      "9910,60,30",
+      "9880,60,300"
+    ],
+    "showRate": [
+      "9600",
+      "400"
+    ],
+    "showRateBig": [
+      "100",
+      "150",
+      "150"
+    ],
+    "miniPityCount": 100,
+    "miniPityRate": 200,
+    "limitItems": [
+      "75,2",
+      "29,2"
+    ],
+    "bigPityCount": 500,
+    "timesRewardID": 1,
+    "ProdMailTempId": "t-20240731122833"
+  },
+  {
+    "id": 410024,
+    "OpenTime": 0,
+    "EndTime": 0,
+    "OpenTimeNew": 0,
+    "EndTimeNew": 0,
+    "OpenDateTime": "2025-06-28 00:00:01",
+    "EndDateTime": "2025-06-29 23:59:59",
+    "dateTimeLimit": 20,
+    "shopGroup": 2,
+    "ShopRes": [
+      54
+    ],
+    "priceId": 50,
+    "singlePrice": 1,
+    "tenPrice": 10,
+    "poolTimes": [
+      "0",
+      "51",
+      "301"
+    ],
+    "pool": [
+      "202",
+      "200",
+      "209"
+    ],
+    "rate": [
+      "9940,60,0",
+      "9910,60,30",
+      "9880,60,300"
+    ],
+    "showRate": [
+      "9600",
+      "400"
+    ],
+    "showRateBig": [
+      "100",
+      "150",
+      "150"
+    ],
+    "miniPityCount": 100,
+    "miniPityRate": 200,
+    "limitItems": [
+      "75,2",
+      "29,2"
+    ],
+    "bigPityCount": 500,
+    "timesRewardID": 1,
+    "ProdMailTempId": "t-20240731122833"
+  },
+  {
+    "id": 410025,
+    "OpenTime": 0,
+    "EndTime": 0,
+    "OpenTimeNew": 0,
+    "EndTimeNew": 0,
+    "OpenDateTime": "2025-07-05 00:00:01",
+    "EndDateTime": "2025-07-06 23:59:59",
+    "dateTimeLimit": 20,
+    "shopGroup": 2,
+    "ShopRes": [
+      54
+    ],
+    "priceId": 50,
+    "singlePrice": 1,
+    "tenPrice": 10,
+    "poolTimes": [
+      "0",
+      "51",
+      "301"
+    ],
+    "pool": [
+      "202",
+      "200",
+      "209"
+    ],
+    "rate": [
+      "9940,60,0",
+      "9910,60,30",
+      "9880,60,300"
+    ],
+    "showRate": [
+      "9600",
+      "400"
+    ],
+    "showRateBig": [
+      "100",
+      "150",
+      "150"
+    ],
+    "miniPityCount": 100,
+    "miniPityRate": 200,
+    "limitItems": [
+      "75,2",
+      "29,2"
+    ],
+    "bigPityCount": 500,
+    "timesRewardID": 1,
+    "ProdMailTempId": "t-20240731122833"
+  },
+  {
+    "id": 410026,
+    "OpenTime": 0,
+    "EndTime": 0,
+    "OpenTimeNew": 0,
+    "EndTimeNew": 0,
+    "OpenDateTime": "2025-07-12 00:00:01",
+    "EndDateTime": "2025-07-13 23:59:59",
+    "dateTimeLimit": 20,
+    "shopGroup": 2,
+    "ShopRes": [
+      54
+    ],
+    "priceId": 50,
+    "singlePrice": 1,
+    "tenPrice": 10,
+    "poolTimes": [
+      "0",
+      "51",
+      "301"
+    ],
+    "pool": [
+      "202",
+      "200",
+      "209"
+    ],
+    "rate": [
+      "9940,60,0",
+      "9910,60,30",
+      "9880,60,300"
+    ],
+    "showRate": [
+      "9600",
+      "400"
+    ],
+    "showRateBig": [
+      "100",
+      "150",
+      "150"
+    ],
+    "miniPityCount": 100,
+    "miniPityRate": 200,
+    "limitItems": [
+      "75,2",
+      "29,2"
+    ],
+    "bigPityCount": 500,
+    "timesRewardID": 1,
+    "ProdMailTempId": "t-20240731122833"
+  },
+  {
+    "id": 410027,
+    "OpenTime": 0,
+    "EndTime": 0,
+    "OpenTimeNew": 0,
+    "EndTimeNew": 0,
+    "OpenDateTime": "2025-07-19 00:00:01",
+    "EndDateTime": "2025-07-20 23:59:59",
+    "dateTimeLimit": 20,
+    "shopGroup": 2,
+    "ShopRes": [
+      54
+    ],
+    "priceId": 50,
+    "singlePrice": 1,
+    "tenPrice": 10,
+    "poolTimes": [
+      "0",
+      "51",
+      "301"
+    ],
+    "pool": [
+      "202",
+      "200",
+      "209"
+    ],
+    "rate": [
+      "9940,60,0",
+      "9910,60,30",
+      "9880,60,300"
+    ],
+    "showRate": [
+      "9600",
+      "400"
+    ],
+    "showRateBig": [
+      "100",
+      "150",
+      "150"
+    ],
+    "miniPityCount": 100,
+    "miniPityRate": 200,
+    "limitItems": [
+      "75,2",
+      "29,2"
+    ],
+    "bigPityCount": 500,
+    "timesRewardID": 1,
+    "ProdMailTempId": "t-20240731122833"
+  },
+  {
+    "id": 410028,
+    "OpenTime": 0,
+    "EndTime": 0,
+    "OpenTimeNew": 0,
+    "EndTimeNew": 0,
+    "OpenDateTime": "2025-07-26 00:00:01",
+    "EndDateTime": "2025-07-27 23:59:59",
+    "dateTimeLimit": 20,
+    "shopGroup": 2,
+    "ShopRes": [
+      54
+    ],
+    "priceId": 50,
+    "singlePrice": 1,
+    "tenPrice": 10,
+    "poolTimes": [
+      "0",
+      "51",
+      "301"
+    ],
+    "pool": [
+      "202",
+      "200",
+      "209"
+    ],
+    "rate": [
+      "9940,60,0",
+      "9910,60,30",
+      "9880,60,300"
+    ],
+    "showRate": [
+      "9600",
+      "400"
+    ],
+    "showRateBig": [
+      "100",
+      "150",
+      "150"
+    ],
+    "miniPityCount": 100,
+    "miniPityRate": 200,
+    "limitItems": [
+      "75,2",
+      "29,2"
+    ],
+    "bigPityCount": 500,
+    "timesRewardID": 1,
+    "ProdMailTempId": "t-20240731122833"
+  },
+  {
+    "id": 410029,
+    "OpenTime": 0,
+    "EndTime": 0,
+    "OpenTimeNew": 0,
+    "EndTimeNew": 0,
+    "OpenDateTime": "2025-08-02 00:00:01",
+    "EndDateTime": "2025-08-03 23:59:59",
+    "dateTimeLimit": 20,
+    "shopGroup": 2,
+    "ShopRes": [
+      54
+    ],
+    "priceId": 50,
+    "singlePrice": 1,
+    "tenPrice": 10,
+    "poolTimes": [
+      "0",
+      "51",
+      "301"
+    ],
+    "pool": [
+      "202",
+      "200",
+      "209"
+    ],
+    "rate": [
+      "9940,60,0",
+      "9910,60,30",
+      "9880,60,300"
+    ],
+    "showRate": [
+      "9600",
+      "400"
+    ],
+    "showRateBig": [
+      "100",
+      "150",
+      "150"
+    ],
+    "miniPityCount": 100,
+    "miniPityRate": 200,
+    "limitItems": [
+      "75,2",
+      "29,2"
+    ],
+    "bigPityCount": 500,
+    "timesRewardID": 1,
+    "ProdMailTempId": "t-20240731122833"
+  },
+  {
+    "id": 410030,
+    "OpenTime": 0,
+    "EndTime": 0,
+    "OpenTimeNew": 0,
+    "EndTimeNew": 0,
+    "OpenDateTime": "2025-08-09 00:00:01",
+    "EndDateTime": "2025-08-10 23:59:59",
+    "dateTimeLimit": 20,
+    "shopGroup": 2,
+    "ShopRes": [
+      54
+    ],
+    "priceId": 50,
+    "singlePrice": 1,
+    "tenPrice": 10,
+    "poolTimes": [
+      "0",
+      "51",
+      "301"
+    ],
+    "pool": [
+      "202",
+      "200",
+      "209"
+    ],
+    "rate": [
+      "9940,60,0",
+      "9910,60,30",
+      "9880,60,300"
+    ],
+    "showRate": [
+      "9600",
+      "400"
+    ],
+    "showRateBig": [
+      "100",
+      "150",
+      "150"
+    ],
+    "miniPityCount": 100,
+    "miniPityRate": 200,
+    "limitItems": [
+      "75,2",
+      "29,2"
+    ],
+    "bigPityCount": 500,
+    "timesRewardID": 1,
+    "ProdMailTempId": "t-20240731122833"
+  },
+  {
+    "id": 410031,
+    "OpenTime": 0,
+    "EndTime": 0,
+    "OpenTimeNew": 0,
+    "EndTimeNew": 0,
+    "OpenDateTime": "2025-08-16 00:00:01",
+    "EndDateTime": "2025-08-17 23:59:59",
+    "dateTimeLimit": 20,
+    "shopGroup": 2,
+    "ShopRes": [
+      54
+    ],
+    "priceId": 50,
+    "singlePrice": 1,
+    "tenPrice": 10,
+    "poolTimes": [
+      "0",
+      "51",
+      "301"
+    ],
+    "pool": [
+      "202",
+      "200",
+      "209"
+    ],
+    "rate": [
+      "9940,60,0",
+      "9910,60,30",
+      "9880,60,300"
+    ],
+    "showRate": [
+      "9600",
+      "400"
+    ],
+    "showRateBig": [
+      "100",
+      "150",
+      "150"
+    ],
+    "miniPityCount": 100,
+    "miniPityRate": 200,
+    "limitItems": [
+      "75,2",
+      "29,2"
+    ],
+    "bigPityCount": 500,
+    "timesRewardID": 1,
+    "ProdMailTempId": "t-20240731122833"
+  },
+  {
+    "id": 410032,
+    "OpenTime": 0,
+    "EndTime": 0,
+    "OpenTimeNew": 0,
+    "EndTimeNew": 0,
+    "OpenDateTime": "2025-08-23 00:00:01",
+    "EndDateTime": "2025-08-24 23:59:59",
+    "dateTimeLimit": 20,
+    "shopGroup": 2,
+    "ShopRes": [
+      54
+    ],
+    "priceId": 50,
+    "singlePrice": 1,
+    "tenPrice": 10,
+    "poolTimes": [
+      "0",
+      "51",
+      "301"
+    ],
+    "pool": [
+      "202",
+      "200",
+      "209"
+    ],
+    "rate": [
+      "9940,60,0",
+      "9910,60,30",
+      "9880,60,300"
+    ],
+    "showRate": [
+      "9600",
+      "400"
+    ],
+    "showRateBig": [
+      "100",
+      "150",
+      "150"
+    ],
+    "miniPityCount": 100,
+    "miniPityRate": 200,
+    "limitItems": [
+      "75,2",
+      "29,2"
+    ],
+    "bigPityCount": 500,
+    "timesRewardID": 1,
+    "ProdMailTempId": "t-20240731122833"
+  },
+  {
+    "id": 410033,
+    "OpenTime": 0,
+    "EndTime": 0,
+    "OpenTimeNew": 0,
+    "EndTimeNew": 0,
+    "OpenDateTime": "2025-08-30 00:00:01",
+    "EndDateTime": "2025-08-31 23:59:59",
+    "dateTimeLimit": 20,
+    "shopGroup": 2,
+    "ShopRes": [
+      54
+    ],
+    "priceId": 50,
+    "singlePrice": 1,
+    "tenPrice": 10,
+    "poolTimes": [
+      "0",
+      "51",
+      "301"
+    ],
+    "pool": [
+      "202",
+      "200",
+      "209"
+    ],
+    "rate": [
+      "9940,60,0",
+      "9910,60,30",
+      "9880,60,300"
+    ],
+    "showRate": [
+      "9600",
+      "400"
+    ],
+    "showRateBig": [
+      "100",
+      "150",
+      "150"
+    ],
+    "miniPityCount": 100,
+    "miniPityRate": 200,
+    "limitItems": [
+      "75,2",
+      "29,2"
+    ],
+    "bigPityCount": 500,
+    "timesRewardID": 1,
+    "ProdMailTempId": "t-20240731122833"
+  },
+  {
+    "id": 410034,
+    "OpenTime": 0,
+    "EndTime": 0,
+    "OpenTimeNew": 0,
+    "EndTimeNew": 0,
+    "OpenDateTime": "2025-09-06 00:00:01",
+    "EndDateTime": "2025-09-07 23:59:59",
+    "dateTimeLimit": 20,
+    "shopGroup": 2,
+    "ShopRes": [
+      54
+    ],
+    "priceId": 50,
+    "singlePrice": 1,
+    "tenPrice": 10,
+    "poolTimes": [
+      "0",
+      "51",
+      "301"
+    ],
+    "pool": [
+      "202",
+      "200",
+      "209"
+    ],
+    "rate": [
+      "9940,60,0",
+      "9910,60,30",
+      "9880,60,300"
+    ],
+    "showRate": [
+      "9600",
+      "400"
+    ],
+    "showRateBig": [
+      "100",
+      "150",
+      "150"
+    ],
+    "miniPityCount": 100,
+    "miniPityRate": 200,
+    "limitItems": [
+      "75,2",
+      "29,2"
+    ],
+    "bigPityCount": 500,
+    "timesRewardID": 1,
+    "ProdMailTempId": "t-20240731122833"
+  },
+  {
+    "id": 410035,
+    "OpenTime": 0,
+    "EndTime": 0,
+    "OpenTimeNew": 0,
+    "EndTimeNew": 0,
+    "OpenDateTime": "2025-09-13 00:00:01",
+    "EndDateTime": "2025-09-14 23:59:59",
+    "dateTimeLimit": 20,
+    "shopGroup": 2,
+    "ShopRes": [
+      54
+    ],
+    "priceId": 50,
+    "singlePrice": 1,
+    "tenPrice": 10,
+    "poolTimes": [
+      "0",
+      "51",
+      "301"
+    ],
+    "pool": [
+      "202",
+      "200",
+      "209"
+    ],
+    "rate": [
+      "9940,60,0",
+      "9910,60,30",
+      "9880,60,300"
+    ],
+    "showRate": [
+      "9600",
+      "400"
+    ],
+    "showRateBig": [
+      "100",
+      "150",
+      "150"
+    ],
+    "miniPityCount": 100,
+    "miniPityRate": 200,
+    "limitItems": [
+      "75,2",
+      "29,2"
+    ],
+    "bigPityCount": 500,
+    "timesRewardID": 1,
+    "ProdMailTempId": "t-20240731122833"
+  },
+  {
+    "id": 410036,
+    "OpenTime": 0,
+    "EndTime": 0,
+    "OpenTimeNew": 0,
+    "EndTimeNew": 0,
+    "OpenDateTime": "2025-09-20 00:00:01",
+    "EndDateTime": "2025-09-21 23:59:59",
+    "dateTimeLimit": 20,
+    "shopGroup": 2,
+    "ShopRes": [
+      54
+    ],
+    "priceId": 50,
+    "singlePrice": 1,
+    "tenPrice": 10,
+    "poolTimes": [
+      "0",
+      "51",
+      "301"
+    ],
+    "pool": [
+      "202",
+      "200",
+      "209"
+    ],
+    "rate": [
+      "9940,60,0",
+      "9910,60,30",
+      "9880,60,300"
+    ],
+    "showRate": [
+      "9600",
+      "400"
+    ],
+    "showRateBig": [
+      "100",
+      "150",
+      "150"
+    ],
+    "miniPityCount": 100,
+    "miniPityRate": 200,
+    "limitItems": [
+      "75,2",
+      "29,2"
+    ],
+    "bigPityCount": 500,
+    "timesRewardID": 1,
+    "ProdMailTempId": "t-20240731122833"
+  },
+  {
+    "id": 410037,
+    "OpenTime": 0,
+    "EndTime": 0,
+    "OpenTimeNew": 0,
+    "EndTimeNew": 0,
+    "OpenDateTime": "2025-09-27 00:00:01",
+    "EndDateTime": "2025-09-28 23:59:59",
+    "dateTimeLimit": 20,
+    "shopGroup": 2,
+    "ShopRes": [
+      54
+    ],
+    "priceId": 50,
+    "singlePrice": 1,
+    "tenPrice": 10,
+    "poolTimes": [
+      "0",
+      "51",
+      "301"
+    ],
+    "pool": [
+      "202",
+      "200",
+      "209"
+    ],
+    "rate": [
+      "9940,60,0",
+      "9910,60,30",
+      "9880,60,300"
+    ],
+    "showRate": [
+      "9600",
+      "400"
+    ],
+    "showRateBig": [
+      "100",
+      "150",
+      "150"
+    ],
+    "miniPityCount": 100,
+    "miniPityRate": 200,
+    "limitItems": [
+      "75,2",
+      "29,2"
+    ],
+    "bigPityCount": 500,
+    "timesRewardID": 1,
+    "ProdMailTempId": "t-20240731122833"
+  },
+  {
+    "id": 410038,
+    "OpenTime": 0,
+    "EndTime": 0,
+    "OpenTimeNew": 0,
+    "EndTimeNew": 0,
+    "OpenDateTime": "2025-10-04 00:00:01",
+    "EndDateTime": "2025-10-05 23:59:59",
+    "dateTimeLimit": 20,
+    "shopGroup": 2,
+    "ShopRes": [
+      54
+    ],
+    "priceId": 50,
+    "singlePrice": 1,
+    "tenPrice": 10,
+    "poolTimes": [
+      "0",
+      "51",
+      "301"
+    ],
+    "pool": [
+      "202",
+      "200",
+      "209"
+    ],
+    "rate": [
+      "9940,60,0",
+      "9910,60,30",
+      "9880,60,300"
+    ],
+    "showRate": [
+      "9600",
+      "400"
+    ],
+    "showRateBig": [
+      "100",
+      "150",
+      "150"
+    ],
+    "miniPityCount": 100,
+    "miniPityRate": 200,
+    "limitItems": [
+      "75,2",
+      "29,2"
+    ],
+    "bigPityCount": 500,
+    "timesRewardID": 1,
+    "ProdMailTempId": "t-20240731122833"
+  },
+  {
+    "id": 410039,
+    "OpenTime": 0,
+    "EndTime": 0,
+    "OpenTimeNew": 0,
+    "EndTimeNew": 0,
+    "OpenDateTime": "2025-10-11 00:00:01",
+    "EndDateTime": "2025-10-12 23:59:59",
+    "dateTimeLimit": 20,
+    "shopGroup": 2,
+    "ShopRes": [
+      54
+    ],
+    "priceId": 50,
+    "singlePrice": 1,
+    "tenPrice": 10,
+    "poolTimes": [
+      "0",
+      "51",
+      "301"
+    ],
+    "pool": [
+      "202",
+      "200",
+      "209"
+    ],
+    "rate": [
+      "9940,60,0",
+      "9910,60,30",
+      "9880,60,300"
+    ],
+    "showRate": [
+      "9600",
+      "400"
+    ],
+    "showRateBig": [
+      "100",
+      "150",
+      "150"
+    ],
+    "miniPityCount": 100,
+    "miniPityRate": 200,
+    "limitItems": [
+      "75,2",
+      "29,2"
+    ],
+    "bigPityCount": 500,
+    "timesRewardID": 1,
+    "ProdMailTempId": "t-20240731122833"
+  },
+  {
+    "id": 410040,
+    "OpenTime": 0,
+    "EndTime": 0,
+    "OpenTimeNew": 0,
+    "EndTimeNew": 0,
+    "OpenDateTime": "2025-10-18 00:00:01",
+    "EndDateTime": "2025-10-19 23:59:59",
+    "dateTimeLimit": 20,
+    "shopGroup": 2,
+    "ShopRes": [
+      54
+    ],
+    "priceId": 50,
+    "singlePrice": 1,
+    "tenPrice": 10,
+    "poolTimes": [
+      "0",
+      "51",
+      "301"
+    ],
+    "pool": [
+      "202",
+      "200",
+      "209"
+    ],
+    "rate": [
+      "9940,60,0",
+      "9910,60,30",
+      "9880,60,300"
+    ],
+    "showRate": [
+      "9600",
+      "400"
+    ],
+    "showRateBig": [
+      "100",
+      "150",
+      "150"
+    ],
+    "miniPityCount": 100,
+    "miniPityRate": 200,
+    "limitItems": [
+      "75,2",
+      "29,2"
+    ],
+    "bigPityCount": 500,
+    "timesRewardID": 1,
+    "ProdMailTempId": "t-20240731122833"
+  },
+  {
+    "id": 410041,
+    "OpenTime": 0,
+    "EndTime": 0,
+    "OpenTimeNew": 0,
+    "EndTimeNew": 0,
+    "OpenDateTime": "2025-10-25 00:00:01",
+    "EndDateTime": "2025-10-26 23:59:59",
+    "dateTimeLimit": 20,
+    "shopGroup": 2,
+    "ShopRes": [
+      54
+    ],
+    "priceId": 50,
+    "singlePrice": 1,
+    "tenPrice": 10,
+    "poolTimes": [
+      "0",
+      "51",
+      "301"
+    ],
+    "pool": [
+      "202",
+      "200",
+      "209"
+    ],
+    "rate": [
+      "9940,60,0",
+      "9910,60,30",
+      "9880,60,300"
+    ],
+    "showRate": [
+      "9600",
+      "400"
+    ],
+    "showRateBig": [
+      "100",
+      "150",
+      "150"
+    ],
+    "miniPityCount": 100,
+    "miniPityRate": 200,
+    "limitItems": [
+      "75,2",
+      "29,2"
+    ],
+    "bigPityCount": 500,
+    "timesRewardID": 1,
+    "ProdMailTempId": "t-20240731122833"
+  },
+  {
+    "id": 410042,
+    "OpenTime": 0,
+    "EndTime": 0,
+    "OpenTimeNew": 0,
+    "EndTimeNew": 0,
+    "OpenDateTime": "2025-11-01 00:00:01",
+    "EndDateTime": "2025-11-02 23:59:59",
+    "dateTimeLimit": 20,
+    "shopGroup": 2,
+    "ShopRes": [
+      54
+    ],
+    "priceId": 50,
+    "singlePrice": 1,
+    "tenPrice": 10,
+    "poolTimes": [
+      "0",
+      "51",
+      "301"
+    ],
+    "pool": [
+      "202",
+      "200",
+      "209"
+    ],
+    "rate": [
+      "9940,60,0",
+      "9910,60,30",
+      "9880,60,300"
+    ],
+    "showRate": [
+      "9600",
+      "400"
+    ],
+    "showRateBig": [
+      "100",
+      "150",
+      "150"
+    ],
+    "miniPityCount": 100,
+    "miniPityRate": 200,
+    "limitItems": [
+      "75,2",
+      "29,2"
+    ],
+    "bigPityCount": 500,
+    "timesRewardID": 1,
+    "ProdMailTempId": "t-20240731122833"
+  },
+  {
+    "id": 410043,
+    "OpenTime": 0,
+    "EndTime": 0,
+    "OpenTimeNew": 0,
+    "EndTimeNew": 0,
+    "OpenDateTime": "2025-11-08 00:00:01",
+    "EndDateTime": "2025-11-09 23:59:59",
+    "dateTimeLimit": 20,
+    "shopGroup": 2,
+    "ShopRes": [
+      54
+    ],
+    "priceId": 50,
+    "singlePrice": 1,
+    "tenPrice": 10,
+    "poolTimes": [
+      "0",
+      "51",
+      "301"
+    ],
+    "pool": [
+      "202",
+      "200",
+      "209"
+    ],
+    "rate": [
+      "9940,60,0",
+      "9910,60,30",
+      "9880,60,300"
+    ],
+    "showRate": [
+      "9600",
+      "400"
+    ],
+    "showRateBig": [
+      "100",
+      "150",
+      "150"
+    ],
+    "miniPityCount": 100,
+    "miniPityRate": 200,
+    "limitItems": [
+      "75,2",
+      "29,2"
+    ],
+    "bigPityCount": 500,
+    "timesRewardID": 1,
+    "ProdMailTempId": "t-20240731122833"
+  },
+  {
+    "id": 410044,
+    "OpenTime": 0,
+    "EndTime": 0,
+    "OpenTimeNew": 0,
+    "EndTimeNew": 0,
+    "OpenDateTime": "2025-11-15 00:00:01",
+    "EndDateTime": "2025-11-16 23:59:59",
+    "dateTimeLimit": 20,
+    "shopGroup": 2,
+    "ShopRes": [
+      54
+    ],
+    "priceId": 50,
+    "singlePrice": 1,
+    "tenPrice": 10,
+    "poolTimes": [
+      "0",
+      "51",
+      "301"
+    ],
+    "pool": [
+      "202",
+      "200",
+      "209"
+    ],
+    "rate": [
+      "9940,60,0",
+      "9910,60,30",
+      "9880,60,300"
+    ],
+    "showRate": [
+      "9600",
+      "400"
+    ],
+    "showRateBig": [
+      "100",
+      "150",
+      "150"
+    ],
+    "miniPityCount": 100,
+    "miniPityRate": 200,
+    "limitItems": [
+      "75,2",
+      "29,2"
+    ],
+    "bigPityCount": 500,
+    "timesRewardID": 1,
+    "ProdMailTempId": "t-20240731122833"
+  },
+  {
+    "id": 410045,
+    "OpenTime": 0,
+    "EndTime": 0,
+    "OpenTimeNew": 0,
+    "EndTimeNew": 0,
+    "OpenDateTime": "2025-11-22 00:00:01",
+    "EndDateTime": "2025-11-23 23:59:59",
+    "dateTimeLimit": 20,
+    "shopGroup": 2,
+    "ShopRes": [
+      54
+    ],
+    "priceId": 50,
+    "singlePrice": 1,
+    "tenPrice": 10,
+    "poolTimes": [
+      "0",
+      "51",
+      "301"
+    ],
+    "pool": [
+      "202",
+      "200",
+      "209"
+    ],
+    "rate": [
+      "9940,60,0",
+      "9910,60,30",
+      "9880,60,300"
+    ],
+    "showRate": [
+      "9600",
+      "400"
+    ],
+    "showRateBig": [
+      "100",
+      "150",
+      "150"
+    ],
+    "miniPityCount": 100,
+    "miniPityRate": 200,
+    "limitItems": [
+      "75,2",
+      "29,2"
+    ],
+    "bigPityCount": 500,
+    "timesRewardID": 1,
+    "ProdMailTempId": "t-20240731122833"
+  },
+  {
+    "id": 410046,
+    "OpenTime": 0,
+    "EndTime": 0,
+    "OpenTimeNew": 0,
+    "EndTimeNew": 0,
+    "OpenDateTime": "2025-11-29 00:00:01",
+    "EndDateTime": "2025-11-30 23:59:59",
+    "dateTimeLimit": 20,
+    "shopGroup": 2,
+    "ShopRes": [
+      54
+    ],
+    "priceId": 50,
+    "singlePrice": 1,
+    "tenPrice": 10,
+    "poolTimes": [
+      "0",
+      "51",
+      "301"
+    ],
+    "pool": [
+      "202",
+      "200",
+      "209"
+    ],
+    "rate": [
+      "9940,60,0",
+      "9910,60,30",
+      "9880,60,300"
+    ],
+    "showRate": [
+      "9600",
+      "400"
+    ],
+    "showRateBig": [
+      "100",
+      "150",
+      "150"
+    ],
+    "miniPityCount": 100,
+    "miniPityRate": 200,
+    "limitItems": [
+      "75,2",
+      "29,2"
+    ],
+    "bigPityCount": 500,
+    "timesRewardID": 1,
+    "ProdMailTempId": "t-20240731122833"
+  },
+  {
+    "id": 410047,
+    "OpenTime": 0,
+    "EndTime": 0,
+    "OpenTimeNew": 0,
+    "EndTimeNew": 0,
+    "OpenDateTime": "2025-12-06 00:00:01",
+    "EndDateTime": "2025-12-07 23:59:59",
+    "dateTimeLimit": 20,
+    "shopGroup": 2,
+    "ShopRes": [
+      54
+    ],
+    "priceId": 50,
+    "singlePrice": 1,
+    "tenPrice": 10,
+    "poolTimes": [
+      "0",
+      "51",
+      "301"
+    ],
+    "pool": [
+      "202",
+      "200",
+      "209"
+    ],
+    "rate": [
+      "9940,60,0",
+      "9910,60,30",
+      "9880,60,300"
+    ],
+    "showRate": [
+      "9600",
+      "400"
+    ],
+    "showRateBig": [
+      "100",
+      "150",
+      "150"
+    ],
+    "miniPityCount": 100,
+    "miniPityRate": 200,
+    "limitItems": [
+      "75,2",
+      "29,2"
+    ],
+    "bigPityCount": 500,
+    "timesRewardID": 1,
+    "ProdMailTempId": "t-20240731122833"
+  },
+  {
+    "id": 410048,
+    "OpenTime": 0,
+    "EndTime": 0,
+    "OpenTimeNew": 0,
+    "EndTimeNew": 0,
+    "OpenDateTime": "2025-12-13 00:00:01",
+    "EndDateTime": "2025-12-14 23:59:59",
+    "dateTimeLimit": 20,
+    "shopGroup": 2,
+    "ShopRes": [
+      54
+    ],
+    "priceId": 50,
+    "singlePrice": 1,
+    "tenPrice": 10,
+    "poolTimes": [
+      "0",
+      "51",
+      "301"
+    ],
+    "pool": [
+      "202",
+      "200",
+      "209"
+    ],
+    "rate": [
+      "9940,60,0",
+      "9910,60,30",
+      "9880,60,300"
+    ],
+    "showRate": [
+      "9600",
+      "400"
+    ],
+    "showRateBig": [
+      "100",
+      "150",
+      "150"
+    ],
+    "miniPityCount": 100,
+    "miniPityRate": 200,
+    "limitItems": [
+      "75,2",
+      "29,2"
+    ],
+    "bigPityCount": 500,
+    "timesRewardID": 1,
+    "ProdMailTempId": "t-20240731122833"
+  },
+  {
+    "id": 410049,
+    "OpenTime": 0,
+    "EndTime": 0,
+    "OpenTimeNew": 0,
+    "EndTimeNew": 0,
+    "OpenDateTime": "2025-12-20 00:00:01",
+    "EndDateTime": "2025-12-21 23:59:59",
+    "dateTimeLimit": 20,
+    "shopGroup": 2,
+    "ShopRes": [
+      54
+    ],
+    "priceId": 50,
+    "singlePrice": 1,
+    "tenPrice": 10,
+    "poolTimes": [
+      "0",
+      "51",
+      "301"
+    ],
+    "pool": [
+      "202",
+      "200",
+      "209"
+    ],
+    "rate": [
+      "9940,60,0",
+      "9910,60,30",
+      "9880,60,300"
+    ],
+    "showRate": [
+      "9600",
+      "400"
+    ],
+    "showRateBig": [
+      "100",
+      "150",
+      "150"
+    ],
+    "miniPityCount": 100,
+    "miniPityRate": 200,
+    "limitItems": [
+      "75,2",
+      "29,2"
+    ],
+    "bigPityCount": 500,
+    "timesRewardID": 1,
+    "ProdMailTempId": "t-20240731122833"
+  },
+  {
+    "id": 410050,
+    "OpenTime": 0,
+    "EndTime": 0,
+    "OpenTimeNew": 0,
+    "EndTimeNew": 0,
+    "OpenDateTime": "2025-12-27 00:00:01",
+    "EndDateTime": "2025-12-28 23:59:59",
+    "dateTimeLimit": 20,
+    "shopGroup": 2,
+    "ShopRes": [
+      54
+    ],
+    "priceId": 50,
+    "singlePrice": 1,
+    "tenPrice": 10,
+    "poolTimes": [
+      "0",
+      "51",
+      "301"
+    ],
+    "pool": [
+      "202",
+      "200",
+      "209"
+    ],
+    "rate": [
+      "9940,60,0",
+      "9910,60,30",
+      "9880,60,300"
+    ],
+    "showRate": [
+      "9600",
+      "400"
+    ],
+    "showRateBig": [
+      "100",
+      "150",
+      "150"
+    ],
+    "miniPityCount": 100,
+    "miniPityRate": 200,
+    "limitItems": [
+      "75,2",
+      "29,2"
+    ],
+    "bigPityCount": 500,
+    "timesRewardID": 1,
+    "ProdMailTempId": "t-20240731122833"
+  },
+  {
+    "id": 410051,
+    "OpenTime": 0,
+    "EndTime": 0,
+    "OpenTimeNew": 0,
+    "EndTimeNew": 0,
+    "OpenDateTime": "2026-01-03 00:00:01",
+    "EndDateTime": "2026-01-04 23:59:59",
+    "dateTimeLimit": 20,
+    "shopGroup": 2,
+    "ShopRes": [
+      54
+    ],
+    "priceId": 50,
+    "singlePrice": 1,
+    "tenPrice": 10,
+    "poolTimes": [
+      "0",
+      "51",
+      "301"
+    ],
+    "pool": [
+      "202",
+      "200",
+      "209"
+    ],
+    "rate": [
+      "9940,60,0",
+      "9910,60,30",
+      "9880,60,300"
+    ],
+    "showRate": [
+      "9600",
+      "400"
+    ],
+    "showRateBig": [
+      "100",
+      "150",
+      "150"
+    ],
+    "miniPityCount": 100,
+    "miniPityRate": 200,
+    "limitItems": [
+      "75,2",
+      "29,2"
+    ],
+    "bigPityCount": 500,
+    "timesRewardID": 1,
+    "ProdMailTempId": "t-20240731122833"
+  }
+]

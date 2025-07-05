@@ -1,0 +1,14 @@
+[
+  {
+    "id": 200001,
+    "costId": 98,
+    "singleCost": 1,
+    "pool": 98
+  },
+  {
+    "id": 200002,
+    "costId": 99,
+    "singleCost": 1,
+    "pool": 99
+  }
+]

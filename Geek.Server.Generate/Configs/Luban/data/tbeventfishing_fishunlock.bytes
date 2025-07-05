@@ -1,0 +1,112 @@
+[
+  {
+    "id": 1,
+    "UnlockWeight": 0,
+    "UnlockFishRod": 0,
+    "UnlockPayFishRod": 0,
+    "UnlockArea": 0,
+    "UnlockTask": [],
+    "UnlockExchange": [
+      10111,
+      10112,
+      10113,
+      10114,
+      10115,
+      20101,
+      20102,
+      20103,
+      20104,
+      20105,
+      20106,
+      20107,
+      20108,
+      20109,
+      20110,
+      20111
+    ],
+    "UnlockLanguage": ""
+  },
+  {
+    "id": 2,
+    "UnlockWeight": 3000,
+    "UnlockFishRod": 2102,
+    "UnlockPayFishRod": 0,
+    "UnlockArea": 0,
+    "UnlockTask": [],
+    "UnlockExchange": [],
+    "UnlockLanguage": "uifishing_rog_02"
+  },
+  {
+    "id": 3,
+    "UnlockWeight": 7500,
+    "UnlockFishRod": 0,
+    "UnlockPayFishRod": 0,
+    "UnlockArea": 2,
+    "UnlockTask": [],
+    "UnlockExchange": [
+      10211,
+      10212,
+      10213,
+      10214,
+      10215
+    ],
+    "UnlockLanguage": "fishing_area_2"
+  },
+  {
+    "id": 4,
+    "UnlockWeight": 12000,
+    "UnlockFishRod": 2103,
+    "UnlockPayFishRod": 2104,
+    "UnlockArea": 0,
+    "UnlockTask": [],
+    "UnlockExchange": [],
+    "UnlockLanguage": "uifishing_rog_03"
+  },
+  {
+    "id": 5,
+    "UnlockWeight": 23000,
+    "UnlockFishRod": 0,
+    "UnlockPayFishRod": 0,
+    "UnlockArea": 3,
+    "UnlockTask": [],
+    "UnlockExchange": [
+      10311,
+      10312,
+      10313,
+      10314,
+      10315
+    ],
+    "UnlockLanguage": "fishing_area_3"
+  },
+  {
+    "id": 6,
+    "UnlockWeight": 30000,
+    "UnlockFishRod": 2105,
+    "UnlockPayFishRod": 2106,
+    "UnlockArea": 0,
+    "UnlockTask": [],
+    "UnlockExchange": [],
+    "UnlockLanguage": "uifishing_rog_05"
+  },
+  {
+    "id": 7,
+    "UnlockWeight": 50000,
+    "UnlockFishRod": 0,
+    "UnlockPayFishRod": 0,
+    "UnlockArea": 4,
+    "UnlockTask": [],
+    "UnlockExchange": [
+      10421,
+      10422,
+      10423,
+      10424,
+      10425,
+      10426,
+      10427,
+      10428,
+      10429,
+      10430
+    ],
+    "UnlockLanguage": "fishing_area_4"
+  }
+]

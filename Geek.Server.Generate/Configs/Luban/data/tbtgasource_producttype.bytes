@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "productType": "商店-钻石"
+  },
+  {
+    "id": 2,
+    "productType": "商店-礼包"
+  },
+  {
+    "id": 3,
+    "productType": "月卡"
+  },
+  {
+    "id": 4,
+    "productType": "通行证"
+  },
+  {
+    "id": 5,
+    "productType": "关卡基金"
+  },
+  {
+    "id": 6,
+    "productType": "首充礼包"
+  },
+  {
+    "id": 8,
+    "productType": "章节礼包"
+  },
+  {
+    "id": 9,
+    "productType": "周活动礼包"
+  },
+  {
+    "id": 10,
+    "productType": "推送礼包"
+  },
+  {
+    "id": 11,
+    "productType": "转盘活动"
+  },
+  {
+    "id": 12,
+    "productType": "大富翁"
+  },
+  {
+    "id": 13,
+    "productType": "章节通行证"
+  },
+  {
+    "id": 14,
+    "productType": "连锁礼包"
+  },
+  {
+    "id": 15,
+    "productType": "推送连锁礼包"
+  },
+  {
+    "id": 16,
+    "productType": "大富翁通行证"
+  },
+  {
+    "id": 17,
+    "productType": "活动转盘礼包"
+  },
+  {
+    "id": 18,
+    "productType": "钓鱼礼包"
+  },
+  {
+    "id": 19,
+    "productType": "节日皮肤"
+  },
+  {
+    "id": 20,
+    "productType": "寻宝特工队礼包"
+  },
+  {
+    "id": 21,
+    "productType": "存钱罐"
+  },
+  {
+    "id": 23,
+    "productType": "购买英雄"
+  },
+  {
+    "id": 22,
+    "productType": "春节宾果礼包"
+  },
+  {
+    "id": 24,
+    "productType": "节日活动通用"
+  },
+  {
+    "id": 25,
+    "productType": "活动通行证"
+  },
+  {
+    "id": 26,
+    "productType": "玩法基金"
+  },
+  {
+    "id": 27,
+    "productType": "劳动节Bingo通行证"
+  },
+  {
+    "id": 28,
+    "productType": "秘境"
+  },
+  {
+    "id": 30,
+    "productType": "七日付费签到"
+  },
+  {
+    "id": 31,
+    "productType": "锦鲤"
+  },
+  {
+    "id": 100,
+    "productType": "代币礼包"
+  }
+]

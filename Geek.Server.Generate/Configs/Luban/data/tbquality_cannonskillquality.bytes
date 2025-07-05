@@ -1,0 +1,69 @@
+[
+  {
+    "id": 1,
+    "atlasId": 206,
+    "pointSpriteName": "cannon_skill_3",
+    "lockSpriteName": "lock_3",
+    "colorNumLight": "#807B92",
+    "colorNumDark": [
+      "#4695D1"
+    ],
+    "assaultGrid": "assault_grid_1"
+  },
+  {
+    "id": 2,
+    "atlasId": 206,
+    "pointSpriteName": "cannon_skill_4",
+    "lockSpriteName": "lock_4",
+    "colorNumLight": "#3AA23A",
+    "colorNumDark": [
+      "#9F5CEE"
+    ],
+    "assaultGrid": "assault_grid_2"
+  },
+  {
+    "id": 3,
+    "atlasId": 206,
+    "pointSpriteName": "cannon_skill_5",
+    "lockSpriteName": "lock_5",
+    "colorNumLight": "#4695D1",
+    "colorNumDark": [
+      "#F4883F"
+    ],
+    "assaultGrid": "assault_grid_3"
+  },
+  {
+    "id": 4,
+    "atlasId": 206,
+    "pointSpriteName": "cannon_skill_6",
+    "lockSpriteName": "lock_6",
+    "colorNumLight": "#9F5CEE",
+    "colorNumDark": [
+      "#E55254"
+    ],
+    "assaultGrid": "assault_grid_4"
+  },
+  {
+    "id": 5,
+    "atlasId": 206,
+    "pointSpriteName": "cannon_skill_7",
+    "lockSpriteName": "lock_6",
+    "colorNumLight": "#F4883F",
+    "colorNumDark": [
+      "#F65EAF"
+    ],
+    "assaultGrid": "assault_grid_5"
+  },
+  {
+    "id": 6,
+    "atlasId": 206,
+    "pointSpriteName": "cannon_skill_8",
+    "lockSpriteName": "lock_6",
+    "colorNumLight": "#E55254",
+    "colorNumDark": [
+      "#1F96FB",
+      "#B049FF"
+    ],
+    "assaultGrid": "assault_grid_5"
+  }
+]

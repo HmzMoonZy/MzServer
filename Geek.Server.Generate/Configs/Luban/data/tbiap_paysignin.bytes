@@ -1,0 +1,74 @@
+[
+  {
+    "ID": 101,
+    "openTime": "2025-06-16 00:00:01",
+    "endTime": "2025-06-22 23:59:59",
+    "openTimeCN": "2025-06-16 00:00:01",
+    "endTimeCN": "2025-06-22 23:59:59",
+    "iapId": 1020,
+    "groupId": 101,
+    "atlasId": 171,
+    "imgBanner": "Assets/_Resources/Sprites/ActivitySign/img_tankful_signin_title.png",
+    "mailId": "t-20250604084939"
+  },
+  {
+    "ID": 102,
+    "openTime": "2025-06-23 00:00:01",
+    "endTime": "2025-06-29 23:59:59",
+    "openTimeCN": "2025-06-23 00:00:01",
+    "endTimeCN": "2025-06-29 23:59:59",
+    "iapId": 1020,
+    "groupId": 101,
+    "atlasId": 171,
+    "imgBanner": "Assets/_Resources/Sprites/ActivitySign/img_tankful_signin_title.png",
+    "mailId": "t-20250604084939"
+  },
+  {
+    "ID": 103,
+    "openTime": "2025-06-30 00:00:01",
+    "endTime": "2025-07-06 23:59:59",
+    "openTimeCN": "2025-06-30 00:00:01",
+    "endTimeCN": "2025-07-06 23:59:59",
+    "iapId": 1020,
+    "groupId": 101,
+    "atlasId": 171,
+    "imgBanner": "Assets/_Resources/Sprites/ActivitySign/img_tankful_signin_title.png",
+    "mailId": "t-20250604084939"
+  },
+  {
+    "ID": 104,
+    "openTime": "2025-07-07 00:00:01",
+    "endTime": "2025-07-13 23:59:59",
+    "openTimeCN": "2025-07-07 00:00:01",
+    "endTimeCN": "2025-07-13 23:59:59",
+    "iapId": 1020,
+    "groupId": 101,
+    "atlasId": 171,
+    "imgBanner": "Assets/_Resources/Sprites/ActivitySign/img_tankful_signin_title.png",
+    "mailId": "t-20250604084939"
+  },
+  {
+    "ID": 105,
+    "openTime": "2025-07-14 00:00:01",
+    "endTime": "2025-07-20 23:59:59",
+    "openTimeCN": "2025-07-14 00:00:01",
+    "endTimeCN": "2025-07-20 23:59:59",
+    "iapId": 1020,
+    "groupId": 101,
+    "atlasId": 171,
+    "imgBanner": "Assets/_Resources/Sprites/ActivitySign/img_tankful_signin_title.png",
+    "mailId": "t-20250604084939"
+  },
+  {
+    "ID": 106,
+    "openTime": "2025-07-21 00:00:01",
+    "endTime": "2025-07-27 23:59:59",
+    "openTimeCN": "2025-07-21 00:00:01",
+    "endTimeCN": "2025-07-27 23:59:59",
+    "iapId": 1020,
+    "groupId": 101,
+    "atlasId": 171,
+    "imgBanner": "Assets/_Resources/Sprites/ActivitySign/img_tankful_signin_title.png",
+    "mailId": "t-20250604084939"
+  }
+]

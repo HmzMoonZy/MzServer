@@ -1,0 +1,1372 @@
+[
+  {
+    "id": 1,
+    "prefabID": 1,
+    "bulletType": 1,
+    "parameters": "",
+    "frame": 0,
+    "shakeID": 0,
+    "hitAddBuffs": "",
+    "destroyDuation": 0
+  },
+  {
+    "id": 2,
+    "prefabID": 1,
+    "bulletType": 1,
+    "parameters": "",
+    "frame": 0,
+    "shakeID": 1,
+    "hitAddBuffs": "",
+    "destroyDuation": 0
+  },
+  {
+    "id": 3,
+    "prefabID": 1,
+    "bulletType": 1,
+    "parameters": "",
+    "frame": 0,
+    "shakeID": 2,
+    "hitAddBuffs": "",
+    "destroyDuation": 0
+  },
+  {
+    "id": 4,
+    "prefabID": 1,
+    "bulletType": 1,
+    "parameters": "",
+    "frame": 4,
+    "shakeID": 2,
+    "hitAddBuffs": "",
+    "destroyDuation": 0
+  },
+  {
+    "id": 5,
+    "prefabID": 1001,
+    "bulletType": 3,
+    "parameters": "{\"CurveID\":1}",
+    "frame": 5,
+    "shakeID": 0,
+    "hitAddBuffs": "",
+    "destroyDuation": 0
+  },
+  {
+    "id": 6,
+    "prefabID": 3005,
+    "bulletType": 4,
+    "parameters": "{\"moveSpeed\":12,\"moveDistance\":3}",
+    "frame": 0,
+    "shakeID": 0,
+    "hitAddBuffs": "",
+    "destroyDuation": 0
+  },
+  {
+    "id": 7,
+    "prefabID": 1,
+    "bulletType": 1,
+    "parameters": "",
+    "frame": 2,
+    "shakeID": 2,
+    "hitAddBuffs": "",
+    "destroyDuation": 0
+  },
+  {
+    "id": 8,
+    "prefabID": 1,
+    "bulletType": 1,
+    "parameters": "",
+    "frame": 9,
+    "shakeID": 2,
+    "hitAddBuffs": "",
+    "destroyDuation": 0
+  },
+  {
+    "id": 1001,
+    "prefabID": 1001,
+    "bulletType": 2,
+    "parameters": "{\"LookAt\":1}",
+    "frame": 5,
+    "shakeID": 0,
+    "hitAddBuffs": "",
+    "destroyDuation": 0
+  },
+  {
+    "id": 1002,
+    "prefabID": 1001,
+    "bulletType": 2,
+    "parameters": "{\"LookAt\":1}",
+    "frame": 5,
+    "shakeID": 1,
+    "hitAddBuffs": "",
+    "destroyDuation": 0
+  },
+  {
+    "id": 1003,
+    "prefabID": 1002,
+    "bulletType": 2,
+    "parameters": "{\"LookAt\":1}",
+    "frame": 5,
+    "shakeID": 0,
+    "hitAddBuffs": "",
+    "destroyDuation": 0
+  },
+  {
+    "id": 1004,
+    "prefabID": 1002,
+    "bulletType": 2,
+    "parameters": "{\"LookAt\":1}",
+    "frame": 5,
+    "shakeID": 1,
+    "hitAddBuffs": "",
+    "destroyDuation": 0
+  },
+  {
+    "id": 1005,
+    "prefabID": 1003,
+    "bulletType": 2,
+    "parameters": "{\"LookAt\":1}",
+    "frame": 5,
+    "shakeID": 0,
+    "hitAddBuffs": "",
+    "destroyDuation": 0
+  },
+  {
+    "id": 1006,
+    "prefabID": 1003,
+    "bulletType": 2,
+    "parameters": "{\"LookAt\":1}",
+    "frame": 5,
+    "shakeID": 1,
+    "hitAddBuffs": "",
+    "destroyDuation": 0
+  },
+  {
+    "id": 1007,
+    "prefabID": 1007,
+    "bulletType": 3,
+    "parameters": "{\"CurveID\":1}",
+    "frame": 5,
+    "shakeID": 0,
+    "hitAddBuffs": "",
+    "destroyDuation": 0
+  },
+  {
+    "id": 1008,
+    "prefabID": 1007,
+    "bulletType": 3,
+    "parameters": "{\"CurveID\":1}",
+    "frame": 5,
+    "shakeID": 1,
+    "hitAddBuffs": "",
+    "destroyDuation": 0
+  },
+  {
+    "id": 1009,
+    "prefabID": 1008,
+    "bulletType": 2,
+    "parameters": "{\"LookAt\":1}",
+    "frame": 8,
+    "shakeID": 0,
+    "hitAddBuffs": "",
+    "destroyDuation": 0
+  },
+  {
+    "id": 1010,
+    "prefabID": 1009,
+    "bulletType": 2,
+    "parameters": "{\"LookAt\":1}",
+    "frame": 8,
+    "shakeID": 0,
+    "hitAddBuffs": "",
+    "destroyDuation": 0
+  },
+  {
+    "id": 1011,
+    "prefabID": 1010,
+    "bulletType": 3,
+    "parameters": "{\"CurveID\":1}",
+    "frame": 6,
+    "shakeID": 2,
+    "hitAddBuffs": "",
+    "destroyDuation": 0
+  },
+  {
+    "id": 1012,
+    "prefabID": 1011,
+    "bulletType": 3,
+    "parameters": "{\"CurveID\":1}",
+    "frame": 6,
+    "shakeID": 2,
+    "hitAddBuffs": "",
+    "destroyDuation": 0
+  },
+  {
+    "id": 1013,
+    "prefabID": 1012,
+    "bulletType": 2,
+    "parameters": "{\"LookAt\":1}",
+    "frame": 5,
+    "shakeID": 1,
+    "hitAddBuffs": "",
+    "destroyDuation": 0
+  },
+  {
+    "id": 1014,
+    "prefabID": 1012,
+    "bulletType": 2,
+    "parameters": "{\"LookAt\":1}",
+    "frame": 5,
+    "shakeID": 2,
+    "hitAddBuffs": "",
+    "destroyDuation": 0
+  },
+  {
+    "id": 1015,
+    "prefabID": 1013,
+    "bulletType": 2,
+    "parameters": "{\"LookAt\":1}",
+    "frame": 8,
+    "shakeID": 1,
+    "hitAddBuffs": "",
+    "destroyDuation": 0
+  },
+  {
+    "id": 1016,
+    "prefabID": 1014,
+    "bulletType": 2,
+    "parameters": "{\"LookAt\":1}",
+    "frame": 8,
+    "shakeID": 1,
+    "hitAddBuffs": "",
+    "destroyDuation": 0
+  },
+  {
+    "id": 1101,
+    "prefabID": 1101,
+    "bulletType": 1,
+    "parameters": "{\"IsFollowTarget\":1}",
+    "frame": 2,
+    "shakeID": 0,
+    "hitAddBuffs": "",
+    "destroyDuation": 6
+  },
+  {
+    "id": 1102,
+    "prefabID": 1102,
+    "bulletType": 1,
+    "parameters": "{\"IsFollowTarget\":1}",
+    "frame": 2,
+    "shakeID": 0,
+    "hitAddBuffs": "",
+    "destroyDuation": 6
+  },
+  {
+    "id": 1103,
+    "prefabID": 1103,
+    "bulletType": 1,
+    "parameters": "{\"IsFollowTarget\":1}",
+    "frame": 2,
+    "shakeID": 0,
+    "hitAddBuffs": "",
+    "destroyDuation": 6
+  },
+  {
+    "id": 1104,
+    "prefabID": 1104,
+    "bulletType": 1,
+    "parameters": "{\"IsFollowTarget\":1}",
+    "frame": 2,
+    "shakeID": 0,
+    "hitAddBuffs": "",
+    "destroyDuation": 6
+  },
+  {
+    "id": 1105,
+    "prefabID": 1105,
+    "bulletType": 1,
+    "parameters": "{\"IsFollowTarget\":1}",
+    "frame": 2,
+    "shakeID": 0,
+    "hitAddBuffs": "",
+    "destroyDuation": 6
+  },
+  {
+    "id": 1201,
+    "prefabID": 1201,
+    "bulletType": 1,
+    "parameters": "{\"IsFollowTarget\":1}",
+    "frame": 2,
+    "shakeID": 0,
+    "hitAddBuffs": "",
+    "destroyDuation": 6
+  },
+  {
+    "id": 1202,
+    "prefabID": 1202,
+    "bulletType": 1,
+    "parameters": "{\"IsFollowTarget\":1}",
+    "frame": 2,
+    "shakeID": 0,
+    "hitAddBuffs": "",
+    "destroyDuation": 6
+  },
+  {
+    "id": 1301,
+    "prefabID": 1301,
+    "bulletType": 1,
+    "parameters": "{\"IsFollowTarget\":1}",
+    "frame": 2,
+    "shakeID": 0,
+    "hitAddBuffs": "",
+    "destroyDuation": 6
+  },
+  {
+    "id": 1302,
+    "prefabID": 1302,
+    "bulletType": 1,
+    "parameters": "{\"IsFollowTarget\":1}",
+    "frame": 2,
+    "shakeID": 0,
+    "hitAddBuffs": "",
+    "destroyDuation": 6
+  },
+  {
+    "id": 1303,
+    "prefabID": 1303,
+    "bulletType": 4,
+    "parameters": "{\"moveSpeed\":15,\"moveDistance\":6}",
+    "frame": 5,
+    "shakeID": 1,
+    "hitAddBuffs": "",
+    "destroyDuation": 0
+  },
+  {
+    "id": 1304,
+    "prefabID": 1304,
+    "bulletType": 4,
+    "parameters": "{\"moveSpeed\":15,\"moveDistance\":6}",
+    "frame": 5,
+    "shakeID": 2,
+    "hitAddBuffs": "",
+    "destroyDuation": 0
+  },
+  {
+    "id": 1305,
+    "prefabID": 1305,
+    "bulletType": 2,
+    "parameters": "{\"LookAt\":1}",
+    "frame": 8,
+    "shakeID": 0,
+    "hitAddBuffs": "",
+    "destroyDuation": 0
+  },
+  {
+    "id": 1401,
+    "prefabID": 1401,
+    "bulletType": 5,
+    "parameters": "",
+    "frame": 8,
+    "shakeID": 0,
+    "hitAddBuffs": "",
+    "destroyDuation": 6
+  },
+  {
+    "id": 1402,
+    "prefabID": 1402,
+    "bulletType": 5,
+    "parameters": "",
+    "frame": 8,
+    "shakeID": 0,
+    "hitAddBuffs": "",
+    "destroyDuation": 6
+  },
+  {
+    "id": 1403,
+    "prefabID": 1403,
+    "bulletType": 5,
+    "parameters": "",
+    "frame": 8,
+    "shakeID": 0,
+    "hitAddBuffs": "",
+    "destroyDuation": 6
+  },
+  {
+    "id": 1404,
+    "prefabID": 1404,
+    "bulletType": 5,
+    "parameters": "",
+    "frame": 8,
+    "shakeID": 0,
+    "hitAddBuffs": "",
+    "destroyDuation": 6
+  },
+  {
+    "id": 1501,
+    "prefabID": 1501,
+    "bulletType": 1,
+    "parameters": "{\"IsFollowTarget\":1}",
+    "frame": 3,
+    "shakeID": 0,
+    "hitAddBuffs": "",
+    "destroyDuation": 6
+  },
+  {
+    "id": 2001,
+    "prefabID": 2001,
+    "bulletType": 2,
+    "parameters": "",
+    "frame": 4,
+    "shakeID": 0,
+    "hitAddBuffs": "",
+    "destroyDuation": 0
+  },
+  {
+    "id": 2002,
+    "prefabID": 2002,
+    "bulletType": 2,
+    "parameters": "",
+    "frame": 7,
+    "shakeID": 0,
+    "hitAddBuffs": "",
+    "destroyDuation": 0
+  },
+  {
+    "id": 2003,
+    "prefabID": 2003,
+    "bulletType": 2,
+    "parameters": "",
+    "frame": 7,
+    "shakeID": 0,
+    "hitAddBuffs": "",
+    "destroyDuation": 0
+  },
+  {
+    "id": 2004,
+    "prefabID": 2004,
+    "bulletType": 2,
+    "parameters": "",
+    "frame": 7,
+    "shakeID": 0,
+    "hitAddBuffs": "",
+    "destroyDuation": 0
+  },
+  {
+    "id": 2005,
+    "prefabID": 2005,
+    "bulletType": 2,
+    "parameters": "",
+    "frame": 4,
+    "shakeID": 0,
+    "hitAddBuffs": "",
+    "destroyDuation": 0
+  },
+  {
+    "id": 2007,
+    "prefabID": 2007,
+    "bulletType": 2,
+    "parameters": "{\"LookAt\":1}",
+    "frame": 5,
+    "shakeID": 1,
+    "hitAddBuffs": "",
+    "destroyDuation": 0
+  },
+  {
+    "id": 2101,
+    "prefabID": 2001,
+    "bulletType": 2,
+    "parameters": "",
+    "frame": 4,
+    "shakeID": 1,
+    "hitAddBuffs": "",
+    "destroyDuation": 0
+  },
+  {
+    "id": 2102,
+    "prefabID": 2002,
+    "bulletType": 2,
+    "parameters": "",
+    "frame": 4,
+    "shakeID": 0,
+    "hitAddBuffs": "",
+    "destroyDuation": 0
+  },
+  {
+    "id": 2103,
+    "prefabID": 2003,
+    "bulletType": 2,
+    "parameters": "",
+    "frame": 4,
+    "shakeID": 0,
+    "hitAddBuffs": "",
+    "destroyDuation": 0
+  },
+  {
+    "id": 2104,
+    "prefabID": 2004,
+    "bulletType": 2,
+    "parameters": "",
+    "frame": 4,
+    "shakeID": 0,
+    "hitAddBuffs": "",
+    "destroyDuation": 0
+  },
+  {
+    "id": 2105,
+    "prefabID": 2005,
+    "bulletType": 2,
+    "parameters": "",
+    "frame": 4,
+    "shakeID": 0,
+    "hitAddBuffs": "",
+    "destroyDuation": 0
+  },
+  {
+    "id": 3001,
+    "prefabID": 3001,
+    "bulletType": 2,
+    "parameters": "",
+    "frame": 4,
+    "shakeID": 0,
+    "hitAddBuffs": "",
+    "destroyDuation": 0
+  },
+  {
+    "id": 3002,
+    "prefabID": 3002,
+    "bulletType": 2,
+    "parameters": "",
+    "frame": 4,
+    "shakeID": 1,
+    "hitAddBuffs": "",
+    "destroyDuation": 0
+  },
+  {
+    "id": 3003,
+    "prefabID": 3003,
+    "bulletType": 3,
+    "parameters": "{\"CurveID\":1}",
+    "frame": 4,
+    "shakeID": 0,
+    "hitAddBuffs": "",
+    "destroyDuation": 0
+  },
+  {
+    "id": 3004,
+    "prefabID": 3004,
+    "bulletType": 2,
+    "parameters": "",
+    "frame": 4,
+    "shakeID": 0,
+    "hitAddBuffs": "",
+    "destroyDuation": 0
+  },
+  {
+    "id": 3005,
+    "prefabID": 3005,
+    "bulletType": 4,
+    "parameters": "{\"moveSpeed\":24,\"moveDistance\":6}",
+    "frame": 4,
+    "shakeID": 0,
+    "hitAddBuffs": "",
+    "destroyDuation": 0
+  },
+  {
+    "id": 3006,
+    "prefabID": 3006,
+    "bulletType": 2,
+    "parameters": "",
+    "frame": 4,
+    "shakeID": 0,
+    "hitAddBuffs": "",
+    "destroyDuation": 0
+  },
+  {
+    "id": 3007,
+    "prefabID": 3007,
+    "bulletType": 1,
+    "parameters": "",
+    "frame": 2,
+    "shakeID": 0,
+    "hitAddBuffs": "",
+    "destroyDuation": 0
+  },
+  {
+    "id": 3008,
+    "prefabID": 3008,
+    "bulletType": 1,
+    "parameters": "",
+    "frame": 2,
+    "shakeID": 0,
+    "hitAddBuffs": "",
+    "destroyDuation": 0
+  },
+  {
+    "id": 3009,
+    "prefabID": 3009,
+    "bulletType": 1,
+    "parameters": "",
+    "frame": 2,
+    "shakeID": 0,
+    "hitAddBuffs": "",
+    "destroyDuation": 0
+  },
+  {
+    "id": 3010,
+    "prefabID": 3010,
+    "bulletType": 3,
+    "parameters": "",
+    "frame": 5,
+    "shakeID": 0,
+    "hitAddBuffs": "",
+    "destroyDuation": 0
+  },
+  {
+    "id": 3011,
+    "prefabID": 3011,
+    "bulletType": 4,
+    "parameters": "{\"moveSpeed\":24,\"moveDistance\":6}",
+    "frame": 4,
+    "shakeID": 0,
+    "hitAddBuffs": "",
+    "destroyDuation": 0
+  },
+  {
+    "id": 3012,
+    "prefabID": 3013,
+    "bulletType": 2,
+    "parameters": "",
+    "frame": 4,
+    "shakeID": 0,
+    "hitAddBuffs": "",
+    "destroyDuation": 0
+  },
+  {
+    "id": 3013,
+    "prefabID": 3014,
+    "bulletType": 2,
+    "parameters": "{\"LookAt\":1}",
+    "frame": 6,
+    "shakeID": 1,
+    "hitAddBuffs": "",
+    "destroyDuation": 0
+  },
+  {
+    "id": 3014,
+    "prefabID": 3015,
+    "bulletType": 2,
+    "parameters": "",
+    "frame": 8,
+    "shakeID": 0,
+    "hitAddBuffs": "",
+    "destroyDuation": 0
+  },
+  {
+    "id": 3016,
+    "prefabID": 3016,
+    "bulletType": 2,
+    "parameters": "{\"LookAt\":1}",
+    "frame": 7,
+    "shakeID": 0,
+    "hitAddBuffs": "",
+    "destroyDuation": 0
+  },
+  {
+    "id": 3017,
+    "prefabID": 3017,
+    "bulletType": 2,
+    "parameters": "",
+    "frame": 7,
+    "shakeID": 0,
+    "hitAddBuffs": "",
+    "destroyDuation": 0
+  },
+  {
+    "id": 3018,
+    "prefabID": 3018,
+    "bulletType": 2,
+    "parameters": "{\"LookAt\":1}",
+    "frame": 7,
+    "shakeID": 0,
+    "hitAddBuffs": "",
+    "destroyDuation": 0
+  },
+  {
+    "id": 3019,
+    "prefabID": 3019,
+    "bulletType": 2,
+    "parameters": "{\"LookAt\":1}",
+    "frame": 7,
+    "shakeID": 0,
+    "hitAddBuffs": "",
+    "destroyDuation": 0
+  },
+  {
+    "id": 3020,
+    "prefabID": 3020,
+    "bulletType": 2,
+    "parameters": "{\"LookAt\":1}",
+    "frame": 7,
+    "shakeID": 2,
+    "hitAddBuffs": "",
+    "destroyDuation": 0
+  },
+  {
+    "id": 3021,
+    "prefabID": 3021,
+    "bulletType": 1,
+    "parameters": "{\"IsFollowTarget\":1}",
+    "frame": 2,
+    "shakeID": 2,
+    "hitAddBuffs": "",
+    "destroyDuation": 6
+  },
+  {
+    "id": 3022,
+    "prefabID": 3022,
+    "bulletType": 4,
+    "parameters": "{\"moveSpeed\":18,\"moveDistance\":16}",
+    "frame": 10,
+    "shakeID": 2,
+    "hitAddBuffs": "",
+    "destroyDuation": 0
+  },
+  {
+    "id": 3023,
+    "prefabID": 3023,
+    "bulletType": 1,
+    "parameters": "",
+    "frame": 2,
+    "shakeID": 2,
+    "hitAddBuffs": "",
+    "destroyDuation": 3
+  },
+  {
+    "id": 3024,
+    "prefabID": 3024,
+    "bulletType": 2,
+    "parameters": "{\"LookAt\":1}",
+    "frame": 4,
+    "shakeID": 2,
+    "hitAddBuffs": "",
+    "destroyDuation": 0
+  },
+  {
+    "id": 3025,
+    "prefabID": 3025,
+    "bulletType": 1,
+    "parameters": "",
+    "frame": 8,
+    "shakeID": 2,
+    "hitAddBuffs": "",
+    "destroyDuation": 15
+  },
+  {
+    "id": 3026,
+    "prefabID": 3026,
+    "bulletType": 1,
+    "parameters": "",
+    "frame": 11,
+    "shakeID": 2,
+    "hitAddBuffs": "",
+    "destroyDuation": 15
+  },
+  {
+    "id": 3030,
+    "prefabID": 3030,
+    "bulletType": 3,
+    "parameters": "{\"CurveID\":1}",
+    "frame": 11,
+    "shakeID": 0,
+    "hitAddBuffs": "",
+    "destroyDuation": 0
+  },
+  {
+    "id": 3031,
+    "prefabID": 3031,
+    "bulletType": 2,
+    "parameters": "{\"LookAt\":1}",
+    "frame": 11,
+    "shakeID": 0,
+    "hitAddBuffs": "",
+    "destroyDuation": 0
+  },
+  {
+    "id": 3032,
+    "prefabID": 3032,
+    "bulletType": 2,
+    "parameters": "{\"LookAt\":1}",
+    "frame": 11,
+    "shakeID": 0,
+    "hitAddBuffs": "",
+    "destroyDuation": 0
+  },
+  {
+    "id": 3033,
+    "prefabID": 3033,
+    "bulletType": 3,
+    "parameters": "{\"CurveID\":1}",
+    "frame": 11,
+    "shakeID": 0,
+    "hitAddBuffs": "",
+    "destroyDuation": 0
+  },
+  {
+    "id": 3034,
+    "prefabID": 3034,
+    "bulletType": 2,
+    "parameters": "{\"LookAt\":1}",
+    "frame": 11,
+    "shakeID": 0,
+    "hitAddBuffs": "",
+    "destroyDuation": 0
+  },
+  {
+    "id": 3035,
+    "prefabID": 3035,
+    "bulletType": 3,
+    "parameters": "{\"CurveID\":1}",
+    "frame": 11,
+    "shakeID": 0,
+    "hitAddBuffs": "",
+    "destroyDuation": 0
+  },
+  {
+    "id": 3036,
+    "prefabID": 3036,
+    "bulletType": 3,
+    "parameters": "{\"CurveID\":1}",
+    "frame": 11,
+    "shakeID": 0,
+    "hitAddBuffs": "",
+    "destroyDuation": 0
+  },
+  {
+    "id": 3037,
+    "prefabID": 3037,
+    "bulletType": 2,
+    "parameters": "{\"LookAt\":1}",
+    "frame": 11,
+    "shakeID": 0,
+    "hitAddBuffs": "",
+    "destroyDuation": 0
+  },
+  {
+    "id": 3038,
+    "prefabID": 3038,
+    "bulletType": 3,
+    "parameters": "{\"CurveID\":1}",
+    "frame": 11,
+    "shakeID": 0,
+    "hitAddBuffs": "",
+    "destroyDuation": 0
+  },
+  {
+    "id": 3039,
+    "prefabID": 3039,
+    "bulletType": 3,
+    "parameters": "{\"CurveID\":1}",
+    "frame": 11,
+    "shakeID": 0,
+    "hitAddBuffs": "",
+    "destroyDuation": 0
+  },
+  {
+    "id": 3040,
+    "prefabID": 3040,
+    "bulletType": 2,
+    "parameters": "",
+    "frame": 11,
+    "shakeID": 0,
+    "hitAddBuffs": "",
+    "destroyDuation": 0
+  },
+  {
+    "id": 3041,
+    "prefabID": 3041,
+    "bulletType": 2,
+    "parameters": "",
+    "frame": 11,
+    "shakeID": 2,
+    "hitAddBuffs": "",
+    "destroyDuation": 0
+  },
+  {
+    "id": 3042,
+    "prefabID": 3042,
+    "bulletType": 2,
+    "parameters": "",
+    "frame": 8,
+    "shakeID": 0,
+    "hitAddBuffs": "",
+    "destroyDuation": 0
+  },
+  {
+    "id": 3043,
+    "prefabID": 3043,
+    "bulletType": 3,
+    "parameters": "{\"CurveID\":1}",
+    "frame": 11,
+    "shakeID": 0,
+    "hitAddBuffs": "",
+    "destroyDuation": 0
+  },
+  {
+    "id": 4001,
+    "prefabID": 4001,
+    "bulletType": 1,
+    "parameters": "{\"IsFollowTarget\":1}",
+    "frame": 2,
+    "shakeID": 0,
+    "hitAddBuffs": "",
+    "destroyDuation": 6
+  },
+  {
+    "id": 4002,
+    "prefabID": 4002,
+    "bulletType": 4,
+    "parameters": "{\"moveSpeed\":20,\"moveDistance\":6}",
+    "frame": 0,
+    "shakeID": 2,
+    "hitAddBuffs": "",
+    "destroyDuation": 0
+  },
+  {
+    "id": 4003,
+    "prefabID": 4003,
+    "bulletType": 1,
+    "parameters": "{\"IsFollowTarget\":1}",
+    "frame": 8,
+    "shakeID": 0,
+    "hitAddBuffs": "",
+    "destroyDuation": 6
+  },
+  {
+    "id": 4004,
+    "prefabID": 4004,
+    "bulletType": 1,
+    "parameters": "{\"IsFollowTarget\":1}",
+    "frame": 4,
+    "shakeID": 0,
+    "hitAddBuffs": "",
+    "destroyDuation": 6
+  },
+  {
+    "id": 4005,
+    "prefabID": 4005,
+    "bulletType": 1,
+    "parameters": "{\"IsFollowTarget\":1}",
+    "frame": 2,
+    "shakeID": 0,
+    "hitAddBuffs": "",
+    "destroyDuation": 6
+  },
+  {
+    "id": 4006,
+    "prefabID": 4006,
+    "bulletType": 5,
+    "parameters": "",
+    "frame": 8,
+    "shakeID": 0,
+    "hitAddBuffs": "",
+    "destroyDuation": 6
+  },
+  {
+    "id": 4007,
+    "prefabID": 4007,
+    "bulletType": 4,
+    "parameters": "{\"moveSpeed\":14,\"moveDistance\":10}",
+    "frame": 0,
+    "shakeID": 2,
+    "hitAddBuffs": "",
+    "destroyDuation": 0
+  },
+  {
+    "id": 4008,
+    "prefabID": 4008,
+    "bulletType": 2,
+    "parameters": "{\"LookAt\":1}",
+    "frame": 11,
+    "shakeID": 1,
+    "hitAddBuffs": "",
+    "destroyDuation": 0
+  },
+  {
+    "id": 4009,
+    "prefabID": 4009,
+    "bulletType": 4,
+    "parameters": "{\"moveSpeed\":0,\"moveDistance\":0}",
+    "frame": 30,
+    "shakeID": 2,
+    "hitAddBuffs": "",
+    "destroyDuation": 60
+  },
+  {
+    "id": 4010,
+    "prefabID": 4010,
+    "bulletType": 5,
+    "parameters": "",
+    "frame": 8,
+    "shakeID": 0,
+    "hitAddBuffs": "",
+    "destroyDuation": 6
+  },
+  {
+    "id": 4101,
+    "prefabID": 4101,
+    "bulletType": 2,
+    "parameters": "{\"LookAt\":1}",
+    "frame": 6,
+    "shakeID": 1,
+    "hitAddBuffs": "",
+    "destroyDuation": 0
+  },
+  {
+    "id": 4102,
+    "prefabID": 4102,
+    "bulletType": 2,
+    "parameters": "{\"LookAt\":1}",
+    "frame": 6,
+    "shakeID": 1,
+    "hitAddBuffs": "",
+    "destroyDuation": 0
+  },
+  {
+    "id": 4103,
+    "prefabID": 4103,
+    "bulletType": 1,
+    "parameters": "{\"IsFollowTarget\":1}",
+    "frame": 4,
+    "shakeID": 2,
+    "hitAddBuffs": "",
+    "destroyDuation": 6
+  },
+  {
+    "id": 4104,
+    "prefabID": 4104,
+    "bulletType": 4,
+    "parameters": "{\"moveSpeed\":20,\"moveDistance\":6}",
+    "frame": 0,
+    "shakeID": 2,
+    "hitAddBuffs": "",
+    "destroyDuation": 0
+  },
+  {
+    "id": 4105,
+    "prefabID": 4105,
+    "bulletType": 1,
+    "parameters": "{\"IsFollowTarget\":1}",
+    "frame": 4,
+    "shakeID": 2,
+    "hitAddBuffs": "",
+    "destroyDuation": 1
+  },
+  {
+    "id": 4106,
+    "prefabID": 4106,
+    "bulletType": 1,
+    "parameters": "{\"IsFollowTarget\":1}",
+    "frame": 4,
+    "shakeID": 2,
+    "hitAddBuffs": "",
+    "destroyDuation": 6
+  },
+  {
+    "id": 4107,
+    "prefabID": 4107,
+    "bulletType": 1,
+    "parameters": "{\"IsFollowTarget\":1}",
+    "frame": 2,
+    "shakeID": 0,
+    "hitAddBuffs": "",
+    "destroyDuation": 6
+  },
+  {
+    "id": 4108,
+    "prefabID": 4108,
+    "bulletType": 1,
+    "parameters": "{\"IsFollowTarget\":1}",
+    "frame": 0,
+    "shakeID": 2,
+    "hitAddBuffs": "",
+    "destroyDuation": 0
+  },
+  {
+    "id": 4109,
+    "prefabID": 4109,
+    "bulletType": 1,
+    "parameters": "{\"IsFollowTarget\":1}",
+    "frame": 0,
+    "shakeID": 2,
+    "hitAddBuffs": "",
+    "destroyDuation": 0
+  },
+  {
+    "id": 5001,
+    "prefabID": 5001,
+    "bulletType": 2,
+    "parameters": "{\"LookAt\":1}",
+    "frame": 6,
+    "shakeID": 1,
+    "hitAddBuffs": "",
+    "destroyDuation": 0
+  },
+  {
+    "id": 5002,
+    "prefabID": 5002,
+    "bulletType": 2,
+    "parameters": "{\"LookAt\":1}",
+    "frame": 6,
+    "shakeID": 1,
+    "hitAddBuffs": "",
+    "destroyDuation": 0
+  },
+  {
+    "id": 5003,
+    "prefabID": 5003,
+    "bulletType": 1,
+    "parameters": "",
+    "frame": 0,
+    "shakeID": 0,
+    "hitAddBuffs": "",
+    "destroyDuation": 6
+  },
+  {
+    "id": 5004,
+    "prefabID": 5004,
+    "bulletType": 2,
+    "parameters": "{\"LookAt\":1}",
+    "frame": 26,
+    "shakeID": 2,
+    "hitAddBuffs": "",
+    "destroyDuation": 26
+  },
+  {
+    "id": 5005,
+    "prefabID": 5005,
+    "bulletType": 2,
+    "parameters": "{\"LookAt\":1}",
+    "frame": 9,
+    "shakeID": 1,
+    "hitAddBuffs": "",
+    "destroyDuation": 0
+  },
+  {
+    "id": 5006,
+    "prefabID": 5006,
+    "bulletType": 2,
+    "parameters": "{\"LookAt\":1}",
+    "frame": 9,
+    "shakeID": 1,
+    "hitAddBuffs": "",
+    "destroyDuation": 0
+  },
+  {
+    "id": 5007,
+    "prefabID": 5007,
+    "bulletType": 2,
+    "parameters": "{\"LookAt\":1}",
+    "frame": 11,
+    "shakeID": 2,
+    "hitAddBuffs": "",
+    "destroyDuation": 0
+  },
+  {
+    "id": 5008,
+    "prefabID": 5008,
+    "bulletType": 2,
+    "parameters": "{\"LookAt\":1}",
+    "frame": 11,
+    "shakeID": 2,
+    "hitAddBuffs": "",
+    "destroyDuation": 0
+  },
+  {
+    "id": 5009,
+    "prefabID": 5009,
+    "bulletType": 1,
+    "parameters": "",
+    "frame": 63,
+    "shakeID": 2,
+    "hitAddBuffs": "",
+    "destroyDuation": 20
+  },
+  {
+    "id": 5010,
+    "prefabID": 1,
+    "bulletType": 1,
+    "parameters": "",
+    "frame": 0,
+    "shakeID": 2,
+    "hitAddBuffs": "",
+    "destroyDuation": 0
+  },
+  {
+    "id": 5011,
+    "prefabID": 1,
+    "bulletType": 1,
+    "parameters": "",
+    "frame": 0,
+    "shakeID": 2,
+    "hitAddBuffs": "",
+    "destroyDuation": 0
+  },
+  {
+    "id": 7001,
+    "prefabID": 7001,
+    "bulletType": 2,
+    "parameters": "{\"LookAt\":1}",
+    "frame": 11,
+    "shakeID": 1,
+    "hitAddBuffs": "",
+    "destroyDuation": 0
+  },
+  {
+    "id": 7002,
+    "prefabID": 7002,
+    "bulletType": 2,
+    "parameters": "{\"LookAt\":1}",
+    "frame": 11,
+    "shakeID": 2,
+    "hitAddBuffs": "",
+    "destroyDuation": 0
+  },
+  {
+    "id": 7003,
+    "prefabID": 7003,
+    "bulletType": 2,
+    "parameters": "{\"LookAt\":1}",
+    "frame": 9,
+    "shakeID": 1,
+    "hitAddBuffs": "",
+    "destroyDuation": 0
+  },
+  {
+    "id": 7004,
+    "prefabID": 7004,
+    "bulletType": 4,
+    "parameters": "{\"moveSpeed\":0,\"moveDistance\":0}",
+    "frame": 5,
+    "shakeID": 2,
+    "hitAddBuffs": "",
+    "destroyDuation": 0
+  },
+  {
+    "id": 7005,
+    "prefabID": 7005,
+    "bulletType": 4,
+    "parameters": "{\"moveSpeed\":0,\"moveDistance\":0}",
+    "frame": 5,
+    "shakeID": 2,
+    "hitAddBuffs": "",
+    "destroyDuation": 0
+  },
+  {
+    "id": 7006,
+    "prefabID": 7006,
+    "bulletType": 4,
+    "parameters": "{\"moveSpeed\":0,\"moveDistance\":0}",
+    "frame": 5,
+    "shakeID": 2,
+    "hitAddBuffs": "",
+    "destroyDuation": 0
+  },
+  {
+    "id": 7007,
+    "prefabID": 7007,
+    "bulletType": 2,
+    "parameters": "{\"LookAt\":1}",
+    "frame": 11,
+    "shakeID": 1,
+    "hitAddBuffs": "",
+    "destroyDuation": 0
+  },
+  {
+    "id": 7008,
+    "prefabID": 7008,
+    "bulletType": 2,
+    "parameters": "{\"LookAt\":1}",
+    "frame": 7,
+    "shakeID": 1,
+    "hitAddBuffs": "",
+    "destroyDuation": 0
+  },
+  {
+    "id": 7009,
+    "prefabID": 7009,
+    "bulletType": 2,
+    "parameters": "{\"LookAt\":1}",
+    "frame": 7,
+    "shakeID": 1,
+    "hitAddBuffs": "",
+    "destroyDuation": 0
+  },
+  {
+    "id": 7010,
+    "prefabID": 7010,
+    "bulletType": 4,
+    "parameters": "{\"moveSpeed\":0,\"moveDistance\":0}",
+    "frame": 36,
+    "shakeID": 2,
+    "hitAddBuffs": "",
+    "destroyDuation": 60
+  },
+  {
+    "id": 7011,
+    "prefabID": 7011,
+    "bulletType": 2,
+    "parameters": "{\"LookAt\":1}",
+    "frame": 8,
+    "shakeID": 1,
+    "hitAddBuffs": "",
+    "destroyDuation": 0
+  },
+  {
+    "id": 7012,
+    "prefabID": 7012,
+    "bulletType": 2,
+    "parameters": "{\"LookAt\":1}",
+    "frame": 11,
+    "shakeID": 2,
+    "hitAddBuffs": "",
+    "destroyDuation": 0
+  },
+  {
+    "id": 7013,
+    "prefabID": 7013,
+    "bulletType": 2,
+    "parameters": "{\"LookAt\":1}",
+    "frame": 11,
+    "shakeID": 1,
+    "hitAddBuffs": "",
+    "destroyDuation": 0
+  },
+  {
+    "id": 7014,
+    "prefabID": 7014,
+    "bulletType": 1,
+    "parameters": "{\"LookAt\":1}",
+    "frame": 29,
+    "shakeID": 2,
+    "hitAddBuffs": "",
+    "destroyDuation": 12
+  },
+  {
+    "id": 7015,
+    "prefabID": 7015,
+    "bulletType": 1,
+    "parameters": "{\"LookAt\":1}",
+    "frame": 29,
+    "shakeID": 2,
+    "hitAddBuffs": "",
+    "destroyDuation": 12
+  },
+  {
+    "id": 7016,
+    "prefabID": 7016,
+    "bulletType": 4,
+    "parameters": "{\"moveSpeed\":35,\"moveDistance\":16}",
+    "frame": 10,
+    "shakeID": 2,
+    "hitAddBuffs": "",
+    "destroyDuation": 0
+  }
+]

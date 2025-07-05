@@ -1,0 +1,65 @@
+[
+  {
+    "ID": 1,
+    "ConnectActivityId": 250526,
+    "BridgeNeed": 300,
+    "Rewards": [
+      "2,100"
+    ],
+    "LanguageID": "Capsule_guild_quest"
+  },
+  {
+    "ID": 2,
+    "ConnectActivityId": 250526,
+    "BridgeNeed": 700,
+    "Rewards": [
+      "2,200"
+    ],
+    "LanguageID": "Capsule_guild_quest"
+  },
+  {
+    "ID": 3,
+    "ConnectActivityId": 250526,
+    "BridgeNeed": 3000,
+    "Rewards": [
+      "2,300"
+    ],
+    "LanguageID": "Capsule_guild_quest"
+  },
+  {
+    "ID": 4,
+    "ConnectActivityId": 250526,
+    "BridgeNeed": 5000,
+    "Rewards": [
+      "2,400"
+    ],
+    "LanguageID": "Capsule_guild_quest"
+  },
+  {
+    "ID": 5,
+    "ConnectActivityId": 250526,
+    "BridgeNeed": 7000,
+    "Rewards": [
+      "2,500"
+    ],
+    "LanguageID": "Capsule_guild_quest"
+  },
+  {
+    "ID": 6,
+    "ConnectActivityId": 250526,
+    "BridgeNeed": 9000,
+    "Rewards": [
+      "2,600"
+    ],
+    "LanguageID": "Capsule_guild_quest"
+  },
+  {
+    "ID": 7,
+    "ConnectActivityId": 250526,
+    "BridgeNeed": 12000,
+    "Rewards": [
+      "2,800"
+    ],
+    "LanguageID": "Capsule_guild_quest"
+  }
+]

@@ -1,0 +1,86 @@
+[
+  {
+    "Id": 101,
+    "GroupId": 101,
+    "ObjPrice1": 1252,
+    "ObjPrice2": 10,
+    "ObjGoods": [
+      "384001,1"
+    ],
+    "limit": 21,
+    "RequirementType": 2,
+    "LevelRequirements": 1
+  },
+  {
+    "Id": 102,
+    "GroupId": 101,
+    "ObjPrice1": 1252,
+    "ObjPrice2": 10,
+    "ObjGoods": [
+      "380701,30"
+    ],
+    "limit": 15,
+    "RequirementType": 2,
+    "LevelRequirements": 1
+  },
+  {
+    "Id": 103,
+    "GroupId": 101,
+    "ObjPrice1": 1252,
+    "ObjPrice2": 5,
+    "ObjGoods": [
+      "5107,1"
+    ],
+    "limit": 30,
+    "RequirementType": 2,
+    "LevelRequirements": 1
+  },
+  {
+    "Id": 104,
+    "GroupId": 102,
+    "ObjPrice1": 1253,
+    "ObjPrice2": 10,
+    "ObjGoods": [
+      "394001,1"
+    ],
+    "limit": 5,
+    "RequirementType": 2,
+    "LevelRequirements": 1
+  },
+  {
+    "Id": 105,
+    "GroupId": 102,
+    "ObjPrice1": 1253,
+    "ObjPrice2": 10,
+    "ObjGoods": [
+      "390701,30"
+    ],
+    "limit": 5,
+    "RequirementType": 2,
+    "LevelRequirements": 1
+  },
+  {
+    "Id": 106,
+    "GroupId": 103,
+    "ObjPrice1": 1254,
+    "ObjPrice2": 10,
+    "ObjGoods": [
+      "40603,60"
+    ],
+    "limit": 5,
+    "RequirementType": 2,
+    "LevelRequirements": 1
+  },
+  {
+    "Id": 107,
+    "GroupId": 103,
+    "ObjPrice1": 1254,
+    "ObjPrice2": 10,
+    "ObjGoods": [
+      "5501,1"
+    ],
+    "limit": 10,
+    "RequirementType": 2,
+    "LevelRequirements": 1
+  }
+]

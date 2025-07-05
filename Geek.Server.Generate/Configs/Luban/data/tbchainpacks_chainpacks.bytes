@@ -1,0 +1,2465 @@
+[
+  {
+    "id": 10101,
+    "group": 101,
+    "condition": 0,
+    "PurchaseId": 0,
+    "rewards": [
+      "62,1"
+    ]
+  },
+  {
+    "id": 10102,
+    "group": 101,
+    "condition": 10101,
+    "PurchaseId": 0,
+    "rewards": [
+      "2,100"
+    ]
+  },
+  {
+    "id": 10103,
+    "group": 101,
+    "condition": 10102,
+    "PurchaseId": 10103,
+    "rewards": [
+      "62,5",
+      "2,120"
+    ]
+  },
+  {
+    "id": 10104,
+    "group": 101,
+    "condition": 10103,
+    "PurchaseId": 0,
+    "rewards": [
+      "25,5"
+    ]
+  },
+  {
+    "id": 10105,
+    "group": 101,
+    "condition": 10104,
+    "PurchaseId": 0,
+    "rewards": [
+      "72,1"
+    ]
+  },
+  {
+    "id": 10106,
+    "group": 101,
+    "condition": 10105,
+    "PurchaseId": 10106,
+    "rewards": [
+      "26,2000",
+      "2,120"
+    ]
+  },
+  {
+    "id": 10107,
+    "group": 101,
+    "condition": 10106,
+    "PurchaseId": 0,
+    "rewards": [
+      "11,30"
+    ]
+  },
+  {
+    "id": 10108,
+    "group": 101,
+    "condition": 10107,
+    "PurchaseId": 0,
+    "rewards": [
+      "71,10"
+    ]
+  },
+  {
+    "id": 10109,
+    "group": 101,
+    "condition": 10108,
+    "PurchaseId": 10109,
+    "rewards": [
+      "400511,1",
+      "74,3",
+      "2,600"
+    ]
+  },
+  {
+    "id": 10110,
+    "group": 101,
+    "condition": 10109,
+    "PurchaseId": 0,
+    "rewards": [
+      "75,1"
+    ]
+  },
+  {
+    "id": 10201,
+    "group": 102,
+    "condition": 0,
+    "PurchaseId": 0,
+    "rewards": [
+      "62,1"
+    ]
+  },
+  {
+    "id": 10202,
+    "group": 102,
+    "condition": 10201,
+    "PurchaseId": 0,
+    "rewards": [
+      "2,100"
+    ]
+  },
+  {
+    "id": 10203,
+    "group": 102,
+    "condition": 10202,
+    "PurchaseId": 10203,
+    "rewards": [
+      "401012,1",
+      "401013,1",
+      "401014,1"
+    ]
+  },
+  {
+    "id": 10204,
+    "group": 102,
+    "condition": 10203,
+    "PurchaseId": 0,
+    "rewards": [
+      "73,1"
+    ]
+  },
+  {
+    "id": 10205,
+    "group": 102,
+    "condition": 10204,
+    "PurchaseId": 0,
+    "rewards": [
+      "74,1"
+    ]
+  },
+  {
+    "id": 10206,
+    "group": 102,
+    "condition": 10205,
+    "PurchaseId": 10206,
+    "rewards": [
+      "28,2000",
+      "2,3600"
+    ]
+  },
+  {
+    "id": 10207,
+    "group": 102,
+    "condition": 10206,
+    "PurchaseId": 0,
+    "rewards": [
+      "330603,1"
+    ]
+  },
+  {
+    "id": 10208,
+    "group": 102,
+    "condition": 10207,
+    "PurchaseId": 0,
+    "rewards": [
+      "11,60"
+    ]
+  },
+  {
+    "id": 10209,
+    "group": 102,
+    "condition": 10208,
+    "PurchaseId": 10209,
+    "rewards": [
+      "29,2000",
+      "2,6000"
+    ]
+  },
+  {
+    "id": 10210,
+    "group": 102,
+    "condition": 10209,
+    "PurchaseId": 0,
+    "rewards": [
+      "75,3"
+    ]
+  },
+  {
+    "id": 10301,
+    "group": 103,
+    "condition": 0,
+    "PurchaseId": 0,
+    "rewards": [
+      "62,1"
+    ]
+  },
+  {
+    "id": 10302,
+    "group": 103,
+    "condition": 10301,
+    "PurchaseId": 0,
+    "rewards": [
+      "2,100"
+    ]
+  },
+  {
+    "id": 10303,
+    "group": 103,
+    "condition": 10302,
+    "PurchaseId": 10303,
+    "rewards": [
+      "1201,3",
+      "2,120"
+    ]
+  },
+  {
+    "id": 10304,
+    "group": 103,
+    "condition": 10303,
+    "PurchaseId": 0,
+    "rewards": [
+      "62,2"
+    ]
+  },
+  {
+    "id": 10305,
+    "group": 103,
+    "condition": 10304,
+    "PurchaseId": 0,
+    "rewards": [
+      "73,1"
+    ]
+  },
+  {
+    "id": 10306,
+    "group": 103,
+    "condition": 10305,
+    "PurchaseId": 10306,
+    "rewards": [
+      "1201,10",
+      "2,600"
+    ]
+  },
+  {
+    "id": 10307,
+    "group": 103,
+    "condition": 10306,
+    "PurchaseId": 0,
+    "rewards": [
+      "26,3000"
+    ]
+  },
+  {
+    "id": 10308,
+    "group": 103,
+    "condition": 10307,
+    "PurchaseId": 0,
+    "rewards": [
+      "73,3"
+    ]
+  },
+  {
+    "id": 10309,
+    "group": 103,
+    "condition": 10308,
+    "PurchaseId": 10309,
+    "rewards": [
+      "400512,1",
+      "2,1200"
+    ]
+  },
+  {
+    "id": 10310,
+    "group": 103,
+    "condition": 10309,
+    "PurchaseId": 0,
+    "rewards": [
+      "1201,20"
+    ]
+  },
+  {
+    "id": 10401,
+    "group": 104,
+    "condition": 0,
+    "PurchaseId": 0,
+    "rewards": [
+      "62,1"
+    ]
+  },
+  {
+    "id": 10402,
+    "group": 104,
+    "condition": 10401,
+    "PurchaseId": 0,
+    "rewards": [
+      "2,100"
+    ]
+  },
+  {
+    "id": 10403,
+    "group": 104,
+    "condition": 10402,
+    "PurchaseId": 10403,
+    "rewards": [
+      "1201,30",
+      "2,1800"
+    ]
+  },
+  {
+    "id": 10404,
+    "group": 104,
+    "condition": 10403,
+    "PurchaseId": 0,
+    "rewards": [
+      "62,10"
+    ]
+  },
+  {
+    "id": 10405,
+    "group": 104,
+    "condition": 10404,
+    "PurchaseId": 0,
+    "rewards": [
+      "73,10"
+    ]
+  },
+  {
+    "id": 10406,
+    "group": 104,
+    "condition": 10405,
+    "PurchaseId": 10406,
+    "rewards": [
+      "1201,45",
+      "2,3600"
+    ]
+  },
+  {
+    "id": 10407,
+    "group": 104,
+    "condition": 10406,
+    "PurchaseId": 0,
+    "rewards": [
+      "62,20"
+    ]
+  },
+  {
+    "id": 10408,
+    "group": 104,
+    "condition": 10407,
+    "PurchaseId": 0,
+    "rewards": [
+      "73,30"
+    ]
+  },
+  {
+    "id": 10409,
+    "group": 104,
+    "condition": 10408,
+    "PurchaseId": 10409,
+    "rewards": [
+      "1201,100",
+      "2,6000"
+    ]
+  },
+  {
+    "id": 10410,
+    "group": 104,
+    "condition": 10409,
+    "PurchaseId": 0,
+    "rewards": [
+      "73,50"
+    ]
+  },
+  {
+    "id": 10501,
+    "group": 105,
+    "condition": 0,
+    "PurchaseId": 0,
+    "rewards": [
+      "2,20"
+    ]
+  },
+  {
+    "id": 10502,
+    "group": 105,
+    "condition": 10501,
+    "PurchaseId": 0,
+    "rewards": [
+      "71,1"
+    ]
+  },
+  {
+    "id": 10503,
+    "group": 105,
+    "condition": 10502,
+    "PurchaseId": 10503,
+    "rewards": [
+      "2,1500"
+    ]
+  },
+  {
+    "id": 10504,
+    "group": 105,
+    "condition": 10503,
+    "PurchaseId": 0,
+    "rewards": [
+      "73,2"
+    ]
+  },
+  {
+    "id": 10505,
+    "group": 105,
+    "condition": 10504,
+    "PurchaseId": 0,
+    "rewards": [
+      "2,300"
+    ]
+  },
+  {
+    "id": 10506,
+    "group": 105,
+    "condition": 10505,
+    "PurchaseId": 10506,
+    "rewards": [
+      "2,5000"
+    ]
+  },
+  {
+    "id": 10507,
+    "group": 105,
+    "condition": 10506,
+    "PurchaseId": 0,
+    "rewards": [
+      "73,5"
+    ]
+  },
+  {
+    "id": 10508,
+    "group": 105,
+    "condition": 10507,
+    "PurchaseId": 0,
+    "rewards": [
+      "74,1"
+    ]
+  },
+  {
+    "id": 10509,
+    "group": 105,
+    "condition": 10508,
+    "PurchaseId": 10509,
+    "rewards": [
+      "2,10000"
+    ]
+  },
+  {
+    "id": 10510,
+    "group": 105,
+    "condition": 10509,
+    "PurchaseId": 0,
+    "rewards": [
+      "74,2"
+    ]
+  },
+  {
+    "id": 10601,
+    "group": 106,
+    "condition": 0,
+    "PurchaseId": 0,
+    "rewards": [
+      "2,20"
+    ]
+  },
+  {
+    "id": 10602,
+    "group": 106,
+    "condition": 10601,
+    "PurchaseId": 0,
+    "rewards": [
+      "71,2"
+    ]
+  },
+  {
+    "id": 10603,
+    "group": 106,
+    "condition": 10602,
+    "PurchaseId": 10603,
+    "rewards": [
+      "401018,1",
+      "2,1800"
+    ]
+  },
+  {
+    "id": 10604,
+    "group": 106,
+    "condition": 10603,
+    "PurchaseId": 0,
+    "rewards": [
+      "73,1"
+    ]
+  },
+  {
+    "id": 10605,
+    "group": 106,
+    "condition": 10604,
+    "PurchaseId": 0,
+    "rewards": [
+      "2,1800"
+    ]
+  },
+  {
+    "id": 10606,
+    "group": 106,
+    "condition": 10605,
+    "PurchaseId": 10606,
+    "rewards": [
+      "2,15000"
+    ]
+  },
+  {
+    "id": 10607,
+    "group": 106,
+    "condition": 10606,
+    "PurchaseId": 0,
+    "rewards": [
+      "74,5"
+    ]
+  },
+  {
+    "id": 10608,
+    "group": 106,
+    "condition": 10607,
+    "PurchaseId": 0,
+    "rewards": [
+      "2,3000"
+    ]
+  },
+  {
+    "id": 10609,
+    "group": 106,
+    "condition": 10608,
+    "PurchaseId": 10609,
+    "rewards": [
+      "2,24000"
+    ]
+  },
+  {
+    "id": 10610,
+    "group": 106,
+    "condition": 10609,
+    "PurchaseId": 0,
+    "rewards": [
+      "75,5"
+    ]
+  },
+  {
+    "id": 10701,
+    "group": 107,
+    "condition": 0,
+    "PurchaseId": 0,
+    "rewards": [
+      "2,30"
+    ]
+  },
+  {
+    "id": 10702,
+    "group": 107,
+    "condition": 10701,
+    "PurchaseId": 0,
+    "rewards": [
+      "71,2"
+    ]
+  },
+  {
+    "id": 10703,
+    "group": 107,
+    "condition": 10702,
+    "PurchaseId": 10703,
+    "rewards": [
+      "400513,1",
+      "2001,30",
+      "2,600"
+    ]
+  },
+  {
+    "id": 10704,
+    "group": 107,
+    "condition": 10703,
+    "PurchaseId": 0,
+    "rewards": [
+      "2001,5"
+    ]
+  },
+  {
+    "id": 10705,
+    "group": 107,
+    "condition": 10704,
+    "PurchaseId": 0,
+    "rewards": [
+      "2,300"
+    ]
+  },
+  {
+    "id": 10706,
+    "group": 107,
+    "condition": 10705,
+    "PurchaseId": 10706,
+    "rewards": [
+      "2001,70",
+      "2,1800"
+    ]
+  },
+  {
+    "id": 10707,
+    "group": 107,
+    "condition": 10706,
+    "PurchaseId": 0,
+    "rewards": [
+      "73,3"
+    ]
+  },
+  {
+    "id": 10708,
+    "group": 107,
+    "condition": 10707,
+    "PurchaseId": 0,
+    "rewards": [
+      "2001,20"
+    ]
+  },
+  {
+    "id": 10709,
+    "group": 107,
+    "condition": 10708,
+    "PurchaseId": 10709,
+    "rewards": [
+      "6002,1",
+      "2001,150",
+      "75,5",
+      "2,6000"
+    ]
+  },
+  {
+    "id": 10710,
+    "group": 107,
+    "condition": 10709,
+    "PurchaseId": 0,
+    "rewards": [
+      "75,5"
+    ]
+  },
+  {
+    "id": 10801,
+    "group": 108,
+    "condition": 0,
+    "PurchaseId": 0,
+    "rewards": [
+      "2,30"
+    ]
+  },
+  {
+    "id": 10802,
+    "group": 108,
+    "condition": 10801,
+    "PurchaseId": 0,
+    "rewards": [
+      "111,1"
+    ]
+  },
+  {
+    "id": 10803,
+    "group": 108,
+    "condition": 10802,
+    "PurchaseId": 10803,
+    "rewards": [
+      "111,5",
+      "5006,2",
+      "2,600"
+    ]
+  },
+  {
+    "id": 10804,
+    "group": 108,
+    "condition": 10803,
+    "PurchaseId": 0,
+    "rewards": [
+      "111,2"
+    ]
+  },
+  {
+    "id": 10805,
+    "group": 108,
+    "condition": 10804,
+    "PurchaseId": 0,
+    "rewards": [
+      "2,300"
+    ]
+  },
+  {
+    "id": 10806,
+    "group": 108,
+    "condition": 10805,
+    "PurchaseId": 10806,
+    "rewards": [
+      "111,10",
+      "5006,4",
+      "2,1200"
+    ]
+  },
+  {
+    "id": 10807,
+    "group": 108,
+    "condition": 10806,
+    "PurchaseId": 0,
+    "rewards": [
+      "5004,1"
+    ]
+  },
+  {
+    "id": 10808,
+    "group": 108,
+    "condition": 10807,
+    "PurchaseId": 0,
+    "rewards": [
+      "73,1"
+    ]
+  },
+  {
+    "id": 10809,
+    "group": 108,
+    "condition": 10808,
+    "PurchaseId": 10809,
+    "rewards": [
+      "111,30",
+      "5006,12",
+      "2,3600"
+    ]
+  },
+  {
+    "id": 10810,
+    "group": 108,
+    "condition": 10809,
+    "PurchaseId": 0,
+    "rewards": [
+      "6002,1"
+    ]
+  },
+  {
+    "id": 10901,
+    "group": 109,
+    "condition": 0,
+    "PurchaseId": 0,
+    "rewards": [
+      "2,30"
+    ]
+  },
+  {
+    "id": 10902,
+    "group": 109,
+    "condition": 10901,
+    "PurchaseId": 0,
+    "rewards": [
+      "62,1"
+    ]
+  },
+  {
+    "id": 10903,
+    "group": 109,
+    "condition": 10902,
+    "PurchaseId": 10903,
+    "rewards": [
+      "400514,1",
+      "2501,10",
+      "2,600"
+    ]
+  },
+  {
+    "id": 10904,
+    "group": 109,
+    "condition": 10903,
+    "PurchaseId": 0,
+    "rewards": [
+      "2501,2"
+    ]
+  },
+  {
+    "id": 10905,
+    "group": 109,
+    "condition": 10904,
+    "PurchaseId": 0,
+    "rewards": [
+      "2,300"
+    ]
+  },
+  {
+    "id": 10906,
+    "group": 109,
+    "condition": 10905,
+    "PurchaseId": 10906,
+    "rewards": [
+      "2501,25",
+      "73,15",
+      "2,1800"
+    ]
+  },
+  {
+    "id": 10907,
+    "group": 109,
+    "condition": 10906,
+    "PurchaseId": 0,
+    "rewards": [
+      "2501,3"
+    ]
+  },
+  {
+    "id": 10908,
+    "group": 109,
+    "condition": 10907,
+    "PurchaseId": 0,
+    "rewards": [
+      "73,15"
+    ]
+  },
+  {
+    "id": 10909,
+    "group": 109,
+    "condition": 10908,
+    "PurchaseId": 10909,
+    "rewards": [
+      "6002,1",
+      "2501,50",
+      "2,6000"
+    ]
+  },
+  {
+    "id": 10910,
+    "group": 109,
+    "condition": 10909,
+    "PurchaseId": 0,
+    "rewards": [
+      "75,6"
+    ]
+  },
+  {
+    "id": 11001,
+    "group": 110,
+    "condition": 0,
+    "PurchaseId": 0,
+    "rewards": [
+      "2,30"
+    ]
+  },
+  {
+    "id": 11002,
+    "group": 110,
+    "condition": 11001,
+    "PurchaseId": 0,
+    "rewards": [
+      "62,1"
+    ]
+  },
+  {
+    "id": 11003,
+    "group": 110,
+    "condition": 11002,
+    "PurchaseId": 11003,
+    "rewards": [
+      "400109,1",
+      "62,3",
+      "2,360"
+    ]
+  },
+  {
+    "id": 11004,
+    "group": 110,
+    "condition": 11003,
+    "PurchaseId": 0,
+    "rewards": [
+      "62,1"
+    ]
+  },
+  {
+    "id": 11005,
+    "group": 110,
+    "condition": 11004,
+    "PurchaseId": 0,
+    "rewards": [
+      "62,2"
+    ]
+  },
+  {
+    "id": 11006,
+    "group": 110,
+    "condition": 11005,
+    "PurchaseId": 11006,
+    "rewards": [
+      "400515,1",
+      "62,5",
+      "2,600"
+    ]
+  },
+  {
+    "id": 11007,
+    "group": 110,
+    "condition": 11006,
+    "PurchaseId": 0,
+    "rewards": [
+      "62,2"
+    ]
+  },
+  {
+    "id": 11008,
+    "group": 110,
+    "condition": 11007,
+    "PurchaseId": 0,
+    "rewards": [
+      "62,2"
+    ]
+  },
+  {
+    "id": 11009,
+    "group": 110,
+    "condition": 11008,
+    "PurchaseId": 11009,
+    "rewards": [
+      "401017,1",
+      "401019,1",
+      "5004,1",
+      "2,2400"
+    ]
+  },
+  {
+    "id": 11010,
+    "group": 110,
+    "condition": 11009,
+    "PurchaseId": 0,
+    "rewards": [
+      "111,10"
+    ]
+  },
+  {
+    "id": 12001,
+    "group": 111,
+    "condition": 0,
+    "PurchaseId": 0,
+    "rewards": [
+      "2,30"
+    ]
+  },
+  {
+    "id": 12002,
+    "group": 111,
+    "condition": 12001,
+    "PurchaseId": 0,
+    "rewards": [
+      "62,1"
+    ]
+  },
+  {
+    "id": 12003,
+    "group": 111,
+    "condition": 12002,
+    "PurchaseId": 12003,
+    "rewards": [
+      "400517,1",
+      "62,3",
+      "2,360"
+    ]
+  },
+  {
+    "id": 12004,
+    "group": 111,
+    "condition": 12003,
+    "PurchaseId": 0,
+    "rewards": [
+      "62,1"
+    ]
+  },
+  {
+    "id": 12005,
+    "group": 111,
+    "condition": 12004,
+    "PurchaseId": 0,
+    "rewards": [
+      "62,2"
+    ]
+  },
+  {
+    "id": 12006,
+    "group": 111,
+    "condition": 12005,
+    "PurchaseId": 12006,
+    "rewards": [
+      "62,5",
+      "2,600"
+    ]
+  },
+  {
+    "id": 12007,
+    "group": 111,
+    "condition": 12006,
+    "PurchaseId": 0,
+    "rewards": [
+      "62,2"
+    ]
+  },
+  {
+    "id": 12008,
+    "group": 111,
+    "condition": 12007,
+    "PurchaseId": 0,
+    "rewards": [
+      "62,2"
+    ]
+  },
+  {
+    "id": 12009,
+    "group": 111,
+    "condition": 12008,
+    "PurchaseId": 12009,
+    "rewards": [
+      "5004,1",
+      "2,2400"
+    ]
+  },
+  {
+    "id": 12010,
+    "group": 111,
+    "condition": 12009,
+    "PurchaseId": 0,
+    "rewards": [
+      "111,10"
+    ]
+  },
+  {
+    "id": 13001,
+    "group": 112,
+    "condition": 0,
+    "PurchaseId": 0,
+    "rewards": [
+      "2,30"
+    ]
+  },
+  {
+    "id": 13002,
+    "group": 112,
+    "condition": 13001,
+    "PurchaseId": 0,
+    "rewards": [
+      "41,1"
+    ]
+  },
+  {
+    "id": 13003,
+    "group": 112,
+    "condition": 13002,
+    "PurchaseId": 13003,
+    "rewards": [
+      "406022,1",
+      "111,10",
+      "46,2",
+      "2,1200"
+    ]
+  },
+  {
+    "id": 13004,
+    "group": 112,
+    "condition": 13003,
+    "PurchaseId": 0,
+    "rewards": [
+      "5006,2"
+    ]
+  },
+  {
+    "id": 13005,
+    "group": 112,
+    "condition": 13004,
+    "PurchaseId": 0,
+    "rewards": [
+      "5001,2"
+    ]
+  },
+  {
+    "id": 13006,
+    "group": 112,
+    "condition": 13005,
+    "PurchaseId": 13006,
+    "rewards": [
+      "111,20",
+      "46,3",
+      "5002,1",
+      "2,2400"
+    ]
+  },
+  {
+    "id": 13007,
+    "group": 112,
+    "condition": 13006,
+    "PurchaseId": 0,
+    "rewards": [
+      "5001,3"
+    ]
+  },
+  {
+    "id": 13008,
+    "group": 112,
+    "condition": 13007,
+    "PurchaseId": 0,
+    "rewards": [
+      "5002,1"
+    ]
+  },
+  {
+    "id": 13009,
+    "group": 112,
+    "condition": 13008,
+    "PurchaseId": 13009,
+    "rewards": [
+      "111,30",
+      "46,4",
+      "5002,3",
+      "2,3600"
+    ]
+  },
+  {
+    "id": 13010,
+    "group": 112,
+    "condition": 13009,
+    "PurchaseId": 0,
+    "rewards": [
+      "5006,4"
+    ]
+  },
+  {
+    "id": 13020,
+    "group": 113,
+    "condition": 0,
+    "PurchaseId": 0,
+    "rewards": [
+      "2,30"
+    ]
+  },
+  {
+    "id": 13021,
+    "group": 113,
+    "condition": 13020,
+    "PurchaseId": 0,
+    "rewards": [
+      "3500,2"
+    ]
+  },
+  {
+    "id": 13022,
+    "group": 113,
+    "condition": 13021,
+    "PurchaseId": 13022,
+    "rewards": [
+      "400115,1",
+      "5006,2",
+      "2,360"
+    ]
+  },
+  {
+    "id": 13023,
+    "group": 113,
+    "condition": 13022,
+    "PurchaseId": 0,
+    "rewards": [
+      "3500,2"
+    ]
+  },
+  {
+    "id": 13024,
+    "group": 113,
+    "condition": 13023,
+    "PurchaseId": 0,
+    "rewards": [
+      "5006,1"
+    ]
+  },
+  {
+    "id": 13025,
+    "group": 113,
+    "condition": 13024,
+    "PurchaseId": 13025,
+    "rewards": [
+      "401121,1",
+      "5006,4",
+      "2,1200"
+    ]
+  },
+  {
+    "id": 13026,
+    "group": 113,
+    "condition": 13025,
+    "PurchaseId": 0,
+    "rewards": [
+      "3500,2"
+    ]
+  },
+  {
+    "id": 13027,
+    "group": 113,
+    "condition": 13026,
+    "PurchaseId": 0,
+    "rewards": [
+      "5006,1"
+    ]
+  },
+  {
+    "id": 13028,
+    "group": 113,
+    "condition": 13027,
+    "PurchaseId": 13028,
+    "rewards": [
+      "3500,20",
+      "3503,5",
+      "5006,10",
+      "2,2400"
+    ]
+  },
+  {
+    "id": 13029,
+    "group": 113,
+    "condition": 13028,
+    "PurchaseId": 0,
+    "rewards": [
+      "6002,1"
+    ]
+  },
+  {
+    "id": 13100,
+    "group": 114,
+    "condition": 0,
+    "PurchaseId": 0,
+    "rewards": [
+      "2,30"
+    ]
+  },
+  {
+    "id": 13101,
+    "group": 114,
+    "condition": 13100,
+    "PurchaseId": 0,
+    "rewards": [
+      "3200,5"
+    ]
+  },
+  {
+    "id": 13102,
+    "group": 114,
+    "condition": 13101,
+    "PurchaseId": 13102,
+    "rewards": [
+      "3200,20",
+      "5006,2",
+      "2,360"
+    ]
+  },
+  {
+    "id": 13103,
+    "group": 114,
+    "condition": 13102,
+    "PurchaseId": 0,
+    "rewards": [
+      "3200,5"
+    ]
+  },
+  {
+    "id": 13104,
+    "group": 114,
+    "condition": 13103,
+    "PurchaseId": 0,
+    "rewards": [
+      "5006,1"
+    ]
+  },
+  {
+    "id": 13105,
+    "group": 114,
+    "condition": 13104,
+    "PurchaseId": 13105,
+    "rewards": [
+      "3200,75",
+      "5006,4",
+      "2,1200"
+    ]
+  },
+  {
+    "id": 13106,
+    "group": 114,
+    "condition": 13105,
+    "PurchaseId": 0,
+    "rewards": [
+      "3200,5"
+    ]
+  },
+  {
+    "id": 13107,
+    "group": 114,
+    "condition": 13106,
+    "PurchaseId": 0,
+    "rewards": [
+      "5006,1"
+    ]
+  },
+  {
+    "id": 13108,
+    "group": 114,
+    "condition": 13107,
+    "PurchaseId": 13108,
+    "rewards": [
+      "3200,170",
+      "5006,10",
+      "2,2400"
+    ]
+  },
+  {
+    "id": 13109,
+    "group": 114,
+    "condition": 13108,
+    "PurchaseId": 0,
+    "rewards": [
+      "6002,1"
+    ]
+  },
+  {
+    "id": 14101,
+    "group": 141,
+    "condition": 0,
+    "PurchaseId": 0,
+    "rewards": [
+      "2,30"
+    ]
+  },
+  {
+    "id": 14102,
+    "group": 141,
+    "condition": 14101,
+    "PurchaseId": 0,
+    "rewards": [
+      "62,1"
+    ]
+  },
+  {
+    "id": 14103,
+    "group": 141,
+    "condition": 14102,
+    "PurchaseId": 14103,
+    "rewards": [
+      "5009,1",
+      "62,10",
+      "2,3600"
+    ]
+  },
+  {
+    "id": 14104,
+    "group": 141,
+    "condition": 14103,
+    "PurchaseId": 0,
+    "rewards": [
+      "62,1"
+    ]
+  },
+  {
+    "id": 14105,
+    "group": 141,
+    "condition": 14104,
+    "PurchaseId": 0,
+    "rewards": [
+      "62,1"
+    ]
+  },
+  {
+    "id": 14106,
+    "group": 141,
+    "condition": 14105,
+    "PurchaseId": 14106,
+    "rewards": [
+      "5008,1",
+      "5009,1",
+      "2,6000"
+    ]
+  },
+  {
+    "id": 14107,
+    "group": 141,
+    "condition": 14106,
+    "PurchaseId": 0,
+    "rewards": [
+      "62,1"
+    ]
+  },
+  {
+    "id": 14108,
+    "group": 141,
+    "condition": 14107,
+    "PurchaseId": 0,
+    "rewards": [
+      "62,1"
+    ]
+  },
+  {
+    "id": 14109,
+    "group": 141,
+    "condition": 14108,
+    "PurchaseId": 14109,
+    "rewards": [
+      "5010,1",
+      "2,12000"
+    ]
+  },
+  {
+    "id": 14110,
+    "group": 141,
+    "condition": 14109,
+    "PurchaseId": 0,
+    "rewards": [
+      "62,1"
+    ]
+  },
+  {
+    "id": 15101,
+    "group": 151,
+    "condition": 0,
+    "PurchaseId": 0,
+    "rewards": [
+      "2,30"
+    ]
+  },
+  {
+    "id": 15102,
+    "group": 151,
+    "condition": 15101,
+    "PurchaseId": 0,
+    "rewards": [
+      "41,1"
+    ]
+  },
+  {
+    "id": 15103,
+    "group": 151,
+    "condition": 15102,
+    "PurchaseId": 15103,
+    "rewards": [
+      "111,5",
+      "46,1",
+      "2,600"
+    ]
+  },
+  {
+    "id": 15104,
+    "group": 151,
+    "condition": 15103,
+    "PurchaseId": 0,
+    "rewards": [
+      "5006,1"
+    ]
+  },
+  {
+    "id": 15105,
+    "group": 151,
+    "condition": 15104,
+    "PurchaseId": 0,
+    "rewards": [
+      "5001,1"
+    ]
+  },
+  {
+    "id": 15106,
+    "group": 151,
+    "condition": 15105,
+    "PurchaseId": 15106,
+    "rewards": [
+      "111,10",
+      "46,2",
+      "2,1200"
+    ]
+  },
+  {
+    "id": 15107,
+    "group": 151,
+    "condition": 15106,
+    "PurchaseId": 0,
+    "rewards": [
+      "5006,2"
+    ]
+  },
+  {
+    "id": 15108,
+    "group": 151,
+    "condition": 15107,
+    "PurchaseId": 0,
+    "rewards": [
+      "5001,2"
+    ]
+  },
+  {
+    "id": 15109,
+    "group": 151,
+    "condition": 15108,
+    "PurchaseId": 15109,
+    "rewards": [
+      "111,20",
+      "46,3",
+      "5002,2",
+      "2,2400"
+    ]
+  },
+  {
+    "id": 15110,
+    "group": 151,
+    "condition": 15109,
+    "PurchaseId": 0,
+    "rewards": [
+      "5001,3"
+    ]
+  },
+  {
+    "id": 15201,
+    "group": 152,
+    "condition": 0,
+    "PurchaseId": 0,
+    "rewards": [
+      "2,30"
+    ]
+  },
+  {
+    "id": 15202,
+    "group": 152,
+    "condition": 15201,
+    "PurchaseId": 0,
+    "rewards": [
+      "41,1"
+    ]
+  },
+  {
+    "id": 15203,
+    "group": 152,
+    "condition": 15202,
+    "PurchaseId": 15203,
+    "rewards": [
+      "111,10",
+      "46,2",
+      "2,1200"
+    ]
+  },
+  {
+    "id": 15204,
+    "group": 152,
+    "condition": 15203,
+    "PurchaseId": 0,
+    "rewards": [
+      "5006,2"
+    ]
+  },
+  {
+    "id": 15205,
+    "group": 152,
+    "condition": 15204,
+    "PurchaseId": 0,
+    "rewards": [
+      "5001,2"
+    ]
+  },
+  {
+    "id": 15206,
+    "group": 152,
+    "condition": 15205,
+    "PurchaseId": 15206,
+    "rewards": [
+      "111,20",
+      "46,3",
+      "5002,1",
+      "2,2400"
+    ]
+  },
+  {
+    "id": 15207,
+    "group": 152,
+    "condition": 15206,
+    "PurchaseId": 0,
+    "rewards": [
+      "5001,3"
+    ]
+  },
+  {
+    "id": 15208,
+    "group": 152,
+    "condition": 15207,
+    "PurchaseId": 0,
+    "rewards": [
+      "5002,1"
+    ]
+  },
+  {
+    "id": 15209,
+    "group": 152,
+    "condition": 15208,
+    "PurchaseId": 15209,
+    "rewards": [
+      "111,30",
+      "46,4",
+      "5002,3",
+      "2,3600"
+    ]
+  },
+  {
+    "id": 15210,
+    "group": 152,
+    "condition": 15209,
+    "PurchaseId": 0,
+    "rewards": [
+      "5006,4"
+    ]
+  },
+  {
+    "id": 15301,
+    "group": 153,
+    "condition": 0,
+    "PurchaseId": 0,
+    "rewards": [
+      "2,30"
+    ]
+  },
+  {
+    "id": 15302,
+    "group": 153,
+    "condition": 15301,
+    "PurchaseId": 0,
+    "rewards": [
+      "41,1"
+    ]
+  },
+  {
+    "id": 15303,
+    "group": 153,
+    "condition": 15302,
+    "PurchaseId": 15303,
+    "rewards": [
+      "5004,1",
+      "46,1",
+      "5006,2",
+      "2,2400"
+    ]
+  },
+  {
+    "id": 15304,
+    "group": 153,
+    "condition": 15303,
+    "PurchaseId": 0,
+    "rewards": [
+      "111,1"
+    ]
+  },
+  {
+    "id": 15305,
+    "group": 153,
+    "condition": 15304,
+    "PurchaseId": 0,
+    "rewards": [
+      "5006,1"
+    ]
+  },
+  {
+    "id": 15306,
+    "group": 153,
+    "condition": 15305,
+    "PurchaseId": 15306,
+    "rewards": [
+      "5005,1",
+      "46,3",
+      "5006,3",
+      "2,6000"
+    ]
+  },
+  {
+    "id": 15307,
+    "group": 153,
+    "condition": 15306,
+    "PurchaseId": 0,
+    "rewards": [
+      "111,1"
+    ]
+  },
+  {
+    "id": 15308,
+    "group": 153,
+    "condition": 15307,
+    "PurchaseId": 0,
+    "rewards": [
+      "5006,1"
+    ]
+  },
+  {
+    "id": 15309,
+    "group": 153,
+    "condition": 15308,
+    "PurchaseId": 15309,
+    "rewards": [
+      "5005,2",
+      "6003,2",
+      "46,5",
+      "5006,5",
+      "2,12000"
+    ]
+  },
+  {
+    "id": 15310,
+    "group": 153,
+    "condition": 15309,
+    "PurchaseId": 0,
+    "rewards": [
+      "5006,1"
+    ]
+  },
+  {
+    "id": 16101,
+    "group": 161,
+    "condition": 0,
+    "PurchaseId": 0,
+    "rewards": [
+      "2,30"
+    ]
+  },
+  {
+    "id": 16102,
+    "group": 161,
+    "condition": 16101,
+    "PurchaseId": 0,
+    "rewards": [
+      "9,5"
+    ]
+  },
+  {
+    "id": 16103,
+    "group": 161,
+    "condition": 16102,
+    "PurchaseId": 16103,
+    "rewards": [
+      "62,10",
+      "25,20",
+      "2,1200"
+    ]
+  },
+  {
+    "id": 16104,
+    "group": 161,
+    "condition": 16103,
+    "PurchaseId": 0,
+    "rewards": [
+      "11,100"
+    ]
+  },
+  {
+    "id": 16105,
+    "group": 161,
+    "condition": 16104,
+    "PurchaseId": 0,
+    "rewards": [
+      "73,1"
+    ]
+  },
+  {
+    "id": 16106,
+    "group": 161,
+    "condition": 16105,
+    "PurchaseId": 16106,
+    "rewards": [
+      "62,30",
+      "25,60",
+      "2,3600"
+    ]
+  },
+  {
+    "id": 16107,
+    "group": 161,
+    "condition": 16106,
+    "PurchaseId": 0,
+    "rewards": [
+      "11,300"
+    ]
+  },
+  {
+    "id": 16108,
+    "group": 161,
+    "condition": 16107,
+    "PurchaseId": 0,
+    "rewards": [
+      "26,2000"
+    ]
+  },
+  {
+    "id": 16109,
+    "group": 161,
+    "condition": 16108,
+    "PurchaseId": 16109,
+    "rewards": [
+      "62,50",
+      "25,120",
+      "2,6000"
+    ]
+  },
+  {
+    "id": 16110,
+    "group": 161,
+    "condition": 16109,
+    "PurchaseId": 0,
+    "rewards": [
+      "75,2"
+    ]
+  },
+  {
+    "id": 17101,
+    "group": 171,
+    "condition": 0,
+    "PurchaseId": 0,
+    "rewards": [
+      "2,20"
+    ]
+  },
+  {
+    "id": 17102,
+    "group": 171,
+    "condition": 17101,
+    "PurchaseId": 0,
+    "rewards": [
+      "9,5"
+    ]
+  },
+  {
+    "id": 17103,
+    "group": 171,
+    "condition": 17102,
+    "PurchaseId": 17103,
+    "rewards": [
+      "9,50",
+      "2,120"
+    ]
+  },
+  {
+    "id": 17104,
+    "group": 171,
+    "condition": 17103,
+    "PurchaseId": 0,
+    "rewards": [
+      "62,1"
+    ]
+  },
+  {
+    "id": 17105,
+    "group": 171,
+    "condition": 17104,
+    "PurchaseId": 0,
+    "rewards": [
+      "9,20"
+    ]
+  },
+  {
+    "id": 17106,
+    "group": 171,
+    "condition": 17105,
+    "PurchaseId": 17106,
+    "rewards": [
+      "9,200",
+      "2,360"
+    ]
+  },
+  {
+    "id": 17107,
+    "group": 171,
+    "condition": 17106,
+    "PurchaseId": 0,
+    "rewards": [
+      "11,40"
+    ]
+  },
+  {
+    "id": 17108,
+    "group": 171,
+    "condition": 17107,
+    "PurchaseId": 0,
+    "rewards": [
+      "9,20"
+    ]
+  },
+  {
+    "id": 17109,
+    "group": 171,
+    "condition": 17108,
+    "PurchaseId": 17109,
+    "rewards": [
+      "9,350",
+      "2,600"
+    ]
+  },
+  {
+    "id": 17110,
+    "group": 171,
+    "condition": 17109,
+    "PurchaseId": 0,
+    "rewards": [
+      "26,1600"
+    ]
+  },
+  {
+    "id": 18101,
+    "group": 181,
+    "condition": 0,
+    "PurchaseId": 0,
+    "rewards": [
+      "2,20"
+    ]
+  },
+  {
+    "id": 18102,
+    "group": 181,
+    "condition": 18101,
+    "PurchaseId": 0,
+    "rewards": [
+      "25,5"
+    ]
+  },
+  {
+    "id": 18103,
+    "group": 181,
+    "condition": 18102,
+    "PurchaseId": 18103,
+    "rewards": [
+      "62,5",
+      "2,600"
+    ]
+  },
+  {
+    "id": 18104,
+    "group": 181,
+    "condition": 18103,
+    "PurchaseId": 0,
+    "rewards": [
+      "2,600"
+    ]
+  },
+  {
+    "id": 18105,
+    "group": 181,
+    "condition": 18104,
+    "PurchaseId": 0,
+    "rewards": [
+      "2,300"
+    ]
+  },
+  {
+    "id": 18106,
+    "group": 181,
+    "condition": 18105,
+    "PurchaseId": 18106,
+    "rewards": [
+      "62,10",
+      "2,1200"
+    ]
+  },
+  {
+    "id": 18107,
+    "group": 181,
+    "condition": 18106,
+    "PurchaseId": 0,
+    "rewards": [
+      "2,1200"
+    ]
+  },
+  {
+    "id": 18108,
+    "group": 181,
+    "condition": 18107,
+    "PurchaseId": 0,
+    "rewards": [
+      "2,600"
+    ]
+  },
+  {
+    "id": 18109,
+    "group": 181,
+    "condition": 18108,
+    "PurchaseId": 18109,
+    "rewards": [
+      "62,20",
+      "2,2400"
+    ]
+  },
+  {
+    "id": 18110,
+    "group": 181,
+    "condition": 18109,
+    "PurchaseId": 0,
+    "rewards": [
+      "2,2400"
+    ]
+  },
+  {
+    "id": 18201,
+    "group": 182,
+    "condition": 0,
+    "PurchaseId": 0,
+    "rewards": [
+      "2,20"
+    ]
+  },
+  {
+    "id": 18202,
+    "group": 182,
+    "condition": 18201,
+    "PurchaseId": 0,
+    "rewards": [
+      "25,5"
+    ]
+  },
+  {
+    "id": 18203,
+    "group": 182,
+    "condition": 18202,
+    "PurchaseId": 18203,
+    "rewards": [
+      "62,10",
+      "2,1200"
+    ]
+  },
+  {
+    "id": 18204,
+    "group": 182,
+    "condition": 18203,
+    "PurchaseId": 0,
+    "rewards": [
+      "2,1200"
+    ]
+  },
+  {
+    "id": 18205,
+    "group": 182,
+    "condition": 18204,
+    "PurchaseId": 0,
+    "rewards": [
+      "2,600"
+    ]
+  },
+  {
+    "id": 18206,
+    "group": 182,
+    "condition": 18205,
+    "PurchaseId": 18206,
+    "rewards": [
+      "62,20",
+      "2,2400"
+    ]
+  },
+  {
+    "id": 18207,
+    "group": 182,
+    "condition": 18206,
+    "PurchaseId": 0,
+    "rewards": [
+      "2,2400"
+    ]
+  },
+  {
+    "id": 18208,
+    "group": 182,
+    "condition": 18207,
+    "PurchaseId": 0,
+    "rewards": [
+      "2,1200"
+    ]
+  },
+  {
+    "id": 18209,
+    "group": 182,
+    "condition": 18208,
+    "PurchaseId": 18209,
+    "rewards": [
+      "62,30",
+      "2,3600"
+    ]
+  },
+  {
+    "id": 18210,
+    "group": 182,
+    "condition": 18209,
+    "PurchaseId": 0,
+    "rewards": [
+      "2,3600"
+    ]
+  },
+  {
+    "id": 18301,
+    "group": 183,
+    "condition": 0,
+    "PurchaseId": 0,
+    "rewards": [
+      "2,20"
+    ]
+  },
+  {
+    "id": 18302,
+    "group": 183,
+    "condition": 18301,
+    "PurchaseId": 0,
+    "rewards": [
+      "25,5"
+    ]
+  },
+  {
+    "id": 18303,
+    "group": 183,
+    "condition": 18302,
+    "PurchaseId": 18303,
+    "rewards": [
+      "62,20",
+      "2,2400"
+    ]
+  },
+  {
+    "id": 18304,
+    "group": 183,
+    "condition": 18303,
+    "PurchaseId": 0,
+    "rewards": [
+      "2,2400"
+    ]
+  },
+  {
+    "id": 18305,
+    "group": 183,
+    "condition": 18304,
+    "PurchaseId": 0,
+    "rewards": [
+      "2,1200"
+    ]
+  },
+  {
+    "id": 18306,
+    "group": 183,
+    "condition": 18305,
+    "PurchaseId": 18306,
+    "rewards": [
+      "62,50",
+      "2,6000"
+    ]
+  },
+  {
+    "id": 18307,
+    "group": 183,
+    "condition": 18306,
+    "PurchaseId": 0,
+    "rewards": [
+      "2,6000"
+    ]
+  },
+  {
+    "id": 18308,
+    "group": 183,
+    "condition": 18307,
+    "PurchaseId": 0,
+    "rewards": [
+      "2,3000"
+    ]
+  },
+  {
+    "id": 18309,
+    "group": 183,
+    "condition": 18308,
+    "PurchaseId": 18309,
+    "rewards": [
+      "62,100",
+      "2,12000"
+    ]
+  },
+  {
+    "id": 18310,
+    "group": 183,
+    "condition": 18309,
+    "PurchaseId": 0,
+    "rewards": [
+      "2,12000"
+    ]
+  },
+  {
+    "id": 19101,
+    "group": 191,
+    "condition": 0,
+    "PurchaseId": 0,
+    "rewards": [
+      "2,20"
+    ]
+  },
+  {
+    "id": 19102,
+    "group": 191,
+    "condition": 19101,
+    "PurchaseId": 0,
+    "rewards": [
+      "26,200"
+    ]
+  },
+  {
+    "id": 19103,
+    "group": 191,
+    "condition": 19102,
+    "PurchaseId": 19103,
+    "rewards": [
+      "11,240",
+      "26,500"
+    ]
+  },
+  {
+    "id": 19104,
+    "group": 191,
+    "condition": 19103,
+    "PurchaseId": 0,
+    "rewards": [
+      "72,1"
+    ]
+  },
+  {
+    "id": 19105,
+    "group": 191,
+    "condition": 19104,
+    "PurchaseId": 0,
+    "rewards": [
+      "73,1"
+    ]
+  },
+  {
+    "id": 19106,
+    "group": 191,
+    "condition": 19105,
+    "PurchaseId": 19106,
+    "rewards": [
+      "11,500",
+      "26,1000"
+    ]
+  },
+  {
+    "id": 19107,
+    "group": 191,
+    "condition": 19106,
+    "PurchaseId": 0,
+    "rewards": [
+      "72,1"
+    ]
+  },
+  {
+    "id": 19108,
+    "group": 191,
+    "condition": 19107,
+    "PurchaseId": 0,
+    "rewards": [
+      "73,2"
+    ]
+  },
+  {
+    "id": 19109,
+    "group": 191,
+    "condition": 19108,
+    "PurchaseId": 19109,
+    "rewards": [
+      "11,1000",
+      "26,2000"
+    ]
+  },
+  {
+    "id": 19110,
+    "group": 191,
+    "condition": 19109,
+    "PurchaseId": 0,
+    "rewards": [
+      "75,1"
+    ]
+  },
+  {
+    "id": 19201,
+    "group": 192,
+    "condition": 0,
+    "PurchaseId": 0,
+    "rewards": [
+      "2,20"
+    ]
+  },
+  {
+    "id": 19202,
+    "group": 192,
+    "condition": 19201,
+    "PurchaseId": 0,
+    "rewards": [
+      "26,200"
+    ]
+  },
+  {
+    "id": 19203,
+    "group": 192,
+    "condition": 19202,
+    "PurchaseId": 19203,
+    "rewards": [
+      "11,500",
+      "26,1000"
+    ]
+  },
+  {
+    "id": 19204,
+    "group": 192,
+    "condition": 19203,
+    "PurchaseId": 0,
+    "rewards": [
+      "72,1"
+    ]
+  },
+  {
+    "id": 19205,
+    "group": 192,
+    "condition": 19204,
+    "PurchaseId": 0,
+    "rewards": [
+      "73,2"
+    ]
+  },
+  {
+    "id": 19206,
+    "group": 192,
+    "condition": 19205,
+    "PurchaseId": 19206,
+    "rewards": [
+      "11,1000",
+      "26,2000"
+    ]
+  },
+  {
+    "id": 19207,
+    "group": 192,
+    "condition": 19206,
+    "PurchaseId": 0,
+    "rewards": [
+      "72,2"
+    ]
+  },
+  {
+    "id": 19208,
+    "group": 192,
+    "condition": 19207,
+    "PurchaseId": 0,
+    "rewards": [
+      "73,4"
+    ]
+  },
+  {
+    "id": 19209,
+    "group": 192,
+    "condition": 19208,
+    "PurchaseId": 19209,
+    "rewards": [
+      "11,2000",
+      "26,3000"
+    ]
+  },
+  {
+    "id": 19210,
+    "group": 192,
+    "condition": 19209,
+    "PurchaseId": 0,
+    "rewards": [
+      "75,2"
+    ]
+  },
+  {
+    "id": 19301,
+    "group": 193,
+    "condition": 0,
+    "PurchaseId": 0,
+    "rewards": [
+      "2,20"
+    ]
+  },
+  {
+    "id": 19302,
+    "group": 193,
+    "condition": 19301,
+    "PurchaseId": 0,
+    "rewards": [
+      "26,200"
+    ]
+  },
+  {
+    "id": 19303,
+    "group": 193,
+    "condition": 19302,
+    "PurchaseId": 19303,
+    "rewards": [
+      "11,1000",
+      "26,2000"
+    ]
+  },
+  {
+    "id": 19304,
+    "group": 193,
+    "condition": 19303,
+    "PurchaseId": 0,
+    "rewards": [
+      "72,2"
+    ]
+  },
+  {
+    "id": 19305,
+    "group": 193,
+    "condition": 19304,
+    "PurchaseId": 0,
+    "rewards": [
+      "73,4"
+    ]
+  },
+  {
+    "id": 19306,
+    "group": 193,
+    "condition": 19305,
+    "PurchaseId": 19306,
+    "rewards": [
+      "11,2500",
+      "26,5000"
+    ]
+  },
+  {
+    "id": 19307,
+    "group": 193,
+    "condition": 19306,
+    "PurchaseId": 0,
+    "rewards": [
+      "72,5"
+    ]
+  },
+  {
+    "id": 19308,
+    "group": 193,
+    "condition": 19307,
+    "PurchaseId": 0,
+    "rewards": [
+      "73,10"
+    ]
+  },
+  {
+    "id": 19309,
+    "group": 193,
+    "condition": 19308,
+    "PurchaseId": 19309,
+    "rewards": [
+      "11,5000",
+      "26,10000"
+    ]
+  },
+  {
+    "id": 19310,
+    "group": 193,
+    "condition": 19309,
+    "PurchaseId": 0,
+    "rewards": [
+      "75,5"
+    ]
+  }
+]

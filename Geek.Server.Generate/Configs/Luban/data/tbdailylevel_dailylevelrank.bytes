@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "type": 1,
+    "rank": 1,
+    "reward": []
+  },
+  {
+    "id": 2,
+    "type": 1,
+    "rank": 2,
+    "reward": []
+  },
+  {
+    "id": 3,
+    "type": 1,
+    "rank": 3,
+    "reward": []
+  },
+  {
+    "id": 4,
+    "type": 1,
+    "rank": 5,
+    "reward": []
+  },
+  {
+    "id": 5,
+    "type": 1,
+    "rank": 10,
+    "reward": []
+  },
+  {
+    "id": 6,
+    "type": 1,
+    "rank": 20,
+    "reward": []
+  },
+  {
+    "id": 7,
+    "type": 1,
+    "rank": 50,
+    "reward": []
+  },
+  {
+    "id": 8,
+    "type": 1,
+    "rank": 9999,
+    "reward": []
+  },
+  {
+    "id": 11,
+    "type": 2,
+    "rank": 1,
+    "reward": []
+  },
+  {
+    "id": 12,
+    "type": 2,
+    "rank": 2,
+    "reward": []
+  },
+  {
+    "id": 13,
+    "type": 2,
+    "rank": 3,
+    "reward": []
+  },
+  {
+    "id": 14,
+    "type": 2,
+    "rank": 5,
+    "reward": []
+  },
+  {
+    "id": 15,
+    "type": 2,
+    "rank": 10,
+    "reward": []
+  },
+  {
+    "id": 16,
+    "type": 2,
+    "rank": 20,
+    "reward": []
+  },
+  {
+    "id": 17,
+    "type": 2,
+    "rank": 50,
+    "reward": []
+  },
+  {
+    "id": 18,
+    "type": 2,
+    "rank": 9999,
+    "reward": []
+  }
+]

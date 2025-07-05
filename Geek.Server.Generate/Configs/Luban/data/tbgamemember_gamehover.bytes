@@ -1,0 +1,146 @@
+[
+  {
+    "id": 1,
+    "bodyPosID": 5,
+    "prefabID": 1,
+    "isDeathClose": 1
+  },
+  {
+    "id": 2,
+    "bodyPosID": 5,
+    "prefabID": 2,
+    "isDeathClose": 1
+  },
+  {
+    "id": 3,
+    "bodyPosID": 7,
+    "prefabID": 3,
+    "isDeathClose": 0
+  },
+  {
+    "id": 4,
+    "bodyPosID": 7,
+    "prefabID": 4,
+    "isDeathClose": 0
+  },
+  {
+    "id": 5,
+    "bodyPosID": 7,
+    "prefabID": 5,
+    "isDeathClose": 0
+  },
+  {
+    "id": 6,
+    "bodyPosID": 7,
+    "prefabID": 6,
+    "isDeathClose": 0
+  },
+  {
+    "id": 7,
+    "bodyPosID": 7,
+    "prefabID": 7,
+    "isDeathClose": 0
+  },
+  {
+    "id": 8,
+    "bodyPosID": 7,
+    "prefabID": 8,
+    "isDeathClose": 0
+  },
+  {
+    "id": 9,
+    "bodyPosID": 7,
+    "prefabID": 9,
+    "isDeathClose": 0
+  },
+  {
+    "id": 10,
+    "bodyPosID": 7,
+    "prefabID": 10,
+    "isDeathClose": 0
+  },
+  {
+    "id": 11,
+    "bodyPosID": 5,
+    "prefabID": 11,
+    "isDeathClose": 1
+  },
+  {
+    "id": 12,
+    "bodyPosID": 7,
+    "prefabID": 12,
+    "isDeathClose": 0
+  },
+  {
+    "id": 13,
+    "bodyPosID": 7,
+    "prefabID": 13,
+    "isDeathClose": 0
+  },
+  {
+    "id": 14,
+    "bodyPosID": 7,
+    "prefabID": 14,
+    "isDeathClose": 0
+  },
+  {
+    "id": 15,
+    "bodyPosID": 7,
+    "prefabID": 15,
+    "isDeathClose": 0
+  },
+  {
+    "id": 16,
+    "bodyPosID": 7,
+    "prefabID": 16,
+    "isDeathClose": 0
+  },
+  {
+    "id": 17,
+    "bodyPosID": 7,
+    "prefabID": 17,
+    "isDeathClose": 0
+  },
+  {
+    "id": 18,
+    "bodyPosID": 7,
+    "prefabID": 18,
+    "isDeathClose": 0
+  },
+  {
+    "id": 19,
+    "bodyPosID": 7,
+    "prefabID": 19,
+    "isDeathClose": 1
+  },
+  {
+    "id": 20,
+    "bodyPosID": 7,
+    "prefabID": 20,
+    "isDeathClose": 0
+  },
+  {
+    "id": 21,
+    "bodyPosID": 7,
+    "prefabID": 21,
+    "isDeathClose": 0
+  },
+  {
+    "id": 22,
+    "bodyPosID": 7,
+    "prefabID": 22,
+    "isDeathClose": 0
+  },
+  {
+    "id": 23,
+    "bodyPosID": 7,
+    "prefabID": 23,
+    "isDeathClose": 0
+  },
+  {
+    "id": 24,
+    "bodyPosID": 7,
+    "prefabID": 24,
+    "isDeathClose": 0
+  }
+]

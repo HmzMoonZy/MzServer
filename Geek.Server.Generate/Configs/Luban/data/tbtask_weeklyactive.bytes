@@ -1,0 +1,43 @@
+[
+  {
+    "ID": 1,
+    "Requirements": 140,
+    "FixReward": [
+      "72,2",
+      "8,40"
+    ]
+  },
+  {
+    "ID": 2,
+    "Requirements": 280,
+    "FixReward": [
+      "60,2",
+      "8,80"
+    ]
+  },
+  {
+    "ID": 3,
+    "Requirements": 420,
+    "FixReward": [
+      "73,2",
+      "8,120"
+    ]
+  },
+  {
+    "ID": 4,
+    "Requirements": 560,
+    "FixReward": [
+      "61,1",
+      "8,160"
+    ]
+  },
+  {
+    "ID": 5,
+    "Requirements": 700,
+    "FixReward": [
+      "2,250",
+      "74,1",
+      "8,200"
+    ]
+  }
+]

@@ -1,0 +1,156 @@
+[
+  {
+    "id": 7,
+    "skillID": 7,
+    "battleType": [
+      10
+    ]
+  },
+  {
+    "id": 8,
+    "skillID": 8,
+    "battleType": [
+      10
+    ]
+  },
+  {
+    "id": 9,
+    "skillID": 9,
+    "battleType": [
+      10
+    ]
+  },
+  {
+    "id": 10101,
+    "skillID": 10101,
+    "battleType": [
+      10
+    ]
+  },
+  {
+    "id": 10102,
+    "skillID": 10102,
+    "battleType": [
+      10
+    ]
+  },
+  {
+    "id": 10201,
+    "skillID": 10201,
+    "battleType": [
+      10
+    ]
+  },
+  {
+    "id": 10202,
+    "skillID": 10202,
+    "battleType": [
+      10
+    ]
+  },
+  {
+    "id": 10301,
+    "skillID": 10301,
+    "battleType": [
+      10
+    ]
+  },
+  {
+    "id": 10401,
+    "skillID": 10401,
+    "battleType": [
+      10
+    ]
+  },
+  {
+    "id": 10402,
+    "skillID": 10402,
+    "battleType": [
+      10
+    ]
+  },
+  {
+    "id": 10501,
+    "skillID": 10501,
+    "battleType": [
+      10
+    ]
+  },
+  {
+    "id": 10502,
+    "skillID": 10502,
+    "battleType": [
+      10
+    ]
+  },
+  {
+    "id": 10503,
+    "skillID": 10503,
+    "battleType": [
+      10
+    ]
+  },
+  {
+    "id": 10601,
+    "skillID": 10601,
+    "battleType": [
+      10
+    ]
+  },
+  {
+    "id": 10602,
+    "skillID": 10602,
+    "battleType": [
+      10
+    ]
+  },
+  {
+    "id": 10603,
+    "skillID": 10603,
+    "battleType": [
+      10
+    ]
+  },
+  {
+    "id": 10701,
+    "skillID": 10701,
+    "battleType": [
+      10
+    ]
+  },
+  {
+    "id": 10702,
+    "skillID": 10702,
+    "battleType": [
+      10
+    ]
+  },
+  {
+    "id": 10801,
+    "skillID": 10801,
+    "battleType": [
+      10
+    ]
+  },
+  {
+    "id": 10901,
+    "skillID": 10901,
+    "battleType": [
+      10
+    ]
+  },
+  {
+    "id": 11001,
+    "skillID": 11001,
+    "battleType": [
+      10
+    ]
+  },
+  {
+    "id": 11002,
+    "skillID": 11002,
+    "battleType": [
+      10
+    ]
+  }
+]
