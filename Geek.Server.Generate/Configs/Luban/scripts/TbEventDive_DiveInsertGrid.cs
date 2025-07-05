@@ -7,14 +7,11 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-using Newtonsoft.Json.Linq;
 using Luban;
-
 
 
 namespace HotFix.Cfg
 {
-
 /// <summary>
 /// Generated from EventDive.xlsx sheet DiveInsertGrid
 /// </summary>
@@ -23,20 +20,19 @@ public partial class TbEventDive_DiveInsertGrid
     private readonly System.Collections.Generic.Dictionary<int, EventDive_DiveInsertGrid> _dataMap;
     private readonly System.Collections.Generic.List<EventDive_DiveInsertGrid> _dataList;
     
-    public TbEventDive_DiveInsertGrid(JArray _buf)
+    public TbEventDive_DiveInsertGrid(ByteBuf _buf)
     {
         _dataMap = new System.Collections.Generic.Dictionary<int, EventDive_DiveInsertGrid>();
         _dataList = new System.Collections.Generic.List<EventDive_DiveInsertGrid>();
         
-        foreach(JObject _ele in _buf)
+        for(int n = _buf.ReadSize() ; n > 0 ; --n)
         {
             EventDive_DiveInsertGrid _v;
-            _v = global::HotFix.Cfg.EventDive_DiveInsertGrid.DeserializeEventDive_DiveInsertGrid(_ele);
+            _v = global::HotFix.Cfg.EventDive_DiveInsertGrid.DeserializeEventDive_DiveInsertGrid(_buf);
             _dataList.Add(_v);
             _dataMap.Add(_v.ID, _v);
-         }
+        }
     }
-
 
     public System.Collections.Generic.Dictionary<int, EventDive_DiveInsertGrid> DataMap => _dataMap;
     public System.Collections.Generic.List<EventDive_DiveInsertGrid> DataList => _dataList;
@@ -54,5 +50,6 @@ public partial class TbEventDive_DiveInsertGrid
     }
 
 }
+
 }
 

@@ -8,30 +8,26 @@
 //------------------------------------------------------------------------------
 
 using Luban;
-using Newtonsoft.Json.Linq;
-
 
 
 namespace HotFix.Cfg
 {
-
 public sealed partial class ChristmasBoss_ChristmasBoss : Luban.BeanBase
 {
-    public ChristmasBoss_ChristmasBoss(JToken _buf) 
+    public ChristmasBoss_ChristmasBoss(ByteBuf _buf) 
     {
-        JObject _obj = _buf as JObject;
-        id = (int)_obj.GetValue("id");
-        monsterCfg = (int)_obj.GetValue("monsterCfg");
-        mapID = (int)_obj.GetValue("mapID");
-        bgm = (int)_obj.GetValue("bgm");
-        { var __json0 = _obj.GetValue("buffData"); int _n0 = (__json0 as JArray).Count; buffData = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  buffData[__index0++] = __v0; }   }
-        bossId = (int)_obj.GetValue("bossId");
-        uiScale = (float)_obj.GetValue("uiScale");
-        { var __json0 = _obj.GetValue("offsetPos"); int _n0 = (__json0 as JArray).Count; offsetPos = new float[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { float __v0;  __v0 = (float)__e0;  offsetPos[__index0++] = __v0; }   }
-        speedAdd = (int)_obj.GetValue("speedAdd");
+        id = _buf.ReadInt();
+        monsterCfg = _buf.ReadInt();
+        mapID = _buf.ReadInt();
+        bgm = _buf.ReadInt();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);buffData = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); buffData[__index0] = __e0;}}
+        bossId = _buf.ReadInt();
+        uiScale = _buf.ReadFloat();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);offsetPos = new float[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { float __e0;__e0 = _buf.ReadFloat(); offsetPos[__index0] = __e0;}}
+        speedAdd = _buf.ReadInt();
     }
 
-    public static ChristmasBoss_ChristmasBoss DeserializeChristmasBoss_ChristmasBoss(JToken _buf)
+    public static ChristmasBoss_ChristmasBoss DeserializeChristmasBoss_ChristmasBoss(ByteBuf _buf)
     {
         return new ChristmasBoss_ChristmasBoss(_buf);
     }
@@ -72,8 +68,7 @@ public sealed partial class ChristmasBoss_ChristmasBoss : Luban.BeanBase
     /// 速度加成(万分比)
     /// </summary>
     public readonly int speedAdd;
-
-
+   
     public const int __ID__ = -564033633;
     public override int GetTypeId() => __ID__;
 
@@ -96,5 +91,6 @@ public sealed partial class ChristmasBoss_ChristmasBoss : Luban.BeanBase
         + "}";
     }
 }
+
 }
 

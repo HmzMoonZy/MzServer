@@ -8,28 +8,24 @@
 //------------------------------------------------------------------------------
 
 using Luban;
-using Newtonsoft.Json.Linq;
-
 
 
 namespace HotFix.Cfg
 {
-
 public sealed partial class AutoProcess_monster : Luban.BeanBase
 {
-    public AutoProcess_monster(JToken _buf) 
+    public AutoProcess_monster(ByteBuf _buf) 
     {
-        JObject _obj = _buf as JObject;
-        id = (int)_obj.GetValue("id");
-        type = (int)_obj.GetValue("type");
-        MemberId1 = (int)_obj.GetValue("MemberId1");
-        MemberId2 = (int)_obj.GetValue("MemberId2");
-        MemberId3 = (int)_obj.GetValue("MemberId3");
-        Attributes = (string)_obj.GetValue("Attributes");
-        skill = (int)_obj.GetValue("skill");
+        id = _buf.ReadInt();
+        type = _buf.ReadInt();
+        MemberId1 = _buf.ReadInt();
+        MemberId2 = _buf.ReadInt();
+        MemberId3 = _buf.ReadInt();
+        Attributes = _buf.ReadString();
+        skill = _buf.ReadInt();
     }
 
-    public static AutoProcess_monster DeserializeAutoProcess_monster(JToken _buf)
+    public static AutoProcess_monster DeserializeAutoProcess_monster(ByteBuf _buf)
     {
         return new AutoProcess_monster(_buf);
     }
@@ -62,8 +58,7 @@ public sealed partial class AutoProcess_monster : Luban.BeanBase
     /// 胜利后的技能库
     /// </summary>
     public readonly int skill;
-
-
+   
     public const int __ID__ = 1681513531;
     public override int GetTypeId() => __ID__;
 
@@ -84,5 +79,6 @@ public sealed partial class AutoProcess_monster : Luban.BeanBase
         + "}";
     }
 }
+
 }
 

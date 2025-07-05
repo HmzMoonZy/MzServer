@@ -7,14 +7,11 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-using Newtonsoft.Json.Linq;
 using Luban;
-
 
 
 namespace HotFix.Cfg
 {
-
 /// <summary>
 /// Generated from Avatar.xlsx sheet Avatar
 /// </summary>
@@ -23,20 +20,19 @@ public partial class TbAvatar_Avatar
     private readonly System.Collections.Generic.Dictionary<int, Avatar_Avatar> _dataMap;
     private readonly System.Collections.Generic.List<Avatar_Avatar> _dataList;
     
-    public TbAvatar_Avatar(JArray _buf)
+    public TbAvatar_Avatar(ByteBuf _buf)
     {
         _dataMap = new System.Collections.Generic.Dictionary<int, Avatar_Avatar>();
         _dataList = new System.Collections.Generic.List<Avatar_Avatar>();
         
-        foreach(JObject _ele in _buf)
+        for(int n = _buf.ReadSize() ; n > 0 ; --n)
         {
             Avatar_Avatar _v;
-            _v = global::HotFix.Cfg.Avatar_Avatar.DeserializeAvatar_Avatar(_ele);
+            _v = global::HotFix.Cfg.Avatar_Avatar.DeserializeAvatar_Avatar(_buf);
             _dataList.Add(_v);
             _dataMap.Add(_v.id, _v);
-         }
+        }
     }
-
 
     public System.Collections.Generic.Dictionary<int, Avatar_Avatar> DataMap => _dataMap;
     public System.Collections.Generic.List<Avatar_Avatar> DataList => _dataList;
@@ -54,5 +50,6 @@ public partial class TbAvatar_Avatar
     }
 
 }
+
 }
 

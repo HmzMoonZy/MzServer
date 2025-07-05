@@ -7,14 +7,11 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-using Newtonsoft.Json.Linq;
 using Luban;
-
 
 
 namespace HotFix.Cfg
 {
-
 /// <summary>
 /// Generated from IAP.xlsx sheet BattlePass
 /// </summary>
@@ -23,20 +20,19 @@ public partial class TbIAP_BattlePass
     private readonly System.Collections.Generic.Dictionary<int, IAP_BattlePass> _dataMap;
     private readonly System.Collections.Generic.List<IAP_BattlePass> _dataList;
     
-    public TbIAP_BattlePass(JArray _buf)
+    public TbIAP_BattlePass(ByteBuf _buf)
     {
         _dataMap = new System.Collections.Generic.Dictionary<int, IAP_BattlePass>();
         _dataList = new System.Collections.Generic.List<IAP_BattlePass>();
         
-        foreach(JObject _ele in _buf)
+        for(int n = _buf.ReadSize() ; n > 0 ; --n)
         {
             IAP_BattlePass _v;
-            _v = global::HotFix.Cfg.IAP_BattlePass.DeserializeIAP_BattlePass(_ele);
+            _v = global::HotFix.Cfg.IAP_BattlePass.DeserializeIAP_BattlePass(_buf);
             _dataList.Add(_v);
             _dataMap.Add(_v.id, _v);
-         }
+        }
     }
-
 
     public System.Collections.Generic.Dictionary<int, IAP_BattlePass> DataMap => _dataMap;
     public System.Collections.Generic.List<IAP_BattlePass> DataList => _dataList;
@@ -54,5 +50,6 @@ public partial class TbIAP_BattlePass
     }
 
 }
+
 }
 

@@ -8,33 +8,29 @@
 //------------------------------------------------------------------------------
 
 using Luban;
-using Newtonsoft.Json.Linq;
-
 
 
 namespace HotFix.Cfg
 {
-
 public sealed partial class ServerList_serverListCN : Luban.BeanBase
 {
-    public ServerList_serverListCN(JToken _buf) 
+    public ServerList_serverListCN(ByteBuf _buf) 
     {
-        JObject _obj = _buf as JObject;
-        id = (int)_obj.GetValue("id");
-        desc = (string)_obj.GetValue("desc");
-        { var __json0 = _obj.GetValue("range"); int _n0 = (__json0 as JArray).Count; range = new int[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { int __v0;  __v0 = (int)__e0;  range[__index0++] = __v0; }   }
-        { var __json0 = _obj.GetValue("mark"); int _n0 = (__json0 as JArray).Count; mark = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  mark[__index0++] = __v0; }   }
-        conditionCountMax = (int)_obj.GetValue("conditionCountMax");
-        conditionCountMin = (int)_obj.GetValue("conditionCountMin");
-        conditionDay = (int)_obj.GetValue("conditionDay");
-        { var __json0 = _obj.GetValue("statusNew"); int _n0 = (__json0 as JArray).Count; statusNew = new int[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { int __v0;  __v0 = (int)__e0;  statusNew[__index0++] = __v0; }   }
-        { var __json0 = _obj.GetValue("statusFull"); int _n0 = (__json0 as JArray).Count; statusFull = new int[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { int __v0;  __v0 = (int)__e0;  statusFull[__index0++] = __v0; }   }
-        sortId = (int)_obj.GetValue("sortId");
-        serverPrefix = (string)_obj.GetValue("serverPrefix");
-        nameId = (string)_obj.GetValue("nameId");
+        id = _buf.ReadInt();
+        desc = _buf.ReadString();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);range = new int[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { int __e0;__e0 = _buf.ReadInt(); range[__index0] = __e0;}}
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);mark = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); mark[__index0] = __e0;}}
+        conditionCountMax = _buf.ReadInt();
+        conditionCountMin = _buf.ReadInt();
+        conditionDay = _buf.ReadInt();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);statusNew = new int[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { int __e0;__e0 = _buf.ReadInt(); statusNew[__index0] = __e0;}}
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);statusFull = new int[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { int __e0;__e0 = _buf.ReadInt(); statusFull[__index0] = __e0;}}
+        sortId = _buf.ReadInt();
+        serverPrefix = _buf.ReadString();
+        nameId = _buf.ReadString();
     }
 
-    public static ServerList_serverListCN DeserializeServerList_serverListCN(JToken _buf)
+    public static ServerList_serverListCN DeserializeServerList_serverListCN(ByteBuf _buf)
     {
         return new ServerList_serverListCN(_buf);
     }
@@ -87,8 +83,7 @@ public sealed partial class ServerList_serverListCN : Luban.BeanBase
     /// 大区名称
     /// </summary>
     public readonly string nameId;
-
-
+   
     public const int __ID__ = 1140885386;
     public override int GetTypeId() => __ID__;
 
@@ -114,5 +109,6 @@ public sealed partial class ServerList_serverListCN : Luban.BeanBase
         + "}";
     }
 }
+
 }
 

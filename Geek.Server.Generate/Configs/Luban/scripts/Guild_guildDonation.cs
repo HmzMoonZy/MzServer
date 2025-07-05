@@ -8,26 +8,22 @@
 //------------------------------------------------------------------------------
 
 using Luban;
-using Newtonsoft.Json.Linq;
-
 
 
 namespace HotFix.Cfg
 {
-
 public sealed partial class Guild_guildDonation : Luban.BeanBase
 {
-    public Guild_guildDonation(JToken _buf) 
+    public Guild_guildDonation(ByteBuf _buf) 
     {
-        JObject _obj = _buf as JObject;
-        ID = (int)_obj.GetValue("ID");
-        Count = (int)_obj.GetValue("Count");
-        { var __json0 = _obj.GetValue("GuildLevel"); int _n0 = (__json0 as JArray).Count; GuildLevel = new int[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { int __v0;  __v0 = (int)__e0;  GuildLevel[__index0++] = __v0; }   }
-        { var __json0 = _obj.GetValue("ChapterId"); int _n0 = (__json0 as JArray).Count; ChapterId = new int[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { int __v0;  __v0 = (int)__e0;  ChapterId[__index0++] = __v0; }   }
-        { var __json0 = _obj.GetValue("Reward"); int _n0 = (__json0 as JArray).Count; Reward = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  Reward[__index0++] = __v0; }   }
+        ID = _buf.ReadInt();
+        Count = _buf.ReadInt();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);GuildLevel = new int[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { int __e0;__e0 = _buf.ReadInt(); GuildLevel[__index0] = __e0;}}
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);ChapterId = new int[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { int __e0;__e0 = _buf.ReadInt(); ChapterId[__index0] = __e0;}}
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);Reward = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); Reward[__index0] = __e0;}}
     }
 
-    public static Guild_guildDonation DeserializeGuild_guildDonation(JToken _buf)
+    public static Guild_guildDonation DeserializeGuild_guildDonation(ByteBuf _buf)
     {
         return new Guild_guildDonation(_buf);
     }
@@ -52,8 +48,7 @@ public sealed partial class Guild_guildDonation : Luban.BeanBase
     /// 捐献后获得的奖励<br/>空代表没有
     /// </summary>
     public readonly string[] Reward;
-
-
+   
     public const int __ID__ = -629607111;
     public override int GetTypeId() => __ID__;
 
@@ -72,5 +67,6 @@ public sealed partial class Guild_guildDonation : Luban.BeanBase
         + "}";
     }
 }
+
 }
 

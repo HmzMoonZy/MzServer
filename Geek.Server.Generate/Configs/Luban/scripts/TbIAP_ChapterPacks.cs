@@ -7,14 +7,11 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-using Newtonsoft.Json.Linq;
 using Luban;
-
 
 
 namespace HotFix.Cfg
 {
-
 /// <summary>
 /// Generated from IAP.xlsx sheet ChapterPacks
 /// </summary>
@@ -23,20 +20,19 @@ public partial class TbIAP_ChapterPacks
     private readonly System.Collections.Generic.Dictionary<int, IAP_ChapterPacks> _dataMap;
     private readonly System.Collections.Generic.List<IAP_ChapterPacks> _dataList;
     
-    public TbIAP_ChapterPacks(JArray _buf)
+    public TbIAP_ChapterPacks(ByteBuf _buf)
     {
         _dataMap = new System.Collections.Generic.Dictionary<int, IAP_ChapterPacks>();
         _dataList = new System.Collections.Generic.List<IAP_ChapterPacks>();
         
-        foreach(JObject _ele in _buf)
+        for(int n = _buf.ReadSize() ; n > 0 ; --n)
         {
             IAP_ChapterPacks _v;
-            _v = global::HotFix.Cfg.IAP_ChapterPacks.DeserializeIAP_ChapterPacks(_ele);
+            _v = global::HotFix.Cfg.IAP_ChapterPacks.DeserializeIAP_ChapterPacks(_buf);
             _dataList.Add(_v);
             _dataMap.Add(_v.id, _v);
-         }
+        }
     }
-
 
     public System.Collections.Generic.Dictionary<int, IAP_ChapterPacks> DataMap => _dataMap;
     public System.Collections.Generic.List<IAP_ChapterPacks> DataList => _dataList;
@@ -54,5 +50,6 @@ public partial class TbIAP_ChapterPacks
     }
 
 }
+
 }
 

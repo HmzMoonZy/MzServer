@@ -8,26 +8,22 @@
 //------------------------------------------------------------------------------
 
 using Luban;
-using Newtonsoft.Json.Linq;
-
 
 
 namespace HotFix.Cfg
 {
-
 public sealed partial class TalentLegacy_legacySkill : Luban.BeanBase
 {
-    public TalentLegacy_legacySkill(JToken _buf) 
+    public TalentLegacy_legacySkill(ByteBuf _buf) 
     {
-        JObject _obj = _buf as JObject;
-        id = (int)_obj.GetValue("id");
-        qualityID = (int)_obj.GetValue("qualityID");
-        tagID = (int)_obj.GetValue("tagID");
-        descId = (string)_obj.GetValue("descId");
-        action = (string)_obj.GetValue("action");
+        id = _buf.ReadInt();
+        qualityID = _buf.ReadInt();
+        tagID = _buf.ReadInt();
+        descId = _buf.ReadString();
+        action = _buf.ReadString();
     }
 
-    public static TalentLegacy_legacySkill DeserializeTalentLegacy_legacySkill(JToken _buf)
+    public static TalentLegacy_legacySkill DeserializeTalentLegacy_legacySkill(ByteBuf _buf)
     {
         return new TalentLegacy_legacySkill(_buf);
     }
@@ -52,8 +48,7 @@ public sealed partial class TalentLegacy_legacySkill : Luban.BeanBase
     /// 作用效果
     /// </summary>
     public readonly string action;
-
-
+   
     public const int __ID__ = -1473415490;
     public override int GetTypeId() => __ID__;
 
@@ -72,5 +67,6 @@ public sealed partial class TalentLegacy_legacySkill : Luban.BeanBase
         + "}";
     }
 }
+
 }
 

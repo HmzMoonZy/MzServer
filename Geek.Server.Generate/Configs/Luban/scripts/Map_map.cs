@@ -8,76 +8,72 @@
 //------------------------------------------------------------------------------
 
 using Luban;
-using Newtonsoft.Json.Linq;
-
 
 
 namespace HotFix.Cfg
 {
-
 public sealed partial class Map_map : Luban.BeanBase
 {
-    public Map_map(JToken _buf) 
+    public Map_map(ByteBuf _buf) 
     {
-        JObject _obj = _buf as JObject;
-        id = (int)_obj.GetValue("id");
-        mapType = (int)_obj.GetValue("mapType");
-        bottomType = (int)_obj.GetValue("bottomType");
-        bottomPointName = (string)_obj.GetValue("bottomPointName");
-        nameId = (string)_obj.GetValue("nameId");
-        bossArtMap = (int)_obj.GetValue("bossArtMap");
-        { var __json0 = _obj.GetValue("playerOffset"); int _n0 = (__json0 as JArray).Count; playerOffset = new float[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { float __v0;  __v0 = (float)__e0;  playerOffset[__index0++] = __v0; }   }
-        { var __json0 = _obj.GetValue("petOffset"); int _n0 = (__json0 as JArray).Count; petOffset = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  petOffset[__index0++] = __v0; }   }
-        { var __json0 = _obj.GetValue("skyIDs"); int _n0 = (__json0 as JArray).Count; skyIDs = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  skyIDs[__index0++] = __v0; }   }
-        skyOffsetY = (float)_obj.GetValue("skyOffsetY");
-        { var __json0 = _obj.GetValue("bgIds"); int _n0 = (__json0 as JArray).Count; bgIds = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  bgIds[__index0++] = __v0; }   }
-        bgOffsetY = (float)_obj.GetValue("bgOffsetY");
-        { var __json0 = _obj.GetValue("bgSpeed"); int _n0 = (__json0 as JArray).Count; bgSpeed = new float[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { float __v0;  __v0 = (float)__e0;  bgSpeed[__index0++] = __v0; }   }
-        { var __json0 = _obj.GetValue("farIDs"); int _n0 = (__json0 as JArray).Count; farIDs = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  farIDs[__index0++] = __v0; }   }
-        farOffsetY = (float)_obj.GetValue("farOffsetY");
-        { var __json0 = _obj.GetValue("farSpeed"); int _n0 = (__json0 as JArray).Count; farSpeed = new float[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { float __v0;  __v0 = (float)__e0;  farSpeed[__index0++] = __v0; }   }
-        { var __json0 = _obj.GetValue("middleIDs"); int _n0 = (__json0 as JArray).Count; middleIDs = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  middleIDs[__index0++] = __v0; }   }
-        middleOffsetY = (float)_obj.GetValue("middleOffsetY");
-        { var __json0 = _obj.GetValue("nearIDs"); int _n0 = (__json0 as JArray).Count; nearIDs = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  nearIDs[__index0++] = __v0; }   }
-        nearOffsetY = (float)_obj.GetValue("nearOffsetY");
-        waveOffsetY = (float)_obj.GetValue("waveOffsetY");
-        { var __json0 = _obj.GetValue("normalWaves"); int _n0 = (__json0 as JArray).Count; normalWaves = new int[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { int __v0;  __v0 = (int)__e0;  normalWaves[__index0++] = __v0; }   }
-        { var __json0 = _obj.GetValue("specialWaves"); int _n0 = (__json0 as JArray).Count; specialWaves = new int[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { int __v0;  __v0 = (int)__e0;  specialWaves[__index0++] = __v0; }   }
-        { var __json0 = _obj.GetValue("clouds"); int _n0 = (__json0 as JArray).Count; clouds = new int[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { int __v0;  __v0 = (int)__e0;  clouds[__index0++] = __v0; }   }
-        cloudOffsetY = (float)_obj.GetValue("cloudOffsetY");
-        { var __json0 = _obj.GetValue("cloudSpeed"); int _n0 = (__json0 as JArray).Count; cloudSpeed = new float[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { float __v0;  __v0 = (float)__e0;  cloudSpeed[__index0++] = __v0; }   }
-        { var __json0 = _obj.GetValue("farFloating"); int _n0 = (__json0 as JArray).Count; farFloating = new int[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { int __v0;  __v0 = (int)__e0;  farFloating[__index0++] = __v0; }   }
-        farFloatingOffsetY = (float)_obj.GetValue("farFloatingOffsetY");
-        { var __json0 = _obj.GetValue("farFloatingSpeed"); int _n0 = (__json0 as JArray).Count; farFloatingSpeed = new float[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { float __v0;  __v0 = (float)__e0;  farFloatingSpeed[__index0++] = __v0; }   }
-        { var __json0 = _obj.GetValue("farStatic"); int _n0 = (__json0 as JArray).Count; farStatic = new int[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { int __v0;  __v0 = (int)__e0;  farStatic[__index0++] = __v0; }   }
-        farStaticOffsetY = (float)_obj.GetValue("farStaticOffsetY");
-        { var __json0 = _obj.GetValue("middleFloating"); int _n0 = (__json0 as JArray).Count; middleFloating = new int[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { int __v0;  __v0 = (int)__e0;  middleFloating[__index0++] = __v0; }   }
-        middleFloatingOffsetY = (float)_obj.GetValue("middleFloatingOffsetY");
-        { var __json0 = _obj.GetValue("nearFloating"); int _n0 = (__json0 as JArray).Count; nearFloating = new int[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { int __v0;  __v0 = (int)__e0;  nearFloating[__index0++] = __v0; }   }
-        nearFloatingOffsetY = (float)_obj.GetValue("nearFloatingOffsetY");
-        { var __json0 = _obj.GetValue("nearFloatingSpeed"); int _n0 = (__json0 as JArray).Count; nearFloatingSpeed = new float[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { float __v0;  __v0 = (float)__e0;  nearFloatingSpeed[__index0++] = __v0; }   }
-        { var __json0 = _obj.GetValue("floatingRandom"); int _n0 = (__json0 as JArray).Count; floatingRandom = new int[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { int __v0;  __v0 = (int)__e0;  floatingRandom[__index0++] = __v0; }   }
-        isPlanet = (int)_obj.GetValue("isPlanet");
-        { var __json0 = _obj.GetValue("planetOffset"); int _n0 = (__json0 as JArray).Count; planetOffset = new float[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { float __v0;  __v0 = (float)__e0;  planetOffset[__index0++] = __v0; }   }
-        hangupOffsetY = (float)_obj.GetValue("hangupOffsetY");
-        hangupPlayerY = (float)_obj.GetValue("hangupPlayerY");
-        { var __json0 = _obj.GetValue("memberColor"); int _n0 = (__json0 as JArray).Count; memberColor = new float[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { float __v0;  __v0 = (float)__e0;  memberColor[__index0++] = __v0; }   }
-        { var __json0 = _obj.GetValue("spriteColor"); int _n0 = (__json0 as JArray).Count; spriteColor = new float[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { float __v0;  __v0 = (float)__e0;  spriteColor[__index0++] = __v0; }   }
-        changeTime = (int)_obj.GetValue("changeTime");
-        matPrefix = (string)_obj.GetValue("matPrefix");
-        activityMap = (int)_obj.GetValue("activityMap");
-        activityLightColor = (string)_obj.GetValue("activityLightColor");
-        activityStarColor = (string)_obj.GetValue("activityStarColor");
-        activityButtonBg = (int)_obj.GetValue("activityButtonBg");
-        ride = (int)_obj.GetValue("ride");
-        { var __json0 = _obj.GetValue("groundTex1Ids"); int _n0 = (__json0 as JArray).Count; groundTex1Ids = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  groundTex1Ids[__index0++] = __v0; }   }
-        groundTex1OffsetY = (float)_obj.GetValue("groundTex1OffsetY");
-        { var __json0 = _obj.GetValue("groundTex2Ids"); int _n0 = (__json0 as JArray).Count; groundTex2Ids = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  groundTex2Ids[__index0++] = __v0; }   }
-        groundTex2OffsetY = (float)_obj.GetValue("groundTex2OffsetY");
-        groundTexColor = (string)_obj.GetValue("groundTexColor");
+        id = _buf.ReadInt();
+        mapType = _buf.ReadInt();
+        bottomType = _buf.ReadInt();
+        bottomPointName = _buf.ReadString();
+        nameId = _buf.ReadString();
+        bossArtMap = _buf.ReadInt();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);playerOffset = new float[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { float __e0;__e0 = _buf.ReadFloat(); playerOffset[__index0] = __e0;}}
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);petOffset = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); petOffset[__index0] = __e0;}}
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);skyIDs = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); skyIDs[__index0] = __e0;}}
+        skyOffsetY = _buf.ReadFloat();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);bgIds = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); bgIds[__index0] = __e0;}}
+        bgOffsetY = _buf.ReadFloat();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);bgSpeed = new float[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { float __e0;__e0 = _buf.ReadFloat(); bgSpeed[__index0] = __e0;}}
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);farIDs = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); farIDs[__index0] = __e0;}}
+        farOffsetY = _buf.ReadFloat();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);farSpeed = new float[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { float __e0;__e0 = _buf.ReadFloat(); farSpeed[__index0] = __e0;}}
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);middleIDs = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); middleIDs[__index0] = __e0;}}
+        middleOffsetY = _buf.ReadFloat();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);nearIDs = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); nearIDs[__index0] = __e0;}}
+        nearOffsetY = _buf.ReadFloat();
+        waveOffsetY = _buf.ReadFloat();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);normalWaves = new int[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { int __e0;__e0 = _buf.ReadInt(); normalWaves[__index0] = __e0;}}
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);specialWaves = new int[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { int __e0;__e0 = _buf.ReadInt(); specialWaves[__index0] = __e0;}}
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);clouds = new int[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { int __e0;__e0 = _buf.ReadInt(); clouds[__index0] = __e0;}}
+        cloudOffsetY = _buf.ReadFloat();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);cloudSpeed = new float[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { float __e0;__e0 = _buf.ReadFloat(); cloudSpeed[__index0] = __e0;}}
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);farFloating = new int[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { int __e0;__e0 = _buf.ReadInt(); farFloating[__index0] = __e0;}}
+        farFloatingOffsetY = _buf.ReadFloat();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);farFloatingSpeed = new float[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { float __e0;__e0 = _buf.ReadFloat(); farFloatingSpeed[__index0] = __e0;}}
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);farStatic = new int[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { int __e0;__e0 = _buf.ReadInt(); farStatic[__index0] = __e0;}}
+        farStaticOffsetY = _buf.ReadFloat();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);middleFloating = new int[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { int __e0;__e0 = _buf.ReadInt(); middleFloating[__index0] = __e0;}}
+        middleFloatingOffsetY = _buf.ReadFloat();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);nearFloating = new int[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { int __e0;__e0 = _buf.ReadInt(); nearFloating[__index0] = __e0;}}
+        nearFloatingOffsetY = _buf.ReadFloat();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);nearFloatingSpeed = new float[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { float __e0;__e0 = _buf.ReadFloat(); nearFloatingSpeed[__index0] = __e0;}}
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);floatingRandom = new int[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { int __e0;__e0 = _buf.ReadInt(); floatingRandom[__index0] = __e0;}}
+        isPlanet = _buf.ReadInt();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);planetOffset = new float[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { float __e0;__e0 = _buf.ReadFloat(); planetOffset[__index0] = __e0;}}
+        hangupOffsetY = _buf.ReadFloat();
+        hangupPlayerY = _buf.ReadFloat();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);memberColor = new float[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { float __e0;__e0 = _buf.ReadFloat(); memberColor[__index0] = __e0;}}
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);spriteColor = new float[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { float __e0;__e0 = _buf.ReadFloat(); spriteColor[__index0] = __e0;}}
+        changeTime = _buf.ReadInt();
+        matPrefix = _buf.ReadString();
+        activityMap = _buf.ReadInt();
+        activityLightColor = _buf.ReadString();
+        activityStarColor = _buf.ReadString();
+        activityButtonBg = _buf.ReadInt();
+        ride = _buf.ReadInt();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);groundTex1Ids = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); groundTex1Ids[__index0] = __e0;}}
+        groundTex1OffsetY = _buf.ReadFloat();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);groundTex2Ids = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); groundTex2Ids[__index0] = __e0;}}
+        groundTex2OffsetY = _buf.ReadFloat();
+        groundTexColor = _buf.ReadString();
     }
 
-    public static Map_map DeserializeMap_map(JToken _buf)
+    public static Map_map DeserializeMap_map(ByteBuf _buf)
     {
         return new Map_map(_buf);
     }
@@ -302,8 +298,7 @@ public sealed partial class Map_map : Luban.BeanBase
     /// 地面纹理层颜色<br/>16进制色值必须以#开始
     /// </summary>
     public readonly string groundTexColor;
-
-
+   
     public const int __ID__ = -1793260583;
     public override int GetTypeId() => __ID__;
 
@@ -372,5 +367,6 @@ public sealed partial class Map_map : Luban.BeanBase
         + "}";
     }
 }
+
 }
 

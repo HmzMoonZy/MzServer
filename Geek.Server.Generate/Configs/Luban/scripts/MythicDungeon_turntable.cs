@@ -8,31 +8,27 @@
 //------------------------------------------------------------------------------
 
 using Luban;
-using Newtonsoft.Json.Linq;
-
 
 
 namespace HotFix.Cfg
 {
-
 public sealed partial class MythicDungeon_turntable : Luban.BeanBase
 {
-    public MythicDungeon_turntable(JToken _buf) 
+    public MythicDungeon_turntable(ByteBuf _buf) 
     {
-        JObject _obj = _buf as JObject;
-        id = (int)_obj.GetValue("id");
-        weight = (int)_obj.GetValue("weight");
-        sort = (int)_obj.GetValue("sort");
-        atlasId = (int)_obj.GetValue("atlasId");
-        icon = (string)_obj.GetValue("icon");
-        soundId = (int)_obj.GetValue("soundId");
-        iconCN = (string)_obj.GetValue("iconCN");
-        iconTW = (string)_obj.GetValue("iconTW");
-        iconJP = (string)_obj.GetValue("iconJP");
-        iconKR = (string)_obj.GetValue("iconKR");
+        id = _buf.ReadInt();
+        weight = _buf.ReadInt();
+        sort = _buf.ReadInt();
+        atlasId = _buf.ReadInt();
+        icon = _buf.ReadString();
+        soundId = _buf.ReadInt();
+        iconCN = _buf.ReadString();
+        iconTW = _buf.ReadString();
+        iconJP = _buf.ReadString();
+        iconKR = _buf.ReadString();
     }
 
-    public static MythicDungeon_turntable DeserializeMythicDungeon_turntable(JToken _buf)
+    public static MythicDungeon_turntable DeserializeMythicDungeon_turntable(ByteBuf _buf)
     {
         return new MythicDungeon_turntable(_buf);
     }
@@ -77,8 +73,7 @@ public sealed partial class MythicDungeon_turntable : Luban.BeanBase
     /// 韩文
     /// </summary>
     public readonly string iconKR;
-
-
+   
     public const int __ID__ = 549315314;
     public override int GetTypeId() => __ID__;
 
@@ -102,5 +97,6 @@ public sealed partial class MythicDungeon_turntable : Luban.BeanBase
         + "}";
     }
 }
+
 }
 

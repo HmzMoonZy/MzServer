@@ -8,23 +8,19 @@
 //------------------------------------------------------------------------------
 
 using Luban;
-using Newtonsoft.Json.Linq;
-
 
 
 namespace HotFix.Cfg
 {
-
 public sealed partial class LanguageCN_languagetable : Luban.BeanBase
 {
-    public LanguageCN_languagetable(JToken _buf) 
+    public LanguageCN_languagetable(ByteBuf _buf) 
     {
-        JObject _obj = _buf as JObject;
-        id = (string)_obj.GetValue("id");
-        chinesesimplified = (string)_obj.GetValue("chinesesimplified");
+        id = _buf.ReadString();
+        chinesesimplified = _buf.ReadString();
     }
 
-    public static LanguageCN_languagetable DeserializeLanguageCN_languagetable(JToken _buf)
+    public static LanguageCN_languagetable DeserializeLanguageCN_languagetable(ByteBuf _buf)
     {
         return new LanguageCN_languagetable(_buf);
     }
@@ -37,8 +33,7 @@ public sealed partial class LanguageCN_languagetable : Luban.BeanBase
     /// 中国简化
     /// </summary>
     public readonly string chinesesimplified;
-
-
+   
     public const int __ID__ = -1537193446;
     public override int GetTypeId() => __ID__;
 
@@ -54,5 +49,6 @@ public sealed partial class LanguageCN_languagetable : Luban.BeanBase
         + "}";
     }
 }
+
 }
 

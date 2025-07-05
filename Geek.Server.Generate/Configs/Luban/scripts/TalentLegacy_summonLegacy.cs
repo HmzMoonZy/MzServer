@@ -8,40 +8,36 @@
 //------------------------------------------------------------------------------
 
 using Luban;
-using Newtonsoft.Json.Linq;
-
 
 
 namespace HotFix.Cfg
 {
-
 public sealed partial class TalentLegacy_summonLegacy : Luban.BeanBase
 {
-    public TalentLegacy_summonLegacy(JToken _buf) 
+    public TalentLegacy_summonLegacy(ByteBuf _buf) 
     {
-        JObject _obj = _buf as JObject;
-        id = (int)_obj.GetValue("id");
-        orderId = (int)_obj.GetValue("orderId");
-        freeTimes = (int)_obj.GetValue("freeTimes");
-        priceId = (int)_obj.GetValue("priceId");
-        singlePrice = (int)_obj.GetValue("singlePrice");
-        singlePriceOrigin = (int)_obj.GetValue("singlePriceOrigin");
-        tenPrice = (int)_obj.GetValue("tenPrice");
-        tenPriceOrigin = (int)_obj.GetValue("tenPriceOrigin");
-        { var __json0 = _obj.GetValue("choosePoolRateShow"); int _n0 = (__json0 as JArray).Count; choosePoolRateShow = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  choosePoolRateShow[__index0++] = __v0; }   }
-        { var __json0 = _obj.GetValue("rateShow"); int _n0 = (__json0 as JArray).Count; rateShow = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  rateShow[__index0++] = __v0; }   }
-        { var __json0 = _obj.GetValue("normalPool"); int _n0 = (__json0 as JArray).Count; normalPool = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  normalPool[__index0++] = __v0; }   }
-        { var __json0 = _obj.GetValue("miniPool"); int _n0 = (__json0 as JArray).Count; miniPool = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  miniPool[__index0++] = __v0; }   }
-        { var __json0 = _obj.GetValue("miniPoint"); int _n0 = (__json0 as JArray).Count; miniPoint = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  miniPoint[__index0++] = __v0; }   }
-        choosePool = (int)_obj.GetValue("choosePool");
-        miniCount = (int)_obj.GetValue("miniCount");
-        miniTimes = (int)_obj.GetValue("miniTimes");
-        miniRate = (int)_obj.GetValue("miniRate");
-        { var __json0 = _obj.GetValue("goldGet"); int _n0 = (__json0 as JArray).Count; goldGet = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  goldGet[__index0++] = __v0; }   }
-        limitTimes = (int)_obj.GetValue("limitTimes");
+        id = _buf.ReadInt();
+        orderId = _buf.ReadInt();
+        freeTimes = _buf.ReadInt();
+        priceId = _buf.ReadInt();
+        singlePrice = _buf.ReadInt();
+        singlePriceOrigin = _buf.ReadInt();
+        tenPrice = _buf.ReadInt();
+        tenPriceOrigin = _buf.ReadInt();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);choosePoolRateShow = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); choosePoolRateShow[__index0] = __e0;}}
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);rateShow = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); rateShow[__index0] = __e0;}}
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);normalPool = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); normalPool[__index0] = __e0;}}
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);miniPool = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); miniPool[__index0] = __e0;}}
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);miniPoint = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); miniPoint[__index0] = __e0;}}
+        choosePool = _buf.ReadInt();
+        miniCount = _buf.ReadInt();
+        miniTimes = _buf.ReadInt();
+        miniRate = _buf.ReadInt();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);goldGet = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); goldGet[__index0] = __e0;}}
+        limitTimes = _buf.ReadInt();
     }
 
-    public static TalentLegacy_summonLegacy DeserializeTalentLegacy_summonLegacy(JToken _buf)
+    public static TalentLegacy_summonLegacy DeserializeTalentLegacy_summonLegacy(ByteBuf _buf)
     {
         return new TalentLegacy_summonLegacy(_buf);
     }
@@ -122,8 +118,7 @@ public sealed partial class TalentLegacy_summonLegacy : Luban.BeanBase
     /// 每个宝箱限定抽卡次数（国内版本）
     /// </summary>
     public readonly int limitTimes;
-
-
+   
     public const int __ID__ = 452456468;
     public override int GetTypeId() => __ID__;
 
@@ -156,5 +151,6 @@ public sealed partial class TalentLegacy_summonLegacy : Luban.BeanBase
         + "}";
     }
 }
+
 }
 

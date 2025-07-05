@@ -8,24 +8,20 @@
 //------------------------------------------------------------------------------
 
 using Luban;
-using Newtonsoft.Json.Linq;
-
 
 
 namespace HotFix.Cfg
 {
-
 public sealed partial class WorldBoss_Grouping : Luban.BeanBase
 {
-    public WorldBoss_Grouping(JToken _buf) 
+    public WorldBoss_Grouping(ByteBuf _buf) 
     {
-        JObject _obj = _buf as JObject;
-        ID = (int)_obj.GetValue("ID");
-        RegisterTime = (int)_obj.GetValue("RegisterTime");
-        RegisterTimeMax = (int)_obj.GetValue("RegisterTimeMax");
+        ID = _buf.ReadInt();
+        RegisterTime = _buf.ReadInt();
+        RegisterTimeMax = _buf.ReadInt();
     }
 
-    public static WorldBoss_Grouping DeserializeWorldBoss_Grouping(JToken _buf)
+    public static WorldBoss_Grouping DeserializeWorldBoss_Grouping(ByteBuf _buf)
     {
         return new WorldBoss_Grouping(_buf);
     }
@@ -42,8 +38,7 @@ public sealed partial class WorldBoss_Grouping : Luban.BeanBase
     /// 已注册天数
     /// </summary>
     public readonly int RegisterTimeMax;
-
-
+   
     public const int __ID__ = -128307357;
     public override int GetTypeId() => __ID__;
 
@@ -60,5 +55,6 @@ public sealed partial class WorldBoss_Grouping : Luban.BeanBase
         + "}";
     }
 }
+
 }
 

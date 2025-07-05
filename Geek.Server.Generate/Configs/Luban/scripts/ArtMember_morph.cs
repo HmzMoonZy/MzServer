@@ -8,23 +8,19 @@
 //------------------------------------------------------------------------------
 
 using Luban;
-using Newtonsoft.Json.Linq;
-
 
 
 namespace HotFix.Cfg
 {
-
 public sealed partial class ArtMember_morph : Luban.BeanBase
 {
-    public ArtMember_morph(JToken _buf) 
+    public ArtMember_morph(ByteBuf _buf) 
     {
-        JObject _obj = _buf as JObject;
-        id = (int)_obj.GetValue("id");
-        path = (string)_obj.GetValue("path");
+        id = _buf.ReadInt();
+        path = _buf.ReadString();
     }
 
-    public static ArtMember_morph DeserializeArtMember_morph(JToken _buf)
+    public static ArtMember_morph DeserializeArtMember_morph(ByteBuf _buf)
     {
         return new ArtMember_morph(_buf);
     }
@@ -37,8 +33,7 @@ public sealed partial class ArtMember_morph : Luban.BeanBase
     /// 关卡数据路径
     /// </summary>
     public readonly string path;
-
-
+   
     public const int __ID__ = 2141670662;
     public override int GetTypeId() => __ID__;
 
@@ -54,5 +49,6 @@ public sealed partial class ArtMember_morph : Luban.BeanBase
         + "}";
     }
 }
+
 }
 

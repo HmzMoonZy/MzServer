@@ -8,24 +8,20 @@
 //------------------------------------------------------------------------------
 
 using Luban;
-using Newtonsoft.Json.Linq;
-
 
 
 namespace HotFix.Cfg
 {
-
 public sealed partial class ArtHit_Hit : Luban.BeanBase
 {
-    public ArtHit_Hit(JToken _buf) 
+    public ArtHit_Hit(ByteBuf _buf) 
     {
-        JObject _obj = _buf as JObject;
-        id = (int)_obj.GetValue("id");
-        path = (string)_obj.GetValue("path");
-        effectType = (int)_obj.GetValue("effectType");
+        id = _buf.ReadInt();
+        path = _buf.ReadString();
+        effectType = _buf.ReadInt();
     }
 
-    public static ArtHit_Hit DeserializeArtHit_Hit(JToken _buf)
+    public static ArtHit_Hit DeserializeArtHit_Hit(ByteBuf _buf)
     {
         return new ArtHit_Hit(_buf);
     }
@@ -42,8 +38,7 @@ public sealed partial class ArtHit_Hit : Luban.BeanBase
     /// 特效类型<br/>0、粒子特效<br/>1、spine特效
     /// </summary>
     public readonly int effectType;
-
-
+   
     public const int __ID__ = -1180438268;
     public override int GetTypeId() => __ID__;
 
@@ -60,5 +55,6 @@ public sealed partial class ArtHit_Hit : Luban.BeanBase
         + "}";
     }
 }
+
 }
 

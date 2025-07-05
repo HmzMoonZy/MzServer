@@ -7,14 +7,11 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-using Newtonsoft.Json.Linq;
 using Luban;
-
 
 
 namespace HotFix.Cfg
 {
-
 /// <summary>
 /// Generated from GameSkillBuild.xlsx sheet skillBuild
 /// </summary>
@@ -23,20 +20,19 @@ public partial class TbGameSkillBuild_skillBuild
     private readonly System.Collections.Generic.Dictionary<int, GameSkillBuild_skillBuild> _dataMap;
     private readonly System.Collections.Generic.List<GameSkillBuild_skillBuild> _dataList;
     
-    public TbGameSkillBuild_skillBuild(JArray _buf)
+    public TbGameSkillBuild_skillBuild(ByteBuf _buf)
     {
         _dataMap = new System.Collections.Generic.Dictionary<int, GameSkillBuild_skillBuild>();
         _dataList = new System.Collections.Generic.List<GameSkillBuild_skillBuild>();
         
-        foreach(JObject _ele in _buf)
+        for(int n = _buf.ReadSize() ; n > 0 ; --n)
         {
             GameSkillBuild_skillBuild _v;
-            _v = global::HotFix.Cfg.GameSkillBuild_skillBuild.DeserializeGameSkillBuild_skillBuild(_ele);
+            _v = global::HotFix.Cfg.GameSkillBuild_skillBuild.DeserializeGameSkillBuild_skillBuild(_buf);
             _dataList.Add(_v);
             _dataMap.Add(_v.id, _v);
-         }
+        }
     }
-
 
     public System.Collections.Generic.Dictionary<int, GameSkillBuild_skillBuild> DataMap => _dataMap;
     public System.Collections.Generic.List<GameSkillBuild_skillBuild> DataList => _dataList;
@@ -54,5 +50,6 @@ public partial class TbGameSkillBuild_skillBuild
     }
 
 }
+
 }
 

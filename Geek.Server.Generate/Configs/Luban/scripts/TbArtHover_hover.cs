@@ -7,14 +7,11 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-using Newtonsoft.Json.Linq;
 using Luban;
-
 
 
 namespace HotFix.Cfg
 {
-
 /// <summary>
 /// Generated from ArtHover.xlsx sheet hover
 /// </summary>
@@ -23,20 +20,19 @@ public partial class TbArtHover_hover
     private readonly System.Collections.Generic.Dictionary<int, ArtHover_hover> _dataMap;
     private readonly System.Collections.Generic.List<ArtHover_hover> _dataList;
     
-    public TbArtHover_hover(JArray _buf)
+    public TbArtHover_hover(ByteBuf _buf)
     {
         _dataMap = new System.Collections.Generic.Dictionary<int, ArtHover_hover>();
         _dataList = new System.Collections.Generic.List<ArtHover_hover>();
         
-        foreach(JObject _ele in _buf)
+        for(int n = _buf.ReadSize() ; n > 0 ; --n)
         {
             ArtHover_hover _v;
-            _v = global::HotFix.Cfg.ArtHover_hover.DeserializeArtHover_hover(_ele);
+            _v = global::HotFix.Cfg.ArtHover_hover.DeserializeArtHover_hover(_buf);
             _dataList.Add(_v);
             _dataMap.Add(_v.id, _v);
-         }
+        }
     }
-
 
     public System.Collections.Generic.Dictionary<int, ArtHover_hover> DataMap => _dataMap;
     public System.Collections.Generic.List<ArtHover_hover> DataList => _dataList;
@@ -54,5 +50,6 @@ public partial class TbArtHover_hover
     }
 
 }
+
 }
 

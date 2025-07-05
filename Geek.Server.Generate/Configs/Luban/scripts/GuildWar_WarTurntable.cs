@@ -8,25 +8,21 @@
 //------------------------------------------------------------------------------
 
 using Luban;
-using Newtonsoft.Json.Linq;
-
 
 
 namespace HotFix.Cfg
 {
-
 public sealed partial class GuildWar_WarTurntable : Luban.BeanBase
 {
-    public GuildWar_WarTurntable(JToken _buf) 
+    public GuildWar_WarTurntable(ByteBuf _buf) 
     {
-        JObject _obj = _buf as JObject;
-        id = (int)_obj.GetValue("id");
-        costId = (int)_obj.GetValue("costId");
-        singleCost = (int)_obj.GetValue("singleCost");
-        pool = (int)_obj.GetValue("pool");
+        id = _buf.ReadInt();
+        costId = _buf.ReadInt();
+        singleCost = _buf.ReadInt();
+        pool = _buf.ReadInt();
     }
 
-    public static GuildWar_WarTurntable DeserializeGuildWar_WarTurntable(JToken _buf)
+    public static GuildWar_WarTurntable DeserializeGuildWar_WarTurntable(ByteBuf _buf)
     {
         return new GuildWar_WarTurntable(_buf);
     }
@@ -47,8 +43,7 @@ public sealed partial class GuildWar_WarTurntable : Luban.BeanBase
     /// 池子
     /// </summary>
     public readonly int pool;
-
-
+   
     public const int __ID__ = 875106675;
     public override int GetTypeId() => __ID__;
 
@@ -66,5 +61,6 @@ public sealed partial class GuildWar_WarTurntable : Luban.BeanBase
         + "}";
     }
 }
+
 }
 

@@ -8,31 +8,27 @@
 //------------------------------------------------------------------------------
 
 using Luban;
-using Newtonsoft.Json.Linq;
-
 
 
 namespace HotFix.Cfg
 {
-
 public sealed partial class IAP_PaySignIn : Luban.BeanBase
 {
-    public IAP_PaySignIn(JToken _buf) 
+    public IAP_PaySignIn(ByteBuf _buf) 
     {
-        JObject _obj = _buf as JObject;
-        ID = (int)_obj.GetValue("ID");
-        openTime = (string)_obj.GetValue("openTime");
-        endTime = (string)_obj.GetValue("endTime");
-        openTimeCN = (string)_obj.GetValue("openTimeCN");
-        endTimeCN = (string)_obj.GetValue("endTimeCN");
-        iapId = (int)_obj.GetValue("iapId");
-        groupId = (int)_obj.GetValue("groupId");
-        atlasId = (int)_obj.GetValue("atlasId");
-        imgBanner = (string)_obj.GetValue("imgBanner");
-        mailId = (string)_obj.GetValue("mailId");
+        ID = _buf.ReadInt();
+        openTime = _buf.ReadString();
+        endTime = _buf.ReadString();
+        openTimeCN = _buf.ReadString();
+        endTimeCN = _buf.ReadString();
+        iapId = _buf.ReadInt();
+        groupId = _buf.ReadInt();
+        atlasId = _buf.ReadInt();
+        imgBanner = _buf.ReadString();
+        mailId = _buf.ReadString();
     }
 
-    public static IAP_PaySignIn DeserializeIAP_PaySignIn(JToken _buf)
+    public static IAP_PaySignIn DeserializeIAP_PaySignIn(ByteBuf _buf)
     {
         return new IAP_PaySignIn(_buf);
     }
@@ -77,8 +73,7 @@ public sealed partial class IAP_PaySignIn : Luban.BeanBase
     /// 未领取补发邮件ID
     /// </summary>
     public readonly string mailId;
-
-
+   
     public const int __ID__ = 1817295139;
     public override int GetTypeId() => __ID__;
 
@@ -102,5 +97,6 @@ public sealed partial class IAP_PaySignIn : Luban.BeanBase
         + "}";
     }
 }
+
 }
 

@@ -8,53 +8,49 @@
 //------------------------------------------------------------------------------
 
 using Luban;
-using Newtonsoft.Json.Linq;
-
 
 
 namespace HotFix.Cfg
 {
-
 public sealed partial class GameBuff_buff : Luban.BeanBase
 {
-    public GameBuff_buff(JToken _buf) 
+    public GameBuff_buff(ByteBuf _buf) 
     {
-        JObject _obj = _buf as JObject;
-        id = (int)_obj.GetValue("id");
-        atlasID = (int)_obj.GetValue("atlasID");
-        spriteName = (string)_obj.GetValue("spriteName");
-        nameID = (string)_obj.GetValue("nameID");
-        hudLanguageID = (int)_obj.GetValue("hudLanguageID");
-        soundId = (int)_obj.GetValue("soundId");
-        ownerType = (int)_obj.GetValue("ownerType");
-        freedType = (int)_obj.GetValue("freedType");
-        buffStateType = (int)_obj.GetValue("buffStateType");
-        hitPrefabID = (int)_obj.GetValue("hitPrefabID");
-        hitShakeID = (int)_obj.GetValue("hitShakeID");
-        hitTransType = (int)_obj.GetValue("hitTransType");
-        prefabID = (int)_obj.GetValue("prefabID");
-        transType = (string)_obj.GetValue("transType");
-        removeEffectID = (int)_obj.GetValue("removeEffectID");
-        removeEffectPos = (int)_obj.GetValue("removeEffectPos");
-        buffType = (int)_obj.GetValue("buffType");
-        parameters = (string)_obj.GetValue("parameters");
-        duration = (int)_obj.GetValue("duration");
-        overlayType = (int)_obj.GetValue("overlayType");
-        overlayMax = (int)_obj.GetValue("overlayMax");
-        addCountRound = (int)_obj.GetValue("addCountRound");
-        addAttributes = (string)_obj.GetValue("addAttributes");
-        addAttributesOnce = (string)_obj.GetValue("addAttributesOnce");
-        { var __json0 = _obj.GetValue("triggerTags"); int _n0 = (__json0 as JArray).Count; triggerTags = new int[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { int __v0;  __v0 = (int)__e0;  triggerTags[__index0++] = __v0; }   }
-        { var __json0 = _obj.GetValue("buffTypeDamageAddParam"); int _n0 = (__json0 as JArray).Count; buffTypeDamageAddParam = new int[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { int __v0;  __v0 = (int)__e0;  buffTypeDamageAddParam[__index0++] = __v0; }   }
-        triggerAttributes = (string)_obj.GetValue("triggerAttributes");
-        { var __json0 = _obj.GetValue("triggerBuffs"); int _n0 = (__json0 as JArray).Count; triggerBuffs = new int[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { int __v0;  __v0 = (int)__e0;  triggerBuffs[__index0++] = __v0; }   }
-        { var __json0 = _obj.GetValue("removeAddBuffs"); int _n0 = (__json0 as JArray).Count; removeAddBuffs = new int[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { int __v0;  __v0 = (int)__e0;  removeAddBuffs[__index0++] = __v0; }   }
-        { var __json0 = _obj.GetValue("removeRemoveBuffs"); int _n0 = (__json0 as JArray).Count; removeRemoveBuffs = new int[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { int __v0;  __v0 = (int)__e0;  removeRemoveBuffs[__index0++] = __v0; }   }
-        DamageStatisticsShowSkillID = (int)_obj.GetValue("DamageStatisticsShowSkillID");
-        DamageStatisticsShowBuffID = (int)_obj.GetValue("DamageStatisticsShowBuffID");
+        id = _buf.ReadInt();
+        atlasID = _buf.ReadInt();
+        spriteName = _buf.ReadString();
+        nameID = _buf.ReadString();
+        hudLanguageID = _buf.ReadInt();
+        soundId = _buf.ReadInt();
+        ownerType = _buf.ReadInt();
+        freedType = _buf.ReadInt();
+        buffStateType = _buf.ReadInt();
+        hitPrefabID = _buf.ReadInt();
+        hitShakeID = _buf.ReadInt();
+        hitTransType = _buf.ReadInt();
+        prefabID = _buf.ReadInt();
+        transType = _buf.ReadString();
+        removeEffectID = _buf.ReadInt();
+        removeEffectPos = _buf.ReadInt();
+        buffType = _buf.ReadInt();
+        parameters = _buf.ReadString();
+        duration = _buf.ReadInt();
+        overlayType = _buf.ReadInt();
+        overlayMax = _buf.ReadInt();
+        addCountRound = _buf.ReadInt();
+        addAttributes = _buf.ReadString();
+        addAttributesOnce = _buf.ReadString();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);triggerTags = new int[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { int __e0;__e0 = _buf.ReadInt(); triggerTags[__index0] = __e0;}}
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);buffTypeDamageAddParam = new int[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { int __e0;__e0 = _buf.ReadInt(); buffTypeDamageAddParam[__index0] = __e0;}}
+        triggerAttributes = _buf.ReadString();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);triggerBuffs = new int[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { int __e0;__e0 = _buf.ReadInt(); triggerBuffs[__index0] = __e0;}}
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);removeAddBuffs = new int[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { int __e0;__e0 = _buf.ReadInt(); removeAddBuffs[__index0] = __e0;}}
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);removeRemoveBuffs = new int[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { int __e0;__e0 = _buf.ReadInt(); removeRemoveBuffs[__index0] = __e0;}}
+        DamageStatisticsShowSkillID = _buf.ReadInt();
+        DamageStatisticsShowBuffID = _buf.ReadInt();
     }
 
-    public static GameBuff_buff DeserializeGameBuff_buff(JToken _buf)
+    public static GameBuff_buff DeserializeGameBuff_buff(ByteBuf _buf)
     {
         return new GameBuff_buff(_buf);
     }
@@ -187,8 +183,7 @@ public sealed partial class GameBuff_buff : Luban.BeanBase
     /// 伤害统计展示BuffID
     /// </summary>
     public readonly int DamageStatisticsShowBuffID;
-
-
+   
     public const int __ID__ = 1371621581;
     public override int GetTypeId() => __ID__;
 
@@ -234,5 +229,6 @@ public sealed partial class GameBuff_buff : Luban.BeanBase
         + "}";
     }
 }
+
 }
 

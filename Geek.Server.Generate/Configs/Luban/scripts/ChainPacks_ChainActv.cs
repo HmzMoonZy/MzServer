@@ -8,30 +8,26 @@
 //------------------------------------------------------------------------------
 
 using Luban;
-using Newtonsoft.Json.Linq;
-
 
 
 namespace HotFix.Cfg
 {
-
 public sealed partial class ChainPacks_ChainActv : Luban.BeanBase
 {
-    public ChainPacks_ChainActv(JToken _buf) 
+    public ChainPacks_ChainActv(ByteBuf _buf) 
     {
-        JObject _obj = _buf as JObject;
-        id = (int)_obj.GetValue("id");
-        type = (int)_obj.GetValue("type");
-        groupID = (int)_obj.GetValue("groupID");
-        name = (string)_obj.GetValue("name");
-        OpenTime = (string)_obj.GetValue("OpenTime");
-        EndTime = (string)_obj.GetValue("EndTime");
-        packVersion = (string)_obj.GetValue("packVersion");
-        condition = (int)_obj.GetValue("condition");
-        RateValue = (int)_obj.GetValue("RateValue");
+        id = _buf.ReadInt();
+        type = _buf.ReadInt();
+        groupID = _buf.ReadInt();
+        name = _buf.ReadString();
+        OpenTime = _buf.ReadString();
+        EndTime = _buf.ReadString();
+        packVersion = _buf.ReadString();
+        condition = _buf.ReadInt();
+        RateValue = _buf.ReadInt();
     }
 
-    public static ChainPacks_ChainActv DeserializeChainPacks_ChainActv(JToken _buf)
+    public static ChainPacks_ChainActv DeserializeChainPacks_ChainActv(ByteBuf _buf)
     {
         return new ChainPacks_ChainActv(_buf);
     }
@@ -72,8 +68,7 @@ public sealed partial class ChainPacks_ChainActv : Luban.BeanBase
     /// 回报百分比
     /// </summary>
     public readonly int RateValue;
-
-
+   
     public const int __ID__ = 397419263;
     public override int GetTypeId() => __ID__;
 
@@ -96,5 +91,6 @@ public sealed partial class ChainPacks_ChainActv : Luban.BeanBase
         + "}";
     }
 }
+
 }
 

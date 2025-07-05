@@ -7,14 +7,11 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-using Newtonsoft.Json.Linq;
 using Luban;
-
 
 
 namespace HotFix.Cfg
 {
-
 /// <summary>
 /// Generated from ActivityWheel.xlsx sheet ExtractReward
 /// </summary>
@@ -23,20 +20,19 @@ public partial class TbActivityWheel_ExtractReward
     private readonly System.Collections.Generic.Dictionary<int, ActivityWheel_ExtractReward> _dataMap;
     private readonly System.Collections.Generic.List<ActivityWheel_ExtractReward> _dataList;
     
-    public TbActivityWheel_ExtractReward(JArray _buf)
+    public TbActivityWheel_ExtractReward(ByteBuf _buf)
     {
         _dataMap = new System.Collections.Generic.Dictionary<int, ActivityWheel_ExtractReward>();
         _dataList = new System.Collections.Generic.List<ActivityWheel_ExtractReward>();
         
-        foreach(JObject _ele in _buf)
+        for(int n = _buf.ReadSize() ; n > 0 ; --n)
         {
             ActivityWheel_ExtractReward _v;
-            _v = global::HotFix.Cfg.ActivityWheel_ExtractReward.DeserializeActivityWheel_ExtractReward(_ele);
+            _v = global::HotFix.Cfg.ActivityWheel_ExtractReward.DeserializeActivityWheel_ExtractReward(_buf);
             _dataList.Add(_v);
             _dataMap.Add(_v.id, _v);
-         }
+        }
     }
-
 
     public System.Collections.Generic.Dictionary<int, ActivityWheel_ExtractReward> DataMap => _dataMap;
     public System.Collections.Generic.List<ActivityWheel_ExtractReward> DataList => _dataList;
@@ -54,5 +50,6 @@ public partial class TbActivityWheel_ExtractReward
     }
 
 }
+
 }
 

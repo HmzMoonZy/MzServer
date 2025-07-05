@@ -8,29 +8,25 @@
 //------------------------------------------------------------------------------
 
 using Luban;
-using Newtonsoft.Json.Linq;
-
 
 
 namespace HotFix.Cfg
 {
-
 public sealed partial class Equip_divineCasting : Luban.BeanBase
 {
-    public Equip_divineCasting(JToken _buf) 
+    public Equip_divineCasting(ByteBuf _buf) 
     {
-        JObject _obj = _buf as JObject;
-        id = (int)_obj.GetValue("id");
-        godMakeLevel = (int)_obj.GetValue("godMakeLevel");
-        unlock = (int)_obj.GetValue("unlock");
-        nextID = (int)_obj.GetValue("nextID");
-        { var __json0 = _obj.GetValue("cost"); int _n0 = (__json0 as JArray).Count; cost = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  cost[__index0++] = __v0; }   }
-        { var __json0 = _obj.GetValue("equipCost"); int _n0 = (__json0 as JArray).Count; equipCost = new int[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { int __v0;  __v0 = (int)__e0;  equipCost[__index0++] = __v0; }   }
-        { var __json0 = _obj.GetValue("attribute"); int _n0 = (__json0 as JArray).Count; attribute = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  attribute[__index0++] = __v0; }   }
-        effectLanguage = (string)_obj.GetValue("effectLanguage");
+        id = _buf.ReadInt();
+        godMakeLevel = _buf.ReadInt();
+        unlock = _buf.ReadInt();
+        nextID = _buf.ReadInt();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);cost = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); cost[__index0] = __e0;}}
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);equipCost = new int[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { int __e0;__e0 = _buf.ReadInt(); equipCost[__index0] = __e0;}}
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);attribute = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); attribute[__index0] = __e0;}}
+        effectLanguage = _buf.ReadString();
     }
 
-    public static Equip_divineCasting DeserializeEquip_divineCasting(JToken _buf)
+    public static Equip_divineCasting DeserializeEquip_divineCasting(ByteBuf _buf)
     {
         return new Equip_divineCasting(_buf);
     }
@@ -67,8 +63,7 @@ public sealed partial class Equip_divineCasting : Luban.BeanBase
     /// 神铸效果多语言
     /// </summary>
     public readonly string effectLanguage;
-
-
+   
     public const int __ID__ = 322565541;
     public override int GetTypeId() => __ID__;
 
@@ -90,5 +85,6 @@ public sealed partial class Equip_divineCasting : Luban.BeanBase
         + "}";
     }
 }
+
 }
 

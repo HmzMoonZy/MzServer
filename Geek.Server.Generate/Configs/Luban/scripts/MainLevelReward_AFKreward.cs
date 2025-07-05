@@ -8,27 +8,23 @@
 //------------------------------------------------------------------------------
 
 using Luban;
-using Newtonsoft.Json.Linq;
-
 
 
 namespace HotFix.Cfg
 {
-
 public sealed partial class MainLevelReward_AFKreward : Luban.BeanBase
 {
-    public MainLevelReward_AFKreward(JToken _buf) 
+    public MainLevelReward_AFKreward(ByteBuf _buf) 
     {
-        JObject _obj = _buf as JObject;
-        ID = (int)_obj.GetValue("ID");
-        RewardLevel = (int)_obj.GetValue("RewardLevel");
-        RequiredLevel = (int)_obj.GetValue("RequiredLevel");
-        HangGold = (int)_obj.GetValue("HangGold");
-        HangDust = (int)_obj.GetValue("HangDust");
-        HangHeroExp = (int)_obj.GetValue("HangHeroExp");
+        ID = _buf.ReadInt();
+        RewardLevel = _buf.ReadInt();
+        RequiredLevel = _buf.ReadInt();
+        HangGold = _buf.ReadInt();
+        HangDust = _buf.ReadInt();
+        HangHeroExp = _buf.ReadInt();
     }
 
-    public static MainLevelReward_AFKreward DeserializeMainLevelReward_AFKreward(JToken _buf)
+    public static MainLevelReward_AFKreward DeserializeMainLevelReward_AFKreward(ByteBuf _buf)
     {
         return new MainLevelReward_AFKreward(_buf);
     }
@@ -57,8 +53,7 @@ public sealed partial class MainLevelReward_AFKreward : Luban.BeanBase
     /// 挂机英雄经验奖励
     /// </summary>
     public readonly int HangHeroExp;
-
-
+   
     public const int __ID__ = -1587578448;
     public override int GetTypeId() => __ID__;
 
@@ -78,5 +73,6 @@ public sealed partial class MainLevelReward_AFKreward : Luban.BeanBase
         + "}";
     }
 }
+
 }
 

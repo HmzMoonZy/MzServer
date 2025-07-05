@@ -8,48 +8,44 @@
 //------------------------------------------------------------------------------
 
 using Luban;
-using Newtonsoft.Json.Linq;
-
 
 
 namespace HotFix.Cfg
 {
-
 public sealed partial class Shop_Summon : Luban.BeanBase
 {
-    public Shop_Summon(JToken _buf) 
+    public Shop_Summon(ByteBuf _buf) 
     {
-        JObject _obj = _buf as JObject;
-        id = (int)_obj.GetValue("id");
-        orderId = (int)_obj.GetValue("orderId");
-        groupId = (int)_obj.GetValue("groupId");
-        freeTimes = (int)_obj.GetValue("freeTimes");
-        adId = (int)_obj.GetValue("adId");
-        priceId = (int)_obj.GetValue("priceId");
-        singlePrice = (int)_obj.GetValue("singlePrice");
-        singlePriceOrigin = (int)_obj.GetValue("singlePriceOrigin");
-        quickDraw = (int)_obj.GetValue("quickDraw");
-        tenPrice = (int)_obj.GetValue("tenPrice");
-        tenPriceOrigin = (int)_obj.GetValue("tenPriceOrigin");
-        { var __json0 = _obj.GetValue("first"); int _n0 = (__json0 as JArray).Count; first = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  first[__index0++] = __v0; }   }
-        { var __json0 = _obj.GetValue("rateShow"); int _n0 = (__json0 as JArray).Count; rateShow = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  rateShow[__index0++] = __v0; }   }
-        { var __json0 = _obj.GetValue("normalRate"); int _n0 = (__json0 as JArray).Count; normalRate = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  normalRate[__index0++] = __v0; }   }
-        { var __json0 = _obj.GetValue("reverseRate"); int _n0 = (__json0 as JArray).Count; reverseRate = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  reverseRate[__index0++] = __v0; }   }
-        reverseCount = (int)_obj.GetValue("reverseCount");
-        reversePool = (int)_obj.GetValue("reversePool");
-        { var __json0 = _obj.GetValue("goldGet"); int _n0 = (__json0 as JArray).Count; goldGet = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  goldGet[__index0++] = __v0; }   }
-        limitTimes = (int)_obj.GetValue("limitTimes");
-        miniPityCount = (int)_obj.GetValue("miniPityCount");
-        { var __json0 = _obj.GetValue("miniPityRate"); int _n0 = (__json0 as JArray).Count; miniPityRate = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  miniPityRate[__index0++] = __v0; }   }
-        miniPityPool = (int)_obj.GetValue("miniPityPool");
-        hardPityCount = (int)_obj.GetValue("hardPityCount");
-        { var __json0 = _obj.GetValue("hardPityRate"); int _n0 = (__json0 as JArray).Count; hardPityRate = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  hardPityRate[__index0++] = __v0; }   }
-        hardPityPool = (int)_obj.GetValue("hardPityPool");
-        upEquipID = (int)_obj.GetValue("upEquipID");
-        boxId = (int)_obj.GetValue("boxId");
+        id = _buf.ReadInt();
+        orderId = _buf.ReadInt();
+        groupId = _buf.ReadInt();
+        freeTimes = _buf.ReadInt();
+        adId = _buf.ReadInt();
+        priceId = _buf.ReadInt();
+        singlePrice = _buf.ReadInt();
+        singlePriceOrigin = _buf.ReadInt();
+        quickDraw = _buf.ReadInt();
+        tenPrice = _buf.ReadInt();
+        tenPriceOrigin = _buf.ReadInt();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);first = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); first[__index0] = __e0;}}
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);rateShow = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); rateShow[__index0] = __e0;}}
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);normalRate = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); normalRate[__index0] = __e0;}}
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);reverseRate = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); reverseRate[__index0] = __e0;}}
+        reverseCount = _buf.ReadInt();
+        reversePool = _buf.ReadInt();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);goldGet = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); goldGet[__index0] = __e0;}}
+        limitTimes = _buf.ReadInt();
+        miniPityCount = _buf.ReadInt();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);miniPityRate = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); miniPityRate[__index0] = __e0;}}
+        miniPityPool = _buf.ReadInt();
+        hardPityCount = _buf.ReadInt();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);hardPityRate = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); hardPityRate[__index0] = __e0;}}
+        hardPityPool = _buf.ReadInt();
+        upEquipID = _buf.ReadInt();
+        boxId = _buf.ReadInt();
     }
 
-    public static Shop_Summon DeserializeShop_Summon(JToken _buf)
+    public static Shop_Summon DeserializeShop_Summon(ByteBuf _buf)
     {
         return new Shop_Summon(_buf);
     }
@@ -162,8 +158,7 @@ public sealed partial class Shop_Summon : Luban.BeanBase
     /// 箱子id<br/>1-青铜宝箱<br/>2-白银宝箱<br/>3-黄金宝箱<br/>4-钻石宝箱
     /// </summary>
     public readonly int boxId;
-
-
+   
     public const int __ID__ = 1977734730;
     public override int GetTypeId() => __ID__;
 
@@ -204,5 +199,6 @@ public sealed partial class Shop_Summon : Luban.BeanBase
         + "}";
     }
 }
+
 }
 

@@ -8,24 +8,20 @@
 //------------------------------------------------------------------------------
 
 using Luban;
-using Newtonsoft.Json.Linq;
-
 
 
 namespace HotFix.Cfg
 {
-
 public sealed partial class ArtBullet_Bullet : Luban.BeanBase
 {
-    public ArtBullet_Bullet(JToken _buf) 
+    public ArtBullet_Bullet(ByteBuf _buf) 
     {
-        JObject _obj = _buf as JObject;
-        id = (int)_obj.GetValue("id");
-        path = (string)_obj.GetValue("path");
-        effectType = (int)_obj.GetValue("effectType");
+        id = _buf.ReadInt();
+        path = _buf.ReadString();
+        effectType = _buf.ReadInt();
     }
 
-    public static ArtBullet_Bullet DeserializeArtBullet_Bullet(JToken _buf)
+    public static ArtBullet_Bullet DeserializeArtBullet_Bullet(ByteBuf _buf)
     {
         return new ArtBullet_Bullet(_buf);
     }
@@ -42,8 +38,7 @@ public sealed partial class ArtBullet_Bullet : Luban.BeanBase
     /// 特效类型<br/>0、粒子特效<br/>1、spine特效
     /// </summary>
     public readonly int effectType;
-
-
+   
     public const int __ID__ = 761845116;
     public override int GetTypeId() => __ID__;
 
@@ -60,5 +55,6 @@ public sealed partial class ArtBullet_Bullet : Luban.BeanBase
         + "}";
     }
 }
+
 }
 

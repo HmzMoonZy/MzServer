@@ -8,28 +8,24 @@
 //------------------------------------------------------------------------------
 
 using Luban;
-using Newtonsoft.Json.Linq;
-
 
 
 namespace HotFix.Cfg
 {
-
 public sealed partial class Emoji_Emoji : Luban.BeanBase
 {
-    public Emoji_Emoji(JToken _buf) 
+    public Emoji_Emoji(ByteBuf _buf) 
     {
-        JObject _obj = _buf as JObject;
-        id = (int)_obj.GetValue("id");
-        notes = (string)_obj.GetValue("notes");
-        group = (int)_obj.GetValue("group");
-        languageid = (int)_obj.GetValue("languageid");
-        path = (string)_obj.GetValue("path");
-        atlasId = (int)_obj.GetValue("atlasId");
-        icon = (string)_obj.GetValue("icon");
+        id = _buf.ReadInt();
+        notes = _buf.ReadString();
+        group = _buf.ReadInt();
+        languageid = _buf.ReadInt();
+        path = _buf.ReadString();
+        atlasId = _buf.ReadInt();
+        icon = _buf.ReadString();
     }
 
-    public static Emoji_Emoji DeserializeEmoji_Emoji(JToken _buf)
+    public static Emoji_Emoji DeserializeEmoji_Emoji(ByteBuf _buf)
     {
         return new Emoji_Emoji(_buf);
     }
@@ -62,8 +58,7 @@ public sealed partial class Emoji_Emoji : Luban.BeanBase
     /// 缩略图图片Icon
     /// </summary>
     public readonly string icon;
-
-
+   
     public const int __ID__ = -899920179;
     public override int GetTypeId() => __ID__;
 
@@ -84,5 +79,6 @@ public sealed partial class Emoji_Emoji : Luban.BeanBase
         + "}";
     }
 }
+
 }
 

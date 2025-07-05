@@ -8,25 +8,21 @@
 //------------------------------------------------------------------------------
 
 using Luban;
-using Newtonsoft.Json.Linq;
-
 
 
 namespace HotFix.Cfg
 {
-
 public sealed partial class Plinko_PlinkoDynamic : Luban.BeanBase
 {
-    public Plinko_PlinkoDynamic(JToken _buf) 
+    public Plinko_PlinkoDynamic(ByteBuf _buf) 
     {
-        JObject _obj = _buf as JObject;
-        ID = (int)_obj.GetValue("ID");
-        { var __json0 = _obj.GetValue("ComsumRange"); int _n0 = (__json0 as JArray).Count; ComsumRange = new int[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { int __v0;  __v0 = (int)__e0;  ComsumRange[__index0++] = __v0; }   }
-        MinValue = (int)_obj.GetValue("MinValue");
-        MaxValue = (int)_obj.GetValue("MaxValue");
+        ID = _buf.ReadInt();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);ComsumRange = new int[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { int __e0;__e0 = _buf.ReadInt(); ComsumRange[__index0] = __e0;}}
+        MinValue = _buf.ReadInt();
+        MaxValue = _buf.ReadInt();
     }
 
-    public static Plinko_PlinkoDynamic DeserializePlinko_PlinkoDynamic(JToken _buf)
+    public static Plinko_PlinkoDynamic DeserializePlinko_PlinkoDynamic(ByteBuf _buf)
     {
         return new Plinko_PlinkoDynamic(_buf);
     }
@@ -47,8 +43,7 @@ public sealed partial class Plinko_PlinkoDynamic : Luban.BeanBase
     /// 获得最大价值
     /// </summary>
     public readonly int MaxValue;
-
-
+   
     public const int __ID__ = 889883072;
     public override int GetTypeId() => __ID__;
 
@@ -66,5 +61,6 @@ public sealed partial class Plinko_PlinkoDynamic : Luban.BeanBase
         + "}";
     }
 }
+
 }
 

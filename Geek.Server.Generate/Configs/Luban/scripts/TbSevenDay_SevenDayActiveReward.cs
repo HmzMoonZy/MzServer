@@ -7,14 +7,11 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-using Newtonsoft.Json.Linq;
 using Luban;
-
 
 
 namespace HotFix.Cfg
 {
-
 /// <summary>
 /// Generated from SevenDay.xlsx sheet SevenDayActiveReward
 /// </summary>
@@ -23,20 +20,19 @@ public partial class TbSevenDay_SevenDayActiveReward
     private readonly System.Collections.Generic.Dictionary<int, SevenDay_SevenDayActiveReward> _dataMap;
     private readonly System.Collections.Generic.List<SevenDay_SevenDayActiveReward> _dataList;
     
-    public TbSevenDay_SevenDayActiveReward(JArray _buf)
+    public TbSevenDay_SevenDayActiveReward(ByteBuf _buf)
     {
         _dataMap = new System.Collections.Generic.Dictionary<int, SevenDay_SevenDayActiveReward>();
         _dataList = new System.Collections.Generic.List<SevenDay_SevenDayActiveReward>();
         
-        foreach(JObject _ele in _buf)
+        for(int n = _buf.ReadSize() ; n > 0 ; --n)
         {
             SevenDay_SevenDayActiveReward _v;
-            _v = global::HotFix.Cfg.SevenDay_SevenDayActiveReward.DeserializeSevenDay_SevenDayActiveReward(_ele);
+            _v = global::HotFix.Cfg.SevenDay_SevenDayActiveReward.DeserializeSevenDay_SevenDayActiveReward(_buf);
             _dataList.Add(_v);
             _dataMap.Add(_v.ID, _v);
-         }
+        }
     }
-
 
     public System.Collections.Generic.Dictionary<int, SevenDay_SevenDayActiveReward> DataMap => _dataMap;
     public System.Collections.Generic.List<SevenDay_SevenDayActiveReward> DataList => _dataList;
@@ -54,5 +50,6 @@ public partial class TbSevenDay_SevenDayActiveReward
     }
 
 }
+
 }
 

@@ -8,28 +8,24 @@
 //------------------------------------------------------------------------------
 
 using Luban;
-using Newtonsoft.Json.Linq;
-
 
 
 namespace HotFix.Cfg
 {
-
 public sealed partial class IAP_BattlePassReward : Luban.BeanBase
 {
-    public IAP_BattlePassReward(JToken _buf) 
+    public IAP_BattlePassReward(ByteBuf _buf) 
     {
-        JObject _obj = _buf as JObject;
-        id = (int)_obj.GetValue("id");
-        level = (int)_obj.GetValue("level");
-        groupId = (int)_obj.GetValue("groupId");
-        type = (int)_obj.GetValue("type");
-        { var __json0 = _obj.GetValue("freeReward"); int _n0 = (__json0 as JArray).Count; freeReward = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  freeReward[__index0++] = __v0; }   }
-        { var __json0 = _obj.GetValue("battlePassReward"); int _n0 = (__json0 as JArray).Count; battlePassReward = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  battlePassReward[__index0++] = __v0; }   }
-        score = (int)_obj.GetValue("score");
+        id = _buf.ReadInt();
+        level = _buf.ReadInt();
+        groupId = _buf.ReadInt();
+        type = _buf.ReadInt();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);freeReward = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); freeReward[__index0] = __e0;}}
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);battlePassReward = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); battlePassReward[__index0] = __e0;}}
+        score = _buf.ReadInt();
     }
 
-    public static IAP_BattlePassReward DeserializeIAP_BattlePassReward(JToken _buf)
+    public static IAP_BattlePassReward DeserializeIAP_BattlePassReward(ByteBuf _buf)
     {
         return new IAP_BattlePassReward(_buf);
     }
@@ -62,8 +58,7 @@ public sealed partial class IAP_BattlePassReward : Luban.BeanBase
     /// 解锁点数：<br/>奖励类型为3时，该点数为循环点数
     /// </summary>
     public readonly int score;
-
-
+   
     public const int __ID__ = -1023706945;
     public override int GetTypeId() => __ID__;
 
@@ -84,5 +79,6 @@ public sealed partial class IAP_BattlePassReward : Luban.BeanBase
         + "}";
     }
 }
+
 }
 

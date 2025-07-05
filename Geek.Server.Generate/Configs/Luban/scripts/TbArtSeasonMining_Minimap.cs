@@ -7,14 +7,11 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-using Newtonsoft.Json.Linq;
 using Luban;
-
 
 
 namespace HotFix.Cfg
 {
-
 /// <summary>
 /// Generated from ArtSeasonMining.xlsx sheet Minimap
 /// </summary>
@@ -23,20 +20,19 @@ public partial class TbArtSeasonMining_Minimap
     private readonly System.Collections.Generic.Dictionary<int, ArtSeasonMining_Minimap> _dataMap;
     private readonly System.Collections.Generic.List<ArtSeasonMining_Minimap> _dataList;
     
-    public TbArtSeasonMining_Minimap(JArray _buf)
+    public TbArtSeasonMining_Minimap(ByteBuf _buf)
     {
         _dataMap = new System.Collections.Generic.Dictionary<int, ArtSeasonMining_Minimap>();
         _dataList = new System.Collections.Generic.List<ArtSeasonMining_Minimap>();
         
-        foreach(JObject _ele in _buf)
+        for(int n = _buf.ReadSize() ; n > 0 ; --n)
         {
             ArtSeasonMining_Minimap _v;
-            _v = global::HotFix.Cfg.ArtSeasonMining_Minimap.DeserializeArtSeasonMining_Minimap(_ele);
+            _v = global::HotFix.Cfg.ArtSeasonMining_Minimap.DeserializeArtSeasonMining_Minimap(_buf);
             _dataList.Add(_v);
             _dataMap.Add(_v.id, _v);
-         }
+        }
     }
-
 
     public System.Collections.Generic.Dictionary<int, ArtSeasonMining_Minimap> DataMap => _dataMap;
     public System.Collections.Generic.List<ArtSeasonMining_Minimap> DataList => _dataList;
@@ -54,5 +50,6 @@ public partial class TbArtSeasonMining_Minimap
     }
 
 }
+
 }
 

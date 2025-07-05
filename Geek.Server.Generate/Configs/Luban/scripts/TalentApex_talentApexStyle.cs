@@ -8,30 +8,26 @@
 //------------------------------------------------------------------------------
 
 using Luban;
-using Newtonsoft.Json.Linq;
-
 
 
 namespace HotFix.Cfg
 {
-
 public sealed partial class TalentApex_talentApexStyle : Luban.BeanBase
 {
-    public TalentApex_talentApexStyle(JToken _buf) 
+    public TalentApex_talentApexStyle(ByteBuf _buf) 
     {
-        JObject _obj = _buf as JObject;
-        id = (int)_obj.GetValue("id");
-        atlas = (int)_obj.GetValue("atlas");
-        backgroundName = (string)_obj.GetValue("backgroundName");
-        maxLevelBackgroundName = (string)_obj.GetValue("maxLevelBackgroundName");
-        upgradeFx = (string)_obj.GetValue("upgradeFx");
-        { var __json0 = _obj.GetValue("CornerMarkOffset"); int _n0 = (__json0 as JArray).Count; CornerMarkOffset = new int[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { int __v0;  __v0 = (int)__e0;  CornerMarkOffset[__index0++] = __v0; }   }
-        nodeScale = (float)_obj.GetValue("nodeScale");
-        IconScale = (float)_obj.GetValue("IconScale");
-        noLink = (int)_obj.GetValue("noLink");
+        id = _buf.ReadInt();
+        atlas = _buf.ReadInt();
+        backgroundName = _buf.ReadString();
+        maxLevelBackgroundName = _buf.ReadString();
+        upgradeFx = _buf.ReadString();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);CornerMarkOffset = new int[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { int __e0;__e0 = _buf.ReadInt(); CornerMarkOffset[__index0] = __e0;}}
+        nodeScale = _buf.ReadFloat();
+        IconScale = _buf.ReadFloat();
+        noLink = _buf.ReadInt();
     }
 
-    public static TalentApex_talentApexStyle DeserializeTalentApex_talentApexStyle(JToken _buf)
+    public static TalentApex_talentApexStyle DeserializeTalentApex_talentApexStyle(ByteBuf _buf)
     {
         return new TalentApex_talentApexStyle(_buf);
     }
@@ -72,8 +68,7 @@ public sealed partial class TalentApex_talentApexStyle : Luban.BeanBase
     /// 不显示连线
     /// </summary>
     public readonly int noLink;
-
-
+   
     public const int __ID__ = 271773746;
     public override int GetTypeId() => __ID__;
 
@@ -96,5 +91,6 @@ public sealed partial class TalentApex_talentApexStyle : Luban.BeanBase
         + "}";
     }
 }
+
 }
 

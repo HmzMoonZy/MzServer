@@ -8,25 +8,21 @@
 //------------------------------------------------------------------------------
 
 using Luban;
-using Newtonsoft.Json.Linq;
-
 
 
 namespace HotFix.Cfg
 {
-
 public sealed partial class ArtMember_clothes : Luban.BeanBase
 {
-    public ArtMember_clothes(JToken _buf) 
+    public ArtMember_clothes(ByteBuf _buf) 
     {
-        JObject _obj = _buf as JObject;
-        id = (int)_obj.GetValue("id");
-        path = (string)_obj.GetValue("path");
-        effectPath = (string)_obj.GetValue("effectPath");
-        heroEffectPath = (string)_obj.GetValue("heroEffectPath");
+        id = _buf.ReadInt();
+        path = _buf.ReadString();
+        effectPath = _buf.ReadString();
+        heroEffectPath = _buf.ReadString();
     }
 
-    public static ArtMember_clothes DeserializeArtMember_clothes(JToken _buf)
+    public static ArtMember_clothes DeserializeArtMember_clothes(ByteBuf _buf)
     {
         return new ArtMember_clothes(_buf);
     }
@@ -47,8 +43,7 @@ public sealed partial class ArtMember_clothes : Luban.BeanBase
     /// 英雄特效路径
     /// </summary>
     public readonly string heroEffectPath;
-
-
+   
     public const int __ID__ = 482533574;
     public override int GetTypeId() => __ID__;
 
@@ -66,5 +61,6 @@ public sealed partial class ArtMember_clothes : Luban.BeanBase
         + "}";
     }
 }
+
 }
 

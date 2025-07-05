@@ -7,14 +7,11 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-using Newtonsoft.Json.Linq;
 using Luban;
-
 
 
 namespace HotFix.Cfg
 {
-
 /// <summary>
 /// Generated from MythicDungeon.xlsx sheet blessDrop
 /// </summary>
@@ -23,20 +20,19 @@ public partial class TbMythicDungeon_blessDrop
     private readonly System.Collections.Generic.Dictionary<int, MythicDungeon_blessDrop> _dataMap;
     private readonly System.Collections.Generic.List<MythicDungeon_blessDrop> _dataList;
     
-    public TbMythicDungeon_blessDrop(JArray _buf)
+    public TbMythicDungeon_blessDrop(ByteBuf _buf)
     {
         _dataMap = new System.Collections.Generic.Dictionary<int, MythicDungeon_blessDrop>();
         _dataList = new System.Collections.Generic.List<MythicDungeon_blessDrop>();
         
-        foreach(JObject _ele in _buf)
+        for(int n = _buf.ReadSize() ; n > 0 ; --n)
         {
             MythicDungeon_blessDrop _v;
-            _v = global::HotFix.Cfg.MythicDungeon_blessDrop.DeserializeMythicDungeon_blessDrop(_ele);
+            _v = global::HotFix.Cfg.MythicDungeon_blessDrop.DeserializeMythicDungeon_blessDrop(_buf);
             _dataList.Add(_v);
             _dataMap.Add(_v.id, _v);
-         }
+        }
     }
-
 
     public System.Collections.Generic.Dictionary<int, MythicDungeon_blessDrop> DataMap => _dataMap;
     public System.Collections.Generic.List<MythicDungeon_blessDrop> DataList => _dataList;
@@ -54,5 +50,6 @@ public partial class TbMythicDungeon_blessDrop
     }
 
 }
+
 }
 

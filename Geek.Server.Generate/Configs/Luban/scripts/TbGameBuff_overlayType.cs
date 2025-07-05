@@ -7,14 +7,11 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-using Newtonsoft.Json.Linq;
 using Luban;
-
 
 
 namespace HotFix.Cfg
 {
-
 /// <summary>
 /// Generated from GameBuff.xlsx sheet overlayType
 /// </summary>
@@ -23,20 +20,19 @@ public partial class TbGameBuff_overlayType
     private readonly System.Collections.Generic.Dictionary<int, GameBuff_overlayType> _dataMap;
     private readonly System.Collections.Generic.List<GameBuff_overlayType> _dataList;
     
-    public TbGameBuff_overlayType(JArray _buf)
+    public TbGameBuff_overlayType(ByteBuf _buf)
     {
         _dataMap = new System.Collections.Generic.Dictionary<int, GameBuff_overlayType>();
         _dataList = new System.Collections.Generic.List<GameBuff_overlayType>();
         
-        foreach(JObject _ele in _buf)
+        for(int n = _buf.ReadSize() ; n > 0 ; --n)
         {
             GameBuff_overlayType _v;
-            _v = global::HotFix.Cfg.GameBuff_overlayType.DeserializeGameBuff_overlayType(_ele);
+            _v = global::HotFix.Cfg.GameBuff_overlayType.DeserializeGameBuff_overlayType(_buf);
             _dataList.Add(_v);
             _dataMap.Add(_v.id, _v);
-         }
+        }
     }
-
 
     public System.Collections.Generic.Dictionary<int, GameBuff_overlayType> DataMap => _dataMap;
     public System.Collections.Generic.List<GameBuff_overlayType> DataList => _dataList;
@@ -54,5 +50,6 @@ public partial class TbGameBuff_overlayType
     }
 
 }
+
 }
 

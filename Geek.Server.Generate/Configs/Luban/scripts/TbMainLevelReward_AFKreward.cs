@@ -7,14 +7,11 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-using Newtonsoft.Json.Linq;
 using Luban;
-
 
 
 namespace HotFix.Cfg
 {
-
 /// <summary>
 /// Generated from MainLevelReward.xlsx sheet AFKreward
 /// </summary>
@@ -23,20 +20,19 @@ public partial class TbMainLevelReward_AFKreward
     private readonly System.Collections.Generic.Dictionary<int, MainLevelReward_AFKreward> _dataMap;
     private readonly System.Collections.Generic.List<MainLevelReward_AFKreward> _dataList;
     
-    public TbMainLevelReward_AFKreward(JArray _buf)
+    public TbMainLevelReward_AFKreward(ByteBuf _buf)
     {
         _dataMap = new System.Collections.Generic.Dictionary<int, MainLevelReward_AFKreward>();
         _dataList = new System.Collections.Generic.List<MainLevelReward_AFKreward>();
         
-        foreach(JObject _ele in _buf)
+        for(int n = _buf.ReadSize() ; n > 0 ; --n)
         {
             MainLevelReward_AFKreward _v;
-            _v = global::HotFix.Cfg.MainLevelReward_AFKreward.DeserializeMainLevelReward_AFKreward(_ele);
+            _v = global::HotFix.Cfg.MainLevelReward_AFKreward.DeserializeMainLevelReward_AFKreward(_buf);
             _dataList.Add(_v);
             _dataMap.Add(_v.ID, _v);
-         }
+        }
     }
-
 
     public System.Collections.Generic.Dictionary<int, MainLevelReward_AFKreward> DataMap => _dataMap;
     public System.Collections.Generic.List<MainLevelReward_AFKreward> DataList => _dataList;
@@ -54,5 +50,6 @@ public partial class TbMainLevelReward_AFKreward
     }
 
 }
+
 }
 

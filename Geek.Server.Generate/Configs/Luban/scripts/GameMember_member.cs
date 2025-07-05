@@ -8,64 +8,60 @@
 //------------------------------------------------------------------------------
 
 using Luban;
-using Newtonsoft.Json.Linq;
-
 
 
 namespace HotFix.Cfg
 {
-
 public sealed partial class GameMember_member : Luban.BeanBase
 {
-    public GameMember_member(JToken _buf) 
+    public GameMember_member(ByteBuf _buf) 
     {
-        JObject _obj = _buf as JObject;
-        id = (int)_obj.GetValue("id");
-        modelID = (int)_obj.GetValue("modelID");
-        skinModelID = (int)_obj.GetValue("skinModelID");
-        { var __json0 = _obj.GetValue("modelScale"); int _n0 = (__json0 as JArray).Count; modelScale = new float[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { float __v0;  __v0 = (float)__e0;  modelScale[__index0++] = __v0; }   }
-        modelEffectId = (int)_obj.GetValue("modelEffectId");
-        nameLanguageID = (string)_obj.GetValue("nameLanguageID");
-        infoLanguageID = (int)_obj.GetValue("infoLanguageID");
-        iconAtlasID = (int)_obj.GetValue("iconAtlasID");
-        iconSpriteName = (string)_obj.GetValue("iconSpriteName");
-        memAtlasID = (int)_obj.GetValue("memAtlasID");
-        memSpriteName = (string)_obj.GetValue("memSpriteName");
-        frameAtlasID = (int)_obj.GetValue("frameAtlasID");
-        frameSpriteName = (string)_obj.GetValue("frameSpriteName");
-        levelAtlasID = (int)_obj.GetValue("levelAtlasID");
-        levelSpriteName = (string)_obj.GetValue("levelSpriteName");
-        iconCollectionName = (string)_obj.GetValue("iconCollectionName");
-        animEventUINodes = (int)_obj.GetValue("animEventUINodes");
-        { var __json0 = _obj.GetValue("showEffectScale"); int _n0 = (__json0 as JArray).Count; showEffectScale = new float[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { float __v0;  __v0 = (float)__e0;  showEffectScale[__index0++] = __v0; }   }
-        { var __json0 = _obj.GetValue("showEffectPath"); int _n0 = (__json0 as JArray).Count; showEffectPath = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  showEffectPath[__index0++] = __v0; }   }
-        showSkillAnimName = (string)_obj.GetValue("showSkillAnimName");
-        showEffectSoundId = (int)_obj.GetValue("showEffectSoundId");
-        { var __json0 = _obj.GetValue("showEffectFullScreen"); int _n0 = (__json0 as JArray).Count; showEffectFullScreen = new int[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { int __v0;  __v0 = (int)__e0;  showEffectFullScreen[__index0++] = __v0; }   }
-        { var __json0 = _obj.GetValue("showEffectFullScreenOffset"); int _n0 = (__json0 as JArray).Count; showEffectFullScreenOffset = new int[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { int __v0;  __v0 = (int)__e0;  showEffectFullScreenOffset[__index0++] = __v0; }   }
-        isMainMember = (int)_obj.GetValue("isMainMember");
-        roleType = (int)_obj.GetValue("roleType");
-        meatType = (int)_obj.GetValue("meatType");
-        aiTypeID = (int)_obj.GetValue("aiTypeID");
-        parameters = (string)_obj.GetValue("parameters");
-        skillIDs = (string)_obj.GetValue("skillIDs");
-        baseAttributes = (string)_obj.GetValue("baseAttributes");
-        hitEffectID = (int)_obj.GetValue("hitEffectID");
-        appearSoundID = (int)_obj.GetValue("appearSoundID");
-        hitSoundID = (int)_obj.GetValue("hitSoundID");
-        dieSoundID = (int)_obj.GetValue("dieSoundID");
-        { var __json0 = _obj.GetValue("dropExp"); int _n0 = (__json0 as JArray).Count; dropExp = new int[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { int __v0;  __v0 = (int)__e0;  dropExp[__index0++] = __v0; }   }
-        { var __json0 = _obj.GetValue("dropShell"); int _n0 = (__json0 as JArray).Count; dropShell = new int[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { int __v0;  __v0 = (int)__e0;  dropShell[__index0++] = __v0; }   }
-        { var __json0 = _obj.GetValue("dropCoin"); int _n0 = (__json0 as JArray).Count; dropCoin = new int[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { int __v0;  __v0 = (int)__e0;  dropCoin[__index0++] = __v0; }   }
-        initSkinID = (int)_obj.GetValue("initSkinID");
-        isShowRecharge = (int)_obj.GetValue("isShowRecharge");
-        npcFunction = (int)_obj.GetValue("npcFunction");
-        { var __json0 = _obj.GetValue("rotation"); int _n0 = (__json0 as JArray).Count; rotation = new float[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { float __v0;  __v0 = (float)__e0;  rotation[__index0++] = __v0; }   }
-        { var __json0 = _obj.GetValue("offsetPos"); int _n0 = (__json0 as JArray).Count; offsetPos = new float[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { float __v0;  __v0 = (float)__e0;  offsetPos[__index0++] = __v0; }   }
-        parachuteSkin = (int)_obj.GetValue("parachuteSkin");
+        id = _buf.ReadInt();
+        modelID = _buf.ReadInt();
+        skinModelID = _buf.ReadInt();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);modelScale = new float[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { float __e0;__e0 = _buf.ReadFloat(); modelScale[__index0] = __e0;}}
+        modelEffectId = _buf.ReadInt();
+        nameLanguageID = _buf.ReadString();
+        infoLanguageID = _buf.ReadInt();
+        iconAtlasID = _buf.ReadInt();
+        iconSpriteName = _buf.ReadString();
+        memAtlasID = _buf.ReadInt();
+        memSpriteName = _buf.ReadString();
+        frameAtlasID = _buf.ReadInt();
+        frameSpriteName = _buf.ReadString();
+        levelAtlasID = _buf.ReadInt();
+        levelSpriteName = _buf.ReadString();
+        iconCollectionName = _buf.ReadString();
+        animEventUINodes = _buf.ReadInt();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);showEffectScale = new float[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { float __e0;__e0 = _buf.ReadFloat(); showEffectScale[__index0] = __e0;}}
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);showEffectPath = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); showEffectPath[__index0] = __e0;}}
+        showSkillAnimName = _buf.ReadString();
+        showEffectSoundId = _buf.ReadInt();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);showEffectFullScreen = new int[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { int __e0;__e0 = _buf.ReadInt(); showEffectFullScreen[__index0] = __e0;}}
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);showEffectFullScreenOffset = new int[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { int __e0;__e0 = _buf.ReadInt(); showEffectFullScreenOffset[__index0] = __e0;}}
+        isMainMember = _buf.ReadInt();
+        roleType = _buf.ReadInt();
+        meatType = _buf.ReadInt();
+        aiTypeID = _buf.ReadInt();
+        parameters = _buf.ReadString();
+        skillIDs = _buf.ReadString();
+        baseAttributes = _buf.ReadString();
+        hitEffectID = _buf.ReadInt();
+        appearSoundID = _buf.ReadInt();
+        hitSoundID = _buf.ReadInt();
+        dieSoundID = _buf.ReadInt();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);dropExp = new int[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { int __e0;__e0 = _buf.ReadInt(); dropExp[__index0] = __e0;}}
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);dropShell = new int[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { int __e0;__e0 = _buf.ReadInt(); dropShell[__index0] = __e0;}}
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);dropCoin = new int[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { int __e0;__e0 = _buf.ReadInt(); dropCoin[__index0] = __e0;}}
+        initSkinID = _buf.ReadInt();
+        isShowRecharge = _buf.ReadInt();
+        npcFunction = _buf.ReadInt();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);rotation = new float[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { float __e0;__e0 = _buf.ReadFloat(); rotation[__index0] = __e0;}}
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);offsetPos = new float[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { float __e0;__e0 = _buf.ReadFloat(); offsetPos[__index0] = __e0;}}
+        parachuteSkin = _buf.ReadInt();
     }
 
-    public static GameMember_member DeserializeGameMember_member(JToken _buf)
+    public static GameMember_member DeserializeGameMember_member(ByteBuf _buf)
     {
         return new GameMember_member(_buf);
     }
@@ -239,8 +235,7 @@ public sealed partial class GameMember_member : Luban.BeanBase
     /// 降落伞皮肤<br/>skin表id
     /// </summary>
     public readonly int parachuteSkin;
-
-
+   
     public const int __ID__ = 147020013;
     public override int GetTypeId() => __ID__;
 
@@ -297,5 +292,6 @@ public sealed partial class GameMember_member : Luban.BeanBase
         + "}";
     }
 }
+
 }
 

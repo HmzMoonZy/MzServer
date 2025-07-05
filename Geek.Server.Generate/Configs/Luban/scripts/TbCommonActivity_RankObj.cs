@@ -7,14 +7,11 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-using Newtonsoft.Json.Linq;
 using Luban;
-
 
 
 namespace HotFix.Cfg
 {
-
 /// <summary>
 /// Generated from CommonActivity.xlsx sheet RankObj
 /// </summary>
@@ -23,20 +20,19 @@ public partial class TbCommonActivity_RankObj
     private readonly System.Collections.Generic.Dictionary<int, CommonActivity_RankObj> _dataMap;
     private readonly System.Collections.Generic.List<CommonActivity_RankObj> _dataList;
     
-    public TbCommonActivity_RankObj(JArray _buf)
+    public TbCommonActivity_RankObj(ByteBuf _buf)
     {
         _dataMap = new System.Collections.Generic.Dictionary<int, CommonActivity_RankObj>();
         _dataList = new System.Collections.Generic.List<CommonActivity_RankObj>();
         
-        foreach(JObject _ele in _buf)
+        for(int n = _buf.ReadSize() ; n > 0 ; --n)
         {
             CommonActivity_RankObj _v;
-            _v = global::HotFix.Cfg.CommonActivity_RankObj.DeserializeCommonActivity_RankObj(_ele);
+            _v = global::HotFix.Cfg.CommonActivity_RankObj.DeserializeCommonActivity_RankObj(_buf);
             _dataList.Add(_v);
             _dataMap.Add(_v.id, _v);
-         }
+        }
     }
-
 
     public System.Collections.Generic.Dictionary<int, CommonActivity_RankObj> DataMap => _dataMap;
     public System.Collections.Generic.List<CommonActivity_RankObj> DataList => _dataList;
@@ -54,5 +50,6 @@ public partial class TbCommonActivity_RankObj
     }
 
 }
+
 }
 

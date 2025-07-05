@@ -8,33 +8,29 @@
 //------------------------------------------------------------------------------
 
 using Luban;
-using Newtonsoft.Json.Linq;
-
 
 
 namespace HotFix.Cfg
 {
-
 public sealed partial class TalentLegacy_talentLegacyEffect : Luban.BeanBase
 {
-    public TalentLegacy_talentLegacyEffect(JToken _buf) 
+    public TalentLegacy_talentLegacyEffect(ByteBuf _buf) 
     {
-        JObject _obj = _buf as JObject;
-        id = (int)_obj.GetValue("id");
-        level = (int)_obj.GetValue("level");
-        tagID = (int)_obj.GetValue("tagID");
-        unlockDesc = (string)_obj.GetValue("unlockDesc");
-        desc = (string)_obj.GetValue("desc");
-        { var __json0 = _obj.GetValue("levelupCost"); int _n0 = (__json0 as JArray).Count; levelupCost = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  levelupCost[__index0++] = __v0; }   }
-        levelupTime = (int)_obj.GetValue("levelupTime");
-        { var __json0 = _obj.GetValue("attributes"); int _n0 = (__json0 as JArray).Count; attributes = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  attributes[__index0++] = __v0; }   }
-        { var __json0 = _obj.GetValue("skills"); int _n0 = (__json0 as JArray).Count; skills = new int[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { int __v0;  __v0 = (int)__e0;  skills[__index0++] = __v0; }   }
-        addSkillSlot = (int)_obj.GetValue("addSkillSlot");
-        { var __json0 = _obj.GetValue("power"); int _n0 = (__json0 as JArray).Count; power = new int[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { int __v0;  __v0 = (int)__e0;  power[__index0++] = __v0; }   }
-        { var __json0 = _obj.GetValue("activePower"); int _n0 = (__json0 as JArray).Count; activePower = new int[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { int __v0;  __v0 = (int)__e0;  activePower[__index0++] = __v0; }   }
+        id = _buf.ReadInt();
+        level = _buf.ReadInt();
+        tagID = _buf.ReadInt();
+        unlockDesc = _buf.ReadString();
+        desc = _buf.ReadString();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);levelupCost = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); levelupCost[__index0] = __e0;}}
+        levelupTime = _buf.ReadInt();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);attributes = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); attributes[__index0] = __e0;}}
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);skills = new int[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { int __e0;__e0 = _buf.ReadInt(); skills[__index0] = __e0;}}
+        addSkillSlot = _buf.ReadInt();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);power = new int[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { int __e0;__e0 = _buf.ReadInt(); power[__index0] = __e0;}}
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);activePower = new int[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { int __e0;__e0 = _buf.ReadInt(); activePower[__index0] = __e0;}}
     }
 
-    public static TalentLegacy_talentLegacyEffect DeserializeTalentLegacy_talentLegacyEffect(JToken _buf)
+    public static TalentLegacy_talentLegacyEffect DeserializeTalentLegacy_talentLegacyEffect(ByteBuf _buf)
     {
         return new TalentLegacy_talentLegacyEffect(_buf);
     }
@@ -87,8 +83,7 @@ public sealed partial class TalentLegacy_talentLegacyEffect : Luban.BeanBase
     /// 层数2万分比战力<br/>层数3万分比战力<br/>（上阵增加战力）
     /// </summary>
     public readonly int[] activePower;
-
-
+   
     public const int __ID__ = -1226838448;
     public override int GetTypeId() => __ID__;
 
@@ -114,5 +109,6 @@ public sealed partial class TalentLegacy_talentLegacyEffect : Luban.BeanBase
         + "}";
     }
 }
+
 }
 

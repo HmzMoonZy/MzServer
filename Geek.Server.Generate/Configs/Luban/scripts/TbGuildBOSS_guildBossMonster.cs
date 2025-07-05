@@ -7,14 +7,11 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-using Newtonsoft.Json.Linq;
 using Luban;
-
 
 
 namespace HotFix.Cfg
 {
-
 /// <summary>
 /// Generated from GuildBOSS.xlsx sheet guildBossMonster
 /// </summary>
@@ -23,20 +20,19 @@ public partial class TbGuildBOSS_guildBossMonster
     private readonly System.Collections.Generic.Dictionary<int, GuildBOSS_guildBossMonster> _dataMap;
     private readonly System.Collections.Generic.List<GuildBOSS_guildBossMonster> _dataList;
     
-    public TbGuildBOSS_guildBossMonster(JArray _buf)
+    public TbGuildBOSS_guildBossMonster(ByteBuf _buf)
     {
         _dataMap = new System.Collections.Generic.Dictionary<int, GuildBOSS_guildBossMonster>();
         _dataList = new System.Collections.Generic.List<GuildBOSS_guildBossMonster>();
         
-        foreach(JObject _ele in _buf)
+        for(int n = _buf.ReadSize() ; n > 0 ; --n)
         {
             GuildBOSS_guildBossMonster _v;
-            _v = global::HotFix.Cfg.GuildBOSS_guildBossMonster.DeserializeGuildBOSS_guildBossMonster(_ele);
+            _v = global::HotFix.Cfg.GuildBOSS_guildBossMonster.DeserializeGuildBOSS_guildBossMonster(_buf);
             _dataList.Add(_v);
             _dataMap.Add(_v.id, _v);
-         }
+        }
     }
-
 
     public System.Collections.Generic.Dictionary<int, GuildBOSS_guildBossMonster> DataMap => _dataMap;
     public System.Collections.Generic.List<GuildBOSS_guildBossMonster> DataList => _dataList;
@@ -54,5 +50,6 @@ public partial class TbGuildBOSS_guildBossMonster
     }
 
 }
+
 }
 

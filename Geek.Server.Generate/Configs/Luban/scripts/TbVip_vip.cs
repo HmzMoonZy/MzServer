@@ -7,14 +7,11 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-using Newtonsoft.Json.Linq;
 using Luban;
-
 
 
 namespace HotFix.Cfg
 {
-
 /// <summary>
 /// Generated from Vip.xlsx sheet vip
 /// </summary>
@@ -23,20 +20,19 @@ public partial class TbVip_vip
     private readonly System.Collections.Generic.Dictionary<int, Vip_vip> _dataMap;
     private readonly System.Collections.Generic.List<Vip_vip> _dataList;
     
-    public TbVip_vip(JArray _buf)
+    public TbVip_vip(ByteBuf _buf)
     {
         _dataMap = new System.Collections.Generic.Dictionary<int, Vip_vip>();
         _dataList = new System.Collections.Generic.List<Vip_vip>();
         
-        foreach(JObject _ele in _buf)
+        for(int n = _buf.ReadSize() ; n > 0 ; --n)
         {
             Vip_vip _v;
-            _v = global::HotFix.Cfg.Vip_vip.DeserializeVip_vip(_ele);
+            _v = global::HotFix.Cfg.Vip_vip.DeserializeVip_vip(_buf);
             _dataList.Add(_v);
             _dataMap.Add(_v.id, _v);
-         }
+        }
     }
-
 
     public System.Collections.Generic.Dictionary<int, Vip_vip> DataMap => _dataMap;
     public System.Collections.Generic.List<Vip_vip> DataList => _dataList;
@@ -54,5 +50,6 @@ public partial class TbVip_vip
     }
 
 }
+
 }
 

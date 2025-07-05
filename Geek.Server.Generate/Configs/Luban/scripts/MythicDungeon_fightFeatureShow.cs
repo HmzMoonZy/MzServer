@@ -8,29 +8,25 @@
 //------------------------------------------------------------------------------
 
 using Luban;
-using Newtonsoft.Json.Linq;
-
 
 
 namespace HotFix.Cfg
 {
-
 public sealed partial class MythicDungeon_fightFeatureShow : Luban.BeanBase
 {
-    public MythicDungeon_fightFeatureShow(JToken _buf) 
+    public MythicDungeon_fightFeatureShow(ByteBuf _buf) 
     {
-        JObject _obj = _buf as JObject;
-        id = (int)_obj.GetValue("id");
-        atlasID = (int)_obj.GetValue("atlasID");
-        spriteName = (string)_obj.GetValue("spriteName");
-        title = (string)_obj.GetValue("title");
-        desc = (string)_obj.GetValue("desc");
-        angularText = (string)_obj.GetValue("angularText");
-        QualityAtlasId = (int)_obj.GetValue("QualityAtlasId");
-        QualitySpriteName = (string)_obj.GetValue("QualitySpriteName");
+        id = _buf.ReadInt();
+        atlasID = _buf.ReadInt();
+        spriteName = _buf.ReadString();
+        title = _buf.ReadString();
+        desc = _buf.ReadString();
+        angularText = _buf.ReadString();
+        QualityAtlasId = _buf.ReadInt();
+        QualitySpriteName = _buf.ReadString();
     }
 
-    public static MythicDungeon_fightFeatureShow DeserializeMythicDungeon_fightFeatureShow(JToken _buf)
+    public static MythicDungeon_fightFeatureShow DeserializeMythicDungeon_fightFeatureShow(ByteBuf _buf)
     {
         return new MythicDungeon_fightFeatureShow(_buf);
     }
@@ -67,8 +63,7 @@ public sealed partial class MythicDungeon_fightFeatureShow : Luban.BeanBase
     /// 图标名称<br/>白1 绿2 蓝3 紫4 金5 红6
     /// </summary>
     public readonly string QualitySpriteName;
-
-
+   
     public const int __ID__ = -88747966;
     public override int GetTypeId() => __ID__;
 
@@ -90,5 +85,6 @@ public sealed partial class MythicDungeon_fightFeatureShow : Luban.BeanBase
         + "}";
     }
 }
+
 }
 

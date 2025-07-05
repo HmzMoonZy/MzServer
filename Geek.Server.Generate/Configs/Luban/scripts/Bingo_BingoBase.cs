@@ -8,51 +8,47 @@
 //------------------------------------------------------------------------------
 
 using Luban;
-using Newtonsoft.Json.Linq;
-
 
 
 namespace HotFix.Cfg
 {
-
 public sealed partial class Bingo_BingoBase : Luban.BeanBase
 {
-    public Bingo_BingoBase(JToken _buf) 
+    public Bingo_BingoBase(ByteBuf _buf) 
     {
-        JObject _obj = _buf as JObject;
-        ID = (int)_obj.GetValue("ID");
-        ConnectActivityId = (int)_obj.GetValue("ConnectActivityId");
-        GameplayEndTime = (int)_obj.GetValue("GameplayEndTime");
-        DailyMaxDrawCount = (int)_obj.GetValue("DailyMaxDrawCount");
-        ProcessRewardCount = (int)_obj.GetValue("ProcessRewardCount");
-        { var __json0 = _obj.GetValue("ProcessReward"); int _n0 = (__json0 as JArray).Count; ProcessReward = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  ProcessReward[__index0++] = __v0; }   }
-        { var __json0 = _obj.GetValue("ProcessRewardNew"); int _n0 = (__json0 as JArray).Count; ProcessRewardNew = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  ProcessRewardNew[__index0++] = __v0; }   }
-        { var __json0 = _obj.GetValue("SpecialItemScore"); int _n0 = (__json0 as JArray).Count; SpecialItemScore = new int[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { int __v0;  __v0 = (int)__e0;  SpecialItemScore[__index0++] = __v0; }   }
-        { var __json0 = _obj.GetValue("SpecialTimes"); int _n0 = (__json0 as JArray).Count; SpecialTimes = new int[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { int __v0;  __v0 = (int)__e0;  SpecialTimes[__index0++] = __v0; }   }
-        ExchangeItem = (int)_obj.GetValue("ExchangeItem");
-        ExchangeItem1 = (int)_obj.GetValue("ExchangeItem1");
-        { var __json0 = _obj.GetValue("SpecialScoreUp"); int _n0 = (__json0 as JArray).Count; SpecialScoreUp = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  SpecialScoreUp[__index0++] = __v0; }   }
-        { var __json0 = _obj.GetValue("SpecialBingoRewardCount"); int _n0 = (__json0 as JArray).Count; SpecialBingoRewardCount = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  SpecialBingoRewardCount[__index0++] = __v0; }   }
-        { var __json0 = _obj.GetValue("SpecialSkins"); int _n0 = (__json0 as JArray).Count; SpecialSkins = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  SpecialSkins[__index0++] = __v0; }   }
-        { var __json0 = _obj.GetValue("SpecialSkinRate"); int _n0 = (__json0 as JArray).Count; SpecialSkinRate = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  SpecialSkinRate[__index0++] = __v0; }   }
-        ItemId = (int)_obj.GetValue("ItemId");
-        BuyDiamonds = (int)_obj.GetValue("BuyDiamonds");
-        BuyLimitNum = (int)_obj.GetValue("BuyLimitNum");
-        { var __json0 = _obj.GetValue("BuyLimit"); int _n0 = (__json0 as JArray).Count; BuyLimit = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  BuyLimit[__index0++] = __v0; }   }
-        { var __json0 = _obj.GetValue("BingoRewardCount"); int _n0 = (__json0 as JArray).Count; BingoRewardCount = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  BingoRewardCount[__index0++] = __v0; }   }
-        { var __json0 = _obj.GetValue("InvalidPoint"); int _n0 = (__json0 as JArray).Count; InvalidPoint = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  InvalidPoint[__index0++] = __v0; }   }
-        { var __json0 = _obj.GetValue("Skins"); int _n0 = (__json0 as JArray).Count; Skins = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  Skins[__index0++] = __v0; }   }
-        { var __json0 = _obj.GetValue("SkinRate"); int _n0 = (__json0 as JArray).Count; SkinRate = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  SkinRate[__index0++] = __v0; }   }
-        { var __json0 = _obj.GetValue("NormalReward"); int _n0 = (__json0 as JArray).Count; NormalReward = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  NormalReward[__index0++] = __v0; }   }
-        { var __json0 = _obj.GetValue("SpecialNormalReward"); int _n0 = (__json0 as JArray).Count; SpecialNormalReward = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  SpecialNormalReward[__index0++] = __v0; }   }
-        Probability = (int)_obj.GetValue("Probability");
-        { var __json0 = _obj.GetValue("MailCoins"); int _n0 = (__json0 as JArray).Count; MailCoins = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  MailCoins[__index0++] = __v0; }   }
-        MailId = (string)_obj.GetValue("MailId");
-        PackGroup = (int)_obj.GetValue("PackGroup");
-        { var __json0 = _obj.GetValue("SpeedRates"); int _n0 = (__json0 as JArray).Count; SpeedRates = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  SpeedRates[__index0++] = __v0; }   }
+        ID = _buf.ReadInt();
+        ConnectActivityId = _buf.ReadInt();
+        GameplayEndTime = _buf.ReadInt();
+        DailyMaxDrawCount = _buf.ReadInt();
+        ProcessRewardCount = _buf.ReadInt();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);ProcessReward = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); ProcessReward[__index0] = __e0;}}
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);ProcessRewardNew = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); ProcessRewardNew[__index0] = __e0;}}
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);SpecialItemScore = new int[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { int __e0;__e0 = _buf.ReadInt(); SpecialItemScore[__index0] = __e0;}}
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);SpecialTimes = new int[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { int __e0;__e0 = _buf.ReadInt(); SpecialTimes[__index0] = __e0;}}
+        ExchangeItem = _buf.ReadInt();
+        ExchangeItem1 = _buf.ReadInt();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);SpecialScoreUp = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); SpecialScoreUp[__index0] = __e0;}}
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);SpecialBingoRewardCount = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); SpecialBingoRewardCount[__index0] = __e0;}}
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);SpecialSkins = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); SpecialSkins[__index0] = __e0;}}
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);SpecialSkinRate = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); SpecialSkinRate[__index0] = __e0;}}
+        ItemId = _buf.ReadInt();
+        BuyDiamonds = _buf.ReadInt();
+        BuyLimitNum = _buf.ReadInt();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);BuyLimit = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); BuyLimit[__index0] = __e0;}}
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);BingoRewardCount = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); BingoRewardCount[__index0] = __e0;}}
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);InvalidPoint = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); InvalidPoint[__index0] = __e0;}}
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);Skins = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); Skins[__index0] = __e0;}}
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);SkinRate = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); SkinRate[__index0] = __e0;}}
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);NormalReward = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); NormalReward[__index0] = __e0;}}
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);SpecialNormalReward = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); SpecialNormalReward[__index0] = __e0;}}
+        Probability = _buf.ReadInt();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);MailCoins = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); MailCoins[__index0] = __e0;}}
+        MailId = _buf.ReadString();
+        PackGroup = _buf.ReadInt();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);SpeedRates = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); SpeedRates[__index0] = __e0;}}
     }
 
-    public static Bingo_BingoBase DeserializeBingo_BingoBase(JToken _buf)
+    public static Bingo_BingoBase DeserializeBingo_BingoBase(ByteBuf _buf)
     {
         return new Bingo_BingoBase(_buf);
     }
@@ -177,8 +173,7 @@ public sealed partial class Bingo_BingoBase : Luban.BeanBase
     /// 达到一定抽数动画速度倍率
     /// </summary>
     public readonly string[] SpeedRates;
-
-
+   
     public const int __ID__ = -542754992;
     public override int GetTypeId() => __ID__;
 
@@ -222,5 +217,6 @@ public sealed partial class Bingo_BingoBase : Luban.BeanBase
         + "}";
     }
 }
+
 }
 

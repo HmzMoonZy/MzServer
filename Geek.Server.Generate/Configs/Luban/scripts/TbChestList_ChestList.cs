@@ -7,14 +7,11 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-using Newtonsoft.Json.Linq;
 using Luban;
-
 
 
 namespace HotFix.Cfg
 {
-
 /// <summary>
 /// Generated from ChestList.xlsx sheet ChestList
 /// </summary>
@@ -23,20 +20,19 @@ public partial class TbChestList_ChestList
     private readonly System.Collections.Generic.Dictionary<int, ChestList_ChestList> _dataMap;
     private readonly System.Collections.Generic.List<ChestList_ChestList> _dataList;
     
-    public TbChestList_ChestList(JArray _buf)
+    public TbChestList_ChestList(ByteBuf _buf)
     {
         _dataMap = new System.Collections.Generic.Dictionary<int, ChestList_ChestList>();
         _dataList = new System.Collections.Generic.List<ChestList_ChestList>();
         
-        foreach(JObject _ele in _buf)
+        for(int n = _buf.ReadSize() ; n > 0 ; --n)
         {
             ChestList_ChestList _v;
-            _v = global::HotFix.Cfg.ChestList_ChestList.DeserializeChestList_ChestList(_ele);
+            _v = global::HotFix.Cfg.ChestList_ChestList.DeserializeChestList_ChestList(_buf);
             _dataList.Add(_v);
             _dataMap.Add(_v.id, _v);
-         }
+        }
     }
-
 
     public System.Collections.Generic.Dictionary<int, ChestList_ChestList> DataMap => _dataMap;
     public System.Collections.Generic.List<ChestList_ChestList> DataList => _dataList;
@@ -54,5 +50,6 @@ public partial class TbChestList_ChestList
     }
 
 }
+
 }
 

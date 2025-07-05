@@ -7,14 +7,11 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-using Newtonsoft.Json.Linq;
 using Luban;
-
 
 
 namespace HotFix.Cfg
 {
-
 /// <summary>
 /// Generated from ChristmasBoss.xlsx sheet ChristmasBoss
 /// </summary>
@@ -23,20 +20,19 @@ public partial class TbChristmasBoss_ChristmasBoss
     private readonly System.Collections.Generic.Dictionary<int, ChristmasBoss_ChristmasBoss> _dataMap;
     private readonly System.Collections.Generic.List<ChristmasBoss_ChristmasBoss> _dataList;
     
-    public TbChristmasBoss_ChristmasBoss(JArray _buf)
+    public TbChristmasBoss_ChristmasBoss(ByteBuf _buf)
     {
         _dataMap = new System.Collections.Generic.Dictionary<int, ChristmasBoss_ChristmasBoss>();
         _dataList = new System.Collections.Generic.List<ChristmasBoss_ChristmasBoss>();
         
-        foreach(JObject _ele in _buf)
+        for(int n = _buf.ReadSize() ; n > 0 ; --n)
         {
             ChristmasBoss_ChristmasBoss _v;
-            _v = global::HotFix.Cfg.ChristmasBoss_ChristmasBoss.DeserializeChristmasBoss_ChristmasBoss(_ele);
+            _v = global::HotFix.Cfg.ChristmasBoss_ChristmasBoss.DeserializeChristmasBoss_ChristmasBoss(_buf);
             _dataList.Add(_v);
             _dataMap.Add(_v.id, _v);
-         }
+        }
     }
-
 
     public System.Collections.Generic.Dictionary<int, ChristmasBoss_ChristmasBoss> DataMap => _dataMap;
     public System.Collections.Generic.List<ChristmasBoss_ChristmasBoss> DataList => _dataList;
@@ -54,5 +50,6 @@ public partial class TbChristmasBoss_ChristmasBoss
     }
 
 }
+
 }
 

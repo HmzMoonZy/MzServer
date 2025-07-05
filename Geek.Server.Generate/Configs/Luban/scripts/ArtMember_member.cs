@@ -8,35 +8,31 @@
 //------------------------------------------------------------------------------
 
 using Luban;
-using Newtonsoft.Json.Linq;
-
 
 
 namespace HotFix.Cfg
 {
-
 public sealed partial class ArtMember_member : Luban.BeanBase
 {
-    public ArtMember_member(JToken _buf) 
+    public ArtMember_member(ByteBuf _buf) 
     {
-        JObject _obj = _buf as JObject;
-        id = (int)_obj.GetValue("id");
-        path = (string)_obj.GetValue("path");
-        battleStandardScale = (float)_obj.GetValue("battleStandardScale");
-        standardHalfW = (float)_obj.GetValue("standardHalfW");
-        uiLegacySkillStarScale = (float)_obj.GetValue("uiLegacySkillStarScale");
-        legacyScale = (float)_obj.GetValue("legacyScale");
-        uiScale = (float)_obj.GetValue("uiScale");
-        uiPetTipScale = (float)_obj.GetValue("uiPetTipScale");
-        miningScale = (float)_obj.GetValue("miningScale");
-        hotSpringScale = (float)_obj.GetValue("hotSpringScale");
-        hotSpringModelScale = (float)_obj.GetValue("hotSpringModelScale");
-        effectId = (int)_obj.GetValue("effectId");
-        uiEffectId = (int)_obj.GetValue("uiEffectId");
-        springFestivalModelScale = (float)_obj.GetValue("springFestivalModelScale");
+        id = _buf.ReadInt();
+        path = _buf.ReadString();
+        battleStandardScale = _buf.ReadFloat();
+        standardHalfW = _buf.ReadFloat();
+        uiLegacySkillStarScale = _buf.ReadFloat();
+        legacyScale = _buf.ReadFloat();
+        uiScale = _buf.ReadFloat();
+        uiPetTipScale = _buf.ReadFloat();
+        miningScale = _buf.ReadFloat();
+        hotSpringScale = _buf.ReadFloat();
+        hotSpringModelScale = _buf.ReadFloat();
+        effectId = _buf.ReadInt();
+        uiEffectId = _buf.ReadInt();
+        springFestivalModelScale = _buf.ReadFloat();
     }
 
-    public static ArtMember_member DeserializeArtMember_member(JToken _buf)
+    public static ArtMember_member DeserializeArtMember_member(ByteBuf _buf)
     {
         return new ArtMember_member(_buf);
     }
@@ -97,8 +93,7 @@ public sealed partial class ArtMember_member : Luban.BeanBase
     /// 春节主题模型缩放
     /// </summary>
     public readonly float springFestivalModelScale;
-
-
+   
     public const int __ID__ = 1957883484;
     public override int GetTypeId() => __ID__;
 
@@ -126,5 +121,6 @@ public sealed partial class ArtMember_member : Luban.BeanBase
         + "}";
     }
 }
+
 }
 

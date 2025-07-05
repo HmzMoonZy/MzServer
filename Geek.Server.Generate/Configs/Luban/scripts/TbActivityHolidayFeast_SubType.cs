@@ -7,14 +7,11 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-using Newtonsoft.Json.Linq;
 using Luban;
-
 
 
 namespace HotFix.Cfg
 {
-
 /// <summary>
 /// Generated from ActivityHolidayFeast.xlsx sheet SubType
 /// </summary>
@@ -23,20 +20,19 @@ public partial class TbActivityHolidayFeast_SubType
     private readonly System.Collections.Generic.Dictionary<int, ActivityHolidayFeast_SubType> _dataMap;
     private readonly System.Collections.Generic.List<ActivityHolidayFeast_SubType> _dataList;
     
-    public TbActivityHolidayFeast_SubType(JArray _buf)
+    public TbActivityHolidayFeast_SubType(ByteBuf _buf)
     {
         _dataMap = new System.Collections.Generic.Dictionary<int, ActivityHolidayFeast_SubType>();
         _dataList = new System.Collections.Generic.List<ActivityHolidayFeast_SubType>();
         
-        foreach(JObject _ele in _buf)
+        for(int n = _buf.ReadSize() ; n > 0 ; --n)
         {
             ActivityHolidayFeast_SubType _v;
-            _v = global::HotFix.Cfg.ActivityHolidayFeast_SubType.DeserializeActivityHolidayFeast_SubType(_ele);
+            _v = global::HotFix.Cfg.ActivityHolidayFeast_SubType.DeserializeActivityHolidayFeast_SubType(_buf);
             _dataList.Add(_v);
             _dataMap.Add(_v.Id, _v);
-         }
+        }
     }
-
 
     public System.Collections.Generic.Dictionary<int, ActivityHolidayFeast_SubType> DataMap => _dataMap;
     public System.Collections.Generic.List<ActivityHolidayFeast_SubType> DataList => _dataList;
@@ -54,5 +50,6 @@ public partial class TbActivityHolidayFeast_SubType
     }
 
 }
+
 }
 

@@ -7,14 +7,11 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-using Newtonsoft.Json.Linq;
 using Luban;
-
 
 
 namespace HotFix.Cfg
 {
-
 /// <summary>
 /// Generated from ChapterHard.xlsx sheet battleUpgrade
 /// </summary>
@@ -23,20 +20,19 @@ public partial class TbChapterHard_battleUpgrade
     private readonly System.Collections.Generic.Dictionary<int, ChapterHard_battleUpgrade> _dataMap;
     private readonly System.Collections.Generic.List<ChapterHard_battleUpgrade> _dataList;
     
-    public TbChapterHard_battleUpgrade(JArray _buf)
+    public TbChapterHard_battleUpgrade(ByteBuf _buf)
     {
         _dataMap = new System.Collections.Generic.Dictionary<int, ChapterHard_battleUpgrade>();
         _dataList = new System.Collections.Generic.List<ChapterHard_battleUpgrade>();
         
-        foreach(JObject _ele in _buf)
+        for(int n = _buf.ReadSize() ; n > 0 ; --n)
         {
             ChapterHard_battleUpgrade _v;
-            _v = global::HotFix.Cfg.ChapterHard_battleUpgrade.DeserializeChapterHard_battleUpgrade(_ele);
+            _v = global::HotFix.Cfg.ChapterHard_battleUpgrade.DeserializeChapterHard_battleUpgrade(_buf);
             _dataList.Add(_v);
             _dataMap.Add(_v.id, _v);
-         }
+        }
     }
-
 
     public System.Collections.Generic.Dictionary<int, ChapterHard_battleUpgrade> DataMap => _dataMap;
     public System.Collections.Generic.List<ChapterHard_battleUpgrade> DataList => _dataList;
@@ -54,5 +50,6 @@ public partial class TbChapterHard_battleUpgrade
     }
 
 }
+
 }
 

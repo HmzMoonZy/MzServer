@@ -8,28 +8,24 @@
 //------------------------------------------------------------------------------
 
 using Luban;
-using Newtonsoft.Json.Linq;
-
 
 
 namespace HotFix.Cfg
 {
-
 public sealed partial class Pet_petLevelEffect : Luban.BeanBase
 {
-    public Pet_petLevelEffect(JToken _buf) 
+    public Pet_petLevelEffect(ByteBuf _buf) 
     {
-        JObject _obj = _buf as JObject;
-        id = (int)_obj.GetValue("id");
-        type = (int)_obj.GetValue("type");
-        level = (int)_obj.GetValue("level");
-        levelupDesc = (string)_obj.GetValue("levelupDesc");
-        { var __json0 = _obj.GetValue("playerAttr"); int _n0 = (__json0 as JArray).Count; playerAttr = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  playerAttr[__index0++] = __v0; }   }
-        { var __json0 = _obj.GetValue("petAttr"); int _n0 = (__json0 as JArray).Count; petAttr = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  petAttr[__index0++] = __v0; }   }
-        petSkillLevel = (int)_obj.GetValue("petSkillLevel");
+        id = _buf.ReadInt();
+        type = _buf.ReadInt();
+        level = _buf.ReadInt();
+        levelupDesc = _buf.ReadString();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);playerAttr = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); playerAttr[__index0] = __e0;}}
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);petAttr = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); petAttr[__index0] = __e0;}}
+        petSkillLevel = _buf.ReadInt();
     }
 
-    public static Pet_petLevelEffect DeserializePet_petLevelEffect(JToken _buf)
+    public static Pet_petLevelEffect DeserializePet_petLevelEffect(ByteBuf _buf)
     {
         return new Pet_petLevelEffect(_buf);
     }
@@ -62,8 +58,7 @@ public sealed partial class Pet_petLevelEffect : Luban.BeanBase
     /// 宠物技能等级（最终值）
     /// </summary>
     public readonly int petSkillLevel;
-
-
+   
     public const int __ID__ = -347725098;
     public override int GetTypeId() => __ID__;
 
@@ -84,5 +79,6 @@ public sealed partial class Pet_petLevelEffect : Luban.BeanBase
         + "}";
     }
 }
+
 }
 

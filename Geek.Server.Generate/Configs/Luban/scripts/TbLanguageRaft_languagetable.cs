@@ -7,14 +7,11 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-using Newtonsoft.Json.Linq;
 using Luban;
-
 
 
 namespace HotFix.Cfg
 {
-
 /// <summary>
 /// Generated from LanguageRaft.xlsx sheet languagetable
 /// </summary>
@@ -23,20 +20,19 @@ public partial class TbLanguageRaft_languagetable
     private readonly System.Collections.Generic.Dictionary<string, LanguageRaft_languagetable> _dataMap;
     private readonly System.Collections.Generic.List<LanguageRaft_languagetable> _dataList;
     
-    public TbLanguageRaft_languagetable(JArray _buf)
+    public TbLanguageRaft_languagetable(ByteBuf _buf)
     {
         _dataMap = new System.Collections.Generic.Dictionary<string, LanguageRaft_languagetable>();
         _dataList = new System.Collections.Generic.List<LanguageRaft_languagetable>();
         
-        foreach(JObject _ele in _buf)
+        for(int n = _buf.ReadSize() ; n > 0 ; --n)
         {
             LanguageRaft_languagetable _v;
-            _v = global::HotFix.Cfg.LanguageRaft_languagetable.DeserializeLanguageRaft_languagetable(_ele);
+            _v = global::HotFix.Cfg.LanguageRaft_languagetable.DeserializeLanguageRaft_languagetable(_buf);
             _dataList.Add(_v);
             _dataMap.Add(_v.id, _v);
-         }
+        }
     }
-
 
     public System.Collections.Generic.Dictionary<string, LanguageRaft_languagetable> DataMap => _dataMap;
     public System.Collections.Generic.List<LanguageRaft_languagetable> DataList => _dataList;
@@ -54,5 +50,6 @@ public partial class TbLanguageRaft_languagetable
     }
 
 }
+
 }
 

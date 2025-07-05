@@ -7,14 +7,11 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-using Newtonsoft.Json.Linq;
 using Luban;
-
 
 
 namespace HotFix.Cfg
 {
-
 /// <summary>
 /// Generated from TalentApex.xlsx sheet talentApexBase
 /// </summary>
@@ -23,20 +20,19 @@ public partial class TbTalentApex_talentApexBase
     private readonly System.Collections.Generic.Dictionary<int, TalentApex_talentApexBase> _dataMap;
     private readonly System.Collections.Generic.List<TalentApex_talentApexBase> _dataList;
     
-    public TbTalentApex_talentApexBase(JArray _buf)
+    public TbTalentApex_talentApexBase(ByteBuf _buf)
     {
         _dataMap = new System.Collections.Generic.Dictionary<int, TalentApex_talentApexBase>();
         _dataList = new System.Collections.Generic.List<TalentApex_talentApexBase>();
         
-        foreach(JObject _ele in _buf)
+        for(int n = _buf.ReadSize() ; n > 0 ; --n)
         {
             TalentApex_talentApexBase _v;
-            _v = global::HotFix.Cfg.TalentApex_talentApexBase.DeserializeTalentApex_talentApexBase(_ele);
+            _v = global::HotFix.Cfg.TalentApex_talentApexBase.DeserializeTalentApex_talentApexBase(_buf);
             _dataList.Add(_v);
             _dataMap.Add(_v.id, _v);
-         }
+        }
     }
-
 
     public System.Collections.Generic.Dictionary<int, TalentApex_talentApexBase> DataMap => _dataMap;
     public System.Collections.Generic.List<TalentApex_talentApexBase> DataList => _dataList;
@@ -54,5 +50,6 @@ public partial class TbTalentApex_talentApexBase
     }
 
 }
+
 }
 

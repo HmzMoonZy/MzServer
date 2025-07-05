@@ -8,23 +8,19 @@
 //------------------------------------------------------------------------------
 
 using Luban;
-using Newtonsoft.Json.Linq;
-
 
 
 namespace HotFix.Cfg
 {
-
 public sealed partial class Guild_guilddairy : Luban.BeanBase
 {
-    public Guild_guilddairy(JToken _buf) 
+    public Guild_guilddairy(ByteBuf _buf) 
     {
-        JObject _obj = _buf as JObject;
-        dairy_id = (int)_obj.GetValue("dairy_id");
-        language = (string)_obj.GetValue("language");
+        dairy_id = _buf.ReadInt();
+        language = _buf.ReadString();
     }
 
-    public static Guild_guilddairy DeserializeGuild_guilddairy(JToken _buf)
+    public static Guild_guilddairy DeserializeGuild_guilddairy(ByteBuf _buf)
     {
         return new Guild_guilddairy(_buf);
     }
@@ -37,8 +33,7 @@ public sealed partial class Guild_guilddairy : Luban.BeanBase
     /// 多语言id
     /// </summary>
     public readonly string language;
-
-
+   
     public const int __ID__ = -807363924;
     public override int GetTypeId() => __ID__;
 
@@ -54,5 +49,6 @@ public sealed partial class Guild_guilddairy : Luban.BeanBase
         + "}";
     }
 }
+
 }
 

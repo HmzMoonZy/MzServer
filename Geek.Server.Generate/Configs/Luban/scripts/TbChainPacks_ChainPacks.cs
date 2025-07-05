@@ -7,14 +7,11 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-using Newtonsoft.Json.Linq;
 using Luban;
-
 
 
 namespace HotFix.Cfg
 {
-
 /// <summary>
 /// Generated from ChainPacks.xlsx sheet ChainPacks
 /// </summary>
@@ -23,20 +20,19 @@ public partial class TbChainPacks_ChainPacks
     private readonly System.Collections.Generic.Dictionary<int, ChainPacks_ChainPacks> _dataMap;
     private readonly System.Collections.Generic.List<ChainPacks_ChainPacks> _dataList;
     
-    public TbChainPacks_ChainPacks(JArray _buf)
+    public TbChainPacks_ChainPacks(ByteBuf _buf)
     {
         _dataMap = new System.Collections.Generic.Dictionary<int, ChainPacks_ChainPacks>();
         _dataList = new System.Collections.Generic.List<ChainPacks_ChainPacks>();
         
-        foreach(JObject _ele in _buf)
+        for(int n = _buf.ReadSize() ; n > 0 ; --n)
         {
             ChainPacks_ChainPacks _v;
-            _v = global::HotFix.Cfg.ChainPacks_ChainPacks.DeserializeChainPacks_ChainPacks(_ele);
+            _v = global::HotFix.Cfg.ChainPacks_ChainPacks.DeserializeChainPacks_ChainPacks(_buf);
             _dataList.Add(_v);
             _dataMap.Add(_v.id, _v);
-         }
+        }
     }
-
 
     public System.Collections.Generic.Dictionary<int, ChainPacks_ChainPacks> DataMap => _dataMap;
     public System.Collections.Generic.List<ChainPacks_ChainPacks> DataList => _dataList;
@@ -54,5 +50,6 @@ public partial class TbChainPacks_ChainPacks
     }
 
 }
+
 }
 

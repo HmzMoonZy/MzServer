@@ -7,14 +7,11 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-using Newtonsoft.Json.Linq;
 using Luban;
-
 
 
 namespace HotFix.Cfg
 {
-
 /// <summary>
 /// Generated from RogueDungeon.xlsx sheet endEvent
 /// </summary>
@@ -23,20 +20,19 @@ public partial class TbRogueDungeon_endEvent
     private readonly System.Collections.Generic.Dictionary<int, RogueDungeon_endEvent> _dataMap;
     private readonly System.Collections.Generic.List<RogueDungeon_endEvent> _dataList;
     
-    public TbRogueDungeon_endEvent(JArray _buf)
+    public TbRogueDungeon_endEvent(ByteBuf _buf)
     {
         _dataMap = new System.Collections.Generic.Dictionary<int, RogueDungeon_endEvent>();
         _dataList = new System.Collections.Generic.List<RogueDungeon_endEvent>();
         
-        foreach(JObject _ele in _buf)
+        for(int n = _buf.ReadSize() ; n > 0 ; --n)
         {
             RogueDungeon_endEvent _v;
-            _v = global::HotFix.Cfg.RogueDungeon_endEvent.DeserializeRogueDungeon_endEvent(_ele);
+            _v = global::HotFix.Cfg.RogueDungeon_endEvent.DeserializeRogueDungeon_endEvent(_buf);
             _dataList.Add(_v);
             _dataMap.Add(_v.id, _v);
-         }
+        }
     }
-
 
     public System.Collections.Generic.Dictionary<int, RogueDungeon_endEvent> DataMap => _dataMap;
     public System.Collections.Generic.List<RogueDungeon_endEvent> DataList => _dataList;
@@ -54,5 +50,6 @@ public partial class TbRogueDungeon_endEvent
     }
 
 }
+
 }
 

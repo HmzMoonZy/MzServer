@@ -8,41 +8,37 @@
 //------------------------------------------------------------------------------
 
 using Luban;
-using Newtonsoft.Json.Linq;
-
 
 
 namespace HotFix.Cfg
 {
-
 public sealed partial class Quality_HeroQuality : Luban.BeanBase
 {
-    public Quality_HeroQuality(JToken _buf) 
+    public Quality_HeroQuality(ByteBuf _buf) 
     {
-        JObject _obj = _buf as JObject;
-        id = (int)_obj.GetValue("id");
-        nameID = (string)_obj.GetValue("nameID");
-        uiHeroBg = (string)_obj.GetValue("uiHeroBg");
-        uiUnActiveBg = (string)_obj.GetValue("uiUnActiveBg");
-        heroAtlasId = (int)_obj.GetValue("heroAtlasId");
-        uiAttrBg = (string)_obj.GetValue("uiAttrBg");
-        uiAttrBgTab = (string)_obj.GetValue("uiAttrBgTab");
-        atlasId = (int)_obj.GetValue("atlasId");
-        bgSpriteName = (string)_obj.GetValue("bgSpriteName");
-        typeTxtBg = (string)_obj.GetValue("typeTxtBg");
-        cardAtlasId = (int)_obj.GetValue("cardAtlasId");
-        cardIcon = (string)_obj.GetValue("cardIcon");
-        colorNum = (string)_obj.GetValue("colorNum");
-        uiAttrTitleColor = (string)_obj.GetValue("uiAttrTitleColor");
-        uiAttrItemBg = (string)_obj.GetValue("uiAttrItemBg");
-        uiAttrBgTitleTabColor = (string)_obj.GetValue("uiAttrBgTitleTabColor");
-        uiAttrFontColor = (string)_obj.GetValue("uiAttrFontColor");
-        uiHeroSelectBgColor = (string)_obj.GetValue("uiHeroSelectBgColor");
-        uiHeroBgLightColor = (string)_obj.GetValue("uiHeroBgLightColor");
-        uiHeroBgIcon = (string)_obj.GetValue("uiHeroBgIcon");
+        id = _buf.ReadInt();
+        nameID = _buf.ReadString();
+        uiHeroBg = _buf.ReadString();
+        uiUnActiveBg = _buf.ReadString();
+        heroAtlasId = _buf.ReadInt();
+        uiAttrBg = _buf.ReadString();
+        uiAttrBgTab = _buf.ReadString();
+        atlasId = _buf.ReadInt();
+        bgSpriteName = _buf.ReadString();
+        typeTxtBg = _buf.ReadString();
+        cardAtlasId = _buf.ReadInt();
+        cardIcon = _buf.ReadString();
+        colorNum = _buf.ReadString();
+        uiAttrTitleColor = _buf.ReadString();
+        uiAttrItemBg = _buf.ReadString();
+        uiAttrBgTitleTabColor = _buf.ReadString();
+        uiAttrFontColor = _buf.ReadString();
+        uiHeroSelectBgColor = _buf.ReadString();
+        uiHeroBgLightColor = _buf.ReadString();
+        uiHeroBgIcon = _buf.ReadString();
     }
 
-    public static Quality_HeroQuality DeserializeQuality_HeroQuality(JToken _buf)
+    public static Quality_HeroQuality DeserializeQuality_HeroQuality(ByteBuf _buf)
     {
         return new Quality_HeroQuality(_buf);
     }
@@ -127,8 +123,7 @@ public sealed partial class Quality_HeroQuality : Luban.BeanBase
     /// 英雄背景图案颜色
     /// </summary>
     public readonly string uiHeroBgIcon;
-
-
+   
     public const int __ID__ = 1246069797;
     public override int GetTypeId() => __ID__;
 
@@ -162,5 +157,6 @@ public sealed partial class Quality_HeroQuality : Luban.BeanBase
         + "}";
     }
 }
+
 }
 

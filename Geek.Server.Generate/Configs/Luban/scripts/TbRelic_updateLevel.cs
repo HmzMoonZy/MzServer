@@ -7,14 +7,11 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-using Newtonsoft.Json.Linq;
 using Luban;
-
 
 
 namespace HotFix.Cfg
 {
-
 /// <summary>
 /// Generated from Relic.xlsx sheet updateLevel
 /// </summary>
@@ -23,20 +20,19 @@ public partial class TbRelic_updateLevel
     private readonly System.Collections.Generic.Dictionary<int, Relic_updateLevel> _dataMap;
     private readonly System.Collections.Generic.List<Relic_updateLevel> _dataList;
     
-    public TbRelic_updateLevel(JArray _buf)
+    public TbRelic_updateLevel(ByteBuf _buf)
     {
         _dataMap = new System.Collections.Generic.Dictionary<int, Relic_updateLevel>();
         _dataList = new System.Collections.Generic.List<Relic_updateLevel>();
         
-        foreach(JObject _ele in _buf)
+        for(int n = _buf.ReadSize() ; n > 0 ; --n)
         {
             Relic_updateLevel _v;
-            _v = global::HotFix.Cfg.Relic_updateLevel.DeserializeRelic_updateLevel(_ele);
+            _v = global::HotFix.Cfg.Relic_updateLevel.DeserializeRelic_updateLevel(_buf);
             _dataList.Add(_v);
             _dataMap.Add(_v.id, _v);
-         }
+        }
     }
-
 
     public System.Collections.Generic.Dictionary<int, Relic_updateLevel> DataMap => _dataMap;
     public System.Collections.Generic.List<Relic_updateLevel> DataList => _dataList;
@@ -54,5 +50,6 @@ public partial class TbRelic_updateLevel
     }
 
 }
+
 }
 

@@ -8,41 +8,37 @@
 //------------------------------------------------------------------------------
 
 using Luban;
-using Newtonsoft.Json.Linq;
-
 
 
 namespace HotFix.Cfg
 {
-
 public sealed partial class RogueDungeon_rogueDungeon : Luban.BeanBase
 {
-    public RogueDungeon_rogueDungeon(JToken _buf) 
+    public RogueDungeon_rogueDungeon(ByteBuf _buf) 
     {
-        JObject _obj = _buf as JObject;
-        id = (int)_obj.GetValue("id");
-        name = (string)_obj.GetValue("name");
-        endEvent = (int)_obj.GetValue("endEvent");
-        mapID = (int)_obj.GetValue("mapID");
-        { var __json0 = _obj.GetValue("StartAttributeArea"); int _n0 = (__json0 as JArray).Count; StartAttributeArea = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  StartAttributeArea[__index0++] = __v0; }   }
-        { var __json0 = _obj.GetValue("AddAttributeArea"); int _n0 = (__json0 as JArray).Count; AddAttributeArea = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  AddAttributeArea[__index0++] = __v0; }   }
-        { var __json0 = _obj.GetValue("firstReward"); int _n0 = (__json0 as JArray).Count; firstReward = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  firstReward[__index0++] = __v0; }   }
-        { var __json0 = _obj.GetValue("firstRewardB"); int _n0 = (__json0 as JArray).Count; firstRewardB = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  firstRewardB[__index0++] = __v0; }   }
-        { var __json0 = _obj.GetValue("playReward"); int _n0 = (__json0 as JArray).Count; playReward = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  playReward[__index0++] = __v0; }   }
-        { var __json0 = _obj.GetValue("playRewardB"); int _n0 = (__json0 as JArray).Count; playRewardB = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  playRewardB[__index0++] = __v0; }   }
-        { var __json0 = _obj.GetValue("monsterCfg"); int _n0 = (__json0 as JArray).Count; monsterCfg = new int[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { int __v0;  __v0 = (int)__e0;  monsterCfg[__index0++] = __v0; }   }
-        eliteCfg = (int)_obj.GetValue("eliteCfg");
-        bossCfg = (int)_obj.GetValue("bossCfg");
-        bossDoubleCfg = (int)_obj.GetValue("bossDoubleCfg");
-        { var __json0 = _obj.GetValue("buffData"); int _n0 = (__json0 as JArray).Count; buffData = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  buffData[__index0++] = __v0; }   }
-        normalBattleAttr = (string)_obj.GetValue("normalBattleAttr");
-        eliteBattleAttr = (string)_obj.GetValue("eliteBattleAttr");
-        bossBattleAttr = (string)_obj.GetValue("bossBattleAttr");
-        { var __json0 = _obj.GetValue("showMonster"); int _n0 = (__json0 as JArray).Count; showMonster = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  showMonster[__index0++] = __v0; }   }
-        speedAdd = (int)_obj.GetValue("speedAdd");
+        id = _buf.ReadInt();
+        name = _buf.ReadString();
+        endEvent = _buf.ReadInt();
+        mapID = _buf.ReadInt();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);StartAttributeArea = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); StartAttributeArea[__index0] = __e0;}}
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);AddAttributeArea = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); AddAttributeArea[__index0] = __e0;}}
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);firstReward = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); firstReward[__index0] = __e0;}}
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);firstRewardB = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); firstRewardB[__index0] = __e0;}}
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);playReward = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); playReward[__index0] = __e0;}}
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);playRewardB = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); playRewardB[__index0] = __e0;}}
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);monsterCfg = new int[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { int __e0;__e0 = _buf.ReadInt(); monsterCfg[__index0] = __e0;}}
+        eliteCfg = _buf.ReadInt();
+        bossCfg = _buf.ReadInt();
+        bossDoubleCfg = _buf.ReadInt();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);buffData = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); buffData[__index0] = __e0;}}
+        normalBattleAttr = _buf.ReadString();
+        eliteBattleAttr = _buf.ReadString();
+        bossBattleAttr = _buf.ReadString();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);showMonster = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); showMonster[__index0] = __e0;}}
+        speedAdd = _buf.ReadInt();
     }
 
-    public static RogueDungeon_rogueDungeon DeserializeRogueDungeon_rogueDungeon(JToken _buf)
+    public static RogueDungeon_rogueDungeon DeserializeRogueDungeon_rogueDungeon(ByteBuf _buf)
     {
         return new RogueDungeon_rogueDungeon(_buf);
     }
@@ -127,8 +123,7 @@ public sealed partial class RogueDungeon_rogueDungeon : Luban.BeanBase
     /// 速度加成(万分比)
     /// </summary>
     public readonly int speedAdd;
-
-
+   
     public const int __ID__ = -1089701441;
     public override int GetTypeId() => __ID__;
 
@@ -162,5 +157,6 @@ public sealed partial class RogueDungeon_rogueDungeon : Luban.BeanBase
         + "}";
     }
 }
+
 }
 

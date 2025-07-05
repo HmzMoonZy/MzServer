@@ -7,14 +7,11 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-using Newtonsoft.Json.Linq;
 using Luban;
-
 
 
 namespace HotFix.Cfg
 {
-
 /// <summary>
 /// Generated from EventFishing.xlsx sheet fishRank
 /// </summary>
@@ -23,20 +20,19 @@ public partial class TbEventFishing_fishRank
     private readonly System.Collections.Generic.Dictionary<int, EventFishing_fishRank> _dataMap;
     private readonly System.Collections.Generic.List<EventFishing_fishRank> _dataList;
     
-    public TbEventFishing_fishRank(JArray _buf)
+    public TbEventFishing_fishRank(ByteBuf _buf)
     {
         _dataMap = new System.Collections.Generic.Dictionary<int, EventFishing_fishRank>();
         _dataList = new System.Collections.Generic.List<EventFishing_fishRank>();
         
-        foreach(JObject _ele in _buf)
+        for(int n = _buf.ReadSize() ; n > 0 ; --n)
         {
             EventFishing_fishRank _v;
-            _v = global::HotFix.Cfg.EventFishing_fishRank.DeserializeEventFishing_fishRank(_ele);
+            _v = global::HotFix.Cfg.EventFishing_fishRank.DeserializeEventFishing_fishRank(_buf);
             _dataList.Add(_v);
             _dataMap.Add(_v.id, _v);
-         }
+        }
     }
-
 
     public System.Collections.Generic.Dictionary<int, EventFishing_fishRank> DataMap => _dataMap;
     public System.Collections.Generic.List<EventFishing_fishRank> DataList => _dataList;
@@ -54,5 +50,6 @@ public partial class TbEventFishing_fishRank
     }
 
 }
+
 }
 

@@ -8,25 +8,21 @@
 //------------------------------------------------------------------------------
 
 using Luban;
-using Newtonsoft.Json.Linq;
-
 
 
 namespace HotFix.Cfg
 {
-
 public sealed partial class Pet_petSummon : Luban.BeanBase
 {
-    public Pet_petSummon(JToken _buf) 
+    public Pet_petSummon(ByteBuf _buf) 
     {
-        JObject _obj = _buf as JObject;
-        id = (int)_obj.GetValue("id");
-        exp = (int)_obj.GetValue("exp");
-        { var __json0 = _obj.GetValue("probability"); int _n0 = (__json0 as JArray).Count; probability = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  probability[__index0++] = __v0; }   }
-        { var __json0 = _obj.GetValue("rateShow"); int _n0 = (__json0 as JArray).Count; rateShow = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  rateShow[__index0++] = __v0; }   }
+        id = _buf.ReadInt();
+        exp = _buf.ReadInt();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);probability = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); probability[__index0] = __e0;}}
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);rateShow = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); rateShow[__index0] = __e0;}}
     }
 
-    public static Pet_petSummon DeserializePet_petSummon(JToken _buf)
+    public static Pet_petSummon DeserializePet_petSummon(ByteBuf _buf)
     {
         return new Pet_petSummon(_buf);
     }
@@ -47,8 +43,7 @@ public sealed partial class Pet_petSummon : Luban.BeanBase
     /// 抽卡概率展示ID<br/>卡池,展示概率,文本,颜色|卡池,展示概率,文本,颜色,底部文本
     /// </summary>
     public readonly string[] rateShow;
-
-
+   
     public const int __ID__ = 390761376;
     public override int GetTypeId() => __ID__;
 
@@ -66,5 +61,6 @@ public sealed partial class Pet_petSummon : Luban.BeanBase
         + "}";
     }
 }
+
 }
 

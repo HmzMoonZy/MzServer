@@ -8,23 +8,19 @@
 //------------------------------------------------------------------------------
 
 using Luban;
-using Newtonsoft.Json.Linq;
-
 
 
 namespace HotFix.Cfg
 {
-
 public sealed partial class GameSkillBuild_first : Luban.BeanBase
 {
-    public GameSkillBuild_first(JToken _buf) 
+    public GameSkillBuild_first(ByteBuf _buf) 
     {
-        JObject _obj = _buf as JObject;
-        id = (int)_obj.GetValue("id");
-        { var __json0 = _obj.GetValue("skills"); int _n0 = (__json0 as JArray).Count; skills = new int[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { int __v0;  __v0 = (int)__e0;  skills[__index0++] = __v0; }   }
+        id = _buf.ReadInt();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);skills = new int[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { int __e0;__e0 = _buf.ReadInt(); skills[__index0] = __e0;}}
     }
 
-    public static GameSkillBuild_first DeserializeGameSkillBuild_first(JToken _buf)
+    public static GameSkillBuild_first DeserializeGameSkillBuild_first(ByteBuf _buf)
     {
         return new GameSkillBuild_first(_buf);
     }
@@ -37,8 +33,7 @@ public sealed partial class GameSkillBuild_first : Luban.BeanBase
     /// 技能组
     /// </summary>
     public readonly int[] skills;
-
-
+   
     public const int __ID__ = -516586816;
     public override int GetTypeId() => __ID__;
 
@@ -54,5 +49,6 @@ public sealed partial class GameSkillBuild_first : Luban.BeanBase
         + "}";
     }
 }
+
 }
 

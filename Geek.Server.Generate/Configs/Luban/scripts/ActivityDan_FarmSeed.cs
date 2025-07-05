@@ -8,29 +8,25 @@
 //------------------------------------------------------------------------------
 
 using Luban;
-using Newtonsoft.Json.Linq;
-
 
 
 namespace HotFix.Cfg
 {
-
 public sealed partial class ActivityDan_FarmSeed : Luban.BeanBase
 {
-    public ActivityDan_FarmSeed(JToken _buf) 
+    public ActivityDan_FarmSeed(ByteBuf _buf) 
     {
-        JObject _obj = _buf as JObject;
-        ID = (int)_obj.GetValue("ID");
-        SeedID = (int)_obj.GetValue("SeedID");
-        CropID = (int)_obj.GetValue("CropID");
-        GrowTime = (int)_obj.GetValue("GrowTime");
-        SaleCoinType = (int)_obj.GetValue("SaleCoinType");
-        Price = (int)_obj.GetValue("Price");
-        { var __json0 = _obj.GetValue("PriceColor"); int _n0 = (__json0 as JArray).Count; PriceColor = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  PriceColor[__index0++] = __v0; }   }
-        ConnectActivityId = (int)_obj.GetValue("ConnectActivityId");
+        ID = _buf.ReadInt();
+        SeedID = _buf.ReadInt();
+        CropID = _buf.ReadInt();
+        GrowTime = _buf.ReadInt();
+        SaleCoinType = _buf.ReadInt();
+        Price = _buf.ReadInt();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);PriceColor = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); PriceColor[__index0] = __e0;}}
+        ConnectActivityId = _buf.ReadInt();
     }
 
-    public static ActivityDan_FarmSeed DeserializeActivityDan_FarmSeed(JToken _buf)
+    public static ActivityDan_FarmSeed DeserializeActivityDan_FarmSeed(ByteBuf _buf)
     {
         return new ActivityDan_FarmSeed(_buf);
     }
@@ -67,8 +63,7 @@ public sealed partial class ActivityDan_FarmSeed : Luban.BeanBase
     /// 关联活动
     /// </summary>
     public readonly int ConnectActivityId;
-
-
+   
     public const int __ID__ = 397668772;
     public override int GetTypeId() => __ID__;
 
@@ -90,5 +85,6 @@ public sealed partial class ActivityDan_FarmSeed : Luban.BeanBase
         + "}";
     }
 }
+
 }
 

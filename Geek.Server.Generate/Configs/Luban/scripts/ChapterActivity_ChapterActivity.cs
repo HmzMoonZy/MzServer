@@ -8,35 +8,31 @@
 //------------------------------------------------------------------------------
 
 using Luban;
-using Newtonsoft.Json.Linq;
-
 
 
 namespace HotFix.Cfg
 {
-
 public sealed partial class ChapterActivity_ChapterActivity : Luban.BeanBase
 {
-    public ChapterActivity_ChapterActivity(JToken _buf) 
+    public ChapterActivity_ChapterActivity(ByteBuf _buf) 
     {
-        JObject _obj = _buf as JObject;
-        id = (int)_obj.GetValue("id");
-        name = (string)_obj.GetValue("name");
-        type = (int)_obj.GetValue("type");
-        { var __json0 = _obj.GetValue("parameter"); int _n0 = (__json0 as JArray).Count; parameter = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  parameter[__index0++] = __v0; }   }
-        atlasID = (int)_obj.GetValue("atlasID");
-        itemIcon = (string)_obj.GetValue("itemIcon");
-        itemNameId = (string)_obj.GetValue("itemNameId");
-        banner = (string)_obj.GetValue("banner");
-        openTime = (string)_obj.GetValue("openTime");
-        endTime = (string)_obj.GetValue("endTime");
-        group = (int)_obj.GetValue("group");
-        { var __json0 = _obj.GetValue("rewardShow"); int _n0 = (__json0 as JArray).Count; rewardShow = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  rewardShow[__index0++] = __v0; }   }
-        { var __json0 = _obj.GetValue("modelShow"); int _n0 = (__json0 as JArray).Count; modelShow = new int[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { int __v0;  __v0 = (int)__e0;  modelShow[__index0++] = __v0; }   }
-        { var __json0 = _obj.GetValue("scoreShow"); int _n0 = (__json0 as JArray).Count; scoreShow = new int[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { int __v0;  __v0 = (int)__e0;  scoreShow[__index0++] = __v0; }   }
+        id = _buf.ReadInt();
+        name = _buf.ReadString();
+        type = _buf.ReadInt();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);parameter = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); parameter[__index0] = __e0;}}
+        atlasID = _buf.ReadInt();
+        itemIcon = _buf.ReadString();
+        itemNameId = _buf.ReadString();
+        banner = _buf.ReadString();
+        openTime = _buf.ReadString();
+        endTime = _buf.ReadString();
+        group = _buf.ReadInt();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);rewardShow = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); rewardShow[__index0] = __e0;}}
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);modelShow = new int[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { int __e0;__e0 = _buf.ReadInt(); modelShow[__index0] = __e0;}}
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);scoreShow = new int[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { int __e0;__e0 = _buf.ReadInt(); scoreShow[__index0] = __e0;}}
     }
 
-    public static ChapterActivity_ChapterActivity DeserializeChapterActivity_ChapterActivity(JToken _buf)
+    public static ChapterActivity_ChapterActivity DeserializeChapterActivity_ChapterActivity(ByteBuf _buf)
     {
         return new ChapterActivity_ChapterActivity(_buf);
     }
@@ -97,8 +93,7 @@ public sealed partial class ChapterActivity_ChapterActivity : Luban.BeanBase
     /// 展示积分
     /// </summary>
     public readonly int[] scoreShow;
-
-
+   
     public const int __ID__ = -1429276039;
     public override int GetTypeId() => __ID__;
 
@@ -126,5 +121,6 @@ public sealed partial class ChapterActivity_ChapterActivity : Luban.BeanBase
         + "}";
     }
 }
+
 }
 

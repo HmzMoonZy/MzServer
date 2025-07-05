@@ -7,14 +7,11 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-using Newtonsoft.Json.Linq;
 using Luban;
-
 
 
 namespace HotFix.Cfg
 {
-
 /// <summary>
 /// Generated from Plinko.xlsx sheet PlinkoRewardSpecialProbability
 /// </summary>
@@ -23,20 +20,19 @@ public partial class TbPlinko_PlinkoRewardSpecialProbability
     private readonly System.Collections.Generic.Dictionary<int, Plinko_PlinkoRewardSpecialProbability> _dataMap;
     private readonly System.Collections.Generic.List<Plinko_PlinkoRewardSpecialProbability> _dataList;
     
-    public TbPlinko_PlinkoRewardSpecialProbability(JArray _buf)
+    public TbPlinko_PlinkoRewardSpecialProbability(ByteBuf _buf)
     {
         _dataMap = new System.Collections.Generic.Dictionary<int, Plinko_PlinkoRewardSpecialProbability>();
         _dataList = new System.Collections.Generic.List<Plinko_PlinkoRewardSpecialProbability>();
         
-        foreach(JObject _ele in _buf)
+        for(int n = _buf.ReadSize() ; n > 0 ; --n)
         {
             Plinko_PlinkoRewardSpecialProbability _v;
-            _v = global::HotFix.Cfg.Plinko_PlinkoRewardSpecialProbability.DeserializePlinko_PlinkoRewardSpecialProbability(_ele);
+            _v = global::HotFix.Cfg.Plinko_PlinkoRewardSpecialProbability.DeserializePlinko_PlinkoRewardSpecialProbability(_buf);
             _dataList.Add(_v);
             _dataMap.Add(_v.ID, _v);
-         }
+        }
     }
-
 
     public System.Collections.Generic.Dictionary<int, Plinko_PlinkoRewardSpecialProbability> DataMap => _dataMap;
     public System.Collections.Generic.List<Plinko_PlinkoRewardSpecialProbability> DataList => _dataList;
@@ -54,5 +50,6 @@ public partial class TbPlinko_PlinkoRewardSpecialProbability
     }
 
 }
+
 }
 

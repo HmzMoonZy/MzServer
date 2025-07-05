@@ -7,14 +7,11 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-using Newtonsoft.Json.Linq;
 using Luban;
-
 
 
 namespace HotFix.Cfg
 {
-
 /// <summary>
 /// Generated from ArtMember.xlsx sheet morph
 /// </summary>
@@ -23,20 +20,19 @@ public partial class TbArtMember_morph
     private readonly System.Collections.Generic.Dictionary<int, ArtMember_morph> _dataMap;
     private readonly System.Collections.Generic.List<ArtMember_morph> _dataList;
     
-    public TbArtMember_morph(JArray _buf)
+    public TbArtMember_morph(ByteBuf _buf)
     {
         _dataMap = new System.Collections.Generic.Dictionary<int, ArtMember_morph>();
         _dataList = new System.Collections.Generic.List<ArtMember_morph>();
         
-        foreach(JObject _ele in _buf)
+        for(int n = _buf.ReadSize() ; n > 0 ; --n)
         {
             ArtMember_morph _v;
-            _v = global::HotFix.Cfg.ArtMember_morph.DeserializeArtMember_morph(_ele);
+            _v = global::HotFix.Cfg.ArtMember_morph.DeserializeArtMember_morph(_buf);
             _dataList.Add(_v);
             _dataMap.Add(_v.id, _v);
-         }
+        }
     }
-
 
     public System.Collections.Generic.Dictionary<int, ArtMember_morph> DataMap => _dataMap;
     public System.Collections.Generic.List<ArtMember_morph> DataList => _dataList;
@@ -54,5 +50,6 @@ public partial class TbArtMember_morph
     }
 
 }
+
 }
 

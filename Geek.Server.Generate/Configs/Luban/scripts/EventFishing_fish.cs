@@ -8,33 +8,29 @@
 //------------------------------------------------------------------------------
 
 using Luban;
-using Newtonsoft.Json.Linq;
-
 
 
 namespace HotFix.Cfg
 {
-
 public sealed partial class EventFishing_fish : Luban.BeanBase
 {
-    public EventFishing_fish(JToken _buf) 
+    public EventFishing_fish(ByteBuf _buf) 
     {
-        JObject _obj = _buf as JObject;
-        id = (int)_obj.GetValue("id");
-        area = (int)_obj.GetValue("area");
-        type = (int)_obj.GetValue("type");
-        number = (int)_obj.GetValue("number");
-        weight = (int)_obj.GetValue("weight");
-        { var __json0 = _obj.GetValue("weightFloat"); int _n0 = (__json0 as JArray).Count; weightFloat = new int[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { int __v0;  __v0 = (int)__e0;  weightFloat[__index0++] = __v0; }   }
-        initialDamage = (int)_obj.GetValue("initialDamage");
-        strength = (int)_obj.GetValue("strength");
-        speed = (int)_obj.GetValue("speed");
-        { var __json0 = _obj.GetValue("actionList"); int _n0 = (__json0 as JArray).Count; actionList = new int[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { int __v0;  __v0 = (int)__e0;  actionList[__index0++] = __v0; }   }
-        { var __json0 = _obj.GetValue("dropId"); int _n0 = (__json0 as JArray).Count; dropId = new int[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { int __v0;  __v0 = (int)__e0;  dropId[__index0++] = __v0; }   }
-        fishKingReward = (int)_obj.GetValue("fishKingReward");
+        id = _buf.ReadInt();
+        area = _buf.ReadInt();
+        type = _buf.ReadInt();
+        number = _buf.ReadInt();
+        weight = _buf.ReadInt();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);weightFloat = new int[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { int __e0;__e0 = _buf.ReadInt(); weightFloat[__index0] = __e0;}}
+        initialDamage = _buf.ReadInt();
+        strength = _buf.ReadInt();
+        speed = _buf.ReadInt();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);actionList = new int[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { int __e0;__e0 = _buf.ReadInt(); actionList[__index0] = __e0;}}
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);dropId = new int[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { int __e0;__e0 = _buf.ReadInt(); dropId[__index0] = __e0;}}
+        fishKingReward = _buf.ReadInt();
     }
 
-    public static EventFishing_fish DeserializeEventFishing_fish(JToken _buf)
+    public static EventFishing_fish DeserializeEventFishing_fish(ByteBuf _buf)
     {
         return new EventFishing_fish(_buf);
     }
@@ -87,8 +83,7 @@ public sealed partial class EventFishing_fish : Luban.BeanBase
     /// 鱼王精华奖励数量
     /// </summary>
     public readonly int fishKingReward;
-
-
+   
     public const int __ID__ = 2078524039;
     public override int GetTypeId() => __ID__;
 
@@ -114,5 +109,6 @@ public sealed partial class EventFishing_fish : Luban.BeanBase
         + "}";
     }
 }
+
 }
 

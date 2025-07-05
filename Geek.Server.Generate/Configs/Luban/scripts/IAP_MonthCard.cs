@@ -8,31 +8,27 @@
 //------------------------------------------------------------------------------
 
 using Luban;
-using Newtonsoft.Json.Linq;
-
 
 
 namespace HotFix.Cfg
 {
-
 public sealed partial class IAP_MonthCard : Luban.BeanBase
 {
-    public IAP_MonthCard(JToken _buf) 
+    public IAP_MonthCard(ByteBuf _buf) 
     {
-        JObject _obj = _buf as JObject;
-        id = (int)_obj.GetValue("id");
-        duration = (int)_obj.GetValue("duration");
-        alarmClock = (int)_obj.GetValue("alarmClock");
-        postID = (string)_obj.GetValue("postID");
-        { var __json0 = _obj.GetValue("products"); int _n0 = (__json0 as JArray).Count; products = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  products[__index0++] = __v0; }   }
-        { var __json0 = _obj.GetValue("productsPerDay"); int _n0 = (__json0 as JArray).Count; productsPerDay = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  productsPerDay[__index0++] = __v0; }   }
-        rebate = (int)_obj.GetValue("rebate");
-        { var __json0 = _obj.GetValue("tips"); int _n0 = (__json0 as JArray).Count; tips = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  tips[__index0++] = __v0; }   }
-        { var __json0 = _obj.GetValue("rewarTips"); int _n0 = (__json0 as JArray).Count; rewarTips = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  rewarTips[__index0++] = __v0; }   }
-        { var __json0 = _obj.GetValue("privilege"); int _n0 = (__json0 as JArray).Count; privilege = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  privilege[__index0++] = __v0; }   }
+        id = _buf.ReadInt();
+        duration = _buf.ReadInt();
+        alarmClock = _buf.ReadInt();
+        postID = _buf.ReadString();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);products = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); products[__index0] = __e0;}}
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);productsPerDay = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); productsPerDay[__index0] = __e0;}}
+        rebate = _buf.ReadInt();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);tips = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); tips[__index0] = __e0;}}
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);rewarTips = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); rewarTips[__index0] = __e0;}}
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);privilege = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); privilege[__index0] = __e0;}}
     }
 
-    public static IAP_MonthCard DeserializeIAP_MonthCard(JToken _buf)
+    public static IAP_MonthCard DeserializeIAP_MonthCard(ByteBuf _buf)
     {
         return new IAP_MonthCard(_buf);
     }
@@ -77,8 +73,7 @@ public sealed partial class IAP_MonthCard : Luban.BeanBase
     /// 特权
     /// </summary>
     public readonly string[] privilege;
-
-
+   
     public const int __ID__ = 1344381001;
     public override int GetTypeId() => __ID__;
 
@@ -102,5 +97,6 @@ public sealed partial class IAP_MonthCard : Luban.BeanBase
         + "}";
     }
 }
+
 }
 

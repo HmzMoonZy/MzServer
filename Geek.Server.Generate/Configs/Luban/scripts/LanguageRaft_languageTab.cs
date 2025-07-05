@@ -8,26 +8,22 @@
 //------------------------------------------------------------------------------
 
 using Luban;
-using Newtonsoft.Json.Linq;
-
 
 
 namespace HotFix.Cfg
 {
-
 public sealed partial class LanguageRaft_languageTab : Luban.BeanBase
 {
-    public LanguageRaft_languageTab(JToken _buf) 
+    public LanguageRaft_languageTab(ByteBuf _buf) 
     {
-        JObject _obj = _buf as JObject;
-        id = (int)_obj.GetValue("id");
-        name = (string)_obj.GetValue("name");
-        enumId = (int)_obj.GetValue("enumId");
-        use = (int)_obj.GetValue("use");
-        sortId = (int)_obj.GetValue("sortId");
+        id = _buf.ReadInt();
+        name = _buf.ReadString();
+        enumId = _buf.ReadInt();
+        use = _buf.ReadInt();
+        sortId = _buf.ReadInt();
     }
 
-    public static LanguageRaft_languageTab DeserializeLanguageRaft_languageTab(JToken _buf)
+    public static LanguageRaft_languageTab DeserializeLanguageRaft_languageTab(ByteBuf _buf)
     {
         return new LanguageRaft_languageTab(_buf);
     }
@@ -52,8 +48,7 @@ public sealed partial class LanguageRaft_languageTab : Luban.BeanBase
     /// 排序id，越小越靠前
     /// </summary>
     public readonly int sortId;
-
-
+   
     public const int __ID__ = 1945032371;
     public override int GetTypeId() => __ID__;
 
@@ -72,5 +67,6 @@ public sealed partial class LanguageRaft_languageTab : Luban.BeanBase
         + "}";
     }
 }
+
 }
 

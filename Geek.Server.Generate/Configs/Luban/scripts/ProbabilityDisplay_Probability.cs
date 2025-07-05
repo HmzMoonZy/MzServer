@@ -8,28 +8,24 @@
 //------------------------------------------------------------------------------
 
 using Luban;
-using Newtonsoft.Json.Linq;
-
 
 
 namespace HotFix.Cfg
 {
-
 public sealed partial class ProbabilityDisplay_Probability : Luban.BeanBase
 {
-    public ProbabilityDisplay_Probability(JToken _buf) 
+    public ProbabilityDisplay_Probability(ByteBuf _buf) 
     {
-        JObject _obj = _buf as JObject;
-        Id = (int)_obj.GetValue("Id");
-        DisplayType = (int)_obj.GetValue("DisplayType");
-        Title = (string)_obj.GetValue("Title");
-        { var __json0 = _obj.GetValue("probabilities"); int _n0 = (__json0 as JArray).Count; probabilities = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  probabilities[__index0++] = __v0; }   }
-        ItemLabel = (string)_obj.GetValue("ItemLabel");
-        StrLabel = (string)_obj.GetValue("StrLabel");
-        probabilitiesStr = (string)_obj.GetValue("probabilitiesStr");
+        Id = _buf.ReadInt();
+        DisplayType = _buf.ReadInt();
+        Title = _buf.ReadString();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);probabilities = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); probabilities[__index0] = __e0;}}
+        ItemLabel = _buf.ReadString();
+        StrLabel = _buf.ReadString();
+        probabilitiesStr = _buf.ReadString();
     }
 
-    public static ProbabilityDisplay_Probability DeserializeProbabilityDisplay_Probability(JToken _buf)
+    public static ProbabilityDisplay_Probability DeserializeProbabilityDisplay_Probability(ByteBuf _buf)
     {
         return new ProbabilityDisplay_Probability(_buf);
     }
@@ -62,8 +58,7 @@ public sealed partial class ProbabilityDisplay_Probability : Luban.BeanBase
     /// 概率公示文本的多语言ID<br/>[仅类型2]
     /// </summary>
     public readonly string probabilitiesStr;
-
-
+   
     public const int __ID__ = -1536507453;
     public override int GetTypeId() => __ID__;
 
@@ -84,5 +79,6 @@ public sealed partial class ProbabilityDisplay_Probability : Luban.BeanBase
         + "}";
     }
 }
+
 }
 

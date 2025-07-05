@@ -8,27 +8,23 @@
 //------------------------------------------------------------------------------
 
 using Luban;
-using Newtonsoft.Json.Linq;
-
 
 
 namespace HotFix.Cfg
 {
-
 public sealed partial class LocalAds_LocalAdsCfg : Luban.BeanBase
 {
-    public LocalAds_LocalAdsCfg(JToken _buf) 
+    public LocalAds_LocalAdsCfg(ByteBuf _buf) 
     {
-        JObject _obj = _buf as JObject;
-        id = (int)_obj.GetValue("id");
-        platform = (int)_obj.GetValue("platform");
-        name = (string)_obj.GetValue("name");
-        imageName = (string)_obj.GetValue("imageName");
-        tomarket = (int)_obj.GetValue("tomarket");
-        jumpLink = (string)_obj.GetValue("jumpLink");
+        id = _buf.ReadInt();
+        platform = _buf.ReadInt();
+        name = _buf.ReadString();
+        imageName = _buf.ReadString();
+        tomarket = _buf.ReadInt();
+        jumpLink = _buf.ReadString();
     }
 
-    public static LocalAds_LocalAdsCfg DeserializeLocalAds_LocalAdsCfg(JToken _buf)
+    public static LocalAds_LocalAdsCfg DeserializeLocalAds_LocalAdsCfg(ByteBuf _buf)
     {
         return new LocalAds_LocalAdsCfg(_buf);
     }
@@ -57,8 +53,7 @@ public sealed partial class LocalAds_LocalAdsCfg : Luban.BeanBase
     /// 跳转链接
     /// </summary>
     public readonly string jumpLink;
-
-
+   
     public const int __ID__ = 1386660069;
     public override int GetTypeId() => __ID__;
 
@@ -78,5 +73,6 @@ public sealed partial class LocalAds_LocalAdsCfg : Luban.BeanBase
         + "}";
     }
 }
+
 }
 

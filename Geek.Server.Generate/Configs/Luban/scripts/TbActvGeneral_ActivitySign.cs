@@ -7,14 +7,11 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-using Newtonsoft.Json.Linq;
 using Luban;
-
 
 
 namespace HotFix.Cfg
 {
-
 /// <summary>
 /// Generated from ActvGeneral.xlsx sheet ActivitySign
 /// </summary>
@@ -23,20 +20,19 @@ public partial class TbActvGeneral_ActivitySign
     private readonly System.Collections.Generic.Dictionary<int, ActvGeneral_ActivitySign> _dataMap;
     private readonly System.Collections.Generic.List<ActvGeneral_ActivitySign> _dataList;
     
-    public TbActvGeneral_ActivitySign(JArray _buf)
+    public TbActvGeneral_ActivitySign(ByteBuf _buf)
     {
         _dataMap = new System.Collections.Generic.Dictionary<int, ActvGeneral_ActivitySign>();
         _dataList = new System.Collections.Generic.List<ActvGeneral_ActivitySign>();
         
-        foreach(JObject _ele in _buf)
+        for(int n = _buf.ReadSize() ; n > 0 ; --n)
         {
             ActvGeneral_ActivitySign _v;
-            _v = global::HotFix.Cfg.ActvGeneral_ActivitySign.DeserializeActvGeneral_ActivitySign(_ele);
+            _v = global::HotFix.Cfg.ActvGeneral_ActivitySign.DeserializeActvGeneral_ActivitySign(_buf);
             _dataList.Add(_v);
             _dataMap.Add(_v.id, _v);
-         }
+        }
     }
-
 
     public System.Collections.Generic.Dictionary<int, ActvGeneral_ActivitySign> DataMap => _dataMap;
     public System.Collections.Generic.List<ActvGeneral_ActivitySign> DataList => _dataList;
@@ -54,5 +50,6 @@ public partial class TbActvGeneral_ActivitySign
     }
 
 }
+
 }
 

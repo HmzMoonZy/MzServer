@@ -8,24 +8,20 @@
 //------------------------------------------------------------------------------
 
 using Luban;
-using Newtonsoft.Json.Linq;
-
 
 
 namespace HotFix.Cfg
 {
-
 public sealed partial class GameBuff_buffType : Luban.BeanBase
 {
-    public GameBuff_buffType(JToken _buf) 
+    public GameBuff_buffType(ByteBuf _buf) 
     {
-        JObject _obj = _buf as JObject;
-        id = (int)_obj.GetValue("id");
-        sClassName = (string)_obj.GetValue("sClassName");
-        cClassName = (string)_obj.GetValue("cClassName");
+        id = _buf.ReadInt();
+        sClassName = _buf.ReadString();
+        cClassName = _buf.ReadString();
     }
 
-    public static GameBuff_buffType DeserializeGameBuff_buffType(JToken _buf)
+    public static GameBuff_buffType DeserializeGameBuff_buffType(ByteBuf _buf)
     {
         return new GameBuff_buffType(_buf);
     }
@@ -42,8 +38,7 @@ public sealed partial class GameBuff_buffType : Luban.BeanBase
     /// 技能class
     /// </summary>
     public readonly string cClassName;
-
-
+   
     public const int __ID__ = -1957814873;
     public override int GetTypeId() => __ID__;
 
@@ -60,5 +55,6 @@ public sealed partial class GameBuff_buffType : Luban.BeanBase
         + "}";
     }
 }
+
 }
 

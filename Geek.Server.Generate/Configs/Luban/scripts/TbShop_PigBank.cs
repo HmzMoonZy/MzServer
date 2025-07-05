@@ -7,14 +7,11 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-using Newtonsoft.Json.Linq;
 using Luban;
-
 
 
 namespace HotFix.Cfg
 {
-
 /// <summary>
 /// Generated from Shop.xlsx sheet PigBank
 /// </summary>
@@ -23,20 +20,19 @@ public partial class TbShop_PigBank
     private readonly System.Collections.Generic.Dictionary<int, Shop_PigBank> _dataMap;
     private readonly System.Collections.Generic.List<Shop_PigBank> _dataList;
     
-    public TbShop_PigBank(JArray _buf)
+    public TbShop_PigBank(ByteBuf _buf)
     {
         _dataMap = new System.Collections.Generic.Dictionary<int, Shop_PigBank>();
         _dataList = new System.Collections.Generic.List<Shop_PigBank>();
         
-        foreach(JObject _ele in _buf)
+        for(int n = _buf.ReadSize() ; n > 0 ; --n)
         {
             Shop_PigBank _v;
-            _v = global::HotFix.Cfg.Shop_PigBank.DeserializeShop_PigBank(_ele);
+            _v = global::HotFix.Cfg.Shop_PigBank.DeserializeShop_PigBank(_buf);
             _dataList.Add(_v);
             _dataMap.Add(_v.ID, _v);
-         }
+        }
     }
-
 
     public System.Collections.Generic.Dictionary<int, Shop_PigBank> DataMap => _dataMap;
     public System.Collections.Generic.List<Shop_PigBank> DataList => _dataList;
@@ -54,5 +50,6 @@ public partial class TbShop_PigBank
     }
 
 }
+
 }
 

@@ -8,26 +8,22 @@
 //------------------------------------------------------------------------------
 
 using Luban;
-using Newtonsoft.Json.Linq;
-
 
 
 namespace HotFix.Cfg
 {
-
 public sealed partial class IAP_LevelFund : Luban.BeanBase
 {
-    public IAP_LevelFund(JToken _buf) 
+    public IAP_LevelFund(ByteBuf _buf) 
     {
-        JObject _obj = _buf as JObject;
-        id = (int)_obj.GetValue("id");
-        index = (int)_obj.GetValue("index");
-        groupId = (int)_obj.GetValue("groupId");
-        paramType = (int)_obj.GetValue("paramType");
-        { var __json0 = _obj.GetValue("products"); int _n0 = (__json0 as JArray).Count; products = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  products[__index0++] = __v0; }   }
+        id = _buf.ReadInt();
+        index = _buf.ReadInt();
+        groupId = _buf.ReadInt();
+        paramType = _buf.ReadInt();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);products = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); products[__index0] = __e0;}}
     }
 
-    public static IAP_LevelFund DeserializeIAP_LevelFund(JToken _buf)
+    public static IAP_LevelFund DeserializeIAP_LevelFund(ByteBuf _buf)
     {
         return new IAP_LevelFund(_buf);
     }
@@ -52,8 +48,7 @@ public sealed partial class IAP_LevelFund : Luban.BeanBase
     /// 当即奖励<br/>itemid,count,showCount|itemid,count,,showCount
     /// </summary>
     public readonly string[] products;
-
-
+   
     public const int __ID__ = 988061442;
     public override int GetTypeId() => __ID__;
 
@@ -72,5 +67,6 @@ public sealed partial class IAP_LevelFund : Luban.BeanBase
         + "}";
     }
 }
+
 }
 

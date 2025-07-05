@@ -8,29 +8,25 @@
 //------------------------------------------------------------------------------
 
 using Luban;
-using Newtonsoft.Json.Linq;
-
 
 
 namespace HotFix.Cfg
 {
-
 public sealed partial class BattleMain_wave : Luban.BeanBase
 {
-    public BattleMain_wave(JToken _buf) 
+    public BattleMain_wave(ByteBuf _buf) 
     {
-        JObject _obj = _buf as JObject;
-        ID = (int)_obj.GetValue("ID");
-        roomType = (int)_obj.GetValue("roomType");
-        position0 = (int)_obj.GetValue("position0");
-        position1 = (int)_obj.GetValue("position1");
-        position2 = (int)_obj.GetValue("position2");
-        attackUpgrade = (int)_obj.GetValue("attackUpgrade");
-        hpUpgrade = (int)_obj.GetValue("hpUpgrade");
-        { var __json0 = _obj.GetValue("attributes"); int _n0 = (__json0 as JArray).Count; attributes = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  attributes[__index0++] = __v0; }   }
+        ID = _buf.ReadInt();
+        roomType = _buf.ReadInt();
+        position0 = _buf.ReadInt();
+        position1 = _buf.ReadInt();
+        position2 = _buf.ReadInt();
+        attackUpgrade = _buf.ReadInt();
+        hpUpgrade = _buf.ReadInt();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);attributes = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); attributes[__index0] = __e0;}}
     }
 
-    public static BattleMain_wave DeserializeBattleMain_wave(JToken _buf)
+    public static BattleMain_wave DeserializeBattleMain_wave(ByteBuf _buf)
     {
         return new BattleMain_wave(_buf);
     }
@@ -67,8 +63,7 @@ public sealed partial class BattleMain_wave : Luban.BeanBase
     /// 额外属性加成
     /// </summary>
     public readonly string[] attributes;
-
-
+   
     public const int __ID__ = -378878009;
     public override int GetTypeId() => __ID__;
 
@@ -90,5 +85,6 @@ public sealed partial class BattleMain_wave : Luban.BeanBase
         + "}";
     }
 }
+
 }
 

@@ -8,28 +8,24 @@
 //------------------------------------------------------------------------------
 
 using Luban;
-using Newtonsoft.Json.Linq;
-
 
 
 namespace HotFix.Cfg
 {
-
 public sealed partial class Fishing_fishing : Luban.BeanBase
 {
-    public Fishing_fishing(JToken _buf) 
+    public Fishing_fishing(ByteBuf _buf) 
     {
-        JObject _obj = _buf as JObject;
-        id = (int)_obj.GetValue("id");
-        { var __json0 = _obj.GetValue("fishUp"); int _n0 = (__json0 as JArray).Count; fishUp = new int[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { int __v0;  __v0 = (int)__e0;  fishUp[__index0++] = __v0; }   }
-        distanceDefault = (int)_obj.GetValue("distanceDefault");
-        distanceFail = (int)_obj.GetValue("distanceFail");
-        area = (int)_obj.GetValue("area");
-        bait = (int)_obj.GetValue("bait");
-        fishRod = (int)_obj.GetValue("fishRod");
+        id = _buf.ReadInt();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);fishUp = new int[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { int __e0;__e0 = _buf.ReadInt(); fishUp[__index0] = __e0;}}
+        distanceDefault = _buf.ReadInt();
+        distanceFail = _buf.ReadInt();
+        area = _buf.ReadInt();
+        bait = _buf.ReadInt();
+        fishRod = _buf.ReadInt();
     }
 
-    public static Fishing_fishing DeserializeFishing_fishing(JToken _buf)
+    public static Fishing_fishing DeserializeFishing_fishing(ByteBuf _buf)
     {
         return new Fishing_fishing(_buf);
     }
@@ -62,8 +58,7 @@ public sealed partial class Fishing_fishing : Luban.BeanBase
     /// 初始鱼竿
     /// </summary>
     public readonly int fishRod;
-
-
+   
     public const int __ID__ = -2048919115;
     public override int GetTypeId() => __ID__;
 
@@ -84,5 +79,6 @@ public sealed partial class Fishing_fishing : Luban.BeanBase
         + "}";
     }
 }
+
 }
 

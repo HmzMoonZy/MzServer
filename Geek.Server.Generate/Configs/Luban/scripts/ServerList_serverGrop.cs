@@ -8,25 +8,21 @@
 //------------------------------------------------------------------------------
 
 using Luban;
-using Newtonsoft.Json.Linq;
-
 
 
 namespace HotFix.Cfg
 {
-
 public sealed partial class ServerList_serverGrop : Luban.BeanBase
 {
-    public ServerList_serverGrop(JToken _buf) 
+    public ServerList_serverGrop(ByteBuf _buf) 
     {
-        JObject _obj = _buf as JObject;
-        id = (int)_obj.GetValue("id");
-        { var __json0 = _obj.GetValue("range"); int _n0 = (__json0 as JArray).Count; range = new int[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { int __v0;  __v0 = (int)__e0;  range[__index0++] = __v0; }   }
-        groupName = (string)_obj.GetValue("groupName");
-        sortId = (int)_obj.GetValue("sortId");
+        id = _buf.ReadInt();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);range = new int[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { int __e0;__e0 = _buf.ReadInt(); range[__index0] = __e0;}}
+        groupName = _buf.ReadString();
+        sortId = _buf.ReadInt();
     }
 
-    public static ServerList_serverGrop DeserializeServerList_serverGrop(JToken _buf)
+    public static ServerList_serverGrop DeserializeServerList_serverGrop(ByteBuf _buf)
     {
         return new ServerList_serverGrop(_buf);
     }
@@ -47,8 +43,7 @@ public sealed partial class ServerList_serverGrop : Luban.BeanBase
     /// 排序ID,从小到大排序
     /// </summary>
     public readonly int sortId;
-
-
+   
     public const int __ID__ = -1241409971;
     public override int GetTypeId() => __ID__;
 
@@ -66,5 +61,6 @@ public sealed partial class ServerList_serverGrop : Luban.BeanBase
         + "}";
     }
 }
+
 }
 

@@ -8,27 +8,23 @@
 //------------------------------------------------------------------------------
 
 using Luban;
-using Newtonsoft.Json.Linq;
-
 
 
 namespace HotFix.Cfg
 {
-
 public sealed partial class CommonActivity_PayObj : Luban.BeanBase
 {
-    public CommonActivity_PayObj(JToken _buf) 
+    public CommonActivity_PayObj(ByteBuf _buf) 
     {
-        JObject _obj = _buf as JObject;
-        id = (int)_obj.GetValue("id");
-        PurchaseId = (int)_obj.GetValue("PurchaseId");
-        ObjGroup = (int)_obj.GetValue("ObjGroup");
-        ObjName = (string)_obj.GetValue("ObjName");
-        objToplimit = (int)_obj.GetValue("objToplimit");
-        { var __json0 = _obj.GetValue("ObjGoods"); int _n0 = (__json0 as JArray).Count; ObjGoods = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  ObjGoods[__index0++] = __v0; }   }
+        id = _buf.ReadInt();
+        PurchaseId = _buf.ReadInt();
+        ObjGroup = _buf.ReadInt();
+        ObjName = _buf.ReadString();
+        objToplimit = _buf.ReadInt();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);ObjGoods = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); ObjGoods[__index0] = __e0;}}
     }
 
-    public static CommonActivity_PayObj DeserializeCommonActivity_PayObj(JToken _buf)
+    public static CommonActivity_PayObj DeserializeCommonActivity_PayObj(ByteBuf _buf)
     {
         return new CommonActivity_PayObj(_buf);
     }
@@ -57,8 +53,7 @@ public sealed partial class CommonActivity_PayObj : Luban.BeanBase
     /// 出售道具
     /// </summary>
     public readonly string[] ObjGoods;
-
-
+   
     public const int __ID__ = -1788508940;
     public override int GetTypeId() => __ID__;
 
@@ -78,5 +73,6 @@ public sealed partial class CommonActivity_PayObj : Luban.BeanBase
         + "}";
     }
 }
+
 }
 

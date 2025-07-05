@@ -8,27 +8,23 @@
 //------------------------------------------------------------------------------
 
 using Luban;
-using Newtonsoft.Json.Linq;
-
 
 
 namespace HotFix.Cfg
 {
-
 public sealed partial class GuildWar_WarTask : Luban.BeanBase
 {
-    public GuildWar_WarTask(JToken _buf) 
+    public GuildWar_WarTask(ByteBuf _buf) 
     {
-        JObject _obj = _buf as JObject;
-        id = (int)_obj.GetValue("id");
-        ModuleType = (int)_obj.GetValue("ModuleType");
-        TaskType = (int)_obj.GetValue("TaskType");
-        Need = (int)_obj.GetValue("Need");
-        { var __json0 = _obj.GetValue("Reward"); int _n0 = (__json0 as JArray).Count; Reward = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  Reward[__index0++] = __v0; }   }
-        languageId = (string)_obj.GetValue("languageId");
+        id = _buf.ReadInt();
+        ModuleType = _buf.ReadInt();
+        TaskType = _buf.ReadInt();
+        Need = _buf.ReadInt();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);Reward = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); Reward[__index0] = __e0;}}
+        languageId = _buf.ReadString();
     }
 
-    public static GuildWar_WarTask DeserializeGuildWar_WarTask(JToken _buf)
+    public static GuildWar_WarTask DeserializeGuildWar_WarTask(ByteBuf _buf)
     {
         return new GuildWar_WarTask(_buf);
     }
@@ -57,8 +53,7 @@ public sealed partial class GuildWar_WarTask : Luban.BeanBase
     /// 多语言ID
     /// </summary>
     public readonly string languageId;
-
-
+   
     public const int __ID__ = 1210526787;
     public override int GetTypeId() => __ID__;
 
@@ -78,5 +73,6 @@ public sealed partial class GuildWar_WarTask : Luban.BeanBase
         + "}";
     }
 }
+
 }
 

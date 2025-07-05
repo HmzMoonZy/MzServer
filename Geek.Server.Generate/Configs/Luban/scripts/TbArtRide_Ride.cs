@@ -7,14 +7,11 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-using Newtonsoft.Json.Linq;
 using Luban;
-
 
 
 namespace HotFix.Cfg
 {
-
 /// <summary>
 /// Generated from ArtRide.xlsx sheet Ride
 /// </summary>
@@ -23,20 +20,19 @@ public partial class TbArtRide_Ride
     private readonly System.Collections.Generic.Dictionary<int, ArtRide_Ride> _dataMap;
     private readonly System.Collections.Generic.List<ArtRide_Ride> _dataList;
     
-    public TbArtRide_Ride(JArray _buf)
+    public TbArtRide_Ride(ByteBuf _buf)
     {
         _dataMap = new System.Collections.Generic.Dictionary<int, ArtRide_Ride>();
         _dataList = new System.Collections.Generic.List<ArtRide_Ride>();
         
-        foreach(JObject _ele in _buf)
+        for(int n = _buf.ReadSize() ; n > 0 ; --n)
         {
             ArtRide_Ride _v;
-            _v = global::HotFix.Cfg.ArtRide_Ride.DeserializeArtRide_Ride(_ele);
+            _v = global::HotFix.Cfg.ArtRide_Ride.DeserializeArtRide_Ride(_buf);
             _dataList.Add(_v);
             _dataMap.Add(_v.id, _v);
-         }
+        }
     }
-
 
     public System.Collections.Generic.Dictionary<int, ArtRide_Ride> DataMap => _dataMap;
     public System.Collections.Generic.List<ArtRide_Ride> DataList => _dataList;
@@ -54,5 +50,6 @@ public partial class TbArtRide_Ride
     }
 
 }
+
 }
 

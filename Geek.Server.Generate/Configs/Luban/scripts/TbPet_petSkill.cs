@@ -7,14 +7,11 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-using Newtonsoft.Json.Linq;
 using Luban;
-
 
 
 namespace HotFix.Cfg
 {
-
 /// <summary>
 /// Generated from Pet.xlsx sheet petSkill
 /// </summary>
@@ -23,20 +20,19 @@ public partial class TbPet_petSkill
     private readonly System.Collections.Generic.Dictionary<int, Pet_petSkill> _dataMap;
     private readonly System.Collections.Generic.List<Pet_petSkill> _dataList;
     
-    public TbPet_petSkill(JArray _buf)
+    public TbPet_petSkill(ByteBuf _buf)
     {
         _dataMap = new System.Collections.Generic.Dictionary<int, Pet_petSkill>();
         _dataList = new System.Collections.Generic.List<Pet_petSkill>();
         
-        foreach(JObject _ele in _buf)
+        for(int n = _buf.ReadSize() ; n > 0 ; --n)
         {
             Pet_petSkill _v;
-            _v = global::HotFix.Cfg.Pet_petSkill.DeserializePet_petSkill(_ele);
+            _v = global::HotFix.Cfg.Pet_petSkill.DeserializePet_petSkill(_buf);
             _dataList.Add(_v);
             _dataMap.Add(_v.id, _v);
-         }
+        }
     }
-
 
     public System.Collections.Generic.Dictionary<int, Pet_petSkill> DataMap => _dataMap;
     public System.Collections.Generic.List<Pet_petSkill> DataList => _dataList;
@@ -54,5 +50,6 @@ public partial class TbPet_petSkill
     }
 
 }
+
 }
 

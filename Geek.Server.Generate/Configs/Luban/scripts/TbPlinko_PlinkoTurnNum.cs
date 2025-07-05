@@ -7,14 +7,11 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-using Newtonsoft.Json.Linq;
 using Luban;
-
 
 
 namespace HotFix.Cfg
 {
-
 /// <summary>
 /// Generated from Plinko.xlsx sheet PlinkoTurnNum
 /// </summary>
@@ -23,20 +20,19 @@ public partial class TbPlinko_PlinkoTurnNum
     private readonly System.Collections.Generic.Dictionary<int, Plinko_PlinkoTurnNum> _dataMap;
     private readonly System.Collections.Generic.List<Plinko_PlinkoTurnNum> _dataList;
     
-    public TbPlinko_PlinkoTurnNum(JArray _buf)
+    public TbPlinko_PlinkoTurnNum(ByteBuf _buf)
     {
         _dataMap = new System.Collections.Generic.Dictionary<int, Plinko_PlinkoTurnNum>();
         _dataList = new System.Collections.Generic.List<Plinko_PlinkoTurnNum>();
         
-        foreach(JObject _ele in _buf)
+        for(int n = _buf.ReadSize() ; n > 0 ; --n)
         {
             Plinko_PlinkoTurnNum _v;
-            _v = global::HotFix.Cfg.Plinko_PlinkoTurnNum.DeserializePlinko_PlinkoTurnNum(_ele);
+            _v = global::HotFix.Cfg.Plinko_PlinkoTurnNum.DeserializePlinko_PlinkoTurnNum(_buf);
             _dataList.Add(_v);
             _dataMap.Add(_v.ID, _v);
-         }
+        }
     }
-
 
     public System.Collections.Generic.Dictionary<int, Plinko_PlinkoTurnNum> DataMap => _dataMap;
     public System.Collections.Generic.List<Plinko_PlinkoTurnNum> DataList => _dataList;
@@ -54,5 +50,6 @@ public partial class TbPlinko_PlinkoTurnNum
     }
 
 }
+
 }
 

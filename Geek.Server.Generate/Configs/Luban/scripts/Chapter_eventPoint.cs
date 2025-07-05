@@ -8,29 +8,25 @@
 //------------------------------------------------------------------------------
 
 using Luban;
-using Newtonsoft.Json.Linq;
-
 
 
 namespace HotFix.Cfg
 {
-
 public sealed partial class Chapter_eventPoint : Luban.BeanBase
 {
-    public Chapter_eventPoint(JToken _buf) 
+    public Chapter_eventPoint(ByteBuf _buf) 
     {
-        JObject _obj = _buf as JObject;
-        id = (int)_obj.GetValue("id");
-        { var __json0 = _obj.GetValue("createOffsetSea"); int _n0 = (__json0 as JArray).Count; createOffsetSea = new float[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { float __v0;  __v0 = (float)__e0;  createOffsetSea[__index0++] = __v0; }   }
-        { var __json0 = _obj.GetValue("createOffsetLand"); int _n0 = (__json0 as JArray).Count; createOffsetLand = new float[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { float __v0;  __v0 = (float)__e0;  createOffsetLand[__index0++] = __v0; }   }
-        { var __json0 = _obj.GetValue("action"); int _n0 = (__json0 as JArray).Count; action = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  action[__index0++] = __v0; }   }
-        { var __json0 = _obj.GetValue("defaultAction"); int _n0 = (__json0 as JArray).Count; defaultAction = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  defaultAction[__index0++] = __v0; }   }
-        playerArriveAction = (string)_obj.GetValue("playerArriveAction");
-        bottomId = (int)_obj.GetValue("bottomId");
-        path = (string)_obj.GetValue("path");
+        id = _buf.ReadInt();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);createOffsetSea = new float[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { float __e0;__e0 = _buf.ReadFloat(); createOffsetSea[__index0] = __e0;}}
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);createOffsetLand = new float[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { float __e0;__e0 = _buf.ReadFloat(); createOffsetLand[__index0] = __e0;}}
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);action = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); action[__index0] = __e0;}}
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);defaultAction = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); defaultAction[__index0] = __e0;}}
+        playerArriveAction = _buf.ReadString();
+        bottomId = _buf.ReadInt();
+        path = _buf.ReadString();
     }
 
-    public static Chapter_eventPoint DeserializeChapter_eventPoint(JToken _buf)
+    public static Chapter_eventPoint DeserializeChapter_eventPoint(ByteBuf _buf)
     {
         return new Chapter_eventPoint(_buf);
     }
@@ -67,8 +63,7 @@ public sealed partial class Chapter_eventPoint : Luban.BeanBase
     /// 资源路径
     /// </summary>
     public readonly string path;
-
-
+   
     public const int __ID__ = 1500862056;
     public override int GetTypeId() => __ID__;
 
@@ -90,5 +85,6 @@ public sealed partial class Chapter_eventPoint : Luban.BeanBase
         + "}";
     }
 }
+
 }
 

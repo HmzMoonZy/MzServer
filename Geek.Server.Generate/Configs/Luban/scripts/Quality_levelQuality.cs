@@ -8,24 +8,20 @@
 //------------------------------------------------------------------------------
 
 using Luban;
-using Newtonsoft.Json.Linq;
-
 
 
 namespace HotFix.Cfg
 {
-
 public sealed partial class Quality_levelQuality : Luban.BeanBase
 {
-    public Quality_levelQuality(JToken _buf) 
+    public Quality_levelQuality(ByteBuf _buf) 
     {
-        JObject _obj = _buf as JObject;
-        id = (int)_obj.GetValue("id");
-        atlasId = (int)_obj.GetValue("atlasId");
-        icon = (string)_obj.GetValue("icon");
+        id = _buf.ReadInt();
+        atlasId = _buf.ReadInt();
+        icon = _buf.ReadString();
     }
 
-    public static Quality_levelQuality DeserializeQuality_levelQuality(JToken _buf)
+    public static Quality_levelQuality DeserializeQuality_levelQuality(ByteBuf _buf)
     {
         return new Quality_levelQuality(_buf);
     }
@@ -39,8 +35,7 @@ public sealed partial class Quality_levelQuality : Luban.BeanBase
     /// 切片
     /// </summary>
     public readonly string icon;
-
-
+   
     public const int __ID__ = -1077529541;
     public override int GetTypeId() => __ID__;
 
@@ -57,5 +52,6 @@ public sealed partial class Quality_levelQuality : Luban.BeanBase
         + "}";
     }
 }
+
 }
 

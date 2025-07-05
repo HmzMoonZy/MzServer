@@ -8,28 +8,24 @@
 //------------------------------------------------------------------------------
 
 using Luban;
-using Newtonsoft.Json.Linq;
-
 
 
 namespace HotFix.Cfg
 {
-
 public sealed partial class SevenDay_SevenDayPay : Luban.BeanBase
 {
-    public SevenDay_SevenDayPay(JToken _buf) 
+    public SevenDay_SevenDayPay(ByteBuf _buf) 
     {
-        JObject _obj = _buf as JObject;
-        id = (int)_obj.GetValue("id");
-        groupId = (int)_obj.GetValue("groupId");
-        PurchaseId = (int)_obj.GetValue("PurchaseId");
-        Day = (int)_obj.GetValue("Day");
-        ObjName = (string)_obj.GetValue("ObjName");
-        objToplimit = (int)_obj.GetValue("objToplimit");
-        { var __json0 = _obj.GetValue("ObjGoods"); int _n0 = (__json0 as JArray).Count; ObjGoods = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  ObjGoods[__index0++] = __v0; }   }
+        id = _buf.ReadInt();
+        groupId = _buf.ReadInt();
+        PurchaseId = _buf.ReadInt();
+        Day = _buf.ReadInt();
+        ObjName = _buf.ReadString();
+        objToplimit = _buf.ReadInt();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);ObjGoods = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); ObjGoods[__index0] = __e0;}}
     }
 
-    public static SevenDay_SevenDayPay DeserializeSevenDay_SevenDayPay(JToken _buf)
+    public static SevenDay_SevenDayPay DeserializeSevenDay_SevenDayPay(ByteBuf _buf)
     {
         return new SevenDay_SevenDayPay(_buf);
     }
@@ -62,8 +58,7 @@ public sealed partial class SevenDay_SevenDayPay : Luban.BeanBase
     /// 出售道具
     /// </summary>
     public readonly string[] ObjGoods;
-
-
+   
     public const int __ID__ = -774578711;
     public override int GetTypeId() => __ID__;
 
@@ -84,5 +79,6 @@ public sealed partial class SevenDay_SevenDayPay : Luban.BeanBase
         + "}";
     }
 }
+
 }
 

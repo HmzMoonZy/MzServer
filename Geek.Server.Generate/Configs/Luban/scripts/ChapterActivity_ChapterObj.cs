@@ -8,28 +8,24 @@
 //------------------------------------------------------------------------------
 
 using Luban;
-using Newtonsoft.Json.Linq;
-
 
 
 namespace HotFix.Cfg
 {
-
 public sealed partial class ChapterActivity_ChapterObj : Luban.BeanBase
 {
-    public ChapterActivity_ChapterObj(JToken _buf) 
+    public ChapterActivity_ChapterObj(ByteBuf _buf) 
     {
-        JObject _obj = _buf as JObject;
-        id = (int)_obj.GetValue("id");
-        group = (int)_obj.GetValue("group");
-        score = (int)_obj.GetValue("score");
-        num = (int)_obj.GetValue("num");
-        rewardType = (int)_obj.GetValue("rewardType");
-        { var __json0 = _obj.GetValue("reward"); int _n0 = (__json0 as JArray).Count; reward = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  reward[__index0++] = __v0; }   }
-        special = (int)_obj.GetValue("special");
+        id = _buf.ReadInt();
+        group = _buf.ReadInt();
+        score = _buf.ReadInt();
+        num = _buf.ReadInt();
+        rewardType = _buf.ReadInt();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);reward = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); reward[__index0] = __e0;}}
+        special = _buf.ReadInt();
     }
 
-    public static ChapterActivity_ChapterObj DeserializeChapterActivity_ChapterObj(JToken _buf)
+    public static ChapterActivity_ChapterObj DeserializeChapterActivity_ChapterObj(ByteBuf _buf)
     {
         return new ChapterActivity_ChapterObj(_buf);
     }
@@ -62,8 +58,7 @@ public sealed partial class ChapterActivity_ChapterObj : Luban.BeanBase
     /// 是否是特殊奖励
     /// </summary>
     public readonly int special;
-
-
+   
     public const int __ID__ = 22948685;
     public override int GetTypeId() => __ID__;
 
@@ -84,5 +79,6 @@ public sealed partial class ChapterActivity_ChapterObj : Luban.BeanBase
         + "}";
     }
 }
+
 }
 

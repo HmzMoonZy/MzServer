@@ -8,28 +8,24 @@
 //------------------------------------------------------------------------------
 
 using Luban;
-using Newtonsoft.Json.Linq;
-
 
 
 namespace HotFix.Cfg
 {
-
 public sealed partial class ActivityDan_MonopolyGridType : Luban.BeanBase
 {
-    public ActivityDan_MonopolyGridType(JToken _buf) 
+    public ActivityDan_MonopolyGridType(ByteBuf _buf) 
     {
-        JObject _obj = _buf as JObject;
-        ID = (int)_obj.GetValue("ID");
-        iconAtlas = (int)_obj.GetValue("iconAtlas");
-        iconSprite = (string)_obj.GetValue("iconSprite");
-        qualityAtlas = (int)_obj.GetValue("qualityAtlas");
-        qualitySprite = (string)_obj.GetValue("qualitySprite");
-        tipTitleId = (string)_obj.GetValue("tipTitleId");
-        tipDescId = (string)_obj.GetValue("tipDescId");
+        ID = _buf.ReadInt();
+        iconAtlas = _buf.ReadInt();
+        iconSprite = _buf.ReadString();
+        qualityAtlas = _buf.ReadInt();
+        qualitySprite = _buf.ReadString();
+        tipTitleId = _buf.ReadString();
+        tipDescId = _buf.ReadString();
     }
 
-    public static ActivityDan_MonopolyGridType DeserializeActivityDan_MonopolyGridType(JToken _buf)
+    public static ActivityDan_MonopolyGridType DeserializeActivityDan_MonopolyGridType(ByteBuf _buf)
     {
         return new ActivityDan_MonopolyGridType(_buf);
     }
@@ -62,8 +58,7 @@ public sealed partial class ActivityDan_MonopolyGridType : Luban.BeanBase
     /// 主题点击提示内容语言Id<br/>只需配置特定事件格
     /// </summary>
     public readonly string tipDescId;
-
-
+   
     public const int __ID__ = 638820044;
     public override int GetTypeId() => __ID__;
 
@@ -84,5 +79,6 @@ public sealed partial class ActivityDan_MonopolyGridType : Luban.BeanBase
         + "}";
     }
 }
+
 }
 

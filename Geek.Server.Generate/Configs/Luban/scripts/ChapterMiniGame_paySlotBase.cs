@@ -8,25 +8,21 @@
 //------------------------------------------------------------------------------
 
 using Luban;
-using Newtonsoft.Json.Linq;
-
 
 
 namespace HotFix.Cfg
 {
-
 public sealed partial class ChapterMiniGame_paySlotBase : Luban.BeanBase
 {
-    public ChapterMiniGame_paySlotBase(JToken _buf) 
+    public ChapterMiniGame_paySlotBase(ByteBuf _buf) 
     {
-        JObject _obj = _buf as JObject;
-        id = (int)_obj.GetValue("id");
-        { var __json0 = _obj.GetValue("first"); int _n0 = (__json0 as JArray).Count; first = new int[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { int __v0;  __v0 = (int)__e0;  first[__index0++] = __v0; }   }
-        { var __json0 = _obj.GetValue("second"); int _n0 = (__json0 as JArray).Count; second = new int[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { int __v0;  __v0 = (int)__e0;  second[__index0++] = __v0; }   }
-        { var __json0 = _obj.GetValue("third"); int _n0 = (__json0 as JArray).Count; third = new int[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { int __v0;  __v0 = (int)__e0;  third[__index0++] = __v0; }   }
+        id = _buf.ReadInt();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);first = new int[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { int __e0;__e0 = _buf.ReadInt(); first[__index0] = __e0;}}
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);second = new int[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { int __e0;__e0 = _buf.ReadInt(); second[__index0] = __e0;}}
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);third = new int[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { int __e0;__e0 = _buf.ReadInt(); third[__index0] = __e0;}}
     }
 
-    public static ChapterMiniGame_paySlotBase DeserializeChapterMiniGame_paySlotBase(JToken _buf)
+    public static ChapterMiniGame_paySlotBase DeserializeChapterMiniGame_paySlotBase(ByteBuf _buf)
     {
         return new ChapterMiniGame_paySlotBase(_buf);
     }
@@ -47,8 +43,7 @@ public sealed partial class ChapterMiniGame_paySlotBase : Luban.BeanBase
     /// 第三列<br/>价格|奖励组id|展示概率
     /// </summary>
     public readonly int[] third;
-
-
+   
     public const int __ID__ = 1051638830;
     public override int GetTypeId() => __ID__;
 
@@ -66,5 +61,6 @@ public sealed partial class ChapterMiniGame_paySlotBase : Luban.BeanBase
         + "}";
     }
 }
+
 }
 

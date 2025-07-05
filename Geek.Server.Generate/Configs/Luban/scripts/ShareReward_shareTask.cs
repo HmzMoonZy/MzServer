@@ -8,28 +8,24 @@
 //------------------------------------------------------------------------------
 
 using Luban;
-using Newtonsoft.Json.Linq;
-
 
 
 namespace HotFix.Cfg
 {
-
 public sealed partial class ShareReward_shareTask : Luban.BeanBase
 {
-    public ShareReward_shareTask(JToken _buf) 
+    public ShareReward_shareTask(ByteBuf _buf) 
     {
-        JObject _obj = _buf as JObject;
-        ID = (int)_obj.GetValue("ID");
-        Group = (int)_obj.GetValue("Group");
-        Type = (int)_obj.GetValue("Type");
-        Need = (int)_obj.GetValue("Need");
-        { var __json0 = _obj.GetValue("Reward"); int _n0 = (__json0 as JArray).Count; Reward = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  Reward[__index0++] = __v0; }   }
-        Param = (int)_obj.GetValue("Param");
-        languageId = (string)_obj.GetValue("languageId");
+        ID = _buf.ReadInt();
+        Group = _buf.ReadInt();
+        Type = _buf.ReadInt();
+        Need = _buf.ReadInt();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);Reward = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); Reward[__index0] = __e0;}}
+        Param = _buf.ReadInt();
+        languageId = _buf.ReadString();
     }
 
-    public static ShareReward_shareTask DeserializeShareReward_shareTask(JToken _buf)
+    public static ShareReward_shareTask DeserializeShareReward_shareTask(ByteBuf _buf)
     {
         return new ShareReward_shareTask(_buf);
     }
@@ -62,8 +58,7 @@ public sealed partial class ShareReward_shareTask : Luban.BeanBase
     /// 多语言ID
     /// </summary>
     public readonly string languageId;
-
-
+   
     public const int __ID__ = 1783599827;
     public override int GetTypeId() => __ID__;
 
@@ -84,5 +79,6 @@ public sealed partial class ShareReward_shareTask : Luban.BeanBase
         + "}";
     }
 }
+
 }
 

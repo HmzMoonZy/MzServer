@@ -8,27 +8,23 @@
 //------------------------------------------------------------------------------
 
 using Luban;
-using Newtonsoft.Json.Linq;
-
 
 
 namespace HotFix.Cfg
 {
-
 public sealed partial class TowerChallenge_Tower : Luban.BeanBase
 {
-    public TowerChallenge_Tower(JToken _buf) 
+    public TowerChallenge_Tower(ByteBuf _buf) 
     {
-        JObject _obj = _buf as JObject;
-        id = (int)_obj.GetValue("id");
-        name = (string)_obj.GetValue("name");
-        { var __json0 = _obj.GetValue("level"); int _n0 = (__json0 as JArray).Count; level = new int[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { int __v0;  __v0 = (int)__e0;  level[__index0++] = __v0; }   }
-        { var __json0 = _obj.GetValue("ChestReward"); int _n0 = (__json0 as JArray).Count; ChestReward = new int[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { int __v0;  __v0 = (int)__e0;  ChestReward[__index0++] = __v0; }   }
-        { var __json0 = _obj.GetValue("ChestRewardB"); int _n0 = (__json0 as JArray).Count; ChestRewardB = new int[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { int __v0;  __v0 = (int)__e0;  ChestRewardB[__index0++] = __v0; }   }
-        uiStyle = (int)_obj.GetValue("uiStyle");
+        id = _buf.ReadInt();
+        name = _buf.ReadString();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);level = new int[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { int __e0;__e0 = _buf.ReadInt(); level[__index0] = __e0;}}
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);ChestReward = new int[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { int __e0;__e0 = _buf.ReadInt(); ChestReward[__index0] = __e0;}}
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);ChestRewardB = new int[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { int __e0;__e0 = _buf.ReadInt(); ChestRewardB[__index0] = __e0;}}
+        uiStyle = _buf.ReadInt();
     }
 
-    public static TowerChallenge_Tower DeserializeTowerChallenge_Tower(JToken _buf)
+    public static TowerChallenge_Tower DeserializeTowerChallenge_Tower(ByteBuf _buf)
     {
         return new TowerChallenge_Tower(_buf);
     }
@@ -57,8 +53,7 @@ public sealed partial class TowerChallenge_Tower : Luban.BeanBase
     /// ui风格
     /// </summary>
     public readonly int uiStyle;
-
-
+   
     public const int __ID__ = -249712156;
     public override int GetTypeId() => __ID__;
 
@@ -78,5 +73,6 @@ public sealed partial class TowerChallenge_Tower : Luban.BeanBase
         + "}";
     }
 }
+
 }
 

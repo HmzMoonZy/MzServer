@@ -7,14 +7,11 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-using Newtonsoft.Json.Linq;
 using Luban;
-
 
 
 namespace HotFix.Cfg
 {
-
 /// <summary>
 /// Generated from MythicDungeon.xlsx sheet turntable
 /// </summary>
@@ -23,20 +20,19 @@ public partial class TbMythicDungeon_turntable
     private readonly System.Collections.Generic.Dictionary<int, MythicDungeon_turntable> _dataMap;
     private readonly System.Collections.Generic.List<MythicDungeon_turntable> _dataList;
     
-    public TbMythicDungeon_turntable(JArray _buf)
+    public TbMythicDungeon_turntable(ByteBuf _buf)
     {
         _dataMap = new System.Collections.Generic.Dictionary<int, MythicDungeon_turntable>();
         _dataList = new System.Collections.Generic.List<MythicDungeon_turntable>();
         
-        foreach(JObject _ele in _buf)
+        for(int n = _buf.ReadSize() ; n > 0 ; --n)
         {
             MythicDungeon_turntable _v;
-            _v = global::HotFix.Cfg.MythicDungeon_turntable.DeserializeMythicDungeon_turntable(_ele);
+            _v = global::HotFix.Cfg.MythicDungeon_turntable.DeserializeMythicDungeon_turntable(_buf);
             _dataList.Add(_v);
             _dataMap.Add(_v.id, _v);
-         }
+        }
     }
-
 
     public System.Collections.Generic.Dictionary<int, MythicDungeon_turntable> DataMap => _dataMap;
     public System.Collections.Generic.List<MythicDungeon_turntable> DataList => _dataList;
@@ -54,5 +50,6 @@ public partial class TbMythicDungeon_turntable
     }
 
 }
+
 }
 

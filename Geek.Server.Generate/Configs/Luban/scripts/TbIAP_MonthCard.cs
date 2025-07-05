@@ -7,14 +7,11 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-using Newtonsoft.Json.Linq;
 using Luban;
-
 
 
 namespace HotFix.Cfg
 {
-
 /// <summary>
 /// Generated from IAP.xlsx sheet MonthCard
 /// </summary>
@@ -23,20 +20,19 @@ public partial class TbIAP_MonthCard
     private readonly System.Collections.Generic.Dictionary<int, IAP_MonthCard> _dataMap;
     private readonly System.Collections.Generic.List<IAP_MonthCard> _dataList;
     
-    public TbIAP_MonthCard(JArray _buf)
+    public TbIAP_MonthCard(ByteBuf _buf)
     {
         _dataMap = new System.Collections.Generic.Dictionary<int, IAP_MonthCard>();
         _dataList = new System.Collections.Generic.List<IAP_MonthCard>();
         
-        foreach(JObject _ele in _buf)
+        for(int n = _buf.ReadSize() ; n > 0 ; --n)
         {
             IAP_MonthCard _v;
-            _v = global::HotFix.Cfg.IAP_MonthCard.DeserializeIAP_MonthCard(_ele);
+            _v = global::HotFix.Cfg.IAP_MonthCard.DeserializeIAP_MonthCard(_buf);
             _dataList.Add(_v);
             _dataMap.Add(_v.id, _v);
-         }
+        }
     }
-
 
     public System.Collections.Generic.Dictionary<int, IAP_MonthCard> DataMap => _dataMap;
     public System.Collections.Generic.List<IAP_MonthCard> DataList => _dataList;
@@ -54,5 +50,6 @@ public partial class TbIAP_MonthCard
     }
 
 }
+
 }
 

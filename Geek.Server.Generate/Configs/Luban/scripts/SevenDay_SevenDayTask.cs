@@ -8,33 +8,29 @@
 //------------------------------------------------------------------------------
 
 using Luban;
-using Newtonsoft.Json.Linq;
-
 
 
 namespace HotFix.Cfg
 {
-
 public sealed partial class SevenDay_SevenDayTask : Luban.BeanBase
 {
-    public SevenDay_SevenDayTask(JToken _buf) 
+    public SevenDay_SevenDayTask(ByteBuf _buf) 
     {
-        JObject _obj = _buf as JObject;
-        ID = (int)_obj.GetValue("ID");
-        taskId = (int)_obj.GetValue("taskId");
-        Day = (int)_obj.GetValue("Day");
-        TaskType = (int)_obj.GetValue("TaskType");
-        StatisticsType = (int)_obj.GetValue("StatisticsType");
-        Need = (int)_obj.GetValue("Need");
-        Describe = (string)_obj.GetValue("Describe");
-        ProgressType = (int)_obj.GetValue("ProgressType");
-        Active = (int)_obj.GetValue("Active");
-        { var __json0 = _obj.GetValue("Reward"); int _n0 = (__json0 as JArray).Count; Reward = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  Reward[__index0++] = __v0; }   }
-        Jump = (int)_obj.GetValue("Jump");
-        UnlockNeed = (int)_obj.GetValue("UnlockNeed");
+        ID = _buf.ReadInt();
+        taskId = _buf.ReadInt();
+        Day = _buf.ReadInt();
+        TaskType = _buf.ReadInt();
+        StatisticsType = _buf.ReadInt();
+        Need = _buf.ReadInt();
+        Describe = _buf.ReadString();
+        ProgressType = _buf.ReadInt();
+        Active = _buf.ReadInt();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);Reward = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); Reward[__index0] = __e0;}}
+        Jump = _buf.ReadInt();
+        UnlockNeed = _buf.ReadInt();
     }
 
-    public static SevenDay_SevenDayTask DeserializeSevenDay_SevenDayTask(JToken _buf)
+    public static SevenDay_SevenDayTask DeserializeSevenDay_SevenDayTask(ByteBuf _buf)
     {
         return new SevenDay_SevenDayTask(_buf);
     }
@@ -87,8 +83,7 @@ public sealed partial class SevenDay_SevenDayTask : Luban.BeanBase
     /// gameconfig中关卡对应条件id<br/>0为默认解锁<br/>-1为不开放
     /// </summary>
     public readonly int UnlockNeed;
-
-
+   
     public const int __ID__ = 1757982820;
     public override int GetTypeId() => __ID__;
 
@@ -114,5 +109,6 @@ public sealed partial class SevenDay_SevenDayTask : Luban.BeanBase
         + "}";
     }
 }
+
 }
 

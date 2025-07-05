@@ -7,14 +7,11 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-using Newtonsoft.Json.Linq;
 using Luban;
-
 
 
 namespace HotFix.Cfg
 {
-
 /// <summary>
 /// Generated from MythicDungeon.xlsx sheet fightFeatureShow
 /// </summary>
@@ -23,20 +20,19 @@ public partial class TbMythicDungeon_fightFeatureShow
     private readonly System.Collections.Generic.Dictionary<int, MythicDungeon_fightFeatureShow> _dataMap;
     private readonly System.Collections.Generic.List<MythicDungeon_fightFeatureShow> _dataList;
     
-    public TbMythicDungeon_fightFeatureShow(JArray _buf)
+    public TbMythicDungeon_fightFeatureShow(ByteBuf _buf)
     {
         _dataMap = new System.Collections.Generic.Dictionary<int, MythicDungeon_fightFeatureShow>();
         _dataList = new System.Collections.Generic.List<MythicDungeon_fightFeatureShow>();
         
-        foreach(JObject _ele in _buf)
+        for(int n = _buf.ReadSize() ; n > 0 ; --n)
         {
             MythicDungeon_fightFeatureShow _v;
-            _v = global::HotFix.Cfg.MythicDungeon_fightFeatureShow.DeserializeMythicDungeon_fightFeatureShow(_ele);
+            _v = global::HotFix.Cfg.MythicDungeon_fightFeatureShow.DeserializeMythicDungeon_fightFeatureShow(_buf);
             _dataList.Add(_v);
             _dataMap.Add(_v.id, _v);
-         }
+        }
     }
-
 
     public System.Collections.Generic.Dictionary<int, MythicDungeon_fightFeatureShow> DataMap => _dataMap;
     public System.Collections.Generic.List<MythicDungeon_fightFeatureShow> DataList => _dataList;
@@ -54,5 +50,6 @@ public partial class TbMythicDungeon_fightFeatureShow
     }
 
 }
+
 }
 

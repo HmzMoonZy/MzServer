@@ -7,14 +7,11 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-using Newtonsoft.Json.Linq;
 using Luban;
-
 
 
 namespace HotFix.Cfg
 {
-
 /// <summary>
 /// Generated from HeroLevelup.xlsx sheet HeroLevelup
 /// </summary>
@@ -23,20 +20,19 @@ public partial class TbHeroLevelup_HeroLevelup
     private readonly System.Collections.Generic.Dictionary<int, HeroLevelup_HeroLevelup> _dataMap;
     private readonly System.Collections.Generic.List<HeroLevelup_HeroLevelup> _dataList;
     
-    public TbHeroLevelup_HeroLevelup(JArray _buf)
+    public TbHeroLevelup_HeroLevelup(ByteBuf _buf)
     {
         _dataMap = new System.Collections.Generic.Dictionary<int, HeroLevelup_HeroLevelup>();
         _dataList = new System.Collections.Generic.List<HeroLevelup_HeroLevelup>();
         
-        foreach(JObject _ele in _buf)
+        for(int n = _buf.ReadSize() ; n > 0 ; --n)
         {
             HeroLevelup_HeroLevelup _v;
-            _v = global::HotFix.Cfg.HeroLevelup_HeroLevelup.DeserializeHeroLevelup_HeroLevelup(_ele);
+            _v = global::HotFix.Cfg.HeroLevelup_HeroLevelup.DeserializeHeroLevelup_HeroLevelup(_buf);
             _dataList.Add(_v);
             _dataMap.Add(_v.ID, _v);
-         }
+        }
     }
-
 
     public System.Collections.Generic.Dictionary<int, HeroLevelup_HeroLevelup> DataMap => _dataMap;
     public System.Collections.Generic.List<HeroLevelup_HeroLevelup> DataList => _dataList;
@@ -54,5 +50,6 @@ public partial class TbHeroLevelup_HeroLevelup
     }
 
 }
+
 }
 

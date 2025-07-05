@@ -8,27 +8,23 @@
 //------------------------------------------------------------------------------
 
 using Luban;
-using Newtonsoft.Json.Linq;
-
 
 
 namespace HotFix.Cfg
 {
-
 public sealed partial class GuildWar_GuildTower : Luban.BeanBase
 {
-    public GuildWar_GuildTower(JToken _buf) 
+    public GuildWar_GuildTower(ByteBuf _buf) 
     {
-        JObject _obj = _buf as JObject;
-        id = (int)_obj.GetValue("id");
-        towerStar = (int)_obj.GetValue("towerStar");
-        { var __json0 = _obj.GetValue("starGet"); int _n0 = (__json0 as JArray).Count; starGet = new int[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { int __v0;  __v0 = (int)__e0;  starGet[__index0++] = __v0; }   }
-        { var __json0 = _obj.GetValue("scoreGet"); int _n0 = (__json0 as JArray).Count; scoreGet = new int[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { int __v0;  __v0 = (int)__e0;  scoreGet[__index0++] = __v0; }   }
-        { var __json0 = _obj.GetValue("itemGetWin"); int _n0 = (__json0 as JArray).Count; itemGetWin = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  itemGetWin[__index0++] = __v0; }   }
-        { var __json0 = _obj.GetValue("itemGetLose"); int _n0 = (__json0 as JArray).Count; itemGetLose = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  itemGetLose[__index0++] = __v0; }   }
+        id = _buf.ReadInt();
+        towerStar = _buf.ReadInt();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);starGet = new int[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { int __e0;__e0 = _buf.ReadInt(); starGet[__index0] = __e0;}}
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);scoreGet = new int[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { int __e0;__e0 = _buf.ReadInt(); scoreGet[__index0] = __e0;}}
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);itemGetWin = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); itemGetWin[__index0] = __e0;}}
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);itemGetLose = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); itemGetLose[__index0] = __e0;}}
     }
 
-    public static GuildWar_GuildTower DeserializeGuildWar_GuildTower(JToken _buf)
+    public static GuildWar_GuildTower DeserializeGuildWar_GuildTower(ByteBuf _buf)
     {
         return new GuildWar_GuildTower(_buf);
     }
@@ -57,8 +53,7 @@ public sealed partial class GuildWar_GuildTower : Luban.BeanBase
     /// 挑战失败后获得道具（包括扫荡）
     /// </summary>
     public readonly string[] itemGetLose;
-
-
+   
     public const int __ID__ = 695315296;
     public override int GetTypeId() => __ID__;
 
@@ -78,5 +73,6 @@ public sealed partial class GuildWar_GuildTower : Luban.BeanBase
         + "}";
     }
 }
+
 }
 

@@ -7,14 +7,11 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-using Newtonsoft.Json.Linq;
 using Luban;
-
 
 
 namespace HotFix.Cfg
 {
-
 /// <summary>
 /// Generated from ChapterMiniGame.xlsx sheet turntableReward
 /// </summary>
@@ -23,20 +20,19 @@ public partial class TbChapterMiniGame_turntableReward
     private readonly System.Collections.Generic.Dictionary<int, ChapterMiniGame_turntableReward> _dataMap;
     private readonly System.Collections.Generic.List<ChapterMiniGame_turntableReward> _dataList;
     
-    public TbChapterMiniGame_turntableReward(JArray _buf)
+    public TbChapterMiniGame_turntableReward(ByteBuf _buf)
     {
         _dataMap = new System.Collections.Generic.Dictionary<int, ChapterMiniGame_turntableReward>();
         _dataList = new System.Collections.Generic.List<ChapterMiniGame_turntableReward>();
         
-        foreach(JObject _ele in _buf)
+        for(int n = _buf.ReadSize() ; n > 0 ; --n)
         {
             ChapterMiniGame_turntableReward _v;
-            _v = global::HotFix.Cfg.ChapterMiniGame_turntableReward.DeserializeChapterMiniGame_turntableReward(_ele);
+            _v = global::HotFix.Cfg.ChapterMiniGame_turntableReward.DeserializeChapterMiniGame_turntableReward(_buf);
             _dataList.Add(_v);
             _dataMap.Add(_v.id, _v);
-         }
+        }
     }
-
 
     public System.Collections.Generic.Dictionary<int, ChapterMiniGame_turntableReward> DataMap => _dataMap;
     public System.Collections.Generic.List<ChapterMiniGame_turntableReward> DataList => _dataList;
@@ -54,5 +50,6 @@ public partial class TbChapterMiniGame_turntableReward
     }
 
 }
+
 }
 

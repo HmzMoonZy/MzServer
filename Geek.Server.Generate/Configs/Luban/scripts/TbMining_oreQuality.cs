@@ -7,14 +7,11 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-using Newtonsoft.Json.Linq;
 using Luban;
-
 
 
 namespace HotFix.Cfg
 {
-
 /// <summary>
 /// Generated from Mining.xlsx sheet oreQuality
 /// </summary>
@@ -23,20 +20,19 @@ public partial class TbMining_oreQuality
     private readonly System.Collections.Generic.Dictionary<int, Mining_oreQuality> _dataMap;
     private readonly System.Collections.Generic.List<Mining_oreQuality> _dataList;
     
-    public TbMining_oreQuality(JArray _buf)
+    public TbMining_oreQuality(ByteBuf _buf)
     {
         _dataMap = new System.Collections.Generic.Dictionary<int, Mining_oreQuality>();
         _dataList = new System.Collections.Generic.List<Mining_oreQuality>();
         
-        foreach(JObject _ele in _buf)
+        for(int n = _buf.ReadSize() ; n > 0 ; --n)
         {
             Mining_oreQuality _v;
-            _v = global::HotFix.Cfg.Mining_oreQuality.DeserializeMining_oreQuality(_ele);
+            _v = global::HotFix.Cfg.Mining_oreQuality.DeserializeMining_oreQuality(_buf);
             _dataList.Add(_v);
             _dataMap.Add(_v.id, _v);
-         }
+        }
     }
-
 
     public System.Collections.Generic.Dictionary<int, Mining_oreQuality> DataMap => _dataMap;
     public System.Collections.Generic.List<Mining_oreQuality> DataList => _dataList;
@@ -54,5 +50,6 @@ public partial class TbMining_oreQuality
     }
 
 }
+
 }
 

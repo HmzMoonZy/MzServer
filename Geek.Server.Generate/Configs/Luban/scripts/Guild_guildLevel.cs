@@ -8,29 +8,25 @@
 //------------------------------------------------------------------------------
 
 using Luban;
-using Newtonsoft.Json.Linq;
-
 
 
 namespace HotFix.Cfg
 {
-
 public sealed partial class Guild_guildLevel : Luban.BeanBase
 {
-    public Guild_guildLevel(JToken _buf) 
+    public Guild_guildLevel(ByteBuf _buf) 
     {
-        JObject _obj = _buf as JObject;
-        ID = (int)_obj.GetValue("ID");
-        Exp = (int)_obj.GetValue("Exp");
-        MaxMemberCount = (int)_obj.GetValue("MaxMemberCount");
-        MaxContribute = (int)_obj.GetValue("MaxContribute");
-        { var __json0 = _obj.GetValue("MaxPositionCount"); int _n0 = (__json0 as JArray).Count; MaxPositionCount = new int[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { int __v0;  __v0 = (int)__e0;  MaxPositionCount[__index0++] = __v0; }   }
-        { var __json0 = _obj.GetValue("ShopItemCount"); int _n0 = (__json0 as JArray).Count; ShopItemCount = new int[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { int __v0;  __v0 = (int)__e0;  ShopItemCount[__index0++] = __v0; }   }
-        TaskCount = (int)_obj.GetValue("TaskCount");
-        GuildBossOpen = (int)_obj.GetValue("GuildBossOpen");
+        ID = _buf.ReadInt();
+        Exp = _buf.ReadInt();
+        MaxMemberCount = _buf.ReadInt();
+        MaxContribute = _buf.ReadInt();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);MaxPositionCount = new int[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { int __e0;__e0 = _buf.ReadInt(); MaxPositionCount[__index0] = __e0;}}
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);ShopItemCount = new int[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { int __e0;__e0 = _buf.ReadInt(); ShopItemCount[__index0] = __e0;}}
+        TaskCount = _buf.ReadInt();
+        GuildBossOpen = _buf.ReadInt();
     }
 
-    public static Guild_guildLevel DeserializeGuild_guildLevel(JToken _buf)
+    public static Guild_guildLevel DeserializeGuild_guildLevel(ByteBuf _buf)
     {
         return new Guild_guildLevel(_buf);
     }
@@ -67,8 +63,7 @@ public sealed partial class Guild_guildLevel : Luban.BeanBase
     /// 是否开启公会boss
     /// </summary>
     public readonly int GuildBossOpen;
-
-
+   
     public const int __ID__ = -829397187;
     public override int GetTypeId() => __ID__;
 
@@ -90,5 +85,6 @@ public sealed partial class Guild_guildLevel : Luban.BeanBase
         + "}";
     }
 }
+
 }
 

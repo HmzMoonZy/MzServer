@@ -8,26 +8,22 @@
 //------------------------------------------------------------------------------
 
 using Luban;
-using Newtonsoft.Json.Linq;
-
 
 
 namespace HotFix.Cfg
 {
-
 public sealed partial class Chapter_attributeBuild : Luban.BeanBase
 {
-    public Chapter_attributeBuild(JToken _buf) 
+    public Chapter_attributeBuild(ByteBuf _buf) 
     {
-        JObject _obj = _buf as JObject;
-        id = (int)_obj.GetValue("id");
-        atlasId = (int)_obj.GetValue("atlasId");
-        icon = (string)_obj.GetValue("icon");
-        attributes = (string)_obj.GetValue("attributes");
-        weight = (int)_obj.GetValue("weight");
+        id = _buf.ReadInt();
+        atlasId = _buf.ReadInt();
+        icon = _buf.ReadString();
+        attributes = _buf.ReadString();
+        weight = _buf.ReadInt();
     }
 
-    public static Chapter_attributeBuild DeserializeChapter_attributeBuild(JToken _buf)
+    public static Chapter_attributeBuild DeserializeChapter_attributeBuild(ByteBuf _buf)
     {
         return new Chapter_attributeBuild(_buf);
     }
@@ -52,8 +48,7 @@ public sealed partial class Chapter_attributeBuild : Luban.BeanBase
     /// 权重
     /// </summary>
     public readonly int weight;
-
-
+   
     public const int __ID__ = 1275086724;
     public override int GetTypeId() => __ID__;
 
@@ -72,5 +67,6 @@ public sealed partial class Chapter_attributeBuild : Luban.BeanBase
         + "}";
     }
 }
+
 }
 

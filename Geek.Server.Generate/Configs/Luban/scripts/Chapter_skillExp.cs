@@ -8,25 +8,21 @@
 //------------------------------------------------------------------------------
 
 using Luban;
-using Newtonsoft.Json.Linq;
-
 
 
 namespace HotFix.Cfg
 {
-
 public sealed partial class Chapter_skillExp : Luban.BeanBase
 {
-    public Chapter_skillExp(JToken _buf) 
+    public Chapter_skillExp(ByteBuf _buf) 
     {
-        JObject _obj = _buf as JObject;
-        id = (int)_obj.GetValue("id");
-        lv = (int)_obj.GetValue("lv");
-        groupId = (int)_obj.GetValue("groupId");
-        expToNext = (int)_obj.GetValue("expToNext");
+        id = _buf.ReadInt();
+        lv = _buf.ReadInt();
+        groupId = _buf.ReadInt();
+        expToNext = _buf.ReadInt();
     }
 
-    public static Chapter_skillExp DeserializeChapter_skillExp(JToken _buf)
+    public static Chapter_skillExp DeserializeChapter_skillExp(ByteBuf _buf)
     {
         return new Chapter_skillExp(_buf);
     }
@@ -47,8 +43,7 @@ public sealed partial class Chapter_skillExp : Luban.BeanBase
     /// 下一级所需经验
     /// </summary>
     public readonly int expToNext;
-
-
+   
     public const int __ID__ = 20077022;
     public override int GetTypeId() => __ID__;
 
@@ -66,5 +61,6 @@ public sealed partial class Chapter_skillExp : Luban.BeanBase
         + "}";
     }
 }
+
 }
 

@@ -7,14 +7,11 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-using Newtonsoft.Json.Linq;
 using Luban;
-
 
 
 namespace HotFix.Cfg
 {
-
 /// <summary>
 /// Generated from Relic.xlsx sheet data
 /// </summary>
@@ -23,20 +20,19 @@ public partial class TbRelic_data
     private readonly System.Collections.Generic.Dictionary<int, Relic_data> _dataMap;
     private readonly System.Collections.Generic.List<Relic_data> _dataList;
     
-    public TbRelic_data(JArray _buf)
+    public TbRelic_data(ByteBuf _buf)
     {
         _dataMap = new System.Collections.Generic.Dictionary<int, Relic_data>();
         _dataList = new System.Collections.Generic.List<Relic_data>();
         
-        foreach(JObject _ele in _buf)
+        for(int n = _buf.ReadSize() ; n > 0 ; --n)
         {
             Relic_data _v;
-            _v = global::HotFix.Cfg.Relic_data.DeserializeRelic_data(_ele);
+            _v = global::HotFix.Cfg.Relic_data.DeserializeRelic_data(_buf);
             _dataList.Add(_v);
             _dataMap.Add(_v.id, _v);
-         }
+        }
     }
-
 
     public System.Collections.Generic.Dictionary<int, Relic_data> DataMap => _dataMap;
     public System.Collections.Generic.List<Relic_data> DataList => _dataList;
@@ -54,5 +50,6 @@ public partial class TbRelic_data
     }
 
 }
+
 }
 

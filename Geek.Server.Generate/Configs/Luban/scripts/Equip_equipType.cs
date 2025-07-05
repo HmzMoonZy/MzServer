@@ -8,25 +8,21 @@
 //------------------------------------------------------------------------------
 
 using Luban;
-using Newtonsoft.Json.Linq;
-
 
 
 namespace HotFix.Cfg
 {
-
 public sealed partial class Equip_equipType : Luban.BeanBase
 {
-    public Equip_equipType(JToken _buf) 
+    public Equip_equipType(ByteBuf _buf) 
     {
-        JObject _obj = _buf as JObject;
-        id = (int)_obj.GetValue("id");
-        atlasID = (int)_obj.GetValue("atlasID");
-        iconName = (string)_obj.GetValue("iconName");
-        typeName = (string)_obj.GetValue("typeName");
+        id = _buf.ReadInt();
+        atlasID = _buf.ReadInt();
+        iconName = _buf.ReadString();
+        typeName = _buf.ReadString();
     }
 
-    public static Equip_equipType DeserializeEquip_equipType(JToken _buf)
+    public static Equip_equipType DeserializeEquip_equipType(ByteBuf _buf)
     {
         return new Equip_equipType(_buf);
     }
@@ -47,8 +43,7 @@ public sealed partial class Equip_equipType : Luban.BeanBase
     /// 部位名称（多语言）
     /// </summary>
     public readonly string typeName;
-
-
+   
     public const int __ID__ = 540307995;
     public override int GetTypeId() => __ID__;
 
@@ -66,5 +61,6 @@ public sealed partial class Equip_equipType : Luban.BeanBase
         + "}";
     }
 }
+
 }
 

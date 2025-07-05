@@ -7,14 +7,11 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-using Newtonsoft.Json.Linq;
 using Luban;
-
 
 
 namespace HotFix.Cfg
 {
-
 /// <summary>
 /// Generated from WorldBoss.xlsx sheet Grouping
 /// </summary>
@@ -23,20 +20,19 @@ public partial class TbWorldBoss_Grouping
     private readonly System.Collections.Generic.Dictionary<int, WorldBoss_Grouping> _dataMap;
     private readonly System.Collections.Generic.List<WorldBoss_Grouping> _dataList;
     
-    public TbWorldBoss_Grouping(JArray _buf)
+    public TbWorldBoss_Grouping(ByteBuf _buf)
     {
         _dataMap = new System.Collections.Generic.Dictionary<int, WorldBoss_Grouping>();
         _dataList = new System.Collections.Generic.List<WorldBoss_Grouping>();
         
-        foreach(JObject _ele in _buf)
+        for(int n = _buf.ReadSize() ; n > 0 ; --n)
         {
             WorldBoss_Grouping _v;
-            _v = global::HotFix.Cfg.WorldBoss_Grouping.DeserializeWorldBoss_Grouping(_ele);
+            _v = global::HotFix.Cfg.WorldBoss_Grouping.DeserializeWorldBoss_Grouping(_buf);
             _dataList.Add(_v);
             _dataMap.Add(_v.ID, _v);
-         }
+        }
     }
-
 
     public System.Collections.Generic.Dictionary<int, WorldBoss_Grouping> DataMap => _dataMap;
     public System.Collections.Generic.List<WorldBoss_Grouping> DataList => _dataList;
@@ -54,5 +50,6 @@ public partial class TbWorldBoss_Grouping
     }
 
 }
+
 }
 

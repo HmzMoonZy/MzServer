@@ -8,26 +8,22 @@
 //------------------------------------------------------------------------------
 
 using Luban;
-using Newtonsoft.Json.Linq;
-
 
 
 namespace HotFix.Cfg
 {
-
 public sealed partial class ChapterMiniGame_turntableBase : Luban.BeanBase
 {
-    public ChapterMiniGame_turntableBase(JToken _buf) 
+    public ChapterMiniGame_turntableBase(ByteBuf _buf) 
     {
-        JObject _obj = _buf as JObject;
-        id = (int)_obj.GetValue("id");
-        { var __json0 = _obj.GetValue("rewards"); int _n0 = (__json0 as JArray).Count; rewards = new int[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { int __v0;  __v0 = (int)__e0;  rewards[__index0++] = __v0; }   }
-        count = (int)_obj.GetValue("count");
-        { var __json0 = _obj.GetValue("cost"); int _n0 = (__json0 as JArray).Count; cost = new int[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { int __v0;  __v0 = (int)__e0;  cost[__index0++] = __v0; }   }
-        offsetAngle = (float)_obj.GetValue("offsetAngle");
+        id = _buf.ReadInt();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);rewards = new int[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { int __e0;__e0 = _buf.ReadInt(); rewards[__index0] = __e0;}}
+        count = _buf.ReadInt();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);cost = new int[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { int __e0;__e0 = _buf.ReadInt(); cost[__index0] = __e0;}}
+        offsetAngle = _buf.ReadFloat();
     }
 
-    public static ChapterMiniGame_turntableBase DeserializeChapterMiniGame_turntableBase(JToken _buf)
+    public static ChapterMiniGame_turntableBase DeserializeChapterMiniGame_turntableBase(ByteBuf _buf)
     {
         return new ChapterMiniGame_turntableBase(_buf);
     }
@@ -52,8 +48,7 @@ public sealed partial class ChapterMiniGame_turntableBase : Luban.BeanBase
     /// 转盘旋转偏移角度，<br/>大于0为逆时针旋转，<br/>小于0为顺时针旋转
     /// </summary>
     public readonly float offsetAngle;
-
-
+   
     public const int __ID__ = -691276903;
     public override int GetTypeId() => __ID__;
 
@@ -72,5 +67,6 @@ public sealed partial class ChapterMiniGame_turntableBase : Luban.BeanBase
         + "}";
     }
 }
+
 }
 

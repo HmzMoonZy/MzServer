@@ -8,32 +8,28 @@
 //------------------------------------------------------------------------------
 
 using Luban;
-using Newtonsoft.Json.Linq;
-
 
 
 namespace HotFix.Cfg
 {
-
 public sealed partial class GuildBOSS_guildBossStep : Luban.BeanBase
 {
-    public GuildBOSS_guildBossStep(JToken _buf) 
+    public GuildBOSS_guildBossStep(ByteBuf _buf) 
     {
-        JObject _obj = _buf as JObject;
-        BossLevel = (int)_obj.GetValue("BossLevel");
-        BossStepName = (string)_obj.GetValue("BossStepName");
-        BossGradeQuality = (int)_obj.GetValue("BossGradeQuality");
-        BossBgType = (int)_obj.GetValue("BossBgType");
-        BossId = (int)_obj.GetValue("BossId");
-        PlayerAttributes = (string)_obj.GetValue("PlayerAttributes");
-        BossAttributes = (string)_obj.GetValue("BossAttributes");
-        { var __json0 = _obj.GetValue("KillReward"); int _n0 = (__json0 as JArray).Count; KillReward = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  KillReward[__index0++] = __v0; }   }
-        { var __json0 = _obj.GetValue("ChallengeReward"); int _n0 = (__json0 as JArray).Count; ChallengeReward = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  ChallengeReward[__index0++] = __v0; }   }
-        baseSpeed = (int)_obj.GetValue("baseSpeed");
-        speedAdd = (int)_obj.GetValue("speedAdd");
+        BossLevel = _buf.ReadInt();
+        BossStepName = _buf.ReadString();
+        BossGradeQuality = _buf.ReadInt();
+        BossBgType = _buf.ReadInt();
+        BossId = _buf.ReadInt();
+        PlayerAttributes = _buf.ReadString();
+        BossAttributes = _buf.ReadString();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);KillReward = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); KillReward[__index0] = __e0;}}
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);ChallengeReward = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); ChallengeReward[__index0] = __e0;}}
+        baseSpeed = _buf.ReadInt();
+        speedAdd = _buf.ReadInt();
     }
 
-    public static GuildBOSS_guildBossStep DeserializeGuildBOSS_guildBossStep(JToken _buf)
+    public static GuildBOSS_guildBossStep DeserializeGuildBOSS_guildBossStep(ByteBuf _buf)
     {
         return new GuildBOSS_guildBossStep(_buf);
     }
@@ -82,8 +78,7 @@ public sealed partial class GuildBOSS_guildBossStep : Luban.BeanBase
     /// 速度加成(万分比)
     /// </summary>
     public readonly int speedAdd;
-
-
+   
     public const int __ID__ = -113486675;
     public override int GetTypeId() => __ID__;
 
@@ -108,5 +103,6 @@ public sealed partial class GuildBOSS_guildBossStep : Luban.BeanBase
         + "}";
     }
 }
+
 }
 

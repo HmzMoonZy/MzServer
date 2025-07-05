@@ -8,31 +8,27 @@
 //------------------------------------------------------------------------------
 
 using Luban;
-using Newtonsoft.Json.Linq;
-
 
 
 namespace HotFix.Cfg
 {
-
 public sealed partial class ActivityWheel_ShopObj : Luban.BeanBase
 {
-    public ActivityWheel_ShopObj(JToken _buf) 
+    public ActivityWheel_ShopObj(ByteBuf _buf) 
     {
-        JObject _obj = _buf as JObject;
-        Id = (int)_obj.GetValue("Id");
-        GroupId = (int)_obj.GetValue("GroupId");
-        OrderId = (int)_obj.GetValue("OrderId");
-        ObjPrice1 = (int)_obj.GetValue("ObjPrice1");
-        ObjPrice2 = (int)_obj.GetValue("ObjPrice2");
-        { var __json0 = _obj.GetValue("ObjGoods"); int _n0 = (__json0 as JArray).Count; ObjGoods = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  ObjGoods[__index0++] = __v0; }   }
-        limit = (int)_obj.GetValue("limit");
-        RequirementType = (int)_obj.GetValue("RequirementType");
-        LevelRequirements = (int)_obj.GetValue("LevelRequirements");
-        limitId = (int)_obj.GetValue("limitId");
+        Id = _buf.ReadInt();
+        GroupId = _buf.ReadInt();
+        OrderId = _buf.ReadInt();
+        ObjPrice1 = _buf.ReadInt();
+        ObjPrice2 = _buf.ReadInt();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);ObjGoods = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); ObjGoods[__index0] = __e0;}}
+        limit = _buf.ReadInt();
+        RequirementType = _buf.ReadInt();
+        LevelRequirements = _buf.ReadInt();
+        limitId = _buf.ReadInt();
     }
 
-    public static ActivityWheel_ShopObj DeserializeActivityWheel_ShopObj(JToken _buf)
+    public static ActivityWheel_ShopObj DeserializeActivityWheel_ShopObj(ByteBuf _buf)
     {
         return new ActivityWheel_ShopObj(_buf);
     }
@@ -77,8 +73,7 @@ public sealed partial class ActivityWheel_ShopObj : Luban.BeanBase
     /// 永久限购次数
     /// </summary>
     public readonly int limitId;
-
-
+   
     public const int __ID__ = 161061422;
     public override int GetTypeId() => __ID__;
 
@@ -102,5 +97,6 @@ public sealed partial class ActivityWheel_ShopObj : Luban.BeanBase
         + "}";
     }
 }
+
 }
 

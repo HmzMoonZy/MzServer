@@ -8,23 +8,19 @@
 //------------------------------------------------------------------------------
 
 using Luban;
-using Newtonsoft.Json.Linq;
-
 
 
 namespace HotFix.Cfg
 {
-
 public sealed partial class ArtSeasonMining_Minimap : Luban.BeanBase
 {
-    public ArtSeasonMining_Minimap(JToken _buf) 
+    public ArtSeasonMining_Minimap(ByteBuf _buf) 
     {
-        JObject _obj = _buf as JObject;
-        id = (int)_obj.GetValue("id");
-        path = (string)_obj.GetValue("path");
+        id = _buf.ReadInt();
+        path = _buf.ReadString();
     }
 
-    public static ArtSeasonMining_Minimap DeserializeArtSeasonMining_Minimap(JToken _buf)
+    public static ArtSeasonMining_Minimap DeserializeArtSeasonMining_Minimap(ByteBuf _buf)
     {
         return new ArtSeasonMining_Minimap(_buf);
     }
@@ -37,8 +33,7 @@ public sealed partial class ArtSeasonMining_Minimap : Luban.BeanBase
     /// Prefab 路径
     /// </summary>
     public readonly string path;
-
-
+   
     public const int __ID__ = -987080388;
     public override int GetTypeId() => __ID__;
 
@@ -54,5 +49,6 @@ public sealed partial class ArtSeasonMining_Minimap : Luban.BeanBase
         + "}";
     }
 }
+
 }
 

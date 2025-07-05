@@ -8,24 +8,20 @@
 //------------------------------------------------------------------------------
 
 using Luban;
-using Newtonsoft.Json.Linq;
-
 
 
 namespace HotFix.Cfg
 {
-
 public sealed partial class Pet_PetTraining : Luban.BeanBase
 {
-    public Pet_PetTraining(JToken _buf) 
+    public Pet_PetTraining(ByteBuf _buf) 
     {
-        JObject _obj = _buf as JObject;
-        id = (int)_obj.GetValue("id");
-        level = (int)_obj.GetValue("level");
-        isSpecial = (int)_obj.GetValue("isSpecial");
+        id = _buf.ReadInt();
+        level = _buf.ReadInt();
+        isSpecial = _buf.ReadInt();
     }
 
-    public static Pet_PetTraining DeserializePet_PetTraining(JToken _buf)
+    public static Pet_PetTraining DeserializePet_PetTraining(ByteBuf _buf)
     {
         return new Pet_PetTraining(_buf);
     }
@@ -42,8 +38,7 @@ public sealed partial class Pet_PetTraining : Luban.BeanBase
     /// 是否包含特殊词条
     /// </summary>
     public readonly int isSpecial;
-
-
+   
     public const int __ID__ = -2034546759;
     public override int GetTypeId() => __ID__;
 
@@ -60,5 +55,6 @@ public sealed partial class Pet_PetTraining : Luban.BeanBase
         + "}";
     }
 }
+
 }
 

@@ -8,23 +8,19 @@
 //------------------------------------------------------------------------------
 
 using Luban;
-using Newtonsoft.Json.Linq;
-
 
 
 namespace HotFix.Cfg
 {
-
 public sealed partial class GameConfig_Config : Luban.BeanBase
 {
-    public GameConfig_Config(JToken _buf) 
+    public GameConfig_Config(ByteBuf _buf) 
     {
-        JObject _obj = _buf as JObject;
-        ID = (int)_obj.GetValue("ID");
-        Value = (string)_obj.GetValue("Value");
+        ID = _buf.ReadInt();
+        Value = _buf.ReadString();
     }
 
-    public static GameConfig_Config DeserializeGameConfig_Config(JToken _buf)
+    public static GameConfig_Config DeserializeGameConfig_Config(ByteBuf _buf)
     {
         return new GameConfig_Config(_buf);
     }
@@ -37,8 +33,7 @@ public sealed partial class GameConfig_Config : Luban.BeanBase
     /// 值
     /// </summary>
     public readonly string Value;
-
-
+   
     public const int __ID__ = -35211251;
     public override int GetTypeId() => __ID__;
 
@@ -54,5 +49,6 @@ public sealed partial class GameConfig_Config : Luban.BeanBase
         + "}";
     }
 }
+
 }
 

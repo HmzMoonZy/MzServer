@@ -7,14 +7,11 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-using Newtonsoft.Json.Linq;
 using Luban;
-
 
 
 namespace HotFix.Cfg
 {
-
 /// <summary>
 /// Generated from Guild.xlsx sheet guildcontribute
 /// </summary>
@@ -23,20 +20,19 @@ public partial class TbGuild_guildcontribute
     private readonly System.Collections.Generic.Dictionary<int, Guild_guildcontribute> _dataMap;
     private readonly System.Collections.Generic.List<Guild_guildcontribute> _dataList;
     
-    public TbGuild_guildcontribute(JArray _buf)
+    public TbGuild_guildcontribute(ByteBuf _buf)
     {
         _dataMap = new System.Collections.Generic.Dictionary<int, Guild_guildcontribute>();
         _dataList = new System.Collections.Generic.List<Guild_guildcontribute>();
         
-        foreach(JObject _ele in _buf)
+        for(int n = _buf.ReadSize() ; n > 0 ; --n)
         {
             Guild_guildcontribute _v;
-            _v = global::HotFix.Cfg.Guild_guildcontribute.DeserializeGuild_guildcontribute(_ele);
+            _v = global::HotFix.Cfg.Guild_guildcontribute.DeserializeGuild_guildcontribute(_buf);
             _dataList.Add(_v);
             _dataMap.Add(_v.Times, _v);
-         }
+        }
     }
-
 
     public System.Collections.Generic.Dictionary<int, Guild_guildcontribute> DataMap => _dataMap;
     public System.Collections.Generic.List<Guild_guildcontribute> DataList => _dataList;
@@ -54,5 +50,6 @@ public partial class TbGuild_guildcontribute
     }
 
 }
+
 }
 

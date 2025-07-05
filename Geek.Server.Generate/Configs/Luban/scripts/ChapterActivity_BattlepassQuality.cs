@@ -8,23 +8,19 @@
 //------------------------------------------------------------------------------
 
 using Luban;
-using Newtonsoft.Json.Linq;
-
 
 
 namespace HotFix.Cfg
 {
-
 public sealed partial class ChapterActivity_BattlepassQuality : Luban.BeanBase
 {
-    public ChapterActivity_BattlepassQuality(JToken _buf) 
+    public ChapterActivity_BattlepassQuality(ByteBuf _buf) 
     {
-        JObject _obj = _buf as JObject;
-        id = (int)_obj.GetValue("id");
-        upgradeRate = (int)_obj.GetValue("upgradeRate");
+        id = _buf.ReadInt();
+        upgradeRate = _buf.ReadInt();
     }
 
-    public static ChapterActivity_BattlepassQuality DeserializeChapterActivity_BattlepassQuality(JToken _buf)
+    public static ChapterActivity_BattlepassQuality DeserializeChapterActivity_BattlepassQuality(ByteBuf _buf)
     {
         return new ChapterActivity_BattlepassQuality(_buf);
     }
@@ -37,8 +33,7 @@ public sealed partial class ChapterActivity_BattlepassQuality : Luban.BeanBase
     /// 升品概率（万分比）
     /// </summary>
     public readonly int upgradeRate;
-
-
+   
     public const int __ID__ = -1173965645;
     public override int GetTypeId() => __ID__;
 
@@ -54,5 +49,6 @@ public sealed partial class ChapterActivity_BattlepassQuality : Luban.BeanBase
         + "}";
     }
 }
+
 }
 

@@ -8,37 +8,33 @@
 //------------------------------------------------------------------------------
 
 using Luban;
-using Newtonsoft.Json.Linq;
-
 
 
 namespace HotFix.Cfg
 {
-
 public sealed partial class TalentLegacy_legacyList : Luban.BeanBase
 {
-    public TalentLegacy_legacyList(JToken _buf) 
+    public TalentLegacy_legacyList(ByteBuf _buf) 
     {
-        JObject _obj = _buf as JObject;
-        id = (int)_obj.GetValue("id");
-        groupID = (int)_obj.GetValue("groupID");
-        tagID = (int)_obj.GetValue("tagID");
-        priority = (int)_obj.GetValue("priority");
-        order = (int)_obj.GetValue("order");
-        nameID = (string)_obj.GetValue("nameID");
-        equipAtlasID = (int)_obj.GetValue("equipAtlasID");
-        equipSkillIcon = (string)_obj.GetValue("equipSkillIcon");
-        atlasID = (int)_obj.GetValue("atlasID");
-        cardIcon = (string)_obj.GetValue("cardIcon");
-        spineId = (int)_obj.GetValue("spineId");
-        Type = (int)_obj.GetValue("Type");
-        rank = (int)_obj.GetValue("rank");
-        { var __json0 = _obj.GetValue("composeFragment"); int _n0 = (__json0 as JArray).Count; composeFragment = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  composeFragment[__index0++] = __v0; }   }
-        composeGrade = (int)_obj.GetValue("composeGrade");
-        talentLegacyNodeId = (int)_obj.GetValue("talentLegacyNodeId");
+        id = _buf.ReadInt();
+        groupID = _buf.ReadInt();
+        tagID = _buf.ReadInt();
+        priority = _buf.ReadInt();
+        order = _buf.ReadInt();
+        nameID = _buf.ReadString();
+        equipAtlasID = _buf.ReadInt();
+        equipSkillIcon = _buf.ReadString();
+        atlasID = _buf.ReadInt();
+        cardIcon = _buf.ReadString();
+        spineId = _buf.ReadInt();
+        Type = _buf.ReadInt();
+        rank = _buf.ReadInt();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);composeFragment = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); composeFragment[__index0] = __e0;}}
+        composeGrade = _buf.ReadInt();
+        talentLegacyNodeId = _buf.ReadInt();
     }
 
-    public static TalentLegacy_legacyList DeserializeTalentLegacy_legacyList(JToken _buf)
+    public static TalentLegacy_legacyList DeserializeTalentLegacy_legacyList(ByteBuf _buf)
     {
         return new TalentLegacy_legacyList(_buf);
     }
@@ -107,8 +103,7 @@ public sealed partial class TalentLegacy_legacyList : Luban.BeanBase
     /// 解锁跳转id
     /// </summary>
     public readonly int talentLegacyNodeId;
-
-
+   
     public const int __ID__ = 1476280977;
     public override int GetTypeId() => __ID__;
 
@@ -138,5 +133,6 @@ public sealed partial class TalentLegacy_legacyList : Luban.BeanBase
         + "}";
     }
 }
+
 }
 

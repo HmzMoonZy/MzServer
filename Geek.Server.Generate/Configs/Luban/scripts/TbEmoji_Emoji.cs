@@ -7,14 +7,11 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-using Newtonsoft.Json.Linq;
 using Luban;
-
 
 
 namespace HotFix.Cfg
 {
-
 /// <summary>
 /// Generated from Emoji.xlsx sheet Emoji
 /// </summary>
@@ -23,20 +20,19 @@ public partial class TbEmoji_Emoji
     private readonly System.Collections.Generic.Dictionary<int, Emoji_Emoji> _dataMap;
     private readonly System.Collections.Generic.List<Emoji_Emoji> _dataList;
     
-    public TbEmoji_Emoji(JArray _buf)
+    public TbEmoji_Emoji(ByteBuf _buf)
     {
         _dataMap = new System.Collections.Generic.Dictionary<int, Emoji_Emoji>();
         _dataList = new System.Collections.Generic.List<Emoji_Emoji>();
         
-        foreach(JObject _ele in _buf)
+        for(int n = _buf.ReadSize() ; n > 0 ; --n)
         {
             Emoji_Emoji _v;
-            _v = global::HotFix.Cfg.Emoji_Emoji.DeserializeEmoji_Emoji(_ele);
+            _v = global::HotFix.Cfg.Emoji_Emoji.DeserializeEmoji_Emoji(_buf);
             _dataList.Add(_v);
             _dataMap.Add(_v.id, _v);
-         }
+        }
     }
-
 
     public System.Collections.Generic.Dictionary<int, Emoji_Emoji> DataMap => _dataMap;
     public System.Collections.Generic.List<Emoji_Emoji> DataList => _dataList;
@@ -54,5 +50,6 @@ public partial class TbEmoji_Emoji
     }
 
 }
+
 }
 

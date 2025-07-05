@@ -8,31 +8,27 @@
 //------------------------------------------------------------------------------
 
 using Luban;
-using Newtonsoft.Json.Linq;
-
 
 
 namespace HotFix.Cfg
 {
-
 public sealed partial class Fishing_fishRod : Luban.BeanBase
 {
-    public Fishing_fishRod(JToken _buf) 
+    public Fishing_fishRod(ByteBuf _buf) 
     {
-        JObject _obj = _buf as JObject;
-        id = (int)_obj.GetValue("id");
-        nameId = (string)_obj.GetValue("nameId");
-        atlas = (int)_obj.GetValue("atlas");
-        icon = (string)_obj.GetValue("icon");
-        type = (int)_obj.GetValue("type");
-        hp = (int)_obj.GetValue("hp");
-        hpRestore = (int)_obj.GetValue("hpRestore");
-        strength = (int)_obj.GetValue("strength");
-        speed = (int)_obj.GetValue("speed");
-        tiresSpeed = (int)_obj.GetValue("tiresSpeed");
+        id = _buf.ReadInt();
+        nameId = _buf.ReadString();
+        atlas = _buf.ReadInt();
+        icon = _buf.ReadString();
+        type = _buf.ReadInt();
+        hp = _buf.ReadInt();
+        hpRestore = _buf.ReadInt();
+        strength = _buf.ReadInt();
+        speed = _buf.ReadInt();
+        tiresSpeed = _buf.ReadInt();
     }
 
-    public static Fishing_fishRod DeserializeFishing_fishRod(JToken _buf)
+    public static Fishing_fishRod DeserializeFishing_fishRod(ByteBuf _buf)
     {
         return new Fishing_fishRod(_buf);
     }
@@ -77,8 +73,7 @@ public sealed partial class Fishing_fishRod : Luban.BeanBase
     /// 乏力竿速
     /// </summary>
     public readonly int tiresSpeed;
-
-
+   
     public const int __ID__ = -2048941190;
     public override int GetTypeId() => __ID__;
 
@@ -102,5 +97,6 @@ public sealed partial class Fishing_fishRod : Luban.BeanBase
         + "}";
     }
 }
+
 }
 

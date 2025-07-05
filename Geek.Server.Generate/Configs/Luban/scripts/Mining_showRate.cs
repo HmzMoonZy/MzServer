@@ -8,28 +8,24 @@
 //------------------------------------------------------------------------------
 
 using Luban;
-using Newtonsoft.Json.Linq;
-
 
 
 namespace HotFix.Cfg
 {
-
 public sealed partial class Mining_showRate : Luban.BeanBase
 {
-    public Mining_showRate(JToken _buf) 
+    public Mining_showRate(ByteBuf _buf) 
     {
-        JObject _obj = _buf as JObject;
-        id = (int)_obj.GetValue("id");
-        atlas = (int)_obj.GetValue("atlas");
-        icon = (string)_obj.GetValue("icon");
-        languageId = (string)_obj.GetValue("languageId");
-        showRate = (int)_obj.GetValue("showRate");
-        getRate = (int)_obj.GetValue("getRate");
-        quality = (int)_obj.GetValue("quality");
+        id = _buf.ReadInt();
+        atlas = _buf.ReadInt();
+        icon = _buf.ReadString();
+        languageId = _buf.ReadString();
+        showRate = _buf.ReadInt();
+        getRate = _buf.ReadInt();
+        quality = _buf.ReadInt();
     }
 
-    public static Mining_showRate DeserializeMining_showRate(JToken _buf)
+    public static Mining_showRate DeserializeMining_showRate(ByteBuf _buf)
     {
         return new Mining_showRate(_buf);
     }
@@ -62,8 +58,7 @@ public sealed partial class Mining_showRate : Luban.BeanBase
     /// 文字颜色
     /// </summary>
     public readonly int quality;
-
-
+   
     public const int __ID__ = -2078039956;
     public override int GetTypeId() => __ID__;
 
@@ -84,5 +79,6 @@ public sealed partial class Mining_showRate : Luban.BeanBase
         + "}";
     }
 }
+
 }
 

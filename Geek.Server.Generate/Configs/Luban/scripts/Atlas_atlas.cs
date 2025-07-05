@@ -8,24 +8,20 @@
 //------------------------------------------------------------------------------
 
 using Luban;
-using Newtonsoft.Json.Linq;
-
 
 
 namespace HotFix.Cfg
 {
-
 public sealed partial class Atlas_atlas : Luban.BeanBase
 {
-    public Atlas_atlas(JToken _buf) 
+    public Atlas_atlas(ByteBuf _buf) 
     {
-        JObject _obj = _buf as JObject;
-        id = (int)_obj.GetValue("id");
-        notes = (string)_obj.GetValue("notes");
-        path = (string)_obj.GetValue("path");
+        id = _buf.ReadInt();
+        notes = _buf.ReadString();
+        path = _buf.ReadString();
     }
 
-    public static Atlas_atlas DeserializeAtlas_atlas(JToken _buf)
+    public static Atlas_atlas DeserializeAtlas_atlas(ByteBuf _buf)
     {
         return new Atlas_atlas(_buf);
     }
@@ -42,8 +38,7 @@ public sealed partial class Atlas_atlas : Luban.BeanBase
     /// 路径
     /// </summary>
     public readonly string path;
-
-
+   
     public const int __ID__ = -744505417;
     public override int GetTypeId() => __ID__;
 
@@ -60,5 +55,6 @@ public sealed partial class Atlas_atlas : Luban.BeanBase
         + "}";
     }
 }
+
 }
 

@@ -8,30 +8,26 @@
 //------------------------------------------------------------------------------
 
 using Luban;
-using Newtonsoft.Json.Linq;
-
 
 
 namespace HotFix.Cfg
 {
-
 public sealed partial class IAP_PackExchange : Luban.BeanBase
 {
-    public IAP_PackExchange(JToken _buf) 
+    public IAP_PackExchange(ByteBuf _buf) 
     {
-        JObject _obj = _buf as JObject;
-        id = (int)_obj.GetValue("id");
-        groupId = (int)_obj.GetValue("groupId");
-        tag = (int)_obj.GetValue("tag");
-        { var __json0 = _obj.GetValue("needItem"); int _n0 = (__json0 as JArray).Count; needItem = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  needItem[__index0++] = __v0; }   }
-        { var __json0 = _obj.GetValue("rewardItem"); int _n0 = (__json0 as JArray).Count; rewardItem = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  rewardItem[__index0++] = __v0; }   }
-        limit = (int)_obj.GetValue("limit");
-        RefreshType = (int)_obj.GetValue("RefreshType");
-        SkinID = (int)_obj.GetValue("SkinID");
-        SceneSkinID = (int)_obj.GetValue("SceneSkinID");
+        id = _buf.ReadInt();
+        groupId = _buf.ReadInt();
+        tag = _buf.ReadInt();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);needItem = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); needItem[__index0] = __e0;}}
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);rewardItem = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); rewardItem[__index0] = __e0;}}
+        limit = _buf.ReadInt();
+        RefreshType = _buf.ReadInt();
+        SkinID = _buf.ReadInt();
+        SceneSkinID = _buf.ReadInt();
     }
 
-    public static IAP_PackExchange DeserializeIAP_PackExchange(JToken _buf)
+    public static IAP_PackExchange DeserializeIAP_PackExchange(ByteBuf _buf)
     {
         return new IAP_PackExchange(_buf);
     }
@@ -72,8 +68,7 @@ public sealed partial class IAP_PackExchange : Luban.BeanBase
     /// 场景ID
     /// </summary>
     public readonly int SceneSkinID;
-
-
+   
     public const int __ID__ = -119723485;
     public override int GetTypeId() => __ID__;
 
@@ -96,5 +91,6 @@ public sealed partial class IAP_PackExchange : Luban.BeanBase
         + "}";
     }
 }
+
 }
 

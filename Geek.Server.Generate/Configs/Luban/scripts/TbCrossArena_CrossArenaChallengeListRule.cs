@@ -7,14 +7,11 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-using Newtonsoft.Json.Linq;
 using Luban;
-
 
 
 namespace HotFix.Cfg
 {
-
 /// <summary>
 /// Generated from CrossArena.xlsx sheet CrossArenaChallengeListRule
 /// </summary>
@@ -23,20 +20,19 @@ public partial class TbCrossArena_CrossArenaChallengeListRule
     private readonly System.Collections.Generic.Dictionary<int, CrossArena_CrossArenaChallengeListRule> _dataMap;
     private readonly System.Collections.Generic.List<CrossArena_CrossArenaChallengeListRule> _dataList;
     
-    public TbCrossArena_CrossArenaChallengeListRule(JArray _buf)
+    public TbCrossArena_CrossArenaChallengeListRule(ByteBuf _buf)
     {
         _dataMap = new System.Collections.Generic.Dictionary<int, CrossArena_CrossArenaChallengeListRule>();
         _dataList = new System.Collections.Generic.List<CrossArena_CrossArenaChallengeListRule>();
         
-        foreach(JObject _ele in _buf)
+        for(int n = _buf.ReadSize() ; n > 0 ; --n)
         {
             CrossArena_CrossArenaChallengeListRule _v;
-            _v = global::HotFix.Cfg.CrossArena_CrossArenaChallengeListRule.DeserializeCrossArena_CrossArenaChallengeListRule(_ele);
+            _v = global::HotFix.Cfg.CrossArena_CrossArenaChallengeListRule.DeserializeCrossArena_CrossArenaChallengeListRule(_buf);
             _dataList.Add(_v);
             _dataMap.Add(_v.ID, _v);
-         }
+        }
     }
-
 
     public System.Collections.Generic.Dictionary<int, CrossArena_CrossArenaChallengeListRule> DataMap => _dataMap;
     public System.Collections.Generic.List<CrossArena_CrossArenaChallengeListRule> DataList => _dataList;
@@ -54,5 +50,6 @@ public partial class TbCrossArena_CrossArenaChallengeListRule
     }
 
 }
+
 }
 

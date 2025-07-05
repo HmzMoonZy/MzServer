@@ -8,28 +8,24 @@
 //------------------------------------------------------------------------------
 
 using Luban;
-using Newtonsoft.Json.Linq;
-
 
 
 namespace HotFix.Cfg
 {
-
 public sealed partial class TalentLegacy_legacyGrade : Luban.BeanBase
 {
-    public TalentLegacy_legacyGrade(JToken _buf) 
+    public TalentLegacy_legacyGrade(ByteBuf _buf) 
     {
-        JObject _obj = _buf as JObject;
-        id = (int)_obj.GetValue("id");
-        qualityID = (int)_obj.GetValue("qualityID");
-        qualityPlus = (int)_obj.GetValue("qualityPlus");
-        { var __json0 = _obj.GetValue("consume"); int _n0 = (__json0 as JArray).Count; consume = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  consume[__index0++] = __v0; }   }
-        { var __json0 = _obj.GetValue("toFragment"); int _n0 = (__json0 as JArray).Count; toFragment = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  toFragment[__index0++] = __v0; }   }
-        { var __json0 = _obj.GetValue("wearAttributes"); int _n0 = (__json0 as JArray).Count; wearAttributes = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  wearAttributes[__index0++] = __v0; }   }
-        { var __json0 = _obj.GetValue("activePower"); int _n0 = (__json0 as JArray).Count; activePower = new int[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { int __v0;  __v0 = (int)__e0;  activePower[__index0++] = __v0; }   }
+        id = _buf.ReadInt();
+        qualityID = _buf.ReadInt();
+        qualityPlus = _buf.ReadInt();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);consume = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); consume[__index0] = __e0;}}
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);toFragment = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); toFragment[__index0] = __e0;}}
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);wearAttributes = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); wearAttributes[__index0] = __e0;}}
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);activePower = new int[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { int __e0;__e0 = _buf.ReadInt(); activePower[__index0] = __e0;}}
     }
 
-    public static TalentLegacy_legacyGrade DeserializeTalentLegacy_legacyGrade(JToken _buf)
+    public static TalentLegacy_legacyGrade DeserializeTalentLegacy_legacyGrade(ByteBuf _buf)
     {
         return new TalentLegacy_legacyGrade(_buf);
     }
@@ -62,8 +58,7 @@ public sealed partial class TalentLegacy_legacyGrade : Luban.BeanBase
     /// 层数2万分比战力<br/>层数3万分比战力<br/>（上阵增加战力）
     /// </summary>
     public readonly int[] activePower;
-
-
+   
     public const int __ID__ = -1484297148;
     public override int GetTypeId() => __ID__;
 
@@ -84,5 +79,6 @@ public sealed partial class TalentLegacy_legacyGrade : Luban.BeanBase
         + "}";
     }
 }
+
 }
 

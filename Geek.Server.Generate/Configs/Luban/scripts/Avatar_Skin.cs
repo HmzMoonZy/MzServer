@@ -8,41 +8,37 @@
 //------------------------------------------------------------------------------
 
 using Luban;
-using Newtonsoft.Json.Linq;
-
 
 
 namespace HotFix.Cfg
 {
-
 public sealed partial class Avatar_Skin : Luban.BeanBase
 {
-    public Avatar_Skin(JToken _buf) 
+    public Avatar_Skin(ByteBuf _buf) 
     {
-        JObject _obj = _buf as JObject;
-        id = (int)_obj.GetValue("id");
-        name = (string)_obj.GetValue("name");
-        gameMember = (int)_obj.GetValue("gameMember");
-        skinType = (int)_obj.GetValue("skinType");
-        atlasId = (int)_obj.GetValue("atlasId");
-        iconId = (string)_obj.GetValue("iconId");
-        quality_atlasId = (int)_obj.GetValue("quality_atlasId");
-        quality_iconId = (string)_obj.GetValue("quality_iconId");
-        part = (int)_obj.GetValue("part");
-        { var __json0 = _obj.GetValue("unlockItemId"); int _n0 = (__json0 as JArray).Count; unlockItemId = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  unlockItemId[__index0++] = __v0; }   }
-        { var __json0 = _obj.GetValue("mutualParts"); int _n0 = (__json0 as JArray).Count; mutualParts = new int[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { int __v0;  __v0 = (int)__e0;  mutualParts[__index0++] = __v0; }   }
-        skinPrefab = (int)_obj.GetValue("skinPrefab");
-        isHide = (int)_obj.GetValue("isHide");
-        getLanguageId = (string)_obj.GetValue("getLanguageId");
-        { var __json0 = _obj.GetValue("systemLangNone"); int _n0 = (__json0 as JArray).Count; systemLangNone = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  systemLangNone[__index0++] = __v0; }   }
-        { var __json0 = _obj.GetValue("NationOversea"); int _n0 = (__json0 as JArray).Count; NationOversea = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  NationOversea[__index0++] = __v0; }   }
-        { var __json0 = _obj.GetValue("NationCN"); int _n0 = (__json0 as JArray).Count; NationCN = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  NationCN[__index0++] = __v0; }   }
-        { var __json0 = _obj.GetValue("NationCNmini"); int _n0 = (__json0 as JArray).Count; NationCNmini = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  NationCNmini[__index0++] = __v0; }   }
-        AtllasCard = (int)_obj.GetValue("AtllasCard");
-        Card = (string)_obj.GetValue("Card");
+        id = _buf.ReadInt();
+        name = _buf.ReadString();
+        gameMember = _buf.ReadInt();
+        skinType = _buf.ReadInt();
+        atlasId = _buf.ReadInt();
+        iconId = _buf.ReadString();
+        quality_atlasId = _buf.ReadInt();
+        quality_iconId = _buf.ReadString();
+        part = _buf.ReadInt();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);unlockItemId = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); unlockItemId[__index0] = __e0;}}
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);mutualParts = new int[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { int __e0;__e0 = _buf.ReadInt(); mutualParts[__index0] = __e0;}}
+        skinPrefab = _buf.ReadInt();
+        isHide = _buf.ReadInt();
+        getLanguageId = _buf.ReadString();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);systemLangNone = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); systemLangNone[__index0] = __e0;}}
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);NationOversea = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); NationOversea[__index0] = __e0;}}
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);NationCN = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); NationCN[__index0] = __e0;}}
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);NationCNmini = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); NationCNmini[__index0] = __e0;}}
+        AtllasCard = _buf.ReadInt();
+        Card = _buf.ReadString();
     }
 
-    public static Avatar_Skin DeserializeAvatar_Skin(JToken _buf)
+    public static Avatar_Skin DeserializeAvatar_Skin(ByteBuf _buf)
     {
         return new Avatar_Skin(_buf);
     }
@@ -127,8 +123,7 @@ public sealed partial class Avatar_Skin : Luban.BeanBase
     /// 套装卡图
     /// </summary>
     public readonly string Card;
-
-
+   
     public const int __ID__ = 2064181411;
     public override int GetTypeId() => __ID__;
 
@@ -162,5 +157,6 @@ public sealed partial class Avatar_Skin : Luban.BeanBase
         + "}";
     }
 }
+
 }
 

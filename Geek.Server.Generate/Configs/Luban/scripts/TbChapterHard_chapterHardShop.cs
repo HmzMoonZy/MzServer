@@ -7,14 +7,11 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-using Newtonsoft.Json.Linq;
 using Luban;
-
 
 
 namespace HotFix.Cfg
 {
-
 /// <summary>
 /// Generated from ChapterHard.xlsx sheet chapterHardShop
 /// </summary>
@@ -23,20 +20,19 @@ public partial class TbChapterHard_chapterHardShop
     private readonly System.Collections.Generic.Dictionary<int, ChapterHard_chapterHardShop> _dataMap;
     private readonly System.Collections.Generic.List<ChapterHard_chapterHardShop> _dataList;
     
-    public TbChapterHard_chapterHardShop(JArray _buf)
+    public TbChapterHard_chapterHardShop(ByteBuf _buf)
     {
         _dataMap = new System.Collections.Generic.Dictionary<int, ChapterHard_chapterHardShop>();
         _dataList = new System.Collections.Generic.List<ChapterHard_chapterHardShop>();
         
-        foreach(JObject _ele in _buf)
+        for(int n = _buf.ReadSize() ; n > 0 ; --n)
         {
             ChapterHard_chapterHardShop _v;
-            _v = global::HotFix.Cfg.ChapterHard_chapterHardShop.DeserializeChapterHard_chapterHardShop(_ele);
+            _v = global::HotFix.Cfg.ChapterHard_chapterHardShop.DeserializeChapterHard_chapterHardShop(_buf);
             _dataList.Add(_v);
             _dataMap.Add(_v.ID, _v);
-         }
+        }
     }
-
 
     public System.Collections.Generic.Dictionary<int, ChapterHard_chapterHardShop> DataMap => _dataMap;
     public System.Collections.Generic.List<ChapterHard_chapterHardShop> DataList => _dataList;
@@ -54,5 +50,6 @@ public partial class TbChapterHard_chapterHardShop
     }
 
 }
+
 }
 

@@ -8,27 +8,23 @@
 //------------------------------------------------------------------------------
 
 using Luban;
-using Newtonsoft.Json.Linq;
-
 
 
 namespace HotFix.Cfg
 {
-
 public sealed partial class CommonActivity_ConsumeObj : Luban.BeanBase
 {
-    public CommonActivity_ConsumeObj(JToken _buf) 
+    public CommonActivity_ConsumeObj(ByteBuf _buf) 
     {
-        JObject _obj = _buf as JObject;
-        Id = (int)_obj.GetValue("Id");
-        ObjGroup = (int)_obj.GetValue("ObjGroup");
-        ObjName = (string)_obj.GetValue("ObjName");
-        ObjNum = (int)_obj.GetValue("ObjNum");
-        ObjType = (int)_obj.GetValue("ObjType");
-        { var __json0 = _obj.GetValue("ObjReward"); int _n0 = (__json0 as JArray).Count; ObjReward = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  ObjReward[__index0++] = __v0; }   }
+        Id = _buf.ReadInt();
+        ObjGroup = _buf.ReadInt();
+        ObjName = _buf.ReadString();
+        ObjNum = _buf.ReadInt();
+        ObjType = _buf.ReadInt();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);ObjReward = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); ObjReward[__index0] = __e0;}}
     }
 
-    public static CommonActivity_ConsumeObj DeserializeCommonActivity_ConsumeObj(JToken _buf)
+    public static CommonActivity_ConsumeObj DeserializeCommonActivity_ConsumeObj(ByteBuf _buf)
     {
         return new CommonActivity_ConsumeObj(_buf);
     }
@@ -57,8 +53,7 @@ public sealed partial class CommonActivity_ConsumeObj : Luban.BeanBase
     /// 完成奖励
     /// </summary>
     public readonly string[] ObjReward;
-
-
+   
     public const int __ID__ = 2062425760;
     public override int GetTypeId() => __ID__;
 
@@ -78,5 +73,6 @@ public sealed partial class CommonActivity_ConsumeObj : Luban.BeanBase
         + "}";
     }
 }
+
 }
 

@@ -8,30 +8,26 @@
 //------------------------------------------------------------------------------
 
 using Luban;
-using Newtonsoft.Json.Linq;
-
 
 
 namespace HotFix.Cfg
 {
-
 public sealed partial class IAP_BattlePass : Luban.BeanBase
 {
-    public IAP_BattlePass(JToken _buf) 
+    public IAP_BattlePass(ByteBuf _buf) 
     {
-        JObject _obj = _buf as JObject;
-        id = (int)_obj.GetValue("id");
-        notes = (string)_obj.GetValue("notes");
-        seasonID = (int)_obj.GetValue("seasonID");
-        nameID = (string)_obj.GetValue("nameID");
-        groupId = (int)_obj.GetValue("groupId");
-        buyTime = (int)_obj.GetValue("buyTime");
-        startTime = (int)_obj.GetValue("startTime");
-        endTime = (int)_obj.GetValue("endTime");
-        finalRewardTimes = (int)_obj.GetValue("finalRewardTimes");
+        id = _buf.ReadInt();
+        notes = _buf.ReadString();
+        seasonID = _buf.ReadInt();
+        nameID = _buf.ReadString();
+        groupId = _buf.ReadInt();
+        buyTime = _buf.ReadInt();
+        startTime = _buf.ReadInt();
+        endTime = _buf.ReadInt();
+        finalRewardTimes = _buf.ReadInt();
     }
 
-    public static IAP_BattlePass DeserializeIAP_BattlePass(JToken _buf)
+    public static IAP_BattlePass DeserializeIAP_BattlePass(ByteBuf _buf)
     {
         return new IAP_BattlePass(_buf);
     }
@@ -72,8 +68,7 @@ public sealed partial class IAP_BattlePass : Luban.BeanBase
     /// 最终循环奖励次数
     /// </summary>
     public readonly int finalRewardTimes;
-
-
+   
     public const int __ID__ = -1860300432;
     public override int GetTypeId() => __ID__;
 
@@ -96,5 +91,6 @@ public sealed partial class IAP_BattlePass : Luban.BeanBase
         + "}";
     }
 }
+
 }
 

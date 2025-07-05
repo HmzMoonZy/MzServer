@@ -7,14 +7,11 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-using Newtonsoft.Json.Linq;
 using Luban;
-
 
 
 namespace HotFix.Cfg
 {
-
 /// <summary>
 /// Generated from MythicDungeon.xlsx sheet levelEvent
 /// </summary>
@@ -23,20 +20,19 @@ public partial class TbMythicDungeon_levelEvent
     private readonly System.Collections.Generic.Dictionary<int, MythicDungeon_levelEvent> _dataMap;
     private readonly System.Collections.Generic.List<MythicDungeon_levelEvent> _dataList;
     
-    public TbMythicDungeon_levelEvent(JArray _buf)
+    public TbMythicDungeon_levelEvent(ByteBuf _buf)
     {
         _dataMap = new System.Collections.Generic.Dictionary<int, MythicDungeon_levelEvent>();
         _dataList = new System.Collections.Generic.List<MythicDungeon_levelEvent>();
         
-        foreach(JObject _ele in _buf)
+        for(int n = _buf.ReadSize() ; n > 0 ; --n)
         {
             MythicDungeon_levelEvent _v;
-            _v = global::HotFix.Cfg.MythicDungeon_levelEvent.DeserializeMythicDungeon_levelEvent(_ele);
+            _v = global::HotFix.Cfg.MythicDungeon_levelEvent.DeserializeMythicDungeon_levelEvent(_buf);
             _dataList.Add(_v);
             _dataMap.Add(_v.id, _v);
-         }
+        }
     }
-
 
     public System.Collections.Generic.Dictionary<int, MythicDungeon_levelEvent> DataMap => _dataMap;
     public System.Collections.Generic.List<MythicDungeon_levelEvent> DataList => _dataList;
@@ -54,5 +50,6 @@ public partial class TbMythicDungeon_levelEvent
     }
 
 }
+
 }
 

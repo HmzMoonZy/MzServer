@@ -8,24 +8,20 @@
 //------------------------------------------------------------------------------
 
 using Luban;
-using Newtonsoft.Json.Linq;
-
 
 
 namespace HotFix.Cfg
 {
-
 public sealed partial class ChapterHard_chapterHardSelectSkill : Luban.BeanBase
 {
-    public ChapterHard_chapterHardSelectSkill(JToken _buf) 
+    public ChapterHard_chapterHardSelectSkill(ByteBuf _buf) 
     {
-        JObject _obj = _buf as JObject;
-        ID = (int)_obj.GetValue("ID");
-        type = (int)_obj.GetValue("type");
-        { var __json0 = _obj.GetValue("selectSkill"); int _n0 = (__json0 as JArray).Count; selectSkill = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  selectSkill[__index0++] = __v0; }   }
+        ID = _buf.ReadInt();
+        type = _buf.ReadInt();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);selectSkill = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); selectSkill[__index0] = __e0;}}
     }
 
-    public static ChapterHard_chapterHardSelectSkill DeserializeChapterHard_chapterHardSelectSkill(JToken _buf)
+    public static ChapterHard_chapterHardSelectSkill DeserializeChapterHard_chapterHardSelectSkill(ByteBuf _buf)
     {
         return new ChapterHard_chapterHardSelectSkill(_buf);
     }
@@ -42,8 +38,7 @@ public sealed partial class ChapterHard_chapterHardSelectSkill : Luban.BeanBase
     /// 出几个技能|选几个|选几轮|技能池
     /// </summary>
     public readonly string[] selectSkill;
-
-
+   
     public const int __ID__ = 477394468;
     public override int GetTypeId() => __ID__;
 
@@ -60,5 +55,6 @@ public sealed partial class ChapterHard_chapterHardSelectSkill : Luban.BeanBase
         + "}";
     }
 }
+
 }
 

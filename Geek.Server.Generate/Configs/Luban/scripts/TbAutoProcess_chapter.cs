@@ -7,14 +7,11 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-using Newtonsoft.Json.Linq;
 using Luban;
-
 
 
 namespace HotFix.Cfg
 {
-
 /// <summary>
 /// Generated from AutoProcess.xlsx sheet chapter
 /// </summary>
@@ -23,20 +20,19 @@ public partial class TbAutoProcess_chapter
     private readonly System.Collections.Generic.Dictionary<int, AutoProcess_chapter> _dataMap;
     private readonly System.Collections.Generic.List<AutoProcess_chapter> _dataList;
     
-    public TbAutoProcess_chapter(JArray _buf)
+    public TbAutoProcess_chapter(ByteBuf _buf)
     {
         _dataMap = new System.Collections.Generic.Dictionary<int, AutoProcess_chapter>();
         _dataList = new System.Collections.Generic.List<AutoProcess_chapter>();
         
-        foreach(JObject _ele in _buf)
+        for(int n = _buf.ReadSize() ; n > 0 ; --n)
         {
             AutoProcess_chapter _v;
-            _v = global::HotFix.Cfg.AutoProcess_chapter.DeserializeAutoProcess_chapter(_ele);
+            _v = global::HotFix.Cfg.AutoProcess_chapter.DeserializeAutoProcess_chapter(_buf);
             _dataList.Add(_v);
             _dataMap.Add(_v.ID, _v);
-         }
+        }
     }
-
 
     public System.Collections.Generic.Dictionary<int, AutoProcess_chapter> DataMap => _dataMap;
     public System.Collections.Generic.List<AutoProcess_chapter> DataList => _dataList;
@@ -54,5 +50,6 @@ public partial class TbAutoProcess_chapter
     }
 
 }
+
 }
 

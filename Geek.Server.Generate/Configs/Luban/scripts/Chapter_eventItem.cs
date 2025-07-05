@@ -8,31 +8,27 @@
 //------------------------------------------------------------------------------
 
 using Luban;
-using Newtonsoft.Json.Linq;
-
 
 
 namespace HotFix.Cfg
 {
-
 public sealed partial class Chapter_eventItem : Luban.BeanBase
 {
-    public Chapter_eventItem(JToken _buf) 
+    public Chapter_eventItem(ByteBuf _buf) 
     {
-        JObject _obj = _buf as JObject;
-        id = (int)_obj.GetValue("id");
-        function = (int)_obj.GetValue("function");
-        param = (string)_obj.GetValue("param");
-        stage = (int)_obj.GetValue("stage");
-        languageId = (string)_obj.GetValue("languageId");
-        atlas = (int)_obj.GetValue("atlas");
-        icon = (string)_obj.GetValue("icon");
-        showUI = (int)_obj.GetValue("showUI");
-        isOverlay = (int)_obj.GetValue("isOverlay");
-        costFood = (int)_obj.GetValue("costFood");
+        id = _buf.ReadInt();
+        function = _buf.ReadInt();
+        param = _buf.ReadString();
+        stage = _buf.ReadInt();
+        languageId = _buf.ReadString();
+        atlas = _buf.ReadInt();
+        icon = _buf.ReadString();
+        showUI = _buf.ReadInt();
+        isOverlay = _buf.ReadInt();
+        costFood = _buf.ReadInt();
     }
 
-    public static Chapter_eventItem DeserializeChapter_eventItem(JToken _buf)
+    public static Chapter_eventItem DeserializeChapter_eventItem(ByteBuf _buf)
     {
         return new Chapter_eventItem(_buf);
     }
@@ -77,8 +73,7 @@ public sealed partial class Chapter_eventItem : Luban.BeanBase
     /// 消耗食物
     /// </summary>
     public readonly int costFood;
-
-
+   
     public const int __ID__ = -1337262277;
     public override int GetTypeId() => __ID__;
 
@@ -102,5 +97,6 @@ public sealed partial class Chapter_eventItem : Luban.BeanBase
         + "}";
     }
 }
+
 }
 

@@ -8,27 +8,23 @@
 //------------------------------------------------------------------------------
 
 using Luban;
-using Newtonsoft.Json.Linq;
-
 
 
 namespace HotFix.Cfg
 {
-
 public sealed partial class GuildBOSS_guildBossMonster : Luban.BeanBase
 {
-    public GuildBOSS_guildBossMonster(JToken _buf) 
+    public GuildBOSS_guildBossMonster(ByteBuf _buf) 
     {
-        JObject _obj = _buf as JObject;
-        id = (int)_obj.GetValue("id");
-        pos1 = (string)_obj.GetValue("pos1");
-        pos2 = (string)_obj.GetValue("pos2");
-        pos3 = (string)_obj.GetValue("pos3");
-        pos4 = (string)_obj.GetValue("pos4");
-        pos5 = (string)_obj.GetValue("pos5");
+        id = _buf.ReadInt();
+        pos1 = _buf.ReadString();
+        pos2 = _buf.ReadString();
+        pos3 = _buf.ReadString();
+        pos4 = _buf.ReadString();
+        pos5 = _buf.ReadString();
     }
 
-    public static GuildBOSS_guildBossMonster DeserializeGuildBOSS_guildBossMonster(JToken _buf)
+    public static GuildBOSS_guildBossMonster DeserializeGuildBOSS_guildBossMonster(ByteBuf _buf)
     {
         return new GuildBOSS_guildBossMonster(_buf);
     }
@@ -57,8 +53,7 @@ public sealed partial class GuildBOSS_guildBossMonster : Luban.BeanBase
     /// 位置5(id,进阶,属性)
     /// </summary>
     public readonly string pos5;
-
-
+   
     public const int __ID__ = -1906957735;
     public override int GetTypeId() => __ID__;
 
@@ -78,5 +73,6 @@ public sealed partial class GuildBOSS_guildBossMonster : Luban.BeanBase
         + "}";
     }
 }
+
 }
 

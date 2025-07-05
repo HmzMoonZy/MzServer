@@ -8,25 +8,21 @@
 //------------------------------------------------------------------------------
 
 using Luban;
-using Newtonsoft.Json.Linq;
-
 
 
 namespace HotFix.Cfg
 {
-
 public sealed partial class GuildBOSS_rankRewards : Luban.BeanBase
 {
-    public GuildBOSS_rankRewards(JToken _buf) 
+    public GuildBOSS_rankRewards(ByteBuf _buf) 
     {
-        JObject _obj = _buf as JObject;
-        ID = (int)_obj.GetValue("ID");
-        BossId = (int)_obj.GetValue("BossId");
-        { var __json0 = _obj.GetValue("RankRange"); int _n0 = (__json0 as JArray).Count; RankRange = new int[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { int __v0;  __v0 = (int)__e0;  RankRange[__index0++] = __v0; }   }
-        { var __json0 = _obj.GetValue("Reward"); int _n0 = (__json0 as JArray).Count; Reward = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  Reward[__index0++] = __v0; }   }
+        ID = _buf.ReadInt();
+        BossId = _buf.ReadInt();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);RankRange = new int[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { int __e0;__e0 = _buf.ReadInt(); RankRange[__index0] = __e0;}}
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);Reward = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); Reward[__index0] = __e0;}}
     }
 
-    public static GuildBOSS_rankRewards DeserializeGuildBOSS_rankRewards(JToken _buf)
+    public static GuildBOSS_rankRewards DeserializeGuildBOSS_rankRewards(ByteBuf _buf)
     {
         return new GuildBOSS_rankRewards(_buf);
     }
@@ -47,8 +43,7 @@ public sealed partial class GuildBOSS_rankRewards : Luban.BeanBase
     /// 宝箱奖励奖励
     /// </summary>
     public readonly string[] Reward;
-
-
+   
     public const int __ID__ = 365966681;
     public override int GetTypeId() => __ID__;
 
@@ -66,5 +61,6 @@ public sealed partial class GuildBOSS_rankRewards : Luban.BeanBase
         + "}";
     }
 }
+
 }
 

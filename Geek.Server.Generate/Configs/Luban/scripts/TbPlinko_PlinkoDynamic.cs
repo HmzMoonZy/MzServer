@@ -7,14 +7,11 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-using Newtonsoft.Json.Linq;
 using Luban;
-
 
 
 namespace HotFix.Cfg
 {
-
 /// <summary>
 /// Generated from Plinko.xlsx sheet PlinkoDynamic
 /// </summary>
@@ -23,20 +20,19 @@ public partial class TbPlinko_PlinkoDynamic
     private readonly System.Collections.Generic.Dictionary<int, Plinko_PlinkoDynamic> _dataMap;
     private readonly System.Collections.Generic.List<Plinko_PlinkoDynamic> _dataList;
     
-    public TbPlinko_PlinkoDynamic(JArray _buf)
+    public TbPlinko_PlinkoDynamic(ByteBuf _buf)
     {
         _dataMap = new System.Collections.Generic.Dictionary<int, Plinko_PlinkoDynamic>();
         _dataList = new System.Collections.Generic.List<Plinko_PlinkoDynamic>();
         
-        foreach(JObject _ele in _buf)
+        for(int n = _buf.ReadSize() ; n > 0 ; --n)
         {
             Plinko_PlinkoDynamic _v;
-            _v = global::HotFix.Cfg.Plinko_PlinkoDynamic.DeserializePlinko_PlinkoDynamic(_ele);
+            _v = global::HotFix.Cfg.Plinko_PlinkoDynamic.DeserializePlinko_PlinkoDynamic(_buf);
             _dataList.Add(_v);
             _dataMap.Add(_v.ID, _v);
-         }
+        }
     }
-
 
     public System.Collections.Generic.Dictionary<int, Plinko_PlinkoDynamic> DataMap => _dataMap;
     public System.Collections.Generic.List<Plinko_PlinkoDynamic> DataList => _dataList;
@@ -54,5 +50,6 @@ public partial class TbPlinko_PlinkoDynamic
     }
 
 }
+
 }
 

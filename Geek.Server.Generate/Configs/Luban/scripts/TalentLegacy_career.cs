@@ -8,28 +8,24 @@
 //------------------------------------------------------------------------------
 
 using Luban;
-using Newtonsoft.Json.Linq;
-
 
 
 namespace HotFix.Cfg
 {
-
 public sealed partial class TalentLegacy_career : Luban.BeanBase
 {
-    public TalentLegacy_career(JToken _buf) 
+    public TalentLegacy_career(ByteBuf _buf) 
     {
-        JObject _obj = _buf as JObject;
-        id = (int)_obj.GetValue("id");
-        nameID = (string)_obj.GetValue("nameID");
-        isOpen = (int)_obj.GetValue("isOpen");
-        condition = (string)_obj.GetValue("condition");
-        previewIconId = (int)_obj.GetValue("previewIconId");
-        previewIcon = (string)_obj.GetValue("previewIcon");
-        unLockTips = (string)_obj.GetValue("unLockTips");
+        id = _buf.ReadInt();
+        nameID = _buf.ReadString();
+        isOpen = _buf.ReadInt();
+        condition = _buf.ReadString();
+        previewIconId = _buf.ReadInt();
+        previewIcon = _buf.ReadString();
+        unLockTips = _buf.ReadString();
     }
 
-    public static TalentLegacy_career DeserializeTalentLegacy_career(JToken _buf)
+    public static TalentLegacy_career DeserializeTalentLegacy_career(ByteBuf _buf)
     {
         return new TalentLegacy_career(_buf);
     }
@@ -62,8 +58,7 @@ public sealed partial class TalentLegacy_career : Luban.BeanBase
     /// 解锁描述
     /// </summary>
     public readonly string unLockTips;
-
-
+   
     public const int __ID__ = 30479112;
     public override int GetTypeId() => __ID__;
 
@@ -84,5 +79,6 @@ public sealed partial class TalentLegacy_career : Luban.BeanBase
         + "}";
     }
 }
+
 }
 

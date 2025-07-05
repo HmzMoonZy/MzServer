@@ -8,28 +8,24 @@
 //------------------------------------------------------------------------------
 
 using Luban;
-using Newtonsoft.Json.Linq;
-
 
 
 namespace HotFix.Cfg
 {
-
 public sealed partial class Quality_CannonSkillQuality : Luban.BeanBase
 {
-    public Quality_CannonSkillQuality(JToken _buf) 
+    public Quality_CannonSkillQuality(ByteBuf _buf) 
     {
-        JObject _obj = _buf as JObject;
-        id = (int)_obj.GetValue("id");
-        atlasId = (int)_obj.GetValue("atlasId");
-        pointSpriteName = (string)_obj.GetValue("pointSpriteName");
-        lockSpriteName = (string)_obj.GetValue("lockSpriteName");
-        colorNumLight = (string)_obj.GetValue("colorNumLight");
-        { var __json0 = _obj.GetValue("colorNumDark"); int _n0 = (__json0 as JArray).Count; colorNumDark = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  colorNumDark[__index0++] = __v0; }   }
-        assaultGrid = (string)_obj.GetValue("assaultGrid");
+        id = _buf.ReadInt();
+        atlasId = _buf.ReadInt();
+        pointSpriteName = _buf.ReadString();
+        lockSpriteName = _buf.ReadString();
+        colorNumLight = _buf.ReadString();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);colorNumDark = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); colorNumDark[__index0] = __e0;}}
+        assaultGrid = _buf.ReadString();
     }
 
-    public static Quality_CannonSkillQuality DeserializeQuality_CannonSkillQuality(JToken _buf)
+    public static Quality_CannonSkillQuality DeserializeQuality_CannonSkillQuality(ByteBuf _buf)
     {
         return new Quality_CannonSkillQuality(_buf);
     }
@@ -62,8 +58,7 @@ public sealed partial class Quality_CannonSkillQuality : Luban.BeanBase
     /// 异星突击格子颜色名
     /// </summary>
     public readonly string assaultGrid;
-
-
+   
     public const int __ID__ = 1181287051;
     public override int GetTypeId() => __ID__;
 
@@ -84,5 +79,6 @@ public sealed partial class Quality_CannonSkillQuality : Luban.BeanBase
         + "}";
     }
 }
+
 }
 

@@ -7,14 +7,11 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-using Newtonsoft.Json.Linq;
 using Luban;
-
 
 
 namespace HotFix.Cfg
 {
-
 /// <summary>
 /// Generated from EventDive.xlsx sheet DiveGuildReward
 /// </summary>
@@ -23,20 +20,19 @@ public partial class TbEventDive_DiveGuildReward
     private readonly System.Collections.Generic.Dictionary<int, EventDive_DiveGuildReward> _dataMap;
     private readonly System.Collections.Generic.List<EventDive_DiveGuildReward> _dataList;
     
-    public TbEventDive_DiveGuildReward(JArray _buf)
+    public TbEventDive_DiveGuildReward(ByteBuf _buf)
     {
         _dataMap = new System.Collections.Generic.Dictionary<int, EventDive_DiveGuildReward>();
         _dataList = new System.Collections.Generic.List<EventDive_DiveGuildReward>();
         
-        foreach(JObject _ele in _buf)
+        for(int n = _buf.ReadSize() ; n > 0 ; --n)
         {
             EventDive_DiveGuildReward _v;
-            _v = global::HotFix.Cfg.EventDive_DiveGuildReward.DeserializeEventDive_DiveGuildReward(_ele);
+            _v = global::HotFix.Cfg.EventDive_DiveGuildReward.DeserializeEventDive_DiveGuildReward(_buf);
             _dataList.Add(_v);
             _dataMap.Add(_v.ID, _v);
-         }
+        }
     }
-
 
     public System.Collections.Generic.Dictionary<int, EventDive_DiveGuildReward> DataMap => _dataMap;
     public System.Collections.Generic.List<EventDive_DiveGuildReward> DataList => _dataList;
@@ -54,5 +50,6 @@ public partial class TbEventDive_DiveGuildReward
     }
 
 }
+
 }
 

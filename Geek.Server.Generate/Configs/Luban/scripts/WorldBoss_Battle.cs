@@ -8,33 +8,29 @@
 //------------------------------------------------------------------------------
 
 using Luban;
-using Newtonsoft.Json.Linq;
-
 
 
 namespace HotFix.Cfg
 {
-
 public sealed partial class WorldBoss_Battle : Luban.BeanBase
 {
-    public WorldBoss_Battle(JToken _buf) 
+    public WorldBoss_Battle(ByteBuf _buf) 
     {
-        JObject _obj = _buf as JObject;
-        ID = (int)_obj.GetValue("ID");
-        Desc = (string)_obj.GetValue("Desc");
-        NetVersion = (int)_obj.GetValue("NetVersion");
-        FreeCnt = (int)_obj.GetValue("FreeCnt");
-        BuyCnt = (int)_obj.GetValue("BuyCnt");
-        BuyDiamonds = (int)_obj.GetValue("BuyDiamonds");
-        { var __json0 = _obj.GetValue("MissionID"); int _n0 = (__json0 as JArray).Count; MissionID = new int[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { int __v0;  __v0 = (int)__e0;  MissionID[__index0++] = __v0; }   }
-        { var __json0 = _obj.GetValue("OpenTime"); int _n0 = (__json0 as JArray).Count; OpenTime = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  OpenTime[__index0++] = __v0; }   }
-        { var __json0 = _obj.GetValue("OpenTimeCN"); int _n0 = (__json0 as JArray).Count; OpenTimeCN = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  OpenTimeCN[__index0++] = __v0; }   }
-        FinishTime = (string)_obj.GetValue("FinishTime");
-        FinishTimeCN = (string)_obj.GetValue("FinishTimeCN");
-        { var __json0 = _obj.GetValue("PromotionRankDamage"); int _n0 = (__json0 as JArray).Count; PromotionRankDamage = new long[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { long __v0;  __v0 = (long)__e0;  PromotionRankDamage[__index0++] = __v0; }   }
+        ID = _buf.ReadInt();
+        Desc = _buf.ReadString();
+        NetVersion = _buf.ReadInt();
+        FreeCnt = _buf.ReadInt();
+        BuyCnt = _buf.ReadInt();
+        BuyDiamonds = _buf.ReadInt();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);MissionID = new int[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { int __e0;__e0 = _buf.ReadInt(); MissionID[__index0] = __e0;}}
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);OpenTime = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); OpenTime[__index0] = __e0;}}
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);OpenTimeCN = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); OpenTimeCN[__index0] = __e0;}}
+        FinishTime = _buf.ReadString();
+        FinishTimeCN = _buf.ReadString();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);PromotionRankDamage = new long[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { long __e0;__e0 = _buf.ReadLong(); PromotionRankDamage[__index0] = __e0;}}
     }
 
-    public static WorldBoss_Battle DeserializeWorldBoss_Battle(JToken _buf)
+    public static WorldBoss_Battle DeserializeWorldBoss_Battle(ByteBuf _buf)
     {
         return new WorldBoss_Battle(_buf);
     }
@@ -87,8 +83,7 @@ public sealed partial class WorldBoss_Battle : Luban.BeanBase
     /// 跳级要求伤害
     /// </summary>
     public readonly long[] PromotionRankDamage;
-
-
+   
     public const int __ID__ = 2138372888;
     public override int GetTypeId() => __ID__;
 
@@ -114,5 +109,6 @@ public sealed partial class WorldBoss_Battle : Luban.BeanBase
         + "}";
     }
 }
+
 }
 

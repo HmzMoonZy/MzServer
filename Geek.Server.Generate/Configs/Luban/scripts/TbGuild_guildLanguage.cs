@@ -7,14 +7,11 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-using Newtonsoft.Json.Linq;
 using Luban;
-
 
 
 namespace HotFix.Cfg
 {
-
 /// <summary>
 /// Generated from Guild.xlsx sheet guildLanguage
 /// </summary>
@@ -23,20 +20,19 @@ public partial class TbGuild_guildLanguage
     private readonly System.Collections.Generic.Dictionary<int, Guild_guildLanguage> _dataMap;
     private readonly System.Collections.Generic.List<Guild_guildLanguage> _dataList;
     
-    public TbGuild_guildLanguage(JArray _buf)
+    public TbGuild_guildLanguage(ByteBuf _buf)
     {
         _dataMap = new System.Collections.Generic.Dictionary<int, Guild_guildLanguage>();
         _dataList = new System.Collections.Generic.List<Guild_guildLanguage>();
         
-        foreach(JObject _ele in _buf)
+        for(int n = _buf.ReadSize() ; n > 0 ; --n)
         {
             Guild_guildLanguage _v;
-            _v = global::HotFix.Cfg.Guild_guildLanguage.DeserializeGuild_guildLanguage(_ele);
+            _v = global::HotFix.Cfg.Guild_guildLanguage.DeserializeGuild_guildLanguage(_buf);
             _dataList.Add(_v);
             _dataMap.Add(_v.ID, _v);
-         }
+        }
     }
-
 
     public System.Collections.Generic.Dictionary<int, Guild_guildLanguage> DataMap => _dataMap;
     public System.Collections.Generic.List<Guild_guildLanguage> DataList => _dataList;
@@ -54,5 +50,6 @@ public partial class TbGuild_guildLanguage
     }
 
 }
+
 }
 

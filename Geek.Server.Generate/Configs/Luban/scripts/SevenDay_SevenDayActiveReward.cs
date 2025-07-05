@@ -8,26 +8,22 @@
 //------------------------------------------------------------------------------
 
 using Luban;
-using Newtonsoft.Json.Linq;
-
 
 
 namespace HotFix.Cfg
 {
-
 public sealed partial class SevenDay_SevenDayActiveReward : Luban.BeanBase
 {
-    public SevenDay_SevenDayActiveReward(JToken _buf) 
+    public SevenDay_SevenDayActiveReward(ByteBuf _buf) 
     {
-        JObject _obj = _buf as JObject;
-        ID = (int)_obj.GetValue("ID");
-        groupId = (int)_obj.GetValue("groupId");
-        NeedActive = (int)_obj.GetValue("NeedActive");
-        { var __json0 = _obj.GetValue("Reward"); int _n0 = (__json0 as JArray).Count; Reward = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  Reward[__index0++] = __v0; }   }
-        IfEquip = (int)_obj.GetValue("IfEquip");
+        ID = _buf.ReadInt();
+        groupId = _buf.ReadInt();
+        NeedActive = _buf.ReadInt();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);Reward = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); Reward[__index0] = __e0;}}
+        IfEquip = _buf.ReadInt();
     }
 
-    public static SevenDay_SevenDayActiveReward DeserializeSevenDay_SevenDayActiveReward(JToken _buf)
+    public static SevenDay_SevenDayActiveReward DeserializeSevenDay_SevenDayActiveReward(ByteBuf _buf)
     {
         return new SevenDay_SevenDayActiveReward(_buf);
     }
@@ -52,8 +48,7 @@ public sealed partial class SevenDay_SevenDayActiveReward : Luban.BeanBase
     /// 是否<br/>装备奖励
     /// </summary>
     public readonly int IfEquip;
-
-
+   
     public const int __ID__ = -847050316;
     public override int GetTypeId() => __ID__;
 
@@ -72,5 +67,6 @@ public sealed partial class SevenDay_SevenDayActiveReward : Luban.BeanBase
         + "}";
     }
 }
+
 }
 

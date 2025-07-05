@@ -8,24 +8,20 @@
 //------------------------------------------------------------------------------
 
 using Luban;
-using Newtonsoft.Json.Linq;
-
 
 
 namespace HotFix.Cfg
 {
-
 public sealed partial class MythicDungeon_RankReward : Luban.BeanBase
 {
-    public MythicDungeon_RankReward(JToken _buf) 
+    public MythicDungeon_RankReward(ByteBuf _buf) 
     {
-        JObject _obj = _buf as JObject;
-        ID = (int)_obj.GetValue("ID");
-        { var __json0 = _obj.GetValue("ranking"); int _n0 = (__json0 as JArray).Count; ranking = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  ranking[__index0++] = __v0; }   }
-        { var __json0 = _obj.GetValue("rewards"); int _n0 = (__json0 as JArray).Count; rewards = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  rewards[__index0++] = __v0; }   }
+        ID = _buf.ReadInt();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);ranking = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); ranking[__index0] = __e0;}}
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);rewards = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); rewards[__index0] = __e0;}}
     }
 
-    public static MythicDungeon_RankReward DeserializeMythicDungeon_RankReward(JToken _buf)
+    public static MythicDungeon_RankReward DeserializeMythicDungeon_RankReward(ByteBuf _buf)
     {
         return new MythicDungeon_RankReward(_buf);
     }
@@ -42,8 +38,7 @@ public sealed partial class MythicDungeon_RankReward : Luban.BeanBase
     /// 赛季奖励
     /// </summary>
     public readonly string[] rewards;
-
-
+   
     public const int __ID__ = 2011849018;
     public override int GetTypeId() => __ID__;
 
@@ -60,5 +55,6 @@ public sealed partial class MythicDungeon_RankReward : Luban.BeanBase
         + "}";
     }
 }
+
 }
 

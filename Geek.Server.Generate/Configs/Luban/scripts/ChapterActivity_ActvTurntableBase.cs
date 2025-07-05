@@ -8,30 +8,26 @@
 //------------------------------------------------------------------------------
 
 using Luban;
-using Newtonsoft.Json.Linq;
-
 
 
 namespace HotFix.Cfg
 {
-
 public sealed partial class ChapterActivity_ActvTurntableBase : Luban.BeanBase
 {
-    public ChapterActivity_ActvTurntableBase(JToken _buf) 
+    public ChapterActivity_ActvTurntableBase(ByteBuf _buf) 
     {
-        JObject _obj = _buf as JObject;
-        id = (int)_obj.GetValue("id");
-        openTime = (string)_obj.GetValue("openTime");
-        endTime = (string)_obj.GetValue("endTime");
-        group = (int)_obj.GetValue("group");
-        { var __json0 = _obj.GetValue("rewards"); int _n0 = (__json0 as JArray).Count; rewards = new int[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { int __v0;  __v0 = (int)__e0;  rewards[__index0++] = __v0; }   }
-        cost = (int)_obj.GetValue("cost");
-        { var __json0 = _obj.GetValue("guaranteePool"); int _n0 = (__json0 as JArray).Count; guaranteePool = new int[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { int __v0;  __v0 = (int)__e0;  guaranteePool[__index0++] = __v0; }   }
-        { var __json0 = _obj.GetValue("guaranteeTimes"); int _n0 = (__json0 as JArray).Count; guaranteeTimes = new int[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { int __v0;  __v0 = (int)__e0;  guaranteeTimes[__index0++] = __v0; }   }
-        offsetAngle = (float)_obj.GetValue("offsetAngle");
+        id = _buf.ReadInt();
+        openTime = _buf.ReadString();
+        endTime = _buf.ReadString();
+        group = _buf.ReadInt();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);rewards = new int[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { int __e0;__e0 = _buf.ReadInt(); rewards[__index0] = __e0;}}
+        cost = _buf.ReadInt();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);guaranteePool = new int[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { int __e0;__e0 = _buf.ReadInt(); guaranteePool[__index0] = __e0;}}
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);guaranteeTimes = new int[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { int __e0;__e0 = _buf.ReadInt(); guaranteeTimes[__index0] = __e0;}}
+        offsetAngle = _buf.ReadFloat();
     }
 
-    public static ChapterActivity_ActvTurntableBase DeserializeChapterActivity_ActvTurntableBase(JToken _buf)
+    public static ChapterActivity_ActvTurntableBase DeserializeChapterActivity_ActvTurntableBase(ByteBuf _buf)
     {
         return new ChapterActivity_ActvTurntableBase(_buf);
     }
@@ -72,8 +68,7 @@ public sealed partial class ChapterActivity_ActvTurntableBase : Luban.BeanBase
     /// 转盘旋转偏移角度，<br/>大于0为逆时针旋转，<br/>小于0为顺时针旋转
     /// </summary>
     public readonly float offsetAngle;
-
-
+   
     public const int __ID__ = 1528087771;
     public override int GetTypeId() => __ID__;
 
@@ -96,5 +91,6 @@ public sealed partial class ChapterActivity_ActvTurntableBase : Luban.BeanBase
         + "}";
     }
 }
+
 }
 

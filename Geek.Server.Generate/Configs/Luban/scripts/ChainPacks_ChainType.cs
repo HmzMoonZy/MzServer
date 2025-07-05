@@ -8,32 +8,28 @@
 //------------------------------------------------------------------------------
 
 using Luban;
-using Newtonsoft.Json.Linq;
-
 
 
 namespace HotFix.Cfg
 {
-
 public sealed partial class ChainPacks_ChainType : Luban.BeanBase
 {
-    public ChainPacks_ChainType(JToken _buf) 
+    public ChainPacks_ChainType(ByteBuf _buf) 
     {
-        JObject _obj = _buf as JObject;
-        id = (int)_obj.GetValue("id");
-        sort = (int)_obj.GetValue("sort");
-        sprite_Banner = (string)_obj.GetValue("sprite_Banner");
-        atlasId_Title = (int)_obj.GetValue("atlasId_Title");
-        sprite_Title = (string)_obj.GetValue("sprite_Title");
-        sprite_Bg = (string)_obj.GetValue("sprite_Bg");
-        sprite_Bg_Mask = (string)_obj.GetValue("sprite_Bg_Mask");
-        sprite_NodeBg_Current = (string)_obj.GetValue("sprite_NodeBg_Current");
-        sprite_NodeBg_Other = (string)_obj.GetValue("sprite_NodeBg_Other");
-        CVLangId = (string)_obj.GetValue("CVLangId");
-        { var __json0 = _obj.GetValue("systemLangNone"); int _n0 = (__json0 as JArray).Count; systemLangNone = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  systemLangNone[__index0++] = __v0; }   }
+        id = _buf.ReadInt();
+        sort = _buf.ReadInt();
+        sprite_Banner = _buf.ReadString();
+        atlasId_Title = _buf.ReadInt();
+        sprite_Title = _buf.ReadString();
+        sprite_Bg = _buf.ReadString();
+        sprite_Bg_Mask = _buf.ReadString();
+        sprite_NodeBg_Current = _buf.ReadString();
+        sprite_NodeBg_Other = _buf.ReadString();
+        CVLangId = _buf.ReadString();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);systemLangNone = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); systemLangNone[__index0] = __e0;}}
     }
 
-    public static ChainPacks_ChainType DeserializeChainPacks_ChainType(JToken _buf)
+    public static ChainPacks_ChainType DeserializeChainPacks_ChainType(ByteBuf _buf)
     {
         return new ChainPacks_ChainType(_buf);
     }
@@ -82,8 +78,7 @@ public sealed partial class ChainPacks_ChainType : Luban.BeanBase
     /// 哪几种系统语言不显示
     /// </summary>
     public readonly string[] systemLangNone;
-
-
+   
     public const int __ID__ = 398006293;
     public override int GetTypeId() => __ID__;
 
@@ -108,5 +103,6 @@ public sealed partial class ChainPacks_ChainType : Luban.BeanBase
         + "}";
     }
 }
+
 }
 

@@ -8,30 +8,26 @@
 //------------------------------------------------------------------------------
 
 using Luban;
-using Newtonsoft.Json.Linq;
-
 
 
 namespace HotFix.Cfg
 {
-
 public sealed partial class ChapterActivity_ActvTurntableDetail : Luban.BeanBase
 {
-    public ChapterActivity_ActvTurntableDetail(JToken _buf) 
+    public ChapterActivity_ActvTurntableDetail(ByteBuf _buf) 
     {
-        JObject _obj = _buf as JObject;
-        id = (int)_obj.GetValue("id");
-        weight = (int)_obj.GetValue("weight");
-        weightAdd = (int)_obj.GetValue("weightAdd");
-        showWeight = (int)_obj.GetValue("showWeight");
-        reward = (int)_obj.GetValue("reward");
-        again = (int)_obj.GetValue("again");
-        planeColor = (int)_obj.GetValue("planeColor");
-        textColor = (string)_obj.GetValue("textColor");
-        xNumtId = (string)_obj.GetValue("xNumtId");
+        id = _buf.ReadInt();
+        weight = _buf.ReadInt();
+        weightAdd = _buf.ReadInt();
+        showWeight = _buf.ReadInt();
+        reward = _buf.ReadInt();
+        again = _buf.ReadInt();
+        planeColor = _buf.ReadInt();
+        textColor = _buf.ReadString();
+        xNumtId = _buf.ReadString();
     }
 
-    public static ChapterActivity_ActvTurntableDetail DeserializeChapterActivity_ActvTurntableDetail(JToken _buf)
+    public static ChapterActivity_ActvTurntableDetail DeserializeChapterActivity_ActvTurntableDetail(ByteBuf _buf)
     {
         return new ChapterActivity_ActvTurntableDetail(_buf);
     }
@@ -72,8 +68,7 @@ public sealed partial class ChapterActivity_ActvTurntableDetail : Luban.BeanBase
     /// 乘几的多语言描述<br/>不显示为空<br/>会被again覆盖
     /// </summary>
     public readonly string xNumtId;
-
-
+   
     public const int __ID__ = -325485605;
     public override int GetTypeId() => __ID__;
 
@@ -96,5 +91,6 @@ public sealed partial class ChapterActivity_ActvTurntableDetail : Luban.BeanBase
         + "}";
     }
 }
+
 }
 

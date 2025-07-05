@@ -8,24 +8,20 @@
 //------------------------------------------------------------------------------
 
 using Luban;
-using Newtonsoft.Json.Linq;
-
 
 
 namespace HotFix.Cfg
 {
-
 public sealed partial class IAP_DiamondPacks : Luban.BeanBase
 {
-    public IAP_DiamondPacks(JToken _buf) 
+    public IAP_DiamondPacks(ByteBuf _buf) 
     {
-        JObject _obj = _buf as JObject;
-        id = (int)_obj.GetValue("id");
-        { var __json0 = _obj.GetValue("products"); int _n0 = (__json0 as JArray).Count; products = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  products[__index0++] = __v0; }   }
-        parameters = (string)_obj.GetValue("parameters");
+        id = _buf.ReadInt();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);products = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); products[__index0] = __e0;}}
+        parameters = _buf.ReadString();
     }
 
-    public static IAP_DiamondPacks DeserializeIAP_DiamondPacks(JToken _buf)
+    public static IAP_DiamondPacks DeserializeIAP_DiamondPacks(ByteBuf _buf)
     {
         return new IAP_DiamondPacks(_buf);
     }
@@ -42,8 +38,7 @@ public sealed partial class IAP_DiamondPacks : Luban.BeanBase
     /// 参数
     /// </summary>
     public readonly string parameters;
-
-
+   
     public const int __ID__ = 2113569613;
     public override int GetTypeId() => __ID__;
 
@@ -60,5 +55,6 @@ public sealed partial class IAP_DiamondPacks : Luban.BeanBase
         + "}";
     }
 }
+
 }
 

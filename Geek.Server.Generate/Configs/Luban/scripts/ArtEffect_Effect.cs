@@ -8,25 +8,21 @@
 //------------------------------------------------------------------------------
 
 using Luban;
-using Newtonsoft.Json.Linq;
-
 
 
 namespace HotFix.Cfg
 {
-
 public sealed partial class ArtEffect_Effect : Luban.BeanBase
 {
-    public ArtEffect_Effect(JToken _buf) 
+    public ArtEffect_Effect(ByteBuf _buf) 
     {
-        JObject _obj = _buf as JObject;
-        id = (int)_obj.GetValue("id");
-        path = (string)_obj.GetValue("path");
-        pointName = (string)_obj.GetValue("pointName");
-        petPointType = (int)_obj.GetValue("petPointType");
+        id = _buf.ReadInt();
+        path = _buf.ReadString();
+        pointName = _buf.ReadString();
+        petPointType = _buf.ReadInt();
     }
 
-    public static ArtEffect_Effect DeserializeArtEffect_Effect(JToken _buf)
+    public static ArtEffect_Effect DeserializeArtEffect_Effect(ByteBuf _buf)
     {
         return new ArtEffect_Effect(_buf);
     }
@@ -47,8 +43,7 @@ public sealed partial class ArtEffect_Effect : Luban.BeanBase
     /// 宠物挂点名称
     /// </summary>
     public readonly int petPointType;
-
-
+   
     public const int __ID__ = 904554140;
     public override int GetTypeId() => __ID__;
 
@@ -66,5 +61,6 @@ public sealed partial class ArtEffect_Effect : Luban.BeanBase
         + "}";
     }
 }
+
 }
 

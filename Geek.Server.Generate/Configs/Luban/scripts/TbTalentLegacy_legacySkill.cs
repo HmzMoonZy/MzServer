@@ -7,14 +7,11 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-using Newtonsoft.Json.Linq;
 using Luban;
-
 
 
 namespace HotFix.Cfg
 {
-
 /// <summary>
 /// Generated from TalentLegacy.xlsx sheet legacySkill
 /// </summary>
@@ -23,20 +20,19 @@ public partial class TbTalentLegacy_legacySkill
     private readonly System.Collections.Generic.Dictionary<int, TalentLegacy_legacySkill> _dataMap;
     private readonly System.Collections.Generic.List<TalentLegacy_legacySkill> _dataList;
     
-    public TbTalentLegacy_legacySkill(JArray _buf)
+    public TbTalentLegacy_legacySkill(ByteBuf _buf)
     {
         _dataMap = new System.Collections.Generic.Dictionary<int, TalentLegacy_legacySkill>();
         _dataList = new System.Collections.Generic.List<TalentLegacy_legacySkill>();
         
-        foreach(JObject _ele in _buf)
+        for(int n = _buf.ReadSize() ; n > 0 ; --n)
         {
             TalentLegacy_legacySkill _v;
-            _v = global::HotFix.Cfg.TalentLegacy_legacySkill.DeserializeTalentLegacy_legacySkill(_ele);
+            _v = global::HotFix.Cfg.TalentLegacy_legacySkill.DeserializeTalentLegacy_legacySkill(_buf);
             _dataList.Add(_v);
             _dataMap.Add(_v.id, _v);
-         }
+        }
     }
-
 
     public System.Collections.Generic.Dictionary<int, TalentLegacy_legacySkill> DataMap => _dataMap;
     public System.Collections.Generic.List<TalentLegacy_legacySkill> DataList => _dataList;
@@ -54,5 +50,6 @@ public partial class TbTalentLegacy_legacySkill
     }
 
 }
+
 }
 

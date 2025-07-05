@@ -7,14 +7,11 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-using Newtonsoft.Json.Linq;
 using Luban;
-
 
 
 namespace HotFix.Cfg
 {
-
 /// <summary>
 /// Generated from GameRank.xlsx sheet GameRank
 /// </summary>
@@ -23,20 +20,19 @@ public partial class TbGameRank_GameRank
     private readonly System.Collections.Generic.Dictionary<int, GameRank_GameRank> _dataMap;
     private readonly System.Collections.Generic.List<GameRank_GameRank> _dataList;
     
-    public TbGameRank_GameRank(JArray _buf)
+    public TbGameRank_GameRank(ByteBuf _buf)
     {
         _dataMap = new System.Collections.Generic.Dictionary<int, GameRank_GameRank>();
         _dataList = new System.Collections.Generic.List<GameRank_GameRank>();
         
-        foreach(JObject _ele in _buf)
+        for(int n = _buf.ReadSize() ; n > 0 ; --n)
         {
             GameRank_GameRank _v;
-            _v = global::HotFix.Cfg.GameRank_GameRank.DeserializeGameRank_GameRank(_ele);
+            _v = global::HotFix.Cfg.GameRank_GameRank.DeserializeGameRank_GameRank(_buf);
             _dataList.Add(_v);
             _dataMap.Add(_v.id, _v);
-         }
+        }
     }
-
 
     public System.Collections.Generic.Dictionary<int, GameRank_GameRank> DataMap => _dataMap;
     public System.Collections.Generic.List<GameRank_GameRank> DataList => _dataList;
@@ -54,5 +50,6 @@ public partial class TbGameRank_GameRank
     }
 
 }
+
 }
 

@@ -8,37 +8,33 @@
 //------------------------------------------------------------------------------
 
 using Luban;
-using Newtonsoft.Json.Linq;
-
 
 
 namespace HotFix.Cfg
 {
-
 public sealed partial class IAP_PushPacks : Luban.BeanBase
 {
-    public IAP_PushPacks(JToken _buf) 
+    public IAP_PushPacks(ByteBuf _buf) 
     {
-        JObject _obj = _buf as JObject;
-        id = (int)_obj.GetValue("id");
-        packType = (int)_obj.GetValue("packType");
-        group = (int)_obj.GetValue("group");
-        { var __json0 = _obj.GetValue("products"); int _n0 = (__json0 as JArray).Count; products = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  products[__index0++] = __v0; }   }
-        { var __json0 = _obj.GetValue("products2"); int _n0 = (__json0 as JArray).Count; products2 = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  products2[__index0++] = __v0; }   }
-        { var __json0 = _obj.GetValue("products3"); int _n0 = (__json0 as JArray).Count; products3 = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  products3[__index0++] = __v0; }   }
-        priority = (int)_obj.GetValue("priority");
-        parameters = (string)_obj.GetValue("parameters");
-        nameID = (string)_obj.GetValue("nameID");
-        descID = (string)_obj.GetValue("descID");
-        valueNum = (int)_obj.GetValue("valueNum");
-        { var __json0 = _obj.GetValue("valueDescID"); int _n0 = (__json0 as JArray).Count; valueDescID = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  valueDescID[__index0++] = __v0; }   }
-        iconAtlasID = (int)_obj.GetValue("iconAtlasID");
-        iconName = (string)_obj.GetValue("iconName");
-        isEffect = (int)_obj.GetValue("isEffect");
-        nodePrefab = (string)_obj.GetValue("nodePrefab");
+        id = _buf.ReadInt();
+        packType = _buf.ReadInt();
+        group = _buf.ReadInt();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);products = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); products[__index0] = __e0;}}
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);products2 = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); products2[__index0] = __e0;}}
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);products3 = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); products3[__index0] = __e0;}}
+        priority = _buf.ReadInt();
+        parameters = _buf.ReadString();
+        nameID = _buf.ReadString();
+        descID = _buf.ReadString();
+        valueNum = _buf.ReadInt();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);valueDescID = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); valueDescID[__index0] = __e0;}}
+        iconAtlasID = _buf.ReadInt();
+        iconName = _buf.ReadString();
+        isEffect = _buf.ReadInt();
+        nodePrefab = _buf.ReadString();
     }
 
-    public static IAP_PushPacks DeserializeIAP_PushPacks(JToken _buf)
+    public static IAP_PushPacks DeserializeIAP_PushPacks(ByteBuf _buf)
     {
         return new IAP_PushPacks(_buf);
     }
@@ -107,8 +103,7 @@ public sealed partial class IAP_PushPacks : Luban.BeanBase
     /// 使用的预制体
     /// </summary>
     public readonly string nodePrefab;
-
-
+   
     public const int __ID__ = 1861644569;
     public override int GetTypeId() => __ID__;
 
@@ -138,5 +133,6 @@ public sealed partial class IAP_PushPacks : Luban.BeanBase
         + "}";
     }
 }
+
 }
 

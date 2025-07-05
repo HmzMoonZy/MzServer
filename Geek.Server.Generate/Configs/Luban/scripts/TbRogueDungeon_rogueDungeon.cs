@@ -7,14 +7,11 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-using Newtonsoft.Json.Linq;
 using Luban;
-
 
 
 namespace HotFix.Cfg
 {
-
 /// <summary>
 /// Generated from RogueDungeon.xlsx sheet rogueDungeon
 /// </summary>
@@ -23,20 +20,19 @@ public partial class TbRogueDungeon_rogueDungeon
     private readonly System.Collections.Generic.Dictionary<int, RogueDungeon_rogueDungeon> _dataMap;
     private readonly System.Collections.Generic.List<RogueDungeon_rogueDungeon> _dataList;
     
-    public TbRogueDungeon_rogueDungeon(JArray _buf)
+    public TbRogueDungeon_rogueDungeon(ByteBuf _buf)
     {
         _dataMap = new System.Collections.Generic.Dictionary<int, RogueDungeon_rogueDungeon>();
         _dataList = new System.Collections.Generic.List<RogueDungeon_rogueDungeon>();
         
-        foreach(JObject _ele in _buf)
+        for(int n = _buf.ReadSize() ; n > 0 ; --n)
         {
             RogueDungeon_rogueDungeon _v;
-            _v = global::HotFix.Cfg.RogueDungeon_rogueDungeon.DeserializeRogueDungeon_rogueDungeon(_ele);
+            _v = global::HotFix.Cfg.RogueDungeon_rogueDungeon.DeserializeRogueDungeon_rogueDungeon(_buf);
             _dataList.Add(_v);
             _dataMap.Add(_v.id, _v);
-         }
+        }
     }
-
 
     public System.Collections.Generic.Dictionary<int, RogueDungeon_rogueDungeon> DataMap => _dataMap;
     public System.Collections.Generic.List<RogueDungeon_rogueDungeon> DataList => _dataList;
@@ -54,5 +50,6 @@ public partial class TbRogueDungeon_rogueDungeon
     }
 
 }
+
 }
 

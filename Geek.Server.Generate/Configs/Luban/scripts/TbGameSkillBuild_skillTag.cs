@@ -7,14 +7,11 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-using Newtonsoft.Json.Linq;
 using Luban;
-
 
 
 namespace HotFix.Cfg
 {
-
 /// <summary>
 /// Generated from GameSkillBuild.xlsx sheet skillTag
 /// </summary>
@@ -23,20 +20,19 @@ public partial class TbGameSkillBuild_skillTag
     private readonly System.Collections.Generic.Dictionary<int, GameSkillBuild_skillTag> _dataMap;
     private readonly System.Collections.Generic.List<GameSkillBuild_skillTag> _dataList;
     
-    public TbGameSkillBuild_skillTag(JArray _buf)
+    public TbGameSkillBuild_skillTag(ByteBuf _buf)
     {
         _dataMap = new System.Collections.Generic.Dictionary<int, GameSkillBuild_skillTag>();
         _dataList = new System.Collections.Generic.List<GameSkillBuild_skillTag>();
         
-        foreach(JObject _ele in _buf)
+        for(int n = _buf.ReadSize() ; n > 0 ; --n)
         {
             GameSkillBuild_skillTag _v;
-            _v = global::HotFix.Cfg.GameSkillBuild_skillTag.DeserializeGameSkillBuild_skillTag(_ele);
+            _v = global::HotFix.Cfg.GameSkillBuild_skillTag.DeserializeGameSkillBuild_skillTag(_buf);
             _dataList.Add(_v);
             _dataMap.Add(_v.id, _v);
-         }
+        }
     }
-
 
     public System.Collections.Generic.Dictionary<int, GameSkillBuild_skillTag> DataMap => _dataMap;
     public System.Collections.Generic.List<GameSkillBuild_skillTag> DataList => _dataList;
@@ -54,5 +50,6 @@ public partial class TbGameSkillBuild_skillTag
     }
 
 }
+
 }
 

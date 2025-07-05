@@ -8,42 +8,38 @@
 //------------------------------------------------------------------------------
 
 using Luban;
-using Newtonsoft.Json.Linq;
-
 
 
 namespace HotFix.Cfg
 {
-
 public sealed partial class ActivityDan_MonopolyBase : Luban.BeanBase
 {
-    public ActivityDan_MonopolyBase(JToken _buf) 
+    public ActivityDan_MonopolyBase(ByteBuf _buf) 
     {
-        JObject _obj = _buf as JObject;
-        ID = (int)_obj.GetValue("ID");
-        NameId = (string)_obj.GetValue("NameId");
-        ThemeId = (int)_obj.GetValue("ThemeId");
-        DiceItem = (int)_obj.GetValue("DiceItem");
-        MagicDicItem = (int)_obj.GetValue("MagicDicItem");
-        StarItem = (int)_obj.GetValue("StarItem");
-        { var __json0 = _obj.GetValue("multiRate"); int _n0 = (__json0 as JArray).Count; multiRate = new int[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { int __v0;  __v0 = (int)__e0;  multiRate[__index0++] = __v0; }   }
-        { var __json0 = _obj.GetValue("guaranteeRate"); int _n0 = (__json0 as JArray).Count; guaranteeRate = new int[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { int __v0;  __v0 = (int)__e0;  guaranteeRate[__index0++] = __v0; }   }
-        DicePrice = (int)_obj.GetValue("DicePrice");
-        DefaultDice = (int)_obj.GetValue("DefaultDice");
-        RankNum = (int)_obj.GetValue("RankNum");
-        { var __json0 = _obj.GetValue("BigReward"); int _n0 = (__json0 as JArray).Count; BigReward = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  BigReward[__index0++] = __v0; }   }
-        { var __json0 = _obj.GetValue("ClearTime"); int _n0 = (__json0 as JArray).Count; ClearTime = new int[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { int __v0;  __v0 = (int)__e0;  ClearTime[__index0++] = __v0; }   }
-        { var __json0 = _obj.GetValue("BuyLimit"); int _n0 = (__json0 as JArray).Count; BuyLimit = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  BuyLimit[__index0++] = __v0; }   }
-        { var __json0 = _obj.GetValue("MailCoins"); int _n0 = (__json0 as JArray).Count; MailCoins = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  MailCoins[__index0++] = __v0; }   }
-        { var __json0 = _obj.GetValue("RebackMailID"); int _n0 = (__json0 as JArray).Count; RebackMailID = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  RebackMailID[__index0++] = __v0; }   }
-        resetDice = (int)_obj.GetValue("resetDice");
-        battlePassId = (int)_obj.GetValue("battlePassId");
-        ExchangeGroup = (int)_obj.GetValue("ExchangeGroup");
-        ExchangeItem = (int)_obj.GetValue("ExchangeItem");
-        PackGroup = (int)_obj.GetValue("PackGroup");
+        ID = _buf.ReadInt();
+        NameId = _buf.ReadString();
+        ThemeId = _buf.ReadInt();
+        DiceItem = _buf.ReadInt();
+        MagicDicItem = _buf.ReadInt();
+        StarItem = _buf.ReadInt();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);multiRate = new int[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { int __e0;__e0 = _buf.ReadInt(); multiRate[__index0] = __e0;}}
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);guaranteeRate = new int[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { int __e0;__e0 = _buf.ReadInt(); guaranteeRate[__index0] = __e0;}}
+        DicePrice = _buf.ReadInt();
+        DefaultDice = _buf.ReadInt();
+        RankNum = _buf.ReadInt();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);BigReward = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); BigReward[__index0] = __e0;}}
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);ClearTime = new int[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { int __e0;__e0 = _buf.ReadInt(); ClearTime[__index0] = __e0;}}
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);BuyLimit = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); BuyLimit[__index0] = __e0;}}
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);MailCoins = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); MailCoins[__index0] = __e0;}}
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);RebackMailID = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); RebackMailID[__index0] = __e0;}}
+        resetDice = _buf.ReadInt();
+        battlePassId = _buf.ReadInt();
+        ExchangeGroup = _buf.ReadInt();
+        ExchangeItem = _buf.ReadInt();
+        PackGroup = _buf.ReadInt();
     }
 
-    public static ActivityDan_MonopolyBase DeserializeActivityDan_MonopolyBase(JToken _buf)
+    public static ActivityDan_MonopolyBase DeserializeActivityDan_MonopolyBase(ByteBuf _buf)
     {
         return new ActivityDan_MonopolyBase(_buf);
     }
@@ -132,8 +128,7 @@ public sealed partial class ActivityDan_MonopolyBase : Luban.BeanBase
     /// 礼包组
     /// </summary>
     public readonly int PackGroup;
-
-
+   
     public const int __ID__ = -405495811;
     public override int GetTypeId() => __ID__;
 
@@ -168,5 +163,6 @@ public sealed partial class ActivityDan_MonopolyBase : Luban.BeanBase
         + "}";
     }
 }
+
 }
 

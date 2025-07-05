@@ -7,14 +7,11 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-using Newtonsoft.Json.Linq;
 using Luban;
-
 
 
 namespace HotFix.Cfg
 {
-
 /// <summary>
 /// Generated from CrossArena.xlsx sheet CrossArenaRobot
 /// </summary>
@@ -23,20 +20,19 @@ public partial class TbCrossArena_CrossArenaRobot
     private readonly System.Collections.Generic.Dictionary<int, CrossArena_CrossArenaRobot> _dataMap;
     private readonly System.Collections.Generic.List<CrossArena_CrossArenaRobot> _dataList;
     
-    public TbCrossArena_CrossArenaRobot(JArray _buf)
+    public TbCrossArena_CrossArenaRobot(ByteBuf _buf)
     {
         _dataMap = new System.Collections.Generic.Dictionary<int, CrossArena_CrossArenaRobot>();
         _dataList = new System.Collections.Generic.List<CrossArena_CrossArenaRobot>();
         
-        foreach(JObject _ele in _buf)
+        for(int n = _buf.ReadSize() ; n > 0 ; --n)
         {
             CrossArena_CrossArenaRobot _v;
-            _v = global::HotFix.Cfg.CrossArena_CrossArenaRobot.DeserializeCrossArena_CrossArenaRobot(_ele);
+            _v = global::HotFix.Cfg.CrossArena_CrossArenaRobot.DeserializeCrossArena_CrossArenaRobot(_buf);
             _dataList.Add(_v);
             _dataMap.Add(_v.ID, _v);
-         }
+        }
     }
-
 
     public System.Collections.Generic.Dictionary<int, CrossArena_CrossArenaRobot> DataMap => _dataMap;
     public System.Collections.Generic.List<CrossArena_CrossArenaRobot> DataList => _dataList;
@@ -54,5 +50,6 @@ public partial class TbCrossArena_CrossArenaRobot
     }
 
 }
+
 }
 

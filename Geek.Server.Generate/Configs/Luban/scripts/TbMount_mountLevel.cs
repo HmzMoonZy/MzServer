@@ -7,14 +7,11 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-using Newtonsoft.Json.Linq;
 using Luban;
-
 
 
 namespace HotFix.Cfg
 {
-
 /// <summary>
 /// Generated from Mount.xlsx sheet mountLevel
 /// </summary>
@@ -23,20 +20,19 @@ public partial class TbMount_mountLevel
     private readonly System.Collections.Generic.Dictionary<int, Mount_mountLevel> _dataMap;
     private readonly System.Collections.Generic.List<Mount_mountLevel> _dataList;
     
-    public TbMount_mountLevel(JArray _buf)
+    public TbMount_mountLevel(ByteBuf _buf)
     {
         _dataMap = new System.Collections.Generic.Dictionary<int, Mount_mountLevel>();
         _dataList = new System.Collections.Generic.List<Mount_mountLevel>();
         
-        foreach(JObject _ele in _buf)
+        for(int n = _buf.ReadSize() ; n > 0 ; --n)
         {
             Mount_mountLevel _v;
-            _v = global::HotFix.Cfg.Mount_mountLevel.DeserializeMount_mountLevel(_ele);
+            _v = global::HotFix.Cfg.Mount_mountLevel.DeserializeMount_mountLevel(_buf);
             _dataList.Add(_v);
             _dataMap.Add(_v.id, _v);
-         }
+        }
     }
-
 
     public System.Collections.Generic.Dictionary<int, Mount_mountLevel> DataMap => _dataMap;
     public System.Collections.Generic.List<Mount_mountLevel> DataList => _dataList;
@@ -54,5 +50,6 @@ public partial class TbMount_mountLevel
     }
 
 }
+
 }
 

@@ -7,14 +7,11 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-using Newtonsoft.Json.Linq;
 using Luban;
-
 
 
 namespace HotFix.Cfg
 {
-
 /// <summary>
 /// Generated from ActivityTurntable.xlsx sheet ShopObj
 /// </summary>
@@ -23,20 +20,19 @@ public partial class TbActivityTurntable_ShopObj
     private readonly System.Collections.Generic.Dictionary<int, ActivityTurntable_ShopObj> _dataMap;
     private readonly System.Collections.Generic.List<ActivityTurntable_ShopObj> _dataList;
     
-    public TbActivityTurntable_ShopObj(JArray _buf)
+    public TbActivityTurntable_ShopObj(ByteBuf _buf)
     {
         _dataMap = new System.Collections.Generic.Dictionary<int, ActivityTurntable_ShopObj>();
         _dataList = new System.Collections.Generic.List<ActivityTurntable_ShopObj>();
         
-        foreach(JObject _ele in _buf)
+        for(int n = _buf.ReadSize() ; n > 0 ; --n)
         {
             ActivityTurntable_ShopObj _v;
-            _v = global::HotFix.Cfg.ActivityTurntable_ShopObj.DeserializeActivityTurntable_ShopObj(_ele);
+            _v = global::HotFix.Cfg.ActivityTurntable_ShopObj.DeserializeActivityTurntable_ShopObj(_buf);
             _dataList.Add(_v);
             _dataMap.Add(_v.Id, _v);
-         }
+        }
     }
-
 
     public System.Collections.Generic.Dictionary<int, ActivityTurntable_ShopObj> DataMap => _dataMap;
     public System.Collections.Generic.List<ActivityTurntable_ShopObj> DataList => _dataList;
@@ -54,5 +50,6 @@ public partial class TbActivityTurntable_ShopObj
     }
 
 }
+
 }
 

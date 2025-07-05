@@ -8,29 +8,25 @@
 //------------------------------------------------------------------------------
 
 using Luban;
-using Newtonsoft.Json.Linq;
-
 
 
 namespace HotFix.Cfg
 {
-
 public sealed partial class LuckyKoi_LuckyKoiBase : Luban.BeanBase
 {
-    public LuckyKoi_LuckyKoiBase(JToken _buf) 
+    public LuckyKoi_LuckyKoiBase(ByteBuf _buf) 
     {
-        JObject _obj = _buf as JObject;
-        ID = (int)_obj.GetValue("ID");
-        DescFinal = (string)_obj.GetValue("DescFinal");
-        { var __json0 = _obj.GetValue("Time"); int _n0 = (__json0 as JArray).Count; Time = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  Time[__index0++] = __v0; }   }
-        MailId = (string)_obj.GetValue("MailId");
-        { var __json0 = _obj.GetValue("Item"); int _n0 = (__json0 as JArray).Count; Item = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  Item[__index0++] = __v0; }   }
-        PayID = (int)_obj.GetValue("PayID");
-        { var __json0 = _obj.GetValue("PackGroup"); int _n0 = (__json0 as JArray).Count; PackGroup = new int[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { int __v0;  __v0 = (int)__e0;  PackGroup[__index0++] = __v0; }   }
-        ServerRange = (int)_obj.GetValue("ServerRange");
+        ID = _buf.ReadInt();
+        DescFinal = _buf.ReadString();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);Time = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); Time[__index0] = __e0;}}
+        MailId = _buf.ReadString();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);Item = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); Item[__index0] = __e0;}}
+        PayID = _buf.ReadInt();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);PackGroup = new int[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { int __e0;__e0 = _buf.ReadInt(); PackGroup[__index0] = __e0;}}
+        ServerRange = _buf.ReadInt();
     }
 
-    public static LuckyKoi_LuckyKoiBase DeserializeLuckyKoi_LuckyKoiBase(JToken _buf)
+    public static LuckyKoi_LuckyKoiBase DeserializeLuckyKoi_LuckyKoiBase(ByteBuf _buf)
     {
         return new LuckyKoi_LuckyKoiBase(_buf);
     }
@@ -67,8 +63,7 @@ public sealed partial class LuckyKoi_LuckyKoiBase : Luban.BeanBase
     /// 跨服范围列<br/><br/>serverList-serverRange -pveRange序号
     /// </summary>
     public readonly int ServerRange;
-
-
+   
     public const int __ID__ = -1049373328;
     public override int GetTypeId() => __ID__;
 
@@ -90,5 +85,6 @@ public sealed partial class LuckyKoi_LuckyKoiBase : Luban.BeanBase
         + "}";
     }
 }
+
 }
 

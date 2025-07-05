@@ -8,25 +8,21 @@
 //------------------------------------------------------------------------------
 
 using Luban;
-using Newtonsoft.Json.Linq;
-
 
 
 namespace HotFix.Cfg
 {
-
 public sealed partial class Collection_starColor : Luban.BeanBase
 {
-    public Collection_starColor(JToken _buf) 
+    public Collection_starColor(ByteBuf _buf) 
     {
-        JObject _obj = _buf as JObject;
-        id = (int)_obj.GetValue("id");
-        starNumber = (int)_obj.GetValue("starNumber");
-        atlasID = (int)_obj.GetValue("atlasID");
-        iconStar = (string)_obj.GetValue("iconStar");
+        id = _buf.ReadInt();
+        starNumber = _buf.ReadInt();
+        atlasID = _buf.ReadInt();
+        iconStar = _buf.ReadString();
     }
 
-    public static Collection_starColor DeserializeCollection_starColor(JToken _buf)
+    public static Collection_starColor DeserializeCollection_starColor(ByteBuf _buf)
     {
         return new Collection_starColor(_buf);
     }
@@ -47,8 +43,7 @@ public sealed partial class Collection_starColor : Luban.BeanBase
     /// 切片名称
     /// </summary>
     public readonly string iconStar;
-
-
+   
     public const int __ID__ = 571476976;
     public override int GetTypeId() => __ID__;
 
@@ -66,5 +61,6 @@ public sealed partial class Collection_starColor : Luban.BeanBase
         + "}";
     }
 }
+
 }
 

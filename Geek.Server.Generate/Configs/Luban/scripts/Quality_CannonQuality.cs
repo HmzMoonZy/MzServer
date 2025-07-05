@@ -8,33 +8,29 @@
 //------------------------------------------------------------------------------
 
 using Luban;
-using Newtonsoft.Json.Linq;
-
 
 
 namespace HotFix.Cfg
 {
-
 public sealed partial class Quality_CannonQuality : Luban.BeanBase
 {
-    public Quality_CannonQuality(JToken _buf) 
+    public Quality_CannonQuality(ByteBuf _buf) 
     {
-        JObject _obj = _buf as JObject;
-        id = (int)_obj.GetValue("id");
-        atlasId = (int)_obj.GetValue("atlasId");
-        bgSpriteName = (string)_obj.GetValue("bgSpriteName");
-        colorNumLight = (string)_obj.GetValue("colorNumLight");
-        colorLight = (string)_obj.GetValue("colorLight");
-        summonEffect = (string)_obj.GetValue("summonEffect");
-        chouPaoEffect = (string)_obj.GetValue("chouPaoEffect");
-        cannonBookAtlasId = (int)_obj.GetValue("cannonBookAtlasId");
-        bookTitleImg = (string)_obj.GetValue("bookTitleImg");
-        bookTitleTxtColor = (string)_obj.GetValue("bookTitleTxtColor");
-        bookTitleNameId = (string)_obj.GetValue("bookTitleNameId");
-        bookPaoEffect = (string)_obj.GetValue("bookPaoEffect");
+        id = _buf.ReadInt();
+        atlasId = _buf.ReadInt();
+        bgSpriteName = _buf.ReadString();
+        colorNumLight = _buf.ReadString();
+        colorLight = _buf.ReadString();
+        summonEffect = _buf.ReadString();
+        chouPaoEffect = _buf.ReadString();
+        cannonBookAtlasId = _buf.ReadInt();
+        bookTitleImg = _buf.ReadString();
+        bookTitleTxtColor = _buf.ReadString();
+        bookTitleNameId = _buf.ReadString();
+        bookPaoEffect = _buf.ReadString();
     }
 
-    public static Quality_CannonQuality DeserializeQuality_CannonQuality(JToken _buf)
+    public static Quality_CannonQuality DeserializeQuality_CannonQuality(ByteBuf _buf)
     {
         return new Quality_CannonQuality(_buf);
     }
@@ -87,8 +83,7 @@ public sealed partial class Quality_CannonQuality : Luban.BeanBase
     /// 炮图鉴特效资源
     /// </summary>
     public readonly string bookPaoEffect;
-
-
+   
     public const int __ID__ = 153305538;
     public override int GetTypeId() => __ID__;
 
@@ -114,5 +109,6 @@ public sealed partial class Quality_CannonQuality : Luban.BeanBase
         + "}";
     }
 }
+
 }
 

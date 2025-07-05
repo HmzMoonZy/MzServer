@@ -8,32 +8,28 @@
 //------------------------------------------------------------------------------
 
 using Luban;
-using Newtonsoft.Json.Linq;
-
 
 
 namespace HotFix.Cfg
 {
-
 public sealed partial class SignIn_SignIn : Luban.BeanBase
 {
-    public SignIn_SignIn(JToken _buf) 
+    public SignIn_SignIn(ByteBuf _buf) 
     {
-        JObject _obj = _buf as JObject;
-        ID = (int)_obj.GetValue("ID");
-        MinDays = (int)_obj.GetValue("MinDays");
-        MaxDays = (int)_obj.GetValue("MaxDays");
-        { var __json0 = _obj.GetValue("Day1"); int _n0 = (__json0 as JArray).Count; Day1 = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  Day1[__index0++] = __v0; }   }
-        { var __json0 = _obj.GetValue("Day2"); int _n0 = (__json0 as JArray).Count; Day2 = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  Day2[__index0++] = __v0; }   }
-        { var __json0 = _obj.GetValue("Day3"); int _n0 = (__json0 as JArray).Count; Day3 = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  Day3[__index0++] = __v0; }   }
-        { var __json0 = _obj.GetValue("Day4"); int _n0 = (__json0 as JArray).Count; Day4 = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  Day4[__index0++] = __v0; }   }
-        { var __json0 = _obj.GetValue("Day5"); int _n0 = (__json0 as JArray).Count; Day5 = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  Day5[__index0++] = __v0; }   }
-        { var __json0 = _obj.GetValue("Day6"); int _n0 = (__json0 as JArray).Count; Day6 = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  Day6[__index0++] = __v0; }   }
-        { var __json0 = _obj.GetValue("Day7"); int _n0 = (__json0 as JArray).Count; Day7 = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  Day7[__index0++] = __v0; }   }
-        colour = (string)_obj.GetValue("colour");
+        ID = _buf.ReadInt();
+        MinDays = _buf.ReadInt();
+        MaxDays = _buf.ReadInt();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);Day1 = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); Day1[__index0] = __e0;}}
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);Day2 = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); Day2[__index0] = __e0;}}
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);Day3 = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); Day3[__index0] = __e0;}}
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);Day4 = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); Day4[__index0] = __e0;}}
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);Day5 = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); Day5[__index0] = __e0;}}
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);Day6 = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); Day6[__index0] = __e0;}}
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);Day7 = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); Day7[__index0] = __e0;}}
+        colour = _buf.ReadString();
     }
 
-    public static SignIn_SignIn DeserializeSignIn_SignIn(JToken _buf)
+    public static SignIn_SignIn DeserializeSignIn_SignIn(ByteBuf _buf)
     {
         return new SignIn_SignIn(_buf);
     }
@@ -82,8 +78,7 @@ public sealed partial class SignIn_SignIn : Luban.BeanBase
     /// 哪些天数着重显示
     /// </summary>
     public readonly string colour;
-
-
+   
     public const int __ID__ = 2067380959;
     public override int GetTypeId() => __ID__;
 
@@ -108,5 +103,6 @@ public sealed partial class SignIn_SignIn : Luban.BeanBase
         + "}";
     }
 }
+
 }
 

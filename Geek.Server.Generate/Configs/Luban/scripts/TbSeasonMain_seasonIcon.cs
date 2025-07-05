@@ -7,14 +7,11 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-using Newtonsoft.Json.Linq;
 using Luban;
-
 
 
 namespace HotFix.Cfg
 {
-
 /// <summary>
 /// Generated from SeasonMain.xlsx sheet seasonIcon
 /// </summary>
@@ -23,20 +20,19 @@ public partial class TbSeasonMain_seasonIcon
     private readonly System.Collections.Generic.Dictionary<int, SeasonMain_seasonIcon> _dataMap;
     private readonly System.Collections.Generic.List<SeasonMain_seasonIcon> _dataList;
     
-    public TbSeasonMain_seasonIcon(JArray _buf)
+    public TbSeasonMain_seasonIcon(ByteBuf _buf)
     {
         _dataMap = new System.Collections.Generic.Dictionary<int, SeasonMain_seasonIcon>();
         _dataList = new System.Collections.Generic.List<SeasonMain_seasonIcon>();
         
-        foreach(JObject _ele in _buf)
+        for(int n = _buf.ReadSize() ; n > 0 ; --n)
         {
             SeasonMain_seasonIcon _v;
-            _v = global::HotFix.Cfg.SeasonMain_seasonIcon.DeserializeSeasonMain_seasonIcon(_ele);
+            _v = global::HotFix.Cfg.SeasonMain_seasonIcon.DeserializeSeasonMain_seasonIcon(_buf);
             _dataList.Add(_v);
             _dataMap.Add(_v.id, _v);
-         }
+        }
     }
-
 
     public System.Collections.Generic.Dictionary<int, SeasonMain_seasonIcon> DataMap => _dataMap;
     public System.Collections.Generic.List<SeasonMain_seasonIcon> DataList => _dataList;
@@ -54,5 +50,6 @@ public partial class TbSeasonMain_seasonIcon
     }
 
 }
+
 }
 

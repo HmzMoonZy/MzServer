@@ -8,27 +8,23 @@
 //------------------------------------------------------------------------------
 
 using Luban;
-using Newtonsoft.Json.Linq;
-
 
 
 namespace HotFix.Cfg
 {
-
 public sealed partial class EventFishing_fishExchange : Luban.BeanBase
 {
-    public EventFishing_fishExchange(JToken _buf) 
+    public EventFishing_fishExchange(ByteBuf _buf) 
     {
-        JObject _obj = _buf as JObject;
-        id = (int)_obj.GetValue("id");
-        tag = (int)_obj.GetValue("tag");
-        { var __json0 = _obj.GetValue("needItem"); int _n0 = (__json0 as JArray).Count; needItem = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  needItem[__index0++] = __v0; }   }
-        { var __json0 = _obj.GetValue("rewardItem"); int _n0 = (__json0 as JArray).Count; rewardItem = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  rewardItem[__index0++] = __v0; }   }
-        limit = (int)_obj.GetValue("limit");
-        group = (int)_obj.GetValue("group");
+        id = _buf.ReadInt();
+        tag = _buf.ReadInt();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);needItem = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); needItem[__index0] = __e0;}}
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);rewardItem = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); rewardItem[__index0] = __e0;}}
+        limit = _buf.ReadInt();
+        group = _buf.ReadInt();
     }
 
-    public static EventFishing_fishExchange DeserializeEventFishing_fishExchange(JToken _buf)
+    public static EventFishing_fishExchange DeserializeEventFishing_fishExchange(ByteBuf _buf)
     {
         return new EventFishing_fishExchange(_buf);
     }
@@ -57,8 +53,7 @@ public sealed partial class EventFishing_fishExchange : Luban.BeanBase
     /// 组
     /// </summary>
     public readonly int group;
-
-
+   
     public const int __ID__ = 1871461834;
     public override int GetTypeId() => __ID__;
 
@@ -78,5 +73,6 @@ public sealed partial class EventFishing_fishExchange : Luban.BeanBase
         + "}";
     }
 }
+
 }
 

@@ -7,14 +7,11 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-using Newtonsoft.Json.Linq;
 using Luban;
-
 
 
 namespace HotFix.Cfg
 {
-
 /// <summary>
 /// Generated from GameBuff.xlsx sheet buffType
 /// </summary>
@@ -23,20 +20,19 @@ public partial class TbGameBuff_buffType
     private readonly System.Collections.Generic.Dictionary<int, GameBuff_buffType> _dataMap;
     private readonly System.Collections.Generic.List<GameBuff_buffType> _dataList;
     
-    public TbGameBuff_buffType(JArray _buf)
+    public TbGameBuff_buffType(ByteBuf _buf)
     {
         _dataMap = new System.Collections.Generic.Dictionary<int, GameBuff_buffType>();
         _dataList = new System.Collections.Generic.List<GameBuff_buffType>();
         
-        foreach(JObject _ele in _buf)
+        for(int n = _buf.ReadSize() ; n > 0 ; --n)
         {
             GameBuff_buffType _v;
-            _v = global::HotFix.Cfg.GameBuff_buffType.DeserializeGameBuff_buffType(_ele);
+            _v = global::HotFix.Cfg.GameBuff_buffType.DeserializeGameBuff_buffType(_buf);
             _dataList.Add(_v);
             _dataMap.Add(_v.id, _v);
-         }
+        }
     }
-
 
     public System.Collections.Generic.Dictionary<int, GameBuff_buffType> DataMap => _dataMap;
     public System.Collections.Generic.List<GameBuff_buffType> DataList => _dataList;
@@ -54,5 +50,6 @@ public partial class TbGameBuff_buffType
     }
 
 }
+
 }
 

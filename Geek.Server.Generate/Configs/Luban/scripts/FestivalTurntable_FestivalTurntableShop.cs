@@ -8,29 +8,25 @@
 //------------------------------------------------------------------------------
 
 using Luban;
-using Newtonsoft.Json.Linq;
-
 
 
 namespace HotFix.Cfg
 {
-
 public sealed partial class FestivalTurntable_FestivalTurntableShop : Luban.BeanBase
 {
-    public FestivalTurntable_FestivalTurntableShop(JToken _buf) 
+    public FestivalTurntable_FestivalTurntableShop(ByteBuf _buf) 
     {
-        JObject _obj = _buf as JObject;
-        Id = (int)_obj.GetValue("Id");
-        GroupId = (int)_obj.GetValue("GroupId");
-        ObjPrice1 = (int)_obj.GetValue("ObjPrice1");
-        ObjPrice2 = (int)_obj.GetValue("ObjPrice2");
-        { var __json0 = _obj.GetValue("ObjGoods"); int _n0 = (__json0 as JArray).Count; ObjGoods = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  ObjGoods[__index0++] = __v0; }   }
-        limit = (int)_obj.GetValue("limit");
-        RequirementType = (int)_obj.GetValue("RequirementType");
-        LevelRequirements = (int)_obj.GetValue("LevelRequirements");
+        Id = _buf.ReadInt();
+        GroupId = _buf.ReadInt();
+        ObjPrice1 = _buf.ReadInt();
+        ObjPrice2 = _buf.ReadInt();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);ObjGoods = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); ObjGoods[__index0] = __e0;}}
+        limit = _buf.ReadInt();
+        RequirementType = _buf.ReadInt();
+        LevelRequirements = _buf.ReadInt();
     }
 
-    public static FestivalTurntable_FestivalTurntableShop DeserializeFestivalTurntable_FestivalTurntableShop(JToken _buf)
+    public static FestivalTurntable_FestivalTurntableShop DeserializeFestivalTurntable_FestivalTurntableShop(ByteBuf _buf)
     {
         return new FestivalTurntable_FestivalTurntableShop(_buf);
     }
@@ -67,8 +63,7 @@ public sealed partial class FestivalTurntable_FestivalTurntableShop : Luban.Bean
     /// 解锁参数<br/>达到解锁
     /// </summary>
     public readonly int LevelRequirements;
-
-
+   
     public const int __ID__ = 1939957833;
     public override int GetTypeId() => __ID__;
 
@@ -90,5 +85,6 @@ public sealed partial class FestivalTurntable_FestivalTurntableShop : Luban.Bean
         + "}";
     }
 }
+
 }
 

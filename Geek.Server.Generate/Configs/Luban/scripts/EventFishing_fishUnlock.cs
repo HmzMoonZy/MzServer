@@ -8,29 +8,25 @@
 //------------------------------------------------------------------------------
 
 using Luban;
-using Newtonsoft.Json.Linq;
-
 
 
 namespace HotFix.Cfg
 {
-
 public sealed partial class EventFishing_fishUnlock : Luban.BeanBase
 {
-    public EventFishing_fishUnlock(JToken _buf) 
+    public EventFishing_fishUnlock(ByteBuf _buf) 
     {
-        JObject _obj = _buf as JObject;
-        id = (int)_obj.GetValue("id");
-        UnlockWeight = (int)_obj.GetValue("UnlockWeight");
-        UnlockFishRod = (int)_obj.GetValue("UnlockFishRod");
-        UnlockPayFishRod = (int)_obj.GetValue("UnlockPayFishRod");
-        UnlockArea = (int)_obj.GetValue("UnlockArea");
-        { var __json0 = _obj.GetValue("UnlockTask"); int _n0 = (__json0 as JArray).Count; UnlockTask = new int[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { int __v0;  __v0 = (int)__e0;  UnlockTask[__index0++] = __v0; }   }
-        { var __json0 = _obj.GetValue("UnlockExchange"); int _n0 = (__json0 as JArray).Count; UnlockExchange = new int[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { int __v0;  __v0 = (int)__e0;  UnlockExchange[__index0++] = __v0; }   }
-        UnlockLanguage = (string)_obj.GetValue("UnlockLanguage");
+        id = _buf.ReadInt();
+        UnlockWeight = _buf.ReadInt();
+        UnlockFishRod = _buf.ReadInt();
+        UnlockPayFishRod = _buf.ReadInt();
+        UnlockArea = _buf.ReadInt();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);UnlockTask = new int[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { int __e0;__e0 = _buf.ReadInt(); UnlockTask[__index0] = __e0;}}
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);UnlockExchange = new int[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { int __e0;__e0 = _buf.ReadInt(); UnlockExchange[__index0] = __e0;}}
+        UnlockLanguage = _buf.ReadString();
     }
 
-    public static EventFishing_fishUnlock DeserializeEventFishing_fishUnlock(JToken _buf)
+    public static EventFishing_fishUnlock DeserializeEventFishing_fishUnlock(ByteBuf _buf)
     {
         return new EventFishing_fishUnlock(_buf);
     }
@@ -67,8 +63,7 @@ public sealed partial class EventFishing_fishUnlock : Luban.BeanBase
     /// 解锁目标显示多语言
     /// </summary>
     public readonly string UnlockLanguage;
-
-
+   
     public const int __ID__ = -1153413973;
     public override int GetTypeId() => __ID__;
 
@@ -90,5 +85,6 @@ public sealed partial class EventFishing_fishUnlock : Luban.BeanBase
         + "}";
     }
 }
+
 }
 

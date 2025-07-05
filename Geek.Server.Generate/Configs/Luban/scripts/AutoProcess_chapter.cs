@@ -8,28 +8,24 @@
 //------------------------------------------------------------------------------
 
 using Luban;
-using Newtonsoft.Json.Linq;
-
 
 
 namespace HotFix.Cfg
 {
-
 public sealed partial class AutoProcess_chapter : Luban.BeanBase
 {
-    public AutoProcess_chapter(JToken _buf) 
+    public AutoProcess_chapter(ByteBuf _buf) 
     {
-        JObject _obj = _buf as JObject;
-        ID = (int)_obj.GetValue("ID");
-        NameLanguageId = (int)_obj.GetValue("NameLanguageId");
-        PrefabPath = (string)_obj.GetValue("PrefabPath");
-        PreviewPrefabPath = (string)_obj.GetValue("PreviewPrefabPath");
-        GodAttack = (string)_obj.GetValue("GodAttack");
-        battleSceneID = (int)_obj.GetValue("battleSceneID");
-        { var __json0 = _obj.GetValue("monster"); int _n0 = (__json0 as JArray).Count; monster = new int[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { int __v0;  __v0 = (int)__e0;  monster[__index0++] = __v0; }   }
+        ID = _buf.ReadInt();
+        NameLanguageId = _buf.ReadInt();
+        PrefabPath = _buf.ReadString();
+        PreviewPrefabPath = _buf.ReadString();
+        GodAttack = _buf.ReadString();
+        battleSceneID = _buf.ReadInt();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);monster = new int[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { int __e0;__e0 = _buf.ReadInt(); monster[__index0] = __e0;}}
     }
 
-    public static AutoProcess_chapter DeserializeAutoProcess_chapter(JToken _buf)
+    public static AutoProcess_chapter DeserializeAutoProcess_chapter(ByteBuf _buf)
     {
         return new AutoProcess_chapter(_buf);
     }
@@ -62,8 +58,7 @@ public sealed partial class AutoProcess_chapter : Luban.BeanBase
     /// 怪物配置，指向monster
     /// </summary>
     public readonly int[] monster;
-
-
+   
     public const int __ID__ = 1183912110;
     public override int GetTypeId() => __ID__;
 
@@ -84,5 +79,6 @@ public sealed partial class AutoProcess_chapter : Luban.BeanBase
         + "}";
     }
 }
+
 }
 

@@ -8,23 +8,19 @@
 //------------------------------------------------------------------------------
 
 using Luban;
-using Newtonsoft.Json.Linq;
-
 
 
 namespace HotFix.Cfg
 {
-
 public sealed partial class Map_EventPointBottom : Luban.BeanBase
 {
-    public Map_EventPointBottom(JToken _buf) 
+    public Map_EventPointBottom(ByteBuf _buf) 
     {
-        JObject _obj = _buf as JObject;
-        id = (int)_obj.GetValue("id");
-        path = (string)_obj.GetValue("path");
+        id = _buf.ReadInt();
+        path = _buf.ReadString();
     }
 
-    public static Map_EventPointBottom DeserializeMap_EventPointBottom(JToken _buf)
+    public static Map_EventPointBottom DeserializeMap_EventPointBottom(ByteBuf _buf)
     {
         return new Map_EventPointBottom(_buf);
     }
@@ -37,8 +33,7 @@ public sealed partial class Map_EventPointBottom : Luban.BeanBase
     /// prefab路径
     /// </summary>
     public readonly string path;
-
-
+   
     public const int __ID__ = 708901284;
     public override int GetTypeId() => __ID__;
 
@@ -54,5 +49,6 @@ public sealed partial class Map_EventPointBottom : Luban.BeanBase
         + "}";
     }
 }
+
 }
 

@@ -8,30 +8,26 @@
 //------------------------------------------------------------------------------
 
 using Luban;
-using Newtonsoft.Json.Linq;
-
 
 
 namespace HotFix.Cfg
 {
-
 public sealed partial class Equip_equip : Luban.BeanBase
 {
-    public Equip_equip(JToken _buf) 
+    public Equip_equip(ByteBuf _buf) 
     {
-        JObject _obj = _buf as JObject;
-        id = (int)_obj.GetValue("id");
-        rank = (int)_obj.GetValue("rank");
-        Type = (int)_obj.GetValue("Type");
-        subType = (int)_obj.GetValue("subType");
-        tagID = (int)_obj.GetValue("tagID");
-        baseAttributes = (string)_obj.GetValue("baseAttributes");
-        composeId = (int)_obj.GetValue("composeId");
-        skinId = (int)_obj.GetValue("skinId");
-        { var __json0 = _obj.GetValue("activePower"); int _n0 = (__json0 as JArray).Count; activePower = new int[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { int __v0;  __v0 = (int)__e0;  activePower[__index0++] = __v0; }   }
+        id = _buf.ReadInt();
+        rank = _buf.ReadInt();
+        Type = _buf.ReadInt();
+        subType = _buf.ReadInt();
+        tagID = _buf.ReadInt();
+        baseAttributes = _buf.ReadString();
+        composeId = _buf.ReadInt();
+        skinId = _buf.ReadInt();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);activePower = new int[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { int __e0;__e0 = _buf.ReadInt(); activePower[__index0] = __e0;}}
     }
 
-    public static Equip_equip DeserializeEquip_equip(JToken _buf)
+    public static Equip_equip DeserializeEquip_equip(ByteBuf _buf)
     {
         return new Equip_equip(_buf);
     }
@@ -72,8 +68,7 @@ public sealed partial class Equip_equip : Luban.BeanBase
     /// 层数2万分比战力<br/>层数3万分比战力<br/>（上阵增加战力）
     /// </summary>
     public readonly int[] activePower;
-
-
+   
     public const int __ID__ = 558626625;
     public override int GetTypeId() => __ID__;
 
@@ -96,5 +91,6 @@ public sealed partial class Equip_equip : Luban.BeanBase
         + "}";
     }
 }
+
 }
 

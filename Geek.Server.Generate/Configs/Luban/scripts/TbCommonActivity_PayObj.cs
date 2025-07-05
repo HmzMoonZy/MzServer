@@ -7,14 +7,11 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-using Newtonsoft.Json.Linq;
 using Luban;
-
 
 
 namespace HotFix.Cfg
 {
-
 /// <summary>
 /// Generated from CommonActivity.xlsx sheet PayObj
 /// </summary>
@@ -23,20 +20,19 @@ public partial class TbCommonActivity_PayObj
     private readonly System.Collections.Generic.Dictionary<int, CommonActivity_PayObj> _dataMap;
     private readonly System.Collections.Generic.List<CommonActivity_PayObj> _dataList;
     
-    public TbCommonActivity_PayObj(JArray _buf)
+    public TbCommonActivity_PayObj(ByteBuf _buf)
     {
         _dataMap = new System.Collections.Generic.Dictionary<int, CommonActivity_PayObj>();
         _dataList = new System.Collections.Generic.List<CommonActivity_PayObj>();
         
-        foreach(JObject _ele in _buf)
+        for(int n = _buf.ReadSize() ; n > 0 ; --n)
         {
             CommonActivity_PayObj _v;
-            _v = global::HotFix.Cfg.CommonActivity_PayObj.DeserializeCommonActivity_PayObj(_ele);
+            _v = global::HotFix.Cfg.CommonActivity_PayObj.DeserializeCommonActivity_PayObj(_buf);
             _dataList.Add(_v);
             _dataMap.Add(_v.id, _v);
-         }
+        }
     }
-
 
     public System.Collections.Generic.Dictionary<int, CommonActivity_PayObj> DataMap => _dataMap;
     public System.Collections.Generic.List<CommonActivity_PayObj> DataList => _dataList;
@@ -54,5 +50,6 @@ public partial class TbCommonActivity_PayObj
     }
 
 }
+
 }
 

@@ -7,14 +7,11 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-using Newtonsoft.Json.Linq;
 using Luban;
-
 
 
 namespace HotFix.Cfg
 {
-
 /// <summary>
 /// Generated from ChristmasBoss.xlsx sheet Battle
 /// </summary>
@@ -23,20 +20,19 @@ public partial class TbChristmasBoss_Battle
     private readonly System.Collections.Generic.Dictionary<int, ChristmasBoss_Battle> _dataMap;
     private readonly System.Collections.Generic.List<ChristmasBoss_Battle> _dataList;
     
-    public TbChristmasBoss_Battle(JArray _buf)
+    public TbChristmasBoss_Battle(ByteBuf _buf)
     {
         _dataMap = new System.Collections.Generic.Dictionary<int, ChristmasBoss_Battle>();
         _dataList = new System.Collections.Generic.List<ChristmasBoss_Battle>();
         
-        foreach(JObject _ele in _buf)
+        for(int n = _buf.ReadSize() ; n > 0 ; --n)
         {
             ChristmasBoss_Battle _v;
-            _v = global::HotFix.Cfg.ChristmasBoss_Battle.DeserializeChristmasBoss_Battle(_ele);
+            _v = global::HotFix.Cfg.ChristmasBoss_Battle.DeserializeChristmasBoss_Battle(_buf);
             _dataList.Add(_v);
             _dataMap.Add(_v.ID, _v);
-         }
+        }
     }
-
 
     public System.Collections.Generic.Dictionary<int, ChristmasBoss_Battle> DataMap => _dataMap;
     public System.Collections.Generic.List<ChristmasBoss_Battle> DataList => _dataList;
@@ -54,5 +50,6 @@ public partial class TbChristmasBoss_Battle
     }
 
 }
+
 }
 

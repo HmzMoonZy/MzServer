@@ -8,25 +8,21 @@
 //------------------------------------------------------------------------------
 
 using Luban;
-using Newtonsoft.Json.Linq;
-
 
 
 namespace HotFix.Cfg
 {
-
 public sealed partial class Guild_guildStyle : Luban.BeanBase
 {
-    public Guild_guildStyle(JToken _buf) 
+    public Guild_guildStyle(ByteBuf _buf) 
     {
-        JObject _obj = _buf as JObject;
-        ID = (int)_obj.GetValue("ID");
-        Style = (int)_obj.GetValue("Style");
-        AtlasID = (int)_obj.GetValue("AtlasID");
-        Icon = (string)_obj.GetValue("Icon");
+        ID = _buf.ReadInt();
+        Style = _buf.ReadInt();
+        AtlasID = _buf.ReadInt();
+        Icon = _buf.ReadString();
     }
 
-    public static Guild_guildStyle DeserializeGuild_guildStyle(JToken _buf)
+    public static Guild_guildStyle DeserializeGuild_guildStyle(ByteBuf _buf)
     {
         return new Guild_guildStyle(_buf);
     }
@@ -47,8 +43,7 @@ public sealed partial class Guild_guildStyle : Luban.BeanBase
     /// 图标
     /// </summary>
     public readonly string Icon;
-
-
+   
     public const int __ID__ = -822482582;
     public override int GetTypeId() => __ID__;
 
@@ -66,5 +61,6 @@ public sealed partial class Guild_guildStyle : Luban.BeanBase
         + "}";
     }
 }
+
 }
 

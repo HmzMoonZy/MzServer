@@ -7,14 +7,11 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-using Newtonsoft.Json.Linq;
 using Luban;
-
 
 
 namespace HotFix.Cfg
 {
-
 /// <summary>
 /// Generated from MythicDungeon.xlsx sheet MythicDungeon
 /// </summary>
@@ -23,20 +20,19 @@ public partial class TbMythicDungeon_MythicDungeon
     private readonly System.Collections.Generic.Dictionary<int, MythicDungeon_MythicDungeon> _dataMap;
     private readonly System.Collections.Generic.List<MythicDungeon_MythicDungeon> _dataList;
     
-    public TbMythicDungeon_MythicDungeon(JArray _buf)
+    public TbMythicDungeon_MythicDungeon(ByteBuf _buf)
     {
         _dataMap = new System.Collections.Generic.Dictionary<int, MythicDungeon_MythicDungeon>();
         _dataList = new System.Collections.Generic.List<MythicDungeon_MythicDungeon>();
         
-        foreach(JObject _ele in _buf)
+        for(int n = _buf.ReadSize() ; n > 0 ; --n)
         {
             MythicDungeon_MythicDungeon _v;
-            _v = global::HotFix.Cfg.MythicDungeon_MythicDungeon.DeserializeMythicDungeon_MythicDungeon(_ele);
+            _v = global::HotFix.Cfg.MythicDungeon_MythicDungeon.DeserializeMythicDungeon_MythicDungeon(_buf);
             _dataList.Add(_v);
             _dataMap.Add(_v.id, _v);
-         }
+        }
     }
-
 
     public System.Collections.Generic.Dictionary<int, MythicDungeon_MythicDungeon> DataMap => _dataMap;
     public System.Collections.Generic.List<MythicDungeon_MythicDungeon> DataList => _dataList;
@@ -54,5 +50,6 @@ public partial class TbMythicDungeon_MythicDungeon
     }
 
 }
+
 }
 

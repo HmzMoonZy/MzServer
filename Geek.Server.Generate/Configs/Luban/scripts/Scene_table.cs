@@ -8,23 +8,19 @@
 //------------------------------------------------------------------------------
 
 using Luban;
-using Newtonsoft.Json.Linq;
-
 
 
 namespace HotFix.Cfg
 {
-
 public sealed partial class Scene_table : Luban.BeanBase
 {
-    public Scene_table(JToken _buf) 
+    public Scene_table(ByteBuf _buf) 
     {
-        JObject _obj = _buf as JObject;
-        id = (int)_obj.GetValue("id");
-        path = (string)_obj.GetValue("path");
+        id = _buf.ReadInt();
+        path = _buf.ReadString();
     }
 
-    public static Scene_table DeserializeScene_table(JToken _buf)
+    public static Scene_table DeserializeScene_table(ByteBuf _buf)
     {
         return new Scene_table(_buf);
     }
@@ -37,8 +33,7 @@ public sealed partial class Scene_table : Luban.BeanBase
     /// 场景名称
     /// </summary>
     public readonly string path;
-
-
+   
     public const int __ID__ = 1741669947;
     public override int GetTypeId() => __ID__;
 
@@ -54,5 +49,6 @@ public sealed partial class Scene_table : Luban.BeanBase
         + "}";
     }
 }
+
 }
 

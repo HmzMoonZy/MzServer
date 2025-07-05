@@ -8,33 +8,29 @@
 //------------------------------------------------------------------------------
 
 using Luban;
-using Newtonsoft.Json.Linq;
-
 
 
 namespace HotFix.Cfg
 {
-
 public sealed partial class TalentApex_talentApexNode : Luban.BeanBase
 {
-    public TalentApex_talentApexNode(JToken _buf) 
+    public TalentApex_talentApexNode(ByteBuf _buf) 
     {
-        JObject _obj = _buf as JObject;
-        id = (int)_obj.GetValue("id");
-        belong = (int)_obj.GetValue("belong");
-        X = (int)_obj.GetValue("X");
-        Y = (int)_obj.GetValue("Y");
-        { var __json0 = _obj.GetValue("BattleType"); int _n0 = (__json0 as JArray).Count; BattleType = new int[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { int __v0;  __v0 = (int)__e0;  BattleType[__index0++] = __v0; }   }
-        { var __json0 = _obj.GetValue("FrontNode"); int _n0 = (__json0 as JArray).Count; FrontNode = new int[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { int __v0;  __v0 = (int)__e0;  FrontNode[__index0++] = __v0; }   }
-        unlcokType = (int)_obj.GetValue("unlcokType");
-        iconAtlas = (int)_obj.GetValue("iconAtlas");
-        nameId = (string)_obj.GetValue("nameId");
-        icon = (string)_obj.GetValue("icon");
-        iconCorner = (string)_obj.GetValue("iconCorner");
-        Style = (int)_obj.GetValue("Style");
+        id = _buf.ReadInt();
+        belong = _buf.ReadInt();
+        X = _buf.ReadInt();
+        Y = _buf.ReadInt();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);BattleType = new int[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { int __e0;__e0 = _buf.ReadInt(); BattleType[__index0] = __e0;}}
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);FrontNode = new int[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { int __e0;__e0 = _buf.ReadInt(); FrontNode[__index0] = __e0;}}
+        unlcokType = _buf.ReadInt();
+        iconAtlas = _buf.ReadInt();
+        nameId = _buf.ReadString();
+        icon = _buf.ReadString();
+        iconCorner = _buf.ReadString();
+        Style = _buf.ReadInt();
     }
 
-    public static TalentApex_talentApexNode DeserializeTalentApex_talentApexNode(JToken _buf)
+    public static TalentApex_talentApexNode DeserializeTalentApex_talentApexNode(ByteBuf _buf)
     {
         return new TalentApex_talentApexNode(_buf);
     }
@@ -87,8 +83,7 @@ public sealed partial class TalentApex_talentApexNode : Luban.BeanBase
     /// 样式关联
     /// </summary>
     public readonly int Style;
-
-
+   
     public const int __ID__ = -822671519;
     public override int GetTypeId() => __ID__;
 
@@ -114,5 +109,6 @@ public sealed partial class TalentApex_talentApexNode : Luban.BeanBase
         + "}";
     }
 }
+
 }
 

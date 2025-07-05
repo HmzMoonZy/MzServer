@@ -8,23 +8,19 @@
 //------------------------------------------------------------------------------
 
 using Luban;
-using Newtonsoft.Json.Linq;
-
 
 
 namespace HotFix.Cfg
 {
-
 public sealed partial class EventDive_DiveSmallGrid : Luban.BeanBase
 {
-    public EventDive_DiveSmallGrid(JToken _buf) 
+    public EventDive_DiveSmallGrid(ByteBuf _buf) 
     {
-        JObject _obj = _buf as JObject;
-        ID = (int)_obj.GetValue("ID");
-        { var __json0 = _obj.GetValue("Grid"); int _n0 = (__json0 as JArray).Count; Grid = new int[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { int __v0;  __v0 = (int)__e0;  Grid[__index0++] = __v0; }   }
+        ID = _buf.ReadInt();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);Grid = new int[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { int __e0;__e0 = _buf.ReadInt(); Grid[__index0] = __e0;}}
     }
 
-    public static EventDive_DiveSmallGrid DeserializeEventDive_DiveSmallGrid(JToken _buf)
+    public static EventDive_DiveSmallGrid DeserializeEventDive_DiveSmallGrid(ByteBuf _buf)
     {
         return new EventDive_DiveSmallGrid(_buf);
     }
@@ -37,8 +33,7 @@ public sealed partial class EventDive_DiveSmallGrid : Luban.BeanBase
     /// 两行格子的配置<br/>默认两行，从左往右从上到下配置<br/>0为空白格，1为气泡格，2为冰块格
     /// </summary>
     public readonly int[] Grid;
-
-
+   
     public const int __ID__ = -665115064;
     public override int GetTypeId() => __ID__;
 
@@ -54,5 +49,6 @@ public sealed partial class EventDive_DiveSmallGrid : Luban.BeanBase
         + "}";
     }
 }
+
 }
 

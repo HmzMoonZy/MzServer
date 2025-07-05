@@ -7,14 +7,11 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-using Newtonsoft.Json.Linq;
 using Luban;
-
 
 
 namespace HotFix.Cfg
 {
-
 /// <summary>
 /// Generated from ArtMember.xlsx sheet equipSpine
 /// </summary>
@@ -23,20 +20,19 @@ public partial class TbArtMember_equipSpine
     private readonly System.Collections.Generic.Dictionary<int, ArtMember_equipSpine> _dataMap;
     private readonly System.Collections.Generic.List<ArtMember_equipSpine> _dataList;
     
-    public TbArtMember_equipSpine(JArray _buf)
+    public TbArtMember_equipSpine(ByteBuf _buf)
     {
         _dataMap = new System.Collections.Generic.Dictionary<int, ArtMember_equipSpine>();
         _dataList = new System.Collections.Generic.List<ArtMember_equipSpine>();
         
-        foreach(JObject _ele in _buf)
+        for(int n = _buf.ReadSize() ; n > 0 ; --n)
         {
             ArtMember_equipSpine _v;
-            _v = global::HotFix.Cfg.ArtMember_equipSpine.DeserializeArtMember_equipSpine(_ele);
+            _v = global::HotFix.Cfg.ArtMember_equipSpine.DeserializeArtMember_equipSpine(_buf);
             _dataList.Add(_v);
             _dataMap.Add(_v.id, _v);
-         }
+        }
     }
-
 
     public System.Collections.Generic.Dictionary<int, ArtMember_equipSpine> DataMap => _dataMap;
     public System.Collections.Generic.List<ArtMember_equipSpine> DataList => _dataList;
@@ -54,5 +50,6 @@ public partial class TbArtMember_equipSpine
     }
 
 }
+
 }
 

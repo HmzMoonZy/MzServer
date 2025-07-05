@@ -7,14 +7,11 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-using Newtonsoft.Json.Linq;
 using Luban;
-
 
 
 namespace HotFix.Cfg
 {
-
 /// <summary>
 /// Generated from Sprite.xlsx sheet Sprite
 /// </summary>
@@ -23,20 +20,19 @@ public partial class TbSprite_Sprite
     private readonly System.Collections.Generic.Dictionary<int, Sprite_Sprite> _dataMap;
     private readonly System.Collections.Generic.List<Sprite_Sprite> _dataList;
     
-    public TbSprite_Sprite(JArray _buf)
+    public TbSprite_Sprite(ByteBuf _buf)
     {
         _dataMap = new System.Collections.Generic.Dictionary<int, Sprite_Sprite>();
         _dataList = new System.Collections.Generic.List<Sprite_Sprite>();
         
-        foreach(JObject _ele in _buf)
+        for(int n = _buf.ReadSize() ; n > 0 ; --n)
         {
             Sprite_Sprite _v;
-            _v = global::HotFix.Cfg.Sprite_Sprite.DeserializeSprite_Sprite(_ele);
+            _v = global::HotFix.Cfg.Sprite_Sprite.DeserializeSprite_Sprite(_buf);
             _dataList.Add(_v);
             _dataMap.Add(_v.id, _v);
-         }
+        }
     }
-
 
     public System.Collections.Generic.Dictionary<int, Sprite_Sprite> DataMap => _dataMap;
     public System.Collections.Generic.List<Sprite_Sprite> DataList => _dataList;
@@ -54,5 +50,6 @@ public partial class TbSprite_Sprite
     }
 
 }
+
 }
 

@@ -8,31 +8,27 @@
 //------------------------------------------------------------------------------
 
 using Luban;
-using Newtonsoft.Json.Linq;
-
 
 
 namespace HotFix.Cfg
 {
-
 public sealed partial class Bingo_BingoReward : Luban.BeanBase
 {
-    public Bingo_BingoReward(JToken _buf) 
+    public Bingo_BingoReward(ByteBuf _buf) 
     {
-        JObject _obj = _buf as JObject;
-        ID = (int)_obj.GetValue("ID");
-        ConnectActivityId = (int)_obj.GetValue("ConnectActivityId");
-        { var __json0 = _obj.GetValue("Reward"); int _n0 = (__json0 as JArray).Count; Reward = new int[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { int __v0;  __v0 = (int)__e0;  Reward[__index0++] = __v0; }   }
-        Weight = (int)_obj.GetValue("Weight");
-        { var __json0 = _obj.GetValue("Counts"); int _n0 = (__json0 as JArray).Count; Counts = new int[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { int __v0;  __v0 = (int)__e0;  Counts[__index0++] = __v0; }   }
-        DropLimit = (int)_obj.GetValue("DropLimit");
-        { var __json0 = _obj.GetValue("Reward2"); int _n0 = (__json0 as JArray).Count; Reward2 = new int[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { int __v0;  __v0 = (int)__e0;  Reward2[__index0++] = __v0; }   }
-        Weight2 = (int)_obj.GetValue("Weight2");
-        { var __json0 = _obj.GetValue("Counts2"); int _n0 = (__json0 as JArray).Count; Counts2 = new int[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { int __v0;  __v0 = (int)__e0;  Counts2[__index0++] = __v0; }   }
-        DropLimit2 = (int)_obj.GetValue("DropLimit2");
+        ID = _buf.ReadInt();
+        ConnectActivityId = _buf.ReadInt();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);Reward = new int[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { int __e0;__e0 = _buf.ReadInt(); Reward[__index0] = __e0;}}
+        Weight = _buf.ReadInt();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);Counts = new int[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { int __e0;__e0 = _buf.ReadInt(); Counts[__index0] = __e0;}}
+        DropLimit = _buf.ReadInt();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);Reward2 = new int[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { int __e0;__e0 = _buf.ReadInt(); Reward2[__index0] = __e0;}}
+        Weight2 = _buf.ReadInt();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);Counts2 = new int[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { int __e0;__e0 = _buf.ReadInt(); Counts2[__index0] = __e0;}}
+        DropLimit2 = _buf.ReadInt();
     }
 
-    public static Bingo_BingoReward DeserializeBingo_BingoReward(JToken _buf)
+    public static Bingo_BingoReward DeserializeBingo_BingoReward(ByteBuf _buf)
     {
         return new Bingo_BingoReward(_buf);
     }
@@ -77,8 +73,7 @@ public sealed partial class Bingo_BingoReward : Luban.BeanBase
     /// 特殊模式保底次数
     /// </summary>
     public readonly int DropLimit2;
-
-
+   
     public const int __ID__ = -1434625042;
     public override int GetTypeId() => __ID__;
 
@@ -102,5 +97,6 @@ public sealed partial class Bingo_BingoReward : Luban.BeanBase
         + "}";
     }
 }
+
 }
 

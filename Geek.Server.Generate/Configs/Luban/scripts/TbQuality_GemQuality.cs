@@ -7,14 +7,11 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-using Newtonsoft.Json.Linq;
 using Luban;
-
 
 
 namespace HotFix.Cfg
 {
-
 /// <summary>
 /// Generated from Quality.xlsx sheet GemQuality
 /// </summary>
@@ -23,20 +20,19 @@ public partial class TbQuality_GemQuality
     private readonly System.Collections.Generic.Dictionary<int, Quality_GemQuality> _dataMap;
     private readonly System.Collections.Generic.List<Quality_GemQuality> _dataList;
     
-    public TbQuality_GemQuality(JArray _buf)
+    public TbQuality_GemQuality(ByteBuf _buf)
     {
         _dataMap = new System.Collections.Generic.Dictionary<int, Quality_GemQuality>();
         _dataList = new System.Collections.Generic.List<Quality_GemQuality>();
         
-        foreach(JObject _ele in _buf)
+        for(int n = _buf.ReadSize() ; n > 0 ; --n)
         {
             Quality_GemQuality _v;
-            _v = global::HotFix.Cfg.Quality_GemQuality.DeserializeQuality_GemQuality(_ele);
+            _v = global::HotFix.Cfg.Quality_GemQuality.DeserializeQuality_GemQuality(_buf);
             _dataList.Add(_v);
             _dataMap.Add(_v.id, _v);
-         }
+        }
     }
-
 
     public System.Collections.Generic.Dictionary<int, Quality_GemQuality> DataMap => _dataMap;
     public System.Collections.Generic.List<Quality_GemQuality> DataList => _dataList;
@@ -54,5 +50,6 @@ public partial class TbQuality_GemQuality
     }
 
 }
+
 }
 

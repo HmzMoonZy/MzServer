@@ -8,31 +8,27 @@
 //------------------------------------------------------------------------------
 
 using Luban;
-using Newtonsoft.Json.Linq;
-
 
 
 namespace HotFix.Cfg
 {
-
 public sealed partial class Pet_pet : Luban.BeanBase
 {
-    public Pet_pet(JToken _buf) 
+    public Pet_pet(ByteBuf _buf) 
     {
-        JObject _obj = _buf as JObject;
-        id = (int)_obj.GetValue("id");
-        memberId = (int)_obj.GetValue("memberId");
-        nameID = (string)_obj.GetValue("nameID");
-        collectionNameID = (string)_obj.GetValue("collectionNameID");
-        quality = (int)_obj.GetValue("quality");
-        battleSkill = (int)_obj.GetValue("battleSkill");
-        toFragment = (string)_obj.GetValue("toFragment");
-        levelEffectID = (int)_obj.GetValue("levelEffectID");
-        itemLevel = (int)_obj.GetValue("itemLevel");
-        { var __json0 = _obj.GetValue("levelGet"); int _n0 = (__json0 as JArray).Count; levelGet = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  levelGet[__index0++] = __v0; }   }
+        id = _buf.ReadInt();
+        memberId = _buf.ReadInt();
+        nameID = _buf.ReadString();
+        collectionNameID = _buf.ReadString();
+        quality = _buf.ReadInt();
+        battleSkill = _buf.ReadInt();
+        toFragment = _buf.ReadString();
+        levelEffectID = _buf.ReadInt();
+        itemLevel = _buf.ReadInt();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);levelGet = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); levelGet[__index0] = __e0;}}
     }
 
-    public static Pet_pet DeserializePet_pet(JToken _buf)
+    public static Pet_pet DeserializePet_pet(ByteBuf _buf)
     {
         return new Pet_pet(_buf);
     }
@@ -77,8 +73,7 @@ public sealed partial class Pet_pet : Luban.BeanBase
     /// 道具id,数量
     /// </summary>
     public readonly string[] levelGet;
-
-
+   
     public const int __ID__ = 987464159;
     public override int GetTypeId() => __ID__;
 
@@ -102,5 +97,6 @@ public sealed partial class Pet_pet : Luban.BeanBase
         + "}";
     }
 }
+
 }
 

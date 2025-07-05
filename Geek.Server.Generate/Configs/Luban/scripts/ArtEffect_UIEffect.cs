@@ -8,24 +8,20 @@
 //------------------------------------------------------------------------------
 
 using Luban;
-using Newtonsoft.Json.Linq;
-
 
 
 namespace HotFix.Cfg
 {
-
 public sealed partial class ArtEffect_UIEffect : Luban.BeanBase
 {
-    public ArtEffect_UIEffect(JToken _buf) 
+    public ArtEffect_UIEffect(ByteBuf _buf) 
     {
-        JObject _obj = _buf as JObject;
-        id = (int)_obj.GetValue("id");
-        path = (string)_obj.GetValue("path");
-        { var __json0 = _obj.GetValue("offsetPos"); int _n0 = (__json0 as JArray).Count; offsetPos = new int[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { int __v0;  __v0 = (int)__e0;  offsetPos[__index0++] = __v0; }   }
+        id = _buf.ReadInt();
+        path = _buf.ReadString();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);offsetPos = new int[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { int __e0;__e0 = _buf.ReadInt(); offsetPos[__index0] = __e0;}}
     }
 
-    public static ArtEffect_UIEffect DeserializeArtEffect_UIEffect(JToken _buf)
+    public static ArtEffect_UIEffect DeserializeArtEffect_UIEffect(ByteBuf _buf)
     {
         return new ArtEffect_UIEffect(_buf);
     }
@@ -42,8 +38,7 @@ public sealed partial class ArtEffect_UIEffect : Luban.BeanBase
     /// 坐标偏移值
     /// </summary>
     public readonly int[] offsetPos;
-
-
+   
     public const int __ID__ = -1398234256;
     public override int GetTypeId() => __ID__;
 
@@ -60,5 +55,6 @@ public sealed partial class ArtEffect_UIEffect : Luban.BeanBase
         + "}";
     }
 }
+
 }
 

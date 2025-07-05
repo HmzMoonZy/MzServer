@@ -7,14 +7,11 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-using Newtonsoft.Json.Linq;
 using Luban;
-
 
 
 namespace HotFix.Cfg
 {
-
 /// <summary>
 /// Generated from GameMember.xlsx sheet gameHover
 /// </summary>
@@ -23,20 +20,19 @@ public partial class TbGameMember_gameHover
     private readonly System.Collections.Generic.Dictionary<int, GameMember_gameHover> _dataMap;
     private readonly System.Collections.Generic.List<GameMember_gameHover> _dataList;
     
-    public TbGameMember_gameHover(JArray _buf)
+    public TbGameMember_gameHover(ByteBuf _buf)
     {
         _dataMap = new System.Collections.Generic.Dictionary<int, GameMember_gameHover>();
         _dataList = new System.Collections.Generic.List<GameMember_gameHover>();
         
-        foreach(JObject _ele in _buf)
+        for(int n = _buf.ReadSize() ; n > 0 ; --n)
         {
             GameMember_gameHover _v;
-            _v = global::HotFix.Cfg.GameMember_gameHover.DeserializeGameMember_gameHover(_ele);
+            _v = global::HotFix.Cfg.GameMember_gameHover.DeserializeGameMember_gameHover(_buf);
             _dataList.Add(_v);
             _dataMap.Add(_v.id, _v);
-         }
+        }
     }
-
 
     public System.Collections.Generic.Dictionary<int, GameMember_gameHover> DataMap => _dataMap;
     public System.Collections.Generic.List<GameMember_gameHover> DataList => _dataList;
@@ -54,5 +50,6 @@ public partial class TbGameMember_gameHover
     }
 
 }
+
 }
 

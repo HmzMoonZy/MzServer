@@ -8,25 +8,21 @@
 //------------------------------------------------------------------------------
 
 using Luban;
-using Newtonsoft.Json.Linq;
-
 
 
 namespace HotFix.Cfg
 {
-
 public sealed partial class Equip_updateLevel : Luban.BeanBase
 {
-    public Equip_updateLevel(JToken _buf) 
+    public Equip_updateLevel(ByteBuf _buf) 
     {
-        JObject _obj = _buf as JObject;
-        id = (int)_obj.GetValue("id");
-        level = (int)_obj.GetValue("level");
-        nextID = (int)_obj.GetValue("nextID");
-        { var __json0 = _obj.GetValue("levelupCost"); int _n0 = (__json0 as JArray).Count; levelupCost = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  levelupCost[__index0++] = __v0; }   }
+        id = _buf.ReadInt();
+        level = _buf.ReadInt();
+        nextID = _buf.ReadInt();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);levelupCost = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); levelupCost[__index0] = __e0;}}
     }
 
-    public static Equip_updateLevel DeserializeEquip_updateLevel(JToken _buf)
+    public static Equip_updateLevel DeserializeEquip_updateLevel(ByteBuf _buf)
     {
         return new Equip_updateLevel(_buf);
     }
@@ -47,8 +43,7 @@ public sealed partial class Equip_updateLevel : Luban.BeanBase
     /// 升至下一级的消耗
     /// </summary>
     public readonly string[] levelupCost;
-
-
+   
     public const int __ID__ = 359253644;
     public override int GetTypeId() => __ID__;
 
@@ -66,5 +61,6 @@ public sealed partial class Equip_updateLevel : Luban.BeanBase
         + "}";
     }
 }
+
 }
 

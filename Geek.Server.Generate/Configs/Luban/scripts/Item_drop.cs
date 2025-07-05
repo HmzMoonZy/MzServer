@@ -8,25 +8,21 @@
 //------------------------------------------------------------------------------
 
 using Luban;
-using Newtonsoft.Json.Linq;
-
 
 
 namespace HotFix.Cfg
 {
-
 public sealed partial class Item_drop : Luban.BeanBase
 {
-    public Item_drop(JToken _buf) 
+    public Item_drop(ByteBuf _buf) 
     {
-        JObject _obj = _buf as JObject;
-        drop_id = (int)_obj.GetValue("drop_id");
-        baseOnLv = (int)_obj.GetValue("baseOnLv");
-        type = (int)_obj.GetValue("type");
-        { var __json0 = _obj.GetValue("reward"); int _n0 = (__json0 as JArray).Count; reward = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  reward[__index0++] = __v0; }   }
+        drop_id = _buf.ReadInt();
+        baseOnLv = _buf.ReadInt();
+        type = _buf.ReadInt();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);reward = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); reward[__index0] = __e0;}}
     }
 
-    public static Item_drop DeserializeItem_drop(JToken _buf)
+    public static Item_drop DeserializeItem_drop(ByteBuf _buf)
     {
         return new Item_drop(_buf);
     }
@@ -47,8 +43,7 @@ public sealed partial class Item_drop : Luban.BeanBase
     /// 奖励内容<br/>物品id1,数量1,权重1|...
     /// </summary>
     public readonly string[] reward;
-
-
+   
     public const int __ID__ = -137658245;
     public override int GetTypeId() => __ID__;
 
@@ -66,5 +61,6 @@ public sealed partial class Item_drop : Luban.BeanBase
         + "}";
     }
 }
+
 }
 

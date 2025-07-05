@@ -8,36 +8,32 @@
 //------------------------------------------------------------------------------
 
 using Luban;
-using Newtonsoft.Json.Linq;
-
 
 
 namespace HotFix.Cfg
 {
-
 public sealed partial class ChristmasBoss_Battle : Luban.BeanBase
 {
-    public ChristmasBoss_Battle(JToken _buf) 
+    public ChristmasBoss_Battle(ByteBuf _buf) 
     {
-        JObject _obj = _buf as JObject;
-        ID = (int)_obj.GetValue("ID");
-        Desc = (string)_obj.GetValue("Desc");
-        actType = (int)_obj.GetValue("actType");
-        nameId = (string)_obj.GetValue("nameId");
-        FreeCnt = (int)_obj.GetValue("FreeCnt");
-        { var __json0 = _obj.GetValue("MissionID"); int _n0 = (__json0 as JArray).Count; MissionID = new int[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { int __v0;  __v0 = (int)__e0;  MissionID[__index0++] = __v0; }   }
-        { var __json0 = _obj.GetValue("OpenTime"); int _n0 = (__json0 as JArray).Count; OpenTime = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  OpenTime[__index0++] = __v0; }   }
-        FinishTime = (string)_obj.GetValue("FinishTime");
-        { var __json0 = _obj.GetValue("OpenTimeCN"); int _n0 = (__json0 as JArray).Count; OpenTimeCN = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  OpenTimeCN[__index0++] = __v0; }   }
-        FinishTimeCN = (string)_obj.GetValue("FinishTimeCN");
-        groupNum = (int)_obj.GetValue("groupNum");
-        ChallengeUIBg = (string)_obj.GetValue("ChallengeUIBg");
-        ChallengeUIEffect = (string)_obj.GetValue("ChallengeUIEffect");
-        Banner = (string)_obj.GetValue("Banner");
-        TitleBg = (string)_obj.GetValue("TitleBg");
+        ID = _buf.ReadInt();
+        Desc = _buf.ReadString();
+        actType = _buf.ReadInt();
+        nameId = _buf.ReadString();
+        FreeCnt = _buf.ReadInt();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);MissionID = new int[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { int __e0;__e0 = _buf.ReadInt(); MissionID[__index0] = __e0;}}
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);OpenTime = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); OpenTime[__index0] = __e0;}}
+        FinishTime = _buf.ReadString();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);OpenTimeCN = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); OpenTimeCN[__index0] = __e0;}}
+        FinishTimeCN = _buf.ReadString();
+        groupNum = _buf.ReadInt();
+        ChallengeUIBg = _buf.ReadString();
+        ChallengeUIEffect = _buf.ReadString();
+        Banner = _buf.ReadString();
+        TitleBg = _buf.ReadString();
     }
 
-    public static ChristmasBoss_Battle DeserializeChristmasBoss_Battle(JToken _buf)
+    public static ChristmasBoss_Battle DeserializeChristmasBoss_Battle(ByteBuf _buf)
     {
         return new ChristmasBoss_Battle(_buf);
     }
@@ -102,8 +98,7 @@ public sealed partial class ChristmasBoss_Battle : Luban.BeanBase
     /// 标题背景
     /// </summary>
     public readonly string TitleBg;
-
-
+   
     public const int __ID__ = -2108007128;
     public override int GetTypeId() => __ID__;
 
@@ -132,5 +127,6 @@ public sealed partial class ChristmasBoss_Battle : Luban.BeanBase
         + "}";
     }
 }
+
 }
 

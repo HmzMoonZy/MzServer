@@ -7,14 +7,11 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-using Newtonsoft.Json.Linq;
 using Luban;
-
 
 
 namespace HotFix.Cfg
 {
-
 /// <summary>
 /// Generated from DailyLevel.xlsx sheet monsterEntry
 /// </summary>
@@ -23,20 +20,19 @@ public partial class TbDailyLevel_monsterEntry
     private readonly System.Collections.Generic.Dictionary<int, DailyLevel_monsterEntry> _dataMap;
     private readonly System.Collections.Generic.List<DailyLevel_monsterEntry> _dataList;
     
-    public TbDailyLevel_monsterEntry(JArray _buf)
+    public TbDailyLevel_monsterEntry(ByteBuf _buf)
     {
         _dataMap = new System.Collections.Generic.Dictionary<int, DailyLevel_monsterEntry>();
         _dataList = new System.Collections.Generic.List<DailyLevel_monsterEntry>();
         
-        foreach(JObject _ele in _buf)
+        for(int n = _buf.ReadSize() ; n > 0 ; --n)
         {
             DailyLevel_monsterEntry _v;
-            _v = global::HotFix.Cfg.DailyLevel_monsterEntry.DeserializeDailyLevel_monsterEntry(_ele);
+            _v = global::HotFix.Cfg.DailyLevel_monsterEntry.DeserializeDailyLevel_monsterEntry(_buf);
             _dataList.Add(_v);
             _dataMap.Add(_v.id, _v);
-         }
+        }
     }
-
 
     public System.Collections.Generic.Dictionary<int, DailyLevel_monsterEntry> DataMap => _dataMap;
     public System.Collections.Generic.List<DailyLevel_monsterEntry> DataList => _dataList;
@@ -54,5 +50,6 @@ public partial class TbDailyLevel_monsterEntry
     }
 
 }
+
 }
 

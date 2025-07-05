@@ -8,46 +8,42 @@
 //------------------------------------------------------------------------------
 
 using Luban;
-using Newtonsoft.Json.Linq;
-
 
 
 namespace HotFix.Cfg
 {
-
 public sealed partial class EventFishing_fishingBase : Luban.BeanBase
 {
-    public EventFishing_fishingBase(JToken _buf) 
+    public EventFishing_fishingBase(ByteBuf _buf) 
     {
-        JObject _obj = _buf as JObject;
-        ID = (int)_obj.GetValue("ID");
-        FishBaitItem = (int)_obj.GetValue("FishBaitItem");
-        FishPointItem = (int)_obj.GetValue("FishPointItem");
-        FishLineItem = (int)_obj.GetValue("FishLineItem");
-        FishKingItem = (int)_obj.GetValue("FishKingItem");
-        PackGroup = (int)_obj.GetValue("PackGroup");
-        FishBaitPrice = (int)_obj.GetValue("FishBaitPrice");
-        LimitTimes = (int)_obj.GetValue("LimitTimes");
-        { var __json0 = _obj.GetValue("BuyLimit"); int _n0 = (__json0 as JArray).Count; BuyLimit = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  BuyLimit[__index0++] = __v0; }   }
-        { var __json0 = _obj.GetValue("FishFailRevive"); int _n0 = (__json0 as JArray).Count; FishFailRevive = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  FishFailRevive[__index0++] = __v0; }   }
-        ReviveStrenth = (int)_obj.GetValue("ReviveStrenth");
-        { var __json0 = _obj.GetValue("FishUp"); int _n0 = (__json0 as JArray).Count; FishUp = new int[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { int __v0;  __v0 = (int)__e0;  FishUp[__index0++] = __v0; }   }
-        { var __json0 = _obj.GetValue("FishUseMulti"); int _n0 = (__json0 as JArray).Count; FishUseMulti = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  FishUseMulti[__index0++] = __v0; }   }
-        DistanceDefault = (int)_obj.GetValue("DistanceDefault");
-        DistanceFail = (int)_obj.GetValue("DistanceFail");
-        Point = (int)_obj.GetValue("Point");
-        DefaultFishBait = (int)_obj.GetValue("DefaultFishBait");
-        { var __json0 = _obj.GetValue("GalleryReward"); int _n0 = (__json0 as JArray).Count; GalleryReward = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  GalleryReward[__index0++] = __v0; }   }
-        { var __json0 = _obj.GetValue("MailItems"); int _n0 = (__json0 as JArray).Count; MailItems = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  MailItems[__index0++] = __v0; }   }
-        MailItemsId = (string)_obj.GetValue("MailItemsId");
-        MailRankId = (string)_obj.GetValue("MailRankId");
-        { var __json0 = _obj.GetValue("ClearTime"); int _n0 = (__json0 as JArray).Count; ClearTime = new int[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { int __v0;  __v0 = (int)__e0;  ClearTime[__index0++] = __v0; }   }
-        ConnectActivityId = (int)_obj.GetValue("ConnectActivityId");
-        RankNum = (int)_obj.GetValue("RankNum");
-        ExchangeGroup = (int)_obj.GetValue("ExchangeGroup");
+        ID = _buf.ReadInt();
+        FishBaitItem = _buf.ReadInt();
+        FishPointItem = _buf.ReadInt();
+        FishLineItem = _buf.ReadInt();
+        FishKingItem = _buf.ReadInt();
+        PackGroup = _buf.ReadInt();
+        FishBaitPrice = _buf.ReadInt();
+        LimitTimes = _buf.ReadInt();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);BuyLimit = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); BuyLimit[__index0] = __e0;}}
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);FishFailRevive = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); FishFailRevive[__index0] = __e0;}}
+        ReviveStrenth = _buf.ReadInt();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);FishUp = new int[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { int __e0;__e0 = _buf.ReadInt(); FishUp[__index0] = __e0;}}
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);FishUseMulti = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); FishUseMulti[__index0] = __e0;}}
+        DistanceDefault = _buf.ReadInt();
+        DistanceFail = _buf.ReadInt();
+        Point = _buf.ReadInt();
+        DefaultFishBait = _buf.ReadInt();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);GalleryReward = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); GalleryReward[__index0] = __e0;}}
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);MailItems = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); MailItems[__index0] = __e0;}}
+        MailItemsId = _buf.ReadString();
+        MailRankId = _buf.ReadString();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);ClearTime = new int[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { int __e0;__e0 = _buf.ReadInt(); ClearTime[__index0] = __e0;}}
+        ConnectActivityId = _buf.ReadInt();
+        RankNum = _buf.ReadInt();
+        ExchangeGroup = _buf.ReadInt();
     }
 
-    public static EventFishing_fishingBase DeserializeEventFishing_fishingBase(JToken _buf)
+    public static EventFishing_fishingBase DeserializeEventFishing_fishingBase(ByteBuf _buf)
     {
         return new EventFishing_fishingBase(_buf);
     }
@@ -152,8 +148,7 @@ public sealed partial class EventFishing_fishingBase : Luban.BeanBase
     /// 兑换组
     /// </summary>
     public readonly int ExchangeGroup;
-
-
+   
     public const int __ID__ = -831850132;
     public override int GetTypeId() => __ID__;
 
@@ -192,5 +187,6 @@ public sealed partial class EventFishing_fishingBase : Luban.BeanBase
         + "}";
     }
 }
+
 }
 

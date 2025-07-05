@@ -8,24 +8,20 @@
 //------------------------------------------------------------------------------
 
 using Luban;
-using Newtonsoft.Json.Linq;
-
 
 
 namespace HotFix.Cfg
 {
-
 public sealed partial class EventDive_DiveInsertGrid : Luban.BeanBase
 {
-    public EventDive_DiveInsertGrid(JToken _buf) 
+    public EventDive_DiveInsertGrid(ByteBuf _buf) 
     {
-        JObject _obj = _buf as JObject;
-        ID = (int)_obj.GetValue("ID");
-        Type = (int)_obj.GetValue("Type");
-        { var __json0 = _obj.GetValue("Grid"); int _n0 = (__json0 as JArray).Count; Grid = new int[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { int __v0;  __v0 = (int)__e0;  Grid[__index0++] = __v0; }   }
+        ID = _buf.ReadInt();
+        Type = _buf.ReadInt();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);Grid = new int[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { int __e0;__e0 = _buf.ReadInt(); Grid[__index0] = __e0;}}
     }
 
-    public static EventDive_DiveInsertGrid DeserializeEventDive_DiveInsertGrid(JToken _buf)
+    public static EventDive_DiveInsertGrid DeserializeEventDive_DiveInsertGrid(ByteBuf _buf)
     {
         return new EventDive_DiveInsertGrid(_buf);
     }
@@ -42,8 +38,7 @@ public sealed partial class EventDive_DiveInsertGrid : Luban.BeanBase
     /// 中插格子的配置（无空白格）<br/>默认一行，从左往右配置<br/>1为气泡格，2为冰块格
     /// </summary>
     public readonly int[] Grid;
-
-
+   
     public const int __ID__ = 614267812;
     public override int GetTypeId() => __ID__;
 
@@ -60,5 +55,6 @@ public sealed partial class EventDive_DiveInsertGrid : Luban.BeanBase
         + "}";
     }
 }
+
 }
 

@@ -7,14 +7,11 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-using Newtonsoft.Json.Linq;
 using Luban;
-
 
 
 namespace HotFix.Cfg
 {
-
 /// <summary>
 /// Generated from IAP.xlsx sheet CommonPack
 /// </summary>
@@ -23,20 +20,19 @@ public partial class TbIAP_CommonPack
     private readonly System.Collections.Generic.Dictionary<int, IAP_CommonPack> _dataMap;
     private readonly System.Collections.Generic.List<IAP_CommonPack> _dataList;
     
-    public TbIAP_CommonPack(JArray _buf)
+    public TbIAP_CommonPack(ByteBuf _buf)
     {
         _dataMap = new System.Collections.Generic.Dictionary<int, IAP_CommonPack>();
         _dataList = new System.Collections.Generic.List<IAP_CommonPack>();
         
-        foreach(JObject _ele in _buf)
+        for(int n = _buf.ReadSize() ; n > 0 ; --n)
         {
             IAP_CommonPack _v;
-            _v = global::HotFix.Cfg.IAP_CommonPack.DeserializeIAP_CommonPack(_ele);
+            _v = global::HotFix.Cfg.IAP_CommonPack.DeserializeIAP_CommonPack(_buf);
             _dataList.Add(_v);
             _dataMap.Add(_v.id, _v);
-         }
+        }
     }
-
 
     public System.Collections.Generic.Dictionary<int, IAP_CommonPack> DataMap => _dataMap;
     public System.Collections.Generic.List<IAP_CommonPack> DataList => _dataList;
@@ -54,5 +50,6 @@ public partial class TbIAP_CommonPack
     }
 
 }
+
 }
 

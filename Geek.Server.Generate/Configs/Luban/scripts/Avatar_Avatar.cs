@@ -8,37 +8,33 @@
 //------------------------------------------------------------------------------
 
 using Luban;
-using Newtonsoft.Json.Linq;
-
 
 
 namespace HotFix.Cfg
 {
-
 public sealed partial class Avatar_Avatar : Luban.BeanBase
 {
-    public Avatar_Avatar(JToken _buf) 
+    public Avatar_Avatar(ByteBuf _buf) 
     {
-        JObject _obj = _buf as JObject;
-        id = (int)_obj.GetValue("id");
-        name = (string)_obj.GetValue("name");
-        avatarType = (int)_obj.GetValue("avatarType");
-        { var __json0 = _obj.GetValue("unlockItemId"); int _n0 = (__json0 as JArray).Count; unlockItemId = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  unlockItemId[__index0++] = __v0; }   }
-        atlasId = (int)_obj.GetValue("atlasId");
-        iconId = (string)_obj.GetValue("iconId");
-        titlebg = (string)_obj.GetValue("titlebg");
-        titleText = (string)_obj.GetValue("titleText");
-        type = (int)_obj.GetValue("type");
-        isHide = (int)_obj.GetValue("isHide");
-        getLanguageId = (string)_obj.GetValue("getLanguageId");
-        timeLimit = (int)_obj.GetValue("timeLimit");
-        { var __json0 = _obj.GetValue("systemLangNone"); int _n0 = (__json0 as JArray).Count; systemLangNone = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  systemLangNone[__index0++] = __v0; }   }
-        { var __json0 = _obj.GetValue("NationOversea"); int _n0 = (__json0 as JArray).Count; NationOversea = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  NationOversea[__index0++] = __v0; }   }
-        { var __json0 = _obj.GetValue("NationCN"); int _n0 = (__json0 as JArray).Count; NationCN = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  NationCN[__index0++] = __v0; }   }
-        { var __json0 = _obj.GetValue("NationCNmini"); int _n0 = (__json0 as JArray).Count; NationCNmini = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  NationCNmini[__index0++] = __v0; }   }
+        id = _buf.ReadInt();
+        name = _buf.ReadString();
+        avatarType = _buf.ReadInt();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);unlockItemId = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); unlockItemId[__index0] = __e0;}}
+        atlasId = _buf.ReadInt();
+        iconId = _buf.ReadString();
+        titlebg = _buf.ReadString();
+        titleText = _buf.ReadString();
+        type = _buf.ReadInt();
+        isHide = _buf.ReadInt();
+        getLanguageId = _buf.ReadString();
+        timeLimit = _buf.ReadInt();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);systemLangNone = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); systemLangNone[__index0] = __e0;}}
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);NationOversea = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); NationOversea[__index0] = __e0;}}
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);NationCN = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); NationCN[__index0] = __e0;}}
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);NationCNmini = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); NationCNmini[__index0] = __e0;}}
     }
 
-    public static Avatar_Avatar DeserializeAvatar_Avatar(JToken _buf)
+    public static Avatar_Avatar DeserializeAvatar_Avatar(ByteBuf _buf)
     {
         return new Avatar_Avatar(_buf);
     }
@@ -107,8 +103,7 @@ public sealed partial class Avatar_Avatar : Luban.BeanBase
     /// 国内小游戏
     /// </summary>
     public readonly string[] NationCNmini;
-
-
+   
     public const int __ID__ = -1101950209;
     public override int GetTypeId() => __ID__;
 
@@ -138,5 +133,6 @@ public sealed partial class Avatar_Avatar : Luban.BeanBase
         + "}";
     }
 }
+
 }
 

@@ -7,14 +7,11 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-using Newtonsoft.Json.Linq;
 using Luban;
-
 
 
 namespace HotFix.Cfg
 {
-
 /// <summary>
 /// Generated from Plinko.xlsx sheet PlinkoSpecialRewardNum
 /// </summary>
@@ -23,20 +20,19 @@ public partial class TbPlinko_PlinkoSpecialRewardNum
     private readonly System.Collections.Generic.Dictionary<int, Plinko_PlinkoSpecialRewardNum> _dataMap;
     private readonly System.Collections.Generic.List<Plinko_PlinkoSpecialRewardNum> _dataList;
     
-    public TbPlinko_PlinkoSpecialRewardNum(JArray _buf)
+    public TbPlinko_PlinkoSpecialRewardNum(ByteBuf _buf)
     {
         _dataMap = new System.Collections.Generic.Dictionary<int, Plinko_PlinkoSpecialRewardNum>();
         _dataList = new System.Collections.Generic.List<Plinko_PlinkoSpecialRewardNum>();
         
-        foreach(JObject _ele in _buf)
+        for(int n = _buf.ReadSize() ; n > 0 ; --n)
         {
             Plinko_PlinkoSpecialRewardNum _v;
-            _v = global::HotFix.Cfg.Plinko_PlinkoSpecialRewardNum.DeserializePlinko_PlinkoSpecialRewardNum(_ele);
+            _v = global::HotFix.Cfg.Plinko_PlinkoSpecialRewardNum.DeserializePlinko_PlinkoSpecialRewardNum(_buf);
             _dataList.Add(_v);
             _dataMap.Add(_v.ID, _v);
-         }
+        }
     }
-
 
     public System.Collections.Generic.Dictionary<int, Plinko_PlinkoSpecialRewardNum> DataMap => _dataMap;
     public System.Collections.Generic.List<Plinko_PlinkoSpecialRewardNum> DataList => _dataList;
@@ -54,5 +50,6 @@ public partial class TbPlinko_PlinkoSpecialRewardNum
     }
 
 }
+
 }
 

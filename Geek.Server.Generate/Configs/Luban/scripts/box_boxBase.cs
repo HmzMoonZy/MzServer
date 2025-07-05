@@ -8,26 +8,22 @@
 //------------------------------------------------------------------------------
 
 using Luban;
-using Newtonsoft.Json.Linq;
-
 
 
 namespace HotFix.Cfg
 {
-
 public sealed partial class box_boxBase : Luban.BeanBase
 {
-    public box_boxBase(JToken _buf) 
+    public box_boxBase(ByteBuf _buf) 
     {
-        JObject _obj = _buf as JObject;
-        id = (int)_obj.GetValue("id");
-        { var __json0 = _obj.GetValue("dropId"); int _n0 = (__json0 as JArray).Count; dropId = new int[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { int __v0;  __v0 = (int)__e0;  dropId[__index0++] = __v0; }   }
-        score = (int)_obj.GetValue("score");
-        name = (int)_obj.GetValue("name");
-        uiObjName = (string)_obj.GetValue("uiObjName");
+        id = _buf.ReadInt();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);dropId = new int[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { int __e0;__e0 = _buf.ReadInt(); dropId[__index0] = __e0;}}
+        score = _buf.ReadInt();
+        name = _buf.ReadInt();
+        uiObjName = _buf.ReadString();
     }
 
-    public static box_boxBase Deserializebox_boxBase(JToken _buf)
+    public static box_boxBase Deserializebox_boxBase(ByteBuf _buf)
     {
         return new box_boxBase(_buf);
     }
@@ -52,8 +48,7 @@ public sealed partial class box_boxBase : Luban.BeanBase
     /// 宝箱动画资源
     /// </summary>
     public readonly string uiObjName;
-
-
+   
     public const int __ID__ = -61913912;
     public override int GetTypeId() => __ID__;
 
@@ -72,5 +67,6 @@ public sealed partial class box_boxBase : Luban.BeanBase
         + "}";
     }
 }
+
 }
 

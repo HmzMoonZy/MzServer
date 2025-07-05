@@ -8,23 +8,19 @@
 //------------------------------------------------------------------------------
 
 using Luban;
-using Newtonsoft.Json.Linq;
-
 
 
 namespace HotFix.Cfg
 {
-
 public sealed partial class GuildBOSS_guildBossAttr : Luban.BeanBase
 {
-    public GuildBOSS_guildBossAttr(JToken _buf) 
+    public GuildBOSS_guildBossAttr(ByteBuf _buf) 
     {
-        JObject _obj = _buf as JObject;
-        id = (int)_obj.GetValue("id");
-        attributes = (string)_obj.GetValue("attributes");
+        id = _buf.ReadInt();
+        attributes = _buf.ReadString();
     }
 
-    public static GuildBOSS_guildBossAttr DeserializeGuildBOSS_guildBossAttr(JToken _buf)
+    public static GuildBOSS_guildBossAttr DeserializeGuildBOSS_guildBossAttr(ByteBuf _buf)
     {
         return new GuildBOSS_guildBossAttr(_buf);
     }
@@ -37,8 +33,7 @@ public sealed partial class GuildBOSS_guildBossAttr : Luban.BeanBase
     /// 基础属性
     /// </summary>
     public readonly string attributes;
-
-
+   
     public const int __ID__ = -114022446;
     public override int GetTypeId() => __ID__;
 
@@ -54,5 +49,6 @@ public sealed partial class GuildBOSS_guildBossAttr : Luban.BeanBase
         + "}";
     }
 }
+
 }
 

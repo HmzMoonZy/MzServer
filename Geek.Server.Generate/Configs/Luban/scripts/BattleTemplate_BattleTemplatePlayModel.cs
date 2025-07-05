@@ -8,23 +8,19 @@
 //------------------------------------------------------------------------------
 
 using Luban;
-using Newtonsoft.Json.Linq;
-
 
 
 namespace HotFix.Cfg
 {
-
 public sealed partial class BattleTemplate_BattleTemplatePlayModel : Luban.BeanBase
 {
-    public BattleTemplate_BattleTemplatePlayModel(JToken _buf) 
+    public BattleTemplate_BattleTemplatePlayModel(ByteBuf _buf) 
     {
-        JObject _obj = _buf as JObject;
-        id = (int)_obj.GetValue("id");
-        playModelType = (int)_obj.GetValue("playModelType");
+        id = _buf.ReadInt();
+        playModelType = _buf.ReadInt();
     }
 
-    public static BattleTemplate_BattleTemplatePlayModel DeserializeBattleTemplate_BattleTemplatePlayModel(JToken _buf)
+    public static BattleTemplate_BattleTemplatePlayModel DeserializeBattleTemplate_BattleTemplatePlayModel(ByteBuf _buf)
     {
         return new BattleTemplate_BattleTemplatePlayModel(_buf);
     }
@@ -37,8 +33,7 @@ public sealed partial class BattleTemplate_BattleTemplatePlayModel : Luban.BeanB
     /// 方案类型id<br/>1：主方案<br/>2：自定义方案<br/>3.挑战<br/>4.boss<br/>5.PVP
     /// </summary>
     public readonly int playModelType;
-
-
+   
     public const int __ID__ = 1718406966;
     public override int GetTypeId() => __ID__;
 
@@ -54,5 +49,6 @@ public sealed partial class BattleTemplate_BattleTemplatePlayModel : Luban.BeanB
         + "}";
     }
 }
+
 }
 

@@ -7,14 +7,11 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-using Newtonsoft.Json.Linq;
 using Luban;
-
 
 
 namespace HotFix.Cfg
 {
-
 /// <summary>
 /// Generated from ServerList.xlsx sheet serverGropMini
 /// </summary>
@@ -23,20 +20,19 @@ public partial class TbServerList_serverGropMini
     private readonly System.Collections.Generic.Dictionary<int, ServerList_serverGropMini> _dataMap;
     private readonly System.Collections.Generic.List<ServerList_serverGropMini> _dataList;
     
-    public TbServerList_serverGropMini(JArray _buf)
+    public TbServerList_serverGropMini(ByteBuf _buf)
     {
         _dataMap = new System.Collections.Generic.Dictionary<int, ServerList_serverGropMini>();
         _dataList = new System.Collections.Generic.List<ServerList_serverGropMini>();
         
-        foreach(JObject _ele in _buf)
+        for(int n = _buf.ReadSize() ; n > 0 ; --n)
         {
             ServerList_serverGropMini _v;
-            _v = global::HotFix.Cfg.ServerList_serverGropMini.DeserializeServerList_serverGropMini(_ele);
+            _v = global::HotFix.Cfg.ServerList_serverGropMini.DeserializeServerList_serverGropMini(_buf);
             _dataList.Add(_v);
             _dataMap.Add(_v.id, _v);
-         }
+        }
     }
-
 
     public System.Collections.Generic.Dictionary<int, ServerList_serverGropMini> DataMap => _dataMap;
     public System.Collections.Generic.List<ServerList_serverGropMini> DataList => _dataList;
@@ -54,5 +50,6 @@ public partial class TbServerList_serverGropMini
     }
 
 }
+
 }
 

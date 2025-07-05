@@ -8,25 +8,21 @@
 //------------------------------------------------------------------------------
 
 using Luban;
-using Newtonsoft.Json.Linq;
-
 
 
 namespace HotFix.Cfg
 {
-
 public sealed partial class GameMember_gameHover : Luban.BeanBase
 {
-    public GameMember_gameHover(JToken _buf) 
+    public GameMember_gameHover(ByteBuf _buf) 
     {
-        JObject _obj = _buf as JObject;
-        id = (int)_obj.GetValue("id");
-        bodyPosID = (int)_obj.GetValue("bodyPosID");
-        prefabID = (int)_obj.GetValue("prefabID");
-        isDeathClose = (int)_obj.GetValue("isDeathClose");
+        id = _buf.ReadInt();
+        bodyPosID = _buf.ReadInt();
+        prefabID = _buf.ReadInt();
+        isDeathClose = _buf.ReadInt();
     }
 
-    public static GameMember_gameHover DeserializeGameMember_gameHover(JToken _buf)
+    public static GameMember_gameHover DeserializeGameMember_gameHover(ByteBuf _buf)
     {
         return new GameMember_gameHover(_buf);
     }
@@ -47,8 +43,7 @@ public sealed partial class GameMember_gameHover : Luban.BeanBase
     /// 死亡时是否关闭
     /// </summary>
     public readonly int isDeathClose;
-
-
+   
     public const int __ID__ = -1355783881;
     public override int GetTypeId() => __ID__;
 
@@ -66,5 +61,6 @@ public sealed partial class GameMember_gameHover : Luban.BeanBase
         + "}";
     }
 }
+
 }
 

@@ -7,14 +7,11 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-using Newtonsoft.Json.Linq;
 using Luban;
-
 
 
 namespace HotFix.Cfg
 {
-
 /// <summary>
 /// Generated from MonsterCfg.xlsx sheet monsterCfg
 /// </summary>
@@ -23,20 +20,19 @@ public partial class TbMonsterCfg_monsterCfg
     private readonly System.Collections.Generic.Dictionary<int, MonsterCfg_monsterCfg> _dataMap;
     private readonly System.Collections.Generic.List<MonsterCfg_monsterCfg> _dataList;
     
-    public TbMonsterCfg_monsterCfg(JArray _buf)
+    public TbMonsterCfg_monsterCfg(ByteBuf _buf)
     {
         _dataMap = new System.Collections.Generic.Dictionary<int, MonsterCfg_monsterCfg>();
         _dataList = new System.Collections.Generic.List<MonsterCfg_monsterCfg>();
         
-        foreach(JObject _ele in _buf)
+        for(int n = _buf.ReadSize() ; n > 0 ; --n)
         {
             MonsterCfg_monsterCfg _v;
-            _v = global::HotFix.Cfg.MonsterCfg_monsterCfg.DeserializeMonsterCfg_monsterCfg(_ele);
+            _v = global::HotFix.Cfg.MonsterCfg_monsterCfg.DeserializeMonsterCfg_monsterCfg(_buf);
             _dataList.Add(_v);
             _dataMap.Add(_v.id, _v);
-         }
+        }
     }
-
 
     public System.Collections.Generic.Dictionary<int, MonsterCfg_monsterCfg> DataMap => _dataMap;
     public System.Collections.Generic.List<MonsterCfg_monsterCfg> DataList => _dataList;
@@ -54,5 +50,6 @@ public partial class TbMonsterCfg_monsterCfg
     }
 
 }
+
 }
 

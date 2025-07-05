@@ -7,14 +7,11 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-using Newtonsoft.Json.Linq;
 using Luban;
-
 
 
 namespace HotFix.Cfg
 {
-
 /// <summary>
 /// Generated from ChapterMiniGame.xlsx sheet slotTrainBuild
 /// </summary>
@@ -23,20 +20,19 @@ public partial class TbChapterMiniGame_slotTrainBuild
     private readonly System.Collections.Generic.Dictionary<int, ChapterMiniGame_slotTrainBuild> _dataMap;
     private readonly System.Collections.Generic.List<ChapterMiniGame_slotTrainBuild> _dataList;
     
-    public TbChapterMiniGame_slotTrainBuild(JArray _buf)
+    public TbChapterMiniGame_slotTrainBuild(ByteBuf _buf)
     {
         _dataMap = new System.Collections.Generic.Dictionary<int, ChapterMiniGame_slotTrainBuild>();
         _dataList = new System.Collections.Generic.List<ChapterMiniGame_slotTrainBuild>();
         
-        foreach(JObject _ele in _buf)
+        for(int n = _buf.ReadSize() ; n > 0 ; --n)
         {
             ChapterMiniGame_slotTrainBuild _v;
-            _v = global::HotFix.Cfg.ChapterMiniGame_slotTrainBuild.DeserializeChapterMiniGame_slotTrainBuild(_ele);
+            _v = global::HotFix.Cfg.ChapterMiniGame_slotTrainBuild.DeserializeChapterMiniGame_slotTrainBuild(_buf);
             _dataList.Add(_v);
             _dataMap.Add(_v.id, _v);
-         }
+        }
     }
-
 
     public System.Collections.Generic.Dictionary<int, ChapterMiniGame_slotTrainBuild> DataMap => _dataMap;
     public System.Collections.Generic.List<ChapterMiniGame_slotTrainBuild> DataList => _dataList;
@@ -54,5 +50,6 @@ public partial class TbChapterMiniGame_slotTrainBuild
     }
 
 }
+
 }
 

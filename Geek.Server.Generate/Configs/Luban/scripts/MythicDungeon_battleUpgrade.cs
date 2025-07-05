@@ -8,23 +8,19 @@
 //------------------------------------------------------------------------------
 
 using Luban;
-using Newtonsoft.Json.Linq;
-
 
 
 namespace HotFix.Cfg
 {
-
 public sealed partial class MythicDungeon_battleUpgrade : Luban.BeanBase
 {
-    public MythicDungeon_battleUpgrade(JToken _buf) 
+    public MythicDungeon_battleUpgrade(ByteBuf _buf) 
     {
-        JObject _obj = _buf as JObject;
-        id = (int)_obj.GetValue("id");
-        attr = (string)_obj.GetValue("attr");
+        id = _buf.ReadInt();
+        attr = _buf.ReadString();
     }
 
-    public static MythicDungeon_battleUpgrade DeserializeMythicDungeon_battleUpgrade(JToken _buf)
+    public static MythicDungeon_battleUpgrade DeserializeMythicDungeon_battleUpgrade(ByteBuf _buf)
     {
         return new MythicDungeon_battleUpgrade(_buf);
     }
@@ -37,8 +33,7 @@ public sealed partial class MythicDungeon_battleUpgrade : Luban.BeanBase
     /// 属性
     /// </summary>
     public readonly string attr;
-
-
+   
     public const int __ID__ = -779166907;
     public override int GetTypeId() => __ID__;
 
@@ -54,5 +49,6 @@ public sealed partial class MythicDungeon_battleUpgrade : Luban.BeanBase
         + "}";
     }
 }
+
 }
 

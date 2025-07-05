@@ -8,25 +8,21 @@
 //------------------------------------------------------------------------------
 
 using Luban;
-using Newtonsoft.Json.Linq;
-
 
 
 namespace HotFix.Cfg
 {
-
 public sealed partial class Guild_guildLanguage : Luban.BeanBase
 {
-    public Guild_guildLanguage(JToken _buf) 
+    public Guild_guildLanguage(ByteBuf _buf) 
     {
-        JObject _obj = _buf as JObject;
-        ID = (int)_obj.GetValue("ID");
-        Notes = (string)_obj.GetValue("Notes");
-        Code = (string)_obj.GetValue("Code");
-        TranslateCode = (string)_obj.GetValue("TranslateCode");
+        ID = _buf.ReadInt();
+        Notes = _buf.ReadString();
+        Code = _buf.ReadString();
+        TranslateCode = _buf.ReadString();
     }
 
-    public static Guild_guildLanguage DeserializeGuild_guildLanguage(JToken _buf)
+    public static Guild_guildLanguage DeserializeGuild_guildLanguage(ByteBuf _buf)
     {
         return new Guild_guildLanguage(_buf);
     }
@@ -47,8 +43,7 @@ public sealed partial class Guild_guildLanguage : Luban.BeanBase
     /// 翻译的语言代码
     /// </summary>
     public readonly string TranslateCode;
-
-
+   
     public const int __ID__ = 893387007;
     public override int GetTypeId() => __ID__;
 
@@ -66,5 +61,6 @@ public sealed partial class Guild_guildLanguage : Luban.BeanBase
         + "}";
     }
 }
+
 }
 

@@ -8,35 +8,31 @@
 //------------------------------------------------------------------------------
 
 using Luban;
-using Newtonsoft.Json.Linq;
-
 
 
 namespace HotFix.Cfg
 {
-
 public sealed partial class SevenDay_SevenDayBase : Luban.BeanBase
 {
-    public SevenDay_SevenDayBase(JToken _buf) 
+    public SevenDay_SevenDayBase(ByteBuf _buf) 
     {
-        JObject _obj = _buf as JObject;
-        id = (int)_obj.GetValue("id");
-        title = (string)_obj.GetValue("title");
-        titleDoor = (string)_obj.GetValue("titleDoor");
-        bannerName = (string)_obj.GetValue("bannerName");
-        openTime = (int)_obj.GetValue("openTime");
-        endTime = (int)_obj.GetValue("endTime");
-        OpenDateTime = (string)_obj.GetValue("OpenDateTime");
-        EndDateTime = (string)_obj.GetValue("EndDateTime");
-        dateTimeLimit = (int)_obj.GetValue("dateTimeLimit");
-        groupId = (int)_obj.GetValue("groupId");
-        taskId = (int)_obj.GetValue("taskId");
-        PayGroupId = (int)_obj.GetValue("PayGroupId");
-        ProdMailTempId = (string)_obj.GetValue("ProdMailTempId");
-        TestMailTempId = (string)_obj.GetValue("TestMailTempId");
+        id = _buf.ReadInt();
+        title = _buf.ReadString();
+        titleDoor = _buf.ReadString();
+        bannerName = _buf.ReadString();
+        openTime = _buf.ReadInt();
+        endTime = _buf.ReadInt();
+        OpenDateTime = _buf.ReadString();
+        EndDateTime = _buf.ReadString();
+        dateTimeLimit = _buf.ReadInt();
+        groupId = _buf.ReadInt();
+        taskId = _buf.ReadInt();
+        PayGroupId = _buf.ReadInt();
+        ProdMailTempId = _buf.ReadString();
+        TestMailTempId = _buf.ReadString();
     }
 
-    public static SevenDay_SevenDayBase DeserializeSevenDay_SevenDayBase(JToken _buf)
+    public static SevenDay_SevenDayBase DeserializeSevenDay_SevenDayBase(ByteBuf _buf)
     {
         return new SevenDay_SevenDayBase(_buf);
     }
@@ -97,8 +93,7 @@ public sealed partial class SevenDay_SevenDayBase : Luban.BeanBase
     /// 测试服奖励邮件<br/>进度奖励补发
     /// </summary>
     public readonly string TestMailTempId;
-
-
+   
     public const int __ID__ = 1757446576;
     public override int GetTypeId() => __ID__;
 
@@ -126,5 +121,6 @@ public sealed partial class SevenDay_SevenDayBase : Luban.BeanBase
         + "}";
     }
 }
+
 }
 

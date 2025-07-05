@@ -7,14 +7,11 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-using Newtonsoft.Json.Linq;
 using Luban;
-
 
 
 namespace HotFix.Cfg
 {
-
 /// <summary>
 /// Generated from ActivityTurntable.xlsx sheet TurntableQuest
 /// </summary>
@@ -23,20 +20,19 @@ public partial class TbActivityTurntable_TurntableQuest
     private readonly System.Collections.Generic.Dictionary<int, ActivityTurntable_TurntableQuest> _dataMap;
     private readonly System.Collections.Generic.List<ActivityTurntable_TurntableQuest> _dataList;
     
-    public TbActivityTurntable_TurntableQuest(JArray _buf)
+    public TbActivityTurntable_TurntableQuest(ByteBuf _buf)
     {
         _dataMap = new System.Collections.Generic.Dictionary<int, ActivityTurntable_TurntableQuest>();
         _dataList = new System.Collections.Generic.List<ActivityTurntable_TurntableQuest>();
         
-        foreach(JObject _ele in _buf)
+        for(int n = _buf.ReadSize() ; n > 0 ; --n)
         {
             ActivityTurntable_TurntableQuest _v;
-            _v = global::HotFix.Cfg.ActivityTurntable_TurntableQuest.DeserializeActivityTurntable_TurntableQuest(_ele);
+            _v = global::HotFix.Cfg.ActivityTurntable_TurntableQuest.DeserializeActivityTurntable_TurntableQuest(_buf);
             _dataList.Add(_v);
             _dataMap.Add(_v.ID, _v);
-         }
+        }
     }
-
 
     public System.Collections.Generic.Dictionary<int, ActivityTurntable_TurntableQuest> DataMap => _dataMap;
     public System.Collections.Generic.List<ActivityTurntable_TurntableQuest> DataList => _dataList;
@@ -54,5 +50,6 @@ public partial class TbActivityTurntable_TurntableQuest
     }
 
 }
+
 }
 

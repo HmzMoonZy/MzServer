@@ -7,14 +7,11 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-using Newtonsoft.Json.Linq;
 using Luban;
-
 
 
 namespace HotFix.Cfg
 {
-
 /// <summary>
 /// Generated from Gem.xlsx sheet GemEffect
 /// </summary>
@@ -23,20 +20,19 @@ public partial class TbGem_GemEffect
     private readonly System.Collections.Generic.Dictionary<int, Gem_GemEffect> _dataMap;
     private readonly System.Collections.Generic.List<Gem_GemEffect> _dataList;
     
-    public TbGem_GemEffect(JArray _buf)
+    public TbGem_GemEffect(ByteBuf _buf)
     {
         _dataMap = new System.Collections.Generic.Dictionary<int, Gem_GemEffect>();
         _dataList = new System.Collections.Generic.List<Gem_GemEffect>();
         
-        foreach(JObject _ele in _buf)
+        for(int n = _buf.ReadSize() ; n > 0 ; --n)
         {
             Gem_GemEffect _v;
-            _v = global::HotFix.Cfg.Gem_GemEffect.DeserializeGem_GemEffect(_ele);
+            _v = global::HotFix.Cfg.Gem_GemEffect.DeserializeGem_GemEffect(_buf);
             _dataList.Add(_v);
             _dataMap.Add(_v.id, _v);
-         }
+        }
     }
-
 
     public System.Collections.Generic.Dictionary<int, Gem_GemEffect> DataMap => _dataMap;
     public System.Collections.Generic.List<Gem_GemEffect> DataList => _dataList;
@@ -54,5 +50,6 @@ public partial class TbGem_GemEffect
     }
 
 }
+
 }
 

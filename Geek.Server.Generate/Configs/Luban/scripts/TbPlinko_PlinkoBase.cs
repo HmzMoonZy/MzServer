@@ -7,14 +7,11 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-using Newtonsoft.Json.Linq;
 using Luban;
-
 
 
 namespace HotFix.Cfg
 {
-
 /// <summary>
 /// Generated from Plinko.xlsx sheet PlinkoBase
 /// </summary>
@@ -23,20 +20,19 @@ public partial class TbPlinko_PlinkoBase
     private readonly System.Collections.Generic.Dictionary<int, Plinko_PlinkoBase> _dataMap;
     private readonly System.Collections.Generic.List<Plinko_PlinkoBase> _dataList;
     
-    public TbPlinko_PlinkoBase(JArray _buf)
+    public TbPlinko_PlinkoBase(ByteBuf _buf)
     {
         _dataMap = new System.Collections.Generic.Dictionary<int, Plinko_PlinkoBase>();
         _dataList = new System.Collections.Generic.List<Plinko_PlinkoBase>();
         
-        foreach(JObject _ele in _buf)
+        for(int n = _buf.ReadSize() ; n > 0 ; --n)
         {
             Plinko_PlinkoBase _v;
-            _v = global::HotFix.Cfg.Plinko_PlinkoBase.DeserializePlinko_PlinkoBase(_ele);
+            _v = global::HotFix.Cfg.Plinko_PlinkoBase.DeserializePlinko_PlinkoBase(_buf);
             _dataList.Add(_v);
             _dataMap.Add(_v.ID, _v);
-         }
+        }
     }
-
 
     public System.Collections.Generic.Dictionary<int, Plinko_PlinkoBase> DataMap => _dataMap;
     public System.Collections.Generic.List<Plinko_PlinkoBase> DataList => _dataList;
@@ -54,5 +50,6 @@ public partial class TbPlinko_PlinkoBase
     }
 
 }
+
 }
 

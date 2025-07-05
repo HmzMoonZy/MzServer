@@ -8,30 +8,26 @@
 //------------------------------------------------------------------------------
 
 using Luban;
-using Newtonsoft.Json.Linq;
-
 
 
 namespace HotFix.Cfg
 {
-
 public sealed partial class Shop_Shop : Luban.BeanBase
 {
-    public Shop_Shop(JToken _buf) 
+    public Shop_Shop(ByteBuf _buf) 
     {
-        JObject _obj = _buf as JObject;
-        id = (int)_obj.GetValue("id");
-        shopType = (int)_obj.GetValue("shopType");
-        { var __json0 = _obj.GetValue("cost"); int _n0 = (__json0 as JArray).Count; cost = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  cost[__index0++] = __v0; }   }
-        adId = (int)_obj.GetValue("adId");
-        { var __json0 = _obj.GetValue("products"); int _n0 = (__json0 as JArray).Count; products = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  products[__index0++] = __v0; }   }
-        nameId = (string)_obj.GetValue("nameId");
-        descId = (string)_obj.GetValue("descId");
-        iconAtlasId = (int)_obj.GetValue("iconAtlasId");
-        iconName = (string)_obj.GetValue("iconName");
+        id = _buf.ReadInt();
+        shopType = _buf.ReadInt();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);cost = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); cost[__index0] = __e0;}}
+        adId = _buf.ReadInt();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);products = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); products[__index0] = __e0;}}
+        nameId = _buf.ReadString();
+        descId = _buf.ReadString();
+        iconAtlasId = _buf.ReadInt();
+        iconName = _buf.ReadString();
     }
 
-    public static Shop_Shop DeserializeShop_Shop(JToken _buf)
+    public static Shop_Shop DeserializeShop_Shop(ByteBuf _buf)
     {
         return new Shop_Shop(_buf);
     }
@@ -72,8 +68,7 @@ public sealed partial class Shop_Shop : Luban.BeanBase
     /// icon
     /// </summary>
     public readonly string iconName;
-
-
+   
     public const int __ID__ = -100747617;
     public override int GetTypeId() => __ID__;
 
@@ -96,5 +91,6 @@ public sealed partial class Shop_Shop : Luban.BeanBase
         + "}";
     }
 }
+
 }
 

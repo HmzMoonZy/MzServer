@@ -8,24 +8,20 @@
 //------------------------------------------------------------------------------
 
 using Luban;
-using Newtonsoft.Json.Linq;
-
 
 
 namespace HotFix.Cfg
 {
-
 public sealed partial class EventFishing_fishArea : Luban.BeanBase
 {
-    public EventFishing_fishArea(JToken _buf) 
+    public EventFishing_fishArea(ByteBuf _buf) 
     {
-        JObject _obj = _buf as JObject;
-        id = (int)_obj.GetValue("id");
-        nameId = (string)_obj.GetValue("nameId");
-        path = (string)_obj.GetValue("path");
+        id = _buf.ReadInt();
+        nameId = _buf.ReadString();
+        path = _buf.ReadString();
     }
 
-    public static EventFishing_fishArea DeserializeEventFishing_fishArea(JToken _buf)
+    public static EventFishing_fishArea DeserializeEventFishing_fishArea(ByteBuf _buf)
     {
         return new EventFishing_fishArea(_buf);
     }
@@ -42,8 +38,7 @@ public sealed partial class EventFishing_fishArea : Luban.BeanBase
     /// 地图资源
     /// </summary>
     public readonly string path;
-
-
+   
     public const int __ID__ = -2017432652;
     public override int GetTypeId() => __ID__;
 
@@ -60,5 +55,6 @@ public sealed partial class EventFishing_fishArea : Luban.BeanBase
         + "}";
     }
 }
+
 }
 

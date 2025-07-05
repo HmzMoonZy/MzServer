@@ -7,14 +7,11 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-using Newtonsoft.Json.Linq;
 using Luban;
-
 
 
 namespace HotFix.Cfg
 {
-
 /// <summary>
 /// Generated from ChristmasFashion.xlsx sheet Fashion
 /// </summary>
@@ -23,20 +20,19 @@ public partial class TbChristmasFashion_Fashion
     private readonly System.Collections.Generic.Dictionary<int, ChristmasFashion_Fashion> _dataMap;
     private readonly System.Collections.Generic.List<ChristmasFashion_Fashion> _dataList;
     
-    public TbChristmasFashion_Fashion(JArray _buf)
+    public TbChristmasFashion_Fashion(ByteBuf _buf)
     {
         _dataMap = new System.Collections.Generic.Dictionary<int, ChristmasFashion_Fashion>();
         _dataList = new System.Collections.Generic.List<ChristmasFashion_Fashion>();
         
-        foreach(JObject _ele in _buf)
+        for(int n = _buf.ReadSize() ; n > 0 ; --n)
         {
             ChristmasFashion_Fashion _v;
-            _v = global::HotFix.Cfg.ChristmasFashion_Fashion.DeserializeChristmasFashion_Fashion(_ele);
+            _v = global::HotFix.Cfg.ChristmasFashion_Fashion.DeserializeChristmasFashion_Fashion(_buf);
             _dataList.Add(_v);
             _dataMap.Add(_v.id, _v);
-         }
+        }
     }
-
 
     public System.Collections.Generic.Dictionary<int, ChristmasFashion_Fashion> DataMap => _dataMap;
     public System.Collections.Generic.List<ChristmasFashion_Fashion> DataList => _dataList;
@@ -54,5 +50,6 @@ public partial class TbChristmasFashion_Fashion
     }
 
 }
+
 }
 

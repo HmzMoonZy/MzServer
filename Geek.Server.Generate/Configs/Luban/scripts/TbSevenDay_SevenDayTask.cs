@@ -7,14 +7,11 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-using Newtonsoft.Json.Linq;
 using Luban;
-
 
 
 namespace HotFix.Cfg
 {
-
 /// <summary>
 /// Generated from SevenDay.xlsx sheet SevenDayTask
 /// </summary>
@@ -23,20 +20,19 @@ public partial class TbSevenDay_SevenDayTask
     private readonly System.Collections.Generic.Dictionary<int, SevenDay_SevenDayTask> _dataMap;
     private readonly System.Collections.Generic.List<SevenDay_SevenDayTask> _dataList;
     
-    public TbSevenDay_SevenDayTask(JArray _buf)
+    public TbSevenDay_SevenDayTask(ByteBuf _buf)
     {
         _dataMap = new System.Collections.Generic.Dictionary<int, SevenDay_SevenDayTask>();
         _dataList = new System.Collections.Generic.List<SevenDay_SevenDayTask>();
         
-        foreach(JObject _ele in _buf)
+        for(int n = _buf.ReadSize() ; n > 0 ; --n)
         {
             SevenDay_SevenDayTask _v;
-            _v = global::HotFix.Cfg.SevenDay_SevenDayTask.DeserializeSevenDay_SevenDayTask(_ele);
+            _v = global::HotFix.Cfg.SevenDay_SevenDayTask.DeserializeSevenDay_SevenDayTask(_buf);
             _dataList.Add(_v);
             _dataMap.Add(_v.ID, _v);
-         }
+        }
     }
-
 
     public System.Collections.Generic.Dictionary<int, SevenDay_SevenDayTask> DataMap => _dataMap;
     public System.Collections.Generic.List<SevenDay_SevenDayTask> DataList => _dataList;
@@ -54,5 +50,6 @@ public partial class TbSevenDay_SevenDayTask
     }
 
 }
+
 }
 

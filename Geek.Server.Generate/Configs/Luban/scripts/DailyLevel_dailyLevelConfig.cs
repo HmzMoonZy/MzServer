@@ -8,33 +8,29 @@
 //------------------------------------------------------------------------------
 
 using Luban;
-using Newtonsoft.Json.Linq;
-
 
 
 namespace HotFix.Cfg
 {
-
 public sealed partial class DailyLevel_dailyLevelConfig : Luban.BeanBase
 {
-    public DailyLevel_dailyLevelConfig(JToken _buf) 
+    public DailyLevel_dailyLevelConfig(ByteBuf _buf) 
     {
-        JObject _obj = _buf as JObject;
-        id = (int)_obj.GetValue("id");
-        randGroup = (int)_obj.GetValue("randGroup");
-        turntableID = (int)_obj.GetValue("turntableID");
-        difficultyType = (int)_obj.GetValue("difficultyType");
-        difficultyPara = (int)_obj.GetValue("difficultyPara");
-        { var __json0 = _obj.GetValue("rewardStage"); int _n0 = (__json0 as JArray).Count; rewardStage = new int[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { int __v0;  __v0 = (int)__e0;  rewardStage[__index0++] = __v0; }   }
-        { var __json0 = _obj.GetValue("dropID"); int _n0 = (__json0 as JArray).Count; dropID = new int[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { int __v0;  __v0 = (int)__e0;  dropID[__index0++] = __v0; }   }
-        attributes = (string)_obj.GetValue("attributes");
-        normalBattleAttr = (string)_obj.GetValue("normalBattleAttr");
-        eliteBattleAttr = (string)_obj.GetValue("eliteBattleAttr");
-        bossBattleAttr = (string)_obj.GetValue("bossBattleAttr");
-        speedAdd = (int)_obj.GetValue("speedAdd");
+        id = _buf.ReadInt();
+        randGroup = _buf.ReadInt();
+        turntableID = _buf.ReadInt();
+        difficultyType = _buf.ReadInt();
+        difficultyPara = _buf.ReadInt();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);rewardStage = new int[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { int __e0;__e0 = _buf.ReadInt(); rewardStage[__index0] = __e0;}}
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);dropID = new int[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { int __e0;__e0 = _buf.ReadInt(); dropID[__index0] = __e0;}}
+        attributes = _buf.ReadString();
+        normalBattleAttr = _buf.ReadString();
+        eliteBattleAttr = _buf.ReadString();
+        bossBattleAttr = _buf.ReadString();
+        speedAdd = _buf.ReadInt();
     }
 
-    public static DailyLevel_dailyLevelConfig DeserializeDailyLevel_dailyLevelConfig(JToken _buf)
+    public static DailyLevel_dailyLevelConfig DeserializeDailyLevel_dailyLevelConfig(ByteBuf _buf)
     {
         return new DailyLevel_dailyLevelConfig(_buf);
     }
@@ -87,8 +83,7 @@ public sealed partial class DailyLevel_dailyLevelConfig : Luban.BeanBase
     /// 速度加成(万分比)
     /// </summary>
     public readonly int speedAdd;
-
-
+   
     public const int __ID__ = -174706495;
     public override int GetTypeId() => __ID__;
 
@@ -114,5 +109,6 @@ public sealed partial class DailyLevel_dailyLevelConfig : Luban.BeanBase
         + "}";
     }
 }
+
 }
 

@@ -8,44 +8,40 @@
 //------------------------------------------------------------------------------
 
 using Luban;
-using Newtonsoft.Json.Linq;
-
 
 
 namespace HotFix.Cfg
 {
-
 public sealed partial class Hero_heroList : Luban.BeanBase
 {
-    public Hero_heroList(JToken _buf) 
+    public Hero_heroList(ByteBuf _buf) 
     {
-        JObject _obj = _buf as JObject;
-        id = (int)_obj.GetValue("id");
-        { var __json0 = _obj.GetValue("initSkin"); int _n0 = (__json0 as JArray).Count; initSkin = new int[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { int __v0;  __v0 = (int)__e0;  initSkin[__index0++] = __v0; }   }
-        quality = (int)_obj.GetValue("quality");
-        memberId = (int)_obj.GetValue("memberId");
-        { var __json0 = _obj.GetValue("skillGroupID"); int _n0 = (__json0 as JArray).Count; skillGroupID = new int[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { int __v0;  __v0 = (int)__e0;  skillGroupID[__index0++] = __v0; }   }
-        { var __json0 = _obj.GetValue("competency"); int _n0 = (__json0 as JArray).Count; competency = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  competency[__index0++] = __v0; }   }
-        unlockType = (int)_obj.GetValue("unlockType");
-        { var __json0 = _obj.GetValue("condition"); int _n0 = (__json0 as JArray).Count; condition = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  condition[__index0++] = __v0; }   }
-        { var __json0 = _obj.GetValue("toFragment"); int _n0 = (__json0 as JArray).Count; toFragment = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  toFragment[__index0++] = __v0; }   }
-        nameID = (string)_obj.GetValue("nameID");
-        atlasID = (int)_obj.GetValue("atlasID");
-        cardIcon = (string)_obj.GetValue("cardIcon");
-        previewIconId = (int)_obj.GetValue("previewIconId");
-        previewIcon = (string)_obj.GetValue("previewIcon");
-        { var __json0 = _obj.GetValue("itemGet"); int _n0 = (__json0 as JArray).Count; itemGet = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  itemGet[__index0++] = __v0; }   }
-        showSoundId = (int)_obj.GetValue("showSoundId");
-        heroEnterIconId = (int)_obj.GetValue("heroEnterIconId");
-        heroEnterIcon = (string)_obj.GetValue("heroEnterIcon");
-        equipSpineId = (int)_obj.GetValue("equipSpineId");
-        ifChangeEquipSkin = (int)_obj.GetValue("ifChangeEquipSkin");
-        WeaponType = (int)_obj.GetValue("WeaponType");
-        { var __json0 = _obj.GetValue("systemLangNone"); int _n0 = (__json0 as JArray).Count; systemLangNone = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  systemLangNone[__index0++] = __v0; }   }
-        showWorldBtn = (int)_obj.GetValue("showWorldBtn");
+        id = _buf.ReadInt();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);initSkin = new int[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { int __e0;__e0 = _buf.ReadInt(); initSkin[__index0] = __e0;}}
+        quality = _buf.ReadInt();
+        memberId = _buf.ReadInt();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);skillGroupID = new int[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { int __e0;__e0 = _buf.ReadInt(); skillGroupID[__index0] = __e0;}}
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);competency = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); competency[__index0] = __e0;}}
+        unlockType = _buf.ReadInt();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);condition = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); condition[__index0] = __e0;}}
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);toFragment = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); toFragment[__index0] = __e0;}}
+        nameID = _buf.ReadString();
+        atlasID = _buf.ReadInt();
+        cardIcon = _buf.ReadString();
+        previewIconId = _buf.ReadInt();
+        previewIcon = _buf.ReadString();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);itemGet = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); itemGet[__index0] = __e0;}}
+        showSoundId = _buf.ReadInt();
+        heroEnterIconId = _buf.ReadInt();
+        heroEnterIcon = _buf.ReadString();
+        equipSpineId = _buf.ReadInt();
+        ifChangeEquipSkin = _buf.ReadInt();
+        WeaponType = _buf.ReadInt();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);systemLangNone = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); systemLangNone[__index0] = __e0;}}
+        showWorldBtn = _buf.ReadInt();
     }
 
-    public static Hero_heroList DeserializeHero_heroList(JToken _buf)
+    public static Hero_heroList DeserializeHero_heroList(ByteBuf _buf)
     {
         return new Hero_heroList(_buf);
     }
@@ -142,8 +138,7 @@ public sealed partial class Hero_heroList : Luban.BeanBase
     /// 是否显示世界按钮
     /// </summary>
     public readonly int showWorldBtn;
-
-
+   
     public const int __ID__ = 941445693;
     public override int GetTypeId() => __ID__;
 
@@ -180,5 +175,6 @@ public sealed partial class Hero_heroList : Luban.BeanBase
         + "}";
     }
 }
+
 }
 

@@ -7,14 +7,11 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-using Newtonsoft.Json.Linq;
 using Luban;
-
 
 
 namespace HotFix.Cfg
 {
-
 /// <summary>
 /// Generated from IAP.xlsx sheet PackPay
 /// </summary>
@@ -23,20 +20,19 @@ public partial class TbIAP_PackPay
     private readonly System.Collections.Generic.Dictionary<int, IAP_PackPay> _dataMap;
     private readonly System.Collections.Generic.List<IAP_PackPay> _dataList;
     
-    public TbIAP_PackPay(JArray _buf)
+    public TbIAP_PackPay(ByteBuf _buf)
     {
         _dataMap = new System.Collections.Generic.Dictionary<int, IAP_PackPay>();
         _dataList = new System.Collections.Generic.List<IAP_PackPay>();
         
-        foreach(JObject _ele in _buf)
+        for(int n = _buf.ReadSize() ; n > 0 ; --n)
         {
             IAP_PackPay _v;
-            _v = global::HotFix.Cfg.IAP_PackPay.DeserializeIAP_PackPay(_ele);
+            _v = global::HotFix.Cfg.IAP_PackPay.DeserializeIAP_PackPay(_buf);
             _dataList.Add(_v);
             _dataMap.Add(_v.id, _v);
-         }
+        }
     }
-
 
     public System.Collections.Generic.Dictionary<int, IAP_PackPay> DataMap => _dataMap;
     public System.Collections.Generic.List<IAP_PackPay> DataList => _dataList;
@@ -54,5 +50,6 @@ public partial class TbIAP_PackPay
     }
 
 }
+
 }
 

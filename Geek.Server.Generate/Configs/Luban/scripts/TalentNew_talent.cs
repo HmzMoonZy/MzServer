@@ -8,30 +8,26 @@
 //------------------------------------------------------------------------------
 
 using Luban;
-using Newtonsoft.Json.Linq;
-
 
 
 namespace HotFix.Cfg
 {
-
 public sealed partial class TalentNew_talent : Luban.BeanBase
 {
-    public TalentNew_talent(JToken _buf) 
+    public TalentNew_talent(ByteBuf _buf) 
     {
-        JObject _obj = _buf as JObject;
-        id = (int)_obj.GetValue("id");
-        talentLevel = (int)_obj.GetValue("talentLevel");
-        evolution = (int)_obj.GetValue("evolution");
-        rewardType = (int)_obj.GetValue("rewardType");
-        reward = (string)_obj.GetValue("reward");
-        iconAtlasID = (int)_obj.GetValue("iconAtlasID");
-        iconID = (string)_obj.GetValue("iconID");
-        talentName = (string)_obj.GetValue("talentName");
-        talentDesc = (string)_obj.GetValue("talentDesc");
+        id = _buf.ReadInt();
+        talentLevel = _buf.ReadInt();
+        evolution = _buf.ReadInt();
+        rewardType = _buf.ReadInt();
+        reward = _buf.ReadString();
+        iconAtlasID = _buf.ReadInt();
+        iconID = _buf.ReadString();
+        talentName = _buf.ReadString();
+        talentDesc = _buf.ReadString();
     }
 
-    public static TalentNew_talent DeserializeTalentNew_talent(JToken _buf)
+    public static TalentNew_talent DeserializeTalentNew_talent(ByteBuf _buf)
     {
         return new TalentNew_talent(_buf);
     }
@@ -72,8 +68,7 @@ public sealed partial class TalentNew_talent : Luban.BeanBase
     /// Tips描述
     /// </summary>
     public readonly string talentDesc;
-
-
+   
     public const int __ID__ = -584021353;
     public override int GetTypeId() => __ID__;
 
@@ -96,5 +91,6 @@ public sealed partial class TalentNew_talent : Luban.BeanBase
         + "}";
     }
 }
+
 }
 

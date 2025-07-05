@@ -8,34 +8,30 @@
 //------------------------------------------------------------------------------
 
 using Luban;
-using Newtonsoft.Json.Linq;
-
 
 
 namespace HotFix.Cfg
 {
-
 public sealed partial class Dungeon_DungeonLevel : Luban.BeanBase
 {
-    public Dungeon_DungeonLevel(JToken _buf) 
+    public Dungeon_DungeonLevel(ByteBuf _buf) 
     {
-        JObject _obj = _buf as JObject;
-        id = (int)_obj.GetValue("id");
-        dungeonID = (int)_obj.GetValue("dungeonID");
-        level = (int)_obj.GetValue("level");
-        mapID = (int)_obj.GetValue("mapID");
-        { var __json0 = _obj.GetValue("MemberData"); int _n0 = (__json0 as JArray).Count; MemberData = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  MemberData[__index0++] = __v0; }   }
-        { var __json0 = _obj.GetValue("MemberAttribute"); int _n0 = (__json0 as JArray).Count; MemberAttribute = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  MemberAttribute[__index0++] = __v0; }   }
-        { var __json0 = _obj.GetValue("reward"); int _n0 = (__json0 as JArray).Count; reward = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  reward[__index0++] = __v0; }   }
-        { var __json0 = _obj.GetValue("showRate"); int _n0 = (__json0 as JArray).Count; showRate = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  showRate[__index0++] = __v0; }   }
-        dropID = (int)_obj.GetValue("dropID");
-        dropTimes = (int)_obj.GetValue("dropTimes");
-        { var __json0 = _obj.GetValue("attrTips"); int _n0 = (__json0 as JArray).Count; attrTips = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  attrTips[__index0++] = __v0; }   }
-        baseSpeed = (int)_obj.GetValue("baseSpeed");
-        speedAdd = (int)_obj.GetValue("speedAdd");
+        id = _buf.ReadInt();
+        dungeonID = _buf.ReadInt();
+        level = _buf.ReadInt();
+        mapID = _buf.ReadInt();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);MemberData = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); MemberData[__index0] = __e0;}}
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);MemberAttribute = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); MemberAttribute[__index0] = __e0;}}
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);reward = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); reward[__index0] = __e0;}}
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);showRate = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); showRate[__index0] = __e0;}}
+        dropID = _buf.ReadInt();
+        dropTimes = _buf.ReadInt();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);attrTips = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); attrTips[__index0] = __e0;}}
+        baseSpeed = _buf.ReadInt();
+        speedAdd = _buf.ReadInt();
     }
 
-    public static Dungeon_DungeonLevel DeserializeDungeon_DungeonLevel(JToken _buf)
+    public static Dungeon_DungeonLevel DeserializeDungeon_DungeonLevel(ByteBuf _buf)
     {
         return new Dungeon_DungeonLevel(_buf);
     }
@@ -92,8 +88,7 @@ public sealed partial class Dungeon_DungeonLevel : Luban.BeanBase
     /// 速度加成(万分比)
     /// </summary>
     public readonly int speedAdd;
-
-
+   
     public const int __ID__ = 1477036687;
     public override int GetTypeId() => __ID__;
 
@@ -120,5 +115,6 @@ public sealed partial class Dungeon_DungeonLevel : Luban.BeanBase
         + "}";
     }
 }
+
 }
 

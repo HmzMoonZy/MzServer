@@ -7,14 +7,11 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-using Newtonsoft.Json.Linq;
 using Luban;
-
 
 
 namespace HotFix.Cfg
 {
-
 /// <summary>
 /// Generated from Task.xlsx sheet WeeklyActive
 /// </summary>
@@ -23,20 +20,19 @@ public partial class TbTask_WeeklyActive
     private readonly System.Collections.Generic.Dictionary<int, Task_WeeklyActive> _dataMap;
     private readonly System.Collections.Generic.List<Task_WeeklyActive> _dataList;
     
-    public TbTask_WeeklyActive(JArray _buf)
+    public TbTask_WeeklyActive(ByteBuf _buf)
     {
         _dataMap = new System.Collections.Generic.Dictionary<int, Task_WeeklyActive>();
         _dataList = new System.Collections.Generic.List<Task_WeeklyActive>();
         
-        foreach(JObject _ele in _buf)
+        for(int n = _buf.ReadSize() ; n > 0 ; --n)
         {
             Task_WeeklyActive _v;
-            _v = global::HotFix.Cfg.Task_WeeklyActive.DeserializeTask_WeeklyActive(_ele);
+            _v = global::HotFix.Cfg.Task_WeeklyActive.DeserializeTask_WeeklyActive(_buf);
             _dataList.Add(_v);
             _dataMap.Add(_v.ID, _v);
-         }
+        }
     }
-
 
     public System.Collections.Generic.Dictionary<int, Task_WeeklyActive> DataMap => _dataMap;
     public System.Collections.Generic.List<Task_WeeklyActive> DataList => _dataList;
@@ -54,5 +50,6 @@ public partial class TbTask_WeeklyActive
     }
 
 }
+
 }
 

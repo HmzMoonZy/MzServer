@@ -7,14 +7,11 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-using Newtonsoft.Json.Linq;
 using Luban;
-
 
 
 namespace HotFix.Cfg
 {
-
 /// <summary>
 /// Generated from Dungeon.xlsx sheet DungeonBase
 /// </summary>
@@ -23,20 +20,19 @@ public partial class TbDungeon_DungeonBase
     private readonly System.Collections.Generic.Dictionary<int, Dungeon_DungeonBase> _dataMap;
     private readonly System.Collections.Generic.List<Dungeon_DungeonBase> _dataList;
     
-    public TbDungeon_DungeonBase(JArray _buf)
+    public TbDungeon_DungeonBase(ByteBuf _buf)
     {
         _dataMap = new System.Collections.Generic.Dictionary<int, Dungeon_DungeonBase>();
         _dataList = new System.Collections.Generic.List<Dungeon_DungeonBase>();
         
-        foreach(JObject _ele in _buf)
+        for(int n = _buf.ReadSize() ; n > 0 ; --n)
         {
             Dungeon_DungeonBase _v;
-            _v = global::HotFix.Cfg.Dungeon_DungeonBase.DeserializeDungeon_DungeonBase(_ele);
+            _v = global::HotFix.Cfg.Dungeon_DungeonBase.DeserializeDungeon_DungeonBase(_buf);
             _dataList.Add(_v);
             _dataMap.Add(_v.id, _v);
-         }
+        }
     }
-
 
     public System.Collections.Generic.Dictionary<int, Dungeon_DungeonBase> DataMap => _dataMap;
     public System.Collections.Generic.List<Dungeon_DungeonBase> DataList => _dataList;
@@ -54,5 +50,6 @@ public partial class TbDungeon_DungeonBase
     }
 
 }
+
 }
 

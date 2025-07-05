@@ -8,25 +8,21 @@
 //------------------------------------------------------------------------------
 
 using Luban;
-using Newtonsoft.Json.Linq;
-
 
 
 namespace HotFix.Cfg
 {
-
 public sealed partial class BattleMain_skill : Luban.BeanBase
 {
-    public BattleMain_skill(JToken _buf) 
+    public BattleMain_skill(ByteBuf _buf) 
     {
-        JObject _obj = _buf as JObject;
-        ID = (int)_obj.GetValue("ID");
-        skillType = (int)_obj.GetValue("skillType");
-        { var __json0 = _obj.GetValue("skillList"); int _n0 = (__json0 as JArray).Count; skillList = new int[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { int __v0;  __v0 = (int)__e0;  skillList[__index0++] = __v0; }   }
-        breakSkillId = (int)_obj.GetValue("breakSkillId");
+        ID = _buf.ReadInt();
+        skillType = _buf.ReadInt();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);skillList = new int[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { int __e0;__e0 = _buf.ReadInt(); skillList[__index0] = __e0;}}
+        breakSkillId = _buf.ReadInt();
     }
 
-    public static BattleMain_skill DeserializeBattleMain_skill(JToken _buf)
+    public static BattleMain_skill DeserializeBattleMain_skill(ByteBuf _buf)
     {
         return new BattleMain_skill(_buf);
     }
@@ -47,8 +43,7 @@ public sealed partial class BattleMain_skill : Luban.BeanBase
     /// 突破技能id<br/>指向GameSkill_skill表格
     /// </summary>
     public readonly int breakSkillId;
-
-
+   
     public const int __ID__ = 1136275267;
     public override int GetTypeId() => __ID__;
 
@@ -66,5 +61,6 @@ public sealed partial class BattleMain_skill : Luban.BeanBase
         + "}";
     }
 }
+
 }
 

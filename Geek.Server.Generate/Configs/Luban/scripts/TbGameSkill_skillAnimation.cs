@@ -7,14 +7,11 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-using Newtonsoft.Json.Linq;
 using Luban;
-
 
 
 namespace HotFix.Cfg
 {
-
 /// <summary>
 /// Generated from GameSkill.xlsx sheet skillAnimation
 /// </summary>
@@ -23,20 +20,19 @@ public partial class TbGameSkill_skillAnimation
     private readonly System.Collections.Generic.Dictionary<int, GameSkill_skillAnimation> _dataMap;
     private readonly System.Collections.Generic.List<GameSkill_skillAnimation> _dataList;
     
-    public TbGameSkill_skillAnimation(JArray _buf)
+    public TbGameSkill_skillAnimation(ByteBuf _buf)
     {
         _dataMap = new System.Collections.Generic.Dictionary<int, GameSkill_skillAnimation>();
         _dataList = new System.Collections.Generic.List<GameSkill_skillAnimation>();
         
-        foreach(JObject _ele in _buf)
+        for(int n = _buf.ReadSize() ; n > 0 ; --n)
         {
             GameSkill_skillAnimation _v;
-            _v = global::HotFix.Cfg.GameSkill_skillAnimation.DeserializeGameSkill_skillAnimation(_ele);
+            _v = global::HotFix.Cfg.GameSkill_skillAnimation.DeserializeGameSkill_skillAnimation(_buf);
             _dataList.Add(_v);
             _dataMap.Add(_v.id, _v);
-         }
+        }
     }
-
 
     public System.Collections.Generic.Dictionary<int, GameSkill_skillAnimation> DataMap => _dataMap;
     public System.Collections.Generic.List<GameSkill_skillAnimation> DataList => _dataList;
@@ -54,5 +50,6 @@ public partial class TbGameSkill_skillAnimation
     }
 
 }
+
 }
 

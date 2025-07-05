@@ -8,40 +8,36 @@
 //------------------------------------------------------------------------------
 
 using Luban;
-using Newtonsoft.Json.Linq;
-
 
 
 namespace HotFix.Cfg
 {
-
 public sealed partial class MythicDungeon_levelEvent : Luban.BeanBase
 {
-    public MythicDungeon_levelEvent(JToken _buf) 
+    public MythicDungeon_levelEvent(ByteBuf _buf) 
     {
-        JObject _obj = _buf as JObject;
-        id = (int)_obj.GetValue("id");
-        quality = (int)_obj.GetValue("quality");
-        nameId = (string)_obj.GetValue("nameId");
-        atlasId = (int)_obj.GetValue("atlasId");
-        icon = (string)_obj.GetValue("icon");
-        bossAtlasId = (int)_obj.GetValue("bossAtlasId");
-        bossIcon = (string)_obj.GetValue("bossIcon");
-        levelType = (int)_obj.GetValue("levelType");
-        type = (int)_obj.GetValue("type");
-        eventPoint = (int)_obj.GetValue("eventPoint");
-        weight = (int)_obj.GetValue("weight");
-        normalDropRate = (int)_obj.GetValue("normalDropRate");
-        unlockLevel = (int)_obj.GetValue("unlockLevel");
-        wave = (int)_obj.GetValue("wave");
-        { var __json0 = _obj.GetValue("monsterCfgGroup"); int _n0 = (__json0 as JArray).Count; monsterCfgGroup = new int[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { int __v0;  __v0 = (int)__e0;  monsterCfgGroup[__index0++] = __v0; }   }
-        { var __json0 = _obj.GetValue("bossCfg"); int _n0 = (__json0 as JArray).Count; bossCfg = new int[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { int __v0;  __v0 = (int)__e0;  bossCfg[__index0++] = __v0; }   }
-        roundLimit = (int)_obj.GetValue("roundLimit");
-        mapId = (int)_obj.GetValue("mapId");
-        { var __json0 = _obj.GetValue("bgm"); int _n0 = (__json0 as JArray).Count; bgm = new int[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { int __v0;  __v0 = (int)__e0;  bgm[__index0++] = __v0; }   }
+        id = _buf.ReadInt();
+        quality = _buf.ReadInt();
+        nameId = _buf.ReadString();
+        atlasId = _buf.ReadInt();
+        icon = _buf.ReadString();
+        bossAtlasId = _buf.ReadInt();
+        bossIcon = _buf.ReadString();
+        levelType = _buf.ReadInt();
+        type = _buf.ReadInt();
+        eventPoint = _buf.ReadInt();
+        weight = _buf.ReadInt();
+        normalDropRate = _buf.ReadInt();
+        unlockLevel = _buf.ReadInt();
+        wave = _buf.ReadInt();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);monsterCfgGroup = new int[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { int __e0;__e0 = _buf.ReadInt(); monsterCfgGroup[__index0] = __e0;}}
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);bossCfg = new int[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { int __e0;__e0 = _buf.ReadInt(); bossCfg[__index0] = __e0;}}
+        roundLimit = _buf.ReadInt();
+        mapId = _buf.ReadInt();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);bgm = new int[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { int __e0;__e0 = _buf.ReadInt(); bgm[__index0] = __e0;}}
     }
 
-    public static MythicDungeon_levelEvent DeserializeMythicDungeon_levelEvent(JToken _buf)
+    public static MythicDungeon_levelEvent DeserializeMythicDungeon_levelEvent(ByteBuf _buf)
     {
         return new MythicDungeon_levelEvent(_buf);
     }
@@ -122,8 +118,7 @@ public sealed partial class MythicDungeon_levelEvent : Luban.BeanBase
     /// 章节bgm<br/>非战斗|战斗|Boss
     /// </summary>
     public readonly int[] bgm;
-
-
+   
     public const int __ID__ = -995080171;
     public override int GetTypeId() => __ID__;
 
@@ -156,5 +151,6 @@ public sealed partial class MythicDungeon_levelEvent : Luban.BeanBase
         + "}";
     }
 }
+
 }
 

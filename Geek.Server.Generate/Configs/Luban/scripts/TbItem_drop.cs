@@ -7,14 +7,11 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-using Newtonsoft.Json.Linq;
 using Luban;
-
 
 
 namespace HotFix.Cfg
 {
-
 /// <summary>
 /// Generated from Item.xlsx sheet drop
 /// </summary>
@@ -23,20 +20,19 @@ public partial class TbItem_drop
     private readonly System.Collections.Generic.Dictionary<int, Item_drop> _dataMap;
     private readonly System.Collections.Generic.List<Item_drop> _dataList;
     
-    public TbItem_drop(JArray _buf)
+    public TbItem_drop(ByteBuf _buf)
     {
         _dataMap = new System.Collections.Generic.Dictionary<int, Item_drop>();
         _dataList = new System.Collections.Generic.List<Item_drop>();
         
-        foreach(JObject _ele in _buf)
+        for(int n = _buf.ReadSize() ; n > 0 ; --n)
         {
             Item_drop _v;
-            _v = global::HotFix.Cfg.Item_drop.DeserializeItem_drop(_ele);
+            _v = global::HotFix.Cfg.Item_drop.DeserializeItem_drop(_buf);
             _dataList.Add(_v);
             _dataMap.Add(_v.drop_id, _v);
-         }
+        }
     }
-
 
     public System.Collections.Generic.Dictionary<int, Item_drop> DataMap => _dataMap;
     public System.Collections.Generic.List<Item_drop> DataList => _dataList;
@@ -54,5 +50,6 @@ public partial class TbItem_drop
     }
 
 }
+
 }
 

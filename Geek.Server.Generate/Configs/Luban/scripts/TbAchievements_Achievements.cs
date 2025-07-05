@@ -7,14 +7,11 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-using Newtonsoft.Json.Linq;
 using Luban;
-
 
 
 namespace HotFix.Cfg
 {
-
 /// <summary>
 /// Generated from Achievements.xlsx sheet Achievements
 /// </summary>
@@ -23,20 +20,19 @@ public partial class TbAchievements_Achievements
     private readonly System.Collections.Generic.Dictionary<int, Achievements_Achievements> _dataMap;
     private readonly System.Collections.Generic.List<Achievements_Achievements> _dataList;
     
-    public TbAchievements_Achievements(JArray _buf)
+    public TbAchievements_Achievements(ByteBuf _buf)
     {
         _dataMap = new System.Collections.Generic.Dictionary<int, Achievements_Achievements>();
         _dataList = new System.Collections.Generic.List<Achievements_Achievements>();
         
-        foreach(JObject _ele in _buf)
+        for(int n = _buf.ReadSize() ; n > 0 ; --n)
         {
             Achievements_Achievements _v;
-            _v = global::HotFix.Cfg.Achievements_Achievements.DeserializeAchievements_Achievements(_ele);
+            _v = global::HotFix.Cfg.Achievements_Achievements.DeserializeAchievements_Achievements(_buf);
             _dataList.Add(_v);
             _dataMap.Add(_v.ID, _v);
-         }
+        }
     }
-
 
     public System.Collections.Generic.Dictionary<int, Achievements_Achievements> DataMap => _dataMap;
     public System.Collections.Generic.List<Achievements_Achievements> DataList => _dataList;
@@ -54,5 +50,6 @@ public partial class TbAchievements_Achievements
     }
 
 }
+
 }
 

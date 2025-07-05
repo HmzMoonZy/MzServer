@@ -8,25 +8,21 @@
 //------------------------------------------------------------------------------
 
 using Luban;
-using Newtonsoft.Json.Linq;
-
 
 
 namespace HotFix.Cfg
 {
-
 public sealed partial class ChapterMiniGame_slotBase : Luban.BeanBase
 {
-    public ChapterMiniGame_slotBase(JToken _buf) 
+    public ChapterMiniGame_slotBase(ByteBuf _buf) 
     {
-        JObject _obj = _buf as JObject;
-        id = (int)_obj.GetValue("id");
-        { var __json0 = _obj.GetValue("slotIds"); int _n0 = (__json0 as JArray).Count; slotIds = new int[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { int __v0;  __v0 = (int)__e0;  slotIds[__index0++] = __v0; }   }
-        spinTimes = (int)_obj.GetValue("spinTimes");
-        weight0 = (int)_obj.GetValue("weight0");
+        id = _buf.ReadInt();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);slotIds = new int[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { int __e0;__e0 = _buf.ReadInt(); slotIds[__index0] = __e0;}}
+        spinTimes = _buf.ReadInt();
+        weight0 = _buf.ReadInt();
     }
 
-    public static ChapterMiniGame_slotBase DeserializeChapterMiniGame_slotBase(JToken _buf)
+    public static ChapterMiniGame_slotBase DeserializeChapterMiniGame_slotBase(ByteBuf _buf)
     {
         return new ChapterMiniGame_slotBase(_buf);
     }
@@ -47,8 +43,7 @@ public sealed partial class ChapterMiniGame_slotBase : Luban.BeanBase
     /// 空奖励权重
     /// </summary>
     public readonly int weight0;
-
-
+   
     public const int __ID__ = -630265896;
     public override int GetTypeId() => __ID__;
 
@@ -66,5 +61,6 @@ public sealed partial class ChapterMiniGame_slotBase : Luban.BeanBase
         + "}";
     }
 }
+
 }
 

@@ -7,14 +7,11 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-using Newtonsoft.Json.Linq;
 using Luban;
-
 
 
 namespace HotFix.Cfg
 {
-
 /// <summary>
 /// Generated from Scene.xlsx sheet table
 /// </summary>
@@ -23,20 +20,19 @@ public partial class TbScene_table
     private readonly System.Collections.Generic.Dictionary<int, Scene_table> _dataMap;
     private readonly System.Collections.Generic.List<Scene_table> _dataList;
     
-    public TbScene_table(JArray _buf)
+    public TbScene_table(ByteBuf _buf)
     {
         _dataMap = new System.Collections.Generic.Dictionary<int, Scene_table>();
         _dataList = new System.Collections.Generic.List<Scene_table>();
         
-        foreach(JObject _ele in _buf)
+        for(int n = _buf.ReadSize() ; n > 0 ; --n)
         {
             Scene_table _v;
-            _v = global::HotFix.Cfg.Scene_table.DeserializeScene_table(_ele);
+            _v = global::HotFix.Cfg.Scene_table.DeserializeScene_table(_buf);
             _dataList.Add(_v);
             _dataMap.Add(_v.id, _v);
-         }
+        }
     }
-
 
     public System.Collections.Generic.Dictionary<int, Scene_table> DataMap => _dataMap;
     public System.Collections.Generic.List<Scene_table> DataList => _dataList;
@@ -54,5 +50,6 @@ public partial class TbScene_table
     }
 
 }
+
 }
 

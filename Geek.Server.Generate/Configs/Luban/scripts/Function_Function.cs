@@ -8,37 +8,33 @@
 //------------------------------------------------------------------------------
 
 using Luban;
-using Newtonsoft.Json.Linq;
-
 
 
 namespace HotFix.Cfg
 {
-
 public sealed partial class Function_Function : Luban.BeanBase
 {
-    public Function_Function(JToken _buf) 
+    public Function_Function(ByteBuf _buf) 
     {
-        JObject _obj = _buf as JObject;
-        id = (int)_obj.GetValue("id");
-        unlockType = (int)_obj.GetValue("unlockType");
-        unlockArgs = (string)_obj.GetValue("unlockArgs");
-        OpenTime = (int)_obj.GetValue("OpenTime");
-        unlockArgsCN = (string)_obj.GetValue("unlockArgsCN");
-        OpenTimeCN = (int)_obj.GetValue("OpenTimeCN");
-        nameID = (string)_obj.GetValue("nameID");
-        desID = (string)_obj.GetValue("desID");
-        showView = (int)_obj.GetValue("showView");
-        showIndex = (int)_obj.GetValue("showIndex");
-        iconAtlasID = (int)_obj.GetValue("iconAtlasID");
-        iconName = (string)_obj.GetValue("iconName");
-        flyPos = (string)_obj.GetValue("flyPos");
-        packVersion = (string)_obj.GetValue("packVersion");
-        resVersion = (string)_obj.GetValue("resVersion");
-        versionTime = (string)_obj.GetValue("versionTime");
+        id = _buf.ReadInt();
+        unlockType = _buf.ReadInt();
+        unlockArgs = _buf.ReadString();
+        OpenTime = _buf.ReadInt();
+        unlockArgsCN = _buf.ReadString();
+        OpenTimeCN = _buf.ReadInt();
+        nameID = _buf.ReadString();
+        desID = _buf.ReadString();
+        showView = _buf.ReadInt();
+        showIndex = _buf.ReadInt();
+        iconAtlasID = _buf.ReadInt();
+        iconName = _buf.ReadString();
+        flyPos = _buf.ReadString();
+        packVersion = _buf.ReadString();
+        resVersion = _buf.ReadString();
+        versionTime = _buf.ReadString();
     }
 
-    public static Function_Function DeserializeFunction_Function(JToken _buf)
+    public static Function_Function DeserializeFunction_Function(ByteBuf _buf)
     {
         return new Function_Function(_buf);
     }
@@ -107,8 +103,7 @@ public sealed partial class Function_Function : Luban.BeanBase
     /// 开启绝对时间<br/>（utc0时间）
     /// </summary>
     public readonly string versionTime;
-
-
+   
     public const int __ID__ = 950839391;
     public override int GetTypeId() => __ID__;
 
@@ -138,5 +133,6 @@ public sealed partial class Function_Function : Luban.BeanBase
         + "}";
     }
 }
+
 }
 

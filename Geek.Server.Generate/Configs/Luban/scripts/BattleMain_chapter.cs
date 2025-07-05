@@ -8,24 +8,20 @@
 //------------------------------------------------------------------------------
 
 using Luban;
-using Newtonsoft.Json.Linq;
-
 
 
 namespace HotFix.Cfg
 {
-
 public sealed partial class BattleMain_chapter : Luban.BeanBase
 {
-    public BattleMain_chapter(JToken _buf) 
+    public BattleMain_chapter(ByteBuf _buf) 
     {
-        JObject _obj = _buf as JObject;
-        ID = (int)_obj.GetValue("ID");
-        waveStartId = (int)_obj.GetValue("waveStartId");
-        waveCount = (int)_obj.GetValue("waveCount");
+        ID = _buf.ReadInt();
+        waveStartId = _buf.ReadInt();
+        waveCount = _buf.ReadInt();
     }
 
-    public static BattleMain_chapter DeserializeBattleMain_chapter(JToken _buf)
+    public static BattleMain_chapter DeserializeBattleMain_chapter(ByteBuf _buf)
     {
         return new BattleMain_chapter(_buf);
     }
@@ -42,8 +38,7 @@ public sealed partial class BattleMain_chapter : Luban.BeanBase
     /// 波数
     /// </summary>
     public readonly int waveCount;
-
-
+   
     public const int __ID__ = -369464129;
     public override int GetTypeId() => __ID__;
 
@@ -60,5 +55,6 @@ public sealed partial class BattleMain_chapter : Luban.BeanBase
         + "}";
     }
 }
+
 }
 

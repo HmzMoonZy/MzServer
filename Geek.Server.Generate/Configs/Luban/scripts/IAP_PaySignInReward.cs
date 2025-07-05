@@ -8,27 +8,23 @@
 //------------------------------------------------------------------------------
 
 using Luban;
-using Newtonsoft.Json.Linq;
-
 
 
 namespace HotFix.Cfg
 {
-
 public sealed partial class IAP_PaySignInReward : Luban.BeanBase
 {
-    public IAP_PaySignInReward(JToken _buf) 
+    public IAP_PaySignInReward(ByteBuf _buf) 
     {
-        JObject _obj = _buf as JObject;
-        id = (int)_obj.GetValue("id");
-        groupId = (int)_obj.GetValue("groupId");
-        days = (int)_obj.GetValue("days");
-        { var __json0 = _obj.GetValue("freeReward"); int _n0 = (__json0 as JArray).Count; freeReward = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  freeReward[__index0++] = __v0; }   }
-        { var __json0 = _obj.GetValue("payReward"); int _n0 = (__json0 as JArray).Count; payReward = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  payReward[__index0++] = __v0; }   }
-        { var __json0 = _obj.GetValue("signInPrice"); int _n0 = (__json0 as JArray).Count; signInPrice = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  signInPrice[__index0++] = __v0; }   }
+        id = _buf.ReadInt();
+        groupId = _buf.ReadInt();
+        days = _buf.ReadInt();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);freeReward = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); freeReward[__index0] = __e0;}}
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);payReward = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); payReward[__index0] = __e0;}}
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);signInPrice = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); signInPrice[__index0] = __e0;}}
     }
 
-    public static IAP_PaySignInReward DeserializeIAP_PaySignInReward(JToken _buf)
+    public static IAP_PaySignInReward DeserializeIAP_PaySignInReward(ByteBuf _buf)
     {
         return new IAP_PaySignInReward(_buf);
     }
@@ -57,8 +53,7 @@ public sealed partial class IAP_PaySignInReward : Luban.BeanBase
     /// 补签价格
     /// </summary>
     public readonly string[] signInPrice;
-
-
+   
     public const int __ID__ = 1502694962;
     public override int GetTypeId() => __ID__;
 
@@ -78,5 +73,6 @@ public sealed partial class IAP_PaySignInReward : Luban.BeanBase
         + "}";
     }
 }
+
 }
 

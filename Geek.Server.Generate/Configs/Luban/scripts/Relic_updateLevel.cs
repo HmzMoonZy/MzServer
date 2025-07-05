@@ -8,27 +8,23 @@
 //------------------------------------------------------------------------------
 
 using Luban;
-using Newtonsoft.Json.Linq;
-
 
 
 namespace HotFix.Cfg
 {
-
 public sealed partial class Relic_updateLevel : Luban.BeanBase
 {
-    public Relic_updateLevel(JToken _buf) 
+    public Relic_updateLevel(ByteBuf _buf) 
     {
-        JObject _obj = _buf as JObject;
-        id = (int)_obj.GetValue("id");
-        TypeId = (int)_obj.GetValue("TypeId");
-        level = (int)_obj.GetValue("level");
-        nextID = (int)_obj.GetValue("nextID");
-        { var __json0 = _obj.GetValue("levelupCost"); int _n0 = (__json0 as JArray).Count; levelupCost = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  levelupCost[__index0++] = __v0; }   }
-        { var __json0 = _obj.GetValue("Attributes"); int _n0 = (__json0 as JArray).Count; Attributes = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  Attributes[__index0++] = __v0; }   }
+        id = _buf.ReadInt();
+        TypeId = _buf.ReadInt();
+        level = _buf.ReadInt();
+        nextID = _buf.ReadInt();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);levelupCost = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); levelupCost[__index0] = __e0;}}
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);Attributes = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); Attributes[__index0] = __e0;}}
     }
 
-    public static Relic_updateLevel DeserializeRelic_updateLevel(JToken _buf)
+    public static Relic_updateLevel DeserializeRelic_updateLevel(ByteBuf _buf)
     {
         return new Relic_updateLevel(_buf);
     }
@@ -57,8 +53,7 @@ public sealed partial class Relic_updateLevel : Luban.BeanBase
     /// 当前等级的属性
     /// </summary>
     public readonly string[] Attributes;
-
-
+   
     public const int __ID__ = 1440060751;
     public override int GetTypeId() => __ID__;
 
@@ -78,5 +73,6 @@ public sealed partial class Relic_updateLevel : Luban.BeanBase
         + "}";
     }
 }
+
 }
 

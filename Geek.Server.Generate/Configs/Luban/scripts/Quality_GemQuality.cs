@@ -8,28 +8,24 @@
 //------------------------------------------------------------------------------
 
 using Luban;
-using Newtonsoft.Json.Linq;
-
 
 
 namespace HotFix.Cfg
 {
-
 public sealed partial class Quality_GemQuality : Luban.BeanBase
 {
-    public Quality_GemQuality(JToken _buf) 
+    public Quality_GemQuality(ByteBuf _buf) 
     {
-        JObject _obj = _buf as JObject;
-        id = (int)_obj.GetValue("id");
-        qualityName = (string)_obj.GetValue("qualityName");
-        atlasID = (int)_obj.GetValue("atlasID");
-        detailBgName = (string)_obj.GetValue("detailBgName");
-        CommonHotAtlasID = (int)_obj.GetValue("CommonHotAtlasID");
-        bodypartBgName = (string)_obj.GetValue("bodypartBgName");
-        uiItemTokenName = (string)_obj.GetValue("uiItemTokenName");
+        id = _buf.ReadInt();
+        qualityName = _buf.ReadString();
+        atlasID = _buf.ReadInt();
+        detailBgName = _buf.ReadString();
+        CommonHotAtlasID = _buf.ReadInt();
+        bodypartBgName = _buf.ReadString();
+        uiItemTokenName = _buf.ReadString();
     }
 
-    public static Quality_GemQuality DeserializeQuality_GemQuality(JToken _buf)
+    public static Quality_GemQuality DeserializeQuality_GemQuality(ByteBuf _buf)
     {
         return new Quality_GemQuality(_buf);
     }
@@ -59,8 +55,7 @@ public sealed partial class Quality_GemQuality : Luban.BeanBase
     /// 装备图标标记图片路径
     /// </summary>
     public readonly string uiItemTokenName;
-
-
+   
     public const int __ID__ = 269789744;
     public override int GetTypeId() => __ID__;
 
@@ -81,5 +76,6 @@ public sealed partial class Quality_GemQuality : Luban.BeanBase
         + "}";
     }
 }
+
 }
 

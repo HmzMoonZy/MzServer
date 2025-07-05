@@ -7,14 +7,11 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-using Newtonsoft.Json.Linq;
 using Luban;
-
 
 
 namespace HotFix.Cfg
 {
-
 /// <summary>
 /// Generated from Guild.xlsx sheet guildGiftLevel
 /// </summary>
@@ -23,20 +20,19 @@ public partial class TbGuild_guildGiftLevel
     private readonly System.Collections.Generic.Dictionary<int, Guild_guildGiftLevel> _dataMap;
     private readonly System.Collections.Generic.List<Guild_guildGiftLevel> _dataList;
     
-    public TbGuild_guildGiftLevel(JArray _buf)
+    public TbGuild_guildGiftLevel(ByteBuf _buf)
     {
         _dataMap = new System.Collections.Generic.Dictionary<int, Guild_guildGiftLevel>();
         _dataList = new System.Collections.Generic.List<Guild_guildGiftLevel>();
         
-        foreach(JObject _ele in _buf)
+        for(int n = _buf.ReadSize() ; n > 0 ; --n)
         {
             Guild_guildGiftLevel _v;
-            _v = global::HotFix.Cfg.Guild_guildGiftLevel.DeserializeGuild_guildGiftLevel(_ele);
+            _v = global::HotFix.Cfg.Guild_guildGiftLevel.DeserializeGuild_guildGiftLevel(_buf);
             _dataList.Add(_v);
             _dataMap.Add(_v.ID, _v);
-         }
+        }
     }
-
 
     public System.Collections.Generic.Dictionary<int, Guild_guildGiftLevel> DataMap => _dataMap;
     public System.Collections.Generic.List<Guild_guildGiftLevel> DataList => _dataList;
@@ -54,5 +50,6 @@ public partial class TbGuild_guildGiftLevel
     }
 
 }
+
 }
 

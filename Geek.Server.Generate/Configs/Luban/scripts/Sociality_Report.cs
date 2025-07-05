@@ -8,30 +8,26 @@
 //------------------------------------------------------------------------------
 
 using Luban;
-using Newtonsoft.Json.Linq;
-
 
 
 namespace HotFix.Cfg
 {
-
 public sealed partial class Sociality_Report : Luban.BeanBase
 {
-    public Sociality_Report(JToken _buf) 
+    public Sociality_Report(ByteBuf _buf) 
     {
-        JObject _obj = _buf as JObject;
-        id = (int)_obj.GetValue("id");
-        type = (int)_obj.GetValue("type");
-        atlasID = (int)_obj.GetValue("atlasID");
-        bgName = (string)_obj.GetValue("bgName");
-        iconBgName = (string)_obj.GetValue("iconBgName");
-        iconName = (string)_obj.GetValue("iconName");
-        titleLanguage = (string)_obj.GetValue("titleLanguage");
-        contentLanguage = (string)_obj.GetValue("contentLanguage");
-        playBack = (int)_obj.GetValue("playBack");
+        id = _buf.ReadInt();
+        type = _buf.ReadInt();
+        atlasID = _buf.ReadInt();
+        bgName = _buf.ReadString();
+        iconBgName = _buf.ReadString();
+        iconName = _buf.ReadString();
+        titleLanguage = _buf.ReadString();
+        contentLanguage = _buf.ReadString();
+        playBack = _buf.ReadInt();
     }
 
-    public static Sociality_Report DeserializeSociality_Report(JToken _buf)
+    public static Sociality_Report DeserializeSociality_Report(ByteBuf _buf)
     {
         return new Sociality_Report(_buf);
     }
@@ -72,8 +68,7 @@ public sealed partial class Sociality_Report : Luban.BeanBase
     /// 是否具备回放
     /// </summary>
     public readonly int playBack;
-
-
+   
     public const int __ID__ = -1385374382;
     public override int GetTypeId() => __ID__;
 
@@ -96,5 +91,6 @@ public sealed partial class Sociality_Report : Luban.BeanBase
         + "}";
     }
 }
+
 }
 

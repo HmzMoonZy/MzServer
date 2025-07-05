@@ -8,47 +8,43 @@
 //------------------------------------------------------------------------------
 
 using Luban;
-using Newtonsoft.Json.Linq;
-
 
 
 namespace HotFix.Cfg
 {
-
 public sealed partial class Item_Item : Luban.BeanBase
 {
-    public Item_Item(JToken _buf) 
+    public Item_Item(ByteBuf _buf) 
     {
-        JObject _obj = _buf as JObject;
-        id = (int)_obj.GetValue("id");
-        { var __json0 = _obj.GetValue("useCondtion"); int _n0 = (__json0 as JArray).Count; useCondtion = new int[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { int __v0;  __v0 = (int)__e0;  useCondtion[__index0++] = __v0; }   }
-        atlasID = (int)_obj.GetValue("atlasID");
-        icon = (string)_obj.GetValue("icon");
-        sixIcon = (string)_obj.GetValue("sixIcon");
-        circleIcon = (string)_obj.GetValue("circleIcon");
-        smallicon = (string)_obj.GetValue("smallicon");
-        iconSizeType = (int)_obj.GetValue("iconSizeType");
-        sixIconSizeType = (int)_obj.GetValue("sixIconSizeType");
-        quality = (int)_obj.GetValue("quality");
-        rank = (int)_obj.GetValue("rank");
-        inPackage = (int)_obj.GetValue("inPackage");
-        stackable = (int)_obj.GetValue("stackable");
-        nameID = (string)_obj.GetValue("nameID");
-        describeID = (string)_obj.GetValue("describeID");
-        typeDescribeID = (string)_obj.GetValue("typeDescribeID");
-        itemType = (int)_obj.GetValue("itemType");
-        { var __json0 = _obj.GetValue("itemTypeParam"); int _n0 = (__json0 as JArray).Count; itemTypeParam = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  itemTypeParam[__index0++] = __v0; }   }
-        itemGiftId = (int)_obj.GetValue("itemGiftId");
-        propType = (int)_obj.GetValue("propType");
-        showEffect = (int)_obj.GetValue("showEffect");
-        { var __json0 = _obj.GetValue("redTypes"); int _n0 = (__json0 as JArray).Count; redTypes = new int[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { int __v0;  __v0 = (int)__e0;  redTypes[__index0++] = __v0; }   }
-        SkinTypes = (int)_obj.GetValue("SkinTypes");
-        talentLegacyUseSixRes = (int)_obj.GetValue("talentLegacyUseSixRes");
-        { var __json0 = _obj.GetValue("breakItem"); int _n0 = (__json0 as JArray).Count; breakItem = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  breakItem[__index0++] = __v0; }   }
-        NeedHero = (int)_obj.GetValue("NeedHero");
+        id = _buf.ReadInt();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);useCondtion = new int[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { int __e0;__e0 = _buf.ReadInt(); useCondtion[__index0] = __e0;}}
+        atlasID = _buf.ReadInt();
+        icon = _buf.ReadString();
+        sixIcon = _buf.ReadString();
+        circleIcon = _buf.ReadString();
+        smallicon = _buf.ReadString();
+        iconSizeType = _buf.ReadInt();
+        sixIconSizeType = _buf.ReadInt();
+        quality = _buf.ReadInt();
+        rank = _buf.ReadInt();
+        inPackage = _buf.ReadInt();
+        stackable = _buf.ReadInt();
+        nameID = _buf.ReadString();
+        describeID = _buf.ReadString();
+        typeDescribeID = _buf.ReadString();
+        itemType = _buf.ReadInt();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);itemTypeParam = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); itemTypeParam[__index0] = __e0;}}
+        itemGiftId = _buf.ReadInt();
+        propType = _buf.ReadInt();
+        showEffect = _buf.ReadInt();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);redTypes = new int[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { int __e0;__e0 = _buf.ReadInt(); redTypes[__index0] = __e0;}}
+        SkinTypes = _buf.ReadInt();
+        talentLegacyUseSixRes = _buf.ReadInt();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);breakItem = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); breakItem[__index0] = __e0;}}
+        NeedHero = _buf.ReadInt();
     }
 
-    public static Item_Item DeserializeItem_Item(JToken _buf)
+    public static Item_Item DeserializeItem_Item(ByteBuf _buf)
     {
         return new Item_Item(_buf);
     }
@@ -157,8 +153,7 @@ public sealed partial class Item_Item : Luban.BeanBase
     /// 购买时装二次确认
     /// </summary>
     public readonly int NeedHero;
-
-
+   
     public const int __ID__ = -138460993;
     public override int GetTypeId() => __ID__;
 
@@ -198,5 +193,6 @@ public sealed partial class Item_Item : Luban.BeanBase
         + "}";
     }
 }
+
 }
 

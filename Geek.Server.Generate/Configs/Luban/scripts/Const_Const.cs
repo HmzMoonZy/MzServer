@@ -8,26 +8,22 @@
 //------------------------------------------------------------------------------
 
 using Luban;
-using Newtonsoft.Json.Linq;
-
 
 
 namespace HotFix.Cfg
 {
-
 public sealed partial class Const_Const : Luban.BeanBase
 {
-    public Const_Const(JToken _buf) 
+    public Const_Const(ByteBuf _buf) 
     {
-        JObject _obj = _buf as JObject;
-        id = (string)_obj.GetValue("id");
-        note = (string)_obj.GetValue("note");
-        keyName = (string)_obj.GetValue("keyName");
-        valueType = (string)_obj.GetValue("valueType");
-        value = (string)_obj.GetValue("value");
+        id = _buf.ReadString();
+        note = _buf.ReadString();
+        keyName = _buf.ReadString();
+        valueType = _buf.ReadString();
+        value = _buf.ReadString();
     }
 
-    public static Const_Const DeserializeConst_Const(JToken _buf)
+    public static Const_Const DeserializeConst_Const(ByteBuf _buf)
     {
         return new Const_Const(_buf);
     }
@@ -52,8 +48,7 @@ public sealed partial class Const_Const : Luban.BeanBase
     /// 数值
     /// </summary>
     public readonly string value;
-
-
+   
     public const int __ID__ = -510315705;
     public override int GetTypeId() => __ID__;
 
@@ -72,5 +67,6 @@ public sealed partial class Const_Const : Luban.BeanBase
         + "}";
     }
 }
+
 }
 

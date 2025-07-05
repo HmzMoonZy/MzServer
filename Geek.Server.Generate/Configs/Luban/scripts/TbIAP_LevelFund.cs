@@ -7,14 +7,11 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-using Newtonsoft.Json.Linq;
 using Luban;
-
 
 
 namespace HotFix.Cfg
 {
-
 /// <summary>
 /// Generated from IAP.xlsx sheet LevelFund
 /// </summary>
@@ -23,20 +20,19 @@ public partial class TbIAP_LevelFund
     private readonly System.Collections.Generic.Dictionary<int, IAP_LevelFund> _dataMap;
     private readonly System.Collections.Generic.List<IAP_LevelFund> _dataList;
     
-    public TbIAP_LevelFund(JArray _buf)
+    public TbIAP_LevelFund(ByteBuf _buf)
     {
         _dataMap = new System.Collections.Generic.Dictionary<int, IAP_LevelFund>();
         _dataList = new System.Collections.Generic.List<IAP_LevelFund>();
         
-        foreach(JObject _ele in _buf)
+        for(int n = _buf.ReadSize() ; n > 0 ; --n)
         {
             IAP_LevelFund _v;
-            _v = global::HotFix.Cfg.IAP_LevelFund.DeserializeIAP_LevelFund(_ele);
+            _v = global::HotFix.Cfg.IAP_LevelFund.DeserializeIAP_LevelFund(_buf);
             _dataList.Add(_v);
             _dataMap.Add(_v.id, _v);
-         }
+        }
     }
-
 
     public System.Collections.Generic.Dictionary<int, IAP_LevelFund> DataMap => _dataMap;
     public System.Collections.Generic.List<IAP_LevelFund> DataList => _dataList;
@@ -54,5 +50,6 @@ public partial class TbIAP_LevelFund
     }
 
 }
+
 }
 

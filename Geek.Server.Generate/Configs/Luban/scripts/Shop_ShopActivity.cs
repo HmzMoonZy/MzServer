@@ -8,29 +8,25 @@
 //------------------------------------------------------------------------------
 
 using Luban;
-using Newtonsoft.Json.Linq;
-
 
 
 namespace HotFix.Cfg
 {
-
 public sealed partial class Shop_ShopActivity : Luban.BeanBase
 {
-    public Shop_ShopActivity(JToken _buf) 
+    public Shop_ShopActivity(ByteBuf _buf) 
     {
-        JObject _obj = _buf as JObject;
-        id = (int)_obj.GetValue("id");
-        type = (int)_obj.GetValue("type");
-        orderId = (int)_obj.GetValue("orderId");
-        linkType = (int)_obj.GetValue("linkType");
-        linkId = (int)_obj.GetValue("linkId");
-        openType = (int)_obj.GetValue("openType");
-        startTime = (string)_obj.GetValue("startTime");
-        endTime = (string)_obj.GetValue("endTime");
+        id = _buf.ReadInt();
+        type = _buf.ReadInt();
+        orderId = _buf.ReadInt();
+        linkType = _buf.ReadInt();
+        linkId = _buf.ReadInt();
+        openType = _buf.ReadInt();
+        startTime = _buf.ReadString();
+        endTime = _buf.ReadString();
     }
 
-    public static Shop_ShopActivity DeserializeShop_ShopActivity(JToken _buf)
+    public static Shop_ShopActivity DeserializeShop_ShopActivity(ByteBuf _buf)
     {
         return new Shop_ShopActivity(_buf);
     }
@@ -67,8 +63,7 @@ public sealed partial class Shop_ShopActivity : Luban.BeanBase
     /// 活动开始时间
     /// </summary>
     public readonly string endTime;
-
-
+   
     public const int __ID__ = 2056257230;
     public override int GetTypeId() => __ID__;
 
@@ -90,5 +85,6 @@ public sealed partial class Shop_ShopActivity : Luban.BeanBase
         + "}";
     }
 }
+
 }
 

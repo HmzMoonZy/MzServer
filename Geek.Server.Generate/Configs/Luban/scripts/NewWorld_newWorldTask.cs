@@ -8,26 +8,22 @@
 //------------------------------------------------------------------------------
 
 using Luban;
-using Newtonsoft.Json.Linq;
-
 
 
 namespace HotFix.Cfg
 {
-
 public sealed partial class NewWorld_newWorldTask : Luban.BeanBase
 {
-    public NewWorld_newWorldTask(JToken _buf) 
+    public NewWorld_newWorldTask(ByteBuf _buf) 
     {
-        JObject _obj = _buf as JObject;
-        id = (int)_obj.GetValue("id");
-        group = (int)_obj.GetValue("group");
-        nameId = (string)_obj.GetValue("nameId");
-        num = (int)_obj.GetValue("num");
-        { var __json0 = _obj.GetValue("reward"); int _n0 = (__json0 as JArray).Count; reward = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  reward[__index0++] = __v0; }   }
+        id = _buf.ReadInt();
+        group = _buf.ReadInt();
+        nameId = _buf.ReadString();
+        num = _buf.ReadInt();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);reward = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); reward[__index0] = __e0;}}
     }
 
-    public static NewWorld_newWorldTask DeserializeNewWorld_newWorldTask(JToken _buf)
+    public static NewWorld_newWorldTask DeserializeNewWorld_newWorldTask(ByteBuf _buf)
     {
         return new NewWorld_newWorldTask(_buf);
     }
@@ -52,8 +48,7 @@ public sealed partial class NewWorld_newWorldTask : Luban.BeanBase
     /// 完成奖励
     /// </summary>
     public readonly string[] reward;
-
-
+   
     public const int __ID__ = 146583460;
     public override int GetTypeId() => __ID__;
 
@@ -72,5 +67,6 @@ public sealed partial class NewWorld_newWorldTask : Luban.BeanBase
         + "}";
     }
 }
+
 }
 

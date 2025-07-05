@@ -8,35 +8,31 @@
 //------------------------------------------------------------------------------
 
 using Luban;
-using Newtonsoft.Json.Linq;
-
 
 
 namespace HotFix.Cfg
 {
-
 public sealed partial class IntegralShop_goods : Luban.BeanBase
 {
-    public IntegralShop_goods(JToken _buf) 
+    public IntegralShop_goods(ByteBuf _buf) 
     {
-        JObject _obj = _buf as JObject;
-        ID = (int)_obj.GetValue("ID");
-        TypeId = (int)_obj.GetValue("TypeId");
-        GroupId = (int)_obj.GetValue("GroupId");
-        WeightInGroup = (int)_obj.GetValue("WeightInGroup");
-        { var __json0 = _obj.GetValue("Items"); int _n0 = (__json0 as JArray).Count; Items = new int[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { int __v0;  __v0 = (int)__e0;  Items[__index0++] = __v0; }   }
-        RefreshType = (int)_obj.GetValue("RefreshType");
-        BuyTimes = (int)_obj.GetValue("BuyTimes");
-        currencyID = (int)_obj.GetValue("currencyID");
-        Price = (int)_obj.GetValue("Price");
-        Sort = (int)_obj.GetValue("Sort");
-        RequirementType = (int)_obj.GetValue("RequirementType");
-        LevelRequirements = (int)_obj.GetValue("LevelRequirements");
-        Discount = (int)_obj.GetValue("Discount");
-        Hide = (int)_obj.GetValue("Hide");
+        ID = _buf.ReadInt();
+        TypeId = _buf.ReadInt();
+        GroupId = _buf.ReadInt();
+        WeightInGroup = _buf.ReadInt();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);Items = new int[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { int __e0;__e0 = _buf.ReadInt(); Items[__index0] = __e0;}}
+        RefreshType = _buf.ReadInt();
+        BuyTimes = _buf.ReadInt();
+        currencyID = _buf.ReadInt();
+        Price = _buf.ReadInt();
+        Sort = _buf.ReadInt();
+        RequirementType = _buf.ReadInt();
+        LevelRequirements = _buf.ReadInt();
+        Discount = _buf.ReadInt();
+        Hide = _buf.ReadInt();
     }
 
-    public static IntegralShop_goods DeserializeIntegralShop_goods(JToken _buf)
+    public static IntegralShop_goods DeserializeIntegralShop_goods(ByteBuf _buf)
     {
         return new IntegralShop_goods(_buf);
     }
@@ -97,8 +93,7 @@ public sealed partial class IntegralShop_goods : Luban.BeanBase
     /// 是否隐藏<br/>0为否
     /// </summary>
     public readonly int Hide;
-
-
+   
     public const int __ID__ = 2023066553;
     public override int GetTypeId() => __ID__;
 
@@ -126,5 +121,6 @@ public sealed partial class IntegralShop_goods : Luban.BeanBase
         + "}";
     }
 }
+
 }
 

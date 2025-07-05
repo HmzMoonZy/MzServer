@@ -7,14 +7,11 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-using Newtonsoft.Json.Linq;
 using Luban;
-
 
 
 namespace HotFix.Cfg
 {
-
 /// <summary>
 /// Generated from Pet.xlsx sheet petLevel
 /// </summary>
@@ -23,20 +20,19 @@ public partial class TbPet_petLevel
     private readonly System.Collections.Generic.Dictionary<int, Pet_petLevel> _dataMap;
     private readonly System.Collections.Generic.List<Pet_petLevel> _dataList;
     
-    public TbPet_petLevel(JArray _buf)
+    public TbPet_petLevel(ByteBuf _buf)
     {
         _dataMap = new System.Collections.Generic.Dictionary<int, Pet_petLevel>();
         _dataList = new System.Collections.Generic.List<Pet_petLevel>();
         
-        foreach(JObject _ele in _buf)
+        for(int n = _buf.ReadSize() ; n > 0 ; --n)
         {
             Pet_petLevel _v;
-            _v = global::HotFix.Cfg.Pet_petLevel.DeserializePet_petLevel(_ele);
+            _v = global::HotFix.Cfg.Pet_petLevel.DeserializePet_petLevel(_buf);
             _dataList.Add(_v);
             _dataMap.Add(_v.id, _v);
-         }
+        }
     }
-
 
     public System.Collections.Generic.Dictionary<int, Pet_petLevel> DataMap => _dataMap;
     public System.Collections.Generic.List<Pet_petLevel> DataList => _dataList;
@@ -54,5 +50,6 @@ public partial class TbPet_petLevel
     }
 
 }
+
 }
 

@@ -7,14 +7,11 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-using Newtonsoft.Json.Linq;
 using Luban;
-
 
 
 namespace HotFix.Cfg
 {
-
 /// <summary>
 /// Generated from ActivitySignIn.xlsx sheet ActivitySignIn
 /// </summary>
@@ -23,20 +20,19 @@ public partial class TbActivitySignIn_ActivitySignIn
     private readonly System.Collections.Generic.Dictionary<int, ActivitySignIn_ActivitySignIn> _dataMap;
     private readonly System.Collections.Generic.List<ActivitySignIn_ActivitySignIn> _dataList;
     
-    public TbActivitySignIn_ActivitySignIn(JArray _buf)
+    public TbActivitySignIn_ActivitySignIn(ByteBuf _buf)
     {
         _dataMap = new System.Collections.Generic.Dictionary<int, ActivitySignIn_ActivitySignIn>();
         _dataList = new System.Collections.Generic.List<ActivitySignIn_ActivitySignIn>();
         
-        foreach(JObject _ele in _buf)
+        for(int n = _buf.ReadSize() ; n > 0 ; --n)
         {
             ActivitySignIn_ActivitySignIn _v;
-            _v = global::HotFix.Cfg.ActivitySignIn_ActivitySignIn.DeserializeActivitySignIn_ActivitySignIn(_ele);
+            _v = global::HotFix.Cfg.ActivitySignIn_ActivitySignIn.DeserializeActivitySignIn_ActivitySignIn(_buf);
             _dataList.Add(_v);
             _dataMap.Add(_v.ID, _v);
-         }
+        }
     }
-
 
     public System.Collections.Generic.Dictionary<int, ActivitySignIn_ActivitySignIn> DataMap => _dataMap;
     public System.Collections.Generic.List<ActivitySignIn_ActivitySignIn> DataList => _dataList;
@@ -54,5 +50,6 @@ public partial class TbActivitySignIn_ActivitySignIn
     }
 
 }
+
 }
 

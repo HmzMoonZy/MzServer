@@ -8,25 +8,21 @@
 //------------------------------------------------------------------------------
 
 using Luban;
-using Newtonsoft.Json.Linq;
-
 
 
 namespace HotFix.Cfg
 {
-
 public sealed partial class Capsule_GashaponBoxLucy : Luban.BeanBase
 {
-    public Capsule_GashaponBoxLucy(JToken _buf) 
+    public Capsule_GashaponBoxLucy(ByteBuf _buf) 
     {
-        JObject _obj = _buf as JObject;
-        ID = (int)_obj.GetValue("ID");
-        ConnectActivityId = (int)_obj.GetValue("ConnectActivityId");
-        Weight = (int)_obj.GetValue("Weight");
-        { var __json0 = _obj.GetValue("Rewards1"); int _n0 = (__json0 as JArray).Count; Rewards1 = new int[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { int __v0;  __v0 = (int)__e0;  Rewards1[__index0++] = __v0; }   }
+        ID = _buf.ReadInt();
+        ConnectActivityId = _buf.ReadInt();
+        Weight = _buf.ReadInt();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);Rewards1 = new int[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { int __e0;__e0 = _buf.ReadInt(); Rewards1[__index0] = __e0;}}
     }
 
-    public static Capsule_GashaponBoxLucy DeserializeCapsule_GashaponBoxLucy(JToken _buf)
+    public static Capsule_GashaponBoxLucy DeserializeCapsule_GashaponBoxLucy(ByteBuf _buf)
     {
         return new Capsule_GashaponBoxLucy(_buf);
     }
@@ -47,8 +43,7 @@ public sealed partial class Capsule_GashaponBoxLucy : Luban.BeanBase
     /// 奖励道具id|奖励数量
     /// </summary>
     public readonly int[] Rewards1;
-
-
+   
     public const int __ID__ = -847534181;
     public override int GetTypeId() => __ID__;
 
@@ -66,5 +61,6 @@ public sealed partial class Capsule_GashaponBoxLucy : Luban.BeanBase
         + "}";
     }
 }
+
 }
 

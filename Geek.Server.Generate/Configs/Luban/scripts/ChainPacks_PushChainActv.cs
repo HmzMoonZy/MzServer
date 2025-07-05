@@ -8,36 +8,32 @@
 //------------------------------------------------------------------------------
 
 using Luban;
-using Newtonsoft.Json.Linq;
-
 
 
 namespace HotFix.Cfg
 {
-
 public sealed partial class ChainPacks_PushChainActv : Luban.BeanBase
 {
-    public ChainPacks_PushChainActv(JToken _buf) 
+    public ChainPacks_PushChainActv(ByteBuf _buf) 
     {
-        JObject _obj = _buf as JObject;
-        id = (int)_obj.GetValue("id");
-        { var __json0 = _obj.GetValue("unlock"); int _n0 = (__json0 as JArray).Count; unlock = new int[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { int __v0;  __v0 = (int)__e0;  unlock[__index0++] = __v0; }   }
-        serverDelay = (int)_obj.GetValue("serverDelay");
-        type = (int)_obj.GetValue("type");
-        groupID = (int)_obj.GetValue("groupID");
-        name = (string)_obj.GetValue("name");
-        condition = (int)_obj.GetValue("condition");
-        cooldown = (int)_obj.GetValue("cooldown");
-        conditionParams = (int)_obj.GetValue("conditionParams");
-        groupOrder = (int)_obj.GetValue("groupOrder");
-        groupOrderChange = (int)_obj.GetValue("groupOrderChange");
-        order = (int)_obj.GetValue("order");
-        totalPay = (int)_obj.GetValue("totalPay");
-        lastSeconds = (int)_obj.GetValue("lastSeconds");
-        RateValue = (int)_obj.GetValue("RateValue");
+        id = _buf.ReadInt();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);unlock = new int[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { int __e0;__e0 = _buf.ReadInt(); unlock[__index0] = __e0;}}
+        serverDelay = _buf.ReadInt();
+        type = _buf.ReadInt();
+        groupID = _buf.ReadInt();
+        name = _buf.ReadString();
+        condition = _buf.ReadInt();
+        cooldown = _buf.ReadInt();
+        conditionParams = _buf.ReadInt();
+        groupOrder = _buf.ReadInt();
+        groupOrderChange = _buf.ReadInt();
+        order = _buf.ReadInt();
+        totalPay = _buf.ReadInt();
+        lastSeconds = _buf.ReadInt();
+        RateValue = _buf.ReadInt();
     }
 
-    public static ChainPacks_PushChainActv DeserializeChainPacks_PushChainActv(JToken _buf)
+    public static ChainPacks_PushChainActv DeserializeChainPacks_PushChainActv(ByteBuf _buf)
     {
         return new ChainPacks_PushChainActv(_buf);
     }
@@ -102,8 +98,7 @@ public sealed partial class ChainPacks_PushChainActv : Luban.BeanBase
     /// 回报百分比
     /// </summary>
     public readonly int RateValue;
-
-
+   
     public const int __ID__ = 540812293;
     public override int GetTypeId() => __ID__;
 
@@ -132,5 +127,6 @@ public sealed partial class ChainPacks_PushChainActv : Luban.BeanBase
         + "}";
     }
 }
+
 }
 

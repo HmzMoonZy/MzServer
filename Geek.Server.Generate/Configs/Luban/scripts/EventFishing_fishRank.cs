@@ -8,24 +8,20 @@
 //------------------------------------------------------------------------------
 
 using Luban;
-using Newtonsoft.Json.Linq;
-
 
 
 namespace HotFix.Cfg
 {
-
 public sealed partial class EventFishing_fishRank : Luban.BeanBase
 {
-    public EventFishing_fishRank(JToken _buf) 
+    public EventFishing_fishRank(ByteBuf _buf) 
     {
-        JObject _obj = _buf as JObject;
-        id = (int)_obj.GetValue("id");
-        WeightMax = (int)_obj.GetValue("WeightMax");
-        { var __json0 = _obj.GetValue("RankReward"); int _n0 = (__json0 as JArray).Count; RankReward = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  RankReward[__index0++] = __v0; }   }
+        id = _buf.ReadInt();
+        WeightMax = _buf.ReadInt();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);RankReward = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); RankReward[__index0] = __e0;}}
     }
 
-    public static EventFishing_fishRank DeserializeEventFishing_fishRank(JToken _buf)
+    public static EventFishing_fishRank DeserializeEventFishing_fishRank(ByteBuf _buf)
     {
         return new EventFishing_fishRank(_buf);
     }
@@ -42,8 +38,7 @@ public sealed partial class EventFishing_fishRank : Luban.BeanBase
     /// 排行榜奖励<br/>最高名次，最低名次，奖励|
     /// </summary>
     public readonly string[] RankReward;
-
-
+   
     public const int __ID__ = -2016942253;
     public override int GetTypeId() => __ID__;
 
@@ -60,5 +55,6 @@ public sealed partial class EventFishing_fishRank : Luban.BeanBase
         + "}";
     }
 }
+
 }
 

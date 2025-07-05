@@ -7,14 +7,11 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-using Newtonsoft.Json.Linq;
 using Luban;
-
 
 
 namespace HotFix.Cfg
 {
-
 /// <summary>
 /// Generated from ActvGeneral.xlsx sheet ActBattlePass
 /// </summary>
@@ -23,20 +20,19 @@ public partial class TbActvGeneral_ActBattlePass
     private readonly System.Collections.Generic.Dictionary<int, ActvGeneral_ActBattlePass> _dataMap;
     private readonly System.Collections.Generic.List<ActvGeneral_ActBattlePass> _dataList;
     
-    public TbActvGeneral_ActBattlePass(JArray _buf)
+    public TbActvGeneral_ActBattlePass(ByteBuf _buf)
     {
         _dataMap = new System.Collections.Generic.Dictionary<int, ActvGeneral_ActBattlePass>();
         _dataList = new System.Collections.Generic.List<ActvGeneral_ActBattlePass>();
         
-        foreach(JObject _ele in _buf)
+        for(int n = _buf.ReadSize() ; n > 0 ; --n)
         {
             ActvGeneral_ActBattlePass _v;
-            _v = global::HotFix.Cfg.ActvGeneral_ActBattlePass.DeserializeActvGeneral_ActBattlePass(_ele);
+            _v = global::HotFix.Cfg.ActvGeneral_ActBattlePass.DeserializeActvGeneral_ActBattlePass(_buf);
             _dataList.Add(_v);
             _dataMap.Add(_v.id, _v);
-         }
+        }
     }
-
 
     public System.Collections.Generic.Dictionary<int, ActvGeneral_ActBattlePass> DataMap => _dataMap;
     public System.Collections.Generic.List<ActvGeneral_ActBattlePass> DataList => _dataList;
@@ -54,5 +50,6 @@ public partial class TbActvGeneral_ActBattlePass
     }
 
 }
+
 }
 

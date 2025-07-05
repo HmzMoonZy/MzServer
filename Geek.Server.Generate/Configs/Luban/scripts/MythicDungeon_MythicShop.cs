@@ -8,30 +8,26 @@
 //------------------------------------------------------------------------------
 
 using Luban;
-using Newtonsoft.Json.Linq;
-
 
 
 namespace HotFix.Cfg
 {
-
 public sealed partial class MythicDungeon_MythicShop : Luban.BeanBase
 {
-    public MythicDungeon_MythicShop(JToken _buf) 
+    public MythicDungeon_MythicShop(ByteBuf _buf) 
     {
-        JObject _obj = _buf as JObject;
-        ID = (int)_obj.GetValue("ID");
-        GroupId = (int)_obj.GetValue("GroupId");
-        NameId = (string)_obj.GetValue("NameId");
-        RefreshType = (int)_obj.GetValue("RefreshType");
-        BuyTimes = (int)_obj.GetValue("BuyTimes");
-        { var __json0 = _obj.GetValue("NeedItem"); int _n0 = (__json0 as JArray).Count; NeedItem = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  NeedItem[__index0++] = __v0; }   }
-        { var __json0 = _obj.GetValue("RewardItem"); int _n0 = (__json0 as JArray).Count; RewardItem = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  RewardItem[__index0++] = __v0; }   }
-        RequirementType = (int)_obj.GetValue("RequirementType");
-        LevelRequirements = (int)_obj.GetValue("LevelRequirements");
+        ID = _buf.ReadInt();
+        GroupId = _buf.ReadInt();
+        NameId = _buf.ReadString();
+        RefreshType = _buf.ReadInt();
+        BuyTimes = _buf.ReadInt();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);NeedItem = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); NeedItem[__index0] = __e0;}}
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);RewardItem = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); RewardItem[__index0] = __e0;}}
+        RequirementType = _buf.ReadInt();
+        LevelRequirements = _buf.ReadInt();
     }
 
-    public static MythicDungeon_MythicShop DeserializeMythicDungeon_MythicShop(JToken _buf)
+    public static MythicDungeon_MythicShop DeserializeMythicDungeon_MythicShop(ByteBuf _buf)
     {
         return new MythicDungeon_MythicShop(_buf);
     }
@@ -72,8 +68,7 @@ public sealed partial class MythicDungeon_MythicShop : Luban.BeanBase
     /// 解锁参数<br/>达到解锁
     /// </summary>
     public readonly int LevelRequirements;
-
-
+   
     public const int __ID__ = -1869810929;
     public override int GetTypeId() => __ID__;
 
@@ -96,5 +91,6 @@ public sealed partial class MythicDungeon_MythicShop : Luban.BeanBase
         + "}";
     }
 }
+
 }
 

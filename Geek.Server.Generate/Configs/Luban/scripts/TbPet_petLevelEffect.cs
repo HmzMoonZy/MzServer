@@ -7,14 +7,11 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-using Newtonsoft.Json.Linq;
 using Luban;
-
 
 
 namespace HotFix.Cfg
 {
-
 /// <summary>
 /// Generated from Pet.xlsx sheet petLevelEffect
 /// </summary>
@@ -23,20 +20,19 @@ public partial class TbPet_petLevelEffect
     private readonly System.Collections.Generic.Dictionary<int, Pet_petLevelEffect> _dataMap;
     private readonly System.Collections.Generic.List<Pet_petLevelEffect> _dataList;
     
-    public TbPet_petLevelEffect(JArray _buf)
+    public TbPet_petLevelEffect(ByteBuf _buf)
     {
         _dataMap = new System.Collections.Generic.Dictionary<int, Pet_petLevelEffect>();
         _dataList = new System.Collections.Generic.List<Pet_petLevelEffect>();
         
-        foreach(JObject _ele in _buf)
+        for(int n = _buf.ReadSize() ; n > 0 ; --n)
         {
             Pet_petLevelEffect _v;
-            _v = global::HotFix.Cfg.Pet_petLevelEffect.DeserializePet_petLevelEffect(_ele);
+            _v = global::HotFix.Cfg.Pet_petLevelEffect.DeserializePet_petLevelEffect(_buf);
             _dataList.Add(_v);
             _dataMap.Add(_v.id, _v);
-         }
+        }
     }
-
 
     public System.Collections.Generic.Dictionary<int, Pet_petLevelEffect> DataMap => _dataMap;
     public System.Collections.Generic.List<Pet_petLevelEffect> DataList => _dataList;
@@ -54,5 +50,6 @@ public partial class TbPet_petLevelEffect
     }
 
 }
+
 }
 

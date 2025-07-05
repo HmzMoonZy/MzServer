@@ -7,14 +7,11 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-using Newtonsoft.Json.Linq;
 using Luban;
-
 
 
 namespace HotFix.Cfg
 {
-
 /// <summary>
 /// Generated from Artifact.xlsx sheet advanceArtifact
 /// </summary>
@@ -23,20 +20,19 @@ public partial class TbArtifact_advanceArtifact
     private readonly System.Collections.Generic.Dictionary<int, Artifact_advanceArtifact> _dataMap;
     private readonly System.Collections.Generic.List<Artifact_advanceArtifact> _dataList;
     
-    public TbArtifact_advanceArtifact(JArray _buf)
+    public TbArtifact_advanceArtifact(ByteBuf _buf)
     {
         _dataMap = new System.Collections.Generic.Dictionary<int, Artifact_advanceArtifact>();
         _dataList = new System.Collections.Generic.List<Artifact_advanceArtifact>();
         
-        foreach(JObject _ele in _buf)
+        for(int n = _buf.ReadSize() ; n > 0 ; --n)
         {
             Artifact_advanceArtifact _v;
-            _v = global::HotFix.Cfg.Artifact_advanceArtifact.DeserializeArtifact_advanceArtifact(_ele);
+            _v = global::HotFix.Cfg.Artifact_advanceArtifact.DeserializeArtifact_advanceArtifact(_buf);
             _dataList.Add(_v);
             _dataMap.Add(_v.id, _v);
-         }
+        }
     }
-
 
     public System.Collections.Generic.Dictionary<int, Artifact_advanceArtifact> DataMap => _dataMap;
     public System.Collections.Generic.List<Artifact_advanceArtifact> DataList => _dataList;
@@ -54,5 +50,6 @@ public partial class TbArtifact_advanceArtifact
     }
 
 }
+
 }
 

@@ -8,33 +8,29 @@
 //------------------------------------------------------------------------------
 
 using Luban;
-using Newtonsoft.Json.Linq;
-
 
 
 namespace HotFix.Cfg
 {
-
 public sealed partial class Shop_PigBank : Luban.BeanBase
 {
-    public Shop_PigBank(JToken _buf) 
+    public Shop_PigBank(ByteBuf _buf) 
     {
-        JObject _obj = _buf as JObject;
-        ID = (int)_obj.GetValue("ID");
-        ActivityId = (int)_obj.GetValue("ActivityId");
-        Type = (int)_obj.GetValue("Type");
-        ShopId = (int)_obj.GetValue("ShopId");
-        BaseValue = (int)_obj.GetValue("BaseValue");
-        InitValue = (int)_obj.GetValue("InitValue");
-        MaxValue = (int)_obj.GetValue("MaxValue");
-        LayerAdd = (int)_obj.GetValue("LayerAdd");
-        TimeLimit = (int)_obj.GetValue("TimeLimit");
-        TitleId = (string)_obj.GetValue("TitleId");
-        { var __json0 = _obj.GetValue("DescId"); int _n0 = (__json0 as JArray).Count; DescId = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  DescId[__index0++] = __v0; }   }
-        { var __json0 = _obj.GetValue("ResId"); int _n0 = (__json0 as JArray).Count; ResId = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  ResId[__index0++] = __v0; }   }
+        ID = _buf.ReadInt();
+        ActivityId = _buf.ReadInt();
+        Type = _buf.ReadInt();
+        ShopId = _buf.ReadInt();
+        BaseValue = _buf.ReadInt();
+        InitValue = _buf.ReadInt();
+        MaxValue = _buf.ReadInt();
+        LayerAdd = _buf.ReadInt();
+        TimeLimit = _buf.ReadInt();
+        TitleId = _buf.ReadString();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);DescId = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); DescId[__index0] = __e0;}}
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);ResId = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); ResId[__index0] = __e0;}}
     }
 
-    public static Shop_PigBank DeserializeShop_PigBank(JToken _buf)
+    public static Shop_PigBank DeserializeShop_PigBank(ByteBuf _buf)
     {
         return new Shop_PigBank(_buf);
     }
@@ -87,8 +83,7 @@ public sealed partial class Shop_PigBank : Luban.BeanBase
     /// 金猪对应资源ID<br/>主界面icon|活动面板图标
     /// </summary>
     public readonly string[] ResId;
-
-
+   
     public const int __ID__ = -1832661855;
     public override int GetTypeId() => __ID__;
 
@@ -114,5 +109,6 @@ public sealed partial class Shop_PigBank : Luban.BeanBase
         + "}";
     }
 }
+
 }
 

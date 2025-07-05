@@ -8,30 +8,26 @@
 //------------------------------------------------------------------------------
 
 using Luban;
-using Newtonsoft.Json.Linq;
-
 
 
 namespace HotFix.Cfg
 {
-
 public sealed partial class DailyLevel_monsterEntry : Luban.BeanBase
 {
-    public DailyLevel_monsterEntry(JToken _buf) 
+    public DailyLevel_monsterEntry(ByteBuf _buf) 
     {
-        JObject _obj = _buf as JObject;
-        id = (int)_obj.GetValue("id");
-        weight = (int)_obj.GetValue("weight");
-        type = (int)_obj.GetValue("type");
-        actionType = (int)_obj.GetValue("actionType");
-        entryParam = (string)_obj.GetValue("entryParam");
-        nameId = (string)_obj.GetValue("nameId");
-        desId = (string)_obj.GetValue("desId");
-        atlasId = (int)_obj.GetValue("atlasId");
-        icon = (string)_obj.GetValue("icon");
+        id = _buf.ReadInt();
+        weight = _buf.ReadInt();
+        type = _buf.ReadInt();
+        actionType = _buf.ReadInt();
+        entryParam = _buf.ReadString();
+        nameId = _buf.ReadString();
+        desId = _buf.ReadString();
+        atlasId = _buf.ReadInt();
+        icon = _buf.ReadString();
     }
 
-    public static DailyLevel_monsterEntry DeserializeDailyLevel_monsterEntry(JToken _buf)
+    public static DailyLevel_monsterEntry DeserializeDailyLevel_monsterEntry(ByteBuf _buf)
     {
         return new DailyLevel_monsterEntry(_buf);
     }
@@ -72,8 +68,7 @@ public sealed partial class DailyLevel_monsterEntry : Luban.BeanBase
     /// icon
     /// </summary>
     public readonly string icon;
-
-
+   
     public const int __ID__ = 1295305580;
     public override int GetTypeId() => __ID__;
 
@@ -96,5 +91,6 @@ public sealed partial class DailyLevel_monsterEntry : Luban.BeanBase
         + "}";
     }
 }
+
 }
 

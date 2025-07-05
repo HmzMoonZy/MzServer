@@ -8,28 +8,24 @@
 //------------------------------------------------------------------------------
 
 using Luban;
-using Newtonsoft.Json.Linq;
-
 
 
 namespace HotFix.Cfg
 {
-
 public sealed partial class Chapter_loopChapter : Luban.BeanBase
 {
-    public Chapter_loopChapter(JToken _buf) 
+    public Chapter_loopChapter(ByteBuf _buf) 
     {
-        JObject _obj = _buf as JObject;
-        id = (int)_obj.GetValue("id");
-        totalStage = (int)_obj.GetValue("totalStage");
-        { var __json0 = _obj.GetValue("eventQueue"); int _n0 = (__json0 as JArray).Count; eventQueue = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  eventQueue[__index0++] = __v0; }   }
-        { var __json0 = _obj.GetValue("normalEvent"); int _n0 = (__json0 as JArray).Count; normalEvent = new int[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { int __v0;  __v0 = (int)__e0;  normalEvent[__index0++] = __v0; }   }
-        { var __json0 = _obj.GetValue("monsterGroup"); int _n0 = (__json0 as JArray).Count; monsterGroup = new int[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { int __v0;  __v0 = (int)__e0;  monsterGroup[__index0++] = __v0; }   }
-        mapId = (int)_obj.GetValue("mapId");
-        { var __json0 = _obj.GetValue("bgm"); int _n0 = (__json0 as JArray).Count; bgm = new int[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { int __v0;  __v0 = (int)__e0;  bgm[__index0++] = __v0; }   }
+        id = _buf.ReadInt();
+        totalStage = _buf.ReadInt();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);eventQueue = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); eventQueue[__index0] = __e0;}}
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);normalEvent = new int[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { int __e0;__e0 = _buf.ReadInt(); normalEvent[__index0] = __e0;}}
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);monsterGroup = new int[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { int __e0;__e0 = _buf.ReadInt(); monsterGroup[__index0] = __e0;}}
+        mapId = _buf.ReadInt();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);bgm = new int[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { int __e0;__e0 = _buf.ReadInt(); bgm[__index0] = __e0;}}
     }
 
-    public static Chapter_loopChapter DeserializeChapter_loopChapter(JToken _buf)
+    public static Chapter_loopChapter DeserializeChapter_loopChapter(ByteBuf _buf)
     {
         return new Chapter_loopChapter(_buf);
     }
@@ -62,8 +58,7 @@ public sealed partial class Chapter_loopChapter : Luban.BeanBase
     /// 章节bgm<br/>非战斗|战斗|Boss
     /// </summary>
     public readonly int[] bgm;
-
-
+   
     public const int __ID__ = -603724809;
     public override int GetTypeId() => __ID__;
 
@@ -84,5 +79,6 @@ public sealed partial class Chapter_loopChapter : Luban.BeanBase
         + "}";
     }
 }
+
 }
 

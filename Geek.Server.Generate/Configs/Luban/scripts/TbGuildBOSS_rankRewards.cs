@@ -7,14 +7,11 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-using Newtonsoft.Json.Linq;
 using Luban;
-
 
 
 namespace HotFix.Cfg
 {
-
 /// <summary>
 /// Generated from GuildBOSS.xlsx sheet rankRewards
 /// </summary>
@@ -23,20 +20,19 @@ public partial class TbGuildBOSS_rankRewards
     private readonly System.Collections.Generic.Dictionary<int, GuildBOSS_rankRewards> _dataMap;
     private readonly System.Collections.Generic.List<GuildBOSS_rankRewards> _dataList;
     
-    public TbGuildBOSS_rankRewards(JArray _buf)
+    public TbGuildBOSS_rankRewards(ByteBuf _buf)
     {
         _dataMap = new System.Collections.Generic.Dictionary<int, GuildBOSS_rankRewards>();
         _dataList = new System.Collections.Generic.List<GuildBOSS_rankRewards>();
         
-        foreach(JObject _ele in _buf)
+        for(int n = _buf.ReadSize() ; n > 0 ; --n)
         {
             GuildBOSS_rankRewards _v;
-            _v = global::HotFix.Cfg.GuildBOSS_rankRewards.DeserializeGuildBOSS_rankRewards(_ele);
+            _v = global::HotFix.Cfg.GuildBOSS_rankRewards.DeserializeGuildBOSS_rankRewards(_buf);
             _dataList.Add(_v);
             _dataMap.Add(_v.ID, _v);
-         }
+        }
     }
-
 
     public System.Collections.Generic.Dictionary<int, GuildBOSS_rankRewards> DataMap => _dataMap;
     public System.Collections.Generic.List<GuildBOSS_rankRewards> DataList => _dataList;
@@ -54,5 +50,6 @@ public partial class TbGuildBOSS_rankRewards
     }
 
 }
+
 }
 

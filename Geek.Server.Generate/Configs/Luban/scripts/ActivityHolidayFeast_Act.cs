@@ -8,36 +8,32 @@
 //------------------------------------------------------------------------------
 
 using Luban;
-using Newtonsoft.Json.Linq;
-
 
 
 namespace HotFix.Cfg
 {
-
 public sealed partial class ActivityHolidayFeast_Act : Luban.BeanBase
 {
-    public ActivityHolidayFeast_Act(JToken _buf) 
+    public ActivityHolidayFeast_Act(ByteBuf _buf) 
     {
-        JObject _obj = _buf as JObject;
-        Id = (int)_obj.GetValue("Id");
-        MainType = (int)_obj.GetValue("MainType");
-        { var __json0 = _obj.GetValue("SubTypes"); int _n0 = (__json0 as JArray).Count; SubTypes = new int[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { int __v0;  __v0 = (int)__e0;  SubTypes[__index0++] = __v0; }   }
-        OpenTime = (string)_obj.GetValue("OpenTime");
-        EndTime = (string)_obj.GetValue("EndTime");
-        OpenTimeCN = (string)_obj.GetValue("OpenTimeCN");
-        EndTimeCN = (string)_obj.GetValue("EndTimeCN");
-        Feast_TitleId = (string)_obj.GetValue("Feast_TitleId");
-        Feast_Title_OffsetX = (float)_obj.GetValue("Feast_Title_OffsetX");
-        Feast_Title_OffsetY = (float)_obj.GetValue("Feast_Title_OffsetY");
-        Activity_Bgm = (int)_obj.GetValue("Activity_Bgm");
-        EntryType = (int)_obj.GetValue("EntryType");
-        IsFixed = (int)_obj.GetValue("IsFixed");
-        Feast_HelperTitleId = (string)_obj.GetValue("Feast_HelperTitleId");
-        Feast_HelperDescId = (string)_obj.GetValue("Feast_HelperDescId");
+        Id = _buf.ReadInt();
+        MainType = _buf.ReadInt();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);SubTypes = new int[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { int __e0;__e0 = _buf.ReadInt(); SubTypes[__index0] = __e0;}}
+        OpenTime = _buf.ReadString();
+        EndTime = _buf.ReadString();
+        OpenTimeCN = _buf.ReadString();
+        EndTimeCN = _buf.ReadString();
+        Feast_TitleId = _buf.ReadString();
+        Feast_Title_OffsetX = _buf.ReadFloat();
+        Feast_Title_OffsetY = _buf.ReadFloat();
+        Activity_Bgm = _buf.ReadInt();
+        EntryType = _buf.ReadInt();
+        IsFixed = _buf.ReadInt();
+        Feast_HelperTitleId = _buf.ReadString();
+        Feast_HelperDescId = _buf.ReadString();
     }
 
-    public static ActivityHolidayFeast_Act DeserializeActivityHolidayFeast_Act(JToken _buf)
+    public static ActivityHolidayFeast_Act DeserializeActivityHolidayFeast_Act(ByteBuf _buf)
     {
         return new ActivityHolidayFeast_Act(_buf);
     }
@@ -102,8 +98,7 @@ public sealed partial class ActivityHolidayFeast_Act : Luban.BeanBase
     /// 活动盛宴说明内容
     /// </summary>
     public readonly string Feast_HelperDescId;
-
-
+   
     public const int __ID__ = -493306003;
     public override int GetTypeId() => __ID__;
 
@@ -132,5 +127,6 @@ public sealed partial class ActivityHolidayFeast_Act : Luban.BeanBase
         + "}";
     }
 }
+
 }
 

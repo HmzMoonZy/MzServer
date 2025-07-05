@@ -8,29 +8,25 @@
 //------------------------------------------------------------------------------
 
 using Luban;
-using Newtonsoft.Json.Linq;
-
 
 
 namespace HotFix.Cfg
 {
-
 public sealed partial class MythicDungeon_mythicBookShow : Luban.BeanBase
 {
-    public MythicDungeon_mythicBookShow(JToken _buf) 
+    public MythicDungeon_mythicBookShow(ByteBuf _buf) 
     {
-        JObject _obj = _buf as JObject;
-        id = (int)_obj.GetValue("id");
-        nameId = (string)_obj.GetValue("nameId");
-        detailNameId = (string)_obj.GetValue("detailNameId");
-        atlasId = (int)_obj.GetValue("atlasId");
-        spriteName = (string)_obj.GetValue("spriteName");
-        itemBg = (string)_obj.GetValue("itemBg");
-        quaAtlasId = (int)_obj.GetValue("quaAtlasId");
-        quaSpriteName = (string)_obj.GetValue("quaSpriteName");
+        id = _buf.ReadInt();
+        nameId = _buf.ReadString();
+        detailNameId = _buf.ReadString();
+        atlasId = _buf.ReadInt();
+        spriteName = _buf.ReadString();
+        itemBg = _buf.ReadString();
+        quaAtlasId = _buf.ReadInt();
+        quaSpriteName = _buf.ReadString();
     }
 
-    public static MythicDungeon_mythicBookShow DeserializeMythicDungeon_mythicBookShow(JToken _buf)
+    public static MythicDungeon_mythicBookShow DeserializeMythicDungeon_mythicBookShow(ByteBuf _buf)
     {
         return new MythicDungeon_mythicBookShow(_buf);
     }
@@ -67,8 +63,7 @@ public sealed partial class MythicDungeon_mythicBookShow : Luban.BeanBase
     /// 品质图标id
     /// </summary>
     public readonly string quaSpriteName;
-
-
+   
     public const int __ID__ = -1818196737;
     public override int GetTypeId() => __ID__;
 
@@ -90,5 +85,6 @@ public sealed partial class MythicDungeon_mythicBookShow : Luban.BeanBase
         + "}";
     }
 }
+
 }
 

@@ -8,30 +8,26 @@
 //------------------------------------------------------------------------------
 
 using Luban;
-using Newtonsoft.Json.Linq;
-
 
 
 namespace HotFix.Cfg
 {
-
 public sealed partial class Collection_collectionSuit : Luban.BeanBase
 {
-    public Collection_collectionSuit(JToken _buf) 
+    public Collection_collectionSuit(ByteBuf _buf) 
     {
-        JObject _obj = _buf as JObject;
-        id = (int)_obj.GetValue("id");
-        suitId = (int)_obj.GetValue("suitId");
-        suitNameId = (string)_obj.GetValue("suitNameId");
-        conditionType = (int)_obj.GetValue("conditionType");
-        conditionParam = (int)_obj.GetValue("conditionParam");
-        conditonPrifixTextId = (string)_obj.GetValue("conditonPrifixTextId");
-        { var __json0 = _obj.GetValue("collectionId"); int _n0 = (__json0 as JArray).Count; collectionId = new int[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { int __v0;  __v0 = (int)__e0;  collectionId[__index0++] = __v0; }   }
-        attributes = (string)_obj.GetValue("attributes");
-        { var __json0 = _obj.GetValue("power"); int _n0 = (__json0 as JArray).Count; power = new int[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { int __v0;  __v0 = (int)__e0;  power[__index0++] = __v0; }   }
+        id = _buf.ReadInt();
+        suitId = _buf.ReadInt();
+        suitNameId = _buf.ReadString();
+        conditionType = _buf.ReadInt();
+        conditionParam = _buf.ReadInt();
+        conditonPrifixTextId = _buf.ReadString();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);collectionId = new int[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { int __e0;__e0 = _buf.ReadInt(); collectionId[__index0] = __e0;}}
+        attributes = _buf.ReadString();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);power = new int[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { int __e0;__e0 = _buf.ReadInt(); power[__index0] = __e0;}}
     }
 
-    public static Collection_collectionSuit DeserializeCollection_collectionSuit(JToken _buf)
+    public static Collection_collectionSuit DeserializeCollection_collectionSuit(ByteBuf _buf)
     {
         return new Collection_collectionSuit(_buf);
     }
@@ -72,8 +68,7 @@ public sealed partial class Collection_collectionSuit : Luban.BeanBase
     /// 层数2万分比战力<br/>层数3万分比战力<br/>（拥有增加战力）
     /// </summary>
     public readonly int[] power;
-
-
+   
     public const int __ID__ = -1729429908;
     public override int GetTypeId() => __ID__;
 
@@ -96,5 +91,6 @@ public sealed partial class Collection_collectionSuit : Luban.BeanBase
         + "}";
     }
 }
+
 }
 

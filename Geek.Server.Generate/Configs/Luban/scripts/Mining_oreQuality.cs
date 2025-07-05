@@ -8,24 +8,20 @@
 //------------------------------------------------------------------------------
 
 using Luban;
-using Newtonsoft.Json.Linq;
-
 
 
 namespace HotFix.Cfg
 {
-
 public sealed partial class Mining_oreQuality : Luban.BeanBase
 {
-    public Mining_oreQuality(JToken _buf) 
+    public Mining_oreQuality(ByteBuf _buf) 
     {
-        JObject _obj = _buf as JObject;
-        id = (int)_obj.GetValue("id");
-        upgradeRate = (int)_obj.GetValue("upgradeRate");
-        languageId = (string)_obj.GetValue("languageId");
+        id = _buf.ReadInt();
+        upgradeRate = _buf.ReadInt();
+        languageId = _buf.ReadString();
     }
 
-    public static Mining_oreQuality DeserializeMining_oreQuality(JToken _buf)
+    public static Mining_oreQuality DeserializeMining_oreQuality(ByteBuf _buf)
     {
         return new Mining_oreQuality(_buf);
     }
@@ -42,8 +38,7 @@ public sealed partial class Mining_oreQuality : Luban.BeanBase
     /// 多语言
     /// </summary>
     public readonly string languageId;
-
-
+   
     public const int __ID__ = 1442927340;
     public override int GetTypeId() => __ID__;
 
@@ -60,5 +55,6 @@ public sealed partial class Mining_oreQuality : Luban.BeanBase
         + "}";
     }
 }
+
 }
 

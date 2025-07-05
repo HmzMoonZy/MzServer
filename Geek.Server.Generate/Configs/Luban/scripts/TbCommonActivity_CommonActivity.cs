@@ -7,14 +7,11 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-using Newtonsoft.Json.Linq;
 using Luban;
-
 
 
 namespace HotFix.Cfg
 {
-
 /// <summary>
 /// Generated from CommonActivity.xlsx sheet CommonActivity
 /// </summary>
@@ -23,20 +20,19 @@ public partial class TbCommonActivity_CommonActivity
     private readonly System.Collections.Generic.Dictionary<int, CommonActivity_CommonActivity> _dataMap;
     private readonly System.Collections.Generic.List<CommonActivity_CommonActivity> _dataList;
     
-    public TbCommonActivity_CommonActivity(JArray _buf)
+    public TbCommonActivity_CommonActivity(ByteBuf _buf)
     {
         _dataMap = new System.Collections.Generic.Dictionary<int, CommonActivity_CommonActivity>();
         _dataList = new System.Collections.Generic.List<CommonActivity_CommonActivity>();
         
-        foreach(JObject _ele in _buf)
+        for(int n = _buf.ReadSize() ; n > 0 ; --n)
         {
             CommonActivity_CommonActivity _v;
-            _v = global::HotFix.Cfg.CommonActivity_CommonActivity.DeserializeCommonActivity_CommonActivity(_ele);
+            _v = global::HotFix.Cfg.CommonActivity_CommonActivity.DeserializeCommonActivity_CommonActivity(_buf);
             _dataList.Add(_v);
             _dataMap.Add(_v.Id, _v);
-         }
+        }
     }
-
 
     public System.Collections.Generic.Dictionary<int, CommonActivity_CommonActivity> DataMap => _dataMap;
     public System.Collections.Generic.List<CommonActivity_CommonActivity> DataList => _dataList;
@@ -54,5 +50,6 @@ public partial class TbCommonActivity_CommonActivity
     }
 
 }
+
 }
 

@@ -7,14 +7,11 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-using Newtonsoft.Json.Linq;
 using Luban;
-
 
 
 namespace HotFix.Cfg
 {
-
 /// <summary>
 /// Generated from GameSkill.xlsx sheet skillCondition
 /// </summary>
@@ -23,20 +20,19 @@ public partial class TbGameSkill_skillCondition
     private readonly System.Collections.Generic.Dictionary<int, GameSkill_skillCondition> _dataMap;
     private readonly System.Collections.Generic.List<GameSkill_skillCondition> _dataList;
     
-    public TbGameSkill_skillCondition(JArray _buf)
+    public TbGameSkill_skillCondition(ByteBuf _buf)
     {
         _dataMap = new System.Collections.Generic.Dictionary<int, GameSkill_skillCondition>();
         _dataList = new System.Collections.Generic.List<GameSkill_skillCondition>();
         
-        foreach(JObject _ele in _buf)
+        for(int n = _buf.ReadSize() ; n > 0 ; --n)
         {
             GameSkill_skillCondition _v;
-            _v = global::HotFix.Cfg.GameSkill_skillCondition.DeserializeGameSkill_skillCondition(_ele);
+            _v = global::HotFix.Cfg.GameSkill_skillCondition.DeserializeGameSkill_skillCondition(_buf);
             _dataList.Add(_v);
             _dataMap.Add(_v.id, _v);
-         }
+        }
     }
-
 
     public System.Collections.Generic.Dictionary<int, GameSkill_skillCondition> DataMap => _dataMap;
     public System.Collections.Generic.List<GameSkill_skillCondition> DataList => _dataList;
@@ -54,5 +50,6 @@ public partial class TbGameSkill_skillCondition
     }
 
 }
+
 }
 

@@ -8,32 +8,28 @@
 //------------------------------------------------------------------------------
 
 using Luban;
-using Newtonsoft.Json.Linq;
-
 
 
 namespace HotFix.Cfg
 {
-
 public sealed partial class Artifact_ArtifactAwake : Luban.BeanBase
 {
-    public Artifact_ArtifactAwake(JToken _buf) 
+    public Artifact_ArtifactAwake(ByteBuf _buf) 
     {
-        JObject _obj = _buf as JObject;
-        id = (int)_obj.GetValue("id");
-        AwakeLevel = (int)_obj.GetValue("AwakeLevel");
-        { var __json0 = _obj.GetValue("AwakeCost"); int _n0 = (__json0 as JArray).Count; AwakeCost = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  AwakeCost[__index0++] = __v0; }   }
-        atkFactor = (int)_obj.GetValue("atkFactor");
-        SkillLevel = (int)_obj.GetValue("SkillLevel");
-        { var __json0 = _obj.GetValue("initSkill"); int _n0 = (__json0 as JArray).Count; initSkill = new int[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { int __v0;  __v0 = (int)__e0;  initSkill[__index0++] = __v0; }   }
-        initSkillSimple = (string)_obj.GetValue("initSkillSimple");
-        UpDescribe = (string)_obj.GetValue("UpDescribe");
-        { var __json0 = _obj.GetValue("attribute"); int _n0 = (__json0 as JArray).Count; attribute = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  attribute[__index0++] = __v0; }   }
-        { var __json0 = _obj.GetValue("power"); int _n0 = (__json0 as JArray).Count; power = new int[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { int __v0;  __v0 = (int)__e0;  power[__index0++] = __v0; }   }
-        { var __json0 = _obj.GetValue("activePower"); int _n0 = (__json0 as JArray).Count; activePower = new int[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { int __v0;  __v0 = (int)__e0;  activePower[__index0++] = __v0; }   }
+        id = _buf.ReadInt();
+        AwakeLevel = _buf.ReadInt();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);AwakeCost = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); AwakeCost[__index0] = __e0;}}
+        atkFactor = _buf.ReadInt();
+        SkillLevel = _buf.ReadInt();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);initSkill = new int[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { int __e0;__e0 = _buf.ReadInt(); initSkill[__index0] = __e0;}}
+        initSkillSimple = _buf.ReadString();
+        UpDescribe = _buf.ReadString();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);attribute = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); attribute[__index0] = __e0;}}
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);power = new int[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { int __e0;__e0 = _buf.ReadInt(); power[__index0] = __e0;}}
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);activePower = new int[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { int __e0;__e0 = _buf.ReadInt(); activePower[__index0] = __e0;}}
     }
 
-    public static Artifact_ArtifactAwake DeserializeArtifact_ArtifactAwake(JToken _buf)
+    public static Artifact_ArtifactAwake DeserializeArtifact_ArtifactAwake(ByteBuf _buf)
     {
         return new Artifact_ArtifactAwake(_buf);
     }
@@ -82,8 +78,7 @@ public sealed partial class Artifact_ArtifactAwake : Luban.BeanBase
     /// 层数2万分比战力<br/>层数3万分比战力<br/>（上阵增加战力）
     /// </summary>
     public readonly int[] activePower;
-
-
+   
     public const int __ID__ = 258372390;
     public override int GetTypeId() => __ID__;
 
@@ -108,5 +103,6 @@ public sealed partial class Artifact_ArtifactAwake : Luban.BeanBase
         + "}";
     }
 }
+
 }
 

@@ -8,26 +8,22 @@
 //------------------------------------------------------------------------------
 
 using Luban;
-using Newtonsoft.Json.Linq;
-
 
 
 namespace HotFix.Cfg
 {
-
 public sealed partial class GameBuff_overlayType : Luban.BeanBase
 {
-    public GameBuff_overlayType(JToken _buf) 
+    public GameBuff_overlayType(ByteBuf _buf) 
     {
-        JObject _obj = _buf as JObject;
-        id = (int)_obj.GetValue("id");
-        sameResultOverlayType = (int)_obj.GetValue("sameResultOverlayType");
-        sameTimeOverlayType = (int)_obj.GetValue("sameTimeOverlayType");
-        diffResultOverlayType = (int)_obj.GetValue("diffResultOverlayType");
-        diffTimeOverlayType = (int)_obj.GetValue("diffTimeOverlayType");
+        id = _buf.ReadInt();
+        sameResultOverlayType = _buf.ReadInt();
+        sameTimeOverlayType = _buf.ReadInt();
+        diffResultOverlayType = _buf.ReadInt();
+        diffTimeOverlayType = _buf.ReadInt();
     }
 
-    public static GameBuff_overlayType DeserializeGameBuff_overlayType(JToken _buf)
+    public static GameBuff_overlayType DeserializeGameBuff_overlayType(ByteBuf _buf)
     {
         return new GameBuff_overlayType(_buf);
     }
@@ -52,8 +48,7 @@ public sealed partial class GameBuff_overlayType : Luban.BeanBase
     /// buff时间叠加类型<br/>1、时间叠加<br/>2、时间刷新<br/>3、时间不变
     /// </summary>
     public readonly int diffTimeOverlayType;
-
-
+   
     public const int __ID__ = -1296627216;
     public override int GetTypeId() => __ID__;
 
@@ -72,5 +67,6 @@ public sealed partial class GameBuff_overlayType : Luban.BeanBase
         + "}";
     }
 }
+
 }
 

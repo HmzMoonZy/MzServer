@@ -7,14 +7,11 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-using Newtonsoft.Json.Linq;
 using Luban;
-
 
 
 namespace HotFix.Cfg
 {
-
 /// <summary>
 /// Generated from EventFishing.xlsx sheet fishArea
 /// </summary>
@@ -23,20 +20,19 @@ public partial class TbEventFishing_fishArea
     private readonly System.Collections.Generic.Dictionary<int, EventFishing_fishArea> _dataMap;
     private readonly System.Collections.Generic.List<EventFishing_fishArea> _dataList;
     
-    public TbEventFishing_fishArea(JArray _buf)
+    public TbEventFishing_fishArea(ByteBuf _buf)
     {
         _dataMap = new System.Collections.Generic.Dictionary<int, EventFishing_fishArea>();
         _dataList = new System.Collections.Generic.List<EventFishing_fishArea>();
         
-        foreach(JObject _ele in _buf)
+        for(int n = _buf.ReadSize() ; n > 0 ; --n)
         {
             EventFishing_fishArea _v;
-            _v = global::HotFix.Cfg.EventFishing_fishArea.DeserializeEventFishing_fishArea(_ele);
+            _v = global::HotFix.Cfg.EventFishing_fishArea.DeserializeEventFishing_fishArea(_buf);
             _dataList.Add(_v);
             _dataMap.Add(_v.id, _v);
-         }
+        }
     }
-
 
     public System.Collections.Generic.Dictionary<int, EventFishing_fishArea> DataMap => _dataMap;
     public System.Collections.Generic.List<EventFishing_fishArea> DataList => _dataList;
@@ -54,5 +50,6 @@ public partial class TbEventFishing_fishArea
     }
 
 }
+
 }
 

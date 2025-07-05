@@ -63,10 +63,12 @@ namespace Geek.Server.Config
 
 				if (loaderReturnType == typeof(Luban.ByteBuf))
 				{
+					LOGGER.Info("数据类型: ByteBuf");
 					processor = new Func<string, Luban.ByteBuf>(BinLoader);
 				}
 				else if (loaderReturnType == typeof(JArray))
 				{
+					LOGGER.Info("数据类型: Json");
 					processor = new Func<string, JArray>(JsonLoader);
 				}
 				else

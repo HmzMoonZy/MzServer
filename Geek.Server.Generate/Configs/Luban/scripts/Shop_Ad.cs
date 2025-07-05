@@ -8,25 +8,21 @@
 //------------------------------------------------------------------------------
 
 using Luban;
-using Newtonsoft.Json.Linq;
-
 
 
 namespace HotFix.Cfg
 {
-
 public sealed partial class Shop_Ad : Luban.BeanBase
 {
-    public Shop_Ad(JToken _buf) 
+    public Shop_Ad(ByteBuf _buf) 
     {
-        JObject _obj = _buf as JObject;
-        id = (int)_obj.GetValue("id");
-        adTimes = (int)_obj.GetValue("adTimes");
-        adCountDown = (int)_obj.GetValue("adCountDown");
-        languageId = (string)_obj.GetValue("languageId");
+        id = _buf.ReadInt();
+        adTimes = _buf.ReadInt();
+        adCountDown = _buf.ReadInt();
+        languageId = _buf.ReadString();
     }
 
-    public static Shop_Ad DeserializeShop_Ad(JToken _buf)
+    public static Shop_Ad DeserializeShop_Ad(ByteBuf _buf)
     {
         return new Shop_Ad(_buf);
     }
@@ -47,8 +43,7 @@ public sealed partial class Shop_Ad : Luban.BeanBase
     /// 描述id
     /// </summary>
     public readonly string languageId;
-
-
+   
     public const int __ID__ = -563233268;
     public override int GetTypeId() => __ID__;
 
@@ -66,5 +61,6 @@ public sealed partial class Shop_Ad : Luban.BeanBase
         + "}";
     }
 }
+
 }
 

@@ -7,14 +7,11 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-using Newtonsoft.Json.Linq;
 using Luban;
-
 
 
 namespace HotFix.Cfg
 {
-
 /// <summary>
 /// Generated from SignIn.xlsx sheet SignIn
 /// </summary>
@@ -23,20 +20,19 @@ public partial class TbSignIn_SignIn
     private readonly System.Collections.Generic.Dictionary<int, SignIn_SignIn> _dataMap;
     private readonly System.Collections.Generic.List<SignIn_SignIn> _dataList;
     
-    public TbSignIn_SignIn(JArray _buf)
+    public TbSignIn_SignIn(ByteBuf _buf)
     {
         _dataMap = new System.Collections.Generic.Dictionary<int, SignIn_SignIn>();
         _dataList = new System.Collections.Generic.List<SignIn_SignIn>();
         
-        foreach(JObject _ele in _buf)
+        for(int n = _buf.ReadSize() ; n > 0 ; --n)
         {
             SignIn_SignIn _v;
-            _v = global::HotFix.Cfg.SignIn_SignIn.DeserializeSignIn_SignIn(_ele);
+            _v = global::HotFix.Cfg.SignIn_SignIn.DeserializeSignIn_SignIn(_buf);
             _dataList.Add(_v);
             _dataMap.Add(_v.ID, _v);
-         }
+        }
     }
-
 
     public System.Collections.Generic.Dictionary<int, SignIn_SignIn> DataMap => _dataMap;
     public System.Collections.Generic.List<SignIn_SignIn> DataList => _dataList;
@@ -54,5 +50,6 @@ public partial class TbSignIn_SignIn
     }
 
 }
+
 }
 

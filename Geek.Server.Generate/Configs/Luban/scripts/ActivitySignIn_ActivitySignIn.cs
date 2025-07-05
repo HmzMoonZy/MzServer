@@ -8,38 +8,34 @@
 //------------------------------------------------------------------------------
 
 using Luban;
-using Newtonsoft.Json.Linq;
-
 
 
 namespace HotFix.Cfg
 {
-
 public sealed partial class ActivitySignIn_ActivitySignIn : Luban.BeanBase
 {
-    public ActivitySignIn_ActivitySignIn(JToken _buf) 
+    public ActivitySignIn_ActivitySignIn(ByteBuf _buf) 
     {
-        JObject _obj = _buf as JObject;
-        ID = (int)_obj.GetValue("ID");
-        openTime = (string)_obj.GetValue("openTime");
-        endTime = (string)_obj.GetValue("endTime");
-        openTimeCN = (string)_obj.GetValue("openTimeCN");
-        endTimeCN = (string)_obj.GetValue("endTimeCN");
-        { var __json0 = _obj.GetValue("Day1"); int _n0 = (__json0 as JArray).Count; Day1 = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  Day1[__index0++] = __v0; }   }
-        { var __json0 = _obj.GetValue("Day2"); int _n0 = (__json0 as JArray).Count; Day2 = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  Day2[__index0++] = __v0; }   }
-        { var __json0 = _obj.GetValue("Day3"); int _n0 = (__json0 as JArray).Count; Day3 = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  Day3[__index0++] = __v0; }   }
-        { var __json0 = _obj.GetValue("Day4"); int _n0 = (__json0 as JArray).Count; Day4 = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  Day4[__index0++] = __v0; }   }
-        { var __json0 = _obj.GetValue("Day5"); int _n0 = (__json0 as JArray).Count; Day5 = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  Day5[__index0++] = __v0; }   }
-        { var __json0 = _obj.GetValue("Day6"); int _n0 = (__json0 as JArray).Count; Day6 = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  Day6[__index0++] = __v0; }   }
-        { var __json0 = _obj.GetValue("Day7"); int _n0 = (__json0 as JArray).Count; Day7 = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  Day7[__index0++] = __v0; }   }
-        colour = (string)_obj.GetValue("colour");
-        atlasId = (int)_obj.GetValue("atlasId");
-        imgBanner = (string)_obj.GetValue("imgBanner");
-        itemBg = (string)_obj.GetValue("itemBg");
-        CVLangId = (string)_obj.GetValue("CVLangId");
+        ID = _buf.ReadInt();
+        openTime = _buf.ReadString();
+        endTime = _buf.ReadString();
+        openTimeCN = _buf.ReadString();
+        endTimeCN = _buf.ReadString();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);Day1 = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); Day1[__index0] = __e0;}}
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);Day2 = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); Day2[__index0] = __e0;}}
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);Day3 = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); Day3[__index0] = __e0;}}
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);Day4 = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); Day4[__index0] = __e0;}}
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);Day5 = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); Day5[__index0] = __e0;}}
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);Day6 = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); Day6[__index0] = __e0;}}
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);Day7 = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); Day7[__index0] = __e0;}}
+        colour = _buf.ReadString();
+        atlasId = _buf.ReadInt();
+        imgBanner = _buf.ReadString();
+        itemBg = _buf.ReadString();
+        CVLangId = _buf.ReadString();
     }
 
-    public static ActivitySignIn_ActivitySignIn DeserializeActivitySignIn_ActivitySignIn(JToken _buf)
+    public static ActivitySignIn_ActivitySignIn DeserializeActivitySignIn_ActivitySignIn(ByteBuf _buf)
     {
         return new ActivitySignIn_ActivitySignIn(_buf);
     }
@@ -112,8 +108,7 @@ public sealed partial class ActivitySignIn_ActivitySignIn : Luban.BeanBase
     /// 版权相关多语言id
     /// </summary>
     public readonly string CVLangId;
-
-
+   
     public const int __ID__ = -1627737601;
     public override int GetTypeId() => __ID__;
 
@@ -144,5 +139,6 @@ public sealed partial class ActivitySignIn_ActivitySignIn : Luban.BeanBase
         + "}";
     }
 }
+
 }
 

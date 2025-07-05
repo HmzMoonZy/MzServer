@@ -8,25 +8,21 @@
 //------------------------------------------------------------------------------
 
 using Luban;
-using Newtonsoft.Json.Linq;
-
 
 
 namespace HotFix.Cfg
 {
-
 public sealed partial class Quality_guildBossQuality : Luban.BeanBase
 {
-    public Quality_guildBossQuality(JToken _buf) 
+    public Quality_guildBossQuality(ByteBuf _buf) 
     {
-        JObject _obj = _buf as JObject;
-        id = (int)_obj.GetValue("id");
-        atlasId = (int)_obj.GetValue("atlasId");
-        guildBossGradeBgName = (string)_obj.GetValue("guildBossGradeBgName");
-        gradeColor = (string)_obj.GetValue("gradeColor");
+        id = _buf.ReadInt();
+        atlasId = _buf.ReadInt();
+        guildBossGradeBgName = _buf.ReadString();
+        gradeColor = _buf.ReadString();
     }
 
-    public static Quality_guildBossQuality DeserializeQuality_guildBossQuality(JToken _buf)
+    public static Quality_guildBossQuality DeserializeQuality_guildBossQuality(ByteBuf _buf)
     {
         return new Quality_guildBossQuality(_buf);
     }
@@ -47,8 +43,7 @@ public sealed partial class Quality_guildBossQuality : Luban.BeanBase
     /// 阶级颜色
     /// </summary>
     public readonly string gradeColor;
-
-
+   
     public const int __ID__ = 776364607;
     public override int GetTypeId() => __ID__;
 
@@ -66,5 +61,6 @@ public sealed partial class Quality_guildBossQuality : Luban.BeanBase
         + "}";
     }
 }
+
 }
 

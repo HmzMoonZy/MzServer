@@ -7,14 +7,11 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-using Newtonsoft.Json.Linq;
 using Luban;
-
 
 
 namespace HotFix.Cfg
 {
-
 /// <summary>
 /// Generated from GuildWar.xlsx sheet GuildRank
 /// </summary>
@@ -23,20 +20,19 @@ public partial class TbGuildWar_GuildRank
     private readonly System.Collections.Generic.Dictionary<int, GuildWar_GuildRank> _dataMap;
     private readonly System.Collections.Generic.List<GuildWar_GuildRank> _dataList;
     
-    public TbGuildWar_GuildRank(JArray _buf)
+    public TbGuildWar_GuildRank(ByteBuf _buf)
     {
         _dataMap = new System.Collections.Generic.Dictionary<int, GuildWar_GuildRank>();
         _dataList = new System.Collections.Generic.List<GuildWar_GuildRank>();
         
-        foreach(JObject _ele in _buf)
+        for(int n = _buf.ReadSize() ; n > 0 ; --n)
         {
             GuildWar_GuildRank _v;
-            _v = global::HotFix.Cfg.GuildWar_GuildRank.DeserializeGuildWar_GuildRank(_ele);
+            _v = global::HotFix.Cfg.GuildWar_GuildRank.DeserializeGuildWar_GuildRank(_buf);
             _dataList.Add(_v);
             _dataMap.Add(_v.id, _v);
-         }
+        }
     }
-
 
     public System.Collections.Generic.Dictionary<int, GuildWar_GuildRank> DataMap => _dataMap;
     public System.Collections.Generic.List<GuildWar_GuildRank> DataList => _dataList;
@@ -54,5 +50,6 @@ public partial class TbGuildWar_GuildRank
     }
 
 }
+
 }
 

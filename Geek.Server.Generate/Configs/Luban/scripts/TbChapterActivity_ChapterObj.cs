@@ -7,14 +7,11 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-using Newtonsoft.Json.Linq;
 using Luban;
-
 
 
 namespace HotFix.Cfg
 {
-
 /// <summary>
 /// Generated from ChapterActivity.xlsx sheet ChapterObj
 /// </summary>
@@ -23,20 +20,19 @@ public partial class TbChapterActivity_ChapterObj
     private readonly System.Collections.Generic.Dictionary<int, ChapterActivity_ChapterObj> _dataMap;
     private readonly System.Collections.Generic.List<ChapterActivity_ChapterObj> _dataList;
     
-    public TbChapterActivity_ChapterObj(JArray _buf)
+    public TbChapterActivity_ChapterObj(ByteBuf _buf)
     {
         _dataMap = new System.Collections.Generic.Dictionary<int, ChapterActivity_ChapterObj>();
         _dataList = new System.Collections.Generic.List<ChapterActivity_ChapterObj>();
         
-        foreach(JObject _ele in _buf)
+        for(int n = _buf.ReadSize() ; n > 0 ; --n)
         {
             ChapterActivity_ChapterObj _v;
-            _v = global::HotFix.Cfg.ChapterActivity_ChapterObj.DeserializeChapterActivity_ChapterObj(_ele);
+            _v = global::HotFix.Cfg.ChapterActivity_ChapterObj.DeserializeChapterActivity_ChapterObj(_buf);
             _dataList.Add(_v);
             _dataMap.Add(_v.id, _v);
-         }
+        }
     }
-
 
     public System.Collections.Generic.Dictionary<int, ChapterActivity_ChapterObj> DataMap => _dataMap;
     public System.Collections.Generic.List<ChapterActivity_ChapterObj> DataList => _dataList;
@@ -54,5 +50,6 @@ public partial class TbChapterActivity_ChapterObj
     }
 
 }
+
 }
 

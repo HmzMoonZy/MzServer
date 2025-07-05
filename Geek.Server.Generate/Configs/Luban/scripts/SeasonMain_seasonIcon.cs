@@ -8,24 +8,20 @@
 //------------------------------------------------------------------------------
 
 using Luban;
-using Newtonsoft.Json.Linq;
-
 
 
 namespace HotFix.Cfg
 {
-
 public sealed partial class SeasonMain_seasonIcon : Luban.BeanBase
 {
-    public SeasonMain_seasonIcon(JToken _buf) 
+    public SeasonMain_seasonIcon(ByteBuf _buf) 
     {
-        JObject _obj = _buf as JObject;
-        id = (int)_obj.GetValue("id");
-        GemAtlas = (int)_obj.GetValue("GemAtlas");
-        GemIconName = (string)_obj.GetValue("GemIconName");
+        id = _buf.ReadInt();
+        GemAtlas = _buf.ReadInt();
+        GemIconName = _buf.ReadString();
     }
 
-    public static SeasonMain_seasonIcon DeserializeSeasonMain_seasonIcon(JToken _buf)
+    public static SeasonMain_seasonIcon DeserializeSeasonMain_seasonIcon(ByteBuf _buf)
     {
         return new SeasonMain_seasonIcon(_buf);
     }
@@ -42,8 +38,7 @@ public sealed partial class SeasonMain_seasonIcon : Luban.BeanBase
     /// gem资源路径
     /// </summary>
     public readonly string GemIconName;
-
-
+   
     public const int __ID__ = -1204961601;
     public override int GetTypeId() => __ID__;
 
@@ -60,5 +55,6 @@ public sealed partial class SeasonMain_seasonIcon : Luban.BeanBase
         + "}";
     }
 }
+
 }
 

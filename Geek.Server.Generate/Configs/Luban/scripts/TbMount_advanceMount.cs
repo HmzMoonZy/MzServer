@@ -7,14 +7,11 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-using Newtonsoft.Json.Linq;
 using Luban;
-
 
 
 namespace HotFix.Cfg
 {
-
 /// <summary>
 /// Generated from Mount.xlsx sheet advanceMount
 /// </summary>
@@ -23,20 +20,19 @@ public partial class TbMount_advanceMount
     private readonly System.Collections.Generic.Dictionary<int, Mount_advanceMount> _dataMap;
     private readonly System.Collections.Generic.List<Mount_advanceMount> _dataList;
     
-    public TbMount_advanceMount(JArray _buf)
+    public TbMount_advanceMount(ByteBuf _buf)
     {
         _dataMap = new System.Collections.Generic.Dictionary<int, Mount_advanceMount>();
         _dataList = new System.Collections.Generic.List<Mount_advanceMount>();
         
-        foreach(JObject _ele in _buf)
+        for(int n = _buf.ReadSize() ; n > 0 ; --n)
         {
             Mount_advanceMount _v;
-            _v = global::HotFix.Cfg.Mount_advanceMount.DeserializeMount_advanceMount(_ele);
+            _v = global::HotFix.Cfg.Mount_advanceMount.DeserializeMount_advanceMount(_buf);
             _dataList.Add(_v);
             _dataMap.Add(_v.id, _v);
-         }
+        }
     }
-
 
     public System.Collections.Generic.Dictionary<int, Mount_advanceMount> DataMap => _dataMap;
     public System.Collections.Generic.List<Mount_advanceMount> DataList => _dataList;
@@ -54,5 +50,6 @@ public partial class TbMount_advanceMount
     }
 
 }
+
 }
 

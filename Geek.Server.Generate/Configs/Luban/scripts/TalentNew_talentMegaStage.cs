@@ -8,25 +8,21 @@
 //------------------------------------------------------------------------------
 
 using Luban;
-using Newtonsoft.Json.Linq;
-
 
 
 namespace HotFix.Cfg
 {
-
 public sealed partial class TalentNew_talentMegaStage : Luban.BeanBase
 {
-    public TalentNew_talentMegaStage(JToken _buf) 
+    public TalentNew_talentMegaStage(ByteBuf _buf) 
     {
-        JObject _obj = _buf as JObject;
-        id = (int)_obj.GetValue("id");
-        languageId = (string)_obj.GetValue("languageId");
-        minStep = (int)_obj.GetValue("minStep");
-        maxStep = (int)_obj.GetValue("maxStep");
+        id = _buf.ReadInt();
+        languageId = _buf.ReadString();
+        minStep = _buf.ReadInt();
+        maxStep = _buf.ReadInt();
     }
 
-    public static TalentNew_talentMegaStage DeserializeTalentNew_talentMegaStage(JToken _buf)
+    public static TalentNew_talentMegaStage DeserializeTalentNew_talentMegaStage(ByteBuf _buf)
     {
         return new TalentNew_talentMegaStage(_buf);
     }
@@ -47,8 +43,7 @@ public sealed partial class TalentNew_talentMegaStage : Luban.BeanBase
     /// 最大等级
     /// </summary>
     public readonly int maxStep;
-
-
+   
     public const int __ID__ = 779633877;
     public override int GetTypeId() => __ID__;
 
@@ -66,5 +61,6 @@ public sealed partial class TalentNew_talentMegaStage : Luban.BeanBase
         + "}";
     }
 }
+
 }
 

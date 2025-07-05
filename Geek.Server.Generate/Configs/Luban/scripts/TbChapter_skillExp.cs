@@ -7,14 +7,11 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-using Newtonsoft.Json.Linq;
 using Luban;
-
 
 
 namespace HotFix.Cfg
 {
-
 /// <summary>
 /// Generated from Chapter.xlsx sheet skillExp
 /// </summary>
@@ -23,20 +20,19 @@ public partial class TbChapter_skillExp
     private readonly System.Collections.Generic.Dictionary<int, Chapter_skillExp> _dataMap;
     private readonly System.Collections.Generic.List<Chapter_skillExp> _dataList;
     
-    public TbChapter_skillExp(JArray _buf)
+    public TbChapter_skillExp(ByteBuf _buf)
     {
         _dataMap = new System.Collections.Generic.Dictionary<int, Chapter_skillExp>();
         _dataList = new System.Collections.Generic.List<Chapter_skillExp>();
         
-        foreach(JObject _ele in _buf)
+        for(int n = _buf.ReadSize() ; n > 0 ; --n)
         {
             Chapter_skillExp _v;
-            _v = global::HotFix.Cfg.Chapter_skillExp.DeserializeChapter_skillExp(_ele);
+            _v = global::HotFix.Cfg.Chapter_skillExp.DeserializeChapter_skillExp(_buf);
             _dataList.Add(_v);
             _dataMap.Add(_v.id, _v);
-         }
+        }
     }
-
 
     public System.Collections.Generic.Dictionary<int, Chapter_skillExp> DataMap => _dataMap;
     public System.Collections.Generic.List<Chapter_skillExp> DataList => _dataList;
@@ -54,5 +50,6 @@ public partial class TbChapter_skillExp
     }
 
 }
+
 }
 

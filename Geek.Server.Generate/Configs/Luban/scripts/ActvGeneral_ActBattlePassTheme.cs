@@ -8,39 +8,35 @@
 //------------------------------------------------------------------------------
 
 using Luban;
-using Newtonsoft.Json.Linq;
-
 
 
 namespace HotFix.Cfg
 {
-
 public sealed partial class ActvGeneral_ActBattlePassTheme : Luban.BeanBase
 {
-    public ActvGeneral_ActBattlePassTheme(JToken _buf) 
+    public ActvGeneral_ActBattlePassTheme(ByteBuf _buf) 
     {
-        JObject _obj = _buf as JObject;
-        id = (int)_obj.GetValue("id");
-        PassPreView_Bg = (int)_obj.GetValue("PassPreView_Bg");
-        Pass_Banner = (int)_obj.GetValue("Pass_Banner");
-        Pass_Bg = (int)_obj.GetValue("Pass_Bg");
-        Pass_TimeType = (int)_obj.GetValue("Pass_TimeType");
-        Pass_Title = (int)_obj.GetValue("Pass_Title");
-        Pass_FreeItemBgShadow = (string)_obj.GetValue("Pass_FreeItemBgShadow");
-        Pass_PayItemBgShadow = (string)_obj.GetValue("Pass_PayItemBgShadow");
-        Pass_RewardTop = (int)_obj.GetValue("Pass_RewardTop");
-        Pass_TopLeft = (int)_obj.GetValue("Pass_TopLeft");
-        Pass_TopRight = (int)_obj.GetValue("Pass_TopRight");
-        Pass_RewardLeft = (int)_obj.GetValue("Pass_RewardLeft");
-        Pass_RewardRight = (int)_obj.GetValue("Pass_RewardRight");
-        Pass_RewardBottom = (int)_obj.GetValue("Pass_RewardBottom");
-        Pass_RewardBig = (int)_obj.GetValue("Pass_RewardBig");
-        Pass_LightColor = (string)_obj.GetValue("Pass_LightColor");
-        Pass_StarColor = (string)_obj.GetValue("Pass_StarColor");
-        Pass_TipsColor = (string)_obj.GetValue("Pass_TipsColor");
+        id = _buf.ReadInt();
+        PassPreView_Bg = _buf.ReadInt();
+        Pass_Banner = _buf.ReadInt();
+        Pass_Bg = _buf.ReadInt();
+        Pass_TimeType = _buf.ReadInt();
+        Pass_Title = _buf.ReadInt();
+        Pass_FreeItemBgShadow = _buf.ReadString();
+        Pass_PayItemBgShadow = _buf.ReadString();
+        Pass_RewardTop = _buf.ReadInt();
+        Pass_TopLeft = _buf.ReadInt();
+        Pass_TopRight = _buf.ReadInt();
+        Pass_RewardLeft = _buf.ReadInt();
+        Pass_RewardRight = _buf.ReadInt();
+        Pass_RewardBottom = _buf.ReadInt();
+        Pass_RewardBig = _buf.ReadInt();
+        Pass_LightColor = _buf.ReadString();
+        Pass_StarColor = _buf.ReadString();
+        Pass_TipsColor = _buf.ReadString();
     }
 
-    public static ActvGeneral_ActBattlePassTheme DeserializeActvGeneral_ActBattlePassTheme(JToken _buf)
+    public static ActvGeneral_ActBattlePassTheme DeserializeActvGeneral_ActBattlePassTheme(ByteBuf _buf)
     {
         return new ActvGeneral_ActBattlePassTheme(_buf);
     }
@@ -117,8 +113,7 @@ public sealed partial class ActvGeneral_ActBattlePassTheme : Luban.BeanBase
     /// 通行证底部描述字体颜色
     /// </summary>
     public readonly string Pass_TipsColor;
-
-
+   
     public const int __ID__ = -1336489559;
     public override int GetTypeId() => __ID__;
 
@@ -150,5 +145,6 @@ public sealed partial class ActvGeneral_ActBattlePassTheme : Luban.BeanBase
         + "}";
     }
 }
+
 }
 

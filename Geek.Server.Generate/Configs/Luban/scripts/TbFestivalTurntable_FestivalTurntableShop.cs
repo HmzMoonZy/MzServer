@@ -7,14 +7,11 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-using Newtonsoft.Json.Linq;
 using Luban;
-
 
 
 namespace HotFix.Cfg
 {
-
 /// <summary>
 /// Generated from FestivalTurntable.xlsx sheet FestivalTurntableShop
 /// </summary>
@@ -23,20 +20,19 @@ public partial class TbFestivalTurntable_FestivalTurntableShop
     private readonly System.Collections.Generic.Dictionary<int, FestivalTurntable_FestivalTurntableShop> _dataMap;
     private readonly System.Collections.Generic.List<FestivalTurntable_FestivalTurntableShop> _dataList;
     
-    public TbFestivalTurntable_FestivalTurntableShop(JArray _buf)
+    public TbFestivalTurntable_FestivalTurntableShop(ByteBuf _buf)
     {
         _dataMap = new System.Collections.Generic.Dictionary<int, FestivalTurntable_FestivalTurntableShop>();
         _dataList = new System.Collections.Generic.List<FestivalTurntable_FestivalTurntableShop>();
         
-        foreach(JObject _ele in _buf)
+        for(int n = _buf.ReadSize() ; n > 0 ; --n)
         {
             FestivalTurntable_FestivalTurntableShop _v;
-            _v = global::HotFix.Cfg.FestivalTurntable_FestivalTurntableShop.DeserializeFestivalTurntable_FestivalTurntableShop(_ele);
+            _v = global::HotFix.Cfg.FestivalTurntable_FestivalTurntableShop.DeserializeFestivalTurntable_FestivalTurntableShop(_buf);
             _dataList.Add(_v);
             _dataMap.Add(_v.Id, _v);
-         }
+        }
     }
-
 
     public System.Collections.Generic.Dictionary<int, FestivalTurntable_FestivalTurntableShop> DataMap => _dataMap;
     public System.Collections.Generic.List<FestivalTurntable_FestivalTurntableShop> DataList => _dataList;
@@ -54,5 +50,6 @@ public partial class TbFestivalTurntable_FestivalTurntableShop
     }
 
 }
+
 }
 

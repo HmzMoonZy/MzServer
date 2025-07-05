@@ -8,30 +8,26 @@
 //------------------------------------------------------------------------------
 
 using Luban;
-using Newtonsoft.Json.Linq;
-
 
 
 namespace HotFix.Cfg
 {
-
 public sealed partial class IAP_ChapterPacks : Luban.BeanBase
 {
-    public IAP_ChapterPacks(JToken _buf) 
+    public IAP_ChapterPacks(ByteBuf _buf) 
     {
-        JObject _obj = _buf as JObject;
-        id = (int)_obj.GetValue("id");
-        chapterId = (int)_obj.GetValue("chapterId");
-        orderId = (int)_obj.GetValue("orderId");
-        { var __json0 = _obj.GetValue("products"); int _n0 = (__json0 as JArray).Count; products = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  products[__index0++] = __v0; }   }
-        nameId = (string)_obj.GetValue("nameId");
-        descId = (string)_obj.GetValue("descId");
-        descColor = (string)_obj.GetValue("descColor");
-        originPriceColor = (string)_obj.GetValue("originPriceColor");
-        bannerBgType = (int)_obj.GetValue("bannerBgType");
+        id = _buf.ReadInt();
+        chapterId = _buf.ReadInt();
+        orderId = _buf.ReadInt();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);products = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); products[__index0] = __e0;}}
+        nameId = _buf.ReadString();
+        descId = _buf.ReadString();
+        descColor = _buf.ReadString();
+        originPriceColor = _buf.ReadString();
+        bannerBgType = _buf.ReadInt();
     }
 
-    public static IAP_ChapterPacks DeserializeIAP_ChapterPacks(JToken _buf)
+    public static IAP_ChapterPacks DeserializeIAP_ChapterPacks(ByteBuf _buf)
     {
         return new IAP_ChapterPacks(_buf);
     }
@@ -72,8 +68,7 @@ public sealed partial class IAP_ChapterPacks : Luban.BeanBase
     /// 背景图
     /// </summary>
     public readonly int bannerBgType;
-
-
+   
     public const int __ID__ = -513598476;
     public override int GetTypeId() => __ID__;
 
@@ -96,5 +91,6 @@ public sealed partial class IAP_ChapterPacks : Luban.BeanBase
         + "}";
     }
 }
+
 }
 

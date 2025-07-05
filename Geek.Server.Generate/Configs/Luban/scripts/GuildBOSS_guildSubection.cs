@@ -8,36 +8,32 @@
 //------------------------------------------------------------------------------
 
 using Luban;
-using Newtonsoft.Json.Linq;
-
 
 
 namespace HotFix.Cfg
 {
-
 public sealed partial class GuildBOSS_guildSubection : Luban.BeanBase
 {
-    public GuildBOSS_guildSubection(JToken _buf) 
+    public GuildBOSS_guildSubection(ByteBuf _buf) 
     {
-        JObject _obj = _buf as JObject;
-        ID = (int)_obj.GetValue("ID");
-        Desc = (string)_obj.GetValue("Desc");
-        matchgroup = (int)_obj.GetValue("matchgroup");
-        RankLevel = (int)_obj.GetValue("RankLevel");
-        RankStar = (int)_obj.GetValue("RankStar");
-        FirstSingleLimit = (int)_obj.GetValue("FirstSingleLimit");
-        PromotionRank = (int)_obj.GetValue("PromotionRank");
-        DemoteRank = (int)_obj.GetValue("DemoteRank");
-        DemoteRankLevel = (int)_obj.GetValue("DemoteRankLevel");
-        languageId = (string)_obj.GetValue("languageId");
-        atlasId = (int)_obj.GetValue("atlasId");
-        atlasName = (string)_obj.GetValue("atlasName");
-        StarIcon = (string)_obj.GetValue("StarIcon");
-        StarIconBg = (string)_obj.GetValue("StarIconBg");
-        serverRange = (int)_obj.GetValue("serverRange");
+        ID = _buf.ReadInt();
+        Desc = _buf.ReadString();
+        matchgroup = _buf.ReadInt();
+        RankLevel = _buf.ReadInt();
+        RankStar = _buf.ReadInt();
+        FirstSingleLimit = _buf.ReadInt();
+        PromotionRank = _buf.ReadInt();
+        DemoteRank = _buf.ReadInt();
+        DemoteRankLevel = _buf.ReadInt();
+        languageId = _buf.ReadString();
+        atlasId = _buf.ReadInt();
+        atlasName = _buf.ReadString();
+        StarIcon = _buf.ReadString();
+        StarIconBg = _buf.ReadString();
+        serverRange = _buf.ReadInt();
     }
 
-    public static GuildBOSS_guildSubection DeserializeGuildBOSS_guildSubection(JToken _buf)
+    public static GuildBOSS_guildSubection DeserializeGuildBOSS_guildSubection(ByteBuf _buf)
     {
         return new GuildBOSS_guildSubection(_buf);
     }
@@ -102,8 +98,7 @@ public sealed partial class GuildBOSS_guildSubection : Luban.BeanBase
     /// 跨服范围列<br/><br/>serverList-serverRange -pveRange序号
     /// </summary>
     public readonly int serverRange;
-
-
+   
     public const int __ID__ = -606835554;
     public override int GetTypeId() => __ID__;
 
@@ -132,5 +127,6 @@ public sealed partial class GuildBOSS_guildSubection : Luban.BeanBase
         + "}";
     }
 }
+
 }
 

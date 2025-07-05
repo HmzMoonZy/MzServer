@@ -8,25 +8,21 @@
 //------------------------------------------------------------------------------
 
 using Luban;
-using Newtonsoft.Json.Linq;
-
 
 
 namespace HotFix.Cfg
 {
-
 public sealed partial class EventDive_DiveSpeical : Luban.BeanBase
 {
-    public EventDive_DiveSpeical(JToken _buf) 
+    public EventDive_DiveSpeical(ByteBuf _buf) 
     {
-        JObject _obj = _buf as JObject;
-        ID = (int)_obj.GetValue("ID");
-        { var __json0 = _obj.GetValue("Parameter"); int _n0 = (__json0 as JArray).Count; Parameter = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  Parameter[__index0++] = __v0; }   }
-        { var __json0 = _obj.GetValue("reward"); int _n0 = (__json0 as JArray).Count; reward = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  reward[__index0++] = __v0; }   }
-        number = (int)_obj.GetValue("number");
+        ID = _buf.ReadInt();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);Parameter = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); Parameter[__index0] = __e0;}}
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);reward = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); reward[__index0] = __e0;}}
+        number = _buf.ReadInt();
     }
 
-    public static EventDive_DiveSpeical DeserializeEventDive_DiveSpeical(JToken _buf)
+    public static EventDive_DiveSpeical DeserializeEventDive_DiveSpeical(ByteBuf _buf)
     {
         return new EventDive_DiveSpeical(_buf);
     }
@@ -47,8 +43,7 @@ public sealed partial class EventDive_DiveSpeical : Luban.BeanBase
     /// 权重
     /// </summary>
     public readonly int number;
-
-
+   
     public const int __ID__ = 638512264;
     public override int GetTypeId() => __ID__;
 
@@ -66,5 +61,6 @@ public sealed partial class EventDive_DiveSpeical : Luban.BeanBase
         + "}";
     }
 }
+
 }
 

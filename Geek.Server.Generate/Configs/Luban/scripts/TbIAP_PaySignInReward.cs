@@ -7,14 +7,11 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-using Newtonsoft.Json.Linq;
 using Luban;
-
 
 
 namespace HotFix.Cfg
 {
-
 /// <summary>
 /// Generated from IAP.xlsx sheet PaySignInReward
 /// </summary>
@@ -23,20 +20,19 @@ public partial class TbIAP_PaySignInReward
     private readonly System.Collections.Generic.Dictionary<int, IAP_PaySignInReward> _dataMap;
     private readonly System.Collections.Generic.List<IAP_PaySignInReward> _dataList;
     
-    public TbIAP_PaySignInReward(JArray _buf)
+    public TbIAP_PaySignInReward(ByteBuf _buf)
     {
         _dataMap = new System.Collections.Generic.Dictionary<int, IAP_PaySignInReward>();
         _dataList = new System.Collections.Generic.List<IAP_PaySignInReward>();
         
-        foreach(JObject _ele in _buf)
+        for(int n = _buf.ReadSize() ; n > 0 ; --n)
         {
             IAP_PaySignInReward _v;
-            _v = global::HotFix.Cfg.IAP_PaySignInReward.DeserializeIAP_PaySignInReward(_ele);
+            _v = global::HotFix.Cfg.IAP_PaySignInReward.DeserializeIAP_PaySignInReward(_buf);
             _dataList.Add(_v);
             _dataMap.Add(_v.id, _v);
-         }
+        }
     }
-
 
     public System.Collections.Generic.Dictionary<int, IAP_PaySignInReward> DataMap => _dataMap;
     public System.Collections.Generic.List<IAP_PaySignInReward> DataList => _dataList;
@@ -54,5 +50,6 @@ public partial class TbIAP_PaySignInReward
     }
 
 }
+
 }
 

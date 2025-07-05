@@ -8,27 +8,23 @@
 //------------------------------------------------------------------------------
 
 using Luban;
-using Newtonsoft.Json.Linq;
-
 
 
 namespace HotFix.Cfg
 {
-
 public sealed partial class ActivityDan_MonopolyExchange : Luban.BeanBase
 {
-    public ActivityDan_MonopolyExchange(JToken _buf) 
+    public ActivityDan_MonopolyExchange(ByteBuf _buf) 
     {
-        JObject _obj = _buf as JObject;
-        id = (int)_obj.GetValue("id");
-        groupId = (int)_obj.GetValue("groupId");
-        tag = (int)_obj.GetValue("tag");
-        { var __json0 = _obj.GetValue("needItem"); int _n0 = (__json0 as JArray).Count; needItem = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  needItem[__index0++] = __v0; }   }
-        { var __json0 = _obj.GetValue("rewardItem"); int _n0 = (__json0 as JArray).Count; rewardItem = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  rewardItem[__index0++] = __v0; }   }
-        limit = (int)_obj.GetValue("limit");
+        id = _buf.ReadInt();
+        groupId = _buf.ReadInt();
+        tag = _buf.ReadInt();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);needItem = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); needItem[__index0] = __e0;}}
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);rewardItem = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); rewardItem[__index0] = __e0;}}
+        limit = _buf.ReadInt();
     }
 
-    public static ActivityDan_MonopolyExchange DeserializeActivityDan_MonopolyExchange(JToken _buf)
+    public static ActivityDan_MonopolyExchange DeserializeActivityDan_MonopolyExchange(ByteBuf _buf)
     {
         return new ActivityDan_MonopolyExchange(_buf);
     }
@@ -57,8 +53,7 @@ public sealed partial class ActivityDan_MonopolyExchange : Luban.BeanBase
     /// 兑换限制次数，-1为不限制
     /// </summary>
     public readonly int limit;
-
-
+   
     public const int __ID__ = -1984450225;
     public override int GetTypeId() => __ID__;
 
@@ -78,5 +73,6 @@ public sealed partial class ActivityDan_MonopolyExchange : Luban.BeanBase
         + "}";
     }
 }
+
 }
 

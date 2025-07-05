@@ -7,14 +7,11 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-using Newtonsoft.Json.Linq;
 using Luban;
-
 
 
 namespace HotFix.Cfg
 {
-
 /// <summary>
 /// Generated from LocalAds.xlsx sheet LocalAdsCfg
 /// </summary>
@@ -23,20 +20,19 @@ public partial class TbLocalAds_LocalAdsCfg
     private readonly System.Collections.Generic.Dictionary<int, LocalAds_LocalAdsCfg> _dataMap;
     private readonly System.Collections.Generic.List<LocalAds_LocalAdsCfg> _dataList;
     
-    public TbLocalAds_LocalAdsCfg(JArray _buf)
+    public TbLocalAds_LocalAdsCfg(ByteBuf _buf)
     {
         _dataMap = new System.Collections.Generic.Dictionary<int, LocalAds_LocalAdsCfg>();
         _dataList = new System.Collections.Generic.List<LocalAds_LocalAdsCfg>();
         
-        foreach(JObject _ele in _buf)
+        for(int n = _buf.ReadSize() ; n > 0 ; --n)
         {
             LocalAds_LocalAdsCfg _v;
-            _v = global::HotFix.Cfg.LocalAds_LocalAdsCfg.DeserializeLocalAds_LocalAdsCfg(_ele);
+            _v = global::HotFix.Cfg.LocalAds_LocalAdsCfg.DeserializeLocalAds_LocalAdsCfg(_buf);
             _dataList.Add(_v);
             _dataMap.Add(_v.id, _v);
-         }
+        }
     }
-
 
     public System.Collections.Generic.Dictionary<int, LocalAds_LocalAdsCfg> DataMap => _dataMap;
     public System.Collections.Generic.List<LocalAds_LocalAdsCfg> DataList => _dataList;
@@ -54,5 +50,6 @@ public partial class TbLocalAds_LocalAdsCfg
     }
 
 }
+
 }
 

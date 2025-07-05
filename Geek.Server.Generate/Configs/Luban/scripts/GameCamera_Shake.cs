@@ -8,27 +8,23 @@
 //------------------------------------------------------------------------------
 
 using Luban;
-using Newtonsoft.Json.Linq;
-
 
 
 namespace HotFix.Cfg
 {
-
 public sealed partial class GameCamera_Shake : Luban.BeanBase
 {
-    public GameCamera_Shake(JToken _buf) 
+    public GameCamera_Shake(ByteBuf _buf) 
     {
-        JObject _obj = _buf as JObject;
-        ID = (int)_obj.GetValue("ID");
-        shakeType = (int)_obj.GetValue("shakeType");
-        delay = (float)_obj.GetValue("delay");
-        duration = (float)_obj.GetValue("duration");
-        power = (float)_obj.GetValue("power");
-        count = (int)_obj.GetValue("count");
+        ID = _buf.ReadInt();
+        shakeType = _buf.ReadInt();
+        delay = _buf.ReadFloat();
+        duration = _buf.ReadFloat();
+        power = _buf.ReadFloat();
+        count = _buf.ReadInt();
     }
 
-    public static GameCamera_Shake DeserializeGameCamera_Shake(JToken _buf)
+    public static GameCamera_Shake DeserializeGameCamera_Shake(ByteBuf _buf)
     {
         return new GameCamera_Shake(_buf);
     }
@@ -57,8 +53,7 @@ public sealed partial class GameCamera_Shake : Luban.BeanBase
     /// 震动次数
     /// </summary>
     public readonly int count;
-
-
+   
     public const int __ID__ = -981180802;
     public override int GetTypeId() => __ID__;
 
@@ -78,5 +73,6 @@ public sealed partial class GameCamera_Shake : Luban.BeanBase
         + "}";
     }
 }
+
 }
 

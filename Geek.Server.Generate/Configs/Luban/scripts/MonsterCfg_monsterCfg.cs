@@ -8,60 +8,56 @@
 //------------------------------------------------------------------------------
 
 using Luban;
-using Newtonsoft.Json.Linq;
-
 
 
 namespace HotFix.Cfg
 {
-
 public sealed partial class MonsterCfg_monsterCfg : Luban.BeanBase
 {
-    public MonsterCfg_monsterCfg(JToken _buf) 
+    public MonsterCfg_monsterCfg(ByteBuf _buf) 
     {
-        JObject _obj = _buf as JObject;
-        id = (int)_obj.GetValue("id");
-        group = (int)_obj.GetValue("group");
-        battleType = (int)_obj.GetValue("battleType");
-        difficult = (int)_obj.GetValue("difficult");
-        pos1 = (int)_obj.GetValue("pos1");
-        { var __json0 = _obj.GetValue("pos1Mounts"); int _n0 = (__json0 as JArray).Count; pos1Mounts = new int[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { int __v0;  __v0 = (int)__e0;  pos1Mounts[__index0++] = __v0; }   }
-        pos2 = (int)_obj.GetValue("pos2");
-        { var __json0 = _obj.GetValue("pos2Mounts"); int _n0 = (__json0 as JArray).Count; pos2Mounts = new int[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { int __v0;  __v0 = (int)__e0;  pos2Mounts[__index0++] = __v0; }   }
-        pos3 = (int)_obj.GetValue("pos3");
-        { var __json0 = _obj.GetValue("pos3Mounts"); int _n0 = (__json0 as JArray).Count; pos3Mounts = new int[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { int __v0;  __v0 = (int)__e0;  pos3Mounts[__index0++] = __v0; }   }
-        pos4 = (int)_obj.GetValue("pos4");
-        { var __json0 = _obj.GetValue("pos4Mounts"); int _n0 = (__json0 as JArray).Count; pos4Mounts = new int[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { int __v0;  __v0 = (int)__e0;  pos4Mounts[__index0++] = __v0; }   }
-        pos5 = (int)_obj.GetValue("pos5");
-        { var __json0 = _obj.GetValue("pos5Mounts"); int _n0 = (__json0 as JArray).Count; pos5Mounts = new int[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { int __v0;  __v0 = (int)__e0;  pos5Mounts[__index0++] = __v0; }   }
-        pos6 = (int)_obj.GetValue("pos6");
-        { var __json0 = _obj.GetValue("pos6Mounts"); int _n0 = (__json0 as JArray).Count; pos6Mounts = new int[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { int __v0;  __v0 = (int)__e0;  pos6Mounts[__index0++] = __v0; }   }
-        pos7 = (int)_obj.GetValue("pos7");
-        { var __json0 = _obj.GetValue("pos7Mounts"); int _n0 = (__json0 as JArray).Count; pos7Mounts = new int[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { int __v0;  __v0 = (int)__e0;  pos7Mounts[__index0++] = __v0; }   }
-        pos8 = (int)_obj.GetValue("pos8");
-        { var __json0 = _obj.GetValue("pos8Mounts"); int _n0 = (__json0 as JArray).Count; pos8Mounts = new int[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { int __v0;  __v0 = (int)__e0;  pos8Mounts[__index0++] = __v0; }   }
-        pos9 = (int)_obj.GetValue("pos9");
-        { var __json0 = _obj.GetValue("pos9Mounts"); int _n0 = (__json0 as JArray).Count; pos9Mounts = new int[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { int __v0;  __v0 = (int)__e0;  pos9Mounts[__index0++] = __v0; }   }
-        pos10 = (int)_obj.GetValue("pos10");
-        { var __json0 = _obj.GetValue("pos10Mounts"); int _n0 = (__json0 as JArray).Count; pos10Mounts = new int[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { int __v0;  __v0 = (int)__e0;  pos10Mounts[__index0++] = __v0; }   }
-        pos11 = (int)_obj.GetValue("pos11");
-        { var __json0 = _obj.GetValue("pos11Mounts"); int _n0 = (__json0 as JArray).Count; pos11Mounts = new int[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { int __v0;  __v0 = (int)__e0;  pos11Mounts[__index0++] = __v0; }   }
-        pos12 = (int)_obj.GetValue("pos12");
-        { var __json0 = _obj.GetValue("pos12Mounts"); int _n0 = (__json0 as JArray).Count; pos12Mounts = new int[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { int __v0;  __v0 = (int)__e0;  pos12Mounts[__index0++] = __v0; }   }
-        pos13 = (int)_obj.GetValue("pos13");
-        { var __json0 = _obj.GetValue("pos13Mounts"); int _n0 = (__json0 as JArray).Count; pos13Mounts = new int[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { int __v0;  __v0 = (int)__e0;  pos13Mounts[__index0++] = __v0; }   }
-        pos14 = (int)_obj.GetValue("pos14");
-        { var __json0 = _obj.GetValue("pos14Mounts"); int _n0 = (__json0 as JArray).Count; pos14Mounts = new int[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { int __v0;  __v0 = (int)__e0;  pos14Mounts[__index0++] = __v0; }   }
-        pos15 = (int)_obj.GetValue("pos15");
-        { var __json0 = _obj.GetValue("pos15Mounts"); int _n0 = (__json0 as JArray).Count; pos15Mounts = new int[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { int __v0;  __v0 = (int)__e0;  pos15Mounts[__index0++] = __v0; }   }
-        enterBattleMode = (int)_obj.GetValue("enterBattleMode");
-        ride = (int)_obj.GetValue("ride");
-        isDropBox = (int)_obj.GetValue("isDropBox");
-        baseSpeed = (int)_obj.GetValue("baseSpeed");
-        mythicProgress = (int)_obj.GetValue("mythicProgress");
+        id = _buf.ReadInt();
+        group = _buf.ReadInt();
+        battleType = _buf.ReadInt();
+        difficult = _buf.ReadInt();
+        pos1 = _buf.ReadInt();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);pos1Mounts = new int[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { int __e0;__e0 = _buf.ReadInt(); pos1Mounts[__index0] = __e0;}}
+        pos2 = _buf.ReadInt();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);pos2Mounts = new int[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { int __e0;__e0 = _buf.ReadInt(); pos2Mounts[__index0] = __e0;}}
+        pos3 = _buf.ReadInt();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);pos3Mounts = new int[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { int __e0;__e0 = _buf.ReadInt(); pos3Mounts[__index0] = __e0;}}
+        pos4 = _buf.ReadInt();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);pos4Mounts = new int[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { int __e0;__e0 = _buf.ReadInt(); pos4Mounts[__index0] = __e0;}}
+        pos5 = _buf.ReadInt();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);pos5Mounts = new int[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { int __e0;__e0 = _buf.ReadInt(); pos5Mounts[__index0] = __e0;}}
+        pos6 = _buf.ReadInt();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);pos6Mounts = new int[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { int __e0;__e0 = _buf.ReadInt(); pos6Mounts[__index0] = __e0;}}
+        pos7 = _buf.ReadInt();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);pos7Mounts = new int[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { int __e0;__e0 = _buf.ReadInt(); pos7Mounts[__index0] = __e0;}}
+        pos8 = _buf.ReadInt();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);pos8Mounts = new int[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { int __e0;__e0 = _buf.ReadInt(); pos8Mounts[__index0] = __e0;}}
+        pos9 = _buf.ReadInt();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);pos9Mounts = new int[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { int __e0;__e0 = _buf.ReadInt(); pos9Mounts[__index0] = __e0;}}
+        pos10 = _buf.ReadInt();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);pos10Mounts = new int[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { int __e0;__e0 = _buf.ReadInt(); pos10Mounts[__index0] = __e0;}}
+        pos11 = _buf.ReadInt();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);pos11Mounts = new int[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { int __e0;__e0 = _buf.ReadInt(); pos11Mounts[__index0] = __e0;}}
+        pos12 = _buf.ReadInt();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);pos12Mounts = new int[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { int __e0;__e0 = _buf.ReadInt(); pos12Mounts[__index0] = __e0;}}
+        pos13 = _buf.ReadInt();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);pos13Mounts = new int[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { int __e0;__e0 = _buf.ReadInt(); pos13Mounts[__index0] = __e0;}}
+        pos14 = _buf.ReadInt();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);pos14Mounts = new int[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { int __e0;__e0 = _buf.ReadInt(); pos14Mounts[__index0] = __e0;}}
+        pos15 = _buf.ReadInt();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);pos15Mounts = new int[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { int __e0;__e0 = _buf.ReadInt(); pos15Mounts[__index0] = __e0;}}
+        enterBattleMode = _buf.ReadInt();
+        ride = _buf.ReadInt();
+        isDropBox = _buf.ReadInt();
+        baseSpeed = _buf.ReadInt();
+        mythicProgress = _buf.ReadInt();
     }
 
-    public static MonsterCfg_monsterCfg DeserializeMonsterCfg_monsterCfg(JToken _buf)
+    public static MonsterCfg_monsterCfg DeserializeMonsterCfg_monsterCfg(ByteBuf _buf)
     {
         return new MonsterCfg_monsterCfg(_buf);
     }
@@ -222,8 +218,7 @@ public sealed partial class MonsterCfg_monsterCfg : Luban.BeanBase
     /// 进度值
     /// </summary>
     public readonly int mythicProgress;
-
-
+   
     public const int __ID__ = 1922336575;
     public override int GetTypeId() => __ID__;
 
@@ -276,5 +271,6 @@ public sealed partial class MonsterCfg_monsterCfg : Luban.BeanBase
         + "}";
     }
 }
+
 }
 

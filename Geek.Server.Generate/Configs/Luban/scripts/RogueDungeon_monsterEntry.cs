@@ -8,27 +8,23 @@
 //------------------------------------------------------------------------------
 
 using Luban;
-using Newtonsoft.Json.Linq;
-
 
 
 namespace HotFix.Cfg
 {
-
 public sealed partial class RogueDungeon_monsterEntry : Luban.BeanBase
 {
-    public RogueDungeon_monsterEntry(JToken _buf) 
+    public RogueDungeon_monsterEntry(ByteBuf _buf) 
     {
-        JObject _obj = _buf as JObject;
-        id = (int)_obj.GetValue("id");
-        type = (int)_obj.GetValue("type");
-        actionType = (int)_obj.GetValue("actionType");
-        entryParam = (string)_obj.GetValue("entryParam");
-        nameId = (string)_obj.GetValue("nameId");
-        desId = (string)_obj.GetValue("desId");
+        id = _buf.ReadInt();
+        type = _buf.ReadInt();
+        actionType = _buf.ReadInt();
+        entryParam = _buf.ReadString();
+        nameId = _buf.ReadString();
+        desId = _buf.ReadString();
     }
 
-    public static RogueDungeon_monsterEntry DeserializeRogueDungeon_monsterEntry(JToken _buf)
+    public static RogueDungeon_monsterEntry DeserializeRogueDungeon_monsterEntry(ByteBuf _buf)
     {
         return new RogueDungeon_monsterEntry(_buf);
     }
@@ -57,8 +53,7 @@ public sealed partial class RogueDungeon_monsterEntry : Luban.BeanBase
     /// 词条描述
     /// </summary>
     public readonly string desId;
-
-
+   
     public const int __ID__ = -24127753;
     public override int GetTypeId() => __ID__;
 
@@ -78,5 +73,6 @@ public sealed partial class RogueDungeon_monsterEntry : Luban.BeanBase
         + "}";
     }
 }
+
 }
 

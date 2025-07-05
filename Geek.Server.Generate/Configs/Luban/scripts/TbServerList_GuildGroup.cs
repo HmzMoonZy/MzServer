@@ -7,14 +7,11 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-using Newtonsoft.Json.Linq;
 using Luban;
-
 
 
 namespace HotFix.Cfg
 {
-
 /// <summary>
 /// Generated from ServerList.xlsx sheet GuildGroup
 /// </summary>
@@ -23,20 +20,19 @@ public partial class TbServerList_GuildGroup
     private readonly System.Collections.Generic.Dictionary<int, ServerList_GuildGroup> _dataMap;
     private readonly System.Collections.Generic.List<ServerList_GuildGroup> _dataList;
     
-    public TbServerList_GuildGroup(JArray _buf)
+    public TbServerList_GuildGroup(ByteBuf _buf)
     {
         _dataMap = new System.Collections.Generic.Dictionary<int, ServerList_GuildGroup>();
         _dataList = new System.Collections.Generic.List<ServerList_GuildGroup>();
         
-        foreach(JObject _ele in _buf)
+        for(int n = _buf.ReadSize() ; n > 0 ; --n)
         {
             ServerList_GuildGroup _v;
-            _v = global::HotFix.Cfg.ServerList_GuildGroup.DeserializeServerList_GuildGroup(_ele);
+            _v = global::HotFix.Cfg.ServerList_GuildGroup.DeserializeServerList_GuildGroup(_buf);
             _dataList.Add(_v);
             _dataMap.Add(_v.id, _v);
-         }
+        }
     }
-
 
     public System.Collections.Generic.Dictionary<int, ServerList_GuildGroup> DataMap => _dataMap;
     public System.Collections.Generic.List<ServerList_GuildGroup> DataList => _dataList;
@@ -54,5 +50,6 @@ public partial class TbServerList_GuildGroup
     }
 
 }
+
 }
 

@@ -8,37 +8,33 @@
 //------------------------------------------------------------------------------
 
 using Luban;
-using Newtonsoft.Json.Linq;
-
 
 
 namespace HotFix.Cfg
 {
-
 public sealed partial class GuildWar_GuildRank : Luban.BeanBase
 {
-    public GuildWar_GuildRank(JToken _buf) 
+    public GuildWar_GuildRank(ByteBuf _buf) 
     {
-        JObject _obj = _buf as JObject;
-        id = (int)_obj.GetValue("id");
-        warRange = (int)_obj.GetValue("warRange");
-        name = (string)_obj.GetValue("name");
-        serverRange = (int)_obj.GetValue("serverRange");
-        atlas = (int)_obj.GetValue("atlas");
-        icon = (string)_obj.GetValue("icon");
-        starIcon = (string)_obj.GetValue("starIcon");
-        StarCount = (int)_obj.GetValue("StarCount");
-        { var __json0 = _obj.GetValue("score"); int _n0 = (__json0 as JArray).Count; score = new int[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { int __v0;  __v0 = (int)__e0;  score[__index0++] = __v0; }   }
-        winScore = (int)_obj.GetValue("winScore");
-        loseScore = (int)_obj.GetValue("loseScore");
-        { var __json0 = _obj.GetValue("winAdd"); int _n0 = (__json0 as JArray).Count; winAdd = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  winAdd[__index0++] = __v0; }   }
-        { var __json0 = _obj.GetValue("loseReduce"); int _n0 = (__json0 as JArray).Count; loseReduce = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  loseReduce[__index0++] = __v0; }   }
-        rankReturn = (int)_obj.GetValue("rankReturn");
-        emptyScore = (int)_obj.GetValue("emptyScore");
-        { var __json0 = _obj.GetValue("MouthRewards"); int _n0 = (__json0 as JArray).Count; MouthRewards = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  MouthRewards[__index0++] = __v0; }   }
+        id = _buf.ReadInt();
+        warRange = _buf.ReadInt();
+        name = _buf.ReadString();
+        serverRange = _buf.ReadInt();
+        atlas = _buf.ReadInt();
+        icon = _buf.ReadString();
+        starIcon = _buf.ReadString();
+        StarCount = _buf.ReadInt();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);score = new int[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { int __e0;__e0 = _buf.ReadInt(); score[__index0] = __e0;}}
+        winScore = _buf.ReadInt();
+        loseScore = _buf.ReadInt();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);winAdd = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); winAdd[__index0] = __e0;}}
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);loseReduce = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); loseReduce[__index0] = __e0;}}
+        rankReturn = _buf.ReadInt();
+        emptyScore = _buf.ReadInt();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);MouthRewards = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); MouthRewards[__index0] = __e0;}}
     }
 
-    public static GuildWar_GuildRank DeserializeGuildWar_GuildRank(JToken _buf)
+    public static GuildWar_GuildRank DeserializeGuildWar_GuildRank(ByteBuf _buf)
     {
         return new GuildWar_GuildRank(_buf);
     }
@@ -107,8 +103,7 @@ public sealed partial class GuildWar_GuildRank : Luban.BeanBase
     /// 月奖励
     /// </summary>
     public readonly string[] MouthRewards;
-
-
+   
     public const int __ID__ = 22356213;
     public override int GetTypeId() => __ID__;
 
@@ -138,5 +133,6 @@ public sealed partial class GuildWar_GuildRank : Luban.BeanBase
         + "}";
     }
 }
+
 }
 

@@ -7,14 +7,11 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-using Newtonsoft.Json.Linq;
 using Luban;
-
 
 
 namespace HotFix.Cfg
 {
-
 /// <summary>
 /// Generated from ChapterActivity.xlsx sheet ActvTurntableBase
 /// </summary>
@@ -23,20 +20,19 @@ public partial class TbChapterActivity_ActvTurntableBase
     private readonly System.Collections.Generic.Dictionary<int, ChapterActivity_ActvTurntableBase> _dataMap;
     private readonly System.Collections.Generic.List<ChapterActivity_ActvTurntableBase> _dataList;
     
-    public TbChapterActivity_ActvTurntableBase(JArray _buf)
+    public TbChapterActivity_ActvTurntableBase(ByteBuf _buf)
     {
         _dataMap = new System.Collections.Generic.Dictionary<int, ChapterActivity_ActvTurntableBase>();
         _dataList = new System.Collections.Generic.List<ChapterActivity_ActvTurntableBase>();
         
-        foreach(JObject _ele in _buf)
+        for(int n = _buf.ReadSize() ; n > 0 ; --n)
         {
             ChapterActivity_ActvTurntableBase _v;
-            _v = global::HotFix.Cfg.ChapterActivity_ActvTurntableBase.DeserializeChapterActivity_ActvTurntableBase(_ele);
+            _v = global::HotFix.Cfg.ChapterActivity_ActvTurntableBase.DeserializeChapterActivity_ActvTurntableBase(_buf);
             _dataList.Add(_v);
             _dataMap.Add(_v.id, _v);
-         }
+        }
     }
-
 
     public System.Collections.Generic.Dictionary<int, ChapterActivity_ActvTurntableBase> DataMap => _dataMap;
     public System.Collections.Generic.List<ChapterActivity_ActvTurntableBase> DataList => _dataList;
@@ -54,5 +50,6 @@ public partial class TbChapterActivity_ActvTurntableBase
     }
 
 }
+
 }
 

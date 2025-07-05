@@ -8,29 +8,25 @@
 //------------------------------------------------------------------------------
 
 using Luban;
-using Newtonsoft.Json.Linq;
-
 
 
 namespace HotFix.Cfg
 {
-
 public sealed partial class WorldBoss_WorldBossBox : Luban.BeanBase
 {
-    public WorldBoss_WorldBossBox(JToken _buf) 
+    public WorldBoss_WorldBossBox(ByteBuf _buf) 
     {
-        JObject _obj = _buf as JObject;
-        ID = (int)_obj.GetValue("ID");
-        Damage = (long)_obj.GetValue("Damage");
-        BossId = (int)_obj.GetValue("BossId");
-        { var __json0 = _obj.GetValue("Reward"); int _n0 = (__json0 as JArray).Count; Reward = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  Reward[__index0++] = __v0; }   }
-        { var __json0 = _obj.GetValue("OtherReward"); int _n0 = (__json0 as JArray).Count; OtherReward = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  OtherReward[__index0++] = __v0; }   }
-        ShowBoxAtlas = (int)_obj.GetValue("ShowBoxAtlas");
-        ShowBoxIconIdle = (string)_obj.GetValue("ShowBoxIconIdle");
-        ShowBoxIconOpen = (string)_obj.GetValue("ShowBoxIconOpen");
+        ID = _buf.ReadInt();
+        Damage = _buf.ReadLong();
+        BossId = _buf.ReadInt();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);Reward = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); Reward[__index0] = __e0;}}
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);OtherReward = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); OtherReward[__index0] = __e0;}}
+        ShowBoxAtlas = _buf.ReadInt();
+        ShowBoxIconIdle = _buf.ReadString();
+        ShowBoxIconOpen = _buf.ReadString();
     }
 
-    public static WorldBoss_WorldBossBox DeserializeWorldBoss_WorldBossBox(JToken _buf)
+    public static WorldBoss_WorldBossBox DeserializeWorldBoss_WorldBossBox(ByteBuf _buf)
     {
         return new WorldBoss_WorldBossBox(_buf);
     }
@@ -67,8 +63,7 @@ public sealed partial class WorldBoss_WorldBossBox : Luban.BeanBase
     /// 展示用icon
     /// </summary>
     public readonly string ShowBoxIconOpen;
-
-
+   
     public const int __ID__ = 1324387724;
     public override int GetTypeId() => __ID__;
 
@@ -90,5 +85,6 @@ public sealed partial class WorldBoss_WorldBossBox : Luban.BeanBase
         + "}";
     }
 }
+
 }
 

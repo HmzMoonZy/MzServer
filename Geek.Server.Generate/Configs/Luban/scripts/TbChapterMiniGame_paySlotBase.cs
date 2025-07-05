@@ -7,14 +7,11 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-using Newtonsoft.Json.Linq;
 using Luban;
-
 
 
 namespace HotFix.Cfg
 {
-
 /// <summary>
 /// Generated from ChapterMiniGame.xlsx sheet paySlotBase
 /// </summary>
@@ -23,20 +20,19 @@ public partial class TbChapterMiniGame_paySlotBase
     private readonly System.Collections.Generic.Dictionary<int, ChapterMiniGame_paySlotBase> _dataMap;
     private readonly System.Collections.Generic.List<ChapterMiniGame_paySlotBase> _dataList;
     
-    public TbChapterMiniGame_paySlotBase(JArray _buf)
+    public TbChapterMiniGame_paySlotBase(ByteBuf _buf)
     {
         _dataMap = new System.Collections.Generic.Dictionary<int, ChapterMiniGame_paySlotBase>();
         _dataList = new System.Collections.Generic.List<ChapterMiniGame_paySlotBase>();
         
-        foreach(JObject _ele in _buf)
+        for(int n = _buf.ReadSize() ; n > 0 ; --n)
         {
             ChapterMiniGame_paySlotBase _v;
-            _v = global::HotFix.Cfg.ChapterMiniGame_paySlotBase.DeserializeChapterMiniGame_paySlotBase(_ele);
+            _v = global::HotFix.Cfg.ChapterMiniGame_paySlotBase.DeserializeChapterMiniGame_paySlotBase(_buf);
             _dataList.Add(_v);
             _dataMap.Add(_v.id, _v);
-         }
+        }
     }
-
 
     public System.Collections.Generic.Dictionary<int, ChapterMiniGame_paySlotBase> DataMap => _dataMap;
     public System.Collections.Generic.List<ChapterMiniGame_paySlotBase> DataList => _dataList;
@@ -54,5 +50,6 @@ public partial class TbChapterMiniGame_paySlotBase
     }
 
 }
+
 }
 

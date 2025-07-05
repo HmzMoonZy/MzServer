@@ -8,28 +8,24 @@
 //------------------------------------------------------------------------------
 
 using Luban;
-using Newtonsoft.Json.Linq;
-
 
 
 namespace HotFix.Cfg
 {
-
 public sealed partial class RogueDungeon_endEvent : Luban.BeanBase
 {
-    public RogueDungeon_endEvent(JToken _buf) 
+    public RogueDungeon_endEvent(ByteBuf _buf) 
     {
-        JObject _obj = _buf as JObject;
-        id = (int)_obj.GetValue("id");
-        type = (int)_obj.GetValue("type");
-        buildId = (int)_obj.GetValue("buildId");
-        eventPointId = (int)_obj.GetValue("eventPointId");
-        memberId = (int)_obj.GetValue("memberId");
-        modelId = (int)_obj.GetValue("modelId");
-        weight = (int)_obj.GetValue("weight");
+        id = _buf.ReadInt();
+        type = _buf.ReadInt();
+        buildId = _buf.ReadInt();
+        eventPointId = _buf.ReadInt();
+        memberId = _buf.ReadInt();
+        modelId = _buf.ReadInt();
+        weight = _buf.ReadInt();
     }
 
-    public static RogueDungeon_endEvent DeserializeRogueDungeon_endEvent(JToken _buf)
+    public static RogueDungeon_endEvent DeserializeRogueDungeon_endEvent(ByteBuf _buf)
     {
         return new RogueDungeon_endEvent(_buf);
     }
@@ -62,8 +58,7 @@ public sealed partial class RogueDungeon_endEvent : Luban.BeanBase
     /// 权重
     /// </summary>
     public readonly int weight;
-
-
+   
     public const int __ID__ = -602705858;
     public override int GetTypeId() => __ID__;
 
@@ -84,5 +79,6 @@ public sealed partial class RogueDungeon_endEvent : Luban.BeanBase
         + "}";
     }
 }
+
 }
 

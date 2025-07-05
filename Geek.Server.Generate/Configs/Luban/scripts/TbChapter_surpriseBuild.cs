@@ -7,14 +7,11 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-using Newtonsoft.Json.Linq;
 using Luban;
-
 
 
 namespace HotFix.Cfg
 {
-
 /// <summary>
 /// Generated from Chapter.xlsx sheet surpriseBuild
 /// </summary>
@@ -23,20 +20,19 @@ public partial class TbChapter_surpriseBuild
     private readonly System.Collections.Generic.Dictionary<int, Chapter_surpriseBuild> _dataMap;
     private readonly System.Collections.Generic.List<Chapter_surpriseBuild> _dataList;
     
-    public TbChapter_surpriseBuild(JArray _buf)
+    public TbChapter_surpriseBuild(ByteBuf _buf)
     {
         _dataMap = new System.Collections.Generic.Dictionary<int, Chapter_surpriseBuild>();
         _dataList = new System.Collections.Generic.List<Chapter_surpriseBuild>();
         
-        foreach(JObject _ele in _buf)
+        for(int n = _buf.ReadSize() ; n > 0 ; --n)
         {
             Chapter_surpriseBuild _v;
-            _v = global::HotFix.Cfg.Chapter_surpriseBuild.DeserializeChapter_surpriseBuild(_ele);
+            _v = global::HotFix.Cfg.Chapter_surpriseBuild.DeserializeChapter_surpriseBuild(_buf);
             _dataList.Add(_v);
             _dataMap.Add(_v.id, _v);
-         }
+        }
     }
-
 
     public System.Collections.Generic.Dictionary<int, Chapter_surpriseBuild> DataMap => _dataMap;
     public System.Collections.Generic.List<Chapter_surpriseBuild> DataList => _dataList;
@@ -54,5 +50,6 @@ public partial class TbChapter_surpriseBuild
     }
 
 }
+
 }
 

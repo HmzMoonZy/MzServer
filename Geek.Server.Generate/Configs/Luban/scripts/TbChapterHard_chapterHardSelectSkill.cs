@@ -7,14 +7,11 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-using Newtonsoft.Json.Linq;
 using Luban;
-
 
 
 namespace HotFix.Cfg
 {
-
 /// <summary>
 /// Generated from ChapterHard.xlsx sheet chapterHardSelectSkill
 /// </summary>
@@ -23,20 +20,19 @@ public partial class TbChapterHard_chapterHardSelectSkill
     private readonly System.Collections.Generic.Dictionary<int, ChapterHard_chapterHardSelectSkill> _dataMap;
     private readonly System.Collections.Generic.List<ChapterHard_chapterHardSelectSkill> _dataList;
     
-    public TbChapterHard_chapterHardSelectSkill(JArray _buf)
+    public TbChapterHard_chapterHardSelectSkill(ByteBuf _buf)
     {
         _dataMap = new System.Collections.Generic.Dictionary<int, ChapterHard_chapterHardSelectSkill>();
         _dataList = new System.Collections.Generic.List<ChapterHard_chapterHardSelectSkill>();
         
-        foreach(JObject _ele in _buf)
+        for(int n = _buf.ReadSize() ; n > 0 ; --n)
         {
             ChapterHard_chapterHardSelectSkill _v;
-            _v = global::HotFix.Cfg.ChapterHard_chapterHardSelectSkill.DeserializeChapterHard_chapterHardSelectSkill(_ele);
+            _v = global::HotFix.Cfg.ChapterHard_chapterHardSelectSkill.DeserializeChapterHard_chapterHardSelectSkill(_buf);
             _dataList.Add(_v);
             _dataMap.Add(_v.ID, _v);
-         }
+        }
     }
-
 
     public System.Collections.Generic.Dictionary<int, ChapterHard_chapterHardSelectSkill> DataMap => _dataMap;
     public System.Collections.Generic.List<ChapterHard_chapterHardSelectSkill> DataList => _dataList;
@@ -54,5 +50,6 @@ public partial class TbChapterHard_chapterHardSelectSkill
     }
 
 }
+
 }
 

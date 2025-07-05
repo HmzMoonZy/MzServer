@@ -8,26 +8,22 @@
 //------------------------------------------------------------------------------
 
 using Luban;
-using Newtonsoft.Json.Linq;
-
 
 
 namespace HotFix.Cfg
 {
-
 public sealed partial class Guild_guildSignIn : Luban.BeanBase
 {
-    public Guild_guildSignIn(JToken _buf) 
+    public Guild_guildSignIn(ByteBuf _buf) 
     {
-        JObject _obj = _buf as JObject;
-        ID = (int)_obj.GetValue("ID");
-        NeedItemId = (int)_obj.GetValue("NeedItemId");
-        NeedItemCount = (int)_obj.GetValue("NeedItemCount");
-        { var __json0 = _obj.GetValue("Reward"); int _n0 = (__json0 as JArray).Count; Reward = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  Reward[__index0++] = __v0; }   }
-        { var __json0 = _obj.GetValue("OtherReward"); int _n0 = (__json0 as JArray).Count; OtherReward = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  OtherReward[__index0++] = __v0; }   }
+        ID = _buf.ReadInt();
+        NeedItemId = _buf.ReadInt();
+        NeedItemCount = _buf.ReadInt();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);Reward = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); Reward[__index0] = __e0;}}
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);OtherReward = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); OtherReward[__index0] = __e0;}}
     }
 
-    public static Guild_guildSignIn DeserializeGuild_guildSignIn(JToken _buf)
+    public static Guild_guildSignIn DeserializeGuild_guildSignIn(ByteBuf _buf)
     {
         return new Guild_guildSignIn(_buf);
     }
@@ -52,8 +48,7 @@ public sealed partial class Guild_guildSignIn : Luban.BeanBase
     /// 其他奖励<br/>客户端不需要展示（必须填道具，不需要就填道具+数量0）
     /// </summary>
     public readonly string[] OtherReward;
-
-
+   
     public const int __ID__ = 262149929;
     public override int GetTypeId() => __ID__;
 
@@ -72,5 +67,6 @@ public sealed partial class Guild_guildSignIn : Luban.BeanBase
         + "}";
     }
 }
+
 }
 

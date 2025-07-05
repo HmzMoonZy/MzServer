@@ -8,28 +8,24 @@
 //------------------------------------------------------------------------------
 
 using Luban;
-using Newtonsoft.Json.Linq;
-
 
 
 namespace HotFix.Cfg
 {
-
 public sealed partial class ActvGeneral_ActBattlePassReward : Luban.BeanBase
 {
-    public ActvGeneral_ActBattlePassReward(JToken _buf) 
+    public ActvGeneral_ActBattlePassReward(ByteBuf _buf) 
     {
-        JObject _obj = _buf as JObject;
-        id = (int)_obj.GetValue("id");
-        group = (int)_obj.GetValue("group");
-        type = (int)_obj.GetValue("type");
-        score = (int)_obj.GetValue("score");
-        { var __json0 = _obj.GetValue("freeReward"); int _n0 = (__json0 as JArray).Count; freeReward = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  freeReward[__index0++] = __v0; }   }
-        { var __json0 = _obj.GetValue("payReward"); int _n0 = (__json0 as JArray).Count; payReward = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  payReward[__index0++] = __v0; }   }
-        pregroup = (int)_obj.GetValue("pregroup");
+        id = _buf.ReadInt();
+        group = _buf.ReadInt();
+        type = _buf.ReadInt();
+        score = _buf.ReadInt();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);freeReward = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); freeReward[__index0] = __e0;}}
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);payReward = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); payReward[__index0] = __e0;}}
+        pregroup = _buf.ReadInt();
     }
 
-    public static ActvGeneral_ActBattlePassReward DeserializeActvGeneral_ActBattlePassReward(JToken _buf)
+    public static ActvGeneral_ActBattlePassReward DeserializeActvGeneral_ActBattlePassReward(ByteBuf _buf)
     {
         return new ActvGeneral_ActBattlePassReward(_buf);
     }
@@ -62,8 +58,7 @@ public sealed partial class ActvGeneral_ActBattlePassReward : Luban.BeanBase
     /// 前置通行证
     /// </summary>
     public readonly int pregroup;
-
-
+   
     public const int __ID__ = 1458992975;
     public override int GetTypeId() => __ID__;
 
@@ -84,5 +79,6 @@ public sealed partial class ActvGeneral_ActBattlePassReward : Luban.BeanBase
         + "}";
     }
 }
+
 }
 

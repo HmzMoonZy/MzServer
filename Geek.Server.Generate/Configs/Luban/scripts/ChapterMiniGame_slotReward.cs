@@ -8,33 +8,29 @@
 //------------------------------------------------------------------------------
 
 using Luban;
-using Newtonsoft.Json.Linq;
-
 
 
 namespace HotFix.Cfg
 {
-
 public sealed partial class ChapterMiniGame_slotReward : Luban.BeanBase
 {
-    public ChapterMiniGame_slotReward(JToken _buf) 
+    public ChapterMiniGame_slotReward(ByteBuf _buf) 
     {
-        JObject _obj = _buf as JObject;
-        id = (int)_obj.GetValue("id");
-        symbolType = (int)_obj.GetValue("symbolType");
-        weight2 = (int)_obj.GetValue("weight2");
-        weight3 = (int)_obj.GetValue("weight3");
-        { var __json0 = _obj.GetValue("reward2"); int _n0 = (__json0 as JArray).Count; reward2 = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  reward2[__index0++] = __v0; }   }
-        reward2txt = (string)_obj.GetValue("reward2txt");
-        { var __json0 = _obj.GetValue("reward3"); int _n0 = (__json0 as JArray).Count; reward3 = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  reward3[__index0++] = __v0; }   }
-        reward3txt = (string)_obj.GetValue("reward3txt");
-        atlasRegular = (int)_obj.GetValue("atlasRegular");
-        iconRegular = (string)_obj.GetValue("iconRegular");
-        atlasBlur = (int)_obj.GetValue("atlasBlur");
-        iconBlur = (string)_obj.GetValue("iconBlur");
+        id = _buf.ReadInt();
+        symbolType = _buf.ReadInt();
+        weight2 = _buf.ReadInt();
+        weight3 = _buf.ReadInt();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);reward2 = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); reward2[__index0] = __e0;}}
+        reward2txt = _buf.ReadString();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);reward3 = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); reward3[__index0] = __e0;}}
+        reward3txt = _buf.ReadString();
+        atlasRegular = _buf.ReadInt();
+        iconRegular = _buf.ReadString();
+        atlasBlur = _buf.ReadInt();
+        iconBlur = _buf.ReadString();
     }
 
-    public static ChapterMiniGame_slotReward DeserializeChapterMiniGame_slotReward(JToken _buf)
+    public static ChapterMiniGame_slotReward DeserializeChapterMiniGame_slotReward(ByteBuf _buf)
     {
         return new ChapterMiniGame_slotReward(_buf);
     }
@@ -87,8 +83,7 @@ public sealed partial class ChapterMiniGame_slotReward : Luban.BeanBase
     /// 图集
     /// </summary>
     public readonly string iconBlur;
-
-
+   
     public const int __ID__ = 366742134;
     public override int GetTypeId() => __ID__;
 
@@ -114,5 +109,6 @@ public sealed partial class ChapterMiniGame_slotReward : Luban.BeanBase
         + "}";
     }
 }
+
 }
 

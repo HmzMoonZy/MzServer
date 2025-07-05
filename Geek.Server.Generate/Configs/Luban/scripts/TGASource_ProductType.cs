@@ -8,23 +8,19 @@
 //------------------------------------------------------------------------------
 
 using Luban;
-using Newtonsoft.Json.Linq;
-
 
 
 namespace HotFix.Cfg
 {
-
 public sealed partial class TGASource_ProductType : Luban.BeanBase
 {
-    public TGASource_ProductType(JToken _buf) 
+    public TGASource_ProductType(ByteBuf _buf) 
     {
-        JObject _obj = _buf as JObject;
-        id = (int)_obj.GetValue("id");
-        productType = (string)_obj.GetValue("productType");
+        id = _buf.ReadInt();
+        productType = _buf.ReadString();
     }
 
-    public static TGASource_ProductType DeserializeTGASource_ProductType(JToken _buf)
+    public static TGASource_ProductType DeserializeTGASource_ProductType(ByteBuf _buf)
     {
         return new TGASource_ProductType(_buf);
     }
@@ -37,8 +33,7 @@ public sealed partial class TGASource_ProductType : Luban.BeanBase
     /// 名字
     /// </summary>
     public readonly string productType;
-
-
+   
     public const int __ID__ = -1064472749;
     public override int GetTypeId() => __ID__;
 
@@ -54,5 +49,6 @@ public sealed partial class TGASource_ProductType : Luban.BeanBase
         + "}";
     }
 }
+
 }
 

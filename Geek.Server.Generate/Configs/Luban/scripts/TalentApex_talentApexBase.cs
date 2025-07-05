@@ -8,30 +8,26 @@
 //------------------------------------------------------------------------------
 
 using Luban;
-using Newtonsoft.Json.Linq;
-
 
 
 namespace HotFix.Cfg
 {
-
 public sealed partial class TalentApex_talentApexBase : Luban.BeanBase
 {
-    public TalentApex_talentApexBase(JToken _buf) 
+    public TalentApex_talentApexBase(ByteBuf _buf) 
     {
-        JObject _obj = _buf as JObject;
-        id = (int)_obj.GetValue("id");
-        initFocusX = (int)_obj.GetValue("initFocusX");
-        initFocusY = (int)_obj.GetValue("initFocusY");
-        fatherName = (string)_obj.GetValue("fatherName");
-        fatherAtlas = (int)_obj.GetValue("fatherAtlas");
-        fatherIcon = (string)_obj.GetValue("fatherIcon");
-        sonName = (string)_obj.GetValue("sonName");
-        stepX = (int)_obj.GetValue("stepX");
-        stepY = (int)_obj.GetValue("stepY");
+        id = _buf.ReadInt();
+        initFocusX = _buf.ReadInt();
+        initFocusY = _buf.ReadInt();
+        fatherName = _buf.ReadString();
+        fatherAtlas = _buf.ReadInt();
+        fatherIcon = _buf.ReadString();
+        sonName = _buf.ReadString();
+        stepX = _buf.ReadInt();
+        stepY = _buf.ReadInt();
     }
 
-    public static TalentApex_talentApexBase DeserializeTalentApex_talentApexBase(JToken _buf)
+    public static TalentApex_talentApexBase DeserializeTalentApex_talentApexBase(ByteBuf _buf)
     {
         return new TalentApex_talentApexBase(_buf);
     }
@@ -72,8 +68,7 @@ public sealed partial class TalentApex_talentApexBase : Luban.BeanBase
     /// Y轴步长
     /// </summary>
     public readonly int stepY;
-
-
+   
     public const int __ID__ = -823042000;
     public override int GetTypeId() => __ID__;
 
@@ -96,5 +91,6 @@ public sealed partial class TalentApex_talentApexBase : Luban.BeanBase
         + "}";
     }
 }
+
 }
 

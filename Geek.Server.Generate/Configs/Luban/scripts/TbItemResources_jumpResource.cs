@@ -7,14 +7,11 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-using Newtonsoft.Json.Linq;
 using Luban;
-
 
 
 namespace HotFix.Cfg
 {
-
 /// <summary>
 /// Generated from ItemResources.xlsx sheet jumpResource
 /// </summary>
@@ -23,20 +20,19 @@ public partial class TbItemResources_jumpResource
     private readonly System.Collections.Generic.Dictionary<int, ItemResources_jumpResource> _dataMap;
     private readonly System.Collections.Generic.List<ItemResources_jumpResource> _dataList;
     
-    public TbItemResources_jumpResource(JArray _buf)
+    public TbItemResources_jumpResource(ByteBuf _buf)
     {
         _dataMap = new System.Collections.Generic.Dictionary<int, ItemResources_jumpResource>();
         _dataList = new System.Collections.Generic.List<ItemResources_jumpResource>();
         
-        foreach(JObject _ele in _buf)
+        for(int n = _buf.ReadSize() ; n > 0 ; --n)
         {
             ItemResources_jumpResource _v;
-            _v = global::HotFix.Cfg.ItemResources_jumpResource.DeserializeItemResources_jumpResource(_ele);
+            _v = global::HotFix.Cfg.ItemResources_jumpResource.DeserializeItemResources_jumpResource(_buf);
             _dataList.Add(_v);
             _dataMap.Add(_v.id, _v);
-         }
+        }
     }
-
 
     public System.Collections.Generic.Dictionary<int, ItemResources_jumpResource> DataMap => _dataMap;
     public System.Collections.Generic.List<ItemResources_jumpResource> DataList => _dataList;
@@ -54,5 +50,6 @@ public partial class TbItemResources_jumpResource
     }
 
 }
+
 }
 

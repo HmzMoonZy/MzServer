@@ -7,14 +7,11 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-using Newtonsoft.Json.Linq;
 using Luban;
-
 
 
 namespace HotFix.Cfg
 {
-
 /// <summary>
 /// Generated from Quality.xlsx sheet CannonSkillQuality
 /// </summary>
@@ -23,20 +20,19 @@ public partial class TbQuality_CannonSkillQuality
     private readonly System.Collections.Generic.Dictionary<int, Quality_CannonSkillQuality> _dataMap;
     private readonly System.Collections.Generic.List<Quality_CannonSkillQuality> _dataList;
     
-    public TbQuality_CannonSkillQuality(JArray _buf)
+    public TbQuality_CannonSkillQuality(ByteBuf _buf)
     {
         _dataMap = new System.Collections.Generic.Dictionary<int, Quality_CannonSkillQuality>();
         _dataList = new System.Collections.Generic.List<Quality_CannonSkillQuality>();
         
-        foreach(JObject _ele in _buf)
+        for(int n = _buf.ReadSize() ; n > 0 ; --n)
         {
             Quality_CannonSkillQuality _v;
-            _v = global::HotFix.Cfg.Quality_CannonSkillQuality.DeserializeQuality_CannonSkillQuality(_ele);
+            _v = global::HotFix.Cfg.Quality_CannonSkillQuality.DeserializeQuality_CannonSkillQuality(_buf);
             _dataList.Add(_v);
             _dataMap.Add(_v.id, _v);
-         }
+        }
     }
-
 
     public System.Collections.Generic.Dictionary<int, Quality_CannonSkillQuality> DataMap => _dataMap;
     public System.Collections.Generic.List<Quality_CannonSkillQuality> DataList => _dataList;
@@ -54,5 +50,6 @@ public partial class TbQuality_CannonSkillQuality
     }
 
 }
+
 }
 

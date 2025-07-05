@@ -8,29 +8,25 @@
 //------------------------------------------------------------------------------
 
 using Luban;
-using Newtonsoft.Json.Linq;
-
 
 
 namespace HotFix.Cfg
 {
-
 public sealed partial class ActivityHolidayFeast_MainType : Luban.BeanBase
 {
-    public ActivityHolidayFeast_MainType(JToken _buf) 
+    public ActivityHolidayFeast_MainType(ByteBuf _buf) 
     {
-        JObject _obj = _buf as JObject;
-        Id = (int)_obj.GetValue("Id");
-        EntryFunctionId = (int)_obj.GetValue("EntryFunctionId");
-        EntryRedPointName = (string)_obj.GetValue("EntryRedPointName");
-        Feast_ViewName = (string)_obj.GetValue("Feast_ViewName");
-        JumpType = (int)_obj.GetValue("JumpType");
-        PreView_Bg = (int)_obj.GetValue("PreView_Bg");
-        PreView_Bg_Spine = (string)_obj.GetValue("PreView_Bg_Spine");
-        CVLangId = (string)_obj.GetValue("CVLangId");
+        Id = _buf.ReadInt();
+        EntryFunctionId = _buf.ReadInt();
+        EntryRedPointName = _buf.ReadString();
+        Feast_ViewName = _buf.ReadString();
+        JumpType = _buf.ReadInt();
+        PreView_Bg = _buf.ReadInt();
+        PreView_Bg_Spine = _buf.ReadString();
+        CVLangId = _buf.ReadString();
     }
 
-    public static ActivityHolidayFeast_MainType DeserializeActivityHolidayFeast_MainType(JToken _buf)
+    public static ActivityHolidayFeast_MainType DeserializeActivityHolidayFeast_MainType(ByteBuf _buf)
     {
         return new ActivityHolidayFeast_MainType(_buf);
     }
@@ -67,8 +63,7 @@ public sealed partial class ActivityHolidayFeast_MainType : Luban.BeanBase
     /// 版权相关文本
     /// </summary>
     public readonly string CVLangId;
-
-
+   
     public const int __ID__ = 205082264;
     public override int GetTypeId() => __ID__;
 
@@ -90,5 +85,6 @@ public sealed partial class ActivityHolidayFeast_MainType : Luban.BeanBase
         + "}";
     }
 }
+
 }
 

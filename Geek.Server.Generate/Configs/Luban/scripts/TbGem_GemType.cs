@@ -7,14 +7,11 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-using Newtonsoft.Json.Linq;
 using Luban;
-
 
 
 namespace HotFix.Cfg
 {
-
 /// <summary>
 /// Generated from Gem.xlsx sheet GemType
 /// </summary>
@@ -23,20 +20,19 @@ public partial class TbGem_GemType
     private readonly System.Collections.Generic.Dictionary<int, Gem_GemType> _dataMap;
     private readonly System.Collections.Generic.List<Gem_GemType> _dataList;
     
-    public TbGem_GemType(JArray _buf)
+    public TbGem_GemType(ByteBuf _buf)
     {
         _dataMap = new System.Collections.Generic.Dictionary<int, Gem_GemType>();
         _dataList = new System.Collections.Generic.List<Gem_GemType>();
         
-        foreach(JObject _ele in _buf)
+        for(int n = _buf.ReadSize() ; n > 0 ; --n)
         {
             Gem_GemType _v;
-            _v = global::HotFix.Cfg.Gem_GemType.DeserializeGem_GemType(_ele);
+            _v = global::HotFix.Cfg.Gem_GemType.DeserializeGem_GemType(_buf);
             _dataList.Add(_v);
             _dataMap.Add(_v.rank, _v);
-         }
+        }
     }
-
 
     public System.Collections.Generic.Dictionary<int, Gem_GemType> DataMap => _dataMap;
     public System.Collections.Generic.List<Gem_GemType> DataList => _dataList;
@@ -54,5 +50,6 @@ public partial class TbGem_GemType
     }
 
 }
+
 }
 

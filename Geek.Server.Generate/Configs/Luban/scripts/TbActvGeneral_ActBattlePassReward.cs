@@ -7,14 +7,11 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-using Newtonsoft.Json.Linq;
 using Luban;
-
 
 
 namespace HotFix.Cfg
 {
-
 /// <summary>
 /// Generated from ActvGeneral.xlsx sheet ActBattlePassReward
 /// </summary>
@@ -23,20 +20,19 @@ public partial class TbActvGeneral_ActBattlePassReward
     private readonly System.Collections.Generic.Dictionary<int, ActvGeneral_ActBattlePassReward> _dataMap;
     private readonly System.Collections.Generic.List<ActvGeneral_ActBattlePassReward> _dataList;
     
-    public TbActvGeneral_ActBattlePassReward(JArray _buf)
+    public TbActvGeneral_ActBattlePassReward(ByteBuf _buf)
     {
         _dataMap = new System.Collections.Generic.Dictionary<int, ActvGeneral_ActBattlePassReward>();
         _dataList = new System.Collections.Generic.List<ActvGeneral_ActBattlePassReward>();
         
-        foreach(JObject _ele in _buf)
+        for(int n = _buf.ReadSize() ; n > 0 ; --n)
         {
             ActvGeneral_ActBattlePassReward _v;
-            _v = global::HotFix.Cfg.ActvGeneral_ActBattlePassReward.DeserializeActvGeneral_ActBattlePassReward(_ele);
+            _v = global::HotFix.Cfg.ActvGeneral_ActBattlePassReward.DeserializeActvGeneral_ActBattlePassReward(_buf);
             _dataList.Add(_v);
             _dataMap.Add(_v.id, _v);
-         }
+        }
     }
-
 
     public System.Collections.Generic.Dictionary<int, ActvGeneral_ActBattlePassReward> DataMap => _dataMap;
     public System.Collections.Generic.List<ActvGeneral_ActBattlePassReward> DataList => _dataList;
@@ -54,5 +50,6 @@ public partial class TbActvGeneral_ActBattlePassReward
     }
 
 }
+
 }
 

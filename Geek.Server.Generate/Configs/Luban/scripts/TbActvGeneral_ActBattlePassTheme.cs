@@ -7,14 +7,11 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-using Newtonsoft.Json.Linq;
 using Luban;
-
 
 
 namespace HotFix.Cfg
 {
-
 /// <summary>
 /// Generated from ActvGeneral.xlsx sheet ActBattlePassTheme
 /// </summary>
@@ -23,20 +20,19 @@ public partial class TbActvGeneral_ActBattlePassTheme
     private readonly System.Collections.Generic.Dictionary<int, ActvGeneral_ActBattlePassTheme> _dataMap;
     private readonly System.Collections.Generic.List<ActvGeneral_ActBattlePassTheme> _dataList;
     
-    public TbActvGeneral_ActBattlePassTheme(JArray _buf)
+    public TbActvGeneral_ActBattlePassTheme(ByteBuf _buf)
     {
         _dataMap = new System.Collections.Generic.Dictionary<int, ActvGeneral_ActBattlePassTheme>();
         _dataList = new System.Collections.Generic.List<ActvGeneral_ActBattlePassTheme>();
         
-        foreach(JObject _ele in _buf)
+        for(int n = _buf.ReadSize() ; n > 0 ; --n)
         {
             ActvGeneral_ActBattlePassTheme _v;
-            _v = global::HotFix.Cfg.ActvGeneral_ActBattlePassTheme.DeserializeActvGeneral_ActBattlePassTheme(_ele);
+            _v = global::HotFix.Cfg.ActvGeneral_ActBattlePassTheme.DeserializeActvGeneral_ActBattlePassTheme(_buf);
             _dataList.Add(_v);
             _dataMap.Add(_v.id, _v);
-         }
+        }
     }
-
 
     public System.Collections.Generic.Dictionary<int, ActvGeneral_ActBattlePassTheme> DataMap => _dataMap;
     public System.Collections.Generic.List<ActvGeneral_ActBattlePassTheme> DataList => _dataList;
@@ -54,5 +50,6 @@ public partial class TbActvGeneral_ActBattlePassTheme
     }
 
 }
+
 }
 

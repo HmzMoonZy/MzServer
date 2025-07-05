@@ -7,14 +7,11 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-using Newtonsoft.Json.Linq;
 using Luban;
-
 
 
 namespace HotFix.Cfg
 {
-
 /// <summary>
 /// Generated from IAP.xlsx sheet platformID
 /// </summary>
@@ -23,20 +20,19 @@ public partial class TbIAP_platformID
     private readonly System.Collections.Generic.Dictionary<int, IAP_platformID> _dataMap;
     private readonly System.Collections.Generic.List<IAP_platformID> _dataList;
     
-    public TbIAP_platformID(JArray _buf)
+    public TbIAP_platformID(ByteBuf _buf)
     {
         _dataMap = new System.Collections.Generic.Dictionary<int, IAP_platformID>();
         _dataList = new System.Collections.Generic.List<IAP_platformID>();
         
-        foreach(JObject _ele in _buf)
+        for(int n = _buf.ReadSize() ; n > 0 ; --n)
         {
             IAP_platformID _v;
-            _v = global::HotFix.Cfg.IAP_platformID.DeserializeIAP_platformID(_ele);
+            _v = global::HotFix.Cfg.IAP_platformID.DeserializeIAP_platformID(_buf);
             _dataList.Add(_v);
             _dataMap.Add(_v.id, _v);
-         }
+        }
     }
-
 
     public System.Collections.Generic.Dictionary<int, IAP_platformID> DataMap => _dataMap;
     public System.Collections.Generic.List<IAP_platformID> DataList => _dataList;
@@ -54,5 +50,6 @@ public partial class TbIAP_platformID
     }
 
 }
+
 }
 

@@ -7,14 +7,11 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-using Newtonsoft.Json.Linq;
 using Luban;
-
 
 
 namespace HotFix.Cfg
 {
-
 /// <summary>
 /// Generated from ChapterMiniGame.xlsx sheet singleSlot
 /// </summary>
@@ -23,20 +20,19 @@ public partial class TbChapterMiniGame_singleSlot
     private readonly System.Collections.Generic.Dictionary<int, ChapterMiniGame_singleSlot> _dataMap;
     private readonly System.Collections.Generic.List<ChapterMiniGame_singleSlot> _dataList;
     
-    public TbChapterMiniGame_singleSlot(JArray _buf)
+    public TbChapterMiniGame_singleSlot(ByteBuf _buf)
     {
         _dataMap = new System.Collections.Generic.Dictionary<int, ChapterMiniGame_singleSlot>();
         _dataList = new System.Collections.Generic.List<ChapterMiniGame_singleSlot>();
         
-        foreach(JObject _ele in _buf)
+        for(int n = _buf.ReadSize() ; n > 0 ; --n)
         {
             ChapterMiniGame_singleSlot _v;
-            _v = global::HotFix.Cfg.ChapterMiniGame_singleSlot.DeserializeChapterMiniGame_singleSlot(_ele);
+            _v = global::HotFix.Cfg.ChapterMiniGame_singleSlot.DeserializeChapterMiniGame_singleSlot(_buf);
             _dataList.Add(_v);
             _dataMap.Add(_v.id, _v);
-         }
+        }
     }
-
 
     public System.Collections.Generic.Dictionary<int, ChapterMiniGame_singleSlot> DataMap => _dataMap;
     public System.Collections.Generic.List<ChapterMiniGame_singleSlot> DataList => _dataList;
@@ -54,5 +50,6 @@ public partial class TbChapterMiniGame_singleSlot
     }
 
 }
+
 }
 

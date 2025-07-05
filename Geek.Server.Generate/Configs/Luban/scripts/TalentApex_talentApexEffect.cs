@@ -8,29 +8,25 @@
 //------------------------------------------------------------------------------
 
 using Luban;
-using Newtonsoft.Json.Linq;
-
 
 
 namespace HotFix.Cfg
 {
-
 public sealed partial class TalentApex_talentApexEffect : Luban.BeanBase
 {
-    public TalentApex_talentApexEffect(JToken _buf) 
+    public TalentApex_talentApexEffect(ByteBuf _buf) 
     {
-        JObject _obj = _buf as JObject;
-        id = (int)_obj.GetValue("id");
-        level = (int)_obj.GetValue("level");
-        tagID = (int)_obj.GetValue("tagID");
-        { var __json0 = _obj.GetValue("levelupCost"); int _n0 = (__json0 as JArray).Count; levelupCost = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  levelupCost[__index0++] = __v0; }   }
-        effectType = (int)_obj.GetValue("effectType");
-        { var __json0 = _obj.GetValue("skills"); int _n0 = (__json0 as JArray).Count; skills = new int[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { int __v0;  __v0 = (int)__e0;  skills[__index0++] = __v0; }   }
-        { var __json0 = _obj.GetValue("attributes"); int _n0 = (__json0 as JArray).Count; attributes = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  attributes[__index0++] = __v0; }   }
-        { var __json0 = _obj.GetValue("power"); int _n0 = (__json0 as JArray).Count; power = new int[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { int __v0;  __v0 = (int)__e0;  power[__index0++] = __v0; }   }
+        id = _buf.ReadInt();
+        level = _buf.ReadInt();
+        tagID = _buf.ReadInt();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);levelupCost = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); levelupCost[__index0] = __e0;}}
+        effectType = _buf.ReadInt();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);skills = new int[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { int __e0;__e0 = _buf.ReadInt(); skills[__index0] = __e0;}}
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);attributes = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); attributes[__index0] = __e0;}}
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);power = new int[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { int __e0;__e0 = _buf.ReadInt(); power[__index0] = __e0;}}
     }
 
-    public static TalentApex_talentApexEffect DeserializeTalentApex_talentApexEffect(JToken _buf)
+    public static TalentApex_talentApexEffect DeserializeTalentApex_talentApexEffect(ByteBuf _buf)
     {
         return new TalentApex_talentApexEffect(_buf);
     }
@@ -67,8 +63,7 @@ public sealed partial class TalentApex_talentApexEffect : Luban.BeanBase
     /// 层数2万分比战力<br/>层数3万分比战力<br/>（拥有增加战力）
     /// </summary>
     public readonly int[] power;
-
-
+   
     public const int __ID__ = -579258576;
     public override int GetTypeId() => __ID__;
 
@@ -90,5 +85,6 @@ public sealed partial class TalentApex_talentApexEffect : Luban.BeanBase
         + "}";
     }
 }
+
 }
 

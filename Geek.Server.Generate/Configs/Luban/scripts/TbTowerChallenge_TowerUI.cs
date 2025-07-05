@@ -7,14 +7,11 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-using Newtonsoft.Json.Linq;
 using Luban;
-
 
 
 namespace HotFix.Cfg
 {
-
 /// <summary>
 /// Generated from TowerChallenge.xlsx sheet TowerUI
 /// </summary>
@@ -23,20 +20,19 @@ public partial class TbTowerChallenge_TowerUI
     private readonly System.Collections.Generic.Dictionary<int, TowerChallenge_TowerUI> _dataMap;
     private readonly System.Collections.Generic.List<TowerChallenge_TowerUI> _dataList;
     
-    public TbTowerChallenge_TowerUI(JArray _buf)
+    public TbTowerChallenge_TowerUI(ByteBuf _buf)
     {
         _dataMap = new System.Collections.Generic.Dictionary<int, TowerChallenge_TowerUI>();
         _dataList = new System.Collections.Generic.List<TowerChallenge_TowerUI>();
         
-        foreach(JObject _ele in _buf)
+        for(int n = _buf.ReadSize() ; n > 0 ; --n)
         {
             TowerChallenge_TowerUI _v;
-            _v = global::HotFix.Cfg.TowerChallenge_TowerUI.DeserializeTowerChallenge_TowerUI(_ele);
+            _v = global::HotFix.Cfg.TowerChallenge_TowerUI.DeserializeTowerChallenge_TowerUI(_buf);
             _dataList.Add(_v);
             _dataMap.Add(_v.id, _v);
-         }
+        }
     }
-
 
     public System.Collections.Generic.Dictionary<int, TowerChallenge_TowerUI> DataMap => _dataMap;
     public System.Collections.Generic.List<TowerChallenge_TowerUI> DataList => _dataList;
@@ -54,5 +50,6 @@ public partial class TbTowerChallenge_TowerUI
     }
 
 }
+
 }
 

@@ -8,27 +8,23 @@
 //------------------------------------------------------------------------------
 
 using Luban;
-using Newtonsoft.Json.Linq;
-
 
 
 namespace HotFix.Cfg
 {
-
 public sealed partial class Pet_petCollection : Luban.BeanBase
 {
-    public Pet_petCollection(JToken _buf) 
+    public Pet_petCollection(ByteBuf _buf) 
     {
-        JObject _obj = _buf as JObject;
-        id = (int)_obj.GetValue("id");
-        group = (int)_obj.GetValue("group");
-        groupNameId = (string)_obj.GetValue("groupNameId");
-        condition = (int)_obj.GetValue("condition");
-        { var __json0 = _obj.GetValue("petIDGroup"); int _n0 = (__json0 as JArray).Count; petIDGroup = new int[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { int __v0;  __v0 = (int)__e0;  petIDGroup[__index0++] = __v0; }   }
-        attributes = (string)_obj.GetValue("attributes");
+        id = _buf.ReadInt();
+        group = _buf.ReadInt();
+        groupNameId = _buf.ReadString();
+        condition = _buf.ReadInt();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);petIDGroup = new int[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { int __e0;__e0 = _buf.ReadInt(); petIDGroup[__index0] = __e0;}}
+        attributes = _buf.ReadString();
     }
 
-    public static Pet_petCollection DeserializePet_petCollection(JToken _buf)
+    public static Pet_petCollection DeserializePet_petCollection(ByteBuf _buf)
     {
         return new Pet_petCollection(_buf);
     }
@@ -57,8 +53,7 @@ public sealed partial class Pet_petCollection : Luban.BeanBase
     /// 属性加成
     /// </summary>
     public readonly string attributes;
-
-
+   
     public const int __ID__ = -1519549987;
     public override int GetTypeId() => __ID__;
 
@@ -78,5 +73,6 @@ public sealed partial class Pet_petCollection : Luban.BeanBase
         + "}";
     }
 }
+
 }
 

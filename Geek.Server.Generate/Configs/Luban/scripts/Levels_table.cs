@@ -8,26 +8,22 @@
 //------------------------------------------------------------------------------
 
 using Luban;
-using Newtonsoft.Json.Linq;
-
 
 
 namespace HotFix.Cfg
 {
-
 public sealed partial class Levels_table : Luban.BeanBase
 {
-    public Levels_table(JToken _buf) 
+    public Levels_table(ByteBuf _buf) 
     {
-        JObject _obj = _buf as JObject;
-        id = (int)_obj.GetValue("id");
-        notes = (string)_obj.GetValue("notes");
-        levelName = (string)_obj.GetValue("levelName");
-        titleName = (int)_obj.GetValue("titleName");
-        isShow = (int)_obj.GetValue("isShow");
+        id = _buf.ReadInt();
+        notes = _buf.ReadString();
+        levelName = _buf.ReadString();
+        titleName = _buf.ReadInt();
+        isShow = _buf.ReadInt();
     }
 
-    public static Levels_table DeserializeLevels_table(JToken _buf)
+    public static Levels_table DeserializeLevels_table(ByteBuf _buf)
     {
         return new Levels_table(_buf);
     }
@@ -52,8 +48,7 @@ public sealed partial class Levels_table : Luban.BeanBase
     /// 是否在选关中显示<br/>-1:不显示<br/>1:显示
     /// </summary>
     public readonly int isShow;
-
-
+   
     public const int __ID__ = 1592375582;
     public override int GetTypeId() => __ID__;
 
@@ -72,5 +67,6 @@ public sealed partial class Levels_table : Luban.BeanBase
         + "}";
     }
 }
+
 }
 

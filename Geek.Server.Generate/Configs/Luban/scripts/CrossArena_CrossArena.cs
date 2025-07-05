@@ -8,31 +8,27 @@
 //------------------------------------------------------------------------------
 
 using Luban;
-using Newtonsoft.Json.Linq;
-
 
 
 namespace HotFix.Cfg
 {
-
 public sealed partial class CrossArena_CrossArena : Luban.BeanBase
 {
-    public CrossArena_CrossArena(JToken _buf) 
+    public CrossArena_CrossArena(ByteBuf _buf) 
     {
-        JObject _obj = _buf as JObject;
-        id = (int)_obj.GetValue("id");
-        ranktop = (int)_obj.GetValue("ranktop");
-        rankbuttom = (int)_obj.GetValue("rankbuttom");
-        baseWinScore = (int)_obj.GetValue("baseWinScore");
-        baseLoseScore = (int)_obj.GetValue("baseLoseScore");
-        addition = (float)_obj.GetValue("addition");
-        { var __json0 = _obj.GetValue("winScoreSection"); int _n0 = (__json0 as JArray).Count; winScoreSection = new int[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { int __v0;  __v0 = (int)__e0;  winScoreSection[__index0++] = __v0; }   }
-        { var __json0 = _obj.GetValue("loseScoreSection"); int _n0 = (__json0 as JArray).Count; loseScoreSection = new int[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { int __v0;  __v0 = (int)__e0;  loseScoreSection[__index0++] = __v0; }   }
-        { var __json0 = _obj.GetValue("dailyRewards"); int _n0 = (__json0 as JArray).Count; dailyRewards = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  dailyRewards[__index0++] = __v0; }   }
-        { var __json0 = _obj.GetValue("seasonRewards"); int _n0 = (__json0 as JArray).Count; seasonRewards = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  seasonRewards[__index0++] = __v0; }   }
+        id = _buf.ReadInt();
+        ranktop = _buf.ReadInt();
+        rankbuttom = _buf.ReadInt();
+        baseWinScore = _buf.ReadInt();
+        baseLoseScore = _buf.ReadInt();
+        addition = _buf.ReadFloat();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);winScoreSection = new int[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { int __e0;__e0 = _buf.ReadInt(); winScoreSection[__index0] = __e0;}}
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);loseScoreSection = new int[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { int __e0;__e0 = _buf.ReadInt(); loseScoreSection[__index0] = __e0;}}
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);dailyRewards = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); dailyRewards[__index0] = __e0;}}
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);seasonRewards = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); seasonRewards[__index0] = __e0;}}
     }
 
-    public static CrossArena_CrossArena DeserializeCrossArena_CrossArena(JToken _buf)
+    public static CrossArena_CrossArena DeserializeCrossArena_CrossArena(ByteBuf _buf)
     {
         return new CrossArena_CrossArena(_buf);
     }
@@ -77,8 +73,7 @@ public sealed partial class CrossArena_CrossArena : Luban.BeanBase
     /// 赛季奖励
     /// </summary>
     public readonly string[] seasonRewards;
-
-
+   
     public const int __ID__ = -1034738881;
     public override int GetTypeId() => __ID__;
 
@@ -102,5 +97,6 @@ public sealed partial class CrossArena_CrossArena : Luban.BeanBase
         + "}";
     }
 }
+
 }
 

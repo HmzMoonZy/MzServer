@@ -8,29 +8,25 @@
 //------------------------------------------------------------------------------
 
 using Luban;
-using Newtonsoft.Json.Linq;
-
 
 
 namespace HotFix.Cfg
 {
-
 public sealed partial class IAP_LevelFundReward : Luban.BeanBase
 {
-    public IAP_LevelFundReward(JToken _buf) 
+    public IAP_LevelFundReward(ByteBuf _buf) 
     {
-        JObject _obj = _buf as JObject;
-        id = (int)_obj.GetValue("id");
-        groupId = (int)_obj.GetValue("groupId");
-        param = (string)_obj.GetValue("param");
-        { var __json0 = _obj.GetValue("freeReward"); int _n0 = (__json0 as JArray).Count; freeReward = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  freeReward[__index0++] = __v0; }   }
-        { var __json0 = _obj.GetValue("fundReward"); int _n0 = (__json0 as JArray).Count; fundReward = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  fundReward[__index0++] = __v0; }   }
-        prodReparationMail = (string)_obj.GetValue("prodReparationMail");
-        testReparationMail = (string)_obj.GetValue("testReparationMail");
-        { var __json0 = _obj.GetValue("reparationReward"); int _n0 = (__json0 as JArray).Count; reparationReward = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  reparationReward[__index0++] = __v0; }   }
+        id = _buf.ReadInt();
+        groupId = _buf.ReadInt();
+        param = _buf.ReadString();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);freeReward = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); freeReward[__index0] = __e0;}}
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);fundReward = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); fundReward[__index0] = __e0;}}
+        prodReparationMail = _buf.ReadString();
+        testReparationMail = _buf.ReadString();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);reparationReward = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); reparationReward[__index0] = __e0;}}
     }
 
-    public static IAP_LevelFundReward DeserializeIAP_LevelFundReward(JToken _buf)
+    public static IAP_LevelFundReward DeserializeIAP_LevelFundReward(ByteBuf _buf)
     {
         return new IAP_LevelFundReward(_buf);
     }
@@ -67,8 +63,7 @@ public sealed partial class IAP_LevelFundReward : Luban.BeanBase
     /// 补偿奖励
     /// </summary>
     public readonly string[] reparationReward;
-
-
+   
     public const int __ID__ = 2050101457;
     public override int GetTypeId() => __ID__;
 
@@ -90,5 +85,6 @@ public sealed partial class IAP_LevelFundReward : Luban.BeanBase
         + "}";
     }
 }
+
 }
 

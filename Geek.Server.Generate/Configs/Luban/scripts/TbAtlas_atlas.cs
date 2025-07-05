@@ -7,14 +7,11 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-using Newtonsoft.Json.Linq;
 using Luban;
-
 
 
 namespace HotFix.Cfg
 {
-
 /// <summary>
 /// Generated from Atlas.xlsx sheet atlas
 /// </summary>
@@ -23,20 +20,19 @@ public partial class TbAtlas_atlas
     private readonly System.Collections.Generic.Dictionary<int, Atlas_atlas> _dataMap;
     private readonly System.Collections.Generic.List<Atlas_atlas> _dataList;
     
-    public TbAtlas_atlas(JArray _buf)
+    public TbAtlas_atlas(ByteBuf _buf)
     {
         _dataMap = new System.Collections.Generic.Dictionary<int, Atlas_atlas>();
         _dataList = new System.Collections.Generic.List<Atlas_atlas>();
         
-        foreach(JObject _ele in _buf)
+        for(int n = _buf.ReadSize() ; n > 0 ; --n)
         {
             Atlas_atlas _v;
-            _v = global::HotFix.Cfg.Atlas_atlas.DeserializeAtlas_atlas(_ele);
+            _v = global::HotFix.Cfg.Atlas_atlas.DeserializeAtlas_atlas(_buf);
             _dataList.Add(_v);
             _dataMap.Add(_v.id, _v);
-         }
+        }
     }
-
 
     public System.Collections.Generic.Dictionary<int, Atlas_atlas> DataMap => _dataMap;
     public System.Collections.Generic.List<Atlas_atlas> DataList => _dataList;
@@ -54,5 +50,6 @@ public partial class TbAtlas_atlas
     }
 
 }
+
 }
 

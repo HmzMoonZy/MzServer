@@ -7,14 +7,11 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-using Newtonsoft.Json.Linq;
 using Luban;
-
 
 
 namespace HotFix.Cfg
 {
-
 /// <summary>
 /// Generated from GuildBOSS.xlsx sheet guildBossStep
 /// </summary>
@@ -23,20 +20,19 @@ public partial class TbGuildBOSS_guildBossStep
     private readonly System.Collections.Generic.Dictionary<int, GuildBOSS_guildBossStep> _dataMap;
     private readonly System.Collections.Generic.List<GuildBOSS_guildBossStep> _dataList;
     
-    public TbGuildBOSS_guildBossStep(JArray _buf)
+    public TbGuildBOSS_guildBossStep(ByteBuf _buf)
     {
         _dataMap = new System.Collections.Generic.Dictionary<int, GuildBOSS_guildBossStep>();
         _dataList = new System.Collections.Generic.List<GuildBOSS_guildBossStep>();
         
-        foreach(JObject _ele in _buf)
+        for(int n = _buf.ReadSize() ; n > 0 ; --n)
         {
             GuildBOSS_guildBossStep _v;
-            _v = global::HotFix.Cfg.GuildBOSS_guildBossStep.DeserializeGuildBOSS_guildBossStep(_ele);
+            _v = global::HotFix.Cfg.GuildBOSS_guildBossStep.DeserializeGuildBOSS_guildBossStep(_buf);
             _dataList.Add(_v);
             _dataMap.Add(_v.BossLevel, _v);
-         }
+        }
     }
-
 
     public System.Collections.Generic.Dictionary<int, GuildBOSS_guildBossStep> DataMap => _dataMap;
     public System.Collections.Generic.List<GuildBOSS_guildBossStep> DataList => _dataList;
@@ -54,5 +50,6 @@ public partial class TbGuildBOSS_guildBossStep
     }
 
 }
+
 }
 

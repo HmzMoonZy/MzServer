@@ -7,14 +7,11 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-using Newtonsoft.Json.Linq;
 using Luban;
-
 
 
 namespace HotFix.Cfg
 {
-
 /// <summary>
 /// Generated from DailyLevel.xlsx sheet dailyTurntable
 /// </summary>
@@ -23,20 +20,19 @@ public partial class TbDailyLevel_dailyTurntable
     private readonly System.Collections.Generic.Dictionary<int, DailyLevel_dailyTurntable> _dataMap;
     private readonly System.Collections.Generic.List<DailyLevel_dailyTurntable> _dataList;
     
-    public TbDailyLevel_dailyTurntable(JArray _buf)
+    public TbDailyLevel_dailyTurntable(ByteBuf _buf)
     {
         _dataMap = new System.Collections.Generic.Dictionary<int, DailyLevel_dailyTurntable>();
         _dataList = new System.Collections.Generic.List<DailyLevel_dailyTurntable>();
         
-        foreach(JObject _ele in _buf)
+        for(int n = _buf.ReadSize() ; n > 0 ; --n)
         {
             DailyLevel_dailyTurntable _v;
-            _v = global::HotFix.Cfg.DailyLevel_dailyTurntable.DeserializeDailyLevel_dailyTurntable(_ele);
+            _v = global::HotFix.Cfg.DailyLevel_dailyTurntable.DeserializeDailyLevel_dailyTurntable(_buf);
             _dataList.Add(_v);
             _dataMap.Add(_v.id, _v);
-         }
+        }
     }
-
 
     public System.Collections.Generic.Dictionary<int, DailyLevel_dailyTurntable> DataMap => _dataMap;
     public System.Collections.Generic.List<DailyLevel_dailyTurntable> DataList => _dataList;
@@ -54,5 +50,6 @@ public partial class TbDailyLevel_dailyTurntable
     }
 
 }
+
 }
 

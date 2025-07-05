@@ -8,25 +8,21 @@
 //------------------------------------------------------------------------------
 
 using Luban;
-using Newtonsoft.Json.Linq;
-
 
 
 namespace HotFix.Cfg
 {
-
 public sealed partial class Item_battle : Luban.BeanBase
 {
-    public Item_battle(JToken _buf) 
+    public Item_battle(ByteBuf _buf) 
     {
-        JObject _obj = _buf as JObject;
-        id = (int)_obj.GetValue("id");
-        className = (string)_obj.GetValue("className");
-        parameter = (int)_obj.GetValue("parameter");
-        prefabId = (int)_obj.GetValue("prefabId");
+        id = _buf.ReadInt();
+        className = _buf.ReadString();
+        parameter = _buf.ReadInt();
+        prefabId = _buf.ReadInt();
     }
 
-    public static Item_battle DeserializeItem_battle(JToken _buf)
+    public static Item_battle DeserializeItem_battle(ByteBuf _buf)
     {
         return new Item_battle(_buf);
     }
@@ -47,8 +43,7 @@ public sealed partial class Item_battle : Luban.BeanBase
     /// 战斗中掉落的道具id<br/>看GameArt_Battle表格
     /// </summary>
     public readonly int prefabId;
-
-
+   
     public const int __ID__ = 781610820;
     public override int GetTypeId() => __ID__;
 
@@ -66,5 +61,6 @@ public sealed partial class Item_battle : Luban.BeanBase
         + "}";
     }
 }
+
 }
 

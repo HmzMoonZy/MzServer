@@ -8,25 +8,21 @@
 //------------------------------------------------------------------------------
 
 using Luban;
-using Newtonsoft.Json.Linq;
-
 
 
 namespace HotFix.Cfg
 {
-
 public sealed partial class Plinko_PlinkoRewardSpecialProbability : Luban.BeanBase
 {
-    public Plinko_PlinkoRewardSpecialProbability(JToken _buf) 
+    public Plinko_PlinkoRewardSpecialProbability(ByteBuf _buf) 
     {
-        JObject _obj = _buf as JObject;
-        ID = (int)_obj.GetValue("ID");
-        Type = (int)_obj.GetValue("Type");
-        { var __json0 = _obj.GetValue("Rewards1"); int _n0 = (__json0 as JArray).Count; Rewards1 = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  Rewards1[__index0++] = __v0; }   }
-        Rewards2 = (int)_obj.GetValue("Rewards2");
+        ID = _buf.ReadInt();
+        Type = _buf.ReadInt();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);Rewards1 = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); Rewards1[__index0] = __e0;}}
+        Rewards2 = _buf.ReadInt();
     }
 
-    public static Plinko_PlinkoRewardSpecialProbability DeserializePlinko_PlinkoRewardSpecialProbability(JToken _buf)
+    public static Plinko_PlinkoRewardSpecialProbability DeserializePlinko_PlinkoRewardSpecialProbability(ByteBuf _buf)
     {
         return new Plinko_PlinkoRewardSpecialProbability(_buf);
     }
@@ -47,8 +43,7 @@ public sealed partial class Plinko_PlinkoRewardSpecialProbability : Luban.BeanBa
     /// 少的数量的补充奖励id<br/>
     /// </summary>
     public readonly int Rewards2;
-
-
+   
     public const int __ID__ = 285648874;
     public override int GetTypeId() => __ID__;
 
@@ -66,5 +61,6 @@ public sealed partial class Plinko_PlinkoRewardSpecialProbability : Luban.BeanBa
         + "}";
     }
 }
+
 }
 

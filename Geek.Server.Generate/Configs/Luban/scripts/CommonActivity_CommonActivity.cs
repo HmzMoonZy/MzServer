@@ -8,54 +8,50 @@
 //------------------------------------------------------------------------------
 
 using Luban;
-using Newtonsoft.Json.Linq;
-
 
 
 namespace HotFix.Cfg
 {
-
 public sealed partial class CommonActivity_CommonActivity : Luban.BeanBase
 {
-    public CommonActivity_CommonActivity(JToken _buf) 
+    public CommonActivity_CommonActivity(ByteBuf _buf) 
     {
-        JObject _obj = _buf as JObject;
-        Id = (int)_obj.GetValue("Id");
-        SortID = (int)_obj.GetValue("SortID");
-        Type = (int)_obj.GetValue("Type");
-        dateTimeLimit = (int)_obj.GetValue("dateTimeLimit");
-        OpenTime = (int)_obj.GetValue("OpenTime");
-        EndTime = (int)_obj.GetValue("EndTime");
-        DontOpen = (int)_obj.GetValue("DontOpen");
-        Round = (int)_obj.GetValue("Round");
-        RankID = (int)_obj.GetValue("RankID");
-        QuestID = (int)_obj.GetValue("QuestID");
-        PayID = (int)_obj.GetValue("PayID");
-        ShopID = (int)_obj.GetValue("ShopID");
-        { var __json0 = _obj.GetValue("FinalReward"); int _n0 = (__json0 as JArray).Count; FinalReward = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  FinalReward[__index0++] = __v0; }   }
-        { var __json0 = _obj.GetValue("packageDrop"); int _n0 = (__json0 as JArray).Count; packageDrop = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  packageDrop[__index0++] = __v0; }   }
-        { var __json0 = _obj.GetValue("removeItem"); int _n0 = (__json0 as JArray).Count; removeItem = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  removeItem[__index0++] = __v0; }   }
-        { var __json0 = _obj.GetValue("reparation"); int _n0 = (__json0 as JArray).Count; reparation = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  reparation[__index0++] = __v0; }   }
-        prodMailReparation = (string)_obj.GetValue("prodMailReparation");
-        testMailReparation = (string)_obj.GetValue("testMailReparation");
-        prodMailReparationCN = (string)_obj.GetValue("prodMailReparationCN");
-        testMailReparationCN = (string)_obj.GetValue("testMailReparationCN");
-        JumpInterface = (int)_obj.GetValue("JumpInterface");
-        JumpInterfaceName = (string)_obj.GetValue("JumpInterfaceName");
-        ActvDes = (string)_obj.GetValue("ActvDes");
-        { var __json0 = _obj.GetValue("Currency"); int _n0 = (__json0 as JArray).Count; Currency = new int[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { int __v0;  __v0 = (int)__e0;  Currency[__index0++] = __v0; }   }
-        Prod_MailTempId = (string)_obj.GetValue("Prod_MailTempId");
-        Test_MailTempId = (string)_obj.GetValue("Test_MailTempId");
-        Prod_MailTempIdCN = (string)_obj.GetValue("Prod_MailTempIdCN");
-        Test_MailTempIdCN = (string)_obj.GetValue("Test_MailTempIdCN");
-        { var __json0 = _obj.GetValue("Param"); int _n0 = (__json0 as JArray).Count; Param = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  Param[__index0++] = __v0; }   }
-        OutputItem = (int)_obj.GetValue("OutputItem");
-        Name = (string)_obj.GetValue("Name");
-        banner = (string)_obj.GetValue("banner");
-        banner2 = (string)_obj.GetValue("banner2");
+        Id = _buf.ReadInt();
+        SortID = _buf.ReadInt();
+        Type = _buf.ReadInt();
+        dateTimeLimit = _buf.ReadInt();
+        OpenTime = _buf.ReadInt();
+        EndTime = _buf.ReadInt();
+        DontOpen = _buf.ReadInt();
+        Round = _buf.ReadInt();
+        RankID = _buf.ReadInt();
+        QuestID = _buf.ReadInt();
+        PayID = _buf.ReadInt();
+        ShopID = _buf.ReadInt();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);FinalReward = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); FinalReward[__index0] = __e0;}}
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);packageDrop = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); packageDrop[__index0] = __e0;}}
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);removeItem = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); removeItem[__index0] = __e0;}}
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);reparation = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); reparation[__index0] = __e0;}}
+        prodMailReparation = _buf.ReadString();
+        testMailReparation = _buf.ReadString();
+        prodMailReparationCN = _buf.ReadString();
+        testMailReparationCN = _buf.ReadString();
+        JumpInterface = _buf.ReadInt();
+        JumpInterfaceName = _buf.ReadString();
+        ActvDes = _buf.ReadString();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);Currency = new int[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { int __e0;__e0 = _buf.ReadInt(); Currency[__index0] = __e0;}}
+        Prod_MailTempId = _buf.ReadString();
+        Test_MailTempId = _buf.ReadString();
+        Prod_MailTempIdCN = _buf.ReadString();
+        Test_MailTempIdCN = _buf.ReadString();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);Param = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); Param[__index0] = __e0;}}
+        OutputItem = _buf.ReadInt();
+        Name = _buf.ReadString();
+        banner = _buf.ReadString();
+        banner2 = _buf.ReadString();
     }
 
-    public static CommonActivity_CommonActivity DeserializeCommonActivity_CommonActivity(JToken _buf)
+    public static CommonActivity_CommonActivity DeserializeCommonActivity_CommonActivity(ByteBuf _buf)
     {
         return new CommonActivity_CommonActivity(_buf);
     }
@@ -192,8 +188,7 @@ public sealed partial class CommonActivity_CommonActivity : Luban.BeanBase
     /// 里面活动banner图
     /// </summary>
     public readonly string banner2;
-
-
+   
     public const int __ID__ = -30510369;
     public override int GetTypeId() => __ID__;
 
@@ -240,5 +235,6 @@ public sealed partial class CommonActivity_CommonActivity : Luban.BeanBase
         + "}";
     }
 }
+
 }
 

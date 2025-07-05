@@ -8,26 +8,22 @@
 //------------------------------------------------------------------------------
 
 using Luban;
-using Newtonsoft.Json.Linq;
-
 
 
 namespace HotFix.Cfg
 {
-
 public sealed partial class TicketExchange_Exchange : Luban.BeanBase
 {
-    public TicketExchange_Exchange(JToken _buf) 
+    public TicketExchange_Exchange(ByteBuf _buf) 
     {
-        JObject _obj = _buf as JObject;
-        id = (int)_obj.GetValue("id");
-        type = (int)_obj.GetValue("type");
-        count = (int)_obj.GetValue("count");
-        unit = (int)_obj.GetValue("unit");
-        diamondCost = (int)_obj.GetValue("diamondCost");
+        id = _buf.ReadInt();
+        type = _buf.ReadInt();
+        count = _buf.ReadInt();
+        unit = _buf.ReadInt();
+        diamondCost = _buf.ReadInt();
     }
 
-    public static TicketExchange_Exchange DeserializeTicketExchange_Exchange(JToken _buf)
+    public static TicketExchange_Exchange DeserializeTicketExchange_Exchange(ByteBuf _buf)
     {
         return new TicketExchange_Exchange(_buf);
     }
@@ -52,8 +48,7 @@ public sealed partial class TicketExchange_Exchange : Luban.BeanBase
     /// 购买次数的钻石花费
     /// </summary>
     public readonly int diamondCost;
-
-
+   
     public const int __ID__ = -567512301;
     public override int GetTypeId() => __ID__;
 
@@ -72,5 +67,6 @@ public sealed partial class TicketExchange_Exchange : Luban.BeanBase
         + "}";
     }
 }
+
 }
 

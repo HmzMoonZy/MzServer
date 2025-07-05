@@ -8,38 +8,34 @@
 //------------------------------------------------------------------------------
 
 using Luban;
-using Newtonsoft.Json.Linq;
-
 
 
 namespace HotFix.Cfg
 {
-
 public sealed partial class Quality_equipQuality : Luban.BeanBase
 {
-    public Quality_equipQuality(JToken _buf) 
+    public Quality_equipQuality(ByteBuf _buf) 
     {
-        JObject _obj = _buf as JObject;
-        id = (int)_obj.GetValue("id");
-        atlasId = (int)_obj.GetValue("atlasId");
-        bgSpriteName = (string)_obj.GetValue("bgSpriteName");
-        equipTypeBgSpriteName = (string)_obj.GetValue("equipTypeBgSpriteName");
-        pointSpriteName = (string)_obj.GetValue("pointSpriteName");
-        lockSpriteName = (string)_obj.GetValue("lockSpriteName");
-        composePlusSpriteName = (string)_obj.GetValue("composePlusSpriteName");
-        colorNumLight = (string)_obj.GetValue("colorNumLight");
-        colorNumDark = (string)_obj.GetValue("colorNumDark");
-        colorImgLightBlend = (string)_obj.GetValue("colorImgLightBlend");
-        drawCardBgEffect = (string)_obj.GetValue("drawCardBgEffect");
-        drawCardFireEffect = (string)_obj.GetValue("drawCardFireEffect");
-        drawCardFireEffect2 = (string)_obj.GetValue("drawCardFireEffect2");
-        drawCardFireBurstEffect = (string)_obj.GetValue("drawCardFireBurstEffect");
-        drawCardFireBurstEffect2 = (string)_obj.GetValue("drawCardFireBurstEffect2");
-        drawCardBurstLightEffect = (string)_obj.GetValue("drawCardBurstLightEffect");
-        divineLimit = (int)_obj.GetValue("divineLimit");
+        id = _buf.ReadInt();
+        atlasId = _buf.ReadInt();
+        bgSpriteName = _buf.ReadString();
+        equipTypeBgSpriteName = _buf.ReadString();
+        pointSpriteName = _buf.ReadString();
+        lockSpriteName = _buf.ReadString();
+        composePlusSpriteName = _buf.ReadString();
+        colorNumLight = _buf.ReadString();
+        colorNumDark = _buf.ReadString();
+        colorImgLightBlend = _buf.ReadString();
+        drawCardBgEffect = _buf.ReadString();
+        drawCardFireEffect = _buf.ReadString();
+        drawCardFireEffect2 = _buf.ReadString();
+        drawCardFireBurstEffect = _buf.ReadString();
+        drawCardFireBurstEffect2 = _buf.ReadString();
+        drawCardBurstLightEffect = _buf.ReadString();
+        divineLimit = _buf.ReadInt();
     }
 
-    public static Quality_equipQuality DeserializeQuality_equipQuality(JToken _buf)
+    public static Quality_equipQuality DeserializeQuality_equipQuality(ByteBuf _buf)
     {
         return new Quality_equipQuality(_buf);
     }
@@ -112,8 +108,7 @@ public sealed partial class Quality_equipQuality : Luban.BeanBase
     /// 神铸等级上限
     /// </summary>
     public readonly int divineLimit;
-
-
+   
     public const int __ID__ = -2131751409;
     public override int GetTypeId() => __ID__;
 
@@ -144,5 +139,6 @@ public sealed partial class Quality_equipQuality : Luban.BeanBase
         + "}";
     }
 }
+
 }
 

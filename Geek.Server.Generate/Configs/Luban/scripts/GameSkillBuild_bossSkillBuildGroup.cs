@@ -8,26 +8,22 @@
 //------------------------------------------------------------------------------
 
 using Luban;
-using Newtonsoft.Json.Linq;
-
 
 
 namespace HotFix.Cfg
 {
-
 public sealed partial class GameSkillBuild_bossSkillBuildGroup : Luban.BeanBase
 {
-    public GameSkillBuild_bossSkillBuildGroup(JToken _buf) 
+    public GameSkillBuild_bossSkillBuildGroup(ByteBuf _buf) 
     {
-        JObject _obj = _buf as JObject;
-        id = (int)_obj.GetValue("id");
-        type = (int)_obj.GetValue("type");
-        weight = (int)_obj.GetValue("weight");
-        { var __json0 = _obj.GetValue("count"); int _n0 = (__json0 as JArray).Count; count = new int[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { int __v0;  __v0 = (int)__e0;  count[__index0++] = __v0; }   }
-        { var __json0 = _obj.GetValue("skillBuildGroup"); int _n0 = (__json0 as JArray).Count; skillBuildGroup = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  skillBuildGroup[__index0++] = __v0; }   }
+        id = _buf.ReadInt();
+        type = _buf.ReadInt();
+        weight = _buf.ReadInt();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);count = new int[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { int __e0;__e0 = _buf.ReadInt(); count[__index0] = __e0;}}
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);skillBuildGroup = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); skillBuildGroup[__index0] = __e0;}}
     }
 
-    public static GameSkillBuild_bossSkillBuildGroup DeserializeGameSkillBuild_bossSkillBuildGroup(JToken _buf)
+    public static GameSkillBuild_bossSkillBuildGroup DeserializeGameSkillBuild_bossSkillBuildGroup(ByteBuf _buf)
     {
         return new GameSkillBuild_bossSkillBuildGroup(_buf);
     }
@@ -52,8 +48,7 @@ public sealed partial class GameSkillBuild_bossSkillBuildGroup : Luban.BeanBase
     /// 技能build ID的组<br/>普通|传说|神话|不朽
     /// </summary>
     public readonly string[] skillBuildGroup;
-
-
+   
     public const int __ID__ = -1250970939;
     public override int GetTypeId() => __ID__;
 
@@ -72,5 +67,6 @@ public sealed partial class GameSkillBuild_bossSkillBuildGroup : Luban.BeanBase
         + "}";
     }
 }
+
 }
 

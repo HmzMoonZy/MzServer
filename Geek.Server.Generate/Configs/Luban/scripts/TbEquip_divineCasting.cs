@@ -7,14 +7,11 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-using Newtonsoft.Json.Linq;
 using Luban;
-
 
 
 namespace HotFix.Cfg
 {
-
 /// <summary>
 /// Generated from Equip.xlsx sheet divineCasting
 /// </summary>
@@ -23,20 +20,19 @@ public partial class TbEquip_divineCasting
     private readonly System.Collections.Generic.Dictionary<int, Equip_divineCasting> _dataMap;
     private readonly System.Collections.Generic.List<Equip_divineCasting> _dataList;
     
-    public TbEquip_divineCasting(JArray _buf)
+    public TbEquip_divineCasting(ByteBuf _buf)
     {
         _dataMap = new System.Collections.Generic.Dictionary<int, Equip_divineCasting>();
         _dataList = new System.Collections.Generic.List<Equip_divineCasting>();
         
-        foreach(JObject _ele in _buf)
+        for(int n = _buf.ReadSize() ; n > 0 ; --n)
         {
             Equip_divineCasting _v;
-            _v = global::HotFix.Cfg.Equip_divineCasting.DeserializeEquip_divineCasting(_ele);
+            _v = global::HotFix.Cfg.Equip_divineCasting.DeserializeEquip_divineCasting(_buf);
             _dataList.Add(_v);
             _dataMap.Add(_v.id, _v);
-         }
+        }
     }
-
 
     public System.Collections.Generic.Dictionary<int, Equip_divineCasting> DataMap => _dataMap;
     public System.Collections.Generic.List<Equip_divineCasting> DataList => _dataList;
@@ -54,5 +50,6 @@ public partial class TbEquip_divineCasting
     }
 
 }
+
 }
 

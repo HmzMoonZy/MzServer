@@ -8,25 +8,21 @@
 //------------------------------------------------------------------------------
 
 using Luban;
-using Newtonsoft.Json.Linq;
-
 
 
 namespace HotFix.Cfg
 {
-
 public sealed partial class ItemGift_ItemGift : Luban.BeanBase
 {
-    public ItemGift_ItemGift(JToken _buf) 
+    public ItemGift_ItemGift(ByteBuf _buf) 
     {
-        JObject _obj = _buf as JObject;
-        id = (int)_obj.GetValue("id");
-        Type = (int)_obj.GetValue("Type");
-        Rewards = (string)_obj.GetValue("Rewards");
-        seconds = (int)_obj.GetValue("seconds");
+        id = _buf.ReadInt();
+        Type = _buf.ReadInt();
+        Rewards = _buf.ReadString();
+        seconds = _buf.ReadInt();
     }
 
-    public static ItemGift_ItemGift DeserializeItemGift_ItemGift(JToken _buf)
+    public static ItemGift_ItemGift DeserializeItemGift_ItemGift(ByteBuf _buf)
     {
         return new ItemGift_ItemGift(_buf);
     }
@@ -47,8 +43,7 @@ public sealed partial class ItemGift_ItemGift : Luban.BeanBase
     /// 挂机类道具时间(秒)
     /// </summary>
     public readonly int seconds;
-
-
+   
     public const int __ID__ = 2005656767;
     public override int GetTypeId() => __ID__;
 
@@ -66,5 +61,6 @@ public sealed partial class ItemGift_ItemGift : Luban.BeanBase
         + "}";
     }
 }
+
 }
 

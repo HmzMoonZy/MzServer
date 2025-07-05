@@ -7,14 +7,11 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-using Newtonsoft.Json.Linq;
 using Luban;
-
 
 
 namespace HotFix.Cfg
 {
-
 /// <summary>
 /// Generated from Mining.xlsx sheet showRate
 /// </summary>
@@ -23,20 +20,19 @@ public partial class TbMining_showRate
     private readonly System.Collections.Generic.Dictionary<int, Mining_showRate> _dataMap;
     private readonly System.Collections.Generic.List<Mining_showRate> _dataList;
     
-    public TbMining_showRate(JArray _buf)
+    public TbMining_showRate(ByteBuf _buf)
     {
         _dataMap = new System.Collections.Generic.Dictionary<int, Mining_showRate>();
         _dataList = new System.Collections.Generic.List<Mining_showRate>();
         
-        foreach(JObject _ele in _buf)
+        for(int n = _buf.ReadSize() ; n > 0 ; --n)
         {
             Mining_showRate _v;
-            _v = global::HotFix.Cfg.Mining_showRate.DeserializeMining_showRate(_ele);
+            _v = global::HotFix.Cfg.Mining_showRate.DeserializeMining_showRate(_buf);
             _dataList.Add(_v);
             _dataMap.Add(_v.id, _v);
-         }
+        }
     }
-
 
     public System.Collections.Generic.Dictionary<int, Mining_showRate> DataMap => _dataMap;
     public System.Collections.Generic.List<Mining_showRate> DataList => _dataList;
@@ -54,5 +50,6 @@ public partial class TbMining_showRate
     }
 
 }
+
 }
 

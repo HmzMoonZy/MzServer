@@ -7,14 +7,11 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-using Newtonsoft.Json.Linq;
 using Luban;
-
 
 
 namespace HotFix.Cfg
 {
-
 /// <summary>
 /// Generated from IAP.xlsx sheet pushIap
 /// </summary>
@@ -23,20 +20,19 @@ public partial class TbIAP_pushIap
     private readonly System.Collections.Generic.Dictionary<int, IAP_pushIap> _dataMap;
     private readonly System.Collections.Generic.List<IAP_pushIap> _dataList;
     
-    public TbIAP_pushIap(JArray _buf)
+    public TbIAP_pushIap(ByteBuf _buf)
     {
         _dataMap = new System.Collections.Generic.Dictionary<int, IAP_pushIap>();
         _dataList = new System.Collections.Generic.List<IAP_pushIap>();
         
-        foreach(JObject _ele in _buf)
+        for(int n = _buf.ReadSize() ; n > 0 ; --n)
         {
             IAP_pushIap _v;
-            _v = global::HotFix.Cfg.IAP_pushIap.DeserializeIAP_pushIap(_ele);
+            _v = global::HotFix.Cfg.IAP_pushIap.DeserializeIAP_pushIap(_buf);
             _dataList.Add(_v);
             _dataMap.Add(_v.id, _v);
-         }
+        }
     }
-
 
     public System.Collections.Generic.Dictionary<int, IAP_pushIap> DataMap => _dataMap;
     public System.Collections.Generic.List<IAP_pushIap> DataList => _dataList;
@@ -54,5 +50,6 @@ public partial class TbIAP_pushIap
     }
 
 }
+
 }
 

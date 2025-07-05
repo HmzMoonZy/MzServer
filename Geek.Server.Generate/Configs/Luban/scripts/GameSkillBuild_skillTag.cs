@@ -8,27 +8,23 @@
 //------------------------------------------------------------------------------
 
 using Luban;
-using Newtonsoft.Json.Linq;
-
 
 
 namespace HotFix.Cfg
 {
-
 public sealed partial class GameSkillBuild_skillTag : Luban.BeanBase
 {
-    public GameSkillBuild_skillTag(JToken _buf) 
+    public GameSkillBuild_skillTag(ByteBuf _buf) 
     {
-        JObject _obj = _buf as JObject;
-        id = (int)_obj.GetValue("id");
-        languageIdTitle = (string)_obj.GetValue("languageIdTitle");
-        languageIdDesc = (string)_obj.GetValue("languageIdDesc");
-        quality = (int)_obj.GetValue("quality");
-        atlas = (int)_obj.GetValue("atlas");
-        icon = (string)_obj.GetValue("icon");
+        id = _buf.ReadInt();
+        languageIdTitle = _buf.ReadString();
+        languageIdDesc = _buf.ReadString();
+        quality = _buf.ReadInt();
+        atlas = _buf.ReadInt();
+        icon = _buf.ReadString();
     }
 
-    public static GameSkillBuild_skillTag DeserializeGameSkillBuild_skillTag(JToken _buf)
+    public static GameSkillBuild_skillTag DeserializeGameSkillBuild_skillTag(ByteBuf _buf)
     {
         return new GameSkillBuild_skillTag(_buf);
     }
@@ -57,8 +53,7 @@ public sealed partial class GameSkillBuild_skillTag : Luban.BeanBase
     /// 图标
     /// </summary>
     public readonly string icon;
-
-
+   
     public const int __ID__ = 1922409849;
     public override int GetTypeId() => __ID__;
 
@@ -78,5 +73,6 @@ public sealed partial class GameSkillBuild_skillTag : Luban.BeanBase
         + "}";
     }
 }
+
 }
 

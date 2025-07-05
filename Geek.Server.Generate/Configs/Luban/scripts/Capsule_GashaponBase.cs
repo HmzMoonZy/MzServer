@@ -8,42 +8,38 @@
 //------------------------------------------------------------------------------
 
 using Luban;
-using Newtonsoft.Json.Linq;
-
 
 
 namespace HotFix.Cfg
 {
-
 public sealed partial class Capsule_GashaponBase : Luban.BeanBase
 {
-    public Capsule_GashaponBase(JToken _buf) 
+    public Capsule_GashaponBase(ByteBuf _buf) 
     {
-        JObject _obj = _buf as JObject;
-        ID = (int)_obj.GetValue("ID");
-        ConnectActivityId = (int)_obj.GetValue("ConnectActivityId");
-        LotteryItem = (int)_obj.GetValue("LotteryItem");
-        BuyLimitNum = (int)_obj.GetValue("BuyLimitNum");
-        PointItem = (int)_obj.GetValue("PointItem");
-        PointItem1 = (int)_obj.GetValue("PointItem1");
-        GiftItemId = (int)_obj.GetValue("GiftItemId");
-        LotteryPrice = (int)_obj.GetValue("LotteryPrice");
-        { var __json0 = _obj.GetValue("BuyLimit"); int _n0 = (__json0 as JArray).Count; BuyLimit = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  BuyLimit[__index0++] = __v0; }   }
-        DefaultLottery = (int)_obj.GetValue("DefaultLottery");
-        { var __json0 = _obj.GetValue("LoopBox"); int _n0 = (__json0 as JArray).Count; LoopBox = new int[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { int __v0;  __v0 = (int)__e0;  LoopBox[__index0++] = __v0; }   }
-        { var __json0 = _obj.GetValue("LoopBoxTime"); int _n0 = (__json0 as JArray).Count; LoopBoxTime = new int[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { int __v0;  __v0 = (int)__e0;  LoopBoxTime[__index0++] = __v0; }   }
-        SpinLuckPoints = (int)_obj.GetValue("SpinLuckPoints");
-        GiftLuckPoints = (int)_obj.GetValue("GiftLuckPoints");
-        LuckPointsLimit = (int)_obj.GetValue("LuckPointsLimit");
-        LuckPointsConsume = (int)_obj.GetValue("LuckPointsConsume");
-        { var __json0 = _obj.GetValue("GiftReward"); int _n0 = (__json0 as JArray).Count; GiftReward = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  GiftReward[__index0++] = __v0; }   }
-        { var __json0 = _obj.GetValue("DailyLimit"); int _n0 = (__json0 as JArray).Count; DailyLimit = new int[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { int __v0;  __v0 = (int)__e0;  DailyLimit[__index0++] = __v0; }   }
-        { var __json0 = _obj.GetValue("BigReward"); int _n0 = (__json0 as JArray).Count; BigReward = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  BigReward[__index0++] = __v0; }   }
-        { var __json0 = _obj.GetValue("MailItems"); int _n0 = (__json0 as JArray).Count; MailItems = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  MailItems[__index0++] = __v0; }   }
-        MailId = (string)_obj.GetValue("MailId");
+        ID = _buf.ReadInt();
+        ConnectActivityId = _buf.ReadInt();
+        LotteryItem = _buf.ReadInt();
+        BuyLimitNum = _buf.ReadInt();
+        PointItem = _buf.ReadInt();
+        PointItem1 = _buf.ReadInt();
+        GiftItemId = _buf.ReadInt();
+        LotteryPrice = _buf.ReadInt();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);BuyLimit = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); BuyLimit[__index0] = __e0;}}
+        DefaultLottery = _buf.ReadInt();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);LoopBox = new int[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { int __e0;__e0 = _buf.ReadInt(); LoopBox[__index0] = __e0;}}
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);LoopBoxTime = new int[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { int __e0;__e0 = _buf.ReadInt(); LoopBoxTime[__index0] = __e0;}}
+        SpinLuckPoints = _buf.ReadInt();
+        GiftLuckPoints = _buf.ReadInt();
+        LuckPointsLimit = _buf.ReadInt();
+        LuckPointsConsume = _buf.ReadInt();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);GiftReward = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); GiftReward[__index0] = __e0;}}
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);DailyLimit = new int[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { int __e0;__e0 = _buf.ReadInt(); DailyLimit[__index0] = __e0;}}
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);BigReward = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); BigReward[__index0] = __e0;}}
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);MailItems = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); MailItems[__index0] = __e0;}}
+        MailId = _buf.ReadString();
     }
 
-    public static Capsule_GashaponBase DeserializeCapsule_GashaponBase(JToken _buf)
+    public static Capsule_GashaponBase DeserializeCapsule_GashaponBase(ByteBuf _buf)
     {
         return new Capsule_GashaponBase(_buf);
     }
@@ -132,8 +128,7 @@ public sealed partial class Capsule_GashaponBase : Luban.BeanBase
     /// 邮件ID<br/>测试服,正式服一致
     /// </summary>
     public readonly string MailId;
-
-
+   
     public const int __ID__ = 851569920;
     public override int GetTypeId() => __ID__;
 
@@ -168,5 +163,6 @@ public sealed partial class Capsule_GashaponBase : Luban.BeanBase
         + "}";
     }
 }
+
 }
 

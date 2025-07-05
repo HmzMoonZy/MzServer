@@ -8,25 +8,21 @@
 //------------------------------------------------------------------------------
 
 using Luban;
-using Newtonsoft.Json.Linq;
-
 
 
 namespace HotFix.Cfg
 {
-
 public sealed partial class ActivityTurntable_TurntableReward : Luban.BeanBase
 {
-    public ActivityTurntable_TurntableReward(JToken _buf) 
+    public ActivityTurntable_TurntableReward(ByteBuf _buf) 
     {
-        JObject _obj = _buf as JObject;
-        id = (int)_obj.GetValue("id");
-        rewardID = (int)_obj.GetValue("rewardID");
-        point = (int)_obj.GetValue("point");
-        { var __json0 = _obj.GetValue("reward"); int _n0 = (__json0 as JArray).Count; reward = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  reward[__index0++] = __v0; }   }
+        id = _buf.ReadInt();
+        rewardID = _buf.ReadInt();
+        point = _buf.ReadInt();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);reward = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); reward[__index0] = __e0;}}
     }
 
-    public static ActivityTurntable_TurntableReward DeserializeActivityTurntable_TurntableReward(JToken _buf)
+    public static ActivityTurntable_TurntableReward DeserializeActivityTurntable_TurntableReward(ByteBuf _buf)
     {
         return new ActivityTurntable_TurntableReward(_buf);
     }
@@ -47,8 +43,7 @@ public sealed partial class ActivityTurntable_TurntableReward : Luban.BeanBase
     /// 奖励
     /// </summary>
     public readonly string[] reward;
-
-
+   
     public const int __ID__ = 1587666083;
     public override int GetTypeId() => __ID__;
 
@@ -66,5 +61,6 @@ public sealed partial class ActivityTurntable_TurntableReward : Luban.BeanBase
         + "}";
     }
 }
+
 }
 

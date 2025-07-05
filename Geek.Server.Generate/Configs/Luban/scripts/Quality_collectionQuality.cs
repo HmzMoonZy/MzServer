@@ -8,32 +8,28 @@
 //------------------------------------------------------------------------------
 
 using Luban;
-using Newtonsoft.Json.Linq;
-
 
 
 namespace HotFix.Cfg
 {
-
 public sealed partial class Quality_collectionQuality : Luban.BeanBase
 {
-    public Quality_collectionQuality(JToken _buf) 
+    public Quality_collectionQuality(ByteBuf _buf) 
     {
-        JObject _obj = _buf as JObject;
-        id = (int)_obj.GetValue("id");
-        nameID = (string)_obj.GetValue("nameID");
-        atlasId = (int)_obj.GetValue("atlasId");
-        bgSpriteName = (string)_obj.GetValue("bgSpriteName");
-        itemClothBg = (string)_obj.GetValue("itemClothBg");
-        typeTxtBg = (string)_obj.GetValue("typeTxtBg");
-        itemBg = (string)_obj.GetValue("itemBg");
-        cardBg = (string)_obj.GetValue("cardBg");
-        colorName = (string)_obj.GetValue("colorName");
-        { var __json0 = _obj.GetValue("shareFragmentIcon"); int _n0 = (__json0 as JArray).Count; shareFragmentIcon = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  shareFragmentIcon[__index0++] = __v0; }   }
-        imgFragment = (string)_obj.GetValue("imgFragment");
+        id = _buf.ReadInt();
+        nameID = _buf.ReadString();
+        atlasId = _buf.ReadInt();
+        bgSpriteName = _buf.ReadString();
+        itemClothBg = _buf.ReadString();
+        typeTxtBg = _buf.ReadString();
+        itemBg = _buf.ReadString();
+        cardBg = _buf.ReadString();
+        colorName = _buf.ReadString();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);shareFragmentIcon = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); shareFragmentIcon[__index0] = __e0;}}
+        imgFragment = _buf.ReadString();
     }
 
-    public static Quality_collectionQuality DeserializeQuality_collectionQuality(JToken _buf)
+    public static Quality_collectionQuality DeserializeQuality_collectionQuality(ByteBuf _buf)
     {
         return new Quality_collectionQuality(_buf);
     }
@@ -82,8 +78,7 @@ public sealed partial class Quality_collectionQuality : Luban.BeanBase
     /// 碎片品质框
     /// </summary>
     public readonly string imgFragment;
-
-
+   
     public const int __ID__ = -1969289951;
     public override int GetTypeId() => __ID__;
 
@@ -108,5 +103,6 @@ public sealed partial class Quality_collectionQuality : Luban.BeanBase
         + "}";
     }
 }
+
 }
 

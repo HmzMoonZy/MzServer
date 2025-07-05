@@ -8,45 +8,41 @@
 //------------------------------------------------------------------------------
 
 using Luban;
-using Newtonsoft.Json.Linq;
-
 
 
 namespace HotFix.Cfg
 {
-
 public sealed partial class Equip_equipCompose : Luban.BeanBase
 {
-    public Equip_equipCompose(JToken _buf) 
+    public Equip_equipCompose(ByteBuf _buf) 
     {
-        JObject _obj = _buf as JObject;
-        id = (int)_obj.GetValue("id");
-        composeTo = (int)_obj.GetValue("composeTo");
-        qualityPlus = (int)_obj.GetValue("qualityPlus");
-        composeNeed1 = (int)_obj.GetValue("composeNeed1");
-        composeNeed2 = (int)_obj.GetValue("composeNeed2");
-        composeNeed3 = (int)_obj.GetValue("composeNeed3");
-        { var __json0 = _obj.GetValue("universalItem"); int _n0 = (__json0 as JArray).Count; universalItem = new int[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { int __v0;  __v0 = (int)__e0;  universalItem[__index0++] = __v0; }   }
-        composeItem1 = (int)_obj.GetValue("composeItem1");
-        composeItem2 = (int)_obj.GetValue("composeItem2");
-        composeItem3 = (int)_obj.GetValue("composeItem3");
-        composeItem4 = (int)_obj.GetValue("composeItem4");
-        { var __json0 = _obj.GetValue("RecycleSelfquality"); int _n0 = (__json0 as JArray).Count; RecycleSelfquality = new int[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { int __v0;  __v0 = (int)__e0;  RecycleSelfquality[__index0++] = __v0; }   }
-        { var __json0 = _obj.GetValue("RecycleSelf"); int _n0 = (__json0 as JArray).Count; RecycleSelf = new int[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { int __v0;  __v0 = (int)__e0;  RecycleSelf[__index0++] = __v0; }   }
-        { var __json0 = _obj.GetValue("Recycle1New"); int _n0 = (__json0 as JArray).Count; Recycle1New = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  Recycle1New[__index0++] = __v0; }   }
-        { var __json0 = _obj.GetValue("Recycle2New"); int _n0 = (__json0 as JArray).Count; Recycle2New = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  Recycle2New[__index0++] = __v0; }   }
-        { var __json0 = _obj.GetValue("Recycle3New"); int _n0 = (__json0 as JArray).Count; Recycle3New = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  Recycle3New[__index0++] = __v0; }   }
-        { var __json0 = _obj.GetValue("Recycle4New"); int _n0 = (__json0 as JArray).Count; Recycle4New = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  Recycle4New[__index0++] = __v0; }   }
-        { var __json0 = _obj.GetValue("Recycle1"); int _n0 = (__json0 as JArray).Count; Recycle1 = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  Recycle1[__index0++] = __v0; }   }
-        { var __json0 = _obj.GetValue("Recycle2"); int _n0 = (__json0 as JArray).Count; Recycle2 = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  Recycle2[__index0++] = __v0; }   }
-        { var __json0 = _obj.GetValue("Recycle3"); int _n0 = (__json0 as JArray).Count; Recycle3 = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  Recycle3[__index0++] = __v0; }   }
-        { var __json0 = _obj.GetValue("Recycle4"); int _n0 = (__json0 as JArray).Count; Recycle4 = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  Recycle4[__index0++] = __v0; }   }
-        qualityAttributes = (int)_obj.GetValue("qualityAttributes");
-        qualityColor = (int)_obj.GetValue("qualityColor");
-        nameID = (string)_obj.GetValue("nameID");
+        id = _buf.ReadInt();
+        composeTo = _buf.ReadInt();
+        qualityPlus = _buf.ReadInt();
+        composeNeed1 = _buf.ReadInt();
+        composeNeed2 = _buf.ReadInt();
+        composeNeed3 = _buf.ReadInt();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);universalItem = new int[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { int __e0;__e0 = _buf.ReadInt(); universalItem[__index0] = __e0;}}
+        composeItem1 = _buf.ReadInt();
+        composeItem2 = _buf.ReadInt();
+        composeItem3 = _buf.ReadInt();
+        composeItem4 = _buf.ReadInt();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);RecycleSelfquality = new int[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { int __e0;__e0 = _buf.ReadInt(); RecycleSelfquality[__index0] = __e0;}}
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);RecycleSelf = new int[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { int __e0;__e0 = _buf.ReadInt(); RecycleSelf[__index0] = __e0;}}
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);Recycle1New = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); Recycle1New[__index0] = __e0;}}
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);Recycle2New = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); Recycle2New[__index0] = __e0;}}
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);Recycle3New = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); Recycle3New[__index0] = __e0;}}
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);Recycle4New = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); Recycle4New[__index0] = __e0;}}
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);Recycle1 = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); Recycle1[__index0] = __e0;}}
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);Recycle2 = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); Recycle2[__index0] = __e0;}}
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);Recycle3 = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); Recycle3[__index0] = __e0;}}
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);Recycle4 = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); Recycle4[__index0] = __e0;}}
+        qualityAttributes = _buf.ReadInt();
+        qualityColor = _buf.ReadInt();
+        nameID = _buf.ReadString();
     }
 
-    public static Equip_equipCompose DeserializeEquip_equipCompose(JToken _buf)
+    public static Equip_equipCompose DeserializeEquip_equipCompose(ByteBuf _buf)
     {
         return new Equip_equipCompose(_buf);
     }
@@ -147,8 +143,7 @@ public sealed partial class Equip_equipCompose : Luban.BeanBase
     /// 名称多语言<br/>（用于道具时）
     /// </summary>
     public readonly string nameID;
-
-
+   
     public const int __ID__ = 581736209;
     public override int GetTypeId() => __ID__;
 
@@ -186,5 +181,6 @@ public sealed partial class Equip_equipCompose : Luban.BeanBase
         + "}";
     }
 }
+
 }
 

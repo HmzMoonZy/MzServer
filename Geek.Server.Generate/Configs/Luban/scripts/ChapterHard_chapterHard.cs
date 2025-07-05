@@ -8,45 +8,41 @@
 //------------------------------------------------------------------------------
 
 using Luban;
-using Newtonsoft.Json.Linq;
-
 
 
 namespace HotFix.Cfg
 {
-
 public sealed partial class ChapterHard_chapterHard : Luban.BeanBase
 {
-    public ChapterHard_chapterHard(JToken _buf) 
+    public ChapterHard_chapterHard(ByteBuf _buf) 
     {
-        JObject _obj = _buf as JObject;
-        id = (int)_obj.GetValue("id");
-        nameId = (string)_obj.GetValue("nameId");
-        nameId_back = (string)_obj.GetValue("nameId_back");
-        atlasId = (int)_obj.GetValue("atlasId");
-        icon = (string)_obj.GetValue("icon");
-        unlockChapterID = (int)_obj.GetValue("unlockChapterID");
-        mapID = (int)_obj.GetValue("mapID");
-        { var __json0 = _obj.GetValue("cost"); int _n0 = (__json0 as JArray).Count; cost = new int[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { int __v0;  __v0 = (int)__e0;  cost[__index0++] = __v0; }   }
-        itemLimit = (int)_obj.GetValue("itemLimit");
-        extraReward = (int)_obj.GetValue("extraReward");
-        { var __json0 = _obj.GetValue("rewardStage"); int _n0 = (__json0 as JArray).Count; rewardStage = new int[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { int __v0;  __v0 = (int)__e0;  rewardStage[__index0++] = __v0; }   }
-        { var __json0 = _obj.GetValue("reward"); int _n0 = (__json0 as JArray).Count; reward = new int[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { int __v0;  __v0 = (int)__e0;  reward[__index0++] = __v0; }   }
-        totalWave = (int)_obj.GetValue("totalWave");
-        { var __json0 = _obj.GetValue("monsterCfg"); int _n0 = (__json0 as JArray).Count; monsterCfg = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  monsterCfg[__index0++] = __v0; }   }
-        firstSelectSkill = (int)_obj.GetValue("firstSelectSkill");
-        { var __json0 = _obj.GetValue("otherSelectSkill"); int _n0 = (__json0 as JArray).Count; otherSelectSkill = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  otherSelectSkill[__index0++] = __v0; }   }
-        { var __json0 = _obj.GetValue("dropID"); int _n0 = (__json0 as JArray).Count; dropID = new int[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { int __v0;  __v0 = (int)__e0;  dropID[__index0++] = __v0; }   }
-        { var __json0 = _obj.GetValue("buffData"); int _n0 = (__json0 as JArray).Count; buffData = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  buffData[__index0++] = __v0; }   }
-        normalBattleAttr = (string)_obj.GetValue("normalBattleAttr");
-        eliteBattleAttr = (string)_obj.GetValue("eliteBattleAttr");
-        bossBattleAttr = (string)_obj.GetValue("bossBattleAttr");
-        speedAdd = (int)_obj.GetValue("speedAdd");
-        jumpPower = (string)_obj.GetValue("jumpPower");
-        { var __json0 = _obj.GetValue("jumpReward"); int _n0 = (__json0 as JArray).Count; jumpReward = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  jumpReward[__index0++] = __v0; }   }
+        id = _buf.ReadInt();
+        nameId = _buf.ReadString();
+        nameId_back = _buf.ReadString();
+        atlasId = _buf.ReadInt();
+        icon = _buf.ReadString();
+        unlockChapterID = _buf.ReadInt();
+        mapID = _buf.ReadInt();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);cost = new int[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { int __e0;__e0 = _buf.ReadInt(); cost[__index0] = __e0;}}
+        itemLimit = _buf.ReadInt();
+        extraReward = _buf.ReadInt();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);rewardStage = new int[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { int __e0;__e0 = _buf.ReadInt(); rewardStage[__index0] = __e0;}}
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);reward = new int[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { int __e0;__e0 = _buf.ReadInt(); reward[__index0] = __e0;}}
+        totalWave = _buf.ReadInt();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);monsterCfg = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); monsterCfg[__index0] = __e0;}}
+        firstSelectSkill = _buf.ReadInt();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);otherSelectSkill = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); otherSelectSkill[__index0] = __e0;}}
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);dropID = new int[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { int __e0;__e0 = _buf.ReadInt(); dropID[__index0] = __e0;}}
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);buffData = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); buffData[__index0] = __e0;}}
+        normalBattleAttr = _buf.ReadString();
+        eliteBattleAttr = _buf.ReadString();
+        bossBattleAttr = _buf.ReadString();
+        speedAdd = _buf.ReadInt();
+        jumpPower = _buf.ReadString();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);jumpReward = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); jumpReward[__index0] = __e0;}}
     }
 
-    public static ChapterHard_chapterHard DeserializeChapterHard_chapterHard(JToken _buf)
+    public static ChapterHard_chapterHard DeserializeChapterHard_chapterHard(ByteBuf _buf)
     {
         return new ChapterHard_chapterHard(_buf);
     }
@@ -147,8 +143,7 @@ public sealed partial class ChapterHard_chapterHard : Luban.BeanBase
     /// 跳过获得奖励
     /// </summary>
     public readonly string[] jumpReward;
-
-
+   
     public const int __ID__ = 240072657;
     public override int GetTypeId() => __ID__;
 
@@ -186,5 +181,6 @@ public sealed partial class ChapterHard_chapterHard : Luban.BeanBase
         + "}";
     }
 }
+
 }
 

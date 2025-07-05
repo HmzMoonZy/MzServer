@@ -7,14 +7,11 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-using Newtonsoft.Json.Linq;
 using Luban;
-
 
 
 namespace HotFix.Cfg
 {
-
 /// <summary>
 /// Generated from ActivityDan.xlsx sheet FarmSeed
 /// </summary>
@@ -23,20 +20,19 @@ public partial class TbActivityDan_FarmSeed
     private readonly System.Collections.Generic.Dictionary<int, ActivityDan_FarmSeed> _dataMap;
     private readonly System.Collections.Generic.List<ActivityDan_FarmSeed> _dataList;
     
-    public TbActivityDan_FarmSeed(JArray _buf)
+    public TbActivityDan_FarmSeed(ByteBuf _buf)
     {
         _dataMap = new System.Collections.Generic.Dictionary<int, ActivityDan_FarmSeed>();
         _dataList = new System.Collections.Generic.List<ActivityDan_FarmSeed>();
         
-        foreach(JObject _ele in _buf)
+        for(int n = _buf.ReadSize() ; n > 0 ; --n)
         {
             ActivityDan_FarmSeed _v;
-            _v = global::HotFix.Cfg.ActivityDan_FarmSeed.DeserializeActivityDan_FarmSeed(_ele);
+            _v = global::HotFix.Cfg.ActivityDan_FarmSeed.DeserializeActivityDan_FarmSeed(_buf);
             _dataList.Add(_v);
             _dataMap.Add(_v.ID, _v);
-         }
+        }
     }
-
 
     public System.Collections.Generic.Dictionary<int, ActivityDan_FarmSeed> DataMap => _dataMap;
     public System.Collections.Generic.List<ActivityDan_FarmSeed> DataList => _dataList;
@@ -54,5 +50,6 @@ public partial class TbActivityDan_FarmSeed
     }
 
 }
+
 }
 

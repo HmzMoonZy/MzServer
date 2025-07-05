@@ -8,29 +8,25 @@
 //------------------------------------------------------------------------------
 
 using Luban;
-using Newtonsoft.Json.Linq;
-
 
 
 namespace HotFix.Cfg
 {
-
 public sealed partial class ActivityTurntable_TurntableQuest : Luban.BeanBase
 {
-    public ActivityTurntable_TurntableQuest(JToken _buf) 
+    public ActivityTurntable_TurntableQuest(ByteBuf _buf) 
     {
-        JObject _obj = _buf as JObject;
-        ID = (int)_obj.GetValue("ID");
-        TaskType = (int)_obj.GetValue("TaskType");
-        StatisticsType = (int)_obj.GetValue("StatisticsType");
-        Need = (int)_obj.GetValue("Need");
-        NeedOld = (int)_obj.GetValue("NeedOld");
-        Describe = (string)_obj.GetValue("Describe");
-        { var __json0 = _obj.GetValue("Reward"); int _n0 = (__json0 as JArray).Count; Reward = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  Reward[__index0++] = __v0; }   }
-        Jump = (int)_obj.GetValue("Jump");
+        ID = _buf.ReadInt();
+        TaskType = _buf.ReadInt();
+        StatisticsType = _buf.ReadInt();
+        Need = _buf.ReadInt();
+        NeedOld = _buf.ReadInt();
+        Describe = _buf.ReadString();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);Reward = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); Reward[__index0] = __e0;}}
+        Jump = _buf.ReadInt();
     }
 
-    public static ActivityTurntable_TurntableQuest DeserializeActivityTurntable_TurntableQuest(JToken _buf)
+    public static ActivityTurntable_TurntableQuest DeserializeActivityTurntable_TurntableQuest(ByteBuf _buf)
     {
         return new ActivityTurntable_TurntableQuest(_buf);
     }
@@ -67,8 +63,7 @@ public sealed partial class ActivityTurntable_TurntableQuest : Luban.BeanBase
     /// 1.主页<br/>2.装备页<br/>3.商店页<br/>5.爬塔<br/>6.竞技场<br/>10.主城工会<br/>20;黑市购买<br/>21;宝箱界面<br/>22;商店-每日礼包界面<br/>23;抽宠物界面<br/>24.宠物列表界面<br/>25;藏品界面<br/>26;商店-抽装备界面<br/>27;副本界面<br/>28.天赋界面
     /// </summary>
     public readonly int Jump;
-
-
+   
     public const int __ID__ = 1436224750;
     public override int GetTypeId() => __ID__;
 
@@ -90,5 +85,6 @@ public sealed partial class ActivityTurntable_TurntableQuest : Luban.BeanBase
         + "}";
     }
 }
+
 }
 

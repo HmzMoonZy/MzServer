@@ -8,25 +8,21 @@
 //------------------------------------------------------------------------------
 
 using Luban;
-using Newtonsoft.Json.Linq;
-
 
 
 namespace HotFix.Cfg
 {
-
 public sealed partial class Mining_oreBuild : Luban.BeanBase
 {
-    public Mining_oreBuild(JToken _buf) 
+    public Mining_oreBuild(ByteBuf _buf) 
     {
-        JObject _obj = _buf as JObject;
-        id = (int)_obj.GetValue("id");
-        oreType = (int)_obj.GetValue("oreType");
-        oreResId = (int)_obj.GetValue("oreResId");
-        { var __json0 = _obj.GetValue("drop"); int _n0 = (__json0 as JArray).Count; drop = new int[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { int __v0;  __v0 = (int)__e0;  drop[__index0++] = __v0; }   }
+        id = _buf.ReadInt();
+        oreType = _buf.ReadInt();
+        oreResId = _buf.ReadInt();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);drop = new int[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { int __e0;__e0 = _buf.ReadInt(); drop[__index0] = __e0;}}
     }
 
-    public static Mining_oreBuild DeserializeMining_oreBuild(JToken _buf)
+    public static Mining_oreBuild DeserializeMining_oreBuild(ByteBuf _buf)
     {
         return new Mining_oreBuild(_buf);
     }
@@ -47,8 +43,7 @@ public sealed partial class Mining_oreBuild : Luban.BeanBase
     /// 掉落表id<br/>[白|绿|蓝|紫|橙|红]
     /// </summary>
     public readonly int[] drop;
-
-
+   
     public const int __ID__ = -508432485;
     public override int GetTypeId() => __ID__;
 
@@ -66,5 +61,6 @@ public sealed partial class Mining_oreBuild : Luban.BeanBase
         + "}";
     }
 }
+
 }
 

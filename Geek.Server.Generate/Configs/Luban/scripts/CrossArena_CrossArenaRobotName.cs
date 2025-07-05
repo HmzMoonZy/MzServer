@@ -8,23 +8,19 @@
 //------------------------------------------------------------------------------
 
 using Luban;
-using Newtonsoft.Json.Linq;
-
 
 
 namespace HotFix.Cfg
 {
-
 public sealed partial class CrossArena_CrossArenaRobotName : Luban.BeanBase
 {
-    public CrossArena_CrossArenaRobotName(JToken _buf) 
+    public CrossArena_CrossArenaRobotName(ByteBuf _buf) 
     {
-        JObject _obj = _buf as JObject;
-        Id = (int)_obj.GetValue("Id");
-        Name = (string)_obj.GetValue("Name");
+        Id = _buf.ReadInt();
+        Name = _buf.ReadString();
     }
 
-    public static CrossArena_CrossArenaRobotName DeserializeCrossArena_CrossArenaRobotName(JToken _buf)
+    public static CrossArena_CrossArenaRobotName DeserializeCrossArena_CrossArenaRobotName(ByteBuf _buf)
     {
         return new CrossArena_CrossArenaRobotName(_buf);
     }
@@ -37,8 +33,7 @@ public sealed partial class CrossArena_CrossArenaRobotName : Luban.BeanBase
     /// Name
     /// </summary>
     public readonly string Name;
-
-
+   
     public const int __ID__ = -533117034;
     public override int GetTypeId() => __ID__;
 
@@ -54,5 +49,6 @@ public sealed partial class CrossArena_CrossArenaRobotName : Luban.BeanBase
         + "}";
     }
 }
+
 }
 

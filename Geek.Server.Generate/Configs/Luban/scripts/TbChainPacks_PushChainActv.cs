@@ -7,14 +7,11 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-using Newtonsoft.Json.Linq;
 using Luban;
-
 
 
 namespace HotFix.Cfg
 {
-
 /// <summary>
 /// Generated from ChainPacks.xlsx sheet PushChainActv
 /// </summary>
@@ -23,20 +20,19 @@ public partial class TbChainPacks_PushChainActv
     private readonly System.Collections.Generic.Dictionary<int, ChainPacks_PushChainActv> _dataMap;
     private readonly System.Collections.Generic.List<ChainPacks_PushChainActv> _dataList;
     
-    public TbChainPacks_PushChainActv(JArray _buf)
+    public TbChainPacks_PushChainActv(ByteBuf _buf)
     {
         _dataMap = new System.Collections.Generic.Dictionary<int, ChainPacks_PushChainActv>();
         _dataList = new System.Collections.Generic.List<ChainPacks_PushChainActv>();
         
-        foreach(JObject _ele in _buf)
+        for(int n = _buf.ReadSize() ; n > 0 ; --n)
         {
             ChainPacks_PushChainActv _v;
-            _v = global::HotFix.Cfg.ChainPacks_PushChainActv.DeserializeChainPacks_PushChainActv(_ele);
+            _v = global::HotFix.Cfg.ChainPacks_PushChainActv.DeserializeChainPacks_PushChainActv(_buf);
             _dataList.Add(_v);
             _dataMap.Add(_v.id, _v);
-         }
+        }
     }
-
 
     public System.Collections.Generic.Dictionary<int, ChainPacks_PushChainActv> DataMap => _dataMap;
     public System.Collections.Generic.List<ChainPacks_PushChainActv> DataList => _dataList;
@@ -54,5 +50,6 @@ public partial class TbChainPacks_PushChainActv
     }
 
 }
+
 }
 

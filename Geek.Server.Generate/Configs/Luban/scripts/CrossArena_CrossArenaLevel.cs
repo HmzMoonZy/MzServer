@@ -8,31 +8,27 @@
 //------------------------------------------------------------------------------
 
 using Luban;
-using Newtonsoft.Json.Linq;
-
 
 
 namespace HotFix.Cfg
 {
-
 public sealed partial class CrossArena_CrossArenaLevel : Luban.BeanBase
 {
-    public CrossArena_CrossArenaLevel(JToken _buf) 
+    public CrossArena_CrossArenaLevel(ByteBuf _buf) 
     {
-        JObject _obj = _buf as JObject;
-        Level = (int)_obj.GetValue("Level");
-        name = (string)_obj.GetValue("name");
-        Notes = (string)_obj.GetValue("Notes");
-        attributes = (string)_obj.GetValue("attributes");
-        { var __json0 = _obj.GetValue("attributesNew"); int _n0 = (__json0 as JArray).Count; attributesNew = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  attributesNew[__index0++] = __v0; }   }
-        serverNum = (int)_obj.GetValue("serverNum");
-        playerNum = (int)_obj.GetValue("playerNum");
-        upPro = (int)_obj.GetValue("upPro");
-        downPro = (int)_obj.GetValue("downPro");
-        serverRange = (int)_obj.GetValue("serverRange");
+        Level = _buf.ReadInt();
+        name = _buf.ReadString();
+        Notes = _buf.ReadString();
+        attributes = _buf.ReadString();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);attributesNew = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); attributesNew[__index0] = __e0;}}
+        serverNum = _buf.ReadInt();
+        playerNum = _buf.ReadInt();
+        upPro = _buf.ReadInt();
+        downPro = _buf.ReadInt();
+        serverRange = _buf.ReadInt();
     }
 
-    public static CrossArena_CrossArenaLevel DeserializeCrossArena_CrossArenaLevel(JToken _buf)
+    public static CrossArena_CrossArenaLevel DeserializeCrossArena_CrossArenaLevel(ByteBuf _buf)
     {
         return new CrossArena_CrossArenaLevel(_buf);
     }
@@ -77,8 +73,7 @@ public sealed partial class CrossArena_CrossArenaLevel : Luban.BeanBase
     /// 跨服范围列<br/><br/>serverList-serverRange -pveRange序号
     /// </summary>
     public readonly int serverRange;
-
-
+   
     public const int __ID__ = -485836923;
     public override int GetTypeId() => __ID__;
 
@@ -102,5 +97,6 @@ public sealed partial class CrossArena_CrossArenaLevel : Luban.BeanBase
         + "}";
     }
 }
+
 }
 

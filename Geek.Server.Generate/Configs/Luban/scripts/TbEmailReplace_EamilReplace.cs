@@ -7,14 +7,11 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-using Newtonsoft.Json.Linq;
 using Luban;
-
 
 
 namespace HotFix.Cfg
 {
-
 /// <summary>
 /// Generated from EmailReplace.xlsx sheet EamilReplace
 /// </summary>
@@ -23,20 +20,19 @@ public partial class TbEmailReplace_EamilReplace
     private readonly System.Collections.Generic.Dictionary<int, EmailReplace_EamilReplace> _dataMap;
     private readonly System.Collections.Generic.List<EmailReplace_EamilReplace> _dataList;
     
-    public TbEmailReplace_EamilReplace(JArray _buf)
+    public TbEmailReplace_EamilReplace(ByteBuf _buf)
     {
         _dataMap = new System.Collections.Generic.Dictionary<int, EmailReplace_EamilReplace>();
         _dataList = new System.Collections.Generic.List<EmailReplace_EamilReplace>();
         
-        foreach(JObject _ele in _buf)
+        for(int n = _buf.ReadSize() ; n > 0 ; --n)
         {
             EmailReplace_EamilReplace _v;
-            _v = global::HotFix.Cfg.EmailReplace_EamilReplace.DeserializeEmailReplace_EamilReplace(_ele);
+            _v = global::HotFix.Cfg.EmailReplace_EamilReplace.DeserializeEmailReplace_EamilReplace(_buf);
             _dataList.Add(_v);
             _dataMap.Add(_v.id, _v);
-         }
+        }
     }
-
 
     public System.Collections.Generic.Dictionary<int, EmailReplace_EamilReplace> DataMap => _dataMap;
     public System.Collections.Generic.List<EmailReplace_EamilReplace> DataList => _dataList;
@@ -54,5 +50,6 @@ public partial class TbEmailReplace_EamilReplace
     }
 
 }
+
 }
 

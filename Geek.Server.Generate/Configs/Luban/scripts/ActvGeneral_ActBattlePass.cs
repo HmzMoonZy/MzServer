@@ -8,40 +8,36 @@
 //------------------------------------------------------------------------------
 
 using Luban;
-using Newtonsoft.Json.Linq;
-
 
 
 namespace HotFix.Cfg
 {
-
 public sealed partial class ActvGeneral_ActBattlePass : Luban.BeanBase
 {
-    public ActvGeneral_ActBattlePass(JToken _buf) 
+    public ActvGeneral_ActBattlePass(ByteBuf _buf) 
     {
-        JObject _obj = _buf as JObject;
-        id = (int)_obj.GetValue("id");
-        group = (int)_obj.GetValue("group");
-        themeId = (int)_obj.GetValue("themeId");
-        purchaseId = (int)_obj.GetValue("purchaseId");
-        playEndCanPurchase = (int)_obj.GetValue("playEndCanPurchase");
-        tga_bp_type = (string)_obj.GetValue("tga_bp_type");
-        tga_event_name = (string)_obj.GetValue("tga_event_name");
-        name = (string)_obj.GetValue("name");
-        bottomTipId = (string)_obj.GetValue("bottomTipId");
-        atlasID = (int)_obj.GetValue("atlasID");
-        itemIcon = (string)_obj.GetValue("itemIcon");
-        finalRewardLimit = (int)_obj.GetValue("finalRewardLimit");
-        finalRewardType = (int)_obj.GetValue("finalRewardType");
-        { var __json0 = _obj.GetValue("finalQualityRandom"); int _n0 = (__json0 as JArray).Count; finalQualityRandom = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  finalQualityRandom[__index0++] = __v0; }   }
-        { var __json0 = _obj.GetValue("finalDrop"); int _n0 = (__json0 as JArray).Count; finalDrop = new int[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { int __v0;  __v0 = (int)__e0;  finalDrop[__index0++] = __v0; }   }
-        { var __json0 = _obj.GetValue("upgradeRate"); int _n0 = (__json0 as JArray).Count; upgradeRate = new int[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { int __v0;  __v0 = (int)__e0;  upgradeRate[__index0++] = __v0; }   }
-        bigRewardDesc = (string)_obj.GetValue("bigRewardDesc");
-        { var __json0 = _obj.GetValue("bigRewardShow"); int _n0 = (__json0 as JArray).Count; bigRewardShow = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  bigRewardShow[__index0++] = __v0; }   }
-        { var __json0 = _obj.GetValue("delItems"); int _n0 = (__json0 as JArray).Count; delItems = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  delItems[__index0++] = __v0; }   }
+        id = _buf.ReadInt();
+        group = _buf.ReadInt();
+        themeId = _buf.ReadInt();
+        purchaseId = _buf.ReadInt();
+        playEndCanPurchase = _buf.ReadInt();
+        tga_bp_type = _buf.ReadString();
+        tga_event_name = _buf.ReadString();
+        name = _buf.ReadString();
+        bottomTipId = _buf.ReadString();
+        atlasID = _buf.ReadInt();
+        itemIcon = _buf.ReadString();
+        finalRewardLimit = _buf.ReadInt();
+        finalRewardType = _buf.ReadInt();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);finalQualityRandom = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); finalQualityRandom[__index0] = __e0;}}
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);finalDrop = new int[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { int __e0;__e0 = _buf.ReadInt(); finalDrop[__index0] = __e0;}}
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);upgradeRate = new int[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { int __e0;__e0 = _buf.ReadInt(); upgradeRate[__index0] = __e0;}}
+        bigRewardDesc = _buf.ReadString();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);bigRewardShow = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); bigRewardShow[__index0] = __e0;}}
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);delItems = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); delItems[__index0] = __e0;}}
     }
 
-    public static ActvGeneral_ActBattlePass DeserializeActvGeneral_ActBattlePass(JToken _buf)
+    public static ActvGeneral_ActBattlePass DeserializeActvGeneral_ActBattlePass(ByteBuf _buf)
     {
         return new ActvGeneral_ActBattlePass(_buf);
     }
@@ -122,8 +118,7 @@ public sealed partial class ActvGeneral_ActBattlePass : Luban.BeanBase
     /// 删除道具
     /// </summary>
     public readonly string[] delItems;
-
-
+   
     public const int __ID__ = -2103493632;
     public override int GetTypeId() => __ID__;
 
@@ -156,5 +151,6 @@ public sealed partial class ActvGeneral_ActBattlePass : Luban.BeanBase
         + "}";
     }
 }
+
 }
 

@@ -8,27 +8,23 @@
 //------------------------------------------------------------------------------
 
 using Luban;
-using Newtonsoft.Json.Linq;
-
 
 
 namespace HotFix.Cfg
 {
-
 public sealed partial class GuildBOSS_guildBossTask : Luban.BeanBase
 {
-    public GuildBOSS_guildBossTask(JToken _buf) 
+    public GuildBOSS_guildBossTask(ByteBuf _buf) 
     {
-        JObject _obj = _buf as JObject;
-        ID = (int)_obj.GetValue("ID");
-        Type = (int)_obj.GetValue("Type");
-        Need = (long)_obj.GetValue("Need");
-        { var __json0 = _obj.GetValue("Reward"); int _n0 = (__json0 as JArray).Count; Reward = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  Reward[__index0++] = __v0; }   }
-        { var __json0 = _obj.GetValue("OtherReward"); int _n0 = (__json0 as JArray).Count; OtherReward = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  OtherReward[__index0++] = __v0; }   }
-        languageId = (string)_obj.GetValue("languageId");
+        ID = _buf.ReadInt();
+        Type = _buf.ReadInt();
+        Need = _buf.ReadLong();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);Reward = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); Reward[__index0] = __e0;}}
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);OtherReward = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); OtherReward[__index0] = __e0;}}
+        languageId = _buf.ReadString();
     }
 
-    public static GuildBOSS_guildBossTask DeserializeGuildBOSS_guildBossTask(JToken _buf)
+    public static GuildBOSS_guildBossTask DeserializeGuildBOSS_guildBossTask(ByteBuf _buf)
     {
         return new GuildBOSS_guildBossTask(_buf);
     }
@@ -57,8 +53,7 @@ public sealed partial class GuildBOSS_guildBossTask : Luban.BeanBase
     /// 多语言ID
     /// </summary>
     public readonly string languageId;
-
-
+   
     public const int __ID__ = -113474714;
     public override int GetTypeId() => __ID__;
 
@@ -78,5 +73,6 @@ public sealed partial class GuildBOSS_guildBossTask : Luban.BeanBase
         + "}";
     }
 }
+
 }
 

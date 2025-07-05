@@ -7,14 +7,11 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-using Newtonsoft.Json.Linq;
 using Luban;
-
 
 
 namespace HotFix.Cfg
 {
-
 /// <summary>
 /// Generated from ActivityTurntable.xlsx sheet TurntablePay
 /// </summary>
@@ -23,20 +20,19 @@ public partial class TbActivityTurntable_TurntablePay
     private readonly System.Collections.Generic.Dictionary<int, ActivityTurntable_TurntablePay> _dataMap;
     private readonly System.Collections.Generic.List<ActivityTurntable_TurntablePay> _dataList;
     
-    public TbActivityTurntable_TurntablePay(JArray _buf)
+    public TbActivityTurntable_TurntablePay(ByteBuf _buf)
     {
         _dataMap = new System.Collections.Generic.Dictionary<int, ActivityTurntable_TurntablePay>();
         _dataList = new System.Collections.Generic.List<ActivityTurntable_TurntablePay>();
         
-        foreach(JObject _ele in _buf)
+        for(int n = _buf.ReadSize() ; n > 0 ; --n)
         {
             ActivityTurntable_TurntablePay _v;
-            _v = global::HotFix.Cfg.ActivityTurntable_TurntablePay.DeserializeActivityTurntable_TurntablePay(_ele);
+            _v = global::HotFix.Cfg.ActivityTurntable_TurntablePay.DeserializeActivityTurntable_TurntablePay(_buf);
             _dataList.Add(_v);
             _dataMap.Add(_v.id, _v);
-         }
+        }
     }
-
 
     public System.Collections.Generic.Dictionary<int, ActivityTurntable_TurntablePay> DataMap => _dataMap;
     public System.Collections.Generic.List<ActivityTurntable_TurntablePay> DataList => _dataList;
@@ -54,5 +50,6 @@ public partial class TbActivityTurntable_TurntablePay
     }
 
 }
+
 }
 

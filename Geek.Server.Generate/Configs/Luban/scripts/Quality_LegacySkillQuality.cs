@@ -8,35 +8,31 @@
 //------------------------------------------------------------------------------
 
 using Luban;
-using Newtonsoft.Json.Linq;
-
 
 
 namespace HotFix.Cfg
 {
-
 public sealed partial class Quality_LegacySkillQuality : Luban.BeanBase
 {
-    public Quality_LegacySkillQuality(JToken _buf) 
+    public Quality_LegacySkillQuality(ByteBuf _buf) 
     {
-        JObject _obj = _buf as JObject;
-        id = (int)_obj.GetValue("id");
-        nameID = (string)_obj.GetValue("nameID");
-        itemSixBgAtlasId = (int)_obj.GetValue("itemSixBgAtlasId");
-        itemSixBgSpriteName = (string)_obj.GetValue("itemSixBgSpriteName");
-        equipAniBackName = (string)_obj.GetValue("equipAniBackName");
-        equipAniFrontName = (string)_obj.GetValue("equipAniFrontName");
-        passiveAtlasId = (int)_obj.GetValue("passiveAtlasId");
-        passiveItemBg = (string)_obj.GetValue("passiveItemBg");
-        atlasId = (int)_obj.GetValue("atlasId");
-        cardBg = (string)_obj.GetValue("cardBg");
-        typeAtlasId = (int)_obj.GetValue("typeAtlasId");
-        typeTxtBg = (string)_obj.GetValue("typeTxtBg");
-        colorNum = (string)_obj.GetValue("colorNum");
-        effectItemColor = (string)_obj.GetValue("effectItemColor");
+        id = _buf.ReadInt();
+        nameID = _buf.ReadString();
+        itemSixBgAtlasId = _buf.ReadInt();
+        itemSixBgSpriteName = _buf.ReadString();
+        equipAniBackName = _buf.ReadString();
+        equipAniFrontName = _buf.ReadString();
+        passiveAtlasId = _buf.ReadInt();
+        passiveItemBg = _buf.ReadString();
+        atlasId = _buf.ReadInt();
+        cardBg = _buf.ReadString();
+        typeAtlasId = _buf.ReadInt();
+        typeTxtBg = _buf.ReadString();
+        colorNum = _buf.ReadString();
+        effectItemColor = _buf.ReadString();
     }
 
-    public static Quality_LegacySkillQuality DeserializeQuality_LegacySkillQuality(JToken _buf)
+    public static Quality_LegacySkillQuality DeserializeQuality_LegacySkillQuality(ByteBuf _buf)
     {
         return new Quality_LegacySkillQuality(_buf);
     }
@@ -97,8 +93,7 @@ public sealed partial class Quality_LegacySkillQuality : Luban.BeanBase
     /// 技能词条颜色
     /// </summary>
     public readonly string effectItemColor;
-
-
+   
     public const int __ID__ = 1615579991;
     public override int GetTypeId() => __ID__;
 
@@ -126,5 +121,6 @@ public sealed partial class Quality_LegacySkillQuality : Luban.BeanBase
         + "}";
     }
 }
+
 }
 

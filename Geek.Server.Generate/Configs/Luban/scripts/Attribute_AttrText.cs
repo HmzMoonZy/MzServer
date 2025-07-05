@@ -8,32 +8,28 @@
 //------------------------------------------------------------------------------
 
 using Luban;
-using Newtonsoft.Json.Linq;
-
 
 
 namespace HotFix.Cfg
 {
-
 public sealed partial class Attribute_AttrText : Luban.BeanBase
 {
-    public Attribute_AttrText(JToken _buf) 
+    public Attribute_AttrText(ByteBuf _buf) 
     {
-        JObject _obj = _buf as JObject;
-        ID = (string)_obj.GetValue("ID");
-        linkID = (int)_obj.GetValue("linkID");
-        noShowPercent = (int)_obj.GetValue("noShowPercent");
-        IsPower = (int)_obj.GetValue("IsPower");
-        Value = (float)_obj.GetValue("Value");
-        LanguageId = (string)_obj.GetValue("LanguageId");
-        SortID = (int)_obj.GetValue("SortID");
-        DisplayType = (int)_obj.GetValue("DisplayType");
-        iconAtlasID = (int)_obj.GetValue("iconAtlasID");
-        iconName = (string)_obj.GetValue("iconName");
-        desLanguage = (string)_obj.GetValue("desLanguage");
+        ID = _buf.ReadString();
+        linkID = _buf.ReadInt();
+        noShowPercent = _buf.ReadInt();
+        IsPower = _buf.ReadInt();
+        Value = _buf.ReadFloat();
+        LanguageId = _buf.ReadString();
+        SortID = _buf.ReadInt();
+        DisplayType = _buf.ReadInt();
+        iconAtlasID = _buf.ReadInt();
+        iconName = _buf.ReadString();
+        desLanguage = _buf.ReadString();
     }
 
-    public static Attribute_AttrText DeserializeAttribute_AttrText(JToken _buf)
+    public static Attribute_AttrText DeserializeAttribute_AttrText(ByteBuf _buf)
     {
         return new Attribute_AttrText(_buf);
     }
@@ -82,8 +78,7 @@ public sealed partial class Attribute_AttrText : Luban.BeanBase
     /// tip描述对应的多语言
     /// </summary>
     public readonly string desLanguage;
-
-
+   
     public const int __ID__ = 687933761;
     public override int GetTypeId() => __ID__;
 
@@ -108,5 +103,6 @@ public sealed partial class Attribute_AttrText : Luban.BeanBase
         + "}";
     }
 }
+
 }
 

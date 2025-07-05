@@ -7,14 +7,11 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-using Newtonsoft.Json.Linq;
 using Luban;
-
 
 
 namespace HotFix.Cfg
 {
-
 /// <summary>
 /// Generated from AutoProcess.xlsx sheet skillRandom
 /// </summary>
@@ -23,20 +20,19 @@ public partial class TbAutoProcess_skillRandom
     private readonly System.Collections.Generic.Dictionary<int, AutoProcess_skillRandom> _dataMap;
     private readonly System.Collections.Generic.List<AutoProcess_skillRandom> _dataList;
     
-    public TbAutoProcess_skillRandom(JArray _buf)
+    public TbAutoProcess_skillRandom(ByteBuf _buf)
     {
         _dataMap = new System.Collections.Generic.Dictionary<int, AutoProcess_skillRandom>();
         _dataList = new System.Collections.Generic.List<AutoProcess_skillRandom>();
         
-        foreach(JObject _ele in _buf)
+        for(int n = _buf.ReadSize() ; n > 0 ; --n)
         {
             AutoProcess_skillRandom _v;
-            _v = global::HotFix.Cfg.AutoProcess_skillRandom.DeserializeAutoProcess_skillRandom(_ele);
+            _v = global::HotFix.Cfg.AutoProcess_skillRandom.DeserializeAutoProcess_skillRandom(_buf);
             _dataList.Add(_v);
             _dataMap.Add(_v.id, _v);
-         }
+        }
     }
-
 
     public System.Collections.Generic.Dictionary<int, AutoProcess_skillRandom> DataMap => _dataMap;
     public System.Collections.Generic.List<AutoProcess_skillRandom> DataList => _dataList;
@@ -54,5 +50,6 @@ public partial class TbAutoProcess_skillRandom
     }
 
 }
+
 }
 

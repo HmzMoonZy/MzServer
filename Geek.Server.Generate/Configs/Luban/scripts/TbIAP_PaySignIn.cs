@@ -7,14 +7,11 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-using Newtonsoft.Json.Linq;
 using Luban;
-
 
 
 namespace HotFix.Cfg
 {
-
 /// <summary>
 /// Generated from IAP.xlsx sheet PaySignIn
 /// </summary>
@@ -23,20 +20,19 @@ public partial class TbIAP_PaySignIn
     private readonly System.Collections.Generic.Dictionary<int, IAP_PaySignIn> _dataMap;
     private readonly System.Collections.Generic.List<IAP_PaySignIn> _dataList;
     
-    public TbIAP_PaySignIn(JArray _buf)
+    public TbIAP_PaySignIn(ByteBuf _buf)
     {
         _dataMap = new System.Collections.Generic.Dictionary<int, IAP_PaySignIn>();
         _dataList = new System.Collections.Generic.List<IAP_PaySignIn>();
         
-        foreach(JObject _ele in _buf)
+        for(int n = _buf.ReadSize() ; n > 0 ; --n)
         {
             IAP_PaySignIn _v;
-            _v = global::HotFix.Cfg.IAP_PaySignIn.DeserializeIAP_PaySignIn(_ele);
+            _v = global::HotFix.Cfg.IAP_PaySignIn.DeserializeIAP_PaySignIn(_buf);
             _dataList.Add(_v);
             _dataMap.Add(_v.ID, _v);
-         }
+        }
     }
-
 
     public System.Collections.Generic.Dictionary<int, IAP_PaySignIn> DataMap => _dataMap;
     public System.Collections.Generic.List<IAP_PaySignIn> DataList => _dataList;
@@ -54,5 +50,6 @@ public partial class TbIAP_PaySignIn
     }
 
 }
+
 }
 

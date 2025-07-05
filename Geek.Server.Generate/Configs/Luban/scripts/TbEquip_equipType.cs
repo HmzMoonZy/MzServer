@@ -7,14 +7,11 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-using Newtonsoft.Json.Linq;
 using Luban;
-
 
 
 namespace HotFix.Cfg
 {
-
 /// <summary>
 /// Generated from Equip.xlsx sheet equipType
 /// </summary>
@@ -23,20 +20,19 @@ public partial class TbEquip_equipType
     private readonly System.Collections.Generic.Dictionary<int, Equip_equipType> _dataMap;
     private readonly System.Collections.Generic.List<Equip_equipType> _dataList;
     
-    public TbEquip_equipType(JArray _buf)
+    public TbEquip_equipType(ByteBuf _buf)
     {
         _dataMap = new System.Collections.Generic.Dictionary<int, Equip_equipType>();
         _dataList = new System.Collections.Generic.List<Equip_equipType>();
         
-        foreach(JObject _ele in _buf)
+        for(int n = _buf.ReadSize() ; n > 0 ; --n)
         {
             Equip_equipType _v;
-            _v = global::HotFix.Cfg.Equip_equipType.DeserializeEquip_equipType(_ele);
+            _v = global::HotFix.Cfg.Equip_equipType.DeserializeEquip_equipType(_buf);
             _dataList.Add(_v);
             _dataMap.Add(_v.id, _v);
-         }
+        }
     }
-
 
     public System.Collections.Generic.Dictionary<int, Equip_equipType> DataMap => _dataMap;
     public System.Collections.Generic.List<Equip_equipType> DataList => _dataList;
@@ -54,5 +50,6 @@ public partial class TbEquip_equipType
     }
 
 }
+
 }
 

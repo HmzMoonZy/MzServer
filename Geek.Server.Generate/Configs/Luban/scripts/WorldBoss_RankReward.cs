@@ -8,35 +8,31 @@
 //------------------------------------------------------------------------------
 
 using Luban;
-using Newtonsoft.Json.Linq;
-
 
 
 namespace HotFix.Cfg
 {
-
 public sealed partial class WorldBoss_RankReward : Luban.BeanBase
 {
-    public WorldBoss_RankReward(JToken _buf) 
+    public WorldBoss_RankReward(ByteBuf _buf) 
     {
-        JObject _obj = _buf as JObject;
-        ID = (int)_obj.GetValue("ID");
-        Tag = (int)_obj.GetValue("Tag");
-        SubsectionID = (int)_obj.GetValue("SubsectionID");
-        { var __json0 = _obj.GetValue("RankRange"); int _n0 = (__json0 as JArray).Count; RankRange = new int[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { int __v0;  __v0 = (int)__e0;  RankRange[__index0++] = __v0; }   }
-        RoundMailId = (string)_obj.GetValue("RoundMailId");
-        RoundMailIdTest = (string)_obj.GetValue("RoundMailIdTest");
-        RoundMailIdCN = (string)_obj.GetValue("RoundMailIdCN");
-        RoundMailIdTestCN = (string)_obj.GetValue("RoundMailIdTestCN");
-        { var __json0 = _obj.GetValue("RoundReward"); int _n0 = (__json0 as JArray).Count; RoundReward = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  RoundReward[__index0++] = __v0; }   }
-        { var __json0 = _obj.GetValue("SeasonReward"); int _n0 = (__json0 as JArray).Count; SeasonReward = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  SeasonReward[__index0++] = __v0; }   }
-        SeasionMailId = (string)_obj.GetValue("SeasionMailId");
-        SeasionMailIdTest = (string)_obj.GetValue("SeasionMailIdTest");
-        SeasionMailIdCN = (string)_obj.GetValue("SeasionMailIdCN");
-        SeasionMailIdTestCN = (string)_obj.GetValue("SeasionMailIdTestCN");
+        ID = _buf.ReadInt();
+        Tag = _buf.ReadInt();
+        SubsectionID = _buf.ReadInt();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);RankRange = new int[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { int __e0;__e0 = _buf.ReadInt(); RankRange[__index0] = __e0;}}
+        RoundMailId = _buf.ReadString();
+        RoundMailIdTest = _buf.ReadString();
+        RoundMailIdCN = _buf.ReadString();
+        RoundMailIdTestCN = _buf.ReadString();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);RoundReward = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); RoundReward[__index0] = __e0;}}
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);SeasonReward = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); SeasonReward[__index0] = __e0;}}
+        SeasionMailId = _buf.ReadString();
+        SeasionMailIdTest = _buf.ReadString();
+        SeasionMailIdCN = _buf.ReadString();
+        SeasionMailIdTestCN = _buf.ReadString();
     }
 
-    public static WorldBoss_RankReward DeserializeWorldBoss_RankReward(JToken _buf)
+    public static WorldBoss_RankReward DeserializeWorldBoss_RankReward(ByteBuf _buf)
     {
         return new WorldBoss_RankReward(_buf);
     }
@@ -97,8 +93,7 @@ public sealed partial class WorldBoss_RankReward : Luban.BeanBase
     /// 测试服月结算邮件id国内
     /// </summary>
     public readonly string SeasionMailIdTestCN;
-
-
+   
     public const int __ID__ = 1155739867;
     public override int GetTypeId() => __ID__;
 
@@ -126,5 +121,6 @@ public sealed partial class WorldBoss_RankReward : Luban.BeanBase
         + "}";
     }
 }
+
 }
 

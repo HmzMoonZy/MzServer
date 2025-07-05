@@ -8,25 +8,21 @@
 //------------------------------------------------------------------------------
 
 using Luban;
-using Newtonsoft.Json.Linq;
-
 
 
 namespace HotFix.Cfg
 {
-
 public sealed partial class ArtHover_hoverText : Luban.BeanBase
 {
-    public ArtHover_hoverText(JToken _buf) 
+    public ArtHover_hoverText(ByteBuf _buf) 
     {
-        JObject _obj = _buf as JObject;
-        id = (int)_obj.GetValue("id");
-        textId = (string)_obj.GetValue("textId");
-        atlasId = (int)_obj.GetValue("atlasId");
-        iconName = (string)_obj.GetValue("iconName");
+        id = _buf.ReadInt();
+        textId = _buf.ReadString();
+        atlasId = _buf.ReadInt();
+        iconName = _buf.ReadString();
     }
 
-    public static ArtHover_hoverText DeserializeArtHover_hoverText(JToken _buf)
+    public static ArtHover_hoverText DeserializeArtHover_hoverText(ByteBuf _buf)
     {
         return new ArtHover_hoverText(_buf);
     }
@@ -47,8 +43,7 @@ public sealed partial class ArtHover_hoverText : Luban.BeanBase
     /// iconName
     /// </summary>
     public readonly string iconName;
-
-
+   
     public const int __ID__ = -1986890621;
     public override int GetTypeId() => __ID__;
 
@@ -66,5 +61,6 @@ public sealed partial class ArtHover_hoverText : Luban.BeanBase
         + "}";
     }
 }
+
 }
 

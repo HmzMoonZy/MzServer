@@ -8,29 +8,25 @@
 //------------------------------------------------------------------------------
 
 using Luban;
-using Newtonsoft.Json.Linq;
-
 
 
 namespace HotFix.Cfg
 {
-
 public sealed partial class Guild_guildGift : Luban.BeanBase
 {
-    public Guild_guildGift(JToken _buf) 
+    public Guild_guildGift(ByteBuf _buf) 
     {
-        JObject _obj = _buf as JObject;
-        ID = (int)_obj.GetValue("ID");
-        Type = (int)_obj.GetValue("Type");
-        Icon = (string)_obj.GetValue("Icon");
-        Name = (string)_obj.GetValue("Name");
-        Reward = (int)_obj.GetValue("Reward");
-        GetKey = (int)_obj.GetValue("GetKey");
-        GetExp = (int)_obj.GetValue("GetExp");
-        DurationTimes = (int)_obj.GetValue("DurationTimes");
+        ID = _buf.ReadInt();
+        Type = _buf.ReadInt();
+        Icon = _buf.ReadString();
+        Name = _buf.ReadString();
+        Reward = _buf.ReadInt();
+        GetKey = _buf.ReadInt();
+        GetExp = _buf.ReadInt();
+        DurationTimes = _buf.ReadInt();
     }
 
-    public static Guild_guildGift DeserializeGuild_guildGift(JToken _buf)
+    public static Guild_guildGift DeserializeGuild_guildGift(ByteBuf _buf)
     {
         return new Guild_guildGift(_buf);
     }
@@ -64,8 +60,7 @@ public sealed partial class Guild_guildGift : Luban.BeanBase
     /// 存在时长(秒)
     /// </summary>
     public readonly int DurationTimes;
-
-
+   
     public const int __ID__ = -1689468329;
     public override int GetTypeId() => __ID__;
 
@@ -87,5 +82,6 @@ public sealed partial class Guild_guildGift : Luban.BeanBase
         + "}";
     }
 }
+
 }
 

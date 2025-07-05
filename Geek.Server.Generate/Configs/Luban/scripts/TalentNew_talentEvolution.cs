@@ -8,35 +8,31 @@
 //------------------------------------------------------------------------------
 
 using Luban;
-using Newtonsoft.Json.Linq;
-
 
 
 namespace HotFix.Cfg
 {
-
 public sealed partial class TalentNew_talentEvolution : Luban.BeanBase
 {
-    public TalentNew_talentEvolution(JToken _buf) 
+    public TalentNew_talentEvolution(ByteBuf _buf) 
     {
-        JObject _obj = _buf as JObject;
-        id = (int)_obj.GetValue("id");
-        type = (int)_obj.GetValue("type");
-        modelID = (string)_obj.GetValue("modelID");
-        iconAtlasID = (int)_obj.GetValue("iconAtlasID");
-        iconSpriteName = (string)_obj.GetValue("iconSpriteName");
-        exp = (int)_obj.GetValue("exp");
-        evolutionAttributes = (string)_obj.GetValue("evolutionAttributes");
-        attributeGroup = (string)_obj.GetValue("attributeGroup");
-        levelLimit = (int)_obj.GetValue("levelLimit");
-        { var __json0 = _obj.GetValue("levelupCost"); int _n0 = (__json0 as JArray).Count; levelupCost = new long[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { long __v0;  __v0 = (long)__e0;  levelupCost[__index0++] = __v0; }   }
-        stepLanguageId = (string)_obj.GetValue("stepLanguageId");
-        desc = (string)_obj.GetValue("desc");
-        { var __json0 = _obj.GetValue("powerLvl"); int _n0 = (__json0 as JArray).Count; powerLvl = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  powerLvl[__index0++] = __v0; }   }
-        { var __json0 = _obj.GetValue("powerEvolution"); int _n0 = (__json0 as JArray).Count; powerEvolution = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  powerEvolution[__index0++] = __v0; }   }
+        id = _buf.ReadInt();
+        type = _buf.ReadInt();
+        modelID = _buf.ReadString();
+        iconAtlasID = _buf.ReadInt();
+        iconSpriteName = _buf.ReadString();
+        exp = _buf.ReadInt();
+        evolutionAttributes = _buf.ReadString();
+        attributeGroup = _buf.ReadString();
+        levelLimit = _buf.ReadInt();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);levelupCost = new long[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { long __e0;__e0 = _buf.ReadLong(); levelupCost[__index0] = __e0;}}
+        stepLanguageId = _buf.ReadString();
+        desc = _buf.ReadString();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);powerLvl = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); powerLvl[__index0] = __e0;}}
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);powerEvolution = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); powerEvolution[__index0] = __e0;}}
     }
 
-    public static TalentNew_talentEvolution DeserializeTalentNew_talentEvolution(JToken _buf)
+    public static TalentNew_talentEvolution DeserializeTalentNew_talentEvolution(ByteBuf _buf)
     {
         return new TalentNew_talentEvolution(_buf);
     }
@@ -97,8 +93,7 @@ public sealed partial class TalentNew_talentEvolution : Luban.BeanBase
     /// 基础战力,万分比战力,固定值战力<br/>进化战力
     /// </summary>
     public readonly string[] powerEvolution;
-
-
+   
     public const int __ID__ = 773795492;
     public override int GetTypeId() => __ID__;
 
@@ -126,5 +121,6 @@ public sealed partial class TalentNew_talentEvolution : Luban.BeanBase
         + "}";
     }
 }
+
 }
 

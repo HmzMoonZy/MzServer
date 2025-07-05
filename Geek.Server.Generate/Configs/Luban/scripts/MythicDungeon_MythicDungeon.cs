@@ -8,49 +8,45 @@
 //------------------------------------------------------------------------------
 
 using Luban;
-using Newtonsoft.Json.Linq;
-
 
 
 namespace HotFix.Cfg
 {
-
 public sealed partial class MythicDungeon_MythicDungeon : Luban.BeanBase
 {
-    public MythicDungeon_MythicDungeon(JToken _buf) 
+    public MythicDungeon_MythicDungeon(ByteBuf _buf) 
     {
-        JObject _obj = _buf as JObject;
-        id = (int)_obj.GetValue("id");
-        nameId = (string)_obj.GetValue("nameId");
-        { var __json0 = _obj.GetValue("desId"); int _n0 = (__json0 as JArray).Count; desId = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  desId[__index0++] = __v0; }   }
-        { var __json0 = _obj.GetValue("probabilitiesStr"); int _n0 = (__json0 as JArray).Count; probabilitiesStr = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  probabilitiesStr[__index0++] = __v0; }   }
-        speedBoxRound = (int)_obj.GetValue("speedBoxRound");
-        speedBoxDropID = (int)_obj.GetValue("speedBoxDropID");
-        fightFeaturePre = (int)_obj.GetValue("fightFeaturePre");
-        { var __json0 = _obj.GetValue("fightFeatureAll"); int _n0 = (__json0 as JArray).Count; fightFeatureAll = new int[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { int __v0;  __v0 = (int)__e0;  fightFeatureAll[__index0++] = __v0; }   }
-        { var __json0 = _obj.GetValue("dropPre"); int _n0 = (__json0 as JArray).Count; dropPre = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  dropPre[__index0++] = __v0; }   }
-        { var __json0 = _obj.GetValue("dropAll"); int _n0 = (__json0 as JArray).Count; dropAll = new int[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { int __v0;  __v0 = (int)__e0;  dropAll[__index0++] = __v0; }   }
-        maxRound = (int)_obj.GetValue("maxRound");
-        progress = (int)_obj.GetValue("progress");
-        normalDropLimit = (int)_obj.GetValue("normalDropLimit");
-        normalDropID = (int)_obj.GetValue("normalDropID");
-        normalBossDropLimit = (int)_obj.GetValue("normalBossDropLimit");
-        normalBossDropId = (int)_obj.GetValue("normalBossDropId");
-        bossDropID = (int)_obj.GetValue("bossDropID");
-        curseBoxDropID = (int)_obj.GetValue("curseBoxDropID");
-        bossLevelEventID = (int)_obj.GetValue("bossLevelEventID");
-        attributes = (string)_obj.GetValue("attributes");
-        normalBattleAttr = (string)_obj.GetValue("normalBattleAttr");
-        eliteBattleAttr = (string)_obj.GetValue("eliteBattleAttr");
-        bossBattleAttr = (string)_obj.GetValue("bossBattleAttr");
-        mapId = (int)_obj.GetValue("mapId");
-        campEventPointId = (int)_obj.GetValue("campEventPointId");
-        { var __json0 = _obj.GetValue("campOffset"); int _n0 = (__json0 as JArray).Count; campOffset = new float[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { float __v0;  __v0 = (float)__e0;  campOffset[__index0++] = __v0; }   }
-        jumpPower = (long)_obj.GetValue("jumpPower");
-        speedAdd = (long)_obj.GetValue("speedAdd");
+        id = _buf.ReadInt();
+        nameId = _buf.ReadString();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);desId = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); desId[__index0] = __e0;}}
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);probabilitiesStr = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); probabilitiesStr[__index0] = __e0;}}
+        speedBoxRound = _buf.ReadInt();
+        speedBoxDropID = _buf.ReadInt();
+        fightFeaturePre = _buf.ReadInt();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);fightFeatureAll = new int[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { int __e0;__e0 = _buf.ReadInt(); fightFeatureAll[__index0] = __e0;}}
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);dropPre = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); dropPre[__index0] = __e0;}}
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);dropAll = new int[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { int __e0;__e0 = _buf.ReadInt(); dropAll[__index0] = __e0;}}
+        maxRound = _buf.ReadInt();
+        progress = _buf.ReadInt();
+        normalDropLimit = _buf.ReadInt();
+        normalDropID = _buf.ReadInt();
+        normalBossDropLimit = _buf.ReadInt();
+        normalBossDropId = _buf.ReadInt();
+        bossDropID = _buf.ReadInt();
+        curseBoxDropID = _buf.ReadInt();
+        bossLevelEventID = _buf.ReadInt();
+        attributes = _buf.ReadString();
+        normalBattleAttr = _buf.ReadString();
+        eliteBattleAttr = _buf.ReadString();
+        bossBattleAttr = _buf.ReadString();
+        mapId = _buf.ReadInt();
+        campEventPointId = _buf.ReadInt();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);campOffset = new float[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { float __e0;__e0 = _buf.ReadFloat(); campOffset[__index0] = __e0;}}
+        jumpPower = _buf.ReadLong();
+        speedAdd = _buf.ReadLong();
     }
 
-    public static MythicDungeon_MythicDungeon DeserializeMythicDungeon_MythicDungeon(JToken _buf)
+    public static MythicDungeon_MythicDungeon DeserializeMythicDungeon_MythicDungeon(ByteBuf _buf)
     {
         return new MythicDungeon_MythicDungeon(_buf);
     }
@@ -167,8 +163,7 @@ public sealed partial class MythicDungeon_MythicDungeon : Luban.BeanBase
     /// 速度
     /// </summary>
     public readonly long speedAdd;
-
-
+   
     public const int __ID__ = 2131877889;
     public override int GetTypeId() => __ID__;
 
@@ -210,5 +205,6 @@ public sealed partial class MythicDungeon_MythicDungeon : Luban.BeanBase
         + "}";
     }
 }
+
 }
 

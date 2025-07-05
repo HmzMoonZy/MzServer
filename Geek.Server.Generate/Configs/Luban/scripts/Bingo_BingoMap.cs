@@ -8,23 +8,19 @@
 //------------------------------------------------------------------------------
 
 using Luban;
-using Newtonsoft.Json.Linq;
-
 
 
 namespace HotFix.Cfg
 {
-
 public sealed partial class Bingo_BingoMap : Luban.BeanBase
 {
-    public Bingo_BingoMap(JToken _buf) 
+    public Bingo_BingoMap(ByteBuf _buf) 
     {
-        JObject _obj = _buf as JObject;
-        ID = (int)_obj.GetValue("ID");
-        { var __json0 = _obj.GetValue("Position"); int _n0 = (__json0 as JArray).Count; Position = new int[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { int __v0;  __v0 = (int)__e0;  Position[__index0++] = __v0; }   }
+        ID = _buf.ReadInt();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);Position = new int[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { int __e0;__e0 = _buf.ReadInt(); Position[__index0] = __e0;}}
     }
 
-    public static Bingo_BingoMap DeserializeBingo_BingoMap(JToken _buf)
+    public static Bingo_BingoMap DeserializeBingo_BingoMap(ByteBuf _buf)
     {
         return new Bingo_BingoMap(_buf);
     }
@@ -37,8 +33,7 @@ public sealed partial class Bingo_BingoMap : Luban.BeanBase
     /// 内测盘面ID
     /// </summary>
     public readonly int[] Position;
-
-
+   
     public const int __ID__ = 1922164989;
     public override int GetTypeId() => __ID__;
 
@@ -54,5 +49,6 @@ public sealed partial class Bingo_BingoMap : Luban.BeanBase
         + "}";
     }
 }
+
 }
 

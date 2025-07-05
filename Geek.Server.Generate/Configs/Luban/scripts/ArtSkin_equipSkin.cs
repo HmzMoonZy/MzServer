@@ -8,26 +8,22 @@
 //------------------------------------------------------------------------------
 
 using Luban;
-using Newtonsoft.Json.Linq;
-
 
 
 namespace HotFix.Cfg
 {
-
 public sealed partial class ArtSkin_equipSkin : Luban.BeanBase
 {
-    public ArtSkin_equipSkin(JToken _buf) 
+    public ArtSkin_equipSkin(ByteBuf _buf) 
     {
-        JObject _obj = _buf as JObject;
-        id = (int)_obj.GetValue("id");
-        equipType = (int)_obj.GetValue("equipType");
-        subType = (int)_obj.GetValue("subType");
-        skinName = (string)_obj.GetValue("skinName");
-        appearName = (string)_obj.GetValue("appearName");
+        id = _buf.ReadInt();
+        equipType = _buf.ReadInt();
+        subType = _buf.ReadInt();
+        skinName = _buf.ReadString();
+        appearName = _buf.ReadString();
     }
 
-    public static ArtSkin_equipSkin DeserializeArtSkin_equipSkin(JToken _buf)
+    public static ArtSkin_equipSkin DeserializeArtSkin_equipSkin(ByteBuf _buf)
     {
         return new ArtSkin_equipSkin(_buf);
     }
@@ -52,8 +48,7 @@ public sealed partial class ArtSkin_equipSkin : Luban.BeanBase
     /// 出场动画名
     /// </summary>
     public readonly string appearName;
-
-
+   
     public const int __ID__ = -1699926354;
     public override int GetTypeId() => __ID__;
 
@@ -72,5 +67,6 @@ public sealed partial class ArtSkin_equipSkin : Luban.BeanBase
         + "}";
     }
 }
+
 }
 

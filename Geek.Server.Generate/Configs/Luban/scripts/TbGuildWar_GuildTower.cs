@@ -7,14 +7,11 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-using Newtonsoft.Json.Linq;
 using Luban;
-
 
 
 namespace HotFix.Cfg
 {
-
 /// <summary>
 /// Generated from GuildWar.xlsx sheet GuildTower
 /// </summary>
@@ -23,20 +20,19 @@ public partial class TbGuildWar_GuildTower
     private readonly System.Collections.Generic.Dictionary<int, GuildWar_GuildTower> _dataMap;
     private readonly System.Collections.Generic.List<GuildWar_GuildTower> _dataList;
     
-    public TbGuildWar_GuildTower(JArray _buf)
+    public TbGuildWar_GuildTower(ByteBuf _buf)
     {
         _dataMap = new System.Collections.Generic.Dictionary<int, GuildWar_GuildTower>();
         _dataList = new System.Collections.Generic.List<GuildWar_GuildTower>();
         
-        foreach(JObject _ele in _buf)
+        for(int n = _buf.ReadSize() ; n > 0 ; --n)
         {
             GuildWar_GuildTower _v;
-            _v = global::HotFix.Cfg.GuildWar_GuildTower.DeserializeGuildWar_GuildTower(_ele);
+            _v = global::HotFix.Cfg.GuildWar_GuildTower.DeserializeGuildWar_GuildTower(_buf);
             _dataList.Add(_v);
             _dataMap.Add(_v.id, _v);
-         }
+        }
     }
-
 
     public System.Collections.Generic.Dictionary<int, GuildWar_GuildTower> DataMap => _dataMap;
     public System.Collections.Generic.List<GuildWar_GuildTower> DataList => _dataList;
@@ -54,5 +50,6 @@ public partial class TbGuildWar_GuildTower
     }
 
 }
+
 }
 

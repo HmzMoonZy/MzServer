@@ -8,27 +8,23 @@
 //------------------------------------------------------------------------------
 
 using Luban;
-using Newtonsoft.Json.Linq;
-
 
 
 namespace HotFix.Cfg
 {
-
 public sealed partial class ActivityTurntable_TurntablePay : Luban.BeanBase
 {
-    public ActivityTurntable_TurntablePay(JToken _buf) 
+    public ActivityTurntable_TurntablePay(ByteBuf _buf) 
     {
-        JObject _obj = _buf as JObject;
-        id = (int)_obj.GetValue("id");
-        PurchaseId = (int)_obj.GetValue("PurchaseId");
-        AdId = (int)_obj.GetValue("AdId");
-        ObjName = (string)_obj.GetValue("ObjName");
-        objToplimit = (int)_obj.GetValue("objToplimit");
-        { var __json0 = _obj.GetValue("ObjGoods"); int _n0 = (__json0 as JArray).Count; ObjGoods = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  ObjGoods[__index0++] = __v0; }   }
+        id = _buf.ReadInt();
+        PurchaseId = _buf.ReadInt();
+        AdId = _buf.ReadInt();
+        ObjName = _buf.ReadString();
+        objToplimit = _buf.ReadInt();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);ObjGoods = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); ObjGoods[__index0] = __e0;}}
     }
 
-    public static ActivityTurntable_TurntablePay DeserializeActivityTurntable_TurntablePay(JToken _buf)
+    public static ActivityTurntable_TurntablePay DeserializeActivityTurntable_TurntablePay(ByteBuf _buf)
     {
         return new ActivityTurntable_TurntablePay(_buf);
     }
@@ -57,8 +53,7 @@ public sealed partial class ActivityTurntable_TurntablePay : Luban.BeanBase
     /// 出售道具
     /// </summary>
     public readonly string[] ObjGoods;
-
-
+   
     public const int __ID__ = -445433932;
     public override int GetTypeId() => __ID__;
 
@@ -78,5 +73,6 @@ public sealed partial class ActivityTurntable_TurntablePay : Luban.BeanBase
         + "}";
     }
 }
+
 }
 

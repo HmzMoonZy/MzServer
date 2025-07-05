@@ -8,24 +8,20 @@
 //------------------------------------------------------------------------------
 
 using Luban;
-using Newtonsoft.Json.Linq;
-
 
 
 namespace HotFix.Cfg
 {
-
 public sealed partial class GameSkill_skillCondition : Luban.BeanBase
 {
-    public GameSkill_skillCondition(JToken _buf) 
+    public GameSkill_skillCondition(ByteBuf _buf) 
     {
-        JObject _obj = _buf as JObject;
-        id = (int)_obj.GetValue("id");
-        type = (int)_obj.GetValue("type");
-        parameters = (string)_obj.GetValue("parameters");
+        id = _buf.ReadInt();
+        type = _buf.ReadInt();
+        parameters = _buf.ReadString();
     }
 
-    public static GameSkill_skillCondition DeserializeGameSkill_skillCondition(JToken _buf)
+    public static GameSkill_skillCondition DeserializeGameSkill_skillCondition(ByteBuf _buf)
     {
         return new GameSkill_skillCondition(_buf);
     }
@@ -42,8 +38,7 @@ public sealed partial class GameSkill_skillCondition : Luban.BeanBase
     /// json
     /// </summary>
     public readonly string parameters;
-
-
+   
     public const int __ID__ = -327377750;
     public override int GetTypeId() => __ID__;
 
@@ -60,5 +55,6 @@ public sealed partial class GameSkill_skillCondition : Luban.BeanBase
         + "}";
     }
 }
+
 }
 

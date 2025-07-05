@@ -8,32 +8,28 @@
 //------------------------------------------------------------------------------
 
 using Luban;
-using Newtonsoft.Json.Linq;
-
 
 
 namespace HotFix.Cfg
 {
-
 public sealed partial class Gem_GemEffect : Luban.BeanBase
 {
-    public Gem_GemEffect(JToken _buf) 
+    public Gem_GemEffect(ByteBuf _buf) 
     {
-        JObject _obj = _buf as JObject;
-        id = (int)_obj.GetValue("id");
-        gemQuality = (int)_obj.GetValue("gemQuality");
-        gemGroup = (int)_obj.GetValue("gemGroup");
-        type = (int)_obj.GetValue("type");
-        normalTagID = (int)_obj.GetValue("normalTagID");
-        seasonTagID = (int)_obj.GetValue("seasonTagID");
-        effectDesc = (string)_obj.GetValue("effectDesc");
-        { var __json0 = _obj.GetValue("effectShow"); int _n0 = (__json0 as JArray).Count; effectShow = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  effectShow[__index0++] = __v0; }   }
-        effectType = (int)_obj.GetValue("effectType");
-        effectPara = (string)_obj.GetValue("effectPara");
-        { var __json0 = _obj.GetValue("activePower"); int _n0 = (__json0 as JArray).Count; activePower = new int[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { int __v0;  __v0 = (int)__e0;  activePower[__index0++] = __v0; }   }
+        id = _buf.ReadInt();
+        gemQuality = _buf.ReadInt();
+        gemGroup = _buf.ReadInt();
+        type = _buf.ReadInt();
+        normalTagID = _buf.ReadInt();
+        seasonTagID = _buf.ReadInt();
+        effectDesc = _buf.ReadString();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);effectShow = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); effectShow[__index0] = __e0;}}
+        effectType = _buf.ReadInt();
+        effectPara = _buf.ReadString();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);activePower = new int[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { int __e0;__e0 = _buf.ReadInt(); activePower[__index0] = __e0;}}
     }
 
-    public static Gem_GemEffect DeserializeGem_GemEffect(JToken _buf)
+    public static Gem_GemEffect DeserializeGem_GemEffect(ByteBuf _buf)
     {
         return new Gem_GemEffect(_buf);
     }
@@ -82,8 +78,7 @@ public sealed partial class Gem_GemEffect : Luban.BeanBase
     /// 层数2万分比战力<br/>层数3万分比战力<br/>（上阵增加战力）
     /// </summary>
     public readonly int[] activePower;
-
-
+   
     public const int __ID__ = 1483899024;
     public override int GetTypeId() => __ID__;
 
@@ -108,5 +103,6 @@ public sealed partial class Gem_GemEffect : Luban.BeanBase
         + "}";
     }
 }
+
 }
 

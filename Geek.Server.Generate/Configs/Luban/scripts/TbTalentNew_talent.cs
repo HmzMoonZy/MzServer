@@ -7,14 +7,11 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-using Newtonsoft.Json.Linq;
 using Luban;
-
 
 
 namespace HotFix.Cfg
 {
-
 /// <summary>
 /// Generated from TalentNew.xlsx sheet talent
 /// </summary>
@@ -23,20 +20,19 @@ public partial class TbTalentNew_talent
     private readonly System.Collections.Generic.Dictionary<int, TalentNew_talent> _dataMap;
     private readonly System.Collections.Generic.List<TalentNew_talent> _dataList;
     
-    public TbTalentNew_talent(JArray _buf)
+    public TbTalentNew_talent(ByteBuf _buf)
     {
         _dataMap = new System.Collections.Generic.Dictionary<int, TalentNew_talent>();
         _dataList = new System.Collections.Generic.List<TalentNew_talent>();
         
-        foreach(JObject _ele in _buf)
+        for(int n = _buf.ReadSize() ; n > 0 ; --n)
         {
             TalentNew_talent _v;
-            _v = global::HotFix.Cfg.TalentNew_talent.DeserializeTalentNew_talent(_ele);
+            _v = global::HotFix.Cfg.TalentNew_talent.DeserializeTalentNew_talent(_buf);
             _dataList.Add(_v);
             _dataMap.Add(_v.id, _v);
-         }
+        }
     }
-
 
     public System.Collections.Generic.Dictionary<int, TalentNew_talent> DataMap => _dataMap;
     public System.Collections.Generic.List<TalentNew_talent> DataList => _dataList;
@@ -54,5 +50,6 @@ public partial class TbTalentNew_talent
     }
 
 }
+
 }
 

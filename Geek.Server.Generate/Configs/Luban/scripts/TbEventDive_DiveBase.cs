@@ -7,14 +7,11 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-using Newtonsoft.Json.Linq;
 using Luban;
-
 
 
 namespace HotFix.Cfg
 {
-
 /// <summary>
 /// Generated from EventDive.xlsx sheet DiveBase
 /// </summary>
@@ -23,20 +20,19 @@ public partial class TbEventDive_DiveBase
     private readonly System.Collections.Generic.Dictionary<int, EventDive_DiveBase> _dataMap;
     private readonly System.Collections.Generic.List<EventDive_DiveBase> _dataList;
     
-    public TbEventDive_DiveBase(JArray _buf)
+    public TbEventDive_DiveBase(ByteBuf _buf)
     {
         _dataMap = new System.Collections.Generic.Dictionary<int, EventDive_DiveBase>();
         _dataList = new System.Collections.Generic.List<EventDive_DiveBase>();
         
-        foreach(JObject _ele in _buf)
+        for(int n = _buf.ReadSize() ; n > 0 ; --n)
         {
             EventDive_DiveBase _v;
-            _v = global::HotFix.Cfg.EventDive_DiveBase.DeserializeEventDive_DiveBase(_ele);
+            _v = global::HotFix.Cfg.EventDive_DiveBase.DeserializeEventDive_DiveBase(_buf);
             _dataList.Add(_v);
             _dataMap.Add(_v.ID, _v);
-         }
+        }
     }
-
 
     public System.Collections.Generic.Dictionary<int, EventDive_DiveBase> DataMap => _dataMap;
     public System.Collections.Generic.List<EventDive_DiveBase> DataList => _dataList;
@@ -54,5 +50,6 @@ public partial class TbEventDive_DiveBase
     }
 
 }
+
 }
 

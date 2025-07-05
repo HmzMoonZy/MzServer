@@ -7,14 +7,11 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-using Newtonsoft.Json.Linq;
 using Luban;
-
 
 
 namespace HotFix.Cfg
 {
-
 /// <summary>
 /// Generated from TicketExchange.xlsx sheet Exchange
 /// </summary>
@@ -23,20 +20,19 @@ public partial class TbTicketExchange_Exchange
     private readonly System.Collections.Generic.Dictionary<int, TicketExchange_Exchange> _dataMap;
     private readonly System.Collections.Generic.List<TicketExchange_Exchange> _dataList;
     
-    public TbTicketExchange_Exchange(JArray _buf)
+    public TbTicketExchange_Exchange(ByteBuf _buf)
     {
         _dataMap = new System.Collections.Generic.Dictionary<int, TicketExchange_Exchange>();
         _dataList = new System.Collections.Generic.List<TicketExchange_Exchange>();
         
-        foreach(JObject _ele in _buf)
+        for(int n = _buf.ReadSize() ; n > 0 ; --n)
         {
             TicketExchange_Exchange _v;
-            _v = global::HotFix.Cfg.TicketExchange_Exchange.DeserializeTicketExchange_Exchange(_ele);
+            _v = global::HotFix.Cfg.TicketExchange_Exchange.DeserializeTicketExchange_Exchange(_buf);
             _dataList.Add(_v);
             _dataMap.Add(_v.id, _v);
-         }
+        }
     }
-
 
     public System.Collections.Generic.Dictionary<int, TicketExchange_Exchange> DataMap => _dataMap;
     public System.Collections.Generic.List<TicketExchange_Exchange> DataList => _dataList;
@@ -54,5 +50,6 @@ public partial class TbTicketExchange_Exchange
     }
 
 }
+
 }
 

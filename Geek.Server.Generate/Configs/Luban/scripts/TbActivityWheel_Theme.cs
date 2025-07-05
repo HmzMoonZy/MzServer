@@ -7,14 +7,11 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-using Newtonsoft.Json.Linq;
 using Luban;
-
 
 
 namespace HotFix.Cfg
 {
-
 /// <summary>
 /// Generated from ActivityWheel.xlsx sheet Theme
 /// </summary>
@@ -23,20 +20,19 @@ public partial class TbActivityWheel_Theme
     private readonly System.Collections.Generic.Dictionary<int, ActivityWheel_Theme> _dataMap;
     private readonly System.Collections.Generic.List<ActivityWheel_Theme> _dataList;
     
-    public TbActivityWheel_Theme(JArray _buf)
+    public TbActivityWheel_Theme(ByteBuf _buf)
     {
         _dataMap = new System.Collections.Generic.Dictionary<int, ActivityWheel_Theme>();
         _dataList = new System.Collections.Generic.List<ActivityWheel_Theme>();
         
-        foreach(JObject _ele in _buf)
+        for(int n = _buf.ReadSize() ; n > 0 ; --n)
         {
             ActivityWheel_Theme _v;
-            _v = global::HotFix.Cfg.ActivityWheel_Theme.DeserializeActivityWheel_Theme(_ele);
+            _v = global::HotFix.Cfg.ActivityWheel_Theme.DeserializeActivityWheel_Theme(_buf);
             _dataList.Add(_v);
             _dataMap.Add(_v.Id, _v);
-         }
+        }
     }
-
 
     public System.Collections.Generic.Dictionary<int, ActivityWheel_Theme> DataMap => _dataMap;
     public System.Collections.Generic.List<ActivityWheel_Theme> DataList => _dataList;
@@ -54,5 +50,6 @@ public partial class TbActivityWheel_Theme
     }
 
 }
+
 }
 

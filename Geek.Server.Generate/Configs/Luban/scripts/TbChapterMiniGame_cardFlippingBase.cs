@@ -7,14 +7,11 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-using Newtonsoft.Json.Linq;
 using Luban;
-
 
 
 namespace HotFix.Cfg
 {
-
 /// <summary>
 /// Generated from ChapterMiniGame.xlsx sheet cardFlippingBase
 /// </summary>
@@ -23,20 +20,19 @@ public partial class TbChapterMiniGame_cardFlippingBase
     private readonly System.Collections.Generic.Dictionary<int, ChapterMiniGame_cardFlippingBase> _dataMap;
     private readonly System.Collections.Generic.List<ChapterMiniGame_cardFlippingBase> _dataList;
     
-    public TbChapterMiniGame_cardFlippingBase(JArray _buf)
+    public TbChapterMiniGame_cardFlippingBase(ByteBuf _buf)
     {
         _dataMap = new System.Collections.Generic.Dictionary<int, ChapterMiniGame_cardFlippingBase>();
         _dataList = new System.Collections.Generic.List<ChapterMiniGame_cardFlippingBase>();
         
-        foreach(JObject _ele in _buf)
+        for(int n = _buf.ReadSize() ; n > 0 ; --n)
         {
             ChapterMiniGame_cardFlippingBase _v;
-            _v = global::HotFix.Cfg.ChapterMiniGame_cardFlippingBase.DeserializeChapterMiniGame_cardFlippingBase(_ele);
+            _v = global::HotFix.Cfg.ChapterMiniGame_cardFlippingBase.DeserializeChapterMiniGame_cardFlippingBase(_buf);
             _dataList.Add(_v);
             _dataMap.Add(_v.id, _v);
-         }
+        }
     }
-
 
     public System.Collections.Generic.Dictionary<int, ChapterMiniGame_cardFlippingBase> DataMap => _dataMap;
     public System.Collections.Generic.List<ChapterMiniGame_cardFlippingBase> DataList => _dataList;
@@ -54,5 +50,6 @@ public partial class TbChapterMiniGame_cardFlippingBase
     }
 
 }
+
 }
 

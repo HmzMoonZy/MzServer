@@ -8,26 +8,22 @@
 //------------------------------------------------------------------------------
 
 using Luban;
-using Newtonsoft.Json.Linq;
-
 
 
 namespace HotFix.Cfg
 {
-
 public sealed partial class MythicDungeon_levelType : Luban.BeanBase
 {
-    public MythicDungeon_levelType(JToken _buf) 
+    public MythicDungeon_levelType(ByteBuf _buf) 
     {
-        JObject _obj = _buf as JObject;
-        id = (int)_obj.GetValue("id");
-        beginLanguage = (string)_obj.GetValue("beginLanguage");
-        nameId = (string)_obj.GetValue("nameId");
-        memberId = (int)_obj.GetValue("memberId");
-        buildId = (int)_obj.GetValue("buildId");
+        id = _buf.ReadInt();
+        beginLanguage = _buf.ReadString();
+        nameId = _buf.ReadString();
+        memberId = _buf.ReadInt();
+        buildId = _buf.ReadInt();
     }
 
-    public static MythicDungeon_levelType DeserializeMythicDungeon_levelType(JToken _buf)
+    public static MythicDungeon_levelType DeserializeMythicDungeon_levelType(ByteBuf _buf)
     {
         return new MythicDungeon_levelType(_buf);
     }
@@ -52,8 +48,7 @@ public sealed partial class MythicDungeon_levelType : Luban.BeanBase
     /// 技能池id
     /// </summary>
     public readonly int buildId;
-
-
+   
     public const int __ID__ = -1001480609;
     public override int GetTypeId() => __ID__;
 
@@ -72,5 +67,6 @@ public sealed partial class MythicDungeon_levelType : Luban.BeanBase
         + "}";
     }
 }
+
 }
 

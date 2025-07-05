@@ -8,36 +8,32 @@
 //------------------------------------------------------------------------------
 
 using Luban;
-using Newtonsoft.Json.Linq;
-
 
 
 namespace HotFix.Cfg
 {
-
 public sealed partial class Mount_advanceMount : Luban.BeanBase
 {
-    public Mount_advanceMount(JToken _buf) 
+    public Mount_advanceMount(ByteBuf _buf) 
     {
-        JObject _obj = _buf as JObject;
-        id = (int)_obj.GetValue("id");
-        { var __json0 = _obj.GetValue("awakeID"); int _n0 = (__json0 as JArray).Count; awakeID = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  awakeID[__index0++] = __v0; }   }
-        memberId = (int)_obj.GetValue("memberId");
-        quality = (int)_obj.GetValue("quality");
-        initSkill = (int)_obj.GetValue("initSkill");
-        maxStarSkill = (int)_obj.GetValue("maxStarSkill");
-        maxStar = (int)_obj.GetValue("maxStar");
-        unlockCostId = (int)_obj.GetValue("unlockCostId");
-        { var __json0 = _obj.GetValue("starCostOld"); int _n0 = (__json0 as JArray).Count; starCostOld = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  starCostOld[__index0++] = __v0; }   }
-        { var __json0 = _obj.GetValue("starCost"); int _n0 = (__json0 as JArray).Count; starCost = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  starCost[__index0++] = __v0; }   }
-        { var __json0 = _obj.GetValue("compensate"); int _n0 = (__json0 as JArray).Count; compensate = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  compensate[__index0++] = __v0; }   }
-        { var __json0 = _obj.GetValue("attribute"); int _n0 = (__json0 as JArray).Count; attribute = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  attribute[__index0++] = __v0; }   }
-        { var __json0 = _obj.GetValue("levelAttribute"); int _n0 = (__json0 as JArray).Count; levelAttribute = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  levelAttribute[__index0++] = __v0; }   }
-        { var __json0 = _obj.GetValue("power"); int _n0 = (__json0 as JArray).Count; power = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  power[__index0++] = __v0; }   }
-        { var __json0 = _obj.GetValue("activePower"); int _n0 = (__json0 as JArray).Count; activePower = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  activePower[__index0++] = __v0; }   }
+        id = _buf.ReadInt();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);awakeID = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); awakeID[__index0] = __e0;}}
+        memberId = _buf.ReadInt();
+        quality = _buf.ReadInt();
+        initSkill = _buf.ReadInt();
+        maxStarSkill = _buf.ReadInt();
+        maxStar = _buf.ReadInt();
+        unlockCostId = _buf.ReadInt();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);starCostOld = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); starCostOld[__index0] = __e0;}}
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);starCost = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); starCost[__index0] = __e0;}}
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);compensate = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); compensate[__index0] = __e0;}}
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);attribute = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); attribute[__index0] = __e0;}}
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);levelAttribute = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); levelAttribute[__index0] = __e0;}}
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);power = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); power[__index0] = __e0;}}
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);activePower = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); activePower[__index0] = __e0;}}
     }
 
-    public static Mount_advanceMount DeserializeMount_advanceMount(JToken _buf)
+    public static Mount_advanceMount DeserializeMount_advanceMount(ByteBuf _buf)
     {
         return new Mount_advanceMount(_buf);
     }
@@ -102,8 +98,7 @@ public sealed partial class Mount_advanceMount : Luban.BeanBase
     /// 层数2万分比战力<br/>层数3万分比战力<br/>（上阵增加战力）
     /// </summary>
     public readonly string[] activePower;
-
-
+   
     public const int __ID__ = 1285275453;
     public override int GetTypeId() => __ID__;
 
@@ -132,5 +127,6 @@ public sealed partial class Mount_advanceMount : Luban.BeanBase
         + "}";
     }
 }
+
 }
 

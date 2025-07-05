@@ -8,33 +8,29 @@
 //------------------------------------------------------------------------------
 
 using Luban;
-using Newtonsoft.Json.Linq;
-
 
 
 namespace HotFix.Cfg
 {
-
 public sealed partial class WorldBoss_Subsection : Luban.BeanBase
 {
-    public WorldBoss_Subsection(JToken _buf) 
+    public WorldBoss_Subsection(ByteBuf _buf) 
     {
-        JObject _obj = _buf as JObject;
-        ID = (int)_obj.GetValue("ID");
-        Desc = (string)_obj.GetValue("Desc");
-        RankLevel = (int)_obj.GetValue("RankLevel");
-        FirstSingleLimit = (int)_obj.GetValue("FirstSingleLimit");
-        PromotionRank = (int)_obj.GetValue("PromotionRank");
-        DemoteRank = (int)_obj.GetValue("DemoteRank");
-        DemoteRankLevel = (int)_obj.GetValue("DemoteRankLevel");
-        languageId = (string)_obj.GetValue("languageId");
-        atlasName = (int)_obj.GetValue("atlasName");
-        atlasId = (string)_obj.GetValue("atlasId");
-        serverNum = (int)_obj.GetValue("serverNum");
-        serverRange = (int)_obj.GetValue("serverRange");
+        ID = _buf.ReadInt();
+        Desc = _buf.ReadString();
+        RankLevel = _buf.ReadInt();
+        FirstSingleLimit = _buf.ReadInt();
+        PromotionRank = _buf.ReadInt();
+        DemoteRank = _buf.ReadInt();
+        DemoteRankLevel = _buf.ReadInt();
+        languageId = _buf.ReadString();
+        atlasName = _buf.ReadInt();
+        atlasId = _buf.ReadString();
+        serverNum = _buf.ReadInt();
+        serverRange = _buf.ReadInt();
     }
 
-    public static WorldBoss_Subsection DeserializeWorldBoss_Subsection(JToken _buf)
+    public static WorldBoss_Subsection DeserializeWorldBoss_Subsection(ByteBuf _buf)
     {
         return new WorldBoss_Subsection(_buf);
     }
@@ -87,8 +83,7 @@ public sealed partial class WorldBoss_Subsection : Luban.BeanBase
     /// 跨服范围列<br/><br/>serverList-serverRange -pveRange序号
     /// </summary>
     public readonly int serverRange;
-
-
+   
     public const int __ID__ = -1216892155;
     public override int GetTypeId() => __ID__;
 
@@ -114,5 +109,6 @@ public sealed partial class WorldBoss_Subsection : Luban.BeanBase
         + "}";
     }
 }
+
 }
 

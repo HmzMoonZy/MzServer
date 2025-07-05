@@ -8,36 +8,32 @@
 //------------------------------------------------------------------------------
 
 using Luban;
-using Newtonsoft.Json.Linq;
-
 
 
 namespace HotFix.Cfg
 {
-
 public sealed partial class ChapterActivity_RankActivity : Luban.BeanBase
 {
-    public ChapterActivity_RankActivity(JToken _buf) 
+    public ChapterActivity_RankActivity(ByteBuf _buf) 
     {
-        JObject _obj = _buf as JObject;
-        id = (int)_obj.GetValue("id");
-        name = (string)_obj.GetValue("name");
-        unlockScore = (int)_obj.GetValue("unlockScore");
-        { var __json0 = _obj.GetValue("parameter"); int _n0 = (__json0 as JArray).Count; parameter = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  parameter[__index0++] = __v0; }   }
-        atlasID = (int)_obj.GetValue("atlasID");
-        itemIcon = (string)_obj.GetValue("itemIcon");
-        itemNameId = (string)_obj.GetValue("itemNameId");
-        bg = (string)_obj.GetValue("bg");
-        openTime = (string)_obj.GetValue("openTime");
-        endTime = (string)_obj.GetValue("endTime");
-        group = (int)_obj.GetValue("group");
-        rankID = (int)_obj.GetValue("rankID");
-        { var __json0 = _obj.GetValue("rewardShow"); int _n0 = (__json0 as JArray).Count; rewardShow = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  rewardShow[__index0++] = __v0; }   }
-        robotNum = (int)_obj.GetValue("robotNum");
-        robotScore = (string)_obj.GetValue("robotScore");
+        id = _buf.ReadInt();
+        name = _buf.ReadString();
+        unlockScore = _buf.ReadInt();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);parameter = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); parameter[__index0] = __e0;}}
+        atlasID = _buf.ReadInt();
+        itemIcon = _buf.ReadString();
+        itemNameId = _buf.ReadString();
+        bg = _buf.ReadString();
+        openTime = _buf.ReadString();
+        endTime = _buf.ReadString();
+        group = _buf.ReadInt();
+        rankID = _buf.ReadInt();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);rewardShow = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); rewardShow[__index0] = __e0;}}
+        robotNum = _buf.ReadInt();
+        robotScore = _buf.ReadString();
     }
 
-    public static ChapterActivity_RankActivity DeserializeChapterActivity_RankActivity(JToken _buf)
+    public static ChapterActivity_RankActivity DeserializeChapterActivity_RankActivity(ByteBuf _buf)
     {
         return new ChapterActivity_RankActivity(_buf);
     }
@@ -102,8 +98,7 @@ public sealed partial class ChapterActivity_RankActivity : Luban.BeanBase
     /// 机器人积分范围
     /// </summary>
     public readonly string robotScore;
-
-
+   
     public const int __ID__ = -280642434;
     public override int GetTypeId() => __ID__;
 
@@ -132,5 +127,6 @@ public sealed partial class ChapterActivity_RankActivity : Luban.BeanBase
         + "}";
     }
 }
+
 }
 

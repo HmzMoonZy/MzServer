@@ -8,49 +8,45 @@
 //------------------------------------------------------------------------------
 
 using Luban;
-using Newtonsoft.Json.Linq;
-
 
 
 namespace HotFix.Cfg
 {
-
 public sealed partial class GameSkillBuild_skillBuild : Luban.BeanBase
 {
-    public GameSkillBuild_skillBuild(JToken _buf) 
+    public GameSkillBuild_skillBuild(ByteBuf _buf) 
     {
-        JObject _obj = _buf as JObject;
-        id = (int)_obj.GetValue("id");
-        kind = (int)_obj.GetValue("kind");
-        heroSource = (int)_obj.GetValue("heroSource");
-        { var __json0 = _obj.GetValue("outsideSource"); int _n0 = (__json0 as JArray).Count; outsideSource = new int[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { int __v0;  __v0 = (int)__e0;  outsideSource[__index0++] = __v0; }   }
-        { var __json0 = _obj.GetValue("removeGroupId"); int _n0 = (__json0 as JArray).Count; removeGroupId = new int[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { int __v0;  __v0 = (int)__e0;  removeGroupId[__index0++] = __v0; }   }
-        { var __json0 = _obj.GetValue("addGroupId"); int _n0 = (__json0 as JArray).Count; addGroupId = new int[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { int __v0;  __v0 = (int)__e0;  addGroupId[__index0++] = __v0; }   }
-        initShield = (int)_obj.GetValue("initShield");
-        unlockChapter = (int)_obj.GetValue("unlockChapter");
-        { var __json0 = _obj.GetValue("source"); int _n0 = (__json0 as JArray).Count; source = new int[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { int __v0;  __v0 = (int)__e0;  source[__index0++] = __v0; }   }
-        groupId = (int)_obj.GetValue("groupId");
-        level = (int)_obj.GetValue("level");
-        needGroup = (string)_obj.GetValue("needGroup");
-        { var __json0 = _obj.GetValue("deleteGroup"); int _n0 = (__json0 as JArray).Count; deleteGroup = new int[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { int __v0;  __v0 = (int)__e0;  deleteGroup[__index0++] = __v0; }   }
-        quality = (int)_obj.GetValue("quality");
-        { var __json0 = _obj.GetValue("cost"); int _n0 = (__json0 as JArray).Count; cost = new int[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { int __v0;  __v0 = (int)__e0;  cost[__index0++] = __v0; }   }
-        weight = (int)_obj.GetValue("weight");
-        tag = (int)_obj.GetValue("tag");
-        attributes = (string)_obj.GetValue("attributes");
-        recoverHp = (int)_obj.GetValue("recoverHp");
-        skillId = (int)_obj.GetValue("skillId");
-        { var __json0 = _obj.GetValue("compose"); int _n0 = (__json0 as JArray).Count; compose = new int[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { int __v0;  __v0 = (int)__e0;  compose[__index0++] = __v0; }   }
-        composeType = (int)_obj.GetValue("composeType");
-        { var __json0 = _obj.GetValue("showCompose"); int _n0 = (__json0 as JArray).Count; showCompose = new int[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { int __v0;  __v0 = (int)__e0;  showCompose[__index0++] = __v0; }   }
-        posGroup = (int)_obj.GetValue("posGroup");
-        mythicLv = (int)_obj.GetValue("mythicLv");
-        mythicBaseSkill = (int)_obj.GetValue("mythicBaseSkill");
-        { var __json0 = _obj.GetValue("mythicSkillInfo"); int _n0 = (__json0 as JArray).Count; mythicSkillInfo = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  mythicSkillInfo[__index0++] = __v0; }   }
-        talentApexId = (int)_obj.GetValue("talentApexId");
+        id = _buf.ReadInt();
+        kind = _buf.ReadInt();
+        heroSource = _buf.ReadInt();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);outsideSource = new int[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { int __e0;__e0 = _buf.ReadInt(); outsideSource[__index0] = __e0;}}
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);removeGroupId = new int[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { int __e0;__e0 = _buf.ReadInt(); removeGroupId[__index0] = __e0;}}
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);addGroupId = new int[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { int __e0;__e0 = _buf.ReadInt(); addGroupId[__index0] = __e0;}}
+        initShield = _buf.ReadInt();
+        unlockChapter = _buf.ReadInt();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);source = new int[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { int __e0;__e0 = _buf.ReadInt(); source[__index0] = __e0;}}
+        groupId = _buf.ReadInt();
+        level = _buf.ReadInt();
+        needGroup = _buf.ReadString();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);deleteGroup = new int[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { int __e0;__e0 = _buf.ReadInt(); deleteGroup[__index0] = __e0;}}
+        quality = _buf.ReadInt();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);cost = new int[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { int __e0;__e0 = _buf.ReadInt(); cost[__index0] = __e0;}}
+        weight = _buf.ReadInt();
+        tag = _buf.ReadInt();
+        attributes = _buf.ReadString();
+        recoverHp = _buf.ReadInt();
+        skillId = _buf.ReadInt();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);compose = new int[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { int __e0;__e0 = _buf.ReadInt(); compose[__index0] = __e0;}}
+        composeType = _buf.ReadInt();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);showCompose = new int[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { int __e0;__e0 = _buf.ReadInt(); showCompose[__index0] = __e0;}}
+        posGroup = _buf.ReadInt();
+        mythicLv = _buf.ReadInt();
+        mythicBaseSkill = _buf.ReadInt();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);mythicSkillInfo = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); mythicSkillInfo[__index0] = __e0;}}
+        talentApexId = _buf.ReadInt();
     }
 
-    public static GameSkillBuild_skillBuild DeserializeGameSkillBuild_skillBuild(JToken _buf)
+    public static GameSkillBuild_skillBuild DeserializeGameSkillBuild_skillBuild(ByteBuf _buf)
     {
         return new GameSkillBuild_skillBuild(_buf);
     }
@@ -167,8 +163,7 @@ public sealed partial class GameSkillBuild_skillBuild : Luban.BeanBase
     /// 巅峰天赋技能对应id
     /// </summary>
     public readonly int talentApexId;
-
-
+   
     public const int __ID__ = 583905421;
     public override int GetTypeId() => __ID__;
 
@@ -210,5 +205,6 @@ public sealed partial class GameSkillBuild_skillBuild : Luban.BeanBase
         + "}";
     }
 }
+
 }
 

@@ -8,30 +8,26 @@
 //------------------------------------------------------------------------------
 
 using Luban;
-using Newtonsoft.Json.Linq;
-
 
 
 namespace HotFix.Cfg
 {
-
 public sealed partial class WorldBoss_WorldBoss : Luban.BeanBase
 {
-    public WorldBoss_WorldBoss(JToken _buf) 
+    public WorldBoss_WorldBoss(ByteBuf _buf) 
     {
-        JObject _obj = _buf as JObject;
-        id = (int)_obj.GetValue("id");
-        monsterCfg = (int)_obj.GetValue("monsterCfg");
-        mapID = (int)_obj.GetValue("mapID");
-        bgm = (int)_obj.GetValue("bgm");
-        { var __json0 = _obj.GetValue("buffData"); int _n0 = (__json0 as JArray).Count; buffData = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  buffData[__index0++] = __v0; }   }
-        { var __json0 = _obj.GetValue("buffDataV1_6_0"); int _n0 = (__json0 as JArray).Count; buffDataV1_6_0 = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  buffDataV1_6_0[__index0++] = __v0; }   }
-        bossId = (int)_obj.GetValue("bossId");
-        uiScale = (float)_obj.GetValue("uiScale");
-        speedAdd = (int)_obj.GetValue("speedAdd");
+        id = _buf.ReadInt();
+        monsterCfg = _buf.ReadInt();
+        mapID = _buf.ReadInt();
+        bgm = _buf.ReadInt();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);buffData = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); buffData[__index0] = __e0;}}
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);buffDataV1_6_0 = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); buffDataV1_6_0[__index0] = __e0;}}
+        bossId = _buf.ReadInt();
+        uiScale = _buf.ReadFloat();
+        speedAdd = _buf.ReadInt();
     }
 
-    public static WorldBoss_WorldBoss DeserializeWorldBoss_WorldBoss(JToken _buf)
+    public static WorldBoss_WorldBoss DeserializeWorldBoss_WorldBoss(ByteBuf _buf)
     {
         return new WorldBoss_WorldBoss(_buf);
     }
@@ -72,8 +68,7 @@ public sealed partial class WorldBoss_WorldBoss : Luban.BeanBase
     /// 速度加成(万分比)
     /// </summary>
     public readonly int speedAdd;
-
-
+   
     public const int __ID__ = -1372886081;
     public override int GetTypeId() => __ID__;
 
@@ -96,5 +91,6 @@ public sealed partial class WorldBoss_WorldBoss : Luban.BeanBase
         + "}";
     }
 }
+
 }
 

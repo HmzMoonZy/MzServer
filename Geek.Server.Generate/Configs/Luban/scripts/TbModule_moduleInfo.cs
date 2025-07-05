@@ -7,14 +7,11 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-using Newtonsoft.Json.Linq;
 using Luban;
-
 
 
 namespace HotFix.Cfg
 {
-
 /// <summary>
 /// Generated from Module.xlsx sheet moduleInfo
 /// </summary>
@@ -23,20 +20,19 @@ public partial class TbModule_moduleInfo
     private readonly System.Collections.Generic.Dictionary<int, Module_moduleInfo> _dataMap;
     private readonly System.Collections.Generic.List<Module_moduleInfo> _dataList;
     
-    public TbModule_moduleInfo(JArray _buf)
+    public TbModule_moduleInfo(ByteBuf _buf)
     {
         _dataMap = new System.Collections.Generic.Dictionary<int, Module_moduleInfo>();
         _dataList = new System.Collections.Generic.List<Module_moduleInfo>();
         
-        foreach(JObject _ele in _buf)
+        for(int n = _buf.ReadSize() ; n > 0 ; --n)
         {
             Module_moduleInfo _v;
-            _v = global::HotFix.Cfg.Module_moduleInfo.DeserializeModule_moduleInfo(_ele);
+            _v = global::HotFix.Cfg.Module_moduleInfo.DeserializeModule_moduleInfo(_buf);
             _dataList.Add(_v);
             _dataMap.Add(_v.id, _v);
-         }
+        }
     }
-
 
     public System.Collections.Generic.Dictionary<int, Module_moduleInfo> DataMap => _dataMap;
     public System.Collections.Generic.List<Module_moduleInfo> DataList => _dataList;
@@ -54,5 +50,6 @@ public partial class TbModule_moduleInfo
     }
 
 }
+
 }
 

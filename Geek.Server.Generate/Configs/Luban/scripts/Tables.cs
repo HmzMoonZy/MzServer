@@ -7,7 +7,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-using Newtonsoft.Json.Linq;
+using Luban;
 
 namespace HotFix.Cfg
 {
@@ -1810,8 +1810,7 @@ public partial class Tables
     /// </summary>
     public TbWorldBoss_RankReward TbWorldBoss_RankReward {get; }
 
-
-      public Tables(System.Func<string, JArray> loader)
+    public Tables(System.Func<string, ByteBuf> loader)
     {
         TbAchievements_Achievements = new TbAchievements_Achievements(loader("tbachievements_achievements"));
         TbActivityDan_EventOpenTime = new TbActivityDan_EventOpenTime(loader("tbactivitydan_eventopentime"));
@@ -2265,7 +2264,7 @@ public partial class Tables
         ResolveRef();
     }
     
-     private void ResolveRef()
+    private void ResolveRef()
     {
         TbAchievements_Achievements.ResolveRef(this);
         TbActivityDan_EventOpenTime.ResolveRef(this);
@@ -2720,4 +2719,3 @@ public partial class Tables
 }
 
 }
-

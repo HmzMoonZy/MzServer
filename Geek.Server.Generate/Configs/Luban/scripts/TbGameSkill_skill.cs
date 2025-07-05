@@ -7,14 +7,11 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-using Newtonsoft.Json.Linq;
 using Luban;
-
 
 
 namespace HotFix.Cfg
 {
-
 /// <summary>
 /// Generated from GameSkill.xlsx sheet skill
 /// </summary>
@@ -23,20 +20,19 @@ public partial class TbGameSkill_skill
     private readonly System.Collections.Generic.Dictionary<int, GameSkill_skill> _dataMap;
     private readonly System.Collections.Generic.List<GameSkill_skill> _dataList;
     
-    public TbGameSkill_skill(JArray _buf)
+    public TbGameSkill_skill(ByteBuf _buf)
     {
         _dataMap = new System.Collections.Generic.Dictionary<int, GameSkill_skill>();
         _dataList = new System.Collections.Generic.List<GameSkill_skill>();
         
-        foreach(JObject _ele in _buf)
+        for(int n = _buf.ReadSize() ; n > 0 ; --n)
         {
             GameSkill_skill _v;
-            _v = global::HotFix.Cfg.GameSkill_skill.DeserializeGameSkill_skill(_ele);
+            _v = global::HotFix.Cfg.GameSkill_skill.DeserializeGameSkill_skill(_buf);
             _dataList.Add(_v);
             _dataMap.Add(_v.id, _v);
-         }
+        }
     }
-
 
     public System.Collections.Generic.Dictionary<int, GameSkill_skill> DataMap => _dataMap;
     public System.Collections.Generic.List<GameSkill_skill> DataList => _dataList;
@@ -54,5 +50,6 @@ public partial class TbGameSkill_skill
     }
 
 }
+
 }
 

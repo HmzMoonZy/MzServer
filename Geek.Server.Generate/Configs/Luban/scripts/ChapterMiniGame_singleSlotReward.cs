@@ -8,24 +8,20 @@
 //------------------------------------------------------------------------------
 
 using Luban;
-using Newtonsoft.Json.Linq;
-
 
 
 namespace HotFix.Cfg
 {
-
 public sealed partial class ChapterMiniGame_singleSlotReward : Luban.BeanBase
 {
-    public ChapterMiniGame_singleSlotReward(JToken _buf) 
+    public ChapterMiniGame_singleSlotReward(ByteBuf _buf) 
     {
-        JObject _obj = _buf as JObject;
-        id = (int)_obj.GetValue("id");
-        score = (int)_obj.GetValue("score");
-        skillBuildId = (int)_obj.GetValue("skillBuildId");
+        id = _buf.ReadInt();
+        score = _buf.ReadInt();
+        skillBuildId = _buf.ReadInt();
     }
 
-    public static ChapterMiniGame_singleSlotReward DeserializeChapterMiniGame_singleSlotReward(JToken _buf)
+    public static ChapterMiniGame_singleSlotReward DeserializeChapterMiniGame_singleSlotReward(ByteBuf _buf)
     {
         return new ChapterMiniGame_singleSlotReward(_buf);
     }
@@ -42,8 +38,7 @@ public sealed partial class ChapterMiniGame_singleSlotReward : Luban.BeanBase
     /// 技能
     /// </summary>
     public readonly int skillBuildId;
-
-
+   
     public const int __ID__ = 173051422;
     public override int GetTypeId() => __ID__;
 
@@ -60,5 +55,6 @@ public sealed partial class ChapterMiniGame_singleSlotReward : Luban.BeanBase
         + "}";
     }
 }
+
 }
 

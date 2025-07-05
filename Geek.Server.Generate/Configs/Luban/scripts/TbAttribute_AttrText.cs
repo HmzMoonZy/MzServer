@@ -7,14 +7,11 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-using Newtonsoft.Json.Linq;
 using Luban;
-
 
 
 namespace HotFix.Cfg
 {
-
 /// <summary>
 /// Generated from Attribute.xlsx sheet AttrText
 /// </summary>
@@ -23,20 +20,19 @@ public partial class TbAttribute_AttrText
     private readonly System.Collections.Generic.Dictionary<string, Attribute_AttrText> _dataMap;
     private readonly System.Collections.Generic.List<Attribute_AttrText> _dataList;
     
-    public TbAttribute_AttrText(JArray _buf)
+    public TbAttribute_AttrText(ByteBuf _buf)
     {
         _dataMap = new System.Collections.Generic.Dictionary<string, Attribute_AttrText>();
         _dataList = new System.Collections.Generic.List<Attribute_AttrText>();
         
-        foreach(JObject _ele in _buf)
+        for(int n = _buf.ReadSize() ; n > 0 ; --n)
         {
             Attribute_AttrText _v;
-            _v = global::HotFix.Cfg.Attribute_AttrText.DeserializeAttribute_AttrText(_ele);
+            _v = global::HotFix.Cfg.Attribute_AttrText.DeserializeAttribute_AttrText(_buf);
             _dataList.Add(_v);
             _dataMap.Add(_v.ID, _v);
-         }
+        }
     }
-
 
     public System.Collections.Generic.Dictionary<string, Attribute_AttrText> DataMap => _dataMap;
     public System.Collections.Generic.List<Attribute_AttrText> DataList => _dataList;
@@ -54,5 +50,6 @@ public partial class TbAttribute_AttrText
     }
 
 }
+
 }
 

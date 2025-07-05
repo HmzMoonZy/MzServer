@@ -8,26 +8,22 @@
 //------------------------------------------------------------------------------
 
 using Luban;
-using Newtonsoft.Json.Linq;
-
 
 
 namespace HotFix.Cfg
 {
-
 public sealed partial class SeasonMain_S1Main : Luban.BeanBase
 {
-    public SeasonMain_S1Main(JToken _buf) 
+    public SeasonMain_S1Main(ByteBuf _buf) 
     {
-        JObject _obj = _buf as JObject;
-        id = (int)_obj.GetValue("id");
-        seasonName = (string)_obj.GetValue("seasonName");
-        functionID = (int)_obj.GetValue("functionID");
-        openTime = (string)_obj.GetValue("openTime");
-        closeTime = (string)_obj.GetValue("closeTime");
+        id = _buf.ReadInt();
+        seasonName = _buf.ReadString();
+        functionID = _buf.ReadInt();
+        openTime = _buf.ReadString();
+        closeTime = _buf.ReadString();
     }
 
-    public static SeasonMain_S1Main DeserializeSeasonMain_S1Main(JToken _buf)
+    public static SeasonMain_S1Main DeserializeSeasonMain_S1Main(ByteBuf _buf)
     {
         return new SeasonMain_S1Main(_buf);
     }
@@ -52,8 +48,7 @@ public sealed partial class SeasonMain_S1Main : Luban.BeanBase
     /// 赛季结算时间
     /// </summary>
     public readonly string closeTime;
-
-
+   
     public const int __ID__ = 1591925594;
     public override int GetTypeId() => __ID__;
 
@@ -72,5 +67,6 @@ public sealed partial class SeasonMain_S1Main : Luban.BeanBase
         + "}";
     }
 }
+
 }
 

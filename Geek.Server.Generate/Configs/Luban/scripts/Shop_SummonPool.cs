@@ -8,27 +8,23 @@
 //------------------------------------------------------------------------------
 
 using Luban;
-using Newtonsoft.Json.Linq;
-
 
 
 namespace HotFix.Cfg
 {
-
 public sealed partial class Shop_SummonPool : Luban.BeanBase
 {
-    public Shop_SummonPool(JToken _buf) 
+    public Shop_SummonPool(ByteBuf _buf) 
     {
-        JObject _obj = _buf as JObject;
-        id = (int)_obj.GetValue("id");
-        poolID = (int)_obj.GetValue("poolID");
-        type = (int)_obj.GetValue("type");
-        itemID = (int)_obj.GetValue("itemID");
-        num = (int)_obj.GetValue("num");
-        weight = (int)_obj.GetValue("weight");
+        id = _buf.ReadInt();
+        poolID = _buf.ReadInt();
+        type = _buf.ReadInt();
+        itemID = _buf.ReadInt();
+        num = _buf.ReadInt();
+        weight = _buf.ReadInt();
     }
 
-    public static Shop_SummonPool DeserializeShop_SummonPool(JToken _buf)
+    public static Shop_SummonPool DeserializeShop_SummonPool(ByteBuf _buf)
     {
         return new Shop_SummonPool(_buf);
     }
@@ -57,8 +53,7 @@ public sealed partial class Shop_SummonPool : Luban.BeanBase
     /// 权重
     /// </summary>
     public readonly int weight;
-
-
+   
     public const int __ID__ = 1765780870;
     public override int GetTypeId() => __ID__;
 
@@ -78,5 +73,6 @@ public sealed partial class Shop_SummonPool : Luban.BeanBase
         + "}";
     }
 }
+
 }
 

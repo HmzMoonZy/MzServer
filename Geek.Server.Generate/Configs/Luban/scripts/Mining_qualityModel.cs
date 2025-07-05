@@ -8,23 +8,19 @@
 //------------------------------------------------------------------------------
 
 using Luban;
-using Newtonsoft.Json.Linq;
-
 
 
 namespace HotFix.Cfg
 {
-
 public sealed partial class Mining_qualityModel : Luban.BeanBase
 {
-    public Mining_qualityModel(JToken _buf) 
+    public Mining_qualityModel(ByteBuf _buf) 
     {
-        JObject _obj = _buf as JObject;
-        id = (int)_obj.GetValue("id");
-        skinId = (int)_obj.GetValue("skinId");
+        id = _buf.ReadInt();
+        skinId = _buf.ReadInt();
     }
 
-    public static Mining_qualityModel DeserializeMining_qualityModel(JToken _buf)
+    public static Mining_qualityModel DeserializeMining_qualityModel(ByteBuf _buf)
     {
         return new Mining_qualityModel(_buf);
     }
@@ -37,8 +33,7 @@ public sealed partial class Mining_qualityModel : Luban.BeanBase
     /// 皮肤
     /// </summary>
     public readonly int skinId;
-
-
+   
     public const int __ID__ = -1639592743;
     public override int GetTypeId() => __ID__;
 
@@ -54,5 +49,6 @@ public sealed partial class Mining_qualityModel : Luban.BeanBase
         + "}";
     }
 }
+
 }
 

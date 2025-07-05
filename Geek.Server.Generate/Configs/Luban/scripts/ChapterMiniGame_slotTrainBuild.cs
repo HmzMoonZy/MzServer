@@ -8,26 +8,22 @@
 //------------------------------------------------------------------------------
 
 using Luban;
-using Newtonsoft.Json.Linq;
-
 
 
 namespace HotFix.Cfg
 {
-
 public sealed partial class ChapterMiniGame_slotTrainBuild : Luban.BeanBase
 {
-    public ChapterMiniGame_slotTrainBuild(JToken _buf) 
+    public ChapterMiniGame_slotTrainBuild(ByteBuf _buf) 
     {
-        JObject _obj = _buf as JObject;
-        id = (int)_obj.GetValue("id");
-        weight = (int)_obj.GetValue("weight");
-        { var __json0 = _obj.GetValue("param"); int _n0 = (__json0 as JArray).Count; param = new int[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { int __v0;  __v0 = (int)__e0;  param[__index0++] = __v0; }   }
-        atlas = (int)_obj.GetValue("atlas");
-        icon = (string)_obj.GetValue("icon");
+        id = _buf.ReadInt();
+        weight = _buf.ReadInt();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);param = new int[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { int __e0;__e0 = _buf.ReadInt(); param[__index0] = __e0;}}
+        atlas = _buf.ReadInt();
+        icon = _buf.ReadString();
     }
 
-    public static ChapterMiniGame_slotTrainBuild DeserializeChapterMiniGame_slotTrainBuild(JToken _buf)
+    public static ChapterMiniGame_slotTrainBuild DeserializeChapterMiniGame_slotTrainBuild(ByteBuf _buf)
     {
         return new ChapterMiniGame_slotTrainBuild(_buf);
     }
@@ -52,8 +48,7 @@ public sealed partial class ChapterMiniGame_slotTrainBuild : Luban.BeanBase
     /// 图集
     /// </summary>
     public readonly string icon;
-
-
+   
     public const int __ID__ = 2091821325;
     public override int GetTypeId() => __ID__;
 
@@ -72,5 +67,6 @@ public sealed partial class ChapterMiniGame_slotTrainBuild : Luban.BeanBase
         + "}";
     }
 }
+
 }
 

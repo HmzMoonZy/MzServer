@@ -8,27 +8,23 @@
 //------------------------------------------------------------------------------
 
 using Luban;
-using Newtonsoft.Json.Linq;
-
 
 
 namespace HotFix.Cfg
 {
-
 public sealed partial class ChestList_ChestList : Luban.BeanBase
 {
-    public ChestList_ChestList(JToken _buf) 
+    public ChestList_ChestList(ByteBuf _buf) 
     {
-        JObject _obj = _buf as JObject;
-        id = (int)_obj.GetValue("id");
-        point = (int)_obj.GetValue("point");
-        { var __json0 = _obj.GetValue("reward"); int _n0 = (__json0 as JArray).Count; reward = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  reward[__index0++] = __v0; }   }
-        pointCircle = (int)_obj.GetValue("pointCircle");
-        { var __json0 = _obj.GetValue("rewardCircle"); int _n0 = (__json0 as JArray).Count; rewardCircle = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  rewardCircle[__index0++] = __v0; }   }
-        next = (int)_obj.GetValue("next");
+        id = _buf.ReadInt();
+        point = _buf.ReadInt();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);reward = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); reward[__index0] = __e0;}}
+        pointCircle = _buf.ReadInt();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);rewardCircle = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); rewardCircle[__index0] = __e0;}}
+        next = _buf.ReadInt();
     }
 
-    public static ChestList_ChestList DeserializeChestList_ChestList(JToken _buf)
+    public static ChestList_ChestList DeserializeChestList_ChestList(ByteBuf _buf)
     {
         return new ChestList_ChestList(_buf);
     }
@@ -57,8 +53,7 @@ public sealed partial class ChestList_ChestList : Luban.BeanBase
     /// 下一个ID
     /// </summary>
     public readonly int next;
-
-
+   
     public const int __ID__ = -1374394881;
     public override int GetTypeId() => __ID__;
 
@@ -78,5 +73,6 @@ public sealed partial class ChestList_ChestList : Luban.BeanBase
         + "}";
     }
 }
+
 }
 

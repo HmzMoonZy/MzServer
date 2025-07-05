@@ -7,14 +7,11 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-using Newtonsoft.Json.Linq;
 using Luban;
-
 
 
 namespace HotFix.Cfg
 {
-
 /// <summary>
 /// Generated from Pet.xlsx sheet PetTrainingProb
 /// </summary>
@@ -23,20 +20,19 @@ public partial class TbPet_PetTrainingProb
     private readonly System.Collections.Generic.Dictionary<int, Pet_PetTrainingProb> _dataMap;
     private readonly System.Collections.Generic.List<Pet_PetTrainingProb> _dataList;
     
-    public TbPet_PetTrainingProb(JArray _buf)
+    public TbPet_PetTrainingProb(ByteBuf _buf)
     {
         _dataMap = new System.Collections.Generic.Dictionary<int, Pet_PetTrainingProb>();
         _dataList = new System.Collections.Generic.List<Pet_PetTrainingProb>();
         
-        foreach(JObject _ele in _buf)
+        for(int n = _buf.ReadSize() ; n > 0 ; --n)
         {
             Pet_PetTrainingProb _v;
-            _v = global::HotFix.Cfg.Pet_PetTrainingProb.DeserializePet_PetTrainingProb(_ele);
+            _v = global::HotFix.Cfg.Pet_PetTrainingProb.DeserializePet_PetTrainingProb(_buf);
             _dataList.Add(_v);
             _dataMap.Add(_v.id, _v);
-         }
+        }
     }
-
 
     public System.Collections.Generic.Dictionary<int, Pet_PetTrainingProb> DataMap => _dataMap;
     public System.Collections.Generic.List<Pet_PetTrainingProb> DataList => _dataList;
@@ -54,5 +50,6 @@ public partial class TbPet_PetTrainingProb
     }
 
 }
+
 }
 

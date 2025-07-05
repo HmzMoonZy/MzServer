@@ -8,25 +8,21 @@
 //------------------------------------------------------------------------------
 
 using Luban;
-using Newtonsoft.Json.Linq;
-
 
 
 namespace HotFix.Cfg
 {
-
 public sealed partial class CrossArena_CrossArenaRobot : Luban.BeanBase
 {
-    public CrossArena_CrossArenaRobot(JToken _buf) 
+    public CrossArena_CrossArenaRobot(ByteBuf _buf) 
     {
-        JObject _obj = _buf as JObject;
-        ID = (int)_obj.GetValue("ID");
-        { var __json0 = _obj.GetValue("Score"); int _n0 = (__json0 as JArray).Count; Score = new int[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { int __v0;  __v0 = (int)__e0;  Score[__index0++] = __v0; }   }
-        Count = (int)_obj.GetValue("Count");
-        { var __json0 = _obj.GetValue("Power"); int _n0 = (__json0 as JArray).Count; Power = new int[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { int __v0;  __v0 = (int)__e0;  Power[__index0++] = __v0; }   }
+        ID = _buf.ReadInt();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);Score = new int[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { int __e0;__e0 = _buf.ReadInt(); Score[__index0] = __e0;}}
+        Count = _buf.ReadInt();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);Power = new int[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { int __e0;__e0 = _buf.ReadInt(); Power[__index0] = __e0;}}
     }
 
-    public static CrossArena_CrossArenaRobot DeserializeCrossArena_CrossArenaRobot(JToken _buf)
+    public static CrossArena_CrossArenaRobot DeserializeCrossArena_CrossArenaRobot(ByteBuf _buf)
     {
         return new CrossArena_CrossArenaRobot(_buf);
     }
@@ -47,8 +43,7 @@ public sealed partial class CrossArena_CrossArenaRobot : Luban.BeanBase
     /// 战力区间
     /// </summary>
     public readonly int[] Power;
-
-
+   
     public const int __ID__ = -480016789;
     public override int GetTypeId() => __ID__;
 
@@ -66,5 +61,6 @@ public sealed partial class CrossArena_CrossArenaRobot : Luban.BeanBase
         + "}";
     }
 }
+
 }
 

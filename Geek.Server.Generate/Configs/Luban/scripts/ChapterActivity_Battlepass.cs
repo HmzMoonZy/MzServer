@@ -8,36 +8,32 @@
 //------------------------------------------------------------------------------
 
 using Luban;
-using Newtonsoft.Json.Linq;
-
 
 
 namespace HotFix.Cfg
 {
-
 public sealed partial class ChapterActivity_Battlepass : Luban.BeanBase
 {
-    public ChapterActivity_Battlepass(JToken _buf) 
+    public ChapterActivity_Battlepass(ByteBuf _buf) 
     {
-        JObject _obj = _buf as JObject;
-        id = (int)_obj.GetValue("id");
-        name = (string)_obj.GetValue("name");
-        type = (int)_obj.GetValue("type");
-        { var __json0 = _obj.GetValue("parameter"); int _n0 = (__json0 as JArray).Count; parameter = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  parameter[__index0++] = __v0; }   }
-        atlasID = (int)_obj.GetValue("atlasID");
-        itemIcon = (string)_obj.GetValue("itemIcon");
-        itemNameId = (string)_obj.GetValue("itemNameId");
-        banner = (string)_obj.GetValue("banner");
-        openTime = (string)_obj.GetValue("openTime");
-        endTime = (string)_obj.GetValue("endTime");
-        group = (int)_obj.GetValue("group");
-        purchaseId = (int)_obj.GetValue("purchaseId");
-        finalRewardLimit = (int)_obj.GetValue("finalRewardLimit");
-        { var __json0 = _obj.GetValue("finalQualityRandom"); int _n0 = (__json0 as JArray).Count; finalQualityRandom = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  finalQualityRandom[__index0++] = __v0; }   }
-        { var __json0 = _obj.GetValue("finalDrop"); int _n0 = (__json0 as JArray).Count; finalDrop = new int[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { int __v0;  __v0 = (int)__e0;  finalDrop[__index0++] = __v0; }   }
+        id = _buf.ReadInt();
+        name = _buf.ReadString();
+        type = _buf.ReadInt();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);parameter = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); parameter[__index0] = __e0;}}
+        atlasID = _buf.ReadInt();
+        itemIcon = _buf.ReadString();
+        itemNameId = _buf.ReadString();
+        banner = _buf.ReadString();
+        openTime = _buf.ReadString();
+        endTime = _buf.ReadString();
+        group = _buf.ReadInt();
+        purchaseId = _buf.ReadInt();
+        finalRewardLimit = _buf.ReadInt();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);finalQualityRandom = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); finalQualityRandom[__index0] = __e0;}}
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);finalDrop = new int[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { int __e0;__e0 = _buf.ReadInt(); finalDrop[__index0] = __e0;}}
     }
 
-    public static ChapterActivity_Battlepass DeserializeChapterActivity_Battlepass(JToken _buf)
+    public static ChapterActivity_Battlepass DeserializeChapterActivity_Battlepass(ByteBuf _buf)
     {
         return new ChapterActivity_Battlepass(_buf);
     }
@@ -102,8 +98,7 @@ public sealed partial class ChapterActivity_Battlepass : Luban.BeanBase
     /// 循环奖励品质掉落，掉落表id<br/>[白|绿|蓝|紫|橙|红]
     /// </summary>
     public readonly int[] finalDrop;
-
-
+   
     public const int __ID__ = 2061339308;
     public override int GetTypeId() => __ID__;
 
@@ -132,5 +127,6 @@ public sealed partial class ChapterActivity_Battlepass : Luban.BeanBase
         + "}";
     }
 }
+
 }
 

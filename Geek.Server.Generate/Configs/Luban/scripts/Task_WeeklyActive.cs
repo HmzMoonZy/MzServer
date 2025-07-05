@@ -8,24 +8,20 @@
 //------------------------------------------------------------------------------
 
 using Luban;
-using Newtonsoft.Json.Linq;
-
 
 
 namespace HotFix.Cfg
 {
-
 public sealed partial class Task_WeeklyActive : Luban.BeanBase
 {
-    public Task_WeeklyActive(JToken _buf) 
+    public Task_WeeklyActive(ByteBuf _buf) 
     {
-        JObject _obj = _buf as JObject;
-        ID = (int)_obj.GetValue("ID");
-        Requirements = (int)_obj.GetValue("Requirements");
-        { var __json0 = _obj.GetValue("FixReward"); int _n0 = (__json0 as JArray).Count; FixReward = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  FixReward[__index0++] = __v0; }   }
+        ID = _buf.ReadInt();
+        Requirements = _buf.ReadInt();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);FixReward = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); FixReward[__index0] = __e0;}}
     }
 
-    public static Task_WeeklyActive DeserializeTask_WeeklyActive(JToken _buf)
+    public static Task_WeeklyActive DeserializeTask_WeeklyActive(ByteBuf _buf)
     {
         return new Task_WeeklyActive(_buf);
     }
@@ -42,8 +38,7 @@ public sealed partial class Task_WeeklyActive : Luban.BeanBase
     /// 固定奖励
     /// </summary>
     public readonly string[] FixReward;
-
-
+   
     public const int __ID__ = 897085281;
     public override int GetTypeId() => __ID__;
 
@@ -60,5 +55,6 @@ public sealed partial class Task_WeeklyActive : Luban.BeanBase
         + "}";
     }
 }
+
 }
 

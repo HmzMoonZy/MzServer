@@ -8,30 +8,26 @@
 //------------------------------------------------------------------------------
 
 using Luban;
-using Newtonsoft.Json.Linq;
-
 
 
 namespace HotFix.Cfg
 {
-
 public sealed partial class ActvGeneral_ActvPay : Luban.BeanBase
 {
-    public ActvGeneral_ActvPay(JToken _buf) 
+    public ActvGeneral_ActvPay(ByteBuf _buf) 
     {
-        JObject _obj = _buf as JObject;
-        id = (int)_obj.GetValue("id");
-        groupId = (int)_obj.GetValue("groupId");
-        purchaseId = (int)_obj.GetValue("purchaseId");
-        AdId = (int)_obj.GetValue("AdId");
-        { var __json0 = _obj.GetValue("Price"); int _n0 = (__json0 as JArray).Count; Price = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  Price[__index0++] = __v0; }   }
-        RefreshType = (int)_obj.GetValue("RefreshType");
-        nameId = (string)_obj.GetValue("nameId");
-        buyLimit = (int)_obj.GetValue("buyLimit");
-        { var __json0 = _obj.GetValue("goods"); int _n0 = (__json0 as JArray).Count; goods = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  goods[__index0++] = __v0; }   }
+        id = _buf.ReadInt();
+        groupId = _buf.ReadInt();
+        purchaseId = _buf.ReadInt();
+        AdId = _buf.ReadInt();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);Price = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); Price[__index0] = __e0;}}
+        RefreshType = _buf.ReadInt();
+        nameId = _buf.ReadString();
+        buyLimit = _buf.ReadInt();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);goods = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); goods[__index0] = __e0;}}
     }
 
-    public static ActvGeneral_ActvPay DeserializeActvGeneral_ActvPay(JToken _buf)
+    public static ActvGeneral_ActvPay DeserializeActvGeneral_ActvPay(ByteBuf _buf)
     {
         return new ActvGeneral_ActvPay(_buf);
     }
@@ -72,8 +68,7 @@ public sealed partial class ActvGeneral_ActvPay : Luban.BeanBase
     /// 出售道具
     /// </summary>
     public readonly string[] goods;
-
-
+   
     public const int __ID__ = 1706587273;
     public override int GetTypeId() => __ID__;
 
@@ -96,5 +91,6 @@ public sealed partial class ActvGeneral_ActvPay : Luban.BeanBase
         + "}";
     }
 }
+
 }
 

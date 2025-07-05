@@ -7,14 +7,11 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-using Newtonsoft.Json.Linq;
 using Luban;
-
 
 
 namespace HotFix.Cfg
 {
-
 /// <summary>
 /// Generated from ProbabilityDisplay.xlsx sheet Probability
 /// </summary>
@@ -23,20 +20,19 @@ public partial class TbProbabilityDisplay_Probability
     private readonly System.Collections.Generic.Dictionary<int, ProbabilityDisplay_Probability> _dataMap;
     private readonly System.Collections.Generic.List<ProbabilityDisplay_Probability> _dataList;
     
-    public TbProbabilityDisplay_Probability(JArray _buf)
+    public TbProbabilityDisplay_Probability(ByteBuf _buf)
     {
         _dataMap = new System.Collections.Generic.Dictionary<int, ProbabilityDisplay_Probability>();
         _dataList = new System.Collections.Generic.List<ProbabilityDisplay_Probability>();
         
-        foreach(JObject _ele in _buf)
+        for(int n = _buf.ReadSize() ; n > 0 ; --n)
         {
             ProbabilityDisplay_Probability _v;
-            _v = global::HotFix.Cfg.ProbabilityDisplay_Probability.DeserializeProbabilityDisplay_Probability(_ele);
+            _v = global::HotFix.Cfg.ProbabilityDisplay_Probability.DeserializeProbabilityDisplay_Probability(_buf);
             _dataList.Add(_v);
             _dataMap.Add(_v.Id, _v);
-         }
+        }
     }
-
 
     public System.Collections.Generic.Dictionary<int, ProbabilityDisplay_Probability> DataMap => _dataMap;
     public System.Collections.Generic.List<ProbabilityDisplay_Probability> DataList => _dataList;
@@ -54,5 +50,6 @@ public partial class TbProbabilityDisplay_Probability
     }
 
 }
+
 }
 

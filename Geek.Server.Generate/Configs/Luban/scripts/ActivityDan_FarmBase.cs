@@ -8,48 +8,44 @@
 //------------------------------------------------------------------------------
 
 using Luban;
-using Newtonsoft.Json.Linq;
-
 
 
 namespace HotFix.Cfg
 {
-
 public sealed partial class ActivityDan_FarmBase : Luban.BeanBase
 {
-    public ActivityDan_FarmBase(JToken _buf) 
+    public ActivityDan_FarmBase(ByteBuf _buf) 
     {
-        JObject _obj = _buf as JObject;
-        ID = (int)_obj.GetValue("ID");
-        ConnectActivityId = (int)_obj.GetValue("ConnectActivityId");
-        EntryIcon = (string)_obj.GetValue("EntryIcon");
-        EntryNameId = (string)_obj.GetValue("EntryNameId");
-        FnishSpineUseSkin = (int)_obj.GetValue("FnishSpineUseSkin");
-        RandomSeed = (int)_obj.GetValue("RandomSeed");
-        { var __json0 = _obj.GetValue("RandomResult"); int _n0 = (__json0 as JArray).Count; RandomResult = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  RandomResult[__index0++] = __v0; }   }
-        { var __json0 = _obj.GetValue("CantUseSeeds"); int _n0 = (__json0 as JArray).Count; CantUseSeeds = new int[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { int __v0;  __v0 = (int)__e0;  CantUseSeeds[__index0++] = __v0; }   }
-        { var __json0 = _obj.GetValue("CoinID"); int _n0 = (__json0 as JArray).Count; CoinID = new int[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { int __v0;  __v0 = (int)__e0;  CoinID[__index0++] = __v0; }   }
-        FertilizerID = (int)_obj.GetValue("FertilizerID");
-        { var __json0 = _obj.GetValue("defaultSeed"); int _n0 = (__json0 as JArray).Count; defaultSeed = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  defaultSeed[__index0++] = __v0; }   }
-        ShopRefreshTime = (int)_obj.GetValue("ShopRefreshTime");
-        ShopRefreshItem = (int)_obj.GetValue("ShopRefreshItem");
-        ShopRefreshAdId = (int)_obj.GetValue("ShopRefreshAdId");
-        ShopRefreshAdTime = (int)_obj.GetValue("ShopRefreshAdTime");
-        { var __json0 = _obj.GetValue("PriceFloat"); int _n0 = (__json0 as JArray).Count; PriceFloat = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  PriceFloat[__index0++] = __v0; }   }
-        { var __json0 = _obj.GetValue("RankReward"); int _n0 = (__json0 as JArray).Count; RankReward = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  RankReward[__index0++] = __v0; }   }
-        { var __json0 = _obj.GetValue("ClearTime"); int _n0 = (__json0 as JArray).Count; ClearTime = new int[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { int __v0;  __v0 = (int)__e0;  ClearTime[__index0++] = __v0; }   }
-        RankNum = (int)_obj.GetValue("RankNum");
-        MailCoins = (int)_obj.GetValue("MailCoins");
-        { var __json0 = _obj.GetValue("RecoverItems"); int _n0 = (__json0 as JArray).Count; RecoverItems = new int[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { int __v0;  __v0 = (int)__e0;  RecoverItems[__index0++] = __v0; }   }
-        MailItemsId = (string)_obj.GetValue("MailItemsId");
-        RankMailID = (string)_obj.GetValue("RankMailID");
-        TaskBanner = (string)_obj.GetValue("TaskBanner");
-        ExchangeBanner = (string)_obj.GetValue("ExchangeBanner");
-        GiftPackgeBanner = (string)_obj.GetValue("GiftPackgeBanner");
-        BgmId = (int)_obj.GetValue("BgmId");
+        ID = _buf.ReadInt();
+        ConnectActivityId = _buf.ReadInt();
+        EntryIcon = _buf.ReadString();
+        EntryNameId = _buf.ReadString();
+        FnishSpineUseSkin = _buf.ReadInt();
+        RandomSeed = _buf.ReadInt();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);RandomResult = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); RandomResult[__index0] = __e0;}}
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);CantUseSeeds = new int[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { int __e0;__e0 = _buf.ReadInt(); CantUseSeeds[__index0] = __e0;}}
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);CoinID = new int[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { int __e0;__e0 = _buf.ReadInt(); CoinID[__index0] = __e0;}}
+        FertilizerID = _buf.ReadInt();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);defaultSeed = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); defaultSeed[__index0] = __e0;}}
+        ShopRefreshTime = _buf.ReadInt();
+        ShopRefreshItem = _buf.ReadInt();
+        ShopRefreshAdId = _buf.ReadInt();
+        ShopRefreshAdTime = _buf.ReadInt();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);PriceFloat = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); PriceFloat[__index0] = __e0;}}
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);RankReward = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); RankReward[__index0] = __e0;}}
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);ClearTime = new int[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { int __e0;__e0 = _buf.ReadInt(); ClearTime[__index0] = __e0;}}
+        RankNum = _buf.ReadInt();
+        MailCoins = _buf.ReadInt();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);RecoverItems = new int[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { int __e0;__e0 = _buf.ReadInt(); RecoverItems[__index0] = __e0;}}
+        MailItemsId = _buf.ReadString();
+        RankMailID = _buf.ReadString();
+        TaskBanner = _buf.ReadString();
+        ExchangeBanner = _buf.ReadString();
+        GiftPackgeBanner = _buf.ReadString();
+        BgmId = _buf.ReadInt();
     }
 
-    public static ActivityDan_FarmBase DeserializeActivityDan_FarmBase(JToken _buf)
+    public static ActivityDan_FarmBase DeserializeActivityDan_FarmBase(ByteBuf _buf)
     {
         return new ActivityDan_FarmBase(_buf);
     }
@@ -162,8 +158,7 @@ public sealed partial class ActivityDan_FarmBase : Luban.BeanBase
     /// 背景音Id
     /// </summary>
     public readonly int BgmId;
-
-
+   
     public const int __ID__ = 397158916;
     public override int GetTypeId() => __ID__;
 
@@ -204,5 +199,6 @@ public sealed partial class ActivityDan_FarmBase : Luban.BeanBase
         + "}";
     }
 }
+
 }
 

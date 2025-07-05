@@ -7,14 +7,11 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-using Newtonsoft.Json.Linq;
 using Luban;
-
 
 
 namespace HotFix.Cfg
 {
-
 /// <summary>
 /// Generated from Mining.xlsx sheet qualityModel
 /// </summary>
@@ -23,20 +20,19 @@ public partial class TbMining_qualityModel
     private readonly System.Collections.Generic.Dictionary<int, Mining_qualityModel> _dataMap;
     private readonly System.Collections.Generic.List<Mining_qualityModel> _dataList;
     
-    public TbMining_qualityModel(JArray _buf)
+    public TbMining_qualityModel(ByteBuf _buf)
     {
         _dataMap = new System.Collections.Generic.Dictionary<int, Mining_qualityModel>();
         _dataList = new System.Collections.Generic.List<Mining_qualityModel>();
         
-        foreach(JObject _ele in _buf)
+        for(int n = _buf.ReadSize() ; n > 0 ; --n)
         {
             Mining_qualityModel _v;
-            _v = global::HotFix.Cfg.Mining_qualityModel.DeserializeMining_qualityModel(_ele);
+            _v = global::HotFix.Cfg.Mining_qualityModel.DeserializeMining_qualityModel(_buf);
             _dataList.Add(_v);
             _dataMap.Add(_v.id, _v);
-         }
+        }
     }
-
 
     public System.Collections.Generic.Dictionary<int, Mining_qualityModel> DataMap => _dataMap;
     public System.Collections.Generic.List<Mining_qualityModel> DataList => _dataList;
@@ -54,5 +50,6 @@ public partial class TbMining_qualityModel
     }
 
 }
+
 }
 

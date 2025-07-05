@@ -8,57 +8,53 @@
 //------------------------------------------------------------------------------
 
 using Luban;
-using Newtonsoft.Json.Linq;
-
 
 
 namespace HotFix.Cfg
 {
-
 public sealed partial class ActivityDan_EventOpenTime : Luban.BeanBase
 {
-    public ActivityDan_EventOpenTime(JToken _buf) 
+    public ActivityDan_EventOpenTime(ByteBuf _buf) 
     {
-        JObject _obj = _buf as JObject;
-        ActivityId = (int)_obj.GetValue("ActivityId");
-        Type = (int)_obj.GetValue("Type");
-        SubType = (int)_obj.GetValue("SubType");
-        EventID = (int)_obj.GetValue("EventID");
-        TrackSource = (string)_obj.GetValue("TrackSource");
-        SignID = (int)_obj.GetValue("SignID");
-        QuestID = (int)_obj.GetValue("QuestID");
-        PayID = (int)_obj.GetValue("PayID");
-        ExchangeID = (int)_obj.GetValue("ExchangeID");
-        BattlePassID = (int)_obj.GetValue("BattlePassID");
-        { var __json0 = _obj.GetValue("BattlePassPagesID"); int _n0 = (__json0 as JArray).Count; BattlePassPagesID = new int[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { int __v0;  __v0 = (int)__e0;  BattlePassPagesID[__index0++] = __v0; }   }
-        { var __json0 = _obj.GetValue("MailId"); int _n0 = (__json0 as JArray).Count; MailId = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  MailId[__index0++] = __v0; }   }
-        DurationType = (int)_obj.GetValue("DurationType");
-        EntryType = (int)_obj.GetValue("EntryType");
-        DisplayFund = (int)_obj.GetValue("DisplayFund");
-        StartTime = (string)_obj.GetValue("StartTime");
-        EndTime = (string)_obj.GetValue("EndTime");
-        StartTimeCN = (string)_obj.GetValue("StartTimeCN");
-        EndTimeCN = (string)_obj.GetValue("EndTimeCN");
-        GameplayEndTime = (int)_obj.GetValue("GameplayEndTime");
-        FunctionID = (int)_obj.GetValue("FunctionID");
-        Duration = (int)_obj.GetValue("Duration");
-        StartTime_CN = (int)_obj.GetValue("StartTime_CN");
-        Duration_CN = (int)_obj.GetValue("Duration_CN");
-        taskEndSeconds = (int)_obj.GetValue("taskEndSeconds");
-        Tag = (int)_obj.GetValue("Tag");
-        { var __json0 = _obj.GetValue("ExtraId"); int _n0 = (__json0 as JArray).Count; ExtraId = new int[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { int __v0;  __v0 = (int)__e0;  ExtraId[__index0++] = __v0; }   }
-        NetVersion = (int)_obj.GetValue("NetVersion");
-        { var __json0 = _obj.GetValue("Reward"); int _n0 = (__json0 as JArray).Count; Reward = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  Reward[__index0++] = __v0; }   }
-        { var __json0 = _obj.GetValue("ExtraReward"); int _n0 = (__json0 as JArray).Count; ExtraReward = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  ExtraReward[__index0++] = __v0; }   }
-        SkinIapId = (int)_obj.GetValue("SkinIapId");
-        BgSprite = (string)_obj.GetValue("BgSprite");
-        { var __json0 = _obj.GetValue("LanguageTempId"); int _n0 = (__json0 as JArray).Count; LanguageTempId = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  LanguageTempId[__index0++] = __v0; }   }
-        { var __json0 = _obj.GetValue("UITexName"); int _n0 = (__json0 as JArray).Count; UITexName = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  UITexName[__index0++] = __v0; }   }
-        IncreaseProbability = (int)_obj.GetValue("IncreaseProbability");
-        CVLangId = (string)_obj.GetValue("CVLangId");
+        ActivityId = _buf.ReadInt();
+        Type = _buf.ReadInt();
+        SubType = _buf.ReadInt();
+        EventID = _buf.ReadInt();
+        TrackSource = _buf.ReadString();
+        SignID = _buf.ReadInt();
+        QuestID = _buf.ReadInt();
+        PayID = _buf.ReadInt();
+        ExchangeID = _buf.ReadInt();
+        BattlePassID = _buf.ReadInt();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);BattlePassPagesID = new int[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { int __e0;__e0 = _buf.ReadInt(); BattlePassPagesID[__index0] = __e0;}}
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);MailId = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); MailId[__index0] = __e0;}}
+        DurationType = _buf.ReadInt();
+        EntryType = _buf.ReadInt();
+        DisplayFund = _buf.ReadInt();
+        StartTime = _buf.ReadString();
+        EndTime = _buf.ReadString();
+        StartTimeCN = _buf.ReadString();
+        EndTimeCN = _buf.ReadString();
+        GameplayEndTime = _buf.ReadInt();
+        FunctionID = _buf.ReadInt();
+        Duration = _buf.ReadInt();
+        StartTime_CN = _buf.ReadInt();
+        Duration_CN = _buf.ReadInt();
+        taskEndSeconds = _buf.ReadInt();
+        Tag = _buf.ReadInt();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);ExtraId = new int[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { int __e0;__e0 = _buf.ReadInt(); ExtraId[__index0] = __e0;}}
+        NetVersion = _buf.ReadInt();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);Reward = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); Reward[__index0] = __e0;}}
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);ExtraReward = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); ExtraReward[__index0] = __e0;}}
+        SkinIapId = _buf.ReadInt();
+        BgSprite = _buf.ReadString();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);LanguageTempId = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); LanguageTempId[__index0] = __e0;}}
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);UITexName = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); UITexName[__index0] = __e0;}}
+        IncreaseProbability = _buf.ReadInt();
+        CVLangId = _buf.ReadString();
     }
 
-    public static ActivityDan_EventOpenTime DeserializeActivityDan_EventOpenTime(JToken _buf)
+    public static ActivityDan_EventOpenTime DeserializeActivityDan_EventOpenTime(ByteBuf _buf)
     {
         return new ActivityDan_EventOpenTime(_buf);
     }
@@ -207,8 +203,7 @@ public sealed partial class ActivityDan_EventOpenTime : Luban.BeanBase
     /// 版权相关多语言id
     /// </summary>
     public readonly string CVLangId;
-
-
+   
     public const int __ID__ = -1392962252;
     public override int GetTypeId() => __ID__;
 
@@ -258,5 +253,6 @@ public sealed partial class ActivityDan_EventOpenTime : Luban.BeanBase
         + "}";
     }
 }
+
 }
 

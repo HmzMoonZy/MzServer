@@ -8,40 +8,36 @@
 //------------------------------------------------------------------------------
 
 using Luban;
-using Newtonsoft.Json.Linq;
-
 
 
 namespace HotFix.Cfg
 {
-
 public sealed partial class ActivityDan_MonoBattlepass : Luban.BeanBase
 {
-    public ActivityDan_MonoBattlepass(JToken _buf) 
+    public ActivityDan_MonoBattlepass(ByteBuf _buf) 
     {
-        JObject _obj = _buf as JObject;
-        id = (int)_obj.GetValue("id");
-        tga_bp_type = (string)_obj.GetValue("tga_bp_type");
-        tga_event_name = (string)_obj.GetValue("tga_event_name");
-        name = (string)_obj.GetValue("name");
-        type = (int)_obj.GetValue("type");
-        { var __json0 = _obj.GetValue("parameter"); int _n0 = (__json0 as JArray).Count; parameter = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  parameter[__index0++] = __v0; }   }
-        atlasID = (int)_obj.GetValue("atlasID");
-        itemIcon = (string)_obj.GetValue("itemIcon");
-        openTime = (string)_obj.GetValue("openTime");
-        endTime = (string)_obj.GetValue("endTime");
-        group = (int)_obj.GetValue("group");
-        purchaseId = (int)_obj.GetValue("purchaseId");
-        finalRewardLimit = (int)_obj.GetValue("finalRewardLimit");
-        { var __json0 = _obj.GetValue("finalQualityRandom"); int _n0 = (__json0 as JArray).Count; finalQualityRandom = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  finalQualityRandom[__index0++] = __v0; }   }
-        { var __json0 = _obj.GetValue("finalDrop"); int _n0 = (__json0 as JArray).Count; finalDrop = new int[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { int __v0;  __v0 = (int)__e0;  finalDrop[__index0++] = __v0; }   }
-        { var __json0 = _obj.GetValue("finalDropShow"); int _n0 = (__json0 as JArray).Count; finalDropShow = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  finalDropShow[__index0++] = __v0; }   }
-        BottomTipId = (string)_obj.GetValue("BottomTipId");
-        bigRewardDesc = (string)_obj.GetValue("bigRewardDesc");
-        { var __json0 = _obj.GetValue("bigRewardShow"); int _n0 = (__json0 as JArray).Count; bigRewardShow = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  bigRewardShow[__index0++] = __v0; }   }
+        id = _buf.ReadInt();
+        tga_bp_type = _buf.ReadString();
+        tga_event_name = _buf.ReadString();
+        name = _buf.ReadString();
+        type = _buf.ReadInt();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);parameter = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); parameter[__index0] = __e0;}}
+        atlasID = _buf.ReadInt();
+        itemIcon = _buf.ReadString();
+        openTime = _buf.ReadString();
+        endTime = _buf.ReadString();
+        group = _buf.ReadInt();
+        purchaseId = _buf.ReadInt();
+        finalRewardLimit = _buf.ReadInt();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);finalQualityRandom = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); finalQualityRandom[__index0] = __e0;}}
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);finalDrop = new int[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { int __e0;__e0 = _buf.ReadInt(); finalDrop[__index0] = __e0;}}
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);finalDropShow = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); finalDropShow[__index0] = __e0;}}
+        BottomTipId = _buf.ReadString();
+        bigRewardDesc = _buf.ReadString();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);bigRewardShow = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); bigRewardShow[__index0] = __e0;}}
     }
 
-    public static ActivityDan_MonoBattlepass DeserializeActivityDan_MonoBattlepass(JToken _buf)
+    public static ActivityDan_MonoBattlepass DeserializeActivityDan_MonoBattlepass(ByteBuf _buf)
     {
         return new ActivityDan_MonoBattlepass(_buf);
     }
@@ -122,8 +118,7 @@ public sealed partial class ActivityDan_MonoBattlepass : Luban.BeanBase
     /// 最终循环奖励奖励展示
     /// </summary>
     public readonly string[] bigRewardShow;
-
-
+   
     public const int __ID__ = -1029113815;
     public override int GetTypeId() => __ID__;
 
@@ -156,5 +151,6 @@ public sealed partial class ActivityDan_MonoBattlepass : Luban.BeanBase
         + "}";
     }
 }
+
 }
 

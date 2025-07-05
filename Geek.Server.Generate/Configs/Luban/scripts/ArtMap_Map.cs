@@ -8,23 +8,19 @@
 //------------------------------------------------------------------------------
 
 using Luban;
-using Newtonsoft.Json.Linq;
-
 
 
 namespace HotFix.Cfg
 {
-
 public sealed partial class ArtMap_Map : Luban.BeanBase
 {
-    public ArtMap_Map(JToken _buf) 
+    public ArtMap_Map(ByteBuf _buf) 
     {
-        JObject _obj = _buf as JObject;
-        id = (int)_obj.GetValue("id");
-        path = (string)_obj.GetValue("path");
+        id = _buf.ReadInt();
+        path = _buf.ReadString();
     }
 
-    public static ArtMap_Map DeserializeArtMap_Map(JToken _buf)
+    public static ArtMap_Map DeserializeArtMap_Map(ByteBuf _buf)
     {
         return new ArtMap_Map(_buf);
     }
@@ -37,8 +33,7 @@ public sealed partial class ArtMap_Map : Luban.BeanBase
     /// prefab路径
     /// </summary>
     public readonly string path;
-
-
+   
     public const int __ID__ = -1270609898;
     public override int GetTypeId() => __ID__;
 
@@ -54,5 +49,6 @@ public sealed partial class ArtMap_Map : Luban.BeanBase
         + "}";
     }
 }
+
 }
 

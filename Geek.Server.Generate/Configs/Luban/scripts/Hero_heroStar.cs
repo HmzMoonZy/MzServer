@@ -8,34 +8,30 @@
 //------------------------------------------------------------------------------
 
 using Luban;
-using Newtonsoft.Json.Linq;
-
 
 
 namespace HotFix.Cfg
 {
-
 public sealed partial class Hero_heroStar : Luban.BeanBase
 {
-    public Hero_heroStar(JToken _buf) 
+    public Hero_heroStar(ByteBuf _buf) 
     {
-        JObject _obj = _buf as JObject;
-        id = (int)_obj.GetValue("id");
-        groupID = (int)_obj.GetValue("groupID");
-        star = (int)_obj.GetValue("star");
-        { var __json0 = _obj.GetValue("starUpCost"); int _n0 = (__json0 as JArray).Count; starUpCost = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  starUpCost[__index0++] = __v0; }   }
-        { var __json0 = _obj.GetValue("heroAttr"); int _n0 = (__json0 as JArray).Count; heroAttr = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  heroAttr[__index0++] = __v0; }   }
-        starupDesc = (string)_obj.GetValue("starupDesc");
-        skillType = (int)_obj.GetValue("skillType");
-        { var __json0 = _obj.GetValue("skills"); int _n0 = (__json0 as JArray).Count; skills = new int[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { int __v0;  __v0 = (int)__e0;  skills[__index0++] = __v0; }   }
-        skillsGroup = (int)_obj.GetValue("skillsGroup");
-        { var __json0 = _obj.GetValue("skillsLv"); int _n0 = (__json0 as JArray).Count; skillsLv = new int[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { int __v0;  __v0 = (int)__e0;  skillsLv[__index0++] = __v0; }   }
-        { var __json0 = _obj.GetValue("skillQuality"); int _n0 = (__json0 as JArray).Count; skillQuality = new int[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { int __v0;  __v0 = (int)__e0;  skillQuality[__index0++] = __v0; }   }
-        { var __json0 = _obj.GetValue("starEffect"); int _n0 = (__json0 as JArray).Count; starEffect = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  starEffect[__index0++] = __v0; }   }
-        { var __json0 = _obj.GetValue("activePower"); int _n0 = (__json0 as JArray).Count; activePower = new int[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { int __v0;  __v0 = (int)__e0;  activePower[__index0++] = __v0; }   }
+        id = _buf.ReadInt();
+        groupID = _buf.ReadInt();
+        star = _buf.ReadInt();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);starUpCost = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); starUpCost[__index0] = __e0;}}
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);heroAttr = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); heroAttr[__index0] = __e0;}}
+        starupDesc = _buf.ReadString();
+        skillType = _buf.ReadInt();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);skills = new int[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { int __e0;__e0 = _buf.ReadInt(); skills[__index0] = __e0;}}
+        skillsGroup = _buf.ReadInt();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);skillsLv = new int[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { int __e0;__e0 = _buf.ReadInt(); skillsLv[__index0] = __e0;}}
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);skillQuality = new int[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { int __e0;__e0 = _buf.ReadInt(); skillQuality[__index0] = __e0;}}
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);starEffect = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); starEffect[__index0] = __e0;}}
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);activePower = new int[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { int __e0;__e0 = _buf.ReadInt(); activePower[__index0] = __e0;}}
     }
 
-    public static Hero_heroStar DeserializeHero_heroStar(JToken _buf)
+    public static Hero_heroStar DeserializeHero_heroStar(ByteBuf _buf)
     {
         return new Hero_heroStar(_buf);
     }
@@ -92,8 +88,7 @@ public sealed partial class Hero_heroStar : Luban.BeanBase
     /// 层数2万分比战力<br/>层数3万分比战力<br/>（上阵增加战力）
     /// </summary>
     public readonly int[] activePower;
-
-
+   
     public const int __ID__ = 941664241;
     public override int GetTypeId() => __ID__;
 
@@ -120,5 +115,6 @@ public sealed partial class Hero_heroStar : Luban.BeanBase
         + "}";
     }
 }
+
 }
 

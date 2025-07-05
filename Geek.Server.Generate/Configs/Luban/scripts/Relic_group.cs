@@ -8,27 +8,23 @@
 //------------------------------------------------------------------------------
 
 using Luban;
-using Newtonsoft.Json.Linq;
-
 
 
 namespace HotFix.Cfg
 {
-
 public sealed partial class Relic_group : Luban.BeanBase
 {
-    public Relic_group(JToken _buf) 
+    public Relic_group(ByteBuf _buf) 
     {
-        JObject _obj = _buf as JObject;
-        id = (int)_obj.GetValue("id");
-        NameId = (string)_obj.GetValue("NameId");
-        DescId = (string)_obj.GetValue("DescId");
-        type = (int)_obj.GetValue("type");
-        { var __json0 = _obj.GetValue("Content"); int _n0 = (__json0 as JArray).Count; Content = new int[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { int __v0;  __v0 = (int)__e0;  Content[__index0++] = __v0; }   }
-        { var __json0 = _obj.GetValue("GroupAttributes"); int _n0 = (__json0 as JArray).Count; GroupAttributes = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  GroupAttributes[__index0++] = __v0; }   }
+        id = _buf.ReadInt();
+        NameId = _buf.ReadString();
+        DescId = _buf.ReadString();
+        type = _buf.ReadInt();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);Content = new int[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { int __e0;__e0 = _buf.ReadInt(); Content[__index0] = __e0;}}
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);GroupAttributes = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); GroupAttributes[__index0] = __e0;}}
     }
 
-    public static Relic_group DeserializeRelic_group(JToken _buf)
+    public static Relic_group DeserializeRelic_group(ByteBuf _buf)
     {
         return new Relic_group(_buf);
     }
@@ -57,8 +53,7 @@ public sealed partial class Relic_group : Luban.BeanBase
     /// 套装属性(替换，不累加)
     /// </summary>
     public readonly string[] GroupAttributes;
-
-
+   
     public const int __ID__ = 1467703955;
     public override int GetTypeId() => __ID__;
 
@@ -78,5 +73,6 @@ public sealed partial class Relic_group : Luban.BeanBase
         + "}";
     }
 }
+
 }
 

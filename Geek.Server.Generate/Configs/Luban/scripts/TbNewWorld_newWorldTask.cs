@@ -7,14 +7,11 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-using Newtonsoft.Json.Linq;
 using Luban;
-
 
 
 namespace HotFix.Cfg
 {
-
 /// <summary>
 /// Generated from NewWorld.xlsx sheet newWorldTask
 /// </summary>
@@ -23,20 +20,19 @@ public partial class TbNewWorld_newWorldTask
     private readonly System.Collections.Generic.Dictionary<int, NewWorld_newWorldTask> _dataMap;
     private readonly System.Collections.Generic.List<NewWorld_newWorldTask> _dataList;
     
-    public TbNewWorld_newWorldTask(JArray _buf)
+    public TbNewWorld_newWorldTask(ByteBuf _buf)
     {
         _dataMap = new System.Collections.Generic.Dictionary<int, NewWorld_newWorldTask>();
         _dataList = new System.Collections.Generic.List<NewWorld_newWorldTask>();
         
-        foreach(JObject _ele in _buf)
+        for(int n = _buf.ReadSize() ; n > 0 ; --n)
         {
             NewWorld_newWorldTask _v;
-            _v = global::HotFix.Cfg.NewWorld_newWorldTask.DeserializeNewWorld_newWorldTask(_ele);
+            _v = global::HotFix.Cfg.NewWorld_newWorldTask.DeserializeNewWorld_newWorldTask(_buf);
             _dataList.Add(_v);
             _dataMap.Add(_v.id, _v);
-         }
+        }
     }
-
 
     public System.Collections.Generic.Dictionary<int, NewWorld_newWorldTask> DataMap => _dataMap;
     public System.Collections.Generic.List<NewWorld_newWorldTask> DataList => _dataList;
@@ -54,5 +50,6 @@ public partial class TbNewWorld_newWorldTask
     }
 
 }
+
 }
 

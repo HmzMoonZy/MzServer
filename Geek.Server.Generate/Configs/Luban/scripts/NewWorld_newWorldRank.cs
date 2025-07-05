@@ -8,24 +8,20 @@
 //------------------------------------------------------------------------------
 
 using Luban;
-using Newtonsoft.Json.Linq;
-
 
 
 namespace HotFix.Cfg
 {
-
 public sealed partial class NewWorld_newWorldRank : Luban.BeanBase
 {
-    public NewWorld_newWorldRank(JToken _buf) 
+    public NewWorld_newWorldRank(ByteBuf _buf) 
     {
-        JObject _obj = _buf as JObject;
-        id = (int)_obj.GetValue("id");
-        rank = (int)_obj.GetValue("rank");
-        { var __json0 = _obj.GetValue("reward"); int _n0 = (__json0 as JArray).Count; reward = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  reward[__index0++] = __v0; }   }
+        id = _buf.ReadInt();
+        rank = _buf.ReadInt();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);reward = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); reward[__index0] = __e0;}}
     }
 
-    public static NewWorld_newWorldRank DeserializeNewWorld_newWorldRank(JToken _buf)
+    public static NewWorld_newWorldRank DeserializeNewWorld_newWorldRank(ByteBuf _buf)
     {
         return new NewWorld_newWorldRank(_buf);
     }
@@ -42,8 +38,7 @@ public sealed partial class NewWorld_newWorldRank : Luban.BeanBase
     /// 奖励
     /// </summary>
     public readonly string[] reward;
-
-
+   
     public const int __ID__ = 146523723;
     public override int GetTypeId() => __ID__;
 
@@ -60,5 +55,6 @@ public sealed partial class NewWorld_newWorldRank : Luban.BeanBase
         + "}";
     }
 }
+
 }
 

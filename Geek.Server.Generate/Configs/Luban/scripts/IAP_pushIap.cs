@@ -8,34 +8,30 @@
 //------------------------------------------------------------------------------
 
 using Luban;
-using Newtonsoft.Json.Linq;
-
 
 
 namespace HotFix.Cfg
 {
-
 public sealed partial class IAP_pushIap : Luban.BeanBase
 {
-    public IAP_pushIap(JToken _buf) 
+    public IAP_pushIap(ByteBuf _buf) 
     {
-        JObject _obj = _buf as JObject;
-        id = (int)_obj.GetValue("id");
-        type = (int)_obj.GetValue("type");
-        condition = (int)_obj.GetValue("condition");
-        conditionParams = (int)_obj.GetValue("conditionParams");
-        order = (int)_obj.GetValue("order");
-        totalPay = (int)_obj.GetValue("totalPay");
-        group = (int)_obj.GetValue("group");
-        lastSeconds = (int)_obj.GetValue("lastSeconds");
-        PosType = (int)_obj.GetValue("PosType");
-        PrefabType = (string)_obj.GetValue("PrefabType");
-        Title = (string)_obj.GetValue("Title");
-        Des = (string)_obj.GetValue("Des");
-        { var __json0 = _obj.GetValue("products"); int _n0 = (__json0 as JArray).Count; products = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  products[__index0++] = __v0; }   }
+        id = _buf.ReadInt();
+        type = _buf.ReadInt();
+        condition = _buf.ReadInt();
+        conditionParams = _buf.ReadInt();
+        order = _buf.ReadInt();
+        totalPay = _buf.ReadInt();
+        group = _buf.ReadInt();
+        lastSeconds = _buf.ReadInt();
+        PosType = _buf.ReadInt();
+        PrefabType = _buf.ReadString();
+        Title = _buf.ReadString();
+        Des = _buf.ReadString();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);products = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); products[__index0] = __e0;}}
     }
 
-    public static IAP_pushIap DeserializeIAP_pushIap(JToken _buf)
+    public static IAP_pushIap DeserializeIAP_pushIap(ByteBuf _buf)
     {
         return new IAP_pushIap(_buf);
     }
@@ -92,8 +88,7 @@ public sealed partial class IAP_pushIap : Luban.BeanBase
     /// 当即奖励<br/>itemid,count,showCount|itemid,count,,showCount
     /// </summary>
     public readonly string[] products;
-
-
+   
     public const int __ID__ = 1354033623;
     public override int GetTypeId() => __ID__;
 
@@ -120,5 +115,6 @@ public sealed partial class IAP_pushIap : Luban.BeanBase
         + "}";
     }
 }
+
 }
 

@@ -7,14 +7,11 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-using Newtonsoft.Json.Linq;
 using Luban;
-
 
 
 namespace HotFix.Cfg
 {
-
 /// <summary>
 /// Generated from GuildBOSS.xlsx sheet guildBossSeasonReward
 /// </summary>
@@ -23,20 +20,19 @@ public partial class TbGuildBOSS_guildBossSeasonReward
     private readonly System.Collections.Generic.Dictionary<int, GuildBOSS_guildBossSeasonReward> _dataMap;
     private readonly System.Collections.Generic.List<GuildBOSS_guildBossSeasonReward> _dataList;
     
-    public TbGuildBOSS_guildBossSeasonReward(JArray _buf)
+    public TbGuildBOSS_guildBossSeasonReward(ByteBuf _buf)
     {
         _dataMap = new System.Collections.Generic.Dictionary<int, GuildBOSS_guildBossSeasonReward>();
         _dataList = new System.Collections.Generic.List<GuildBOSS_guildBossSeasonReward>();
         
-        foreach(JObject _ele in _buf)
+        for(int n = _buf.ReadSize() ; n > 0 ; --n)
         {
             GuildBOSS_guildBossSeasonReward _v;
-            _v = global::HotFix.Cfg.GuildBOSS_guildBossSeasonReward.DeserializeGuildBOSS_guildBossSeasonReward(_ele);
+            _v = global::HotFix.Cfg.GuildBOSS_guildBossSeasonReward.DeserializeGuildBOSS_guildBossSeasonReward(_buf);
             _dataList.Add(_v);
             _dataMap.Add(_v.ID, _v);
-         }
+        }
     }
-
 
     public System.Collections.Generic.Dictionary<int, GuildBOSS_guildBossSeasonReward> DataMap => _dataMap;
     public System.Collections.Generic.List<GuildBOSS_guildBossSeasonReward> DataList => _dataList;
@@ -54,5 +50,6 @@ public partial class TbGuildBOSS_guildBossSeasonReward
     }
 
 }
+
 }
 

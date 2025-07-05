@@ -7,14 +7,11 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-using Newtonsoft.Json.Linq;
 using Luban;
-
 
 
 namespace HotFix.Cfg
 {
-
 /// <summary>
 /// Generated from GuildWar.xlsx sheet WarTurntable
 /// </summary>
@@ -23,20 +20,19 @@ public partial class TbGuildWar_WarTurntable
     private readonly System.Collections.Generic.Dictionary<int, GuildWar_WarTurntable> _dataMap;
     private readonly System.Collections.Generic.List<GuildWar_WarTurntable> _dataList;
     
-    public TbGuildWar_WarTurntable(JArray _buf)
+    public TbGuildWar_WarTurntable(ByteBuf _buf)
     {
         _dataMap = new System.Collections.Generic.Dictionary<int, GuildWar_WarTurntable>();
         _dataList = new System.Collections.Generic.List<GuildWar_WarTurntable>();
         
-        foreach(JObject _ele in _buf)
+        for(int n = _buf.ReadSize() ; n > 0 ; --n)
         {
             GuildWar_WarTurntable _v;
-            _v = global::HotFix.Cfg.GuildWar_WarTurntable.DeserializeGuildWar_WarTurntable(_ele);
+            _v = global::HotFix.Cfg.GuildWar_WarTurntable.DeserializeGuildWar_WarTurntable(_buf);
             _dataList.Add(_v);
             _dataMap.Add(_v.id, _v);
-         }
+        }
     }
-
 
     public System.Collections.Generic.Dictionary<int, GuildWar_WarTurntable> DataMap => _dataMap;
     public System.Collections.Generic.List<GuildWar_WarTurntable> DataList => _dataList;
@@ -54,5 +50,6 @@ public partial class TbGuildWar_WarTurntable
     }
 
 }
+
 }
 

@@ -8,30 +8,26 @@
 //------------------------------------------------------------------------------
 
 using Luban;
-using Newtonsoft.Json.Linq;
-
 
 
 namespace HotFix.Cfg
 {
-
 public sealed partial class Task_DailyTask : Luban.BeanBase
 {
-    public Task_DailyTask(JToken _buf) 
+    public Task_DailyTask(ByteBuf _buf) 
     {
-        JObject _obj = _buf as JObject;
-        ID = (int)_obj.GetValue("ID");
-        DailyType = (int)_obj.GetValue("DailyType");
-        AccumulationType = (int)_obj.GetValue("AccumulationType");
-        DailyNeed = (int)_obj.GetValue("DailyNeed");
-        DailyNeedParam = (int)_obj.GetValue("DailyNeedParam");
-        DailyDescribe = (string)_obj.GetValue("DailyDescribe");
-        DailyActiveReward = (int)_obj.GetValue("DailyActiveReward");
-        Jump = (int)_obj.GetValue("Jump");
-        UnlockNeed = (int)_obj.GetValue("UnlockNeed");
+        ID = _buf.ReadInt();
+        DailyType = _buf.ReadInt();
+        AccumulationType = _buf.ReadInt();
+        DailyNeed = _buf.ReadInt();
+        DailyNeedParam = _buf.ReadInt();
+        DailyDescribe = _buf.ReadString();
+        DailyActiveReward = _buf.ReadInt();
+        Jump = _buf.ReadInt();
+        UnlockNeed = _buf.ReadInt();
     }
 
-    public static Task_DailyTask DeserializeTask_DailyTask(JToken _buf)
+    public static Task_DailyTask DeserializeTask_DailyTask(ByteBuf _buf)
     {
         return new Task_DailyTask(_buf);
     }
@@ -72,8 +68,7 @@ public sealed partial class Task_DailyTask : Luban.BeanBase
     /// gameconfig中关卡对应条件id<br/>0为默认解锁<br/>-1为不开放
     /// </summary>
     public readonly int UnlockNeed;
-
-
+   
     public const int __ID__ = 68848900;
     public override int GetTypeId() => __ID__;
 
@@ -96,5 +91,6 @@ public sealed partial class Task_DailyTask : Luban.BeanBase
         + "}";
     }
 }
+
 }
 

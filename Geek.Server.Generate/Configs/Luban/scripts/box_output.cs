@@ -8,25 +8,21 @@
 //------------------------------------------------------------------------------
 
 using Luban;
-using Newtonsoft.Json.Linq;
-
 
 
 namespace HotFix.Cfg
 {
-
 public sealed partial class box_output : Luban.BeanBase
 {
-    public box_output(JToken _buf) 
+    public box_output(ByteBuf _buf) 
     {
-        JObject _obj = _buf as JObject;
-        Id = (int)_obj.GetValue("Id");
-        { var __json0 = _obj.GetValue("num"); int _n0 = (__json0 as JArray).Count; num = new int[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { int __v0;  __v0 = (int)__e0;  num[__index0++] = __v0; }   }
-        { var __json0 = _obj.GetValue("dropQuality"); int _n0 = (__json0 as JArray).Count; dropQuality = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  dropQuality[__index0++] = __v0; }   }
-        definiteDropQuality = (int)_obj.GetValue("definiteDropQuality");
+        Id = _buf.ReadInt();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);num = new int[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { int __e0;__e0 = _buf.ReadInt(); num[__index0] = __e0;}}
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);dropQuality = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); dropQuality[__index0] = __e0;}}
+        definiteDropQuality = _buf.ReadInt();
     }
 
-    public static box_output Deserializebox_output(JToken _buf)
+    public static box_output Deserializebox_output(ByteBuf _buf)
     {
         return new box_output(_buf);
     }
@@ -47,8 +43,7 @@ public sealed partial class box_output : Luban.BeanBase
     /// 特殊掉落
     /// </summary>
     public readonly int definiteDropQuality;
-
-
+   
     public const int __ID__ = -455635467;
     public override int GetTypeId() => __ID__;
 
@@ -66,5 +61,6 @@ public sealed partial class box_output : Luban.BeanBase
         + "}";
     }
 }
+
 }
 

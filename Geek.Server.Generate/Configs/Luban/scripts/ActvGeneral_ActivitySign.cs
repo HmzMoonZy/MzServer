@@ -8,25 +8,21 @@
 //------------------------------------------------------------------------------
 
 using Luban;
-using Newtonsoft.Json.Linq;
-
 
 
 namespace HotFix.Cfg
 {
-
 public sealed partial class ActvGeneral_ActivitySign : Luban.BeanBase
 {
-    public ActvGeneral_ActivitySign(JToken _buf) 
+    public ActvGeneral_ActivitySign(ByteBuf _buf) 
     {
-        JObject _obj = _buf as JObject;
-        id = (int)_obj.GetValue("id");
-        SignID = (int)_obj.GetValue("SignID");
-        Day = (int)_obj.GetValue("Day");
-        { var __json0 = _obj.GetValue("SignReward"); int _n0 = (__json0 as JArray).Count; SignReward = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  SignReward[__index0++] = __v0; }   }
+        id = _buf.ReadInt();
+        SignID = _buf.ReadInt();
+        Day = _buf.ReadInt();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);SignReward = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); SignReward[__index0] = __e0;}}
     }
 
-    public static ActvGeneral_ActivitySign DeserializeActvGeneral_ActivitySign(JToken _buf)
+    public static ActvGeneral_ActivitySign DeserializeActvGeneral_ActivitySign(ByteBuf _buf)
     {
         return new ActvGeneral_ActivitySign(_buf);
     }
@@ -47,8 +43,7 @@ public sealed partial class ActvGeneral_ActivitySign : Luban.BeanBase
     /// 签到奖励
     /// </summary>
     public readonly string[] SignReward;
-
-
+   
     public const int __ID__ = -760935449;
     public override int GetTypeId() => __ID__;
 
@@ -66,5 +61,6 @@ public sealed partial class ActvGeneral_ActivitySign : Luban.BeanBase
         + "}";
     }
 }
+
 }
 

@@ -8,46 +8,42 @@
 //------------------------------------------------------------------------------
 
 using Luban;
-using Newtonsoft.Json.Linq;
-
 
 
 namespace HotFix.Cfg
 {
-
 public sealed partial class ActivityDan_MonoTheme : Luban.BeanBase
 {
-    public ActivityDan_MonoTheme(JToken _buf) 
+    public ActivityDan_MonoTheme(ByteBuf _buf) 
     {
-        JObject _obj = _buf as JObject;
-        ID = (int)_obj.GetValue("ID");
-        Grid_AtlasId = (int)_obj.GetValue("Grid_AtlasId");
-        Grid_StartAtlasId = (int)_obj.GetValue("Grid_StartAtlasId");
-        Grid_StartSprite = (string)_obj.GetValue("Grid_StartSprite");
-        Grid_TrainSprite = (string)_obj.GetValue("Grid_TrainSprite");
-        Grid_SpaBgSprite = (string)_obj.GetValue("Grid_SpaBgSprite");
-        TipTitleId_Star = (string)_obj.GetValue("TipTitleId_Star");
-        TipDescId_Star = (string)_obj.GetValue("TipDescId_Star");
-        TipTitleId_Spa = (string)_obj.GetValue("TipTitleId_Spa");
-        TipDescId_Spa = (string)_obj.GetValue("TipDescId_Spa");
-        Main_Scene = (int)_obj.GetValue("Main_Scene");
-        { var __json0 = _obj.GetValue("Main_SceneBorder"); int _n0 = (__json0 as JArray).Count; Main_SceneBorder = new int[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { int __v0;  __v0 = (int)__e0;  Main_SceneBorder[__index0++] = __v0; }   }
-        Main_Grid = (int)_obj.GetValue("Main_Grid");
-        Task_Banner = (int)_obj.GetValue("Task_Banner");
-        PassPreView_Bg = (int)_obj.GetValue("PassPreView_Bg");
-        Pass_Banner = (int)_obj.GetValue("Pass_Banner");
-        Pass_Bg = (int)_obj.GetValue("Pass_Bg");
-        Pass_RewardTop = (int)_obj.GetValue("Pass_RewardTop");
-        Pass_TopLeft = (int)_obj.GetValue("Pass_TopLeft");
-        Pass_TopRight = (int)_obj.GetValue("Pass_TopRight");
-        Pass_RewardLeft = (int)_obj.GetValue("Pass_RewardLeft");
-        Pass_RewardRight = (int)_obj.GetValue("Pass_RewardRight");
-        Pass_RewardBottom = (int)_obj.GetValue("Pass_RewardBottom");
-        Pass_LightColor = (string)_obj.GetValue("Pass_LightColor");
-        Pass_StarColor = (string)_obj.GetValue("Pass_StarColor");
+        ID = _buf.ReadInt();
+        Grid_AtlasId = _buf.ReadInt();
+        Grid_StartAtlasId = _buf.ReadInt();
+        Grid_StartSprite = _buf.ReadString();
+        Grid_TrainSprite = _buf.ReadString();
+        Grid_SpaBgSprite = _buf.ReadString();
+        TipTitleId_Star = _buf.ReadString();
+        TipDescId_Star = _buf.ReadString();
+        TipTitleId_Spa = _buf.ReadString();
+        TipDescId_Spa = _buf.ReadString();
+        Main_Scene = _buf.ReadInt();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);Main_SceneBorder = new int[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { int __e0;__e0 = _buf.ReadInt(); Main_SceneBorder[__index0] = __e0;}}
+        Main_Grid = _buf.ReadInt();
+        Task_Banner = _buf.ReadInt();
+        PassPreView_Bg = _buf.ReadInt();
+        Pass_Banner = _buf.ReadInt();
+        Pass_Bg = _buf.ReadInt();
+        Pass_RewardTop = _buf.ReadInt();
+        Pass_TopLeft = _buf.ReadInt();
+        Pass_TopRight = _buf.ReadInt();
+        Pass_RewardLeft = _buf.ReadInt();
+        Pass_RewardRight = _buf.ReadInt();
+        Pass_RewardBottom = _buf.ReadInt();
+        Pass_LightColor = _buf.ReadString();
+        Pass_StarColor = _buf.ReadString();
     }
 
-    public static ActivityDan_MonoTheme DeserializeActivityDan_MonoTheme(JToken _buf)
+    public static ActivityDan_MonoTheme DeserializeActivityDan_MonoTheme(ByteBuf _buf)
     {
         return new ActivityDan_MonoTheme(_buf);
     }
@@ -152,8 +148,7 @@ public sealed partial class ActivityDan_MonoTheme : Luban.BeanBase
     /// 通行证星星颜色
     /// </summary>
     public readonly string Pass_StarColor;
-
-
+   
     public const int __ID__ = -891684247;
     public override int GetTypeId() => __ID__;
 
@@ -192,5 +187,6 @@ public sealed partial class ActivityDan_MonoTheme : Luban.BeanBase
         + "}";
     }
 }
+
 }
 

@@ -7,14 +7,11 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-using Newtonsoft.Json.Linq;
 using Luban;
-
 
 
 namespace HotFix.Cfg
 {
-
 /// <summary>
 /// Generated from ChristmasBoss.xlsx sheet RankReward
 /// </summary>
@@ -23,20 +20,19 @@ public partial class TbChristmasBoss_RankReward
     private readonly System.Collections.Generic.Dictionary<int, ChristmasBoss_RankReward> _dataMap;
     private readonly System.Collections.Generic.List<ChristmasBoss_RankReward> _dataList;
     
-    public TbChristmasBoss_RankReward(JArray _buf)
+    public TbChristmasBoss_RankReward(ByteBuf _buf)
     {
         _dataMap = new System.Collections.Generic.Dictionary<int, ChristmasBoss_RankReward>();
         _dataList = new System.Collections.Generic.List<ChristmasBoss_RankReward>();
         
-        foreach(JObject _ele in _buf)
+        for(int n = _buf.ReadSize() ; n > 0 ; --n)
         {
             ChristmasBoss_RankReward _v;
-            _v = global::HotFix.Cfg.ChristmasBoss_RankReward.DeserializeChristmasBoss_RankReward(_ele);
+            _v = global::HotFix.Cfg.ChristmasBoss_RankReward.DeserializeChristmasBoss_RankReward(_buf);
             _dataList.Add(_v);
             _dataMap.Add(_v.ID, _v);
-         }
+        }
     }
-
 
     public System.Collections.Generic.Dictionary<int, ChristmasBoss_RankReward> DataMap => _dataMap;
     public System.Collections.Generic.List<ChristmasBoss_RankReward> DataList => _dataList;
@@ -54,5 +50,6 @@ public partial class TbChristmasBoss_RankReward
     }
 
 }
+
 }
 

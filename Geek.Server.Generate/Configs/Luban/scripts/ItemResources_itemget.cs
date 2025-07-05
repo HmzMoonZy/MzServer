@@ -8,23 +8,19 @@
 //------------------------------------------------------------------------------
 
 using Luban;
-using Newtonsoft.Json.Linq;
-
 
 
 namespace HotFix.Cfg
 {
-
 public sealed partial class ItemResources_itemget : Luban.BeanBase
 {
-    public ItemResources_itemget(JToken _buf) 
+    public ItemResources_itemget(ByteBuf _buf) 
     {
-        JObject _obj = _buf as JObject;
-        id = (int)_obj.GetValue("id");
-        { var __json0 = _obj.GetValue("itemGet"); int _n0 = (__json0 as JArray).Count; itemGet = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  itemGet[__index0++] = __v0; }   }
+        id = _buf.ReadInt();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);itemGet = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); itemGet[__index0] = __e0;}}
     }
 
-    public static ItemResources_itemget DeserializeItemResources_itemget(JToken _buf)
+    public static ItemResources_itemget DeserializeItemResources_itemget(ByteBuf _buf)
     {
         return new ItemResources_itemget(_buf);
     }
@@ -37,8 +33,7 @@ public sealed partial class ItemResources_itemget : Luban.BeanBase
     /// 获取途径（itemresource）
     /// </summary>
     public readonly string[] itemGet;
-
-
+   
     public const int __ID__ = -1898806186;
     public override int GetTypeId() => __ID__;
 
@@ -54,5 +49,6 @@ public sealed partial class ItemResources_itemget : Luban.BeanBase
         + "}";
     }
 }
+
 }
 

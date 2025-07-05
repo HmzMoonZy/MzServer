@@ -8,30 +8,26 @@
 //------------------------------------------------------------------------------
 
 using Luban;
-using Newtonsoft.Json.Linq;
-
 
 
 namespace HotFix.Cfg
 {
-
 public sealed partial class Achievements_Achievements : Luban.BeanBase
 {
-    public Achievements_Achievements(JToken _buf) 
+    public Achievements_Achievements(ByteBuf _buf) 
     {
-        JObject _obj = _buf as JObject;
-        ID = (int)_obj.GetValue("ID");
-        AchievementsType = (int)_obj.GetValue("AchievementsType");
-        AchievementsLevel = (int)_obj.GetValue("AchievementsLevel");
-        AccumulationType = (int)_obj.GetValue("AccumulationType");
-        ProgressType = (int)_obj.GetValue("ProgressType");
-        AchievementsNeed = (int)_obj.GetValue("AchievementsNeed");
-        AchievementsDescribe = (string)_obj.GetValue("AchievementsDescribe");
-        { var __json0 = _obj.GetValue("Reward"); int _n0 = (__json0 as JArray).Count; Reward = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  Reward[__index0++] = __v0; }   }
-        UnlockNeed = (int)_obj.GetValue("UnlockNeed");
+        ID = _buf.ReadInt();
+        AchievementsType = _buf.ReadInt();
+        AchievementsLevel = _buf.ReadInt();
+        AccumulationType = _buf.ReadInt();
+        ProgressType = _buf.ReadInt();
+        AchievementsNeed = _buf.ReadInt();
+        AchievementsDescribe = _buf.ReadString();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);Reward = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); Reward[__index0] = __e0;}}
+        UnlockNeed = _buf.ReadInt();
     }
 
-    public static Achievements_Achievements DeserializeAchievements_Achievements(JToken _buf)
+    public static Achievements_Achievements DeserializeAchievements_Achievements(ByteBuf _buf)
     {
         return new Achievements_Achievements(_buf);
     }
@@ -72,8 +68,7 @@ public sealed partial class Achievements_Achievements : Luban.BeanBase
     /// gameconfig中关卡对应条件id<br/>0为默认解锁
     /// </summary>
     public readonly int UnlockNeed;
-
-
+   
     public const int __ID__ = 7788639;
     public override int GetTypeId() => __ID__;
 
@@ -96,5 +91,6 @@ public sealed partial class Achievements_Achievements : Luban.BeanBase
         + "}";
     }
 }
+
 }
 

@@ -7,14 +7,11 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-using Newtonsoft.Json.Linq;
 using Luban;
-
 
 
 namespace HotFix.Cfg
 {
-
 /// <summary>
 /// Generated from LuckyKoi.xlsx sheet LuckyKoiPay
 /// </summary>
@@ -23,20 +20,19 @@ public partial class TbLuckyKoi_LuckyKoiPay
     private readonly System.Collections.Generic.Dictionary<int, LuckyKoi_LuckyKoiPay> _dataMap;
     private readonly System.Collections.Generic.List<LuckyKoi_LuckyKoiPay> _dataList;
     
-    public TbLuckyKoi_LuckyKoiPay(JArray _buf)
+    public TbLuckyKoi_LuckyKoiPay(ByteBuf _buf)
     {
         _dataMap = new System.Collections.Generic.Dictionary<int, LuckyKoi_LuckyKoiPay>();
         _dataList = new System.Collections.Generic.List<LuckyKoi_LuckyKoiPay>();
         
-        foreach(JObject _ele in _buf)
+        for(int n = _buf.ReadSize() ; n > 0 ; --n)
         {
             LuckyKoi_LuckyKoiPay _v;
-            _v = global::HotFix.Cfg.LuckyKoi_LuckyKoiPay.DeserializeLuckyKoi_LuckyKoiPay(_ele);
+            _v = global::HotFix.Cfg.LuckyKoi_LuckyKoiPay.DeserializeLuckyKoi_LuckyKoiPay(_buf);
             _dataList.Add(_v);
             _dataMap.Add(_v.id, _v);
-         }
+        }
     }
-
 
     public System.Collections.Generic.Dictionary<int, LuckyKoi_LuckyKoiPay> DataMap => _dataMap;
     public System.Collections.Generic.List<LuckyKoi_LuckyKoiPay> DataList => _dataList;
@@ -54,5 +50,6 @@ public partial class TbLuckyKoi_LuckyKoiPay
     }
 
 }
+
 }
 

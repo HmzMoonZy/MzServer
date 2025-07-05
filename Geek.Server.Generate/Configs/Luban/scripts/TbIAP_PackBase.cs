@@ -7,14 +7,11 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-using Newtonsoft.Json.Linq;
 using Luban;
-
 
 
 namespace HotFix.Cfg
 {
-
 /// <summary>
 /// Generated from IAP.xlsx sheet PackBase
 /// </summary>
@@ -23,20 +20,19 @@ public partial class TbIAP_PackBase
     private readonly System.Collections.Generic.Dictionary<int, IAP_PackBase> _dataMap;
     private readonly System.Collections.Generic.List<IAP_PackBase> _dataList;
     
-    public TbIAP_PackBase(JArray _buf)
+    public TbIAP_PackBase(ByteBuf _buf)
     {
         _dataMap = new System.Collections.Generic.Dictionary<int, IAP_PackBase>();
         _dataList = new System.Collections.Generic.List<IAP_PackBase>();
         
-        foreach(JObject _ele in _buf)
+        for(int n = _buf.ReadSize() ; n > 0 ; --n)
         {
             IAP_PackBase _v;
-            _v = global::HotFix.Cfg.IAP_PackBase.DeserializeIAP_PackBase(_ele);
+            _v = global::HotFix.Cfg.IAP_PackBase.DeserializeIAP_PackBase(_buf);
             _dataList.Add(_v);
             _dataMap.Add(_v.ID, _v);
-         }
+        }
     }
-
 
     public System.Collections.Generic.Dictionary<int, IAP_PackBase> DataMap => _dataMap;
     public System.Collections.Generic.List<IAP_PackBase> DataList => _dataList;
@@ -54,5 +50,6 @@ public partial class TbIAP_PackBase
     }
 
 }
+
 }
 

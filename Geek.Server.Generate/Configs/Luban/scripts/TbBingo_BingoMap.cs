@@ -7,14 +7,11 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-using Newtonsoft.Json.Linq;
 using Luban;
-
 
 
 namespace HotFix.Cfg
 {
-
 /// <summary>
 /// Generated from Bingo.xlsx sheet BingoMap
 /// </summary>
@@ -23,20 +20,19 @@ public partial class TbBingo_BingoMap
     private readonly System.Collections.Generic.Dictionary<int, Bingo_BingoMap> _dataMap;
     private readonly System.Collections.Generic.List<Bingo_BingoMap> _dataList;
     
-    public TbBingo_BingoMap(JArray _buf)
+    public TbBingo_BingoMap(ByteBuf _buf)
     {
         _dataMap = new System.Collections.Generic.Dictionary<int, Bingo_BingoMap>();
         _dataList = new System.Collections.Generic.List<Bingo_BingoMap>();
         
-        foreach(JObject _ele in _buf)
+        for(int n = _buf.ReadSize() ; n > 0 ; --n)
         {
             Bingo_BingoMap _v;
-            _v = global::HotFix.Cfg.Bingo_BingoMap.DeserializeBingo_BingoMap(_ele);
+            _v = global::HotFix.Cfg.Bingo_BingoMap.DeserializeBingo_BingoMap(_buf);
             _dataList.Add(_v);
             _dataMap.Add(_v.ID, _v);
-         }
+        }
     }
-
 
     public System.Collections.Generic.Dictionary<int, Bingo_BingoMap> DataMap => _dataMap;
     public System.Collections.Generic.List<Bingo_BingoMap> DataList => _dataList;
@@ -54,5 +50,6 @@ public partial class TbBingo_BingoMap
     }
 
 }
+
 }
 

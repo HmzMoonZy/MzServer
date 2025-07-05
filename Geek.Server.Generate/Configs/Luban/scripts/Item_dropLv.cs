@@ -8,24 +8,20 @@
 //------------------------------------------------------------------------------
 
 using Luban;
-using Newtonsoft.Json.Linq;
-
 
 
 namespace HotFix.Cfg
 {
-
 public sealed partial class Item_dropLv : Luban.BeanBase
 {
-    public Item_dropLv(JToken _buf) 
+    public Item_dropLv(ByteBuf _buf) 
     {
-        JObject _obj = _buf as JObject;
-        drop_id = (int)_obj.GetValue("drop_id");
-        { var __json0 = _obj.GetValue("level"); int _n0 = (__json0 as JArray).Count; level = new int[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { int __v0;  __v0 = (int)__e0;  level[__index0++] = __v0; }   }
-        { var __json0 = _obj.GetValue("reward"); int _n0 = (__json0 as JArray).Count; reward = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  reward[__index0++] = __v0; }   }
+        drop_id = _buf.ReadInt();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);level = new int[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { int __e0;__e0 = _buf.ReadInt(); level[__index0] = __e0;}}
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);reward = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); reward[__index0] = __e0;}}
     }
 
-    public static Item_dropLv DeserializeItem_dropLv(JToken _buf)
+    public static Item_dropLv DeserializeItem_dropLv(ByteBuf _buf)
     {
         return new Item_dropLv(_buf);
     }
@@ -42,8 +38,7 @@ public sealed partial class Item_dropLv : Luban.BeanBase
     /// 奖励内容<br/>物品id1,数量1,权重1|...
     /// </summary>
     public readonly string[] reward;
-
-
+   
     public const int __ID__ = 854415205;
     public override int GetTypeId() => __ID__;
 
@@ -60,5 +55,6 @@ public sealed partial class Item_dropLv : Luban.BeanBase
         + "}";
     }
 }
+
 }
 

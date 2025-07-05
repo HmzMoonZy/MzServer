@@ -7,14 +7,11 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-using Newtonsoft.Json.Linq;
 using Luban;
-
 
 
 namespace HotFix.Cfg
 {
-
 /// <summary>
 /// Generated from Map.xlsx sheet map
 /// </summary>
@@ -23,20 +20,19 @@ public partial class TbMap_map
     private readonly System.Collections.Generic.Dictionary<int, Map_map> _dataMap;
     private readonly System.Collections.Generic.List<Map_map> _dataList;
     
-    public TbMap_map(JArray _buf)
+    public TbMap_map(ByteBuf _buf)
     {
         _dataMap = new System.Collections.Generic.Dictionary<int, Map_map>();
         _dataList = new System.Collections.Generic.List<Map_map>();
         
-        foreach(JObject _ele in _buf)
+        for(int n = _buf.ReadSize() ; n > 0 ; --n)
         {
             Map_map _v;
-            _v = global::HotFix.Cfg.Map_map.DeserializeMap_map(_ele);
+            _v = global::HotFix.Cfg.Map_map.DeserializeMap_map(_buf);
             _dataList.Add(_v);
             _dataMap.Add(_v.id, _v);
-         }
+        }
     }
-
 
     public System.Collections.Generic.Dictionary<int, Map_map> DataMap => _dataMap;
     public System.Collections.Generic.List<Map_map> DataList => _dataList;
@@ -54,5 +50,6 @@ public partial class TbMap_map
     }
 
 }
+
 }
 

@@ -8,31 +8,27 @@
 //------------------------------------------------------------------------------
 
 using Luban;
-using Newtonsoft.Json.Linq;
-
 
 
 namespace HotFix.Cfg
 {
-
 public sealed partial class Pet_petLevel : Luban.BeanBase
 {
-    public Pet_petLevel(JToken _buf) 
+    public Pet_petLevel(ByteBuf _buf) 
     {
-        JObject _obj = _buf as JObject;
-        id = (int)_obj.GetValue("id");
-        type = (int)_obj.GetValue("type");
-        level = (int)_obj.GetValue("level");
-        unlockType = (int)_obj.GetValue("unlockType");
-        { var __json0 = _obj.GetValue("talentNeed"); int _n0 = (__json0 as JArray).Count; talentNeed = new int[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { int __v0;  __v0 = (int)__e0;  talentNeed[__index0++] = __v0; }   }
-        unlockDesc = (string)_obj.GetValue("unlockDesc");
-        { var __json0 = _obj.GetValue("upgradeAttributes"); int _n0 = (__json0 as JArray).Count; upgradeAttributes = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  upgradeAttributes[__index0++] = __v0; }   }
-        nextID = (int)_obj.GetValue("nextID");
-        levelupFragment = (int)_obj.GetValue("levelupFragment");
-        { var __json0 = _obj.GetValue("levelupCost"); int _n0 = (__json0 as JArray).Count; levelupCost = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  levelupCost[__index0++] = __v0; }   }
+        id = _buf.ReadInt();
+        type = _buf.ReadInt();
+        level = _buf.ReadInt();
+        unlockType = _buf.ReadInt();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);talentNeed = new int[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { int __e0;__e0 = _buf.ReadInt(); talentNeed[__index0] = __e0;}}
+        unlockDesc = _buf.ReadString();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);upgradeAttributes = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); upgradeAttributes[__index0] = __e0;}}
+        nextID = _buf.ReadInt();
+        levelupFragment = _buf.ReadInt();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);levelupCost = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); levelupCost[__index0] = __e0;}}
     }
 
-    public static Pet_petLevel DeserializePet_petLevel(JToken _buf)
+    public static Pet_petLevel DeserializePet_petLevel(ByteBuf _buf)
     {
         return new Pet_petLevel(_buf);
     }
@@ -77,8 +73,7 @@ public sealed partial class Pet_petLevel : Luban.BeanBase
     /// 升至下一级的消耗
     /// </summary>
     public readonly string[] levelupCost;
-
-
+   
     public const int __ID__ = -132875035;
     public override int GetTypeId() => __ID__;
 
@@ -102,5 +97,6 @@ public sealed partial class Pet_petLevel : Luban.BeanBase
         + "}";
     }
 }
+
 }
 

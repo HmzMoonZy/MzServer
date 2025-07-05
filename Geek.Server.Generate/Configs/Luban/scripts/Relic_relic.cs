@@ -8,35 +8,31 @@
 //------------------------------------------------------------------------------
 
 using Luban;
-using Newtonsoft.Json.Linq;
-
 
 
 namespace HotFix.Cfg
 {
-
 public sealed partial class Relic_relic : Luban.BeanBase
 {
-    public Relic_relic(JToken _buf) 
+    public Relic_relic(ByteBuf _buf) 
     {
-        JObject _obj = _buf as JObject;
-        id = (int)_obj.GetValue("id");
-        NameId = (string)_obj.GetValue("NameId");
-        DescId = (string)_obj.GetValue("DescId");
-        type = (int)_obj.GetValue("type");
-        bgAtlasID = (int)_obj.GetValue("bgAtlasID");
-        bgName = (string)_obj.GetValue("bgName");
-        baseName = (string)_obj.GetValue("baseName");
-        iconAtlasID = (int)_obj.GetValue("iconAtlasID");
-        iconName = (string)_obj.GetValue("iconName");
-        unlockCostID = (int)_obj.GetValue("unlockCostID");
-        unlockCostNumber = (int)_obj.GetValue("unlockCostNumber");
-        star = (int)_obj.GetValue("star");
-        starUpType = (int)_obj.GetValue("starUpType");
-        AttributesType = (int)_obj.GetValue("AttributesType");
+        id = _buf.ReadInt();
+        NameId = _buf.ReadString();
+        DescId = _buf.ReadString();
+        type = _buf.ReadInt();
+        bgAtlasID = _buf.ReadInt();
+        bgName = _buf.ReadString();
+        baseName = _buf.ReadString();
+        iconAtlasID = _buf.ReadInt();
+        iconName = _buf.ReadString();
+        unlockCostID = _buf.ReadInt();
+        unlockCostNumber = _buf.ReadInt();
+        star = _buf.ReadInt();
+        starUpType = _buf.ReadInt();
+        AttributesType = _buf.ReadInt();
     }
 
-    public static Relic_relic DeserializeRelic_relic(JToken _buf)
+    public static Relic_relic DeserializeRelic_relic(ByteBuf _buf)
     {
         return new Relic_relic(_buf);
     }
@@ -97,8 +93,7 @@ public sealed partial class Relic_relic : Luban.BeanBase
     /// 基础属性<br/>从updateLevel里读
     /// </summary>
     public readonly int AttributesType;
-
-
+   
     public const int __ID__ = 1477472135;
     public override int GetTypeId() => __ID__;
 
@@ -126,5 +121,6 @@ public sealed partial class Relic_relic : Luban.BeanBase
         + "}";
     }
 }
+
 }
 

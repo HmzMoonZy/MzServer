@@ -7,14 +7,11 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-using Newtonsoft.Json.Linq;
 using Luban;
-
 
 
 namespace HotFix.Cfg
 {
-
 /// <summary>
 /// Generated from Collection.xlsx sheet starColor
 /// </summary>
@@ -23,20 +20,19 @@ public partial class TbCollection_starColor
     private readonly System.Collections.Generic.Dictionary<int, Collection_starColor> _dataMap;
     private readonly System.Collections.Generic.List<Collection_starColor> _dataList;
     
-    public TbCollection_starColor(JArray _buf)
+    public TbCollection_starColor(ByteBuf _buf)
     {
         _dataMap = new System.Collections.Generic.Dictionary<int, Collection_starColor>();
         _dataList = new System.Collections.Generic.List<Collection_starColor>();
         
-        foreach(JObject _ele in _buf)
+        for(int n = _buf.ReadSize() ; n > 0 ; --n)
         {
             Collection_starColor _v;
-            _v = global::HotFix.Cfg.Collection_starColor.DeserializeCollection_starColor(_ele);
+            _v = global::HotFix.Cfg.Collection_starColor.DeserializeCollection_starColor(_buf);
             _dataList.Add(_v);
             _dataMap.Add(_v.id, _v);
-         }
+        }
     }
-
 
     public System.Collections.Generic.Dictionary<int, Collection_starColor> DataMap => _dataMap;
     public System.Collections.Generic.List<Collection_starColor> DataList => _dataList;
@@ -54,5 +50,6 @@ public partial class TbCollection_starColor
     }
 
 }
+
 }
 

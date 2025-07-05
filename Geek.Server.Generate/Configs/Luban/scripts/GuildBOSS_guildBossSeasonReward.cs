@@ -8,25 +8,21 @@
 //------------------------------------------------------------------------------
 
 using Luban;
-using Newtonsoft.Json.Linq;
-
 
 
 namespace HotFix.Cfg
 {
-
 public sealed partial class GuildBOSS_guildBossSeasonReward : Luban.BeanBase
 {
-    public GuildBOSS_guildBossSeasonReward(JToken _buf) 
+    public GuildBOSS_guildBossSeasonReward(ByteBuf _buf) 
     {
-        JObject _obj = _buf as JObject;
-        ID = (int)_obj.GetValue("ID");
-        levelID = (int)_obj.GetValue("levelID");
-        { var __json0 = _obj.GetValue("ranking"); int _n0 = (__json0 as JArray).Count; ranking = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  ranking[__index0++] = __v0; }   }
-        { var __json0 = _obj.GetValue("weeklyRewards"); int _n0 = (__json0 as JArray).Count; weeklyRewards = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  weeklyRewards[__index0++] = __v0; }   }
+        ID = _buf.ReadInt();
+        levelID = _buf.ReadInt();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);ranking = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); ranking[__index0] = __e0;}}
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);weeklyRewards = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); weeklyRewards[__index0] = __e0;}}
     }
 
-    public static GuildBOSS_guildBossSeasonReward DeserializeGuildBOSS_guildBossSeasonReward(JToken _buf)
+    public static GuildBOSS_guildBossSeasonReward DeserializeGuildBOSS_guildBossSeasonReward(ByteBuf _buf)
     {
         return new GuildBOSS_guildBossSeasonReward(_buf);
     }
@@ -47,8 +43,7 @@ public sealed partial class GuildBOSS_guildBossSeasonReward : Luban.BeanBase
     /// 每周奖励
     /// </summary>
     public readonly string[] weeklyRewards;
-
-
+   
     public const int __ID__ = 762088659;
     public override int GetTypeId() => __ID__;
 
@@ -66,5 +61,6 @@ public sealed partial class GuildBOSS_guildBossSeasonReward : Luban.BeanBase
         + "}";
     }
 }
+
 }
 

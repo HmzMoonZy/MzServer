@@ -7,14 +7,11 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-using Newtonsoft.Json.Linq;
 using Luban;
-
 
 
 namespace HotFix.Cfg
 {
-
 /// <summary>
 /// Generated from ArtEffect.xlsx sheet Effect
 /// </summary>
@@ -23,20 +20,19 @@ public partial class TbArtEffect_Effect
     private readonly System.Collections.Generic.Dictionary<int, ArtEffect_Effect> _dataMap;
     private readonly System.Collections.Generic.List<ArtEffect_Effect> _dataList;
     
-    public TbArtEffect_Effect(JArray _buf)
+    public TbArtEffect_Effect(ByteBuf _buf)
     {
         _dataMap = new System.Collections.Generic.Dictionary<int, ArtEffect_Effect>();
         _dataList = new System.Collections.Generic.List<ArtEffect_Effect>();
         
-        foreach(JObject _ele in _buf)
+        for(int n = _buf.ReadSize() ; n > 0 ; --n)
         {
             ArtEffect_Effect _v;
-            _v = global::HotFix.Cfg.ArtEffect_Effect.DeserializeArtEffect_Effect(_ele);
+            _v = global::HotFix.Cfg.ArtEffect_Effect.DeserializeArtEffect_Effect(_buf);
             _dataList.Add(_v);
             _dataMap.Add(_v.id, _v);
-         }
+        }
     }
-
 
     public System.Collections.Generic.Dictionary<int, ArtEffect_Effect> DataMap => _dataMap;
     public System.Collections.Generic.List<ArtEffect_Effect> DataList => _dataList;
@@ -54,5 +50,6 @@ public partial class TbArtEffect_Effect
     }
 
 }
+
 }
 

@@ -7,14 +7,11 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-using Newtonsoft.Json.Linq;
 using Luban;
-
 
 
 namespace HotFix.Cfg
 {
-
 /// <summary>
 /// Generated from WorldBoss.xlsx sheet WorldBossBox
 /// </summary>
@@ -23,20 +20,19 @@ public partial class TbWorldBoss_WorldBossBox
     private readonly System.Collections.Generic.Dictionary<int, WorldBoss_WorldBossBox> _dataMap;
     private readonly System.Collections.Generic.List<WorldBoss_WorldBossBox> _dataList;
     
-    public TbWorldBoss_WorldBossBox(JArray _buf)
+    public TbWorldBoss_WorldBossBox(ByteBuf _buf)
     {
         _dataMap = new System.Collections.Generic.Dictionary<int, WorldBoss_WorldBossBox>();
         _dataList = new System.Collections.Generic.List<WorldBoss_WorldBossBox>();
         
-        foreach(JObject _ele in _buf)
+        for(int n = _buf.ReadSize() ; n > 0 ; --n)
         {
             WorldBoss_WorldBossBox _v;
-            _v = global::HotFix.Cfg.WorldBoss_WorldBossBox.DeserializeWorldBoss_WorldBossBox(_ele);
+            _v = global::HotFix.Cfg.WorldBoss_WorldBossBox.DeserializeWorldBoss_WorldBossBox(_buf);
             _dataList.Add(_v);
             _dataMap.Add(_v.ID, _v);
-         }
+        }
     }
-
 
     public System.Collections.Generic.Dictionary<int, WorldBoss_WorldBossBox> DataMap => _dataMap;
     public System.Collections.Generic.List<WorldBoss_WorldBossBox> DataList => _dataList;
@@ -54,5 +50,6 @@ public partial class TbWorldBoss_WorldBossBox
     }
 
 }
+
 }
 

@@ -8,32 +8,28 @@
 //------------------------------------------------------------------------------
 
 using Luban;
-using Newtonsoft.Json.Linq;
-
 
 
 namespace HotFix.Cfg
 {
-
 public sealed partial class Equip_equipEvolution : Luban.BeanBase
 {
-    public Equip_equipEvolution(JToken _buf) 
+    public Equip_equipEvolution(ByteBuf _buf) 
     {
-        JObject _obj = _buf as JObject;
-        id = (int)_obj.GetValue("id");
-        evolutionLevel = (int)_obj.GetValue("evolutionLevel");
-        nextID = (int)_obj.GetValue("nextID");
-        { var __json0 = _obj.GetValue("evolutionCost"); int _n0 = (__json0 as JArray).Count; evolutionCost = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  evolutionCost[__index0++] = __v0; }   }
-        { var __json0 = _obj.GetValue("evolutionAttributes"); int _n0 = (__json0 as JArray).Count; evolutionAttributes = new long[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { long __v0;  __v0 = (long)__e0;  evolutionAttributes[__index0++] = __v0; }   }
-        unlockType = (int)_obj.GetValue("unlockType");
-        { var __json0 = _obj.GetValue("talentLimit"); int _n0 = (__json0 as JArray).Count; talentLimit = new int[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { int __v0;  __v0 = (int)__e0;  talentLimit[__index0++] = __v0; }   }
-        unlockDesc = (string)_obj.GetValue("unlockDesc");
-        maxLevel = (int)_obj.GetValue("maxLevel");
-        { var __json0 = _obj.GetValue("upgradeAttributes"); int _n0 = (__json0 as JArray).Count; upgradeAttributes = new long[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { long __v0;  __v0 = (long)__e0;  upgradeAttributes[__index0++] = __v0; }   }
-        { var __json0 = _obj.GetValue("powerLvl"); int _n0 = (__json0 as JArray).Count; powerLvl = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  powerLvl[__index0++] = __v0; }   }
+        id = _buf.ReadInt();
+        evolutionLevel = _buf.ReadInt();
+        nextID = _buf.ReadInt();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);evolutionCost = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); evolutionCost[__index0] = __e0;}}
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);evolutionAttributes = new long[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { long __e0;__e0 = _buf.ReadLong(); evolutionAttributes[__index0] = __e0;}}
+        unlockType = _buf.ReadInt();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);talentLimit = new int[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { int __e0;__e0 = _buf.ReadInt(); talentLimit[__index0] = __e0;}}
+        unlockDesc = _buf.ReadString();
+        maxLevel = _buf.ReadInt();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);upgradeAttributes = new long[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { long __e0;__e0 = _buf.ReadLong(); upgradeAttributes[__index0] = __e0;}}
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);powerLvl = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); powerLvl[__index0] = __e0;}}
     }
 
-    public static Equip_equipEvolution DeserializeEquip_equipEvolution(JToken _buf)
+    public static Equip_equipEvolution DeserializeEquip_equipEvolution(ByteBuf _buf)
     {
         return new Equip_equipEvolution(_buf);
     }
@@ -82,8 +78,7 @@ public sealed partial class Equip_equipEvolution : Luban.BeanBase
     /// 基础战力,万分比战力,固定值战力<br/>本级战力
     /// </summary>
     public readonly string[] powerLvl;
-
-
+   
     public const int __ID__ = -1931321030;
     public override int GetTypeId() => __ID__;
 
@@ -108,5 +103,6 @@ public sealed partial class Equip_equipEvolution : Luban.BeanBase
         + "}";
     }
 }
+
 }
 

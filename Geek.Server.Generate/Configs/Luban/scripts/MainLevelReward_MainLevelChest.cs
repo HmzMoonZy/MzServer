@@ -8,24 +8,20 @@
 //------------------------------------------------------------------------------
 
 using Luban;
-using Newtonsoft.Json.Linq;
-
 
 
 namespace HotFix.Cfg
 {
-
 public sealed partial class MainLevelReward_MainLevelChest : Luban.BeanBase
 {
-    public MainLevelReward_MainLevelChest(JToken _buf) 
+    public MainLevelReward_MainLevelChest(ByteBuf _buf) 
     {
-        JObject _obj = _buf as JObject;
-        id = (int)_obj.GetValue("id");
-        level = (int)_obj.GetValue("level");
-        { var __json0 = _obj.GetValue("Reward"); int _n0 = (__json0 as JArray).Count; Reward = new int[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { int __v0;  __v0 = (int)__e0;  Reward[__index0++] = __v0; }   }
+        id = _buf.ReadInt();
+        level = _buf.ReadInt();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);Reward = new int[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { int __e0;__e0 = _buf.ReadInt(); Reward[__index0] = __e0;}}
     }
 
-    public static MainLevelReward_MainLevelChest DeserializeMainLevelReward_MainLevelChest(JToken _buf)
+    public static MainLevelReward_MainLevelChest DeserializeMainLevelReward_MainLevelChest(ByteBuf _buf)
     {
         return new MainLevelReward_MainLevelChest(_buf);
     }
@@ -42,8 +38,7 @@ public sealed partial class MainLevelReward_MainLevelChest : Luban.BeanBase
     /// 阶段奖励
     /// </summary>
     public readonly int[] Reward;
-
-
+   
     public const int __ID__ = -108897477;
     public override int GetTypeId() => __ID__;
 
@@ -60,5 +55,6 @@ public sealed partial class MainLevelReward_MainLevelChest : Luban.BeanBase
         + "}";
     }
 }
+
 }
 

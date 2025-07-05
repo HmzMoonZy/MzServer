@@ -7,14 +7,11 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-using Newtonsoft.Json.Linq;
 using Luban;
-
 
 
 namespace HotFix.Cfg
 {
-
 /// <summary>
 /// Generated from Guide.xlsx sheet guide
 /// </summary>
@@ -23,20 +20,19 @@ public partial class TbGuide_guide
     private readonly System.Collections.Generic.Dictionary<int, Guide_guide> _dataMap;
     private readonly System.Collections.Generic.List<Guide_guide> _dataList;
     
-    public TbGuide_guide(JArray _buf)
+    public TbGuide_guide(ByteBuf _buf)
     {
         _dataMap = new System.Collections.Generic.Dictionary<int, Guide_guide>();
         _dataList = new System.Collections.Generic.List<Guide_guide>();
         
-        foreach(JObject _ele in _buf)
+        for(int n = _buf.ReadSize() ; n > 0 ; --n)
         {
             Guide_guide _v;
-            _v = global::HotFix.Cfg.Guide_guide.DeserializeGuide_guide(_ele);
+            _v = global::HotFix.Cfg.Guide_guide.DeserializeGuide_guide(_buf);
             _dataList.Add(_v);
             _dataMap.Add(_v.id, _v);
-         }
+        }
     }
-
 
     public System.Collections.Generic.Dictionary<int, Guide_guide> DataMap => _dataMap;
     public System.Collections.Generic.List<Guide_guide> DataList => _dataList;
@@ -54,5 +50,6 @@ public partial class TbGuide_guide
     }
 
 }
+
 }
 

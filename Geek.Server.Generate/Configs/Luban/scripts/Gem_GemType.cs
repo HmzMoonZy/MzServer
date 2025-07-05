@@ -8,28 +8,24 @@
 //------------------------------------------------------------------------------
 
 using Luban;
-using Newtonsoft.Json.Linq;
-
 
 
 namespace HotFix.Cfg
 {
-
 public sealed partial class Gem_GemType : Luban.BeanBase
 {
-    public Gem_GemType(JToken _buf) 
+    public Gem_GemType(ByteBuf _buf) 
     {
-        JObject _obj = _buf as JObject;
-        rank = (int)_obj.GetValue("rank");
-        isRest = (int)_obj.GetValue("isRest");
-        { var __json0 = _obj.GetValue("resetCost"); int _n0 = (__json0 as JArray).Count; resetCost = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  resetCost[__index0++] = __v0; }   }
-        { var __json0 = _obj.GetValue("resetPool"); int _n0 = (__json0 as JArray).Count; resetPool = new int[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { int __v0;  __v0 = (int)__e0;  resetPool[__index0++] = __v0; }   }
-        isComposite = (int)_obj.GetValue("isComposite");
-        compositeNum = (int)_obj.GetValue("compositeNum");
-        { var __json0 = _obj.GetValue("compositePool"); int _n0 = (__json0 as JArray).Count; compositePool = new int[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { int __v0;  __v0 = (int)__e0;  compositePool[__index0++] = __v0; }   }
+        rank = _buf.ReadInt();
+        isRest = _buf.ReadInt();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);resetCost = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); resetCost[__index0] = __e0;}}
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);resetPool = new int[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { int __e0;__e0 = _buf.ReadInt(); resetPool[__index0] = __e0;}}
+        isComposite = _buf.ReadInt();
+        compositeNum = _buf.ReadInt();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);compositePool = new int[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { int __e0;__e0 = _buf.ReadInt(); compositePool[__index0] = __e0;}}
     }
 
-    public static Gem_GemType DeserializeGem_GemType(JToken _buf)
+    public static Gem_GemType DeserializeGem_GemType(ByteBuf _buf)
     {
         return new Gem_GemType(_buf);
     }
@@ -62,8 +58,7 @@ public sealed partial class Gem_GemType : Luban.BeanBase
     /// 下一级宝石的合成池<br/>武器|衣服|戒指|饰品
     /// </summary>
     public readonly int[] compositePool;
-
-
+   
     public const int __ID__ = -1200223751;
     public override int GetTypeId() => __ID__;
 
@@ -84,5 +79,6 @@ public sealed partial class Gem_GemType : Luban.BeanBase
         + "}";
     }
 }
+
 }
 

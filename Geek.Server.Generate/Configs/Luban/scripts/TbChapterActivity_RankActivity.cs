@@ -7,14 +7,11 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-using Newtonsoft.Json.Linq;
 using Luban;
-
 
 
 namespace HotFix.Cfg
 {
-
 /// <summary>
 /// Generated from ChapterActivity.xlsx sheet RankActivity
 /// </summary>
@@ -23,20 +20,19 @@ public partial class TbChapterActivity_RankActivity
     private readonly System.Collections.Generic.Dictionary<int, ChapterActivity_RankActivity> _dataMap;
     private readonly System.Collections.Generic.List<ChapterActivity_RankActivity> _dataList;
     
-    public TbChapterActivity_RankActivity(JArray _buf)
+    public TbChapterActivity_RankActivity(ByteBuf _buf)
     {
         _dataMap = new System.Collections.Generic.Dictionary<int, ChapterActivity_RankActivity>();
         _dataList = new System.Collections.Generic.List<ChapterActivity_RankActivity>();
         
-        foreach(JObject _ele in _buf)
+        for(int n = _buf.ReadSize() ; n > 0 ; --n)
         {
             ChapterActivity_RankActivity _v;
-            _v = global::HotFix.Cfg.ChapterActivity_RankActivity.DeserializeChapterActivity_RankActivity(_ele);
+            _v = global::HotFix.Cfg.ChapterActivity_RankActivity.DeserializeChapterActivity_RankActivity(_buf);
             _dataList.Add(_v);
             _dataMap.Add(_v.id, _v);
-         }
+        }
     }
-
 
     public System.Collections.Generic.Dictionary<int, ChapterActivity_RankActivity> DataMap => _dataMap;
     public System.Collections.Generic.List<ChapterActivity_RankActivity> DataList => _dataList;
@@ -54,5 +50,6 @@ public partial class TbChapterActivity_RankActivity
     }
 
 }
+
 }
 

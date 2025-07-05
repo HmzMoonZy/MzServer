@@ -8,27 +8,23 @@
 //------------------------------------------------------------------------------
 
 using Luban;
-using Newtonsoft.Json.Linq;
-
 
 
 namespace HotFix.Cfg
 {
-
 public sealed partial class Artifact_artifactLevel : Luban.BeanBase
 {
-    public Artifact_artifactLevel(JToken _buf) 
+    public Artifact_artifactLevel(ByteBuf _buf) 
     {
-        JObject _obj = _buf as JObject;
-        id = (int)_obj.GetValue("id");
-        stage = (int)_obj.GetValue("stage");
-        star = (int)_obj.GetValue("star");
-        itemCost = (int)_obj.GetValue("itemCost");
-        levelCost = (int)_obj.GetValue("levelCost");
-        { var __json0 = _obj.GetValue("attribute"); int _n0 = (__json0 as JArray).Count; attribute = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  attribute[__index0++] = __v0; }   }
+        id = _buf.ReadInt();
+        stage = _buf.ReadInt();
+        star = _buf.ReadInt();
+        itemCost = _buf.ReadInt();
+        levelCost = _buf.ReadInt();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);attribute = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); attribute[__index0] = __e0;}}
     }
 
-    public static Artifact_artifactLevel DeserializeArtifact_artifactLevel(JToken _buf)
+    public static Artifact_artifactLevel DeserializeArtifact_artifactLevel(ByteBuf _buf)
     {
         return new Artifact_artifactLevel(_buf);
     }
@@ -57,8 +53,7 @@ public sealed partial class Artifact_artifactLevel : Luban.BeanBase
     /// 升级属性
     /// </summary>
     public readonly string[] attribute;
-
-
+   
     public const int __ID__ = -530946747;
     public override int GetTypeId() => __ID__;
 
@@ -78,5 +73,6 @@ public sealed partial class Artifact_artifactLevel : Luban.BeanBase
         + "}";
     }
 }
+
 }
 

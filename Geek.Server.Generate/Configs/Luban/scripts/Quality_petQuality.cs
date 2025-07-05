@@ -8,44 +8,40 @@
 //------------------------------------------------------------------------------
 
 using Luban;
-using Newtonsoft.Json.Linq;
-
 
 
 namespace HotFix.Cfg
 {
-
 public sealed partial class Quality_petQuality : Luban.BeanBase
 {
-    public Quality_petQuality(JToken _buf) 
+    public Quality_petQuality(ByteBuf _buf) 
     {
-        JObject _obj = _buf as JObject;
-        id = (int)_obj.GetValue("id");
-        nameID = (string)_obj.GetValue("nameID");
-        collectionNameID = (string)_obj.GetValue("collectionNameID");
-        atlasId = (int)_obj.GetValue("atlasId");
-        bgSpriteName = (string)_obj.GetValue("bgSpriteName");
-        bgSpriteNameStyle = (string)_obj.GetValue("bgSpriteNameStyle");
-        typeBgSpriteName = (string)_obj.GetValue("typeBgSpriteName");
-        typeTxtBg = (string)_obj.GetValue("typeTxtBg");
-        typeTxtBgStyle = (string)_obj.GetValue("typeTxtBgStyle");
-        imgBottomCircle = (string)_obj.GetValue("imgBottomCircle");
-        imgFragment = (string)_obj.GetValue("imgFragment");
-        { var __json0 = _obj.GetValue("passiveTextColor"); int _n0 = (__json0 as JArray).Count; passiveTextColor = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  passiveTextColor[__index0++] = __v0; }   }
-        { var __json0 = _obj.GetValue("passiveTextColor2"); int _n0 = (__json0 as JArray).Count; passiveTextColor2 = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  passiveTextColor2[__index0++] = __v0; }   }
-        colorNum = (string)_obj.GetValue("colorNum");
-        colorNumDark = (string)_obj.GetValue("colorNumDark");
-        drawCardBgEffect = (string)_obj.GetValue("drawCardBgEffect");
-        drawCardFireEffect = (string)_obj.GetValue("drawCardFireEffect");
-        drawCardFireEffect2 = (string)_obj.GetValue("drawCardFireEffect2");
-        drawCardFireBurstEffect = (string)_obj.GetValue("drawCardFireBurstEffect");
-        drawCardFireBurstEffect2 = (string)_obj.GetValue("drawCardFireBurstEffect2");
-        drawCardBurstLightEffect = (string)_obj.GetValue("drawCardBurstLightEffect");
-        passiveSweepEffect = (string)_obj.GetValue("passiveSweepEffect");
-        passiveStreamerEffect = (string)_obj.GetValue("passiveStreamerEffect");
+        id = _buf.ReadInt();
+        nameID = _buf.ReadString();
+        collectionNameID = _buf.ReadString();
+        atlasId = _buf.ReadInt();
+        bgSpriteName = _buf.ReadString();
+        bgSpriteNameStyle = _buf.ReadString();
+        typeBgSpriteName = _buf.ReadString();
+        typeTxtBg = _buf.ReadString();
+        typeTxtBgStyle = _buf.ReadString();
+        imgBottomCircle = _buf.ReadString();
+        imgFragment = _buf.ReadString();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);passiveTextColor = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); passiveTextColor[__index0] = __e0;}}
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);passiveTextColor2 = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); passiveTextColor2[__index0] = __e0;}}
+        colorNum = _buf.ReadString();
+        colorNumDark = _buf.ReadString();
+        drawCardBgEffect = _buf.ReadString();
+        drawCardFireEffect = _buf.ReadString();
+        drawCardFireEffect2 = _buf.ReadString();
+        drawCardFireBurstEffect = _buf.ReadString();
+        drawCardFireBurstEffect2 = _buf.ReadString();
+        drawCardBurstLightEffect = _buf.ReadString();
+        passiveSweepEffect = _buf.ReadString();
+        passiveStreamerEffect = _buf.ReadString();
     }
 
-    public static Quality_petQuality DeserializeQuality_petQuality(JToken _buf)
+    public static Quality_petQuality DeserializeQuality_petQuality(ByteBuf _buf)
     {
         return new Quality_petQuality(_buf);
     }
@@ -142,8 +138,7 @@ public sealed partial class Quality_petQuality : Luban.BeanBase
     /// 被动词条旋转光效
     /// </summary>
     public readonly string passiveStreamerEffect;
-
-
+   
     public const int __ID__ = 117441088;
     public override int GetTypeId() => __ID__;
 
@@ -180,5 +175,6 @@ public sealed partial class Quality_petQuality : Luban.BeanBase
         + "}";
     }
 }
+
 }
 

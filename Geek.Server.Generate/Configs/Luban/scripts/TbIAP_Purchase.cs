@@ -7,14 +7,11 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-using Newtonsoft.Json.Linq;
 using Luban;
-
 
 
 namespace HotFix.Cfg
 {
-
 /// <summary>
 /// Generated from IAP.xlsx sheet Purchase
 /// </summary>
@@ -23,20 +20,19 @@ public partial class TbIAP_Purchase
     private readonly System.Collections.Generic.Dictionary<int, IAP_Purchase> _dataMap;
     private readonly System.Collections.Generic.List<IAP_Purchase> _dataList;
     
-    public TbIAP_Purchase(JArray _buf)
+    public TbIAP_Purchase(ByteBuf _buf)
     {
         _dataMap = new System.Collections.Generic.Dictionary<int, IAP_Purchase>();
         _dataList = new System.Collections.Generic.List<IAP_Purchase>();
         
-        foreach(JObject _ele in _buf)
+        for(int n = _buf.ReadSize() ; n > 0 ; --n)
         {
             IAP_Purchase _v;
-            _v = global::HotFix.Cfg.IAP_Purchase.DeserializeIAP_Purchase(_ele);
+            _v = global::HotFix.Cfg.IAP_Purchase.DeserializeIAP_Purchase(_buf);
             _dataList.Add(_v);
             _dataMap.Add(_v.id, _v);
-         }
+        }
     }
-
 
     public System.Collections.Generic.Dictionary<int, IAP_Purchase> DataMap => _dataMap;
     public System.Collections.Generic.List<IAP_Purchase> DataList => _dataList;
@@ -54,5 +50,6 @@ public partial class TbIAP_Purchase
     }
 
 }
+
 }
 

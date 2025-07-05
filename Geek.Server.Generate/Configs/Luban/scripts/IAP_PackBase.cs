@@ -8,27 +8,23 @@
 //------------------------------------------------------------------------------
 
 using Luban;
-using Newtonsoft.Json.Linq;
-
 
 
 namespace HotFix.Cfg
 {
-
 public sealed partial class IAP_PackBase : Luban.BeanBase
 {
-    public IAP_PackBase(JToken _buf) 
+    public IAP_PackBase(ByteBuf _buf) 
     {
-        JObject _obj = _buf as JObject;
-        ID = (int)_obj.GetValue("ID");
-        StartTime = (string)_obj.GetValue("StartTime");
-        EndTime = (string)_obj.GetValue("EndTime");
-        StartTimeCN = (string)_obj.GetValue("StartTimeCN");
-        EndTimeCN = (string)_obj.GetValue("EndTimeCN");
-        PackGift = (int)_obj.GetValue("PackGift");
+        ID = _buf.ReadInt();
+        StartTime = _buf.ReadString();
+        EndTime = _buf.ReadString();
+        StartTimeCN = _buf.ReadString();
+        EndTimeCN = _buf.ReadString();
+        PackGift = _buf.ReadInt();
     }
 
-    public static IAP_PackBase DeserializeIAP_PackBase(JToken _buf)
+    public static IAP_PackBase DeserializeIAP_PackBase(ByteBuf _buf)
     {
         return new IAP_PackBase(_buf);
     }
@@ -57,8 +53,7 @@ public sealed partial class IAP_PackBase : Luban.BeanBase
     /// 母礼包
     /// </summary>
     public readonly int PackGift;
-
-
+   
     public const int __ID__ = -1935695151;
     public override int GetTypeId() => __ID__;
 
@@ -78,5 +73,6 @@ public sealed partial class IAP_PackBase : Luban.BeanBase
         + "}";
     }
 }
+
 }
 

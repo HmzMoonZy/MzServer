@@ -8,33 +8,29 @@
 //------------------------------------------------------------------------------
 
 using Luban;
-using Newtonsoft.Json.Linq;
-
 
 
 namespace HotFix.Cfg
 {
-
 public sealed partial class Mining_oreRes : Luban.BeanBase
 {
-    public Mining_oreRes(JToken _buf) 
+    public Mining_oreRes(ByteBuf _buf) 
     {
-        JObject _obj = _buf as JObject;
-        id = (int)_obj.GetValue("id");
-        atlas = (int)_obj.GetValue("atlas");
-        icon = (string)_obj.GetValue("icon");
-        languageId = (string)_obj.GetValue("languageId");
-        desId = (string)_obj.GetValue("desId");
-        model = (int)_obj.GetValue("model");
-        uptimes = (int)_obj.GetValue("uptimes");
-        knock = (int)_obj.GetValue("knock");
-        isShowknock = (int)_obj.GetValue("isShowknock");
-        { var __json0 = _obj.GetValue("qualityRandom"); int _n0 = (__json0 as JArray).Count; qualityRandom = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  qualityRandom[__index0++] = __v0; }   }
-        { var __json0 = _obj.GetValue("iconOffset"); int _n0 = (__json0 as JArray).Count; iconOffset = new float[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { float __v0;  __v0 = (float)__e0;  iconOffset[__index0++] = __v0; }   }
-        iconScale = (float)_obj.GetValue("iconScale");
+        id = _buf.ReadInt();
+        atlas = _buf.ReadInt();
+        icon = _buf.ReadString();
+        languageId = _buf.ReadString();
+        desId = _buf.ReadString();
+        model = _buf.ReadInt();
+        uptimes = _buf.ReadInt();
+        knock = _buf.ReadInt();
+        isShowknock = _buf.ReadInt();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);qualityRandom = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); qualityRandom[__index0] = __e0;}}
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);iconOffset = new float[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { float __e0;__e0 = _buf.ReadFloat(); iconOffset[__index0] = __e0;}}
+        iconScale = _buf.ReadFloat();
     }
 
-    public static Mining_oreRes DeserializeMining_oreRes(JToken _buf)
+    public static Mining_oreRes DeserializeMining_oreRes(ByteBuf _buf)
     {
         return new Mining_oreRes(_buf);
     }
@@ -87,8 +83,7 @@ public sealed partial class Mining_oreRes : Luban.BeanBase
     /// 宝藏icon缩放
     /// </summary>
     public readonly float iconScale;
-
-
+   
     public const int __ID__ = -134592243;
     public override int GetTypeId() => __ID__;
 
@@ -114,5 +109,6 @@ public sealed partial class Mining_oreRes : Luban.BeanBase
         + "}";
     }
 }
+
 }
 

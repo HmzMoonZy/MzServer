@@ -7,14 +7,11 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-using Newtonsoft.Json.Linq;
 using Luban;
-
 
 
 namespace HotFix.Cfg
 {
-
 /// <summary>
 /// Generated from IAP.xlsx sheet DiamondPacks
 /// </summary>
@@ -23,20 +20,19 @@ public partial class TbIAP_DiamondPacks
     private readonly System.Collections.Generic.Dictionary<int, IAP_DiamondPacks> _dataMap;
     private readonly System.Collections.Generic.List<IAP_DiamondPacks> _dataList;
     
-    public TbIAP_DiamondPacks(JArray _buf)
+    public TbIAP_DiamondPacks(ByteBuf _buf)
     {
         _dataMap = new System.Collections.Generic.Dictionary<int, IAP_DiamondPacks>();
         _dataList = new System.Collections.Generic.List<IAP_DiamondPacks>();
         
-        foreach(JObject _ele in _buf)
+        for(int n = _buf.ReadSize() ; n > 0 ; --n)
         {
             IAP_DiamondPacks _v;
-            _v = global::HotFix.Cfg.IAP_DiamondPacks.DeserializeIAP_DiamondPacks(_ele);
+            _v = global::HotFix.Cfg.IAP_DiamondPacks.DeserializeIAP_DiamondPacks(_buf);
             _dataList.Add(_v);
             _dataMap.Add(_v.id, _v);
-         }
+        }
     }
-
 
     public System.Collections.Generic.Dictionary<int, IAP_DiamondPacks> DataMap => _dataMap;
     public System.Collections.Generic.List<IAP_DiamondPacks> DataList => _dataList;
@@ -54,5 +50,6 @@ public partial class TbIAP_DiamondPacks
     }
 
 }
+
 }
 

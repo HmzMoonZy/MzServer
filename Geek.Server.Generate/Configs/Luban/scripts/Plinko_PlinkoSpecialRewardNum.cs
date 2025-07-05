@@ -8,23 +8,19 @@
 //------------------------------------------------------------------------------
 
 using Luban;
-using Newtonsoft.Json.Linq;
-
 
 
 namespace HotFix.Cfg
 {
-
 public sealed partial class Plinko_PlinkoSpecialRewardNum : Luban.BeanBase
 {
-    public Plinko_PlinkoSpecialRewardNum(JToken _buf) 
+    public Plinko_PlinkoSpecialRewardNum(ByteBuf _buf) 
     {
-        JObject _obj = _buf as JObject;
-        ID = (int)_obj.GetValue("ID");
-        { var __json0 = _obj.GetValue("BallNum"); int _n0 = (__json0 as JArray).Count; BallNum = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  BallNum[__index0++] = __v0; }   }
+        ID = _buf.ReadInt();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);BallNum = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); BallNum[__index0] = __e0;}}
     }
 
-    public static Plinko_PlinkoSpecialRewardNum DeserializePlinko_PlinkoSpecialRewardNum(JToken _buf)
+    public static Plinko_PlinkoSpecialRewardNum DeserializePlinko_PlinkoSpecialRewardNum(ByteBuf _buf)
     {
         return new Plinko_PlinkoSpecialRewardNum(_buf);
     }
@@ -37,8 +33,7 @@ public sealed partial class Plinko_PlinkoSpecialRewardNum : Luban.BeanBase
     /// 中奖个数，该组内该中奖个数包含多少个
     /// </summary>
     public readonly string[] BallNum;
-
-
+   
     public const int __ID__ = -481331011;
     public override int GetTypeId() => __ID__;
 
@@ -54,5 +49,6 @@ public sealed partial class Plinko_PlinkoSpecialRewardNum : Luban.BeanBase
         + "}";
     }
 }
+
 }
 

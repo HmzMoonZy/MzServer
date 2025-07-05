@@ -8,25 +8,21 @@
 //------------------------------------------------------------------------------
 
 using Luban;
-using Newtonsoft.Json.Linq;
-
 
 
 namespace HotFix.Cfg
 {
-
 public sealed partial class GuildWar_RankReward : Luban.BeanBase
 {
-    public GuildWar_RankReward(JToken _buf) 
+    public GuildWar_RankReward(ByteBuf _buf) 
     {
-        JObject _obj = _buf as JObject;
-        id = (int)_obj.GetValue("id");
-        levelID = (int)_obj.GetValue("levelID");
-        { var __json0 = _obj.GetValue("ranking"); int _n0 = (__json0 as JArray).Count; ranking = new int[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { int __v0;  __v0 = (int)__e0;  ranking[__index0++] = __v0; }   }
-        { var __json0 = _obj.GetValue("WeekRewards"); int _n0 = (__json0 as JArray).Count; WeekRewards = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  WeekRewards[__index0++] = __v0; }   }
+        id = _buf.ReadInt();
+        levelID = _buf.ReadInt();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);ranking = new int[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { int __e0;__e0 = _buf.ReadInt(); ranking[__index0] = __e0;}}
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);WeekRewards = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); WeekRewards[__index0] = __e0;}}
     }
 
-    public static GuildWar_RankReward DeserializeGuildWar_RankReward(JToken _buf)
+    public static GuildWar_RankReward DeserializeGuildWar_RankReward(ByteBuf _buf)
     {
         return new GuildWar_RankReward(_buf);
     }
@@ -47,8 +43,7 @@ public sealed partial class GuildWar_RankReward : Luban.BeanBase
     /// 周奖励
     /// </summary>
     public readonly string[] WeekRewards;
-
-
+   
     public const int __ID__ = -939776251;
     public override int GetTypeId() => __ID__;
 
@@ -66,5 +61,6 @@ public sealed partial class GuildWar_RankReward : Luban.BeanBase
         + "}";
     }
 }
+
 }
 

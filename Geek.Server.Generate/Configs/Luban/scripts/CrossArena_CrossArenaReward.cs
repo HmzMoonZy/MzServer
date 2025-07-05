@@ -8,28 +8,24 @@
 //------------------------------------------------------------------------------
 
 using Luban;
-using Newtonsoft.Json.Linq;
-
 
 
 namespace HotFix.Cfg
 {
-
 public sealed partial class CrossArena_CrossArenaReward : Luban.BeanBase
 {
-    public CrossArena_CrossArenaReward(JToken _buf) 
+    public CrossArena_CrossArenaReward(ByteBuf _buf) 
     {
-        JObject _obj = _buf as JObject;
-        ID = (int)_obj.GetValue("ID");
-        levelID = (int)_obj.GetValue("levelID");
-        { var __json0 = _obj.GetValue("ranking"); int _n0 = (__json0 as JArray).Count; ranking = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  ranking[__index0++] = __v0; }   }
-        { var __json0 = _obj.GetValue("DailyRewards"); int _n0 = (__json0 as JArray).Count; DailyRewards = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  DailyRewards[__index0++] = __v0; }   }
-        { var __json0 = _obj.GetValue("weeklyRewards"); int _n0 = (__json0 as JArray).Count; weeklyRewards = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  weeklyRewards[__index0++] = __v0; }   }
-        { var __json0 = _obj.GetValue("DailyRewards5_25"); int _n0 = (__json0 as JArray).Count; DailyRewards5_25 = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  DailyRewards5_25[__index0++] = __v0; }   }
-        { var __json0 = _obj.GetValue("weeklyRewards5_25"); int _n0 = (__json0 as JArray).Count; weeklyRewards5_25 = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  weeklyRewards5_25[__index0++] = __v0; }   }
+        ID = _buf.ReadInt();
+        levelID = _buf.ReadInt();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);ranking = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); ranking[__index0] = __e0;}}
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);DailyRewards = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); DailyRewards[__index0] = __e0;}}
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);weeklyRewards = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); weeklyRewards[__index0] = __e0;}}
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);DailyRewards5_25 = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); DailyRewards5_25[__index0] = __e0;}}
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);weeklyRewards5_25 = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); weeklyRewards5_25[__index0] = __e0;}}
     }
 
-    public static CrossArena_CrossArenaReward DeserializeCrossArena_CrossArenaReward(JToken _buf)
+    public static CrossArena_CrossArenaReward DeserializeCrossArena_CrossArenaReward(ByteBuf _buf)
     {
         return new CrossArena_CrossArenaReward(_buf);
     }
@@ -62,8 +58,7 @@ public sealed partial class CrossArena_CrossArenaReward : Luban.BeanBase
     /// 每周奖励<br/>老版本
     /// </summary>
     public readonly string[] weeklyRewards5_25;
-
-
+   
     public const int __ID__ = -2004241586;
     public override int GetTypeId() => __ID__;
 
@@ -84,5 +79,6 @@ public sealed partial class CrossArena_CrossArenaReward : Luban.BeanBase
         + "}";
     }
 }
+
 }
 

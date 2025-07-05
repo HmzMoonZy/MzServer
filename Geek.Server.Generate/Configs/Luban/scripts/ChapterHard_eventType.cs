@@ -8,24 +8,20 @@
 //------------------------------------------------------------------------------
 
 using Luban;
-using Newtonsoft.Json.Linq;
-
 
 
 namespace HotFix.Cfg
 {
-
 public sealed partial class ChapterHard_eventType : Luban.BeanBase
 {
-    public ChapterHard_eventType(JToken _buf) 
+    public ChapterHard_eventType(ByteBuf _buf) 
     {
-        JObject _obj = _buf as JObject;
-        id = (int)_obj.GetValue("id");
-        gameEventType = (int)_obj.GetValue("gameEventType");
-        { var __json0 = _obj.GetValue("events"); int _n0 = (__json0 as JArray).Count; events = new int[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { int __v0;  __v0 = (int)__e0;  events[__index0++] = __v0; }   }
+        id = _buf.ReadInt();
+        gameEventType = _buf.ReadInt();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);events = new int[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { int __e0;__e0 = _buf.ReadInt(); events[__index0] = __e0;}}
     }
 
-    public static ChapterHard_eventType DeserializeChapterHard_eventType(JToken _buf)
+    public static ChapterHard_eventType DeserializeChapterHard_eventType(ByteBuf _buf)
     {
         return new ChapterHard_eventType(_buf);
     }
@@ -42,8 +38,7 @@ public sealed partial class ChapterHard_eventType : Luban.BeanBase
     /// 对应eventRes表id<br/>1-对阵ID、2-事件ID
     /// </summary>
     public readonly int[] events;
-
-
+   
     public const int __ID__ = 133953581;
     public override int GetTypeId() => __ID__;
 
@@ -60,5 +55,6 @@ public sealed partial class ChapterHard_eventType : Luban.BeanBase
         + "}";
     }
 }
+
 }
 

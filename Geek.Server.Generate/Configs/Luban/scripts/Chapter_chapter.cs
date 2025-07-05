@@ -8,67 +8,63 @@
 //------------------------------------------------------------------------------
 
 using Luban;
-using Newtonsoft.Json.Linq;
-
 
 
 namespace HotFix.Cfg
 {
-
 public sealed partial class Chapter_chapter : Luban.BeanBase
 {
-    public Chapter_chapter(JToken _buf) 
+    public Chapter_chapter(ByteBuf _buf) 
     {
-        JObject _obj = _buf as JObject;
-        id = (int)_obj.GetValue("id");
-        nameId = (string)_obj.GetValue("nameId");
-        dropBase = (float)_obj.GetValue("dropBase");
-        totalStage = (int)_obj.GetValue("totalStage");
-        { var __json0 = _obj.GetValue("difficultStage"); int _n0 = (__json0 as JArray).Count; difficultStage = new int[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { int __v0;  __v0 = (int)__e0;  difficultStage[__index0++] = __v0; }   }
-        { var __json0 = _obj.GetValue("startEvent"); int _n0 = (__json0 as JArray).Count; startEvent = new int[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { int __v0;  __v0 = (int)__e0;  startEvent[__index0++] = __v0; }   }
-        { var __json0 = _obj.GetValue("eventQueue"); int _n0 = (__json0 as JArray).Count; eventQueue = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  eventQueue[__index0++] = __v0; }   }
-        journeyStage = (int)_obj.GetValue("journeyStage");
-        { var __json0 = _obj.GetValue("journey"); int _n0 = (__json0 as JArray).Count; journey = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  journey[__index0++] = __v0; }   }
-        { var __json0 = _obj.GetValue("normalEvent"); int _n0 = (__json0 as JArray).Count; normalEvent = new int[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { int __v0;  __v0 = (int)__e0;  normalEvent[__index0++] = __v0; }   }
-        { var __json0 = _obj.GetValue("monsterGroup"); int _n0 = (__json0 as JArray).Count; monsterGroup = new int[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { int __v0;  __v0 = (int)__e0;  monsterGroup[__index0++] = __v0; }   }
-        attributes = (string)_obj.GetValue("attributes");
-        normalBattleAttr = (string)_obj.GetValue("normalBattleAttr");
-        eliteBattleAttr = (string)_obj.GetValue("eliteBattleAttr");
-        bossBattleAttr = (string)_obj.GetValue("bossBattleAttr");
-        npcBattleAttr = (string)_obj.GetValue("npcBattleAttr");
-        mapId = (int)_obj.GetValue("mapId");
-        { var __json0 = _obj.GetValue("rewardStage"); int _n0 = (__json0 as JArray).Count; rewardStage = new int[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { int __v0;  __v0 = (int)__e0;  rewardStage[__index0++] = __v0; }   }
-        { var __json0 = _obj.GetValue("staminaReturn"); int _n0 = (__json0 as JArray).Count; staminaReturn = new int[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { int __v0;  __v0 = (int)__e0;  staminaReturn[__index0++] = __v0; }   }
-        { var __json0 = _obj.GetValue("dropID"); int _n0 = (__json0 as JArray).Count; dropID = new int[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { int __v0;  __v0 = (int)__e0;  dropID[__index0++] = __v0; }   }
-        { var __json0 = _obj.GetValue("boxBuild"); int _n0 = (__json0 as JArray).Count; boxBuild = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  boxBuild[__index0++] = __v0; }   }
-        { var __json0 = _obj.GetValue("bgm"); int _n0 = (__json0 as JArray).Count; bgm = new int[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { int __v0;  __v0 = (int)__e0;  bgm[__index0++] = __v0; }   }
-        ride = (int)_obj.GetValue("ride");
-        { var __json0 = _obj.GetValue("cost"); int _n0 = (__json0 as JArray).Count; cost = new int[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { int __v0;  __v0 = (int)__e0;  cost[__index0++] = __v0; }   }
-        battleMaxDropGold = (int)_obj.GetValue("battleMaxDropGold");
-        battleAttributeArea = (int)_obj.GetValue("battleAttributeArea");
-        battleSkillArea = (int)_obj.GetValue("battleSkillArea");
-        goldDrop = (int)_obj.GetValue("goldDrop");
-        gemDrop = (int)_obj.GetValue("gemDrop");
-        { var __json0 = _obj.GetValue("packageDrop"); int _n0 = (__json0 as JArray).Count; packageDrop = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  packageDrop[__index0++] = __v0; }   }
-        { var __json0 = _obj.GetValue("bigBonus"); int _n0 = (__json0 as JArray).Count; bigBonus = new int[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { int __v0;  __v0 = (int)__e0;  bigBonus[__index0++] = __v0; }   }
-        { var __json0 = _obj.GetValue("smallBonus"); int _n0 = (__json0 as JArray).Count; smallBonus = new int[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { int __v0;  __v0 = (int)__e0;  smallBonus[__index0++] = __v0; }   }
-        { var __json0 = _obj.GetValue("itemDrop"); int _n0 = (__json0 as JArray).Count; itemDrop = new int[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { int __v0;  __v0 = (int)__e0;  itemDrop[__index0++] = __v0; }   }
-        { var __json0 = _obj.GetValue("battleGoldDrop"); int _n0 = (__json0 as JArray).Count; battleGoldDrop = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  battleGoldDrop[__index0++] = __v0; }   }
-        { var __json0 = _obj.GetValue("journeyGoldDrop"); int _n0 = (__json0 as JArray).Count; journeyGoldDrop = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  journeyGoldDrop[__index0++] = __v0; }   }
-        unlockType = (int)_obj.GetValue("unlockType");
-        { var __json0 = _obj.GetValue("unlock"); int _n0 = (__json0 as JArray).Count; unlock = new int[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { int __v0;  __v0 = (int)__e0;  unlock[__index0++] = __v0; }   }
-        legacyTip = (string)_obj.GetValue("legacyTip");
-        { var __json0 = _obj.GetValue("star"); int _n0 = (__json0 as JArray).Count; star = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  star[__index0++] = __v0; }   }
-        jumpPower = (long)_obj.GetValue("jumpPower");
-        jumpPowerV1_5_8 = (long)_obj.GetValue("jumpPowerV1_5_8");
-        chapterType = (int)_obj.GetValue("chapterType");
-        { var __json0 = _obj.GetValue("loopChapterQueue"); int _n0 = (__json0 as JArray).Count; loopChapterQueue = new int[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { int __v0;  __v0 = (int)__e0;  loopChapterQueue[__index0++] = __v0; }   }
-        { var __json0 = _obj.GetValue("loopChapterFinal"); int _n0 = (__json0 as JArray).Count; loopChapterFinal = new int[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { int __v0;  __v0 = (int)__e0;  loopChapterFinal[__index0++] = __v0; }   }
-        stageUpgradeGroup = (int)_obj.GetValue("stageUpgradeGroup");
-        speedAdd = (int)_obj.GetValue("speedAdd");
+        id = _buf.ReadInt();
+        nameId = _buf.ReadString();
+        dropBase = _buf.ReadFloat();
+        totalStage = _buf.ReadInt();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);difficultStage = new int[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { int __e0;__e0 = _buf.ReadInt(); difficultStage[__index0] = __e0;}}
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);startEvent = new int[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { int __e0;__e0 = _buf.ReadInt(); startEvent[__index0] = __e0;}}
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);eventQueue = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); eventQueue[__index0] = __e0;}}
+        journeyStage = _buf.ReadInt();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);journey = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); journey[__index0] = __e0;}}
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);normalEvent = new int[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { int __e0;__e0 = _buf.ReadInt(); normalEvent[__index0] = __e0;}}
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);monsterGroup = new int[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { int __e0;__e0 = _buf.ReadInt(); monsterGroup[__index0] = __e0;}}
+        attributes = _buf.ReadString();
+        normalBattleAttr = _buf.ReadString();
+        eliteBattleAttr = _buf.ReadString();
+        bossBattleAttr = _buf.ReadString();
+        npcBattleAttr = _buf.ReadString();
+        mapId = _buf.ReadInt();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);rewardStage = new int[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { int __e0;__e0 = _buf.ReadInt(); rewardStage[__index0] = __e0;}}
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);staminaReturn = new int[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { int __e0;__e0 = _buf.ReadInt(); staminaReturn[__index0] = __e0;}}
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);dropID = new int[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { int __e0;__e0 = _buf.ReadInt(); dropID[__index0] = __e0;}}
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);boxBuild = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); boxBuild[__index0] = __e0;}}
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);bgm = new int[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { int __e0;__e0 = _buf.ReadInt(); bgm[__index0] = __e0;}}
+        ride = _buf.ReadInt();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);cost = new int[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { int __e0;__e0 = _buf.ReadInt(); cost[__index0] = __e0;}}
+        battleMaxDropGold = _buf.ReadInt();
+        battleAttributeArea = _buf.ReadInt();
+        battleSkillArea = _buf.ReadInt();
+        goldDrop = _buf.ReadInt();
+        gemDrop = _buf.ReadInt();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);packageDrop = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); packageDrop[__index0] = __e0;}}
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);bigBonus = new int[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { int __e0;__e0 = _buf.ReadInt(); bigBonus[__index0] = __e0;}}
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);smallBonus = new int[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { int __e0;__e0 = _buf.ReadInt(); smallBonus[__index0] = __e0;}}
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);itemDrop = new int[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { int __e0;__e0 = _buf.ReadInt(); itemDrop[__index0] = __e0;}}
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);battleGoldDrop = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); battleGoldDrop[__index0] = __e0;}}
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);journeyGoldDrop = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); journeyGoldDrop[__index0] = __e0;}}
+        unlockType = _buf.ReadInt();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);unlock = new int[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { int __e0;__e0 = _buf.ReadInt(); unlock[__index0] = __e0;}}
+        legacyTip = _buf.ReadString();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);star = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); star[__index0] = __e0;}}
+        jumpPower = _buf.ReadLong();
+        jumpPowerV1_5_8 = _buf.ReadLong();
+        chapterType = _buf.ReadInt();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);loopChapterQueue = new int[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { int __e0;__e0 = _buf.ReadInt(); loopChapterQueue[__index0] = __e0;}}
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);loopChapterFinal = new int[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { int __e0;__e0 = _buf.ReadInt(); loopChapterFinal[__index0] = __e0;}}
+        stageUpgradeGroup = _buf.ReadInt();
+        speedAdd = _buf.ReadInt();
     }
 
-    public static Chapter_chapter DeserializeChapter_chapter(JToken _buf)
+    public static Chapter_chapter DeserializeChapter_chapter(ByteBuf _buf)
     {
         return new Chapter_chapter(_buf);
     }
@@ -257,8 +253,7 @@ public sealed partial class Chapter_chapter : Luban.BeanBase
     /// 速度加成(万分比)
     /// </summary>
     public readonly int speedAdd;
-
-
+   
     public const int __ID__ = -1684751813;
     public override int GetTypeId() => __ID__;
 
@@ -318,5 +313,6 @@ public sealed partial class Chapter_chapter : Luban.BeanBase
         + "}";
     }
 }
+
 }
 

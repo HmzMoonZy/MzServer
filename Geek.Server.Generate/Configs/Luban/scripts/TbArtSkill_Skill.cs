@@ -7,14 +7,11 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-using Newtonsoft.Json.Linq;
 using Luban;
-
 
 
 namespace HotFix.Cfg
 {
-
 /// <summary>
 /// Generated from ArtSkill.xlsx sheet Skill
 /// </summary>
@@ -23,20 +20,19 @@ public partial class TbArtSkill_Skill
     private readonly System.Collections.Generic.Dictionary<int, ArtSkill_Skill> _dataMap;
     private readonly System.Collections.Generic.List<ArtSkill_Skill> _dataList;
     
-    public TbArtSkill_Skill(JArray _buf)
+    public TbArtSkill_Skill(ByteBuf _buf)
     {
         _dataMap = new System.Collections.Generic.Dictionary<int, ArtSkill_Skill>();
         _dataList = new System.Collections.Generic.List<ArtSkill_Skill>();
         
-        foreach(JObject _ele in _buf)
+        for(int n = _buf.ReadSize() ; n > 0 ; --n)
         {
             ArtSkill_Skill _v;
-            _v = global::HotFix.Cfg.ArtSkill_Skill.DeserializeArtSkill_Skill(_ele);
+            _v = global::HotFix.Cfg.ArtSkill_Skill.DeserializeArtSkill_Skill(_buf);
             _dataList.Add(_v);
             _dataMap.Add(_v.id, _v);
-         }
+        }
     }
-
 
     public System.Collections.Generic.Dictionary<int, ArtSkill_Skill> DataMap => _dataMap;
     public System.Collections.Generic.List<ArtSkill_Skill> DataList => _dataList;
@@ -54,5 +50,6 @@ public partial class TbArtSkill_Skill
     }
 
 }
+
 }
 

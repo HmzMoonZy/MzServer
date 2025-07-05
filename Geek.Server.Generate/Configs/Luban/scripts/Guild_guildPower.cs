@@ -8,24 +8,20 @@
 //------------------------------------------------------------------------------
 
 using Luban;
-using Newtonsoft.Json.Linq;
-
 
 
 namespace HotFix.Cfg
 {
-
 public sealed partial class Guild_guildPower : Luban.BeanBase
 {
-    public Guild_guildPower(JToken _buf) 
+    public Guild_guildPower(ByteBuf _buf) 
     {
-        JObject _obj = _buf as JObject;
-        ID = (int)_obj.GetValue("ID");
-        Notes = (string)_obj.GetValue("Notes");
-        { var __json0 = _obj.GetValue("Power"); int _n0 = (__json0 as JArray).Count; Power = new int[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { int __v0;  __v0 = (int)__e0;  Power[__index0++] = __v0; }   }
+        ID = _buf.ReadInt();
+        Notes = _buf.ReadString();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);Power = new int[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { int __e0;__e0 = _buf.ReadInt(); Power[__index0] = __e0;}}
     }
 
-    public static Guild_guildPower DeserializeGuild_guildPower(JToken _buf)
+    public static Guild_guildPower DeserializeGuild_guildPower(ByteBuf _buf)
     {
         return new Guild_guildPower(_buf);
     }
@@ -42,8 +38,7 @@ public sealed partial class Guild_guildPower : Luban.BeanBase
     /// 权限<br/>1.审批加入<br/>2.修改公会信息与入会要求<br/>3.活动相关<br/>4.任命/取消管理<br/>5.任命/取消副会长<br/>6.解散公会<br/>7.踢人<br/>8.升级公会<br/>
     /// </summary>
     public readonly int[] Power;
-
-
+   
     public const int __ID__ = -825404226;
     public override int GetTypeId() => __ID__;
 
@@ -60,5 +55,6 @@ public sealed partial class Guild_guildPower : Luban.BeanBase
         + "}";
     }
 }
+
 }
 

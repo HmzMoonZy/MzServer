@@ -8,24 +8,20 @@
 //------------------------------------------------------------------------------
 
 using Luban;
-using Newtonsoft.Json.Linq;
-
 
 
 namespace HotFix.Cfg
 {
-
 public sealed partial class Ride_Ride : Luban.BeanBase
 {
-    public Ride_Ride(JToken _buf) 
+    public Ride_Ride(ByteBuf _buf) 
     {
-        JObject _obj = _buf as JObject;
-        id = (int)_obj.GetValue("id");
-        model = (int)_obj.GetValue("model");
-        skin = (string)_obj.GetValue("skin");
+        id = _buf.ReadInt();
+        model = _buf.ReadInt();
+        skin = _buf.ReadString();
     }
 
-    public static Ride_Ride DeserializeRide_Ride(JToken _buf)
+    public static Ride_Ride DeserializeRide_Ride(ByteBuf _buf)
     {
         return new Ride_Ride(_buf);
     }
@@ -42,8 +38,7 @@ public sealed partial class Ride_Ride : Luban.BeanBase
     /// 皮肤名称
     /// </summary>
     public readonly string skin;
-
-
+   
     public const int __ID__ = 1961961439;
     public override int GetTypeId() => __ID__;
 
@@ -60,5 +55,6 @@ public sealed partial class Ride_Ride : Luban.BeanBase
         + "}";
     }
 }
+
 }
 

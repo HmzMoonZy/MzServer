@@ -8,28 +8,24 @@
 //------------------------------------------------------------------------------
 
 using Luban;
-using Newtonsoft.Json.Linq;
-
 
 
 namespace HotFix.Cfg
 {
-
 public sealed partial class ItemResources_jumpResource : Luban.BeanBase
 {
-    public ItemResources_jumpResource(JToken _buf) 
+    public ItemResources_jumpResource(ByteBuf _buf) 
     {
-        JObject _obj = _buf as JObject;
-        id = (int)_obj.GetValue("id");
-        ab = (int)_obj.GetValue("ab");
-        jumpType = (int)_obj.GetValue("jumpType");
-        jumpId = (int)_obj.GetValue("jumpId");
-        atlas = (int)_obj.GetValue("atlas");
-        icon = (string)_obj.GetValue("icon");
-        language = (string)_obj.GetValue("language");
+        id = _buf.ReadInt();
+        ab = _buf.ReadInt();
+        jumpType = _buf.ReadInt();
+        jumpId = _buf.ReadInt();
+        atlas = _buf.ReadInt();
+        icon = _buf.ReadString();
+        language = _buf.ReadString();
     }
 
-    public static ItemResources_jumpResource DeserializeItemResources_jumpResource(JToken _buf)
+    public static ItemResources_jumpResource DeserializeItemResources_jumpResource(ByteBuf _buf)
     {
         return new ItemResources_jumpResource(_buf);
     }
@@ -62,8 +58,7 @@ public sealed partial class ItemResources_jumpResource : Luban.BeanBase
     /// 玩法跳转多语言id
     /// </summary>
     public readonly string language;
-
-
+   
     public const int __ID__ = 833978697;
     public override int GetTypeId() => __ID__;
 
@@ -84,5 +79,6 @@ public sealed partial class ItemResources_jumpResource : Luban.BeanBase
         + "}";
     }
 }
+
 }
 

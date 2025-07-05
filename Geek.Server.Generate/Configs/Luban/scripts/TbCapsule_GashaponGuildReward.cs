@@ -7,14 +7,11 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-using Newtonsoft.Json.Linq;
 using Luban;
-
 
 
 namespace HotFix.Cfg
 {
-
 /// <summary>
 /// Generated from Capsule.xlsx sheet GashaponGuildReward
 /// </summary>
@@ -23,20 +20,19 @@ public partial class TbCapsule_GashaponGuildReward
     private readonly System.Collections.Generic.Dictionary<int, Capsule_GashaponGuildReward> _dataMap;
     private readonly System.Collections.Generic.List<Capsule_GashaponGuildReward> _dataList;
     
-    public TbCapsule_GashaponGuildReward(JArray _buf)
+    public TbCapsule_GashaponGuildReward(ByteBuf _buf)
     {
         _dataMap = new System.Collections.Generic.Dictionary<int, Capsule_GashaponGuildReward>();
         _dataList = new System.Collections.Generic.List<Capsule_GashaponGuildReward>();
         
-        foreach(JObject _ele in _buf)
+        for(int n = _buf.ReadSize() ; n > 0 ; --n)
         {
             Capsule_GashaponGuildReward _v;
-            _v = global::HotFix.Cfg.Capsule_GashaponGuildReward.DeserializeCapsule_GashaponGuildReward(_ele);
+            _v = global::HotFix.Cfg.Capsule_GashaponGuildReward.DeserializeCapsule_GashaponGuildReward(_buf);
             _dataList.Add(_v);
             _dataMap.Add(_v.ID, _v);
-         }
+        }
     }
-
 
     public System.Collections.Generic.Dictionary<int, Capsule_GashaponGuildReward> DataMap => _dataMap;
     public System.Collections.Generic.List<Capsule_GashaponGuildReward> DataList => _dataList;
@@ -54,5 +50,6 @@ public partial class TbCapsule_GashaponGuildReward
     }
 
 }
+
 }
 

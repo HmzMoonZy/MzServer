@@ -8,23 +8,19 @@
 //------------------------------------------------------------------------------
 
 using Luban;
-using Newtonsoft.Json.Linq;
-
 
 
 namespace HotFix.Cfg
 {
-
 public sealed partial class ActivityDan_MonoBattlepassQuality : Luban.BeanBase
 {
-    public ActivityDan_MonoBattlepassQuality(JToken _buf) 
+    public ActivityDan_MonoBattlepassQuality(ByteBuf _buf) 
     {
-        JObject _obj = _buf as JObject;
-        id = (int)_obj.GetValue("id");
-        upgradeRate = (int)_obj.GetValue("upgradeRate");
+        id = _buf.ReadInt();
+        upgradeRate = _buf.ReadInt();
     }
 
-    public static ActivityDan_MonoBattlepassQuality DeserializeActivityDan_MonoBattlepassQuality(JToken _buf)
+    public static ActivityDan_MonoBattlepassQuality DeserializeActivityDan_MonoBattlepassQuality(ByteBuf _buf)
     {
         return new ActivityDan_MonoBattlepassQuality(_buf);
     }
@@ -37,8 +33,7 @@ public sealed partial class ActivityDan_MonoBattlepassQuality : Luban.BeanBase
     /// 升品概率（万分比）
     /// </summary>
     public readonly int upgradeRate;
-
-
+   
     public const int __ID__ = -1058434922;
     public override int GetTypeId() => __ID__;
 
@@ -54,5 +49,6 @@ public sealed partial class ActivityDan_MonoBattlepassQuality : Luban.BeanBase
         + "}";
     }
 }
+
 }
 

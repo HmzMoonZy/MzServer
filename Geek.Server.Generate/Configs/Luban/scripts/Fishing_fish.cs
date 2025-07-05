@@ -8,37 +8,33 @@
 //------------------------------------------------------------------------------
 
 using Luban;
-using Newtonsoft.Json.Linq;
-
 
 
 namespace HotFix.Cfg
 {
-
 public sealed partial class Fishing_fish : Luban.BeanBase
 {
-    public Fishing_fish(JToken _buf) 
+    public Fishing_fish(ByteBuf _buf) 
     {
-        JObject _obj = _buf as JObject;
-        id = (int)_obj.GetValue("id");
-        nameId = (string)_obj.GetValue("nameId");
-        notes = (string)_obj.GetValue("notes");
-        atlas = (int)_obj.GetValue("atlas");
-        icon = (string)_obj.GetValue("icon");
-        area = (int)_obj.GetValue("area");
-        type = (int)_obj.GetValue("type");
-        number = (int)_obj.GetValue("number");
-        weight = (int)_obj.GetValue("weight");
-        { var __json0 = _obj.GetValue("weightFloat"); int _n0 = (__json0 as JArray).Count; weightFloat = new int[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { int __v0;  __v0 = (int)__e0;  weightFloat[__index0++] = __v0; }   }
-        initialDamage = (int)_obj.GetValue("initialDamage");
-        strength = (int)_obj.GetValue("strength");
-        speed = (int)_obj.GetValue("speed");
-        { var __json0 = _obj.GetValue("actionList"); int _n0 = (__json0 as JArray).Count; actionList = new int[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { int __v0;  __v0 = (int)__e0;  actionList[__index0++] = __v0; }   }
-        attributes = (string)_obj.GetValue("attributes");
-        skillBuild = (int)_obj.GetValue("skillBuild");
+        id = _buf.ReadInt();
+        nameId = _buf.ReadString();
+        notes = _buf.ReadString();
+        atlas = _buf.ReadInt();
+        icon = _buf.ReadString();
+        area = _buf.ReadInt();
+        type = _buf.ReadInt();
+        number = _buf.ReadInt();
+        weight = _buf.ReadInt();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);weightFloat = new int[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { int __e0;__e0 = _buf.ReadInt(); weightFloat[__index0] = __e0;}}
+        initialDamage = _buf.ReadInt();
+        strength = _buf.ReadInt();
+        speed = _buf.ReadInt();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);actionList = new int[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { int __e0;__e0 = _buf.ReadInt(); actionList[__index0] = __e0;}}
+        attributes = _buf.ReadString();
+        skillBuild = _buf.ReadInt();
     }
 
-    public static Fishing_fish DeserializeFishing_fish(JToken _buf)
+    public static Fishing_fish DeserializeFishing_fish(ByteBuf _buf)
     {
         return new Fishing_fish(_buf);
     }
@@ -107,8 +103,7 @@ public sealed partial class Fishing_fish : Luban.BeanBase
     /// 获得技能
     /// </summary>
     public readonly int skillBuild;
-
-
+   
     public const int __ID__ = 815933197;
     public override int GetTypeId() => __ID__;
 
@@ -138,5 +133,6 @@ public sealed partial class Fishing_fish : Luban.BeanBase
         + "}";
     }
 }
+
 }
 

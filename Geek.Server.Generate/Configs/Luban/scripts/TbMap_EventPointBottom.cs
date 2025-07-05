@@ -7,14 +7,11 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-using Newtonsoft.Json.Linq;
 using Luban;
-
 
 
 namespace HotFix.Cfg
 {
-
 /// <summary>
 /// Generated from Map.xlsx sheet EventPointBottom
 /// </summary>
@@ -23,20 +20,19 @@ public partial class TbMap_EventPointBottom
     private readonly System.Collections.Generic.Dictionary<int, Map_EventPointBottom> _dataMap;
     private readonly System.Collections.Generic.List<Map_EventPointBottom> _dataList;
     
-    public TbMap_EventPointBottom(JArray _buf)
+    public TbMap_EventPointBottom(ByteBuf _buf)
     {
         _dataMap = new System.Collections.Generic.Dictionary<int, Map_EventPointBottom>();
         _dataList = new System.Collections.Generic.List<Map_EventPointBottom>();
         
-        foreach(JObject _ele in _buf)
+        for(int n = _buf.ReadSize() ; n > 0 ; --n)
         {
             Map_EventPointBottom _v;
-            _v = global::HotFix.Cfg.Map_EventPointBottom.DeserializeMap_EventPointBottom(_ele);
+            _v = global::HotFix.Cfg.Map_EventPointBottom.DeserializeMap_EventPointBottom(_buf);
             _dataList.Add(_v);
             _dataMap.Add(_v.id, _v);
-         }
+        }
     }
-
 
     public System.Collections.Generic.Dictionary<int, Map_EventPointBottom> DataMap => _dataMap;
     public System.Collections.Generic.List<Map_EventPointBottom> DataList => _dataList;
@@ -54,5 +50,6 @@ public partial class TbMap_EventPointBottom
     }
 
 }
+
 }
 

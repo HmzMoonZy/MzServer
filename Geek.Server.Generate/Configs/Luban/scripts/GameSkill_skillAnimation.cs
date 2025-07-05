@@ -8,25 +8,21 @@
 //------------------------------------------------------------------------------
 
 using Luban;
-using Newtonsoft.Json.Linq;
-
 
 
 namespace HotFix.Cfg
 {
-
 public sealed partial class GameSkill_skillAnimation : Luban.BeanBase
 {
-    public GameSkill_skillAnimation(JToken _buf) 
+    public GameSkill_skillAnimation(ByteBuf _buf) 
     {
-        JObject _obj = _buf as JObject;
-        id = (int)_obj.GetValue("id");
-        animationEnterName = (string)_obj.GetValue("animationEnterName");
-        animationAttackName = (string)_obj.GetValue("animationAttackName");
-        animationExitName = (string)_obj.GetValue("animationExitName");
+        id = _buf.ReadInt();
+        animationEnterName = _buf.ReadString();
+        animationAttackName = _buf.ReadString();
+        animationExitName = _buf.ReadString();
     }
 
-    public static GameSkill_skillAnimation DeserializeGameSkill_skillAnimation(JToken _buf)
+    public static GameSkill_skillAnimation DeserializeGameSkill_skillAnimation(ByteBuf _buf)
     {
         return new GameSkill_skillAnimation(_buf);
     }
@@ -47,8 +43,7 @@ public sealed partial class GameSkill_skillAnimation : Luban.BeanBase
     /// 攻击后摇动画
     /// </summary>
     public readonly string animationExitName;
-
-
+   
     public const int __ID__ = 1652443923;
     public override int GetTypeId() => __ID__;
 
@@ -66,5 +61,6 @@ public sealed partial class GameSkill_skillAnimation : Luban.BeanBase
         + "}";
     }
 }
+
 }
 

@@ -8,32 +8,28 @@
 //------------------------------------------------------------------------------
 
 using Luban;
-using Newtonsoft.Json.Linq;
-
 
 
 namespace HotFix.Cfg
 {
-
 public sealed partial class Guild_guildTask : Luban.BeanBase
 {
-    public Guild_guildTask(JToken _buf) 
+    public Guild_guildTask(ByteBuf _buf) 
     {
-        JObject _obj = _buf as JObject;
-        ID = (int)_obj.GetValue("ID");
-        Type = (int)_obj.GetValue("Type");
-        IsInit = (int)_obj.GetValue("IsInit");
-        Child = (int)_obj.GetValue("Child");
-        Weight = (int)_obj.GetValue("Weight");
-        AccumulationType = (int)_obj.GetValue("AccumulationType");
-        Need = (int)_obj.GetValue("Need");
-        { var __json0 = _obj.GetValue("Reward"); int _n0 = (__json0 as JArray).Count; Reward = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  Reward[__index0++] = __v0; }   }
-        { var __json0 = _obj.GetValue("OtherReward"); int _n0 = (__json0 as JArray).Count; OtherReward = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  OtherReward[__index0++] = __v0; }   }
-        { var __json0 = _obj.GetValue("Condition"); int _n0 = (__json0 as JArray).Count; Condition = new int[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { int __v0;  __v0 = (int)__e0;  Condition[__index0++] = __v0; }   }
-        languageId = (string)_obj.GetValue("languageId");
+        ID = _buf.ReadInt();
+        Type = _buf.ReadInt();
+        IsInit = _buf.ReadInt();
+        Child = _buf.ReadInt();
+        Weight = _buf.ReadInt();
+        AccumulationType = _buf.ReadInt();
+        Need = _buf.ReadInt();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);Reward = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); Reward[__index0] = __e0;}}
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);OtherReward = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); OtherReward[__index0] = __e0;}}
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);Condition = new int[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { int __e0;__e0 = _buf.ReadInt(); Condition[__index0] = __e0;}}
+        languageId = _buf.ReadString();
     }
 
-    public static Guild_guildTask DeserializeGuild_guildTask(JToken _buf)
+    public static Guild_guildTask DeserializeGuild_guildTask(ByteBuf _buf)
     {
         return new Guild_guildTask(_buf);
     }
@@ -82,8 +78,7 @@ public sealed partial class Guild_guildTask : Luban.BeanBase
     /// 多语言ID
     /// </summary>
     public readonly string languageId;
-
-
+   
     public const int __ID__ = -1689088340;
     public override int GetTypeId() => __ID__;
 
@@ -108,5 +103,6 @@ public sealed partial class Guild_guildTask : Luban.BeanBase
         + "}";
     }
 }
+
 }
 

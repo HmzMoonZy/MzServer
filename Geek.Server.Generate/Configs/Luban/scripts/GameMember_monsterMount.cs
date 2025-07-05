@@ -8,26 +8,22 @@
 //------------------------------------------------------------------------------
 
 using Luban;
-using Newtonsoft.Json.Linq;
-
 
 
 namespace HotFix.Cfg
 {
-
 public sealed partial class GameMember_monsterMount : Luban.BeanBase
 {
-    public GameMember_monsterMount(JToken _buf) 
+    public GameMember_monsterMount(ByteBuf _buf) 
     {
-        JObject _obj = _buf as JObject;
-        id = (int)_obj.GetValue("id");
-        modelID = (int)_obj.GetValue("modelID");
-        { var __json0 = _obj.GetValue("addSkills"); int _n0 = (__json0 as JArray).Count; addSkills = new int[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { int __v0;  __v0 = (int)__e0;  addSkills[__index0++] = __v0; }   }
-        shareHpPercent = (int)_obj.GetValue("shareHpPercent");
-        mountScale = (float)_obj.GetValue("mountScale");
+        id = _buf.ReadInt();
+        modelID = _buf.ReadInt();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);addSkills = new int[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { int __e0;__e0 = _buf.ReadInt(); addSkills[__index0] = __e0;}}
+        shareHpPercent = _buf.ReadInt();
+        mountScale = _buf.ReadFloat();
     }
 
-    public static GameMember_monsterMount DeserializeGameMember_monsterMount(JToken _buf)
+    public static GameMember_monsterMount DeserializeGameMember_monsterMount(ByteBuf _buf)
     {
         return new GameMember_monsterMount(_buf);
     }
@@ -52,8 +48,7 @@ public sealed partial class GameMember_monsterMount : Luban.BeanBase
     /// 模型大小
     /// </summary>
     public readonly float mountScale;
-
-
+   
     public const int __ID__ = 323248242;
     public override int GetTypeId() => __ID__;
 
@@ -72,5 +67,6 @@ public sealed partial class GameMember_monsterMount : Luban.BeanBase
         + "}";
     }
 }
+
 }
 

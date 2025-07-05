@@ -8,26 +8,22 @@
 //------------------------------------------------------------------------------
 
 using Luban;
-using Newtonsoft.Json.Linq;
-
 
 
 namespace HotFix.Cfg
 {
-
 public sealed partial class ChristmasFashion_Fashion : Luban.BeanBase
 {
-    public ChristmasFashion_Fashion(JToken _buf) 
+    public ChristmasFashion_Fashion(ByteBuf _buf) 
     {
-        JObject _obj = _buf as JObject;
-        id = (int)_obj.GetValue("id");
-        notes = (string)_obj.GetValue("notes");
-        { var __json0 = _obj.GetValue("fashionItem"); int _n0 = (__json0 as JArray).Count; fashionItem = new int[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { int __v0;  __v0 = (int)__e0;  fashionItem[__index0++] = __v0; }   }
-        PurchaseId = (int)_obj.GetValue("PurchaseId");
-        NextCfgId = (int)_obj.GetValue("NextCfgId");
+        id = _buf.ReadInt();
+        notes = _buf.ReadString();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);fashionItem = new int[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { int __e0;__e0 = _buf.ReadInt(); fashionItem[__index0] = __e0;}}
+        PurchaseId = _buf.ReadInt();
+        NextCfgId = _buf.ReadInt();
     }
 
-    public static ChristmasFashion_Fashion DeserializeChristmasFashion_Fashion(JToken _buf)
+    public static ChristmasFashion_Fashion DeserializeChristmasFashion_Fashion(ByteBuf _buf)
     {
         return new ChristmasFashion_Fashion(_buf);
     }
@@ -52,8 +48,7 @@ public sealed partial class ChristmasFashion_Fashion : Luban.BeanBase
     /// 下一个配置ID
     /// </summary>
     public readonly int NextCfgId;
-
-
+   
     public const int __ID__ = -814934449;
     public override int GetTypeId() => __ID__;
 
@@ -72,5 +67,6 @@ public sealed partial class ChristmasFashion_Fashion : Luban.BeanBase
         + "}";
     }
 }
+
 }
 

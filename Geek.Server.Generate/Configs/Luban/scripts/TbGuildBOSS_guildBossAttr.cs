@@ -7,14 +7,11 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-using Newtonsoft.Json.Linq;
 using Luban;
-
 
 
 namespace HotFix.Cfg
 {
-
 /// <summary>
 /// Generated from GuildBOSS.xlsx sheet guildBossAttr
 /// </summary>
@@ -23,20 +20,19 @@ public partial class TbGuildBOSS_guildBossAttr
     private readonly System.Collections.Generic.Dictionary<int, GuildBOSS_guildBossAttr> _dataMap;
     private readonly System.Collections.Generic.List<GuildBOSS_guildBossAttr> _dataList;
     
-    public TbGuildBOSS_guildBossAttr(JArray _buf)
+    public TbGuildBOSS_guildBossAttr(ByteBuf _buf)
     {
         _dataMap = new System.Collections.Generic.Dictionary<int, GuildBOSS_guildBossAttr>();
         _dataList = new System.Collections.Generic.List<GuildBOSS_guildBossAttr>();
         
-        foreach(JObject _ele in _buf)
+        for(int n = _buf.ReadSize() ; n > 0 ; --n)
         {
             GuildBOSS_guildBossAttr _v;
-            _v = global::HotFix.Cfg.GuildBOSS_guildBossAttr.DeserializeGuildBOSS_guildBossAttr(_ele);
+            _v = global::HotFix.Cfg.GuildBOSS_guildBossAttr.DeserializeGuildBOSS_guildBossAttr(_buf);
             _dataList.Add(_v);
             _dataMap.Add(_v.id, _v);
-         }
+        }
     }
-
 
     public System.Collections.Generic.Dictionary<int, GuildBOSS_guildBossAttr> DataMap => _dataMap;
     public System.Collections.Generic.List<GuildBOSS_guildBossAttr> DataList => _dataList;
@@ -54,5 +50,6 @@ public partial class TbGuildBOSS_guildBossAttr
     }
 
 }
+
 }
 

@@ -8,24 +8,20 @@
 //------------------------------------------------------------------------------
 
 using Luban;
-using Newtonsoft.Json.Linq;
-
 
 
 namespace HotFix.Cfg
 {
-
 public sealed partial class Task_DailyActive : Luban.BeanBase
 {
-    public Task_DailyActive(JToken _buf) 
+    public Task_DailyActive(ByteBuf _buf) 
     {
-        JObject _obj = _buf as JObject;
-        ID = (int)_obj.GetValue("ID");
-        Requirements = (int)_obj.GetValue("Requirements");
-        { var __json0 = _obj.GetValue("Reward"); int _n0 = (__json0 as JArray).Count; Reward = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  Reward[__index0++] = __v0; }   }
+        ID = _buf.ReadInt();
+        Requirements = _buf.ReadInt();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);Reward = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); Reward[__index0] = __e0;}}
     }
 
-    public static Task_DailyActive DeserializeTask_DailyActive(JToken _buf)
+    public static Task_DailyActive DeserializeTask_DailyActive(ByteBuf _buf)
     {
         return new Task_DailyActive(_buf);
     }
@@ -42,8 +38,7 @@ public sealed partial class Task_DailyActive : Luban.BeanBase
     /// 奖励
     /// </summary>
     public readonly string[] Reward;
-
-
+   
     public const int __ID__ = 1197208261;
     public override int GetTypeId() => __ID__;
 
@@ -60,5 +55,6 @@ public sealed partial class Task_DailyActive : Luban.BeanBase
         + "}";
     }
 }
+
 }
 

@@ -8,23 +8,19 @@
 //------------------------------------------------------------------------------
 
 using Luban;
-using Newtonsoft.Json.Linq;
-
 
 
 namespace HotFix.Cfg
 {
-
 public sealed partial class GameMember_skin : Luban.BeanBase
 {
-    public GameMember_skin(JToken _buf) 
+    public GameMember_skin(ByteBuf _buf) 
     {
-        JObject _obj = _buf as JObject;
-        id = (int)_obj.GetValue("id");
-        skin = (string)_obj.GetValue("skin");
+        id = _buf.ReadInt();
+        skin = _buf.ReadString();
     }
 
-    public static GameMember_skin DeserializeGameMember_skin(JToken _buf)
+    public static GameMember_skin DeserializeGameMember_skin(ByteBuf _buf)
     {
         return new GameMember_skin(_buf);
     }
@@ -37,8 +33,7 @@ public sealed partial class GameMember_skin : Luban.BeanBase
     /// 皮肤名
     /// </summary>
     public readonly string skin;
-
-
+   
     public const int __ID__ = -844354416;
     public override int GetTypeId() => __ID__;
 
@@ -54,5 +49,6 @@ public sealed partial class GameMember_skin : Luban.BeanBase
         + "}";
     }
 }
+
 }
 

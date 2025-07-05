@@ -7,14 +7,11 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-using Newtonsoft.Json.Linq;
 using Luban;
-
 
 
 namespace HotFix.Cfg
 {
-
 /// <summary>
 /// Generated from ArtBuff.xlsx sheet Buff
 /// </summary>
@@ -23,20 +20,19 @@ public partial class TbArtBuff_Buff
     private readonly System.Collections.Generic.Dictionary<int, ArtBuff_Buff> _dataMap;
     private readonly System.Collections.Generic.List<ArtBuff_Buff> _dataList;
     
-    public TbArtBuff_Buff(JArray _buf)
+    public TbArtBuff_Buff(ByteBuf _buf)
     {
         _dataMap = new System.Collections.Generic.Dictionary<int, ArtBuff_Buff>();
         _dataList = new System.Collections.Generic.List<ArtBuff_Buff>();
         
-        foreach(JObject _ele in _buf)
+        for(int n = _buf.ReadSize() ; n > 0 ; --n)
         {
             ArtBuff_Buff _v;
-            _v = global::HotFix.Cfg.ArtBuff_Buff.DeserializeArtBuff_Buff(_ele);
+            _v = global::HotFix.Cfg.ArtBuff_Buff.DeserializeArtBuff_Buff(_buf);
             _dataList.Add(_v);
             _dataMap.Add(_v.id, _v);
-         }
+        }
     }
-
 
     public System.Collections.Generic.Dictionary<int, ArtBuff_Buff> DataMap => _dataMap;
     public System.Collections.Generic.List<ArtBuff_Buff> DataList => _dataList;
@@ -54,5 +50,6 @@ public partial class TbArtBuff_Buff
     }
 
 }
+
 }
 

@@ -8,26 +8,22 @@
 //------------------------------------------------------------------------------
 
 using Luban;
-using Newtonsoft.Json.Linq;
-
 
 
 namespace HotFix.Cfg
 {
-
 public sealed partial class CrossArena_CrossArenaTime : Luban.BeanBase
 {
-    public CrossArena_CrossArenaTime(JToken _buf) 
+    public CrossArena_CrossArenaTime(ByteBuf _buf) 
     {
-        JObject _obj = _buf as JObject;
-        ID = (int)_obj.GetValue("ID");
-        OpenTime = (string)_obj.GetValue("OpenTime");
-        CloseTime = (string)_obj.GetValue("CloseTime");
-        OpenTimeMini = (string)_obj.GetValue("OpenTimeMini");
-        CloseTimeMini = (string)_obj.GetValue("CloseTimeMini");
+        ID = _buf.ReadInt();
+        OpenTime = _buf.ReadString();
+        CloseTime = _buf.ReadString();
+        OpenTimeMini = _buf.ReadString();
+        CloseTimeMini = _buf.ReadString();
     }
 
-    public static CrossArena_CrossArenaTime DeserializeCrossArena_CrossArenaTime(JToken _buf)
+    public static CrossArena_CrossArenaTime DeserializeCrossArena_CrossArenaTime(ByteBuf _buf)
     {
         return new CrossArena_CrossArenaTime(_buf);
     }
@@ -52,8 +48,7 @@ public sealed partial class CrossArena_CrossArenaTime : Luban.BeanBase
     /// 结束时间
     /// </summary>
     public readonly string CloseTimeMini;
-
-
+   
     public const int __ID__ = 1370043052;
     public override int GetTypeId() => __ID__;
 
@@ -72,5 +67,6 @@ public sealed partial class CrossArena_CrossArenaTime : Luban.BeanBase
         + "}";
     }
 }
+
 }
 

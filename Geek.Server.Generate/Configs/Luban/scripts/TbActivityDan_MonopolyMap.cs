@@ -7,14 +7,11 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-using Newtonsoft.Json.Linq;
 using Luban;
-
 
 
 namespace HotFix.Cfg
 {
-
 /// <summary>
 /// Generated from ActivityDan.xlsx sheet MonopolyMap
 /// </summary>
@@ -23,20 +20,19 @@ public partial class TbActivityDan_MonopolyMap
     private readonly System.Collections.Generic.Dictionary<int, ActivityDan_MonopolyMap> _dataMap;
     private readonly System.Collections.Generic.List<ActivityDan_MonopolyMap> _dataList;
     
-    public TbActivityDan_MonopolyMap(JArray _buf)
+    public TbActivityDan_MonopolyMap(ByteBuf _buf)
     {
         _dataMap = new System.Collections.Generic.Dictionary<int, ActivityDan_MonopolyMap>();
         _dataList = new System.Collections.Generic.List<ActivityDan_MonopolyMap>();
         
-        foreach(JObject _ele in _buf)
+        for(int n = _buf.ReadSize() ; n > 0 ; --n)
         {
             ActivityDan_MonopolyMap _v;
-            _v = global::HotFix.Cfg.ActivityDan_MonopolyMap.DeserializeActivityDan_MonopolyMap(_ele);
+            _v = global::HotFix.Cfg.ActivityDan_MonopolyMap.DeserializeActivityDan_MonopolyMap(_buf);
             _dataList.Add(_v);
             _dataMap.Add(_v.ID, _v);
-         }
+        }
     }
-
 
     public System.Collections.Generic.Dictionary<int, ActivityDan_MonopolyMap> DataMap => _dataMap;
     public System.Collections.Generic.List<ActivityDan_MonopolyMap> DataList => _dataList;
@@ -54,5 +50,6 @@ public partial class TbActivityDan_MonopolyMap
     }
 
 }
+
 }
 

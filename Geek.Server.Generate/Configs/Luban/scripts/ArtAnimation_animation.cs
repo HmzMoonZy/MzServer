@@ -8,23 +8,19 @@
 //------------------------------------------------------------------------------
 
 using Luban;
-using Newtonsoft.Json.Linq;
-
 
 
 namespace HotFix.Cfg
 {
-
 public sealed partial class ArtAnimation_animation : Luban.BeanBase
 {
-    public ArtAnimation_animation(JToken _buf) 
+    public ArtAnimation_animation(ByteBuf _buf) 
     {
-        JObject _obj = _buf as JObject;
-        id = (string)_obj.GetValue("id");
-        hideWeapon = (int)_obj.GetValue("hideWeapon");
+        id = _buf.ReadString();
+        hideWeapon = _buf.ReadInt();
     }
 
-    public static ArtAnimation_animation DeserializeArtAnimation_animation(JToken _buf)
+    public static ArtAnimation_animation DeserializeArtAnimation_animation(ByteBuf _buf)
     {
         return new ArtAnimation_animation(_buf);
     }
@@ -37,8 +33,7 @@ public sealed partial class ArtAnimation_animation : Luban.BeanBase
     /// 是否隐藏武器
     /// </summary>
     public readonly int hideWeapon;
-
-
+   
     public const int __ID__ = -71811770;
     public override int GetTypeId() => __ID__;
 
@@ -54,5 +49,6 @@ public sealed partial class ArtAnimation_animation : Luban.BeanBase
         + "}";
     }
 }
+
 }
 

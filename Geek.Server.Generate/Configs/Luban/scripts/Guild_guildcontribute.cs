@@ -8,24 +8,20 @@
 //------------------------------------------------------------------------------
 
 using Luban;
-using Newtonsoft.Json.Linq;
-
 
 
 namespace HotFix.Cfg
 {
-
 public sealed partial class Guild_guildcontribute : Luban.BeanBase
 {
-    public Guild_guildcontribute(JToken _buf) 
+    public Guild_guildcontribute(ByteBuf _buf) 
     {
-        JObject _obj = _buf as JObject;
-        Times = (int)_obj.GetValue("Times");
-        { var __json0 = _obj.GetValue("CostItem"); int _n0 = (__json0 as JArray).Count; CostItem = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  CostItem[__index0++] = __v0; }   }
-        { var __json0 = _obj.GetValue("guildItems"); int _n0 = (__json0 as JArray).Count; guildItems = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  guildItems[__index0++] = __v0; }   }
+        Times = _buf.ReadInt();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);CostItem = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); CostItem[__index0] = __e0;}}
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);guildItems = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); guildItems[__index0] = __e0;}}
     }
 
-    public static Guild_guildcontribute DeserializeGuild_guildcontribute(JToken _buf)
+    public static Guild_guildcontribute DeserializeGuild_guildcontribute(ByteBuf _buf)
     {
         return new Guild_guildcontribute(_buf);
     }
@@ -42,8 +38,7 @@ public sealed partial class Guild_guildcontribute : Luban.BeanBase
     /// 贡献后获取的道具
     /// </summary>
     public readonly string[] guildItems;
-
-
+   
     public const int __ID__ = -1633930700;
     public override int GetTypeId() => __ID__;
 
@@ -60,5 +55,6 @@ public sealed partial class Guild_guildcontribute : Luban.BeanBase
         + "}";
     }
 }
+
 }
 

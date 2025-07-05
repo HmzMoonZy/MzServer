@@ -7,14 +7,11 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-using Newtonsoft.Json.Linq;
 using Luban;
-
 
 
 namespace HotFix.Cfg
 {
-
 /// <summary>
 /// Generated from Bingo.xlsx sheet BingoBigPrize
 /// </summary>
@@ -23,20 +20,19 @@ public partial class TbBingo_BingoBigPrize
     private readonly System.Collections.Generic.Dictionary<int, Bingo_BingoBigPrize> _dataMap;
     private readonly System.Collections.Generic.List<Bingo_BingoBigPrize> _dataList;
     
-    public TbBingo_BingoBigPrize(JArray _buf)
+    public TbBingo_BingoBigPrize(ByteBuf _buf)
     {
         _dataMap = new System.Collections.Generic.Dictionary<int, Bingo_BingoBigPrize>();
         _dataList = new System.Collections.Generic.List<Bingo_BingoBigPrize>();
         
-        foreach(JObject _ele in _buf)
+        for(int n = _buf.ReadSize() ; n > 0 ; --n)
         {
             Bingo_BingoBigPrize _v;
-            _v = global::HotFix.Cfg.Bingo_BingoBigPrize.DeserializeBingo_BingoBigPrize(_ele);
+            _v = global::HotFix.Cfg.Bingo_BingoBigPrize.DeserializeBingo_BingoBigPrize(_buf);
             _dataList.Add(_v);
             _dataMap.Add(_v.ID, _v);
-         }
+        }
     }
-
 
     public System.Collections.Generic.Dictionary<int, Bingo_BingoBigPrize> DataMap => _dataMap;
     public System.Collections.Generic.List<Bingo_BingoBigPrize> DataList => _dataList;
@@ -54,5 +50,6 @@ public partial class TbBingo_BingoBigPrize
     }
 
 }
+
 }
 

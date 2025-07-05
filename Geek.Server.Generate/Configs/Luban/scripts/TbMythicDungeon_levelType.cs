@@ -7,14 +7,11 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-using Newtonsoft.Json.Linq;
 using Luban;
-
 
 
 namespace HotFix.Cfg
 {
-
 /// <summary>
 /// Generated from MythicDungeon.xlsx sheet levelType
 /// </summary>
@@ -23,20 +20,19 @@ public partial class TbMythicDungeon_levelType
     private readonly System.Collections.Generic.Dictionary<int, MythicDungeon_levelType> _dataMap;
     private readonly System.Collections.Generic.List<MythicDungeon_levelType> _dataList;
     
-    public TbMythicDungeon_levelType(JArray _buf)
+    public TbMythicDungeon_levelType(ByteBuf _buf)
     {
         _dataMap = new System.Collections.Generic.Dictionary<int, MythicDungeon_levelType>();
         _dataList = new System.Collections.Generic.List<MythicDungeon_levelType>();
         
-        foreach(JObject _ele in _buf)
+        for(int n = _buf.ReadSize() ; n > 0 ; --n)
         {
             MythicDungeon_levelType _v;
-            _v = global::HotFix.Cfg.MythicDungeon_levelType.DeserializeMythicDungeon_levelType(_ele);
+            _v = global::HotFix.Cfg.MythicDungeon_levelType.DeserializeMythicDungeon_levelType(_buf);
             _dataList.Add(_v);
             _dataMap.Add(_v.id, _v);
-         }
+        }
     }
-
 
     public System.Collections.Generic.Dictionary<int, MythicDungeon_levelType> DataMap => _dataMap;
     public System.Collections.Generic.List<MythicDungeon_levelType> DataList => _dataList;
@@ -54,5 +50,6 @@ public partial class TbMythicDungeon_levelType
     }
 
 }
+
 }
 

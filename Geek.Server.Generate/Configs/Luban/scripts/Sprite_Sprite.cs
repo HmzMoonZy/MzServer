@@ -8,23 +8,19 @@
 //------------------------------------------------------------------------------
 
 using Luban;
-using Newtonsoft.Json.Linq;
-
 
 
 namespace HotFix.Cfg
 {
-
 public sealed partial class Sprite_Sprite : Luban.BeanBase
 {
-    public Sprite_Sprite(JToken _buf) 
+    public Sprite_Sprite(ByteBuf _buf) 
     {
-        JObject _obj = _buf as JObject;
-        id = (int)_obj.GetValue("id");
-        path = (string)_obj.GetValue("path");
+        id = _buf.ReadInt();
+        path = _buf.ReadString();
     }
 
-    public static Sprite_Sprite DeserializeSprite_Sprite(JToken _buf)
+    public static Sprite_Sprite DeserializeSprite_Sprite(ByteBuf _buf)
     {
         return new Sprite_Sprite(_buf);
     }
@@ -37,8 +33,7 @@ public sealed partial class Sprite_Sprite : Luban.BeanBase
     /// 图片路径
     /// </summary>
     public readonly string path;
-
-
+   
     public const int __ID__ = -1837801089;
     public override int GetTypeId() => __ID__;
 
@@ -54,5 +49,6 @@ public sealed partial class Sprite_Sprite : Luban.BeanBase
         + "}";
     }
 }
+
 }
 

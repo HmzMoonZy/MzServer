@@ -8,26 +8,22 @@
 //------------------------------------------------------------------------------
 
 using Luban;
-using Newtonsoft.Json.Linq;
-
 
 
 namespace HotFix.Cfg
 {
-
 public sealed partial class IAP_GiftPacks : Luban.BeanBase
 {
-    public IAP_GiftPacks(JToken _buf) 
+    public IAP_GiftPacks(ByteBuf _buf) 
     {
-        JObject _obj = _buf as JObject;
-        id = (int)_obj.GetValue("id");
-        packType = (int)_obj.GetValue("packType");
-        { var __json0 = _obj.GetValue("products"); int _n0 = (__json0 as JArray).Count; products = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  products[__index0++] = __v0; }   }
-        group = (int)_obj.GetValue("group");
-        hide = (int)_obj.GetValue("hide");
+        id = _buf.ReadInt();
+        packType = _buf.ReadInt();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);products = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); products[__index0] = __e0;}}
+        group = _buf.ReadInt();
+        hide = _buf.ReadInt();
     }
 
-    public static IAP_GiftPacks DeserializeIAP_GiftPacks(JToken _buf)
+    public static IAP_GiftPacks DeserializeIAP_GiftPacks(ByteBuf _buf)
     {
         return new IAP_GiftPacks(_buf);
     }
@@ -52,8 +48,7 @@ public sealed partial class IAP_GiftPacks : Luban.BeanBase
     /// 在商店中隐藏
     /// </summary>
     public readonly int hide;
-
-
+   
     public const int __ID__ = -1094085437;
     public override int GetTypeId() => __ID__;
 
@@ -72,5 +67,6 @@ public sealed partial class IAP_GiftPacks : Luban.BeanBase
         + "}";
     }
 }
+
 }
 

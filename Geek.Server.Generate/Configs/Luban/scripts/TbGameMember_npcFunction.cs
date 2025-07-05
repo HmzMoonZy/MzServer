@@ -7,14 +7,11 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-using Newtonsoft.Json.Linq;
 using Luban;
-
 
 
 namespace HotFix.Cfg
 {
-
 /// <summary>
 /// Generated from GameMember.xlsx sheet npcFunction
 /// </summary>
@@ -23,20 +20,19 @@ public partial class TbGameMember_npcFunction
     private readonly System.Collections.Generic.Dictionary<int, GameMember_npcFunction> _dataMap;
     private readonly System.Collections.Generic.List<GameMember_npcFunction> _dataList;
     
-    public TbGameMember_npcFunction(JArray _buf)
+    public TbGameMember_npcFunction(ByteBuf _buf)
     {
         _dataMap = new System.Collections.Generic.Dictionary<int, GameMember_npcFunction>();
         _dataList = new System.Collections.Generic.List<GameMember_npcFunction>();
         
-        foreach(JObject _ele in _buf)
+        for(int n = _buf.ReadSize() ; n > 0 ; --n)
         {
             GameMember_npcFunction _v;
-            _v = global::HotFix.Cfg.GameMember_npcFunction.DeserializeGameMember_npcFunction(_ele);
+            _v = global::HotFix.Cfg.GameMember_npcFunction.DeserializeGameMember_npcFunction(_buf);
             _dataList.Add(_v);
             _dataMap.Add(_v.id, _v);
-         }
+        }
     }
-
 
     public System.Collections.Generic.Dictionary<int, GameMember_npcFunction> DataMap => _dataMap;
     public System.Collections.Generic.List<GameMember_npcFunction> DataList => _dataList;
@@ -54,5 +50,6 @@ public partial class TbGameMember_npcFunction
     }
 
 }
+
 }
 

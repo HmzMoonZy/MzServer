@@ -8,38 +8,34 @@
 //------------------------------------------------------------------------------
 
 using Luban;
-using Newtonsoft.Json.Linq;
-
 
 
 namespace HotFix.Cfg
 {
-
 public sealed partial class Language_UI_languagetable : Luban.BeanBase
 {
-    public Language_UI_languagetable(JToken _buf) 
+    public Language_UI_languagetable(ByteBuf _buf) 
     {
-        JObject _obj = _buf as JObject;
-        id = (string)_obj.GetValue("id");
-        english = (string)_obj.GetValue("english");
-        spanish = (string)_obj.GetValue("spanish");
-        chinesesimplified = (string)_obj.GetValue("chinesesimplified");
-        vietnamese = (string)_obj.GetValue("vietnamese");
-        chinesetraditional = (string)_obj.GetValue("chinesetraditional");
-        japanese = (string)_obj.GetValue("japanese");
-        french = (string)_obj.GetValue("french");
-        german = (string)_obj.GetValue("german");
-        italian = (string)_obj.GetValue("italian");
-        russian = (string)_obj.GetValue("russian");
-        korean = (string)_obj.GetValue("korean");
-        thai = (string)_obj.GetValue("thai");
-        portuguese = (string)_obj.GetValue("portuguese");
-        Indonesia = (string)_obj.GetValue("Indonesia");
-        dutch = (string)_obj.GetValue("dutch");
-        arabic = (string)_obj.GetValue("arabic");
+        id = _buf.ReadString();
+        english = _buf.ReadString();
+        spanish = _buf.ReadString();
+        chinesesimplified = _buf.ReadString();
+        vietnamese = _buf.ReadString();
+        chinesetraditional = _buf.ReadString();
+        japanese = _buf.ReadString();
+        french = _buf.ReadString();
+        german = _buf.ReadString();
+        italian = _buf.ReadString();
+        russian = _buf.ReadString();
+        korean = _buf.ReadString();
+        thai = _buf.ReadString();
+        portuguese = _buf.ReadString();
+        Indonesia = _buf.ReadString();
+        dutch = _buf.ReadString();
+        arabic = _buf.ReadString();
     }
 
-    public static Language_UI_languagetable DeserializeLanguage_UI_languagetable(JToken _buf)
+    public static Language_UI_languagetable DeserializeLanguage_UI_languagetable(ByteBuf _buf)
     {
         return new Language_UI_languagetable(_buf);
     }
@@ -112,8 +108,7 @@ public sealed partial class Language_UI_languagetable : Luban.BeanBase
     /// 阿拉伯
     /// </summary>
     public readonly string arabic;
-
-
+   
     public const int __ID__ = -1119546638;
     public override int GetTypeId() => __ID__;
 
@@ -144,5 +139,6 @@ public sealed partial class Language_UI_languagetable : Luban.BeanBase
         + "}";
     }
 }
+
 }
 

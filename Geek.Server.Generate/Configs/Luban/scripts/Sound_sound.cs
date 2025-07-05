@@ -8,24 +8,20 @@
 //------------------------------------------------------------------------------
 
 using Luban;
-using Newtonsoft.Json.Linq;
-
 
 
 namespace HotFix.Cfg
 {
-
 public sealed partial class Sound_sound : Luban.BeanBase
 {
-    public Sound_sound(JToken _buf) 
+    public Sound_sound(ByteBuf _buf) 
     {
-        JObject _obj = _buf as JObject;
-        ID = (int)_obj.GetValue("ID");
-        path = (string)_obj.GetValue("path");
-        volume = (float)_obj.GetValue("volume");
+        ID = _buf.ReadInt();
+        path = _buf.ReadString();
+        volume = _buf.ReadFloat();
     }
 
-    public static Sound_sound DeserializeSound_sound(JToken _buf)
+    public static Sound_sound DeserializeSound_sound(ByteBuf _buf)
     {
         return new Sound_sound(_buf);
     }
@@ -42,8 +38,7 @@ public sealed partial class Sound_sound : Luban.BeanBase
     /// 音量
     /// </summary>
     public readonly float volume;
-
-
+   
     public const int __ID__ = -358984257;
     public override int GetTypeId() => __ID__;
 
@@ -60,5 +55,6 @@ public sealed partial class Sound_sound : Luban.BeanBase
         + "}";
     }
 }
+
 }
 

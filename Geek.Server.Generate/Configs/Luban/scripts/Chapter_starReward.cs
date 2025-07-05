@@ -8,24 +8,20 @@
 //------------------------------------------------------------------------------
 
 using Luban;
-using Newtonsoft.Json.Linq;
-
 
 
 namespace HotFix.Cfg
 {
-
 public sealed partial class Chapter_starReward : Luban.BeanBase
 {
-    public Chapter_starReward(JToken _buf) 
+    public Chapter_starReward(ByteBuf _buf) 
     {
-        JObject _obj = _buf as JObject;
-        id = (int)_obj.GetValue("id");
-        star = (int)_obj.GetValue("star");
-        { var __json0 = _obj.GetValue("rewards"); int _n0 = (__json0 as JArray).Count; rewards = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  rewards[__index0++] = __v0; }   }
+        id = _buf.ReadInt();
+        star = _buf.ReadInt();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);rewards = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); rewards[__index0] = __e0;}}
     }
 
-    public static Chapter_starReward DeserializeChapter_starReward(JToken _buf)
+    public static Chapter_starReward DeserializeChapter_starReward(ByteBuf _buf)
     {
         return new Chapter_starReward(_buf);
     }
@@ -42,8 +38,7 @@ public sealed partial class Chapter_starReward : Luban.BeanBase
     /// 奖励<br/>itemId,count|...
     /// </summary>
     public readonly string[] rewards;
-
-
+   
     public const int __ID__ = -2010411149;
     public override int GetTypeId() => __ID__;
 
@@ -60,5 +55,6 @@ public sealed partial class Chapter_starReward : Luban.BeanBase
         + "}";
     }
 }
+
 }
 

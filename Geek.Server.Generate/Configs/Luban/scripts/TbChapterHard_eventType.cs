@@ -7,14 +7,11 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-using Newtonsoft.Json.Linq;
 using Luban;
-
 
 
 namespace HotFix.Cfg
 {
-
 /// <summary>
 /// Generated from ChapterHard.xlsx sheet eventType
 /// </summary>
@@ -23,20 +20,19 @@ public partial class TbChapterHard_eventType
     private readonly System.Collections.Generic.Dictionary<int, ChapterHard_eventType> _dataMap;
     private readonly System.Collections.Generic.List<ChapterHard_eventType> _dataList;
     
-    public TbChapterHard_eventType(JArray _buf)
+    public TbChapterHard_eventType(ByteBuf _buf)
     {
         _dataMap = new System.Collections.Generic.Dictionary<int, ChapterHard_eventType>();
         _dataList = new System.Collections.Generic.List<ChapterHard_eventType>();
         
-        foreach(JObject _ele in _buf)
+        for(int n = _buf.ReadSize() ; n > 0 ; --n)
         {
             ChapterHard_eventType _v;
-            _v = global::HotFix.Cfg.ChapterHard_eventType.DeserializeChapterHard_eventType(_ele);
+            _v = global::HotFix.Cfg.ChapterHard_eventType.DeserializeChapterHard_eventType(_buf);
             _dataList.Add(_v);
             _dataMap.Add(_v.id, _v);
-         }
+        }
     }
-
 
     public System.Collections.Generic.Dictionary<int, ChapterHard_eventType> DataMap => _dataMap;
     public System.Collections.Generic.List<ChapterHard_eventType> DataList => _dataList;
@@ -54,5 +50,6 @@ public partial class TbChapterHard_eventType
     }
 
 }
+
 }
 

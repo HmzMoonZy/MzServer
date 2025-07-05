@@ -7,14 +7,11 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-using Newtonsoft.Json.Linq;
 using Luban;
-
 
 
 namespace HotFix.Cfg
 {
-
 /// <summary>
 /// Generated from ActivityWheel.xlsx sheet ShopObj
 /// </summary>
@@ -23,20 +20,19 @@ public partial class TbActivityWheel_ShopObj
     private readonly System.Collections.Generic.Dictionary<int, ActivityWheel_ShopObj> _dataMap;
     private readonly System.Collections.Generic.List<ActivityWheel_ShopObj> _dataList;
     
-    public TbActivityWheel_ShopObj(JArray _buf)
+    public TbActivityWheel_ShopObj(ByteBuf _buf)
     {
         _dataMap = new System.Collections.Generic.Dictionary<int, ActivityWheel_ShopObj>();
         _dataList = new System.Collections.Generic.List<ActivityWheel_ShopObj>();
         
-        foreach(JObject _ele in _buf)
+        for(int n = _buf.ReadSize() ; n > 0 ; --n)
         {
             ActivityWheel_ShopObj _v;
-            _v = global::HotFix.Cfg.ActivityWheel_ShopObj.DeserializeActivityWheel_ShopObj(_ele);
+            _v = global::HotFix.Cfg.ActivityWheel_ShopObj.DeserializeActivityWheel_ShopObj(_buf);
             _dataList.Add(_v);
             _dataMap.Add(_v.Id, _v);
-         }
+        }
     }
-
 
     public System.Collections.Generic.Dictionary<int, ActivityWheel_ShopObj> DataMap => _dataMap;
     public System.Collections.Generic.List<ActivityWheel_ShopObj> DataList => _dataList;
@@ -54,5 +50,6 @@ public partial class TbActivityWheel_ShopObj
     }
 
 }
+
 }
 

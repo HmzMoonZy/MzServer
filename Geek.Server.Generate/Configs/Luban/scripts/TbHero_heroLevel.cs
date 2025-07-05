@@ -7,14 +7,11 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-using Newtonsoft.Json.Linq;
 using Luban;
-
 
 
 namespace HotFix.Cfg
 {
-
 /// <summary>
 /// Generated from Hero.xlsx sheet heroLevel
 /// </summary>
@@ -23,20 +20,19 @@ public partial class TbHero_heroLevel
     private readonly System.Collections.Generic.Dictionary<int, Hero_heroLevel> _dataMap;
     private readonly System.Collections.Generic.List<Hero_heroLevel> _dataList;
     
-    public TbHero_heroLevel(JArray _buf)
+    public TbHero_heroLevel(ByteBuf _buf)
     {
         _dataMap = new System.Collections.Generic.Dictionary<int, Hero_heroLevel>();
         _dataList = new System.Collections.Generic.List<Hero_heroLevel>();
         
-        foreach(JObject _ele in _buf)
+        for(int n = _buf.ReadSize() ; n > 0 ; --n)
         {
             Hero_heroLevel _v;
-            _v = global::HotFix.Cfg.Hero_heroLevel.DeserializeHero_heroLevel(_ele);
+            _v = global::HotFix.Cfg.Hero_heroLevel.DeserializeHero_heroLevel(_buf);
             _dataList.Add(_v);
             _dataMap.Add(_v.id, _v);
-         }
+        }
     }
-
 
     public System.Collections.Generic.Dictionary<int, Hero_heroLevel> DataMap => _dataMap;
     public System.Collections.Generic.List<Hero_heroLevel> DataList => _dataList;
@@ -54,5 +50,6 @@ public partial class TbHero_heroLevel
     }
 
 }
+
 }
 

@@ -8,23 +8,19 @@
 //------------------------------------------------------------------------------
 
 using Luban;
-using Newtonsoft.Json.Linq;
-
 
 
 namespace HotFix.Cfg
 {
-
 public sealed partial class AutoProcess_skillRandom : Luban.BeanBase
 {
-    public AutoProcess_skillRandom(JToken _buf) 
+    public AutoProcess_skillRandom(ByteBuf _buf) 
     {
-        JObject _obj = _buf as JObject;
-        id = (int)_obj.GetValue("id");
-        { var __json0 = _obj.GetValue("Pool"); int _n0 = (__json0 as JArray).Count; Pool = new int[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { int __v0;  __v0 = (int)__e0;  Pool[__index0++] = __v0; }   }
+        id = _buf.ReadInt();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);Pool = new int[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { int __e0;__e0 = _buf.ReadInt(); Pool[__index0] = __e0;}}
     }
 
-    public static AutoProcess_skillRandom DeserializeAutoProcess_skillRandom(JToken _buf)
+    public static AutoProcess_skillRandom DeserializeAutoProcess_skillRandom(ByteBuf _buf)
     {
         return new AutoProcess_skillRandom(_buf);
     }
@@ -37,8 +33,7 @@ public sealed partial class AutoProcess_skillRandom : Luban.BeanBase
     /// 随机池
     /// </summary>
     public readonly int[] Pool;
-
-
+   
     public const int __ID__ = -427207083;
     public override int GetTypeId() => __ID__;
 
@@ -54,5 +49,6 @@ public sealed partial class AutoProcess_skillRandom : Luban.BeanBase
         + "}";
     }
 }
+
 }
 

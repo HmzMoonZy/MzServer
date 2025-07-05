@@ -8,38 +8,34 @@
 //------------------------------------------------------------------------------
 
 using Luban;
-using Newtonsoft.Json.Linq;
-
 
 
 namespace HotFix.Cfg
 {
-
 public sealed partial class Collection_collectionStar : Luban.BeanBase
 {
-    public Collection_collectionStar(JToken _buf) 
+    public Collection_collectionStar(ByteBuf _buf) 
     {
-        JObject _obj = _buf as JObject;
-        id = (int)_obj.GetValue("id");
-        tagId = (int)_obj.GetValue("tagId");
-        star = (int)_obj.GetValue("star");
-        basicAttribute = (string)_obj.GetValue("basicAttribute");
-        effectTimes = (int)_obj.GetValue("effectTimes");
-        effectAttributeEx = (string)_obj.GetValue("effectAttributeEx");
-        effectType = (int)_obj.GetValue("effectType");
-        effectConditionValue = (int)_obj.GetValue("effectConditionValue");
-        { var __json0 = _obj.GetValue("effectParam"); int _n0 = (__json0 as JArray).Count; effectParam = new int[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { int __v0;  __v0 = (int)__e0;  effectParam[__index0++] = __v0; }   }
-        effectParam2 = (string)_obj.GetValue("effectParam2");
-        upStarDescId = (string)_obj.GetValue("upStarDescId");
-        { var __json0 = _obj.GetValue("starItemCost"); int _n0 = (__json0 as JArray).Count; starItemCost = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  starItemCost[__index0++] = __v0; }   }
-        { var __json0 = _obj.GetValue("starItemCostNew"); int _n0 = (__json0 as JArray).Count; starItemCostNew = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  starItemCostNew[__index0++] = __v0; }   }
-        { var __json0 = _obj.GetValue("compensate"); int _n0 = (__json0 as JArray).Count; compensate = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  compensate[__index0++] = __v0; }   }
-        conditionTalentId = (int)_obj.GetValue("conditionTalentId");
-        { var __json0 = _obj.GetValue("power"); int _n0 = (__json0 as JArray).Count; power = new int[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { int __v0;  __v0 = (int)__e0;  power[__index0++] = __v0; }   }
-        { var __json0 = _obj.GetValue("activePower"); int _n0 = (__json0 as JArray).Count; activePower = new int[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { int __v0;  __v0 = (int)__e0;  activePower[__index0++] = __v0; }   }
+        id = _buf.ReadInt();
+        tagId = _buf.ReadInt();
+        star = _buf.ReadInt();
+        basicAttribute = _buf.ReadString();
+        effectTimes = _buf.ReadInt();
+        effectAttributeEx = _buf.ReadString();
+        effectType = _buf.ReadInt();
+        effectConditionValue = _buf.ReadInt();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);effectParam = new int[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { int __e0;__e0 = _buf.ReadInt(); effectParam[__index0] = __e0;}}
+        effectParam2 = _buf.ReadString();
+        upStarDescId = _buf.ReadString();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);starItemCost = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); starItemCost[__index0] = __e0;}}
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);starItemCostNew = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); starItemCostNew[__index0] = __e0;}}
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);compensate = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); compensate[__index0] = __e0;}}
+        conditionTalentId = _buf.ReadInt();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);power = new int[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { int __e0;__e0 = _buf.ReadInt(); power[__index0] = __e0;}}
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);activePower = new int[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { int __e0;__e0 = _buf.ReadInt(); activePower[__index0] = __e0;}}
     }
 
-    public static Collection_collectionStar DeserializeCollection_collectionStar(JToken _buf)
+    public static Collection_collectionStar DeserializeCollection_collectionStar(ByteBuf _buf)
     {
         return new Collection_collectionStar(_buf);
     }
@@ -112,8 +108,7 @@ public sealed partial class Collection_collectionStar : Luban.BeanBase
     /// 层数2万分比战力<br/>层数3万分比战力<br/>（上阵增加战力）
     /// </summary>
     public readonly int[] activePower;
-
-
+   
     public const int __ID__ = -1729431119;
     public override int GetTypeId() => __ID__;
 
@@ -144,5 +139,6 @@ public sealed partial class Collection_collectionStar : Luban.BeanBase
         + "}";
     }
 }
+
 }
 

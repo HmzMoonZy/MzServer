@@ -8,24 +8,20 @@
 //------------------------------------------------------------------------------
 
 using Luban;
-using Newtonsoft.Json.Linq;
-
 
 
 namespace HotFix.Cfg
 {
-
 public sealed partial class GameMember_memberBaseSkills : Luban.BeanBase
 {
-    public GameMember_memberBaseSkills(JToken _buf) 
+    public GameMember_memberBaseSkills(ByteBuf _buf) 
     {
-        JObject _obj = _buf as JObject;
-        id = (int)_obj.GetValue("id");
-        skillID = (int)_obj.GetValue("skillID");
-        { var __json0 = _obj.GetValue("battleType"); int _n0 = (__json0 as JArray).Count; battleType = new int[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { int __v0;  __v0 = (int)__e0;  battleType[__index0++] = __v0; }   }
+        id = _buf.ReadInt();
+        skillID = _buf.ReadInt();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);battleType = new int[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { int __e0;__e0 = _buf.ReadInt(); battleType[__index0] = __e0;}}
     }
 
-    public static GameMember_memberBaseSkills DeserializeGameMember_memberBaseSkills(JToken _buf)
+    public static GameMember_memberBaseSkills DeserializeGameMember_memberBaseSkills(ByteBuf _buf)
     {
         return new GameMember_memberBaseSkills(_buf);
     }
@@ -42,8 +38,7 @@ public sealed partial class GameMember_memberBaseSkills : Luban.BeanBase
     /// 战斗类型(空代表适应所有战斗)<br/>1: 章节战斗 2: 圣诞Boss<br/>3: 通用副本 4: 公会Boss<br/>5: 公会战 6: 竞技场<br/>7: 地牢 8: 挑战塔<br/>9: 世界Boss 10: 大秘境<br/>11: 困难主线 12: 好友切磋<br/>997: 战斗模拟器 998: 测试战斗<br/>999: 队伍测试战斗
     /// </summary>
     public readonly int[] battleType;
-
-
+   
     public const int __ID__ = -339737792;
     public override int GetTypeId() => __ID__;
 
@@ -60,5 +55,6 @@ public sealed partial class GameMember_memberBaseSkills : Luban.BeanBase
         + "}";
     }
 }
+
 }
 

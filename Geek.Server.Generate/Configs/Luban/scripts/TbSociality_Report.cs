@@ -7,14 +7,11 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-using Newtonsoft.Json.Linq;
 using Luban;
-
 
 
 namespace HotFix.Cfg
 {
-
 /// <summary>
 /// Generated from Sociality.xlsx sheet Report
 /// </summary>
@@ -23,20 +20,19 @@ public partial class TbSociality_Report
     private readonly System.Collections.Generic.Dictionary<int, Sociality_Report> _dataMap;
     private readonly System.Collections.Generic.List<Sociality_Report> _dataList;
     
-    public TbSociality_Report(JArray _buf)
+    public TbSociality_Report(ByteBuf _buf)
     {
         _dataMap = new System.Collections.Generic.Dictionary<int, Sociality_Report>();
         _dataList = new System.Collections.Generic.List<Sociality_Report>();
         
-        foreach(JObject _ele in _buf)
+        for(int n = _buf.ReadSize() ; n > 0 ; --n)
         {
             Sociality_Report _v;
-            _v = global::HotFix.Cfg.Sociality_Report.DeserializeSociality_Report(_ele);
+            _v = global::HotFix.Cfg.Sociality_Report.DeserializeSociality_Report(_buf);
             _dataList.Add(_v);
             _dataMap.Add(_v.id, _v);
-         }
+        }
     }
-
 
     public System.Collections.Generic.Dictionary<int, Sociality_Report> DataMap => _dataMap;
     public System.Collections.Generic.List<Sociality_Report> DataList => _dataList;
@@ -54,5 +50,6 @@ public partial class TbSociality_Report
     }
 
 }
+
 }
 

@@ -7,14 +7,11 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-using Newtonsoft.Json.Linq;
 using Luban;
-
 
 
 namespace HotFix.Cfg
 {
-
 /// <summary>
 /// Generated from ChapterActivity.xlsx sheet BattlepassReward
 /// </summary>
@@ -23,20 +20,19 @@ public partial class TbChapterActivity_BattlepassReward
     private readonly System.Collections.Generic.Dictionary<int, ChapterActivity_BattlepassReward> _dataMap;
     private readonly System.Collections.Generic.List<ChapterActivity_BattlepassReward> _dataList;
     
-    public TbChapterActivity_BattlepassReward(JArray _buf)
+    public TbChapterActivity_BattlepassReward(ByteBuf _buf)
     {
         _dataMap = new System.Collections.Generic.Dictionary<int, ChapterActivity_BattlepassReward>();
         _dataList = new System.Collections.Generic.List<ChapterActivity_BattlepassReward>();
         
-        foreach(JObject _ele in _buf)
+        for(int n = _buf.ReadSize() ; n > 0 ; --n)
         {
             ChapterActivity_BattlepassReward _v;
-            _v = global::HotFix.Cfg.ChapterActivity_BattlepassReward.DeserializeChapterActivity_BattlepassReward(_ele);
+            _v = global::HotFix.Cfg.ChapterActivity_BattlepassReward.DeserializeChapterActivity_BattlepassReward(_buf);
             _dataList.Add(_v);
             _dataMap.Add(_v.id, _v);
-         }
+        }
     }
-
 
     public System.Collections.Generic.Dictionary<int, ChapterActivity_BattlepassReward> DataMap => _dataMap;
     public System.Collections.Generic.List<ChapterActivity_BattlepassReward> DataList => _dataList;
@@ -54,5 +50,6 @@ public partial class TbChapterActivity_BattlepassReward
     }
 
 }
+
 }
 

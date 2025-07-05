@@ -7,14 +7,11 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-using Newtonsoft.Json.Linq;
 using Luban;
-
 
 
 namespace HotFix.Cfg
 {
-
 /// <summary>
 /// Generated from Quality.xlsx sheet LegacySkillQuality
 /// </summary>
@@ -23,20 +20,19 @@ public partial class TbQuality_LegacySkillQuality
     private readonly System.Collections.Generic.Dictionary<int, Quality_LegacySkillQuality> _dataMap;
     private readonly System.Collections.Generic.List<Quality_LegacySkillQuality> _dataList;
     
-    public TbQuality_LegacySkillQuality(JArray _buf)
+    public TbQuality_LegacySkillQuality(ByteBuf _buf)
     {
         _dataMap = new System.Collections.Generic.Dictionary<int, Quality_LegacySkillQuality>();
         _dataList = new System.Collections.Generic.List<Quality_LegacySkillQuality>();
         
-        foreach(JObject _ele in _buf)
+        for(int n = _buf.ReadSize() ; n > 0 ; --n)
         {
             Quality_LegacySkillQuality _v;
-            _v = global::HotFix.Cfg.Quality_LegacySkillQuality.DeserializeQuality_LegacySkillQuality(_ele);
+            _v = global::HotFix.Cfg.Quality_LegacySkillQuality.DeserializeQuality_LegacySkillQuality(_buf);
             _dataList.Add(_v);
             _dataMap.Add(_v.id, _v);
-         }
+        }
     }
-
 
     public System.Collections.Generic.Dictionary<int, Quality_LegacySkillQuality> DataMap => _dataMap;
     public System.Collections.Generic.List<Quality_LegacySkillQuality> DataList => _dataList;
@@ -54,5 +50,6 @@ public partial class TbQuality_LegacySkillQuality
     }
 
 }
+
 }
 

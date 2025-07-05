@@ -8,27 +8,23 @@
 //------------------------------------------------------------------------------
 
 using Luban;
-using Newtonsoft.Json.Linq;
-
 
 
 namespace HotFix.Cfg
 {
-
 public sealed partial class Map_floatingRandom : Luban.BeanBase
 {
-    public Map_floatingRandom(JToken _buf) 
+    public Map_floatingRandom(ByteBuf _buf) 
     {
-        JObject _obj = _buf as JObject;
-        id = (int)_obj.GetValue("id");
-        count = (int)_obj.GetValue("count");
-        minOffsetX = (float)_obj.GetValue("minOffsetX");
-        maxOffsetX = (float)_obj.GetValue("maxOffsetX");
-        minOffsetY = (float)_obj.GetValue("minOffsetY");
-        maxOffsetY = (float)_obj.GetValue("maxOffsetY");
+        id = _buf.ReadInt();
+        count = _buf.ReadInt();
+        minOffsetX = _buf.ReadFloat();
+        maxOffsetX = _buf.ReadFloat();
+        minOffsetY = _buf.ReadFloat();
+        maxOffsetY = _buf.ReadFloat();
     }
 
-    public static Map_floatingRandom DeserializeMap_floatingRandom(JToken _buf)
+    public static Map_floatingRandom DeserializeMap_floatingRandom(ByteBuf _buf)
     {
         return new Map_floatingRandom(_buf);
     }
@@ -57,8 +53,7 @@ public sealed partial class Map_floatingRandom : Luban.BeanBase
     /// y轴最大随机范围
     /// </summary>
     public readonly float maxOffsetY;
-
-
+   
     public const int __ID__ = 352509388;
     public override int GetTypeId() => __ID__;
 
@@ -78,5 +73,6 @@ public sealed partial class Map_floatingRandom : Luban.BeanBase
         + "}";
     }
 }
+
 }
 

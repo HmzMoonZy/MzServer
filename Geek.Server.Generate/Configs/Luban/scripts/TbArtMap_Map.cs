@@ -7,14 +7,11 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-using Newtonsoft.Json.Linq;
 using Luban;
-
 
 
 namespace HotFix.Cfg
 {
-
 /// <summary>
 /// Generated from ArtMap.xlsx sheet Map
 /// </summary>
@@ -23,20 +20,19 @@ public partial class TbArtMap_Map
     private readonly System.Collections.Generic.Dictionary<int, ArtMap_Map> _dataMap;
     private readonly System.Collections.Generic.List<ArtMap_Map> _dataList;
     
-    public TbArtMap_Map(JArray _buf)
+    public TbArtMap_Map(ByteBuf _buf)
     {
         _dataMap = new System.Collections.Generic.Dictionary<int, ArtMap_Map>();
         _dataList = new System.Collections.Generic.List<ArtMap_Map>();
         
-        foreach(JObject _ele in _buf)
+        for(int n = _buf.ReadSize() ; n > 0 ; --n)
         {
             ArtMap_Map _v;
-            _v = global::HotFix.Cfg.ArtMap_Map.DeserializeArtMap_Map(_ele);
+            _v = global::HotFix.Cfg.ArtMap_Map.DeserializeArtMap_Map(_buf);
             _dataList.Add(_v);
             _dataMap.Add(_v.id, _v);
-         }
+        }
     }
-
 
     public System.Collections.Generic.Dictionary<int, ArtMap_Map> DataMap => _dataMap;
     public System.Collections.Generic.List<ArtMap_Map> DataList => _dataList;
@@ -54,5 +50,6 @@ public partial class TbArtMap_Map
     }
 
 }
+
 }
 

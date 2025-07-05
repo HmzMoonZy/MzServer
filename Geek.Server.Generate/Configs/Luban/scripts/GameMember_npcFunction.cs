@@ -8,29 +8,25 @@
 //------------------------------------------------------------------------------
 
 using Luban;
-using Newtonsoft.Json.Linq;
-
 
 
 namespace HotFix.Cfg
 {
-
 public sealed partial class GameMember_npcFunction : Luban.BeanBase
 {
-    public GameMember_npcFunction(JToken _buf) 
+    public GameMember_npcFunction(ByteBuf _buf) 
     {
-        JObject _obj = _buf as JObject;
-        id = (int)_obj.GetValue("id");
-        { var __json0 = _obj.GetValue("npcOffset"); int _n0 = (__json0 as JArray).Count; npcOffset = new float[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { float __v0;  __v0 = (float)__e0;  npcOffset[__index0++] = __v0; }   }
-        { var __json0 = _obj.GetValue("followOffset"); int _n0 = (__json0 as JArray).Count; followOffset = new float[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { float __v0;  __v0 = (float)__e0;  followOffset[__index0++] = __v0; }   }
-        { var __json0 = _obj.GetValue("fishingStartPos"); int _n0 = (__json0 as JArray).Count; fishingStartPos = new float[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { float __v0;  __v0 = (float)__e0;  fishingStartPos[__index0++] = __v0; }   }
-        { var __json0 = _obj.GetValue("fishingEndPos"); int _n0 = (__json0 as JArray).Count; fishingEndPos = new float[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { float __v0;  __v0 = (float)__e0;  fishingEndPos[__index0++] = __v0; }   }
-        { var __json0 = _obj.GetValue("boxPos"); int _n0 = (__json0 as JArray).Count; boxPos = new float[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { float __v0;  __v0 = (float)__e0;  boxPos[__index0++] = __v0; }   }
-        ride = (int)_obj.GetValue("ride");
-        rideScale = (float)_obj.GetValue("rideScale");
+        id = _buf.ReadInt();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);npcOffset = new float[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { float __e0;__e0 = _buf.ReadFloat(); npcOffset[__index0] = __e0;}}
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);followOffset = new float[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { float __e0;__e0 = _buf.ReadFloat(); followOffset[__index0] = __e0;}}
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);fishingStartPos = new float[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { float __e0;__e0 = _buf.ReadFloat(); fishingStartPos[__index0] = __e0;}}
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);fishingEndPos = new float[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { float __e0;__e0 = _buf.ReadFloat(); fishingEndPos[__index0] = __e0;}}
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);boxPos = new float[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { float __e0;__e0 = _buf.ReadFloat(); boxPos[__index0] = __e0;}}
+        ride = _buf.ReadInt();
+        rideScale = _buf.ReadFloat();
     }
 
-    public static GameMember_npcFunction DeserializeGameMember_npcFunction(JToken _buf)
+    public static GameMember_npcFunction DeserializeGameMember_npcFunction(ByteBuf _buf)
     {
         return new GameMember_npcFunction(_buf);
     }
@@ -67,8 +63,7 @@ public sealed partial class GameMember_npcFunction : Luban.BeanBase
     /// 载具缩放
     /// </summary>
     public readonly float rideScale;
-
-
+   
     public const int __ID__ = -235323546;
     public override int GetTypeId() => __ID__;
 
@@ -90,5 +85,6 @@ public sealed partial class GameMember_npcFunction : Luban.BeanBase
         + "}";
     }
 }
+
 }
 

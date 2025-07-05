@@ -8,33 +8,29 @@
 //------------------------------------------------------------------------------
 
 using Luban;
-using Newtonsoft.Json.Linq;
-
 
 
 namespace HotFix.Cfg
 {
-
 public sealed partial class Guild_guildShop : Luban.BeanBase
 {
-    public Guild_guildShop(JToken _buf) 
+    public Guild_guildShop(ByteBuf _buf) 
     {
-        JObject _obj = _buf as JObject;
-        ID = (int)_obj.GetValue("ID");
-        GuildLevel = (int)_obj.GetValue("GuildLevel");
-        Type = (int)_obj.GetValue("Type");
-        { var __json0 = _obj.GetValue("Condition"); int _n0 = (__json0 as JArray).Count; Condition = new int[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { int __v0;  __v0 = (int)__e0;  Condition[__index0++] = __v0; }   }
-        { var __json0 = _obj.GetValue("Price"); int _n0 = (__json0 as JArray).Count; Price = new int[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { int __v0;  __v0 = (int)__e0;  Price[__index0++] = __v0; }   }
-        { var __json0 = _obj.GetValue("Reward"); int _n0 = (__json0 as JArray).Count; Reward = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  Reward[__index0++] = __v0; }   }
-        Limit = (int)_obj.GetValue("Limit");
-        FreeCnt = (int)_obj.GetValue("FreeCnt");
-        Weight = (int)_obj.GetValue("Weight");
-        Position = (int)_obj.GetValue("Position");
-        { var __json0 = _obj.GetValue("Discount"); int _n0 = (__json0 as JArray).Count; Discount = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  Discount[__index0++] = __v0; }   }
-        bgColor = (int)_obj.GetValue("bgColor");
+        ID = _buf.ReadInt();
+        GuildLevel = _buf.ReadInt();
+        Type = _buf.ReadInt();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);Condition = new int[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { int __e0;__e0 = _buf.ReadInt(); Condition[__index0] = __e0;}}
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);Price = new int[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { int __e0;__e0 = _buf.ReadInt(); Price[__index0] = __e0;}}
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);Reward = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); Reward[__index0] = __e0;}}
+        Limit = _buf.ReadInt();
+        FreeCnt = _buf.ReadInt();
+        Weight = _buf.ReadInt();
+        Position = _buf.ReadInt();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);Discount = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); Discount[__index0] = __e0;}}
+        bgColor = _buf.ReadInt();
     }
 
-    public static Guild_guildShop DeserializeGuild_guildShop(JToken _buf)
+    public static Guild_guildShop DeserializeGuild_guildShop(ByteBuf _buf)
     {
         return new Guild_guildShop(_buf);
     }
@@ -87,8 +83,7 @@ public sealed partial class Guild_guildShop : Luban.BeanBase
     /// 商品底框颜色
     /// </summary>
     public readonly int bgColor;
-
-
+   
     public const int __ID__ = -1689111523;
     public override int GetTypeId() => __ID__;
 
@@ -114,5 +109,6 @@ public sealed partial class Guild_guildShop : Luban.BeanBase
         + "}";
     }
 }
+
 }
 

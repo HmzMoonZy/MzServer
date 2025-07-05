@@ -8,33 +8,29 @@
 //------------------------------------------------------------------------------
 
 using Luban;
-using Newtonsoft.Json.Linq;
-
 
 
 namespace HotFix.Cfg
 {
-
 public sealed partial class ActivityWheel_Theme : Luban.BeanBase
 {
-    public ActivityWheel_Theme(JToken _buf) 
+    public ActivityWheel_Theme(ByteBuf _buf) 
     {
-        JObject _obj = _buf as JObject;
-        Id = (int)_obj.GetValue("Id");
-        EntryIcon = (string)_obj.GetValue("EntryIcon");
-        EntryNameId = (string)_obj.GetValue("EntryNameId");
-        WheelTitleNameId = (string)_obj.GetValue("WheelTitleNameId");
-        WheelScene = (string)_obj.GetValue("WheelScene");
-        WheelLightColor1 = (string)_obj.GetValue("WheelLightColor1");
-        WheelLightColor2 = (string)_obj.GetValue("WheelLightColor2");
-        WheelBg = (string)_obj.GetValue("WheelBg");
-        WheelRewardBg = (string)_obj.GetValue("WheelRewardBg");
-        ShopObjBg = (string)_obj.GetValue("ShopObjBg");
-        ShopTitleNameId = (string)_obj.GetValue("ShopTitleNameId");
-        GiftBanner = (string)_obj.GetValue("GiftBanner");
+        Id = _buf.ReadInt();
+        EntryIcon = _buf.ReadString();
+        EntryNameId = _buf.ReadString();
+        WheelTitleNameId = _buf.ReadString();
+        WheelScene = _buf.ReadString();
+        WheelLightColor1 = _buf.ReadString();
+        WheelLightColor2 = _buf.ReadString();
+        WheelBg = _buf.ReadString();
+        WheelRewardBg = _buf.ReadString();
+        ShopObjBg = _buf.ReadString();
+        ShopTitleNameId = _buf.ReadString();
+        GiftBanner = _buf.ReadString();
     }
 
-    public static ActivityWheel_Theme DeserializeActivityWheel_Theme(JToken _buf)
+    public static ActivityWheel_Theme DeserializeActivityWheel_Theme(ByteBuf _buf)
     {
         return new ActivityWheel_Theme(_buf);
     }
@@ -87,8 +83,7 @@ public sealed partial class ActivityWheel_Theme : Luban.BeanBase
     /// 礼包界面Banner图
     /// </summary>
     public readonly string GiftBanner;
-
-
+   
     public const int __ID__ = 1583202582;
     public override int GetTypeId() => __ID__;
 
@@ -114,5 +109,6 @@ public sealed partial class ActivityWheel_Theme : Luban.BeanBase
         + "}";
     }
 }
+
 }
 

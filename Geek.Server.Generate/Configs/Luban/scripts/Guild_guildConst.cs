@@ -8,25 +8,21 @@
 //------------------------------------------------------------------------------
 
 using Luban;
-using Newtonsoft.Json.Linq;
-
 
 
 namespace HotFix.Cfg
 {
-
 public sealed partial class Guild_guildConst : Luban.BeanBase
 {
-    public Guild_guildConst(JToken _buf) 
+    public Guild_guildConst(ByteBuf _buf) 
     {
-        JObject _obj = _buf as JObject;
-        ID = (int)_obj.GetValue("ID");
-        Notes = (string)_obj.GetValue("Notes");
-        TypeInt = (int)_obj.GetValue("TypeInt");
-        { var __json0 = _obj.GetValue("TypeIntArray"); int _n0 = (__json0 as JArray).Count; TypeIntArray = new int[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { int __v0;  __v0 = (int)__e0;  TypeIntArray[__index0++] = __v0; }   }
+        ID = _buf.ReadInt();
+        Notes = _buf.ReadString();
+        TypeInt = _buf.ReadInt();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);TypeIntArray = new int[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { int __e0;__e0 = _buf.ReadInt(); TypeIntArray[__index0] = __e0;}}
     }
 
-    public static Guild_guildConst DeserializeGuild_guildConst(JToken _buf)
+    public static Guild_guildConst DeserializeGuild_guildConst(ByteBuf _buf)
     {
         return new Guild_guildConst(_buf);
     }
@@ -47,8 +43,7 @@ public sealed partial class Guild_guildConst : Luban.BeanBase
     /// 属性值-int数组
     /// </summary>
     public readonly int[] TypeIntArray;
-
-
+   
     public const int __ID__ = -837418212;
     public override int GetTypeId() => __ID__;
 
@@ -66,5 +61,6 @@ public sealed partial class Guild_guildConst : Luban.BeanBase
         + "}";
     }
 }
+
 }
 

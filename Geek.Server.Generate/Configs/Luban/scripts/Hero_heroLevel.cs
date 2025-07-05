@@ -8,35 +8,31 @@
 //------------------------------------------------------------------------------
 
 using Luban;
-using Newtonsoft.Json.Linq;
-
 
 
 namespace HotFix.Cfg
 {
-
 public sealed partial class Hero_heroLevel : Luban.BeanBase
 {
-    public Hero_heroLevel(JToken _buf) 
+    public Hero_heroLevel(ByteBuf _buf) 
     {
-        JObject _obj = _buf as JObject;
-        id = (int)_obj.GetValue("id");
-        groupID = (int)_obj.GetValue("groupID");
-        level = (int)_obj.GetValue("level");
-        unlockType = (int)_obj.GetValue("unlockType");
-        { var __json0 = _obj.GetValue("talentNeed"); int _n0 = (__json0 as JArray).Count; talentNeed = new int[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { int __v0;  __v0 = (int)__e0;  talentNeed[__index0++] = __v0; }   }
-        unlockDesc = (string)_obj.GetValue("unlockDesc");
-        { var __json0 = _obj.GetValue("levelupCost"); int _n0 = (__json0 as JArray).Count; levelupCost = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  levelupCost[__index0++] = __v0; }   }
-        { var __json0 = _obj.GetValue("heroAttr"); int _n0 = (__json0 as JArray).Count; heroAttr = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  heroAttr[__index0++] = __v0; }   }
-        levelupDesc = (string)_obj.GetValue("levelupDesc");
-        skillType = (int)_obj.GetValue("skillType");
-        { var __json0 = _obj.GetValue("skills"); int _n0 = (__json0 as JArray).Count; skills = new int[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { int __v0;  __v0 = (int)__e0;  skills[__index0++] = __v0; }   }
-        { var __json0 = _obj.GetValue("levelEffect"); int _n0 = (__json0 as JArray).Count; levelEffect = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  levelEffect[__index0++] = __v0; }   }
-        heroSkillPool = (int)_obj.GetValue("heroSkillPool");
-        { var __json0 = _obj.GetValue("heroGift"); int _n0 = (__json0 as JArray).Count; heroGift = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  heroGift[__index0++] = __v0; }   }
+        id = _buf.ReadInt();
+        groupID = _buf.ReadInt();
+        level = _buf.ReadInt();
+        unlockType = _buf.ReadInt();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);talentNeed = new int[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { int __e0;__e0 = _buf.ReadInt(); talentNeed[__index0] = __e0;}}
+        unlockDesc = _buf.ReadString();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);levelupCost = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); levelupCost[__index0] = __e0;}}
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);heroAttr = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); heroAttr[__index0] = __e0;}}
+        levelupDesc = _buf.ReadString();
+        skillType = _buf.ReadInt();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);skills = new int[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { int __e0;__e0 = _buf.ReadInt(); skills[__index0] = __e0;}}
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);levelEffect = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); levelEffect[__index0] = __e0;}}
+        heroSkillPool = _buf.ReadInt();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);heroGift = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); heroGift[__index0] = __e0;}}
     }
 
-    public static Hero_heroLevel DeserializeHero_heroLevel(JToken _buf)
+    public static Hero_heroLevel DeserializeHero_heroLevel(ByteBuf _buf)
     {
         return new Hero_heroLevel(_buf);
     }
@@ -97,8 +93,7 @@ public sealed partial class Hero_heroLevel : Luban.BeanBase
     /// 英雄等级解锁道具
     /// </summary>
     public readonly string[] heroGift;
-
-
+   
     public const int __ID__ = -880071227;
     public override int GetTypeId() => __ID__;
 
@@ -126,5 +121,6 @@ public sealed partial class Hero_heroLevel : Luban.BeanBase
         + "}";
     }
 }
+
 }
 

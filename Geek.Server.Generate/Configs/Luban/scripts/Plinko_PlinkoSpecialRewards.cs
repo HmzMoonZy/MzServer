@@ -8,23 +8,19 @@
 //------------------------------------------------------------------------------
 
 using Luban;
-using Newtonsoft.Json.Linq;
-
 
 
 namespace HotFix.Cfg
 {
-
 public sealed partial class Plinko_PlinkoSpecialRewards : Luban.BeanBase
 {
-    public Plinko_PlinkoSpecialRewards(JToken _buf) 
+    public Plinko_PlinkoSpecialRewards(ByteBuf _buf) 
     {
-        JObject _obj = _buf as JObject;
-        ID = (int)_obj.GetValue("ID");
-        { var __json0 = _obj.GetValue("Rewards"); int _n0 = (__json0 as JArray).Count; Rewards = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  Rewards[__index0++] = __v0; }   }
+        ID = _buf.ReadInt();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);Rewards = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); Rewards[__index0] = __e0;}}
     }
 
-    public static Plinko_PlinkoSpecialRewards DeserializePlinko_PlinkoSpecialRewards(JToken _buf)
+    public static Plinko_PlinkoSpecialRewards DeserializePlinko_PlinkoSpecialRewards(ByteBuf _buf)
     {
         return new Plinko_PlinkoSpecialRewards(_buf);
     }
@@ -37,8 +33,7 @@ public sealed partial class Plinko_PlinkoSpecialRewards : Luban.BeanBase
     /// 道具ID，道具数量，该组内有多少个该道具，该道具奖励的价值<br/>用完后重置个数
     /// </summary>
     public readonly string[] Rewards;
-
-
+   
     public const int __ID__ = -335695990;
     public override int GetTypeId() => __ID__;
 
@@ -54,5 +49,6 @@ public sealed partial class Plinko_PlinkoSpecialRewards : Luban.BeanBase
         + "}";
     }
 }
+
 }
 

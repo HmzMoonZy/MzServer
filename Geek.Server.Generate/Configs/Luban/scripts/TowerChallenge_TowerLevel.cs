@@ -8,32 +8,28 @@
 //------------------------------------------------------------------------------
 
 using Luban;
-using Newtonsoft.Json.Linq;
-
 
 
 namespace HotFix.Cfg
 {
-
 public sealed partial class TowerChallenge_TowerLevel : Luban.BeanBase
 {
-    public TowerChallenge_TowerLevel(JToken _buf) 
+    public TowerChallenge_TowerLevel(ByteBuf _buf) 
     {
-        JObject _obj = _buf as JObject;
-        id = (int)_obj.GetValue("id");
-        layer = (int)_obj.GetValue("layer");
-        mapID = (int)_obj.GetValue("mapID");
-        levelScriptableID = (int)_obj.GetValue("levelScriptableID");
-        { var __json0 = _obj.GetValue("reward"); int _n0 = (__json0 as JArray).Count; reward = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  reward[__index0++] = __v0; }   }
-        { var __json0 = _obj.GetValue("reparationReward"); int _n0 = (__json0 as JArray).Count; reparationReward = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  reparationReward[__index0++] = __v0; }   }
-        { var __json0 = _obj.GetValue("MemberData"); int _n0 = (__json0 as JArray).Count; MemberData = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  MemberData[__index0++] = __v0; }   }
-        { var __json0 = _obj.GetValue("MonsterMountIds"); int _n0 = (__json0 as JArray).Count; MonsterMountIds = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  MonsterMountIds[__index0++] = __v0; }   }
-        { var __json0 = _obj.GetValue("BuffData"); int _n0 = (__json0 as JArray).Count; BuffData = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  BuffData[__index0++] = __v0; }   }
-        baseSpeed = (int)_obj.GetValue("baseSpeed");
-        speedAdd = (int)_obj.GetValue("speedAdd");
+        id = _buf.ReadInt();
+        layer = _buf.ReadInt();
+        mapID = _buf.ReadInt();
+        levelScriptableID = _buf.ReadInt();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);reward = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); reward[__index0] = __e0;}}
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);reparationReward = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); reparationReward[__index0] = __e0;}}
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);MemberData = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); MemberData[__index0] = __e0;}}
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);MonsterMountIds = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); MonsterMountIds[__index0] = __e0;}}
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);BuffData = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); BuffData[__index0] = __e0;}}
+        baseSpeed = _buf.ReadInt();
+        speedAdd = _buf.ReadInt();
     }
 
-    public static TowerChallenge_TowerLevel DeserializeTowerChallenge_TowerLevel(JToken _buf)
+    public static TowerChallenge_TowerLevel DeserializeTowerChallenge_TowerLevel(ByteBuf _buf)
     {
         return new TowerChallenge_TowerLevel(_buf);
     }
@@ -82,8 +78,7 @@ public sealed partial class TowerChallenge_TowerLevel : Luban.BeanBase
     /// 速度加成(万分比)
     /// </summary>
     public readonly int speedAdd;
-
-
+   
     public const int __ID__ = -868710400;
     public override int GetTypeId() => __ID__;
 
@@ -108,5 +103,6 @@ public sealed partial class TowerChallenge_TowerLevel : Luban.BeanBase
         + "}";
     }
 }
+
 }
 

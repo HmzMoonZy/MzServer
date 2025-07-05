@@ -8,26 +8,22 @@
 //------------------------------------------------------------------------------
 
 using Luban;
-using Newtonsoft.Json.Linq;
-
 
 
 namespace HotFix.Cfg
 {
-
 public sealed partial class HeroLevelup_HeroLevelup : Luban.BeanBase
 {
-    public HeroLevelup_HeroLevelup(JToken _buf) 
+    public HeroLevelup_HeroLevelup(ByteBuf _buf) 
     {
-        JObject _obj = _buf as JObject;
-        ID = (int)_obj.GetValue("ID");
-        titleName = (string)_obj.GetValue("titleName");
-        { var __json0 = _obj.GetValue("levelUpCost"); int _n0 = (__json0 as JArray).Count; levelUpCost = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  levelUpCost[__index0++] = __v0; }   }
-        { var __json0 = _obj.GetValue("gradeUpCost"); int _n0 = (__json0 as JArray).Count; gradeUpCost = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  gradeUpCost[__index0++] = __v0; }   }
-        { var __json0 = _obj.GetValue("levelUpRewards"); int _n0 = (__json0 as JArray).Count; levelUpRewards = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  levelUpRewards[__index0++] = __v0; }   }
+        ID = _buf.ReadInt();
+        titleName = _buf.ReadString();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);levelUpCost = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); levelUpCost[__index0] = __e0;}}
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);gradeUpCost = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); gradeUpCost[__index0] = __e0;}}
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);levelUpRewards = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); levelUpRewards[__index0] = __e0;}}
     }
 
-    public static HeroLevelup_HeroLevelup DeserializeHeroLevelup_HeroLevelup(JToken _buf)
+    public static HeroLevelup_HeroLevelup DeserializeHeroLevelup_HeroLevelup(ByteBuf _buf)
     {
         return new HeroLevelup_HeroLevelup(_buf);
     }
@@ -52,8 +48,7 @@ public sealed partial class HeroLevelup_HeroLevelup : Luban.BeanBase
     /// 升至下一级时获得的属性奖励
     /// </summary>
     public readonly string[] levelUpRewards;
-
-
+   
     public const int __ID__ = -705591797;
     public override int GetTypeId() => __ID__;
 
@@ -72,5 +67,6 @@ public sealed partial class HeroLevelup_HeroLevelup : Luban.BeanBase
         + "}";
     }
 }
+
 }
 

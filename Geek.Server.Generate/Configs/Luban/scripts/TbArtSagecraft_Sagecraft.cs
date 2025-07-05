@@ -7,14 +7,11 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-using Newtonsoft.Json.Linq;
 using Luban;
-
 
 
 namespace HotFix.Cfg
 {
-
 /// <summary>
 /// Generated from ArtSagecraft.xlsx sheet Sagecraft
 /// </summary>
@@ -23,20 +20,19 @@ public partial class TbArtSagecraft_Sagecraft
     private readonly System.Collections.Generic.Dictionary<int, ArtSagecraft_Sagecraft> _dataMap;
     private readonly System.Collections.Generic.List<ArtSagecraft_Sagecraft> _dataList;
     
-    public TbArtSagecraft_Sagecraft(JArray _buf)
+    public TbArtSagecraft_Sagecraft(ByteBuf _buf)
     {
         _dataMap = new System.Collections.Generic.Dictionary<int, ArtSagecraft_Sagecraft>();
         _dataList = new System.Collections.Generic.List<ArtSagecraft_Sagecraft>();
         
-        foreach(JObject _ele in _buf)
+        for(int n = _buf.ReadSize() ; n > 0 ; --n)
         {
             ArtSagecraft_Sagecraft _v;
-            _v = global::HotFix.Cfg.ArtSagecraft_Sagecraft.DeserializeArtSagecraft_Sagecraft(_ele);
+            _v = global::HotFix.Cfg.ArtSagecraft_Sagecraft.DeserializeArtSagecraft_Sagecraft(_buf);
             _dataList.Add(_v);
             _dataMap.Add(_v.id, _v);
-         }
+        }
     }
-
 
     public System.Collections.Generic.Dictionary<int, ArtSagecraft_Sagecraft> DataMap => _dataMap;
     public System.Collections.Generic.List<ArtSagecraft_Sagecraft> DataList => _dataList;
@@ -54,5 +50,6 @@ public partial class TbArtSagecraft_Sagecraft
     }
 
 }
+
 }
 

@@ -8,23 +8,19 @@
 //------------------------------------------------------------------------------
 
 using Luban;
-using Newtonsoft.Json.Linq;
-
 
 
 namespace HotFix.Cfg
 {
-
 public sealed partial class Plinko_PlinkoTurnNum : Luban.BeanBase
 {
-    public Plinko_PlinkoTurnNum(JToken _buf) 
+    public Plinko_PlinkoTurnNum(ByteBuf _buf) 
     {
-        JObject _obj = _buf as JObject;
-        ID = (int)_obj.GetValue("ID");
-        { var __json0 = _obj.GetValue("Number"); int _n0 = (__json0 as JArray).Count; Number = new int[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { int __v0;  __v0 = (int)__e0;  Number[__index0++] = __v0; }   }
+        ID = _buf.ReadInt();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);Number = new int[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { int __e0;__e0 = _buf.ReadInt(); Number[__index0] = __e0;}}
     }
 
-    public static Plinko_PlinkoTurnNum DeserializePlinko_PlinkoTurnNum(JToken _buf)
+    public static Plinko_PlinkoTurnNum DeserializePlinko_PlinkoTurnNum(ByteBuf _buf)
     {
         return new Plinko_PlinkoTurnNum(_buf);
     }
@@ -37,8 +33,7 @@ public sealed partial class Plinko_PlinkoTurnNum : Luban.BeanBase
     /// 每个位置掉落的数量
     /// </summary>
     public readonly int[] Number;
-
-
+   
     public const int __ID__ = 2094575434;
     public override int GetTypeId() => __ID__;
 
@@ -54,5 +49,6 @@ public sealed partial class Plinko_PlinkoTurnNum : Luban.BeanBase
         + "}";
     }
 }
+
 }
 

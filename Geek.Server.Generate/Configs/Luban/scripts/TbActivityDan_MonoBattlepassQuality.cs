@@ -7,14 +7,11 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-using Newtonsoft.Json.Linq;
 using Luban;
-
 
 
 namespace HotFix.Cfg
 {
-
 /// <summary>
 /// Generated from ActivityDan.xlsx sheet MonoBattlepassQuality
 /// </summary>
@@ -23,20 +20,19 @@ public partial class TbActivityDan_MonoBattlepassQuality
     private readonly System.Collections.Generic.Dictionary<int, ActivityDan_MonoBattlepassQuality> _dataMap;
     private readonly System.Collections.Generic.List<ActivityDan_MonoBattlepassQuality> _dataList;
     
-    public TbActivityDan_MonoBattlepassQuality(JArray _buf)
+    public TbActivityDan_MonoBattlepassQuality(ByteBuf _buf)
     {
         _dataMap = new System.Collections.Generic.Dictionary<int, ActivityDan_MonoBattlepassQuality>();
         _dataList = new System.Collections.Generic.List<ActivityDan_MonoBattlepassQuality>();
         
-        foreach(JObject _ele in _buf)
+        for(int n = _buf.ReadSize() ; n > 0 ; --n)
         {
             ActivityDan_MonoBattlepassQuality _v;
-            _v = global::HotFix.Cfg.ActivityDan_MonoBattlepassQuality.DeserializeActivityDan_MonoBattlepassQuality(_ele);
+            _v = global::HotFix.Cfg.ActivityDan_MonoBattlepassQuality.DeserializeActivityDan_MonoBattlepassQuality(_buf);
             _dataList.Add(_v);
             _dataMap.Add(_v.id, _v);
-         }
+        }
     }
-
 
     public System.Collections.Generic.Dictionary<int, ActivityDan_MonoBattlepassQuality> DataMap => _dataMap;
     public System.Collections.Generic.List<ActivityDan_MonoBattlepassQuality> DataList => _dataList;
@@ -54,5 +50,6 @@ public partial class TbActivityDan_MonoBattlepassQuality
     }
 
 }
+
 }
 

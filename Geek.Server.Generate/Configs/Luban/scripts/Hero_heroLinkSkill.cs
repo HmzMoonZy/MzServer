@@ -8,30 +8,26 @@
 //------------------------------------------------------------------------------
 
 using Luban;
-using Newtonsoft.Json.Linq;
-
 
 
 namespace HotFix.Cfg
 {
-
 public sealed partial class Hero_heroLinkSkill : Luban.BeanBase
 {
-    public Hero_heroLinkSkill(JToken _buf) 
+    public Hero_heroLinkSkill(ByteBuf _buf) 
     {
-        JObject _obj = _buf as JObject;
-        id = (int)_obj.GetValue("id");
-        level = (int)_obj.GetValue("level");
-        originSkillId = (int)_obj.GetValue("originSkillId");
-        skillGroupID = (int)_obj.GetValue("skillGroupID");
-        skillBuildType = (int)_obj.GetValue("skillBuildType");
-        skillBuildId = (int)_obj.GetValue("skillBuildId");
-        { var __json0 = _obj.GetValue("levelupCost"); int _n0 = (__json0 as JArray).Count; levelupCost = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  levelupCost[__index0++] = __v0; }   }
-        levelupDesc = (string)_obj.GetValue("levelupDesc");
-        { var __json0 = _obj.GetValue("activePower"); int _n0 = (__json0 as JArray).Count; activePower = new int[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { int __v0;  __v0 = (int)__e0;  activePower[__index0++] = __v0; }   }
+        id = _buf.ReadInt();
+        level = _buf.ReadInt();
+        originSkillId = _buf.ReadInt();
+        skillGroupID = _buf.ReadInt();
+        skillBuildType = _buf.ReadInt();
+        skillBuildId = _buf.ReadInt();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);levelupCost = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); levelupCost[__index0] = __e0;}}
+        levelupDesc = _buf.ReadString();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);activePower = new int[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { int __e0;__e0 = _buf.ReadInt(); activePower[__index0] = __e0;}}
     }
 
-    public static Hero_heroLinkSkill DeserializeHero_heroLinkSkill(JToken _buf)
+    public static Hero_heroLinkSkill DeserializeHero_heroLinkSkill(ByteBuf _buf)
     {
         return new Hero_heroLinkSkill(_buf);
     }
@@ -72,8 +68,7 @@ public sealed partial class Hero_heroLinkSkill : Luban.BeanBase
     /// 层数2万分比战力<br/>层数3万分比战力<br/>（上阵增加战力）
     /// </summary>
     public readonly int[] activePower;
-
-
+   
     public const int __ID__ = -1805213640;
     public override int GetTypeId() => __ID__;
 
@@ -96,5 +91,6 @@ public sealed partial class Hero_heroLinkSkill : Luban.BeanBase
         + "}";
     }
 }
+
 }
 

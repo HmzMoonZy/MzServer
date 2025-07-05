@@ -8,38 +8,34 @@
 //------------------------------------------------------------------------------
 
 using Luban;
-using Newtonsoft.Json.Linq;
-
 
 
 namespace HotFix.Cfg
 {
-
 public sealed partial class Collection_collection : Luban.BeanBase
 {
-    public Collection_collection(JToken _buf) 
+    public Collection_collection(ByteBuf _buf) 
     {
-        JObject _obj = _buf as JObject;
-        id = (int)_obj.GetValue("id");
-        subType = (int)_obj.GetValue("subType");
-        rarity = (int)_obj.GetValue("rarity");
-        suitId = (int)_obj.GetValue("suitId");
-        tagId = (int)_obj.GetValue("tagId");
-        needFragment = (int)_obj.GetValue("needFragment");
-        toFragment = (string)_obj.GetValue("toFragment");
-        toFragmentOld = (string)_obj.GetValue("toFragmentOld");
-        nameId = (string)_obj.GetValue("nameId");
-        exNameId = (string)_obj.GetValue("exNameId");
-        descId = (string)_obj.GetValue("descId");
-        { var __json0 = _obj.GetValue("treasureDescId"); int _n0 = (__json0 as JArray).Count; treasureDescId = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  treasureDescId[__index0++] = __v0; }   }
-        pet = (int)_obj.GetValue("pet");
-        equipTagId = (int)_obj.GetValue("equipTagId");
-        passiveType = (int)_obj.GetValue("passiveType");
-        passivePara = (int)_obj.GetValue("passivePara");
-        { var __json0 = _obj.GetValue("activationGet"); int _n0 = (__json0 as JArray).Count; activationGet = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  activationGet[__index0++] = __v0; }   }
+        id = _buf.ReadInt();
+        subType = _buf.ReadInt();
+        rarity = _buf.ReadInt();
+        suitId = _buf.ReadInt();
+        tagId = _buf.ReadInt();
+        needFragment = _buf.ReadInt();
+        toFragment = _buf.ReadString();
+        toFragmentOld = _buf.ReadString();
+        nameId = _buf.ReadString();
+        exNameId = _buf.ReadString();
+        descId = _buf.ReadString();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);treasureDescId = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); treasureDescId[__index0] = __e0;}}
+        pet = _buf.ReadInt();
+        equipTagId = _buf.ReadInt();
+        passiveType = _buf.ReadInt();
+        passivePara = _buf.ReadInt();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);activationGet = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); activationGet[__index0] = __e0;}}
     }
 
-    public static Collection_collection DeserializeCollection_collection(JToken _buf)
+    public static Collection_collection DeserializeCollection_collection(ByteBuf _buf)
     {
         return new Collection_collection(_buf);
     }
@@ -112,8 +108,7 @@ public sealed partial class Collection_collection : Luban.BeanBase
     /// 激活藏品获取<br/>道具id,数量
     /// </summary>
     public readonly string[] activationGet;
-
-
+   
     public const int __ID__ = 1756034751;
     public override int GetTypeId() => __ID__;
 
@@ -144,5 +139,6 @@ public sealed partial class Collection_collection : Luban.BeanBase
         + "}";
     }
 }
+
 }
 

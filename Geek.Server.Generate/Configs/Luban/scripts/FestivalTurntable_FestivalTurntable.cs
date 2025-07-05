@@ -8,51 +8,47 @@
 //------------------------------------------------------------------------------
 
 using Luban;
-using Newtonsoft.Json.Linq;
-
 
 
 namespace HotFix.Cfg
 {
-
 public sealed partial class FestivalTurntable_FestivalTurntable : Luban.BeanBase
 {
-    public FestivalTurntable_FestivalTurntable(JToken _buf) 
+    public FestivalTurntable_FestivalTurntable(ByteBuf _buf) 
     {
-        JObject _obj = _buf as JObject;
-        id = (int)_obj.GetValue("id");
-        openTime = (string)_obj.GetValue("openTime");
-        endTime = (string)_obj.GetValue("endTime");
-        openTimeCN = (string)_obj.GetValue("openTimeCN");
-        endTimeCN = (string)_obj.GetValue("endTimeCN");
-        shopGroup = (int)_obj.GetValue("shopGroup");
-        payGroup = (int)_obj.GetValue("payGroup");
-        { var __json0 = _obj.GetValue("gridType"); int _n0 = (__json0 as JArray).Count; gridType = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  gridType[__index0++] = __v0; }   }
-        atlasId = (int)_obj.GetValue("atlasId");
-        priceId = (int)_obj.GetValue("priceId");
-        singlePrice = (int)_obj.GetValue("singlePrice");
-        tenPrice = (int)_obj.GetValue("tenPrice");
-        { var __json0 = _obj.GetValue("poolTimes"); int _n0 = (__json0 as JArray).Count; poolTimes = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  poolTimes[__index0++] = __v0; }   }
-        { var __json0 = _obj.GetValue("pool"); int _n0 = (__json0 as JArray).Count; pool = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  pool[__index0++] = __v0; }   }
-        { var __json0 = _obj.GetValue("rate"); int _n0 = (__json0 as JArray).Count; rate = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  rate[__index0++] = __v0; }   }
-        { var __json0 = _obj.GetValue("showRate"); int _n0 = (__json0 as JArray).Count; showRate = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  showRate[__index0++] = __v0; }   }
-        { var __json0 = _obj.GetValue("showRateBig"); int _n0 = (__json0 as JArray).Count; showRateBig = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  showRateBig[__index0++] = __v0; }   }
-        miniPityCount = (int)_obj.GetValue("miniPityCount");
-        miniPityRate = (int)_obj.GetValue("miniPityRate");
-        { var __json0 = _obj.GetValue("limitItems"); int _n0 = (__json0 as JArray).Count; limitItems = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  limitItems[__index0++] = __v0; }   }
-        bigPityCount = (int)_obj.GetValue("bigPityCount");
-        timesRewardID = (int)_obj.GetValue("timesRewardID");
-        { var __json0 = _obj.GetValue("delItems"); int _n0 = (__json0 as JArray).Count; delItems = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  delItems[__index0++] = __v0; }   }
-        ProdMailTempId = (string)_obj.GetValue("ProdMailTempId");
-        HasExchangeShop = (int)_obj.GetValue("HasExchangeShop");
-        { var __json0 = _obj.GetValue("ShopRes"); int _n0 = (__json0 as JArray).Count; ShopRes = new int[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { int __v0;  __v0 = (int)__e0;  ShopRes[__index0++] = __v0; }   }
-        ShopObjBg = (string)_obj.GetValue("ShopObjBg");
-        ShopTitleNameId = (string)_obj.GetValue("ShopTitleNameId");
-        GiftBanner = (string)_obj.GetValue("GiftBanner");
-        GameplayEndTime = (int)_obj.GetValue("GameplayEndTime");
+        id = _buf.ReadInt();
+        openTime = _buf.ReadString();
+        endTime = _buf.ReadString();
+        openTimeCN = _buf.ReadString();
+        endTimeCN = _buf.ReadString();
+        shopGroup = _buf.ReadInt();
+        payGroup = _buf.ReadInt();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);gridType = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); gridType[__index0] = __e0;}}
+        atlasId = _buf.ReadInt();
+        priceId = _buf.ReadInt();
+        singlePrice = _buf.ReadInt();
+        tenPrice = _buf.ReadInt();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);poolTimes = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); poolTimes[__index0] = __e0;}}
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);pool = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); pool[__index0] = __e0;}}
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);rate = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); rate[__index0] = __e0;}}
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);showRate = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); showRate[__index0] = __e0;}}
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);showRateBig = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); showRateBig[__index0] = __e0;}}
+        miniPityCount = _buf.ReadInt();
+        miniPityRate = _buf.ReadInt();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);limitItems = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); limitItems[__index0] = __e0;}}
+        bigPityCount = _buf.ReadInt();
+        timesRewardID = _buf.ReadInt();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);delItems = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); delItems[__index0] = __e0;}}
+        ProdMailTempId = _buf.ReadString();
+        HasExchangeShop = _buf.ReadInt();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);ShopRes = new int[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { int __e0;__e0 = _buf.ReadInt(); ShopRes[__index0] = __e0;}}
+        ShopObjBg = _buf.ReadString();
+        ShopTitleNameId = _buf.ReadString();
+        GiftBanner = _buf.ReadString();
+        GameplayEndTime = _buf.ReadInt();
     }
 
-    public static FestivalTurntable_FestivalTurntable DeserializeFestivalTurntable_FestivalTurntable(JToken _buf)
+    public static FestivalTurntable_FestivalTurntable DeserializeFestivalTurntable_FestivalTurntable(ByteBuf _buf)
     {
         return new FestivalTurntable_FestivalTurntable(_buf);
     }
@@ -177,8 +173,7 @@ public sealed partial class FestivalTurntable_FestivalTurntable : Luban.BeanBase
     /// 服务器结束时间-几天为结束
     /// </summary>
     public readonly int GameplayEndTime;
-
-
+   
     public const int __ID__ = -1341871437;
     public override int GetTypeId() => __ID__;
 
@@ -222,5 +217,6 @@ public sealed partial class FestivalTurntable_FestivalTurntable : Luban.BeanBase
         + "}";
     }
 }
+
 }
 

@@ -7,14 +7,11 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-using Newtonsoft.Json.Linq;
 using Luban;
-
 
 
 namespace HotFix.Cfg
 {
-
 /// <summary>
 /// Generated from CrossArena.xlsx sheet CrossArenaTime
 /// </summary>
@@ -23,20 +20,19 @@ public partial class TbCrossArena_CrossArenaTime
     private readonly System.Collections.Generic.Dictionary<int, CrossArena_CrossArenaTime> _dataMap;
     private readonly System.Collections.Generic.List<CrossArena_CrossArenaTime> _dataList;
     
-    public TbCrossArena_CrossArenaTime(JArray _buf)
+    public TbCrossArena_CrossArenaTime(ByteBuf _buf)
     {
         _dataMap = new System.Collections.Generic.Dictionary<int, CrossArena_CrossArenaTime>();
         _dataList = new System.Collections.Generic.List<CrossArena_CrossArenaTime>();
         
-        foreach(JObject _ele in _buf)
+        for(int n = _buf.ReadSize() ; n > 0 ; --n)
         {
             CrossArena_CrossArenaTime _v;
-            _v = global::HotFix.Cfg.CrossArena_CrossArenaTime.DeserializeCrossArena_CrossArenaTime(_ele);
+            _v = global::HotFix.Cfg.CrossArena_CrossArenaTime.DeserializeCrossArena_CrossArenaTime(_buf);
             _dataList.Add(_v);
             _dataMap.Add(_v.ID, _v);
-         }
+        }
     }
-
 
     public System.Collections.Generic.Dictionary<int, CrossArena_CrossArenaTime> DataMap => _dataMap;
     public System.Collections.Generic.List<CrossArena_CrossArenaTime> DataList => _dataList;
@@ -54,5 +50,6 @@ public partial class TbCrossArena_CrossArenaTime
     }
 
 }
+
 }
 

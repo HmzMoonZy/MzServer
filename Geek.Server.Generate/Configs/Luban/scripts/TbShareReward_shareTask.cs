@@ -7,14 +7,11 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-using Newtonsoft.Json.Linq;
 using Luban;
-
 
 
 namespace HotFix.Cfg
 {
-
 /// <summary>
 /// Generated from ShareReward.xlsx sheet shareTask
 /// </summary>
@@ -23,20 +20,19 @@ public partial class TbShareReward_shareTask
     private readonly System.Collections.Generic.Dictionary<int, ShareReward_shareTask> _dataMap;
     private readonly System.Collections.Generic.List<ShareReward_shareTask> _dataList;
     
-    public TbShareReward_shareTask(JArray _buf)
+    public TbShareReward_shareTask(ByteBuf _buf)
     {
         _dataMap = new System.Collections.Generic.Dictionary<int, ShareReward_shareTask>();
         _dataList = new System.Collections.Generic.List<ShareReward_shareTask>();
         
-        foreach(JObject _ele in _buf)
+        for(int n = _buf.ReadSize() ; n > 0 ; --n)
         {
             ShareReward_shareTask _v;
-            _v = global::HotFix.Cfg.ShareReward_shareTask.DeserializeShareReward_shareTask(_ele);
+            _v = global::HotFix.Cfg.ShareReward_shareTask.DeserializeShareReward_shareTask(_buf);
             _dataList.Add(_v);
             _dataMap.Add(_v.ID, _v);
-         }
+        }
     }
-
 
     public System.Collections.Generic.Dictionary<int, ShareReward_shareTask> DataMap => _dataMap;
     public System.Collections.Generic.List<ShareReward_shareTask> DataList => _dataList;
@@ -54,5 +50,6 @@ public partial class TbShareReward_shareTask
     }
 
 }
+
 }
 

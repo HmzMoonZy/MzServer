@@ -8,29 +8,25 @@
 //------------------------------------------------------------------------------
 
 using Luban;
-using Newtonsoft.Json.Linq;
-
 
 
 namespace HotFix.Cfg
 {
-
 public sealed partial class GameBullet_bullet : Luban.BeanBase
 {
-    public GameBullet_bullet(JToken _buf) 
+    public GameBullet_bullet(ByteBuf _buf) 
     {
-        JObject _obj = _buf as JObject;
-        id = (int)_obj.GetValue("id");
-        prefabID = (int)_obj.GetValue("prefabID");
-        bulletType = (int)_obj.GetValue("bulletType");
-        parameters = (string)_obj.GetValue("parameters");
-        frame = (int)_obj.GetValue("frame");
-        shakeID = (int)_obj.GetValue("shakeID");
-        hitAddBuffs = (string)_obj.GetValue("hitAddBuffs");
-        destroyDuation = (float)_obj.GetValue("destroyDuation");
+        id = _buf.ReadInt();
+        prefabID = _buf.ReadInt();
+        bulletType = _buf.ReadInt();
+        parameters = _buf.ReadString();
+        frame = _buf.ReadInt();
+        shakeID = _buf.ReadInt();
+        hitAddBuffs = _buf.ReadString();
+        destroyDuation = _buf.ReadFloat();
     }
 
-    public static GameBullet_bullet DeserializeGameBullet_bullet(JToken _buf)
+    public static GameBullet_bullet DeserializeGameBullet_bullet(ByteBuf _buf)
     {
         return new GameBullet_bullet(_buf);
     }
@@ -67,8 +63,7 @@ public sealed partial class GameBullet_bullet : Luban.BeanBase
     /// 结束后删除等待时间
     /// </summary>
     public readonly float destroyDuation;
-
-
+   
     public const int __ID__ = -132885523;
     public override int GetTypeId() => __ID__;
 
@@ -90,5 +85,6 @@ public sealed partial class GameBullet_bullet : Luban.BeanBase
         + "}";
     }
 }
+
 }
 

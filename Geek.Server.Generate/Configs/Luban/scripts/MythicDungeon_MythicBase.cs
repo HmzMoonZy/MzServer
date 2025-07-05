@@ -8,28 +8,24 @@
 //------------------------------------------------------------------------------
 
 using Luban;
-using Newtonsoft.Json.Linq;
-
 
 
 namespace HotFix.Cfg
 {
-
 public sealed partial class MythicDungeon_MythicBase : Luban.BeanBase
 {
-    public MythicDungeon_MythicBase(JToken _buf) 
+    public MythicDungeon_MythicBase(ByteBuf _buf) 
     {
-        JObject _obj = _buf as JObject;
-        id = (int)_obj.GetValue("id");
-        name = (string)_obj.GetValue("name");
-        bgm = (int)_obj.GetValue("bgm");
-        selFuLimit = (int)_obj.GetValue("selFuLimit");
-        shopItemId = (int)_obj.GetValue("shopItemId");
-        rankMailID = (string)_obj.GetValue("rankMailID");
-        gemBoxId = (int)_obj.GetValue("gemBoxId");
+        id = _buf.ReadInt();
+        name = _buf.ReadString();
+        bgm = _buf.ReadInt();
+        selFuLimit = _buf.ReadInt();
+        shopItemId = _buf.ReadInt();
+        rankMailID = _buf.ReadString();
+        gemBoxId = _buf.ReadInt();
     }
 
-    public static MythicDungeon_MythicBase DeserializeMythicDungeon_MythicBase(JToken _buf)
+    public static MythicDungeon_MythicBase DeserializeMythicDungeon_MythicBase(ByteBuf _buf)
     {
         return new MythicDungeon_MythicBase(_buf);
     }
@@ -62,8 +58,7 @@ public sealed partial class MythicDungeon_MythicBase : Luban.BeanBase
     /// 随机普通宝石 宝箱(仅展示用)
     /// </summary>
     public readonly int gemBoxId;
-
-
+   
     public const int __ID__ = -1870323990;
     public override int GetTypeId() => __ID__;
 
@@ -84,5 +79,6 @@ public sealed partial class MythicDungeon_MythicBase : Luban.BeanBase
         + "}";
     }
 }
+
 }
 

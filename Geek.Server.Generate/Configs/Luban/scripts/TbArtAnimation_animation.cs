@@ -7,14 +7,11 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-using Newtonsoft.Json.Linq;
 using Luban;
-
 
 
 namespace HotFix.Cfg
 {
-
 /// <summary>
 /// Generated from ArtAnimation.xlsx sheet animation
 /// </summary>
@@ -23,20 +20,19 @@ public partial class TbArtAnimation_animation
     private readonly System.Collections.Generic.Dictionary<string, ArtAnimation_animation> _dataMap;
     private readonly System.Collections.Generic.List<ArtAnimation_animation> _dataList;
     
-    public TbArtAnimation_animation(JArray _buf)
+    public TbArtAnimation_animation(ByteBuf _buf)
     {
         _dataMap = new System.Collections.Generic.Dictionary<string, ArtAnimation_animation>();
         _dataList = new System.Collections.Generic.List<ArtAnimation_animation>();
         
-        foreach(JObject _ele in _buf)
+        for(int n = _buf.ReadSize() ; n > 0 ; --n)
         {
             ArtAnimation_animation _v;
-            _v = global::HotFix.Cfg.ArtAnimation_animation.DeserializeArtAnimation_animation(_ele);
+            _v = global::HotFix.Cfg.ArtAnimation_animation.DeserializeArtAnimation_animation(_buf);
             _dataList.Add(_v);
             _dataMap.Add(_v.id, _v);
-         }
+        }
     }
-
 
     public System.Collections.Generic.Dictionary<string, ArtAnimation_animation> DataMap => _dataMap;
     public System.Collections.Generic.List<ArtAnimation_animation> DataList => _dataList;
@@ -54,5 +50,6 @@ public partial class TbArtAnimation_animation
     }
 
 }
+
 }
 

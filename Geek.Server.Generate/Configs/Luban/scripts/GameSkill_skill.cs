@@ -8,88 +8,84 @@
 //------------------------------------------------------------------------------
 
 using Luban;
-using Newtonsoft.Json.Linq;
-
 
 
 namespace HotFix.Cfg
 {
-
 public sealed partial class GameSkill_skill : Luban.BeanBase
 {
-    public GameSkill_skill(JToken _buf) 
+    public GameSkill_skill(ByteBuf _buf) 
     {
-        JObject _obj = _buf as JObject;
-        id = (int)_obj.GetValue("id");
-        nameID = (string)_obj.GetValue("nameID");
-        infoID = (string)_obj.GetValue("infoID");
-        infoDetailID = (string)_obj.GetValue("infoDetailID");
-        fullDetailID = (string)_obj.GetValue("fullDetailID");
-        iconAtlasID = (int)_obj.GetValue("iconAtlasID");
-        icon = (string)_obj.GetValue("icon");
-        badgeAtlas = (int)_obj.GetValue("badgeAtlas");
-        iconBadge = (string)_obj.GetValue("iconBadge");
-        isShowInfoHUD = (int)_obj.GetValue("isShowInfoHUD");
-        prefabID = (int)_obj.GetValue("prefabID");
-        startPrefabID = (int)_obj.GetValue("startPrefabID");
-        startPosID = (string)_obj.GetValue("startPosID");
-        typeID = (int)_obj.GetValue("typeID");
-        parameters = (string)_obj.GetValue("parameters");
-        { var __json0 = _obj.GetValue("skillTypeDamageAddParams"); int _n0 = (__json0 as JArray).Count; skillTypeDamageAddParams = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  skillTypeDamageAddParams[__index0++] = __v0; }   }
-        { var __json0 = _obj.GetValue("skillCritTypeParams"); int _n0 = (__json0 as JArray).Count; skillCritTypeParams = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  skillCritTypeParams[__index0++] = __v0; }   }
-        freedType = (int)_obj.GetValue("freedType");
-        subType = (int)_obj.GetValue("subType");
-        tag = (int)_obj.GetValue("tag");
-        initCD = (int)_obj.GetValue("initCD");
-        CD = (int)_obj.GetValue("CD");
-        moveType = (int)_obj.GetValue("moveType");
-        moveParam = (string)_obj.GetValue("moveParam");
-        teamMoveType = (int)_obj.GetValue("teamMoveType");
-        teamMoveParam = (string)_obj.GetValue("teamMoveParam");
-        animID = (int)_obj.GetValue("animID");
-        { var __json0 = _obj.GetValue("animEventNodes"); int _n0 = (__json0 as JArray).Count; animEventNodes = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  animEventNodes[__index0++] = __v0; }   }
-        { var __json0 = _obj.GetValue("fireBullets"); int _n0 = (__json0 as JArray).Count; fireBullets = new int[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { int __v0;  __v0 = (int)__e0;  fireBullets[__index0++] = __v0; }   }
-        sortId = (int)_obj.GetValue("sortId");
-        triggerConditions = (string)_obj.GetValue("triggerConditions");
-        { var __json0 = _obj.GetValue("selectIDs"); int _n0 = (__json0 as JArray).Count; selectIDs = new int[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { int __v0;  __v0 = (int)__e0;  selectIDs[__index0++] = __v0; }   }
-        { var __json0 = _obj.GetValue("teamSelectIDs"); int _n0 = (__json0 as JArray).Count; teamSelectIDs = new int[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { int __v0;  __v0 = (int)__e0;  teamSelectIDs[__index0++] = __v0; }   }
-        rangeType = (int)_obj.GetValue("rangeType");
-        groupSelectMaxCount = (int)_obj.GetValue("groupSelectMaxCount");
-        hurtAttributes = (string)_obj.GetValue("hurtAttributes");
-        hurtAttributesFactor = (int)_obj.GetValue("hurtAttributesFactor");
-        effectType = (int)_obj.GetValue("effectType");
-        baseAttributes = (string)_obj.GetValue("baseAttributes");
-        skillStartOwnerAddBuffs = (string)_obj.GetValue("skillStartOwnerAddBuffs");
-        skillEndOwnerAddBuffs = (string)_obj.GetValue("skillEndOwnerAddBuffs");
-        skillStartTargetAddBuffs = (string)_obj.GetValue("skillStartTargetAddBuffs");
-        skillEndTargetAddBuffs = (string)_obj.GetValue("skillEndTargetAddBuffs");
-        skillStartFriendAddBuffs = (string)_obj.GetValue("skillStartFriendAddBuffs");
-        skillEndFriendAddBuffs = (string)_obj.GetValue("skillEndFriendAddBuffs");
-        recharge = (int)_obj.GetValue("recharge");
-        legacyPower = (int)_obj.GetValue("legacyPower");
-        legacyPowerMax = (int)_obj.GetValue("legacyPowerMax");
-        legacyBindmodelId = (int)_obj.GetValue("legacyBindmodelId");
-        lagacyAppearFrame = (int)_obj.GetValue("lagacyAppearFrame");
-        heroListId = (int)_obj.GetValue("heroListId");
-        { var __json0 = _obj.GetValue("activeHeroSkill"); int _n0 = (__json0 as JArray).Count; activeHeroSkill = new int[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { int __v0;  __v0 = (int)__e0;  activeHeroSkill[__index0++] = __v0; }   }
-        sagecraftType = (int)_obj.GetValue("sagecraftType");
-        isBlack = (int)_obj.GetValue("isBlack");
-        soundID = (int)_obj.GetValue("soundID");
-        combat = (int)_obj.GetValue("combat");
-        skillEndDelayFrame = (int)_obj.GetValue("skillEndDelayFrame");
-        skillGroupId = (int)_obj.GetValue("skillGroupId");
-        skillPriority = (int)_obj.GetValue("skillPriority");
-        maxCount = (int)_obj.GetValue("maxCount");
-        artifactId = (int)_obj.GetValue("artifactId");
-        skillDamageAdd = (string)_obj.GetValue("skillDamageAdd");
-        customDamageAdd = (string)_obj.GetValue("customDamageAdd");
-        customFormulaAdd = (string)_obj.GetValue("customFormulaAdd");
-        isEquipSkill = (int)_obj.GetValue("isEquipSkill");
-        DamageStatisticsShowSkillID = (int)_obj.GetValue("DamageStatisticsShowSkillID");
-        { var __json0 = _obj.GetValue("ignoreTriggerIds"); int _n0 = (__json0 as JArray).Count; ignoreTriggerIds = new int[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { int __v0;  __v0 = (int)__e0;  ignoreTriggerIds[__index0++] = __v0; }   }
+        id = _buf.ReadInt();
+        nameID = _buf.ReadString();
+        infoID = _buf.ReadString();
+        infoDetailID = _buf.ReadString();
+        fullDetailID = _buf.ReadString();
+        iconAtlasID = _buf.ReadInt();
+        icon = _buf.ReadString();
+        badgeAtlas = _buf.ReadInt();
+        iconBadge = _buf.ReadString();
+        isShowInfoHUD = _buf.ReadInt();
+        prefabID = _buf.ReadInt();
+        startPrefabID = _buf.ReadInt();
+        startPosID = _buf.ReadString();
+        typeID = _buf.ReadInt();
+        parameters = _buf.ReadString();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);skillTypeDamageAddParams = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); skillTypeDamageAddParams[__index0] = __e0;}}
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);skillCritTypeParams = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); skillCritTypeParams[__index0] = __e0;}}
+        freedType = _buf.ReadInt();
+        subType = _buf.ReadInt();
+        tag = _buf.ReadInt();
+        initCD = _buf.ReadInt();
+        CD = _buf.ReadInt();
+        moveType = _buf.ReadInt();
+        moveParam = _buf.ReadString();
+        teamMoveType = _buf.ReadInt();
+        teamMoveParam = _buf.ReadString();
+        animID = _buf.ReadInt();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);animEventNodes = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); animEventNodes[__index0] = __e0;}}
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);fireBullets = new int[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { int __e0;__e0 = _buf.ReadInt(); fireBullets[__index0] = __e0;}}
+        sortId = _buf.ReadInt();
+        triggerConditions = _buf.ReadString();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);selectIDs = new int[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { int __e0;__e0 = _buf.ReadInt(); selectIDs[__index0] = __e0;}}
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);teamSelectIDs = new int[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { int __e0;__e0 = _buf.ReadInt(); teamSelectIDs[__index0] = __e0;}}
+        rangeType = _buf.ReadInt();
+        groupSelectMaxCount = _buf.ReadInt();
+        hurtAttributes = _buf.ReadString();
+        hurtAttributesFactor = _buf.ReadInt();
+        effectType = _buf.ReadInt();
+        baseAttributes = _buf.ReadString();
+        skillStartOwnerAddBuffs = _buf.ReadString();
+        skillEndOwnerAddBuffs = _buf.ReadString();
+        skillStartTargetAddBuffs = _buf.ReadString();
+        skillEndTargetAddBuffs = _buf.ReadString();
+        skillStartFriendAddBuffs = _buf.ReadString();
+        skillEndFriendAddBuffs = _buf.ReadString();
+        recharge = _buf.ReadInt();
+        legacyPower = _buf.ReadInt();
+        legacyPowerMax = _buf.ReadInt();
+        legacyBindmodelId = _buf.ReadInt();
+        lagacyAppearFrame = _buf.ReadInt();
+        heroListId = _buf.ReadInt();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);activeHeroSkill = new int[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { int __e0;__e0 = _buf.ReadInt(); activeHeroSkill[__index0] = __e0;}}
+        sagecraftType = _buf.ReadInt();
+        isBlack = _buf.ReadInt();
+        soundID = _buf.ReadInt();
+        combat = _buf.ReadInt();
+        skillEndDelayFrame = _buf.ReadInt();
+        skillGroupId = _buf.ReadInt();
+        skillPriority = _buf.ReadInt();
+        maxCount = _buf.ReadInt();
+        artifactId = _buf.ReadInt();
+        skillDamageAdd = _buf.ReadString();
+        customDamageAdd = _buf.ReadString();
+        customFormulaAdd = _buf.ReadString();
+        isEquipSkill = _buf.ReadInt();
+        DamageStatisticsShowSkillID = _buf.ReadInt();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);ignoreTriggerIds = new int[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { int __e0;__e0 = _buf.ReadInt(); ignoreTriggerIds[__index0] = __e0;}}
     }
 
-    public static GameSkill_skill DeserializeGameSkill_skill(JToken _buf)
+    public static GameSkill_skill DeserializeGameSkill_skill(ByteBuf _buf)
     {
         return new GameSkill_skill(_buf);
     }
@@ -362,8 +358,7 @@ public sealed partial class GameSkill_skill : Luban.BeanBase
     /// 技能忽略触发时机
     /// </summary>
     public readonly int[] ignoreTriggerIds;
-
-
+   
     public const int __ID__ = 359710577;
     public override int GetTypeId() => __ID__;
 
@@ -444,5 +439,6 @@ public sealed partial class GameSkill_skill : Luban.BeanBase
         + "}";
     }
 }
+
 }
 

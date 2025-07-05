@@ -7,14 +7,11 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-using Newtonsoft.Json.Linq;
 using Luban;
-
 
 
 namespace HotFix.Cfg
 {
-
 /// <summary>
 /// Generated from Chapter.xlsx sheet attributeBuild
 /// </summary>
@@ -23,20 +20,19 @@ public partial class TbChapter_attributeBuild
     private readonly System.Collections.Generic.Dictionary<int, Chapter_attributeBuild> _dataMap;
     private readonly System.Collections.Generic.List<Chapter_attributeBuild> _dataList;
     
-    public TbChapter_attributeBuild(JArray _buf)
+    public TbChapter_attributeBuild(ByteBuf _buf)
     {
         _dataMap = new System.Collections.Generic.Dictionary<int, Chapter_attributeBuild>();
         _dataList = new System.Collections.Generic.List<Chapter_attributeBuild>();
         
-        foreach(JObject _ele in _buf)
+        for(int n = _buf.ReadSize() ; n > 0 ; --n)
         {
             Chapter_attributeBuild _v;
-            _v = global::HotFix.Cfg.Chapter_attributeBuild.DeserializeChapter_attributeBuild(_ele);
+            _v = global::HotFix.Cfg.Chapter_attributeBuild.DeserializeChapter_attributeBuild(_buf);
             _dataList.Add(_v);
             _dataMap.Add(_v.id, _v);
-         }
+        }
     }
-
 
     public System.Collections.Generic.Dictionary<int, Chapter_attributeBuild> DataMap => _dataMap;
     public System.Collections.Generic.List<Chapter_attributeBuild> DataList => _dataList;
@@ -54,5 +50,6 @@ public partial class TbChapter_attributeBuild
     }
 
 }
+
 }
 

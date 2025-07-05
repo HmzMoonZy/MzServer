@@ -8,26 +8,22 @@
 //------------------------------------------------------------------------------
 
 using Luban;
-using Newtonsoft.Json.Linq;
-
 
 
 namespace HotFix.Cfg
 {
-
 public sealed partial class GameSkill_hitEffect : Luban.BeanBase
 {
-    public GameSkill_hitEffect(JToken _buf) 
+    public GameSkill_hitEffect(ByteBuf _buf) 
     {
-        JObject _obj = _buf as JObject;
-        id = (int)_obj.GetValue("id");
-        roleType_1 = (string)_obj.GetValue("roleType_1");
-        roleType_2 = (string)_obj.GetValue("roleType_2");
-        roleType_3 = (string)_obj.GetValue("roleType_3");
-        roleType_4 = (string)_obj.GetValue("roleType_4");
+        id = _buf.ReadInt();
+        roleType_1 = _buf.ReadString();
+        roleType_2 = _buf.ReadString();
+        roleType_3 = _buf.ReadString();
+        roleType_4 = _buf.ReadString();
     }
 
-    public static GameSkill_hitEffect DeserializeGameSkill_hitEffect(JToken _buf)
+    public static GameSkill_hitEffect DeserializeGameSkill_hitEffect(ByteBuf _buf)
     {
         return new GameSkill_hitEffect(_buf);
     }
@@ -52,8 +48,7 @@ public sealed partial class GameSkill_hitEffect : Luban.BeanBase
     /// 骷髅
     /// </summary>
     public readonly string roleType_4;
-
-
+   
     public const int __ID__ = 1001481252;
     public override int GetTypeId() => __ID__;
 
@@ -72,5 +67,6 @@ public sealed partial class GameSkill_hitEffect : Luban.BeanBase
         + "}";
     }
 }
+
 }
 

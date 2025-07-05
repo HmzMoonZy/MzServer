@@ -8,28 +8,24 @@
 //------------------------------------------------------------------------------
 
 using Luban;
-using Newtonsoft.Json.Linq;
-
 
 
 namespace HotFix.Cfg
 {
-
 public sealed partial class Mining_miningBase : Luban.BeanBase
 {
-    public Mining_miningBase(JToken _buf) 
+    public Mining_miningBase(ByteBuf _buf) 
     {
-        JObject _obj = _buf as JObject;
-        id = (int)_obj.GetValue("id");
-        { var __json0 = _obj.GetValue("floor"); int _n0 = (__json0 as JArray).Count; floor = new int[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { int __v0;  __v0 = (int)__e0;  floor[__index0++] = __v0; }   }
-        gridType = (int)_obj.GetValue("gridType");
-        { var __json0 = _obj.GetValue("treasure"); int _n0 = (__json0 as JArray).Count; treasure = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  treasure[__index0++] = __v0; }   }
-        { var __json0 = _obj.GetValue("bomb"); int _n0 = (__json0 as JArray).Count; bomb = new int[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { int __v0;  __v0 = (int)__e0;  bomb[__index0++] = __v0; }   }
-        { var __json0 = _obj.GetValue("oreBuild"); int _n0 = (__json0 as JArray).Count; oreBuild = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  oreBuild[__index0++] = __v0; }   }
-        normalOre = (int)_obj.GetValue("normalOre");
+        id = _buf.ReadInt();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);floor = new int[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { int __e0;__e0 = _buf.ReadInt(); floor[__index0] = __e0;}}
+        gridType = _buf.ReadInt();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);treasure = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); treasure[__index0] = __e0;}}
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);bomb = new int[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { int __e0;__e0 = _buf.ReadInt(); bomb[__index0] = __e0;}}
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);oreBuild = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); oreBuild[__index0] = __e0;}}
+        normalOre = _buf.ReadInt();
     }
 
-    public static Mining_miningBase DeserializeMining_miningBase(JToken _buf)
+    public static Mining_miningBase DeserializeMining_miningBase(ByteBuf _buf)
     {
         return new Mining_miningBase(_buf);
     }
@@ -62,8 +58,7 @@ public sealed partial class Mining_miningBase : Luban.BeanBase
     /// 普通矿石id
     /// </summary>
     public readonly int normalOre;
-
-
+   
     public const int __ID__ = -942270864;
     public override int GetTypeId() => __ID__;
 
@@ -84,5 +79,6 @@ public sealed partial class Mining_miningBase : Luban.BeanBase
         + "}";
     }
 }
+
 }
 

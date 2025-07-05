@@ -8,28 +8,24 @@
 //------------------------------------------------------------------------------
 
 using Luban;
-using Newtonsoft.Json.Linq;
-
 
 
 namespace HotFix.Cfg
 {
-
 public sealed partial class CommonActivity_RankObj : Luban.BeanBase
 {
-    public CommonActivity_RankObj(JToken _buf) 
+    public CommonActivity_RankObj(ByteBuf _buf) 
     {
-        JObject _obj = _buf as JObject;
-        id = (int)_obj.GetValue("id");
-        randID = (int)_obj.GetValue("randID");
-        rank = (int)_obj.GetValue("rank");
-        { var __json0 = _obj.GetValue("reward"); int _n0 = (__json0 as JArray).Count; reward = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  reward[__index0++] = __v0; }   }
-        { var __json0 = _obj.GetValue("reward2"); int _n0 = (__json0 as JArray).Count; reward2 = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  reward2[__index0++] = __v0; }   }
-        { var __json0 = _obj.GetValue("reward4"); int _n0 = (__json0 as JArray).Count; reward4 = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  reward4[__index0++] = __v0; }   }
-        { var __json0 = _obj.GetValue("reward8"); int _n0 = (__json0 as JArray).Count; reward8 = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  reward8[__index0++] = __v0; }   }
+        id = _buf.ReadInt();
+        randID = _buf.ReadInt();
+        rank = _buf.ReadInt();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);reward = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); reward[__index0] = __e0;}}
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);reward2 = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); reward2[__index0] = __e0;}}
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);reward4 = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); reward4[__index0] = __e0;}}
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);reward8 = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); reward8[__index0] = __e0;}}
     }
 
-    public static CommonActivity_RankObj DeserializeCommonActivity_RankObj(JToken _buf)
+    public static CommonActivity_RankObj DeserializeCommonActivity_RankObj(ByteBuf _buf)
     {
         return new CommonActivity_RankObj(_buf);
     }
@@ -62,8 +58,7 @@ public sealed partial class CommonActivity_RankObj : Luban.BeanBase
     /// 奖励
     /// </summary>
     public readonly string[] reward8;
-
-
+   
     public const int __ID__ = -2138505210;
     public override int GetTypeId() => __ID__;
 
@@ -84,5 +79,6 @@ public sealed partial class CommonActivity_RankObj : Luban.BeanBase
         + "}";
     }
 }
+
 }
 

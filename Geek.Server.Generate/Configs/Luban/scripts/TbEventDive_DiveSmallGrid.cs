@@ -7,14 +7,11 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-using Newtonsoft.Json.Linq;
 using Luban;
-
 
 
 namespace HotFix.Cfg
 {
-
 /// <summary>
 /// Generated from EventDive.xlsx sheet DiveSmallGrid
 /// </summary>
@@ -23,20 +20,19 @@ public partial class TbEventDive_DiveSmallGrid
     private readonly System.Collections.Generic.Dictionary<int, EventDive_DiveSmallGrid> _dataMap;
     private readonly System.Collections.Generic.List<EventDive_DiveSmallGrid> _dataList;
     
-    public TbEventDive_DiveSmallGrid(JArray _buf)
+    public TbEventDive_DiveSmallGrid(ByteBuf _buf)
     {
         _dataMap = new System.Collections.Generic.Dictionary<int, EventDive_DiveSmallGrid>();
         _dataList = new System.Collections.Generic.List<EventDive_DiveSmallGrid>();
         
-        foreach(JObject _ele in _buf)
+        for(int n = _buf.ReadSize() ; n > 0 ; --n)
         {
             EventDive_DiveSmallGrid _v;
-            _v = global::HotFix.Cfg.EventDive_DiveSmallGrid.DeserializeEventDive_DiveSmallGrid(_ele);
+            _v = global::HotFix.Cfg.EventDive_DiveSmallGrid.DeserializeEventDive_DiveSmallGrid(_buf);
             _dataList.Add(_v);
             _dataMap.Add(_v.ID, _v);
-         }
+        }
     }
-
 
     public System.Collections.Generic.Dictionary<int, EventDive_DiveSmallGrid> DataMap => _dataMap;
     public System.Collections.Generic.List<EventDive_DiveSmallGrid> DataList => _dataList;
@@ -54,5 +50,6 @@ public partial class TbEventDive_DiveSmallGrid
     }
 
 }
+
 }
 

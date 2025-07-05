@@ -8,24 +8,20 @@
 //------------------------------------------------------------------------------
 
 using Luban;
-using Newtonsoft.Json.Linq;
-
 
 
 namespace HotFix.Cfg
 {
-
 public sealed partial class MythicDungeon_fightFeature : Luban.BeanBase
 {
-    public MythicDungeon_fightFeature(JToken _buf) 
+    public MythicDungeon_fightFeature(ByteBuf _buf) 
     {
-        JObject _obj = _buf as JObject;
-        id = (int)_obj.GetValue("id");
-        type = (int)_obj.GetValue("type");
-        parameter = (string)_obj.GetValue("parameter");
+        id = _buf.ReadInt();
+        type = _buf.ReadInt();
+        parameter = _buf.ReadString();
     }
 
-    public static MythicDungeon_fightFeature DeserializeMythicDungeon_fightFeature(JToken _buf)
+    public static MythicDungeon_fightFeature DeserializeMythicDungeon_fightFeature(ByteBuf _buf)
     {
         return new MythicDungeon_fightFeature(_buf);
     }
@@ -42,8 +38,7 @@ public sealed partial class MythicDungeon_fightFeature : Luban.BeanBase
     /// 参数<br/>根据type的含义<br/>1、equipCompose的ID<br/>4、属性通用公式<br/>5、负数万分比，不能有%<br/>6、技能表id
     /// </summary>
     public readonly string parameter;
-
-
+   
     public const int __ID__ = 1113512869;
     public override int GetTypeId() => __ID__;
 
@@ -60,5 +55,6 @@ public sealed partial class MythicDungeon_fightFeature : Luban.BeanBase
         + "}";
     }
 }
+
 }
 

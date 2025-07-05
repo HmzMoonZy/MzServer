@@ -8,36 +8,32 @@
 //------------------------------------------------------------------------------
 
 using Luban;
-using Newtonsoft.Json.Linq;
-
 
 
 namespace HotFix.Cfg
 {
-
 public sealed partial class Vip_vip : Luban.BeanBase
 {
-    public Vip_vip(JToken _buf) 
+    public Vip_vip(ByteBuf _buf) 
     {
-        JObject _obj = _buf as JObject;
-        id = (int)_obj.GetValue("id");
-        Exp = (int)_obj.GetValue("Exp");
-        { var __json0 = _obj.GetValue("UnlockReward"); int _n0 = (__json0 as JArray).Count; UnlockReward = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  UnlockReward[__index0++] = __v0; }   }
-        { var __json0 = _obj.GetValue("Price"); int _n0 = (__json0 as JArray).Count; Price = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  Price[__index0++] = __v0; }   }
-        { var __json0 = _obj.GetValue("PriceOld"); int _n0 = (__json0 as JArray).Count; PriceOld = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  PriceOld[__index0++] = __v0; }   }
-        Power1 = (string)_obj.GetValue("Power1");
-        Power2 = (string)_obj.GetValue("Power2");
-        Power3 = (string)_obj.GetValue("Power3");
-        Power4 = (string)_obj.GetValue("Power4");
-        Power5 = (string)_obj.GetValue("Power5");
-        Power6 = (string)_obj.GetValue("Power6");
-        Power7 = (string)_obj.GetValue("Power7");
-        Power8 = (string)_obj.GetValue("Power8");
-        Power9 = (string)_obj.GetValue("Power9");
-        Power10 = (string)_obj.GetValue("Power10");
+        id = _buf.ReadInt();
+        Exp = _buf.ReadInt();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);UnlockReward = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); UnlockReward[__index0] = __e0;}}
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);Price = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); Price[__index0] = __e0;}}
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);PriceOld = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); PriceOld[__index0] = __e0;}}
+        Power1 = _buf.ReadString();
+        Power2 = _buf.ReadString();
+        Power3 = _buf.ReadString();
+        Power4 = _buf.ReadString();
+        Power5 = _buf.ReadString();
+        Power6 = _buf.ReadString();
+        Power7 = _buf.ReadString();
+        Power8 = _buf.ReadString();
+        Power9 = _buf.ReadString();
+        Power10 = _buf.ReadString();
     }
 
-    public static Vip_vip DeserializeVip_vip(JToken _buf)
+    public static Vip_vip DeserializeVip_vip(ByteBuf _buf)
     {
         return new Vip_vip(_buf);
     }
@@ -102,8 +98,7 @@ public sealed partial class Vip_vip : Luban.BeanBase
     /// 权限10：解锁主线战斗4倍速
     /// </summary>
     public readonly string Power10;
-
-
+   
     public const int __ID__ = 2128347355;
     public override int GetTypeId() => __ID__;
 
@@ -132,5 +127,6 @@ public sealed partial class Vip_vip : Luban.BeanBase
         + "}";
     }
 }
+
 }
 

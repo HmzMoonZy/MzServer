@@ -7,14 +7,11 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-using Newtonsoft.Json.Linq;
 using Luban;
-
 
 
 namespace HotFix.Cfg
 {
-
 /// <summary>
 /// Generated from Chapter.xlsx sheet starReward
 /// </summary>
@@ -23,20 +20,19 @@ public partial class TbChapter_starReward
     private readonly System.Collections.Generic.Dictionary<int, Chapter_starReward> _dataMap;
     private readonly System.Collections.Generic.List<Chapter_starReward> _dataList;
     
-    public TbChapter_starReward(JArray _buf)
+    public TbChapter_starReward(ByteBuf _buf)
     {
         _dataMap = new System.Collections.Generic.Dictionary<int, Chapter_starReward>();
         _dataList = new System.Collections.Generic.List<Chapter_starReward>();
         
-        foreach(JObject _ele in _buf)
+        for(int n = _buf.ReadSize() ; n > 0 ; --n)
         {
             Chapter_starReward _v;
-            _v = global::HotFix.Cfg.Chapter_starReward.DeserializeChapter_starReward(_ele);
+            _v = global::HotFix.Cfg.Chapter_starReward.DeserializeChapter_starReward(_buf);
             _dataList.Add(_v);
             _dataMap.Add(_v.id, _v);
-         }
+        }
     }
-
 
     public System.Collections.Generic.Dictionary<int, Chapter_starReward> DataMap => _dataMap;
     public System.Collections.Generic.List<Chapter_starReward> DataList => _dataList;
@@ -54,5 +50,6 @@ public partial class TbChapter_starReward
     }
 
 }
+
 }
 

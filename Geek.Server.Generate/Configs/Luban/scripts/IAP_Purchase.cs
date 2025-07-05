@@ -8,41 +8,37 @@
 //------------------------------------------------------------------------------
 
 using Luban;
-using Newtonsoft.Json.Linq;
-
 
 
 namespace HotFix.Cfg
 {
-
 public sealed partial class IAP_Purchase : Luban.BeanBase
 {
-    public IAP_Purchase(JToken _buf) 
+    public IAP_Purchase(ByteBuf _buf) 
     {
-        JObject _obj = _buf as JObject;
-        id = (int)_obj.GetValue("id");
-        notes = (string)_obj.GetValue("notes");
-        titleID = (string)_obj.GetValue("titleID");
-        nameID = (string)_obj.GetValue("nameID");
-        descID = (string)_obj.GetValue("descID");
-        iconAtlasID = (int)_obj.GetValue("iconAtlasID");
-        iconName = (string)_obj.GetValue("iconName");
-        productType = (int)_obj.GetValue("productType");
-        source = (int)_obj.GetValue("source");
-        viewType = (int)_obj.GetValue("viewType");
-        TokenPrice = (int)_obj.GetValue("TokenPrice");
-        platformID = (int)_obj.GetValue("platformID");
-        price1 = (float)_obj.GetValue("price1");
-        originPrice1 = (float)_obj.GetValue("originPrice1");
-        CNprice = (float)_obj.GetValue("CNprice");
-        CNoriginPrice = (float)_obj.GetValue("CNoriginPrice");
-        limitCount = (int)_obj.GetValue("limitCount");
-        priority = (int)_obj.GetValue("priority");
-        { var __json0 = _obj.GetValue("showProducts"); int _n0 = (__json0 as JArray).Count; showProducts = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  showProducts[__index0++] = __v0; }   }
-        valueBet = (int)_obj.GetValue("valueBet");
+        id = _buf.ReadInt();
+        notes = _buf.ReadString();
+        titleID = _buf.ReadString();
+        nameID = _buf.ReadString();
+        descID = _buf.ReadString();
+        iconAtlasID = _buf.ReadInt();
+        iconName = _buf.ReadString();
+        productType = _buf.ReadInt();
+        source = _buf.ReadInt();
+        viewType = _buf.ReadInt();
+        TokenPrice = _buf.ReadInt();
+        platformID = _buf.ReadInt();
+        price1 = _buf.ReadFloat();
+        originPrice1 = _buf.ReadFloat();
+        CNprice = _buf.ReadFloat();
+        CNoriginPrice = _buf.ReadFloat();
+        limitCount = _buf.ReadInt();
+        priority = _buf.ReadInt();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);showProducts = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); showProducts[__index0] = __e0;}}
+        valueBet = _buf.ReadInt();
     }
 
-    public static IAP_Purchase DeserializeIAP_Purchase(JToken _buf)
+    public static IAP_Purchase DeserializeIAP_Purchase(ByteBuf _buf)
     {
         return new IAP_Purchase(_buf);
     }
@@ -127,8 +123,7 @@ public sealed partial class IAP_Purchase : Luban.BeanBase
     /// 礼包价值倍率
     /// </summary>
     public readonly int valueBet;
-
-
+   
     public const int __ID__ = -942309560;
     public override int GetTypeId() => __ID__;
 
@@ -162,5 +157,6 @@ public sealed partial class IAP_Purchase : Luban.BeanBase
         + "}";
     }
 }
+
 }
 

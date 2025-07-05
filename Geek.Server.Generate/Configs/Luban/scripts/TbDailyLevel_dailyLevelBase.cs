@@ -7,14 +7,11 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-using Newtonsoft.Json.Linq;
 using Luban;
-
 
 
 namespace HotFix.Cfg
 {
-
 /// <summary>
 /// Generated from DailyLevel.xlsx sheet dailyLevelBase
 /// </summary>
@@ -23,20 +20,19 @@ public partial class TbDailyLevel_dailyLevelBase
     private readonly System.Collections.Generic.Dictionary<int, DailyLevel_dailyLevelBase> _dataMap;
     private readonly System.Collections.Generic.List<DailyLevel_dailyLevelBase> _dataList;
     
-    public TbDailyLevel_dailyLevelBase(JArray _buf)
+    public TbDailyLevel_dailyLevelBase(ByteBuf _buf)
     {
         _dataMap = new System.Collections.Generic.Dictionary<int, DailyLevel_dailyLevelBase>();
         _dataList = new System.Collections.Generic.List<DailyLevel_dailyLevelBase>();
         
-        foreach(JObject _ele in _buf)
+        for(int n = _buf.ReadSize() ; n > 0 ; --n)
         {
             DailyLevel_dailyLevelBase _v;
-            _v = global::HotFix.Cfg.DailyLevel_dailyLevelBase.DeserializeDailyLevel_dailyLevelBase(_ele);
+            _v = global::HotFix.Cfg.DailyLevel_dailyLevelBase.DeserializeDailyLevel_dailyLevelBase(_buf);
             _dataList.Add(_v);
             _dataMap.Add(_v.id, _v);
-         }
+        }
     }
-
 
     public System.Collections.Generic.Dictionary<int, DailyLevel_dailyLevelBase> DataMap => _dataMap;
     public System.Collections.Generic.List<DailyLevel_dailyLevelBase> DataList => _dataList;
@@ -54,5 +50,6 @@ public partial class TbDailyLevel_dailyLevelBase
     }
 
 }
+
 }
 

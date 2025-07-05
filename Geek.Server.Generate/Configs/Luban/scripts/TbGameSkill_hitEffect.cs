@@ -7,14 +7,11 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-using Newtonsoft.Json.Linq;
 using Luban;
-
 
 
 namespace HotFix.Cfg
 {
-
 /// <summary>
 /// Generated from GameSkill.xlsx sheet hitEffect
 /// </summary>
@@ -23,20 +20,19 @@ public partial class TbGameSkill_hitEffect
     private readonly System.Collections.Generic.Dictionary<int, GameSkill_hitEffect> _dataMap;
     private readonly System.Collections.Generic.List<GameSkill_hitEffect> _dataList;
     
-    public TbGameSkill_hitEffect(JArray _buf)
+    public TbGameSkill_hitEffect(ByteBuf _buf)
     {
         _dataMap = new System.Collections.Generic.Dictionary<int, GameSkill_hitEffect>();
         _dataList = new System.Collections.Generic.List<GameSkill_hitEffect>();
         
-        foreach(JObject _ele in _buf)
+        for(int n = _buf.ReadSize() ; n > 0 ; --n)
         {
             GameSkill_hitEffect _v;
-            _v = global::HotFix.Cfg.GameSkill_hitEffect.DeserializeGameSkill_hitEffect(_ele);
+            _v = global::HotFix.Cfg.GameSkill_hitEffect.DeserializeGameSkill_hitEffect(_buf);
             _dataList.Add(_v);
             _dataMap.Add(_v.id, _v);
-         }
+        }
     }
-
 
     public System.Collections.Generic.Dictionary<int, GameSkill_hitEffect> DataMap => _dataMap;
     public System.Collections.Generic.List<GameSkill_hitEffect> DataList => _dataList;
@@ -54,5 +50,6 @@ public partial class TbGameSkill_hitEffect
     }
 
 }
+
 }
 

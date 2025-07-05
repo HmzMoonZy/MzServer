@@ -8,28 +8,24 @@
 //------------------------------------------------------------------------------
 
 using Luban;
-using Newtonsoft.Json.Linq;
-
 
 
 namespace HotFix.Cfg
 {
-
 public sealed partial class MythicDungeon_mythicBook : Luban.BeanBase
 {
-    public MythicDungeon_mythicBook(JToken _buf) 
+    public MythicDungeon_mythicBook(ByteBuf _buf) 
     {
-        JObject _obj = _buf as JObject;
-        id = (int)_obj.GetValue("id");
-        pageType = (int)_obj.GetValue("pageType");
-        group = (int)_obj.GetValue("group");
-        { var __json0 = _obj.GetValue("contentId"); int _n0 = (__json0 as JArray).Count; contentId = new int[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { int __v0;  __v0 = (int)__e0;  contentId[__index0++] = __v0; }   }
-        { var __json0 = _obj.GetValue("param"); int _n0 = (__json0 as JArray).Count; param = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  param[__index0++] = __v0; }   }
-        mythicDesc = (string)_obj.GetValue("mythicDesc");
-        { var __json0 = _obj.GetValue("reward"); int _n0 = (__json0 as JArray).Count; reward = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  reward[__index0++] = __v0; }   }
+        id = _buf.ReadInt();
+        pageType = _buf.ReadInt();
+        group = _buf.ReadInt();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);contentId = new int[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { int __e0;__e0 = _buf.ReadInt(); contentId[__index0] = __e0;}}
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);param = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); param[__index0] = __e0;}}
+        mythicDesc = _buf.ReadString();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);reward = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); reward[__index0] = __e0;}}
     }
 
-    public static MythicDungeon_mythicBook DeserializeMythicDungeon_mythicBook(JToken _buf)
+    public static MythicDungeon_mythicBook DeserializeMythicDungeon_mythicBook(ByteBuf _buf)
     {
         return new MythicDungeon_mythicBook(_buf);
     }
@@ -62,8 +58,7 @@ public sealed partial class MythicDungeon_mythicBook : Luban.BeanBase
     /// 解锁奖励
     /// </summary>
     public readonly string[] reward;
-
-
+   
     public const int __ID__ = 431191778;
     public override int GetTypeId() => __ID__;
 
@@ -84,5 +79,6 @@ public sealed partial class MythicDungeon_mythicBook : Luban.BeanBase
         + "}";
     }
 }
+
 }
 

@@ -8,33 +8,29 @@
 //------------------------------------------------------------------------------
 
 using Luban;
-using Newtonsoft.Json.Linq;
-
 
 
 namespace HotFix.Cfg
 {
-
 public sealed partial class Pet_PetEntry : Luban.BeanBase
 {
-    public Pet_PetEntry(JToken _buf) 
+    public Pet_PetEntry(ByteBuf _buf) 
     {
-        JObject _obj = _buf as JObject;
-        id = (int)_obj.GetValue("id");
-        languageName = (string)_obj.GetValue("languageName");
-        languageID = (string)_obj.GetValue("languageID");
-        quality = (int)_obj.GetValue("quality");
-        entryType = (int)_obj.GetValue("entryType");
-        actionType = (int)_obj.GetValue("actionType");
-        action = (string)_obj.GetValue("action");
-        { var __json0 = _obj.GetValue("actionSpecial"); int _n0 = (__json0 as JArray).Count; actionSpecial = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  actionSpecial[__index0++] = __v0; }   }
-        { var __json0 = _obj.GetValue("attrRange"); int _n0 = (__json0 as JArray).Count; attrRange = new int[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { int __v0;  __v0 = (int)__e0;  attrRange[__index0++] = __v0; }   }
-        weight = (int)_obj.GetValue("weight");
-        packVersion = (string)_obj.GetValue("packVersion");
-        { var __json0 = _obj.GetValue("activePower"); int _n0 = (__json0 as JArray).Count; activePower = new int[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { int __v0;  __v0 = (int)__e0;  activePower[__index0++] = __v0; }   }
+        id = _buf.ReadInt();
+        languageName = _buf.ReadString();
+        languageID = _buf.ReadString();
+        quality = _buf.ReadInt();
+        entryType = _buf.ReadInt();
+        actionType = _buf.ReadInt();
+        action = _buf.ReadString();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);actionSpecial = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); actionSpecial[__index0] = __e0;}}
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);attrRange = new int[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { int __e0;__e0 = _buf.ReadInt(); attrRange[__index0] = __e0;}}
+        weight = _buf.ReadInt();
+        packVersion = _buf.ReadString();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);activePower = new int[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { int __e0;__e0 = _buf.ReadInt(); activePower[__index0] = __e0;}}
     }
 
-    public static Pet_PetEntry DeserializePet_PetEntry(JToken _buf)
+    public static Pet_PetEntry DeserializePet_PetEntry(ByteBuf _buf)
     {
         return new Pet_PetEntry(_buf);
     }
@@ -87,8 +83,7 @@ public sealed partial class Pet_PetEntry : Luban.BeanBase
     /// 层数2万分比战力<br/>层数3万分比战力<br/>（上阵增加战力）
     /// </summary>
     public readonly int[] activePower;
-
-
+   
     public const int __ID__ = -74428941;
     public override int GetTypeId() => __ID__;
 
@@ -114,5 +109,6 @@ public sealed partial class Pet_PetEntry : Luban.BeanBase
         + "}";
     }
 }
+
 }
 

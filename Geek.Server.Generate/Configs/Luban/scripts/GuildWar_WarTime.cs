@@ -8,28 +8,24 @@
 //------------------------------------------------------------------------------
 
 using Luban;
-using Newtonsoft.Json.Linq;
-
 
 
 namespace HotFix.Cfg
 {
-
 public sealed partial class GuildWar_WarTime : Luban.BeanBase
 {
-    public GuildWar_WarTime(JToken _buf) 
+    public GuildWar_WarTime(ByteBuf _buf) 
     {
-        JObject _obj = _buf as JObject;
-        id = (int)_obj.GetValue("id");
-        month = (int)_obj.GetValue("month");
-        week = (int)_obj.GetValue("week");
-        WarId = (int)_obj.GetValue("WarId");
-        GroupTime = (string)_obj.GetValue("GroupTime");
-        { var __json0 = _obj.GetValue("OpenTime"); int _n0 = (__json0 as JArray).Count; OpenTime = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  OpenTime[__index0++] = __v0; }   }
-        FinishTime = (string)_obj.GetValue("FinishTime");
+        id = _buf.ReadInt();
+        month = _buf.ReadInt();
+        week = _buf.ReadInt();
+        WarId = _buf.ReadInt();
+        GroupTime = _buf.ReadString();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);OpenTime = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); OpenTime[__index0] = __e0;}}
+        FinishTime = _buf.ReadString();
     }
 
-    public static GuildWar_WarTime DeserializeGuildWar_WarTime(JToken _buf)
+    public static GuildWar_WarTime DeserializeGuildWar_WarTime(ByteBuf _buf)
     {
         return new GuildWar_WarTime(_buf);
     }
@@ -62,8 +58,7 @@ public sealed partial class GuildWar_WarTime : Luban.BeanBase
     /// 结束时间戳
     /// </summary>
     public readonly string FinishTime;
-
-
+   
     public const int __ID__ = 1210534283;
     public override int GetTypeId() => __ID__;
 
@@ -84,5 +79,6 @@ public sealed partial class GuildWar_WarTime : Luban.BeanBase
         + "}";
     }
 }
+
 }
 

@@ -8,28 +8,24 @@
 //------------------------------------------------------------------------------
 
 using Luban;
-using Newtonsoft.Json.Linq;
-
 
 
 namespace HotFix.Cfg
 {
-
 public sealed partial class Dungeon_DungeonBase : Luban.BeanBase
 {
-    public Dungeon_DungeonBase(JToken _buf) 
+    public Dungeon_DungeonBase(ByteBuf _buf) 
     {
-        JObject _obj = _buf as JObject;
-        id = (int)_obj.GetValue("id");
-        name = (string)_obj.GetValue("name");
-        keyID = (int)_obj.GetValue("keyID");
-        keyLimit = (int)_obj.GetValue("keyLimit");
-        adId = (int)_obj.GetValue("adId");
-        showDropItemId = (int)_obj.GetValue("showDropItemId");
-        desId = (string)_obj.GetValue("desId");
+        id = _buf.ReadInt();
+        name = _buf.ReadString();
+        keyID = _buf.ReadInt();
+        keyLimit = _buf.ReadInt();
+        adId = _buf.ReadInt();
+        showDropItemId = _buf.ReadInt();
+        desId = _buf.ReadString();
     }
 
-    public static Dungeon_DungeonBase DeserializeDungeon_DungeonBase(JToken _buf)
+    public static Dungeon_DungeonBase DeserializeDungeon_DungeonBase(ByteBuf _buf)
     {
         return new Dungeon_DungeonBase(_buf);
     }
@@ -62,8 +58,7 @@ public sealed partial class Dungeon_DungeonBase : Luban.BeanBase
     /// 描述多语言id
     /// </summary>
     public readonly string desId;
-
-
+   
     public const int __ID__ = -229750170;
     public override int GetTypeId() => __ID__;
 
@@ -84,5 +79,6 @@ public sealed partial class Dungeon_DungeonBase : Luban.BeanBase
         + "}";
     }
 }
+
 }
 

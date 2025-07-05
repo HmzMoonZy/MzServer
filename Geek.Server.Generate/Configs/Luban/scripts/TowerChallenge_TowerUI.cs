@@ -8,28 +8,24 @@
 //------------------------------------------------------------------------------
 
 using Luban;
-using Newtonsoft.Json.Linq;
-
 
 
 namespace HotFix.Cfg
 {
-
 public sealed partial class TowerChallenge_TowerUI : Luban.BeanBase
 {
-    public TowerChallenge_TowerUI(JToken _buf) 
+    public TowerChallenge_TowerUI(ByteBuf _buf) 
     {
-        JObject _obj = _buf as JObject;
-        id = (int)_obj.GetValue("id");
-        normalBg = (string)_obj.GetValue("normalBg");
-        bossBg = (string)_obj.GetValue("bossBg");
-        topBg = (string)_obj.GetValue("topBg");
-        sky = (string)_obj.GetValue("sky");
-        moveCloud = (string)_obj.GetValue("moveCloud");
-        staticCloud = (string)_obj.GetValue("staticCloud");
+        id = _buf.ReadInt();
+        normalBg = _buf.ReadString();
+        bossBg = _buf.ReadString();
+        topBg = _buf.ReadString();
+        sky = _buf.ReadString();
+        moveCloud = _buf.ReadString();
+        staticCloud = _buf.ReadString();
     }
 
-    public static TowerChallenge_TowerUI DeserializeTowerChallenge_TowerUI(JToken _buf)
+    public static TowerChallenge_TowerUI DeserializeTowerChallenge_TowerUI(ByteBuf _buf)
     {
         return new TowerChallenge_TowerUI(_buf);
     }
@@ -62,8 +58,7 @@ public sealed partial class TowerChallenge_TowerUI : Luban.BeanBase
     /// 静态云
     /// </summary>
     public readonly string staticCloud;
-
-
+   
     public const int __ID__ = 544789368;
     public override int GetTypeId() => __ID__;
 
@@ -84,5 +79,6 @@ public sealed partial class TowerChallenge_TowerUI : Luban.BeanBase
         + "}";
     }
 }
+
 }
 

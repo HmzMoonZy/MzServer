@@ -8,30 +8,26 @@
 //------------------------------------------------------------------------------
 
 using Luban;
-using Newtonsoft.Json.Linq;
-
 
 
 namespace HotFix.Cfg
 {
-
 public sealed partial class GameRank_GameRank : Luban.BeanBase
 {
-    public GameRank_GameRank(JToken _buf) 
+    public GameRank_GameRank(ByteBuf _buf) 
     {
-        JObject _obj = _buf as JObject;
-        id = (int)_obj.GetValue("id");
-        FunctionId = (int)_obj.GetValue("FunctionId");
-        isOpen = (int)_obj.GetValue("isOpen");
-        atlasId = (int)_obj.GetValue("atlasId");
-        tabIcon = (string)_obj.GetValue("tabIcon");
-        titleName = (string)_obj.GetValue("titleName");
-        tabName = (string)_obj.GetValue("tabName");
-        numDesc = (string)_obj.GetValue("numDesc");
-        rankType = (int)_obj.GetValue("rankType");
+        id = _buf.ReadInt();
+        FunctionId = _buf.ReadInt();
+        isOpen = _buf.ReadInt();
+        atlasId = _buf.ReadInt();
+        tabIcon = _buf.ReadString();
+        titleName = _buf.ReadString();
+        tabName = _buf.ReadString();
+        numDesc = _buf.ReadString();
+        rankType = _buf.ReadInt();
     }
 
-    public static GameRank_GameRank DeserializeGameRank_GameRank(JToken _buf)
+    public static GameRank_GameRank DeserializeGameRank_GameRank(ByteBuf _buf)
     {
         return new GameRank_GameRank(_buf);
     }
@@ -72,8 +68,7 @@ public sealed partial class GameRank_GameRank : Luban.BeanBase
     /// 排行榜类型
     /// </summary>
     public readonly int rankType;
-
-
+   
     public const int __ID__ = 995662623;
     public override int GetTypeId() => __ID__;
 
@@ -96,5 +91,6 @@ public sealed partial class GameRank_GameRank : Luban.BeanBase
         + "}";
     }
 }
+
 }
 

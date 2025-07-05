@@ -8,45 +8,41 @@
 //------------------------------------------------------------------------------
 
 using Luban;
-using Newtonsoft.Json.Linq;
-
 
 
 namespace HotFix.Cfg
 {
-
 public sealed partial class ActivityTurntable_ActivityTurntable : Luban.BeanBase
 {
-    public ActivityTurntable_ActivityTurntable(JToken _buf) 
+    public ActivityTurntable_ActivityTurntable(ByteBuf _buf) 
     {
-        JObject _obj = _buf as JObject;
-        id = (int)_obj.GetValue("id");
-        OpenTime = (int)_obj.GetValue("OpenTime");
-        EndTime = (int)_obj.GetValue("EndTime");
-        OpenTimeNew = (int)_obj.GetValue("OpenTimeNew");
-        EndTimeNew = (int)_obj.GetValue("EndTimeNew");
-        OpenDateTime = (string)_obj.GetValue("OpenDateTime");
-        EndDateTime = (string)_obj.GetValue("EndDateTime");
-        dateTimeLimit = (int)_obj.GetValue("dateTimeLimit");
-        shopGroup = (int)_obj.GetValue("shopGroup");
-        { var __json0 = _obj.GetValue("ShopRes"); int _n0 = (__json0 as JArray).Count; ShopRes = new int[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { int __v0;  __v0 = (int)__e0;  ShopRes[__index0++] = __v0; }   }
-        priceId = (int)_obj.GetValue("priceId");
-        singlePrice = (int)_obj.GetValue("singlePrice");
-        tenPrice = (int)_obj.GetValue("tenPrice");
-        { var __json0 = _obj.GetValue("poolTimes"); int _n0 = (__json0 as JArray).Count; poolTimes = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  poolTimes[__index0++] = __v0; }   }
-        { var __json0 = _obj.GetValue("pool"); int _n0 = (__json0 as JArray).Count; pool = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  pool[__index0++] = __v0; }   }
-        { var __json0 = _obj.GetValue("rate"); int _n0 = (__json0 as JArray).Count; rate = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  rate[__index0++] = __v0; }   }
-        { var __json0 = _obj.GetValue("showRate"); int _n0 = (__json0 as JArray).Count; showRate = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  showRate[__index0++] = __v0; }   }
-        { var __json0 = _obj.GetValue("showRateBig"); int _n0 = (__json0 as JArray).Count; showRateBig = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  showRateBig[__index0++] = __v0; }   }
-        miniPityCount = (int)_obj.GetValue("miniPityCount");
-        miniPityRate = (int)_obj.GetValue("miniPityRate");
-        { var __json0 = _obj.GetValue("limitItems"); int _n0 = (__json0 as JArray).Count; limitItems = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  limitItems[__index0++] = __v0; }   }
-        bigPityCount = (int)_obj.GetValue("bigPityCount");
-        timesRewardID = (int)_obj.GetValue("timesRewardID");
-        ProdMailTempId = (string)_obj.GetValue("ProdMailTempId");
+        id = _buf.ReadInt();
+        OpenTime = _buf.ReadInt();
+        EndTime = _buf.ReadInt();
+        OpenTimeNew = _buf.ReadInt();
+        EndTimeNew = _buf.ReadInt();
+        OpenDateTime = _buf.ReadString();
+        EndDateTime = _buf.ReadString();
+        dateTimeLimit = _buf.ReadInt();
+        shopGroup = _buf.ReadInt();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);ShopRes = new int[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { int __e0;__e0 = _buf.ReadInt(); ShopRes[__index0] = __e0;}}
+        priceId = _buf.ReadInt();
+        singlePrice = _buf.ReadInt();
+        tenPrice = _buf.ReadInt();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);poolTimes = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); poolTimes[__index0] = __e0;}}
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);pool = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); pool[__index0] = __e0;}}
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);rate = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); rate[__index0] = __e0;}}
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);showRate = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); showRate[__index0] = __e0;}}
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);showRateBig = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); showRateBig[__index0] = __e0;}}
+        miniPityCount = _buf.ReadInt();
+        miniPityRate = _buf.ReadInt();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);limitItems = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); limitItems[__index0] = __e0;}}
+        bigPityCount = _buf.ReadInt();
+        timesRewardID = _buf.ReadInt();
+        ProdMailTempId = _buf.ReadString();
     }
 
-    public static ActivityTurntable_ActivityTurntable DeserializeActivityTurntable_ActivityTurntable(JToken _buf)
+    public static ActivityTurntable_ActivityTurntable DeserializeActivityTurntable_ActivityTurntable(ByteBuf _buf)
     {
         return new ActivityTurntable_ActivityTurntable(_buf);
     }
@@ -147,8 +143,7 @@ public sealed partial class ActivityTurntable_ActivityTurntable : Luban.BeanBase
     /// 正式服奖励邮件
     /// </summary>
     public readonly string ProdMailTempId;
-
-
+   
     public const int __ID__ = -1508127995;
     public override int GetTypeId() => __ID__;
 
@@ -186,5 +181,6 @@ public sealed partial class ActivityTurntable_ActivityTurntable : Luban.BeanBase
         + "}";
     }
 }
+
 }
 

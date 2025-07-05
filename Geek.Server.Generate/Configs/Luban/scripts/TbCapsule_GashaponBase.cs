@@ -7,14 +7,11 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-using Newtonsoft.Json.Linq;
 using Luban;
-
 
 
 namespace HotFix.Cfg
 {
-
 /// <summary>
 /// Generated from Capsule.xlsx sheet GashaponBase
 /// </summary>
@@ -23,20 +20,19 @@ public partial class TbCapsule_GashaponBase
     private readonly System.Collections.Generic.Dictionary<int, Capsule_GashaponBase> _dataMap;
     private readonly System.Collections.Generic.List<Capsule_GashaponBase> _dataList;
     
-    public TbCapsule_GashaponBase(JArray _buf)
+    public TbCapsule_GashaponBase(ByteBuf _buf)
     {
         _dataMap = new System.Collections.Generic.Dictionary<int, Capsule_GashaponBase>();
         _dataList = new System.Collections.Generic.List<Capsule_GashaponBase>();
         
-        foreach(JObject _ele in _buf)
+        for(int n = _buf.ReadSize() ; n > 0 ; --n)
         {
             Capsule_GashaponBase _v;
-            _v = global::HotFix.Cfg.Capsule_GashaponBase.DeserializeCapsule_GashaponBase(_ele);
+            _v = global::HotFix.Cfg.Capsule_GashaponBase.DeserializeCapsule_GashaponBase(_buf);
             _dataList.Add(_v);
             _dataMap.Add(_v.ID, _v);
-         }
+        }
     }
-
 
     public System.Collections.Generic.Dictionary<int, Capsule_GashaponBase> DataMap => _dataMap;
     public System.Collections.Generic.List<Capsule_GashaponBase> DataList => _dataList;
@@ -54,5 +50,6 @@ public partial class TbCapsule_GashaponBase
     }
 
 }
+
 }
 

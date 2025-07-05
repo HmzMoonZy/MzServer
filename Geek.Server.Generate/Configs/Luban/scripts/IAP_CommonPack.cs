@@ -8,27 +8,23 @@
 //------------------------------------------------------------------------------
 
 using Luban;
-using Newtonsoft.Json.Linq;
-
 
 
 namespace HotFix.Cfg
 {
-
 public sealed partial class IAP_CommonPack : Luban.BeanBase
 {
-    public IAP_CommonPack(JToken _buf) 
+    public IAP_CommonPack(ByteBuf _buf) 
     {
-        JObject _obj = _buf as JObject;
-        id = (int)_obj.GetValue("id");
-        group = (int)_obj.GetValue("group");
-        purchaseId = (int)_obj.GetValue("purchaseId");
-        nameId = (string)_obj.GetValue("nameId");
-        buyLimit = (int)_obj.GetValue("buyLimit");
-        { var __json0 = _obj.GetValue("goods"); int _n0 = (__json0 as JArray).Count; goods = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  goods[__index0++] = __v0; }   }
+        id = _buf.ReadInt();
+        group = _buf.ReadInt();
+        purchaseId = _buf.ReadInt();
+        nameId = _buf.ReadString();
+        buyLimit = _buf.ReadInt();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);goods = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); goods[__index0] = __e0;}}
     }
 
-    public static IAP_CommonPack DeserializeIAP_CommonPack(JToken _buf)
+    public static IAP_CommonPack DeserializeIAP_CommonPack(ByteBuf _buf)
     {
         return new IAP_CommonPack(_buf);
     }
@@ -57,8 +53,7 @@ public sealed partial class IAP_CommonPack : Luban.BeanBase
     /// 出售道具
     /// </summary>
     public readonly string[] goods;
-
-
+   
     public const int __ID__ = 1565464363;
     public override int GetTypeId() => __ID__;
 
@@ -78,5 +73,6 @@ public sealed partial class IAP_CommonPack : Luban.BeanBase
         + "}";
     }
 }
+
 }
 

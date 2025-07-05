@@ -7,14 +7,11 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-using Newtonsoft.Json.Linq;
 using Luban;
-
 
 
 namespace HotFix.Cfg
 {
-
 /// <summary>
 /// Generated from MythicDungeon.xlsx sheet battleUpgrade
 /// </summary>
@@ -23,20 +20,19 @@ public partial class TbMythicDungeon_battleUpgrade
     private readonly System.Collections.Generic.Dictionary<int, MythicDungeon_battleUpgrade> _dataMap;
     private readonly System.Collections.Generic.List<MythicDungeon_battleUpgrade> _dataList;
     
-    public TbMythicDungeon_battleUpgrade(JArray _buf)
+    public TbMythicDungeon_battleUpgrade(ByteBuf _buf)
     {
         _dataMap = new System.Collections.Generic.Dictionary<int, MythicDungeon_battleUpgrade>();
         _dataList = new System.Collections.Generic.List<MythicDungeon_battleUpgrade>();
         
-        foreach(JObject _ele in _buf)
+        for(int n = _buf.ReadSize() ; n > 0 ; --n)
         {
             MythicDungeon_battleUpgrade _v;
-            _v = global::HotFix.Cfg.MythicDungeon_battleUpgrade.DeserializeMythicDungeon_battleUpgrade(_ele);
+            _v = global::HotFix.Cfg.MythicDungeon_battleUpgrade.DeserializeMythicDungeon_battleUpgrade(_buf);
             _dataList.Add(_v);
             _dataMap.Add(_v.id, _v);
-         }
+        }
     }
-
 
     public System.Collections.Generic.Dictionary<int, MythicDungeon_battleUpgrade> DataMap => _dataMap;
     public System.Collections.Generic.List<MythicDungeon_battleUpgrade> DataList => _dataList;
@@ -54,5 +50,6 @@ public partial class TbMythicDungeon_battleUpgrade
     }
 
 }
+
 }
 

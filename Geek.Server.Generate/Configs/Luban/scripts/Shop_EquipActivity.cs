@@ -8,30 +8,26 @@
 //------------------------------------------------------------------------------
 
 using Luban;
-using Newtonsoft.Json.Linq;
-
 
 
 namespace HotFix.Cfg
 {
-
 public sealed partial class Shop_EquipActivity : Luban.BeanBase
 {
-    public Shop_EquipActivity(JToken _buf) 
+    public Shop_EquipActivity(ByteBuf _buf) 
     {
-        JObject _obj = _buf as JObject;
-        id = (int)_obj.GetValue("id");
-        nameId = (string)_obj.GetValue("nameId");
-        descId = (string)_obj.GetValue("descId");
-        limitLanguage = (string)_obj.GetValue("limitLanguage");
-        miniPityDesc = (string)_obj.GetValue("miniPityDesc");
-        hardPityDesc = (string)_obj.GetValue("hardPityDesc");
-        atlasId = (int)_obj.GetValue("atlasId");
-        iconName = (string)_obj.GetValue("iconName");
-        type = (int)_obj.GetValue("type");
+        id = _buf.ReadInt();
+        nameId = _buf.ReadString();
+        descId = _buf.ReadString();
+        limitLanguage = _buf.ReadString();
+        miniPityDesc = _buf.ReadString();
+        hardPityDesc = _buf.ReadString();
+        atlasId = _buf.ReadInt();
+        iconName = _buf.ReadString();
+        type = _buf.ReadInt();
     }
 
-    public static Shop_EquipActivity DeserializeShop_EquipActivity(JToken _buf)
+    public static Shop_EquipActivity DeserializeShop_EquipActivity(ByteBuf _buf)
     {
         return new Shop_EquipActivity(_buf);
     }
@@ -72,8 +68,7 @@ public sealed partial class Shop_EquipActivity : Luban.BeanBase
     /// 装备抽卡类型<br/>1、青铜宝箱（固定唯一）<br/>2、白银宝箱（固定唯一）<br/>3、黄金宝箱（固定唯一）<br/>4、钻石宝箱（固定唯一）<br/>100、活动宝箱<br/>101/up池活动宝箱
     /// </summary>
     public readonly int type;
-
-
+   
     public const int __ID__ = -598687274;
     public override int GetTypeId() => __ID__;
 
@@ -96,5 +91,6 @@ public sealed partial class Shop_EquipActivity : Luban.BeanBase
         + "}";
     }
 }
+
 }
 

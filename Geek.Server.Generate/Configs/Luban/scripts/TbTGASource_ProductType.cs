@@ -7,14 +7,11 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-using Newtonsoft.Json.Linq;
 using Luban;
-
 
 
 namespace HotFix.Cfg
 {
-
 /// <summary>
 /// Generated from TGASource.xlsx sheet ProductType
 /// </summary>
@@ -23,20 +20,19 @@ public partial class TbTGASource_ProductType
     private readonly System.Collections.Generic.Dictionary<int, TGASource_ProductType> _dataMap;
     private readonly System.Collections.Generic.List<TGASource_ProductType> _dataList;
     
-    public TbTGASource_ProductType(JArray _buf)
+    public TbTGASource_ProductType(ByteBuf _buf)
     {
         _dataMap = new System.Collections.Generic.Dictionary<int, TGASource_ProductType>();
         _dataList = new System.Collections.Generic.List<TGASource_ProductType>();
         
-        foreach(JObject _ele in _buf)
+        for(int n = _buf.ReadSize() ; n > 0 ; --n)
         {
             TGASource_ProductType _v;
-            _v = global::HotFix.Cfg.TGASource_ProductType.DeserializeTGASource_ProductType(_ele);
+            _v = global::HotFix.Cfg.TGASource_ProductType.DeserializeTGASource_ProductType(_buf);
             _dataList.Add(_v);
             _dataMap.Add(_v.id, _v);
-         }
+        }
     }
-
 
     public System.Collections.Generic.Dictionary<int, TGASource_ProductType> DataMap => _dataMap;
     public System.Collections.Generic.List<TGASource_ProductType> DataList => _dataList;
@@ -54,5 +50,6 @@ public partial class TbTGASource_ProductType
     }
 
 }
+
 }
 

@@ -7,14 +7,11 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-using Newtonsoft.Json.Linq;
 using Luban;
-
 
 
 namespace HotFix.Cfg
 {
-
 /// <summary>
 /// Generated from GameMember.xlsx sheet member
 /// </summary>
@@ -23,20 +20,19 @@ public partial class TbGameMember_member
     private readonly System.Collections.Generic.Dictionary<int, GameMember_member> _dataMap;
     private readonly System.Collections.Generic.List<GameMember_member> _dataList;
     
-    public TbGameMember_member(JArray _buf)
+    public TbGameMember_member(ByteBuf _buf)
     {
         _dataMap = new System.Collections.Generic.Dictionary<int, GameMember_member>();
         _dataList = new System.Collections.Generic.List<GameMember_member>();
         
-        foreach(JObject _ele in _buf)
+        for(int n = _buf.ReadSize() ; n > 0 ; --n)
         {
             GameMember_member _v;
-            _v = global::HotFix.Cfg.GameMember_member.DeserializeGameMember_member(_ele);
+            _v = global::HotFix.Cfg.GameMember_member.DeserializeGameMember_member(_buf);
             _dataList.Add(_v);
             _dataMap.Add(_v.id, _v);
-         }
+        }
     }
-
 
     public System.Collections.Generic.Dictionary<int, GameMember_member> DataMap => _dataMap;
     public System.Collections.Generic.List<GameMember_member> DataList => _dataList;
@@ -54,5 +50,6 @@ public partial class TbGameMember_member
     }
 
 }
+
 }
 

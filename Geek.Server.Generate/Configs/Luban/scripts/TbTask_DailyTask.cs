@@ -7,14 +7,11 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-using Newtonsoft.Json.Linq;
 using Luban;
-
 
 
 namespace HotFix.Cfg
 {
-
 /// <summary>
 /// Generated from Task.xlsx sheet DailyTask
 /// </summary>
@@ -23,20 +20,19 @@ public partial class TbTask_DailyTask
     private readonly System.Collections.Generic.Dictionary<int, Task_DailyTask> _dataMap;
     private readonly System.Collections.Generic.List<Task_DailyTask> _dataList;
     
-    public TbTask_DailyTask(JArray _buf)
+    public TbTask_DailyTask(ByteBuf _buf)
     {
         _dataMap = new System.Collections.Generic.Dictionary<int, Task_DailyTask>();
         _dataList = new System.Collections.Generic.List<Task_DailyTask>();
         
-        foreach(JObject _ele in _buf)
+        for(int n = _buf.ReadSize() ; n > 0 ; --n)
         {
             Task_DailyTask _v;
-            _v = global::HotFix.Cfg.Task_DailyTask.DeserializeTask_DailyTask(_ele);
+            _v = global::HotFix.Cfg.Task_DailyTask.DeserializeTask_DailyTask(_buf);
             _dataList.Add(_v);
             _dataMap.Add(_v.ID, _v);
-         }
+        }
     }
-
 
     public System.Collections.Generic.Dictionary<int, Task_DailyTask> DataMap => _dataMap;
     public System.Collections.Generic.List<Task_DailyTask> DataList => _dataList;
@@ -54,5 +50,6 @@ public partial class TbTask_DailyTask
     }
 
 }
+
 }
 

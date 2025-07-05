@@ -8,27 +8,23 @@
 //------------------------------------------------------------------------------
 
 using Luban;
-using Newtonsoft.Json.Linq;
-
 
 
 namespace HotFix.Cfg
 {
-
 public sealed partial class Fishing_fishMove : Luban.BeanBase
 {
-    public Fishing_fishMove(JToken _buf) 
+    public Fishing_fishMove(ByteBuf _buf) 
     {
-        JObject _obj = _buf as JObject;
-        id = (int)_obj.GetValue("id");
-        { var __json0 = _obj.GetValue("strongTime"); int _n0 = (__json0 as JArray).Count; strongTime = new int[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { int __v0;  __v0 = (int)__e0;  strongTime[__index0++] = __v0; }   }
-        { var __json0 = _obj.GetValue("struggleTime"); int _n0 = (__json0 as JArray).Count; struggleTime = new int[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { int __v0;  __v0 = (int)__e0;  struggleTime[__index0++] = __v0; }   }
-        { var __json0 = _obj.GetValue("tireTime"); int _n0 = (__json0 as JArray).Count; tireTime = new int[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { int __v0;  __v0 = (int)__e0;  tireTime[__index0++] = __v0; }   }
-        { var __json0 = _obj.GetValue("action"); int _n0 = (__json0 as JArray).Count; action = new int[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { int __v0;  __v0 = (int)__e0;  action[__index0++] = __v0; }   }
-        { var __json0 = _obj.GetValue("actionTime"); int _n0 = (__json0 as JArray).Count; actionTime = new int[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { int __v0;  __v0 = (int)__e0;  actionTime[__index0++] = __v0; }   }
+        id = _buf.ReadInt();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);strongTime = new int[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { int __e0;__e0 = _buf.ReadInt(); strongTime[__index0] = __e0;}}
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);struggleTime = new int[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { int __e0;__e0 = _buf.ReadInt(); struggleTime[__index0] = __e0;}}
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);tireTime = new int[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { int __e0;__e0 = _buf.ReadInt(); tireTime[__index0] = __e0;}}
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);action = new int[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { int __e0;__e0 = _buf.ReadInt(); action[__index0] = __e0;}}
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);actionTime = new int[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { int __e0;__e0 = _buf.ReadInt(); actionTime[__index0] = __e0;}}
     }
 
-    public static Fishing_fishMove DeserializeFishing_fishMove(JToken _buf)
+    public static Fishing_fishMove DeserializeFishing_fishMove(ByteBuf _buf)
     {
         return new Fishing_fishMove(_buf);
     }
@@ -57,8 +53,7 @@ public sealed partial class Fishing_fishMove : Luban.BeanBase
     /// 动作序列<br/>对应的时间
     /// </summary>
     public readonly int[] actionTime;
-
-
+   
     public const int __ID__ = 907184254;
     public override int GetTypeId() => __ID__;
 
@@ -78,5 +73,6 @@ public sealed partial class Fishing_fishMove : Luban.BeanBase
         + "}";
     }
 }
+
 }
 

@@ -7,14 +7,11 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-using Newtonsoft.Json.Linq;
 using Luban;
-
 
 
 namespace HotFix.Cfg
 {
-
 /// <summary>
 /// Generated from Mount.xlsx sheet MountAwake
 /// </summary>
@@ -23,20 +20,19 @@ public partial class TbMount_MountAwake
     private readonly System.Collections.Generic.Dictionary<int, Mount_MountAwake> _dataMap;
     private readonly System.Collections.Generic.List<Mount_MountAwake> _dataList;
     
-    public TbMount_MountAwake(JArray _buf)
+    public TbMount_MountAwake(ByteBuf _buf)
     {
         _dataMap = new System.Collections.Generic.Dictionary<int, Mount_MountAwake>();
         _dataList = new System.Collections.Generic.List<Mount_MountAwake>();
         
-        foreach(JObject _ele in _buf)
+        for(int n = _buf.ReadSize() ; n > 0 ; --n)
         {
             Mount_MountAwake _v;
-            _v = global::HotFix.Cfg.Mount_MountAwake.DeserializeMount_MountAwake(_ele);
+            _v = global::HotFix.Cfg.Mount_MountAwake.DeserializeMount_MountAwake(_buf);
             _dataList.Add(_v);
             _dataMap.Add(_v.id, _v);
-         }
+        }
     }
-
 
     public System.Collections.Generic.Dictionary<int, Mount_MountAwake> DataMap => _dataMap;
     public System.Collections.Generic.List<Mount_MountAwake> DataList => _dataList;
@@ -54,5 +50,6 @@ public partial class TbMount_MountAwake
     }
 
 }
+
 }
 

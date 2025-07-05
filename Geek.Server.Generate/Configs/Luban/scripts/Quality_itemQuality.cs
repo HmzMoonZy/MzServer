@@ -8,30 +8,26 @@
 //------------------------------------------------------------------------------
 
 using Luban;
-using Newtonsoft.Json.Linq;
-
 
 
 namespace HotFix.Cfg
 {
-
 public sealed partial class Quality_itemQuality : Luban.BeanBase
 {
-    public Quality_itemQuality(JToken _buf) 
+    public Quality_itemQuality(ByteBuf _buf) 
     {
-        JObject _obj = _buf as JObject;
-        id = (int)_obj.GetValue("id");
-        atlasId = (int)_obj.GetValue("atlasId");
-        bgSpriteName = (string)_obj.GetValue("bgSpriteName");
-        drawCardBgEffect = (string)_obj.GetValue("drawCardBgEffect");
-        drawCardFireEffect = (string)_obj.GetValue("drawCardFireEffect");
-        drawCardFireEffect2 = (string)_obj.GetValue("drawCardFireEffect2");
-        drawCardFireBurstEffect = (string)_obj.GetValue("drawCardFireBurstEffect");
-        drawCardFireBurstEffect2 = (string)_obj.GetValue("drawCardFireBurstEffect2");
-        drawCardBurstLightEffect = (string)_obj.GetValue("drawCardBurstLightEffect");
+        id = _buf.ReadInt();
+        atlasId = _buf.ReadInt();
+        bgSpriteName = _buf.ReadString();
+        drawCardBgEffect = _buf.ReadString();
+        drawCardFireEffect = _buf.ReadString();
+        drawCardFireEffect2 = _buf.ReadString();
+        drawCardFireBurstEffect = _buf.ReadString();
+        drawCardFireBurstEffect2 = _buf.ReadString();
+        drawCardBurstLightEffect = _buf.ReadString();
     }
 
-    public static Quality_itemQuality DeserializeQuality_itemQuality(JToken _buf)
+    public static Quality_itemQuality DeserializeQuality_itemQuality(ByteBuf _buf)
     {
         return new Quality_itemQuality(_buf);
     }
@@ -72,8 +68,7 @@ public sealed partial class Quality_itemQuality : Luban.BeanBase
     /// 抽卡光线爆发特效
     /// </summary>
     public readonly string drawCardBurstLightEffect;
-
-
+   
     public const int __ID__ = 1959932684;
     public override int GetTypeId() => __ID__;
 
@@ -96,5 +91,6 @@ public sealed partial class Quality_itemQuality : Luban.BeanBase
         + "}";
     }
 }
+
 }
 

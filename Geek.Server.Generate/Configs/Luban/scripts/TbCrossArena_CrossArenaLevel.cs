@@ -7,14 +7,11 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-using Newtonsoft.Json.Linq;
 using Luban;
-
 
 
 namespace HotFix.Cfg
 {
-
 /// <summary>
 /// Generated from CrossArena.xlsx sheet CrossArenaLevel
 /// </summary>
@@ -23,20 +20,19 @@ public partial class TbCrossArena_CrossArenaLevel
     private readonly System.Collections.Generic.Dictionary<int, CrossArena_CrossArenaLevel> _dataMap;
     private readonly System.Collections.Generic.List<CrossArena_CrossArenaLevel> _dataList;
     
-    public TbCrossArena_CrossArenaLevel(JArray _buf)
+    public TbCrossArena_CrossArenaLevel(ByteBuf _buf)
     {
         _dataMap = new System.Collections.Generic.Dictionary<int, CrossArena_CrossArenaLevel>();
         _dataList = new System.Collections.Generic.List<CrossArena_CrossArenaLevel>();
         
-        foreach(JObject _ele in _buf)
+        for(int n = _buf.ReadSize() ; n > 0 ; --n)
         {
             CrossArena_CrossArenaLevel _v;
-            _v = global::HotFix.Cfg.CrossArena_CrossArenaLevel.DeserializeCrossArena_CrossArenaLevel(_ele);
+            _v = global::HotFix.Cfg.CrossArena_CrossArenaLevel.DeserializeCrossArena_CrossArenaLevel(_buf);
             _dataList.Add(_v);
             _dataMap.Add(_v.Level, _v);
-         }
+        }
     }
-
 
     public System.Collections.Generic.Dictionary<int, CrossArena_CrossArenaLevel> DataMap => _dataMap;
     public System.Collections.Generic.List<CrossArena_CrossArenaLevel> DataList => _dataList;
@@ -54,5 +50,6 @@ public partial class TbCrossArena_CrossArenaLevel
     }
 
 }
+
 }
 

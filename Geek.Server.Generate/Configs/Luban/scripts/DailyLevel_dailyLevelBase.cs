@@ -8,33 +8,29 @@
 //------------------------------------------------------------------------------
 
 using Luban;
-using Newtonsoft.Json.Linq;
-
 
 
 namespace HotFix.Cfg
 {
-
 public sealed partial class DailyLevel_dailyLevelBase : Luban.BeanBase
 {
-    public DailyLevel_dailyLevelBase(JToken _buf) 
+    public DailyLevel_dailyLevelBase(ByteBuf _buf) 
     {
-        JObject _obj = _buf as JObject;
-        id = (int)_obj.GetValue("id");
-        StartTime = (string)_obj.GetValue("StartTime");
-        EndTime = (string)_obj.GetValue("EndTime");
-        resetTime = (int)_obj.GetValue("resetTime");
-        { var __json0 = _obj.GetValue("entrys"); int _n0 = (__json0 as JArray).Count; entrys = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  entrys[__index0++] = __v0; }   }
-        { var __json0 = _obj.GetValue("chapterID"); int _n0 = (__json0 as JArray).Count; chapterID = new int[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { int __v0;  __v0 = (int)__e0;  chapterID[__index0++] = __v0; }   }
-        freeCnt = (int)_obj.GetValue("freeCnt");
-        buyCnt = (int)_obj.GetValue("buyCnt");
-        buyDiamonds = (int)_obj.GetValue("buyDiamonds");
-        banner = (string)_obj.GetValue("banner");
-        mailId = (string)_obj.GetValue("mailId");
-        rankMailId = (string)_obj.GetValue("rankMailId");
+        id = _buf.ReadInt();
+        StartTime = _buf.ReadString();
+        EndTime = _buf.ReadString();
+        resetTime = _buf.ReadInt();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);entrys = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); entrys[__index0] = __e0;}}
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);chapterID = new int[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { int __e0;__e0 = _buf.ReadInt(); chapterID[__index0] = __e0;}}
+        freeCnt = _buf.ReadInt();
+        buyCnt = _buf.ReadInt();
+        buyDiamonds = _buf.ReadInt();
+        banner = _buf.ReadString();
+        mailId = _buf.ReadString();
+        rankMailId = _buf.ReadString();
     }
 
-    public static DailyLevel_dailyLevelBase DeserializeDailyLevel_dailyLevelBase(JToken _buf)
+    public static DailyLevel_dailyLevelBase DeserializeDailyLevel_dailyLevelBase(ByteBuf _buf)
     {
         return new DailyLevel_dailyLevelBase(_buf);
     }
@@ -87,8 +83,7 @@ public sealed partial class DailyLevel_dailyLevelBase : Luban.BeanBase
     /// 段位奖励邮件
     /// </summary>
     public readonly string rankMailId;
-
-
+   
     public const int __ID__ = -1291843568;
     public override int GetTypeId() => __ID__;
 
@@ -114,5 +109,6 @@ public sealed partial class DailyLevel_dailyLevelBase : Luban.BeanBase
         + "}";
     }
 }
+
 }
 

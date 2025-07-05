@@ -8,28 +8,24 @@
 //------------------------------------------------------------------------------
 
 using Luban;
-using Newtonsoft.Json.Linq;
-
 
 
 namespace HotFix.Cfg
 {
-
 public sealed partial class Quality_fishingQuality : Luban.BeanBase
 {
-    public Quality_fishingQuality(JToken _buf) 
+    public Quality_fishingQuality(ByteBuf _buf) 
     {
-        JObject _obj = _buf as JObject;
-        id = (int)_obj.GetValue("id");
-        atlasId = (int)_obj.GetValue("atlasId");
-        bgSpriteName = (string)_obj.GetValue("bgSpriteName");
-        colorName = (string)_obj.GetValue("colorName");
-        nameID = (string)_obj.GetValue("nameID");
-        fishingQualityAtlas = (int)_obj.GetValue("fishingQualityAtlas");
-        fishingQualityIcon = (string)_obj.GetValue("fishingQualityIcon");
+        id = _buf.ReadInt();
+        atlasId = _buf.ReadInt();
+        bgSpriteName = _buf.ReadString();
+        colorName = _buf.ReadString();
+        nameID = _buf.ReadString();
+        fishingQualityAtlas = _buf.ReadInt();
+        fishingQualityIcon = _buf.ReadString();
     }
 
-    public static Quality_fishingQuality DeserializeQuality_fishingQuality(JToken _buf)
+    public static Quality_fishingQuality DeserializeQuality_fishingQuality(ByteBuf _buf)
     {
         return new Quality_fishingQuality(_buf);
     }
@@ -62,8 +58,7 @@ public sealed partial class Quality_fishingQuality : Luban.BeanBase
     /// 鱼品质icon
     /// </summary>
     public readonly string fishingQualityIcon;
-
-
+   
     public const int __ID__ = -23870859;
     public override int GetTypeId() => __ID__;
 
@@ -84,5 +79,6 @@ public sealed partial class Quality_fishingQuality : Luban.BeanBase
         + "}";
     }
 }
+
 }
 

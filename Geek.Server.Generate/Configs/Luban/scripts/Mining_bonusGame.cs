@@ -8,27 +8,23 @@
 //------------------------------------------------------------------------------
 
 using Luban;
-using Newtonsoft.Json.Linq;
-
 
 
 namespace HotFix.Cfg
 {
-
 public sealed partial class Mining_bonusGame : Luban.BeanBase
 {
-    public Mining_bonusGame(JToken _buf) 
+    public Mining_bonusGame(ByteBuf _buf) 
     {
-        JObject _obj = _buf as JObject;
-        id = (int)_obj.GetValue("id");
-        unlockLayer = (int)_obj.GetValue("unlockLayer");
-        itemid = (int)_obj.GetValue("itemid");
-        num = (int)_obj.GetValue("num");
-        showWeight = (int)_obj.GetValue("showWeight");
-        getRate = (int)_obj.GetValue("getRate");
+        id = _buf.ReadInt();
+        unlockLayer = _buf.ReadInt();
+        itemid = _buf.ReadInt();
+        num = _buf.ReadInt();
+        showWeight = _buf.ReadInt();
+        getRate = _buf.ReadInt();
     }
 
-    public static Mining_bonusGame DeserializeMining_bonusGame(JToken _buf)
+    public static Mining_bonusGame DeserializeMining_bonusGame(ByteBuf _buf)
     {
         return new Mining_bonusGame(_buf);
     }
@@ -57,8 +53,7 @@ public sealed partial class Mining_bonusGame : Luban.BeanBase
     /// 获得概率（万分比）
     /// </summary>
     public readonly int getRate;
-
-
+   
     public const int __ID__ = -933082206;
     public override int GetTypeId() => __ID__;
 
@@ -78,5 +73,6 @@ public sealed partial class Mining_bonusGame : Luban.BeanBase
         + "}";
     }
 }
+
 }
 

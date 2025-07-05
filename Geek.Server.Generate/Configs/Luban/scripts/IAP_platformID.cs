@@ -8,33 +8,29 @@
 //------------------------------------------------------------------------------
 
 using Luban;
-using Newtonsoft.Json.Linq;
-
 
 
 namespace HotFix.Cfg
 {
-
 public sealed partial class IAP_platformID : Luban.BeanBase
 {
-    public IAP_platformID(JToken _buf) 
+    public IAP_platformID(ByteBuf _buf) 
     {
-        JObject _obj = _buf as JObject;
-        id = (int)_obj.GetValue("id");
-        { var __json0 = _obj.GetValue("reward"); int _n0 = (__json0 as JArray).Count; reward = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  reward[__index0++] = __v0; }   }
-        productID = (string)_obj.GetValue("productID");
-        CNproductIDApp = (string)_obj.GetValue("CNproductIDApp");
-        CNproductID = (string)_obj.GetValue("CNproductID");
-        price = (float)_obj.GetValue("price");
-        CNprice = (float)_obj.GetValue("CNprice");
-        CNpriceCent = (float)_obj.GetValue("CNpriceCent");
-        productType = (int)_obj.GetValue("productType");
-        CNproductTitle = (string)_obj.GetValue("CNproductTitle");
-        productTitleID = (string)_obj.GetValue("productTitleID");
-        productDescID = (string)_obj.GetValue("productDescID");
+        id = _buf.ReadInt();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);reward = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); reward[__index0] = __e0;}}
+        productID = _buf.ReadString();
+        CNproductIDApp = _buf.ReadString();
+        CNproductID = _buf.ReadString();
+        price = _buf.ReadFloat();
+        CNprice = _buf.ReadFloat();
+        CNpriceCent = _buf.ReadFloat();
+        productType = _buf.ReadInt();
+        CNproductTitle = _buf.ReadString();
+        productTitleID = _buf.ReadString();
+        productDescID = _buf.ReadString();
     }
 
-    public static IAP_platformID DeserializeIAP_platformID(JToken _buf)
+    public static IAP_platformID DeserializeIAP_platformID(ByteBuf _buf)
     {
         return new IAP_platformID(_buf);
     }
@@ -87,8 +83,7 @@ public sealed partial class IAP_platformID : Luban.BeanBase
     /// 商品详情描述多语言
     /// </summary>
     public readonly string productDescID;
-
-
+   
     public const int __ID__ = 367675701;
     public override int GetTypeId() => __ID__;
 
@@ -114,5 +109,6 @@ public sealed partial class IAP_platformID : Luban.BeanBase
         + "}";
     }
 }
+
 }
 

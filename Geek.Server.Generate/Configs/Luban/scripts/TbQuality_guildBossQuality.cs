@@ -7,14 +7,11 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-using Newtonsoft.Json.Linq;
 using Luban;
-
 
 
 namespace HotFix.Cfg
 {
-
 /// <summary>
 /// Generated from Quality.xlsx sheet guildBossQuality
 /// </summary>
@@ -23,20 +20,19 @@ public partial class TbQuality_guildBossQuality
     private readonly System.Collections.Generic.Dictionary<int, Quality_guildBossQuality> _dataMap;
     private readonly System.Collections.Generic.List<Quality_guildBossQuality> _dataList;
     
-    public TbQuality_guildBossQuality(JArray _buf)
+    public TbQuality_guildBossQuality(ByteBuf _buf)
     {
         _dataMap = new System.Collections.Generic.Dictionary<int, Quality_guildBossQuality>();
         _dataList = new System.Collections.Generic.List<Quality_guildBossQuality>();
         
-        foreach(JObject _ele in _buf)
+        for(int n = _buf.ReadSize() ; n > 0 ; --n)
         {
             Quality_guildBossQuality _v;
-            _v = global::HotFix.Cfg.Quality_guildBossQuality.DeserializeQuality_guildBossQuality(_ele);
+            _v = global::HotFix.Cfg.Quality_guildBossQuality.DeserializeQuality_guildBossQuality(_buf);
             _dataList.Add(_v);
             _dataMap.Add(_v.id, _v);
-         }
+        }
     }
-
 
     public System.Collections.Generic.Dictionary<int, Quality_guildBossQuality> DataMap => _dataMap;
     public System.Collections.Generic.List<Quality_guildBossQuality> DataList => _dataList;
@@ -54,5 +50,6 @@ public partial class TbQuality_guildBossQuality
     }
 
 }
+
 }
 

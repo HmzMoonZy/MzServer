@@ -7,14 +7,11 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-using Newtonsoft.Json.Linq;
 using Luban;
-
 
 
 namespace HotFix.Cfg
 {
-
 /// <summary>
 /// Generated from BattleTemplate.xlsx sheet BattleTemplatePlayModel
 /// </summary>
@@ -23,20 +20,19 @@ public partial class TbBattleTemplate_BattleTemplatePlayModel
     private readonly System.Collections.Generic.Dictionary<int, BattleTemplate_BattleTemplatePlayModel> _dataMap;
     private readonly System.Collections.Generic.List<BattleTemplate_BattleTemplatePlayModel> _dataList;
     
-    public TbBattleTemplate_BattleTemplatePlayModel(JArray _buf)
+    public TbBattleTemplate_BattleTemplatePlayModel(ByteBuf _buf)
     {
         _dataMap = new System.Collections.Generic.Dictionary<int, BattleTemplate_BattleTemplatePlayModel>();
         _dataList = new System.Collections.Generic.List<BattleTemplate_BattleTemplatePlayModel>();
         
-        foreach(JObject _ele in _buf)
+        for(int n = _buf.ReadSize() ; n > 0 ; --n)
         {
             BattleTemplate_BattleTemplatePlayModel _v;
-            _v = global::HotFix.Cfg.BattleTemplate_BattleTemplatePlayModel.DeserializeBattleTemplate_BattleTemplatePlayModel(_ele);
+            _v = global::HotFix.Cfg.BattleTemplate_BattleTemplatePlayModel.DeserializeBattleTemplate_BattleTemplatePlayModel(_buf);
             _dataList.Add(_v);
             _dataMap.Add(_v.id, _v);
-         }
+        }
     }
-
 
     public System.Collections.Generic.Dictionary<int, BattleTemplate_BattleTemplatePlayModel> DataMap => _dataMap;
     public System.Collections.Generic.List<BattleTemplate_BattleTemplatePlayModel> DataList => _dataList;
@@ -54,5 +50,6 @@ public partial class TbBattleTemplate_BattleTemplatePlayModel
     }
 
 }
+
 }
 

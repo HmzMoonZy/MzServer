@@ -8,46 +8,42 @@
 //------------------------------------------------------------------------------
 
 using Luban;
-using Newtonsoft.Json.Linq;
-
 
 
 namespace HotFix.Cfg
 {
-
 public sealed partial class Plinko_PlinkoBase : Luban.BeanBase
 {
-    public Plinko_PlinkoBase(JToken _buf) 
+    public Plinko_PlinkoBase(ByteBuf _buf) 
     {
-        JObject _obj = _buf as JObject;
-        ID = (int)_obj.GetValue("ID");
-        ConnectActivityId = (int)_obj.GetValue("ConnectActivityId");
-        PlinkoCostItem = (int)_obj.GetValue("PlinkoCostItem");
-        Plinko = (int)_obj.GetValue("Plinko");
-        Plinko1 = (int)_obj.GetValue("Plinko1");
-        ScoreItem = (int)_obj.GetValue("ScoreItem");
-        ScoreItem1 = (int)_obj.GetValue("ScoreItem1");
-        { var __json0 = _obj.GetValue("PlinkoExchangeItem"); int _n0 = (__json0 as JArray).Count; PlinkoExchangeItem = new int[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { int __v0;  __v0 = (int)__e0;  PlinkoExchangeItem[__index0++] = __v0; }   }
-        PlinkoCostItemPrice = (int)_obj.GetValue("PlinkoCostItemPrice");
-        { var __json0 = _obj.GetValue("BuyLimit"); int _n0 = (__json0 as JArray).Count; BuyLimit = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  BuyLimit[__index0++] = __v0; }   }
-        BuyLimitNum = (int)_obj.GetValue("BuyLimitNum");
-        DefaultPlinkoCostItem = (int)_obj.GetValue("DefaultPlinkoCostItem");
-        Score = (int)_obj.GetValue("Score");
-        { var __json0 = _obj.GetValue("PositionMultiple"); int _n0 = (__json0 as JArray).Count; PositionMultiple = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  PositionMultiple[__index0++] = __v0; }   }
-        { var __json0 = _obj.GetValue("TurnNumInitialSeed"); int _n0 = (__json0 as JArray).Count; TurnNumInitialSeed = new int[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { int __v0;  __v0 = (int)__e0;  TurnNumInitialSeed[__index0++] = __v0; }   }
-        PositionMultipleLimit = (int)_obj.GetValue("PositionMultipleLimit");
-        DropBallNumber = (int)_obj.GetValue("DropBallNumber");
-        { var __json0 = _obj.GetValue("SpecialPositionNeedNumber"); int _n0 = (__json0 as JArray).Count; SpecialPositionNeedNumber = new int[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { int __v0;  __v0 = (int)__e0;  SpecialPositionNeedNumber[__index0++] = __v0; }   }
-        { var __json0 = _obj.GetValue("SpecialRewardsInitialSeed"); int _n0 = (__json0 as JArray).Count; SpecialRewardsInitialSeed = new int[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { int __v0;  __v0 = (int)__e0;  SpecialRewardsInitialSeed[__index0++] = __v0; }   }
-        { var __json0 = _obj.GetValue("SpecialPositionRewards"); int _n0 = (__json0 as JArray).Count; SpecialPositionRewards = new int[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { int __v0;  __v0 = (int)__e0;  SpecialPositionRewards[__index0++] = __v0; }   }
-        SpecialRewardDropBallNumber = (int)_obj.GetValue("SpecialRewardDropBallNumber");
-        SpecialRewardNumbeer = (int)_obj.GetValue("SpecialRewardNumbeer");
-        { var __json0 = _obj.GetValue("BigReward"); int _n0 = (__json0 as JArray).Count; BigReward = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  BigReward[__index0++] = __v0; }   }
-        { var __json0 = _obj.GetValue("MailItems"); int _n0 = (__json0 as JArray).Count; MailItems = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  MailItems[__index0++] = __v0; }   }
-        MailId = (string)_obj.GetValue("MailId");
+        ID = _buf.ReadInt();
+        ConnectActivityId = _buf.ReadInt();
+        PlinkoCostItem = _buf.ReadInt();
+        Plinko = _buf.ReadInt();
+        Plinko1 = _buf.ReadInt();
+        ScoreItem = _buf.ReadInt();
+        ScoreItem1 = _buf.ReadInt();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);PlinkoExchangeItem = new int[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { int __e0;__e0 = _buf.ReadInt(); PlinkoExchangeItem[__index0] = __e0;}}
+        PlinkoCostItemPrice = _buf.ReadInt();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);BuyLimit = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); BuyLimit[__index0] = __e0;}}
+        BuyLimitNum = _buf.ReadInt();
+        DefaultPlinkoCostItem = _buf.ReadInt();
+        Score = _buf.ReadInt();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);PositionMultiple = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); PositionMultiple[__index0] = __e0;}}
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);TurnNumInitialSeed = new int[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { int __e0;__e0 = _buf.ReadInt(); TurnNumInitialSeed[__index0] = __e0;}}
+        PositionMultipleLimit = _buf.ReadInt();
+        DropBallNumber = _buf.ReadInt();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);SpecialPositionNeedNumber = new int[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { int __e0;__e0 = _buf.ReadInt(); SpecialPositionNeedNumber[__index0] = __e0;}}
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);SpecialRewardsInitialSeed = new int[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { int __e0;__e0 = _buf.ReadInt(); SpecialRewardsInitialSeed[__index0] = __e0;}}
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);SpecialPositionRewards = new int[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { int __e0;__e0 = _buf.ReadInt(); SpecialPositionRewards[__index0] = __e0;}}
+        SpecialRewardDropBallNumber = _buf.ReadInt();
+        SpecialRewardNumbeer = _buf.ReadInt();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);BigReward = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); BigReward[__index0] = __e0;}}
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);MailItems = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); MailItems[__index0] = __e0;}}
+        MailId = _buf.ReadString();
     }
 
-    public static Plinko_PlinkoBase DeserializePlinko_PlinkoBase(JToken _buf)
+    public static Plinko_PlinkoBase DeserializePlinko_PlinkoBase(ByteBuf _buf)
     {
         return new Plinko_PlinkoBase(_buf);
     }
@@ -152,8 +148,7 @@ public sealed partial class Plinko_PlinkoBase : Luban.BeanBase
     /// 邮件ID<br/>测试服,正式服一致
     /// </summary>
     public readonly string MailId;
-
-
+   
     public const int __ID__ = -2055195408;
     public override int GetTypeId() => __ID__;
 
@@ -192,5 +187,6 @@ public sealed partial class Plinko_PlinkoBase : Luban.BeanBase
         + "}";
     }
 }
+
 }
 

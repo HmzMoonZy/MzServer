@@ -8,28 +8,24 @@
 //------------------------------------------------------------------------------
 
 using Luban;
-using Newtonsoft.Json.Linq;
-
 
 
 namespace HotFix.Cfg
 {
-
 public sealed partial class ChristmasBoss_RankReward : Luban.BeanBase
 {
-    public ChristmasBoss_RankReward(JToken _buf) 
+    public ChristmasBoss_RankReward(ByteBuf _buf) 
     {
-        JObject _obj = _buf as JObject;
-        ID = (int)_obj.GetValue("ID");
-        Tag = (int)_obj.GetValue("Tag");
-        SubsectionID = (int)_obj.GetValue("SubsectionID");
-        { var __json0 = _obj.GetValue("RankRange"); int _n0 = (__json0 as JArray).Count; RankRange = new int[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { int __v0;  __v0 = (int)__e0;  RankRange[__index0++] = __v0; }   }
-        { var __json0 = _obj.GetValue("SeasonReward"); int _n0 = (__json0 as JArray).Count; SeasonReward = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  SeasonReward[__index0++] = __v0; }   }
-        SeasionMailId = (string)_obj.GetValue("SeasionMailId");
-        SeasionMailIdCN = (string)_obj.GetValue("SeasionMailIdCN");
+        ID = _buf.ReadInt();
+        Tag = _buf.ReadInt();
+        SubsectionID = _buf.ReadInt();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);RankRange = new int[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { int __e0;__e0 = _buf.ReadInt(); RankRange[__index0] = __e0;}}
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);SeasonReward = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); SeasonReward[__index0] = __e0;}}
+        SeasionMailId = _buf.ReadString();
+        SeasionMailIdCN = _buf.ReadString();
     }
 
-    public static ChristmasBoss_RankReward DeserializeChristmasBoss_RankReward(JToken _buf)
+    public static ChristmasBoss_RankReward DeserializeChristmasBoss_RankReward(ByteBuf _buf)
     {
         return new ChristmasBoss_RankReward(_buf);
     }
@@ -62,8 +58,7 @@ public sealed partial class ChristmasBoss_RankReward : Luban.BeanBase
     /// 圣诞活动结算奖励CN
     /// </summary>
     public readonly string SeasionMailIdCN;
-
-
+   
     public const int __ID__ = -1289155861;
     public override int GetTypeId() => __ID__;
 
@@ -84,5 +79,6 @@ public sealed partial class ChristmasBoss_RankReward : Luban.BeanBase
         + "}";
     }
 }
+
 }
 

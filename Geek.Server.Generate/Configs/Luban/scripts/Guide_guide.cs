@@ -8,37 +8,33 @@
 //------------------------------------------------------------------------------
 
 using Luban;
-using Newtonsoft.Json.Linq;
-
 
 
 namespace HotFix.Cfg
 {
-
 public sealed partial class Guide_guide : Luban.BeanBase
 {
-    public Guide_guide(JToken _buf) 
+    public Guide_guide(ByteBuf _buf) 
     {
-        JObject _obj = _buf as JObject;
-        id = (int)_obj.GetValue("id");
-        guideGroup = (int)_obj.GetValue("guideGroup");
-        canBreak = (int)_obj.GetValue("canBreak");
-        weight = (int)_obj.GetValue("weight");
-        groupOver = (int)_obj.GetValue("groupOver");
-        autoLockScroll = (int)_obj.GetValue("autoLockScroll");
-        isLockScreen = (int)_obj.GetValue("isLockScreen");
-        guideTarget = (string)_obj.GetValue("guideTarget");
-        { var __json0 = _obj.GetValue("guideTrigger"); int _n0 = (__json0 as JArray).Count; guideTrigger = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  guideTrigger[__index0++] = __v0; }   }
-        { var __json0 = _obj.GetValue("guideCondition"); int _n0 = (__json0 as JArray).Count; guideCondition = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  guideCondition[__index0++] = __v0; }   }
-        { var __json0 = _obj.GetValue("guideComplete"); int _n0 = (__json0 as JArray).Count; guideComplete = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  guideComplete[__index0++] = __v0; }   }
-        { var __json0 = _obj.GetValue("guideStyles"); int _n0 = (__json0 as JArray).Count; guideStyles = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  guideStyles[__index0++] = __v0; }   }
-        additional = (int)_obj.GetValue("additional");
-        { var __json0 = _obj.GetValue("guideAction"); int _n0 = (__json0 as JArray).Count; guideAction = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  guideAction[__index0++] = __v0; }   }
-        overOnStart = (int)_obj.GetValue("overOnStart");
-        showDelay = (int)_obj.GetValue("showDelay");
+        id = _buf.ReadInt();
+        guideGroup = _buf.ReadInt();
+        canBreak = _buf.ReadInt();
+        weight = _buf.ReadInt();
+        groupOver = _buf.ReadInt();
+        autoLockScroll = _buf.ReadInt();
+        isLockScreen = _buf.ReadInt();
+        guideTarget = _buf.ReadString();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);guideTrigger = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); guideTrigger[__index0] = __e0;}}
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);guideCondition = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); guideCondition[__index0] = __e0;}}
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);guideComplete = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); guideComplete[__index0] = __e0;}}
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);guideStyles = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); guideStyles[__index0] = __e0;}}
+        additional = _buf.ReadInt();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);guideAction = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); guideAction[__index0] = __e0;}}
+        overOnStart = _buf.ReadInt();
+        showDelay = _buf.ReadInt();
     }
 
-    public static Guide_guide DeserializeGuide_guide(JToken _buf)
+    public static Guide_guide DeserializeGuide_guide(ByteBuf _buf)
     {
         return new Guide_guide(_buf);
     }
@@ -107,8 +103,7 @@ public sealed partial class Guide_guide : Luban.BeanBase
     /// 引导延时出现<br/>毫秒
     /// </summary>
     public readonly int showDelay;
-
-
+   
     public const int __ID__ = -606514215;
     public override int GetTypeId() => __ID__;
 
@@ -138,5 +133,6 @@ public sealed partial class Guide_guide : Luban.BeanBase
         + "}";
     }
 }
+
 }
 

@@ -8,25 +8,21 @@
 //------------------------------------------------------------------------------
 
 using Luban;
-using Newtonsoft.Json.Linq;
-
 
 
 namespace HotFix.Cfg
 {
-
 public sealed partial class MythicDungeon_blessDrop : Luban.BeanBase
 {
-    public MythicDungeon_blessDrop(JToken _buf) 
+    public MythicDungeon_blessDrop(ByteBuf _buf) 
     {
-        JObject _obj = _buf as JObject;
-        id = (int)_obj.GetValue("id");
-        level = (int)_obj.GetValue("level");
-        dropID = (int)_obj.GetValue("dropID");
-        des = (string)_obj.GetValue("des");
+        id = _buf.ReadInt();
+        level = _buf.ReadInt();
+        dropID = _buf.ReadInt();
+        des = _buf.ReadString();
     }
 
-    public static MythicDungeon_blessDrop DeserializeMythicDungeon_blessDrop(JToken _buf)
+    public static MythicDungeon_blessDrop DeserializeMythicDungeon_blessDrop(ByteBuf _buf)
     {
         return new MythicDungeon_blessDrop(_buf);
     }
@@ -47,8 +43,7 @@ public sealed partial class MythicDungeon_blessDrop : Luban.BeanBase
     /// 描述
     /// </summary>
     public readonly string des;
-
-
+   
     public const int __ID__ = 1707061259;
     public override int GetTypeId() => __ID__;
 
@@ -66,5 +61,6 @@ public sealed partial class MythicDungeon_blessDrop : Luban.BeanBase
         + "}";
     }
 }
+
 }
 

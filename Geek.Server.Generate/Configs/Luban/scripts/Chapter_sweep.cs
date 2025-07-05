@@ -8,24 +8,20 @@
 //------------------------------------------------------------------------------
 
 using Luban;
-using Newtonsoft.Json.Linq;
-
 
 
 namespace HotFix.Cfg
 {
-
 public sealed partial class Chapter_sweep : Luban.BeanBase
 {
-    public Chapter_sweep(JToken _buf) 
+    public Chapter_sweep(ByteBuf _buf) 
     {
-        JObject _obj = _buf as JObject;
-        id = (int)_obj.GetValue("id");
-        range = (int)_obj.GetValue("range");
-        multiplier = (int)_obj.GetValue("multiplier");
+        id = _buf.ReadInt();
+        range = _buf.ReadInt();
+        multiplier = _buf.ReadInt();
     }
 
-    public static Chapter_sweep DeserializeChapter_sweep(JToken _buf)
+    public static Chapter_sweep DeserializeChapter_sweep(ByteBuf _buf)
     {
         return new Chapter_sweep(_buf);
     }
@@ -42,8 +38,7 @@ public sealed partial class Chapter_sweep : Luban.BeanBase
     /// 倍率
     /// </summary>
     public readonly int multiplier;
-
-
+   
     public const int __ID__ = 960958554;
     public override int GetTypeId() => __ID__;
 
@@ -60,5 +55,6 @@ public sealed partial class Chapter_sweep : Luban.BeanBase
         + "}";
     }
 }
+
 }
 

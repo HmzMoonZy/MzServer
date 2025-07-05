@@ -8,42 +8,38 @@
 //------------------------------------------------------------------------------
 
 using Luban;
-using Newtonsoft.Json.Linq;
-
 
 
 namespace HotFix.Cfg
 {
-
 public sealed partial class EventDive_DiveBase : Luban.BeanBase
 {
-    public EventDive_DiveBase(JToken _buf) 
+    public EventDive_DiveBase(ByteBuf _buf) 
     {
-        JObject _obj = _buf as JObject;
-        ID = (int)_obj.GetValue("ID");
-        ConnectActivityId = (int)_obj.GetValue("ConnectActivityId");
-        DiveItem = (int)_obj.GetValue("DiveItem");
-        DivePrice = (int)_obj.GetValue("DivePrice");
-        DivePrice1 = (int)_obj.GetValue("DivePrice1");
-        DivePrice2 = (int)_obj.GetValue("DivePrice2");
-        { var __json0 = _obj.GetValue("BuyLimit"); int _n0 = (__json0 as JArray).Count; BuyLimit = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  BuyLimit[__index0++] = __v0; }   }
-        { var __json0 = _obj.GetValue("BuyLimit1"); int _n0 = (__json0 as JArray).Count; BuyLimit1 = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  BuyLimit1[__index0++] = __v0; }   }
-        { var __json0 = _obj.GetValue("BuyLimit2"); int _n0 = (__json0 as JArray).Count; BuyLimit2 = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  BuyLimit2[__index0++] = __v0; }   }
-        { var __json0 = _obj.GetValue("BuyLimitNum"); int _n0 = (__json0 as JArray).Count; BuyLimitNum = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  BuyLimitNum[__index0++] = __v0; }   }
-        DefaultDive = (int)_obj.GetValue("DefaultDive");
-        DivePropA = (int)_obj.GetValue("DivePropA");
-        DivePropB = (int)_obj.GetValue("DivePropB");
-        { var __json0 = _obj.GetValue("ExchangeItem"); int _n0 = (__json0 as JArray).Count; ExchangeItem = new int[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { int __v0;  __v0 = (int)__e0;  ExchangeItem[__index0++] = __v0; }   }
-        { var __json0 = _obj.GetValue("RewardProb"); int _n0 = (__json0 as JArray).Count; RewardProb = new int[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { int __v0;  __v0 = (int)__e0;  RewardProb[__index0++] = __v0; }   }
-        { var __json0 = _obj.GetValue("GenerateGap"); int _n0 = (__json0 as JArray).Count; GenerateGap = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  GenerateGap[__index0++] = __v0; }   }
-        { var __json0 = _obj.GetValue("BigReward"); int _n0 = (__json0 as JArray).Count; BigReward = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  BigReward[__index0++] = __v0; }   }
-        { var __json0 = _obj.GetValue("MailItems"); int _n0 = (__json0 as JArray).Count; MailItems = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  MailItems[__index0++] = __v0; }   }
-        BgmID = (int)_obj.GetValue("BgmID");
-        MailItemsId = (string)_obj.GetValue("MailItemsId");
-        { var __json0 = _obj.GetValue("SpeedRates"); int _n0 = (__json0 as JArray).Count; SpeedRates = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  SpeedRates[__index0++] = __v0; }   }
+        ID = _buf.ReadInt();
+        ConnectActivityId = _buf.ReadInt();
+        DiveItem = _buf.ReadInt();
+        DivePrice = _buf.ReadInt();
+        DivePrice1 = _buf.ReadInt();
+        DivePrice2 = _buf.ReadInt();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);BuyLimit = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); BuyLimit[__index0] = __e0;}}
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);BuyLimit1 = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); BuyLimit1[__index0] = __e0;}}
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);BuyLimit2 = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); BuyLimit2[__index0] = __e0;}}
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);BuyLimitNum = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); BuyLimitNum[__index0] = __e0;}}
+        DefaultDive = _buf.ReadInt();
+        DivePropA = _buf.ReadInt();
+        DivePropB = _buf.ReadInt();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);ExchangeItem = new int[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { int __e0;__e0 = _buf.ReadInt(); ExchangeItem[__index0] = __e0;}}
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);RewardProb = new int[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { int __e0;__e0 = _buf.ReadInt(); RewardProb[__index0] = __e0;}}
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);GenerateGap = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); GenerateGap[__index0] = __e0;}}
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);BigReward = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); BigReward[__index0] = __e0;}}
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);MailItems = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); MailItems[__index0] = __e0;}}
+        BgmID = _buf.ReadInt();
+        MailItemsId = _buf.ReadString();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);SpeedRates = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); SpeedRates[__index0] = __e0;}}
     }
 
-    public static EventDive_DiveBase DeserializeEventDive_DiveBase(JToken _buf)
+    public static EventDive_DiveBase DeserializeEventDive_DiveBase(ByteBuf _buf)
     {
         return new EventDive_DiveBase(_buf);
     }
@@ -132,8 +128,7 @@ public sealed partial class EventDive_DiveBase : Luban.BeanBase
     /// 达到一定抽数动画速度倍率
     /// </summary>
     public readonly string[] SpeedRates;
-
-
+   
     public const int __ID__ = -1062310762;
     public override int GetTypeId() => __ID__;
 
@@ -168,5 +163,6 @@ public sealed partial class EventDive_DiveBase : Luban.BeanBase
         + "}";
     }
 }
+
 }
 

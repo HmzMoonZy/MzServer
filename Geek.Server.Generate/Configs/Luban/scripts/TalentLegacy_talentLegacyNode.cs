@@ -8,32 +8,28 @@
 //------------------------------------------------------------------------------
 
 using Luban;
-using Newtonsoft.Json.Linq;
-
 
 
 namespace HotFix.Cfg
 {
-
 public sealed partial class TalentLegacy_talentLegacyNode : Luban.BeanBase
 {
-    public TalentLegacy_talentLegacyNode(JToken _buf) 
+    public TalentLegacy_talentLegacyNode(ByteBuf _buf) 
     {
-        JObject _obj = _buf as JObject;
-        id = (int)_obj.GetValue("id");
-        romeNumber = (string)_obj.GetValue("romeNumber");
-        getSkill = (int)_obj.GetValue("getSkill");
-        type = (int)_obj.GetValue("type");
-        spineID = (int)_obj.GetValue("spineID");
-        name = (string)_obj.GetValue("name");
-        iconId = (int)_obj.GetValue("iconId");
-        icon = (string)_obj.GetValue("icon");
-        career = (int)_obj.GetValue("career");
-        { var __json0 = _obj.GetValue("pos"); int _n0 = (__json0 as JArray).Count; pos = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  pos[__index0++] = __v0; }   }
-        { var __json0 = _obj.GetValue("condition"); int _n0 = (__json0 as JArray).Count; condition = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  condition[__index0++] = __v0; }   }
+        id = _buf.ReadInt();
+        romeNumber = _buf.ReadString();
+        getSkill = _buf.ReadInt();
+        type = _buf.ReadInt();
+        spineID = _buf.ReadInt();
+        name = _buf.ReadString();
+        iconId = _buf.ReadInt();
+        icon = _buf.ReadString();
+        career = _buf.ReadInt();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);pos = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); pos[__index0] = __e0;}}
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);condition = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); condition[__index0] = __e0;}}
     }
 
-    public static TalentLegacy_talentLegacyNode DeserializeTalentLegacy_talentLegacyNode(JToken _buf)
+    public static TalentLegacy_talentLegacyNode DeserializeTalentLegacy_talentLegacyNode(ByteBuf _buf)
     {
         return new TalentLegacy_talentLegacyNode(_buf);
     }
@@ -82,8 +78,7 @@ public sealed partial class TalentLegacy_talentLegacyNode : Luban.BeanBase
     /// 解锁条件
     /// </summary>
     public readonly string[] condition;
-
-
+   
     public const int __ID__ = -85916031;
     public override int GetTypeId() => __ID__;
 
@@ -108,5 +103,6 @@ public sealed partial class TalentLegacy_talentLegacyNode : Luban.BeanBase
         + "}";
     }
 }
+
 }
 

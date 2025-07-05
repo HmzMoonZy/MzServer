@@ -8,26 +8,22 @@
 //------------------------------------------------------------------------------
 
 using Luban;
-using Newtonsoft.Json.Linq;
-
 
 
 namespace HotFix.Cfg
 {
-
 public sealed partial class Chapter_stageUpgrade : Luban.BeanBase
 {
-    public Chapter_stageUpgrade(JToken _buf) 
+    public Chapter_stageUpgrade(ByteBuf _buf) 
     {
-        JObject _obj = _buf as JObject;
-        id = (int)_obj.GetValue("id");
-        attackUpgrade = (int)_obj.GetValue("attackUpgrade");
-        hpUpgrade = (int)_obj.GetValue("hpUpgrade");
-        attr = (string)_obj.GetValue("attr");
-        group = (int)_obj.GetValue("group");
+        id = _buf.ReadInt();
+        attackUpgrade = _buf.ReadInt();
+        hpUpgrade = _buf.ReadInt();
+        attr = _buf.ReadString();
+        group = _buf.ReadInt();
     }
 
-    public static Chapter_stageUpgrade DeserializeChapter_stageUpgrade(JToken _buf)
+    public static Chapter_stageUpgrade DeserializeChapter_stageUpgrade(ByteBuf _buf)
     {
         return new Chapter_stageUpgrade(_buf);
     }
@@ -52,8 +48,7 @@ public sealed partial class Chapter_stageUpgrade : Luban.BeanBase
     /// 组
     /// </summary>
     public readonly int group;
-
-
+   
     public const int __ID__ = 675937296;
     public override int GetTypeId() => __ID__;
 
@@ -72,5 +67,6 @@ public sealed partial class Chapter_stageUpgrade : Luban.BeanBase
         + "}";
     }
 }
+
 }
 

@@ -8,32 +8,28 @@
 //------------------------------------------------------------------------------
 
 using Luban;
-using Newtonsoft.Json.Linq;
-
 
 
 namespace HotFix.Cfg
 {
-
 public sealed partial class ChestList_ChestReward : Luban.BeanBase
 {
-    public ChestList_ChestReward(JToken _buf) 
+    public ChestList_ChestReward(ByteBuf _buf) 
     {
-        JObject _obj = _buf as JObject;
-        id = (int)_obj.GetValue("id");
-        chestType = (int)_obj.GetValue("chestType");
-        Probability = (int)_obj.GetValue("Probability");
-        itemId = (int)_obj.GetValue("itemId");
-        openPoint = (int)_obj.GetValue("openPoint");
-        coreReward = (int)_obj.GetValue("coreReward");
-        coreRewardOld = (int)_obj.GetValue("coreRewardOld");
-        rewardTimes = (int)_obj.GetValue("rewardTimes");
-        reward = (int)_obj.GetValue("reward");
-        name = (string)_obj.GetValue("name");
-        desc = (string)_obj.GetValue("desc");
+        id = _buf.ReadInt();
+        chestType = _buf.ReadInt();
+        Probability = _buf.ReadInt();
+        itemId = _buf.ReadInt();
+        openPoint = _buf.ReadInt();
+        coreReward = _buf.ReadInt();
+        coreRewardOld = _buf.ReadInt();
+        rewardTimes = _buf.ReadInt();
+        reward = _buf.ReadInt();
+        name = _buf.ReadString();
+        desc = _buf.ReadString();
     }
 
-    public static ChestList_ChestReward DeserializeChestList_ChestReward(JToken _buf)
+    public static ChestList_ChestReward DeserializeChestList_ChestReward(ByteBuf _buf)
     {
         return new ChestList_ChestReward(_buf);
     }
@@ -82,8 +78,7 @@ public sealed partial class ChestList_ChestReward : Luban.BeanBase
     /// 描述
     /// </summary>
     public readonly string desc;
-
-
+   
     public const int __ID__ = -2070335408;
     public override int GetTypeId() => __ID__;
 
@@ -108,5 +103,6 @@ public sealed partial class ChestList_ChestReward : Luban.BeanBase
         + "}";
     }
 }
+
 }
 

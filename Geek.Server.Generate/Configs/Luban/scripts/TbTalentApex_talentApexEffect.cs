@@ -7,14 +7,11 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-using Newtonsoft.Json.Linq;
 using Luban;
-
 
 
 namespace HotFix.Cfg
 {
-
 /// <summary>
 /// Generated from TalentApex.xlsx sheet talentApexEffect
 /// </summary>
@@ -23,20 +20,19 @@ public partial class TbTalentApex_talentApexEffect
     private readonly System.Collections.Generic.Dictionary<int, TalentApex_talentApexEffect> _dataMap;
     private readonly System.Collections.Generic.List<TalentApex_talentApexEffect> _dataList;
     
-    public TbTalentApex_talentApexEffect(JArray _buf)
+    public TbTalentApex_talentApexEffect(ByteBuf _buf)
     {
         _dataMap = new System.Collections.Generic.Dictionary<int, TalentApex_talentApexEffect>();
         _dataList = new System.Collections.Generic.List<TalentApex_talentApexEffect>();
         
-        foreach(JObject _ele in _buf)
+        for(int n = _buf.ReadSize() ; n > 0 ; --n)
         {
             TalentApex_talentApexEffect _v;
-            _v = global::HotFix.Cfg.TalentApex_talentApexEffect.DeserializeTalentApex_talentApexEffect(_ele);
+            _v = global::HotFix.Cfg.TalentApex_talentApexEffect.DeserializeTalentApex_talentApexEffect(_buf);
             _dataList.Add(_v);
             _dataMap.Add(_v.id, _v);
-         }
+        }
     }
-
 
     public System.Collections.Generic.Dictionary<int, TalentApex_talentApexEffect> DataMap => _dataMap;
     public System.Collections.Generic.List<TalentApex_talentApexEffect> DataList => _dataList;
@@ -54,5 +50,6 @@ public partial class TbTalentApex_talentApexEffect
     }
 
 }
+
 }
 

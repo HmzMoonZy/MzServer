@@ -8,28 +8,24 @@
 //------------------------------------------------------------------------------
 
 using Luban;
-using Newtonsoft.Json.Linq;
-
 
 
 namespace HotFix.Cfg
 {
-
 public sealed partial class Capsule_GashaponBox : Luban.BeanBase
 {
-    public Capsule_GashaponBox(JToken _buf) 
+    public Capsule_GashaponBox(ByteBuf _buf) 
     {
-        JObject _obj = _buf as JObject;
-        ID = (int)_obj.GetValue("ID");
-        ConnectActivityId = (int)_obj.GetValue("ConnectActivityId");
-        Type = (int)_obj.GetValue("Type");
-        { var __json0 = _obj.GetValue("Rewards"); int _n0 = (__json0 as JArray).Count; Rewards = new int[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { int __v0;  __v0 = (int)__e0;  Rewards[__index0++] = __v0; }   }
-        Number1 = (int)_obj.GetValue("Number1");
-        Weight1 = (int)_obj.GetValue("Weight1");
-        { var __json0 = _obj.GetValue("Rewards2"); int _n0 = (__json0 as JArray).Count; Rewards2 = new int[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { int __v0;  __v0 = (int)__e0;  Rewards2[__index0++] = __v0; }   }
+        ID = _buf.ReadInt();
+        ConnectActivityId = _buf.ReadInt();
+        Type = _buf.ReadInt();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);Rewards = new int[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { int __e0;__e0 = _buf.ReadInt(); Rewards[__index0] = __e0;}}
+        Number1 = _buf.ReadInt();
+        Weight1 = _buf.ReadInt();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);Rewards2 = new int[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { int __e0;__e0 = _buf.ReadInt(); Rewards2[__index0] = __e0;}}
     }
 
-    public static Capsule_GashaponBox DeserializeCapsule_GashaponBox(JToken _buf)
+    public static Capsule_GashaponBox DeserializeCapsule_GashaponBox(ByteBuf _buf)
     {
         return new Capsule_GashaponBox(_buf);
     }
@@ -62,8 +58,7 @@ public sealed partial class Capsule_GashaponBox : Luban.BeanBase
     /// 奖励道具id|奖励数量
     /// </summary>
     public readonly int[] Rewards2;
-
-
+   
     public const int __ID__ = -1219455556;
     public override int GetTypeId() => __ID__;
 
@@ -84,5 +79,6 @@ public sealed partial class Capsule_GashaponBox : Luban.BeanBase
         + "}";
     }
 }
+
 }
 

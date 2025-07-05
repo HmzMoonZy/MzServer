@@ -8,25 +8,21 @@
 //------------------------------------------------------------------------------
 
 using Luban;
-using Newtonsoft.Json.Linq;
-
 
 
 namespace HotFix.Cfg
 {
-
 public sealed partial class ChapterActivity_Model : Luban.BeanBase
 {
-    public ChapterActivity_Model(JToken _buf) 
+    public ChapterActivity_Model(ByteBuf _buf) 
     {
-        JObject _obj = _buf as JObject;
-        id = (int)_obj.GetValue("id");
-        path = (string)_obj.GetValue("path");
-        scale = (float)_obj.GetValue("scale");
-        offsetY = (float)_obj.GetValue("offsetY");
+        id = _buf.ReadInt();
+        path = _buf.ReadString();
+        scale = _buf.ReadFloat();
+        offsetY = _buf.ReadFloat();
     }
 
-    public static ChapterActivity_Model DeserializeChapterActivity_Model(JToken _buf)
+    public static ChapterActivity_Model DeserializeChapterActivity_Model(ByteBuf _buf)
     {
         return new ChapterActivity_Model(_buf);
     }
@@ -47,8 +43,7 @@ public sealed partial class ChapterActivity_Model : Luban.BeanBase
     /// 高度偏移
     /// </summary>
     public readonly float offsetY;
-
-
+   
     public const int __ID__ = 704587622;
     public override int GetTypeId() => __ID__;
 
@@ -66,5 +61,6 @@ public sealed partial class ChapterActivity_Model : Luban.BeanBase
         + "}";
     }
 }
+
 }
 

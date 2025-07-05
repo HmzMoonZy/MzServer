@@ -8,25 +8,21 @@
 //------------------------------------------------------------------------------
 
 using Luban;
-using Newtonsoft.Json.Linq;
-
 
 
 namespace HotFix.Cfg
 {
-
 public sealed partial class Vip_data : Luban.BeanBase
 {
-    public Vip_data(JToken _buf) 
+    public Vip_data(ByteBuf _buf) 
     {
-        JObject _obj = _buf as JObject;
-        id = (int)_obj.GetValue("id");
-        ParamType = (int)_obj.GetValue("ParamType");
-        LangugaeID = (string)_obj.GetValue("LangugaeID");
-        OtherParameter = (string)_obj.GetValue("OtherParameter");
+        id = _buf.ReadInt();
+        ParamType = _buf.ReadInt();
+        LangugaeID = _buf.ReadString();
+        OtherParameter = _buf.ReadString();
     }
 
-    public static Vip_data DeserializeVip_data(JToken _buf)
+    public static Vip_data DeserializeVip_data(ByteBuf _buf)
     {
         return new Vip_data(_buf);
     }
@@ -47,8 +43,7 @@ public sealed partial class Vip_data : Luban.BeanBase
     /// 参数
     /// </summary>
     public readonly string OtherParameter;
-
-
+   
     public const int __ID__ = 1553714860;
     public override int GetTypeId() => __ID__;
 
@@ -66,5 +61,6 @@ public sealed partial class Vip_data : Luban.BeanBase
         + "}";
     }
 }
+
 }
 

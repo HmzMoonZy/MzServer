@@ -8,24 +8,20 @@
 //------------------------------------------------------------------------------
 
 using Luban;
-using Newtonsoft.Json.Linq;
-
 
 
 namespace HotFix.Cfg
 {
-
 public sealed partial class GameMember_aiType : Luban.BeanBase
 {
-    public GameMember_aiType(JToken _buf) 
+    public GameMember_aiType(ByteBuf _buf) 
     {
-        JObject _obj = _buf as JObject;
-        id = (int)_obj.GetValue("id");
-        sClassName = (string)_obj.GetValue("sClassName");
-        cClassName = (string)_obj.GetValue("cClassName");
+        id = _buf.ReadInt();
+        sClassName = _buf.ReadString();
+        cClassName = _buf.ReadString();
     }
 
-    public static GameMember_aiType DeserializeGameMember_aiType(JToken _buf)
+    public static GameMember_aiType DeserializeGameMember_aiType(ByteBuf _buf)
     {
         return new GameMember_aiType(_buf);
     }
@@ -42,8 +38,7 @@ public sealed partial class GameMember_aiType : Luban.BeanBase
     /// 客户端ai基类名称
     /// </summary>
     public readonly string cClassName;
-
-
+   
     public const int __ID__ = -193558059;
     public override int GetTypeId() => __ID__;
 
@@ -60,5 +55,6 @@ public sealed partial class GameMember_aiType : Luban.BeanBase
         + "}";
     }
 }
+
 }
 

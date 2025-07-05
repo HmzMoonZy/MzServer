@@ -8,26 +8,22 @@
 //------------------------------------------------------------------------------
 
 using Luban;
-using Newtonsoft.Json.Linq;
-
 
 
 namespace HotFix.Cfg
 {
-
 public sealed partial class IntegralShop_data : Luban.BeanBase
 {
-    public IntegralShop_data(JToken _buf) 
+    public IntegralShop_data(ByteBuf _buf) 
     {
-        JObject _obj = _buf as JObject;
-        ID = (int)_obj.GetValue("ID");
-        NameID = (string)_obj.GetValue("NameID");
-        currencyID = (int)_obj.GetValue("currencyID");
-        LevelRequirements = (int)_obj.GetValue("LevelRequirements");
-        { var __json0 = _obj.GetValue("RefreshCost"); int _n0 = (__json0 as JArray).Count; RefreshCost = new int[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { int __v0;  __v0 = (int)__e0;  RefreshCost[__index0++] = __v0; }   }
+        ID = _buf.ReadInt();
+        NameID = _buf.ReadString();
+        currencyID = _buf.ReadInt();
+        LevelRequirements = _buf.ReadInt();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);RefreshCost = new int[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { int __e0;__e0 = _buf.ReadInt(); RefreshCost[__index0] = __e0;}}
     }
 
-    public static IntegralShop_data DeserializeIntegralShop_data(JToken _buf)
+    public static IntegralShop_data DeserializeIntegralShop_data(ByteBuf _buf)
     {
         return new IntegralShop_data(_buf);
     }
@@ -52,8 +48,7 @@ public sealed partial class IntegralShop_data : Luban.BeanBase
     /// 手动刷新消耗钻石
     /// </summary>
     public readonly int[] RefreshCost;
-
-
+   
     public const int __ID__ = -1735957785;
     public override int GetTypeId() => __ID__;
 
@@ -72,5 +67,6 @@ public sealed partial class IntegralShop_data : Luban.BeanBase
         + "}";
     }
 }
+
 }
 

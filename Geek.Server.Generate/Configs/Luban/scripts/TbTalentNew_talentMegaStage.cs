@@ -7,14 +7,11 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-using Newtonsoft.Json.Linq;
 using Luban;
-
 
 
 namespace HotFix.Cfg
 {
-
 /// <summary>
 /// Generated from TalentNew.xlsx sheet talentMegaStage
 /// </summary>
@@ -23,20 +20,19 @@ public partial class TbTalentNew_talentMegaStage
     private readonly System.Collections.Generic.Dictionary<int, TalentNew_talentMegaStage> _dataMap;
     private readonly System.Collections.Generic.List<TalentNew_talentMegaStage> _dataList;
     
-    public TbTalentNew_talentMegaStage(JArray _buf)
+    public TbTalentNew_talentMegaStage(ByteBuf _buf)
     {
         _dataMap = new System.Collections.Generic.Dictionary<int, TalentNew_talentMegaStage>();
         _dataList = new System.Collections.Generic.List<TalentNew_talentMegaStage>();
         
-        foreach(JObject _ele in _buf)
+        for(int n = _buf.ReadSize() ; n > 0 ; --n)
         {
             TalentNew_talentMegaStage _v;
-            _v = global::HotFix.Cfg.TalentNew_talentMegaStage.DeserializeTalentNew_talentMegaStage(_ele);
+            _v = global::HotFix.Cfg.TalentNew_talentMegaStage.DeserializeTalentNew_talentMegaStage(_buf);
             _dataList.Add(_v);
             _dataMap.Add(_v.id, _v);
-         }
+        }
     }
-
 
     public System.Collections.Generic.Dictionary<int, TalentNew_talentMegaStage> DataMap => _dataMap;
     public System.Collections.Generic.List<TalentNew_talentMegaStage> DataList => _dataList;
@@ -54,5 +50,6 @@ public partial class TbTalentNew_talentMegaStage
     }
 
 }
+
 }
 

@@ -7,14 +7,11 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-using Newtonsoft.Json.Linq;
 using Luban;
-
 
 
 namespace HotFix.Cfg
 {
-
 /// <summary>
 /// Generated from Levels.xlsx sheet table
 /// </summary>
@@ -23,20 +20,19 @@ public partial class TbLevels_table
     private readonly System.Collections.Generic.Dictionary<int, Levels_table> _dataMap;
     private readonly System.Collections.Generic.List<Levels_table> _dataList;
     
-    public TbLevels_table(JArray _buf)
+    public TbLevels_table(ByteBuf _buf)
     {
         _dataMap = new System.Collections.Generic.Dictionary<int, Levels_table>();
         _dataList = new System.Collections.Generic.List<Levels_table>();
         
-        foreach(JObject _ele in _buf)
+        for(int n = _buf.ReadSize() ; n > 0 ; --n)
         {
             Levels_table _v;
-            _v = global::HotFix.Cfg.Levels_table.DeserializeLevels_table(_ele);
+            _v = global::HotFix.Cfg.Levels_table.DeserializeLevels_table(_buf);
             _dataList.Add(_v);
             _dataMap.Add(_v.id, _v);
-         }
+        }
     }
-
 
     public System.Collections.Generic.Dictionary<int, Levels_table> DataMap => _dataMap;
     public System.Collections.Generic.List<Levels_table> DataList => _dataList;
@@ -54,5 +50,6 @@ public partial class TbLevels_table
     }
 
 }
+
 }
 

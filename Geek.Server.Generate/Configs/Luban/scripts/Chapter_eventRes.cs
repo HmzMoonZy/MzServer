@@ -8,33 +8,29 @@
 //------------------------------------------------------------------------------
 
 using Luban;
-using Newtonsoft.Json.Linq;
-
 
 
 namespace HotFix.Cfg
 {
-
 public sealed partial class Chapter_eventRes : Luban.BeanBase
 {
-    public Chapter_eventRes(JToken _buf) 
+    public Chapter_eventRes(ByteBuf _buf) 
     {
-        JObject _obj = _buf as JObject;
-        id = (int)_obj.GetValue("id");
-        path = (string)_obj.GetValue("path");
-        type = (int)_obj.GetValue("type");
-        randomId = (string)_obj.GetValue("randomId");
-        weight = (int)_obj.GetValue("weight");
-        { var __json0 = _obj.GetValue("items"); int _n0 = (__json0 as JArray).Count; items = new int[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { int __v0;  __v0 = (int)__e0;  items[__index0++] = __v0; }   }
-        itemWeight = (int)_obj.GetValue("itemWeight");
-        { var __json0 = _obj.GetValue("drop"); int _n0 = (__json0 as JArray).Count; drop = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  drop[__index0++] = __v0; }   }
-        activityPath = (string)_obj.GetValue("activityPath");
-        activityReward = (int)_obj.GetValue("activityReward");
-        wheelReward = (int)_obj.GetValue("wheelReward");
-        { var __json0 = _obj.GetValue("EventAttributesArena"); int _n0 = (__json0 as JArray).Count; EventAttributesArena = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  EventAttributesArena[__index0++] = __v0; }   }
+        id = _buf.ReadInt();
+        path = _buf.ReadString();
+        type = _buf.ReadInt();
+        randomId = _buf.ReadString();
+        weight = _buf.ReadInt();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);items = new int[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { int __e0;__e0 = _buf.ReadInt(); items[__index0] = __e0;}}
+        itemWeight = _buf.ReadInt();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);drop = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); drop[__index0] = __e0;}}
+        activityPath = _buf.ReadString();
+        activityReward = _buf.ReadInt();
+        wheelReward = _buf.ReadInt();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);EventAttributesArena = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); EventAttributesArena[__index0] = __e0;}}
     }
 
-    public static Chapter_eventRes DeserializeChapter_eventRes(JToken _buf)
+    public static Chapter_eventRes DeserializeChapter_eventRes(ByteBuf _buf)
     {
         return new Chapter_eventRes(_buf);
     }
@@ -87,8 +83,7 @@ public sealed partial class Chapter_eventRes : Luban.BeanBase
     /// 章节事件获取的属性
     /// </summary>
     public readonly string[] EventAttributesArena;
-
-
+   
     public const int __ID__ = -1844244616;
     public override int GetTypeId() => __ID__;
 
@@ -114,5 +109,6 @@ public sealed partial class Chapter_eventRes : Luban.BeanBase
         + "}";
     }
 }
+
 }
 

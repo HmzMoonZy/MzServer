@@ -8,23 +8,19 @@
 //------------------------------------------------------------------------------
 
 using Luban;
-using Newtonsoft.Json.Linq;
-
 
 
 namespace HotFix.Cfg
 {
-
 public sealed partial class GameSkillBuild_skillRandom : Luban.BeanBase
 {
-    public GameSkillBuild_skillRandom(JToken _buf) 
+    public GameSkillBuild_skillRandom(ByteBuf _buf) 
     {
-        JObject _obj = _buf as JObject;
-        id = (int)_obj.GetValue("id");
-        { var __json0 = _obj.GetValue("weight"); int _n0 = (__json0 as JArray).Count; weight = new int[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { int __v0;  __v0 = (int)__e0;  weight[__index0++] = __v0; }   }
+        id = _buf.ReadInt();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);weight = new int[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { int __e0;__e0 = _buf.ReadInt(); weight[__index0] = __e0;}}
     }
 
-    public static GameSkillBuild_skillRandom DeserializeGameSkillBuild_skillRandom(JToken _buf)
+    public static GameSkillBuild_skillRandom DeserializeGameSkillBuild_skillRandom(ByteBuf _buf)
     {
         return new GameSkillBuild_skillRandom(_buf);
     }
@@ -37,8 +33,7 @@ public sealed partial class GameSkillBuild_skillRandom : Luban.BeanBase
     /// 权重(白、黄、红）
     /// </summary>
     public readonly int[] weight;
-
-
+   
     public const int __ID__ = 1360936580;
     public override int GetTypeId() => __ID__;
 
@@ -54,5 +49,6 @@ public sealed partial class GameSkillBuild_skillRandom : Luban.BeanBase
         + "}";
     }
 }
+
 }
 

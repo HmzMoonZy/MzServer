@@ -8,34 +8,30 @@
 //------------------------------------------------------------------------------
 
 using Luban;
-using Newtonsoft.Json.Linq;
-
 
 
 namespace HotFix.Cfg
 {
-
 public sealed partial class ChapterMiniGame_cardFlippingBase : Luban.BeanBase
 {
-    public ChapterMiniGame_cardFlippingBase(JToken _buf) 
+    public ChapterMiniGame_cardFlippingBase(ByteBuf _buf) 
     {
-        JObject _obj = _buf as JObject;
-        id = (int)_obj.GetValue("id");
-        { var __json0 = _obj.GetValue("reward1"); int _n0 = (__json0 as JArray).Count; reward1 = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  reward1[__index0++] = __v0; }   }
-        { var __json0 = _obj.GetValue("iconRes1"); int _n0 = (__json0 as JArray).Count; iconRes1 = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  iconRes1[__index0++] = __v0; }   }
-        { var __json0 = _obj.GetValue("iconFrameRes1"); int _n0 = (__json0 as JArray).Count; iconFrameRes1 = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  iconFrameRes1[__index0++] = __v0; }   }
-        { var __json0 = _obj.GetValue("reward2"); int _n0 = (__json0 as JArray).Count; reward2 = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  reward2[__index0++] = __v0; }   }
-        { var __json0 = _obj.GetValue("iconRes2"); int _n0 = (__json0 as JArray).Count; iconRes2 = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  iconRes2[__index0++] = __v0; }   }
-        { var __json0 = _obj.GetValue("iconFrameRes2"); int _n0 = (__json0 as JArray).Count; iconFrameRes2 = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  iconFrameRes2[__index0++] = __v0; }   }
-        { var __json0 = _obj.GetValue("reward3"); int _n0 = (__json0 as JArray).Count; reward3 = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  reward3[__index0++] = __v0; }   }
-        { var __json0 = _obj.GetValue("iconRes3"); int _n0 = (__json0 as JArray).Count; iconRes3 = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  iconRes3[__index0++] = __v0; }   }
-        { var __json0 = _obj.GetValue("iconFrameRes3"); int _n0 = (__json0 as JArray).Count; iconFrameRes3 = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  iconFrameRes3[__index0++] = __v0; }   }
-        { var __json0 = _obj.GetValue("weights"); int _n0 = (__json0 as JArray).Count; weights = new int[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { int __v0;  __v0 = (int)__e0;  weights[__index0++] = __v0; }   }
-        { var __json0 = _obj.GetValue("rewardTextIds"); int _n0 = (__json0 as JArray).Count; rewardTextIds = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  rewardTextIds[__index0++] = __v0; }   }
-        languageId = (string)_obj.GetValue("languageId");
+        id = _buf.ReadInt();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);reward1 = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); reward1[__index0] = __e0;}}
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);iconRes1 = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); iconRes1[__index0] = __e0;}}
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);iconFrameRes1 = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); iconFrameRes1[__index0] = __e0;}}
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);reward2 = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); reward2[__index0] = __e0;}}
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);iconRes2 = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); iconRes2[__index0] = __e0;}}
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);iconFrameRes2 = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); iconFrameRes2[__index0] = __e0;}}
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);reward3 = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); reward3[__index0] = __e0;}}
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);iconRes3 = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); iconRes3[__index0] = __e0;}}
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);iconFrameRes3 = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); iconFrameRes3[__index0] = __e0;}}
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);weights = new int[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { int __e0;__e0 = _buf.ReadInt(); weights[__index0] = __e0;}}
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);rewardTextIds = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); rewardTextIds[__index0] = __e0;}}
+        languageId = _buf.ReadString();
     }
 
-    public static ChapterMiniGame_cardFlippingBase DeserializeChapterMiniGame_cardFlippingBase(JToken _buf)
+    public static ChapterMiniGame_cardFlippingBase DeserializeChapterMiniGame_cardFlippingBase(ByteBuf _buf)
     {
         return new ChapterMiniGame_cardFlippingBase(_buf);
     }
@@ -92,8 +88,7 @@ public sealed partial class ChapterMiniGame_cardFlippingBase : Luban.BeanBase
     /// 事件多语言
     /// </summary>
     public readonly string languageId;
-
-
+   
     public const int __ID__ = 1834067689;
     public override int GetTypeId() => __ID__;
 
@@ -120,5 +115,6 @@ public sealed partial class ChapterMiniGame_cardFlippingBase : Luban.BeanBase
         + "}";
     }
 }
+
 }
 

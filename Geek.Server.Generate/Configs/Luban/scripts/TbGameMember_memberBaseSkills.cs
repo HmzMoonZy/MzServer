@@ -7,14 +7,11 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-using Newtonsoft.Json.Linq;
 using Luban;
-
 
 
 namespace HotFix.Cfg
 {
-
 /// <summary>
 /// Generated from GameMember.xlsx sheet memberBaseSkills
 /// </summary>
@@ -23,20 +20,19 @@ public partial class TbGameMember_memberBaseSkills
     private readonly System.Collections.Generic.Dictionary<int, GameMember_memberBaseSkills> _dataMap;
     private readonly System.Collections.Generic.List<GameMember_memberBaseSkills> _dataList;
     
-    public TbGameMember_memberBaseSkills(JArray _buf)
+    public TbGameMember_memberBaseSkills(ByteBuf _buf)
     {
         _dataMap = new System.Collections.Generic.Dictionary<int, GameMember_memberBaseSkills>();
         _dataList = new System.Collections.Generic.List<GameMember_memberBaseSkills>();
         
-        foreach(JObject _ele in _buf)
+        for(int n = _buf.ReadSize() ; n > 0 ; --n)
         {
             GameMember_memberBaseSkills _v;
-            _v = global::HotFix.Cfg.GameMember_memberBaseSkills.DeserializeGameMember_memberBaseSkills(_ele);
+            _v = global::HotFix.Cfg.GameMember_memberBaseSkills.DeserializeGameMember_memberBaseSkills(_buf);
             _dataList.Add(_v);
             _dataMap.Add(_v.id, _v);
-         }
+        }
     }
-
 
     public System.Collections.Generic.Dictionary<int, GameMember_memberBaseSkills> DataMap => _dataMap;
     public System.Collections.Generic.List<GameMember_memberBaseSkills> DataList => _dataList;
@@ -54,5 +50,6 @@ public partial class TbGameMember_memberBaseSkills
     }
 
 }
+
 }
 

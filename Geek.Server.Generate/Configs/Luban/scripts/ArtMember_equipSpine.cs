@@ -8,24 +8,20 @@
 //------------------------------------------------------------------------------
 
 using Luban;
-using Newtonsoft.Json.Linq;
-
 
 
 namespace HotFix.Cfg
 {
-
 public sealed partial class ArtMember_equipSpine : Luban.BeanBase
 {
-    public ArtMember_equipSpine(JToken _buf) 
+    public ArtMember_equipSpine(ByteBuf _buf) 
     {
-        JObject _obj = _buf as JObject;
-        id = (int)_obj.GetValue("id");
-        path = (string)_obj.GetValue("path");
-        skinName = (string)_obj.GetValue("skinName");
+        id = _buf.ReadInt();
+        path = _buf.ReadString();
+        skinName = _buf.ReadString();
     }
 
-    public static ArtMember_equipSpine DeserializeArtMember_equipSpine(JToken _buf)
+    public static ArtMember_equipSpine DeserializeArtMember_equipSpine(ByteBuf _buf)
     {
         return new ArtMember_equipSpine(_buf);
     }
@@ -42,8 +38,7 @@ public sealed partial class ArtMember_equipSpine : Luban.BeanBase
     /// 武器默认皮肤
     /// </summary>
     public readonly string skinName;
-
-
+   
     public const int __ID__ = -31455019;
     public override int GetTypeId() => __ID__;
 
@@ -60,5 +55,6 @@ public sealed partial class ArtMember_equipSpine : Luban.BeanBase
         + "}";
     }
 }
+
 }
 

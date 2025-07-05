@@ -7,14 +7,11 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-using Newtonsoft.Json.Linq;
 using Luban;
-
 
 
 namespace HotFix.Cfg
 {
-
 /// <summary>
 /// Generated from AutoProcess.xlsx sheet skill
 /// </summary>
@@ -23,20 +20,19 @@ public partial class TbAutoProcess_skill
     private readonly System.Collections.Generic.Dictionary<int, AutoProcess_skill> _dataMap;
     private readonly System.Collections.Generic.List<AutoProcess_skill> _dataList;
     
-    public TbAutoProcess_skill(JArray _buf)
+    public TbAutoProcess_skill(ByteBuf _buf)
     {
         _dataMap = new System.Collections.Generic.Dictionary<int, AutoProcess_skill>();
         _dataList = new System.Collections.Generic.List<AutoProcess_skill>();
         
-        foreach(JObject _ele in _buf)
+        for(int n = _buf.ReadSize() ; n > 0 ; --n)
         {
             AutoProcess_skill _v;
-            _v = global::HotFix.Cfg.AutoProcess_skill.DeserializeAutoProcess_skill(_ele);
+            _v = global::HotFix.Cfg.AutoProcess_skill.DeserializeAutoProcess_skill(_buf);
             _dataList.Add(_v);
             _dataMap.Add(_v.id, _v);
-         }
+        }
     }
-
 
     public System.Collections.Generic.Dictionary<int, AutoProcess_skill> DataMap => _dataMap;
     public System.Collections.Generic.List<AutoProcess_skill> DataList => _dataList;
@@ -54,5 +50,6 @@ public partial class TbAutoProcess_skill
     }
 
 }
+
 }
 

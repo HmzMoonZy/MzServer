@@ -8,39 +8,35 @@
 //------------------------------------------------------------------------------
 
 using Luban;
-using Newtonsoft.Json.Linq;
-
 
 
 namespace HotFix.Cfg
 {
-
 public sealed partial class GameSkill_fireBullet : Luban.BeanBase
 {
-    public GameSkill_fireBullet(JToken _buf) 
+    public GameSkill_fireBullet(ByteBuf _buf) 
     {
-        JObject _obj = _buf as JObject;
-        id = (int)_obj.GetValue("id");
-        skillBulletNameID = (int)_obj.GetValue("skillBulletNameID");
-        bulletID = (int)_obj.GetValue("bulletID");
-        showTpye = (int)_obj.GetValue("showTpye");
-        bulletStartPosID = (int)_obj.GetValue("bulletStartPosID");
-        bulletEndPosID = (int)_obj.GetValue("bulletEndPosID");
-        bulletStartPrefabID = (int)_obj.GetValue("bulletStartPrefabID");
-        bulletEndPrefabID = (int)_obj.GetValue("bulletEndPrefabID");
-        bulletEndTargetPosPrefabID = (int)_obj.GetValue("bulletEndTargetPosPrefabID");
-        bulletStartSoundID = (int)_obj.GetValue("bulletStartSoundID");
-        bulletHitSoundID = (int)_obj.GetValue("bulletHitSoundID");
-        { var __json0 = _obj.GetValue("hitPrefabIDs"); int _n0 = (__json0 as JArray).Count; hitPrefabIDs = new int[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { int __v0;  __v0 = (int)__e0;  hitPrefabIDs[__index0++] = __v0; }   }
-        hitPosID = (string)_obj.GetValue("hitPosID");
-        hitEffectID = (int)_obj.GetValue("hitEffectID");
-        hitStopType = (int)_obj.GetValue("hitStopType");
-        hitStopDuration = (float)_obj.GetValue("hitStopDuration");
-        hitStopDistance = (float)_obj.GetValue("hitStopDistance");
-        hitStopSpeedParam = (float)_obj.GetValue("hitStopSpeedParam");
+        id = _buf.ReadInt();
+        skillBulletNameID = _buf.ReadInt();
+        bulletID = _buf.ReadInt();
+        showTpye = _buf.ReadInt();
+        bulletStartPosID = _buf.ReadInt();
+        bulletEndPosID = _buf.ReadInt();
+        bulletStartPrefabID = _buf.ReadInt();
+        bulletEndPrefabID = _buf.ReadInt();
+        bulletEndTargetPosPrefabID = _buf.ReadInt();
+        bulletStartSoundID = _buf.ReadInt();
+        bulletHitSoundID = _buf.ReadInt();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);hitPrefabIDs = new int[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { int __e0;__e0 = _buf.ReadInt(); hitPrefabIDs[__index0] = __e0;}}
+        hitPosID = _buf.ReadString();
+        hitEffectID = _buf.ReadInt();
+        hitStopType = _buf.ReadInt();
+        hitStopDuration = _buf.ReadFloat();
+        hitStopDistance = _buf.ReadFloat();
+        hitStopSpeedParam = _buf.ReadFloat();
     }
 
-    public static GameSkill_fireBullet DeserializeGameSkill_fireBullet(JToken _buf)
+    public static GameSkill_fireBullet DeserializeGameSkill_fireBullet(ByteBuf _buf)
     {
         return new GameSkill_fireBullet(_buf);
     }
@@ -117,8 +113,7 @@ public sealed partial class GameSkill_fireBullet : Luban.BeanBase
     /// 子弹顿帧速度参数
     /// </summary>
     public readonly float hitStopSpeedParam;
-
-
+   
     public const int __ID__ = -497711688;
     public override int GetTypeId() => __ID__;
 
@@ -150,5 +145,6 @@ public sealed partial class GameSkill_fireBullet : Luban.BeanBase
         + "}";
     }
 }
+
 }
 

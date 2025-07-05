@@ -8,25 +8,21 @@
 //------------------------------------------------------------------------------
 
 using Luban;
-using Newtonsoft.Json.Linq;
-
 
 
 namespace HotFix.Cfg
 {
-
 public sealed partial class ArtBuff_Buff : Luban.BeanBase
 {
-    public ArtBuff_Buff(JToken _buf) 
+    public ArtBuff_Buff(ByteBuf _buf) 
     {
-        JObject _obj = _buf as JObject;
-        id = (int)_obj.GetValue("id");
-        path = (string)_obj.GetValue("path");
-        effectType = (int)_obj.GetValue("effectType");
-        effectDuration = (float)_obj.GetValue("effectDuration");
+        id = _buf.ReadInt();
+        path = _buf.ReadString();
+        effectType = _buf.ReadInt();
+        effectDuration = _buf.ReadFloat();
     }
 
-    public static ArtBuff_Buff DeserializeArtBuff_Buff(JToken _buf)
+    public static ArtBuff_Buff DeserializeArtBuff_Buff(ByteBuf _buf)
     {
         return new ArtBuff_Buff(_buf);
     }
@@ -47,8 +43,7 @@ public sealed partial class ArtBuff_Buff : Luban.BeanBase
     /// 特效默认时长，无限时长为小于0（填-1）
     /// </summary>
     public readonly float effectDuration;
-
-
+   
     public const int __ID__ = 1844208092;
     public override int GetTypeId() => __ID__;
 
@@ -66,5 +61,6 @@ public sealed partial class ArtBuff_Buff : Luban.BeanBase
         + "}";
     }
 }
+
 }
 

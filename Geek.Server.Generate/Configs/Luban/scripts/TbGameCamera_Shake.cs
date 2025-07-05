@@ -7,14 +7,11 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-using Newtonsoft.Json.Linq;
 using Luban;
-
 
 
 namespace HotFix.Cfg
 {
-
 /// <summary>
 /// Generated from GameCamera.xlsx sheet Shake
 /// </summary>
@@ -23,20 +20,19 @@ public partial class TbGameCamera_Shake
     private readonly System.Collections.Generic.Dictionary<int, GameCamera_Shake> _dataMap;
     private readonly System.Collections.Generic.List<GameCamera_Shake> _dataList;
     
-    public TbGameCamera_Shake(JArray _buf)
+    public TbGameCamera_Shake(ByteBuf _buf)
     {
         _dataMap = new System.Collections.Generic.Dictionary<int, GameCamera_Shake>();
         _dataList = new System.Collections.Generic.List<GameCamera_Shake>();
         
-        foreach(JObject _ele in _buf)
+        for(int n = _buf.ReadSize() ; n > 0 ; --n)
         {
             GameCamera_Shake _v;
-            _v = global::HotFix.Cfg.GameCamera_Shake.DeserializeGameCamera_Shake(_ele);
+            _v = global::HotFix.Cfg.GameCamera_Shake.DeserializeGameCamera_Shake(_buf);
             _dataList.Add(_v);
             _dataMap.Add(_v.ID, _v);
-         }
+        }
     }
-
 
     public System.Collections.Generic.Dictionary<int, GameCamera_Shake> DataMap => _dataMap;
     public System.Collections.Generic.List<GameCamera_Shake> DataList => _dataList;
@@ -54,5 +50,6 @@ public partial class TbGameCamera_Shake
     }
 
 }
+
 }
 

@@ -8,25 +8,21 @@
 //------------------------------------------------------------------------------
 
 using Luban;
-using Newtonsoft.Json.Linq;
-
 
 
 namespace HotFix.Cfg
 {
-
 public sealed partial class Pet_PetTrainingProb : Luban.BeanBase
 {
-    public Pet_PetTrainingProb(JToken _buf) 
+    public Pet_PetTrainingProb(ByteBuf _buf) 
     {
-        JObject _obj = _buf as JObject;
-        id = (int)_obj.GetValue("id");
-        exp = (int)_obj.GetValue("exp");
-        { var __json0 = _obj.GetValue("probability"); int _n0 = (__json0 as JArray).Count; probability = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  probability[__index0++] = __v0; }   }
-        rareQualityId = (int)_obj.GetValue("rareQualityId");
+        id = _buf.ReadInt();
+        exp = _buf.ReadInt();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);probability = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); probability[__index0] = __e0;}}
+        rareQualityId = _buf.ReadInt();
     }
 
-    public static Pet_PetTrainingProb DeserializePet_PetTrainingProb(JToken _buf)
+    public static Pet_PetTrainingProb DeserializePet_PetTrainingProb(ByteBuf _buf)
     {
         return new Pet_PetTrainingProb(_buf);
     }
@@ -47,8 +43,7 @@ public sealed partial class Pet_PetTrainingProb : Luban.BeanBase
     /// 稀有品质id，大于或等于此Id属于稀有词条
     /// </summary>
     public readonly int rareQualityId;
-
-
+   
     public const int __ID__ = -1542137170;
     public override int GetTypeId() => __ID__;
 
@@ -66,5 +61,6 @@ public sealed partial class Pet_PetTrainingProb : Luban.BeanBase
         + "}";
     }
 }
+
 }
 

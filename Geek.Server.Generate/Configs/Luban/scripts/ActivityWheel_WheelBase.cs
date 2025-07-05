@@ -8,45 +8,41 @@
 //------------------------------------------------------------------------------
 
 using Luban;
-using Newtonsoft.Json.Linq;
-
 
 
 namespace HotFix.Cfg
 {
-
 public sealed partial class ActivityWheel_WheelBase : Luban.BeanBase
 {
-    public ActivityWheel_WheelBase(JToken _buf) 
+    public ActivityWheel_WheelBase(ByteBuf _buf) 
     {
-        JObject _obj = _buf as JObject;
-        id = (int)_obj.GetValue("id");
-        ThemeId = (int)_obj.GetValue("ThemeId");
-        openTime = (int)_obj.GetValue("openTime");
-        endTime = (int)_obj.GetValue("endTime");
-        OpenDateTime = (string)_obj.GetValue("OpenDateTime");
-        EndDateTime = (string)_obj.GetValue("EndDateTime");
-        dateTimeLimit = (int)_obj.GetValue("dateTimeLimit");
-        { var __json0 = _obj.GetValue("poolTimes"); int _n0 = (__json0 as JArray).Count; poolTimes = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  poolTimes[__index0++] = __v0; }   }
-        { var __json0 = _obj.GetValue("rateShow"); int _n0 = (__json0 as JArray).Count; rateShow = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  rateShow[__index0++] = __v0; }   }
-        { var __json0 = _obj.GetValue("pool"); int _n0 = (__json0 as JArray).Count; pool = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  pool[__index0++] = __v0; }   }
-        { var __json0 = _obj.GetValue("poolGroundTypes"); int _n0 = (__json0 as JArray).Count; poolGroundTypes = new int[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { int __v0;  __v0 = (int)__e0;  poolGroundTypes[__index0++] = __v0; }   }
-        bigIndex = (int)_obj.GetValue("bigIndex");
-        luckyMax = (int)_obj.GetValue("luckyMax");
-        priceId = (int)_obj.GetValue("priceId");
-        singlePrice = (int)_obj.GetValue("singlePrice");
-        tenPrice = (int)_obj.GetValue("tenPrice");
-        offsetAngle = (float)_obj.GetValue("offsetAngle");
-        rewardGroup = (int)_obj.GetValue("rewardGroup");
-        shopGroup = (int)_obj.GetValue("shopGroup");
-        giftGroup = (int)_obj.GetValue("giftGroup");
-        { var __json0 = _obj.GetValue("ShopRes"); int _n0 = (__json0 as JArray).Count; ShopRes = new int[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { int __v0;  __v0 = (int)__e0;  ShopRes[__index0++] = __v0; }   }
-        ProdMailTempId = (string)_obj.GetValue("ProdMailTempId");
-        TestMailTempId = (string)_obj.GetValue("TestMailTempId");
-        HelperDescId = (string)_obj.GetValue("HelperDescId");
+        id = _buf.ReadInt();
+        ThemeId = _buf.ReadInt();
+        openTime = _buf.ReadInt();
+        endTime = _buf.ReadInt();
+        OpenDateTime = _buf.ReadString();
+        EndDateTime = _buf.ReadString();
+        dateTimeLimit = _buf.ReadInt();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);poolTimes = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); poolTimes[__index0] = __e0;}}
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);rateShow = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); rateShow[__index0] = __e0;}}
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);pool = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); pool[__index0] = __e0;}}
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);poolGroundTypes = new int[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { int __e0;__e0 = _buf.ReadInt(); poolGroundTypes[__index0] = __e0;}}
+        bigIndex = _buf.ReadInt();
+        luckyMax = _buf.ReadInt();
+        priceId = _buf.ReadInt();
+        singlePrice = _buf.ReadInt();
+        tenPrice = _buf.ReadInt();
+        offsetAngle = _buf.ReadFloat();
+        rewardGroup = _buf.ReadInt();
+        shopGroup = _buf.ReadInt();
+        giftGroup = _buf.ReadInt();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);ShopRes = new int[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { int __e0;__e0 = _buf.ReadInt(); ShopRes[__index0] = __e0;}}
+        ProdMailTempId = _buf.ReadString();
+        TestMailTempId = _buf.ReadString();
+        HelperDescId = _buf.ReadString();
     }
 
-    public static ActivityWheel_WheelBase DeserializeActivityWheel_WheelBase(JToken _buf)
+    public static ActivityWheel_WheelBase DeserializeActivityWheel_WheelBase(ByteBuf _buf)
     {
         return new ActivityWheel_WheelBase(_buf);
     }
@@ -147,8 +143,7 @@ public sealed partial class ActivityWheel_WheelBase : Luban.BeanBase
     /// 玩法说明描述语言Id
     /// </summary>
     public readonly string HelperDescId;
-
-
+   
     public const int __ID__ = 947121561;
     public override int GetTypeId() => __ID__;
 
@@ -186,5 +181,6 @@ public sealed partial class ActivityWheel_WheelBase : Luban.BeanBase
         + "}";
     }
 }
+
 }
 

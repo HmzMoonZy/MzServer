@@ -8,29 +8,25 @@
 //------------------------------------------------------------------------------
 
 using Luban;
-using Newtonsoft.Json.Linq;
-
 
 
 namespace HotFix.Cfg
 {
-
 public sealed partial class ActivityHolidayFeast_SubType : Luban.BeanBase
 {
-    public ActivityHolidayFeast_SubType(JToken _buf) 
+    public ActivityHolidayFeast_SubType(ByteBuf _buf) 
     {
-        JObject _obj = _buf as JObject;
-        Id = (int)_obj.GetValue("Id");
-        EntryFunctionId = (int)_obj.GetValue("EntryFunctionId");
-        EntryNameId = (string)_obj.GetValue("EntryNameId");
-        EntryRedPointName = (string)_obj.GetValue("EntryRedPointName");
-        DataName = (string)_obj.GetValue("DataName");
-        ViewName = (string)_obj.GetValue("ViewName");
-        GameplayEndTime = (int)_obj.GetValue("GameplayEndTime");
-        HideExchangeTime = (int)_obj.GetValue("HideExchangeTime");
+        Id = _buf.ReadInt();
+        EntryFunctionId = _buf.ReadInt();
+        EntryNameId = _buf.ReadString();
+        EntryRedPointName = _buf.ReadString();
+        DataName = _buf.ReadString();
+        ViewName = _buf.ReadString();
+        GameplayEndTime = _buf.ReadInt();
+        HideExchangeTime = _buf.ReadInt();
     }
 
-    public static ActivityHolidayFeast_SubType DeserializeActivityHolidayFeast_SubType(JToken _buf)
+    public static ActivityHolidayFeast_SubType DeserializeActivityHolidayFeast_SubType(ByteBuf _buf)
     {
         return new ActivityHolidayFeast_SubType(_buf);
     }
@@ -67,8 +63,7 @@ public sealed partial class ActivityHolidayFeast_SubType : Luban.BeanBase
     /// 是否隐藏兑换时间
     /// </summary>
     public readonly int HideExchangeTime;
-
-
+   
     public const int __ID__ = 909312757;
     public override int GetTypeId() => __ID__;
 
@@ -90,5 +85,6 @@ public sealed partial class ActivityHolidayFeast_SubType : Luban.BeanBase
         + "}";
     }
 }
+
 }
 

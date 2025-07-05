@@ -8,27 +8,23 @@
 //------------------------------------------------------------------------------
 
 using Luban;
-using Newtonsoft.Json.Linq;
-
 
 
 namespace HotFix.Cfg
 {
-
 public sealed partial class ChapterMiniGame_paySlotReward : Luban.BeanBase
 {
-    public ChapterMiniGame_paySlotReward(JToken _buf) 
+    public ChapterMiniGame_paySlotReward(ByteBuf _buf) 
     {
-        JObject _obj = _buf as JObject;
-        id = (int)_obj.GetValue("id");
-        groupId = (int)_obj.GetValue("groupId");
-        weight = (int)_obj.GetValue("weight");
-        { var __json0 = _obj.GetValue("param"); int _n0 = (__json0 as JArray).Count; param = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  param[__index0++] = __v0; }   }
-        atlas = (int)_obj.GetValue("atlas");
-        icon = (string)_obj.GetValue("icon");
+        id = _buf.ReadInt();
+        groupId = _buf.ReadInt();
+        weight = _buf.ReadInt();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);param = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); param[__index0] = __e0;}}
+        atlas = _buf.ReadInt();
+        icon = _buf.ReadString();
     }
 
-    public static ChapterMiniGame_paySlotReward DeserializeChapterMiniGame_paySlotReward(JToken _buf)
+    public static ChapterMiniGame_paySlotReward DeserializeChapterMiniGame_paySlotReward(ByteBuf _buf)
     {
         return new ChapterMiniGame_paySlotReward(_buf);
     }
@@ -57,8 +53,7 @@ public sealed partial class ChapterMiniGame_paySlotReward : Luban.BeanBase
     /// 图片
     /// </summary>
     public readonly string icon;
-
-
+   
     public const int __ID__ = 1769480524;
     public override int GetTypeId() => __ID__;
 
@@ -78,5 +73,6 @@ public sealed partial class ChapterMiniGame_paySlotReward : Luban.BeanBase
         + "}";
     }
 }
+
 }
 

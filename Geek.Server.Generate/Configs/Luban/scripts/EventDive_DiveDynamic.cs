@@ -8,27 +8,23 @@
 //------------------------------------------------------------------------------
 
 using Luban;
-using Newtonsoft.Json.Linq;
-
 
 
 namespace HotFix.Cfg
 {
-
 public sealed partial class EventDive_DiveDynamic : Luban.BeanBase
 {
-    public EventDive_DiveDynamic(JToken _buf) 
+    public EventDive_DiveDynamic(ByteBuf _buf) 
     {
-        JObject _obj = _buf as JObject;
-        ID = (int)_obj.GetValue("ID");
-        { var __json0 = _obj.GetValue("ComsumRange"); int _n0 = (__json0 as JArray).Count; ComsumRange = new int[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { int __v0;  __v0 = (int)__e0;  ComsumRange[__index0++] = __v0; }   }
-        MinDepth = (int)_obj.GetValue("MinDepth");
-        MaxDepth = (int)_obj.GetValue("MaxDepth");
-        MinItem = (int)_obj.GetValue("MinItem");
-        MaxItem = (int)_obj.GetValue("MaxItem");
+        ID = _buf.ReadInt();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);ComsumRange = new int[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { int __e0;__e0 = _buf.ReadInt(); ComsumRange[__index0] = __e0;}}
+        MinDepth = _buf.ReadInt();
+        MaxDepth = _buf.ReadInt();
+        MinItem = _buf.ReadInt();
+        MaxItem = _buf.ReadInt();
     }
 
-    public static EventDive_DiveDynamic DeserializeEventDive_DiveDynamic(JToken _buf)
+    public static EventDive_DiveDynamic DeserializeEventDive_DiveDynamic(ByteBuf _buf)
     {
         return new EventDive_DiveDynamic(_buf);
     }
@@ -57,8 +53,7 @@ public sealed partial class EventDive_DiveDynamic : Luban.BeanBase
     /// 最大奖励
     /// </summary>
     public readonly int MaxItem;
-
-
+   
     public const int __ID__ = 476604506;
     public override int GetTypeId() => __ID__;
 
@@ -78,5 +73,6 @@ public sealed partial class EventDive_DiveDynamic : Luban.BeanBase
         + "}";
     }
 }
+
 }
 

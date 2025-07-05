@@ -7,14 +7,11 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-using Newtonsoft.Json.Linq;
 using Luban;
-
 
 
 namespace HotFix.Cfg
 {
-
 /// <summary>
 /// Generated from GameMember.xlsx sheet aiType
 /// </summary>
@@ -23,20 +20,19 @@ public partial class TbGameMember_aiType
     private readonly System.Collections.Generic.Dictionary<int, GameMember_aiType> _dataMap;
     private readonly System.Collections.Generic.List<GameMember_aiType> _dataList;
     
-    public TbGameMember_aiType(JArray _buf)
+    public TbGameMember_aiType(ByteBuf _buf)
     {
         _dataMap = new System.Collections.Generic.Dictionary<int, GameMember_aiType>();
         _dataList = new System.Collections.Generic.List<GameMember_aiType>();
         
-        foreach(JObject _ele in _buf)
+        for(int n = _buf.ReadSize() ; n > 0 ; --n)
         {
             GameMember_aiType _v;
-            _v = global::HotFix.Cfg.GameMember_aiType.DeserializeGameMember_aiType(_ele);
+            _v = global::HotFix.Cfg.GameMember_aiType.DeserializeGameMember_aiType(_buf);
             _dataList.Add(_v);
             _dataMap.Add(_v.id, _v);
-         }
+        }
     }
-
 
     public System.Collections.Generic.Dictionary<int, GameMember_aiType> DataMap => _dataMap;
     public System.Collections.Generic.List<GameMember_aiType> DataList => _dataList;
@@ -54,5 +50,6 @@ public partial class TbGameMember_aiType
     }
 
 }
+
 }
 

@@ -8,27 +8,23 @@
 //------------------------------------------------------------------------------
 
 using Luban;
-using Newtonsoft.Json.Linq;
-
 
 
 namespace HotFix.Cfg
 {
-
 public sealed partial class ChapterHard_eventRes : Luban.BeanBase
 {
-    public ChapterHard_eventRes(JToken _buf) 
+    public ChapterHard_eventRes(ByteBuf _buf) 
     {
-        JObject _obj = _buf as JObject;
-        id = (int)_obj.GetValue("id");
-        type = (int)_obj.GetValue("type");
-        weight = (int)_obj.GetValue("weight");
-        eventPointId = (int)_obj.GetValue("eventPointId");
-        memberId = (int)_obj.GetValue("memberId");
-        buildId = (int)_obj.GetValue("buildId");
+        id = _buf.ReadInt();
+        type = _buf.ReadInt();
+        weight = _buf.ReadInt();
+        eventPointId = _buf.ReadInt();
+        memberId = _buf.ReadInt();
+        buildId = _buf.ReadInt();
     }
 
-    public static ChapterHard_eventRes DeserializeChapterHard_eventRes(JToken _buf)
+    public static ChapterHard_eventRes DeserializeChapterHard_eventRes(ByteBuf _buf)
     {
         return new ChapterHard_eventRes(_buf);
     }
@@ -57,8 +53,7 @@ public sealed partial class ChapterHard_eventRes : Luban.BeanBase
     /// 技能池id
     /// </summary>
     public readonly int buildId;
-
-
+   
     public const int __ID__ = 4318541;
     public override int GetTypeId() => __ID__;
 
@@ -78,5 +73,6 @@ public sealed partial class ChapterHard_eventRes : Luban.BeanBase
         + "}";
     }
 }
+
 }
 

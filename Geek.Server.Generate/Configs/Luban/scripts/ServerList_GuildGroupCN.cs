@@ -8,23 +8,19 @@
 //------------------------------------------------------------------------------
 
 using Luban;
-using Newtonsoft.Json.Linq;
-
 
 
 namespace HotFix.Cfg
 {
-
 public sealed partial class ServerList_GuildGroupCN : Luban.BeanBase
 {
-    public ServerList_GuildGroupCN(JToken _buf) 
+    public ServerList_GuildGroupCN(ByteBuf _buf) 
     {
-        JObject _obj = _buf as JObject;
-        id = (int)_obj.GetValue("id");
-        { var __json0 = _obj.GetValue("range"); int _n0 = (__json0 as JArray).Count; range = new int[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { int __v0;  __v0 = (int)__e0;  range[__index0++] = __v0; }   }
+        id = _buf.ReadInt();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);range = new int[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { int __e0;__e0 = _buf.ReadInt(); range[__index0] = __e0;}}
     }
 
-    public static ServerList_GuildGroupCN DeserializeServerList_GuildGroupCN(JToken _buf)
+    public static ServerList_GuildGroupCN DeserializeServerList_GuildGroupCN(ByteBuf _buf)
     {
         return new ServerList_GuildGroupCN(_buf);
     }
@@ -37,8 +33,7 @@ public sealed partial class ServerList_GuildGroupCN : Luban.BeanBase
     /// 范围
     /// </summary>
     public readonly int[] range;
-
-
+   
     public const int __ID__ = -719166283;
     public override int GetTypeId() => __ID__;
 
@@ -54,5 +49,6 @@ public sealed partial class ServerList_GuildGroupCN : Luban.BeanBase
         + "}";
     }
 }
+
 }
 

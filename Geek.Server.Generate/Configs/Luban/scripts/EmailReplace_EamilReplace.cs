@@ -8,23 +8,19 @@
 //------------------------------------------------------------------------------
 
 using Luban;
-using Newtonsoft.Json.Linq;
-
 
 
 namespace HotFix.Cfg
 {
-
 public sealed partial class EmailReplace_EamilReplace : Luban.BeanBase
 {
-    public EmailReplace_EamilReplace(JToken _buf) 
+    public EmailReplace_EamilReplace(ByteBuf _buf) 
     {
-        JObject _obj = _buf as JObject;
-        id = (int)_obj.GetValue("id");
-        desc = (string)_obj.GetValue("desc");
+        id = _buf.ReadInt();
+        desc = _buf.ReadString();
     }
 
-    public static EmailReplace_EamilReplace DeserializeEmailReplace_EamilReplace(JToken _buf)
+    public static EmailReplace_EamilReplace DeserializeEmailReplace_EamilReplace(ByteBuf _buf)
     {
         return new EmailReplace_EamilReplace(_buf);
     }
@@ -37,8 +33,7 @@ public sealed partial class EmailReplace_EamilReplace : Luban.BeanBase
     /// 说明
     /// </summary>
     public readonly string desc;
-
-
+   
     public const int __ID__ = -2063995577;
     public override int GetTypeId() => __ID__;
 
@@ -54,5 +49,6 @@ public sealed partial class EmailReplace_EamilReplace : Luban.BeanBase
         + "}";
     }
 }
+
 }
 

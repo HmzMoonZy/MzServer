@@ -7,14 +7,11 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-using Newtonsoft.Json.Linq;
 using Luban;
-
 
 
 namespace HotFix.Cfg
 {
-
 /// <summary>
 /// Generated from GameSkillProbability.xlsx sheet probability
 /// </summary>
@@ -23,20 +20,19 @@ public partial class TbGameSkillProbability_probability
     private readonly System.Collections.Generic.Dictionary<string, GameSkillProbability_probability> _dataMap;
     private readonly System.Collections.Generic.List<GameSkillProbability_probability> _dataList;
     
-    public TbGameSkillProbability_probability(JArray _buf)
+    public TbGameSkillProbability_probability(ByteBuf _buf)
     {
         _dataMap = new System.Collections.Generic.Dictionary<string, GameSkillProbability_probability>();
         _dataList = new System.Collections.Generic.List<GameSkillProbability_probability>();
         
-        foreach(JObject _ele in _buf)
+        for(int n = _buf.ReadSize() ; n > 0 ; --n)
         {
             GameSkillProbability_probability _v;
-            _v = global::HotFix.Cfg.GameSkillProbability_probability.DeserializeGameSkillProbability_probability(_ele);
+            _v = global::HotFix.Cfg.GameSkillProbability_probability.DeserializeGameSkillProbability_probability(_buf);
             _dataList.Add(_v);
             _dataMap.Add(_v.id, _v);
-         }
+        }
     }
-
 
     public System.Collections.Generic.Dictionary<string, GameSkillProbability_probability> DataMap => _dataMap;
     public System.Collections.Generic.List<GameSkillProbability_probability> DataList => _dataList;
@@ -54,5 +50,6 @@ public partial class TbGameSkillProbability_probability
     }
 
 }
+
 }
 

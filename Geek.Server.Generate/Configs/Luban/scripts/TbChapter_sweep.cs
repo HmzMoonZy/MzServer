@@ -7,14 +7,11 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-using Newtonsoft.Json.Linq;
 using Luban;
-
 
 
 namespace HotFix.Cfg
 {
-
 /// <summary>
 /// Generated from Chapter.xlsx sheet sweep
 /// </summary>
@@ -23,20 +20,19 @@ public partial class TbChapter_sweep
     private readonly System.Collections.Generic.Dictionary<int, Chapter_sweep> _dataMap;
     private readonly System.Collections.Generic.List<Chapter_sweep> _dataList;
     
-    public TbChapter_sweep(JArray _buf)
+    public TbChapter_sweep(ByteBuf _buf)
     {
         _dataMap = new System.Collections.Generic.Dictionary<int, Chapter_sweep>();
         _dataList = new System.Collections.Generic.List<Chapter_sweep>();
         
-        foreach(JObject _ele in _buf)
+        for(int n = _buf.ReadSize() ; n > 0 ; --n)
         {
             Chapter_sweep _v;
-            _v = global::HotFix.Cfg.Chapter_sweep.DeserializeChapter_sweep(_ele);
+            _v = global::HotFix.Cfg.Chapter_sweep.DeserializeChapter_sweep(_buf);
             _dataList.Add(_v);
             _dataMap.Add(_v.id, _v);
-         }
+        }
     }
-
 
     public System.Collections.Generic.Dictionary<int, Chapter_sweep> DataMap => _dataMap;
     public System.Collections.Generic.List<Chapter_sweep> DataList => _dataList;
@@ -54,5 +50,6 @@ public partial class TbChapter_sweep
     }
 
 }
+
 }
 

@@ -8,36 +8,32 @@
 //------------------------------------------------------------------------------
 
 using Luban;
-using Newtonsoft.Json.Linq;
-
 
 
 namespace HotFix.Cfg
 {
-
 public sealed partial class ServerList_serverRangeCN : Luban.BeanBase
 {
-    public ServerList_serverRangeCN(JToken _buf) 
+    public ServerList_serverRangeCN(ByteBuf _buf) 
     {
-        JObject _obj = _buf as JObject;
-        id = (int)_obj.GetValue("id");
-        { var __json0 = _obj.GetValue("guildRange"); int _n0 = (__json0 as JArray).Count; guildRange = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  guildRange[__index0++] = __v0; }   }
-        { var __json0 = _obj.GetValue("chatRange"); int _n0 = (__json0 as JArray).Count; chatRange = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  chatRange[__index0++] = __v0; }   }
-        { var __json0 = _obj.GetValue("miningRange"); int _n0 = (__json0 as JArray).Count; miningRange = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  miningRange[__index0++] = __v0; }   }
-        { var __json0 = _obj.GetValue("dailyLevelRange"); int _n0 = (__json0 as JArray).Count; dailyLevelRange = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  dailyLevelRange[__index0++] = __v0; }   }
-        { var __json0 = _obj.GetValue("activityRange"); int _n0 = (__json0 as JArray).Count; activityRange = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  activityRange[__index0++] = __v0; }   }
-        { var __json0 = _obj.GetValue("friendRange"); int _n0 = (__json0 as JArray).Count; friendRange = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  friendRange[__index0++] = __v0; }   }
-        { var __json0 = _obj.GetValue("mythicRange"); int _n0 = (__json0 as JArray).Count; mythicRange = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  mythicRange[__index0++] = __v0; }   }
-        { var __json0 = _obj.GetValue("pvpRange1"); int _n0 = (__json0 as JArray).Count; pvpRange1 = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  pvpRange1[__index0++] = __v0; }   }
-        { var __json0 = _obj.GetValue("pvpRange2"); int _n0 = (__json0 as JArray).Count; pvpRange2 = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  pvpRange2[__index0++] = __v0; }   }
-        { var __json0 = _obj.GetValue("pvpRange3"); int _n0 = (__json0 as JArray).Count; pvpRange3 = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  pvpRange3[__index0++] = __v0; }   }
-        { var __json0 = _obj.GetValue("pvpRange4"); int _n0 = (__json0 as JArray).Count; pvpRange4 = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  pvpRange4[__index0++] = __v0; }   }
-        { var __json0 = _obj.GetValue("guildWarRange"); int _n0 = (__json0 as JArray).Count; guildWarRange = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  guildWarRange[__index0++] = __v0; }   }
-        { var __json0 = _obj.GetValue("worldBossRange"); int _n0 = (__json0 as JArray).Count; worldBossRange = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  worldBossRange[__index0++] = __v0; }   }
-        { var __json0 = _obj.GetValue("arenaRange"); int _n0 = (__json0 as JArray).Count; arenaRange = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  arenaRange[__index0++] = __v0; }   }
+        id = _buf.ReadInt();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);guildRange = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); guildRange[__index0] = __e0;}}
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);chatRange = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); chatRange[__index0] = __e0;}}
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);miningRange = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); miningRange[__index0] = __e0;}}
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);dailyLevelRange = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); dailyLevelRange[__index0] = __e0;}}
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);activityRange = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); activityRange[__index0] = __e0;}}
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);friendRange = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); friendRange[__index0] = __e0;}}
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);mythicRange = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); mythicRange[__index0] = __e0;}}
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);pvpRange1 = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); pvpRange1[__index0] = __e0;}}
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);pvpRange2 = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); pvpRange2[__index0] = __e0;}}
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);pvpRange3 = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); pvpRange3[__index0] = __e0;}}
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);pvpRange4 = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); pvpRange4[__index0] = __e0;}}
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);guildWarRange = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); guildWarRange[__index0] = __e0;}}
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);worldBossRange = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); worldBossRange[__index0] = __e0;}}
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);arenaRange = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); arenaRange[__index0] = __e0;}}
     }
 
-    public static ServerList_serverRangeCN DeserializeServerList_serverRangeCN(JToken _buf)
+    public static ServerList_serverRangeCN DeserializeServerList_serverRangeCN(ByteBuf _buf)
     {
         return new ServerList_serverRangeCN(_buf);
     }
@@ -102,8 +98,7 @@ public sealed partial class ServerList_serverRangeCN : Luban.BeanBase
     /// 竞技场范围<br/><br/>可删除
     /// </summary>
     public readonly string[] arenaRange;
-
-
+   
     public const int __ID__ = 1803757703;
     public override int GetTypeId() => __ID__;
 
@@ -132,5 +127,6 @@ public sealed partial class ServerList_serverRangeCN : Luban.BeanBase
         + "}";
     }
 }
+
 }
 

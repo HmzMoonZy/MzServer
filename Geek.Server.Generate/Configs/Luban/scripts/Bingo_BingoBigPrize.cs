@@ -8,25 +8,21 @@
 //------------------------------------------------------------------------------
 
 using Luban;
-using Newtonsoft.Json.Linq;
-
 
 
 namespace HotFix.Cfg
 {
-
 public sealed partial class Bingo_BingoBigPrize : Luban.BeanBase
 {
-    public Bingo_BingoBigPrize(JToken _buf) 
+    public Bingo_BingoBigPrize(ByteBuf _buf) 
     {
-        JObject _obj = _buf as JObject;
-        ID = (int)_obj.GetValue("ID");
-        RewardCount = (int)_obj.GetValue("RewardCount");
-        { var __json0 = _obj.GetValue("Point"); int _n0 = (__json0 as JArray).Count; Point = new int[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { int __v0;  __v0 = (int)__e0;  Point[__index0++] = __v0; }   }
-        PointLast = (int)_obj.GetValue("PointLast");
+        ID = _buf.ReadInt();
+        RewardCount = _buf.ReadInt();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);Point = new int[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { int __e0;__e0 = _buf.ReadInt(); Point[__index0] = __e0;}}
+        PointLast = _buf.ReadInt();
     }
 
-    public static Bingo_BingoBigPrize DeserializeBingo_BingoBigPrize(JToken _buf)
+    public static Bingo_BingoBigPrize DeserializeBingo_BingoBigPrize(ByteBuf _buf)
     {
         return new Bingo_BingoBigPrize(_buf);
     }
@@ -47,8 +43,7 @@ public sealed partial class Bingo_BingoBigPrize : Luban.BeanBase
     /// 最后一个开出的点
     /// </summary>
     public readonly int PointLast;
-
-
+   
     public const int __ID__ = 970932209;
     public override int GetTypeId() => __ID__;
 
@@ -66,5 +61,6 @@ public sealed partial class Bingo_BingoBigPrize : Luban.BeanBase
         + "}";
     }
 }
+
 }
 

@@ -8,27 +8,23 @@
 //------------------------------------------------------------------------------
 
 using Luban;
-using Newtonsoft.Json.Linq;
-
 
 
 namespace HotFix.Cfg
 {
-
 public sealed partial class Guild_guildEvent : Luban.BeanBase
 {
-    public Guild_guildEvent(JToken _buf) 
+    public Guild_guildEvent(ByteBuf _buf) 
     {
-        JObject _obj = _buf as JObject;
-        id = (int)_obj.GetValue("id");
-        name = (int)_obj.GetValue("name");
-        eventLanguage = (int)_obj.GetValue("eventLanguage");
-        eventAtlas = (string)_obj.GetValue("eventAtlas");
-        eventShow = (string)_obj.GetValue("eventShow");
-        eventSort = (int)_obj.GetValue("eventSort");
+        id = _buf.ReadInt();
+        name = _buf.ReadInt();
+        eventLanguage = _buf.ReadInt();
+        eventAtlas = _buf.ReadString();
+        eventShow = _buf.ReadString();
+        eventSort = _buf.ReadInt();
     }
 
-    public static Guild_guildEvent DeserializeGuild_guildEvent(JToken _buf)
+    public static Guild_guildEvent DeserializeGuild_guildEvent(ByteBuf _buf)
     {
         return new Guild_guildEvent(_buf);
     }
@@ -57,8 +53,7 @@ public sealed partial class Guild_guildEvent : Luban.BeanBase
     /// 排序
     /// </summary>
     public readonly int eventSort;
-
-
+   
     public const int __ID__ = -835371437;
     public override int GetTypeId() => __ID__;
 
@@ -78,5 +73,6 @@ public sealed partial class Guild_guildEvent : Luban.BeanBase
         + "}";
     }
 }
+
 }
 

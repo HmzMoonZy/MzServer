@@ -8,24 +8,20 @@
 //------------------------------------------------------------------------------
 
 using Luban;
-using Newtonsoft.Json.Linq;
-
 
 
 namespace HotFix.Cfg
 {
-
 public sealed partial class LuckyKoi_LuckyKoiFree : Luban.BeanBase
 {
-    public LuckyKoi_LuckyKoiFree(JToken _buf) 
+    public LuckyKoi_LuckyKoiFree(ByteBuf _buf) 
     {
-        JObject _obj = _buf as JObject;
-        ID = (int)_obj.GetValue("ID");
-        GetDay = (int)_obj.GetValue("GetDay");
-        { var __json0 = _obj.GetValue("Item"); int _n0 = (__json0 as JArray).Count; Item = new string[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { string __v0;  __v0 = (string)__e0;  Item[__index0++] = __v0; }   }
+        ID = _buf.ReadInt();
+        GetDay = _buf.ReadInt();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);Item = new string[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { string __e0;__e0 = _buf.ReadString(); Item[__index0] = __e0;}}
     }
 
-    public static LuckyKoi_LuckyKoiFree DeserializeLuckyKoi_LuckyKoiFree(JToken _buf)
+    public static LuckyKoi_LuckyKoiFree DeserializeLuckyKoi_LuckyKoiFree(ByteBuf _buf)
     {
         return new LuckyKoi_LuckyKoiFree(_buf);
     }
@@ -42,8 +38,7 @@ public sealed partial class LuckyKoi_LuckyKoiFree : Luban.BeanBase
     /// 奖励内容
     /// </summary>
     public readonly string[] Item;
-
-
+   
     public const int __ID__ = -1049238261;
     public override int GetTypeId() => __ID__;
 
@@ -60,5 +55,6 @@ public sealed partial class LuckyKoi_LuckyKoiFree : Luban.BeanBase
         + "}";
     }
 }
+
 }
 

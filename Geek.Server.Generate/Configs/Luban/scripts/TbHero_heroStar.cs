@@ -7,14 +7,11 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-using Newtonsoft.Json.Linq;
 using Luban;
-
 
 
 namespace HotFix.Cfg
 {
-
 /// <summary>
 /// Generated from Hero.xlsx sheet heroStar
 /// </summary>
@@ -23,20 +20,19 @@ public partial class TbHero_heroStar
     private readonly System.Collections.Generic.Dictionary<int, Hero_heroStar> _dataMap;
     private readonly System.Collections.Generic.List<Hero_heroStar> _dataList;
     
-    public TbHero_heroStar(JArray _buf)
+    public TbHero_heroStar(ByteBuf _buf)
     {
         _dataMap = new System.Collections.Generic.Dictionary<int, Hero_heroStar>();
         _dataList = new System.Collections.Generic.List<Hero_heroStar>();
         
-        foreach(JObject _ele in _buf)
+        for(int n = _buf.ReadSize() ; n > 0 ; --n)
         {
             Hero_heroStar _v;
-            _v = global::HotFix.Cfg.Hero_heroStar.DeserializeHero_heroStar(_ele);
+            _v = global::HotFix.Cfg.Hero_heroStar.DeserializeHero_heroStar(_buf);
             _dataList.Add(_v);
             _dataMap.Add(_v.id, _v);
-         }
+        }
     }
-
 
     public System.Collections.Generic.Dictionary<int, Hero_heroStar> DataMap => _dataMap;
     public System.Collections.Generic.List<Hero_heroStar> DataList => _dataList;
@@ -54,5 +50,6 @@ public partial class TbHero_heroStar
     }
 
 }
+
 }
 

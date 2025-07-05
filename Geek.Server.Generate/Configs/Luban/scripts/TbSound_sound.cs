@@ -7,14 +7,11 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-using Newtonsoft.Json.Linq;
 using Luban;
-
 
 
 namespace HotFix.Cfg
 {
-
 /// <summary>
 /// Generated from Sound.xlsx sheet sound
 /// </summary>
@@ -23,20 +20,19 @@ public partial class TbSound_sound
     private readonly System.Collections.Generic.Dictionary<int, Sound_sound> _dataMap;
     private readonly System.Collections.Generic.List<Sound_sound> _dataList;
     
-    public TbSound_sound(JArray _buf)
+    public TbSound_sound(ByteBuf _buf)
     {
         _dataMap = new System.Collections.Generic.Dictionary<int, Sound_sound>();
         _dataList = new System.Collections.Generic.List<Sound_sound>();
         
-        foreach(JObject _ele in _buf)
+        for(int n = _buf.ReadSize() ; n > 0 ; --n)
         {
             Sound_sound _v;
-            _v = global::HotFix.Cfg.Sound_sound.DeserializeSound_sound(_ele);
+            _v = global::HotFix.Cfg.Sound_sound.DeserializeSound_sound(_buf);
             _dataList.Add(_v);
             _dataMap.Add(_v.ID, _v);
-         }
+        }
     }
-
 
     public System.Collections.Generic.Dictionary<int, Sound_sound> DataMap => _dataMap;
     public System.Collections.Generic.List<Sound_sound> DataList => _dataList;
@@ -54,5 +50,6 @@ public partial class TbSound_sound
     }
 
 }
+
 }
 

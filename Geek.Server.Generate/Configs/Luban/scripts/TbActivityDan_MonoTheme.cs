@@ -7,14 +7,11 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-using Newtonsoft.Json.Linq;
 using Luban;
-
 
 
 namespace HotFix.Cfg
 {
-
 /// <summary>
 /// Generated from ActivityDan.xlsx sheet MonoTheme
 /// </summary>
@@ -23,20 +20,19 @@ public partial class TbActivityDan_MonoTheme
     private readonly System.Collections.Generic.Dictionary<int, ActivityDan_MonoTheme> _dataMap;
     private readonly System.Collections.Generic.List<ActivityDan_MonoTheme> _dataList;
     
-    public TbActivityDan_MonoTheme(JArray _buf)
+    public TbActivityDan_MonoTheme(ByteBuf _buf)
     {
         _dataMap = new System.Collections.Generic.Dictionary<int, ActivityDan_MonoTheme>();
         _dataList = new System.Collections.Generic.List<ActivityDan_MonoTheme>();
         
-        foreach(JObject _ele in _buf)
+        for(int n = _buf.ReadSize() ; n > 0 ; --n)
         {
             ActivityDan_MonoTheme _v;
-            _v = global::HotFix.Cfg.ActivityDan_MonoTheme.DeserializeActivityDan_MonoTheme(_ele);
+            _v = global::HotFix.Cfg.ActivityDan_MonoTheme.DeserializeActivityDan_MonoTheme(_buf);
             _dataList.Add(_v);
             _dataMap.Add(_v.ID, _v);
-         }
+        }
     }
-
 
     public System.Collections.Generic.Dictionary<int, ActivityDan_MonoTheme> DataMap => _dataMap;
     public System.Collections.Generic.List<ActivityDan_MonoTheme> DataList => _dataList;
@@ -54,5 +50,6 @@ public partial class TbActivityDan_MonoTheme
     }
 
 }
+
 }
 

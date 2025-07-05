@@ -8,27 +8,23 @@
 //------------------------------------------------------------------------------
 
 using Luban;
-using Newtonsoft.Json.Linq;
-
 
 
 namespace HotFix.Cfg
 {
-
 public sealed partial class CrossArena_CrossArenaChallengeListRule : Luban.BeanBase
 {
-    public CrossArena_CrossArenaChallengeListRule(JToken _buf) 
+    public CrossArena_CrossArenaChallengeListRule(ByteBuf _buf) 
     {
-        JObject _obj = _buf as JObject;
-        ID = (int)_obj.GetValue("ID");
-        { var __json0 = _obj.GetValue("Rank"); int _n0 = (__json0 as JArray).Count; Rank = new int[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { int __v0;  __v0 = (int)__e0;  Rank[__index0++] = __v0; }   }
-        { var __json0 = _obj.GetValue("pos1"); int _n0 = (__json0 as JArray).Count; pos1 = new float[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { float __v0;  __v0 = (float)__e0;  pos1[__index0++] = __v0; }   }
-        { var __json0 = _obj.GetValue("pos2"); int _n0 = (__json0 as JArray).Count; pos2 = new float[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { float __v0;  __v0 = (float)__e0;  pos2[__index0++] = __v0; }   }
-        { var __json0 = _obj.GetValue("pos3"); int _n0 = (__json0 as JArray).Count; pos3 = new float[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { float __v0;  __v0 = (float)__e0;  pos3[__index0++] = __v0; }   }
-        { var __json0 = _obj.GetValue("pos5"); int _n0 = (__json0 as JArray).Count; pos5 = new float[_n0]; int __index0=0; foreach(JToken __e0 in __json0) { float __v0;  __v0 = (float)__e0;  pos5[__index0++] = __v0; }   }
+        ID = _buf.ReadInt();
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);Rank = new int[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { int __e0;__e0 = _buf.ReadInt(); Rank[__index0] = __e0;}}
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);pos1 = new float[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { float __e0;__e0 = _buf.ReadFloat(); pos1[__index0] = __e0;}}
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);pos2 = new float[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { float __e0;__e0 = _buf.ReadFloat(); pos2[__index0] = __e0;}}
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);pos3 = new float[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { float __e0;__e0 = _buf.ReadFloat(); pos3[__index0] = __e0;}}
+        {int __n0 = System.Math.Min(_buf.ReadSize(), _buf.Size);pos5 = new float[__n0];for(var __index0 = 0 ; __index0 < __n0 ; __index0++) { float __e0;__e0 = _buf.ReadFloat(); pos5[__index0] = __e0;}}
     }
 
-    public static CrossArena_CrossArenaChallengeListRule DeserializeCrossArena_CrossArenaChallengeListRule(JToken _buf)
+    public static CrossArena_CrossArenaChallengeListRule DeserializeCrossArena_CrossArenaChallengeListRule(ByteBuf _buf)
     {
         return new CrossArena_CrossArenaChallengeListRule(_buf);
     }
@@ -57,8 +53,7 @@ public sealed partial class CrossArena_CrossArenaChallengeListRule : Luban.BeanB
     /// 位置5随机区间<br/>当前排名+系数1，当前排名+系数2
     /// </summary>
     public readonly float[] pos5;
-
-
+   
     public const int __ID__ = -192533314;
     public override int GetTypeId() => __ID__;
 
@@ -78,5 +73,6 @@ public sealed partial class CrossArena_CrossArenaChallengeListRule : Luban.BeanB
         + "}";
     }
 }
+
 }
 
