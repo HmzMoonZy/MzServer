@@ -62,8 +62,6 @@ namespace Logic
             AddListener(NetDisConnectMessage.MsgID, OnDisconnectServer);
             AddListener(ResLogin.MsgID, OnResLogin);
             AddListener(ResBagInfo.MsgID, OnResBagInfo);
-            AddListener(ResComposePet.MsgID, OnResComposePet);
-            AddListener(ResErrorCode.MsgID, OnResErrorCode);
         }
 
         private void OnResErrorCode(Event e)
@@ -96,7 +94,7 @@ namespace Logic
         {
             var res = GetCurMsg<ResLogin>(e.Data);
             UnityEngine.Debug.Log($"{res.UserInfo.RoleName}:登录成功!");
-            GameMain.Singleton.AppendLog($"{res.UserInfo.RoleName}:登录成功!");
+            //GameMain.Singleton.AppendLog($"{res.UserInfo.RoleName}:登录成功!");
         }
 
         private void OnResBagInfo(Event e)
@@ -110,15 +108,7 @@ namespace Logic
                 str.Append($"{keyVal.Key}:{keyVal.Value},");
             }
             UnityEngine.Debug.Log(str);
-            GameMain.Singleton.AppendLog(str.ToString());
+            //GameMain.Singleton.AppendLog(str.ToString());
         }
-
-        private void OnResComposePet(Event e)
-        {
-            var msg = GetCurMsg<ResComposePet>(e.Data);
-            var str = $"合成宠物成功{msg.PetId}";
-            UnityEngine.Debug.Log(str);
-        }
-
     }
 }

@@ -42,7 +42,6 @@ namespace Logic
             }
             await Login();
             await ReqBagInfo();
-            await ReqComposePet();
         }
 
         private async Task<bool> ConnectServer()
@@ -72,15 +71,7 @@ namespace Logic
             ReqBagInfo req = new ReqBagInfo();
             return DemoService.Singleton.SendMsg(req);
         }
-
-        private Task ReqComposePet()
-        {
-            ReqComposePet req = new ReqComposePet();
-            req.FragmentId = 1000;
-            return DemoService.Singleton.SendMsg(req);
-        }
-
-
+        
         private void OnApplicationQuit()
         {
             Debug.Log("OnApplicationQuit");
