@@ -9,12 +9,10 @@ namespace Geek.Server.Proto
 
         static MsgFactory()
         {
-            lookup = new System.Collections.Generic.Dictionary<int, Type>(19)
+            lookup = new System.Collections.Generic.Dictionary<int, Type>(17)
             {
 			    { 1435193915, typeof(Geek.Server.Proto.ReqBagInfo) },
 			    { -1872884227, typeof(Geek.Server.Proto.ResBagInfo) },
-			    { 225320501, typeof(Geek.Server.Proto.ReqComposePet) },
-			    { 750865816, typeof(Geek.Server.Proto.ResComposePet) },
 			    { 1686846581, typeof(Geek.Server.Proto.ReqUseItem) },
 			    { -1395845865, typeof(Geek.Server.Proto.ReqSellItem) },
 			    { 901279609, typeof(Geek.Server.Proto.ResItemChange) },
@@ -40,6 +38,5 @@ namespace Geek.Server.Proto
 			else
 				throw new Exception($"can not find msg type :{msgId}");
 		}
-
 	}
 }

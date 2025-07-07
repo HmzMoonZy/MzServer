@@ -34,26 +34,5 @@ namespace Server.Logic.Logic.Role.Bag
             var ret = BuildInfoMsg();
             await this.NotifyClient(ret, reqMsg.UniId);
         }
-
-        /// <summary>
-        /// 宠物合成
-        /// </summary>
-        /// <returns></returns>
-        public async Task ComposePet(ReqComposePet reqMsg)
-        {
-            //宠物碎片合成相关逻辑
-            //.....
-            //.....
-
-            //合成成功后分发一个获得宠物的事件(在PetCompAgent中监听此事件)
-            this.Dispatch(EventID.GotNewPet, new OneParam<int>(1000));
-
-            var res = new ResComposePet();
-            res.PetId = 1000;
-            await this.NotifyClient(res, reqMsg.UniId);
-        }
-
-
-
     }
 }

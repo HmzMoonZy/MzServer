@@ -57,7 +57,7 @@ namespace Geek.Server.App.Common
                 LogManager.AutoShutdown = false;
 
                 PolymorphicTypeMapper.Register(typeof(AppStartUp).Assembly); //app
-                PolymorphicRegister.Load();
+                PolymorphicRegister.Register();
                 PolymorphicResolver.Instance.Init(); 
 
                 //mongodb bson
